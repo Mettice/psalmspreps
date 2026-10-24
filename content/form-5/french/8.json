@@ -1,0 +1,611 @@
+{
+ "subject": "french",
+ "class": "Form 5",
+ "lesson_no": 8,
+ "language": "fr",
+ "prerequisites": [
+  1,
+  2,
+  7
+ ],
+ "skills": [
+  {
+   "id": "fr5-8",
+   "name": "Le lexique du mariage"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le lexique distingue une union, les personnes concernées et la manière dont une célébration est racontée. Conjoint ou conjointe désigne une personne unie par mariage à l’autre dans le contexte présenté. Une cérémonie est un déroulement organisé de célébration ; une invitation est une demande de participation, non une présence déjà constatée. Les pratiques, familles et cadres juridiques varient. Cette leçon de langue n’établit ni règle de mariage au Cameroun ni histoire personnelle de l’élève.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras distinguer les personnes, la cérémonie et l’invitation dans un récit fictif de mariage. Acquis mobilisés : relations familiales, présentation et contexte. Pour la suite : raconter une rencontre sans généraliser une coutume."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Le lexique distingue une union, les personnes concernées et la manière dont une célébration est racontée. Conjoint ou conjointe désigne une personne unie par mariage à l’autre dans le contexte présenté. Une cérémonie est un déroulement organisé de célébration ; une invitation est une demande de participation, non une présence déjà constatée. Les pratiques, familles et cadres juridiques varient. Cette leçon de langue n’établit ni règle de mariage au Cameroun ni histoire personnelle de l’élève."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Récit original : Une famille imaginaire prépare une invitation à une cérémonie. Bih vérifie les noms des personnes concernées et demande quelles informations sont confirmées. Le texte mentionne des conjoints sans prétendre décrire toutes les unions ou toutes les traditions. Recevoir une invitation ne prouve pas qu’on a assisté à la cérémonie."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Lis la phrase entière, repère la relation de sens et choisis un mot adapté au contexte. Une proximité de thème ne rend pas tous les mots interchangeables. Réemploie ensuite un mot dans une phrase originale et vérifie ce que tu veux dire."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "conjoint ou conjointe",
+    "meaning": "une personne unie par mariage à l’autre dans le contexte"
+   },
+   {
+    "word": "cérémonie",
+    "meaning": "un déroulement organisé de célébration dans ce récit"
+   },
+   {
+    "word": "invitation",
+    "meaning": "une demande adressée pour participer"
+   },
+   {
+    "word": "coutume",
+    "meaning": "une pratique sociale transmise dans un groupe"
+   }
+  ],
+  "mistake": {
+   "wrong": "Chaque invité devient conjoint par sa présence.",
+   "right": "une personne unie par mariage à l’autre dans le contexte.",
+   "why": "Participer à une cérémonie n’attribue pas ce lien."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le récit nomme les conjoints de l’union décrite. Explique le choix.",
+  "steps": [
+   "une personne unie par mariage à l’autre dans le contexte.",
+   "Participer à une cérémonie n’attribue pas ce lien."
+  ],
+  "answer": "conjoint ou conjointe",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr5-8-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "conjoint ou conjointe : une personne unie par mariage à l’autre dans le contexte.",
+     "cérémonie : un déroulement organisé de célébration dans ce récit.",
+     "invitation : une demande adressée pour participer.",
+     "coutume : une pratique sociale transmise dans un groupe."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-8-notions"
+    }
+   },
+   {
+    "id": "fr5-8-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Le récit nomme les conjoints de l’union décrite.",
+     "Le programme indique les étapes de la cérémonie.",
+     "La famille envoie une invitation avant la rencontre.",
+     "Le récit décrit une pratique sans la rendre universelle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-8-cas"
+    }
+   },
+   {
+    "id": "fr5-8-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Chaque invité devient conjoint par sa présence. Correction : Participer à une cérémonie n’attribue pas ce lien.",
+     "Cérémonie signifie la liste de tous les invités présents. Correction : Le déroulement diffère d’un relevé de présence.",
+     "Une invitation prouve que chaque destinataire est déjà venu. Correction : Une demande de participation ne constate pas sa réalisation.",
+     "Une pratique racontée doit être identique dans toutes les familles. Correction : Un exemple ne représente pas toute la diversité."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr5-8-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "conjoint ou conjointe : une personne unie par mariage à l’autre dans le contexte.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Participer à une cérémonie n’attribue pas ce lien. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "cérémonie : un déroulement organisé de célébration dans ce récit.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le déroulement diffère d’un relevé de présence. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "invitation : une demande adressée pour participer.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Une demande de participation ne constate pas sa réalisation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "coutume : une pratique sociale transmise dans un groupe.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Un exemple ne représente pas toute la diversité. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Chaque invité devient conjoint par sa présence.",
+        "truth": "false",
+        "explain": "Participer à une cérémonie n’attribue pas ce lien."
+       },
+       {
+        "text": "Cérémonie signifie la liste de tous les invités présents.",
+        "truth": "false",
+        "explain": "Le déroulement diffère d’un relevé de présence."
+       },
+       {
+        "text": "Une invitation prouve que chaque destinataire est déjà venu.",
+        "truth": "false",
+        "explain": "Une demande de participation ne constate pas sa réalisation."
+       },
+       {
+        "text": "Une pratique racontée doit être identique dans toutes les familles.",
+        "truth": "false",
+        "explain": "Un exemple ne représente pas toute la diversité."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr5-8-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne une personne unie par mariage à l’autre dans le contexte ?",
+       "r": "conjoint ou conjointe",
+       "w": [
+        "cérémonie",
+        "invitation",
+        "coutume"
+       ],
+       "e": [
+        "Cela désigne un déroulement organisé de célébration dans ce récit, plutôt que la notion demandée.",
+        "Cela désigne une demande adressée pour participer, plutôt que la notion demandée.",
+        "Cela désigne une pratique sociale transmise dans un groupe, plutôt que la notion demandée."
+       ],
+       "y": "Participer à une cérémonie n’attribue pas ce lien."
+      },
+      {
+       "q": "Quel terme désigne un déroulement organisé de célébration dans ce récit ?",
+       "r": "cérémonie",
+       "w": [
+        "conjoint ou conjointe",
+        "invitation",
+        "coutume"
+       ],
+       "e": [
+        "Cela désigne une personne unie par mariage à l’autre dans le contexte, plutôt que la notion demandée.",
+        "Cela désigne une demande adressée pour participer, plutôt que la notion demandée.",
+        "Cela désigne une pratique sociale transmise dans un groupe, plutôt que la notion demandée."
+       ],
+       "y": "Le déroulement diffère d’un relevé de présence."
+      },
+      {
+       "q": "Quel terme désigne une demande adressée pour participer ?",
+       "r": "invitation",
+       "w": [
+        "conjoint ou conjointe",
+        "cérémonie",
+        "coutume"
+       ],
+       "e": [
+        "Cela désigne une personne unie par mariage à l’autre dans le contexte, plutôt que la notion demandée.",
+        "Cela désigne un déroulement organisé de célébration dans ce récit, plutôt que la notion demandée.",
+        "Cela désigne une pratique sociale transmise dans un groupe, plutôt que la notion demandée."
+       ],
+       "y": "Une demande de participation ne constate pas sa réalisation."
+      },
+      {
+       "q": "Quel terme désigne une pratique sociale transmise dans un groupe ?",
+       "r": "coutume",
+       "w": [
+        "conjoint ou conjointe",
+        "cérémonie",
+        "invitation"
+       ],
+       "e": [
+        "Cela désigne une personne unie par mariage à l’autre dans le contexte, plutôt que la notion demandée.",
+        "Cela désigne un déroulement organisé de célébration dans ce récit, plutôt que la notion demandée.",
+        "Cela désigne une demande adressée pour participer, plutôt que la notion demandée."
+       ],
+       "y": "Un exemple ne représente pas toute la diversité."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-8-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le récit nomme les conjoints de l’union décrite.\nQuelle notion convient ?",
+       "r": "conjoint ou conjointe",
+       "w": [
+        "cérémonie",
+        "invitation",
+        "coutume"
+       ],
+       "e": [
+        "Cela concerne un déroulement organisé de célébration dans ce récit. Compare cette définition avec le cas présenté.",
+        "Cela concerne une demande adressée pour participer. Compare cette définition avec le cas présenté.",
+        "Cela concerne une pratique sociale transmise dans un groupe. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Participer à une cérémonie n’attribue pas ce lien."
+      },
+      {
+       "q": "Le programme indique les étapes de la cérémonie.\nQuelle notion convient ?",
+       "r": "cérémonie",
+       "w": [
+        "conjoint ou conjointe",
+        "invitation",
+        "coutume"
+       ],
+       "e": [
+        "Cela concerne une personne unie par mariage à l’autre dans le contexte. Compare cette définition avec le cas présenté.",
+        "Cela concerne une demande adressée pour participer. Compare cette définition avec le cas présenté.",
+        "Cela concerne une pratique sociale transmise dans un groupe. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le déroulement diffère d’un relevé de présence."
+      },
+      {
+       "q": "La famille envoie une invitation avant la rencontre.\nQuelle notion convient ?",
+       "r": "invitation",
+       "w": [
+        "conjoint ou conjointe",
+        "cérémonie",
+        "coutume"
+       ],
+       "e": [
+        "Cela concerne une personne unie par mariage à l’autre dans le contexte. Compare cette définition avec le cas présenté.",
+        "Cela concerne un déroulement organisé de célébration dans ce récit. Compare cette définition avec le cas présenté.",
+        "Cela concerne une pratique sociale transmise dans un groupe. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Une demande de participation ne constate pas sa réalisation."
+      },
+      {
+       "q": "Le récit décrit une pratique sans la rendre universelle.\nQuelle notion convient ?",
+       "r": "coutume",
+       "w": [
+        "conjoint ou conjointe",
+        "cérémonie",
+        "invitation"
+       ],
+       "e": [
+        "Cela concerne une personne unie par mariage à l’autre dans le contexte. Compare cette définition avec le cas présenté.",
+        "Cela concerne un déroulement organisé de célébration dans ce récit. Compare cette définition avec le cas présenté.",
+        "Cela concerne une demande adressée pour participer. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Un exemple ne représente pas toute la diversité."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-8-contexte",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme nomme la personne mariée à l’autre dans ce récit ?\nQuel mot ou groupe de la leçon convient ?",
+       "r": "conjoint ou conjointe",
+       "w": [
+        "cérémonie",
+        "invitation",
+        "coutume"
+       ],
+       "e": [
+        "Ce mot désigne un déroulement organisé de célébration dans ce récit. La phrase demande plutôt une personne unie par mariage à l’autre dans le contexte.",
+        "Ce mot désigne une demande adressée pour participer. La phrase demande plutôt une personne unie par mariage à l’autre dans le contexte.",
+        "Ce mot désigne une pratique sociale transmise dans un groupe. La phrase demande plutôt une personne unie par mariage à l’autre dans le contexte."
+       ],
+       "y": "Participer à une cérémonie n’attribue pas ce lien."
+      },
+      {
+       "q": "Quel terme nomme le déroulement organisé de la célébration ?\nQuel mot ou groupe de la leçon convient ?",
+       "r": "cérémonie",
+       "w": [
+        "conjoint ou conjointe",
+        "invitation",
+        "coutume"
+       ],
+       "e": [
+        "Ce mot désigne une personne unie par mariage à l’autre dans le contexte. La phrase demande plutôt un déroulement organisé de célébration dans ce récit.",
+        "Ce mot désigne une demande adressée pour participer. La phrase demande plutôt un déroulement organisé de célébration dans ce récit.",
+        "Ce mot désigne une pratique sociale transmise dans un groupe. La phrase demande plutôt un déroulement organisé de célébration dans ce récit."
+       ],
+       "y": "Le déroulement diffère d’un relevé de présence."
+      },
+      {
+       "q": "Quel terme demande une participation sans la constater ?\nQuel mot ou groupe de la leçon convient ?",
+       "r": "invitation",
+       "w": [
+        "conjoint ou conjointe",
+        "cérémonie",
+        "coutume"
+       ],
+       "e": [
+        "Ce mot désigne une personne unie par mariage à l’autre dans le contexte. La phrase demande plutôt une demande adressée pour participer.",
+        "Ce mot désigne un déroulement organisé de célébration dans ce récit. La phrase demande plutôt une demande adressée pour participer.",
+        "Ce mot désigne une pratique sociale transmise dans un groupe. La phrase demande plutôt une demande adressée pour participer."
+       ],
+       "y": "Une demande de participation ne constate pas sa réalisation."
+      },
+      {
+       "q": "Quel terme peut nommer une pratique sociale transmise ?\nQuel mot ou groupe de la leçon convient ?",
+       "r": "coutume",
+       "w": [
+        "conjoint ou conjointe",
+        "cérémonie",
+        "invitation"
+       ],
+       "e": [
+        "Ce mot désigne une personne unie par mariage à l’autre dans le contexte. La phrase demande plutôt une pratique sociale transmise dans un groupe.",
+        "Ce mot désigne un déroulement organisé de célébration dans ce récit. La phrase demande plutôt une pratique sociale transmise dans un groupe.",
+        "Ce mot désigne une demande adressée pour participer. La phrase demande plutôt une pratique sociale transmise dans un groupe."
+       ],
+       "y": "Un exemple ne représente pas toute la diversité."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-8-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "conjoint ou conjointe",
+     "right": "Le récit nomme les conjoints de l’union décrite."
+    },
+    {
+     "left": "cérémonie",
+     "right": "Le programme indique les étapes de la cérémonie."
+    },
+    {
+     "left": "invitation",
+     "right": "La famille envoie une invitation avant la rencontre."
+    },
+    {
+     "left": "coutume",
+     "right": "Le récit décrit une pratique sans la rendre universelle."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-8-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "conjoint ou conjointe : une personne unie par mariage à l’autre dans le contexte.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Participer à une cérémonie n’attribue pas ce lien. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "cérémonie : un déroulement organisé de célébration dans ce récit.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le déroulement diffère d’un relevé de présence. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "invitation : une demande adressée pour participer.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Une demande de participation ne constate pas sa réalisation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "coutume : une pratique sociale transmise dans un groupe.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Un exemple ne représente pas toute la diversité. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Chaque invité devient conjoint par sa présence.",
+      "truth": "false",
+      "explain": "Participer à une cérémonie n’attribue pas ce lien."
+     },
+     {
+      "text": "Cérémonie signifie la liste de tous les invités présents.",
+      "truth": "false",
+      "explain": "Le déroulement diffère d’un relevé de présence."
+     },
+     {
+      "text": "Une invitation prouve que chaque destinataire est déjà venu.",
+      "truth": "false",
+      "explain": "Une demande de participation ne constate pas sa réalisation."
+     },
+     {
+      "text": "Une pratique racontée doit être identique dans toutes les familles.",
+      "truth": "false",
+      "explain": "Un exemple ne représente pas toute la diversité."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

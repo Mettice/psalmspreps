@@ -1,0 +1,626 @@
+{
+ "subject": "french",
+ "class": "Form 5",
+ "lesson_no": 28,
+ "language": "fr",
+ "prerequisites": [
+  5,
+  24,
+  27
+ ],
+ "skills": [
+  {
+   "id": "fr5-28",
+   "name": "L’article partitif"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le partitif introduit une quantité non précisée d’une réalité envisagée sans dénombrement : du riz, de la farine, de l’eau. Le choix dépend notamment du genre et de l’élision. Certains noms pluriels à sens global peuvent aussi employer des, comme des pâtes. Dans elle ne prend pas de riz, la quantité est niée et le modèle demande de. Mais ce n’est pas du riz conserve le partitif après être ; contraste et constructions particulières demandent aussi attention. Ne remplace donc pas tout article par de dès qu’une négation apparaît.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras choisir un partitif et traiter la négation selon la construction étudiée. Acquis mobilisés : lexique des recettes, noms et quantités. Pour la suite : graphies contextuelles et portrait précis."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Le partitif introduit une quantité non précisée d’une réalité envisagée sans dénombrement : du riz, de la farine, de l’eau. Le choix dépend notamment du genre et de l’élision. Certains noms pluriels à sens global peuvent aussi employer des, comme des pâtes. Dans elle ne prend pas de riz, la quantité est niée et le modèle demande de. Mais ce n’est pas du riz conserve le partitif après être ; contraste et constructions particulières demandent aussi attention. Ne remplace donc pas tout article par de dès qu’une négation apparaît."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : Elle prend du riz et ajoute de la farine. Il apporte de l’eau. Elle ne prend pas de riz. Ce n’est pas du riz. Dans du, de la ou de l’, le déterminant participe à la représentation d’une quantité. Il ne précise pas à lui seul une mesure exacte."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Identifie le nom et son emploi, puis le genre et l’élision. En négation, vérifie la construction et ce qui est nié. Distingue une masse non dénombrée d’un ensemble d’objets comptés et conserve la portée du message."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "partitif masculin",
+    "meaning": "le modèle du devant le nom de masse masculin étudié"
+   },
+   {
+    "word": "partitif féminin",
+    "meaning": "le modèle de la devant le nom féminin sans élision"
+   },
+   {
+    "word": "partitif élidé",
+    "meaning": "la forme de l’ devant la voyelle dans le modèle"
+   },
+   {
+    "word": "négation contextualisée",
+    "meaning": "le choix de de ou du selon la construction étudiée"
+   }
+  ],
+  "mistake": {
+   "wrong": "Du riz donne un nombre exact de grains.",
+   "right": "le modèle du devant le nom de masse masculin étudié.",
+   "why": "Le déterminant ne mesure pas un total exact."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Du riz introduit une quantité non précisée. Explique le choix.",
+  "steps": [
+   "le modèle du devant le nom de masse masculin étudié.",
+   "Le déterminant ne mesure pas un total exact."
+  ],
+  "answer": "partitif masculin",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr5-28-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "partitif masculin : le modèle du devant le nom de masse masculin étudié.",
+     "partitif féminin : le modèle de la devant le nom féminin sans élision.",
+     "partitif élidé : la forme de l’ devant la voyelle dans le modèle.",
+     "négation contextualisée : le choix de de ou du selon la construction étudiée."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-28-notions"
+    }
+   },
+   {
+    "id": "fr5-28-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Du riz introduit une quantité non précisée.",
+     "De la farine emploie le féminin du modèle.",
+     "De l’eau présente l’élision.",
+     "Pas de riz après prendre diffère de ce n’est pas du riz."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-28-cas"
+    }
+   },
+   {
+    "id": "fr5-28-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Du riz donne un nombre exact de grains. Correction : Le déterminant ne mesure pas un total exact.",
+     "Du farine respecte le genre du nom. Correction : Farine demande ici de la.",
+     "De la eau est le modèle écrit attendu. Correction : L’élision s’applique devant la voyelle.",
+     "Toute négation exige de sans aucune exception de construction. Correction : Le cas avec être suffit à réfuter cette généralisation."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr5-28-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "partitif masculin : le modèle du devant le nom de masse masculin étudié.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le déterminant ne mesure pas un total exact. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "partitif féminin : le modèle de la devant le nom féminin sans élision.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Farine demande ici de la. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "partitif élidé : la forme de l’ devant la voyelle dans le modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’élision s’applique devant la voyelle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "négation contextualisée : le choix de de ou du selon la construction étudiée.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le cas avec être suffit à réfuter cette généralisation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Du riz donne un nombre exact de grains.",
+        "truth": "false",
+        "explain": "Le déterminant ne mesure pas un total exact."
+       },
+       {
+        "text": "Du farine respecte le genre du nom.",
+        "truth": "false",
+        "explain": "Farine demande ici de la."
+       },
+       {
+        "text": "De la eau est le modèle écrit attendu.",
+        "truth": "false",
+        "explain": "L’élision s’applique devant la voyelle."
+       },
+       {
+        "text": "Toute négation exige de sans aucune exception de construction.",
+        "truth": "false",
+        "explain": "Le cas avec être suffit à réfuter cette généralisation."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr5-28-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne le modèle du devant le nom de masse masculin étudié ?",
+       "r": "partitif masculin",
+       "w": [
+        "partitif féminin",
+        "partitif élidé",
+        "négation contextualisée"
+       ],
+       "e": [
+        "Cela désigne le modèle de la devant le nom féminin sans élision, plutôt que la notion demandée.",
+        "Cela désigne la forme de l’ devant la voyelle dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne le choix de de ou du selon la construction étudiée, plutôt que la notion demandée."
+       ],
+       "y": "Le déterminant ne mesure pas un total exact."
+      },
+      {
+       "q": "Quel terme désigne le modèle de la devant le nom féminin sans élision ?",
+       "r": "partitif féminin",
+       "w": [
+        "partitif masculin",
+        "partitif élidé",
+        "négation contextualisée"
+       ],
+       "e": [
+        "Cela désigne le modèle du devant le nom de masse masculin étudié, plutôt que la notion demandée.",
+        "Cela désigne la forme de l’ devant la voyelle dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne le choix de de ou du selon la construction étudiée, plutôt que la notion demandée."
+       ],
+       "y": "Farine demande ici de la."
+      },
+      {
+       "q": "Quel terme désigne la forme de l’ devant la voyelle dans le modèle ?",
+       "r": "partitif élidé",
+       "w": [
+        "partitif masculin",
+        "partitif féminin",
+        "négation contextualisée"
+       ],
+       "e": [
+        "Cela désigne le modèle du devant le nom de masse masculin étudié, plutôt que la notion demandée.",
+        "Cela désigne le modèle de la devant le nom féminin sans élision, plutôt que la notion demandée.",
+        "Cela désigne le choix de de ou du selon la construction étudiée, plutôt que la notion demandée."
+       ],
+       "y": "L’élision s’applique devant la voyelle."
+      },
+      {
+       "q": "Quel terme désigne le choix de de ou du selon la construction étudiée ?",
+       "r": "négation contextualisée",
+       "w": [
+        "partitif masculin",
+        "partitif féminin",
+        "partitif élidé"
+       ],
+       "e": [
+        "Cela désigne le modèle du devant le nom de masse masculin étudié, plutôt que la notion demandée.",
+        "Cela désigne le modèle de la devant le nom féminin sans élision, plutôt que la notion demandée.",
+        "Cela désigne la forme de l’ devant la voyelle dans le modèle, plutôt que la notion demandée."
+       ],
+       "y": "Le cas avec être suffit à réfuter cette généralisation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-28-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Du riz introduit une quantité non précisée.\nQuelle notion convient ?",
+       "r": "partitif masculin",
+       "w": [
+        "partitif féminin",
+        "partitif élidé",
+        "négation contextualisée"
+       ],
+       "e": [
+        "Cela concerne le modèle de la devant le nom féminin sans élision. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme de l’ devant la voyelle dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne le choix de de ou du selon la construction étudiée. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le déterminant ne mesure pas un total exact."
+      },
+      {
+       "q": "De la farine emploie le féminin du modèle.\nQuelle notion convient ?",
+       "r": "partitif féminin",
+       "w": [
+        "partitif masculin",
+        "partitif élidé",
+        "négation contextualisée"
+       ],
+       "e": [
+        "Cela concerne le modèle du devant le nom de masse masculin étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme de l’ devant la voyelle dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne le choix de de ou du selon la construction étudiée. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Farine demande ici de la."
+      },
+      {
+       "q": "De l’eau présente l’élision.\nQuelle notion convient ?",
+       "r": "partitif élidé",
+       "w": [
+        "partitif masculin",
+        "partitif féminin",
+        "négation contextualisée"
+       ],
+       "e": [
+        "Cela concerne le modèle du devant le nom de masse masculin étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne le modèle de la devant le nom féminin sans élision. Compare cette définition avec le cas présenté.",
+        "Cela concerne le choix de de ou du selon la construction étudiée. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’élision s’applique devant la voyelle."
+      },
+      {
+       "q": "Pas de riz après prendre diffère de ce n’est pas du riz.\nQuelle notion convient ?",
+       "r": "négation contextualisée",
+       "w": [
+        "partitif masculin",
+        "partitif féminin",
+        "partitif élidé"
+       ],
+       "e": [
+        "Cela concerne le modèle du devant le nom de masse masculin étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne le modèle de la devant le nom féminin sans élision. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme de l’ devant la voyelle dans le modèle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le cas avec être suffit à réfuter cette généralisation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-28-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans le sens d’une quantité non précisée : Elle prend ___ riz.",
+       "r": "du",
+       "w": [
+        "de la",
+        "de l’",
+        "des"
+       ],
+       "e": [
+        "Riz est masculin dans ce groupe.",
+        "Riz ne commence pas par une voyelle dans ce modèle.",
+        "Le modèle emploie riz comme masse au singulier."
+       ],
+       "y": "Du introduit la quantité non dénombrée de riz."
+      },
+      {
+       "q": "Dans le sens d’une quantité non précisée : Elle ajoute ___ farine.",
+       "r": "de la",
+       "w": [
+        "du",
+        "de l’",
+        "des"
+       ],
+       "e": [
+        "Farine est féminin.",
+        "Farine ne demande pas cette élision.",
+        "Le nom est employé au singulier dans ce modèle."
+       ],
+       "y": "De la correspond au féminin singulier sans élision."
+      },
+      {
+       "q": "Complète la quantité non précisée : Il apporte ___ eau.",
+       "r": "de l’",
+       "w": [
+        "du",
+        "de la",
+        "des"
+       ],
+       "e": [
+        "L’élision est nécessaire devant eau.",
+        "La forme s’élide devant la voyelle initiale.",
+        "Le nom est ici une masse au singulier."
+       ],
+       "y": "La forme attendue est de l’eau."
+      },
+      {
+       "q": "Dans le modèle négatif étudié : Elle ne prend pas ___ riz.",
+       "r": "de",
+       "w": [
+        "du",
+        "de la",
+        "des"
+       ],
+       "e": [
+        "La quantité est niée dans ce modèle avec prendre.",
+        "Le modèle demande de et le nom n’est pas féminin.",
+        "Le modèle ne porte pas un pluriel compté."
+       ],
+       "y": "La négation de quantité demande ici de."
+      },
+      {
+       "q": "Dans Ce n’est pas ___ riz, quelle forme conserve le modèle avec être ?",
+       "r": "du",
+       "w": [
+        "de la",
+        "de l’",
+        "des"
+       ],
+       "e": [
+        "Riz est masculin.",
+        "Le nom ne demande pas cette élision.",
+        "Le nom de masse est ici singulier."
+       ],
+       "y": "Ne généralise pas le modèle de négation après prendre à cette construction avec être."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-28-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "partitif masculin",
+     "right": "Du riz introduit une quantité non précisée."
+    },
+    {
+     "left": "partitif féminin",
+     "right": "De la farine emploie le féminin du modèle."
+    },
+    {
+     "left": "partitif élidé",
+     "right": "De l’eau présente l’élision."
+    },
+    {
+     "left": "négation contextualisée",
+     "right": "Pas de riz après prendre diffère de ce n’est pas du riz."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-28-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "partitif masculin : le modèle du devant le nom de masse masculin étudié.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le déterminant ne mesure pas un total exact. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "partitif féminin : le modèle de la devant le nom féminin sans élision.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Farine demande ici de la. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "partitif élidé : la forme de l’ devant la voyelle dans le modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’élision s’applique devant la voyelle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "négation contextualisée : le choix de de ou du selon la construction étudiée.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le cas avec être suffit à réfuter cette généralisation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Du riz donne un nombre exact de grains.",
+      "truth": "false",
+      "explain": "Le déterminant ne mesure pas un total exact."
+     },
+     {
+      "text": "Du farine respecte le genre du nom.",
+      "truth": "false",
+      "explain": "Farine demande ici de la."
+     },
+     {
+      "text": "De la eau est le modèle écrit attendu.",
+      "truth": "false",
+      "explain": "L’élision s’applique devant la voyelle."
+     },
+     {
+      "text": "Toute négation exige de sans aucune exception de construction.",
+      "truth": "false",
+      "explain": "Le cas avec être suffit à réfuter cette généralisation."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

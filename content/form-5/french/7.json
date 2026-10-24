@@ -1,0 +1,611 @@
+{
+ "subject": "french",
+ "class": "Form 5",
+ "lesson_no": 7,
+ "language": "fr",
+ "prerequisites": [
+  2,
+  5,
+  6
+ ],
+ "skills": [
+  {
+   "id": "fr5-7",
+   "name": "Adjectifs et pronoms interrogatifs"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Quel, quelle, quels et quelles accompagnent un nom interrogé et s’accordent avec lui. On les nomme déterminants interrogatifs ou, en grammaire traditionnelle, adjectifs interrogatifs. Lequel, laquelle, lesquels et lesquelles remplacent un groupe nominal identifié par le contexte. Le choix dépend du genre et du nombre du référent, pas seulement de la personne qui parle. Une question doit laisser un référent reconnaissable pour éviter une reprise vide.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras choisir une forme interrogative accordée et distinguer déterminant et pronom. Acquis mobilisés : groupes nominaux et emplois des indéfinis. Pour la suite : dialogues précis et propositions interrogatives."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Quel, quelle, quels et quelles accompagnent un nom interrogé et s’accordent avec lui. On les nomme déterminants interrogatifs ou, en grammaire traditionnelle, adjectifs interrogatifs. Lequel, laquelle, lesquels et lesquelles remplacent un groupe nominal identifié par le contexte. Le choix dépend du genre et du nombre du référent, pas seulement de la personne qui parle. Une question doit laisser un référent reconnaissable pour éviter une reprise vide."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : Quelle activité proposes-tu ? Le club a présenté plusieurs activités ; laquelle préfères-tu ? Quels projets comparez-vous ? Parmi ces projets, lesquels retient-on ? Quelle accompagne activité ; laquelle le reprend sans le répéter."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère le nom accompagné ou le référent repris. Détermine genre et nombre, choisis la forme puis vérifie le sens de la question. Ne remplace pas automatiquement un déterminant par un pronom devant un nom encore exprimé."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "déterminant interrogatif",
+    "meaning": "un mot interrogatif accompagnant le nom"
+   },
+   {
+    "word": "pronom interrogatif",
+    "meaning": "une forme remplaçant le groupe nominal interrogé"
+   },
+   {
+    "word": "accord interrogatif",
+    "meaning": "le choix de genre et nombre selon le nom ou référent"
+   },
+   {
+    "word": "référent identifiable",
+    "meaning": "l’élément que le contexte permet de reprendre"
+   }
+  ],
+  "mistake": {
+   "wrong": "Quel est toujours un pronom sans nom associé.",
+   "right": "un mot interrogatif accompagnant le nom.",
+   "why": "Le nom est exprimé dans ce modèle."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quel accompagne projet dans quel projet. Explique le choix.",
+  "steps": [
+   "un mot interrogatif accompagnant le nom.",
+   "Le nom est exprimé dans ce modèle."
+  ],
+  "answer": "déterminant interrogatif",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr5-7-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "déterminant interrogatif : un mot interrogatif accompagnant le nom.",
+     "pronom interrogatif : une forme remplaçant le groupe nominal interrogé.",
+     "accord interrogatif : le choix de genre et nombre selon le nom ou référent.",
+     "référent identifiable : l’élément que le contexte permet de reprendre."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-7-notions"
+    }
+   },
+   {
+    "id": "fr5-7-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Quel accompagne projet dans quel projet.",
+     "Laquelle reprend une activité connue du contexte.",
+     "Quelles reprend des activités au féminin pluriel.",
+     "Parmi ces projets donne un repère à lesquels."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-7-cas"
+    }
+   },
+   {
+    "id": "fr5-7-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Quel est toujours un pronom sans nom associé. Correction : Le nom est exprimé dans ce modèle.",
+     "Laquelle doit toujours être suivie du même nom répété. Correction : La reprise pronominale évite ce nom dans le modèle.",
+     "La forme dépend seulement du sexe du locuteur. Correction : Elle dépend ici du nom ou du référent.",
+     "Une reprise claire exige de cacher tout référent. Correction : Le lecteur doit comprendre ce qui est repris."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr5-7-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "déterminant interrogatif : un mot interrogatif accompagnant le nom.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le nom est exprimé dans ce modèle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "pronom interrogatif : une forme remplaçant le groupe nominal interrogé.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La reprise pronominale évite ce nom dans le modèle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "accord interrogatif : le choix de genre et nombre selon le nom ou référent.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Elle dépend ici du nom ou du référent. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "référent identifiable : l’élément que le contexte permet de reprendre.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le lecteur doit comprendre ce qui est repris. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Quel est toujours un pronom sans nom associé.",
+        "truth": "false",
+        "explain": "Le nom est exprimé dans ce modèle."
+       },
+       {
+        "text": "Laquelle doit toujours être suivie du même nom répété.",
+        "truth": "false",
+        "explain": "La reprise pronominale évite ce nom dans le modèle."
+       },
+       {
+        "text": "La forme dépend seulement du sexe du locuteur.",
+        "truth": "false",
+        "explain": "Elle dépend ici du nom ou du référent."
+       },
+       {
+        "text": "Une reprise claire exige de cacher tout référent.",
+        "truth": "false",
+        "explain": "Le lecteur doit comprendre ce qui est repris."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr5-7-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne un mot interrogatif accompagnant le nom ?",
+       "r": "déterminant interrogatif",
+       "w": [
+        "pronom interrogatif",
+        "accord interrogatif",
+        "référent identifiable"
+       ],
+       "e": [
+        "Cela désigne une forme remplaçant le groupe nominal interrogé, plutôt que la notion demandée.",
+        "Cela désigne le choix de genre et nombre selon le nom ou référent, plutôt que la notion demandée.",
+        "Cela désigne l’élément que le contexte permet de reprendre, plutôt que la notion demandée."
+       ],
+       "y": "Le nom est exprimé dans ce modèle."
+      },
+      {
+       "q": "Quel terme désigne une forme remplaçant le groupe nominal interrogé ?",
+       "r": "pronom interrogatif",
+       "w": [
+        "déterminant interrogatif",
+        "accord interrogatif",
+        "référent identifiable"
+       ],
+       "e": [
+        "Cela désigne un mot interrogatif accompagnant le nom, plutôt que la notion demandée.",
+        "Cela désigne le choix de genre et nombre selon le nom ou référent, plutôt que la notion demandée.",
+        "Cela désigne l’élément que le contexte permet de reprendre, plutôt que la notion demandée."
+       ],
+       "y": "La reprise pronominale évite ce nom dans le modèle."
+      },
+      {
+       "q": "Quel terme désigne le choix de genre et nombre selon le nom ou référent ?",
+       "r": "accord interrogatif",
+       "w": [
+        "déterminant interrogatif",
+        "pronom interrogatif",
+        "référent identifiable"
+       ],
+       "e": [
+        "Cela désigne un mot interrogatif accompagnant le nom, plutôt que la notion demandée.",
+        "Cela désigne une forme remplaçant le groupe nominal interrogé, plutôt que la notion demandée.",
+        "Cela désigne l’élément que le contexte permet de reprendre, plutôt que la notion demandée."
+       ],
+       "y": "Elle dépend ici du nom ou du référent."
+      },
+      {
+       "q": "Quel terme désigne l’élément que le contexte permet de reprendre ?",
+       "r": "référent identifiable",
+       "w": [
+        "déterminant interrogatif",
+        "pronom interrogatif",
+        "accord interrogatif"
+       ],
+       "e": [
+        "Cela désigne un mot interrogatif accompagnant le nom, plutôt que la notion demandée.",
+        "Cela désigne une forme remplaçant le groupe nominal interrogé, plutôt que la notion demandée.",
+        "Cela désigne le choix de genre et nombre selon le nom ou référent, plutôt que la notion demandée."
+       ],
+       "y": "Le lecteur doit comprendre ce qui est repris."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-7-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel accompagne projet dans quel projet.\nQuelle notion convient ?",
+       "r": "déterminant interrogatif",
+       "w": [
+        "pronom interrogatif",
+        "accord interrogatif",
+        "référent identifiable"
+       ],
+       "e": [
+        "Cela concerne une forme remplaçant le groupe nominal interrogé. Compare cette définition avec le cas présenté.",
+        "Cela concerne le choix de genre et nombre selon le nom ou référent. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’élément que le contexte permet de reprendre. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le nom est exprimé dans ce modèle."
+      },
+      {
+       "q": "Laquelle reprend une activité connue du contexte.\nQuelle notion convient ?",
+       "r": "pronom interrogatif",
+       "w": [
+        "déterminant interrogatif",
+        "accord interrogatif",
+        "référent identifiable"
+       ],
+       "e": [
+        "Cela concerne un mot interrogatif accompagnant le nom. Compare cette définition avec le cas présenté.",
+        "Cela concerne le choix de genre et nombre selon le nom ou référent. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’élément que le contexte permet de reprendre. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La reprise pronominale évite ce nom dans le modèle."
+      },
+      {
+       "q": "Quelles reprend des activités au féminin pluriel.\nQuelle notion convient ?",
+       "r": "accord interrogatif",
+       "w": [
+        "déterminant interrogatif",
+        "pronom interrogatif",
+        "référent identifiable"
+       ],
+       "e": [
+        "Cela concerne un mot interrogatif accompagnant le nom. Compare cette définition avec le cas présenté.",
+        "Cela concerne une forme remplaçant le groupe nominal interrogé. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’élément que le contexte permet de reprendre. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Elle dépend ici du nom ou du référent."
+      },
+      {
+       "q": "Parmi ces projets donne un repère à lesquels.\nQuelle notion convient ?",
+       "r": "référent identifiable",
+       "w": [
+        "déterminant interrogatif",
+        "pronom interrogatif",
+        "accord interrogatif"
+       ],
+       "e": [
+        "Cela concerne un mot interrogatif accompagnant le nom. Compare cette définition avec le cas présenté.",
+        "Cela concerne une forme remplaçant le groupe nominal interrogé. Compare cette définition avec le cas présenté.",
+        "Cela concerne le choix de genre et nombre selon le nom ou référent. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le lecteur doit comprendre ce qui est repris."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-7-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Complète devant le nom féminin singulier : ___ activité proposes-tu ?",
+       "r": "Quelle",
+       "w": [
+        "Quel",
+        "Quels",
+        "Quelles"
+       ],
+       "e": [
+        "Quel est masculin singulier.",
+        "Quels est masculin pluriel.",
+        "Quelles est féminin pluriel."
+       ],
+       "y": "Accorde avec activité."
+      },
+      {
+       "q": "Le groupe a présenté plusieurs activités. Tu demandes d’en choisir une, au féminin singulier. Quelle reprise convient ?",
+       "r": "Laquelle préfères-tu ?",
+       "w": [
+        "Lequel préfères-tu ?",
+        "Lesquels préfères-tu ?",
+        "Lesquelles préfères-tu ?"
+       ],
+       "e": [
+        "Lequel est masculin.",
+        "Lesquels est masculin pluriel.",
+        "Lesquelles demande plusieurs activités."
+       ],
+       "y": "La reprise remplace une activité."
+      },
+      {
+       "q": "Quel rôle a quel dans Quel projet choisissez-vous ?",
+       "r": "Déterminer le nom projet.",
+       "w": [
+        "Remplacer seul projet dans cette construction.",
+        "Indiquer un temps passé.",
+        "Former une négation complète."
+       ],
+       "e": [
+        "Le nom reste exprimé.",
+        "Quel ne porte pas un temps verbal.",
+        "Aucune négation n’est formée."
+       ],
+       "y": "C’est le déterminant interrogatif, traditionnellement adjectif interrogatif."
+      },
+      {
+       "q": "Quel rôle a lequel dans Lequel choisissez-vous ?",
+       "r": "Remplacer le groupe nominal interrogé.",
+       "w": [
+        "Accompagner un nom exprimé juste après lui.",
+        "Conjuguer choisir.",
+        "Signifier tous sans question."
+       ],
+       "e": [
+        "Le nom n’est pas exprimé dans cette reprise.",
+        "Lequel n’est pas une forme verbale.",
+        "Il interroge sur une sélection."
+       ],
+       "y": "C’est un pronom interrogatif."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-7-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "déterminant interrogatif",
+     "right": "Quel accompagne projet dans quel projet."
+    },
+    {
+     "left": "pronom interrogatif",
+     "right": "Laquelle reprend une activité connue du contexte."
+    },
+    {
+     "left": "accord interrogatif",
+     "right": "Quelles reprend des activités au féminin pluriel."
+    },
+    {
+     "left": "référent identifiable",
+     "right": "Parmi ces projets donne un repère à lesquels."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-7-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "déterminant interrogatif : un mot interrogatif accompagnant le nom.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le nom est exprimé dans ce modèle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "pronom interrogatif : une forme remplaçant le groupe nominal interrogé.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La reprise pronominale évite ce nom dans le modèle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "accord interrogatif : le choix de genre et nombre selon le nom ou référent.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Elle dépend ici du nom ou du référent. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "référent identifiable : l’élément que le contexte permet de reprendre.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le lecteur doit comprendre ce qui est repris. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Quel est toujours un pronom sans nom associé.",
+      "truth": "false",
+      "explain": "Le nom est exprimé dans ce modèle."
+     },
+     {
+      "text": "Laquelle doit toujours être suivie du même nom répété.",
+      "truth": "false",
+      "explain": "La reprise pronominale évite ce nom dans le modèle."
+     },
+     {
+      "text": "La forme dépend seulement du sexe du locuteur.",
+      "truth": "false",
+      "explain": "Elle dépend ici du nom ou du référent."
+     },
+     {
+      "text": "Une reprise claire exige de cacher tout référent.",
+      "truth": "false",
+      "explain": "Le lecteur doit comprendre ce qui est repris."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

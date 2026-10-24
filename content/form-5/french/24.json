@@ -1,0 +1,609 @@
+{
+ "subject": "french",
+ "class": "Form 5",
+ "lesson_no": 24,
+ "language": "fr",
+ "prerequisites": [
+  23
+ ],
+ "skills": [
+  {
+   "id": "fr5-24",
+   "name": "Le lexique des recettes culinaires"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une recette organise des ingrédients, des outils et une suite d’étapes. Un ingrédient entre dans la préparation ; un ustensile sert à la réaliser. Une étape situe une action dans l’ordre annoncé. Une quantité indique une mesure et doit garder son unité. Ces catégories aident à lire sans confondre un objet avec un aliment ou une action avec une mesure. L’exercice porte sur le vocabulaire d’un texte inventé, pas sur l’exécution d’une cuisson ni une prescription nutritionnelle.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras distinguer ingrédient, ustensile, étape et quantité dans un texte de recette. Acquis mobilisés : verbes d’action et adverbes. Pour la suite : lecture précise, partitif et production d’une description."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Une recette organise des ingrédients, des outils et une suite d’étapes. Un ingrédient entre dans la préparation ; un ustensile sert à la réaliser. Une étape situe une action dans l’ordre annoncé. Une quantité indique une mesure et doit garder son unité. Ces catégories aident à lire sans confondre un objet avec un aliment ou une action avec une mesure. L’exercice porte sur le vocabulaire d’un texte inventé, pas sur l’exécution d’une cuisson ni une prescription nutritionnelle."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Une fiche distingue le riz comme ingrédient, la cuillère comme ustensile et mélanger comme action d’une étape. Elle demande de conserver les unités d’une quantité annoncée. Nommer un ustensile ne fournit pas sa quantité d’aliment ; comprendre l’ordre du texte ne prouve pas qu’une préparation a été réalisée."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Lis la phrase entière, repère la relation de sens et choisis un mot adapté au contexte. Une proximité de thème ne rend pas tous les mots interchangeables. Réemploie ensuite un mot dans une phrase originale et vérifie ce que tu veux dire."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "ingrédient",
+    "meaning": "un élément entrant dans la préparation"
+   },
+   {
+    "word": "ustensile",
+    "meaning": "un outil utilisé pour la préparation"
+   },
+   {
+    "word": "étape",
+    "meaning": "une partie ordonnée du déroulement de la recette"
+   },
+   {
+    "word": "quantité",
+    "meaning": "une mesure annoncée avec son unité"
+   }
+  ],
+  "mistake": {
+   "wrong": "La cuillère devient un aliment parce qu’elle est citée dans une recette.",
+   "right": "un élément entrant dans la préparation.",
+   "why": "Un outil ne se confond pas avec un ingrédient."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le riz figure parmi les ingrédients de la fiche. Explique le choix.",
+  "steps": [
+   "un élément entrant dans la préparation.",
+   "Un outil ne se confond pas avec un ingrédient."
+  ],
+  "answer": "ingrédient",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr5-24-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "ingrédient : un élément entrant dans la préparation.",
+     "ustensile : un outil utilisé pour la préparation.",
+     "étape : une partie ordonnée du déroulement de la recette.",
+     "quantité : une mesure annoncée avec son unité."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-24-notions"
+    }
+   },
+   {
+    "id": "fr5-24-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Le riz figure parmi les ingrédients de la fiche.",
+     "La cuillère est l’ustensile du modèle.",
+     "La fiche situe mélanger après une autre action annoncée.",
+     "Une quantité conserve l’unité demandée par la fiche."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-24-cas"
+    }
+   },
+   {
+    "id": "fr5-24-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "La cuillère devient un aliment parce qu’elle est citée dans une recette. Correction : Un outil ne se confond pas avec un ingrédient.",
+     "Tout ingrédient est obligatoirement un ustensile. Correction : Le rôle d’aliment diffère de celui d’outil.",
+     "L’ordre n’a jamais d’importance dans un texte de procédure. Correction : Les étapes organisent les relations entre actions.",
+     "Changer l’unité sans changer la valeur conserve toute mesure. Correction : La valeur et l’unité doivent rester cohérentes."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr5-24-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "ingrédient : un élément entrant dans la préparation.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Un outil ne se confond pas avec un ingrédient. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "ustensile : un outil utilisé pour la préparation.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le rôle d’aliment diffère de celui d’outil. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "étape : une partie ordonnée du déroulement de la recette.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les étapes organisent les relations entre actions. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "quantité : une mesure annoncée avec son unité.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La valeur et l’unité doivent rester cohérentes. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "La cuillère devient un aliment parce qu’elle est citée dans une recette.",
+        "truth": "false",
+        "explain": "Un outil ne se confond pas avec un ingrédient."
+       },
+       {
+        "text": "Tout ingrédient est obligatoirement un ustensile.",
+        "truth": "false",
+        "explain": "Le rôle d’aliment diffère de celui d’outil."
+       },
+       {
+        "text": "L’ordre n’a jamais d’importance dans un texte de procédure.",
+        "truth": "false",
+        "explain": "Les étapes organisent les relations entre actions."
+       },
+       {
+        "text": "Changer l’unité sans changer la valeur conserve toute mesure.",
+        "truth": "false",
+        "explain": "La valeur et l’unité doivent rester cohérentes."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr5-24-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne un élément entrant dans la préparation ?",
+       "r": "ingrédient",
+       "w": [
+        "ustensile",
+        "étape",
+        "quantité"
+       ],
+       "e": [
+        "Cela désigne un outil utilisé pour la préparation, plutôt que la notion demandée.",
+        "Cela désigne une partie ordonnée du déroulement de la recette, plutôt que la notion demandée.",
+        "Cela désigne une mesure annoncée avec son unité, plutôt que la notion demandée."
+       ],
+       "y": "Un outil ne se confond pas avec un ingrédient."
+      },
+      {
+       "q": "Quel terme désigne un outil utilisé pour la préparation ?",
+       "r": "ustensile",
+       "w": [
+        "ingrédient",
+        "étape",
+        "quantité"
+       ],
+       "e": [
+        "Cela désigne un élément entrant dans la préparation, plutôt que la notion demandée.",
+        "Cela désigne une partie ordonnée du déroulement de la recette, plutôt que la notion demandée.",
+        "Cela désigne une mesure annoncée avec son unité, plutôt que la notion demandée."
+       ],
+       "y": "Le rôle d’aliment diffère de celui d’outil."
+      },
+      {
+       "q": "Quel terme désigne une partie ordonnée du déroulement de la recette ?",
+       "r": "étape",
+       "w": [
+        "ingrédient",
+        "ustensile",
+        "quantité"
+       ],
+       "e": [
+        "Cela désigne un élément entrant dans la préparation, plutôt que la notion demandée.",
+        "Cela désigne un outil utilisé pour la préparation, plutôt que la notion demandée.",
+        "Cela désigne une mesure annoncée avec son unité, plutôt que la notion demandée."
+       ],
+       "y": "Les étapes organisent les relations entre actions."
+      },
+      {
+       "q": "Quel terme désigne une mesure annoncée avec son unité ?",
+       "r": "quantité",
+       "w": [
+        "ingrédient",
+        "ustensile",
+        "étape"
+       ],
+       "e": [
+        "Cela désigne un élément entrant dans la préparation, plutôt que la notion demandée.",
+        "Cela désigne un outil utilisé pour la préparation, plutôt que la notion demandée.",
+        "Cela désigne une partie ordonnée du déroulement de la recette, plutôt que la notion demandée."
+       ],
+       "y": "La valeur et l’unité doivent rester cohérentes."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-24-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le riz figure parmi les ingrédients de la fiche.\nQuelle notion convient ?",
+       "r": "ingrédient",
+       "w": [
+        "ustensile",
+        "étape",
+        "quantité"
+       ],
+       "e": [
+        "Cela concerne un outil utilisé pour la préparation. Compare cette définition avec le cas présenté.",
+        "Cela concerne une partie ordonnée du déroulement de la recette. Compare cette définition avec le cas présenté.",
+        "Cela concerne une mesure annoncée avec son unité. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Un outil ne se confond pas avec un ingrédient."
+      },
+      {
+       "q": "La cuillère est l’ustensile du modèle.\nQuelle notion convient ?",
+       "r": "ustensile",
+       "w": [
+        "ingrédient",
+        "étape",
+        "quantité"
+       ],
+       "e": [
+        "Cela concerne un élément entrant dans la préparation. Compare cette définition avec le cas présenté.",
+        "Cela concerne une partie ordonnée du déroulement de la recette. Compare cette définition avec le cas présenté.",
+        "Cela concerne une mesure annoncée avec son unité. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le rôle d’aliment diffère de celui d’outil."
+      },
+      {
+       "q": "La fiche situe mélanger après une autre action annoncée.\nQuelle notion convient ?",
+       "r": "étape",
+       "w": [
+        "ingrédient",
+        "ustensile",
+        "quantité"
+       ],
+       "e": [
+        "Cela concerne un élément entrant dans la préparation. Compare cette définition avec le cas présenté.",
+        "Cela concerne un outil utilisé pour la préparation. Compare cette définition avec le cas présenté.",
+        "Cela concerne une mesure annoncée avec son unité. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les étapes organisent les relations entre actions."
+      },
+      {
+       "q": "Une quantité conserve l’unité demandée par la fiche.\nQuelle notion convient ?",
+       "r": "quantité",
+       "w": [
+        "ingrédient",
+        "ustensile",
+        "étape"
+       ],
+       "e": [
+        "Cela concerne un élément entrant dans la préparation. Compare cette définition avec le cas présenté.",
+        "Cela concerne un outil utilisé pour la préparation. Compare cette définition avec le cas présenté.",
+        "Cela concerne une partie ordonnée du déroulement de la recette. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La valeur et l’unité doivent rester cohérentes."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-24-contexte",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le riz entre dans la préparation : quelle catégorie ?\nQuel mot ou groupe de la leçon convient ?",
+       "r": "ingrédient",
+       "w": [
+        "ustensile",
+        "étape",
+        "quantité"
+       ],
+       "e": [
+        "Ce mot désigne un outil utilisé pour la préparation. La phrase demande plutôt un élément entrant dans la préparation.",
+        "Ce mot désigne une partie ordonnée du déroulement de la recette. La phrase demande plutôt un élément entrant dans la préparation.",
+        "Ce mot désigne une mesure annoncée avec son unité. La phrase demande plutôt un élément entrant dans la préparation."
+       ],
+       "y": "Un outil ne se confond pas avec un ingrédient."
+      },
+      {
+       "q": "La cuillère sert d’outil : quelle catégorie ?\nQuel mot ou groupe de la leçon convient ?",
+       "r": "ustensile",
+       "w": [
+        "ingrédient",
+        "étape",
+        "quantité"
+       ],
+       "e": [
+        "Ce mot désigne un élément entrant dans la préparation. La phrase demande plutôt un outil utilisé pour la préparation.",
+        "Ce mot désigne une partie ordonnée du déroulement de la recette. La phrase demande plutôt un outil utilisé pour la préparation.",
+        "Ce mot désigne une mesure annoncée avec son unité. La phrase demande plutôt un outil utilisé pour la préparation."
+       ],
+       "y": "Le rôle d’aliment diffère de celui d’outil."
+      },
+      {
+       "q": "Une action prend sa place dans l’ordre de la fiche : quelle notion ?\nQuel mot ou groupe de la leçon convient ?",
+       "r": "étape",
+       "w": [
+        "ingrédient",
+        "ustensile",
+        "quantité"
+       ],
+       "e": [
+        "Ce mot désigne un élément entrant dans la préparation. La phrase demande plutôt une partie ordonnée du déroulement de la recette.",
+        "Ce mot désigne un outil utilisé pour la préparation. La phrase demande plutôt une partie ordonnée du déroulement de la recette.",
+        "Ce mot désigne une mesure annoncée avec son unité. La phrase demande plutôt une partie ordonnée du déroulement de la recette."
+       ],
+       "y": "Les étapes organisent les relations entre actions."
+      },
+      {
+       "q": "La fiche annonce une mesure avec unité : quelle notion ?\nQuel mot ou groupe de la leçon convient ?",
+       "r": "quantité",
+       "w": [
+        "ingrédient",
+        "ustensile",
+        "étape"
+       ],
+       "e": [
+        "Ce mot désigne un élément entrant dans la préparation. La phrase demande plutôt une mesure annoncée avec son unité.",
+        "Ce mot désigne un outil utilisé pour la préparation. La phrase demande plutôt une mesure annoncée avec son unité.",
+        "Ce mot désigne une partie ordonnée du déroulement de la recette. La phrase demande plutôt une mesure annoncée avec son unité."
+       ],
+       "y": "La valeur et l’unité doivent rester cohérentes."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-24-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "ingrédient",
+     "right": "Le riz figure parmi les ingrédients de la fiche."
+    },
+    {
+     "left": "ustensile",
+     "right": "La cuillère est l’ustensile du modèle."
+    },
+    {
+     "left": "étape",
+     "right": "La fiche situe mélanger après une autre action annoncée."
+    },
+    {
+     "left": "quantité",
+     "right": "Une quantité conserve l’unité demandée par la fiche."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-24-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "ingrédient : un élément entrant dans la préparation.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Un outil ne se confond pas avec un ingrédient. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "ustensile : un outil utilisé pour la préparation.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le rôle d’aliment diffère de celui d’outil. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "étape : une partie ordonnée du déroulement de la recette.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les étapes organisent les relations entre actions. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "quantité : une mesure annoncée avec son unité.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La valeur et l’unité doivent rester cohérentes. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "La cuillère devient un aliment parce qu’elle est citée dans une recette.",
+      "truth": "false",
+      "explain": "Un outil ne se confond pas avec un ingrédient."
+     },
+     {
+      "text": "Tout ingrédient est obligatoirement un ustensile.",
+      "truth": "false",
+      "explain": "Le rôle d’aliment diffère de celui d’outil."
+     },
+     {
+      "text": "L’ordre n’a jamais d’importance dans un texte de procédure.",
+      "truth": "false",
+      "explain": "Les étapes organisent les relations entre actions."
+     },
+     {
+      "text": "Changer l’unité sans changer la valeur conserve toute mesure.",
+      "truth": "false",
+      "explain": "La valeur et l’unité doivent rester cohérentes."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

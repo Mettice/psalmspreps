@@ -1,0 +1,609 @@
+{
+ "subject": "french",
+ "class": "Form 5",
+ "lesson_no": 5,
+ "language": "fr",
+ "prerequisites": [
+  4
+ ],
+ "skills": [
+  {
+   "id": "fr5-5",
+   "name": "Adjectifs et pronoms indéfinis"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un indéfini peut déterminer un nom : quelques membres, certains élèves. Dans certains participent, certains est pronom et occupe seul une place nominale. La grammaire traditionnelle appelle adjectifs indéfinis les déterminants correspondants. Le contexte distingue les emplois. Chacun est singulier dans chacun des membres propose ; certains et plusieurs commandent le pluriel dans les modèles étudiés. Quelques ou certains n’affirment ni tous ni un nombre exact. Vérifie le noyau du sujet plutôt que le nom le plus proche du verbe.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras distinguer le déterminant accompagnant un nom du pronom et conserver la portée d’un indéfini. Acquis mobilisés : groupes nominaux, sujets et formes pronominales. Pour la suite : interrogation, reprises et accords."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Un indéfini peut déterminer un nom : quelques membres, certains élèves. Dans certains participent, certains est pronom et occupe seul une place nominale. La grammaire traditionnelle appelle adjectifs indéfinis les déterminants correspondants. Le contexte distingue les emplois. Chacun est singulier dans chacun des membres propose ; certains et plusieurs commandent le pluriel dans les modèles étudiés. Quelques ou certains n’affirment ni tous ni un nombre exact. Vérifie le noyau du sujet plutôt que le nom le plus proche du verbe."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : Quelques membres discutent ; certains {fr2Present(\"préparer\",6)} une affiche. Chacun des élèves {fr2Present(\"proposer\",2)} une idée. Le premier groupe contient un nom exprimé ; certains remplace un groupe nominal ; chacun reste le noyau singulier malgré élèves."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Cherche le nom accompagné ou la place nominale occupée. Nomme l’emploi, relève le noyau du sujet et accorde le verbe. Reformule ensuite la quantité sans la transformer en totalité ni en absence."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "déterminant indéfini",
+    "meaning": "un mot indéfini accompagnant un nom exprimé"
+   },
+   {
+    "word": "pronom indéfini",
+    "meaning": "un indéfini occupant une place nominale sans nom qui le suit ici"
+   },
+   {
+    "word": "noyau singulier",
+    "meaning": "le terme singulier commandant l’accord dans le sujet étudié"
+   },
+   {
+    "word": "portée indéfinie",
+    "meaning": "une quantité ou identité non entièrement précisée"
+   }
+  ],
+  "mistake": {
+   "wrong": "Chaque emploi de quelques remplace obligatoirement un nom absent.",
+   "right": "un mot indéfini accompagnant un nom exprimé.",
+   "why": "Le nom est présent dans cet emploi."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quelques accompagne membres dans quelques membres. Explique le choix.",
+  "steps": [
+   "un mot indéfini accompagnant un nom exprimé.",
+   "Le nom est présent dans cet emploi."
+  ],
+  "answer": "déterminant indéfini",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr5-5-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "déterminant indéfini : un mot indéfini accompagnant un nom exprimé.",
+     "pronom indéfini : un indéfini occupant une place nominale sans nom qui le suit ici.",
+     "noyau singulier : le terme singulier commandant l’accord dans le sujet étudié.",
+     "portée indéfinie : une quantité ou identité non entièrement précisée."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-5-notions"
+    }
+   },
+   {
+    "id": "fr5-5-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Quelques accompagne membres dans quelques membres.",
+     "Certains participent utilise certains comme sujet.",
+     "Chacun des membres propose garde chacun au singulier.",
+     "Quelques membres n’indique pas tous les membres."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-5-cas"
+    }
+   },
+   {
+    "id": "fr5-5-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Chaque emploi de quelques remplace obligatoirement un nom absent. Correction : Le nom est présent dans cet emploi.",
+     "Certains ne peut jamais être pronom. Correction : La fonction dépend de la construction.",
+     "Membres impose proposent dans ce modèle avec chacun. Correction : Le complément ne remplace pas le noyau chacun.",
+     "Quelques signifie nécessairement la totalité. Correction : Le mot indique ici un nombre non précisé."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr5-5-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "déterminant indéfini : un mot indéfini accompagnant un nom exprimé.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le nom est présent dans cet emploi. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "pronom indéfini : un indéfini occupant une place nominale sans nom qui le suit ici.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La fonction dépend de la construction. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "noyau singulier : le terme singulier commandant l’accord dans le sujet étudié.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le complément ne remplace pas le noyau chacun. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "portée indéfinie : une quantité ou identité non entièrement précisée.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le mot indique ici un nombre non précisé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Chaque emploi de quelques remplace obligatoirement un nom absent.",
+        "truth": "false",
+        "explain": "Le nom est présent dans cet emploi."
+       },
+       {
+        "text": "Certains ne peut jamais être pronom.",
+        "truth": "false",
+        "explain": "La fonction dépend de la construction."
+       },
+       {
+        "text": "Membres impose proposent dans ce modèle avec chacun.",
+        "truth": "false",
+        "explain": "Le complément ne remplace pas le noyau chacun."
+       },
+       {
+        "text": "Quelques signifie nécessairement la totalité.",
+        "truth": "false",
+        "explain": "Le mot indique ici un nombre non précisé."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr5-5-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne un mot indéfini accompagnant un nom exprimé ?",
+       "r": "déterminant indéfini",
+       "w": [
+        "pronom indéfini",
+        "noyau singulier",
+        "portée indéfinie"
+       ],
+       "e": [
+        "Cela désigne un indéfini occupant une place nominale sans nom qui le suit ici, plutôt que la notion demandée.",
+        "Cela désigne le terme singulier commandant l’accord dans le sujet étudié, plutôt que la notion demandée.",
+        "Cela désigne une quantité ou identité non entièrement précisée, plutôt que la notion demandée."
+       ],
+       "y": "Le nom est présent dans cet emploi."
+      },
+      {
+       "q": "Quel terme désigne un indéfini occupant une place nominale sans nom qui le suit ici ?",
+       "r": "pronom indéfini",
+       "w": [
+        "déterminant indéfini",
+        "noyau singulier",
+        "portée indéfinie"
+       ],
+       "e": [
+        "Cela désigne un mot indéfini accompagnant un nom exprimé, plutôt que la notion demandée.",
+        "Cela désigne le terme singulier commandant l’accord dans le sujet étudié, plutôt que la notion demandée.",
+        "Cela désigne une quantité ou identité non entièrement précisée, plutôt que la notion demandée."
+       ],
+       "y": "La fonction dépend de la construction."
+      },
+      {
+       "q": "Quel terme désigne le terme singulier commandant l’accord dans le sujet étudié ?",
+       "r": "noyau singulier",
+       "w": [
+        "déterminant indéfini",
+        "pronom indéfini",
+        "portée indéfinie"
+       ],
+       "e": [
+        "Cela désigne un mot indéfini accompagnant un nom exprimé, plutôt que la notion demandée.",
+        "Cela désigne un indéfini occupant une place nominale sans nom qui le suit ici, plutôt que la notion demandée.",
+        "Cela désigne une quantité ou identité non entièrement précisée, plutôt que la notion demandée."
+       ],
+       "y": "Le complément ne remplace pas le noyau chacun."
+      },
+      {
+       "q": "Quel terme désigne une quantité ou identité non entièrement précisée ?",
+       "r": "portée indéfinie",
+       "w": [
+        "déterminant indéfini",
+        "pronom indéfini",
+        "noyau singulier"
+       ],
+       "e": [
+        "Cela désigne un mot indéfini accompagnant un nom exprimé, plutôt que la notion demandée.",
+        "Cela désigne un indéfini occupant une place nominale sans nom qui le suit ici, plutôt que la notion demandée.",
+        "Cela désigne le terme singulier commandant l’accord dans le sujet étudié, plutôt que la notion demandée."
+       ],
+       "y": "Le mot indique ici un nombre non précisé."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-5-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelques accompagne membres dans quelques membres.\nQuelle notion convient ?",
+       "r": "déterminant indéfini",
+       "w": [
+        "pronom indéfini",
+        "noyau singulier",
+        "portée indéfinie"
+       ],
+       "e": [
+        "Cela concerne un indéfini occupant une place nominale sans nom qui le suit ici. Compare cette définition avec le cas présenté.",
+        "Cela concerne le terme singulier commandant l’accord dans le sujet étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne une quantité ou identité non entièrement précisée. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le nom est présent dans cet emploi."
+      },
+      {
+       "q": "Certains participent utilise certains comme sujet.\nQuelle notion convient ?",
+       "r": "pronom indéfini",
+       "w": [
+        "déterminant indéfini",
+        "noyau singulier",
+        "portée indéfinie"
+       ],
+       "e": [
+        "Cela concerne un mot indéfini accompagnant un nom exprimé. Compare cette définition avec le cas présenté.",
+        "Cela concerne le terme singulier commandant l’accord dans le sujet étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne une quantité ou identité non entièrement précisée. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La fonction dépend de la construction."
+      },
+      {
+       "q": "Chacun des membres propose garde chacun au singulier.\nQuelle notion convient ?",
+       "r": "noyau singulier",
+       "w": [
+        "déterminant indéfini",
+        "pronom indéfini",
+        "portée indéfinie"
+       ],
+       "e": [
+        "Cela concerne un mot indéfini accompagnant un nom exprimé. Compare cette définition avec le cas présenté.",
+        "Cela concerne un indéfini occupant une place nominale sans nom qui le suit ici. Compare cette définition avec le cas présenté.",
+        "Cela concerne une quantité ou identité non entièrement précisée. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le complément ne remplace pas le noyau chacun."
+      },
+      {
+       "q": "Quelques membres n’indique pas tous les membres.\nQuelle notion convient ?",
+       "r": "portée indéfinie",
+       "w": [
+        "déterminant indéfini",
+        "pronom indéfini",
+        "noyau singulier"
+       ],
+       "e": [
+        "Cela concerne un mot indéfini accompagnant un nom exprimé. Compare cette définition avec le cas présenté.",
+        "Cela concerne un indéfini occupant une place nominale sans nom qui le suit ici. Compare cette définition avec le cas présenté.",
+        "Cela concerne le terme singulier commandant l’accord dans le sujet étudié. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le mot indique ici un nombre non précisé."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-5-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans quelques membres, quel rôle joue quelques ?",
+       "r": "Déterminer le nom membres.",
+       "w": [
+        "Remplacer seul tout le groupe nominal.",
+        "Conjuguer le verbe au passé.",
+        "Introduire une question directe."
+       ],
+       "e": [
+        "Le nom reste exprimé.",
+        "Quelques ne porte pas le temps verbal.",
+        "La phrase ne demande pas une identification."
+       ],
+       "y": "Le déterminant accompagne le nom."
+      },
+      {
+       "q": "Dans certains participent, quel rôle joue certains ?",
+       "r": "Occuper seul la place du groupe nominal sujet.",
+       "w": [
+        "Déterminer un nom exprimé juste après lui.",
+        "Exprimer obligatoirement chaque personne sans exception.",
+        "Marquer la fin d’une phrase."
+       ],
+       "e": [
+        "Aucun nom n’est exprimé après certains ici.",
+        "Certains ne signifie pas tous.",
+        "Ce n’est pas un signe de ponctuation."
+       ],
+       "y": "C’est le pronom dans cet emploi."
+      },
+      {
+       "q": "Complète au présent : Chacun des membres ___ une idée.",
+       "r": "{fr2Present(\"proposer\",2)}",
+       "w": [
+        "{fr2Present(\"proposer\",6)}",
+        "proposer",
+        "proposant"
+       ],
+       "e": [
+        "Le noyau chacun commande ici le singulier.",
+        "L’infinitif ne fournit pas le présent demandé.",
+        "Le participe présent ne fournit pas seul ce verbe fini."
+       ],
+       "y": "Le complément pluriel ne remplace pas chacun."
+      },
+      {
+       "q": "Quelques membres répondent. Quelle reformulation préserve la portée ?",
+       "r": "Un certain nombre de membres répondent.",
+       "w": [
+        "Tous répondent nécessairement.",
+        "Aucun ne répond.",
+        "Le nombre exact est donné par quelques."
+       ],
+       "e": [
+        "La totalité n’est pas affirmée.",
+        "Quelques indique ici une quantité positive.",
+        "Aucun total exact n’est fourni."
+       ],
+       "y": "Préserve l’indétermination de la quantité."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-5-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "déterminant indéfini",
+     "right": "Quelques accompagne membres dans quelques membres."
+    },
+    {
+     "left": "pronom indéfini",
+     "right": "Certains participent utilise certains comme sujet."
+    },
+    {
+     "left": "noyau singulier",
+     "right": "Chacun des membres propose garde chacun au singulier."
+    },
+    {
+     "left": "portée indéfinie",
+     "right": "Quelques membres n’indique pas tous les membres."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-5-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "déterminant indéfini : un mot indéfini accompagnant un nom exprimé.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le nom est présent dans cet emploi. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "pronom indéfini : un indéfini occupant une place nominale sans nom qui le suit ici.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La fonction dépend de la construction. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "noyau singulier : le terme singulier commandant l’accord dans le sujet étudié.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le complément ne remplace pas le noyau chacun. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "portée indéfinie : une quantité ou identité non entièrement précisée.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le mot indique ici un nombre non précisé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Chaque emploi de quelques remplace obligatoirement un nom absent.",
+      "truth": "false",
+      "explain": "Le nom est présent dans cet emploi."
+     },
+     {
+      "text": "Certains ne peut jamais être pronom.",
+      "truth": "false",
+      "explain": "La fonction dépend de la construction."
+     },
+     {
+      "text": "Membres impose proposent dans ce modèle avec chacun.",
+      "truth": "false",
+      "explain": "Le complément ne remplace pas le noyau chacun."
+     },
+     {
+      "text": "Quelques signifie nécessairement la totalité.",
+      "truth": "false",
+      "explain": "Le mot indique ici un nombre non précisé."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

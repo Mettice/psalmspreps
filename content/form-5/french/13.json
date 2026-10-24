@@ -1,0 +1,610 @@
+{
+ "subject": "french",
+ "class": "Form 5",
+ "lesson_no": 13,
+ "language": "fr",
+ "prerequisites": [
+  10,
+  12
+ ],
+ "skills": [
+  {
+   "id": "fr5-13",
+   "name": "Les structures conditionnelles avec si"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Dans les modèles étudiés, si de condition peut être suivi du présent avec une conséquence au futur, de l’imparfait avec une conséquence au conditionnel présent, ou du plus-que-parfait avec une conséquence au conditionnel passé. Le temps exprime une perspective, pas un simple accord de terminaisons. N’emploie pas le futur ou le conditionnel à la place du temps attendu après ce si de condition. La règle ne vise pas tout si : une interrogation indirecte peut avoir une autre construction.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras associer condition et conséquence sans appliquer la règle au si interrogatif. Acquis mobilisés : subordonnées, temps et sens hypothétique. Pour la suite : reprises pronominales et cohérence du récit."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Dans les modèles étudiés, si de condition peut être suivi du présent avec une conséquence au futur, de l’imparfait avec une conséquence au conditionnel présent, ou du plus-que-parfait avec une conséquence au conditionnel passé. Le temps exprime une perspective, pas un simple accord de terminaisons. N’emploie pas le futur ou le conditionnel à la place du temps attendu après ce si de condition. La règle ne vise pas tout si : une interrogation indirecte peut avoir une autre construction."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles calculés : Si nous {fr2Present(\"finir\",4)} tôt, nous {fr2FuturSimple(\"préparer\",4)} l’affiche. Si nous {fr2Imparfait(\"avoir\",4)} plus de temps, nous {fr2Conditionnel(\"aider\",4)} le groupe. Pour un irréel passé : si elle avait fini, elle aurait aidé. Dans je me demande si le groupe viendrait, si introduit plutôt une question rapportée."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Précise le sens de si, puis la perspective temporelle. Choisis le modèle complet et vérifie chaque proposition. Ne déplace pas mécaniquement le conditionnel de la conséquence vers la condition."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "condition possible",
+    "meaning": "le modèle si au présent et conséquence au futur étudié"
+   },
+   {
+    "word": "hypothèse au présent",
+    "meaning": "le modèle avec imparfait puis conditionnel présent"
+   },
+   {
+    "word": "irréel passé",
+    "meaning": "le modèle avec plus-que-parfait puis conditionnel passé"
+   },
+   {
+    "word": "si interrogatif",
+    "meaning": "un si introduisant une question indirecte plutôt qu’une condition"
+   }
+  ],
+  "mistake": {
+   "wrong": "Le futur doit obligatoirement suivre le si de condition dans ce modèle.",
+   "right": "le modèle si au présent et conséquence au futur étudié.",
+   "why": "Le présent se trouve dans la condition."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Si nous finissons tôt, nous préparerons l’affiche. Explique le choix.",
+  "steps": [
+   "le modèle si au présent et conséquence au futur étudié.",
+   "Le présent se trouve dans la condition."
+  ],
+  "answer": "condition possible",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr5-13-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "condition possible : le modèle si au présent et conséquence au futur étudié.",
+     "hypothèse au présent : le modèle avec imparfait puis conditionnel présent.",
+     "irréel passé : le modèle avec plus-que-parfait puis conditionnel passé.",
+     "si interrogatif : un si introduisant une question indirecte plutôt qu’une condition."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-13-notions"
+    }
+   },
+   {
+    "id": "fr5-13-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Si nous finissons tôt, nous préparerons l’affiche.",
+     "Si nous avions du temps, nous aiderions.",
+     "Si elle avait fini, elle aurait aidé.",
+     "Je me demande si le groupe viendrait est interrogatif."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-13-cas"
+    }
+   },
+   {
+    "id": "fr5-13-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Le futur doit obligatoirement suivre le si de condition dans ce modèle. Correction : Le présent se trouve dans la condition.",
+     "Si nous aurions du temps est la condition du modèle écrit. Correction : L’imparfait est demandé dans cette condition.",
+     "Avait fini décrit ici un futur simple. Correction : Le temps composé est au plus-que-parfait.",
+     "Toute présence de si suffit à imposer une règle unique sans contexte. Correction : Les fonctions de si doivent être distinguées."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr5-13-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "condition possible : le modèle si au présent et conséquence au futur étudié.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le présent se trouve dans la condition. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "hypothèse au présent : le modèle avec imparfait puis conditionnel présent.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’imparfait est demandé dans cette condition. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "irréel passé : le modèle avec plus-que-parfait puis conditionnel passé.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le temps composé est au plus-que-parfait. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "si interrogatif : un si introduisant une question indirecte plutôt qu’une condition.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les fonctions de si doivent être distinguées. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Le futur doit obligatoirement suivre le si de condition dans ce modèle.",
+        "truth": "false",
+        "explain": "Le présent se trouve dans la condition."
+       },
+       {
+        "text": "Si nous aurions du temps est la condition du modèle écrit.",
+        "truth": "false",
+        "explain": "L’imparfait est demandé dans cette condition."
+       },
+       {
+        "text": "Avait fini décrit ici un futur simple.",
+        "truth": "false",
+        "explain": "Le temps composé est au plus-que-parfait."
+       },
+       {
+        "text": "Toute présence de si suffit à imposer une règle unique sans contexte.",
+        "truth": "false",
+        "explain": "Les fonctions de si doivent être distinguées."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr5-13-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne le modèle si au présent et conséquence au futur étudié ?",
+       "r": "condition possible",
+       "w": [
+        "hypothèse au présent",
+        "irréel passé",
+        "si interrogatif"
+       ],
+       "e": [
+        "Cela désigne le modèle avec imparfait puis conditionnel présent, plutôt que la notion demandée.",
+        "Cela désigne le modèle avec plus-que-parfait puis conditionnel passé, plutôt que la notion demandée.",
+        "Cela désigne un si introduisant une question indirecte plutôt qu’une condition, plutôt que la notion demandée."
+       ],
+       "y": "Le présent se trouve dans la condition."
+      },
+      {
+       "q": "Quel terme désigne le modèle avec imparfait puis conditionnel présent ?",
+       "r": "hypothèse au présent",
+       "w": [
+        "condition possible",
+        "irréel passé",
+        "si interrogatif"
+       ],
+       "e": [
+        "Cela désigne le modèle si au présent et conséquence au futur étudié, plutôt que la notion demandée.",
+        "Cela désigne le modèle avec plus-que-parfait puis conditionnel passé, plutôt que la notion demandée.",
+        "Cela désigne un si introduisant une question indirecte plutôt qu’une condition, plutôt que la notion demandée."
+       ],
+       "y": "L’imparfait est demandé dans cette condition."
+      },
+      {
+       "q": "Quel terme désigne le modèle avec plus-que-parfait puis conditionnel passé ?",
+       "r": "irréel passé",
+       "w": [
+        "condition possible",
+        "hypothèse au présent",
+        "si interrogatif"
+       ],
+       "e": [
+        "Cela désigne le modèle si au présent et conséquence au futur étudié, plutôt que la notion demandée.",
+        "Cela désigne le modèle avec imparfait puis conditionnel présent, plutôt que la notion demandée.",
+        "Cela désigne un si introduisant une question indirecte plutôt qu’une condition, plutôt que la notion demandée."
+       ],
+       "y": "Le temps composé est au plus-que-parfait."
+      },
+      {
+       "q": "Quel terme désigne un si introduisant une question indirecte plutôt qu’une condition ?",
+       "r": "si interrogatif",
+       "w": [
+        "condition possible",
+        "hypothèse au présent",
+        "irréel passé"
+       ],
+       "e": [
+        "Cela désigne le modèle si au présent et conséquence au futur étudié, plutôt que la notion demandée.",
+        "Cela désigne le modèle avec imparfait puis conditionnel présent, plutôt que la notion demandée.",
+        "Cela désigne le modèle avec plus-que-parfait puis conditionnel passé, plutôt que la notion demandée."
+       ],
+       "y": "Les fonctions de si doivent être distinguées."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-13-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Si nous finissons tôt, nous préparerons l’affiche.\nQuelle notion convient ?",
+       "r": "condition possible",
+       "w": [
+        "hypothèse au présent",
+        "irréel passé",
+        "si interrogatif"
+       ],
+       "e": [
+        "Cela concerne le modèle avec imparfait puis conditionnel présent. Compare cette définition avec le cas présenté.",
+        "Cela concerne le modèle avec plus-que-parfait puis conditionnel passé. Compare cette définition avec le cas présenté.",
+        "Cela concerne un si introduisant une question indirecte plutôt qu’une condition. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le présent se trouve dans la condition."
+      },
+      {
+       "q": "Si nous avions du temps, nous aiderions.\nQuelle notion convient ?",
+       "r": "hypothèse au présent",
+       "w": [
+        "condition possible",
+        "irréel passé",
+        "si interrogatif"
+       ],
+       "e": [
+        "Cela concerne le modèle si au présent et conséquence au futur étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne le modèle avec plus-que-parfait puis conditionnel passé. Compare cette définition avec le cas présenté.",
+        "Cela concerne un si introduisant une question indirecte plutôt qu’une condition. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’imparfait est demandé dans cette condition."
+      },
+      {
+       "q": "Si elle avait fini, elle aurait aidé.\nQuelle notion convient ?",
+       "r": "irréel passé",
+       "w": [
+        "condition possible",
+        "hypothèse au présent",
+        "si interrogatif"
+       ],
+       "e": [
+        "Cela concerne le modèle si au présent et conséquence au futur étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne le modèle avec imparfait puis conditionnel présent. Compare cette définition avec le cas présenté.",
+        "Cela concerne un si introduisant une question indirecte plutôt qu’une condition. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le temps composé est au plus-que-parfait."
+      },
+      {
+       "q": "Je me demande si le groupe viendrait est interrogatif.\nQuelle notion convient ?",
+       "r": "si interrogatif",
+       "w": [
+        "condition possible",
+        "hypothèse au présent",
+        "irréel passé"
+       ],
+       "e": [
+        "Cela concerne le modèle si au présent et conséquence au futur étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne le modèle avec imparfait puis conditionnel présent. Compare cette définition avec le cas présenté.",
+        "Cela concerne le modèle avec plus-que-parfait puis conditionnel passé. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les fonctions de si doivent être distinguées."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-13-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Modèle de condition possible : Si nous {fr2Present(\"finir\",4)} tôt, nous ___ l’affiche demain. Choisis le futur de préparer.",
+       "r": "{fr2FuturSimple(\"préparer\",4)}",
+       "w": [
+        "{fr2Conditionnel(\"préparer\",4)}",
+        "préparer",
+        "préparant"
+       ],
+       "e": [
+        "Ce modèle demande le futur, non le conditionnel.",
+        "L’infinitif n’est pas la forme personnelle demandée.",
+        "Le participe présent ne fournit pas ce futur."
+       ],
+       "y": "Si au présent peut accompagner une conséquence au futur."
+      },
+      {
+       "q": "Modèle hypothétique : Si nous ___ plus de temps, nous aiderions le club. Choisis l’imparfait d’avoir.",
+       "r": "{fr2Imparfait(\"avoir\",4)}",
+       "w": [
+        "{fr2Conditionnel(\"avoir\",4)}",
+        "{fr2FuturSimple(\"avoir\",4)}",
+        "avoir"
+       ],
+       "e": [
+        "Le si de condition étudié ne prend pas ce conditionnel.",
+        "Le futur ne correspond pas au modèle hypothétique demandé.",
+        "L’infinitif ne porte pas la personne ni le temps."
+       ],
+       "y": "Imparfait dans la condition, conditionnel dans la conséquence."
+      },
+      {
+       "q": "Dans Je me demande si le groupe viendrait, si introduit une interrogation indirecte. Quelle analyse est juste ?",
+       "r": "Ce si ne pose pas le modèle de condition étudié.",
+       "w": [
+        "Tout si interdit le conditionnel dans absolument tous ses emplois.",
+        "Si est toujours un nom de personne.",
+        "Le mot supprime tout besoin de sens."
+       ],
+       "e": [
+        "La restriction concerne le si de condition, pas tous les si.",
+        "C’est ici un introducteur d’interrogation.",
+        "Le contexte distingue les emplois."
+       ],
+       "y": "N’étends pas la règle au mauvais emploi de si."
+      },
+      {
+       "q": "Modèle d’irréel passé : Si elle avait fini, elle aurait aidé le groupe. Quel temps est dans la condition ?",
+       "r": "Le plus-que-parfait de l’indicatif.",
+       "w": [
+        "Le futur simple.",
+        "Le conditionnel présent.",
+        "L’impératif."
+       ],
+       "e": [
+        "Avait fini est un temps composé du passé.",
+        "Le conditionnel est dans la conséquence, pas cette condition.",
+        "La proposition n’est pas un ordre."
+       ],
+       "y": "La conséquence est ici au conditionnel passé."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-13-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "condition possible",
+     "right": "Si nous finissons tôt, nous préparerons l’affiche."
+    },
+    {
+     "left": "hypothèse au présent",
+     "right": "Si nous avions du temps, nous aiderions."
+    },
+    {
+     "left": "irréel passé",
+     "right": "Si elle avait fini, elle aurait aidé."
+    },
+    {
+     "left": "si interrogatif",
+     "right": "Je me demande si le groupe viendrait est interrogatif."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-13-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "condition possible : le modèle si au présent et conséquence au futur étudié.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le présent se trouve dans la condition. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "hypothèse au présent : le modèle avec imparfait puis conditionnel présent.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’imparfait est demandé dans cette condition. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "irréel passé : le modèle avec plus-que-parfait puis conditionnel passé.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le temps composé est au plus-que-parfait. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "si interrogatif : un si introduisant une question indirecte plutôt qu’une condition.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les fonctions de si doivent être distinguées. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le futur doit obligatoirement suivre le si de condition dans ce modèle.",
+      "truth": "false",
+      "explain": "Le présent se trouve dans la condition."
+     },
+     {
+      "text": "Si nous aurions du temps est la condition du modèle écrit.",
+      "truth": "false",
+      "explain": "L’imparfait est demandé dans cette condition."
+     },
+     {
+      "text": "Avait fini décrit ici un futur simple.",
+      "truth": "false",
+      "explain": "Le temps composé est au plus-que-parfait."
+     },
+     {
+      "text": "Toute présence de si suffit à imposer une règle unique sans contexte.",
+      "truth": "false",
+      "explain": "Les fonctions de si doivent être distinguées."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

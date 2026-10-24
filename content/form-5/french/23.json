@@ -1,0 +1,636 @@
+{
+ "subject": "french",
+ "class": "Form 5",
+ "lesson_no": 23,
+ "language": "fr",
+ "prerequisites": [
+  5,
+  10,
+  22
+ ],
+ "skills": [
+  {
+   "id": "fr5-23",
+   "name": "Les adverbes : exceptions et formes particulières"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Tous les adverbes ne se forment pas en ajoutant mécaniquement -ment au masculin. Gentil donne gentiment. Les modèles prudent et patient donnent prudemment et patiemment ; courant et bruyant donnent couramment et bruyamment. Bien et mieux ont une relation comparative particulière : elle parle mieux compare la manière, tandis que meilleure décrit un nom ou un sujet dans une construction adjectivale. La fonction dans la phrase reste déterminante. Ces modèles ne dispensent pas de vérifier les autres exceptions.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras former les adverbes étudiés et distinguer mieux d’un adjectif comparatif. Acquis mobilisés : classes de mots et comparaison. Pour la suite : lexique des recettes et précision d’une description."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Tous les adverbes ne se forment pas en ajoutant mécaniquement -ment au masculin. Gentil donne gentiment. Les modèles prudent et patient donnent prudemment et patiemment ; courant et bruyant donnent couramment et bruyamment. Bien et mieux ont une relation comparative particulière : elle parle mieux compare la manière, tandis que meilleure décrit un nom ou un sujet dans une construction adjectivale. La fonction dans la phrase reste déterminante. Ces modèles ne dispensent pas de vérifier les autres exceptions."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles calculés : {fr2Adverb(\"gentil\")}, {fr2Adverb(\"prudent\")}, {fr2Adverb(\"patient\")}, {fr2Adverb(\"courant\")}. Dans elle explique mieux, mieux modifie la manière d’expliquer. Dans une meilleure explication, meilleure accompagne le nom. Remplacer automatiquement l’un par l’autre ne conserve pas la construction."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Identifie la fonction attendue, puis le modèle de formation. Vérifie la graphie propre à l’exception. Pour comparer, demande si tu modifies une manière ou un nom avant de choisir mieux ou meilleur."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "exception gentiment",
+    "meaning": "la formation particulière de l’adverbe issu de gentil"
+   },
+   {
+    "word": "comparatif adverbial",
+    "meaning": "la comparaison de bien par mieux dans le modèle"
+   },
+   {
+    "word": "modèle en -emment",
+    "meaning": "la graphie de prudemment ou patiemment dans les exemples"
+   },
+   {
+    "word": "modèle en -amment",
+    "meaning": "la graphie de couramment ou bruyamment dans les exemples"
+   }
+  ],
+  "mistake": {
+   "wrong": "Gentillement est la graphie du modèle étudié.",
+   "right": "la formation particulière de l’adverbe issu de gentil.",
+   "why": "L’exception s’écrit gentiment."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Gentil donne {fr2Adverb(\"gentil\")}. Explique le choix.",
+  "steps": [
+   "la formation particulière de l’adverbe issu de gentil.",
+   "L’exception s’écrit gentiment."
+  ],
+  "answer": "exception gentiment",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr5-23-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "exception gentiment : la formation particulière de l’adverbe issu de gentil.",
+     "comparatif adverbial : la comparaison de bien par mieux dans le modèle.",
+     "modèle en -emment : la graphie de prudemment ou patiemment dans les exemples.",
+     "modèle en -amment : la graphie de couramment ou bruyamment dans les exemples."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-23-notions"
+    }
+   },
+   {
+    "id": "fr5-23-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Gentil donne {fr2Adverb(\"gentil\")}.",
+     "Elle explique mieux compare la manière.",
+     "Patient donne {fr2Adverb(\"patient\")}.",
+     "Courant donne {fr2Adverb(\"courant\")}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-23-cas"
+    }
+   },
+   {
+    "id": "fr5-23-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Gentillement est la graphie du modèle étudié. Correction : L’exception s’écrit gentiment.",
+     "Meilleure et mieux sont interchangeables dans toute phrase. Correction : La fonction adjectivale diffère de la fonction adverbiale.",
+     "Patientment est la forme requise. Correction : Le modèle donne patiemment.",
+     "Courantment est la forme requise. Correction : Le modèle donne couramment."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr5-23-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "exception gentiment : la formation particulière de l’adverbe issu de gentil.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’exception s’écrit gentiment. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "comparatif adverbial : la comparaison de bien par mieux dans le modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La fonction adjectivale diffère de la fonction adverbiale. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "modèle en -emment : la graphie de prudemment ou patiemment dans les exemples.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le modèle donne patiemment. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "modèle en -amment : la graphie de couramment ou bruyamment dans les exemples.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le modèle donne couramment. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Gentillement est la graphie du modèle étudié.",
+        "truth": "false",
+        "explain": "L’exception s’écrit gentiment."
+       },
+       {
+        "text": "Meilleure et mieux sont interchangeables dans toute phrase.",
+        "truth": "false",
+        "explain": "La fonction adjectivale diffère de la fonction adverbiale."
+       },
+       {
+        "text": "Patientment est la forme requise.",
+        "truth": "false",
+        "explain": "Le modèle donne patiemment."
+       },
+       {
+        "text": "Courantment est la forme requise.",
+        "truth": "false",
+        "explain": "Le modèle donne couramment."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr5-23-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne la formation particulière de l’adverbe issu de gentil ?",
+       "r": "exception gentiment",
+       "w": [
+        "comparatif adverbial",
+        "modèle en -emment",
+        "modèle en -amment"
+       ],
+       "e": [
+        "Cela désigne la comparaison de bien par mieux dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne la graphie de prudemment ou patiemment dans les exemples, plutôt que la notion demandée.",
+        "Cela désigne la graphie de couramment ou bruyamment dans les exemples, plutôt que la notion demandée."
+       ],
+       "y": "L’exception s’écrit gentiment."
+      },
+      {
+       "q": "Quel terme désigne la comparaison de bien par mieux dans le modèle ?",
+       "r": "comparatif adverbial",
+       "w": [
+        "exception gentiment",
+        "modèle en -emment",
+        "modèle en -amment"
+       ],
+       "e": [
+        "Cela désigne la formation particulière de l’adverbe issu de gentil, plutôt que la notion demandée.",
+        "Cela désigne la graphie de prudemment ou patiemment dans les exemples, plutôt que la notion demandée.",
+        "Cela désigne la graphie de couramment ou bruyamment dans les exemples, plutôt que la notion demandée."
+       ],
+       "y": "La fonction adjectivale diffère de la fonction adverbiale."
+      },
+      {
+       "q": "Quel terme désigne la graphie de prudemment ou patiemment dans les exemples ?",
+       "r": "modèle en -emment",
+       "w": [
+        "exception gentiment",
+        "comparatif adverbial",
+        "modèle en -amment"
+       ],
+       "e": [
+        "Cela désigne la formation particulière de l’adverbe issu de gentil, plutôt que la notion demandée.",
+        "Cela désigne la comparaison de bien par mieux dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne la graphie de couramment ou bruyamment dans les exemples, plutôt que la notion demandée."
+       ],
+       "y": "Le modèle donne patiemment."
+      },
+      {
+       "q": "Quel terme désigne la graphie de couramment ou bruyamment dans les exemples ?",
+       "r": "modèle en -amment",
+       "w": [
+        "exception gentiment",
+        "comparatif adverbial",
+        "modèle en -emment"
+       ],
+       "e": [
+        "Cela désigne la formation particulière de l’adverbe issu de gentil, plutôt que la notion demandée.",
+        "Cela désigne la comparaison de bien par mieux dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne la graphie de prudemment ou patiemment dans les exemples, plutôt que la notion demandée."
+       ],
+       "y": "Le modèle donne couramment."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-23-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Gentil donne {fr2Adverb(\"gentil\")}.\nQuelle notion convient ?",
+       "r": "exception gentiment",
+       "w": [
+        "comparatif adverbial",
+        "modèle en -emment",
+        "modèle en -amment"
+       ],
+       "e": [
+        "Cela concerne la comparaison de bien par mieux dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne la graphie de prudemment ou patiemment dans les exemples. Compare cette définition avec le cas présenté.",
+        "Cela concerne la graphie de couramment ou bruyamment dans les exemples. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’exception s’écrit gentiment."
+      },
+      {
+       "q": "Elle explique mieux compare la manière.\nQuelle notion convient ?",
+       "r": "comparatif adverbial",
+       "w": [
+        "exception gentiment",
+        "modèle en -emment",
+        "modèle en -amment"
+       ],
+       "e": [
+        "Cela concerne la formation particulière de l’adverbe issu de gentil. Compare cette définition avec le cas présenté.",
+        "Cela concerne la graphie de prudemment ou patiemment dans les exemples. Compare cette définition avec le cas présenté.",
+        "Cela concerne la graphie de couramment ou bruyamment dans les exemples. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La fonction adjectivale diffère de la fonction adverbiale."
+      },
+      {
+       "q": "Patient donne {fr2Adverb(\"patient\")}.\nQuelle notion convient ?",
+       "r": "modèle en -emment",
+       "w": [
+        "exception gentiment",
+        "comparatif adverbial",
+        "modèle en -amment"
+       ],
+       "e": [
+        "Cela concerne la formation particulière de l’adverbe issu de gentil. Compare cette définition avec le cas présenté.",
+        "Cela concerne la comparaison de bien par mieux dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne la graphie de couramment ou bruyamment dans les exemples. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le modèle donne patiemment."
+      },
+      {
+       "q": "Courant donne {fr2Adverb(\"courant\")}.\nQuelle notion convient ?",
+       "r": "modèle en -amment",
+       "w": [
+        "exception gentiment",
+        "comparatif adverbial",
+        "modèle en -emment"
+       ],
+       "e": [
+        "Cela concerne la formation particulière de l’adverbe issu de gentil. Compare cette définition avec le cas présenté.",
+        "Cela concerne la comparaison de bien par mieux dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne la graphie de prudemment ou patiemment dans les exemples. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le modèle donne couramment."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-23-former",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      "gentil",
+      "prudent",
+      "patient",
+      "courant",
+      "bruyant"
+     ]
+    }
+   },
+   "prompt": "Donne l’adverbe de manière étudié dérivé de « {a} ».",
+   "correct": "{fr2Adverb(a)}",
+   "distractors": [
+    {
+     "text": "{fr2AdvNaive(a)}",
+     "misconception": "naif"
+    },
+    {
+     "text": "{a}",
+     "misconception": "adj"
+    },
+    {
+     "text": "mieux",
+     "misconception": "comparatif"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "naif",
+     "explain": "Cette addition mécanique ne respecte pas la graphie étudiée."
+    },
+    {
+     "id": "adj",
+     "explain": "Tu as conservé l’adjectif au lieu de former l’adverbe."
+    },
+    {
+     "id": "comparatif",
+     "explain": "Mieux est le comparatif de bien, pas la dérivation demandée ici."
+    }
+   ],
+   "solution": [
+    "Retrouve le modèle ou l’exception de cet adjectif.",
+    "{fr2AdvRule(a)}. La forme est {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-23-sens",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Compare la manière de parler : elle parle bien, et maintenant elle parle encore ___.",
+       "r": "mieux",
+       "w": [
+        "meilleure",
+        "gentille",
+        "bonnes"
+       ],
+       "e": [
+        "Meilleure est adjectif et ne compare pas ici la manière du verbe.",
+        "Gentille décrit une personne plutôt que la comparaison demandée.",
+        "Bonnes est un adjectif féminin pluriel."
+       ],
+       "y": "Mieux compare bien."
+      },
+      {
+       "q": "Quel adverbe correspond à gentil dans le modèle ?",
+       "r": "{fr2Adverb(\"gentil\")}",
+       "w": [
+        "gentillement",
+        "gentilement",
+        "gentils"
+       ],
+       "e": [
+        "Cette graphie n’est pas la forme étudiée.",
+        "L’exception ne prend pas cette suite de lettres.",
+        "C’est un pluriel adjectival, non l’adverbe."
+       ],
+       "y": "Gentiment est l’exception retenue."
+      },
+      {
+       "q": "Choisis l’adverbe formé sur patient.",
+       "r": "{fr2Adverb(\"patient\")}",
+       "w": [
+        "patientment",
+        "patientes",
+        "patiente"
+       ],
+       "e": [
+        "Le modèle transforme la finale en -emment.",
+        "Cette forme est adjectivale plurielle.",
+        "Cette forme reste adjectivale."
+       ],
+       "y": "Le modèle est patiemment."
+      },
+      {
+       "q": "Choisis l’adverbe formé sur courant.",
+       "r": "{fr2Adverb(\"courant\")}",
+       "w": [
+        "courantment",
+        "courante",
+        "courantes"
+       ],
+       "e": [
+        "Le modèle transforme la finale en -amment.",
+        "Ce n’est pas l’adverbe.",
+        "Ce sont des marques adjectivales."
+       ],
+       "y": "Le modèle est couramment."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-23-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "exception gentiment : la formation particulière de l’adverbe issu de gentil.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’exception s’écrit gentiment. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "comparatif adverbial : la comparaison de bien par mieux dans le modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La fonction adjectivale diffère de la fonction adverbiale. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "modèle en -emment : la graphie de prudemment ou patiemment dans les exemples.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le modèle donne patiemment. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "modèle en -amment : la graphie de couramment ou bruyamment dans les exemples.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le modèle donne couramment. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Gentillement est la graphie du modèle étudié.",
+      "truth": "false",
+      "explain": "L’exception s’écrit gentiment."
+     },
+     {
+      "text": "Meilleure et mieux sont interchangeables dans toute phrase.",
+      "truth": "false",
+      "explain": "La fonction adjectivale diffère de la fonction adverbiale."
+     },
+     {
+      "text": "Patientment est la forme requise.",
+      "truth": "false",
+      "explain": "Le modèle donne patiemment."
+     },
+     {
+      "text": "Courantment est la forme requise.",
+      "truth": "false",
+      "explain": "Le modèle donne couramment."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

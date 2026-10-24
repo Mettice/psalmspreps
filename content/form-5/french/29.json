@@ -1,0 +1,702 @@
+{
+ "subject": "french",
+ "class": "Form 5",
+ "lesson_no": 29,
+ "language": "fr",
+ "prerequisites": [
+  5,
+  22,
+  28
+ ],
+ "skills": [
+  {
+   "id": "fr5-29",
+   "name": "Quelque, quelques, quel que et leurs accords"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Quelque en un mot peut être déterminant : quelque temps, quelques affiches. Il peut aussi être adverbe au sens d’environ devant une expression numérique et reste alors invariable. Quel que en deux mots signifie ici peu importe et s’emploie dans une construction attributive avec être au subjonctif. Quel s’accorde avec le sujet : quel que soit le projet, quelle que soit l’activité, quels que soient les projets, quelles que soient les activités. Le son ne suffit pas à choisir l’orthographe.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras choisir la graphie selon le sens, la construction et l’accord du sujet. Acquis mobilisés : indéfinis, subjonctif et partitif. Pour la suite : pluriel des composés et relecture du portrait."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Quelque en un mot peut être déterminant : quelque temps, quelques affiches. Il peut aussi être adverbe au sens d’environ devant une expression numérique et reste alors invariable. Quel que en deux mots signifie ici peu importe et s’emploie dans une construction attributive avec être au subjonctif. Quel s’accorde avec le sujet : quel que soit le projet, quelle que soit l’activité, quels que soient les projets, quelles que soient les activités. Le son ne suffit pas à choisir l’orthographe."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : quelques affiches, quelque temps, quelque {20} personnes au sens d’environ. Puis : quel que {fr2Subjonctif(\"être\",2)} le projet ; quelle que {fr2Subjonctif(\"être\",3)} l’activité ; quels que {fr2Subjonctif(\"être\",6)} les projets ; quelles que {fr2Subjonctif(\"être\",7)} les activités. Les formes en deux mots gardent le sens peu importe."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Cherche le sens et le mot qui suit. Distingue déterminant, adverbe approximatif et construction attributive. Pour quel que, retrouve le sujet de être puis vérifie genre et nombre ; ne laisse pas la proximité des sons remplacer cette analyse."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "quelque déterminant singulier",
+    "meaning": "le modèle en un mot accompagnant le nom singulier étudié"
+   },
+   {
+    "word": "quelques déterminant pluriel",
+    "meaning": "le modèle en un mot accompagnant un nom pluriel"
+   },
+   {
+    "word": "quelque adverbe",
+    "meaning": "la forme invariable exprimant environ devant le nombre"
+   },
+   {
+    "word": "quel que singulier",
+    "meaning": "la structure en deux mots accordée au sujet singulier"
+   },
+   {
+    "word": "quel que pluriel",
+    "meaning": "la structure en deux mots accordée au sujet pluriel"
+   }
+  ],
+  "mistake": {
+   "wrong": "Quelque temps exige toujours quelques au pluriel.",
+   "right": "le modèle en un mot accompagnant le nom singulier étudié.",
+   "why": "L’expression étudiée conserve le singulier."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quelque temps signifie ici un peu de temps. Explique le choix.",
+  "steps": [
+   "le modèle en un mot accompagnant le nom singulier étudié.",
+   "L’expression étudiée conserve le singulier."
+  ],
+  "answer": "quelque déterminant singulier",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr5-29-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "quelque déterminant singulier : le modèle en un mot accompagnant le nom singulier étudié.",
+     "quelques déterminant pluriel : le modèle en un mot accompagnant un nom pluriel.",
+     "quelque adverbe : la forme invariable exprimant environ devant le nombre.",
+     "quel que singulier : la structure en deux mots accordée au sujet singulier.",
+     "quel que pluriel : la structure en deux mots accordée au sujet pluriel."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-29-notions"
+    }
+   },
+   {
+    "id": "fr5-29-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Quelque temps signifie ici un peu de temps.",
+     "Quelques affiches indique un petit nombre non exact.",
+     "Quelque {20} personnes signifie environ {20}.",
+     "Quel que soit le projet et quelle que soit l’activité ont des sujets singuliers.",
+     "Quels que soient les projets et quelles que soient les activités gardent le pluriel."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-29-cas"
+    }
+   },
+   {
+    "id": "fr5-29-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Quelque temps exige toujours quelques au pluriel. Correction : L’expression étudiée conserve le singulier.",
+     "Quelques affiches fournit un total exact. Correction : Le nombre reste non précisé.",
+     "L’adverbe environ exige un s à quelque dans ce modèle. Correction : L’adverbe reste invariable.",
+     "Quelque soit remplace la construction attributive en deux mots. Correction : Devant soit dans ce modèle, les mots sont séparés.",
+     "Le sujet pluriel impose de supprimer tout accord de quel. Correction : Quel prend le genre et le nombre du sujet."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr5-29-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "quelque déterminant singulier : le modèle en un mot accompagnant le nom singulier étudié.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’expression étudiée conserve le singulier. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "quelques déterminant pluriel : le modèle en un mot accompagnant un nom pluriel.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le nombre reste non précisé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "quelque adverbe : la forme invariable exprimant environ devant le nombre.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’adverbe reste invariable. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "quel que singulier : la structure en deux mots accordée au sujet singulier.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Devant soit dans ce modèle, les mots sont séparés. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "quel que pluriel : la structure en deux mots accordée au sujet pluriel.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Quel prend le genre et le nombre du sujet. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Quelque temps exige toujours quelques au pluriel.",
+        "truth": "false",
+        "explain": "L’expression étudiée conserve le singulier."
+       },
+       {
+        "text": "Quelques affiches fournit un total exact.",
+        "truth": "false",
+        "explain": "Le nombre reste non précisé."
+       },
+       {
+        "text": "L’adverbe environ exige un s à quelque dans ce modèle.",
+        "truth": "false",
+        "explain": "L’adverbe reste invariable."
+       },
+       {
+        "text": "Quelque soit remplace la construction attributive en deux mots.",
+        "truth": "false",
+        "explain": "Devant soit dans ce modèle, les mots sont séparés."
+       },
+       {
+        "text": "Le sujet pluriel impose de supprimer tout accord de quel.",
+        "truth": "false",
+        "explain": "Quel prend le genre et le nombre du sujet."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr5-29-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne le modèle en un mot accompagnant le nom singulier étudié ?",
+       "r": "quelque déterminant singulier",
+       "w": [
+        "quelques déterminant pluriel",
+        "quelque adverbe",
+        "quel que singulier"
+       ],
+       "e": [
+        "Cela désigne le modèle en un mot accompagnant un nom pluriel, plutôt que la notion demandée.",
+        "Cela désigne la forme invariable exprimant environ devant le nombre, plutôt que la notion demandée.",
+        "Cela désigne la structure en deux mots accordée au sujet singulier, plutôt que la notion demandée."
+       ],
+       "y": "L’expression étudiée conserve le singulier."
+      },
+      {
+       "q": "Quel terme désigne le modèle en un mot accompagnant un nom pluriel ?",
+       "r": "quelques déterminant pluriel",
+       "w": [
+        "quelque déterminant singulier",
+        "quelque adverbe",
+        "quel que singulier"
+       ],
+       "e": [
+        "Cela désigne le modèle en un mot accompagnant le nom singulier étudié, plutôt que la notion demandée.",
+        "Cela désigne la forme invariable exprimant environ devant le nombre, plutôt que la notion demandée.",
+        "Cela désigne la structure en deux mots accordée au sujet singulier, plutôt que la notion demandée."
+       ],
+       "y": "Le nombre reste non précisé."
+      },
+      {
+       "q": "Quel terme désigne la forme invariable exprimant environ devant le nombre ?",
+       "r": "quelque adverbe",
+       "w": [
+        "quelque déterminant singulier",
+        "quelques déterminant pluriel",
+        "quel que singulier"
+       ],
+       "e": [
+        "Cela désigne le modèle en un mot accompagnant le nom singulier étudié, plutôt que la notion demandée.",
+        "Cela désigne le modèle en un mot accompagnant un nom pluriel, plutôt que la notion demandée.",
+        "Cela désigne la structure en deux mots accordée au sujet singulier, plutôt que la notion demandée."
+       ],
+       "y": "L’adverbe reste invariable."
+      },
+      {
+       "q": "Quel terme désigne la structure en deux mots accordée au sujet singulier ?",
+       "r": "quel que singulier",
+       "w": [
+        "quelque déterminant singulier",
+        "quelques déterminant pluriel",
+        "quelque adverbe"
+       ],
+       "e": [
+        "Cela désigne le modèle en un mot accompagnant le nom singulier étudié, plutôt que la notion demandée.",
+        "Cela désigne le modèle en un mot accompagnant un nom pluriel, plutôt que la notion demandée.",
+        "Cela désigne la forme invariable exprimant environ devant le nombre, plutôt que la notion demandée."
+       ],
+       "y": "Devant soit dans ce modèle, les mots sont séparés."
+      },
+      {
+       "q": "Quel terme désigne la structure en deux mots accordée au sujet pluriel ?",
+       "r": "quel que pluriel",
+       "w": [
+        "quelque déterminant singulier",
+        "quelques déterminant pluriel",
+        "quelque adverbe"
+       ],
+       "e": [
+        "Cela désigne le modèle en un mot accompagnant le nom singulier étudié, plutôt que la notion demandée.",
+        "Cela désigne le modèle en un mot accompagnant un nom pluriel, plutôt que la notion demandée.",
+        "Cela désigne la forme invariable exprimant environ devant le nombre, plutôt que la notion demandée."
+       ],
+       "y": "Quel prend le genre et le nombre du sujet."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-29-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelque temps signifie ici un peu de temps.\nQuelle notion convient ?",
+       "r": "quelque déterminant singulier",
+       "w": [
+        "quelques déterminant pluriel",
+        "quelque adverbe",
+        "quel que singulier"
+       ],
+       "e": [
+        "Cela concerne le modèle en un mot accompagnant un nom pluriel. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme invariable exprimant environ devant le nombre. Compare cette définition avec le cas présenté.",
+        "Cela concerne la structure en deux mots accordée au sujet singulier. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’expression étudiée conserve le singulier."
+      },
+      {
+       "q": "Quelques affiches indique un petit nombre non exact.\nQuelle notion convient ?",
+       "r": "quelques déterminant pluriel",
+       "w": [
+        "quelque déterminant singulier",
+        "quelque adverbe",
+        "quel que singulier"
+       ],
+       "e": [
+        "Cela concerne le modèle en un mot accompagnant le nom singulier étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme invariable exprimant environ devant le nombre. Compare cette définition avec le cas présenté.",
+        "Cela concerne la structure en deux mots accordée au sujet singulier. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le nombre reste non précisé."
+      },
+      {
+       "q": "Quelque {20} personnes signifie environ {20}.\nQuelle notion convient ?",
+       "r": "quelque adverbe",
+       "w": [
+        "quelque déterminant singulier",
+        "quelques déterminant pluriel",
+        "quel que singulier"
+       ],
+       "e": [
+        "Cela concerne le modèle en un mot accompagnant le nom singulier étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne le modèle en un mot accompagnant un nom pluriel. Compare cette définition avec le cas présenté.",
+        "Cela concerne la structure en deux mots accordée au sujet singulier. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’adverbe reste invariable."
+      },
+      {
+       "q": "Quel que soit le projet et quelle que soit l’activité ont des sujets singuliers.\nQuelle notion convient ?",
+       "r": "quel que singulier",
+       "w": [
+        "quelque déterminant singulier",
+        "quelques déterminant pluriel",
+        "quelque adverbe"
+       ],
+       "e": [
+        "Cela concerne le modèle en un mot accompagnant le nom singulier étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne le modèle en un mot accompagnant un nom pluriel. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme invariable exprimant environ devant le nombre. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Devant soit dans ce modèle, les mots sont séparés."
+      },
+      {
+       "q": "Quels que soient les projets et quelles que soient les activités gardent le pluriel.\nQuelle notion convient ?",
+       "r": "quel que pluriel",
+       "w": [
+        "quelque déterminant singulier",
+        "quelques déterminant pluriel",
+        "quelque adverbe"
+       ],
+       "e": [
+        "Cela concerne le modèle en un mot accompagnant le nom singulier étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne le modèle en un mot accompagnant un nom pluriel. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme invariable exprimant environ devant le nombre. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Quel prend le genre et le nombre du sujet."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-29-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Elle attend ___ temps : on parle d’un peu de temps.",
+       "r": "quelque",
+       "w": [
+        "quelques",
+        "quel que",
+        "quelle que"
+       ],
+       "e": [
+        "Temps est employé au singulier dans cette expression.",
+        "La structure en deux mots n’accompagne pas ainsi le nom.",
+        "Le modèle n’est pas une construction attributive avec être."
+       ],
+       "y": "Quelque temps reste une expression singulière."
+      },
+      {
+       "q": "Le groupe prépare ___ affiches : on parle d’un petit nombre d’affiches.",
+       "r": "quelques",
+       "w": [
+        "quelque",
+        "quelles que",
+        "quel que"
+       ],
+       "e": [
+        "Le nom pluriel demande quelques dans cet emploi déterminant.",
+        "La construction en deux mots demande un autre environnement syntaxique.",
+        "Ce n’est pas le modèle attributif demandé."
+       ],
+       "y": "Quelques détermine le nom pluriel."
+      },
+      {
+       "q": "Complète au sens de peu importe : ___ {fr2Subjonctif(\"être\",2)} le projet, lis la consigne.",
+       "r": "quel que",
+       "w": [
+        "quelque",
+        "quelle que",
+        "quels que"
+       ],
+       "e": [
+        "La construction attributive devant soit s’écrit en deux mots.",
+        "Projet est masculin, non féminin.",
+        "Projet est singulier, non pluriel."
+       ],
+       "y": "Quel s’accorde avec projet au masculin singulier."
+      },
+      {
+       "q": "Complète au sens de peu importe : ___ {fr2Subjonctif(\"être\",6)} les projets, lis la consigne.",
+       "r": "quels que",
+       "w": [
+        "quel que",
+        "quelles que",
+        "quelques"
+       ],
+       "e": [
+        "Projets est pluriel.",
+        "Projets est masculin.",
+        "Le modèle attributif devant soient s’écrit en deux mots."
+       ],
+       "y": "Quels s’accorde avec projets."
+      },
+      {
+       "q": "Complète au sens de peu importe : ___ {fr2Subjonctif(\"être\",3)} l’activité, lis la consigne.",
+       "r": "quelle que",
+       "w": [
+        "quel que",
+        "quelles que",
+        "quelque"
+       ],
+       "e": [
+        "Activité est féminin.",
+        "Le référent est singulier.",
+        "La structure attributive devant soit s’écrit en deux mots."
+       ],
+       "y": "Quelle s’accorde avec activité."
+      },
+      {
+       "q": "Complète au sens de peu importe : ___ {fr2Subjonctif(\"être\",7)} les activités, lis la consigne.",
+       "r": "quelles que",
+       "w": [
+        "quelle que",
+        "quels que",
+        "quelques"
+       ],
+       "e": [
+        "Activités est pluriel.",
+        "Activités est féminin.",
+        "L’expression attributive devant soient s’écrit en deux mots."
+       ],
+       "y": "Quelles s’accorde avec activités."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-29-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "quelque déterminant singulier",
+     "right": "Quelque temps signifie ici un peu de temps."
+    },
+    {
+     "left": "quelques déterminant pluriel",
+     "right": "Quelques affiches indique un petit nombre non exact."
+    },
+    {
+     "left": "quelque adverbe",
+     "right": "Quelque {20} personnes signifie environ {20}."
+    },
+    {
+     "left": "quel que singulier",
+     "right": "Quel que soit le projet et quelle que soit l’activité ont des sujets singuliers."
+    },
+    {
+     "left": "quel que pluriel",
+     "right": "Quels que soient les projets et quelles que soient les activités gardent le pluriel."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-29-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "quelque déterminant singulier : le modèle en un mot accompagnant le nom singulier étudié.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’expression étudiée conserve le singulier. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "quelques déterminant pluriel : le modèle en un mot accompagnant un nom pluriel.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le nombre reste non précisé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "quelque adverbe : la forme invariable exprimant environ devant le nombre.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’adverbe reste invariable. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "quel que singulier : la structure en deux mots accordée au sujet singulier.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Devant soit dans ce modèle, les mots sont séparés. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "quel que pluriel : la structure en deux mots accordée au sujet pluriel.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Quel prend le genre et le nombre du sujet. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Quelque temps exige toujours quelques au pluriel.",
+      "truth": "false",
+      "explain": "L’expression étudiée conserve le singulier."
+     },
+     {
+      "text": "Quelques affiches fournit un total exact.",
+      "truth": "false",
+      "explain": "Le nombre reste non précisé."
+     },
+     {
+      "text": "L’adverbe environ exige un s à quelque dans ce modèle.",
+      "truth": "false",
+      "explain": "L’adverbe reste invariable."
+     },
+     {
+      "text": "Quelque soit remplace la construction attributive en deux mots.",
+      "truth": "false",
+      "explain": "Devant soit dans ce modèle, les mots sont séparés."
+     },
+     {
+      "text": "Le sujet pluriel impose de supprimer tout accord de quel.",
+      "truth": "false",
+      "explain": "Quel prend le genre et le nombre du sujet."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

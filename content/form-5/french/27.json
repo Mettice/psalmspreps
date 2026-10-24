@@ -1,0 +1,612 @@
+{
+ "subject": "french",
+ "class": "Form 5",
+ "lesson_no": 27,
+ "language": "fr",
+ "prerequisites": [
+  6,
+  11,
+  15,
+  26
+ ],
+ "skills": [
+  {
+   "id": "fr5-27",
+   "name": "Traduire des expressions idiomatiques et des proverbes"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Traduire demande de conserver le sens, les personnes, les relations et le temps dans une construction naturelle. On ne remplace pas simplement chaque mot anglais par le premier mot français rencontré. Repère qui fait quoi, à qui et quand. Une traduction peut avoir plusieurs formulations justes ; les choix proposés testent ici des contrastes explicitement définis. Les courts textes sources anglais sont nécessaires à l’exercice, tandis que les consignes et les explications restent en français.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras préserver une intention figurée par une formulation française naturelle. Acquis mobilisés : sens contextuel, homophones et fidélité de traduction. Pour la suite : portrait et reformulations autonomes."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Traduire demande de conserver le sens, les personnes, les relations et le temps dans une construction naturelle. On ne remplace pas simplement chaque mot anglais par le premier mot français rencontré. Repère qui fait quoi, à qui et quand. Une traduction peut avoir plusieurs formulations justes ; les choix proposés testent ici des contrastes explicitement définis. Les courts textes sources anglais sont nécessaires à l’exercice, tandis que les consignes et les explications restent en français."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles de traduction : “Better late than never.” → Mieux vaut tard que jamais. “Do not put the cart before the horse.” → Ne mets pas la charrue avant les bœufs. On vise le sens conventionnel, non une nouvelle histoire d’animaux. “All that glitters is not gold” avertit de ne pas confondre apparence et valeur, sans dire que rien de brillant ne peut être de l’or."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Lis la source, repère les informations essentielles et rédige une proposition en français. Vérifie ensuite personne, temps et sens. N’ajoute pas un traitement, une identité ou un événement absent. Compare la fidélité du message plutôt que l’identité absolue des mots."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "fidélité",
+    "meaning": "la conservation des informations et relations du texte source"
+   },
+   {
+    "word": "personne grammaticale",
+    "meaning": "le sujet ou destinataire à conserver dans la traduction"
+   },
+   {
+    "word": "temps et aspect",
+    "meaning": "la manière de situer et présenter l’action à conserver selon le contexte"
+   },
+   {
+    "word": "formulation naturelle",
+    "meaning": "une construction française correcte plutôt qu’un calque mécanique"
+   }
+  ],
+  "mistake": {
+   "wrong": "Traduire autorise à inventer les faits qui plaisent.",
+   "right": "la conservation des informations et relations du texte source.",
+   "why": "Les informations ajoutées sans source changent le message."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Une traduction garde qui aide qui dans le modèle. Explique le choix.",
+  "steps": [
+   "la conservation des informations et relations du texte source.",
+   "Les informations ajoutées sans source changent le message."
+  ],
+  "answer": "fidélité",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr5-27-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "fidélité : la conservation des informations et relations du texte source.",
+     "personne grammaticale : le sujet ou destinataire à conserver dans la traduction.",
+     "temps et aspect : la manière de situer et présenter l’action à conserver selon le contexte.",
+     "formulation naturelle : une construction française correcte plutôt qu’un calque mécanique."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-27-notions"
+    }
+   },
+   {
+    "id": "fr5-27-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Une traduction garde qui aide qui dans le modèle.",
+     "We ne devient pas automatiquement elle.",
+     "Un événement accompli n’est pas remplacé sans raison par une habitude actuelle.",
+     "Une phrase est reformulée avec l’ordre attendu en français."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-27-cas"
+    }
+   },
+   {
+    "id": "fr5-27-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Traduire autorise à inventer les faits qui plaisent. Correction : Les informations ajoutées sans source changent le message.",
+     "Chaque pronom anglais peut être remplacé par un sujet français au hasard. Correction : Les référents font partie du sens à préserver.",
+     "Le temps du verbe n’a aucune incidence sur le message. Correction : La situation temporelle contribue à l’information.",
+     "Une traduction fidèle doit toujours copier chaque ordre de mots anglais. Correction : Les langues peuvent organiser différemment un même sens."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr5-27-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "fidélité : la conservation des informations et relations du texte source.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les informations ajoutées sans source changent le message. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "personne grammaticale : le sujet ou destinataire à conserver dans la traduction.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les référents font partie du sens à préserver. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "temps et aspect : la manière de situer et présenter l’action à conserver selon le contexte.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La situation temporelle contribue à l’information. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "formulation naturelle : une construction française correcte plutôt qu’un calque mécanique.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les langues peuvent organiser différemment un même sens. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Traduire autorise à inventer les faits qui plaisent.",
+        "truth": "false",
+        "explain": "Les informations ajoutées sans source changent le message."
+       },
+       {
+        "text": "Chaque pronom anglais peut être remplacé par un sujet français au hasard.",
+        "truth": "false",
+        "explain": "Les référents font partie du sens à préserver."
+       },
+       {
+        "text": "Le temps du verbe n’a aucune incidence sur le message.",
+        "truth": "false",
+        "explain": "La situation temporelle contribue à l’information."
+       },
+       {
+        "text": "Une traduction fidèle doit toujours copier chaque ordre de mots anglais.",
+        "truth": "false",
+        "explain": "Les langues peuvent organiser différemment un même sens."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr5-27-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne la conservation des informations et relations du texte source ?",
+       "r": "fidélité",
+       "w": [
+        "personne grammaticale",
+        "temps et aspect",
+        "formulation naturelle"
+       ],
+       "e": [
+        "Cela désigne le sujet ou destinataire à conserver dans la traduction, plutôt que la notion demandée.",
+        "Cela désigne la manière de situer et présenter l’action à conserver selon le contexte, plutôt que la notion demandée.",
+        "Cela désigne une construction française correcte plutôt qu’un calque mécanique, plutôt que la notion demandée."
+       ],
+       "y": "Les informations ajoutées sans source changent le message."
+      },
+      {
+       "q": "Quel terme désigne le sujet ou destinataire à conserver dans la traduction ?",
+       "r": "personne grammaticale",
+       "w": [
+        "fidélité",
+        "temps et aspect",
+        "formulation naturelle"
+       ],
+       "e": [
+        "Cela désigne la conservation des informations et relations du texte source, plutôt que la notion demandée.",
+        "Cela désigne la manière de situer et présenter l’action à conserver selon le contexte, plutôt que la notion demandée.",
+        "Cela désigne une construction française correcte plutôt qu’un calque mécanique, plutôt que la notion demandée."
+       ],
+       "y": "Les référents font partie du sens à préserver."
+      },
+      {
+       "q": "Quel terme désigne la manière de situer et présenter l’action à conserver selon le contexte ?",
+       "r": "temps et aspect",
+       "w": [
+        "fidélité",
+        "personne grammaticale",
+        "formulation naturelle"
+       ],
+       "e": [
+        "Cela désigne la conservation des informations et relations du texte source, plutôt que la notion demandée.",
+        "Cela désigne le sujet ou destinataire à conserver dans la traduction, plutôt que la notion demandée.",
+        "Cela désigne une construction française correcte plutôt qu’un calque mécanique, plutôt que la notion demandée."
+       ],
+       "y": "La situation temporelle contribue à l’information."
+      },
+      {
+       "q": "Quel terme désigne une construction française correcte plutôt qu’un calque mécanique ?",
+       "r": "formulation naturelle",
+       "w": [
+        "fidélité",
+        "personne grammaticale",
+        "temps et aspect"
+       ],
+       "e": [
+        "Cela désigne la conservation des informations et relations du texte source, plutôt que la notion demandée.",
+        "Cela désigne le sujet ou destinataire à conserver dans la traduction, plutôt que la notion demandée.",
+        "Cela désigne la manière de situer et présenter l’action à conserver selon le contexte, plutôt que la notion demandée."
+       ],
+       "y": "Les langues peuvent organiser différemment un même sens."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-27-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Une traduction garde qui aide qui dans le modèle.\nQuelle notion convient ?",
+       "r": "fidélité",
+       "w": [
+        "personne grammaticale",
+        "temps et aspect",
+        "formulation naturelle"
+       ],
+       "e": [
+        "Cela concerne le sujet ou destinataire à conserver dans la traduction. Compare cette définition avec le cas présenté.",
+        "Cela concerne la manière de situer et présenter l’action à conserver selon le contexte. Compare cette définition avec le cas présenté.",
+        "Cela concerne une construction française correcte plutôt qu’un calque mécanique. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les informations ajoutées sans source changent le message."
+      },
+      {
+       "q": "We ne devient pas automatiquement elle.\nQuelle notion convient ?",
+       "r": "personne grammaticale",
+       "w": [
+        "fidélité",
+        "temps et aspect",
+        "formulation naturelle"
+       ],
+       "e": [
+        "Cela concerne la conservation des informations et relations du texte source. Compare cette définition avec le cas présenté.",
+        "Cela concerne la manière de situer et présenter l’action à conserver selon le contexte. Compare cette définition avec le cas présenté.",
+        "Cela concerne une construction française correcte plutôt qu’un calque mécanique. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les référents font partie du sens à préserver."
+      },
+      {
+       "q": "Un événement accompli n’est pas remplacé sans raison par une habitude actuelle.\nQuelle notion convient ?",
+       "r": "temps et aspect",
+       "w": [
+        "fidélité",
+        "personne grammaticale",
+        "formulation naturelle"
+       ],
+       "e": [
+        "Cela concerne la conservation des informations et relations du texte source. Compare cette définition avec le cas présenté.",
+        "Cela concerne le sujet ou destinataire à conserver dans la traduction. Compare cette définition avec le cas présenté.",
+        "Cela concerne une construction française correcte plutôt qu’un calque mécanique. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La situation temporelle contribue à l’information."
+      },
+      {
+       "q": "Une phrase est reformulée avec l’ordre attendu en français.\nQuelle notion convient ?",
+       "r": "formulation naturelle",
+       "w": [
+        "fidélité",
+        "personne grammaticale",
+        "temps et aspect"
+       ],
+       "e": [
+        "Cela concerne la conservation des informations et relations du texte source. Compare cette définition avec le cas présenté.",
+        "Cela concerne le sujet ou destinataire à conserver dans la traduction. Compare cette définition avec le cas présenté.",
+        "Cela concerne la manière de situer et présenter l’action à conserver selon le contexte. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les langues peuvent organiser différemment un même sens."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-27-traduire",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Traduis l’intention de “Better late than never.”",
+       "r": "Mieux vaut tard que jamais.",
+       "w": [
+        "Il faut toujours arriver en retard.",
+        "Jamais vaut obligatoirement mieux que tard.",
+        "Chaque retard prouve une faute définitive."
+       ],
+       "e": [
+        "Le proverbe ne recommande pas systématiquement le retard.",
+        "Cette formule inverse la préférence.",
+        "Ce jugement n’est pas dans la source."
+       ],
+       "y": "Conserve la préférence conventionnelle du proverbe."
+      },
+      {
+       "q": "Traduis le proverbe “Do not put the cart before the horse.”",
+       "r": "Ne mets pas la charrue avant les bœufs.",
+       "w": [
+        "Mets toujours toutes les étapes à l’envers.",
+        "Tous les chevaux sont des charrues.",
+        "Le proverbe mesure la vitesse des animaux."
+       ],
+       "e": [
+        "Le conseil demande justement de respecter l’ordre.",
+        "Une relation d’identité est inventée.",
+        "Le sens figuré concerne l’ordre des actions."
+       ],
+       "y": "Une formulation idiomatique peut changer les objets littéraux pour garder le sens."
+      },
+      {
+       "q": "Quelle reformulation garde l’idée de “All that glitters is not gold” ?",
+       "r": "Une apparence attirante ne garantit pas la valeur.",
+       "w": [
+        "Aucun objet brillant ne peut être en or.",
+        "Tout ce qui attire est nécessairement précieux.",
+        "Seule la couleur donne toute valeur."
+       ],
+       "e": [
+        "Le proverbe n’exclut pas tout objet brillant en or.",
+        "C’est la généralisation contestée par le proverbe.",
+        "L’apparence ne suffit pas."
+       ],
+       "y": "Préserve la portée : pas tout, et non aucun."
+      },
+      {
+       "q": "Dans une discussion où “Many hands make light work” valorise la coopération, quelle traduction de sens convient ?",
+       "r": "À plusieurs, la tâche peut être moins lourde.",
+       "w": [
+        "Chaque main doit être traduite comme une lampe.",
+        "Travailler ensemble garantit toute réussite sans coordination.",
+        "Personne ne doit jamais aider."
+       ],
+       "e": [
+        "Light a ici un sens de moindre poids ou difficulté.",
+        "Le proverbe ne supprime pas les contraintes réelles.",
+        "Cela inverse le sens coopératif."
+       ],
+       "y": "Le contexte demande une adaptation de sens, non un calque de chaque mot."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-27-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "fidélité",
+     "right": "Une traduction garde qui aide qui dans le modèle."
+    },
+    {
+     "left": "personne grammaticale",
+     "right": "We ne devient pas automatiquement elle."
+    },
+    {
+     "left": "temps et aspect",
+     "right": "Un événement accompli n’est pas remplacé sans raison par une habitude actuelle."
+    },
+    {
+     "left": "formulation naturelle",
+     "right": "Une phrase est reformulée avec l’ordre attendu en français."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-27-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "fidélité : la conservation des informations et relations du texte source.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les informations ajoutées sans source changent le message. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "personne grammaticale : le sujet ou destinataire à conserver dans la traduction.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les référents font partie du sens à préserver. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "temps et aspect : la manière de situer et présenter l’action à conserver selon le contexte.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La situation temporelle contribue à l’information. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "formulation naturelle : une construction française correcte plutôt qu’un calque mécanique.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les langues peuvent organiser différemment un même sens. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Traduire autorise à inventer les faits qui plaisent.",
+      "truth": "false",
+      "explain": "Les informations ajoutées sans source changent le message."
+     },
+     {
+      "text": "Chaque pronom anglais peut être remplacé par un sujet français au hasard.",
+      "truth": "false",
+      "explain": "Les référents font partie du sens à préserver."
+     },
+     {
+      "text": "Le temps du verbe n’a aucune incidence sur le message.",
+      "truth": "false",
+      "explain": "La situation temporelle contribue à l’information."
+     },
+     {
+      "text": "Une traduction fidèle doit toujours copier chaque ordre de mots anglais.",
+      "truth": "false",
+      "explain": "Les langues peuvent organiser différemment un même sens."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

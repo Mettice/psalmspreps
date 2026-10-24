@@ -1,0 +1,565 @@
+{
+ "subject": "french",
+ "class": "Form 5",
+ "lesson_no": 10,
+ "language": "fr",
+ "prerequisites": [
+  4,
+  9
+ ],
+ "skills": [
+  {
+   "id": "fr5-10",
+   "name": "Les verbes irréguliers au présent"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un verbe irrégulier ne suit pas entièrement un modèle régulier unique. Il faut reconnaître le verbe et apprendre ses formes de référence. Aller donne je vais et nous allons ; faire donne nous faisons et vous faites. Les personnes peuvent employer des bases différentes. Un changement de radical ne permet pas de changer librement le temps ou le sujet. Les exercices portent sur les verbes étudiés au présent, pas sur tous les temps de tous les verbes irréguliers.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras retrouver une forme irrégulière en conservant le sujet et le temps demandés. Acquis mobilisés : présent, pronoms et récit. Pour la suite : traduction, condition et formes composées."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Un verbe irrégulier ne suit pas entièrement un modèle régulier unique. Il faut reconnaître le verbe et apprendre ses formes de référence. Aller donne je vais et nous allons ; faire donne nous faisons et vous faites. Les personnes peuvent employer des bases différentes. Un changement de radical ne permet pas de changer librement le temps ou le sujet. Les exercices portent sur les verbes étudiés au présent, pas sur tous les temps de tous les verbes irréguliers."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles calculés : {fr2With(0,fr2Present(\"aller\",0))} ; {fr2With(4,fr2Present(\"aller\",4))} ; {fr2With(5,fr2Present(\"faire\",5))} ; {fr2With(6,fr2Present(\"venir\",6))}. Compare {fr2With(0,fr2Present(\"avoir\",0))} avec {fr2With(0,fr2Imparfait(\"avoir\",0))} : ce sont des temps différents, même si le sujet reste identique."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Lis le verbe, le temps et le sujet avant de choisir. Vérifie radical et terminaison, puis l’élision éventuelle de je. Ne cherche pas une graphie plausible en ajoutant les terminaisons régulières à n’importe quel infinitif."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "irrégularité",
+    "meaning": "un écart au modèle régulier unique dans les formes étudiées"
+   },
+   {
+    "word": "personne conservée",
+    "meaning": "le maintien du sujet demandé"
+   },
+   {
+    "word": "temps conservé",
+    "meaning": "le maintien du présent demandé"
+   },
+   {
+    "word": "forme de référence",
+    "meaning": "une forme reconnue du paradigme étudié"
+   }
+  ],
+  "mistake": {
+   "wrong": "Tout verbe en -er suit toutes les formes de parler sans exception.",
+   "right": "un écart au modèle régulier unique dans les formes étudiées.",
+   "why": "Aller présente des formes particulières."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Aller donne je vais, non une simple forme régulière en -er. Explique le choix.",
+  "steps": [
+   "un écart au modèle régulier unique dans les formes étudiées.",
+   "Aller présente des formes particulières."
+  ],
+  "answer": "irrégularité",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr5-10-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "irrégularité : un écart au modèle régulier unique dans les formes étudiées.",
+     "personne conservée : le maintien du sujet demandé.",
+     "temps conservé : le maintien du présent demandé.",
+     "forme de référence : une forme reconnue du paradigme étudié."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-10-notions"
+    }
+   },
+   {
+    "id": "fr5-10-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Aller donne je vais, non une simple forme régulière en -er.",
+     "Vous faites correspond au sujet vous.",
+     "Nous faisons diffère de nous faisions.",
+     "Ils viennent illustre une base de venir."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-10-cas"
+    }
+   },
+   {
+    "id": "fr5-10-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Tout verbe en -er suit toutes les formes de parler sans exception. Correction : Aller présente des formes particulières.",
+     "Je fais répond à toute consigne avec vous. Correction : Le changement de sujet ne satisfait pas la demande.",
+     "Une forme correcte à l’imparfait est toujours la réponse au présent. Correction : La correction dépend aussi du temps requis.",
+     "Un infinitif seul est toujours le présent complet avec un sujet. Correction : Le verbe doit porter la forme personnelle."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr5-10-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "irrégularité : un écart au modèle régulier unique dans les formes étudiées.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Aller présente des formes particulières. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "personne conservée : le maintien du sujet demandé.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le changement de sujet ne satisfait pas la demande. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "temps conservé : le maintien du présent demandé.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La correction dépend aussi du temps requis. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "forme de référence : une forme reconnue du paradigme étudié.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le verbe doit porter la forme personnelle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Tout verbe en -er suit toutes les formes de parler sans exception.",
+        "truth": "false",
+        "explain": "Aller présente des formes particulières."
+       },
+       {
+        "text": "Je fais répond à toute consigne avec vous.",
+        "truth": "false",
+        "explain": "Le changement de sujet ne satisfait pas la demande."
+       },
+       {
+        "text": "Une forme correcte à l’imparfait est toujours la réponse au présent.",
+        "truth": "false",
+        "explain": "La correction dépend aussi du temps requis."
+       },
+       {
+        "text": "Un infinitif seul est toujours le présent complet avec un sujet.",
+        "truth": "false",
+        "explain": "Le verbe doit porter la forme personnelle."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr5-10-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne un écart au modèle régulier unique dans les formes étudiées ?",
+       "r": "irrégularité",
+       "w": [
+        "personne conservée",
+        "temps conservé",
+        "forme de référence"
+       ],
+       "e": [
+        "Cela désigne le maintien du sujet demandé, plutôt que la notion demandée.",
+        "Cela désigne le maintien du présent demandé, plutôt que la notion demandée.",
+        "Cela désigne une forme reconnue du paradigme étudié, plutôt que la notion demandée."
+       ],
+       "y": "Aller présente des formes particulières."
+      },
+      {
+       "q": "Quel terme désigne le maintien du sujet demandé ?",
+       "r": "personne conservée",
+       "w": [
+        "irrégularité",
+        "temps conservé",
+        "forme de référence"
+       ],
+       "e": [
+        "Cela désigne un écart au modèle régulier unique dans les formes étudiées, plutôt que la notion demandée.",
+        "Cela désigne le maintien du présent demandé, plutôt que la notion demandée.",
+        "Cela désigne une forme reconnue du paradigme étudié, plutôt que la notion demandée."
+       ],
+       "y": "Le changement de sujet ne satisfait pas la demande."
+      },
+      {
+       "q": "Quel terme désigne le maintien du présent demandé ?",
+       "r": "temps conservé",
+       "w": [
+        "irrégularité",
+        "personne conservée",
+        "forme de référence"
+       ],
+       "e": [
+        "Cela désigne un écart au modèle régulier unique dans les formes étudiées, plutôt que la notion demandée.",
+        "Cela désigne le maintien du sujet demandé, plutôt que la notion demandée.",
+        "Cela désigne une forme reconnue du paradigme étudié, plutôt que la notion demandée."
+       ],
+       "y": "La correction dépend aussi du temps requis."
+      },
+      {
+       "q": "Quel terme désigne une forme reconnue du paradigme étudié ?",
+       "r": "forme de référence",
+       "w": [
+        "irrégularité",
+        "personne conservée",
+        "temps conservé"
+       ],
+       "e": [
+        "Cela désigne un écart au modèle régulier unique dans les formes étudiées, plutôt que la notion demandée.",
+        "Cela désigne le maintien du sujet demandé, plutôt que la notion demandée.",
+        "Cela désigne le maintien du présent demandé, plutôt que la notion demandée."
+       ],
+       "y": "Le verbe doit porter la forme personnelle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-10-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Aller donne je vais, non une simple forme régulière en -er.\nQuelle notion convient ?",
+       "r": "irrégularité",
+       "w": [
+        "personne conservée",
+        "temps conservé",
+        "forme de référence"
+       ],
+       "e": [
+        "Cela concerne le maintien du sujet demandé. Compare cette définition avec le cas présenté.",
+        "Cela concerne le maintien du présent demandé. Compare cette définition avec le cas présenté.",
+        "Cela concerne une forme reconnue du paradigme étudié. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Aller présente des formes particulières."
+      },
+      {
+       "q": "Vous faites correspond au sujet vous.\nQuelle notion convient ?",
+       "r": "personne conservée",
+       "w": [
+        "irrégularité",
+        "temps conservé",
+        "forme de référence"
+       ],
+       "e": [
+        "Cela concerne un écart au modèle régulier unique dans les formes étudiées. Compare cette définition avec le cas présenté.",
+        "Cela concerne le maintien du présent demandé. Compare cette définition avec le cas présenté.",
+        "Cela concerne une forme reconnue du paradigme étudié. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le changement de sujet ne satisfait pas la demande."
+      },
+      {
+       "q": "Nous faisons diffère de nous faisions.\nQuelle notion convient ?",
+       "r": "temps conservé",
+       "w": [
+        "irrégularité",
+        "personne conservée",
+        "forme de référence"
+       ],
+       "e": [
+        "Cela concerne un écart au modèle régulier unique dans les formes étudiées. Compare cette définition avec le cas présenté.",
+        "Cela concerne le maintien du sujet demandé. Compare cette définition avec le cas présenté.",
+        "Cela concerne une forme reconnue du paradigme étudié. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La correction dépend aussi du temps requis."
+      },
+      {
+       "q": "Ils viennent illustre une base de venir.\nQuelle notion convient ?",
+       "r": "forme de référence",
+       "w": [
+        "irrégularité",
+        "personne conservée",
+        "temps conservé"
+       ],
+       "e": [
+        "Cela concerne un écart au modèle régulier unique dans les formes étudiées. Compare cette définition avec le cas présenté.",
+        "Cela concerne le maintien du sujet demandé. Compare cette définition avec le cas présenté.",
+        "Cela concerne le maintien du présent demandé. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le verbe doit porter la forme personnelle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-10-present",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "aller",
+      "faire",
+      "venir",
+      "prendre",
+      "être",
+      "avoir"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au présent de l’indicatif avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p,fr2Present(v,p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p,fr2PlainPresent(v,p))}",
+     "misconception": "reg"
+    },
+    {
+     "text": "{fr2With(p,fr2Imparfait(v,p))}",
+     "misconception": "temps"
+    },
+    {
+     "text": "{fr2With(p,v)}",
+     "misconception": "inf"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "reg",
+     "explain": "Le modèle régulier en -er ne donne pas cette forme irrégulière demandée."
+    },
+    {
+     "id": "temps",
+     "explain": "Cette forme est à l’imparfait et non au présent demandé."
+    },
+    {
+     "id": "inf",
+     "explain": "L’infinitif ne porte pas la personne du présent."
+    }
+   ],
+   "solution": [
+    "Identifie le verbe, le sujet et le temps.",
+    "La forme irrégulière complète est {answer}."
+   ],
+   "where": [
+    "fr2PlainPresent(v,p)!=fr2Present(v,p)"
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-10-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "irrégularité",
+     "right": "Aller donne je vais, non une simple forme régulière en -er."
+    },
+    {
+     "left": "personne conservée",
+     "right": "Vous faites correspond au sujet vous."
+    },
+    {
+     "left": "temps conservé",
+     "right": "Nous faisons diffère de nous faisions."
+    },
+    {
+     "left": "forme de référence",
+     "right": "Ils viennent illustre une base de venir."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-10-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "irrégularité : un écart au modèle régulier unique dans les formes étudiées.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Aller présente des formes particulières. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "personne conservée : le maintien du sujet demandé.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le changement de sujet ne satisfait pas la demande. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "temps conservé : le maintien du présent demandé.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La correction dépend aussi du temps requis. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "forme de référence : une forme reconnue du paradigme étudié.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le verbe doit porter la forme personnelle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Tout verbe en -er suit toutes les formes de parler sans exception.",
+      "truth": "false",
+      "explain": "Aller présente des formes particulières."
+     },
+     {
+      "text": "Je fais répond à toute consigne avec vous.",
+      "truth": "false",
+      "explain": "Le changement de sujet ne satisfait pas la demande."
+     },
+     {
+      "text": "Une forme correcte à l’imparfait est toujours la réponse au présent.",
+      "truth": "false",
+      "explain": "La correction dépend aussi du temps requis."
+     },
+     {
+      "text": "Un infinitif seul est toujours le présent complet avec un sujet.",
+      "truth": "false",
+      "explain": "Le verbe doit porter la forme personnelle."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

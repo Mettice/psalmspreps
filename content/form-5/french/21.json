@@ -1,0 +1,610 @@
+{
+ "subject": "french",
+ "class": "Form 5",
+ "lesson_no": 21,
+ "language": "fr",
+ "prerequisites": [
+  17,
+  20
+ ],
+ "skills": [
+  {
+   "id": "fr5-21",
+   "name": "Le lexique des maladies hydriques"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Hydrique signifie lié à l’eau. Une maladie à transmission hydrique peut se transmettre par de l’eau contaminée selon son agent et son mode de transmission ; le choléra en est un exemple documenté. Contamination désigne la présence d’un élément indésirable ; un agent pathogène peut provoquer une maladie. Transmission nomme le passage de l’agent vers un hôte. Prévention concerne les actions visant à réduire le risque. Le sens d’un mot ou l’aspect clair d’une eau ne suffit pas à établir une analyse sanitaire ou un diagnostic.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras expliquer des mots d’un texte sur la transmission par l’eau sans poser de diagnostic. Acquis mobilisés : vocabulaire thématique et distinction entre texte et constat. Pour la suite : lecture, souhaits et traduction de messages."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Hydrique signifie lié à l’eau. Une maladie à transmission hydrique peut se transmettre par de l’eau contaminée selon son agent et son mode de transmission ; le choléra en est un exemple documenté. Contamination désigne la présence d’un élément indésirable ; un agent pathogène peut provoquer une maladie. Transmission nomme le passage de l’agent vers un hôte. Prévention concerne les actions visant à réduire le risque. Le sens d’un mot ou l’aspect clair d’une eau ne suffit pas à établir une analyse sanitaire ou un diagnostic."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Texte original : Un club lit une fiche expliquant transmission, contamination et prévention. Bih demande ce que ces mots signifient avant de rédiger une affiche. Le passage n’analyse aucun échantillon et ne décrit aucun patient. Il sert à comprendre un message, non à prescrire un traitement."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Lis la phrase entière, repère la relation de sens et choisis un mot adapté au contexte. Une proximité de thème ne rend pas tous les mots interchangeables. Réemploie ensuite un mot dans une phrase originale et vérifie ce que tu veux dire."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "contamination",
+    "meaning": "la présence d’un élément indésirable dans le milieu évoqué"
+   },
+   {
+    "word": "agent pathogène",
+    "meaning": "un agent susceptible de provoquer une maladie"
+   },
+   {
+    "word": "transmission",
+    "meaning": "le passage de l’agent vers un hôte selon le mode évoqué"
+   },
+   {
+    "word": "prévention",
+    "meaning": "des actions visant à réduire un risque"
+   }
+  ],
+  "mistake": {
+   "wrong": "Une eau claire est nécessairement exempte de toute contamination.",
+   "right": "la présence d’un élément indésirable dans le milieu évoqué.",
+   "why": "L’aspect seul ne remplace pas une analyse."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "La fiche parle d’une eau contenant un agent indésirable. Explique le choix.",
+  "steps": [
+   "la présence d’un élément indésirable dans le milieu évoqué.",
+   "L’aspect seul ne remplace pas une analyse."
+  ],
+  "answer": "contamination",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr5-21-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "contamination : la présence d’un élément indésirable dans le milieu évoqué.",
+     "agent pathogène : un agent susceptible de provoquer une maladie.",
+     "transmission : le passage de l’agent vers un hôte selon le mode évoqué.",
+     "prévention : des actions visant à réduire un risque."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-21-notions"
+    }
+   },
+   {
+    "id": "fr5-21-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "La fiche parle d’une eau contenant un agent indésirable.",
+     "Le texte distingue un agent pathogène d’un simple mot difficile.",
+     "La fiche explique une voie de passage par l’eau.",
+     "La fiche distingue réduction du risque et garantie absolue."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-21-cas"
+    }
+   },
+   {
+    "id": "fr5-21-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Une eau claire est nécessairement exempte de toute contamination. Correction : L’aspect seul ne remplace pas une analyse.",
+     "Tout objet cité dans une phrase est forcément pathogène. Correction : Le sens renvoie à la capacité de provoquer une maladie.",
+     "Transmission signifie uniquement la couleur du récipient. Correction : Le terme décrit un passage, non une couleur.",
+     "Prévention signifie qu’aucun risque ne peut jamais subsister. Correction : Réduire un risque n’est pas une garantie universelle."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr5-21-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "contamination : la présence d’un élément indésirable dans le milieu évoqué.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’aspect seul ne remplace pas une analyse. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "agent pathogène : un agent susceptible de provoquer une maladie.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le sens renvoie à la capacité de provoquer une maladie. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "transmission : le passage de l’agent vers un hôte selon le mode évoqué.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le terme décrit un passage, non une couleur. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "prévention : des actions visant à réduire un risque.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Réduire un risque n’est pas une garantie universelle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une eau claire est nécessairement exempte de toute contamination.",
+        "truth": "false",
+        "explain": "L’aspect seul ne remplace pas une analyse."
+       },
+       {
+        "text": "Tout objet cité dans une phrase est forcément pathogène.",
+        "truth": "false",
+        "explain": "Le sens renvoie à la capacité de provoquer une maladie."
+       },
+       {
+        "text": "Transmission signifie uniquement la couleur du récipient.",
+        "truth": "false",
+        "explain": "Le terme décrit un passage, non une couleur."
+       },
+       {
+        "text": "Prévention signifie qu’aucun risque ne peut jamais subsister.",
+        "truth": "false",
+        "explain": "Réduire un risque n’est pas une garantie universelle."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr5-21-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne la présence d’un élément indésirable dans le milieu évoqué ?",
+       "r": "contamination",
+       "w": [
+        "agent pathogène",
+        "transmission",
+        "prévention"
+       ],
+       "e": [
+        "Cela désigne un agent susceptible de provoquer une maladie, plutôt que la notion demandée.",
+        "Cela désigne le passage de l’agent vers un hôte selon le mode évoqué, plutôt que la notion demandée.",
+        "Cela désigne des actions visant à réduire un risque, plutôt que la notion demandée."
+       ],
+       "y": "L’aspect seul ne remplace pas une analyse."
+      },
+      {
+       "q": "Quel terme désigne un agent susceptible de provoquer une maladie ?",
+       "r": "agent pathogène",
+       "w": [
+        "contamination",
+        "transmission",
+        "prévention"
+       ],
+       "e": [
+        "Cela désigne la présence d’un élément indésirable dans le milieu évoqué, plutôt que la notion demandée.",
+        "Cela désigne le passage de l’agent vers un hôte selon le mode évoqué, plutôt que la notion demandée.",
+        "Cela désigne des actions visant à réduire un risque, plutôt que la notion demandée."
+       ],
+       "y": "Le sens renvoie à la capacité de provoquer une maladie."
+      },
+      {
+       "q": "Quel terme désigne le passage de l’agent vers un hôte selon le mode évoqué ?",
+       "r": "transmission",
+       "w": [
+        "contamination",
+        "agent pathogène",
+        "prévention"
+       ],
+       "e": [
+        "Cela désigne la présence d’un élément indésirable dans le milieu évoqué, plutôt que la notion demandée.",
+        "Cela désigne un agent susceptible de provoquer une maladie, plutôt que la notion demandée.",
+        "Cela désigne des actions visant à réduire un risque, plutôt que la notion demandée."
+       ],
+       "y": "Le terme décrit un passage, non une couleur."
+      },
+      {
+       "q": "Quel terme désigne des actions visant à réduire un risque ?",
+       "r": "prévention",
+       "w": [
+        "contamination",
+        "agent pathogène",
+        "transmission"
+       ],
+       "e": [
+        "Cela désigne la présence d’un élément indésirable dans le milieu évoqué, plutôt que la notion demandée.",
+        "Cela désigne un agent susceptible de provoquer une maladie, plutôt que la notion demandée.",
+        "Cela désigne le passage de l’agent vers un hôte selon le mode évoqué, plutôt que la notion demandée."
+       ],
+       "y": "Réduire un risque n’est pas une garantie universelle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-21-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "La fiche parle d’une eau contenant un agent indésirable.\nQuelle notion convient ?",
+       "r": "contamination",
+       "w": [
+        "agent pathogène",
+        "transmission",
+        "prévention"
+       ],
+       "e": [
+        "Cela concerne un agent susceptible de provoquer une maladie. Compare cette définition avec le cas présenté.",
+        "Cela concerne le passage de l’agent vers un hôte selon le mode évoqué. Compare cette définition avec le cas présenté.",
+        "Cela concerne des actions visant à réduire un risque. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’aspect seul ne remplace pas une analyse."
+      },
+      {
+       "q": "Le texte distingue un agent pathogène d’un simple mot difficile.\nQuelle notion convient ?",
+       "r": "agent pathogène",
+       "w": [
+        "contamination",
+        "transmission",
+        "prévention"
+       ],
+       "e": [
+        "Cela concerne la présence d’un élément indésirable dans le milieu évoqué. Compare cette définition avec le cas présenté.",
+        "Cela concerne le passage de l’agent vers un hôte selon le mode évoqué. Compare cette définition avec le cas présenté.",
+        "Cela concerne des actions visant à réduire un risque. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le sens renvoie à la capacité de provoquer une maladie."
+      },
+      {
+       "q": "La fiche explique une voie de passage par l’eau.\nQuelle notion convient ?",
+       "r": "transmission",
+       "w": [
+        "contamination",
+        "agent pathogène",
+        "prévention"
+       ],
+       "e": [
+        "Cela concerne la présence d’un élément indésirable dans le milieu évoqué. Compare cette définition avec le cas présenté.",
+        "Cela concerne un agent susceptible de provoquer une maladie. Compare cette définition avec le cas présenté.",
+        "Cela concerne des actions visant à réduire un risque. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le terme décrit un passage, non une couleur."
+      },
+      {
+       "q": "La fiche distingue réduction du risque et garantie absolue.\nQuelle notion convient ?",
+       "r": "prévention",
+       "w": [
+        "contamination",
+        "agent pathogène",
+        "transmission"
+       ],
+       "e": [
+        "Cela concerne la présence d’un élément indésirable dans le milieu évoqué. Compare cette définition avec le cas présenté.",
+        "Cela concerne un agent susceptible de provoquer une maladie. Compare cette définition avec le cas présenté.",
+        "Cela concerne le passage de l’agent vers un hôte selon le mode évoqué. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Réduire un risque n’est pas une garantie universelle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-21-contexte",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel mot nomme la présence d’un élément indésirable dans l’eau évoquée ?\nQuel mot ou groupe de la leçon convient ?",
+       "r": "contamination",
+       "w": [
+        "agent pathogène",
+        "transmission",
+        "prévention"
+       ],
+       "e": [
+        "Ce mot désigne un agent susceptible de provoquer une maladie. La phrase demande plutôt la présence d’un élément indésirable dans le milieu évoqué.",
+        "Ce mot désigne le passage de l’agent vers un hôte selon le mode évoqué. La phrase demande plutôt la présence d’un élément indésirable dans le milieu évoqué.",
+        "Ce mot désigne des actions visant à réduire un risque. La phrase demande plutôt la présence d’un élément indésirable dans le milieu évoqué."
+       ],
+       "y": "L’aspect seul ne remplace pas une analyse."
+      },
+      {
+       "q": "Quel groupe nomme l’agent susceptible de provoquer une maladie ?\nQuel mot ou groupe de la leçon convient ?",
+       "r": "agent pathogène",
+       "w": [
+        "contamination",
+        "transmission",
+        "prévention"
+       ],
+       "e": [
+        "Ce mot désigne la présence d’un élément indésirable dans le milieu évoqué. La phrase demande plutôt un agent susceptible de provoquer une maladie.",
+        "Ce mot désigne le passage de l’agent vers un hôte selon le mode évoqué. La phrase demande plutôt un agent susceptible de provoquer une maladie.",
+        "Ce mot désigne des actions visant à réduire un risque. La phrase demande plutôt un agent susceptible de provoquer une maladie."
+       ],
+       "y": "Le sens renvoie à la capacité de provoquer une maladie."
+      },
+      {
+       "q": "Quel mot nomme le passage de cet agent vers un hôte ?\nQuel mot ou groupe de la leçon convient ?",
+       "r": "transmission",
+       "w": [
+        "contamination",
+        "agent pathogène",
+        "prévention"
+       ],
+       "e": [
+        "Ce mot désigne la présence d’un élément indésirable dans le milieu évoqué. La phrase demande plutôt le passage de l’agent vers un hôte selon le mode évoqué.",
+        "Ce mot désigne un agent susceptible de provoquer une maladie. La phrase demande plutôt le passage de l’agent vers un hôte selon le mode évoqué.",
+        "Ce mot désigne des actions visant à réduire un risque. La phrase demande plutôt le passage de l’agent vers un hôte selon le mode évoqué."
+       ],
+       "y": "Le terme décrit un passage, non une couleur."
+      },
+      {
+       "q": "Quel mot concerne la réduction du risque ?\nQuel mot ou groupe de la leçon convient ?",
+       "r": "prévention",
+       "w": [
+        "contamination",
+        "agent pathogène",
+        "transmission"
+       ],
+       "e": [
+        "Ce mot désigne la présence d’un élément indésirable dans le milieu évoqué. La phrase demande plutôt des actions visant à réduire un risque.",
+        "Ce mot désigne un agent susceptible de provoquer une maladie. La phrase demande plutôt des actions visant à réduire un risque.",
+        "Ce mot désigne le passage de l’agent vers un hôte selon le mode évoqué. La phrase demande plutôt des actions visant à réduire un risque."
+       ],
+       "y": "Réduire un risque n’est pas une garantie universelle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-21-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "contamination",
+     "right": "La fiche parle d’une eau contenant un agent indésirable."
+    },
+    {
+     "left": "agent pathogène",
+     "right": "Le texte distingue un agent pathogène d’un simple mot difficile."
+    },
+    {
+     "left": "transmission",
+     "right": "La fiche explique une voie de passage par l’eau."
+    },
+    {
+     "left": "prévention",
+     "right": "La fiche distingue réduction du risque et garantie absolue."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-21-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "contamination : la présence d’un élément indésirable dans le milieu évoqué.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’aspect seul ne remplace pas une analyse. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "agent pathogène : un agent susceptible de provoquer une maladie.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le sens renvoie à la capacité de provoquer une maladie. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "transmission : le passage de l’agent vers un hôte selon le mode évoqué.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le terme décrit un passage, non une couleur. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "prévention : des actions visant à réduire un risque.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Réduire un risque n’est pas une garantie universelle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une eau claire est nécessairement exempte de toute contamination.",
+      "truth": "false",
+      "explain": "L’aspect seul ne remplace pas une analyse."
+     },
+     {
+      "text": "Tout objet cité dans une phrase est forcément pathogène.",
+      "truth": "false",
+      "explain": "Le sens renvoie à la capacité de provoquer une maladie."
+     },
+     {
+      "text": "Transmission signifie uniquement la couleur du récipient.",
+      "truth": "false",
+      "explain": "Le terme décrit un passage, non une couleur."
+     },
+     {
+      "text": "Prévention signifie qu’aucun risque ne peut jamais subsister.",
+      "truth": "false",
+      "explain": "Réduire un risque n’est pas une garantie universelle."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

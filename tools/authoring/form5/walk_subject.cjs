@@ -101,5 +101,18 @@ const root = path.resolve(__dirname, '../../..');
         console.log('Record screenshot: '+tableShot);
       }
     }
+    if (subject === 'f5-french') {
+      await page.evaluate((id) => openLesson(id,19), subject);
+      await page.getByRole('button', {name:'Suivant',exact:true}).click();
+      await page.getByRole('button', {name:'Suivant',exact:true}).click();
+      if(await page.getByRole('img', {name:/Scène environnementale inventée/}).count()!==1) throw Error('Missing environmental drawing: '+(await page.locator('body').innerText()).slice(0,500));
+      const sceneShot=path.join(os.tmpdir(), `${subject}-scene.png`);
+      await page.screenshot({path:sceneShot,fullPage:true});
+      console.log('Scene screenshot: '+sceneShot);
+      await page.evaluate((id) => openLesson(id,26),subject);
+      await page.getByRole('button', {name:'Suivant',exact:true}).click();
+      await page.getByRole('button', {name:'Suivant',exact:true}).click();
+      if(!(await page.locator('body').innerText()).includes('/swa/')) throw Error('Missing written phonetic model');
+    }
   } finally { await browser.close(); }
 })().catch((e) => { console.error(e); process.exitCode = 1; });

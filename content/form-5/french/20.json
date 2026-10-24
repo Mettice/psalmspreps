@@ -1,0 +1,613 @@
+{
+ "subject": "french",
+ "class": "Form 5",
+ "lesson_no": 20,
+ "language": "fr",
+ "prerequisites": [
+  11,
+  12,
+  14,
+  18,
+  19
+ ],
+ "skills": [
+  {
+   "id": "fr5-20",
+   "name": "Style direct et style indirect"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le style direct représente des paroles entre guillemets. Le style indirect les intègre à la phrase du rapporteur : une déclaration peut être introduite par que, une question par son mot interrogatif ou par si selon sa forme. Les pronoms et repères doivent conserver les mêmes personnes et événements. Un recul temporel peut être demandé sous un cadre passé ; la perspective et la validité de l’information comptent aussi. Les exercices précisent le modèle attendu plutôt que d’exclure toute autre construction valable dans un autre contexte.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras rapporter une déclaration ou une question en conservant références, sens et perspective temporelle. Acquis mobilisés : pronoms, subordonnées et plus-que-parfait. Pour la suite : traduction et phrases de souhait au subjonctif."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Le style direct représente des paroles entre guillemets. Le style indirect les intègre à la phrase du rapporteur : une déclaration peut être introduite par que, une question par son mot interrogatif ou par si selon sa forme. Les pronoms et repères doivent conserver les mêmes personnes et événements. Un recul temporel peut être demandé sous un cadre passé ; la perspective et la validité de l’information comptent aussi. Les exercices précisent le modèle attendu plutôt que d’exclure toute autre construction valable dans un autre contexte."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : Bih dit : « Je prépare l’affiche. » devient Bih dit qu’elle prépare l’affiche. Ayuk demande : « Où est la salle ? » devient Ayuk demande où est la salle. Avec recul explicitement demandé : Bih a dit qu’elle avait fini. Les guillemets, le pronom et la forme de la question changent sans inventer l’action."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère locuteur, rapporteur et type de parole. Préserve les référents, choisis la construction puis vérifie les temps selon la consigne. Relis pour t’assurer que la question n’est pas devenue une réponse certaine."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "style direct",
+    "meaning": "la présentation de paroles sous forme de citation"
+   },
+   {
+    "word": "déclaration rapportée",
+    "meaning": "une affirmation intégrée à la phrase du rapporteur"
+   },
+   {
+    "word": "interrogation indirecte",
+    "meaning": "une question intégrée sans devenir une réponse établie"
+   },
+   {
+    "word": "perspective conservée",
+    "meaning": "le maintien cohérent des références et du cadre temporel"
+   }
+  ],
+  "mistake": {
+   "wrong": "Tout style direct doit supprimer les marques de citation du modèle.",
+   "right": "la présentation de paroles sous forme de citation.",
+   "why": "Le modèle écrit marque les paroles citées."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih dit : « Je prépare l’affiche. » montre les paroles. Explique le choix.",
+  "steps": [
+   "la présentation de paroles sous forme de citation.",
+   "Le modèle écrit marque les paroles citées."
+  ],
+  "answer": "style direct",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr5-20-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "style direct : la présentation de paroles sous forme de citation.",
+     "déclaration rapportée : une affirmation intégrée à la phrase du rapporteur.",
+     "interrogation indirecte : une question intégrée sans devenir une réponse établie.",
+     "perspective conservée : le maintien cohérent des références et du cadre temporel."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-20-notions"
+    }
+   },
+   {
+    "id": "fr5-20-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Bih dit : « Je prépare l’affiche. » montre les paroles.",
+     "Bih dit qu’elle prépare l’affiche intègre la déclaration.",
+     "Ayuk demande où est la salle garde la demande de lieu.",
+     "Elle avait fini correspond au recul explicitement demandé."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-20-cas"
+    }
+   },
+   {
+    "id": "fr5-20-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Tout style direct doit supprimer les marques de citation du modèle. Correction : Le modèle écrit marque les paroles citées.",
+     "Que permet de changer l’action sans changer le message. Correction : Le sens de l’action doit être préservé.",
+     "Rapporter la question prouve que le lieu est confirmé. Correction : Une question n’établit pas sa réponse.",
+     "On peut changer les pronoms au hasard sans effet de sens. Correction : Les référents doivent rester identifiables."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr5-20-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "style direct : la présentation de paroles sous forme de citation.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le modèle écrit marque les paroles citées. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "déclaration rapportée : une affirmation intégrée à la phrase du rapporteur.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le sens de l’action doit être préservé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "interrogation indirecte : une question intégrée sans devenir une réponse établie.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Une question n’établit pas sa réponse. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "perspective conservée : le maintien cohérent des références et du cadre temporel.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les référents doivent rester identifiables. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Tout style direct doit supprimer les marques de citation du modèle.",
+        "truth": "false",
+        "explain": "Le modèle écrit marque les paroles citées."
+       },
+       {
+        "text": "Que permet de changer l’action sans changer le message.",
+        "truth": "false",
+        "explain": "Le sens de l’action doit être préservé."
+       },
+       {
+        "text": "Rapporter la question prouve que le lieu est confirmé.",
+        "truth": "false",
+        "explain": "Une question n’établit pas sa réponse."
+       },
+       {
+        "text": "On peut changer les pronoms au hasard sans effet de sens.",
+        "truth": "false",
+        "explain": "Les référents doivent rester identifiables."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr5-20-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne la présentation de paroles sous forme de citation ?",
+       "r": "style direct",
+       "w": [
+        "déclaration rapportée",
+        "interrogation indirecte",
+        "perspective conservée"
+       ],
+       "e": [
+        "Cela désigne une affirmation intégrée à la phrase du rapporteur, plutôt que la notion demandée.",
+        "Cela désigne une question intégrée sans devenir une réponse établie, plutôt que la notion demandée.",
+        "Cela désigne le maintien cohérent des références et du cadre temporel, plutôt que la notion demandée."
+       ],
+       "y": "Le modèle écrit marque les paroles citées."
+      },
+      {
+       "q": "Quel terme désigne une affirmation intégrée à la phrase du rapporteur ?",
+       "r": "déclaration rapportée",
+       "w": [
+        "style direct",
+        "interrogation indirecte",
+        "perspective conservée"
+       ],
+       "e": [
+        "Cela désigne la présentation de paroles sous forme de citation, plutôt que la notion demandée.",
+        "Cela désigne une question intégrée sans devenir une réponse établie, plutôt que la notion demandée.",
+        "Cela désigne le maintien cohérent des références et du cadre temporel, plutôt que la notion demandée."
+       ],
+       "y": "Le sens de l’action doit être préservé."
+      },
+      {
+       "q": "Quel terme désigne une question intégrée sans devenir une réponse établie ?",
+       "r": "interrogation indirecte",
+       "w": [
+        "style direct",
+        "déclaration rapportée",
+        "perspective conservée"
+       ],
+       "e": [
+        "Cela désigne la présentation de paroles sous forme de citation, plutôt que la notion demandée.",
+        "Cela désigne une affirmation intégrée à la phrase du rapporteur, plutôt que la notion demandée.",
+        "Cela désigne le maintien cohérent des références et du cadre temporel, plutôt que la notion demandée."
+       ],
+       "y": "Une question n’établit pas sa réponse."
+      },
+      {
+       "q": "Quel terme désigne le maintien cohérent des références et du cadre temporel ?",
+       "r": "perspective conservée",
+       "w": [
+        "style direct",
+        "déclaration rapportée",
+        "interrogation indirecte"
+       ],
+       "e": [
+        "Cela désigne la présentation de paroles sous forme de citation, plutôt que la notion demandée.",
+        "Cela désigne une affirmation intégrée à la phrase du rapporteur, plutôt que la notion demandée.",
+        "Cela désigne une question intégrée sans devenir une réponse établie, plutôt que la notion demandée."
+       ],
+       "y": "Les référents doivent rester identifiables."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-20-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih dit : « Je prépare l’affiche. » montre les paroles.\nQuelle notion convient ?",
+       "r": "style direct",
+       "w": [
+        "déclaration rapportée",
+        "interrogation indirecte",
+        "perspective conservée"
+       ],
+       "e": [
+        "Cela concerne une affirmation intégrée à la phrase du rapporteur. Compare cette définition avec le cas présenté.",
+        "Cela concerne une question intégrée sans devenir une réponse établie. Compare cette définition avec le cas présenté.",
+        "Cela concerne le maintien cohérent des références et du cadre temporel. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le modèle écrit marque les paroles citées."
+      },
+      {
+       "q": "Bih dit qu’elle prépare l’affiche intègre la déclaration.\nQuelle notion convient ?",
+       "r": "déclaration rapportée",
+       "w": [
+        "style direct",
+        "interrogation indirecte",
+        "perspective conservée"
+       ],
+       "e": [
+        "Cela concerne la présentation de paroles sous forme de citation. Compare cette définition avec le cas présenté.",
+        "Cela concerne une question intégrée sans devenir une réponse établie. Compare cette définition avec le cas présenté.",
+        "Cela concerne le maintien cohérent des références et du cadre temporel. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le sens de l’action doit être préservé."
+      },
+      {
+       "q": "Ayuk demande où est la salle garde la demande de lieu.\nQuelle notion convient ?",
+       "r": "interrogation indirecte",
+       "w": [
+        "style direct",
+        "déclaration rapportée",
+        "perspective conservée"
+       ],
+       "e": [
+        "Cela concerne la présentation de paroles sous forme de citation. Compare cette définition avec le cas présenté.",
+        "Cela concerne une affirmation intégrée à la phrase du rapporteur. Compare cette définition avec le cas présenté.",
+        "Cela concerne le maintien cohérent des références et du cadre temporel. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Une question n’établit pas sa réponse."
+      },
+      {
+       "q": "Elle avait fini correspond au recul explicitement demandé.\nQuelle notion convient ?",
+       "r": "perspective conservée",
+       "w": [
+        "style direct",
+        "déclaration rapportée",
+        "interrogation indirecte"
+       ],
+       "e": [
+        "Cela concerne la présentation de paroles sous forme de citation. Compare cette définition avec le cas présenté.",
+        "Cela concerne une affirmation intégrée à la phrase du rapporteur. Compare cette définition avec le cas présenté.",
+        "Cela concerne une question intégrée sans devenir une réponse établie. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les référents doivent rester identifiables."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-20-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Rapporte au présent : Bih dit : « Je prépare l’affiche. »",
+       "r": "Bih dit qu’elle prépare l’affiche.",
+       "w": [
+        "Bih dit que je prépare l’affiche, je désignant encore Bih dans ce récit d’autrui.",
+        "Bih dit si elle prépare l’affiche ?",
+        "Bih dit qu’elle détruit l’affiche."
+       ],
+       "e": [
+        "Le rapporteur adapte le pronom pour garder Bih comme référent.",
+        "Cette construction transforme la déclaration en question.",
+        "L’action n’est pas conservée."
+       ],
+       "y": "La déclaration garde action et référence."
+      },
+      {
+       "q": "Rapporte la question : Ayuk demande : « Où est la salle ? »",
+       "r": "Ayuk demande où est la salle.",
+       "w": [
+        "Ayuk affirme que la salle est détruite.",
+        "Ayuk demande où est-ce que la salle est ?",
+        "Ayuk demande la date de toute salle."
+       ],
+       "e": [
+        "La question devient une affirmation inventée.",
+        "L’interrogation indirecte étudiée n’emploie pas cette formule de question directe.",
+        "Le lieu demandé n’est pas une date."
+       ],
+       "y": "Préserve la demande de lieu."
+      },
+      {
+       "q": "Consigne explicite de recul temporel : Bih a dit : « J’ai fini. »",
+       "r": "Bih a dit qu’elle avait fini.",
+       "w": [
+        "Bih a dit qu’elle avait finir.",
+        "Bih a dit qu’elles avaient fini, elles désignant uniquement Bih.",
+        "Bih a dit qu’elle finira demain."
+       ],
+       "e": [
+        "Après avait, il faut le participe fini.",
+        "Le référent demandé est singulier.",
+        "L’accompli passé est remplacé par un futur absent."
+       ],
+       "y": "Le modèle demandé passe de l’accompli au plus-que-parfait."
+      },
+      {
+       "q": "Une consigne demande de conserver une information présentée comme encore valable. Quelle prudence est correcte ?",
+       "r": "Le choix du temps dépend aussi du contexte de validité et de la perspective du rapport.",
+       "w": [
+        "Tout présent doit toujours reculer dans chaque rapport possible.",
+        "On peut changer librement les personnes et les faits.",
+        "Un discours rapporté doit inventer une date."
+       ],
+       "e": [
+        "La règle ne doit pas ignorer la perspective explicitée.",
+        "La fidélité des références reste nécessaire.",
+        "Une date absente n’est pas ajoutée."
+       ],
+       "y": "Ne transforme pas le modèle de recul en règle absolue hors contexte."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-20-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "style direct",
+     "right": "Bih dit : « Je prépare l’affiche. » montre les paroles."
+    },
+    {
+     "left": "déclaration rapportée",
+     "right": "Bih dit qu’elle prépare l’affiche intègre la déclaration."
+    },
+    {
+     "left": "interrogation indirecte",
+     "right": "Ayuk demande où est la salle garde la demande de lieu."
+    },
+    {
+     "left": "perspective conservée",
+     "right": "Elle avait fini correspond au recul explicitement demandé."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-20-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "style direct : la présentation de paroles sous forme de citation.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le modèle écrit marque les paroles citées. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "déclaration rapportée : une affirmation intégrée à la phrase du rapporteur.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le sens de l’action doit être préservé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "interrogation indirecte : une question intégrée sans devenir une réponse établie.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Une question n’établit pas sa réponse. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "perspective conservée : le maintien cohérent des références et du cadre temporel.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les référents doivent rester identifiables. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Tout style direct doit supprimer les marques de citation du modèle.",
+      "truth": "false",
+      "explain": "Le modèle écrit marque les paroles citées."
+     },
+     {
+      "text": "Que permet de changer l’action sans changer le message.",
+      "truth": "false",
+      "explain": "Le sens de l’action doit être préservé."
+     },
+     {
+      "text": "Rapporter la question prouve que le lieu est confirmé.",
+      "truth": "false",
+      "explain": "Une question n’établit pas sa réponse."
+     },
+     {
+      "text": "On peut changer les pronoms au hasard sans effet de sens.",
+      "truth": "false",
+      "explain": "Les référents doivent rester identifiables."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

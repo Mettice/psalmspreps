@@ -1,0 +1,610 @@
+{
+ "subject": "french",
+ "class": "Form 5",
+ "lesson_no": 12,
+ "language": "fr",
+ "prerequisites": [
+  10,
+  11
+ ],
+ "skills": [
+  {
+   "id": "fr5-12",
+   "name": "La proposition subordonnée conjonctive"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une subordonnée dépend d’une autre construction et contient son propre groupe verbal. Une conjonction ou locution conjonctive peut l’introduire. Que peut introduire une complétive ; parce que une cause ; quand un repère de temps ; si une condition. Le sens et la fonction doivent être examinés dans la phrase. Ne confonds pas tout que avec un relatif reprenant un antécédent, ni toute subordonnée avec une complétive. Cette leçon distingue les modèles présentés plutôt que de dresser une liste exhaustive.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras délimiter une subordonnée et identifier sa fonction ou sa relation dans les modèles étudiés. Acquis mobilisés : phrase complexe, traduction et formes verbales. Pour la suite : conditions avec si et style indirect."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Une subordonnée dépend d’une autre construction et contient son propre groupe verbal. Une conjonction ou locution conjonctive peut l’introduire. Que peut introduire une complétive ; parce que une cause ; quand un repère de temps ; si une condition. Le sens et la fonction doivent être examinés dans la phrase. Ne confonds pas tout que avec un relatif reprenant un antécédent, ni toute subordonnée avec une complétive. Cette leçon distingue les modèles présentés plutôt que de dresser une liste exhaustive."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : Je pense que le club est prêt. Nous attendons parce que la salle est occupée. Quand la salle se libère, le groupe entre. Si la salle est libre, le groupe entre. La première subordonnée complète pense ; les autres donnent une relation de cause, de temps ou de condition."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère les verbes, délimite la partie introduite puis explique ce qu’elle complète ou la relation exprimée. Vérifie l’introducteur sans le traiter comme une étiquette automatique pour tous ses emplois."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "complétive",
+    "meaning": "une subordonnée complétant ici le verbe de pensée"
+   },
+   {
+    "word": "cause",
+    "meaning": "la relation donnant ici une raison"
+   },
+   {
+    "word": "temps",
+    "meaning": "la relation situant un fait dans le temps"
+   },
+   {
+    "word": "condition",
+    "meaning": "une relation dont dépend la conséquence dans le modèle"
+   }
+  ],
+  "mistake": {
+   "wrong": "Toute subordonnée conjonctive exprime obligatoirement une cause.",
+   "right": "une subordonnée complétant ici le verbe de pensée.",
+   "why": "Une complétive peut remplir une fonction de complément."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Que le club est prêt complète pense. Explique le choix.",
+  "steps": [
+   "une subordonnée complétant ici le verbe de pensée.",
+   "Une complétive peut remplir une fonction de complément."
+  ],
+  "answer": "complétive",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr5-12-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "complétive : une subordonnée complétant ici le verbe de pensée.",
+     "cause : la relation donnant ici une raison.",
+     "temps : la relation situant un fait dans le temps.",
+     "condition : une relation dont dépend la conséquence dans le modèle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-12-notions"
+    }
+   },
+   {
+    "id": "fr5-12-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Que le club est prêt complète pense.",
+     "Parce que la salle est occupée explique l’attente.",
+     "Quand la salle se libère situe l’entrée.",
+     "Si la salle est libre pose la condition de l’entrée."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-12-cas"
+    }
+   },
+   {
+    "id": "fr5-12-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Toute subordonnée conjonctive exprime obligatoirement une cause. Correction : Une complétive peut remplir une fonction de complément.",
+     "Parce que signale uniquement une date. Correction : La locution introduit ici une raison.",
+     "Quand signifie toujours une conséquence déjà mesurée. Correction : Il donne ici un repère temporel.",
+     "Si transforme chaque condition en fait déjà accompli. Correction : La condition et sa réalisation sont distinctes."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr5-12-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "complétive : une subordonnée complétant ici le verbe de pensée.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Une complétive peut remplir une fonction de complément. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "cause : la relation donnant ici une raison.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La locution introduit ici une raison. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "temps : la relation situant un fait dans le temps.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il donne ici un repère temporel. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "condition : une relation dont dépend la conséquence dans le modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La condition et sa réalisation sont distinctes. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Toute subordonnée conjonctive exprime obligatoirement une cause.",
+        "truth": "false",
+        "explain": "Une complétive peut remplir une fonction de complément."
+       },
+       {
+        "text": "Parce que signale uniquement une date.",
+        "truth": "false",
+        "explain": "La locution introduit ici une raison."
+       },
+       {
+        "text": "Quand signifie toujours une conséquence déjà mesurée.",
+        "truth": "false",
+        "explain": "Il donne ici un repère temporel."
+       },
+       {
+        "text": "Si transforme chaque condition en fait déjà accompli.",
+        "truth": "false",
+        "explain": "La condition et sa réalisation sont distinctes."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr5-12-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne une subordonnée complétant ici le verbe de pensée ?",
+       "r": "complétive",
+       "w": [
+        "cause",
+        "temps",
+        "condition"
+       ],
+       "e": [
+        "Cela désigne la relation donnant ici une raison, plutôt que la notion demandée.",
+        "Cela désigne la relation situant un fait dans le temps, plutôt que la notion demandée.",
+        "Cela désigne une relation dont dépend la conséquence dans le modèle, plutôt que la notion demandée."
+       ],
+       "y": "Une complétive peut remplir une fonction de complément."
+      },
+      {
+       "q": "Quel terme désigne la relation donnant ici une raison ?",
+       "r": "cause",
+       "w": [
+        "complétive",
+        "temps",
+        "condition"
+       ],
+       "e": [
+        "Cela désigne une subordonnée complétant ici le verbe de pensée, plutôt que la notion demandée.",
+        "Cela désigne la relation situant un fait dans le temps, plutôt que la notion demandée.",
+        "Cela désigne une relation dont dépend la conséquence dans le modèle, plutôt que la notion demandée."
+       ],
+       "y": "La locution introduit ici une raison."
+      },
+      {
+       "q": "Quel terme désigne la relation situant un fait dans le temps ?",
+       "r": "temps",
+       "w": [
+        "complétive",
+        "cause",
+        "condition"
+       ],
+       "e": [
+        "Cela désigne une subordonnée complétant ici le verbe de pensée, plutôt que la notion demandée.",
+        "Cela désigne la relation donnant ici une raison, plutôt que la notion demandée.",
+        "Cela désigne une relation dont dépend la conséquence dans le modèle, plutôt que la notion demandée."
+       ],
+       "y": "Il donne ici un repère temporel."
+      },
+      {
+       "q": "Quel terme désigne une relation dont dépend la conséquence dans le modèle ?",
+       "r": "condition",
+       "w": [
+        "complétive",
+        "cause",
+        "temps"
+       ],
+       "e": [
+        "Cela désigne une subordonnée complétant ici le verbe de pensée, plutôt que la notion demandée.",
+        "Cela désigne la relation donnant ici une raison, plutôt que la notion demandée.",
+        "Cela désigne la relation situant un fait dans le temps, plutôt que la notion demandée."
+       ],
+       "y": "La condition et sa réalisation sont distinctes."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-12-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Que le club est prêt complète pense.\nQuelle notion convient ?",
+       "r": "complétive",
+       "w": [
+        "cause",
+        "temps",
+        "condition"
+       ],
+       "e": [
+        "Cela concerne la relation donnant ici une raison. Compare cette définition avec le cas présenté.",
+        "Cela concerne la relation situant un fait dans le temps. Compare cette définition avec le cas présenté.",
+        "Cela concerne une relation dont dépend la conséquence dans le modèle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Une complétive peut remplir une fonction de complément."
+      },
+      {
+       "q": "Parce que la salle est occupée explique l’attente.\nQuelle notion convient ?",
+       "r": "cause",
+       "w": [
+        "complétive",
+        "temps",
+        "condition"
+       ],
+       "e": [
+        "Cela concerne une subordonnée complétant ici le verbe de pensée. Compare cette définition avec le cas présenté.",
+        "Cela concerne la relation situant un fait dans le temps. Compare cette définition avec le cas présenté.",
+        "Cela concerne une relation dont dépend la conséquence dans le modèle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La locution introduit ici une raison."
+      },
+      {
+       "q": "Quand la salle se libère situe l’entrée.\nQuelle notion convient ?",
+       "r": "temps",
+       "w": [
+        "complétive",
+        "cause",
+        "condition"
+       ],
+       "e": [
+        "Cela concerne une subordonnée complétant ici le verbe de pensée. Compare cette définition avec le cas présenté.",
+        "Cela concerne la relation donnant ici une raison. Compare cette définition avec le cas présenté.",
+        "Cela concerne une relation dont dépend la conséquence dans le modèle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il donne ici un repère temporel."
+      },
+      {
+       "q": "Si la salle est libre pose la condition de l’entrée.\nQuelle notion convient ?",
+       "r": "condition",
+       "w": [
+        "complétive",
+        "cause",
+        "temps"
+       ],
+       "e": [
+        "Cela concerne une subordonnée complétant ici le verbe de pensée. Compare cette définition avec le cas présenté.",
+        "Cela concerne la relation donnant ici une raison. Compare cette définition avec le cas présenté.",
+        "Cela concerne la relation situant un fait dans le temps. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La condition et sa réalisation sont distinctes."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-12-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Je pense que le club est prêt. Quelle partie complète pense ?",
+       "r": "que le club est prêt",
+       "w": [
+        "le club uniquement",
+        "est uniquement",
+        "Je uniquement"
+       ],
+       "e": [
+        "Ce groupe n’inclut pas toute la proposition complément.",
+        "Le verbe seul n’est pas la proposition.",
+        "Je est le sujet de pense."
+       ],
+       "y": "Que introduit ici la proposition complétive."
+      },
+      {
+       "q": "Nous attendons parce que la salle est occupée. Quelle relation est exprimée ?",
+       "r": "La cause de l’attente.",
+       "w": [
+        "Le but futur de toute salle.",
+        "Une question directe.",
+        "Un pronom relatif reprenant attendons."
+       ],
+       "e": [
+        "Le passage donne une raison, non un but.",
+        "Ce n’est pas une interrogation directe.",
+        "Parce que est une locution conjonctive."
+       ],
+       "y": "La subordonnée explique pourquoi on attend."
+      },
+      {
+       "q": "Quand la salle se libère, le groupe entre. Quelle relation est exprimée ?",
+       "r": "Un repère temporel.",
+       "w": [
+        "Une propriété d’un nom antécédent.",
+        "Une citation directe obligatoire.",
+        "Une liste de matières."
+       ],
+       "e": [
+        "La proposition situe l’entrée dans le temps.",
+        "Aucune citation n’est annoncée.",
+        "Il ne s’agit pas d’une énumération."
+       ],
+       "y": "Quand introduit le repère de temps."
+      },
+      {
+       "q": "Si la salle est libre, le groupe entre. Quelle relation est exprimée ?",
+       "r": "Une condition.",
+       "w": [
+        "Une présence déjà mesurée pour tous les jours.",
+        "Une question demandant le nom de la salle.",
+        "Une définition du pronom qui."
+       ],
+       "e": [
+        "La phrase pose une relation conditionnelle.",
+        "Aucune demande d’identification n’apparaît.",
+        "Qui n’est pas l’introducteur."
+       ],
+       "y": "Si relie ici condition et conséquence."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-12-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "complétive",
+     "right": "Que le club est prêt complète pense."
+    },
+    {
+     "left": "cause",
+     "right": "Parce que la salle est occupée explique l’attente."
+    },
+    {
+     "left": "temps",
+     "right": "Quand la salle se libère situe l’entrée."
+    },
+    {
+     "left": "condition",
+     "right": "Si la salle est libre pose la condition de l’entrée."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-12-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "complétive : une subordonnée complétant ici le verbe de pensée.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Une complétive peut remplir une fonction de complément. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "cause : la relation donnant ici une raison.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La locution introduit ici une raison. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "temps : la relation situant un fait dans le temps.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il donne ici un repère temporel. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "condition : une relation dont dépend la conséquence dans le modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La condition et sa réalisation sont distinctes. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Toute subordonnée conjonctive exprime obligatoirement une cause.",
+      "truth": "false",
+      "explain": "Une complétive peut remplir une fonction de complément."
+     },
+     {
+      "text": "Parce que signale uniquement une date.",
+      "truth": "false",
+      "explain": "La locution introduit ici une raison."
+     },
+     {
+      "text": "Quand signifie toujours une conséquence déjà mesurée.",
+      "truth": "false",
+      "explain": "Il donne ici un repère temporel."
+     },
+     {
+      "text": "Si transforme chaque condition en fait déjà accompli.",
+      "truth": "false",
+      "explain": "La condition et sa réalisation sont distinctes."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

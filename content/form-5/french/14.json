@@ -1,0 +1,611 @@
+{
+ "subject": "french",
+ "class": "Form 5",
+ "lesson_no": 14,
+ "language": "fr",
+ "prerequisites": [
+  5,
+  12,
+  13
+ ],
+ "skills": [
+  {
+   "id": "fr5-14",
+   "name": "Les pronoms personnels en et y"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un pronom complément reprend une information identifiable. Dans les modèles de parler à une personne, lui reprend un destinataire singulier et leur un destinataire pluriel, sans marque de genre. Y peut reprendre un lieu ou certains compléments en à ; en peut reprendre un complément en de ou une quantité. Le choix dépend du verbe : on ne transforme pas mécaniquement tout à en lui. Avec penser à une personne, on garde par exemple une forme tonique comme à elle. Leur pronom reste invariable.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras reprendre un lieu ou un complément en de avec en ou y selon le modèle. Acquis mobilisés : les compléments, la phrase complexe et les conditions. Pour la suite : reprises cohérentes et style indirect."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Un pronom complément reprend une information identifiable. Dans les modèles de parler à une personne, lui reprend un destinataire singulier et leur un destinataire pluriel, sans marque de genre. Y peut reprendre un lieu ou certains compléments en à ; en peut reprendre un complément en de ou une quantité. Le choix dépend du verbe : on ne transforme pas mécaniquement tout à en lui. Avec penser à une personne, on garde par exemple une forme tonique comme à elle. Leur pronom reste invariable."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : Bih {fr2Present(\"parler\",3)} à sa tante → Bih lui {fr2Present(\"parler\",3)}. Elle {fr2Present(\"parler\",3)} aux voisins → elle leur {fr2Present(\"parler\",3)}. Elle {fr2Present(\"aller\",3)} à Buea → elle y {fr2Present(\"aller\",3)}. Elle {fr2Present(\"parler\",3)} du projet → elle en {fr2Present(\"parler\",3)}. La reprise conserve le référent et le sens de la construction."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Souligne le groupe remplacé, repère la préposition et vérifie ce qu’il désigne. Ne remplace pas le sujet à la place du complément. Pour une quantité, conserve l’indication nécessaire : elle en prend une. Écris ensuite un échange original avec un référent clairement annoncé."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "lui",
+    "meaning": "le pronom reprenant un destinataire singulier dans le modèle de parler à"
+   },
+   {
+    "word": "leur",
+    "meaning": "le pronom reprenant plusieurs destinataires dans ce modèle"
+   },
+   {
+    "word": "y",
+    "meaning": "un pronom reprenant notamment un lieu dans le modèle étudié"
+   },
+   {
+    "word": "en",
+    "meaning": "un pronom reprenant notamment un complément en de ou une quantité"
+   }
+  ],
+  "mistake": {
+   "wrong": "Lui désigne obligatoirement un homme.",
+   "right": "le pronom reprenant un destinataire singulier dans le modèle de parler à.",
+   "why": "Le pronom complément lui peut reprendre une personne de genre féminin ou masculin."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Elle lui {fr2Present(\"parler\",3)} reprend à sa tante. Explique le choix.",
+  "steps": [
+   "le pronom reprenant un destinataire singulier dans le modèle de parler à.",
+   "Le pronom complément lui peut reprendre une personne de genre féminin ou masculin."
+  ],
+  "answer": "lui",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr5-14-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "lui : le pronom reprenant un destinataire singulier dans le modèle de parler à.",
+     "leur : le pronom reprenant plusieurs destinataires dans ce modèle.",
+     "y : un pronom reprenant notamment un lieu dans le modèle étudié.",
+     "en : un pronom reprenant notamment un complément en de ou une quantité."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-14-notions"
+    }
+   },
+   {
+    "id": "fr5-14-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Elle lui {fr2Present(\"parler\",3)} reprend à sa tante.",
+     "Elle leur {fr2Present(\"parler\",3)} reprend aux voisins.",
+     "Elle y {fr2Present(\"aller\",3)} reprend à Buea.",
+     "Elle en {fr2Present(\"parler\",3)} reprend du projet."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-14-cas"
+    }
+   },
+   {
+    "id": "fr5-14-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Lui désigne obligatoirement un homme. Correction : Le pronom complément lui peut reprendre une personne de genre féminin ou masculin.",
+     "Le pronom complément leur prend toujours un s. Correction : Leur pronom complément est invariable, contrairement à certains déterminants possessifs.",
+     "Y remplace ici le sujet elle. Correction : Il reprend le lieu, sans changer le sujet.",
+     "En impose de supprimer toute quantité utile au sens. Correction : La reprise doit garder les précisions nécessaires à l’énoncé."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr5-14-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "lui : le pronom reprenant un destinataire singulier dans le modèle de parler à.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le pronom complément lui peut reprendre une personne de genre féminin ou masculin. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "leur : le pronom reprenant plusieurs destinataires dans ce modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Leur pronom complément est invariable, contrairement à certains déterminants possessifs. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "y : un pronom reprenant notamment un lieu dans le modèle étudié.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il reprend le lieu, sans changer le sujet. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "en : un pronom reprenant notamment un complément en de ou une quantité.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La reprise doit garder les précisions nécessaires à l’énoncé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Lui désigne obligatoirement un homme.",
+        "truth": "false",
+        "explain": "Le pronom complément lui peut reprendre une personne de genre féminin ou masculin."
+       },
+       {
+        "text": "Le pronom complément leur prend toujours un s.",
+        "truth": "false",
+        "explain": "Leur pronom complément est invariable, contrairement à certains déterminants possessifs."
+       },
+       {
+        "text": "Y remplace ici le sujet elle.",
+        "truth": "false",
+        "explain": "Il reprend le lieu, sans changer le sujet."
+       },
+       {
+        "text": "En impose de supprimer toute quantité utile au sens.",
+        "truth": "false",
+        "explain": "La reprise doit garder les précisions nécessaires à l’énoncé."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr5-14-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne le pronom reprenant un destinataire singulier dans le modèle de parler à ?",
+       "r": "lui",
+       "w": [
+        "leur",
+        "y",
+        "en"
+       ],
+       "e": [
+        "Cela désigne le pronom reprenant plusieurs destinataires dans ce modèle, plutôt que la notion demandée.",
+        "Cela désigne un pronom reprenant notamment un lieu dans le modèle étudié, plutôt que la notion demandée.",
+        "Cela désigne un pronom reprenant notamment un complément en de ou une quantité, plutôt que la notion demandée."
+       ],
+       "y": "Le pronom complément lui peut reprendre une personne de genre féminin ou masculin."
+      },
+      {
+       "q": "Quel terme désigne le pronom reprenant plusieurs destinataires dans ce modèle ?",
+       "r": "leur",
+       "w": [
+        "lui",
+        "y",
+        "en"
+       ],
+       "e": [
+        "Cela désigne le pronom reprenant un destinataire singulier dans le modèle de parler à, plutôt que la notion demandée.",
+        "Cela désigne un pronom reprenant notamment un lieu dans le modèle étudié, plutôt que la notion demandée.",
+        "Cela désigne un pronom reprenant notamment un complément en de ou une quantité, plutôt que la notion demandée."
+       ],
+       "y": "Leur pronom complément est invariable, contrairement à certains déterminants possessifs."
+      },
+      {
+       "q": "Quel terme désigne un pronom reprenant notamment un lieu dans le modèle étudié ?",
+       "r": "y",
+       "w": [
+        "lui",
+        "leur",
+        "en"
+       ],
+       "e": [
+        "Cela désigne le pronom reprenant un destinataire singulier dans le modèle de parler à, plutôt que la notion demandée.",
+        "Cela désigne le pronom reprenant plusieurs destinataires dans ce modèle, plutôt que la notion demandée.",
+        "Cela désigne un pronom reprenant notamment un complément en de ou une quantité, plutôt que la notion demandée."
+       ],
+       "y": "Il reprend le lieu, sans changer le sujet."
+      },
+      {
+       "q": "Quel terme désigne un pronom reprenant notamment un complément en de ou une quantité ?",
+       "r": "en",
+       "w": [
+        "lui",
+        "leur",
+        "y"
+       ],
+       "e": [
+        "Cela désigne le pronom reprenant un destinataire singulier dans le modèle de parler à, plutôt que la notion demandée.",
+        "Cela désigne le pronom reprenant plusieurs destinataires dans ce modèle, plutôt que la notion demandée.",
+        "Cela désigne un pronom reprenant notamment un lieu dans le modèle étudié, plutôt que la notion demandée."
+       ],
+       "y": "La reprise doit garder les précisions nécessaires à l’énoncé."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-14-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Elle lui {fr2Present(\"parler\",3)} reprend à sa tante.\nQuelle notion convient ?",
+       "r": "lui",
+       "w": [
+        "leur",
+        "y",
+        "en"
+       ],
+       "e": [
+        "Cela concerne le pronom reprenant plusieurs destinataires dans ce modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne un pronom reprenant notamment un lieu dans le modèle étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne un pronom reprenant notamment un complément en de ou une quantité. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le pronom complément lui peut reprendre une personne de genre féminin ou masculin."
+      },
+      {
+       "q": "Elle leur {fr2Present(\"parler\",3)} reprend aux voisins.\nQuelle notion convient ?",
+       "r": "leur",
+       "w": [
+        "lui",
+        "y",
+        "en"
+       ],
+       "e": [
+        "Cela concerne le pronom reprenant un destinataire singulier dans le modèle de parler à. Compare cette définition avec le cas présenté.",
+        "Cela concerne un pronom reprenant notamment un lieu dans le modèle étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne un pronom reprenant notamment un complément en de ou une quantité. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Leur pronom complément est invariable, contrairement à certains déterminants possessifs."
+      },
+      {
+       "q": "Elle y {fr2Present(\"aller\",3)} reprend à Buea.\nQuelle notion convient ?",
+       "r": "y",
+       "w": [
+        "lui",
+        "leur",
+        "en"
+       ],
+       "e": [
+        "Cela concerne le pronom reprenant un destinataire singulier dans le modèle de parler à. Compare cette définition avec le cas présenté.",
+        "Cela concerne le pronom reprenant plusieurs destinataires dans ce modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne un pronom reprenant notamment un complément en de ou une quantité. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il reprend le lieu, sans changer le sujet."
+      },
+      {
+       "q": "Elle en {fr2Present(\"parler\",3)} reprend du projet.\nQuelle notion convient ?",
+       "r": "en",
+       "w": [
+        "lui",
+        "leur",
+        "y"
+       ],
+       "e": [
+        "Cela concerne le pronom reprenant un destinataire singulier dans le modèle de parler à. Compare cette définition avec le cas présenté.",
+        "Cela concerne le pronom reprenant plusieurs destinataires dans ce modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne un pronom reprenant notamment un lieu dans le modèle étudié. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La reprise doit garder les précisions nécessaires à l’énoncé."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-14-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Elle parle à sa tante. Remplace seulement à sa tante.",
+       "r": "lui",
+       "w": [
+        "leur",
+        "y",
+        "en"
+       ],
+       "e": [
+        "Le destinataire est singulier.",
+        "Le modèle vise une personne à qui elle parle, non un lieu.",
+        "Le complément est en à, non en de."
+       ],
+       "y": "Lui convient à parler à cette personne."
+      },
+      {
+       "q": "Elle parle aux voisins. Remplace seulement aux voisins.",
+       "r": "leur",
+       "w": [
+        "lui",
+        "y",
+        "en"
+       ],
+       "e": [
+        "Les destinataires sont pluriels.",
+        "Le groupe désigne les personnes à qui elle parle.",
+        "Le complément n’est pas introduit par de."
+       ],
+       "y": "Leur reprend les destinataires pluriels."
+      },
+      {
+       "q": "Elle va à Buea. Remplace le lieu.",
+       "r": "y",
+       "w": [
+        "lui",
+        "leur",
+        "en"
+       ],
+       "e": [
+        "On reprend le lieu, non un destinataire singulier.",
+        "Le lieu n’est pas un groupe de destinataires.",
+        "En ne reprend pas ici la destination en à."
+       ],
+       "y": "Y reprend le complément de lieu."
+      },
+      {
+       "q": "Elle parle du projet. Remplace du projet.",
+       "r": "en",
+       "w": [
+        "lui",
+        "leur",
+        "y"
+       ],
+       "e": [
+        "Le projet n’est pas la personne à qui elle parle.",
+        "Il ne s’agit pas de plusieurs destinataires.",
+        "Le complément du verbe est ici en de."
+       ],
+       "y": "En reprend de ce projet."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-14-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "lui",
+     "right": "Elle lui {fr2Present(\"parler\",3)} reprend à sa tante."
+    },
+    {
+     "left": "leur",
+     "right": "Elle leur {fr2Present(\"parler\",3)} reprend aux voisins."
+    },
+    {
+     "left": "y",
+     "right": "Elle y {fr2Present(\"aller\",3)} reprend à Buea."
+    },
+    {
+     "left": "en",
+     "right": "Elle en {fr2Present(\"parler\",3)} reprend du projet."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-14-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "lui : le pronom reprenant un destinataire singulier dans le modèle de parler à.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le pronom complément lui peut reprendre une personne de genre féminin ou masculin. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "leur : le pronom reprenant plusieurs destinataires dans ce modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Leur pronom complément est invariable, contrairement à certains déterminants possessifs. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "y : un pronom reprenant notamment un lieu dans le modèle étudié.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il reprend le lieu, sans changer le sujet. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "en : un pronom reprenant notamment un complément en de ou une quantité.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La reprise doit garder les précisions nécessaires à l’énoncé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Lui désigne obligatoirement un homme.",
+      "truth": "false",
+      "explain": "Le pronom complément lui peut reprendre une personne de genre féminin ou masculin."
+     },
+     {
+      "text": "Le pronom complément leur prend toujours un s.",
+      "truth": "false",
+      "explain": "Leur pronom complément est invariable, contrairement à certains déterminants possessifs."
+     },
+     {
+      "text": "Y remplace ici le sujet elle.",
+      "truth": "false",
+      "explain": "Il reprend le lieu, sans changer le sujet."
+     },
+     {
+      "text": "En impose de supprimer toute quantité utile au sens.",
+      "truth": "false",
+      "explain": "La reprise doit garder les précisions nécessaires à l’énoncé."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

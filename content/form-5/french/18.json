@@ -1,0 +1,575 @@
+{
+ "subject": "french",
+ "class": "Form 5",
+ "lesson_no": 18,
+ "language": "fr",
+ "prerequisites": [
+  9,
+  10,
+  13,
+  17
+ ],
+ "skills": [
+  {
+   "id": "fr5-18",
+   "name": "L’imparfait et le plus-que-parfait"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’imparfait peut installer un cadre ou une habitude passée. Le plus-que-parfait présente notamment un événement antérieur à un repère passé. Il associe avoir ou être à l’imparfait et un participe passé. Le choix d’auxiliaire et les règles d’accord ne disparaissent pas parce que l’auxiliaire change de temps. Les exercices variables emploient ici des verbes avec avoir sans complément direct antéposé. Le sens temporel d’une phrase ne se réduit pas à repérer une terminaison.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras former les temps étudiés et distinguer arrière-plan et antériorité dans un récit. Acquis mobilisés : présent, événements narratifs et verbes irréguliers. Pour la suite : style indirect et chronologie d’une description."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "L’imparfait peut installer un cadre ou une habitude passée. Le plus-que-parfait présente notamment un événement antérieur à un repère passé. Il associe avoir ou être à l’imparfait et un participe passé. Le choix d’auxiliaire et les règles d’accord ne disparaissent pas parce que l’auxiliaire change de temps. Les exercices variables emploient ici des verbes avec avoir sans complément direct antéposé. Le sens temporel d’une phrase ne se réduit pas à repérer une terminaison."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Le club {fr2Imparfait(\"préparer\",2)} une affiche quand Bih arriva. {cap(fr2PlusQueParfait(\"finir\",3))} son plan avant la rencontre. Préparait situe l’activité de fond ; avait fini place le plan avant le repère passé. Compare {fr2With(4,fr2Imparfait(\"faire\",4))} et {fr2PlusQueParfait(\"faire\",4)}."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère le sujet et le point passé de référence. Pour le temps composé, conjugue l’auxiliaire à l’imparfait puis ajoute le participe. Vérifie l’ordre des événements sans présenter toute forme passée comme la même chronologie."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "imparfait de cadre",
+    "meaning": "un emploi de l’imparfait décrivant l’arrière-plan"
+   },
+   {
+    "word": "antériorité passée",
+    "meaning": "la relation d’un événement situé avant un autre repère passé"
+   },
+   {
+    "word": "auxiliaire à l’imparfait",
+    "meaning": "la partie conjuguée du plus-que-parfait"
+   },
+   {
+    "word": "participe conservé",
+    "meaning": "le participe requis après l’auxiliaire du temps composé"
+   }
+  ],
+  "mistake": {
+   "wrong": "L’imparfait signifie toujours une action encore actuelle.",
+   "right": "un emploi de l’imparfait décrivant l’arrière-plan.",
+   "why": "Le cadre du modèle est passé."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le club préparait une affiche installe l’activité de fond. Explique le choix.",
+  "steps": [
+   "un emploi de l’imparfait décrivant l’arrière-plan.",
+   "Le cadre du modèle est passé."
+  ],
+  "answer": "imparfait de cadre",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr5-18-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "imparfait de cadre : un emploi de l’imparfait décrivant l’arrière-plan.",
+     "antériorité passée : la relation d’un événement situé avant un autre repère passé.",
+     "auxiliaire à l’imparfait : la partie conjuguée du plus-que-parfait.",
+     "participe conservé : le participe requis après l’auxiliaire du temps composé."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-18-notions"
+    }
+   },
+   {
+    "id": "fr5-18-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Le club préparait une affiche installe l’activité de fond.",
+     "Le plan avait été terminé avant la rencontre racontée.",
+     "Avait porte la personne et le temps dans avait fini.",
+     "Avait fait emploie fait, non faire."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-18-cas"
+    }
+   },
+   {
+    "id": "fr5-18-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "L’imparfait signifie toujours une action encore actuelle. Correction : Le cadre du modèle est passé.",
+     "Antérieur signifie nécessairement après le repère. Correction : Antérieur situe le fait avant ce repère.",
+     "A fini est le même temps composé que avait fini. Correction : Le temps de l’auxiliaire distingue les constructions.",
+     "Avait faire fournit le plus-que-parfait du modèle. Correction : Le temps composé demande un participe."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr5-18-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "imparfait de cadre : un emploi de l’imparfait décrivant l’arrière-plan.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le cadre du modèle est passé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "antériorité passée : la relation d’un événement situé avant un autre repère passé.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Antérieur situe le fait avant ce repère. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "auxiliaire à l’imparfait : la partie conjuguée du plus-que-parfait.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le temps de l’auxiliaire distingue les constructions. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "participe conservé : le participe requis après l’auxiliaire du temps composé.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le temps composé demande un participe. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "L’imparfait signifie toujours une action encore actuelle.",
+        "truth": "false",
+        "explain": "Le cadre du modèle est passé."
+       },
+       {
+        "text": "Antérieur signifie nécessairement après le repère.",
+        "truth": "false",
+        "explain": "Antérieur situe le fait avant ce repère."
+       },
+       {
+        "text": "A fini est le même temps composé que avait fini.",
+        "truth": "false",
+        "explain": "Le temps de l’auxiliaire distingue les constructions."
+       },
+       {
+        "text": "Avait faire fournit le plus-que-parfait du modèle.",
+        "truth": "false",
+        "explain": "Le temps composé demande un participe."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr5-18-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne un emploi de l’imparfait décrivant l’arrière-plan ?",
+       "r": "imparfait de cadre",
+       "w": [
+        "antériorité passée",
+        "auxiliaire à l’imparfait",
+        "participe conservé"
+       ],
+       "e": [
+        "Cela désigne la relation d’un événement situé avant un autre repère passé, plutôt que la notion demandée.",
+        "Cela désigne la partie conjuguée du plus-que-parfait, plutôt que la notion demandée.",
+        "Cela désigne le participe requis après l’auxiliaire du temps composé, plutôt que la notion demandée."
+       ],
+       "y": "Le cadre du modèle est passé."
+      },
+      {
+       "q": "Quel terme désigne la relation d’un événement situé avant un autre repère passé ?",
+       "r": "antériorité passée",
+       "w": [
+        "imparfait de cadre",
+        "auxiliaire à l’imparfait",
+        "participe conservé"
+       ],
+       "e": [
+        "Cela désigne un emploi de l’imparfait décrivant l’arrière-plan, plutôt que la notion demandée.",
+        "Cela désigne la partie conjuguée du plus-que-parfait, plutôt que la notion demandée.",
+        "Cela désigne le participe requis après l’auxiliaire du temps composé, plutôt que la notion demandée."
+       ],
+       "y": "Antérieur situe le fait avant ce repère."
+      },
+      {
+       "q": "Quel terme désigne la partie conjuguée du plus-que-parfait ?",
+       "r": "auxiliaire à l’imparfait",
+       "w": [
+        "imparfait de cadre",
+        "antériorité passée",
+        "participe conservé"
+       ],
+       "e": [
+        "Cela désigne un emploi de l’imparfait décrivant l’arrière-plan, plutôt que la notion demandée.",
+        "Cela désigne la relation d’un événement situé avant un autre repère passé, plutôt que la notion demandée.",
+        "Cela désigne le participe requis après l’auxiliaire du temps composé, plutôt que la notion demandée."
+       ],
+       "y": "Le temps de l’auxiliaire distingue les constructions."
+      },
+      {
+       "q": "Quel terme désigne le participe requis après l’auxiliaire du temps composé ?",
+       "r": "participe conservé",
+       "w": [
+        "imparfait de cadre",
+        "antériorité passée",
+        "auxiliaire à l’imparfait"
+       ],
+       "e": [
+        "Cela désigne un emploi de l’imparfait décrivant l’arrière-plan, plutôt que la notion demandée.",
+        "Cela désigne la relation d’un événement situé avant un autre repère passé, plutôt que la notion demandée.",
+        "Cela désigne la partie conjuguée du plus-que-parfait, plutôt que la notion demandée."
+       ],
+       "y": "Le temps composé demande un participe."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-18-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le club préparait une affiche installe l’activité de fond.\nQuelle notion convient ?",
+       "r": "imparfait de cadre",
+       "w": [
+        "antériorité passée",
+        "auxiliaire à l’imparfait",
+        "participe conservé"
+       ],
+       "e": [
+        "Cela concerne la relation d’un événement situé avant un autre repère passé. Compare cette définition avec le cas présenté.",
+        "Cela concerne la partie conjuguée du plus-que-parfait. Compare cette définition avec le cas présenté.",
+        "Cela concerne le participe requis après l’auxiliaire du temps composé. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le cadre du modèle est passé."
+      },
+      {
+       "q": "Le plan avait été terminé avant la rencontre racontée.\nQuelle notion convient ?",
+       "r": "antériorité passée",
+       "w": [
+        "imparfait de cadre",
+        "auxiliaire à l’imparfait",
+        "participe conservé"
+       ],
+       "e": [
+        "Cela concerne un emploi de l’imparfait décrivant l’arrière-plan. Compare cette définition avec le cas présenté.",
+        "Cela concerne la partie conjuguée du plus-que-parfait. Compare cette définition avec le cas présenté.",
+        "Cela concerne le participe requis après l’auxiliaire du temps composé. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Antérieur situe le fait avant ce repère."
+      },
+      {
+       "q": "Avait porte la personne et le temps dans avait fini.\nQuelle notion convient ?",
+       "r": "auxiliaire à l’imparfait",
+       "w": [
+        "imparfait de cadre",
+        "antériorité passée",
+        "participe conservé"
+       ],
+       "e": [
+        "Cela concerne un emploi de l’imparfait décrivant l’arrière-plan. Compare cette définition avec le cas présenté.",
+        "Cela concerne la relation d’un événement situé avant un autre repère passé. Compare cette définition avec le cas présenté.",
+        "Cela concerne le participe requis après l’auxiliaire du temps composé. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le temps de l’auxiliaire distingue les constructions."
+      },
+      {
+       "q": "Avait fait emploie fait, non faire.\nQuelle notion convient ?",
+       "r": "participe conservé",
+       "w": [
+        "imparfait de cadre",
+        "antériorité passée",
+        "auxiliaire à l’imparfait"
+       ],
+       "e": [
+        "Cela concerne un emploi de l’imparfait décrivant l’arrière-plan. Compare cette définition avec le cas présenté.",
+        "Cela concerne la relation d’un événement situé avant un autre repère passé. Compare cette définition avec le cas présenté.",
+        "Cela concerne la partie conjuguée du plus-que-parfait. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le temps composé demande un participe."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-18-formes",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "T": {
+     "pick": [
+      {
+       "key": "imp",
+       "label": "l’imparfait"
+      },
+      {
+       "key": "pqp",
+       "label": "le plus-que-parfait"
+      }
+     ]
+    },
+    "v": {
+     "pick": [
+      "aider",
+      "finir",
+      "voir",
+      "faire"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » à {T.label}, à la voix active, avec « {fr2Pronoun(p)} ».",
+   "correct": "{T.key==\"imp\" ? fr2With(p,fr2Imparfait(v,p)) : fr2PlusQueParfait(v,p)}",
+   "distractors": [
+    {
+     "text": "{T.key==\"imp\" ? fr2PlusQueParfait(v,p) : fr2With(p,fr2Imparfait(v,p))}",
+     "misconception": "autre"
+    },
+    {
+     "text": "{fr2PasseCompose(v,p)}",
+     "misconception": "pc"
+    },
+    {
+     "text": "{fr2With(p,fr2Present(v,p))}",
+     "misconception": "pres"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "autre",
+     "explain": "Cette forme échange le temps simple et le temps composé demandés."
+    },
+    {
+     "id": "pc",
+     "explain": "Le passé composé emploie un auxiliaire au présent et ne répond pas au temps demandé."
+    },
+    {
+     "id": "pres",
+     "explain": "Le présent ne fournit pas le cadre passé demandé."
+    }
+   ],
+   "solution": [
+    "Repère le temps et le sujet.",
+    "L’imparfait est simple ; le plus-que-parfait associe un auxiliaire à l’imparfait et le participe.",
+    "La forme est {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-18-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "imparfait de cadre",
+     "right": "Le club préparait une affiche installe l’activité de fond."
+    },
+    {
+     "left": "antériorité passée",
+     "right": "Le plan avait été terminé avant la rencontre racontée."
+    },
+    {
+     "left": "auxiliaire à l’imparfait",
+     "right": "Avait porte la personne et le temps dans avait fini."
+    },
+    {
+     "left": "participe conservé",
+     "right": "Avait fait emploie fait, non faire."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-18-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "imparfait de cadre : un emploi de l’imparfait décrivant l’arrière-plan.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le cadre du modèle est passé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "antériorité passée : la relation d’un événement situé avant un autre repère passé.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Antérieur situe le fait avant ce repère. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "auxiliaire à l’imparfait : la partie conjuguée du plus-que-parfait.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le temps de l’auxiliaire distingue les constructions. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "participe conservé : le participe requis après l’auxiliaire du temps composé.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le temps composé demande un participe. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "L’imparfait signifie toujours une action encore actuelle.",
+      "truth": "false",
+      "explain": "Le cadre du modèle est passé."
+     },
+     {
+      "text": "Antérieur signifie nécessairement après le repère.",
+      "truth": "false",
+      "explain": "Antérieur situe le fait avant ce repère."
+     },
+     {
+      "text": "A fini est le même temps composé que avait fini.",
+      "truth": "false",
+      "explain": "Le temps de l’auxiliaire distingue les constructions."
+     },
+     {
+      "text": "Avait faire fournit le plus-que-parfait du modèle.",
+      "truth": "false",
+      "explain": "Le temps composé demande un participe."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,560 @@
+{
+ "subject": "french",
+ "class": "Form 5",
+ "lesson_no": 31,
+ "language": "fr",
+ "prerequisites": [
+  9,
+  18,
+  23,
+  27,
+  29,
+  30
+ ],
+ "skills": [
+  {
+   "id": "fr5-31",
+   "name": "Rédiger une description et un portrait"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un portrait sélectionne et organise des détails selon un point de vue et un but. On peut situer la personne, décrire quelques éléments concrets puis développer une attitude à partir d’actions. Une couleur ou un vêtement n’établit pas une valeur morale. Les traits de caractère doivent être soutenus et formulés avec une portée raisonnable. Distingue ce que le narrateur observe de ce qu’il interprète. Relis les accords et la cohérence des temps plutôt que de multiplier les adjectifs sans développement.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras organiser un portrait fictif en appuyant les traits sur des détails et des actions. Acquis mobilisés : lecture, accords, temps et sens contextuel. Pour la suite : écriture autonome et révision d’une production développée."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Un portrait sélectionne et organise des détails selon un point de vue et un but. On peut situer la personne, décrire quelques éléments concrets puis développer une attitude à partir d’actions. Une couleur ou un vêtement n’établit pas une valeur morale. Les traits de caractère doivent être soutenus et formulés avec une portée raisonnable. Distingue ce que le narrateur observe de ce qu’il interprète. Relis les accords et la cohérence des temps plutôt que de multiplier les adjectifs sans développement."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Extrait du modèle original : Manka, personnage imaginaire de notre récit, accueille les nouveaux membres du club. Son carnet bleu dépasse de sa poche et ses gestes sont mesurés. Ces détails permettent de la situer dans la scène sans prétendre révéler toute sa personnalité."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Choisis un personnage fictif et un effet d’ensemble. Planifie les détails et leurs liens, puis appuie une interprétation sur une action. Termine par une impression cohérente sans généralisation injustifiée. Révise pronoms, accords, noms composés et temps."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "organisation du portrait",
+    "meaning": "un ordre reliant présentation et détails choisis"
+   },
+   {
+    "word": "détail descriptif",
+    "meaning": "un élément concret de l’apparence ou du cadre"
+   },
+   {
+    "word": "trait appuyé",
+    "meaning": "une interprétation soutenue par une action racontée"
+   },
+   {
+    "word": "portée mesurée",
+    "meaning": "une formulation évitant un jugement définitif sans preuves"
+   }
+  ],
+  "mistake": {
+   "wrong": "Un portrait doit empiler des détails sans relation.",
+   "right": "un ordre reliant présentation et détails choisis.",
+   "why": "Le lecteur a besoin d’une progression."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le début situe Manka avant de développer ses gestes. Explique le choix.",
+  "steps": [
+   "un ordre reliant présentation et détails choisis.",
+   "Le lecteur a besoin d’une progression."
+  ],
+  "answer": "organisation du portrait",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr5-31-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "organisation du portrait : un ordre reliant présentation et détails choisis.",
+     "détail descriptif : un élément concret de l’apparence ou du cadre.",
+     "trait appuyé : une interprétation soutenue par une action racontée.",
+     "portée mesurée : une formulation évitant un jugement définitif sans preuves."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-31-notions"
+    }
+   },
+   {
+    "id": "fr5-31-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Le début situe Manka avant de développer ses gestes.",
+     "Le carnet bleu dépasse de sa poche.",
+     "Laisser le temps de questionner suggère ici la patience.",
+     "La scène suggère une attitude sans établir tous les comportements futurs."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-31-cas"
+    }
+   },
+   {
+    "id": "fr5-31-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Un portrait doit empiler des détails sans relation. Correction : Le lecteur a besoin d’une progression.",
+     "La couleur d’un carnet prouve toute la valeur morale de sa propriétaire. Correction : Un détail visible ne justifie pas ce jugement.",
+     "Attribuer un trait exige d’ignorer tous les gestes du récit. Correction : L’action fournit l’appui de l’interprétation.",
+     "Une scène prouve que la personne agit toujours exactement ainsi. Correction : La portée de l’indice reste limitée."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr5-31-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "organisation du portrait : un ordre reliant présentation et détails choisis.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le lecteur a besoin d’une progression. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "détail descriptif : un élément concret de l’apparence ou du cadre.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Un détail visible ne justifie pas ce jugement. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "trait appuyé : une interprétation soutenue par une action racontée.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’action fournit l’appui de l’interprétation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "portée mesurée : une formulation évitant un jugement définitif sans preuves.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La portée de l’indice reste limitée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Un portrait doit empiler des détails sans relation.",
+        "truth": "false",
+        "explain": "Le lecteur a besoin d’une progression."
+       },
+       {
+        "text": "La couleur d’un carnet prouve toute la valeur morale de sa propriétaire.",
+        "truth": "false",
+        "explain": "Un détail visible ne justifie pas ce jugement."
+       },
+       {
+        "text": "Attribuer un trait exige d’ignorer tous les gestes du récit.",
+        "truth": "false",
+        "explain": "L’action fournit l’appui de l’interprétation."
+       },
+       {
+        "text": "Une scène prouve que la personne agit toujours exactement ainsi.",
+        "truth": "false",
+        "explain": "La portée de l’indice reste limitée."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr5-31-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne un ordre reliant présentation et détails choisis ?",
+       "r": "organisation du portrait",
+       "w": [
+        "détail descriptif",
+        "trait appuyé",
+        "portée mesurée"
+       ],
+       "e": [
+        "Cela désigne un élément concret de l’apparence ou du cadre, plutôt que la notion demandée.",
+        "Cela désigne une interprétation soutenue par une action racontée, plutôt que la notion demandée.",
+        "Cela désigne une formulation évitant un jugement définitif sans preuves, plutôt que la notion demandée."
+       ],
+       "y": "Le lecteur a besoin d’une progression."
+      },
+      {
+       "q": "Quel terme désigne un élément concret de l’apparence ou du cadre ?",
+       "r": "détail descriptif",
+       "w": [
+        "organisation du portrait",
+        "trait appuyé",
+        "portée mesurée"
+       ],
+       "e": [
+        "Cela désigne un ordre reliant présentation et détails choisis, plutôt que la notion demandée.",
+        "Cela désigne une interprétation soutenue par une action racontée, plutôt que la notion demandée.",
+        "Cela désigne une formulation évitant un jugement définitif sans preuves, plutôt que la notion demandée."
+       ],
+       "y": "Un détail visible ne justifie pas ce jugement."
+      },
+      {
+       "q": "Quel terme désigne une interprétation soutenue par une action racontée ?",
+       "r": "trait appuyé",
+       "w": [
+        "organisation du portrait",
+        "détail descriptif",
+        "portée mesurée"
+       ],
+       "e": [
+        "Cela désigne un ordre reliant présentation et détails choisis, plutôt que la notion demandée.",
+        "Cela désigne un élément concret de l’apparence ou du cadre, plutôt que la notion demandée.",
+        "Cela désigne une formulation évitant un jugement définitif sans preuves, plutôt que la notion demandée."
+       ],
+       "y": "L’action fournit l’appui de l’interprétation."
+      },
+      {
+       "q": "Quel terme désigne une formulation évitant un jugement définitif sans preuves ?",
+       "r": "portée mesurée",
+       "w": [
+        "organisation du portrait",
+        "détail descriptif",
+        "trait appuyé"
+       ],
+       "e": [
+        "Cela désigne un ordre reliant présentation et détails choisis, plutôt que la notion demandée.",
+        "Cela désigne un élément concret de l’apparence ou du cadre, plutôt que la notion demandée.",
+        "Cela désigne une interprétation soutenue par une action racontée, plutôt que la notion demandée."
+       ],
+       "y": "La portée de l’indice reste limitée."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-31-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le début situe Manka avant de développer ses gestes.\nQuelle notion convient ?",
+       "r": "organisation du portrait",
+       "w": [
+        "détail descriptif",
+        "trait appuyé",
+        "portée mesurée"
+       ],
+       "e": [
+        "Cela concerne un élément concret de l’apparence ou du cadre. Compare cette définition avec le cas présenté.",
+        "Cela concerne une interprétation soutenue par une action racontée. Compare cette définition avec le cas présenté.",
+        "Cela concerne une formulation évitant un jugement définitif sans preuves. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le lecteur a besoin d’une progression."
+      },
+      {
+       "q": "Le carnet bleu dépasse de sa poche.\nQuelle notion convient ?",
+       "r": "détail descriptif",
+       "w": [
+        "organisation du portrait",
+        "trait appuyé",
+        "portée mesurée"
+       ],
+       "e": [
+        "Cela concerne un ordre reliant présentation et détails choisis. Compare cette définition avec le cas présenté.",
+        "Cela concerne une interprétation soutenue par une action racontée. Compare cette définition avec le cas présenté.",
+        "Cela concerne une formulation évitant un jugement définitif sans preuves. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Un détail visible ne justifie pas ce jugement."
+      },
+      {
+       "q": "Laisser le temps de questionner suggère ici la patience.\nQuelle notion convient ?",
+       "r": "trait appuyé",
+       "w": [
+        "organisation du portrait",
+        "détail descriptif",
+        "portée mesurée"
+       ],
+       "e": [
+        "Cela concerne un ordre reliant présentation et détails choisis. Compare cette définition avec le cas présenté.",
+        "Cela concerne un élément concret de l’apparence ou du cadre. Compare cette définition avec le cas présenté.",
+        "Cela concerne une formulation évitant un jugement définitif sans preuves. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’action fournit l’appui de l’interprétation."
+      },
+      {
+       "q": "La scène suggère une attitude sans établir tous les comportements futurs.\nQuelle notion convient ?",
+       "r": "portée mesurée",
+       "w": [
+        "organisation du portrait",
+        "détail descriptif",
+        "trait appuyé"
+       ],
+       "e": [
+        "Cela concerne un ordre reliant présentation et détails choisis. Compare cette définition avec le cas présenté.",
+        "Cela concerne un élément concret de l’apparence ou du cadre. Compare cette définition avec le cas présenté.",
+        "Cela concerne une interprétation soutenue par une action racontée. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La portée de l’indice reste limitée."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-31-construire",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "Le début situe Manka avant de développer ses gestes.",
+       "b": "Le début situe Manka avant de développer ses gestes."
+      },
+      {
+       "a": "Le carnet bleu dépasse de sa poche.",
+       "b": "Le carnet bleu dépasse de sa poche."
+      },
+      {
+       "a": "Laisser le temps de questionner suggère ici la patience.",
+       "b": "Laisser le temps de questionner suggère ici la patience."
+      },
+      {
+       "a": "La scène suggère une attitude sans établir tous les comportements futurs.",
+       "b": "La scène suggère une attitude sans établir tous les comportements futurs."
+      }
+     ]
+    }
+   },
+   "prompt": "Touche les mots dans le bon ordre.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-31-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "organisation du portrait",
+     "right": "Le début situe Manka avant de développer ses gestes."
+    },
+    {
+     "left": "détail descriptif",
+     "right": "Le carnet bleu dépasse de sa poche."
+    },
+    {
+     "left": "trait appuyé",
+     "right": "Laisser le temps de questionner suggère ici la patience."
+    },
+    {
+     "left": "portée mesurée",
+     "right": "La scène suggère une attitude sans établir tous les comportements futurs."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-31-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "organisation du portrait : un ordre reliant présentation et détails choisis.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le lecteur a besoin d’une progression. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "détail descriptif : un élément concret de l’apparence ou du cadre.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Un détail visible ne justifie pas ce jugement. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "trait appuyé : une interprétation soutenue par une action racontée.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’action fournit l’appui de l’interprétation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "portée mesurée : une formulation évitant un jugement définitif sans preuves.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La portée de l’indice reste limitée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Un portrait doit empiler des détails sans relation.",
+      "truth": "false",
+      "explain": "Le lecteur a besoin d’une progression."
+     },
+     {
+      "text": "La couleur d’un carnet prouve toute la valeur morale de sa propriétaire.",
+      "truth": "false",
+      "explain": "Un détail visible ne justifie pas ce jugement."
+     },
+     {
+      "text": "Attribuer un trait exige d’ignorer tous les gestes du récit.",
+      "truth": "false",
+      "explain": "L’action fournit l’appui de l’interprétation."
+     },
+     {
+      "text": "Une scène prouve que la personne agit toujours exactement ainsi.",
+      "truth": "false",
+      "explain": "La portée de l’indice reste limitée."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "checks": [],
+  "prompt": "Rédige le portrait original d’un membre fictif d’un club. Situe-le, organise des détails concrets et développe un trait à partir d’une action. Distingue observation et interprétation. Suis la longueur demandée par ton enseignant.",
+  "model": [
+   "Manka, personnage imaginaire de notre récit, accueille les nouveaux membres du club. Son carnet bleu dépasse de sa poche et ses gestes sont mesurés. Ces détails permettent de la situer dans la scène sans prétendre révéler toute sa personnalité.",
+   "Quand un camarade hésite devant la liste des tâches, elle lui laisse le temps de poser une question. Elle reformule la consigne et vérifie ce qu’il a compris. Ces actions suggèrent de la patience dans cette situation. Elles ne prouvent pas qu’elle ne se met jamais en colère.",
+   "Son rôle dans le groupe apparaît ainsi à travers une apparence choisie et des gestes significatifs. Le portrait ne transforme ni ses vêtements en preuve de valeur morale ni une scène en jugement définitif sur sa vie."
+  ],
+  "checklist": [
+   "Présenter un personnage fictif sans information privée.",
+   "Organiser les détails selon un point de vue et un but.",
+   "Appuyer un trait sur une action précise.",
+   "Ne pas déduire une valeur morale d’une apparence.",
+   "Conserver une portée raisonnable pour chaque interprétation.",
+   "Vérifier accords, reprises, pluriels composés et temps."
+  ]
+ }
+}

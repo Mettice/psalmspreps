@@ -1,0 +1,607 @@
+{
+ "subject": "french",
+ "class": "Form 5",
+ "lesson_no": 1,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fr5-1",
+   "name": "Lire un texte de vie familiale et sociale"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Lis le passage entier avant de répondre. Repère personnes, actions, raisons et étapes. Une réponse doit s’appuyer sur un détail ou un indice, non sur une information inventée. Distingue un fait raconté, une proposition et un résultat encore inconnu. Le support original ci-dessous est une fiction pédagogique : il ne représente ni toutes les familles ni une œuvre prescrite.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras repérer un désaccord, une raison et une proposition dans un récit original. Acquis mobilisés : la lecture attentive et les relations familiales de la classe précédente. Pour la suite : dialoguer, raconter et justifier une interprétation."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Lis le passage entier avant de répondre. Repère personnes, actions, raisons et étapes. Une réponse doit s’appuyer sur un détail ou un indice, non sur une information inventée. Distingue un fait raconté, une proposition et un résultat encore inconnu. Le support original ci-dessous est une fiction pédagogique : il ne représente ni toutes les familles ni une œuvre prescrite."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Texte original : Dans une famille imaginaire à Bamenda, Bih doit réviser pendant que son cousin prépare une lecture à voix haute. Leurs activités se gênent. Au lieu de conclure que l’autre ne veut pas travailler, Bih propose de noter les contraintes de chacun. Un adulte les aide à envisager un autre horaire. Le nouveau programme reste à essayer ; le récit ne dit pas que toutes les difficultés ont disparu."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Relis la phrase utile, réponds clairement puis explique l’indice. Préserve les personnes, le moment et la portée du passage. Ne transforme pas un projet en résultat."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "information explicite",
+    "meaning": "un détail réellement donné par le texte"
+   },
+   {
+    "word": "indice de sens",
+    "meaning": "un élément du contexte éclairant une interprétation"
+   },
+   {
+    "word": "projet",
+    "meaning": "une action envisagée sans résultat nécessairement acquis"
+   },
+   {
+    "word": "limite du texte",
+    "meaning": "ce que les informations fournies ne permettent pas de conclure"
+   }
+  ],
+  "mistake": {
+   "wrong": "Une invention plausible est automatiquement une information du texte.",
+   "right": "un détail réellement donné par le texte.",
+   "why": "Il faut retrouver le détail dans le support."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Une action annoncée dans le passage peut être citée. Explique le choix.",
+  "steps": [
+   "un détail réellement donné par le texte.",
+   "Il faut retrouver le détail dans le support."
+  ],
+  "answer": "information explicite",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr5-1-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "information explicite : un détail réellement donné par le texte.",
+     "indice de sens : un élément du contexte éclairant une interprétation.",
+     "projet : une action envisagée sans résultat nécessairement acquis.",
+     "limite du texte : ce que les informations fournies ne permettent pas de conclure."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-1-notions"
+    }
+   },
+   {
+    "id": "fr5-1-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Une action annoncée dans le passage peut être citée.",
+     "Une demande de confirmation indique une incertitude.",
+     "Une rencontre prévue n’est pas encore un bilan de participation.",
+     "L’absence de résultat oblige à laisser une question ouverte."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-1-cas"
+    }
+   },
+   {
+    "id": "fr5-1-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Une invention plausible est automatiquement une information du texte. Correction : Il faut retrouver le détail dans le support.",
+     "Tous les sens d’un mot conviennent également dans chaque phrase. Correction : Le contexte aide à sélectionner un sens.",
+     "Chaque projet annoncé est un succès mesuré. Correction : Intention et résultat sont distincts.",
+     "Un récit inventé décrit obligatoirement toutes les familles. Correction : Le cas ne permet pas cette généralisation."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr5-1-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "information explicite : un détail réellement donné par le texte.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il faut retrouver le détail dans le support. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "indice de sens : un élément du contexte éclairant une interprétation.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le contexte aide à sélectionner un sens. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "projet : une action envisagée sans résultat nécessairement acquis.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Intention et résultat sont distincts. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "limite du texte : ce que les informations fournies ne permettent pas de conclure.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le cas ne permet pas cette généralisation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une invention plausible est automatiquement une information du texte.",
+        "truth": "false",
+        "explain": "Il faut retrouver le détail dans le support."
+       },
+       {
+        "text": "Tous les sens d’un mot conviennent également dans chaque phrase.",
+        "truth": "false",
+        "explain": "Le contexte aide à sélectionner un sens."
+       },
+       {
+        "text": "Chaque projet annoncé est un succès mesuré.",
+        "truth": "false",
+        "explain": "Intention et résultat sont distincts."
+       },
+       {
+        "text": "Un récit inventé décrit obligatoirement toutes les familles.",
+        "truth": "false",
+        "explain": "Le cas ne permet pas cette généralisation."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr5-1-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne un détail réellement donné par le texte ?",
+       "r": "information explicite",
+       "w": [
+        "indice de sens",
+        "projet",
+        "limite du texte"
+       ],
+       "e": [
+        "Cela désigne un élément du contexte éclairant une interprétation, plutôt que la notion demandée.",
+        "Cela désigne une action envisagée sans résultat nécessairement acquis, plutôt que la notion demandée.",
+        "Cela désigne ce que les informations fournies ne permettent pas de conclure, plutôt que la notion demandée."
+       ],
+       "y": "Il faut retrouver le détail dans le support."
+      },
+      {
+       "q": "Quel terme désigne un élément du contexte éclairant une interprétation ?",
+       "r": "indice de sens",
+       "w": [
+        "information explicite",
+        "projet",
+        "limite du texte"
+       ],
+       "e": [
+        "Cela désigne un détail réellement donné par le texte, plutôt que la notion demandée.",
+        "Cela désigne une action envisagée sans résultat nécessairement acquis, plutôt que la notion demandée.",
+        "Cela désigne ce que les informations fournies ne permettent pas de conclure, plutôt que la notion demandée."
+       ],
+       "y": "Le contexte aide à sélectionner un sens."
+      },
+      {
+       "q": "Quel terme désigne une action envisagée sans résultat nécessairement acquis ?",
+       "r": "projet",
+       "w": [
+        "information explicite",
+        "indice de sens",
+        "limite du texte"
+       ],
+       "e": [
+        "Cela désigne un détail réellement donné par le texte, plutôt que la notion demandée.",
+        "Cela désigne un élément du contexte éclairant une interprétation, plutôt que la notion demandée.",
+        "Cela désigne ce que les informations fournies ne permettent pas de conclure, plutôt que la notion demandée."
+       ],
+       "y": "Intention et résultat sont distincts."
+      },
+      {
+       "q": "Quel terme désigne ce que les informations fournies ne permettent pas de conclure ?",
+       "r": "limite du texte",
+       "w": [
+        "information explicite",
+        "indice de sens",
+        "projet"
+       ],
+       "e": [
+        "Cela désigne un détail réellement donné par le texte, plutôt que la notion demandée.",
+        "Cela désigne un élément du contexte éclairant une interprétation, plutôt que la notion demandée.",
+        "Cela désigne une action envisagée sans résultat nécessairement acquis, plutôt que la notion demandée."
+       ],
+       "y": "Le cas ne permet pas cette généralisation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-1-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Une action annoncée dans le passage peut être citée.\nQuelle notion convient ?",
+       "r": "information explicite",
+       "w": [
+        "indice de sens",
+        "projet",
+        "limite du texte"
+       ],
+       "e": [
+        "Cela concerne un élément du contexte éclairant une interprétation. Compare cette définition avec le cas présenté.",
+        "Cela concerne une action envisagée sans résultat nécessairement acquis. Compare cette définition avec le cas présenté.",
+        "Cela concerne ce que les informations fournies ne permettent pas de conclure. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il faut retrouver le détail dans le support."
+      },
+      {
+       "q": "Une demande de confirmation indique une incertitude.\nQuelle notion convient ?",
+       "r": "indice de sens",
+       "w": [
+        "information explicite",
+        "projet",
+        "limite du texte"
+       ],
+       "e": [
+        "Cela concerne un détail réellement donné par le texte. Compare cette définition avec le cas présenté.",
+        "Cela concerne une action envisagée sans résultat nécessairement acquis. Compare cette définition avec le cas présenté.",
+        "Cela concerne ce que les informations fournies ne permettent pas de conclure. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le contexte aide à sélectionner un sens."
+      },
+      {
+       "q": "Une rencontre prévue n’est pas encore un bilan de participation.\nQuelle notion convient ?",
+       "r": "projet",
+       "w": [
+        "information explicite",
+        "indice de sens",
+        "limite du texte"
+       ],
+       "e": [
+        "Cela concerne un détail réellement donné par le texte. Compare cette définition avec le cas présenté.",
+        "Cela concerne un élément du contexte éclairant une interprétation. Compare cette définition avec le cas présenté.",
+        "Cela concerne ce que les informations fournies ne permettent pas de conclure. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Intention et résultat sont distincts."
+      },
+      {
+       "q": "L’absence de résultat oblige à laisser une question ouverte.\nQuelle notion convient ?",
+       "r": "limite du texte",
+       "w": [
+        "information explicite",
+        "indice de sens",
+        "projet"
+       ],
+       "e": [
+        "Cela concerne un détail réellement donné par le texte. Compare cette définition avec le cas présenté.",
+        "Cela concerne un élément du contexte éclairant une interprétation. Compare cette définition avec le cas présenté.",
+        "Cela concerne une action envisagée sans résultat nécessairement acquis. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le cas ne permet pas cette généralisation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-1-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quelle difficulté est donnée ?",
+       "r": "Les activités de révision et de lecture se gênent.",
+       "w": [
+        "Personne ne veut jamais travailler.",
+        "La famille n’a aucun livre.",
+        "Le programme a déjà tout résolu."
+       ],
+       "e": [
+        "Cette intention n’est pas établie.",
+        "Aucun manque de livres n’est annoncé.",
+        "Le programme reste à essayer."
+       ],
+       "y": "Le début décrit un chevauchement d’activités."
+      },
+      {
+       "q": "Que propose Bih avant de juger son cousin ?",
+       "r": "Noter les contraintes de chacun.",
+       "w": [
+        "Inventer ses intentions.",
+        "Déclarer toute lecture inutile.",
+        "Annoncer un résultat définitif."
+       ],
+       "e": [
+        "Elle évite ce jugement.",
+        "La lecture reste une activité du récit.",
+        "Le résultat n’est pas donné."
+       ],
+       "y": "La proposition aide à comprendre la situation."
+      },
+      {
+       "q": "Quel rôle joue l’adulte ?",
+       "r": "Aider à envisager un autre horaire.",
+       "w": [
+        "Supprimer définitivement les études.",
+        "Garantir un résultat à chaque famille.",
+        "Remplacer tous les livres."
+       ],
+       "e": [
+        "Ce n’est pas annoncé.",
+        "Le cas ne garantit rien de général.",
+        "Aucun remplacement n’est décrit."
+       ],
+       "y": "Le passage précise cette aide."
+      },
+      {
+       "q": "Que peut-on conclure ?",
+       "r": "Une adaptation est envisagée, mais son efficacité reste inconnue.",
+       "w": [
+        "Chaque problème a disparu.",
+        "Toutes les familles ont les mêmes horaires.",
+        "Le cousin refuse forcément tout effort."
+       ],
+       "e": [
+        "Le résultat reste à observer.",
+        "Le cas ne porte pas cette généralité.",
+        "L’intention n’est pas établie."
+       ],
+       "y": "Respecte la limite finale du texte."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-1-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "information explicite",
+     "right": "Une action annoncée dans le passage peut être citée."
+    },
+    {
+     "left": "indice de sens",
+     "right": "Une demande de confirmation indique une incertitude."
+    },
+    {
+     "left": "projet",
+     "right": "Une rencontre prévue n’est pas encore un bilan de participation."
+    },
+    {
+     "left": "limite du texte",
+     "right": "L’absence de résultat oblige à laisser une question ouverte."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-1-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "information explicite : un détail réellement donné par le texte.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il faut retrouver le détail dans le support. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "indice de sens : un élément du contexte éclairant une interprétation.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le contexte aide à sélectionner un sens. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "projet : une action envisagée sans résultat nécessairement acquis.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Intention et résultat sont distincts. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "limite du texte : ce que les informations fournies ne permettent pas de conclure.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le cas ne permet pas cette généralisation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une invention plausible est automatiquement une information du texte.",
+      "truth": "false",
+      "explain": "Il faut retrouver le détail dans le support."
+     },
+     {
+      "text": "Tous les sens d’un mot conviennent également dans chaque phrase.",
+      "truth": "false",
+      "explain": "Le contexte aide à sélectionner un sens."
+     },
+     {
+      "text": "Chaque projet annoncé est un succès mesuré.",
+      "truth": "false",
+      "explain": "Intention et résultat sont distincts."
+     },
+     {
+      "text": "Un récit inventé décrit obligatoirement toutes les familles.",
+      "truth": "false",
+      "explain": "Le cas ne permet pas cette généralisation."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

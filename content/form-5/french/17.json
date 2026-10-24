@@ -1,0 +1,611 @@
+{
+ "subject": "french",
+ "class": "Form 5",
+ "lesson_no": 17,
+ "language": "fr",
+ "prerequisites": [
+  12,
+  13,
+  15
+ ],
+ "skills": [
+  {
+   "id": "fr5-17",
+   "name": "Mots et expressions des changements climatiques"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "La météo décrit les conditions atmosphériques à court terme ; le climat concerne des caractéristiques statistiques observées sur de longues périodes. Une journée de pluie ne prouve pas à elle seule une tendance climatique. L’atténuation vise notamment à réduire les émissions de gaz à effet de serre ou renforcer leur absorption ; l’adaptation ajuste les pratiques aux effets présents ou attendus. Une action peut avoir plusieurs effets : précise le but décrit au lieu de choisir une étiquette sans contexte. Le cours apprend le vocabulaire, sans donner de prévision locale.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras distinguer météo, climat, atténuation et adaptation dans un contexte précis. Acquis mobilisés : sens des mots et propositions de cause. Pour la suite : temps du récit et interprétation d’images environnementales."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "La météo décrit les conditions atmosphériques à court terme ; le climat concerne des caractéristiques statistiques observées sur de longues périodes. Une journée de pluie ne prouve pas à elle seule une tendance climatique. L’atténuation vise notamment à réduire les émissions de gaz à effet de serre ou renforcer leur absorption ; l’adaptation ajuste les pratiques aux effets présents ou attendus. Une action peut avoir plusieurs effets : précise le but décrit au lieu de choisir une étiquette sans contexte. Le cours apprend le vocabulaire, sans donner de prévision locale."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : Il pleut aujourd’hui décrit la météo. Un texte comparant des observations sur une longue période concerne le climat. Un projet visant à réduire des émissions illustre l’atténuation ; un aménagement conçu pour mieux supporter des chaleurs attendues illustre l’adaptation. Le but déclaré aide à distinguer les derniers emplois."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Lis la phrase entière, repère la relation de sens et choisis un mot adapté au contexte. Une proximité de thème ne rend pas tous les mots interchangeables. Réemploie ensuite un mot dans une phrase originale et vérifie ce que tu veux dire."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "météo",
+    "meaning": "les conditions atmosphériques à court terme"
+   },
+   {
+    "word": "climat",
+    "meaning": "des caractéristiques statistiques des conditions atmosphériques sur une longue période"
+   },
+   {
+    "word": "atténuation",
+    "meaning": "une action visant notamment à réduire les émissions ou renforcer leur absorption"
+   },
+   {
+    "word": "adaptation",
+    "meaning": "un ajustement aux effets climatiques présents ou attendus"
+   }
+  ],
+  "mistake": {
+   "wrong": "Une journée suffit à mesurer tout le climat d’un pays.",
+   "right": "les conditions atmosphériques à court terme.",
+   "why": "L’échelle temporelle et les observations nécessaires diffèrent."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le bulletin décrit la pluie d’aujourd’hui. Explique le choix.",
+  "steps": [
+   "les conditions atmosphériques à court terme.",
+   "L’échelle temporelle et les observations nécessaires diffèrent."
+  ],
+  "answer": "météo",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr5-17-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "météo : les conditions atmosphériques à court terme.",
+     "climat : des caractéristiques statistiques des conditions atmosphériques sur une longue période.",
+     "atténuation : une action visant notamment à réduire les émissions ou renforcer leur absorption.",
+     "adaptation : un ajustement aux effets climatiques présents ou attendus."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-17-notions"
+    }
+   },
+   {
+    "id": "fr5-17-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Le bulletin décrit la pluie d’aujourd’hui.",
+     "Un texte compare des observations de longue durée.",
+     "Le projet a pour but explicite de réduire les émissions.",
+     "L’aménagement vise à mieux supporter des chaleurs attendues."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-17-cas"
+    }
+   },
+   {
+    "id": "fr5-17-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Une journée suffit à mesurer tout le climat d’un pays. Correction : L’échelle temporelle et les observations nécessaires diffèrent.",
+     "Climat signifie uniquement la pluie observée à cet instant. Correction : Le climat ne se réduit pas à une observation ponctuelle.",
+     "Toute action environnementale vise exactement le même mécanisme. Correction : Il faut examiner le but et le mécanisme décrits.",
+     "Adapter une pratique prouve que tout changement est supprimé. Correction : L’ajustement aux effets n’est pas leur disparition."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr5-17-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "météo : les conditions atmosphériques à court terme.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’échelle temporelle et les observations nécessaires diffèrent. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "climat : des caractéristiques statistiques des conditions atmosphériques sur une longue période.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le climat ne se réduit pas à une observation ponctuelle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "atténuation : une action visant notamment à réduire les émissions ou renforcer leur absorption.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il faut examiner le but et le mécanisme décrits. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "adaptation : un ajustement aux effets climatiques présents ou attendus.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’ajustement aux effets n’est pas leur disparition. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une journée suffit à mesurer tout le climat d’un pays.",
+        "truth": "false",
+        "explain": "L’échelle temporelle et les observations nécessaires diffèrent."
+       },
+       {
+        "text": "Climat signifie uniquement la pluie observée à cet instant.",
+        "truth": "false",
+        "explain": "Le climat ne se réduit pas à une observation ponctuelle."
+       },
+       {
+        "text": "Toute action environnementale vise exactement le même mécanisme.",
+        "truth": "false",
+        "explain": "Il faut examiner le but et le mécanisme décrits."
+       },
+       {
+        "text": "Adapter une pratique prouve que tout changement est supprimé.",
+        "truth": "false",
+        "explain": "L’ajustement aux effets n’est pas leur disparition."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr5-17-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne les conditions atmosphériques à court terme ?",
+       "r": "météo",
+       "w": [
+        "climat",
+        "atténuation",
+        "adaptation"
+       ],
+       "e": [
+        "Cela désigne des caractéristiques statistiques des conditions atmosphériques sur une longue période, plutôt que la notion demandée.",
+        "Cela désigne une action visant notamment à réduire les émissions ou renforcer leur absorption, plutôt que la notion demandée.",
+        "Cela désigne un ajustement aux effets climatiques présents ou attendus, plutôt que la notion demandée."
+       ],
+       "y": "L’échelle temporelle et les observations nécessaires diffèrent."
+      },
+      {
+       "q": "Quel terme désigne des caractéristiques statistiques des conditions atmosphériques sur une longue période ?",
+       "r": "climat",
+       "w": [
+        "météo",
+        "atténuation",
+        "adaptation"
+       ],
+       "e": [
+        "Cela désigne les conditions atmosphériques à court terme, plutôt que la notion demandée.",
+        "Cela désigne une action visant notamment à réduire les émissions ou renforcer leur absorption, plutôt que la notion demandée.",
+        "Cela désigne un ajustement aux effets climatiques présents ou attendus, plutôt que la notion demandée."
+       ],
+       "y": "Le climat ne se réduit pas à une observation ponctuelle."
+      },
+      {
+       "q": "Quel terme désigne une action visant notamment à réduire les émissions ou renforcer leur absorption ?",
+       "r": "atténuation",
+       "w": [
+        "météo",
+        "climat",
+        "adaptation"
+       ],
+       "e": [
+        "Cela désigne les conditions atmosphériques à court terme, plutôt que la notion demandée.",
+        "Cela désigne des caractéristiques statistiques des conditions atmosphériques sur une longue période, plutôt que la notion demandée.",
+        "Cela désigne un ajustement aux effets climatiques présents ou attendus, plutôt que la notion demandée."
+       ],
+       "y": "Il faut examiner le but et le mécanisme décrits."
+      },
+      {
+       "q": "Quel terme désigne un ajustement aux effets climatiques présents ou attendus ?",
+       "r": "adaptation",
+       "w": [
+        "météo",
+        "climat",
+        "atténuation"
+       ],
+       "e": [
+        "Cela désigne les conditions atmosphériques à court terme, plutôt que la notion demandée.",
+        "Cela désigne des caractéristiques statistiques des conditions atmosphériques sur une longue période, plutôt que la notion demandée.",
+        "Cela désigne une action visant notamment à réduire les émissions ou renforcer leur absorption, plutôt que la notion demandée."
+       ],
+       "y": "L’ajustement aux effets n’est pas leur disparition."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-17-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le bulletin décrit la pluie d’aujourd’hui.\nQuelle notion convient ?",
+       "r": "météo",
+       "w": [
+        "climat",
+        "atténuation",
+        "adaptation"
+       ],
+       "e": [
+        "Cela concerne des caractéristiques statistiques des conditions atmosphériques sur une longue période. Compare cette définition avec le cas présenté.",
+        "Cela concerne une action visant notamment à réduire les émissions ou renforcer leur absorption. Compare cette définition avec le cas présenté.",
+        "Cela concerne un ajustement aux effets climatiques présents ou attendus. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’échelle temporelle et les observations nécessaires diffèrent."
+      },
+      {
+       "q": "Un texte compare des observations de longue durée.\nQuelle notion convient ?",
+       "r": "climat",
+       "w": [
+        "météo",
+        "atténuation",
+        "adaptation"
+       ],
+       "e": [
+        "Cela concerne les conditions atmosphériques à court terme. Compare cette définition avec le cas présenté.",
+        "Cela concerne une action visant notamment à réduire les émissions ou renforcer leur absorption. Compare cette définition avec le cas présenté.",
+        "Cela concerne un ajustement aux effets climatiques présents ou attendus. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le climat ne se réduit pas à une observation ponctuelle."
+      },
+      {
+       "q": "Le projet a pour but explicite de réduire les émissions.\nQuelle notion convient ?",
+       "r": "atténuation",
+       "w": [
+        "météo",
+        "climat",
+        "adaptation"
+       ],
+       "e": [
+        "Cela concerne les conditions atmosphériques à court terme. Compare cette définition avec le cas présenté.",
+        "Cela concerne des caractéristiques statistiques des conditions atmosphériques sur une longue période. Compare cette définition avec le cas présenté.",
+        "Cela concerne un ajustement aux effets climatiques présents ou attendus. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il faut examiner le but et le mécanisme décrits."
+      },
+      {
+       "q": "L’aménagement vise à mieux supporter des chaleurs attendues.\nQuelle notion convient ?",
+       "r": "adaptation",
+       "w": [
+        "météo",
+        "climat",
+        "atténuation"
+       ],
+       "e": [
+        "Cela concerne les conditions atmosphériques à court terme. Compare cette définition avec le cas présenté.",
+        "Cela concerne des caractéristiques statistiques des conditions atmosphériques sur une longue période. Compare cette définition avec le cas présenté.",
+        "Cela concerne une action visant notamment à réduire les émissions ou renforcer leur absorption. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’ajustement aux effets n’est pas leur disparition."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-17-contexte",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le bulletin parle de la pluie de ce matin : quel terme convient ?\nQuel mot ou groupe de la leçon convient ?",
+       "r": "météo",
+       "w": [
+        "climat",
+        "atténuation",
+        "adaptation"
+       ],
+       "e": [
+        "Ce mot désigne des caractéristiques statistiques des conditions atmosphériques sur une longue période. La phrase demande plutôt les conditions atmosphériques à court terme.",
+        "Ce mot désigne une action visant notamment à réduire les émissions ou renforcer leur absorption. La phrase demande plutôt les conditions atmosphériques à court terme.",
+        "Ce mot désigne un ajustement aux effets climatiques présents ou attendus. La phrase demande plutôt les conditions atmosphériques à court terme."
+       ],
+       "y": "L’échelle temporelle et les observations nécessaires diffèrent."
+      },
+      {
+       "q": "On étudie les caractéristiques atmosphériques sur une longue durée : quel terme convient ?\nQuel mot ou groupe de la leçon convient ?",
+       "r": "climat",
+       "w": [
+        "météo",
+        "atténuation",
+        "adaptation"
+       ],
+       "e": [
+        "Ce mot désigne les conditions atmosphériques à court terme. La phrase demande plutôt des caractéristiques statistiques des conditions atmosphériques sur une longue période.",
+        "Ce mot désigne une action visant notamment à réduire les émissions ou renforcer leur absorption. La phrase demande plutôt des caractéristiques statistiques des conditions atmosphériques sur une longue période.",
+        "Ce mot désigne un ajustement aux effets climatiques présents ou attendus. La phrase demande plutôt des caractéristiques statistiques des conditions atmosphériques sur une longue période."
+       ],
+       "y": "Le climat ne se réduit pas à une observation ponctuelle."
+      },
+      {
+       "q": "Le but déclaré est de réduire les émissions : quel terme convient ?\nQuel mot ou groupe de la leçon convient ?",
+       "r": "atténuation",
+       "w": [
+        "météo",
+        "climat",
+        "adaptation"
+       ],
+       "e": [
+        "Ce mot désigne les conditions atmosphériques à court terme. La phrase demande plutôt une action visant notamment à réduire les émissions ou renforcer leur absorption.",
+        "Ce mot désigne des caractéristiques statistiques des conditions atmosphériques sur une longue période. La phrase demande plutôt une action visant notamment à réduire les émissions ou renforcer leur absorption.",
+        "Ce mot désigne un ajustement aux effets climatiques présents ou attendus. La phrase demande plutôt une action visant notamment à réduire les émissions ou renforcer leur absorption."
+       ],
+       "y": "Il faut examiner le but et le mécanisme décrits."
+      },
+      {
+       "q": "Le but déclaré est de mieux supporter des effets attendus : quel terme convient ?\nQuel mot ou groupe de la leçon convient ?",
+       "r": "adaptation",
+       "w": [
+        "météo",
+        "climat",
+        "atténuation"
+       ],
+       "e": [
+        "Ce mot désigne les conditions atmosphériques à court terme. La phrase demande plutôt un ajustement aux effets climatiques présents ou attendus.",
+        "Ce mot désigne des caractéristiques statistiques des conditions atmosphériques sur une longue période. La phrase demande plutôt un ajustement aux effets climatiques présents ou attendus.",
+        "Ce mot désigne une action visant notamment à réduire les émissions ou renforcer leur absorption. La phrase demande plutôt un ajustement aux effets climatiques présents ou attendus."
+       ],
+       "y": "L’ajustement aux effets n’est pas leur disparition."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-17-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "météo",
+     "right": "Le bulletin décrit la pluie d’aujourd’hui."
+    },
+    {
+     "left": "climat",
+     "right": "Un texte compare des observations de longue durée."
+    },
+    {
+     "left": "atténuation",
+     "right": "Le projet a pour but explicite de réduire les émissions."
+    },
+    {
+     "left": "adaptation",
+     "right": "L’aménagement vise à mieux supporter des chaleurs attendues."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-17-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "météo : les conditions atmosphériques à court terme.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’échelle temporelle et les observations nécessaires diffèrent. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "climat : des caractéristiques statistiques des conditions atmosphériques sur une longue période.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le climat ne se réduit pas à une observation ponctuelle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "atténuation : une action visant notamment à réduire les émissions ou renforcer leur absorption.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il faut examiner le but et le mécanisme décrits. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "adaptation : un ajustement aux effets climatiques présents ou attendus.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’ajustement aux effets n’est pas leur disparition. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une journée suffit à mesurer tout le climat d’un pays.",
+      "truth": "false",
+      "explain": "L’échelle temporelle et les observations nécessaires diffèrent."
+     },
+     {
+      "text": "Climat signifie uniquement la pluie observée à cet instant.",
+      "truth": "false",
+      "explain": "Le climat ne se réduit pas à une observation ponctuelle."
+     },
+     {
+      "text": "Toute action environnementale vise exactement le même mécanisme.",
+      "truth": "false",
+      "explain": "Il faut examiner le but et le mécanisme décrits."
+     },
+     {
+      "text": "Adapter une pratique prouve que tout changement est supprimé.",
+      "truth": "false",
+      "explain": "L’ajustement aux effets n’est pas leur disparition."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

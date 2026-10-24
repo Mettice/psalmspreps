@@ -1,0 +1,609 @@
+{
+ "subject": "french",
+ "class": "Form 5",
+ "lesson_no": 2,
+ "language": "fr",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "fr5-2",
+   "name": "Préparer un dialogue de présentation de soi et d’autrui"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une présentation adapte les renseignements à la situation. On peut donner un prénom fictif, un rôle et un intérêt pertinent sans demander d’adresse privée. Présenter autrui exige de conserver son nom, ses pronoms et ce qu’il a réellement déclaré. Une question de clarification sert à vérifier une information, non à l’inventer. Ce travail prépare un dialogue écrit ; l’écoute, la voix et les échanges spontanés devront être pratiqués séparément.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras présenter une personne et demander une précision sans inventer ses informations. Acquis mobilisés : le récit familial, les pronoms sujets et la politesse. Pour la suite : verbes pronominaux et dialogues plus développés."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Une présentation adapte les renseignements à la situation. On peut donner un prénom fictif, un rôle et un intérêt pertinent sans demander d’adresse privée. Présenter autrui exige de conserver son nom, ses pronoms et ce qu’il a réellement déclaré. Une question de clarification sert à vérifier une information, non à l’inventer. Ce travail prépare un dialogue écrit ; l’écoute, la voix et les échanges spontanés devront être pratiqués séparément."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Dialogue original : « Bonjour, je m’appelle Bih. Je participe au club de lecture. Voici Ayuk ; il aime préparer les affiches. — Bonjour. Quel rôle voudrais-tu essayer ? — Je voudrais accueillir les nouveaux membres. Peux-tu préciser l’heure prévue ? » Les personnages sont fictifs. La dernière question n’établit pas encore une heure confirmée."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Précise qui parle, à qui et pourquoi. Choisis des informations fictives utiles, puis ajoute une question pertinente et une réponse qui conserve les mêmes références. Un partenaire pourra ensuite écouter et vérifier l’intelligibilité."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "présentation de soi",
+    "meaning": "des informations pertinentes que le locuteur donne sur lui-même"
+   },
+   {
+    "word": "présentation d’autrui",
+    "meaning": "une introduction fidèle de la personne présentée"
+   },
+   {
+    "word": "clarification",
+    "meaning": "une demande destinée à vérifier une information"
+   },
+   {
+    "word": "référence stable",
+    "meaning": "le maintien de la même personne dans le dialogue"
+   }
+  ],
+  "mistake": {
+   "wrong": "Se présenter exige de publier son adresse privée.",
+   "right": "des informations pertinentes que le locuteur donne sur lui-même.",
+   "why": "On peut utiliser des informations fictives adaptées."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Je participe au club de lecture présente mon rôle. Explique le choix.",
+  "steps": [
+   "des informations pertinentes que le locuteur donne sur lui-même.",
+   "On peut utiliser des informations fictives adaptées."
+  ],
+  "answer": "présentation de soi",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr5-2-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "présentation de soi : des informations pertinentes que le locuteur donne sur lui-même.",
+     "présentation d’autrui : une introduction fidèle de la personne présentée.",
+     "clarification : une demande destinée à vérifier une information.",
+     "référence stable : le maintien de la même personne dans le dialogue."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-2-notions"
+    }
+   },
+   {
+    "id": "fr5-2-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Je participe au club de lecture présente mon rôle.",
+     "Voici Ayuk ; il aime préparer les affiches.",
+     "Peux-tu préciser l’heure prévue ?",
+     "Il renvoie à Ayuk dans le modèle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-2-cas"
+    }
+   },
+   {
+    "id": "fr5-2-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Se présenter exige de publier son adresse privée. Correction : On peut utiliser des informations fictives adaptées.",
+     "Présenter une personne autorise à inventer ses préférences. Correction : Il faut préserver les informations données.",
+     "Demander une heure prouve qu’elle est déjà confirmée. Correction : La question signale un renseignement encore nécessaire.",
+     "On peut changer les référents des pronoms sans changer le sens. Correction : Les pronoms doivent garder une référence claire."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr5-2-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "présentation de soi : des informations pertinentes que le locuteur donne sur lui-même.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : On peut utiliser des informations fictives adaptées. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "présentation d’autrui : une introduction fidèle de la personne présentée.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il faut préserver les informations données. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "clarification : une demande destinée à vérifier une information.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La question signale un renseignement encore nécessaire. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "référence stable : le maintien de la même personne dans le dialogue.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les pronoms doivent garder une référence claire. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Se présenter exige de publier son adresse privée.",
+        "truth": "false",
+        "explain": "On peut utiliser des informations fictives adaptées."
+       },
+       {
+        "text": "Présenter une personne autorise à inventer ses préférences.",
+        "truth": "false",
+        "explain": "Il faut préserver les informations données."
+       },
+       {
+        "text": "Demander une heure prouve qu’elle est déjà confirmée.",
+        "truth": "false",
+        "explain": "La question signale un renseignement encore nécessaire."
+       },
+       {
+        "text": "On peut changer les référents des pronoms sans changer le sens.",
+        "truth": "false",
+        "explain": "Les pronoms doivent garder une référence claire."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr5-2-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne des informations pertinentes que le locuteur donne sur lui-même ?",
+       "r": "présentation de soi",
+       "w": [
+        "présentation d’autrui",
+        "clarification",
+        "référence stable"
+       ],
+       "e": [
+        "Cela désigne une introduction fidèle de la personne présentée, plutôt que la notion demandée.",
+        "Cela désigne une demande destinée à vérifier une information, plutôt que la notion demandée.",
+        "Cela désigne le maintien de la même personne dans le dialogue, plutôt que la notion demandée."
+       ],
+       "y": "On peut utiliser des informations fictives adaptées."
+      },
+      {
+       "q": "Quel terme désigne une introduction fidèle de la personne présentée ?",
+       "r": "présentation d’autrui",
+       "w": [
+        "présentation de soi",
+        "clarification",
+        "référence stable"
+       ],
+       "e": [
+        "Cela désigne des informations pertinentes que le locuteur donne sur lui-même, plutôt que la notion demandée.",
+        "Cela désigne une demande destinée à vérifier une information, plutôt que la notion demandée.",
+        "Cela désigne le maintien de la même personne dans le dialogue, plutôt que la notion demandée."
+       ],
+       "y": "Il faut préserver les informations données."
+      },
+      {
+       "q": "Quel terme désigne une demande destinée à vérifier une information ?",
+       "r": "clarification",
+       "w": [
+        "présentation de soi",
+        "présentation d’autrui",
+        "référence stable"
+       ],
+       "e": [
+        "Cela désigne des informations pertinentes que le locuteur donne sur lui-même, plutôt que la notion demandée.",
+        "Cela désigne une introduction fidèle de la personne présentée, plutôt que la notion demandée.",
+        "Cela désigne le maintien de la même personne dans le dialogue, plutôt que la notion demandée."
+       ],
+       "y": "La question signale un renseignement encore nécessaire."
+      },
+      {
+       "q": "Quel terme désigne le maintien de la même personne dans le dialogue ?",
+       "r": "référence stable",
+       "w": [
+        "présentation de soi",
+        "présentation d’autrui",
+        "clarification"
+       ],
+       "e": [
+        "Cela désigne des informations pertinentes que le locuteur donne sur lui-même, plutôt que la notion demandée.",
+        "Cela désigne une introduction fidèle de la personne présentée, plutôt que la notion demandée.",
+        "Cela désigne une demande destinée à vérifier une information, plutôt que la notion demandée."
+       ],
+       "y": "Les pronoms doivent garder une référence claire."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-2-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Je participe au club de lecture présente mon rôle.\nQuelle notion convient ?",
+       "r": "présentation de soi",
+       "w": [
+        "présentation d’autrui",
+        "clarification",
+        "référence stable"
+       ],
+       "e": [
+        "Cela concerne une introduction fidèle de la personne présentée. Compare cette définition avec le cas présenté.",
+        "Cela concerne une demande destinée à vérifier une information. Compare cette définition avec le cas présenté.",
+        "Cela concerne le maintien de la même personne dans le dialogue. Compare cette définition avec le cas présenté."
+       ],
+       "y": "On peut utiliser des informations fictives adaptées."
+      },
+      {
+       "q": "Voici Ayuk ; il aime préparer les affiches.\nQuelle notion convient ?",
+       "r": "présentation d’autrui",
+       "w": [
+        "présentation de soi",
+        "clarification",
+        "référence stable"
+       ],
+       "e": [
+        "Cela concerne des informations pertinentes que le locuteur donne sur lui-même. Compare cette définition avec le cas présenté.",
+        "Cela concerne une demande destinée à vérifier une information. Compare cette définition avec le cas présenté.",
+        "Cela concerne le maintien de la même personne dans le dialogue. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il faut préserver les informations données."
+      },
+      {
+       "q": "Peux-tu préciser l’heure prévue ?\nQuelle notion convient ?",
+       "r": "clarification",
+       "w": [
+        "présentation de soi",
+        "présentation d’autrui",
+        "référence stable"
+       ],
+       "e": [
+        "Cela concerne des informations pertinentes que le locuteur donne sur lui-même. Compare cette définition avec le cas présenté.",
+        "Cela concerne une introduction fidèle de la personne présentée. Compare cette définition avec le cas présenté.",
+        "Cela concerne le maintien de la même personne dans le dialogue. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La question signale un renseignement encore nécessaire."
+      },
+      {
+       "q": "Il renvoie à Ayuk dans le modèle.\nQuelle notion convient ?",
+       "r": "référence stable",
+       "w": [
+        "présentation de soi",
+        "présentation d’autrui",
+        "clarification"
+       ],
+       "e": [
+        "Cela concerne des informations pertinentes que le locuteur donne sur lui-même. Compare cette définition avec le cas présenté.",
+        "Cela concerne une introduction fidèle de la personne présentée. Compare cette définition avec le cas présenté.",
+        "Cela concerne une demande destinée à vérifier une information. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les pronoms doivent garder une référence claire."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-2-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Tu veux te présenter au club avec des renseignements fictifs pertinents. Quelle phrase convient ?",
+       "r": "Je m’appelle Bih et je participe au club de lecture.",
+       "w": [
+        "Voici le mot de passe réel de mon voisin.",
+        "Je sais toutes les pensées privées d’Ayuk.",
+        "Toute question prouve que l’horaire est fixé."
+       ],
+       "e": [
+        "Ce détail privé n’est pas nécessaire.",
+        "Cette connaissance n’est pas donnée.",
+        "Une question peut signaler une incertitude."
+       ],
+       "y": "Donne une identité fictive et un rôle utile."
+      },
+      {
+       "q": "Ayuk a déclaré aimer les affiches. Quelle présentation garde cette information ?",
+       "r": "Voici Ayuk ; il aime préparer les affiches.",
+       "w": [
+        "Voici Ayuk ; il déteste forcément les affiches.",
+        "Voici Bih ; elle a donné toutes les informations d’Ayuk.",
+        "Ayuk est le nom de l’horaire confirmé."
+       ],
+       "e": [
+        "La préférence est inversée.",
+        "La personne et le rôle sont modifiés.",
+        "Le nom désigne une personne."
+       ],
+       "y": "Préserve personne et préférence."
+      },
+      {
+       "q": "L’heure reste inconnue. Quelle demande convient ?",
+       "r": "Peux-tu préciser l’heure prévue ?",
+       "w": [
+        "L’heure est certaine puisque je l’invente.",
+        "Il n’existe aucune différence entre question et réponse.",
+        "Je connais déjà tout horaire possible."
+       ],
+       "e": [
+        "Une invention ne confirme rien.",
+        "La question demande une information.",
+        "Ce savoir n’est pas établi."
+       ],
+       "y": "Demande la précision manquante."
+      },
+      {
+       "q": "Que vérifie cette activité à l’écran ?",
+       "r": "La préparation écrite du dialogue.",
+       "w": [
+        "La qualité réelle de la voix.",
+        "L’écoute d’un enregistrement fourni.",
+        "Toutes les réactions spontanées du partenaire."
+       ],
+       "e": [
+        "Aucune voix n’est évaluée.",
+        "Aucun enregistrement n’est fourni.",
+        "Ces échanges demandent une pratique distincte."
+       ],
+       "y": "La portée écrite est explicite."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-2-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "présentation de soi",
+     "right": "Je participe au club de lecture présente mon rôle."
+    },
+    {
+     "left": "présentation d’autrui",
+     "right": "Voici Ayuk ; il aime préparer les affiches."
+    },
+    {
+     "left": "clarification",
+     "right": "Peux-tu préciser l’heure prévue ?"
+    },
+    {
+     "left": "référence stable",
+     "right": "Il renvoie à Ayuk dans le modèle."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-2-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "présentation de soi : des informations pertinentes que le locuteur donne sur lui-même.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : On peut utiliser des informations fictives adaptées. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "présentation d’autrui : une introduction fidèle de la personne présentée.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il faut préserver les informations données. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "clarification : une demande destinée à vérifier une information.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La question signale un renseignement encore nécessaire. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "référence stable : le maintien de la même personne dans le dialogue.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les pronoms doivent garder une référence claire. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Se présenter exige de publier son adresse privée.",
+      "truth": "false",
+      "explain": "On peut utiliser des informations fictives adaptées."
+     },
+     {
+      "text": "Présenter une personne autorise à inventer ses préférences.",
+      "truth": "false",
+      "explain": "Il faut préserver les informations données."
+     },
+     {
+      "text": "Demander une heure prouve qu’elle est déjà confirmée.",
+      "truth": "false",
+      "explain": "La question signale un renseignement encore nécessaire."
+     },
+     {
+      "text": "On peut changer les référents des pronoms sans changer le sens.",
+      "truth": "false",
+      "explain": "Les pronoms doivent garder une référence claire."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

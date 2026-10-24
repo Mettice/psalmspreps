@@ -1,0 +1,597 @@
+{
+ "subject": "french",
+ "class": "Form 5",
+ "lesson_no": 4,
+ "language": "fr",
+ "prerequisites": [
+  1,
+  2
+ ],
+ "skills": [
+  {
+   "id": "fr5-4",
+   "name": "Les verbes pronominaux au présent"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une construction pronominale associe un verbe à me, te, se, nous ou vous selon le sujet. Dans je me lave, me reprend le sujet ; nous nous lavons associe le pronom sujet à un pronom réfléchi de même personne. Devant une voyelle, me, te et se s’élident : je m’appelle. Le verbe garde ses règles de conjugaison et ses changements de radical. Les valeurs des constructions pronominales sont variées ; cette leçon travaille les formes au présent, non toutes les règles d’accord du participe passé.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras associer le pronom réfléchi au sujet et former le présent des modèles étudiés. Acquis mobilisés : présentations, sujets et présent des verbes. Pour la suite : pronoms, récit et relecture des phrases."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Une construction pronominale associe un verbe à me, te, se, nous ou vous selon le sujet. Dans je me lave, me reprend le sujet ; nous nous lavons associe le pronom sujet à un pronom réfléchi de même personne. Devant une voyelle, me, te et se s’élident : je m’appelle. Le verbe garde ses règles de conjugaison et ses changements de radical. Les valeurs des constructions pronominales sont variées ; cette leçon travaille les formes au présent, non toutes les règles d’accord du participe passé."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles calculés : {fr2With(0,\"me \"+fr2Present(\"laver\",0))} ; {fr2With(4,\"nous \"+fr2Present(\"lever\",4))} ; {fr2With(3,\"s’\"+fr2Present(\"appeler\",3))}. Dans nous nous levons, le premier nous est sujet et le second appartient à la construction pronominale. La forme elle s’appelle conserve le double l du verbe appeler au présent."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère le sujet, choisis son pronom réfléchi puis conjugue le verbe. Vérifie l’élision devant appeler et les changements de radical. Ne remplace pas un pronom réfléchi par un pronom de personne différente."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "construction pronominale",
+    "meaning": "l’association du verbe et d’un pronom reprenant le sujet dans le modèle"
+   },
+   {
+    "word": "correspondance de personne",
+    "meaning": "le choix du pronom réfléchi selon le sujet"
+   },
+   {
+    "word": "élision",
+    "meaning": "la réduction de me, te ou se devant une voyelle"
+   },
+   {
+    "word": "conjugaison du verbe",
+    "meaning": "la forme personnelle conservant les règles du verbe"
+   }
+  ],
+  "mistake": {
+   "wrong": "Je lave est toujours la même construction que je me lave.",
+   "right": "l’association du verbe et d’un pronom reprenant le sujet dans le modèle.",
+   "why": "La présence et le rôle du pronom changent la construction."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Je me lave contient le pronom réfléchi demandé. Explique le choix.",
+  "steps": [
+   "l’association du verbe et d’un pronom reprenant le sujet dans le modèle.",
+   "La présence et le rôle du pronom changent la construction."
+  ],
+  "answer": "construction pronominale",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fr5-4-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "construction pronominale : l’association du verbe et d’un pronom reprenant le sujet dans le modèle.",
+     "correspondance de personne : le choix du pronom réfléchi selon le sujet.",
+     "élision : la réduction de me, te ou se devant une voyelle.",
+     "conjugaison du verbe : la forme personnelle conservant les règles du verbe."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-4-notions"
+    }
+   },
+   {
+    "id": "fr5-4-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Je me lave contient le pronom réfléchi demandé.",
+     "Nous nous levons garde la même personne.",
+     "Je m’appelle emploie la forme élidée.",
+     "Elle s’appelle garde le radical appelle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fr5-4-cas"
+    }
+   },
+   {
+    "id": "fr5-4-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Je lave est toujours la même construction que je me lave. Correction : La présence et le rôle du pronom changent la construction.",
+     "Nous se levons respecte la correspondance étudiée. Correction : Avec nous, le modèle demande nous, non se.",
+     "Je me appelle est la graphie du modèle écrit. Correction : Me s’élide devant la voyelle initiale.",
+     "Le pronom réfléchi autorise à laisser appeler à l’infinitif après elle. Correction : La construction au présent demande un verbe conjugué."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fr5-4-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "construction pronominale : l’association du verbe et d’un pronom reprenant le sujet dans le modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La présence et le rôle du pronom changent la construction. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "correspondance de personne : le choix du pronom réfléchi selon le sujet.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Avec nous, le modèle demande nous, non se. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "élision : la réduction de me, te ou se devant une voyelle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Me s’élide devant la voyelle initiale. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "conjugaison du verbe : la forme personnelle conservant les règles du verbe.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La construction au présent demande un verbe conjugué. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Je lave est toujours la même construction que je me lave.",
+        "truth": "false",
+        "explain": "La présence et le rôle du pronom changent la construction."
+       },
+       {
+        "text": "Nous se levons respecte la correspondance étudiée.",
+        "truth": "false",
+        "explain": "Avec nous, le modèle demande nous, non se."
+       },
+       {
+        "text": "Je me appelle est la graphie du modèle écrit.",
+        "truth": "false",
+        "explain": "Me s’élide devant la voyelle initiale."
+       },
+       {
+        "text": "Le pronom réfléchi autorise à laisser appeler à l’infinitif après elle.",
+        "truth": "false",
+        "explain": "La construction au présent demande un verbe conjugué."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fr5-4-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne l’association du verbe et d’un pronom reprenant le sujet dans le modèle ?",
+       "r": "construction pronominale",
+       "w": [
+        "correspondance de personne",
+        "élision",
+        "conjugaison du verbe"
+       ],
+       "e": [
+        "Cela désigne le choix du pronom réfléchi selon le sujet, plutôt que la notion demandée.",
+        "Cela désigne la réduction de me, te ou se devant une voyelle, plutôt que la notion demandée.",
+        "Cela désigne la forme personnelle conservant les règles du verbe, plutôt que la notion demandée."
+       ],
+       "y": "La présence et le rôle du pronom changent la construction."
+      },
+      {
+       "q": "Quel terme désigne le choix du pronom réfléchi selon le sujet ?",
+       "r": "correspondance de personne",
+       "w": [
+        "construction pronominale",
+        "élision",
+        "conjugaison du verbe"
+       ],
+       "e": [
+        "Cela désigne l’association du verbe et d’un pronom reprenant le sujet dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne la réduction de me, te ou se devant une voyelle, plutôt que la notion demandée.",
+        "Cela désigne la forme personnelle conservant les règles du verbe, plutôt que la notion demandée."
+       ],
+       "y": "Avec nous, le modèle demande nous, non se."
+      },
+      {
+       "q": "Quel terme désigne la réduction de me, te ou se devant une voyelle ?",
+       "r": "élision",
+       "w": [
+        "construction pronominale",
+        "correspondance de personne",
+        "conjugaison du verbe"
+       ],
+       "e": [
+        "Cela désigne l’association du verbe et d’un pronom reprenant le sujet dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne le choix du pronom réfléchi selon le sujet, plutôt que la notion demandée.",
+        "Cela désigne la forme personnelle conservant les règles du verbe, plutôt que la notion demandée."
+       ],
+       "y": "Me s’élide devant la voyelle initiale."
+      },
+      {
+       "q": "Quel terme désigne la forme personnelle conservant les règles du verbe ?",
+       "r": "conjugaison du verbe",
+       "w": [
+        "construction pronominale",
+        "correspondance de personne",
+        "élision"
+       ],
+       "e": [
+        "Cela désigne l’association du verbe et d’un pronom reprenant le sujet dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne le choix du pronom réfléchi selon le sujet, plutôt que la notion demandée.",
+        "Cela désigne la réduction de me, te ou se devant une voyelle, plutôt que la notion demandée."
+       ],
+       "y": "La construction au présent demande un verbe conjugué."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-4-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Je me lave contient le pronom réfléchi demandé.\nQuelle notion convient ?",
+       "r": "construction pronominale",
+       "w": [
+        "correspondance de personne",
+        "élision",
+        "conjugaison du verbe"
+       ],
+       "e": [
+        "Cela concerne le choix du pronom réfléchi selon le sujet. Compare cette définition avec le cas présenté.",
+        "Cela concerne la réduction de me, te ou se devant une voyelle. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme personnelle conservant les règles du verbe. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La présence et le rôle du pronom changent la construction."
+      },
+      {
+       "q": "Nous nous levons garde la même personne.\nQuelle notion convient ?",
+       "r": "correspondance de personne",
+       "w": [
+        "construction pronominale",
+        "élision",
+        "conjugaison du verbe"
+       ],
+       "e": [
+        "Cela concerne l’association du verbe et d’un pronom reprenant le sujet dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne la réduction de me, te ou se devant une voyelle. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme personnelle conservant les règles du verbe. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Avec nous, le modèle demande nous, non se."
+      },
+      {
+       "q": "Je m’appelle emploie la forme élidée.\nQuelle notion convient ?",
+       "r": "élision",
+       "w": [
+        "construction pronominale",
+        "correspondance de personne",
+        "conjugaison du verbe"
+       ],
+       "e": [
+        "Cela concerne l’association du verbe et d’un pronom reprenant le sujet dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne le choix du pronom réfléchi selon le sujet. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme personnelle conservant les règles du verbe. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Me s’élide devant la voyelle initiale."
+      },
+      {
+       "q": "Elle s’appelle garde le radical appelle.\nQuelle notion convient ?",
+       "r": "conjugaison du verbe",
+       "w": [
+        "construction pronominale",
+        "correspondance de personne",
+        "élision"
+       ],
+       "e": [
+        "Cela concerne l’association du verbe et d’un pronom reprenant le sujet dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne le choix du pronom réfléchi selon le sujet. Compare cette définition avec le cas présenté.",
+        "Cela concerne la réduction de me, te ou se devant une voyelle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La construction au présent demande un verbe conjugué."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-4-formes",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "p": 0,
+       "ref": "me",
+       "el": "m’"
+      },
+      {
+       "p": 1,
+       "ref": "te",
+       "el": "t’"
+      },
+      {
+       "p": 2,
+       "ref": "se",
+       "el": "s’"
+      },
+      {
+       "p": 3,
+       "ref": "se",
+       "el": "s’"
+      },
+      {
+       "p": 4,
+       "ref": "nous",
+       "el": "nous "
+      },
+      {
+       "p": 5,
+       "ref": "vous",
+       "el": "vous "
+      },
+      {
+       "p": 6,
+       "ref": "se",
+       "el": "s’"
+      },
+      {
+       "p": 7,
+       "ref": "se",
+       "el": "s’"
+      }
+     ]
+    },
+    "v": {
+     "pick": [
+      "laver",
+      "lever",
+      "appeler"
+     ]
+    }
+   },
+   "prompt": "Mets « {v==\"appeler\" ? \"s’appeler\" : \"se \"+v} » au présent avec « {fr2Pronoun(X.p)} ». Conserve la construction pronominale.",
+   "correct": "{fr2With(X.p,(v==\"appeler\" ? X.el : X.ref+\" \")+fr2Present(v,X.p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(X.p,fr2Present(v,X.p))}",
+     "misconception": "absence"
+    },
+    {
+     "text": "{fr2With(X.p,(X.ref==\"se\" ? \"me \" : \"se \")+fr2Present(v,X.p))}",
+     "misconception": "ref"
+    },
+    {
+     "text": "{fr2With(X.p,(v==\"appeler\" ? X.el : X.ref+\" \")+v)}",
+     "misconception": "inf"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "absence",
+     "explain": "Le verbe est conjugué, mais le pronom réfléchi demandé manque."
+    },
+    {
+     "id": "ref",
+     "explain": "Ce pronom ne reprend pas le sujet demandé dans cette construction."
+    },
+    {
+     "id": "inf",
+     "explain": "L’infinitif ne remplace pas la forme personnelle du présent."
+    }
+   ],
+   "solution": [
+    "Choisis le pronom réfléchi correspondant au sujet.",
+    "Conjugue le verbe avec le même sujet et vérifie l’élision : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-4-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "construction pronominale",
+     "right": "Je me lave contient le pronom réfléchi demandé."
+    },
+    {
+     "left": "correspondance de personne",
+     "right": "Nous nous levons garde la même personne."
+    },
+    {
+     "left": "élision",
+     "right": "Je m’appelle emploie la forme élidée."
+    },
+    {
+     "left": "conjugaison du verbe",
+     "right": "Elle s’appelle garde le radical appelle."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fr5-4-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "construction pronominale : l’association du verbe et d’un pronom reprenant le sujet dans le modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La présence et le rôle du pronom changent la construction. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "correspondance de personne : le choix du pronom réfléchi selon le sujet.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Avec nous, le modèle demande nous, non se. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "élision : la réduction de me, te ou se devant une voyelle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Me s’élide devant la voyelle initiale. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "conjugaison du verbe : la forme personnelle conservant les règles du verbe.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La construction au présent demande un verbe conjugué. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Je lave est toujours la même construction que je me lave.",
+      "truth": "false",
+      "explain": "La présence et le rôle du pronom changent la construction."
+     },
+     {
+      "text": "Nous se levons respecte la correspondance étudiée.",
+      "truth": "false",
+      "explain": "Avec nous, le modèle demande nous, non se."
+     },
+     {
+      "text": "Je me appelle est la graphie du modèle écrit.",
+      "truth": "false",
+      "explain": "Me s’élide devant la voyelle initiale."
+     },
+     {
+      "text": "Le pronom réfléchi autorise à laisser appeler à l’infinitif après elle.",
+      "truth": "false",
+      "explain": "La construction au présent demande un verbe conjugué."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}
