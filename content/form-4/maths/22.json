@@ -1,0 +1,530 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 22,
+ "language": "en",
+ "prerequisites": [
+  21
+ ],
+ "skills": [
+  {
+   "id": "m4-22",
+   "name": "Find the region that satisfies several linear inequalities"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "For several inequalities at once, draw each boundary and shade the unwanted side of each. The region left clear satisfies all of them; it is often labelled R.\nExample: x ≥ 0, y ≥ 0, x + y ≤ 4. The clear region is the triangle with corners (0, 0), (4, 0), (0, 4).\nA point is in R only if it satisfies every inequality.\nTo find the whole-number points in R, check each grid point inside or on the boundary (if the boundary is included).\nThe greatest value of an expression such as 2x + y over R is found at a corner of R.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to find and describe the region R that satisfies several inequalities, count its whole-number points and find the greatest value of an expression in it.\nBuilds on: Lesson {21} (one inequality as a half plane).\nLeads to: linear programming (best buys, greatest profit) in Form Five."
+   },
+   {
+    "heading": "Several boundaries",
+    "text": "Show x ≥ {0}, y ≥ {0}, x + y ≤ {4}.\n• x ≥ {0}: boundary the y-axis; shade the left side.\n• y ≥ {0}: boundary the x-axis; shade below.\n• x + y ≤ {4}: draw the solid line through ({4}, {0}) and ({0}, {4}); O gives {0} ≤ {4}, true, so shade the far side.\nWhat stays clear is the triangle with corners ({0}, {0}), ({4}, {0}), ({0}, {4}). Label it R.\nA point is in R only if it passes every test."
+   },
+   {
+    "heading": "Points in R and best values",
+    "text": "Count whole-number points row by row. For the triangle above: y = {0} gives {5} points, y = {1} gives {4}, … y = {4} gives {1}: {15} in all.\nIn a real problem, x and y are often numbers of items, so only whole-number points count.\nTo find the greatest value of {mono(2, 'x')} + y in R, try the corners: ({0}, {0}) gives {0}, ({4}, {0}) gives {8}, ({0}, {4}) gives {4}. The greatest is {8}.\nWords: 'at least' means ≥, 'at most' and 'not more than' mean ≤."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "region R",
+    "meaning": "the set of points that satisfy all the inequalities"
+   },
+   {
+    "word": "vertex (corner)",
+    "meaning": "a point where two boundaries meet"
+   },
+   {
+    "word": "at least / at most",
+    "meaning": "≥ / ≤"
+   }
+  ],
+  "examples": [
+   "x ≥ {1}, y ≥ {1}, x + y ≤ {5}: corners ({1}, {1}), ({4}, {1}), ({1}, {4})",
+   "at most {20} pupils: x ≤ {20}"
+  ],
+  "mistake": {
+   "wrong": "'at least {3} bags' → x ≤ {3}",
+   "right": "'at least {3} bags' → x ≥ {3}",
+   "why": "At least {3} means {3} or more."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 1,
+   "b": 1,
+   "n": 4
+  },
+  "problem": "Show the region R given by x ≥ {0}, y ≥ {0} and {mono(a, 'x')} + {mono(b, 'y')} ≤ {n}, and count the whole-number points in R.",
+  "steps": [
+   "x ≥ {0}: shade the left of the y-axis. y ≥ {0}: shade below the x-axis.",
+   "Boundary {mono(a, 'x')} + {mono(b, 'y')} = {n} through ({n}, {0}) and ({0}, {n}), solid; O satisfies it, so shade the side away from O.",
+   "R is the clear triangle. Count the grid points in it, edges included: {n + 1} + {n} + … + {1}."
+  ],
+  "answer": "{latticeCount([[1, 0, 0, '≥'], [0, 1, 0, '≥'], [a, b, n, '≤']], [0, 8], [0, 8])} points",
+  "checks": [
+   "latticeCount([[1, 0, 0, '≥'], [0, 1, 0, '≥'], [a, b, n, '≤']], [0, 8], [0, 8]) == 15"
+  ],
+  "figure": "graphFig([-1, 6], [-1, 6], [[1, 0, 0, false, ''], [0, 1, 0, false, ''], [a, b, n, false, '']], [[-1, 0, 0], [0, -1, 0], [a, b, n]], [], [['R', n / (3 * a), n / (3 * b), false]])"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m22-1",
+    "status": "draft",
+    "idea": "R is the clear region left when the unwanted side of every boundary is shaded.",
+    "vars": {},
+    "example": [
+     "x ≥ {0}, y ≥ {0}, x + y ≤ {4}: R is the triangle ({0}, {0}), ({4}, {0}), ({0}, {4})"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-22-in"
+    }
+   },
+   {
+    "id": "c4m22-2",
+    "status": "draft",
+    "idea": "A point is in R only if it satisfies every inequality.",
+    "vars": {},
+    "example": [
+     "({1}, {2}): {1} ≥ {0}, {2} ≥ {0}, {1} + {2} ≤ {4}: in R. ({3}, {2}): {3} + {2} > {4}: not in R"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-22-count"
+    }
+   },
+   {
+    "id": "c4m22-3",
+    "status": "draft",
+    "idea": "The greatest value of an expression like {mono(2, 'x')} + y over R is at a corner of R.",
+    "vars": {},
+    "example": [
+     "corners ({0}, {0}), ({4}, {0}), ({0}, {4}): {mono(2, 'x')} + y = {0}, {8}, {4}; greatest {8}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-22-max-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "graphs"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        1,
+        2
+       ]
+      },
+      "b": {
+       "int": [
+        1,
+        2
+       ]
+      },
+      "n": {
+       "int": [
+        4,
+        8
+       ]
+      },
+      "p": {
+       "int": [
+        1,
+        4
+       ]
+      },
+      "q": {
+       "int": [
+        1,
+        4
+       ]
+      }
+     },
+     "prompt": "R is given by x ≥ {0}, y ≥ {0} and {mono(a, 'x')} + {mono(b, 'y')} ≤ {n}. Find the greatest value of {mono(p, 'x')} + {mono(q, 'y')} for points (x, y) in R with whole-number coordinates.",
+     "answer": "latticeMax([[1, 0, 0, '≥'], [0, 1, 0, '≥'], [a, b, n, '≤']], [0, 8], [0, 8], p, q)",
+     "misconceptions": [
+      {
+       "id": "origin",
+       "wrong": "0",
+       "explain": "({0}, {0}) gives the smallest value, not the greatest."
+      },
+      {
+       "id": "sum",
+       "wrong": "n",
+       "explain": "{n} is the limit for {mono(a, 'x')} + {mono(b, 'y')}, not the value of {mono(p, 'x')} + {mono(q, 'y')}."
+      }
+     ],
+     "solution": [
+      "The greatest value is at a corner of R: ({0}, {0}), ({floor(n / a)}, {0}) or ({0}, {floor(n / b)}) (or a whole-number point next to the slanted edge).",
+      "Work out {mono(p, 'x')} + {mono(q, 'y')} at each and compare.",
+      "The greatest value is {answer}."
+     ],
+     "figure": "graphFig([-1, 8], [-1, 8], [[1, 0, 0, false, ''], [0, 1, 0, false, ''], [a, b, n, false, '']], [[-1, 0, 0], [0, -1, 0], [a, b, n]], [], [['R', n / (3 * a), n / (3 * b), false]])",
+     "where": [
+      "p != q",
+      "latticeMax([[1, 0, 0, '≥'], [0, 1, 0, '≥'], [a, b, n, '≤']], [0, 8], [0, 8], p, q) != n"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-22-in",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      2
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      2
+     ]
+    },
+    "n": {
+     "int": [
+      4,
+      8
+     ]
+    },
+    "px": {
+     "int": [
+      0,
+      3
+     ]
+    },
+    "py": {
+     "int": [
+      0,
+      3
+     ]
+    },
+    "qx": {
+     "int": [
+      1,
+      6
+     ]
+    },
+    "qy": {
+     "int": [
+      1,
+      6
+     ]
+    }
+   },
+   "prompt": "R is the region where x ≥ {0}, y ≥ {0} and {mono(a, 'x')} + {mono(b, 'y')} ≤ {n}. Which point is in R?",
+   "correct": "({px}, {py})",
+   "distractors": [
+    {
+     "text": "({qx}, {qy})",
+     "misconception": "big"
+    },
+    {
+     "text": "({-1}, {py})",
+     "misconception": "neg"
+    },
+    {
+     "text": "({px}, {-1})",
+     "misconception": "negy"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "big",
+     "explain": "{mono(a, 'x')} + {mono(b, 'y')} = {a * qx + b * qy}, which is more than {n}."
+    },
+    {
+     "id": "neg",
+     "explain": "x = {-1} breaks x ≥ {0}."
+    },
+    {
+     "id": "negy",
+     "explain": "y = {-1} breaks y ≥ {0}."
+    }
+   ],
+   "solution": [
+    "Check each inequality for ({px}, {py}): {px} ≥ {0}, {py} ≥ {0}, {a * px + b * py} ≤ {n}.",
+    "All three hold, so the answer is {answer}."
+   ],
+   "figure": "graphFig([-1, 8], [-1, 8], [[1, 0, 0, false, ''], [0, 1, 0, false, ''], [a, b, n, false, '']], [[-1, 0, 0], [0, -1, 0], [a, b, n]], [], [['R', n / (3 * a), n / (3 * b), false]])",
+   "where": [
+    "a * px + b * py <= n",
+    "a * qx + b * qy > n",
+    "qx != px || qy != py"
+   ]
+  },
+  {
+   "id": "m4-22-count",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      2
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      2
+     ]
+    },
+    "n": {
+     "int": [
+      4,
+      8
+     ]
+    }
+   },
+   "prompt": "The unshaded region R satisfies x ≥ {0}, y ≥ {0} and {mono(a, 'x')} + {mono(b, 'y')} ≤ {n}. How many points with whole-number coordinates are in R (edges included)?",
+   "answer": "latticeCount([[1, 0, 0, '≥'], [0, 1, 0, '≥'], [a, b, n, '≤']], [0, 8], [0, 8])",
+   "misconceptions": [
+    {
+     "id": "strict",
+     "wrong": "latticeCount([[1, 0, 0, '>'], [0, 1, 0, '>'], [a, b, n, '<']], [0, 8], [0, 8])",
+     "explain": "The edges are solid lines: points on them are in R."
+    },
+    {
+     "id": "noaxes",
+     "wrong": "latticeCount([[1, 0, 1, '≥'], [0, 1, 1, '≥'], [a, b, n, '≤']], [0, 8], [0, 8])",
+     "explain": "x ≥ {0} and y ≥ {0} include the axes: count the points on them too."
+    }
+   ],
+   "solution": [
+    "Go along each row: for y = {0}, x can be {0} up to {floor(n / a)}; then y = {1}, and so on.",
+    "Check each point with {mono(a, 'x')} + {mono(b, 'y')} ≤ {n}.",
+    "There are {answer} points."
+   ],
+   "figure": "graphFig([-1, 8], [-1, 8], [[1, 0, 0, false, ''], [0, 1, 0, false, ''], [a, b, n, false, '']], [[-1, 0, 0], [0, -1, 0], [a, b, n]], [], [['R', n / (3 * a), n / (3 * b), false]])"
+  },
+  {
+   "id": "m4-22-which",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      2
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      2
+     ]
+    },
+    "n": {
+     "pick": [
+      4,
+      6,
+      8
+     ]
+    }
+   },
+   "prompt": "Which three inequalities define the unshaded region R in the graph?",
+   "correct": "x ≥ {0}, y ≥ {0}, {mono(a, 'x')} + {mono(b, 'y')} ≤ {n}",
+   "distractors": [
+    {
+     "text": "x ≥ {0}, y ≥ {0}, {mono(a, 'x')} + {mono(b, 'y')} ≥ {n}",
+     "misconception": "side"
+    },
+    {
+     "text": "x ≤ {0}, y ≤ {0}, {mono(a, 'x')} + {mono(b, 'y')} ≤ {n}",
+     "misconception": "axes"
+    },
+    {
+     "text": "x ≥ {0}, y ≥ {0}, {mono(b, 'x')} + {mono(a, 'y')} ≤ {n}",
+     "misconception": "swap"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "side",
+     "explain": "R contains points near O, and O gives {0} ≤ {n}: the sign is ≤."
+    },
+    {
+     "id": "axes",
+     "explain": "R lies to the right of the y-axis and above the x-axis: x ≥ {0}, y ≥ {0}."
+    },
+    {
+     "id": "swap",
+     "explain": "Check the intercepts: the line meets the x-axis at x = {n / a}, so the x coefficient is {a}."
+    }
+   ],
+   "solution": [
+    "R is to the right of the y-axis (x ≥ {0}) and above the x-axis (y ≥ {0}).",
+    "The slanted line meets the axes at ({n / a}, {0}) and ({0}, {n / b}): it is {mono(a, 'x')} + {mono(b, 'y')} = {n}, and R is on O's side.",
+    "So the answer is: {answer}."
+   ],
+   "figure": "graphFig([-1, 8], [-1, 8], [[1, 0, 0, false, ''], [0, 1, 0, false, ''], [a, b, n, false, '']], [[-1, 0, 0], [0, -1, 0], [a, b, n]], [], [['R', n / (3 * a), n / (3 * b), false]])",
+   "where": [
+    "a != b"
+   ]
+  },
+  {
+   "id": "m4-22-max",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      2
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      2
+     ]
+    },
+    "n": {
+     "int": [
+      4,
+      8
+     ]
+    },
+    "p": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "q": {
+     "int": [
+      1,
+      4
+     ]
+    }
+   },
+   "prompt": "R is given by x ≥ {0}, y ≥ {0} and {mono(a, 'x')} + {mono(b, 'y')} ≤ {n}. Find the greatest value of {mono(p, 'x')} + {mono(q, 'y')} for points (x, y) in R with whole-number coordinates.",
+   "answer": "latticeMax([[1, 0, 0, '≥'], [0, 1, 0, '≥'], [a, b, n, '≤']], [0, 8], [0, 8], p, q)",
+   "misconceptions": [
+    {
+     "id": "origin",
+     "wrong": "0",
+     "explain": "({0}, {0}) gives the smallest value, not the greatest."
+    },
+    {
+     "id": "sum",
+     "wrong": "n",
+     "explain": "{n} is the limit for {mono(a, 'x')} + {mono(b, 'y')}, not the value of {mono(p, 'x')} + {mono(q, 'y')}."
+    }
+   ],
+   "solution": [
+    "The greatest value is at a corner of R: ({0}, {0}), ({floor(n / a)}, {0}) or ({0}, {floor(n / b)}) (or a whole-number point next to the slanted edge).",
+    "Work out {mono(p, 'x')} + {mono(q, 'y')} at each and compare.",
+    "The greatest value is {answer}."
+   ],
+   "figure": "graphFig([-1, 8], [-1, 8], [[1, 0, 0, false, ''], [0, 1, 0, false, ''], [a, b, n, false, '']], [[-1, 0, 0], [0, -1, 0], [a, b, n]], [], [['R', n / (3 * a), n / (3 * b), false]])",
+   "where": [
+    "p != q",
+    "latticeMax([[1, 0, 0, '≥'], [0, 1, 0, '≥'], [a, b, n, '≤']], [0, 8], [0, 8], p, q) != n"
+   ]
+  },
+  {
+   "id": "m4-22-word",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "r": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "s": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "t": {
+     "int": [
+      10,
+      20
+     ]
+    }
+   },
+   "prompt": "A trader in Kumba buys x bags of rice and y bags of beans. She buys at least {r} bags of rice, at least {s} bags of beans, and at most {t} bags in all. Which inequalities describe this?",
+   "correct": "x ≥ {r}, y ≥ {s}, x + y ≤ {t}",
+   "distractors": [
+    {
+     "text": "x ≤ {r}, y ≤ {s}, x + y ≤ {t}",
+     "misconception": "least"
+    },
+    {
+     "text": "x ≥ {r}, y ≥ {s}, x + y ≥ {t}",
+     "misconception": "most"
+    },
+    {
+     "text": "x ≥ {s}, y ≥ {r}, x + y ≤ {t}",
+     "misconception": "swap"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "least",
+     "explain": "'At least' means 'this many or more': ≥."
+    },
+    {
+     "id": "most",
+     "explain": "'At most' means 'this many or fewer': ≤."
+    },
+    {
+     "id": "swap",
+     "explain": "x counts rice (at least {r}) and y counts beans (at least {s})."
+    }
+   ],
+   "solution": [
+    "'At least {r}' means {r} or more: x ≥ {r}. Likewise y ≥ {s}.",
+    "'At most {t} in all' means x + y ≤ {t}.",
+    "So the answer is: {answer}."
+   ],
+   "where": [
+    "r != s"
+   ]
+  }
+ ]
+}

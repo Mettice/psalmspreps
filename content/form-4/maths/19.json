@@ -1,0 +1,469 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 19,
+ "language": "en",
+ "prerequisites": [
+  7,
+  16
+ ],
+ "skills": [
+  {
+   "id": "m4-19",
+   "name": "Solve quadratic inequalities"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "To solve a quadratic inequality:\n1. Make one side 0 and factorise: (x − p)(x − q), with p < q.\n2. The roots p and q split the number line into three parts. Test the sign of the product in each part.\n3. (x − p)(x − q) < 0 between the roots: p < x < q. (x − p)(x − q) > 0 outside: x < p or x > q.\nExample: x² − x − 6 ≤ 0 → (x + 2)(x − 3) ≤ 0 → −2 ≤ x ≤ 3.\nDo not take square roots of an inequality: x² < 9 means −3 < x < 3, not just x < 3.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to solve quadratic inequalities by factorising and testing the sign between and outside the roots.\nBuilds on: Lesson {7} (roots of quadratics) and Lesson {16} (inequalities and intervals).\nLeads to: graphs of quadratic functions (Lesson {23}), where the same answer is read from the curve."
+   },
+   {
+    "heading": "Signs between and outside the roots",
+    "text": "Take (x + {2})(x − {3}). It is {0} at x = {-2} and x = {3}. These roots split the number line into three parts.\n• x = {-5} (left): ({-3})({-8}) = {24}, positive.\n• x = {0} (middle): ({2})({-3}) = {-6}, negative.\n• x = {5} (right): ({7})({2}) = {14}, positive.\nSo (x + {2})(x − {3}) < {0} for {-2} < x < {3}, and > {0} for x < {-2} or x > {3}.\nFor a positive x² term the pattern is always + − +."
+   },
+   {
+    "heading": "The method",
+    "text": "• Make one side {0}: x² − x > {6} becomes {quad(1, -1, -6)} > {0}.\n• Factorise: {lin2(1, 2, 1, -3)} > {0}. Roots {-2} and {3}.\n• > {0}: outside the roots. Answer: x < {-2} or x > {3}.\nUse ≤ or ≥ to include the roots.\nCareful with squares: x² < {9} means {-3} < x < {3}. Taking the square root alone would lose the negative side."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "quadratic inequality",
+    "meaning": "an inequality with an x² term, such as {quad(1, -1, -6)} > {0}"
+   },
+   {
+    "word": "critical values",
+    "meaning": "the roots, where the sign can change"
+   },
+   {
+    "word": "sign test",
+    "meaning": "trying one number in each part to see whether the expression is positive or negative"
+   }
+  ],
+  "examples": [
+   "(x − {1})(x − {4}) < {0} → {1} < x < {4}",
+   "{quad(1, 0, -16)} ≥ {0} → x ≤ {-4} or x ≥ {4}"
+  ],
+  "mistake": {
+   "wrong": "x² < {9} → x < {3}",
+   "right": "x² < {9} → {-3} < x < {3}",
+   "why": "x = {-5} is less than {3}, but ({-5})² = {25} is not less than {9}. Both ends are needed."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": -2,
+   "q": 3
+  },
+  "problem": "Solve {quad(1, -(p + q), p * q)} ≤ {0}.",
+  "steps": [
+   "Factorise: {lin2(1, -p, 1, -q)} ≤ {0}. The roots are {p} and {q}.",
+   "Test x = {0}, between the roots: ({0} + {-p})({0} − {q}) = {-p} × {br(-q)} = {p * q}, negative. So the product is negative between the roots.",
+   "≤ {0} means negative or zero: between the roots, ends included."
+  ],
+  "answer": "{p} ≤ x ≤ {q}",
+  "checks": [
+   "p * q < 0"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m19-1",
+    "status": "draft",
+    "idea": "The roots split the number line; the sign of (x − p)(x − q) changes only at the roots.",
+    "vars": {},
+    "example": [
+     "(x + {2})(x − {3}): negative for {-2} < x < {3}, positive outside"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-19-inside"
+    }
+   },
+   {
+    "id": "c4m19-2",
+    "status": "draft",
+    "idea": "< {0}: between the roots. > {0}: outside the roots.",
+    "vars": {},
+    "example": [
+     "(x − {1})(x − {5}) > {0} → x < {1} or x > {5}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-19-outside"
+    }
+   },
+   {
+    "id": "c4m19-3",
+    "status": "draft",
+    "idea": "x² < k² has two ends: −k < x < k.",
+    "vars": {},
+    "example": [
+     "x² < {9} → {-3} < x < {3}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-19-square-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "inequalities"
+     ],
+     "vars": {
+      "k": {
+       "int": [
+        2,
+        12
+       ]
+      }
+     },
+     "prompt": "Solve x² > {k * k}.",
+     "correct": "x < {-k} or x > {k}",
+     "distractors": [
+      {
+       "text": "x > {k}",
+       "misconception": "root"
+      },
+      {
+       "text": "{-k} < x < {k}",
+       "misconception": "in"
+      },
+      {
+       "text": "x > {k * k}",
+       "misconception": "nosq"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "root",
+       "explain": "x = {-k - 1} also works: ({-k - 1})² = {(k + 1) * (k + 1)} > {k * k}. Do not just take the square root."
+      },
+      {
+       "id": "in",
+       "explain": "Between {-k} and {k}, x² is less than {k * k}."
+      },
+      {
+       "id": "nosq",
+       "explain": "Compare x² with {k * k}, so the ends are ±{k}."
+      }
+     ],
+     "solution": [
+      "x² − {k * k} > {0}: {lin2(1, k, 1, -k)} > {0}.",
+      "Positive outside the roots {-k} and {k}.",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-19-inside",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      -8,
+      5
+     ]
+    },
+    "w": {
+     "pick": [
+      2,
+      4,
+      6,
+      8
+     ]
+    },
+    "q": {
+     "expr": "p + w"
+    }
+   },
+   "prompt": "Solve {lin2(1, -p, 1, -q)} < {0}.",
+   "correct": "{p} < x < {q}",
+   "distractors": [
+    {
+     "text": "x < {p} or x > {q}",
+     "misconception": "out"
+    },
+    {
+     "text": "{-q} < x < {-p}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{p} ≤ x ≤ {q}",
+     "misconception": "ends"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "out",
+     "explain": "That is where the product is positive (> {0}). Test a number between the roots."
+    },
+    {
+     "id": "sign",
+     "explain": "x − {br(p)} = {0} at x = {p}: the roots have the opposite signs to the numbers in the brackets."
+    },
+    {
+     "id": "ends",
+     "explain": "< {0} leaves out the roots, where the product is {0}."
+    }
+   ],
+   "solution": [
+    "The roots are {p} and {q}.",
+    "Test x = {(p + q) / 2} between them: the brackets have opposite signs, so the product is negative.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "p != 0 && q != 0",
+    "-q != p"
+   ]
+  },
+  {
+   "id": "m4-19-outside",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      -8,
+      5
+     ]
+    },
+    "w": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "q": {
+     "expr": "p + w"
+    }
+   },
+   "prompt": "Solve {lin2(1, -p, 1, -q)} ≥ {0}.",
+   "correct": "x ≤ {p} or x ≥ {q}",
+   "distractors": [
+    {
+     "text": "{p} ≤ x ≤ {q}",
+     "misconception": "in"
+    },
+    {
+     "text": "x ≥ {q}",
+     "misconception": "half"
+    },
+    {
+     "text": "x < {p} or x > {q}",
+     "misconception": "ends"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "in",
+     "explain": "Between the roots the product is negative. ≥ {0} needs positive or zero."
+    },
+    {
+     "id": "half",
+     "explain": "Numbers below {p} also give a positive product: both brackets are negative."
+    },
+    {
+     "id": "ends",
+     "explain": "≥ includes the roots, where the product equals {0}."
+    }
+   ],
+   "solution": [
+    "The roots are {p} and {q}; the product is positive outside them and {0} at them.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "p != 0 && q != 0"
+   ]
+  },
+  {
+   "id": "m4-19-solve",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      -8,
+      5
+     ]
+    },
+    "w": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "q": {
+     "expr": "p + w"
+    }
+   },
+   "prompt": "Solve {quad(1, -(p + q), p * q)} < {0}.",
+   "correct": "{p} < x < {q}",
+   "distractors": [
+    {
+     "text": "x < {p} or x > {q}",
+     "misconception": "out"
+    },
+    {
+     "text": "{-q} < x < {-p}",
+     "misconception": "sign"
+    },
+    {
+     "text": "x < {q}",
+     "misconception": "one"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "out",
+     "explain": "Outside the roots the product is positive. < {0} needs negative."
+    },
+    {
+     "id": "sign",
+     "explain": "Check: x = {(-p - q) / 2} does not make the expression negative. Factorise and read the roots carefully."
+    },
+    {
+     "id": "one",
+     "explain": "Numbers below {p} make both brackets negative, so the product is positive: they are not solutions."
+    }
+   ],
+   "solution": [
+    "Factorise: {lin2(1, -p, 1, -q)} < {0}.",
+    "Negative between the roots {p} and {q}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "p != 0 && q != 0",
+    "p + q != 0",
+    "(p + q) % 2 == 0"
+   ]
+  },
+  {
+   "id": "m4-19-count",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      -8,
+      5
+     ]
+    },
+    "w": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "q": {
+     "expr": "p + w"
+    }
+   },
+   "prompt": "How many whole numbers x satisfy {quad(1, -(p + q), p * q)} ≤ {0}?",
+   "answer": "q - p + 1",
+   "misconceptions": [
+    {
+     "id": "strict",
+     "wrong": "q - p - 1",
+     "explain": "≤ includes the roots {p} and {q}."
+    },
+    {
+     "id": "noone",
+     "wrong": "q - p",
+     "explain": "Count both ends: from {p} to {q} there are {q} − {br(p)} + {1} numbers."
+    }
+   ],
+   "solution": [
+    "Factorise: {lin2(1, -p, 1, -q)} ≤ {0}, so {p} ≤ x ≤ {q}.",
+    "Whole numbers from {p} to {q}: {q} − {br(p)} + {1} = {answer}."
+   ],
+   "where": [
+    "p != 0 && q != 0",
+    "p + q != 0"
+   ]
+  },
+  {
+   "id": "m4-19-square",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      12
+     ]
+    }
+   },
+   "prompt": "Solve x² > {k * k}.",
+   "correct": "x < {-k} or x > {k}",
+   "distractors": [
+    {
+     "text": "x > {k}",
+     "misconception": "root"
+    },
+    {
+     "text": "{-k} < x < {k}",
+     "misconception": "in"
+    },
+    {
+     "text": "x > {k * k}",
+     "misconception": "nosq"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "root",
+     "explain": "x = {-k - 1} also works: ({-k - 1})² = {(k + 1) * (k + 1)} > {k * k}. Do not just take the square root."
+    },
+    {
+     "id": "in",
+     "explain": "Between {-k} and {k}, x² is less than {k * k}."
+    },
+    {
+     "id": "nosq",
+     "explain": "Compare x² with {k * k}, so the ends are ±{k}."
+    }
+   ],
+   "solution": [
+    "x² − {k * k} > {0}: {lin2(1, k, 1, -k)} > {0}.",
+    "Positive outside the roots {-k} and {k}.",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

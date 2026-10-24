@@ -1,0 +1,558 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 23,
+ "language": "en",
+ "prerequisites": [
+  20,
+  8
+ ],
+ "skills": [
+  {
+   "id": "m4-23",
+   "name": "Study the graph of a quadratic function y = ax² + bx + c"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The graph of y = ax² + bx + c is a parabola.\n• If a > 0 it is ∪-shaped and has a lowest point (minimum). If a < 0 it is ∩-shaped with a highest point (maximum).\n• It crosses the y-axis at (0, c).\n• It is symmetrical about the vertical line x = −b/2a, the axis of symmetry. The turning point is on this line.\n• Completing the square gives the turning point: y = (x − h)² + k turns at (h, k).\nTo draw it: make a table of values, plot the points and join them with a smooth curve, not with straight lines.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to describe the parabola y = ax² + bx + c: its shape, y-intercept, axis of symmetry and turning point, and draw it from a table.\nBuilds on: Lesson {8} (completing the square) and Lesson {20} (drawing graphs from tables).\nLeads to: Lessons {24} and {25} (the discriminant and solving quadratics with graphs)."
+   },
+   {
+    "heading": "The shape of a parabola",
+    "text": "Plot y = {quad(1, -2, -3)} from a table:\nx: {-2}, {-1}, {0}, {1}, {2}, {3}, {4}\ny: {5}, {0}, {-3}, {-4}, {-3}, {0}, {5}\nJoined with a smooth curve, the points make a ∪ shape. The y values repeat on each side of x = {1}: the curve is symmetrical about the line x = {1}.\nThe lowest point ({1}, {-4}) is the turning point. When a is negative, the curve is ∩-shaped and the turning point is a maximum."
+   },
+   {
+    "heading": "Reading the features",
+    "text": "For y = ax² + bx + c:\n• y-intercept: ({0}, c).\n• axis of symmetry: x = −b/{2}a.\n• turning point: put that x into the equation.\nFor y = {quad(1, -2, -3)}: c = {-3}; x = {2}/{2} = {1}; y = {1} − {2} − {3} = {-4}. So the minimum is ({1}, {-4}).\nCompleting the square gives the same answer: {quad(1, -2, -3)} = (x − {1})² − {4}."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "parabola",
+    "meaning": "the curve of a quadratic function"
+   },
+   {
+    "word": "turning point (vertex)",
+    "meaning": "the lowest or highest point of the parabola"
+   },
+   {
+    "word": "axis of symmetry",
+    "meaning": "the vertical line through the turning point"
+   },
+   {
+    "word": "minimum / maximum",
+    "meaning": "smallest / greatest value of y"
+   }
+  ],
+  "examples": [
+   "y = {quad(1, 0, -4)}: minimum ({0}, {-4}), axis x = {0}",
+   "y = {quad(-1, 6, -5)}: maximum ({3}, {4}), axis x = {3}"
+  ],
+  "mistake": {
+   "wrong": "y = {quad(1, -2, -3)}: axis x = {-1}",
+   "right": "axis x = {1}",
+   "why": "x = −b/{2}a with b = {-2}: −({-2})/{2} = {1}. The minus sign in the formula matters."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "b": -2,
+   "c": -3
+  },
+  "problem": "For y = {quad(1, b, c)}, find the y-intercept, the axis of symmetry and the turning point.",
+  "steps": [
+   "y-intercept: put x = {0}: y = {c}, so ({0}, {c}).",
+   "Axis of symmetry: x = −b/{2}a = {-b} ÷ {2} = {-b / 2}.",
+   "Turning point: y at x = {-b / 2} is {(-b / 2) * (-b / 2) + b * (-b / 2) + c}. a = {1} > {0}, so it is a minimum."
+  ],
+  "answer": "y-intercept ({0}, {c}); axis x = {-b / 2}; minimum ({-b / 2}, {(-b / 2) * (-b / 2) + b * (-b / 2) + c})",
+  "checks": [
+   "-b / 2 == 1",
+   "(-b / 2) * (-b / 2) + b * (-b / 2) + c == -4"
+  ],
+  "figure": "graphFig([-3, 5], [-5, 7], [], [], [[1, b, c, '']], [['T', -b / 2, (-b / 2) * (-b / 2) + b * (-b / 2) + c]])"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m23-1",
+    "status": "draft",
+    "idea": "The y-intercept of y = ax² + bx + c is c: put x = {0}.",
+    "vars": {},
+    "example": [
+     "y = {quad(1, -2, -3)} meets the y-axis at ({0}, {-3})"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-23-icept"
+    }
+   },
+   {
+    "id": "c4m23-2",
+    "status": "draft",
+    "idea": "The axis of symmetry is x = −b/{2}a; the turning point lies on it.",
+    "vars": {},
+    "example": [
+     "y = {quad(1, -2, -3)}: x = {2}/{2} = {1}; turning point ({1}, {-4})"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-23-axis-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "graphs"
+     ],
+     "vars": {
+      "a": {
+       "pick": [
+        -2,
+        -1,
+        1,
+        2
+       ]
+      },
+      "h": {
+       "int": [
+        -4,
+        4
+       ]
+      },
+      "v": {
+       "int": [
+        -6,
+        6
+       ]
+      }
+     },
+     "prompt": "What is the equation of the axis of symmetry of y = {quad(a, -2 * a * h, a * h * h + v)}? Give x = ? as a number.",
+     "answer": "h",
+     "misconceptions": [
+      {
+       "id": "sign",
+       "wrong": "-h",
+       "explain": "x = −b/{2}a: the minus sign changes the sign of b = {-2 * a * h}."
+      },
+      {
+       "id": "nohalf",
+       "wrong": "2 * h",
+       "explain": "Divide by {2}a = {2 * a}, not by a."
+      }
+     ],
+     "solution": [
+      "x = −b/{2}a = −({-2 * a * h}) ÷ ({2} × {br(a)}).",
+      "= {2 * a * h} ÷ {2 * a} = {answer}."
+     ],
+     "where": [
+      "h != 0",
+      "-2 * a * h != 0"
+     ],
+     "signed": true
+    }
+   },
+   {
+    "id": "c4m23-3",
+    "status": "draft",
+    "idea": "a > {0}: ∪ shape with a minimum. a < {0}: ∩ shape with a maximum.",
+    "vars": {},
+    "example": [
+     "y = {quad(-1, 4, 0)} is ∩-shaped: it has a maximum"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-23-turn-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "graphs"
+     ],
+     "vars": {
+      "s": {
+       "pick": [
+        -1,
+        1
+       ]
+      },
+      "h": {
+       "int": [
+        -3,
+        3
+       ]
+      },
+      "v": {
+       "int": [
+        -6,
+        6
+       ]
+      }
+     },
+     "prompt": "What is the turning point of y = {quad(s, -2 * s * h, s * h * h + v)}, and is it a maximum or a minimum?",
+     "correct": "({h}, {v}), {s > 0 ? 'minimum' : 'maximum'}",
+     "distractors": [
+      {
+       "text": "({h}, {v}), {s > 0 ? 'maximum' : 'minimum'}",
+       "misconception": "kind"
+      },
+      {
+       "text": "({-h}, {v}), {s > 0 ? 'minimum' : 'maximum'}",
+       "misconception": "sign"
+      },
+      {
+       "text": "({h}, {s * h * h + v}), {s > 0 ? 'minimum' : 'maximum'}",
+       "misconception": "c"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "kind",
+       "explain": "a = {s} is {s > 0 ? 'positive, so the curve opens upwards: a minimum' : 'negative, so the curve opens downwards: a maximum'}."
+      },
+      {
+       "id": "sign",
+       "explain": "x = −b/{2}a = {h}, not {-h}."
+      },
+      {
+       "id": "c",
+       "explain": "The turning point is not the y-intercept. Put x = {h} into the equation."
+      }
+     ],
+     "solution": [
+      "Axis of symmetry: x = −b/{2}a = {h}.",
+      "y at x = {h}: {s * h * h} + {br(-2 * s * h * h)} + {br(s * h * h + v)} = {v}.",
+      "a = {s} is {s > 0 ? 'positive: ∪ shape, minimum' : 'negative: ∩ shape, maximum'}.",
+      "So the answer is {answer}."
+     ],
+     "figure": "graphFig([h - 4, h + 4], [-8, 8], [], [], [[s, -2 * s * h, s * h * h + v, '']], [])",
+     "where": [
+      "h != 0",
+      "s * h * h + v != v"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-23-icept",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      -2,
+      -1,
+      1,
+      2,
+      3
+     ]
+    },
+    "b": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "c": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Where does y = {quad(a, b, c)} cross the y-axis? Give the y-coordinate.",
+   "answer": "c",
+   "misconceptions": [
+    {
+     "id": "a",
+     "wrong": "a",
+     "explain": "Put x = {0}: the x² and x terms vanish, leaving c = {c}."
+    },
+    {
+     "id": "b",
+     "wrong": "b",
+     "explain": "Put x = {0}: only the number term c = {c} is left."
+    }
+   ],
+   "solution": [
+    "On the y-axis x = {0}.",
+    "y = {a} × {0} + {b} × {0} + {br(c)} = {answer}."
+   ],
+   "where": [
+    "b != 0 && c != 0",
+    "a != c && b != c"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-23-table",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      -2,
+      -1,
+      1,
+      2
+     ]
+    },
+    "b": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "c": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "t": {
+     "int": [
+      -3,
+      3
+     ]
+    }
+   },
+   "prompt": "Complete the table of values for y = {quad(a, b, c)}. What is y when x = {t}?",
+   "answer": "a * t * t + b * t + c",
+   "misconceptions": [
+    {
+     "id": "negsq",
+     "wrong": "-a * t * t + b * t + c",
+     "explain": "({t})² = {t * t} is positive: squaring a negative number gives a positive one.",
+     "when": "t < 0"
+    },
+    {
+     "id": "double",
+     "wrong": "2 * a * t + b * t + c",
+     "explain": "x² means x × x = {t * t}, not {2} × {br(t)}."
+    }
+   ],
+   "solution": [
+    "x² = ({t})² = {t * t}, so {a} × {t * t} = {a * t * t}.",
+    "{b} × {br(t)} = {b * t}.",
+    "y = {a * t * t} + {br(b * t)} + {br(c)} = {answer}."
+   ],
+   "where": [
+    "t != 0 && t != 1 && t != 2",
+    "b != 0 && c != 0"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-23-axis",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      -2,
+      -1,
+      1,
+      2
+     ]
+    },
+    "h": {
+     "int": [
+      -4,
+      4
+     ]
+    },
+    "v": {
+     "int": [
+      -6,
+      6
+     ]
+    }
+   },
+   "prompt": "What is the equation of the axis of symmetry of y = {quad(a, -2 * a * h, a * h * h + v)}? Give x = ? as a number.",
+   "answer": "h",
+   "misconceptions": [
+    {
+     "id": "sign",
+     "wrong": "-h",
+     "explain": "x = −b/{2}a: the minus sign changes the sign of b = {-2 * a * h}."
+    },
+    {
+     "id": "nohalf",
+     "wrong": "2 * h",
+     "explain": "Divide by {2}a = {2 * a}, not by a."
+    }
+   ],
+   "solution": [
+    "x = −b/{2}a = −({-2 * a * h}) ÷ ({2} × {br(a)}).",
+    "= {2 * a * h} ÷ {2 * a} = {answer}."
+   ],
+   "where": [
+    "h != 0",
+    "-2 * a * h != 0"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-23-turn",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "s": {
+     "pick": [
+      -1,
+      1
+     ]
+    },
+    "h": {
+     "int": [
+      -3,
+      3
+     ]
+    },
+    "v": {
+     "int": [
+      -6,
+      6
+     ]
+    }
+   },
+   "prompt": "What is the turning point of y = {quad(s, -2 * s * h, s * h * h + v)}, and is it a maximum or a minimum?",
+   "correct": "({h}, {v}), {s > 0 ? 'minimum' : 'maximum'}",
+   "distractors": [
+    {
+     "text": "({h}, {v}), {s > 0 ? 'maximum' : 'minimum'}",
+     "misconception": "kind"
+    },
+    {
+     "text": "({-h}, {v}), {s > 0 ? 'minimum' : 'maximum'}",
+     "misconception": "sign"
+    },
+    {
+     "text": "({h}, {s * h * h + v}), {s > 0 ? 'minimum' : 'maximum'}",
+     "misconception": "c"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "kind",
+     "explain": "a = {s} is {s > 0 ? 'positive, so the curve opens upwards: a minimum' : 'negative, so the curve opens downwards: a maximum'}."
+    },
+    {
+     "id": "sign",
+     "explain": "x = −b/{2}a = {h}, not {-h}."
+    },
+    {
+     "id": "c",
+     "explain": "The turning point is not the y-intercept. Put x = {h} into the equation."
+    }
+   ],
+   "solution": [
+    "Axis of symmetry: x = −b/{2}a = {h}.",
+    "y at x = {h}: {s * h * h} + {br(-2 * s * h * h)} + {br(s * h * h + v)} = {v}.",
+    "a = {s} is {s > 0 ? 'positive: ∪ shape, minimum' : 'negative: ∩ shape, maximum'}.",
+    "So the answer is {answer}."
+   ],
+   "figure": "graphFig([h - 4, h + 4], [-8, 8], [], [], [[s, -2 * s * h, s * h * h + v, '']], [])",
+   "where": [
+    "h != 0",
+    "s * h * h + v != v"
+   ]
+  },
+  {
+   "id": "m4-23-match",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "s": {
+     "pick": [
+      -1,
+      1
+     ]
+    },
+    "h": {
+     "int": [
+      -3,
+      3
+     ]
+    },
+    "v": {
+     "int": [
+      -5,
+      5
+     ]
+    }
+   },
+   "prompt": "Which equation could the graph show?",
+   "correct": "y = {quad(s, -2 * s * h, s * h * h + v)}",
+   "distractors": [
+    {
+     "text": "y = {quad(-s, 2 * s * h, -s * h * h + v)}",
+     "misconception": "shape"
+    },
+    {
+     "text": "y = {quad(s, 2 * s * h, s * h * h + v)}",
+     "misconception": "axis"
+    },
+    {
+     "text": "y = {quad(s, -2 * s * h, s * h * h - v)}",
+     "misconception": "height"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "shape",
+     "explain": "That parabola opens the other way: the sign of a decides ∪ or ∩."
+    },
+    {
+     "id": "axis",
+     "explain": "That parabola turns at x = {-h}, the mirror image."
+    },
+    {
+     "id": "height",
+     "explain": "That parabola turns at y = {-v}, not {v}."
+    }
+   ],
+   "solution": [
+    "The curve is {s > 0 ? '∪-shaped, so a > 0' : '∩-shaped, so a < 0'}.",
+    "It turns at x = {h} and y = {v}; y = {quad(s, -2 * s * h, s * h * h + v)} = {s > 0 ? '' : '−'}(x − {br(h)})² + {br(v)} fits.",
+    "So the answer is {answer}."
+   ],
+   "figure": "graphFig([h - 4, h + 4], [-8, 8], [], [], [[s, -2 * s * h, s * h * h + v, '']], [])",
+   "where": [
+    "h != 0",
+    "v != 0"
+   ]
+  }
+ ]
+}

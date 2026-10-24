@@ -11,5 +11,17 @@
  "quadratic-equations": {
   "ref": "Form 4 Mathematics syllabus, Term 1, Algebraic processes: solving quadratic equations by factorisation, completing the square and the quadratic formula; forming equations from roots",
   "checked": "Roots computed by the engine (factors, completed square, formula); every root is substituted back by the 1000-seed tests."
+ },
+ "polynomials": {
+  "ref": "Form 4 Mathematics syllabus, Term 1, Algebraic processes: long division with algebraic expressions; factor and remainder theorems; factorising polynomials of degree 3; solving cubic equations",
+  "checked": "Quotients, remainders and roots computed by the engine (cval, synthetic division); every root is substituted back by the 1000-seed tests."
+ },
+ "inequalities": {
+  "ref": "Form 4 Mathematics syllabus, Term 1, Equations and inequations: interval notation, linear inequalities in one unknown, absolute value equations and inequalities, quadratic inequalities",
+  "checked": "Solution sets computed by the engine (interval, intsIn, sign of factors); checked by 1000-seed tests."
+ },
+ "graphs": {
+  "ref": "Form 4 Mathematics syllabus, Term 1, Equations and inequations: graphical solutions of simultaneous linear equations, linear inequalities (half planes) and simultaneous inequalities; graphs of quadratic functions; the discriminant; graphical solution of quadratic equations",
+  "checked": "Graphs drawn by graphFig from the same numbers as the answers; crossings, regions (lattice) and roots computed by the engine; checked by 1000-seed tests."
  }
 }

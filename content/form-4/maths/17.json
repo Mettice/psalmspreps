@@ -1,0 +1,454 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [
+  16
+ ],
+ "skills": [
+  {
+   "id": "m4-17",
+   "name": "Understand absolute value and solve absolute value equations"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The absolute value |x| is the distance of x from 0 on the number line, so it is never negative: |5| = 5 and |−5| = 5.\n|x − a| is the distance between x and a.\n• |x| = k (k > 0) has two solutions: x = k or x = −k.\n• |x − a| = k: x − a = k or x − a = −k, so x = a + k or x = a − k.\n• |ax + b| = c: solve ax + b = c and ax + b = −c.\nIf k is negative there is no solution; if k = 0 there is one solution.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to explain |x − a| as a distance and solve absolute value equations, finding both solutions or none.\nBuilds on: Lesson {16} (inequalities and the number line).\nLeads to: Lesson {18} (absolute value inequalities) and errors and tolerances in measurement."
+   },
+   {
+    "heading": "Absolute value as distance",
+    "text": "|x| is how far x is from {0}, without caring about direction. So |{7}| = {7} and |{-7}| = {7}.\n|x − a| is the distance between x and a.\n• |{5} − {2}| = {3}: {5} is {3} units from {2}.\n• |{-1} − {2}| = {3}: {-1} is also {3} units from {2}.\nA distance is never negative, so |anything| ≥ {0}."
+   },
+   {
+    "heading": "Solving the equations",
+    "text": "|x − {2}| = {3} asks: which numbers are {3} units from {2}? Going right: {5}. Going left: {-1}.\nIn algebra: x − {2} = {3} or x − {2} = {-3}, so x = {5} or x = {-1}.\nWith a coefficient: |{poly([2, 'x'], [-3, ''])}| = {7} → {poly([2, 'x'], [-3, ''])} = {7} or {-7} → x = {5} or x = {-2}.\nSpecial cases: |x − {2}| = {0} has one solution (x = {2}); |x − {2}| = {-1} has none."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "absolute value",
+    "meaning": "the size of a number without its sign: |{-4}| = {4}"
+   },
+   {
+    "word": "distance",
+    "meaning": "how far apart two numbers are on the number line"
+   },
+   {
+    "word": "modulus",
+    "meaning": "another name for absolute value"
+   }
+  ],
+  "examples": [
+   "|x| = {9} → x = {9} or {-9}",
+   "|x + {4}| = {1} → x = {-3} or {-5}",
+   "|x − {6}| = {-2} → no solution"
+  ],
+  "mistake": {
+   "wrong": "|x − {2}| = {3} → x = {5}",
+   "right": "|x − {2}| = {3} → x = {5} or x = {-1}",
+   "why": "There are two numbers {3} units from {2}, one on each side."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 2,
+   "b": -3,
+   "c": 7
+  },
+  "problem": "Solve |{poly([a, 'x'], [b, ''])}| = {c}.",
+  "steps": [
+   "Either {poly([a, 'x'], [b, ''])} = {c} or {poly([a, 'x'], [b, ''])} = {-c}.",
+   "First: {mono(a, 'x')} = {c - b}, so x = {(c - b) / a}.",
+   "Second: {mono(a, 'x')} = {-c - b}, so x = {(-c - b) / a}."
+  ],
+  "answer": "x = {(c - b) / a} or x = {(-c - b) / a}",
+  "checks": [
+   "(c - b) % a == 0",
+   "(-c - b) % a == 0"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m17-1",
+    "status": "draft",
+    "idea": "|x| is the distance from {0}: it is never negative.",
+    "vars": {},
+    "example": [
+     "|{-6}| = {6} and |{6}| = {6}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-17-value"
+    }
+   },
+   {
+    "id": "c4m17-2",
+    "status": "draft",
+    "idea": "|x − a| = k means x is k units from a: x = a + k or x = a − k.",
+    "vars": {},
+    "example": [
+     "|x − {3}| = {5} → x = {8} or x = {-2}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-17-two"
+    }
+   },
+   {
+    "id": "c4m17-3",
+    "status": "draft",
+    "idea": "For |ax + b| = c, solve two equations: ax + b = c and ax + b = −c.",
+    "vars": {},
+    "example": [
+     "|{poly([2, 'x'], [1, ''])}| = {7} → {mono(2, 'x')} + {1} = {7} or {-7} → x = {3} or {-4}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-17-ax-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "inequalities"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        2,
+        4
+       ]
+      },
+      "b": {
+       "int": [
+        -9,
+        9
+       ]
+      },
+      "c": {
+       "int": [
+        1,
+        15
+       ]
+      }
+     },
+     "prompt": "Solve |{poly([a, 'x'], [b, ''])}| = {c}.",
+     "correct": "x = {(c - b) / a} or x = {(-c - b) / a}",
+     "distractors": [
+      {
+       "text": "x = {(c - b) / a} only",
+       "misconception": "one"
+      },
+      {
+       "text": "x = {(c - b) / a} or x = {(c + b) / a}",
+       "misconception": "signb"
+      },
+      {
+       "text": "x = {c - b} or x = {-c - b}",
+       "misconception": "nodiv"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "one",
+       "explain": "The expression inside can also equal {-c}: that gives a second solution."
+      },
+      {
+       "id": "signb",
+       "explain": "In the second equation, {poly([a, 'x'], [b, ''])} = {-c}: subtract {b} from {-c}."
+      },
+      {
+       "id": "nodiv",
+       "explain": "After {mono(a, 'x')} = …, divide by {a}."
+      }
+     ],
+     "solution": [
+      "{poly([a, 'x'], [b, ''])} = {c} gives x = {(c - b) / a}.",
+      "{poly([a, 'x'], [b, ''])} = {-c} gives x = {(-c - b) / a}.",
+      "So the answer is {answer}."
+     ],
+     "where": [
+      "b != 0",
+      "(c - b) % a == 0",
+      "(-c - b) % a == 0",
+      "(c + b) % a == 0",
+      "(c + b) / a != (-c - b) / a"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-17-value",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -12,
+      12
+     ]
+    },
+    "b": {
+     "int": [
+      -12,
+      12
+     ]
+    }
+   },
+   "prompt": "Work out |{a}| − |{b}|.",
+   "answer": "abs(a) - abs(b)",
+   "misconceptions": [
+    {
+     "id": "plain",
+     "wrong": "a - b",
+     "explain": "Take the absolute values first: |{a}| = {abs(a)}, |{b}| = {abs(b)}."
+    },
+    {
+     "id": "absdiff",
+     "wrong": "abs(a - b)",
+     "explain": "Work out each absolute value first, then subtract."
+    }
+   ],
+   "solution": [
+    "|{a}| = {abs(a)} and |{b}| = {abs(b)}: absolute values are never negative.",
+    "{abs(a)} − {abs(b)} = {answer}."
+   ],
+   "where": [
+    "a < 0 || b < 0",
+    "a != 0 && b != 0",
+    "abs(a) - abs(b) != a - b",
+    "abs(a - b) != abs(a) - abs(b)"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-17-two",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      9
+     ]
+    }
+   },
+   "prompt": "Solve |x − {br(a)}| = {k}. Give the larger solution.",
+   "answer": "a + k",
+   "misconceptions": [
+    {
+     "id": "small",
+     "wrong": "a - k",
+     "explain": "That is the smaller solution. The larger is {a} + {k} = {a + k}."
+    },
+    {
+     "id": "onlyk",
+     "wrong": "k",
+     "explain": "x is {k} units from {a}, not from {0}: x = {a} + {k}."
+    },
+    {
+     "id": "signa",
+     "wrong": "-a + k",
+     "explain": "|x − {br(a)}| is the distance from {a}, so x = {a} ± {k}."
+    }
+   ],
+   "solution": [
+    "x − {br(a)} = {k} or x − {br(a)} = {-k}.",
+    "x = {a + k} or x = {a - k}.",
+    "The larger solution is {answer}."
+   ],
+   "where": [
+    "a != 0",
+    "a + k != k",
+    "-a + k != a + k"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-17-ax",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      4
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      1,
+      15
+     ]
+    }
+   },
+   "prompt": "Solve |{poly([a, 'x'], [b, ''])}| = {c}.",
+   "correct": "x = {(c - b) / a} or x = {(-c - b) / a}",
+   "distractors": [
+    {
+     "text": "x = {(c - b) / a} only",
+     "misconception": "one"
+    },
+    {
+     "text": "x = {(c - b) / a} or x = {(c + b) / a}",
+     "misconception": "signb"
+    },
+    {
+     "text": "x = {c - b} or x = {-c - b}",
+     "misconception": "nodiv"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "one",
+     "explain": "The expression inside can also equal {-c}: that gives a second solution."
+    },
+    {
+     "id": "signb",
+     "explain": "In the second equation, {poly([a, 'x'], [b, ''])} = {-c}: subtract {b} from {-c}."
+    },
+    {
+     "id": "nodiv",
+     "explain": "After {mono(a, 'x')} = …, divide by {a}."
+    }
+   ],
+   "solution": [
+    "{poly([a, 'x'], [b, ''])} = {c} gives x = {(c - b) / a}.",
+    "{poly([a, 'x'], [b, ''])} = {-c} gives x = {(-c - b) / a}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "b != 0",
+    "(c - b) % a == 0",
+    "(-c - b) % a == 0",
+    "(c + b) % a == 0",
+    "(c + b) / a != (-c - b) / a"
+   ]
+  },
+  {
+   "id": "m4-17-count",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "k": {
+     "pick": [
+      -5,
+      -3,
+      -1,
+      0,
+      2,
+      4,
+      6
+     ]
+    }
+   },
+   "prompt": "How many solutions does |x − {br(a)}| = {k} have? (Type 0, 1 or 2.)",
+   "answer": "k > 0 ? 2 : k == 0 ? 1 : 0",
+   "misconceptions": [
+    {
+     "id": "two",
+     "wrong": "k > 0 ? 1 : 2",
+     "explain": "Check the sign of {k}: positive gives two solutions, {0} gives one, negative gives none."
+    }
+   ],
+   "solution": [
+    "An absolute value is a distance, so it is never negative.",
+    "{k > 0 ? 'The distance ' + fmt(k) + ' is positive: x can be on either side of ' + fmt(a) + ', so two solutions.' : k == 0 ? 'Distance 0: x is exactly ' + fmt(a) + ', one solution.' : 'A distance cannot be ' + fmt(k) + ': no solution.'}",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "a != 0"
+   ]
+  },
+  {
+   "id": "m4-17-both",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Solve |{poly([2, 'x'], [-a, ''])}| = |{poly([1, 'x'], [b, ''])}|. Give the larger solution.",
+   "answer": "max(a + b, (a - b) / 3)",
+   "misconceptions": [
+    {
+     "id": "one",
+     "wrong": "min(a + b, (a - b) / 3)",
+     "explain": "That is the smaller solution. Work out both cases and compare."
+    }
+   ],
+   "solution": [
+    "Either {poly([2, 'x'], [-a, ''])} = {poly([1, 'x'], [b, ''])}, giving x = {a + b},",
+    "or {poly([2, 'x'], [-a, ''])} = −({poly([1, 'x'], [b, ''])}), giving {mono(3, 'x')} = {a - b}, x = {(a - b) / 3}.",
+    "The larger solution is {answer}."
+   ],
+   "where": [
+    "(a - b) % 3 == 0",
+    "a + b != (a - b) / 3",
+    "a != 0 && b != 0"
+   ],
+   "signed": true
+  }
+ ]
+}

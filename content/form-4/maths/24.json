@@ -1,0 +1,435 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 24,
+ "language": "en",
+ "prerequisites": [
+  9,
+  23
+ ],
+ "skills": [
+  {
+   "id": "m4-24",
+   "name": "Use the discriminant to decide the nature of the roots"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "For ax² + bx + c = 0 the discriminant is D = b² − 4ac.\n• D > 0: two different real roots; the parabola crosses the x-axis twice.\n• D = 0: one repeated (equal) root; the parabola touches the x-axis at its turning point.\n• D < 0: no real roots; the parabola does not meet the x-axis.\nIf D is a perfect square, the roots are rational and the quadratic factorises.\nUnknown coefficients: equal roots means D = 0; real roots means D ≥ 0.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to use D = b² − {4}ac to say whether a quadratic equation has two, one or no real roots, and find unknown coefficients from that.\nBuilds on: Lesson {9} (the quadratic formula) and Lesson {23} (parabolas).\nLeads to: Lesson {25} (solving with graphs) and, in Form Five, intersections of lines and curves."
+   },
+   {
+    "heading": "Why the discriminant decides",
+    "text": "In x = (−b ± √D)/{2}a, the number D = b² − {4}ac sits under the square root.\n• D positive: √D is a real number, and ± gives two different roots.\n• D = {0}: ±{0} changes nothing: one repeated root.\n• D negative: there is no real square root: no real roots.\nOn the graph of y = ax² + bx + c these are: crosses the x-axis twice, touches it, misses it.\nExample: {quad(1, -6, 9)}: D = {36} − {36} = {0}, one root x = {3}."
+   },
+   {
+    "heading": "Finding unknowns",
+    "text": "• Equal roots: x² + kx + {9} = {0}: D = k² − {36} = {0}, so k = {6} or {-6}.\n• Real roots: x² + {mono(4, 'x')} + k = {0}: D = {16} − {4}k ≥ {0}, so k ≤ {4}.\n• No real roots: use D < {0}.\nWhen D is a perfect square ({1}, {4}, {9}, …), the roots are rational and the quadratic factorises."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "discriminant (D)",
+    "meaning": "b² − {4}ac"
+   },
+   {
+    "word": "real roots",
+    "meaning": "roots that are ordinary numbers"
+   },
+   {
+    "word": "equal (repeated) roots",
+    "meaning": "both roots the same; D = {0}"
+   }
+  ],
+  "examples": [
+   "{quad(1, 1, -6)}: D = {25} > {0}, two roots",
+   "{quad(1, 2, 5)}: D = {-16} < {0}, no real roots"
+  ],
+  "mistake": {
+   "wrong": "D = {0} means no roots",
+   "right": "D = {0} means one repeated root",
+   "why": "√{0} = {0}, so the formula gives x = −b/{2}a: one root, counted twice."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": 3
+  },
+  "problem": "Find the positive value of k for which x² + kx + {m * m} = {0} has equal roots.",
+  "steps": [
+   "Equal roots means D = {0}: a = {1}, b = k, c = {m * m}.",
+   "k² − {4} × {1} × {m * m} = {0}, so k² = {4 * m * m}.",
+   "k = {2 * m} or k = {-2 * m}. Check: x² + {mono(2 * m, 'x')} + {m * m} = (x + {m})², one repeated root."
+  ],
+  "answer": "k = {2 * m}",
+  "checks": [
+   "(2 * m) * (2 * m) - 4 * m * m == 0"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m24-1",
+    "status": "draft",
+    "idea": "The sign of D = b² − {4}ac decides how many real roots there are.",
+    "vars": {},
+    "example": [
+     "D > {0}: two; D = {0}: one (equal); D < {0}: none"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-24-nature"
+    }
+   },
+   {
+    "id": "c4m24-2",
+    "status": "draft",
+    "idea": "On the graph: D > {0} crosses the x-axis twice, D = {0} touches it, D < {0} misses it.",
+    "vars": {},
+    "example": [
+     "y = {quad(1, 0, 4)}: D = {-16} < {0}, the curve stays above the x-axis"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-24-graph"
+    }
+   },
+   {
+    "id": "c4m24-3",
+    "status": "draft",
+    "idea": "Equal roots: set D = {0} and solve for the unknown.",
+    "vars": {},
+    "example": [
+     "x² + kx + {9} = {0} has equal roots when k² = {36}: k = {6} or {-6}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-24-equal-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "graphs"
+     ],
+     "vars": {
+      "m": {
+       "int": [
+        1,
+        9
+       ]
+      }
+     },
+     "prompt": "Find the positive value of k for which x² + kx + {m * m} = {0} has equal roots.",
+     "answer": "2 * m",
+     "misconceptions": [
+      {
+       "id": "sq",
+       "wrong": "m",
+       "explain": "k² = {4} × {m * m} = {4 * m * m}, so k = {2 * m}, not {m}."
+      },
+      {
+       "id": "four",
+       "wrong": "4 * m * m",
+       "explain": "That is k². Take the square root: k = {2 * m}."
+      }
+     ],
+     "solution": [
+      "Equal roots: D = k² − {4} × {1} × {m * m} = {0}.",
+      "k² = {4 * m * m}, so k = ±{2 * m}.",
+      "The positive value is {answer}."
+     ],
+     "where": [
+      "m != 2"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-24-nature",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "b": {
+     "int": [
+      -8,
+      8
+     ]
+    },
+    "c": {
+     "int": [
+      -6,
+      6
+     ]
+    }
+   },
+   "prompt": "Describe the roots of {quad(a, b, c)} = {0}.",
+   "correct": "{b * b - 4 * a * c > 0 ? 'Two different real roots' : b * b - 4 * a * c == 0 ? 'Two equal real roots (one repeated root)' : 'No real roots'}",
+   "distractors": [
+    {
+     "text": "{b * b - 4 * a * c > 0 ? 'No real roots' : 'Two different real roots'}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{b * b - 4 * a * c == 0 ? 'No real roots' : 'Two equal real roots (one repeated root)'}",
+     "misconception": "w2"
+    },
+    {
+     "text": "Three real roots",
+     "misconception": "three"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "Work out D = {b * b - 4 * a * c} and look at its sign."
+    },
+    {
+     "id": "w2",
+     "explain": "D = {b * b - 4 * a * c}: equal roots need D = {0} exactly."
+    },
+    {
+     "id": "three",
+     "explain": "A quadratic has at most two roots."
+    }
+   ],
+   "solution": [
+    "D = b² − {4}ac = {b * b} − {4 * a * c} = {b * b - 4 * a * c}.",
+    "So the answer is: {answer}."
+   ],
+   "where": [
+    "c != 0",
+    "b * b - 4 * a * c != 0 || b != 0"
+   ]
+  },
+  {
+   "id": "m4-24-graph",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      1,
+      2
+     ]
+    },
+    "h": {
+     "int": [
+      -3,
+      3
+     ]
+    },
+    "z": {
+     "pick": [
+      -1,
+      0,
+      1
+     ]
+    },
+    "b": {
+     "expr": "-2 * a * h"
+    },
+    "c": {
+     "expr": "a * h * h + z * (abs(h) + 1)"
+    }
+   },
+   "prompt": "How many times does the graph of y = {quad(a, b, c)} meet the x-axis?",
+   "correct": "{b * b - 4 * a * c > 0 ? 'Twice' : b * b - 4 * a * c == 0 ? 'Once (it touches the axis)' : 'Never'}",
+   "distractors": [
+    {
+     "text": "{b * b - 4 * a * c > 0 ? 'Never' : 'Twice'}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{b * b - 4 * a * c == 0 ? 'Twice' : 'Once (it touches the axis)'}",
+     "misconception": "w2"
+    },
+    {
+     "text": "Three times",
+     "misconception": "three"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "Look at the sign of D = {b * b - 4 * a * c}."
+    },
+    {
+     "id": "w2",
+     "explain": "Touching needs D = {0}; here D = {b * b - 4 * a * c}."
+    },
+    {
+     "id": "three",
+     "explain": "A parabola meets a straight line at most twice."
+    }
+   ],
+   "solution": [
+    "D = {b * b - 4 * a * c}.",
+    "The number of crossings is the number of real roots of {quad(a, b, c)} = {0}.",
+    "So the answer is: {answer}."
+   ],
+   "figure": "graphFig([h - 4, h + 4], [-6, 8], [], [], [[a, b, c, '']], [])"
+  },
+  {
+   "id": "m4-24-equal",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      1,
+      9
+     ]
+    }
+   },
+   "prompt": "Find the positive value of k for which x² + kx + {m * m} = {0} has equal roots.",
+   "answer": "2 * m",
+   "misconceptions": [
+    {
+     "id": "sq",
+     "wrong": "m",
+     "explain": "k² = {4} × {m * m} = {4 * m * m}, so k = {2 * m}, not {m}."
+    },
+    {
+     "id": "four",
+     "wrong": "4 * m * m",
+     "explain": "That is k². Take the square root: k = {2 * m}."
+    }
+   ],
+   "solution": [
+    "Equal roots: D = k² − {4} × {1} × {m * m} = {0}.",
+    "k² = {4 * m * m}, so k = ±{2 * m}.",
+    "The positive value is {answer}."
+   ],
+   "where": [
+    "m != 2"
+   ]
+  },
+  {
+   "id": "m4-24-real",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      -6,
+      6
+     ]
+    }
+   },
+   "prompt": "For which values of k does x² + {mono(2 * h, 'x')} + k = {0} have real roots?",
+   "correct": "k ≤ {h * h}",
+   "distractors": [
+    {
+     "text": "k ≥ {h * h}",
+     "misconception": "sign"
+    },
+    {
+     "text": "k < {h * h}",
+     "misconception": "strict"
+    },
+    {
+     "text": "k ≤ {2 * h}",
+     "misconception": "nosq"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "sign",
+     "explain": "D = {4 * h * h} − {4}k ≥ {0} gives k ≤ {h * h}: larger k makes D negative."
+    },
+    {
+     "id": "strict",
+     "explain": "Equal roots (D = {0}) are real too, so k = {h * h} is allowed."
+    },
+    {
+     "id": "nosq",
+     "explain": "Square the coefficient of x: ({2 * h})² = {4 * h * h}."
+    }
+   ],
+   "solution": [
+    "Real roots: D ≥ {0}.",
+    "D = ({2 * h})² − {4}k = {4 * h * h} − {4}k ≥ {0}.",
+    "So {4}k ≤ {4 * h * h}: k ≤ {h * h}."
+   ],
+   "where": [
+    "h != 0 && h != 2 && h != -2",
+    "h * h != 2 * h"
+   ]
+  },
+  {
+   "id": "m4-24-kx",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "b": {
+     "pick": [
+      -10,
+      -8,
+      -6,
+      -4,
+      4,
+      6,
+      8,
+      10
+     ]
+    }
+   },
+   "prompt": "Find k if kx² + {mono(b, 'x')} + {1} = {0} has equal roots.",
+   "answer": "b * b / 4",
+   "misconceptions": [
+    {
+     "id": "b",
+     "wrong": "abs(b) / 2",
+     "explain": "D = b² − {4}ac with a = k: {b * b} − {4}k = {0}, so k = {b * b / 4}."
+    },
+    {
+     "id": "four",
+     "wrong": "b * b",
+     "explain": "Divide by {4}: {4}k = {b * b}."
+    }
+   ],
+   "solution": [
+    "Equal roots: D = {0}.",
+    "D = {b * b} − {4} × k × {1} = {0}.",
+    "So k = {b * b} ÷ {4} = {answer}."
+   ]
+  }
+ ]
+}

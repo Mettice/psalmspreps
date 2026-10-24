@@ -1,0 +1,471 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [
+  14,
+  7
+ ],
+ "skills": [
+  {
+   "id": "m4-15",
+   "name": "Solve cubic equations"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "To solve a cubic equation f(x) = 0:\n1. Make one side 0.\n2. Factorise f(x) completely (Lesson 14).\n3. Set each factor equal to 0.\nA cubic equation has at most three real roots.\nExample: x³ − 2x² − 5x + 6 = 0 → (x − 1)(x − 3)(x + 2) = 0 → x = 1, 3 or −2.\nIf x is a common factor, take it out; never divide by x: x³ = 4x → x(x − 2)(x + 2) = 0 → x = 0, 2 or −2.\nIf the quadratic factor has a negative discriminant, it gives no real roots, and the cubic has only one.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to solve a cubic equation by factorising, find all its real roots, and say when there is only one.\nBuilds on: Lesson {14} (factorising cubics) and Lesson {7} (solving by factorisation).\nLeads to: drawing cubic graphs, where the roots are the points on the x-axis."
+   },
+   {
+    "heading": "Three factors, three roots",
+    "text": "Once a cubic equation is factorised, the rule from Lesson {7} still works: if a product is {0}, a factor is {0}.\nSolve {cubic(1, -2, -5, 6)} = {0}.\n• f({1}) = {0}, so (x − {1}) is a factor; dividing gives {quad(1, -1, -6)} = (x − {3})(x + {2}).\n• (x − {1})(x − {3})(x + {2}) = {0}, so x = {1}, x = {3} or x = {-2}.\nTake x out first if every term has an x: x³ − {mono(9, 'x')} = x(x − {3})(x + {3}) = {0} gives x = {0}, {3}, {-3}."
+   },
+   {
+    "heading": "Fewer than three roots",
+    "text": "Sometimes the quadratic factor does not factorise. Check its discriminant.\n• (x − {2})({quad(1, 1, 3)}) = {0}: for the quadratic, b² − {4}ac = {1} − {12} = {-11}, negative.\n• So it has no real roots, and the only solution is x = {2}.\nIf the discriminant is positive but not a square number, use the formula (Lesson {10}) for the last two roots."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "cubic equation",
+    "meaning": "an equation whose highest power is x³"
+   },
+   {
+    "word": "real root",
+    "meaning": "a root that is an ordinary number on the number line"
+   },
+   {
+    "word": "discriminant",
+    "meaning": "b² − {4}ac; negative means no real roots"
+   }
+  ],
+  "examples": [
+   "x(x − {4})(x + {1}) = {0} → x = {0}, {4} or {-1}",
+   "{cubic(1, 0, -4, 0)} = {0} → x = {0}, {2} or {-2}"
+  ],
+  "mistake": {
+   "wrong": "x³ = {mono(9, 'x')} → x² = {9} → x = ±{3}",
+   "right": "x(x² − {9}) = {0} → x = {0}, {3} or {-3}",
+   "why": "Dividing by x throws away x = {0}. Take x out as a common factor instead."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": 1,
+   "q": 3,
+   "r": -2
+  },
+  "problem": "Solve {cubic(1, -(p + q + r), p * q + p * r + q * r, -p * q * r)} = {0}.",
+  "steps": [
+   "f({p}) = {0}, so (x − {p}) is a factor.",
+   "Divide: f(x) = (x − {p})({quad(1, -(q + r), q * r)}) = (x − {p}){lin2(1, -q, 1, -r)}.",
+   "Each factor can be {0}: x − {p} = {0}, x − {q} = {0} or x + {-r} = {0}."
+  ],
+  "answer": "x = {p}, x = {q} or x = {r}",
+  "checks": [
+   "cval(1, -(p + q + r), p * q + p * r + q * r, -p * q * r, r) == 0"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m15-1",
+    "status": "draft",
+    "idea": "When a cubic is written as three factors equal to {0}, each factor gives a root.",
+    "vars": {},
+    "example": [
+     "(x − {1})(x − {3})(x + {2}) = {0} → x = {1}, {3} or {-2}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-15-roots"
+    }
+   },
+   {
+    "id": "c4m15-2",
+    "status": "draft",
+    "idea": "Take out x as a common factor instead of dividing by x.",
+    "vars": {},
+    "example": [
+     "x³ = {mono(4, 'x')} → x(x² − {4}) = {0} → x = {0}, {2} or {-2}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-15-x"
+    }
+   },
+   {
+    "id": "c4m15-3",
+    "status": "draft",
+    "idea": "If the quadratic factor has b² − {4}ac < {0}, it has no real roots.",
+    "vars": {},
+    "example": [
+     "(x − {2})({quad(1, 1, 3)}) = {0}: {1} − {12} < {0}, so only x = {2}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-15-one-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "polynomials"
+     ],
+     "vars": {
+      "p": {
+       "int": [
+        -6,
+        6
+       ]
+      },
+      "b": {
+       "int": [
+        -5,
+        5
+       ]
+      },
+      "c": {
+       "int": [
+        2,
+        12
+       ]
+      }
+     },
+     "prompt": "Solve ({poly([1, 'x'], [-p, ''])})({quad(1, b, c)}) = {0}.",
+     "correct": "x = {p} only",
+     "distractors": [
+      {
+       "text": "x = {p}, and two more roots from the quadratic",
+       "misconception": "more"
+      },
+      {
+       "text": "x = {-p} only",
+       "misconception": "sign"
+      },
+      {
+       "text": "There are no real roots",
+       "misconception": "none"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "more",
+       "explain": "Check the quadratic: b² − {4}ac = {b * b - 4 * c} is negative, so it has no real roots."
+      },
+      {
+       "id": "sign",
+       "explain": "x − {br(p)} = {0} gives x = {p}, not {-p}."
+      },
+      {
+       "id": "none",
+       "explain": "The bracket x − {br(p)} still gives the root x = {p}."
+      }
+     ],
+     "solution": [
+      "x − {br(p)} = {0} gives x = {p}.",
+      "For {quad(1, b, c)}: b² − {4}ac = {b * b} − {4 * c} = {b * b - 4 * c} < {0}, so it has no real roots.",
+      "So the answer is {answer}."
+     ],
+     "where": [
+      "p != 0",
+      "b * b - 4 * c < 0",
+      "b != 0"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-15-roots",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "polynomials"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "q": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "r": {
+     "int": [
+      -6,
+      6
+     ]
+    }
+   },
+   "prompt": "Solve ({poly([1, 'x'], [-p, ''])})({poly([1, 'x'], [-q, ''])})({poly([1, 'x'], [-r, ''])}) = {0}. Give the smallest root.",
+   "answer": "min(p, min(q, r))",
+   "misconceptions": [
+    {
+     "id": "sign",
+     "wrong": "min(-p, min(-q, -r))",
+     "explain": "x − {br(p)} = {0} gives x = {p}: the root has the opposite sign to the number in the bracket."
+    },
+    {
+     "id": "large",
+     "wrong": "max(p, max(q, r))",
+     "explain": "That is the largest root. The smallest is {min(p, min(q, r))}."
+    }
+   ],
+   "solution": [
+    "Each bracket can be {0}: x = {p}, x = {q} or x = {r}.",
+    "The smallest is {answer}."
+   ],
+   "where": [
+    "p != q && q != r && p != r",
+    "p != 0 && q != 0 && r != 0",
+    "min(-p, min(-q, -r)) != min(p, min(q, r))"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-15-x",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "polynomials"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      9
+     ]
+    }
+   },
+   "prompt": "Solve x³ = {mono(k * k, 'x')}.",
+   "correct": "x = {0}, {k} or {-k}",
+   "distractors": [
+    {
+     "text": "x = {k} or {-k}",
+     "misconception": "divide"
+    },
+    {
+     "text": "x = {k}",
+     "misconception": "one"
+    },
+    {
+     "text": "x = {0} or {k * k}",
+     "misconception": "noroot"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "divide",
+     "explain": "Dividing by x loses the root x = {0}. Take x out as a factor instead."
+    },
+    {
+     "id": "one",
+     "explain": "x² = {k * k} has two roots, {k} and {-k}, and x = {0} is a root too."
+    },
+    {
+     "id": "noroot",
+     "explain": "x² = {k * k} gives x = ±{k}: take the square root."
+    }
+   ],
+   "solution": [
+    "Make one side {0}: x³ − {mono(k * k, 'x')} = {0}.",
+    "Factorise: x(x² − {k * k}) = x(x − {k})(x + {k}) = {0}.",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "m4-15-solve",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "polynomials"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "q": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "r": {
+     "int": [
+      -5,
+      5
+     ]
+    }
+   },
+   "prompt": "Solve {cubic(1, -(p + q + r), p * q + p * r + q * r, -p * q * r)} = {0}. Give the largest root.",
+   "answer": "max(p, max(q, r))",
+   "misconceptions": [
+    {
+     "id": "sign",
+     "wrong": "max(-p, max(-q, -r))",
+     "explain": "The roots have the opposite signs to the numbers in the brackets."
+    }
+   ],
+   "solution": [
+    "Try factors of {-p * q * r} to find one root, divide, and factorise the quadratic.",
+    "({poly([1, 'x'], [-p, ''])})({poly([1, 'x'], [-q, ''])})({poly([1, 'x'], [-r, ''])}) = {0}.",
+    "The roots are {p}, {q}, {r}; the largest is {answer}."
+   ],
+   "where": [
+    "p != q && q != r && p != r",
+    "p != 0 && q != 0 && r != 0",
+    "-(p + q + r) != 0 && p * q + p * r + q * r != 0",
+    "max(-p, max(-q, -r)) != max(p, max(q, r))"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-15-other",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "polynomials"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "q": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "r": {
+     "int": [
+      -5,
+      5
+     ]
+    }
+   },
+   "prompt": "x = {p} is a root of {cubic(1, -(p + q + r), p * q + p * r + q * r, -p * q * r)} = {0}. Find the other two roots and give the smaller one.",
+   "answer": "min(q, r)",
+   "misconceptions": [
+    {
+     "id": "sign",
+     "wrong": "min(-q, -r)",
+     "explain": "The roots are opposite in sign to the numbers in the brackets."
+    },
+    {
+     "id": "p",
+     "wrong": "p",
+     "explain": "x = {p} is the root you were given. The question asks for one of the other two."
+    }
+   ],
+   "solution": [
+    "({poly([1, 'x'], [-p, ''])}) is a factor. Dividing gives {quad(1, -(q + r), q * r)}.",
+    "{quad(1, -(q + r), q * r)} = ({poly([1, 'x'], [-q, ''])})({poly([1, 'x'], [-r, ''])}) = {0}.",
+    "The other roots are {q} and {r}; the smaller is {answer}."
+   ],
+   "where": [
+    "p != q && q != r && p != r",
+    "p != 0 && q != 0 && r != 0",
+    "-(p + q + r) != 0",
+    "min(-q, -r) != min(q, r)",
+    "p < min(q, r) || p > min(q, r)"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-15-one",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "polynomials"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "b": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "c": {
+     "int": [
+      2,
+      12
+     ]
+    }
+   },
+   "prompt": "Solve ({poly([1, 'x'], [-p, ''])})({quad(1, b, c)}) = {0}.",
+   "correct": "x = {p} only",
+   "distractors": [
+    {
+     "text": "x = {p}, and two more roots from the quadratic",
+     "misconception": "more"
+    },
+    {
+     "text": "x = {-p} only",
+     "misconception": "sign"
+    },
+    {
+     "text": "There are no real roots",
+     "misconception": "none"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "more",
+     "explain": "Check the quadratic: b² − {4}ac = {b * b - 4 * c} is negative, so it has no real roots."
+    },
+    {
+     "id": "sign",
+     "explain": "x − {br(p)} = {0} gives x = {p}, not {-p}."
+    },
+    {
+     "id": "none",
+     "explain": "The bracket x − {br(p)} still gives the root x = {p}."
+    }
+   ],
+   "solution": [
+    "x − {br(p)} = {0} gives x = {p}.",
+    "For {quad(1, b, c)}: b² − {4}ac = {b * b} − {4 * c} = {b * b - 4 * c} < {0}, so it has no real roots.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "p != 0",
+    "b * b - 4 * c < 0",
+    "b != 0"
+   ]
+  }
+ ]
+}

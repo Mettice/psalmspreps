@@ -12,3 +12,10 @@ Every lesson, Learn screen, card and worked example is **draft**. Open items:
   the practice uses a = 1 only. Is a ≠ 1 expected at this point?
 - **TR-M4-5 (row 11).** Sum and product of roots, and α² + β², are included as an extension of "developing quadratic
   equations from the roots". Confirm this is in the Form 4 scope, or mark it as Form 5.
+- **TR-M4-6 (rows 21, 22).** Regions shade the UNWANTED side and leave the wanted region clear, as usual in GCE
+  answers; the Learn screen says some books do the opposite. Which convention does the class use?
+- **TR-M4-7 (rows 17, 18).** The sheet's row 18 reads only "of the form" (the end of row 17's title, split by the
+  sheet layout). The app teaches absolute value equations in row 17 and absolute value inequalities
+  |x − a| < b, |x − a| > b in row 18. Please confirm the intended forms.
+- **TR-M4-8 (row 19).** Quadratic inequalities are solved by factorising and a sign test (+ − + for a positive x²
+  term); the graph method follows in rows 23 and 25.
