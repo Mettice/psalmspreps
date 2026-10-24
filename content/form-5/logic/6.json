@@ -1,0 +1,576 @@
+{
+ "subject": "logic",
+ "class": "Form 5",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  4,
+  5
+ ],
+ "skills": [
+  {
+   "id": "l5-6",
+   "name": "Guided work: checking a square-of-opposition record"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Work with an invented finite class on paper or on this screen. Separate S members inside P from S members outside P and state that these counts cover all S. Record A, E, I and O by their definitions before consulting the square. A mixed class supplies useful counterexamples to false upward inferences. An empty class tests whether existence was silently assumed. These are logical models, not a survey of actual pupils.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to construct a complete counted model and use it to detect an unjustified square inference. Builds on: square relations and existence conditions. Leads to: conversion, obversion and checking transformations."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "Work with an invented finite class on paper or on this screen. Separate S members inside P from S members outside P and state that these counts cover all S. Record A, E, I and O by their definitions before consulting the square. A mixed class supplies useful counterexamples to false upward inferences. An empty class tests whether existence was silently assumed. These are logical models, not a survey of actual pupils."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original record: {3} S are P and {2} S are not P; no other S exist. I and O are true because each region contains members. A and E are false because each has a counterexample. A pupil’s claim that I true forces A true fails in this same model. Next change the outside count to {0}: now A is true, while the remaining inside count keeps I true.",
+    "figure": "\"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 320 280\\\" role=\\\"img\\\" aria-label=\\\"Square of opposition assuming S exists. A and E contrary; I and O subcontrary; diagonals contradictory; downward arrows show subalternation.\\\"><rect width=\\\"320\\\" height=\\\"280\\\" fill=\\\"#fff\\\"/><g stroke=\\\"#28533d\\\" fill=\\\"none\\\" stroke-width=\\\"2\\\"><path d=\\\"M55 70H265M55 210H265M55 80L265 200M265 80L55 200\\\"/><path d=\\\"M40 85V192l-5 -8m5 8 5 -8M280 85V192l-5 -8m5 8 5 -8\\\"/></g><g fill=\\\"#172d22\\\" font-family=\\\"sans-serif\\\" text-anchor=\\\"middle\\\"><text x=\\\"160\\\" y=\\\"20\\\" font-size=\\\"16\\\">Assume S exists</text><text x=\\\"55\\\" y=\\\"47\\\" font-size=\\\"22\\\">A</text><text x=\\\"265\\\" y=\\\"47\\\" font-size=\\\"22\\\">E</text><text x=\\\"160\\\" y=\\\"63\\\" font-size=\\\"14\\\">contrary</text><rect x=\\\"84\\\" y=\\\"126\\\" width=\\\"152\\\" height=\\\"26\\\" fill=\\\"white\\\"/><text x=\\\"160\\\" y=\\\"144\\\" font-size=\\\"15\\\">contradictory</text><text x=\\\"55\\\" y=\\\"240\\\" font-size=\\\"22\\\">I</text><text x=\\\"265\\\" y=\\\"240\\\" font-size=\\\"22\\\">O</text><text x=\\\"160\\\" y=\\\"230\\\" font-size=\\\"14\\\">subcontrary</text><text x=\\\"160\\\" y=\\\"267\\\" font-size=\\\"12\\\">Down: A to I, E to O</text></g></svg>\""
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Prepare columns for inside/outside counts and the truth of A/E/I/O. Try a mixed, all-inside, all-outside and empty model. Compare a proposed inference with each record; a true premise and false conclusion gives a counterexample."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "complete record",
+    "meaning": "counts covering every S in the invented model"
+   },
+   {
+    "word": "mixed model",
+    "meaning": "existing S both inside and outside P"
+   },
+   {
+    "word": "counterexample model",
+    "meaning": "a model with a true premise and false proposed conclusion"
+   },
+   {
+    "word": "recorded assumption",
+    "meaning": "an explicit condition governing a model’s use"
+   }
+  ],
+  "mistake": {
+   "wrong": "Unreported S can be added while still calling the supplied model complete.",
+   "right": "complete record: counts covering every S in the invented model.",
+   "why": "Completeness fixes the whole subject class."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Test I true therefore A true using {3} S inside P and {2} outside P.",
+  "steps": [
+   "The inside count {3} makes I true.",
+   "The outside count {2} supplies a counterexample to A.",
+   "So the premise is true and conclusion false in this complete model."
+  ],
+  "answer": "The inference fails.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "l5-6-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "complete record: counts covering every S in the invented model.",
+     "mixed model: existing S both inside and outside P.",
+     "counterexample model: a model with a true premise and false proposed conclusion.",
+     "recorded assumption: an explicit condition governing a model’s use."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l5-6-terms"
+    }
+   },
+   {
+    "id": "l5-6-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "The model states there are no other S.",
+     "Positive counts in both regions make I and O true.",
+     "I true with A false refutes an unrestricted I-to-A inference.",
+     "Mark whether S exists before applying the full square."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l5-6-cases"
+    }
+   },
+   {
+    "id": "l5-6-c3",
+    "status": "draft",
+    "idea": "A correction must preserve scope, terms and assumptions.",
+    "vars": {},
+    "example": [
+     "Unreported S can be added while still calling the supplied model complete. Correction: Completeness fixes the whole subject class.",
+     "A mixed model makes A true. Correction: An outside member refutes A.",
+     "A false premise and true conclusion alone refute validity. Correction: Invalidity needs premises true and conclusion false.",
+     "An existence condition may be omitted without affecting every inference. Correction: Some square directions depend on existence."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l5-6-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "logic"
+     ],
+     "prompt": "Find the incorrect logical claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "complete record: counts covering every S in the invented model.",
+        "truth": "true",
+        "explain": "This is correct: counts covering every S in the invented model. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "mixed model: existing S both inside and outside P.",
+        "truth": "true",
+        "explain": "This is correct: existing S both inside and outside P. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "counterexample model: a model with a true premise and false proposed conclusion.",
+        "truth": "true",
+        "explain": "This is correct: a model with a true premise and false proposed conclusion. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "recorded assumption: an explicit condition governing a model’s use.",
+        "truth": "true",
+        "explain": "This is correct: an explicit condition governing a model’s use. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Unreported S can be added while still calling the supplied model complete.",
+        "truth": "false",
+        "explain": "Completeness fixes the whole subject class."
+       },
+       {
+        "text": "A mixed model makes A true.",
+        "truth": "false",
+        "explain": "An outside member refutes A."
+       },
+       {
+        "text": "A false premise and true conclusion alone refute validity.",
+        "truth": "false",
+        "explain": "Invalidity needs premises true and conclusion false."
+       },
+       {
+        "text": "An existence condition may be omitted without affecting every inference.",
+        "truth": "false",
+        "explain": "Some square directions depend on existence."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l5-6-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means counts covering every S in the invented model?",
+       "r": "complete record",
+       "w": [
+        "mixed model",
+        "counterexample model",
+        "recorded assumption"
+       ],
+       "e": [
+        "That concerns existing S both inside and outside P, rather than counts covering every S in the invented model.",
+        "That concerns a model with a true premise and false proposed conclusion, rather than counts covering every S in the invented model.",
+        "That concerns an explicit condition governing a model’s use, rather than counts covering every S in the invented model."
+       ],
+       "y": "Completeness fixes the whole subject class."
+      },
+      {
+       "q": "Which term means existing S both inside and outside P?",
+       "r": "mixed model",
+       "w": [
+        "complete record",
+        "counterexample model",
+        "recorded assumption"
+       ],
+       "e": [
+        "That concerns counts covering every S in the invented model, rather than existing S both inside and outside P.",
+        "That concerns a model with a true premise and false proposed conclusion, rather than existing S both inside and outside P.",
+        "That concerns an explicit condition governing a model’s use, rather than existing S both inside and outside P."
+       ],
+       "y": "An outside member refutes A."
+      },
+      {
+       "q": "Which term means a model with a true premise and false proposed conclusion?",
+       "r": "counterexample model",
+       "w": [
+        "complete record",
+        "mixed model",
+        "recorded assumption"
+       ],
+       "e": [
+        "That concerns counts covering every S in the invented model, rather than a model with a true premise and false proposed conclusion.",
+        "That concerns existing S both inside and outside P, rather than a model with a true premise and false proposed conclusion.",
+        "That concerns an explicit condition governing a model’s use, rather than a model with a true premise and false proposed conclusion."
+       ],
+       "y": "Invalidity needs premises true and conclusion false."
+      },
+      {
+       "q": "Which term means an explicit condition governing a model’s use?",
+       "r": "recorded assumption",
+       "w": [
+        "complete record",
+        "mixed model",
+        "counterexample model"
+       ],
+       "e": [
+        "That concerns counts covering every S in the invented model, rather than an explicit condition governing a model’s use.",
+        "That concerns existing S both inside and outside P, rather than an explicit condition governing a model’s use.",
+        "That concerns a model with a true premise and false proposed conclusion, rather than an explicit condition governing a model’s use."
+       ],
+       "y": "Some square directions depend on existence."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-6-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The model states there are no other S.\nWhich description best fits the selected feature?",
+       "r": "complete record",
+       "w": [
+        "mixed model",
+        "counterexample model",
+        "recorded assumption"
+       ],
+       "e": [
+        "That means existing S both inside and outside P. The selected feature instead illustrates counts covering every S in the invented model.",
+        "That means a model with a true premise and false proposed conclusion. The selected feature instead illustrates counts covering every S in the invented model.",
+        "That means an explicit condition governing a model’s use. The selected feature instead illustrates counts covering every S in the invented model."
+       ],
+       "y": "Completeness fixes the whole subject class."
+      },
+      {
+       "q": "Positive counts in both regions make I and O true.\nWhich description best fits the selected feature?",
+       "r": "mixed model",
+       "w": [
+        "complete record",
+        "counterexample model",
+        "recorded assumption"
+       ],
+       "e": [
+        "That means counts covering every S in the invented model. The selected feature instead illustrates existing S both inside and outside P.",
+        "That means a model with a true premise and false proposed conclusion. The selected feature instead illustrates existing S both inside and outside P.",
+        "That means an explicit condition governing a model’s use. The selected feature instead illustrates existing S both inside and outside P."
+       ],
+       "y": "An outside member refutes A."
+      },
+      {
+       "q": "I true with A false refutes an unrestricted I-to-A inference.\nWhich description best fits the selected feature?",
+       "r": "counterexample model",
+       "w": [
+        "complete record",
+        "mixed model",
+        "recorded assumption"
+       ],
+       "e": [
+        "That means counts covering every S in the invented model. The selected feature instead illustrates a model with a true premise and false proposed conclusion.",
+        "That means existing S both inside and outside P. The selected feature instead illustrates a model with a true premise and false proposed conclusion.",
+        "That means an explicit condition governing a model’s use. The selected feature instead illustrates a model with a true premise and false proposed conclusion."
+       ],
+       "y": "Invalidity needs premises true and conclusion false."
+      },
+      {
+       "q": "Mark whether S exists before applying the full square.\nWhich description best fits the selected feature?",
+       "r": "recorded assumption",
+       "w": [
+        "complete record",
+        "mixed model",
+        "counterexample model"
+       ],
+       "e": [
+        "That means counts covering every S in the invented model. The selected feature instead illustrates an explicit condition governing a model’s use.",
+        "That means existing S both inside and outside P. The selected feature instead illustrates an explicit condition governing a model’s use.",
+        "That means a model with a true premise and false proposed conclusion. The selected feature instead illustrates an explicit condition governing a model’s use."
+       ],
+       "y": "Some square directions depend on existence."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-6-model",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      0,
+      4
+     ]
+    },
+    "b": {
+     "int": [
+      0,
+      4
+     ]
+    },
+    "X": {
+     "pick": [
+      {
+       "code": "A",
+       "text": "All S are P."
+      },
+      {
+       "code": "E",
+       "text": "No S are P."
+      },
+      {
+       "code": "I",
+       "text": "Some S are P."
+      },
+      {
+       "code": "O",
+       "text": "Some S are not P."
+      }
+     ]
+    }
+   },
+   "prompt": "Invented complete model: {a} S are inside P and {b} S are outside P. There are no other S. Assess {X.code}: {X.text}",
+   "correct": "{(X.code==\"A\" ? b==0 : X.code==\"E\" ? a==0 : X.code==\"I\" ? a>0 : b>0) ? \"True in this model.\" : \"False in this model.\"}",
+   "distractors": [
+    {
+     "text": "{(X.code==\"A\" ? b==0 : X.code==\"E\" ? a==0 : X.code==\"I\" ? a>0 : b>0) ? \"False in this model.\" : \"True in this model.\"}",
+     "misconception": "reverse"
+    },
+    {
+     "text": "Undetermined from these complete counts.",
+     "misconception": "unknown"
+    },
+    {
+     "text": "It has no truth value because some is an exact total.",
+     "misconception": "some"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "reverse",
+     "explain": "That reverses the result of checking the relevant region."
+    },
+    {
+     "id": "unknown",
+     "explain": "Both S regions and completeness are supplied, so this claim can be assessed."
+    },
+    {
+     "id": "some",
+     "explain": "Some asserts existence, not an exact total; the supplied counts still determine truth."
+    }
+   ],
+   "solution": [
+    "Some means at least one. A has no S outside P; E has no S inside P.",
+    "Here A is {b==0}, E is {a==0}, I is {a>0} and O is {b>0}.",
+    "The requested claim is {answer}"
+   ],
+   "where": []
+  },
+  {
+   "id": "l5-6-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "complete record",
+     "right": "The model states there are no other S."
+    },
+    {
+     "left": "mixed model",
+     "right": "Positive counts in both regions make I and O true."
+    },
+    {
+     "left": "counterexample model",
+     "right": "I true with A false refutes an unrestricted I-to-A inference."
+    },
+    {
+     "left": "recorded assumption",
+     "right": "Mark whether S exists before applying the full square."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "l5-6-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "prompt": "Find the incorrect logical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "complete record: counts covering every S in the invented model.",
+      "truth": "true",
+      "explain": "This is correct: counts covering every S in the invented model. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "mixed model: existing S both inside and outside P.",
+      "truth": "true",
+      "explain": "This is correct: existing S both inside and outside P. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "counterexample model: a model with a true premise and false proposed conclusion.",
+      "truth": "true",
+      "explain": "This is correct: a model with a true premise and false proposed conclusion. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "recorded assumption: an explicit condition governing a model’s use.",
+      "truth": "true",
+      "explain": "This is correct: an explicit condition governing a model’s use. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Unreported S can be added while still calling the supplied model complete.",
+      "truth": "false",
+      "explain": "Completeness fixes the whole subject class."
+     },
+     {
+      "text": "A mixed model makes A true.",
+      "truth": "false",
+      "explain": "An outside member refutes A."
+     },
+     {
+      "text": "A false premise and true conclusion alone refute validity.",
+      "truth": "false",
+      "explain": "Invalidity needs premises true and conclusion false."
+     },
+     {
+      "text": "An existence condition may be omitted without affecting every inference.",
+      "truth": "false",
+      "explain": "Some square directions depend on existence."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,601 @@
+{
+ "subject": "logic",
+ "class": "Form 5",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "l5-1",
+   "name": "Arguments and reasoning"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An argument offers claims as reasons to accept another claim. It need not be a quarrel or a successful proof. Deductive reasoning aims at a conclusion that cannot be false if its premises are true. Inductive reasoning supports a conclusion with a degree of confidence instead. An explanation can give a cause for an event already accepted, rather than evidence that it occurred. Context determines the intended purpose. Evaluating the inference differs from checking whether its premises are actually true.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to distinguish an offered inference from description or explanation and assess its intended strength. Builds on: Form Four statements, conditions and logical form. Leads to: identifying premises, conclusions and indicators."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "An argument offers claims as reasons to accept another claim. It need not be a quarrel or a successful proof. Deductive reasoning aims at a conclusion that cannot be false if its premises are true. Inductive reasoning supports a conclusion with a degree of confidence instead. An explanation can give a cause for an event already accepted, rather than evidence that it occurred. Context determines the intended purpose. Evaluating the inference differs from checking whether its premises are actually true."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original fictional rule: every reading-club voter holds a badge. Bih is a reading-club voter. Therefore Bih holds a badge. The stated premises support that conclusion. Reversing the rule would not establish that every badge holder votes. By contrast, Bih arrived late because the path was blocked may explain an accepted arrival, depending on context."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Identify the claim the speaker wants accepted and the offered reasons. Ask whether the intended support is necessary or probable. For an explanation, check whether the event is already accepted. Then test the support separately from checking real-world facts."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "argument",
+    "meaning": "claims offered as support for a conclusion"
+   },
+   {
+    "word": "deductive aim",
+    "meaning": "an intention that true premises guarantee the conclusion"
+   },
+   {
+    "word": "inductive aim",
+    "meaning": "support for a conclusion without a necessity claim"
+   },
+   {
+    "word": "explanation",
+    "meaning": "an account of why an accepted event happened"
+   }
+  ],
+  "mistake": {
+   "wrong": "An argument must be an angry disagreement.",
+   "right": "argument: claims offered as support for a conclusion.",
+   "why": "Reasons can be offered calmly."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The badge rule and Bih’s voting status are reasons for her badge status. Explain the selected feature.",
+  "steps": [
+   "Claims offered as support for a conclusion.",
+   "Reasons can be offered calmly."
+  ],
+  "answer": "argument",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "l5-1-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "argument: claims offered as support for a conclusion.",
+     "deductive aim: an intention that true premises guarantee the conclusion.",
+     "inductive aim: support for a conclusion without a necessity claim.",
+     "explanation: an account of why an accepted event happened."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l5-1-terms"
+    }
+   },
+   {
+    "id": "l5-1-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "The badge rule and Bih’s voting status are reasons for her badge status.",
+     "The voter rule and Bih’s voter status entail her badge status.",
+     "Past club meetings suggest the next may also be busy.",
+     "The blocked path explains an arrival already accepted as late."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l5-1-cases"
+    }
+   },
+   {
+    "id": "l5-1-c3",
+    "status": "draft",
+    "idea": "A correction must preserve scope, terms and assumptions.",
+    "vars": {},
+    "example": [
+     "An argument must be an angry disagreement. Correction: Reasons can be offered calmly.",
+     "Every deductive attempt is automatically valid. Correction: An aim can fail; the actual inference must be checked.",
+     "A repeated observation guarantees every future outcome. Correction: Such support can leave room for exceptions.",
+     "The word because always makes a passage a proof of its conclusion. Correction: Because can introduce a cause explaining an accepted event."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l5-1-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "logic"
+     ],
+     "prompt": "Find the incorrect logical claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "argument: claims offered as support for a conclusion.",
+        "truth": "true",
+        "explain": "This is correct: claims offered as support for a conclusion. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "deductive aim: an intention that true premises guarantee the conclusion.",
+        "truth": "true",
+        "explain": "This is correct: an intention that true premises guarantee the conclusion. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "inductive aim: support for a conclusion without a necessity claim.",
+        "truth": "true",
+        "explain": "This is correct: support for a conclusion without a necessity claim. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "explanation: an account of why an accepted event happened.",
+        "truth": "true",
+        "explain": "This is correct: an account of why an accepted event happened. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "An argument must be an angry disagreement.",
+        "truth": "false",
+        "explain": "Reasons can be offered calmly."
+       },
+       {
+        "text": "Every deductive attempt is automatically valid.",
+        "truth": "false",
+        "explain": "An aim can fail; the actual inference must be checked."
+       },
+       {
+        "text": "A repeated observation guarantees every future outcome.",
+        "truth": "false",
+        "explain": "Such support can leave room for exceptions."
+       },
+       {
+        "text": "The word because always makes a passage a proof of its conclusion.",
+        "truth": "false",
+        "explain": "Because can introduce a cause explaining an accepted event."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l5-1-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means claims offered as support for a conclusion?",
+       "r": "argument",
+       "w": [
+        "deductive aim",
+        "inductive aim",
+        "explanation"
+       ],
+       "e": [
+        "That concerns an intention that true premises guarantee the conclusion, rather than claims offered as support for a conclusion.",
+        "That concerns support for a conclusion without a necessity claim, rather than claims offered as support for a conclusion.",
+        "That concerns an account of why an accepted event happened, rather than claims offered as support for a conclusion."
+       ],
+       "y": "Reasons can be offered calmly."
+      },
+      {
+       "q": "Which term means an intention that true premises guarantee the conclusion?",
+       "r": "deductive aim",
+       "w": [
+        "argument",
+        "inductive aim",
+        "explanation"
+       ],
+       "e": [
+        "That concerns claims offered as support for a conclusion, rather than an intention that true premises guarantee the conclusion.",
+        "That concerns support for a conclusion without a necessity claim, rather than an intention that true premises guarantee the conclusion.",
+        "That concerns an account of why an accepted event happened, rather than an intention that true premises guarantee the conclusion."
+       ],
+       "y": "An aim can fail; the actual inference must be checked."
+      },
+      {
+       "q": "Which term means support for a conclusion without a necessity claim?",
+       "r": "inductive aim",
+       "w": [
+        "argument",
+        "deductive aim",
+        "explanation"
+       ],
+       "e": [
+        "That concerns claims offered as support for a conclusion, rather than support for a conclusion without a necessity claim.",
+        "That concerns an intention that true premises guarantee the conclusion, rather than support for a conclusion without a necessity claim.",
+        "That concerns an account of why an accepted event happened, rather than support for a conclusion without a necessity claim."
+       ],
+       "y": "Such support can leave room for exceptions."
+      },
+      {
+       "q": "Which term means an account of why an accepted event happened?",
+       "r": "explanation",
+       "w": [
+        "argument",
+        "deductive aim",
+        "inductive aim"
+       ],
+       "e": [
+        "That concerns claims offered as support for a conclusion, rather than an account of why an accepted event happened.",
+        "That concerns an intention that true premises guarantee the conclusion, rather than an account of why an accepted event happened.",
+        "That concerns support for a conclusion without a necessity claim, rather than an account of why an accepted event happened."
+       ],
+       "y": "Because can introduce a cause explaining an accepted event."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-1-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The badge rule and Bih’s voting status are reasons for her badge status.\nWhich description best fits the selected feature?",
+       "r": "argument",
+       "w": [
+        "deductive aim",
+        "inductive aim",
+        "explanation"
+       ],
+       "e": [
+        "That means an intention that true premises guarantee the conclusion. The selected feature instead illustrates claims offered as support for a conclusion.",
+        "That means support for a conclusion without a necessity claim. The selected feature instead illustrates claims offered as support for a conclusion.",
+        "That means an account of why an accepted event happened. The selected feature instead illustrates claims offered as support for a conclusion."
+       ],
+       "y": "Reasons can be offered calmly."
+      },
+      {
+       "q": "The voter rule and Bih’s voter status entail her badge status.\nWhich description best fits the selected feature?",
+       "r": "deductive aim",
+       "w": [
+        "argument",
+        "inductive aim",
+        "explanation"
+       ],
+       "e": [
+        "That means claims offered as support for a conclusion. The selected feature instead illustrates an intention that true premises guarantee the conclusion.",
+        "That means support for a conclusion without a necessity claim. The selected feature instead illustrates an intention that true premises guarantee the conclusion.",
+        "That means an account of why an accepted event happened. The selected feature instead illustrates an intention that true premises guarantee the conclusion."
+       ],
+       "y": "An aim can fail; the actual inference must be checked."
+      },
+      {
+       "q": "Past club meetings suggest the next may also be busy.\nWhich description best fits the selected feature?",
+       "r": "inductive aim",
+       "w": [
+        "argument",
+        "deductive aim",
+        "explanation"
+       ],
+       "e": [
+        "That means claims offered as support for a conclusion. The selected feature instead illustrates support for a conclusion without a necessity claim.",
+        "That means an intention that true premises guarantee the conclusion. The selected feature instead illustrates support for a conclusion without a necessity claim.",
+        "That means an account of why an accepted event happened. The selected feature instead illustrates support for a conclusion without a necessity claim."
+       ],
+       "y": "Such support can leave room for exceptions."
+      },
+      {
+       "q": "The blocked path explains an arrival already accepted as late.\nWhich description best fits the selected feature?",
+       "r": "explanation",
+       "w": [
+        "argument",
+        "deductive aim",
+        "inductive aim"
+       ],
+       "e": [
+        "That means claims offered as support for a conclusion. The selected feature instead illustrates an account of why an accepted event happened.",
+        "That means an intention that true premises guarantee the conclusion. The selected feature instead illustrates an account of why an accepted event happened.",
+        "That means support for a conclusion without a necessity claim. The selected feature instead illustrates an account of why an accepted event happened."
+       ],
+       "y": "Because can introduce a cause explaining an accepted event."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-1-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Every club voter holds a badge; Bih is a voter; so she holds a badge. What support is intended?",
+       "r": "Deductive support.",
+       "w": [
+        "A report of a quarrel.",
+        "Only an unrelated description.",
+        "An assertion that badges cause every vote."
+       ],
+       "e": [
+        "No quarrel is described.",
+        "The claims are offered as reasons.",
+        "The rule does not express that causal claim."
+       ],
+       "y": "The conclusion is required if the stated premises hold."
+      },
+      {
+       "q": "Several earlier meetings were busy, so the next will probably be busy. What is the intended strength?",
+       "r": "Probable rather than guaranteed support.",
+       "w": [
+        "A guarantee excluding every exception.",
+        "No conclusion is offered.",
+        "A contradiction by definition."
+       ],
+       "e": [
+        "The wording is probable.",
+        "A future claim is offered.",
+        "No exact negation is asserted."
+       ],
+       "y": "Earlier observations support an expectation without necessity."
+      },
+      {
+       "q": "We already know the door closed. The speaker says it closed because a gust pushed it. What is the stated purpose?",
+       "r": "Explain the accepted closure.",
+       "w": [
+        "Prove an event no one yet accepts.",
+        "Define every door as a gust.",
+        "Give a conclusion indicator with no cause."
+       ],
+       "e": [
+        "The event is explicitly accepted.",
+        "The words do not define doors.",
+        "A cause is offered."
+       ],
+       "y": "The context supplies the explanatory purpose."
+      },
+      {
+       "q": "All club voters have badges. Ayuk has a badge. Therefore Ayuk is a voter. What is the problem?",
+       "r": "The premises leave open badge holders who are not voters.",
+       "w": [
+        "The conclusion follows merely because it is last.",
+        "The first premise says all badge holders vote.",
+        "No conclusion appears."
+       ],
+       "e": [
+        "Position does not establish support.",
+        "That reverses the stated rule.",
+        "The final claim is a conclusion."
+       ],
+       "y": "The converse is not supplied."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-1-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "argument",
+     "right": "The badge rule and Bih’s voting status are reasons for her badge status."
+    },
+    {
+     "left": "deductive aim",
+     "right": "The voter rule and Bih’s voter status entail her badge status."
+    },
+    {
+     "left": "inductive aim",
+     "right": "Past club meetings suggest the next may also be busy."
+    },
+    {
+     "left": "explanation",
+     "right": "The blocked path explains an arrival already accepted as late."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "l5-1-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "prompt": "Find the incorrect logical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "argument: claims offered as support for a conclusion.",
+      "truth": "true",
+      "explain": "This is correct: claims offered as support for a conclusion. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "deductive aim: an intention that true premises guarantee the conclusion.",
+      "truth": "true",
+      "explain": "This is correct: an intention that true premises guarantee the conclusion. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "inductive aim: support for a conclusion without a necessity claim.",
+      "truth": "true",
+      "explain": "This is correct: support for a conclusion without a necessity claim. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "explanation: an account of why an accepted event happened.",
+      "truth": "true",
+      "explain": "This is correct: an account of why an accepted event happened. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "An argument must be an angry disagreement.",
+      "truth": "false",
+      "explain": "Reasons can be offered calmly."
+     },
+     {
+      "text": "Every deductive attempt is automatically valid.",
+      "truth": "false",
+      "explain": "An aim can fail; the actual inference must be checked."
+     },
+     {
+      "text": "A repeated observation guarantees every future outcome.",
+      "truth": "false",
+      "explain": "Such support can leave room for exceptions."
+     },
+     {
+      "text": "The word because always makes a passage a proof of its conclusion.",
+      "truth": "false",
+      "explain": "Because can introduce a cause explaining an accepted event."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

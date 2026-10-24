@@ -1,0 +1,605 @@
+{
+ "subject": "logic",
+ "class": "Form 5",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  1,
+  2,
+  3
+ ],
+ "skills": [
+  {
+   "id": "l5-4",
+   "name": "Opposition as immediate inference"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Opposition compares categorical claims with the same subject S and predicate P. A says all S are P; E says no S are P; I says some S are P; O says some S are not P. Some means at least one. Under the standard set-based meanings, A/O and E/I are contradictory even when S is empty. For the full classroom square here, explicitly assume S exists. Then A/E are contrary and I/O subcontrary. Do not silently change terms or assume existence from an all-claim alone.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to identify opposition relations without changing the subject, predicate or existence assumptions. Builds on: argument parts and Form Four categorical forms. Leads to: using the square to infer truth values."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "Opposition compares categorical claims with the same subject S and predicate P. A says all S are P; E says no S are P; I says some S are P; O says some S are not P. Some means at least one. Under the standard set-based meanings, A/O and E/I are contradictory even when S is empty. For the full classroom square here, explicitly assume S exists. Then A/E are contrary and I/O subcontrary. Do not silently change terms or assume existence from an all-claim alone."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original model: S means club members and P means badge holders in one fixed fictional club. If members exist and some hold badges while others do not, A and E are false while I and O are true. If no members exist, the standard set-based A and E are both true; I and O are false. This second case shows why the full square needs an existence assumption."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Write A/E/I/O in words, hold the terms fixed and state whether S is assumed nonempty. Distinguish cannot both be true from cannot both be false. The spine title is truncated; this draft teaches opposition as a mode of immediate inference, subject to teacher terminology review."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "fixed terms",
+    "meaning": "the same subject and predicate meanings in a comparison"
+   },
+   {
+    "word": "contradictory",
+    "meaning": "a relation whose paired claims always differ in truth value"
+   },
+   {
+    "word": "contrary with existence",
+    "meaning": "the A/E relation when S is assumed nonempty"
+   },
+   {
+    "word": "subcontrary with existence",
+    "meaning": "the I/O relation when S is assumed nonempty"
+   }
+  ],
+  "mistake": {
+   "wrong": "Changing S into teachers leaves the same opposition pair.",
+   "right": "fixed terms: the same subject and predicate meanings in a comparison.",
+   "why": "Changing the class changes the compared claims."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Compare club members and badge holders throughout. Explain the selected feature.",
+  "steps": [
+   "The same subject and predicate meanings in a comparison.",
+   "Changing the class changes the compared claims."
+  ],
+  "answer": "fixed terms",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "l5-4-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "fixed terms: the same subject and predicate meanings in a comparison.",
+     "contradictory: a relation whose paired claims always differ in truth value.",
+     "contrary with existence: the A/E relation when S is assumed nonempty.",
+     "subcontrary with existence: the I/O relation when S is assumed nonempty."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l5-4-terms"
+    }
+   },
+   {
+    "id": "l5-4-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "Compare club members and badge holders throughout.",
+     "A and O are contradictories under the stated meanings.",
+     "All members have badges and no members have badges cannot both be true if members exist.",
+     "A mixed membership makes I and O both true."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l5-4-cases"
+    }
+   },
+   {
+    "id": "l5-4-c3",
+    "status": "draft",
+    "idea": "A correction must preserve scope, terms and assumptions.",
+    "vars": {},
+    "example": [
+     "Changing S into teachers leaves the same opposition pair. Correction: Changing the class changes the compared claims.",
+     "A and O may both be false under these meanings. Correction: O asserts exactly the counterexample that denies A.",
+     "A and E cannot both be true even if no S exist under the standard meanings. Correction: With empty S both universals are true in the stated set-based interpretation.",
+     "I and O cannot both be true. Correction: A mixed class supplies a witness for each."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l5-4-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "logic"
+     ],
+     "prompt": "Find the incorrect logical claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "fixed terms: the same subject and predicate meanings in a comparison.",
+        "truth": "true",
+        "explain": "This is correct: the same subject and predicate meanings in a comparison. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "contradictory: a relation whose paired claims always differ in truth value.",
+        "truth": "true",
+        "explain": "This is correct: a relation whose paired claims always differ in truth value. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "contrary with existence: the A/E relation when S is assumed nonempty.",
+        "truth": "true",
+        "explain": "This is correct: the A/E relation when S is assumed nonempty. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "subcontrary with existence: the I/O relation when S is assumed nonempty.",
+        "truth": "true",
+        "explain": "This is correct: the I/O relation when S is assumed nonempty. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Changing S into teachers leaves the same opposition pair.",
+        "truth": "false",
+        "explain": "Changing the class changes the compared claims."
+       },
+       {
+        "text": "A and O may both be false under these meanings.",
+        "truth": "false",
+        "explain": "O asserts exactly the counterexample that denies A."
+       },
+       {
+        "text": "A and E cannot both be true even if no S exist under the standard meanings.",
+        "truth": "false",
+        "explain": "With empty S both universals are true in the stated set-based interpretation."
+       },
+       {
+        "text": "I and O cannot both be true.",
+        "truth": "false",
+        "explain": "A mixed class supplies a witness for each."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l5-4-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means the same subject and predicate meanings in a comparison?",
+       "r": "fixed terms",
+       "w": [
+        "contradictory",
+        "contrary with existence",
+        "subcontrary with existence"
+       ],
+       "e": [
+        "That concerns a relation whose paired claims always differ in truth value, rather than the same subject and predicate meanings in a comparison.",
+        "That concerns the A/E relation when S is assumed nonempty, rather than the same subject and predicate meanings in a comparison.",
+        "That concerns the I/O relation when S is assumed nonempty, rather than the same subject and predicate meanings in a comparison."
+       ],
+       "y": "Changing the class changes the compared claims."
+      },
+      {
+       "q": "Which term means a relation whose paired claims always differ in truth value?",
+       "r": "contradictory",
+       "w": [
+        "fixed terms",
+        "contrary with existence",
+        "subcontrary with existence"
+       ],
+       "e": [
+        "That concerns the same subject and predicate meanings in a comparison, rather than a relation whose paired claims always differ in truth value.",
+        "That concerns the A/E relation when S is assumed nonempty, rather than a relation whose paired claims always differ in truth value.",
+        "That concerns the I/O relation when S is assumed nonempty, rather than a relation whose paired claims always differ in truth value."
+       ],
+       "y": "O asserts exactly the counterexample that denies A."
+      },
+      {
+       "q": "Which term means the A/E relation when S is assumed nonempty?",
+       "r": "contrary with existence",
+       "w": [
+        "fixed terms",
+        "contradictory",
+        "subcontrary with existence"
+       ],
+       "e": [
+        "That concerns the same subject and predicate meanings in a comparison, rather than the A/E relation when S is assumed nonempty.",
+        "That concerns a relation whose paired claims always differ in truth value, rather than the A/E relation when S is assumed nonempty.",
+        "That concerns the I/O relation when S is assumed nonempty, rather than the A/E relation when S is assumed nonempty."
+       ],
+       "y": "With empty S both universals are true in the stated set-based interpretation."
+      },
+      {
+       "q": "Which term means the I/O relation when S is assumed nonempty?",
+       "r": "subcontrary with existence",
+       "w": [
+        "fixed terms",
+        "contradictory",
+        "contrary with existence"
+       ],
+       "e": [
+        "That concerns the same subject and predicate meanings in a comparison, rather than the I/O relation when S is assumed nonempty.",
+        "That concerns a relation whose paired claims always differ in truth value, rather than the I/O relation when S is assumed nonempty.",
+        "That concerns the A/E relation when S is assumed nonempty, rather than the I/O relation when S is assumed nonempty."
+       ],
+       "y": "A mixed class supplies a witness for each."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-4-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Compare club members and badge holders throughout.\nWhich description best fits the selected feature?",
+       "r": "fixed terms",
+       "w": [
+        "contradictory",
+        "contrary with existence",
+        "subcontrary with existence"
+       ],
+       "e": [
+        "That means a relation whose paired claims always differ in truth value. The selected feature instead illustrates the same subject and predicate meanings in a comparison.",
+        "That means the A/E relation when S is assumed nonempty. The selected feature instead illustrates the same subject and predicate meanings in a comparison.",
+        "That means the I/O relation when S is assumed nonempty. The selected feature instead illustrates the same subject and predicate meanings in a comparison."
+       ],
+       "y": "Changing the class changes the compared claims."
+      },
+      {
+       "q": "A and O are contradictories under the stated meanings.\nWhich description best fits the selected feature?",
+       "r": "contradictory",
+       "w": [
+        "fixed terms",
+        "contrary with existence",
+        "subcontrary with existence"
+       ],
+       "e": [
+        "That means the same subject and predicate meanings in a comparison. The selected feature instead illustrates a relation whose paired claims always differ in truth value.",
+        "That means the A/E relation when S is assumed nonempty. The selected feature instead illustrates a relation whose paired claims always differ in truth value.",
+        "That means the I/O relation when S is assumed nonempty. The selected feature instead illustrates a relation whose paired claims always differ in truth value."
+       ],
+       "y": "O asserts exactly the counterexample that denies A."
+      },
+      {
+       "q": "All members have badges and no members have badges cannot both be true if members exist.\nWhich description best fits the selected feature?",
+       "r": "contrary with existence",
+       "w": [
+        "fixed terms",
+        "contradictory",
+        "subcontrary with existence"
+       ],
+       "e": [
+        "That means the same subject and predicate meanings in a comparison. The selected feature instead illustrates the A/E relation when S is assumed nonempty.",
+        "That means a relation whose paired claims always differ in truth value. The selected feature instead illustrates the A/E relation when S is assumed nonempty.",
+        "That means the I/O relation when S is assumed nonempty. The selected feature instead illustrates the A/E relation when S is assumed nonempty."
+       ],
+       "y": "With empty S both universals are true in the stated set-based interpretation."
+      },
+      {
+       "q": "A mixed membership makes I and O both true.\nWhich description best fits the selected feature?",
+       "r": "subcontrary with existence",
+       "w": [
+        "fixed terms",
+        "contradictory",
+        "contrary with existence"
+       ],
+       "e": [
+        "That means the same subject and predicate meanings in a comparison. The selected feature instead illustrates the I/O relation when S is assumed nonempty.",
+        "That means a relation whose paired claims always differ in truth value. The selected feature instead illustrates the I/O relation when S is assumed nonempty.",
+        "That means the A/E relation when S is assumed nonempty. The selected feature instead illustrates the I/O relation when S is assumed nonempty."
+       ],
+       "y": "A mixed class supplies a witness for each."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-4-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Classify the relation: A and O.",
+       "r": "contradictory",
+       "w": [
+        "contrary",
+        "subcontrary",
+        "unrelated"
+       ],
+       "e": [
+        "Contraries cannot both be true but may both be false.",
+        "Subcontraries cannot both be false but may both be true.",
+        "The specified forms have a taught opposition relation."
+       ],
+       "y": "They cannot share a truth value under the stated standard meanings."
+      },
+      {
+       "q": "Classify the relation: E and I.",
+       "r": "contradictory",
+       "w": [
+        "contrary",
+        "subcontrary",
+        "unrelated"
+       ],
+       "e": [
+        "Contraries cannot both be true but may both be false.",
+        "Subcontraries cannot both be false but may both be true.",
+        "The specified forms have a taught opposition relation."
+       ],
+       "y": "They cannot share a truth value under the stated standard meanings."
+      },
+      {
+       "q": "Classify the relation: A and E, with S nonempty.",
+       "r": "contrary",
+       "w": [
+        "contradictory",
+        "subcontrary",
+        "unrelated"
+       ],
+       "e": [
+        "Contradictories must always differ in truth value.",
+        "Subcontraries cannot both be false but may both be true.",
+        "The specified forms have a taught opposition relation."
+       ],
+       "y": "They cannot both be true, but a mixed subject class makes both false."
+      },
+      {
+       "q": "Classify the relation: I and O, with S nonempty.",
+       "r": "subcontrary",
+       "w": [
+        "contradictory",
+        "contrary",
+        "unrelated"
+       ],
+       "e": [
+        "Contradictories must always differ in truth value.",
+        "Contraries cannot both be true but may both be false.",
+        "The specified forms have a taught opposition relation."
+       ],
+       "y": "They cannot both be false, but a mixed subject class makes both true."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-4-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "fixed terms",
+     "right": "Compare club members and badge holders throughout."
+    },
+    {
+     "left": "contradictory",
+     "right": "A and O are contradictories under the stated meanings."
+    },
+    {
+     "left": "contrary with existence",
+     "right": "All members have badges and no members have badges cannot both be true if members exist."
+    },
+    {
+     "left": "subcontrary with existence",
+     "right": "A mixed membership makes I and O both true."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "l5-4-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "prompt": "Find the incorrect logical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "fixed terms: the same subject and predicate meanings in a comparison.",
+      "truth": "true",
+      "explain": "This is correct: the same subject and predicate meanings in a comparison. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "contradictory: a relation whose paired claims always differ in truth value.",
+      "truth": "true",
+      "explain": "This is correct: a relation whose paired claims always differ in truth value. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "contrary with existence: the A/E relation when S is assumed nonempty.",
+      "truth": "true",
+      "explain": "This is correct: the A/E relation when S is assumed nonempty. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "subcontrary with existence: the I/O relation when S is assumed nonempty.",
+      "truth": "true",
+      "explain": "This is correct: the I/O relation when S is assumed nonempty. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Changing S into teachers leaves the same opposition pair.",
+      "truth": "false",
+      "explain": "Changing the class changes the compared claims."
+     },
+     {
+      "text": "A and O may both be false under these meanings.",
+      "truth": "false",
+      "explain": "O asserts exactly the counterexample that denies A."
+     },
+     {
+      "text": "A and E cannot both be true even if no S exist under the standard meanings.",
+      "truth": "false",
+      "explain": "With empty S both universals are true in the stated set-based interpretation."
+     },
+     {
+      "text": "I and O cannot both be true.",
+      "truth": "false",
+      "explain": "A mixed class supplies a witness for each."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

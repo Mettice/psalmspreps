@@ -1,0 +1,664 @@
+{
+ "subject": "logic",
+ "class": "Form 5",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  7,
+  8
+ ],
+ "skills": [
+  {
+   "id": "l5-9",
+   "name": "Complex modes of eduction"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A complex transformation can combine simpler truth-preserving steps. For A, obvert to E, convert that E, then obvert again: All S are P becomes All non-P are non-S. The analogous chain works for O through an I intermediate. This is contraposition. Under the standard meanings, A and O are equivalent to their contrapositives; E and I are not generally equivalent to theirs. Do not assume every operation is licensed merely because the final wording looks familiar.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to justify a chain of licensed transformations and distinguish contraposition from a converse. Builds on: simple conversion, obversion and existence conditions. Leads to: analysing complete passages without changing their claims."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "A complex transformation can combine simpler truth-preserving steps. For A, obvert to E, convert that E, then obvert again: All S are P becomes All non-P are non-S. The analogous chain works for O through an I intermediate. This is contraposition. Under the standard meanings, A and O are equivalent to their contrapositives; E and I are not generally equivalent to theirs. Do not assume every operation is licensed merely because the final wording looks familiar."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original A chain: All S are P; No S are non-P; No non-P are S; All non-P are non-S. Original O chain: Some S are not P; Some S are non-P; Some non-P are S; Some non-P are not non-S. Each middle conversion is licensed because its form is E or I. Non-(non-S) denotes S in the fixed universe."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Write every intermediate line and name its operation. Check the form before conversion and preserve the complement’s entire term. A failed intermediate equivalence cannot be rescued by labelling the whole chain complex. Ask the teacher which additional historical eduction names the examination requires."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "licensed chain",
+    "meaning": "successive transformations each justified for its form"
+   },
+   {
+    "word": "contraposition",
+    "meaning": "exchange of terms with both complemented"
+   },
+   {
+    "word": "A and O restriction",
+    "meaning": "the general equivalence scope for contraposition here"
+   },
+   {
+    "word": "double complement",
+    "meaning": "return to the original class after complementing twice"
+   }
+  ],
+  "mistake": {
+   "wrong": "Any sequence of operations preserves truth automatically.",
+   "right": "licensed chain: successive transformations each justified for its form.",
+   "why": "Each step needs an applicable rule."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The A chain converts an E intermediate. Explain the selected feature.",
+  "steps": [
+   "Successive transformations each justified for its form.",
+   "Each step needs an applicable rule."
+  ],
+  "answer": "licensed chain",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "l5-9-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "licensed chain: successive transformations each justified for its form.",
+     "contraposition: exchange of terms with both complemented.",
+     "A and O restriction: the general equivalence scope for contraposition here.",
+     "double complement: return to the original class after complementing twice."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l5-9-terms"
+    }
+   },
+   {
+    "id": "l5-9-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "The A chain converts an E intermediate.",
+     "All S are P becomes All non-P are non-S.",
+     "A and O preserve truth under the stated contraposition.",
+     "Non-(non-S) denotes S in the fixed universe."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l5-9-cases"
+    }
+   },
+   {
+    "id": "l5-9-c3",
+    "status": "draft",
+    "idea": "A correction must preserve scope, terms and assumptions.",
+    "vars": {},
+    "example": [
+     "Any sequence of operations preserves truth automatically. Correction: Each step needs an applicable rule.",
+     "Contraposition merely exchanges S and P. Correction: That gives the converse and omits complements.",
+     "E and I always preserve truth under the same operation. Correction: Those forms have counterexamples under standard meanings.",
+     "Non-(non-S) always denotes a smaller arbitrary class. Correction: Taking the outside twice restores the class."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l5-9-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "logic"
+     ],
+     "prompt": "Find the incorrect logical claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "licensed chain: successive transformations each justified for its form.",
+        "truth": "true",
+        "explain": "This is correct: successive transformations each justified for its form. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "contraposition: exchange of terms with both complemented.",
+        "truth": "true",
+        "explain": "This is correct: exchange of terms with both complemented. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "A and O restriction: the general equivalence scope for contraposition here.",
+        "truth": "true",
+        "explain": "This is correct: the general equivalence scope for contraposition here. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "double complement: return to the original class after complementing twice.",
+        "truth": "true",
+        "explain": "This is correct: return to the original class after complementing twice. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Any sequence of operations preserves truth automatically.",
+        "truth": "false",
+        "explain": "Each step needs an applicable rule."
+       },
+       {
+        "text": "Contraposition merely exchanges S and P.",
+        "truth": "false",
+        "explain": "That gives the converse and omits complements."
+       },
+       {
+        "text": "E and I always preserve truth under the same operation.",
+        "truth": "false",
+        "explain": "Those forms have counterexamples under standard meanings."
+       },
+       {
+        "text": "Non-(non-S) always denotes a smaller arbitrary class.",
+        "truth": "false",
+        "explain": "Taking the outside twice restores the class."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l5-9-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means successive transformations each justified for its form?",
+       "r": "licensed chain",
+       "w": [
+        "contraposition",
+        "A and O restriction",
+        "double complement"
+       ],
+       "e": [
+        "That concerns exchange of terms with both complemented, rather than successive transformations each justified for its form.",
+        "That concerns the general equivalence scope for contraposition here, rather than successive transformations each justified for its form.",
+        "That concerns return to the original class after complementing twice, rather than successive transformations each justified for its form."
+       ],
+       "y": "Each step needs an applicable rule."
+      },
+      {
+       "q": "Which term means exchange of terms with both complemented?",
+       "r": "contraposition",
+       "w": [
+        "licensed chain",
+        "A and O restriction",
+        "double complement"
+       ],
+       "e": [
+        "That concerns successive transformations each justified for its form, rather than exchange of terms with both complemented.",
+        "That concerns the general equivalence scope for contraposition here, rather than exchange of terms with both complemented.",
+        "That concerns return to the original class after complementing twice, rather than exchange of terms with both complemented."
+       ],
+       "y": "That gives the converse and omits complements."
+      },
+      {
+       "q": "Which term means the general equivalence scope for contraposition here?",
+       "r": "A and O restriction",
+       "w": [
+        "licensed chain",
+        "contraposition",
+        "double complement"
+       ],
+       "e": [
+        "That concerns successive transformations each justified for its form, rather than the general equivalence scope for contraposition here.",
+        "That concerns exchange of terms with both complemented, rather than the general equivalence scope for contraposition here.",
+        "That concerns return to the original class after complementing twice, rather than the general equivalence scope for contraposition here."
+       ],
+       "y": "Those forms have counterexamples under standard meanings."
+      },
+      {
+       "q": "Which term means return to the original class after complementing twice?",
+       "r": "double complement",
+       "w": [
+        "licensed chain",
+        "contraposition",
+        "A and O restriction"
+       ],
+       "e": [
+        "That concerns successive transformations each justified for its form, rather than return to the original class after complementing twice.",
+        "That concerns exchange of terms with both complemented, rather than return to the original class after complementing twice.",
+        "That concerns the general equivalence scope for contraposition here, rather than return to the original class after complementing twice."
+       ],
+       "y": "Taking the outside twice restores the class."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-9-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The A chain converts an E intermediate.\nWhich description best fits the selected feature?",
+       "r": "licensed chain",
+       "w": [
+        "contraposition",
+        "A and O restriction",
+        "double complement"
+       ],
+       "e": [
+        "That means exchange of terms with both complemented. The selected feature instead illustrates successive transformations each justified for its form.",
+        "That means the general equivalence scope for contraposition here. The selected feature instead illustrates successive transformations each justified for its form.",
+        "That means return to the original class after complementing twice. The selected feature instead illustrates successive transformations each justified for its form."
+       ],
+       "y": "Each step needs an applicable rule."
+      },
+      {
+       "q": "All S are P becomes All non-P are non-S.\nWhich description best fits the selected feature?",
+       "r": "contraposition",
+       "w": [
+        "licensed chain",
+        "A and O restriction",
+        "double complement"
+       ],
+       "e": [
+        "That means successive transformations each justified for its form. The selected feature instead illustrates exchange of terms with both complemented.",
+        "That means the general equivalence scope for contraposition here. The selected feature instead illustrates exchange of terms with both complemented.",
+        "That means return to the original class after complementing twice. The selected feature instead illustrates exchange of terms with both complemented."
+       ],
+       "y": "That gives the converse and omits complements."
+      },
+      {
+       "q": "A and O preserve truth under the stated contraposition.\nWhich description best fits the selected feature?",
+       "r": "A and O restriction",
+       "w": [
+        "licensed chain",
+        "contraposition",
+        "double complement"
+       ],
+       "e": [
+        "That means successive transformations each justified for its form. The selected feature instead illustrates the general equivalence scope for contraposition here.",
+        "That means exchange of terms with both complemented. The selected feature instead illustrates the general equivalence scope for contraposition here.",
+        "That means return to the original class after complementing twice. The selected feature instead illustrates the general equivalence scope for contraposition here."
+       ],
+       "y": "Those forms have counterexamples under standard meanings."
+      },
+      {
+       "q": "Non-(non-S) denotes S in the fixed universe.\nWhich description best fits the selected feature?",
+       "r": "double complement",
+       "w": [
+        "licensed chain",
+        "contraposition",
+        "A and O restriction"
+       ],
+       "e": [
+        "That means successive transformations each justified for its form. The selected feature instead illustrates return to the original class after complementing twice.",
+        "That means exchange of terms with both complemented. The selected feature instead illustrates return to the original class after complementing twice.",
+        "That means the general equivalence scope for contraposition here. The selected feature instead illustrates return to the original class after complementing twice."
+       ],
+       "y": "Taking the outside twice restores the class."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-9-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Under standard set-based meanings, give the truth-equivalent contrapositive: All club voters are badge holders.",
+       "r": "All non-(badge holders) are non-(club voters).",
+       "w": [
+        "All badge holders are club voters.",
+        "All non-(club voters) are non-(badge holders).",
+        "No non-(badge holders) are non-(club voters)."
+       ],
+       "e": [
+        "This swaps terms but omits both complements.",
+        "This complements but does not exchange the terms.",
+        "That changes the required quantity/quality form."
+       ],
+       "y": "For A and O, exchange the terms and complement each; preserve the categorical form."
+      },
+      {
+       "q": "Under standard set-based meanings, give the truth-equivalent contrapositive: Some club voters are not badge holders.",
+       "r": "Some non-(badge holders) are not non-(club voters).",
+       "w": [
+        "Some badge holders are not club voters.",
+        "Some non-(club voters) are not non-(badge holders).",
+        "Some non-(badge holders) are non-(club voters)."
+       ],
+       "e": [
+        "This swaps terms but omits both complements.",
+        "This complements but does not exchange the terms.",
+        "That changes the required quantity/quality form."
+       ],
+       "y": "For A and O, exchange the terms and complement each; preserve the categorical form."
+      },
+      {
+       "q": "Under standard set-based meanings, give the truth-equivalent contrapositive: All reading-room volunteers are registered helpers.",
+       "r": "All non-(registered helpers) are non-(reading-room volunteers).",
+       "w": [
+        "All registered helpers are reading-room volunteers.",
+        "All non-(reading-room volunteers) are non-(registered helpers).",
+        "No non-(registered helpers) are non-(reading-room volunteers)."
+       ],
+       "e": [
+        "This swaps terms but omits both complements.",
+        "This complements but does not exchange the terms.",
+        "That changes the required quantity/quality form."
+       ],
+       "y": "For A and O, exchange the terms and complement each; preserve the categorical form."
+      },
+      {
+       "q": "Under standard set-based meanings, give the truth-equivalent contrapositive: Some reading-room volunteers are not registered helpers.",
+       "r": "Some non-(registered helpers) are not non-(reading-room volunteers).",
+       "w": [
+        "Some registered helpers are not reading-room volunteers.",
+        "Some non-(reading-room volunteers) are not non-(registered helpers).",
+        "Some non-(registered helpers) are non-(reading-room volunteers)."
+       ],
+       "e": [
+        "This swaps terms but omits both complements.",
+        "This complements but does not exchange the terms.",
+        "That changes the required quantity/quality form."
+       ],
+       "y": "For A and O, exchange the terms and complement each; preserve the categorical form."
+      },
+      {
+       "q": "Under standard set-based meanings, give the truth-equivalent contrapositive: All school-library books are catalogued items.",
+       "r": "All non-(catalogued items) are non-(school-library books).",
+       "w": [
+        "All catalogued items are school-library books.",
+        "All non-(school-library books) are non-(catalogued items).",
+        "No non-(catalogued items) are non-(school-library books)."
+       ],
+       "e": [
+        "This swaps terms but omits both complements.",
+        "This complements but does not exchange the terms.",
+        "That changes the required quantity/quality form."
+       ],
+       "y": "For A and O, exchange the terms and complement each; preserve the categorical form."
+      },
+      {
+       "q": "Under standard set-based meanings, give the truth-equivalent contrapositive: Some school-library books are not catalogued items.",
+       "r": "Some non-(catalogued items) are not non-(school-library books).",
+       "w": [
+        "Some catalogued items are not school-library books.",
+        "Some non-(school-library books) are not non-(catalogued items).",
+        "Some non-(catalogued items) are non-(school-library books)."
+       ],
+       "e": [
+        "This swaps terms but omits both complements.",
+        "This complements but does not exchange the terms.",
+        "That changes the required quantity/quality form."
+       ],
+       "y": "For A and O, exchange the terms and complement each; preserve the categorical form."
+      },
+      {
+       "q": "Under standard set-based meanings, give the truth-equivalent contrapositive: All club gardens are cultivated areas.",
+       "r": "All non-(cultivated areas) are non-(club gardens).",
+       "w": [
+        "All cultivated areas are club gardens.",
+        "All non-(club gardens) are non-(cultivated areas).",
+        "No non-(cultivated areas) are non-(club gardens)."
+       ],
+       "e": [
+        "This swaps terms but omits both complements.",
+        "This complements but does not exchange the terms.",
+        "That changes the required quantity/quality form."
+       ],
+       "y": "For A and O, exchange the terms and complement each; preserve the categorical form."
+      },
+      {
+       "q": "Under standard set-based meanings, give the truth-equivalent contrapositive: Some club gardens are not cultivated areas.",
+       "r": "Some non-(cultivated areas) are not non-(club gardens).",
+       "w": [
+        "Some cultivated areas are not club gardens.",
+        "Some non-(club gardens) are not non-(cultivated areas).",
+        "Some non-(cultivated areas) are non-(club gardens)."
+       ],
+       "e": [
+        "This swaps terms but omits both complements.",
+        "This complements but does not exchange the terms.",
+        "That changes the required quantity/quality form."
+       ],
+       "y": "For A and O, exchange the terms and complement each; preserve the categorical form."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-9-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "licensed chain",
+     "right": "The A chain converts an E intermediate."
+    },
+    {
+     "left": "contraposition",
+     "right": "All S are P becomes All non-P are non-S."
+    },
+    {
+     "left": "A and O restriction",
+     "right": "A and O preserve truth under the stated contraposition."
+    },
+    {
+     "left": "double complement",
+     "right": "Non-(non-S) denotes S in the fixed universe."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "l5-9-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "prompt": "Find the incorrect logical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "licensed chain: successive transformations each justified for its form.",
+      "truth": "true",
+      "explain": "This is correct: successive transformations each justified for its form. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "contraposition: exchange of terms with both complemented.",
+      "truth": "true",
+      "explain": "This is correct: exchange of terms with both complemented. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "A and O restriction: the general equivalence scope for contraposition here.",
+      "truth": "true",
+      "explain": "This is correct: the general equivalence scope for contraposition here. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "double complement: return to the original class after complementing twice.",
+      "truth": "true",
+      "explain": "This is correct: return to the original class after complementing twice. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Any sequence of operations preserves truth automatically.",
+      "truth": "false",
+      "explain": "Each step needs an applicable rule."
+     },
+     {
+      "text": "Contraposition merely exchanges S and P.",
+      "truth": "false",
+      "explain": "That gives the converse and omits complements."
+     },
+     {
+      "text": "E and I always preserve truth under the same operation.",
+      "truth": "false",
+      "explain": "Those forms have counterexamples under standard meanings."
+     },
+     {
+      "text": "Non-(non-S) always denotes a smaller arbitrary class.",
+      "truth": "false",
+      "explain": "Taking the outside twice restores the class."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,574 @@
+{
+ "subject": "logic",
+ "class": "Form 5",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  4
+ ],
+ "skills": [
+  {
+   "id": "l5-5",
+   "name": "Squares of opposition"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "With S assumed nonempty, A implies I and E implies O: these downward inferences are subalternation. Falsity travels upward from I to A and O to E. A false universal does not determine its contrary, and a true particular does not establish its corresponding universal. Undetermined means the supplied information permits either truth value; it does not mean false. If S can be empty, use the standard meanings directly and retain only the contradictory diagonals without extra existence information.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to use opposition and subalternation while distinguishing false from undetermined. Builds on: categorical meanings and opposition relations. Leads to: guided square problems and eduction."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "With S assumed nonempty, A implies I and E implies O: these downward inferences are subalternation. Falsity travels upward from I to A and O to E. A false universal does not determine its contrary, and a true particular does not establish its corresponding universal. Undetermined means the supplied information permits either truth value; it does not mean false. If S can be empty, use the standard meanings directly and retain only the contradictory diagonals without extra existence information."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original model: if some club members have badges, I is true. That alone leaves A undetermined: all members might have badges, or some might not. If A is true and members exist, I is true. In a complete counted model, inspect both regions: {2} members inside P and {1} outside P make A false, E false, I true and O true.",
+    "figure": "\"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 320 280\\\" role=\\\"img\\\" aria-label=\\\"Square of opposition assuming S exists. A and E contrary; I and O subcontrary; diagonals contradictory; downward arrows show subalternation.\\\"><rect width=\\\"320\\\" height=\\\"280\\\" fill=\\\"#fff\\\"/><g stroke=\\\"#28533d\\\" fill=\\\"none\\\" stroke-width=\\\"2\\\"><path d=\\\"M55 70H265M55 210H265M55 80L265 200M265 80L55 200\\\"/><path d=\\\"M40 85V192l-5 -8m5 8 5 -8M280 85V192l-5 -8m5 8 5 -8\\\"/></g><g fill=\\\"#172d22\\\" font-family=\\\"sans-serif\\\" text-anchor=\\\"middle\\\"><text x=\\\"160\\\" y=\\\"20\\\" font-size=\\\"16\\\">Assume S exists</text><text x=\\\"55\\\" y=\\\"47\\\" font-size=\\\"22\\\">A</text><text x=\\\"265\\\" y=\\\"47\\\" font-size=\\\"22\\\">E</text><text x=\\\"160\\\" y=\\\"63\\\" font-size=\\\"14\\\">contrary</text><rect x=\\\"84\\\" y=\\\"126\\\" width=\\\"152\\\" height=\\\"26\\\" fill=\\\"white\\\"/><text x=\\\"160\\\" y=\\\"144\\\" font-size=\\\"15\\\">contradictory</text><text x=\\\"55\\\" y=\\\"240\\\" font-size=\\\"22\\\">I</text><text x=\\\"265\\\" y=\\\"240\\\" font-size=\\\"22\\\">O</text><text x=\\\"160\\\" y=\\\"230\\\" font-size=\\\"14\\\">subcontrary</text><text x=\\\"160\\\" y=\\\"267\\\" font-size=\\\"12\\\">Down: A to I, E to O</text></g></svg>\""
+   },
+   {
+    "heading": "Apply and check",
+    "text": "State the existence convention, identify the given form and truth value, then use only a licensed direction. Test an uncertain case by describing alternatives. Counts supplied as a complete model can settle more than a single square premise."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "subalternation",
+    "meaning": "downward truth inference with S explicitly nonempty"
+   },
+   {
+    "word": "upward falsity",
+    "meaning": "inference from a false particular to its false universal"
+   },
+   {
+    "word": "undetermined",
+    "meaning": "either truth value remains possible from the given information"
+   },
+   {
+    "word": "empty subject check",
+    "meaning": "testing whether an existence assumption is available"
+   }
+  ],
+  "mistake": {
+   "wrong": "A true guarantees I true without any existence condition.",
+   "right": "subalternation: downward truth inference with S explicitly nonempty.",
+   "why": "An empty subject is the counterexample under standard meanings."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A true plus existing S gives I true. Explain the selected feature.",
+  "steps": [
+   "Downward truth inference with s explicitly nonempty.",
+   "An empty subject is the counterexample under standard meanings."
+  ],
+  "answer": "subalternation",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "l5-5-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "subalternation: downward truth inference with S explicitly nonempty.",
+     "upward falsity: inference from a false particular to its false universal.",
+     "undetermined: either truth value remains possible from the given information.",
+     "empty subject check: testing whether an existence assumption is available."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l5-5-terms"
+    }
+   },
+   {
+    "id": "l5-5-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "A true plus existing S gives I true.",
+     "I false implies A false when S exists.",
+     "I true alone leaves A open.",
+     "Empty S gives A and E true, I and O false under the stated meanings."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l5-5-cases"
+    }
+   },
+   {
+    "id": "l5-5-c3",
+    "status": "draft",
+    "idea": "A correction must preserve scope, terms and assumptions.",
+    "vars": {},
+    "example": [
+     "A true guarantees I true without any existence condition. Correction: An empty subject is the counterexample under standard meanings.",
+     "A false always makes I false. Correction: A mixed subject makes A false but I true.",
+     "Undetermined is just another word for false. Correction: Incomplete information differs from a false claim.",
+     "A universal statement automatically provides an existing member. Correction: Universals do not alone assert existence in this convention."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l5-5-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "logic"
+     ],
+     "prompt": "Find the incorrect logical claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "subalternation: downward truth inference with S explicitly nonempty.",
+        "truth": "true",
+        "explain": "This is correct: downward truth inference with S explicitly nonempty. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "upward falsity: inference from a false particular to its false universal.",
+        "truth": "true",
+        "explain": "This is correct: inference from a false particular to its false universal. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "undetermined: either truth value remains possible from the given information.",
+        "truth": "true",
+        "explain": "This is correct: either truth value remains possible from the given information. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "empty subject check: testing whether an existence assumption is available.",
+        "truth": "true",
+        "explain": "This is correct: testing whether an existence assumption is available. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A true guarantees I true without any existence condition.",
+        "truth": "false",
+        "explain": "An empty subject is the counterexample under standard meanings."
+       },
+       {
+        "text": "A false always makes I false.",
+        "truth": "false",
+        "explain": "A mixed subject makes A false but I true."
+       },
+       {
+        "text": "Undetermined is just another word for false.",
+        "truth": "false",
+        "explain": "Incomplete information differs from a false claim."
+       },
+       {
+        "text": "A universal statement automatically provides an existing member.",
+        "truth": "false",
+        "explain": "Universals do not alone assert existence in this convention."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l5-5-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means downward truth inference with S explicitly nonempty?",
+       "r": "subalternation",
+       "w": [
+        "upward falsity",
+        "undetermined",
+        "empty subject check"
+       ],
+       "e": [
+        "That concerns inference from a false particular to its false universal, rather than downward truth inference with S explicitly nonempty.",
+        "That concerns either truth value remains possible from the given information, rather than downward truth inference with S explicitly nonempty.",
+        "That concerns testing whether an existence assumption is available, rather than downward truth inference with S explicitly nonempty."
+       ],
+       "y": "An empty subject is the counterexample under standard meanings."
+      },
+      {
+       "q": "Which term means inference from a false particular to its false universal?",
+       "r": "upward falsity",
+       "w": [
+        "subalternation",
+        "undetermined",
+        "empty subject check"
+       ],
+       "e": [
+        "That concerns downward truth inference with S explicitly nonempty, rather than inference from a false particular to its false universal.",
+        "That concerns either truth value remains possible from the given information, rather than inference from a false particular to its false universal.",
+        "That concerns testing whether an existence assumption is available, rather than inference from a false particular to its false universal."
+       ],
+       "y": "A mixed subject makes A false but I true."
+      },
+      {
+       "q": "Which term means either truth value remains possible from the given information?",
+       "r": "undetermined",
+       "w": [
+        "subalternation",
+        "upward falsity",
+        "empty subject check"
+       ],
+       "e": [
+        "That concerns downward truth inference with S explicitly nonempty, rather than either truth value remains possible from the given information.",
+        "That concerns inference from a false particular to its false universal, rather than either truth value remains possible from the given information.",
+        "That concerns testing whether an existence assumption is available, rather than either truth value remains possible from the given information."
+       ],
+       "y": "Incomplete information differs from a false claim."
+      },
+      {
+       "q": "Which term means testing whether an existence assumption is available?",
+       "r": "empty subject check",
+       "w": [
+        "subalternation",
+        "upward falsity",
+        "undetermined"
+       ],
+       "e": [
+        "That concerns downward truth inference with S explicitly nonempty, rather than testing whether an existence assumption is available.",
+        "That concerns inference from a false particular to its false universal, rather than testing whether an existence assumption is available.",
+        "That concerns either truth value remains possible from the given information, rather than testing whether an existence assumption is available."
+       ],
+       "y": "Universals do not alone assert existence in this convention."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-5-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A true plus existing S gives I true.\nWhich description best fits the selected feature?",
+       "r": "subalternation",
+       "w": [
+        "upward falsity",
+        "undetermined",
+        "empty subject check"
+       ],
+       "e": [
+        "That means inference from a false particular to its false universal. The selected feature instead illustrates downward truth inference with S explicitly nonempty.",
+        "That means either truth value remains possible from the given information. The selected feature instead illustrates downward truth inference with S explicitly nonempty.",
+        "That means testing whether an existence assumption is available. The selected feature instead illustrates downward truth inference with S explicitly nonempty."
+       ],
+       "y": "An empty subject is the counterexample under standard meanings."
+      },
+      {
+       "q": "I false implies A false when S exists.\nWhich description best fits the selected feature?",
+       "r": "upward falsity",
+       "w": [
+        "subalternation",
+        "undetermined",
+        "empty subject check"
+       ],
+       "e": [
+        "That means downward truth inference with S explicitly nonempty. The selected feature instead illustrates inference from a false particular to its false universal.",
+        "That means either truth value remains possible from the given information. The selected feature instead illustrates inference from a false particular to its false universal.",
+        "That means testing whether an existence assumption is available. The selected feature instead illustrates inference from a false particular to its false universal."
+       ],
+       "y": "A mixed subject makes A false but I true."
+      },
+      {
+       "q": "I true alone leaves A open.\nWhich description best fits the selected feature?",
+       "r": "undetermined",
+       "w": [
+        "subalternation",
+        "upward falsity",
+        "empty subject check"
+       ],
+       "e": [
+        "That means downward truth inference with S explicitly nonempty. The selected feature instead illustrates either truth value remains possible from the given information.",
+        "That means inference from a false particular to its false universal. The selected feature instead illustrates either truth value remains possible from the given information.",
+        "That means testing whether an existence assumption is available. The selected feature instead illustrates either truth value remains possible from the given information."
+       ],
+       "y": "Incomplete information differs from a false claim."
+      },
+      {
+       "q": "Empty S gives A and E true, I and O false under the stated meanings.\nWhich description best fits the selected feature?",
+       "r": "empty subject check",
+       "w": [
+        "subalternation",
+        "upward falsity",
+        "undetermined"
+       ],
+       "e": [
+        "That means downward truth inference with S explicitly nonempty. The selected feature instead illustrates testing whether an existence assumption is available.",
+        "That means inference from a false particular to its false universal. The selected feature instead illustrates testing whether an existence assumption is available.",
+        "That means either truth value remains possible from the given information. The selected feature instead illustrates testing whether an existence assumption is available."
+       ],
+       "y": "Universals do not alone assert existence in this convention."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-5-model",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      0,
+      4
+     ]
+    },
+    "b": {
+     "int": [
+      0,
+      4
+     ]
+    },
+    "X": {
+     "pick": [
+      {
+       "code": "A",
+       "text": "All S are P."
+      },
+      {
+       "code": "E",
+       "text": "No S are P."
+      },
+      {
+       "code": "I",
+       "text": "Some S are P."
+      },
+      {
+       "code": "O",
+       "text": "Some S are not P."
+      }
+     ]
+    }
+   },
+   "prompt": "Invented complete model: {a} S are inside P and {b} S are outside P. There are no other S. Assess {X.code}: {X.text}",
+   "correct": "{(X.code==\"A\" ? b==0 : X.code==\"E\" ? a==0 : X.code==\"I\" ? a>0 : b>0) ? \"True in this model.\" : \"False in this model.\"}",
+   "distractors": [
+    {
+     "text": "{(X.code==\"A\" ? b==0 : X.code==\"E\" ? a==0 : X.code==\"I\" ? a>0 : b>0) ? \"False in this model.\" : \"True in this model.\"}",
+     "misconception": "reverse"
+    },
+    {
+     "text": "Undetermined from these complete counts.",
+     "misconception": "unknown"
+    },
+    {
+     "text": "It has no truth value because some is an exact total.",
+     "misconception": "some"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "reverse",
+     "explain": "That reverses the result of checking the relevant region."
+    },
+    {
+     "id": "unknown",
+     "explain": "Both S regions and completeness are supplied, so this claim can be assessed."
+    },
+    {
+     "id": "some",
+     "explain": "Some asserts existence, not an exact total; the supplied counts still determine truth."
+    }
+   ],
+   "solution": [
+    "Some means at least one. A has no S outside P; E has no S inside P.",
+    "Here A is {b==0}, E is {a==0}, I is {a>0} and O is {b>0}.",
+    "The requested claim is {answer}"
+   ],
+   "where": []
+  },
+  {
+   "id": "l5-5-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "subalternation",
+     "right": "A true plus existing S gives I true."
+    },
+    {
+     "left": "upward falsity",
+     "right": "I false implies A false when S exists."
+    },
+    {
+     "left": "undetermined",
+     "right": "I true alone leaves A open."
+    },
+    {
+     "left": "empty subject check",
+     "right": "Empty S gives A and E true, I and O false under the stated meanings."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "l5-5-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "prompt": "Find the incorrect logical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "subalternation: downward truth inference with S explicitly nonempty.",
+      "truth": "true",
+      "explain": "This is correct: downward truth inference with S explicitly nonempty. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "upward falsity: inference from a false particular to its false universal.",
+      "truth": "true",
+      "explain": "This is correct: inference from a false particular to its false universal. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "undetermined: either truth value remains possible from the given information.",
+      "truth": "true",
+      "explain": "This is correct: either truth value remains possible from the given information. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "empty subject check: testing whether an existence assumption is available.",
+      "truth": "true",
+      "explain": "This is correct: testing whether an existence assumption is available. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A true guarantees I true without any existence condition.",
+      "truth": "false",
+      "explain": "An empty subject is the counterexample under standard meanings."
+     },
+     {
+      "text": "A false always makes I false.",
+      "truth": "false",
+      "explain": "A mixed subject makes A false but I true."
+     },
+     {
+      "text": "Undetermined is just another word for false.",
+      "truth": "false",
+      "explain": "Incomplete information differs from a false claim."
+     },
+     {
+      "text": "A universal statement automatically provides an existing member.",
+      "truth": "false",
+      "explain": "Universals do not alone assert existence in this convention."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

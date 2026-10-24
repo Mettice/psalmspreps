@@ -1,0 +1,783 @@
+{
+ "subject": "logic",
+ "class": "Form 5",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  7
+ ],
+ "skills": [
+  {
+   "id": "l5-8",
+   "name": "Obversion"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Obversion retains the subject and quantity, changes affirmative to negative or negative to affirmative, and replaces the complete predicate by its complement. The complement contains exactly what is outside that class within a fixed universe. Under the standard set-based meanings used here, all the categorical forms are equivalent to their obverses. Complement is not merely an everyday opposite: non-red does not mean only blue. Double complementation restores the original class.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to obvert each categorical form by changing quality and complementing the whole predicate. Builds on: categorical forms, conversion and fixed terms. Leads to: complex eduction without changing a claim’s scope."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "Obversion retains the subject and quantity, changes affirmative to negative or negative to affirmative, and replaces the complete predicate by its complement. The complement contains exactly what is outside that class within a fixed universe. Under the standard set-based meanings used here, all the categorical forms are equivalent to their obverses. Complement is not merely an everyday opposite: non-red does not mean only blue. Double complementation restores the original class."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original models: All S are P becomes No S are non-P. No S are P becomes All S are non-P. Some S are P becomes Some S are not non-P. Some S are not P becomes Some S are non-P. For club members and badge holders, non-(badge holders) means all items outside the badge-holder class within the stated universe."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Keep S fixed. Circle the original quality and change it, retain all or some scope, then complement the entire P term. Check that you have not merely negated the whole sentence. Use the fixed-universe meaning of non-P, not a narrow everyday opposite."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "retained subject",
+    "meaning": "the unchanged subject term in an obverse"
+   },
+   {
+    "word": "changed quality",
+    "meaning": "the affirmative/negative switch in obversion"
+   },
+   {
+    "word": "term complement",
+    "meaning": "everything outside a class in the fixed universe"
+   },
+   {
+    "word": "retained quantity",
+    "meaning": "preservation of universal or particular scope"
+   }
+  ],
+  "mistake": {
+   "wrong": "Obversion requires exchanging S and P.",
+   "right": "retained subject: the unchanged subject term in an obverse.",
+   "why": "The subject remains fixed; conversion exchanges terms."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "S stays the subject when All S are P is obverted. Explain the selected feature.",
+  "steps": [
+   "The unchanged subject term in an obverse.",
+   "The subject remains fixed; conversion exchanges terms."
+  ],
+  "answer": "retained subject",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "l5-8-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "retained subject: the unchanged subject term in an obverse.",
+     "changed quality: the affirmative/negative switch in obversion.",
+     "term complement: everything outside a class in the fixed universe.",
+     "retained quantity: preservation of universal or particular scope."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l5-8-terms"
+    }
+   },
+   {
+    "id": "l5-8-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "S stays the subject when All S are P is obverted.",
+     "A becomes E while I becomes O.",
+     "Non-red includes all non-red items, not just blue ones.",
+     "Some remains some in the obverse."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l5-8-cases"
+    }
+   },
+   {
+    "id": "l5-8-c3",
+    "status": "draft",
+    "idea": "A correction must preserve scope, terms and assumptions.",
+    "vars": {},
+    "example": [
+     "Obversion requires exchanging S and P. Correction: The subject remains fixed; conversion exchanges terms.",
+     "Complementing P alone completes obversion. Correction: Quality must also change.",
+     "The complement of red is exactly blue in every universe. Correction: Many things can be neither red nor blue.",
+     "Obverting a universal alone creates a particular witness. Correction: Changing quality and predicate does not add existence."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l5-8-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "logic"
+     ],
+     "prompt": "Find the incorrect logical claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "retained subject: the unchanged subject term in an obverse.",
+        "truth": "true",
+        "explain": "This is correct: the unchanged subject term in an obverse. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "changed quality: the affirmative/negative switch in obversion.",
+        "truth": "true",
+        "explain": "This is correct: the affirmative/negative switch in obversion. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "term complement: everything outside a class in the fixed universe.",
+        "truth": "true",
+        "explain": "This is correct: everything outside a class in the fixed universe. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "retained quantity: preservation of universal or particular scope.",
+        "truth": "true",
+        "explain": "This is correct: preservation of universal or particular scope. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Obversion requires exchanging S and P.",
+        "truth": "false",
+        "explain": "The subject remains fixed; conversion exchanges terms."
+       },
+       {
+        "text": "Complementing P alone completes obversion.",
+        "truth": "false",
+        "explain": "Quality must also change."
+       },
+       {
+        "text": "The complement of red is exactly blue in every universe.",
+        "truth": "false",
+        "explain": "Many things can be neither red nor blue."
+       },
+       {
+        "text": "Obverting a universal alone creates a particular witness.",
+        "truth": "false",
+        "explain": "Changing quality and predicate does not add existence."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l5-8-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means the unchanged subject term in an obverse?",
+       "r": "retained subject",
+       "w": [
+        "changed quality",
+        "term complement",
+        "retained quantity"
+       ],
+       "e": [
+        "That concerns the affirmative/negative switch in obversion, rather than the unchanged subject term in an obverse.",
+        "That concerns everything outside a class in the fixed universe, rather than the unchanged subject term in an obverse.",
+        "That concerns preservation of universal or particular scope, rather than the unchanged subject term in an obverse."
+       ],
+       "y": "The subject remains fixed; conversion exchanges terms."
+      },
+      {
+       "q": "Which term means the affirmative/negative switch in obversion?",
+       "r": "changed quality",
+       "w": [
+        "retained subject",
+        "term complement",
+        "retained quantity"
+       ],
+       "e": [
+        "That concerns the unchanged subject term in an obverse, rather than the affirmative/negative switch in obversion.",
+        "That concerns everything outside a class in the fixed universe, rather than the affirmative/negative switch in obversion.",
+        "That concerns preservation of universal or particular scope, rather than the affirmative/negative switch in obversion."
+       ],
+       "y": "Quality must also change."
+      },
+      {
+       "q": "Which term means everything outside a class in the fixed universe?",
+       "r": "term complement",
+       "w": [
+        "retained subject",
+        "changed quality",
+        "retained quantity"
+       ],
+       "e": [
+        "That concerns the unchanged subject term in an obverse, rather than everything outside a class in the fixed universe.",
+        "That concerns the affirmative/negative switch in obversion, rather than everything outside a class in the fixed universe.",
+        "That concerns preservation of universal or particular scope, rather than everything outside a class in the fixed universe."
+       ],
+       "y": "Many things can be neither red nor blue."
+      },
+      {
+       "q": "Which term means preservation of universal or particular scope?",
+       "r": "retained quantity",
+       "w": [
+        "retained subject",
+        "changed quality",
+        "term complement"
+       ],
+       "e": [
+        "That concerns the unchanged subject term in an obverse, rather than preservation of universal or particular scope.",
+        "That concerns the affirmative/negative switch in obversion, rather than preservation of universal or particular scope.",
+        "That concerns everything outside a class in the fixed universe, rather than preservation of universal or particular scope."
+       ],
+       "y": "Changing quality and predicate does not add existence."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-8-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "S stays the subject when All S are P is obverted.\nWhich description best fits the selected feature?",
+       "r": "retained subject",
+       "w": [
+        "changed quality",
+        "term complement",
+        "retained quantity"
+       ],
+       "e": [
+        "That means the affirmative/negative switch in obversion. The selected feature instead illustrates the unchanged subject term in an obverse.",
+        "That means everything outside a class in the fixed universe. The selected feature instead illustrates the unchanged subject term in an obverse.",
+        "That means preservation of universal or particular scope. The selected feature instead illustrates the unchanged subject term in an obverse."
+       ],
+       "y": "The subject remains fixed; conversion exchanges terms."
+      },
+      {
+       "q": "A becomes E while I becomes O.\nWhich description best fits the selected feature?",
+       "r": "changed quality",
+       "w": [
+        "retained subject",
+        "term complement",
+        "retained quantity"
+       ],
+       "e": [
+        "That means the unchanged subject term in an obverse. The selected feature instead illustrates the affirmative/negative switch in obversion.",
+        "That means everything outside a class in the fixed universe. The selected feature instead illustrates the affirmative/negative switch in obversion.",
+        "That means preservation of universal or particular scope. The selected feature instead illustrates the affirmative/negative switch in obversion."
+       ],
+       "y": "Quality must also change."
+      },
+      {
+       "q": "Non-red includes all non-red items, not just blue ones.\nWhich description best fits the selected feature?",
+       "r": "term complement",
+       "w": [
+        "retained subject",
+        "changed quality",
+        "retained quantity"
+       ],
+       "e": [
+        "That means the unchanged subject term in an obverse. The selected feature instead illustrates everything outside a class in the fixed universe.",
+        "That means the affirmative/negative switch in obversion. The selected feature instead illustrates everything outside a class in the fixed universe.",
+        "That means preservation of universal or particular scope. The selected feature instead illustrates everything outside a class in the fixed universe."
+       ],
+       "y": "Many things can be neither red nor blue."
+      },
+      {
+       "q": "Some remains some in the obverse.\nWhich description best fits the selected feature?",
+       "r": "retained quantity",
+       "w": [
+        "retained subject",
+        "changed quality",
+        "term complement"
+       ],
+       "e": [
+        "That means the unchanged subject term in an obverse. The selected feature instead illustrates preservation of universal or particular scope.",
+        "That means the affirmative/negative switch in obversion. The selected feature instead illustrates preservation of universal or particular scope.",
+        "That means everything outside a class in the fixed universe. The selected feature instead illustrates preservation of universal or particular scope."
+       ],
+       "y": "Changing quality and predicate does not add existence."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-8-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Obvert this claim. Here non-(badge holders) means every item outside the badge holders class in the fixed universe. All club voters are badge holders.",
+       "r": "No club voters are non-(badge holders).",
+       "w": [
+        "All club voters are non-(badge holders).",
+        "No club voters are badge holders.",
+        "No badge holders are non-(club voters)."
+       ],
+       "e": [
+        "The predicate is complemented but quality is not changed.",
+        "Quality changes but the predicate complement is missing.",
+        "That swaps terms instead of retaining the original subject."
+       ],
+       "y": "Retain subject and quantity, change affirmative/negative quality and complement the whole predicate."
+      },
+      {
+       "q": "Obvert this claim. Here non-(badge holders) means every item outside the badge holders class in the fixed universe. No club voters are badge holders.",
+       "r": "All club voters are non-(badge holders).",
+       "w": [
+        "No club voters are non-(badge holders).",
+        "All club voters are badge holders.",
+        "All badge holders are non-(club voters)."
+       ],
+       "e": [
+        "The predicate is complemented but quality is not changed.",
+        "Quality changes but the predicate complement is missing.",
+        "That swaps terms instead of retaining the original subject."
+       ],
+       "y": "Retain subject and quantity, change affirmative/negative quality and complement the whole predicate."
+      },
+      {
+       "q": "Obvert this claim. Here non-(badge holders) means every item outside the badge holders class in the fixed universe. Some club voters are badge holders.",
+       "r": "Some club voters are not non-(badge holders).",
+       "w": [
+        "Some club voters are non-(badge holders).",
+        "Some club voters are not badge holders.",
+        "Some badge holders are not non-(club voters)."
+       ],
+       "e": [
+        "The predicate is complemented but quality is not changed.",
+        "Quality changes but the predicate complement is missing.",
+        "That swaps terms instead of retaining the original subject."
+       ],
+       "y": "Retain subject and quantity, change affirmative/negative quality and complement the whole predicate."
+      },
+      {
+       "q": "Obvert this claim. Here non-(badge holders) means every item outside the badge holders class in the fixed universe. Some club voters are not badge holders.",
+       "r": "Some club voters are non-(badge holders).",
+       "w": [
+        "Some club voters are not non-(badge holders).",
+        "Some club voters are badge holders.",
+        "Some badge holders are non-(club voters)."
+       ],
+       "e": [
+        "The predicate is complemented but quality is not changed.",
+        "Quality changes but the predicate complement is missing.",
+        "That swaps terms instead of retaining the original subject."
+       ],
+       "y": "Retain subject and quantity, change affirmative/negative quality and complement the whole predicate."
+      },
+      {
+       "q": "Obvert this claim. Here non-(registered helpers) means every item outside the registered helpers class in the fixed universe. All reading-room volunteers are registered helpers.",
+       "r": "No reading-room volunteers are non-(registered helpers).",
+       "w": [
+        "All reading-room volunteers are non-(registered helpers).",
+        "No reading-room volunteers are registered helpers.",
+        "No registered helpers are non-(reading-room volunteers)."
+       ],
+       "e": [
+        "The predicate is complemented but quality is not changed.",
+        "Quality changes but the predicate complement is missing.",
+        "That swaps terms instead of retaining the original subject."
+       ],
+       "y": "Retain subject and quantity, change affirmative/negative quality and complement the whole predicate."
+      },
+      {
+       "q": "Obvert this claim. Here non-(registered helpers) means every item outside the registered helpers class in the fixed universe. No reading-room volunteers are registered helpers.",
+       "r": "All reading-room volunteers are non-(registered helpers).",
+       "w": [
+        "No reading-room volunteers are non-(registered helpers).",
+        "All reading-room volunteers are registered helpers.",
+        "All registered helpers are non-(reading-room volunteers)."
+       ],
+       "e": [
+        "The predicate is complemented but quality is not changed.",
+        "Quality changes but the predicate complement is missing.",
+        "That swaps terms instead of retaining the original subject."
+       ],
+       "y": "Retain subject and quantity, change affirmative/negative quality and complement the whole predicate."
+      },
+      {
+       "q": "Obvert this claim. Here non-(registered helpers) means every item outside the registered helpers class in the fixed universe. Some reading-room volunteers are registered helpers.",
+       "r": "Some reading-room volunteers are not non-(registered helpers).",
+       "w": [
+        "Some reading-room volunteers are non-(registered helpers).",
+        "Some reading-room volunteers are not registered helpers.",
+        "Some registered helpers are not non-(reading-room volunteers)."
+       ],
+       "e": [
+        "The predicate is complemented but quality is not changed.",
+        "Quality changes but the predicate complement is missing.",
+        "That swaps terms instead of retaining the original subject."
+       ],
+       "y": "Retain subject and quantity, change affirmative/negative quality and complement the whole predicate."
+      },
+      {
+       "q": "Obvert this claim. Here non-(registered helpers) means every item outside the registered helpers class in the fixed universe. Some reading-room volunteers are not registered helpers.",
+       "r": "Some reading-room volunteers are non-(registered helpers).",
+       "w": [
+        "Some reading-room volunteers are not non-(registered helpers).",
+        "Some reading-room volunteers are registered helpers.",
+        "Some registered helpers are non-(reading-room volunteers)."
+       ],
+       "e": [
+        "The predicate is complemented but quality is not changed.",
+        "Quality changes but the predicate complement is missing.",
+        "That swaps terms instead of retaining the original subject."
+       ],
+       "y": "Retain subject and quantity, change affirmative/negative quality and complement the whole predicate."
+      },
+      {
+       "q": "Obvert this claim. Here non-(catalogued items) means every item outside the catalogued items class in the fixed universe. All school-library books are catalogued items.",
+       "r": "No school-library books are non-(catalogued items).",
+       "w": [
+        "All school-library books are non-(catalogued items).",
+        "No school-library books are catalogued items.",
+        "No catalogued items are non-(school-library books)."
+       ],
+       "e": [
+        "The predicate is complemented but quality is not changed.",
+        "Quality changes but the predicate complement is missing.",
+        "That swaps terms instead of retaining the original subject."
+       ],
+       "y": "Retain subject and quantity, change affirmative/negative quality and complement the whole predicate."
+      },
+      {
+       "q": "Obvert this claim. Here non-(catalogued items) means every item outside the catalogued items class in the fixed universe. No school-library books are catalogued items.",
+       "r": "All school-library books are non-(catalogued items).",
+       "w": [
+        "No school-library books are non-(catalogued items).",
+        "All school-library books are catalogued items.",
+        "All catalogued items are non-(school-library books)."
+       ],
+       "e": [
+        "The predicate is complemented but quality is not changed.",
+        "Quality changes but the predicate complement is missing.",
+        "That swaps terms instead of retaining the original subject."
+       ],
+       "y": "Retain subject and quantity, change affirmative/negative quality and complement the whole predicate."
+      },
+      {
+       "q": "Obvert this claim. Here non-(catalogued items) means every item outside the catalogued items class in the fixed universe. Some school-library books are catalogued items.",
+       "r": "Some school-library books are not non-(catalogued items).",
+       "w": [
+        "Some school-library books are non-(catalogued items).",
+        "Some school-library books are not catalogued items.",
+        "Some catalogued items are not non-(school-library books)."
+       ],
+       "e": [
+        "The predicate is complemented but quality is not changed.",
+        "Quality changes but the predicate complement is missing.",
+        "That swaps terms instead of retaining the original subject."
+       ],
+       "y": "Retain subject and quantity, change affirmative/negative quality and complement the whole predicate."
+      },
+      {
+       "q": "Obvert this claim. Here non-(catalogued items) means every item outside the catalogued items class in the fixed universe. Some school-library books are not catalogued items.",
+       "r": "Some school-library books are non-(catalogued items).",
+       "w": [
+        "Some school-library books are not non-(catalogued items).",
+        "Some school-library books are catalogued items.",
+        "Some catalogued items are non-(school-library books)."
+       ],
+       "e": [
+        "The predicate is complemented but quality is not changed.",
+        "Quality changes but the predicate complement is missing.",
+        "That swaps terms instead of retaining the original subject."
+       ],
+       "y": "Retain subject and quantity, change affirmative/negative quality and complement the whole predicate."
+      },
+      {
+       "q": "Obvert this claim. Here non-(cultivated areas) means every item outside the cultivated areas class in the fixed universe. All club gardens are cultivated areas.",
+       "r": "No club gardens are non-(cultivated areas).",
+       "w": [
+        "All club gardens are non-(cultivated areas).",
+        "No club gardens are cultivated areas.",
+        "No cultivated areas are non-(club gardens)."
+       ],
+       "e": [
+        "The predicate is complemented but quality is not changed.",
+        "Quality changes but the predicate complement is missing.",
+        "That swaps terms instead of retaining the original subject."
+       ],
+       "y": "Retain subject and quantity, change affirmative/negative quality and complement the whole predicate."
+      },
+      {
+       "q": "Obvert this claim. Here non-(cultivated areas) means every item outside the cultivated areas class in the fixed universe. No club gardens are cultivated areas.",
+       "r": "All club gardens are non-(cultivated areas).",
+       "w": [
+        "No club gardens are non-(cultivated areas).",
+        "All club gardens are cultivated areas.",
+        "All cultivated areas are non-(club gardens)."
+       ],
+       "e": [
+        "The predicate is complemented but quality is not changed.",
+        "Quality changes but the predicate complement is missing.",
+        "That swaps terms instead of retaining the original subject."
+       ],
+       "y": "Retain subject and quantity, change affirmative/negative quality and complement the whole predicate."
+      },
+      {
+       "q": "Obvert this claim. Here non-(cultivated areas) means every item outside the cultivated areas class in the fixed universe. Some club gardens are cultivated areas.",
+       "r": "Some club gardens are not non-(cultivated areas).",
+       "w": [
+        "Some club gardens are non-(cultivated areas).",
+        "Some club gardens are not cultivated areas.",
+        "Some cultivated areas are not non-(club gardens)."
+       ],
+       "e": [
+        "The predicate is complemented but quality is not changed.",
+        "Quality changes but the predicate complement is missing.",
+        "That swaps terms instead of retaining the original subject."
+       ],
+       "y": "Retain subject and quantity, change affirmative/negative quality and complement the whole predicate."
+      },
+      {
+       "q": "Obvert this claim. Here non-(cultivated areas) means every item outside the cultivated areas class in the fixed universe. Some club gardens are not cultivated areas.",
+       "r": "Some club gardens are non-(cultivated areas).",
+       "w": [
+        "Some club gardens are not non-(cultivated areas).",
+        "Some club gardens are cultivated areas.",
+        "Some cultivated areas are non-(club gardens)."
+       ],
+       "e": [
+        "The predicate is complemented but quality is not changed.",
+        "Quality changes but the predicate complement is missing.",
+        "That swaps terms instead of retaining the original subject."
+       ],
+       "y": "Retain subject and quantity, change affirmative/negative quality and complement the whole predicate."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-8-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "retained subject",
+     "right": "S stays the subject when All S are P is obverted."
+    },
+    {
+     "left": "changed quality",
+     "right": "A becomes E while I becomes O."
+    },
+    {
+     "left": "term complement",
+     "right": "Non-red includes all non-red items, not just blue ones."
+    },
+    {
+     "left": "retained quantity",
+     "right": "Some remains some in the obverse."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "l5-8-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "prompt": "Find the incorrect logical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "retained subject: the unchanged subject term in an obverse.",
+      "truth": "true",
+      "explain": "This is correct: the unchanged subject term in an obverse. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "changed quality: the affirmative/negative switch in obversion.",
+      "truth": "true",
+      "explain": "This is correct: the affirmative/negative switch in obversion. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "term complement: everything outside a class in the fixed universe.",
+      "truth": "true",
+      "explain": "This is correct: everything outside a class in the fixed universe. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "retained quantity: preservation of universal or particular scope.",
+      "truth": "true",
+      "explain": "This is correct: preservation of universal or particular scope. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Obversion requires exchanging S and P.",
+      "truth": "false",
+      "explain": "The subject remains fixed; conversion exchanges terms."
+     },
+     {
+      "text": "Complementing P alone completes obversion.",
+      "truth": "false",
+      "explain": "Quality must also change."
+     },
+     {
+      "text": "The complement of red is exactly blue in every universe.",
+      "truth": "false",
+      "explain": "Many things can be neither red nor blue."
+     },
+     {
+      "text": "Obverting a universal alone creates a particular witness.",
+      "truth": "false",
+      "explain": "Changing quality and predicate does not add existence."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

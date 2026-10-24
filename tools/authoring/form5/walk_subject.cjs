@@ -81,5 +81,14 @@ const root = path.resolve(__dirname, '../../..');
       await page.screenshot({path:soundShot,fullPage:true});
       console.log('Sound screenshot: '+soundShot);
     }
+    if (subject === 'f5-logic') {
+      await page.evaluate((id) => openLesson(id, 5), subject);
+      await page.getByRole('button', {name:'Next',exact:true}).click();
+      await page.getByRole('button', {name:'Next',exact:true}).click();
+      if (await page.getByRole('img', {name:/Square of opposition assuming S exists/}).count() !== 1) throw Error('Missing square');
+      const squareShot=path.join(os.tmpdir(), `${subject}-square.png`);
+      await page.screenshot({path:squareShot,fullPage:true});
+      console.log('Square screenshot: '+squareShot);
+    }
   } finally { await browser.close(); }
 })().catch((e) => { console.error(e); process.exitCode = 1; });

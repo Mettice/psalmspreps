@@ -1,0 +1,604 @@
+{
+ "subject": "logic",
+ "class": "Form 5",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  1,
+  2
+ ],
+ "skills": [
+  {
+   "id": "l5-3",
+   "name": "Premise and conclusion indicators"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Because, given that and since can introduce premises; therefore, thus and so can introduce conclusions. These are clues, not guarantees. Since can mark elapsed time; so can intensify a description. Arguments may omit indicators entirely. Identify what is offered as support and what is meant to follow. Changing an indicator without checking its role can reverse the argument.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to interpret indicator expressions by their role in context rather than spotting words mechanically. Builds on: argument parts and complete claims. Leads to: opposition and reconstruction of reasoning."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "Because, given that and since can introduce premises; therefore, thus and so can introduce conclusions. These are clues, not guarantees. Since can mark elapsed time; so can intensify a description. Arguments may omit indicators entirely. Identify what is offered as support and what is meant to follow. Changing an indicator without checking its role can reverse the argument."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original examples: The venue needs checking because it remains provisional. Here because introduces a reason. The venue remains provisional; therefore the notice should not call it confirmed. Here therefore introduces a conclusion. Bih has waited since Monday uses since temporally, not as a premise indicator."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Read the whole passage. Replace an apparent premise cue with given that and test the relation; replace a conclusion cue with it follows that. Treat those substitutions as meaning checks rather than automatic proofs of validity."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "premise cue",
+    "meaning": "an expression introducing an offered reason"
+   },
+   {
+    "word": "conclusion cue",
+    "meaning": "an expression introducing the claim meant to follow"
+   },
+   {
+    "word": "contextual interpretation",
+    "meaning": "identifying an expression’s actual use"
+   },
+   {
+    "word": "unmarked inference",
+    "meaning": "reasoning expressed without an explicit indicator"
+   }
+  ],
+  "mistake": {
+   "wrong": "Because always introduces the conclusion being supported.",
+   "right": "premise cue: an expression introducing an offered reason.",
+   "why": "In this argumentative use it introduces the reason."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Because it remains provisional introduces the reason. Explain the selected feature.",
+  "steps": [
+   "An expression introducing an offered reason.",
+   "In this argumentative use it introduces the reason."
+  ],
+  "answer": "premise cue",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "l5-3-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "premise cue: an expression introducing an offered reason.",
+     "conclusion cue: an expression introducing the claim meant to follow.",
+     "contextual interpretation: identifying an expression’s actual use.",
+     "unmarked inference: reasoning expressed without an explicit indicator."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l5-3-terms"
+    }
+   },
+   {
+    "id": "l5-3-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "Because it remains provisional introduces the reason.",
+     "Therefore the notice needs correction introduces the target.",
+     "Since Monday marks time, not an offered reason.",
+     "The room is provisional. Calling it confirmed misleads readers."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l5-3-cases"
+    }
+   },
+   {
+    "id": "l5-3-c3",
+    "status": "draft",
+    "idea": "A correction must preserve scope, terms and assumptions.",
+    "vars": {},
+    "example": [
+     "Because always introduces the conclusion being supported. Correction: In this argumentative use it introduces the reason.",
+     "Therefore proves an argument valid by its spelling. Correction: An indicator marks intention rather than guaranteeing support.",
+     "Since always signals a premise whatever its use. Correction: The temporal phrase is a counterexample.",
+     "A passage without therefore can never contain reasoning. Correction: A support relation can be conveyed without an indicator."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l5-3-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "logic"
+     ],
+     "prompt": "Find the incorrect logical claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "premise cue: an expression introducing an offered reason.",
+        "truth": "true",
+        "explain": "This is correct: an expression introducing an offered reason. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "conclusion cue: an expression introducing the claim meant to follow.",
+        "truth": "true",
+        "explain": "This is correct: an expression introducing the claim meant to follow. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "contextual interpretation: identifying an expression’s actual use.",
+        "truth": "true",
+        "explain": "This is correct: identifying an expression’s actual use. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "unmarked inference: reasoning expressed without an explicit indicator.",
+        "truth": "true",
+        "explain": "This is correct: reasoning expressed without an explicit indicator. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Because always introduces the conclusion being supported.",
+        "truth": "false",
+        "explain": "In this argumentative use it introduces the reason."
+       },
+       {
+        "text": "Therefore proves an argument valid by its spelling.",
+        "truth": "false",
+        "explain": "An indicator marks intention rather than guaranteeing support."
+       },
+       {
+        "text": "Since always signals a premise whatever its use.",
+        "truth": "false",
+        "explain": "The temporal phrase is a counterexample."
+       },
+       {
+        "text": "A passage without therefore can never contain reasoning.",
+        "truth": "false",
+        "explain": "A support relation can be conveyed without an indicator."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l5-3-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means an expression introducing an offered reason?",
+       "r": "premise cue",
+       "w": [
+        "conclusion cue",
+        "contextual interpretation",
+        "unmarked inference"
+       ],
+       "e": [
+        "That concerns an expression introducing the claim meant to follow, rather than an expression introducing an offered reason.",
+        "That concerns identifying an expression’s actual use, rather than an expression introducing an offered reason.",
+        "That concerns reasoning expressed without an explicit indicator, rather than an expression introducing an offered reason."
+       ],
+       "y": "In this argumentative use it introduces the reason."
+      },
+      {
+       "q": "Which term means an expression introducing the claim meant to follow?",
+       "r": "conclusion cue",
+       "w": [
+        "premise cue",
+        "contextual interpretation",
+        "unmarked inference"
+       ],
+       "e": [
+        "That concerns an expression introducing an offered reason, rather than an expression introducing the claim meant to follow.",
+        "That concerns identifying an expression’s actual use, rather than an expression introducing the claim meant to follow.",
+        "That concerns reasoning expressed without an explicit indicator, rather than an expression introducing the claim meant to follow."
+       ],
+       "y": "An indicator marks intention rather than guaranteeing support."
+      },
+      {
+       "q": "Which term means identifying an expression’s actual use?",
+       "r": "contextual interpretation",
+       "w": [
+        "premise cue",
+        "conclusion cue",
+        "unmarked inference"
+       ],
+       "e": [
+        "That concerns an expression introducing an offered reason, rather than identifying an expression’s actual use.",
+        "That concerns an expression introducing the claim meant to follow, rather than identifying an expression’s actual use.",
+        "That concerns reasoning expressed without an explicit indicator, rather than identifying an expression’s actual use."
+       ],
+       "y": "The temporal phrase is a counterexample."
+      },
+      {
+       "q": "Which term means reasoning expressed without an explicit indicator?",
+       "r": "unmarked inference",
+       "w": [
+        "premise cue",
+        "conclusion cue",
+        "contextual interpretation"
+       ],
+       "e": [
+        "That concerns an expression introducing an offered reason, rather than reasoning expressed without an explicit indicator.",
+        "That concerns an expression introducing the claim meant to follow, rather than reasoning expressed without an explicit indicator.",
+        "That concerns identifying an expression’s actual use, rather than reasoning expressed without an explicit indicator."
+       ],
+       "y": "A support relation can be conveyed without an indicator."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-3-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Because it remains provisional introduces the reason.\nWhich description best fits the selected feature?",
+       "r": "premise cue",
+       "w": [
+        "conclusion cue",
+        "contextual interpretation",
+        "unmarked inference"
+       ],
+       "e": [
+        "That means an expression introducing the claim meant to follow. The selected feature instead illustrates an expression introducing an offered reason.",
+        "That means identifying an expression’s actual use. The selected feature instead illustrates an expression introducing an offered reason.",
+        "That means reasoning expressed without an explicit indicator. The selected feature instead illustrates an expression introducing an offered reason."
+       ],
+       "y": "In this argumentative use it introduces the reason."
+      },
+      {
+       "q": "Therefore the notice needs correction introduces the target.\nWhich description best fits the selected feature?",
+       "r": "conclusion cue",
+       "w": [
+        "premise cue",
+        "contextual interpretation",
+        "unmarked inference"
+       ],
+       "e": [
+        "That means an expression introducing an offered reason. The selected feature instead illustrates an expression introducing the claim meant to follow.",
+        "That means identifying an expression’s actual use. The selected feature instead illustrates an expression introducing the claim meant to follow.",
+        "That means reasoning expressed without an explicit indicator. The selected feature instead illustrates an expression introducing the claim meant to follow."
+       ],
+       "y": "An indicator marks intention rather than guaranteeing support."
+      },
+      {
+       "q": "Since Monday marks time, not an offered reason.\nWhich description best fits the selected feature?",
+       "r": "contextual interpretation",
+       "w": [
+        "premise cue",
+        "conclusion cue",
+        "unmarked inference"
+       ],
+       "e": [
+        "That means an expression introducing an offered reason. The selected feature instead illustrates identifying an expression’s actual use.",
+        "That means an expression introducing the claim meant to follow. The selected feature instead illustrates identifying an expression’s actual use.",
+        "That means reasoning expressed without an explicit indicator. The selected feature instead illustrates identifying an expression’s actual use."
+       ],
+       "y": "The temporal phrase is a counterexample."
+      },
+      {
+       "q": "The room is provisional. Calling it confirmed misleads readers.\nWhich description best fits the selected feature?",
+       "r": "unmarked inference",
+       "w": [
+        "premise cue",
+        "conclusion cue",
+        "contextual interpretation"
+       ],
+       "e": [
+        "That means an expression introducing an offered reason. The selected feature instead illustrates reasoning expressed without an explicit indicator.",
+        "That means an expression introducing the claim meant to follow. The selected feature instead illustrates reasoning expressed without an explicit indicator.",
+        "That means identifying an expression’s actual use. The selected feature instead illustrates reasoning expressed without an explicit indicator."
+       ],
+       "y": "A support relation can be conveyed without an indicator."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-3-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Correct the notice because the venue is provisional. What follows because?",
+       "r": "The offered reason.",
+       "w": [
+        "A date expression.",
+        "The correction conclusion.",
+        "A guarantee of truth."
+       ],
+       "e": [
+        "No time phrase follows it.",
+        "Correction is the supported proposal.",
+        "An indicator guarantees no truth."
+       ],
+       "y": "Because introduces the premise here."
+      },
+      {
+       "q": "The venue is provisional; thus the notice needs checking. What follows thus?",
+       "r": "The intended conclusion.",
+       "w": [
+        "The entire set of premises.",
+        "A temporal starting point.",
+        "An unrelated adjective."
+       ],
+       "e": [
+        "The reason precedes thus.",
+        "Thus does not name a starting day.",
+        "A complete claim follows it."
+       ],
+       "y": "The checking claim is meant to follow."
+      },
+      {
+       "q": "Bih has waited since Monday. What does since do?",
+       "r": "Introduce a temporal starting point.",
+       "w": [
+        "Introduce an argumentative premise.",
+        "Guarantee a conclusion.",
+        "Negate every statement."
+       ],
+       "e": [
+        "The phrase supplies time, not an offered reason.",
+        "There is no supported conclusion here.",
+        "Since is not a negation."
+       ],
+       "y": "Read its temporal use."
+      },
+      {
+       "q": "All voters have badges. Bih votes. Bih has a badge. No indicator appears. Which assessment is accurate?",
+       "r": "The final claim can still be presented as following from the earlier claims.",
+       "w": [
+        "No reasoning is possible without therefore.",
+        "Every sentence is an isolated question.",
+        "The last claim must be a premise solely because it is last."
+       ],
+       "e": [
+        "Indicators are optional clues.",
+        "These are assertions.",
+        "Position alone does not identify a role."
+       ],
+       "y": "The support relation can be reconstructed."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-3-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "premise cue",
+     "right": "Because it remains provisional introduces the reason."
+    },
+    {
+     "left": "conclusion cue",
+     "right": "Therefore the notice needs correction introduces the target."
+    },
+    {
+     "left": "contextual interpretation",
+     "right": "Since Monday marks time, not an offered reason."
+    },
+    {
+     "left": "unmarked inference",
+     "right": "The room is provisional. Calling it confirmed misleads readers."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "l5-3-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "prompt": "Find the incorrect logical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "premise cue: an expression introducing an offered reason.",
+      "truth": "true",
+      "explain": "This is correct: an expression introducing an offered reason. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "conclusion cue: an expression introducing the claim meant to follow.",
+      "truth": "true",
+      "explain": "This is correct: an expression introducing the claim meant to follow. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "contextual interpretation: identifying an expression’s actual use.",
+      "truth": "true",
+      "explain": "This is correct: identifying an expression’s actual use. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "unmarked inference: reasoning expressed without an explicit indicator.",
+      "truth": "true",
+      "explain": "This is correct: reasoning expressed without an explicit indicator. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Because always introduces the conclusion being supported.",
+      "truth": "false",
+      "explain": "In this argumentative use it introduces the reason."
+     },
+     {
+      "text": "Therefore proves an argument valid by its spelling.",
+      "truth": "false",
+      "explain": "An indicator marks intention rather than guaranteeing support."
+     },
+     {
+      "text": "Since always signals a premise whatever its use.",
+      "truth": "false",
+      "explain": "The temporal phrase is a counterexample."
+     },
+     {
+      "text": "A passage without therefore can never contain reasoning.",
+      "truth": "false",
+      "explain": "A support relation can be conveyed without an indicator."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

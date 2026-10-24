@@ -1,0 +1,603 @@
+{
+ "subject": "logic",
+ "class": "Form 5",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "l5-2",
+   "name": "Parts of an argument"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Premises are the offered reasons; a conclusion is the claim they support. The inference is the move from reasons to that claim, not another quoted person or a punctuation mark. Background may explain the setting without functioning as a reason. A conclusion can come first, last or in the middle. Reconstruct complete claims and preserve their qualifications. Calling something a premise does not establish that it is true.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to extract complete premises and conclusion while separating background and inference. Builds on: arguments and intended support. Leads to: indicators and later analysis of a whole passage."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "Premises are the offered reasons; a conclusion is the claim they support. The inference is the move from reasons to that claim, not another quoted person or a punctuation mark. Background may explain the setting without functioning as a reason. A conclusion can come first, last or in the middle. Reconstruct complete claims and preserve their qualifications. Calling something a premise does not establish that it is true."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original passage: At a club meeting, Bih argues that the notice needs correction. The room is still provisional, but the notice calls it confirmed. Therefore its venue statement misrepresents the arrangement. The meeting location is background; the mismatch is the reason; the notice judgement is the conclusion."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Underline the target claim, bracket each offered reason and mark contextual material separately. Rewrite each relevant claim as a full sentence without changing its scope. Ask how the premises are meant to support the target."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "premise",
+    "meaning": "a claim offered as a reason"
+   },
+   {
+    "word": "conclusion",
+    "meaning": "the claim offered reasons are meant to support"
+   },
+   {
+    "word": "inference",
+    "meaning": "the reasoning move from premises to conclusion"
+   },
+   {
+    "word": "background",
+    "meaning": "context not serving as an offered reason in the case"
+   }
+  ],
+  "mistake": {
+   "wrong": "Every premise is guaranteed true because it is named a premise.",
+   "right": "premise: a claim offered as a reason.",
+   "why": "A role in an argument does not establish factual truth."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The room remains provisional supplies a reason for correction. Explain the selected feature.",
+  "steps": [
+   "A claim offered as a reason.",
+   "A role in an argument does not establish factual truth."
+  ],
+  "answer": "premise",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "l5-2-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "premise: a claim offered as a reason.",
+     "conclusion: the claim offered reasons are meant to support.",
+     "inference: the reasoning move from premises to conclusion.",
+     "background: context not serving as an offered reason in the case."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l5-2-terms"
+    }
+   },
+   {
+    "id": "l5-2-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "The room remains provisional supplies a reason for correction.",
+     "The venue statement misrepresents the arrangement is the target judgement.",
+     "The mismatch supports the correction judgement.",
+     "The meeting location sets the scene without supporting the correction."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l5-2-cases"
+    }
+   },
+   {
+    "id": "l5-2-c3",
+    "status": "draft",
+    "idea": "A correction must preserve scope, terms and assumptions.",
+    "vars": {},
+    "example": [
+     "Every premise is guaranteed true because it is named a premise. Correction: A role in an argument does not establish factual truth.",
+     "A conclusion must be the passage’s final words. Correction: Its role, not position, identifies it.",
+     "The word therefore alone is the complete conclusion. Correction: The conclusion is a claim; therefore signals the move.",
+     "Every detail in a passage must be a premise. Correction: Some details provide context rather than support."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l5-2-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "logic"
+     ],
+     "prompt": "Find the incorrect logical claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "premise: a claim offered as a reason.",
+        "truth": "true",
+        "explain": "This is correct: a claim offered as a reason. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "conclusion: the claim offered reasons are meant to support.",
+        "truth": "true",
+        "explain": "This is correct: the claim offered reasons are meant to support. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "inference: the reasoning move from premises to conclusion.",
+        "truth": "true",
+        "explain": "This is correct: the reasoning move from premises to conclusion. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "background: context not serving as an offered reason in the case.",
+        "truth": "true",
+        "explain": "This is correct: context not serving as an offered reason in the case. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Every premise is guaranteed true because it is named a premise.",
+        "truth": "false",
+        "explain": "A role in an argument does not establish factual truth."
+       },
+       {
+        "text": "A conclusion must be the passage’s final words.",
+        "truth": "false",
+        "explain": "Its role, not position, identifies it."
+       },
+       {
+        "text": "The word therefore alone is the complete conclusion.",
+        "truth": "false",
+        "explain": "The conclusion is a claim; therefore signals the move."
+       },
+       {
+        "text": "Every detail in a passage must be a premise.",
+        "truth": "false",
+        "explain": "Some details provide context rather than support."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l5-2-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a claim offered as a reason?",
+       "r": "premise",
+       "w": [
+        "conclusion",
+        "inference",
+        "background"
+       ],
+       "e": [
+        "That concerns the claim offered reasons are meant to support, rather than a claim offered as a reason.",
+        "That concerns the reasoning move from premises to conclusion, rather than a claim offered as a reason.",
+        "That concerns context not serving as an offered reason in the case, rather than a claim offered as a reason."
+       ],
+       "y": "A role in an argument does not establish factual truth."
+      },
+      {
+       "q": "Which term means the claim offered reasons are meant to support?",
+       "r": "conclusion",
+       "w": [
+        "premise",
+        "inference",
+        "background"
+       ],
+       "e": [
+        "That concerns a claim offered as a reason, rather than the claim offered reasons are meant to support.",
+        "That concerns the reasoning move from premises to conclusion, rather than the claim offered reasons are meant to support.",
+        "That concerns context not serving as an offered reason in the case, rather than the claim offered reasons are meant to support."
+       ],
+       "y": "Its role, not position, identifies it."
+      },
+      {
+       "q": "Which term means the reasoning move from premises to conclusion?",
+       "r": "inference",
+       "w": [
+        "premise",
+        "conclusion",
+        "background"
+       ],
+       "e": [
+        "That concerns a claim offered as a reason, rather than the reasoning move from premises to conclusion.",
+        "That concerns the claim offered reasons are meant to support, rather than the reasoning move from premises to conclusion.",
+        "That concerns context not serving as an offered reason in the case, rather than the reasoning move from premises to conclusion."
+       ],
+       "y": "The conclusion is a claim; therefore signals the move."
+      },
+      {
+       "q": "Which term means context not serving as an offered reason in the case?",
+       "r": "background",
+       "w": [
+        "premise",
+        "conclusion",
+        "inference"
+       ],
+       "e": [
+        "That concerns a claim offered as a reason, rather than context not serving as an offered reason in the case.",
+        "That concerns the claim offered reasons are meant to support, rather than context not serving as an offered reason in the case.",
+        "That concerns the reasoning move from premises to conclusion, rather than context not serving as an offered reason in the case."
+       ],
+       "y": "Some details provide context rather than support."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-2-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The room remains provisional supplies a reason for correction.\nWhich description best fits the selected feature?",
+       "r": "premise",
+       "w": [
+        "conclusion",
+        "inference",
+        "background"
+       ],
+       "e": [
+        "That means the claim offered reasons are meant to support. The selected feature instead illustrates a claim offered as a reason.",
+        "That means the reasoning move from premises to conclusion. The selected feature instead illustrates a claim offered as a reason.",
+        "That means context not serving as an offered reason in the case. The selected feature instead illustrates a claim offered as a reason."
+       ],
+       "y": "A role in an argument does not establish factual truth."
+      },
+      {
+       "q": "The venue statement misrepresents the arrangement is the target judgement.\nWhich description best fits the selected feature?",
+       "r": "conclusion",
+       "w": [
+        "premise",
+        "inference",
+        "background"
+       ],
+       "e": [
+        "That means a claim offered as a reason. The selected feature instead illustrates the claim offered reasons are meant to support.",
+        "That means the reasoning move from premises to conclusion. The selected feature instead illustrates the claim offered reasons are meant to support.",
+        "That means context not serving as an offered reason in the case. The selected feature instead illustrates the claim offered reasons are meant to support."
+       ],
+       "y": "Its role, not position, identifies it."
+      },
+      {
+       "q": "The mismatch supports the correction judgement.\nWhich description best fits the selected feature?",
+       "r": "inference",
+       "w": [
+        "premise",
+        "conclusion",
+        "background"
+       ],
+       "e": [
+        "That means a claim offered as a reason. The selected feature instead illustrates the reasoning move from premises to conclusion.",
+        "That means the claim offered reasons are meant to support. The selected feature instead illustrates the reasoning move from premises to conclusion.",
+        "That means context not serving as an offered reason in the case. The selected feature instead illustrates the reasoning move from premises to conclusion."
+       ],
+       "y": "The conclusion is a claim; therefore signals the move."
+      },
+      {
+       "q": "The meeting location sets the scene without supporting the correction.\nWhich description best fits the selected feature?",
+       "r": "background",
+       "w": [
+        "premise",
+        "conclusion",
+        "inference"
+       ],
+       "e": [
+        "That means a claim offered as a reason. The selected feature instead illustrates context not serving as an offered reason in the case.",
+        "That means the claim offered reasons are meant to support. The selected feature instead illustrates context not serving as an offered reason in the case.",
+        "That means the reasoning move from premises to conclusion. The selected feature instead illustrates context not serving as an offered reason in the case."
+       ],
+       "y": "Some details provide context rather than support."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-2-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "All club voters are badge holders. Bih belongs to the club voters class. Therefore Bih belongs to the badge holders class. Which is the conclusion?",
+       "r": "Bih belongs to the badge holders class.",
+       "w": [
+        "All club voters are badge holders.",
+        "Bih belongs to the club voters class.",
+        "Therefore"
+       ],
+       "e": [
+        "That is the general premise.",
+        "That is the case premise.",
+        "That is an indicator, not the complete claim."
+       ],
+       "y": "The conclusion is the claim these reasons are offered to support."
+      },
+      {
+       "q": "All reading-room volunteers are registered helpers. Ayuk belongs to the reading-room volunteers class. Therefore Ayuk belongs to the registered helpers class. Which is the conclusion?",
+       "r": "Ayuk belongs to the registered helpers class.",
+       "w": [
+        "All reading-room volunteers are registered helpers.",
+        "Ayuk belongs to the reading-room volunteers class.",
+        "Therefore"
+       ],
+       "e": [
+        "That is the general premise.",
+        "That is the case premise.",
+        "That is an indicator, not the complete claim."
+       ],
+       "y": "The conclusion is the claim these reasons are offered to support."
+      },
+      {
+       "q": "All school-library books are catalogued items. the blue volume belongs to the school-library books class. Therefore the blue volume belongs to the catalogued items class. Which is the conclusion?",
+       "r": "the blue volume belongs to the catalogued items class.",
+       "w": [
+        "All school-library books are catalogued items.",
+        "the blue volume belongs to the school-library books class.",
+        "Therefore"
+       ],
+       "e": [
+        "That is the general premise.",
+        "That is the case premise.",
+        "That is an indicator, not the complete claim."
+       ],
+       "y": "The conclusion is the claim these reasons are offered to support."
+      },
+      {
+       "q": "All club gardens are cultivated areas. the courtyard garden belongs to the club gardens class. Therefore the courtyard garden belongs to the cultivated areas class. Which is the conclusion?",
+       "r": "the courtyard garden belongs to the cultivated areas class.",
+       "w": [
+        "All club gardens are cultivated areas.",
+        "the courtyard garden belongs to the club gardens class.",
+        "Therefore"
+       ],
+       "e": [
+        "That is the general premise.",
+        "That is the case premise.",
+        "That is an indicator, not the complete claim."
+       ],
+       "y": "The conclusion is the claim these reasons are offered to support."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-2-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "premise",
+     "right": "The room remains provisional supplies a reason for correction."
+    },
+    {
+     "left": "conclusion",
+     "right": "The venue statement misrepresents the arrangement is the target judgement."
+    },
+    {
+     "left": "inference",
+     "right": "The mismatch supports the correction judgement."
+    },
+    {
+     "left": "background",
+     "right": "The meeting location sets the scene without supporting the correction."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "l5-2-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "prompt": "Find the incorrect logical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "premise: a claim offered as a reason.",
+      "truth": "true",
+      "explain": "This is correct: a claim offered as a reason. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "conclusion: the claim offered reasons are meant to support.",
+      "truth": "true",
+      "explain": "This is correct: the claim offered reasons are meant to support. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "inference: the reasoning move from premises to conclusion.",
+      "truth": "true",
+      "explain": "This is correct: the reasoning move from premises to conclusion. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "background: context not serving as an offered reason in the case.",
+      "truth": "true",
+      "explain": "This is correct: context not serving as an offered reason in the case. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every premise is guaranteed true because it is named a premise.",
+      "truth": "false",
+      "explain": "A role in an argument does not establish factual truth."
+     },
+     {
+      "text": "A conclusion must be the passage’s final words.",
+      "truth": "false",
+      "explain": "Its role, not position, identifies it."
+     },
+     {
+      "text": "The word therefore alone is the complete conclusion.",
+      "truth": "false",
+      "explain": "The conclusion is a claim; therefore signals the move."
+     },
+     {
+      "text": "Every detail in a passage must be a premise.",
+      "truth": "false",
+      "explain": "Some details provide context rather than support."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

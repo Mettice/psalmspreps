@@ -1,0 +1,665 @@
+{
+ "subject": "logic",
+ "class": "Form 5",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  4,
+  5,
+  6
+ ],
+ "skills": [
+  {
+   "id": "l5-7",
+   "name": "Eduction and simple conversion"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Eduction here means deriving a categorical claim from a single categorical premise by transforming terms or quality. Simple conversion exchanges the complete subject and predicate. It preserves truth for E and I under the stated standard meanings. A does not convert simply: all voters may hold badges without every badge holder voting. With an explicit existing subject, A supports conversion by limitation to some P are S. O does not generally convert. Distinguish a truth-preserving equivalence from a weaker consequence requiring existence.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to transform a categorical claim by a licensed operation and reject an unsupported converse. Builds on: opposition, complete terms and counterexample models. Leads to: obversion and chains of immediate inference."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "Eduction here means deriving a categorical claim from a single categorical premise by transforming terms or quality. Simple conversion exchanges the complete subject and predicate. It preserves truth for E and I under the stated standard meanings. A does not convert simply: all voters may hold badges without every badge holder voting. With an explicit existing subject, A supports conversion by limitation to some P are S. O does not generally convert. Distinguish a truth-preserving equivalence from a weaker consequence requiring existence."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original model: No club voters are unregistered persons converts to No unregistered persons are club voters. Some volunteers are readers converts to Some readers are volunteers. All voters are badge holders does not give All badge holders are voters. If at least one voter exists, it does give Some badge holders are voters."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Mark complete S and P, exchange them and keep the original quantity and quality for simple conversion. Check whether the original form permits it. For a limited A consequence, state the existence premise and avoid claiming full equivalence."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "simple conversion",
+    "meaning": "exchange of complete subject and predicate terms"
+   },
+   {
+    "word": "E and I equivalence",
+    "meaning": "truth preservation for the two simply convertible forms"
+   },
+   {
+    "word": "invalid universal converse",
+    "meaning": "an unsupported reversal of an A statement"
+   },
+   {
+    "word": "conversion by limitation",
+    "meaning": "a particular converted consequence of A when S exists"
+   }
+  ],
+  "mistake": {
+   "wrong": "Conversion means changing only the predicate to non-P.",
+   "right": "simple conversion: exchange of complete subject and predicate terms.",
+   "why": "That describes part of obversion, not switching terms."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "No S are P becomes No P are S. Explain the selected feature.",
+  "steps": [
+   "Exchange of complete subject and predicate terms.",
+   "That describes part of obversion, not switching terms."
+  ],
+  "answer": "simple conversion",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "l5-7-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "simple conversion: exchange of complete subject and predicate terms.",
+     "E and I equivalence: truth preservation for the two simply convertible forms.",
+     "invalid universal converse: an unsupported reversal of an A statement.",
+     "conversion by limitation: a particular converted consequence of A when S exists."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l5-7-terms"
+    }
+   },
+   {
+    "id": "l5-7-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "No S are P becomes No P are S.",
+     "Some S are P is equivalent to Some P are S.",
+     "All voters have badges does not imply all badge holders vote.",
+     "All S are P plus existing S implies Some P are S."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l5-7-cases"
+    }
+   },
+   {
+    "id": "l5-7-c3",
+    "status": "draft",
+    "idea": "A correction must preserve scope, terms and assumptions.",
+    "vars": {},
+    "example": [
+     "Conversion means changing only the predicate to non-P. Correction: That describes part of obversion, not switching terms.",
+     "Every categorical form converts simply. Correction: A and O have counterexamples.",
+     "All S are P always means All P are S. Correction: P can contain additional members outside S.",
+     "The universal alone proves an existing witness in the stated convention. Correction: An existence premise is needed."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l5-7-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "logic"
+     ],
+     "prompt": "Find the incorrect logical claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "simple conversion: exchange of complete subject and predicate terms.",
+        "truth": "true",
+        "explain": "This is correct: exchange of complete subject and predicate terms. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "E and I equivalence: truth preservation for the two simply convertible forms.",
+        "truth": "true",
+        "explain": "This is correct: truth preservation for the two simply convertible forms. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "invalid universal converse: an unsupported reversal of an A statement.",
+        "truth": "true",
+        "explain": "This is correct: an unsupported reversal of an A statement. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "conversion by limitation: a particular converted consequence of A when S exists.",
+        "truth": "true",
+        "explain": "This is correct: a particular converted consequence of A when S exists. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Conversion means changing only the predicate to non-P.",
+        "truth": "false",
+        "explain": "That describes part of obversion, not switching terms."
+       },
+       {
+        "text": "Every categorical form converts simply.",
+        "truth": "false",
+        "explain": "A and O have counterexamples."
+       },
+       {
+        "text": "All S are P always means All P are S.",
+        "truth": "false",
+        "explain": "P can contain additional members outside S."
+       },
+       {
+        "text": "The universal alone proves an existing witness in the stated convention.",
+        "truth": "false",
+        "explain": "An existence premise is needed."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l5-7-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means exchange of complete subject and predicate terms?",
+       "r": "simple conversion",
+       "w": [
+        "E and I equivalence",
+        "invalid universal converse",
+        "conversion by limitation"
+       ],
+       "e": [
+        "That concerns truth preservation for the two simply convertible forms, rather than exchange of complete subject and predicate terms.",
+        "That concerns an unsupported reversal of an A statement, rather than exchange of complete subject and predicate terms.",
+        "That concerns a particular converted consequence of A when S exists, rather than exchange of complete subject and predicate terms."
+       ],
+       "y": "That describes part of obversion, not switching terms."
+      },
+      {
+       "q": "Which term means truth preservation for the two simply convertible forms?",
+       "r": "E and I equivalence",
+       "w": [
+        "simple conversion",
+        "invalid universal converse",
+        "conversion by limitation"
+       ],
+       "e": [
+        "That concerns exchange of complete subject and predicate terms, rather than truth preservation for the two simply convertible forms.",
+        "That concerns an unsupported reversal of an A statement, rather than truth preservation for the two simply convertible forms.",
+        "That concerns a particular converted consequence of A when S exists, rather than truth preservation for the two simply convertible forms."
+       ],
+       "y": "A and O have counterexamples."
+      },
+      {
+       "q": "Which term means an unsupported reversal of an A statement?",
+       "r": "invalid universal converse",
+       "w": [
+        "simple conversion",
+        "E and I equivalence",
+        "conversion by limitation"
+       ],
+       "e": [
+        "That concerns exchange of complete subject and predicate terms, rather than an unsupported reversal of an A statement.",
+        "That concerns truth preservation for the two simply convertible forms, rather than an unsupported reversal of an A statement.",
+        "That concerns a particular converted consequence of A when S exists, rather than an unsupported reversal of an A statement."
+       ],
+       "y": "P can contain additional members outside S."
+      },
+      {
+       "q": "Which term means a particular converted consequence of A when S exists?",
+       "r": "conversion by limitation",
+       "w": [
+        "simple conversion",
+        "E and I equivalence",
+        "invalid universal converse"
+       ],
+       "e": [
+        "That concerns exchange of complete subject and predicate terms, rather than a particular converted consequence of A when S exists.",
+        "That concerns truth preservation for the two simply convertible forms, rather than a particular converted consequence of A when S exists.",
+        "That concerns an unsupported reversal of an A statement, rather than a particular converted consequence of A when S exists."
+       ],
+       "y": "An existence premise is needed."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-7-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "No S are P becomes No P are S.\nWhich description best fits the selected feature?",
+       "r": "simple conversion",
+       "w": [
+        "E and I equivalence",
+        "invalid universal converse",
+        "conversion by limitation"
+       ],
+       "e": [
+        "That means truth preservation for the two simply convertible forms. The selected feature instead illustrates exchange of complete subject and predicate terms.",
+        "That means an unsupported reversal of an A statement. The selected feature instead illustrates exchange of complete subject and predicate terms.",
+        "That means a particular converted consequence of A when S exists. The selected feature instead illustrates exchange of complete subject and predicate terms."
+       ],
+       "y": "That describes part of obversion, not switching terms."
+      },
+      {
+       "q": "Some S are P is equivalent to Some P are S.\nWhich description best fits the selected feature?",
+       "r": "E and I equivalence",
+       "w": [
+        "simple conversion",
+        "invalid universal converse",
+        "conversion by limitation"
+       ],
+       "e": [
+        "That means exchange of complete subject and predicate terms. The selected feature instead illustrates truth preservation for the two simply convertible forms.",
+        "That means an unsupported reversal of an A statement. The selected feature instead illustrates truth preservation for the two simply convertible forms.",
+        "That means a particular converted consequence of A when S exists. The selected feature instead illustrates truth preservation for the two simply convertible forms."
+       ],
+       "y": "A and O have counterexamples."
+      },
+      {
+       "q": "All voters have badges does not imply all badge holders vote.\nWhich description best fits the selected feature?",
+       "r": "invalid universal converse",
+       "w": [
+        "simple conversion",
+        "E and I equivalence",
+        "conversion by limitation"
+       ],
+       "e": [
+        "That means exchange of complete subject and predicate terms. The selected feature instead illustrates an unsupported reversal of an A statement.",
+        "That means truth preservation for the two simply convertible forms. The selected feature instead illustrates an unsupported reversal of an A statement.",
+        "That means a particular converted consequence of A when S exists. The selected feature instead illustrates an unsupported reversal of an A statement."
+       ],
+       "y": "P can contain additional members outside S."
+      },
+      {
+       "q": "All S are P plus existing S implies Some P are S.\nWhich description best fits the selected feature?",
+       "r": "conversion by limitation",
+       "w": [
+        "simple conversion",
+        "E and I equivalence",
+        "invalid universal converse"
+       ],
+       "e": [
+        "That means exchange of complete subject and predicate terms. The selected feature instead illustrates a particular converted consequence of A when S exists.",
+        "That means truth preservation for the two simply convertible forms. The selected feature instead illustrates a particular converted consequence of A when S exists.",
+        "That means an unsupported reversal of an A statement. The selected feature instead illustrates a particular converted consequence of A when S exists."
+       ],
+       "y": "An existence premise is needed."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-7-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Give the simple converse of this claim under the stated standard meanings: No club voters are badge holders.",
+       "r": "No badge holders are club voters.",
+       "w": [
+        "All badge holders are club voters.",
+        "Some badge holders are not club voters.",
+        "All club voters are badge holders."
+       ],
+       "e": [
+        "That introduces a universal affirmative not supplied by this converse.",
+        "That changes to a negative particular rather than preserving the taught converse.",
+        "That does not perform the required switch and changes the stated form."
+       ],
+       "y": "E and I preserve truth when their complete subject and predicate terms are exchanged."
+      },
+      {
+       "q": "Give the simple converse of this claim under the stated standard meanings: Some club voters are badge holders.",
+       "r": "Some badge holders are club voters.",
+       "w": [
+        "All badge holders are club voters.",
+        "Some badge holders are not club voters.",
+        "All club voters are badge holders."
+       ],
+       "e": [
+        "That introduces a universal affirmative not supplied by this converse.",
+        "That changes to a negative particular rather than preserving the taught converse.",
+        "That does not perform the required switch and changes the stated form."
+       ],
+       "y": "E and I preserve truth when their complete subject and predicate terms are exchanged."
+      },
+      {
+       "q": "Give the simple converse of this claim under the stated standard meanings: No reading-room volunteers are registered helpers.",
+       "r": "No registered helpers are reading-room volunteers.",
+       "w": [
+        "All registered helpers are reading-room volunteers.",
+        "Some registered helpers are not reading-room volunteers.",
+        "All reading-room volunteers are registered helpers."
+       ],
+       "e": [
+        "That introduces a universal affirmative not supplied by this converse.",
+        "That changes to a negative particular rather than preserving the taught converse.",
+        "That does not perform the required switch and changes the stated form."
+       ],
+       "y": "E and I preserve truth when their complete subject and predicate terms are exchanged."
+      },
+      {
+       "q": "Give the simple converse of this claim under the stated standard meanings: Some reading-room volunteers are registered helpers.",
+       "r": "Some registered helpers are reading-room volunteers.",
+       "w": [
+        "All registered helpers are reading-room volunteers.",
+        "Some registered helpers are not reading-room volunteers.",
+        "All reading-room volunteers are registered helpers."
+       ],
+       "e": [
+        "That introduces a universal affirmative not supplied by this converse.",
+        "That changes to a negative particular rather than preserving the taught converse.",
+        "That does not perform the required switch and changes the stated form."
+       ],
+       "y": "E and I preserve truth when their complete subject and predicate terms are exchanged."
+      },
+      {
+       "q": "Give the simple converse of this claim under the stated standard meanings: No school-library books are catalogued items.",
+       "r": "No catalogued items are school-library books.",
+       "w": [
+        "All catalogued items are school-library books.",
+        "Some catalogued items are not school-library books.",
+        "All school-library books are catalogued items."
+       ],
+       "e": [
+        "That introduces a universal affirmative not supplied by this converse.",
+        "That changes to a negative particular rather than preserving the taught converse.",
+        "That does not perform the required switch and changes the stated form."
+       ],
+       "y": "E and I preserve truth when their complete subject and predicate terms are exchanged."
+      },
+      {
+       "q": "Give the simple converse of this claim under the stated standard meanings: Some school-library books are catalogued items.",
+       "r": "Some catalogued items are school-library books.",
+       "w": [
+        "All catalogued items are school-library books.",
+        "Some catalogued items are not school-library books.",
+        "All school-library books are catalogued items."
+       ],
+       "e": [
+        "That introduces a universal affirmative not supplied by this converse.",
+        "That changes to a negative particular rather than preserving the taught converse.",
+        "That does not perform the required switch and changes the stated form."
+       ],
+       "y": "E and I preserve truth when their complete subject and predicate terms are exchanged."
+      },
+      {
+       "q": "Give the simple converse of this claim under the stated standard meanings: No club gardens are cultivated areas.",
+       "r": "No cultivated areas are club gardens.",
+       "w": [
+        "All cultivated areas are club gardens.",
+        "Some cultivated areas are not club gardens.",
+        "All club gardens are cultivated areas."
+       ],
+       "e": [
+        "That introduces a universal affirmative not supplied by this converse.",
+        "That changes to a negative particular rather than preserving the taught converse.",
+        "That does not perform the required switch and changes the stated form."
+       ],
+       "y": "E and I preserve truth when their complete subject and predicate terms are exchanged."
+      },
+      {
+       "q": "Give the simple converse of this claim under the stated standard meanings: Some club gardens are cultivated areas.",
+       "r": "Some cultivated areas are club gardens.",
+       "w": [
+        "All cultivated areas are club gardens.",
+        "Some cultivated areas are not club gardens.",
+        "All club gardens are cultivated areas."
+       ],
+       "e": [
+        "That introduces a universal affirmative not supplied by this converse.",
+        "That changes to a negative particular rather than preserving the taught converse.",
+        "That does not perform the required switch and changes the stated form."
+       ],
+       "y": "E and I preserve truth when their complete subject and predicate terms are exchanged."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-7-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "simple conversion",
+     "right": "No S are P becomes No P are S."
+    },
+    {
+     "left": "E and I equivalence",
+     "right": "Some S are P is equivalent to Some P are S."
+    },
+    {
+     "left": "invalid universal converse",
+     "right": "All voters have badges does not imply all badge holders vote."
+    },
+    {
+     "left": "conversion by limitation",
+     "right": "All S are P plus existing S implies Some P are S."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "l5-7-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "prompt": "Find the incorrect logical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "simple conversion: exchange of complete subject and predicate terms.",
+      "truth": "true",
+      "explain": "This is correct: exchange of complete subject and predicate terms. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "E and I equivalence: truth preservation for the two simply convertible forms.",
+      "truth": "true",
+      "explain": "This is correct: truth preservation for the two simply convertible forms. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "invalid universal converse: an unsupported reversal of an A statement.",
+      "truth": "true",
+      "explain": "This is correct: an unsupported reversal of an A statement. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "conversion by limitation: a particular converted consequence of A when S exists.",
+      "truth": "true",
+      "explain": "This is correct: a particular converted consequence of A when S exists. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Conversion means changing only the predicate to non-P.",
+      "truth": "false",
+      "explain": "That describes part of obversion, not switching terms."
+     },
+     {
+      "text": "Every categorical form converts simply.",
+      "truth": "false",
+      "explain": "A and O have counterexamples."
+     },
+     {
+      "text": "All S are P always means All P are S.",
+      "truth": "false",
+      "explain": "P can contain additional members outside S."
+     },
+     {
+      "text": "The universal alone proves an existing witness in the stated convention.",
+      "truth": "false",
+      "explain": "An existence premise is needed."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

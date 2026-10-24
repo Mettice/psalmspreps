@@ -1,0 +1,608 @@
+{
+ "subject": "logic",
+ "class": "Form 5",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  1,
+  2,
+  3,
+  7,
+  8,
+  9
+ ],
+ "skills": [
+  {
+   "id": "l5-10",
+   "name": "Identifying argument parts in a passage"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A whole passage can mix background, a quoted view, a reason and a qualified conclusion. Identify whose claim each sentence expresses. Preserve terms such as may, not established and only: dropping them can strengthen or reverse the conclusion. Rejecting a proposed proof does not prove its opposite. Reconstruct the offered support before judging whether it succeeds. An argument map should show the role of each relevant claim rather than merely copying the passage in order.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to reconstruct a qualified conclusion and its supporting reason without adding a stronger claim. Builds on: argument roles, indicators and transformation limits. Leads to: later assessment of syllogisms and argumentative prose."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "A whole passage can mix background, a quoted view, a reason and a qualified conclusion. Identify whose claim each sentence expresses. Preserve terms such as may, not established and only: dropping them can strengthen or reverse the conclusion. Rejecting a proposed proof does not prove its opposite. Reconstruct the offered support before judging whether it succeeds. An argument map should show the role of each relevant claim rather than merely copying the passage in order."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original passage: During a fictional discussion, Manka says that a badge alone does not prove someone is a voter. The rule says every voter has a badge, but other people may also have one. She does not claim that no badge holder votes. Reconstruction: the rule permits badges beyond voters; therefore badge possession alone does not establish voter status. The discussion setting is background."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Mark the central qualified claim, list the relevant reasons and keep contextual or quoted material distinct. Paraphrase faithfully, then test support. State whether the conclusion rejects an inference, asserts a fact or recommends an action."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "qualified target",
+    "meaning": "a conclusion preserved with its actual limits"
+   },
+   {
+    "word": "supporting distinction",
+    "meaning": "the reason separating the rule from its converse"
+   },
+   {
+    "word": "view attribution",
+    "meaning": "identification of whose claim is being presented"
+   },
+   {
+    "word": "faithful reconstruction",
+    "meaning": "restatement preserving roles and scope"
+   }
+  ],
+  "mistake": {
+   "wrong": "The conclusion says no badge holder can ever vote.",
+   "right": "qualified target: a conclusion preserved with its actual limits.",
+   "why": "That changes lack of proof into a universal exclusion."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Badge possession alone does not prove voter status. Explain the selected feature.",
+  "steps": [
+   "A conclusion preserved with its actual limits.",
+   "That changes lack of proof into a universal exclusion."
+  ],
+  "answer": "qualified target",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "l5-10-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "qualified target: a conclusion preserved with its actual limits.",
+     "supporting distinction: the reason separating the rule from its converse.",
+     "view attribution: identification of whose claim is being presented.",
+     "faithful reconstruction: restatement preserving roles and scope."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l5-10-terms"
+    }
+   },
+   {
+    "id": "l5-10-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "Badge possession alone does not prove voter status.",
+     "The badge class may include non-voters.",
+     "Manka rejects the inference in the fictional discussion.",
+     "List the reason before the limited conclusion without changing either."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "l5-10-cases"
+    }
+   },
+   {
+    "id": "l5-10-c3",
+    "status": "draft",
+    "idea": "A correction must preserve scope, terms and assumptions.",
+    "vars": {},
+    "example": [
+     "The conclusion says no badge holder can ever vote. Correction: That changes lack of proof into a universal exclusion.",
+     "A possible extra badge holder proves every badge holder is a non-voter. Correction: A possibility defeating an inference does not prove that opposite universal.",
+     "Every quoted view must be endorsed by the writer. Correction: A passage can report a view to question it.",
+     "Reordering an argument permits inventing stronger premises. Correction: Reconstruction clarifies existing support rather than fabricating it."
+    ],
+    "checks": [],
+    "check": {
+     "id": "l5-10-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "logic"
+     ],
+     "prompt": "Find the incorrect logical claim.",
+     "pool": {
+      "right": [
+       {
+        "text": "qualified target: a conclusion preserved with its actual limits.",
+        "truth": "true",
+        "explain": "This is correct: a conclusion preserved with its actual limits. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "supporting distinction: the reason separating the rule from its converse.",
+        "truth": "true",
+        "explain": "This is correct: the reason separating the rule from its converse. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "view attribution: identification of whose claim is being presented.",
+        "truth": "true",
+        "explain": "This is correct: identification of whose claim is being presented. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "faithful reconstruction: restatement preserving roles and scope.",
+        "truth": "true",
+        "explain": "This is correct: restatement preserving roles and scope. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "The conclusion says no badge holder can ever vote.",
+        "truth": "false",
+        "explain": "That changes lack of proof into a universal exclusion."
+       },
+       {
+        "text": "A possible extra badge holder proves every badge holder is a non-voter.",
+        "truth": "false",
+        "explain": "A possibility defeating an inference does not prove that opposite universal."
+       },
+       {
+        "text": "Every quoted view must be endorsed by the writer.",
+        "truth": "false",
+        "explain": "A passage can report a view to question it."
+       },
+       {
+        "text": "Reordering an argument permits inventing stronger premises.",
+        "truth": "false",
+        "explain": "Reconstruction clarifies existing support rather than fabricating it."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "l5-10-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a conclusion preserved with its actual limits?",
+       "r": "qualified target",
+       "w": [
+        "supporting distinction",
+        "view attribution",
+        "faithful reconstruction"
+       ],
+       "e": [
+        "That concerns the reason separating the rule from its converse, rather than a conclusion preserved with its actual limits.",
+        "That concerns identification of whose claim is being presented, rather than a conclusion preserved with its actual limits.",
+        "That concerns restatement preserving roles and scope, rather than a conclusion preserved with its actual limits."
+       ],
+       "y": "That changes lack of proof into a universal exclusion."
+      },
+      {
+       "q": "Which term means the reason separating the rule from its converse?",
+       "r": "supporting distinction",
+       "w": [
+        "qualified target",
+        "view attribution",
+        "faithful reconstruction"
+       ],
+       "e": [
+        "That concerns a conclusion preserved with its actual limits, rather than the reason separating the rule from its converse.",
+        "That concerns identification of whose claim is being presented, rather than the reason separating the rule from its converse.",
+        "That concerns restatement preserving roles and scope, rather than the reason separating the rule from its converse."
+       ],
+       "y": "A possibility defeating an inference does not prove that opposite universal."
+      },
+      {
+       "q": "Which term means identification of whose claim is being presented?",
+       "r": "view attribution",
+       "w": [
+        "qualified target",
+        "supporting distinction",
+        "faithful reconstruction"
+       ],
+       "e": [
+        "That concerns a conclusion preserved with its actual limits, rather than identification of whose claim is being presented.",
+        "That concerns the reason separating the rule from its converse, rather than identification of whose claim is being presented.",
+        "That concerns restatement preserving roles and scope, rather than identification of whose claim is being presented."
+       ],
+       "y": "A passage can report a view to question it."
+      },
+      {
+       "q": "Which term means restatement preserving roles and scope?",
+       "r": "faithful reconstruction",
+       "w": [
+        "qualified target",
+        "supporting distinction",
+        "view attribution"
+       ],
+       "e": [
+        "That concerns a conclusion preserved with its actual limits, rather than restatement preserving roles and scope.",
+        "That concerns the reason separating the rule from its converse, rather than restatement preserving roles and scope.",
+        "That concerns identification of whose claim is being presented, rather than restatement preserving roles and scope."
+       ],
+       "y": "Reconstruction clarifies existing support rather than fabricating it."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-10-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Badge possession alone does not prove voter status.\nWhich description best fits the selected feature?",
+       "r": "qualified target",
+       "w": [
+        "supporting distinction",
+        "view attribution",
+        "faithful reconstruction"
+       ],
+       "e": [
+        "That means the reason separating the rule from its converse. The selected feature instead illustrates a conclusion preserved with its actual limits.",
+        "That means identification of whose claim is being presented. The selected feature instead illustrates a conclusion preserved with its actual limits.",
+        "That means restatement preserving roles and scope. The selected feature instead illustrates a conclusion preserved with its actual limits."
+       ],
+       "y": "That changes lack of proof into a universal exclusion."
+      },
+      {
+       "q": "The badge class may include non-voters.\nWhich description best fits the selected feature?",
+       "r": "supporting distinction",
+       "w": [
+        "qualified target",
+        "view attribution",
+        "faithful reconstruction"
+       ],
+       "e": [
+        "That means a conclusion preserved with its actual limits. The selected feature instead illustrates the reason separating the rule from its converse.",
+        "That means identification of whose claim is being presented. The selected feature instead illustrates the reason separating the rule from its converse.",
+        "That means restatement preserving roles and scope. The selected feature instead illustrates the reason separating the rule from its converse."
+       ],
+       "y": "A possibility defeating an inference does not prove that opposite universal."
+      },
+      {
+       "q": "Manka rejects the inference in the fictional discussion.\nWhich description best fits the selected feature?",
+       "r": "view attribution",
+       "w": [
+        "qualified target",
+        "supporting distinction",
+        "faithful reconstruction"
+       ],
+       "e": [
+        "That means a conclusion preserved with its actual limits. The selected feature instead illustrates identification of whose claim is being presented.",
+        "That means the reason separating the rule from its converse. The selected feature instead illustrates identification of whose claim is being presented.",
+        "That means restatement preserving roles and scope. The selected feature instead illustrates identification of whose claim is being presented."
+       ],
+       "y": "A passage can report a view to question it."
+      },
+      {
+       "q": "List the reason before the limited conclusion without changing either.\nWhich description best fits the selected feature?",
+       "r": "faithful reconstruction",
+       "w": [
+        "qualified target",
+        "supporting distinction",
+        "view attribution"
+       ],
+       "e": [
+        "That means a conclusion preserved with its actual limits. The selected feature instead illustrates restatement preserving roles and scope.",
+        "That means the reason separating the rule from its converse. The selected feature instead illustrates restatement preserving roles and scope.",
+        "That means identification of whose claim is being presented. The selected feature instead illustrates restatement preserving roles and scope."
+       ],
+       "y": "Reconstruction clarifies existing support rather than fabricating it."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-10-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "At an imaginary club discussion, a speaker says: We should not infer that Bih belongs to the club voters class merely from membership in the predicate class. Our actual rule is only that all club voters are badge holders. Knowing that Bih is among badge holders does not exclude other kinds of badge holders. What is the speaker’s central conclusion?",
+       "r": "Membership of badge holders alone does not establish that Bih belongs to club voters.",
+       "w": [
+        "All badge holders are club voters.",
+        "Bih definitely cannot belong to club voters.",
+        "Every detail about the discussion is an offered logical premise."
+       ],
+       "e": [
+        "That is the very reversed rule being rejected.",
+        "Failure to establish membership does not establish non-membership.",
+        "Setting details need not support the target claim."
+       ],
+       "y": "The passage rejects an inference while leaving the actual membership open."
+      },
+      {
+       "q": "At an imaginary club discussion, a speaker says: We should not infer that Ayuk belongs to the reading-room volunteers class merely from membership in the predicate class. Our actual rule is only that all reading-room volunteers are registered helpers. Knowing that Ayuk is among registered helpers does not exclude other kinds of registered helpers. What is the speaker’s central conclusion?",
+       "r": "Membership of registered helpers alone does not establish that Ayuk belongs to reading-room volunteers.",
+       "w": [
+        "All registered helpers are reading-room volunteers.",
+        "Ayuk definitely cannot belong to reading-room volunteers.",
+        "Every detail about the discussion is an offered logical premise."
+       ],
+       "e": [
+        "That is the very reversed rule being rejected.",
+        "Failure to establish membership does not establish non-membership.",
+        "Setting details need not support the target claim."
+       ],
+       "y": "The passage rejects an inference while leaving the actual membership open."
+      },
+      {
+       "q": "At an imaginary club discussion, a speaker says: We should not infer that the blue volume belongs to the school-library books class merely from membership in the predicate class. Our actual rule is only that all school-library books are catalogued items. Knowing that the blue volume is among catalogued items does not exclude other kinds of catalogued items. What is the speaker’s central conclusion?",
+       "r": "Membership of catalogued items alone does not establish that the blue volume belongs to school-library books.",
+       "w": [
+        "All catalogued items are school-library books.",
+        "the blue volume definitely cannot belong to school-library books.",
+        "Every detail about the discussion is an offered logical premise."
+       ],
+       "e": [
+        "That is the very reversed rule being rejected.",
+        "Failure to establish membership does not establish non-membership.",
+        "Setting details need not support the target claim."
+       ],
+       "y": "The passage rejects an inference while leaving the actual membership open."
+      },
+      {
+       "q": "At an imaginary club discussion, a speaker says: We should not infer that the courtyard garden belongs to the club gardens class merely from membership in the predicate class. Our actual rule is only that all club gardens are cultivated areas. Knowing that the courtyard garden is among cultivated areas does not exclude other kinds of cultivated areas. What is the speaker’s central conclusion?",
+       "r": "Membership of cultivated areas alone does not establish that the courtyard garden belongs to club gardens.",
+       "w": [
+        "All cultivated areas are club gardens.",
+        "the courtyard garden definitely cannot belong to club gardens.",
+        "Every detail about the discussion is an offered logical premise."
+       ],
+       "e": [
+        "That is the very reversed rule being rejected.",
+        "Failure to establish membership does not establish non-membership.",
+        "Setting details need not support the target claim."
+       ],
+       "y": "The passage rejects an inference while leaving the actual membership open."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "l5-10-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "qualified target",
+     "right": "Badge possession alone does not prove voter status."
+    },
+    {
+     "left": "supporting distinction",
+     "right": "The badge class may include non-voters."
+    },
+    {
+     "left": "view attribution",
+     "right": "Manka rejects the inference in the fictional discussion."
+    },
+    {
+     "left": "faithful reconstruction",
+     "right": "List the reason before the limited conclusion without changing either."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "l5-10-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "logic"
+   ],
+   "prompt": "Find the incorrect logical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "qualified target: a conclusion preserved with its actual limits.",
+      "truth": "true",
+      "explain": "This is correct: a conclusion preserved with its actual limits. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "supporting distinction: the reason separating the rule from its converse.",
+      "truth": "true",
+      "explain": "This is correct: the reason separating the rule from its converse. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "view attribution: identification of whose claim is being presented.",
+      "truth": "true",
+      "explain": "This is correct: identification of whose claim is being presented. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "faithful reconstruction: restatement preserving roles and scope.",
+      "truth": "true",
+      "explain": "This is correct: restatement preserving roles and scope. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The conclusion says no badge holder can ever vote.",
+      "truth": "false",
+      "explain": "That changes lack of proof into a universal exclusion."
+     },
+     {
+      "text": "A possible extra badge holder proves every badge holder is a non-voter.",
+      "truth": "false",
+      "explain": "A possibility defeating an inference does not prove that opposite universal."
+     },
+     {
+      "text": "Every quoted view must be endorsed by the writer.",
+      "truth": "false",
+      "explain": "A passage can report a view to question it."
+     },
+     {
+      "text": "Reordering an argument permits inventing stronger premises.",
+      "truth": "false",
+      "explain": "Reconstruction clarifies existing support rather than fabricating it."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

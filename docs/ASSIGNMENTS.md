@@ -67,3 +67,4 @@ and `npm test`. Form 1 changes stay on `form-2` until Dion approves them for the
 - The earlier-batch coverage and row-by-row feedback list is [CODEX-CONTENT-STATUS.md](CODEX-CONTENT-STATUS.md). Run `python tools/authoring/audit_codex_scope.py` to refresh that baseline. The new Form Five/Sixth assignment above is additional work and is not counted as complete in the 348-draft baseline.
 
 - Form Five English Term One: 31 teaching drafts (rows 2–32) completed on 2026-10-24 with goals/connections, writing models and teacher notes; diagnostic row 1 excluded. This adds to the earlier baseline.
+- Form Five Logic Term One: nine teaching rows plus screen-based guided work 6 (ten drafts, rows 1–10) completed on 2026-10-24. Explicit existence conventions and local eduction terminology require teacher review.
