@@ -1,0 +1,549 @@
+{
+ "subject": "english-language",
+ "class": "Form 5",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  6
+ ],
+ "skills": [
+  {
+   "id": "e5-7",
+   "name": "The basics of a developed essay"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An introduction establishes subject and direction. A body paragraph develops a focused point with explanation or examples and connects it to the overall purpose. Connectors express actual relations such as contrast or cause; inserting however randomly does not create one. A conclusion draws the answer together without introducing an unrelated major claim. No fixed sentence count guarantees quality.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to develop a controlling idea through connected paragraphs and a purposeful conclusion. Builds on: essay purpose and planning. Leads to: reading dialogue and directed writing."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "An introduction establishes subject and direction. A body paragraph develops a focused point with explanation or examples and connects it to the overall purpose. Connectors express actual relations such as contrast or cause; inserting however randomly does not create one. A conclusion draws the answer together without introducing an unrelated major claim. No fixed sentence count guarantees quality."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original model extract: A notice helps only when readers can work out what action is expected. A heading may attract attention, but the details must also be clear. Improving a club notice requires a recognisable purpose, useful information and a way to confirm uncertain details."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Identify the audience, purpose and required content. Plan the order, draft in your own words and check each feature against the model. Explain why an edit improves the answer."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "introduction",
+    "meaning": "an opening establishing topic and direction"
+   },
+   {
+    "word": "developed paragraph",
+    "meaning": "a focused point supported by explanation"
+   },
+   {
+    "word": "logical connection",
+    "meaning": "a link expressing an actual relationship"
+   },
+   {
+    "word": "conclusion",
+    "meaning": "an ending drawing together the developed answer"
+   }
+  ],
+  "mistake": {
+   "wrong": "An introduction must contain every example.",
+   "right": "introduction: an opening establishing topic and direction.",
+   "why": "The opening establishes direction; the body develops it."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A notice needs purpose, information and confirmation. Explain the selected feature.",
+  "steps": [
+   "An opening establishing topic and direction.",
+   "The opening establishes direction; the body develops it."
+  ],
+  "answer": "introduction",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e5-7-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "introduction: an opening establishing topic and direction.",
+     "developed paragraph: a focused point supported by explanation.",
+     "logical connection: a link expressing an actual relationship.",
+     "conclusion: an ending drawing together the developed answer."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-7-terms"
+    }
+   },
+   {
+    "id": "e5-7-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "A notice needs purpose, information and confirmation.",
+     "The heading example explains why a precise title helps.",
+     "If a room is unconfirmed, identify the uncertainty.",
+     "A useful notice combines a heading with checked details."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-7-cases"
+    }
+   },
+   {
+    "id": "e5-7-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "An introduction must contain every example. Correction: The opening establishes direction; the body develops it.",
+     "Repeating an assertion adds supporting evidence. Correction: Development supplies reasoning or illustration.",
+     "Every connector fits every relationship. Correction: A connector must match the relation.",
+     "The ending must introduce an unrelated argument. Correction: It resolves the established direction."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e5-7-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "introduction: an opening establishing topic and direction.",
+        "truth": "true",
+        "explain": "This is correct: an opening establishing topic and direction. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "developed paragraph: a focused point supported by explanation.",
+        "truth": "true",
+        "explain": "This is correct: a focused point supported by explanation. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "logical connection: a link expressing an actual relationship.",
+        "truth": "true",
+        "explain": "This is correct: a link expressing an actual relationship. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "conclusion: an ending drawing together the developed answer.",
+        "truth": "true",
+        "explain": "This is correct: an ending drawing together the developed answer. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "An introduction must contain every example.",
+        "truth": "false",
+        "explain": "The opening establishes direction; the body develops it."
+       },
+       {
+        "text": "Repeating an assertion adds supporting evidence.",
+        "truth": "false",
+        "explain": "Development supplies reasoning or illustration."
+       },
+       {
+        "text": "Every connector fits every relationship.",
+        "truth": "false",
+        "explain": "A connector must match the relation."
+       },
+       {
+        "text": "The ending must introduce an unrelated argument.",
+        "truth": "false",
+        "explain": "It resolves the established direction."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e5-7-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means an opening establishing topic and direction?",
+       "r": "introduction",
+       "w": [
+        "developed paragraph",
+        "logical connection",
+        "conclusion"
+       ],
+       "e": [
+        "That concerns a focused point supported by explanation, rather than an opening establishing topic and direction.",
+        "That concerns a link expressing an actual relationship, rather than an opening establishing topic and direction.",
+        "That concerns an ending drawing together the developed answer, rather than an opening establishing topic and direction."
+       ],
+       "y": "The opening establishes direction; the body develops it."
+      },
+      {
+       "q": "Which term means a focused point supported by explanation?",
+       "r": "developed paragraph",
+       "w": [
+        "introduction",
+        "logical connection",
+        "conclusion"
+       ],
+       "e": [
+        "That concerns an opening establishing topic and direction, rather than a focused point supported by explanation.",
+        "That concerns a link expressing an actual relationship, rather than a focused point supported by explanation.",
+        "That concerns an ending drawing together the developed answer, rather than a focused point supported by explanation."
+       ],
+       "y": "Development supplies reasoning or illustration."
+      },
+      {
+       "q": "Which term means a link expressing an actual relationship?",
+       "r": "logical connection",
+       "w": [
+        "introduction",
+        "developed paragraph",
+        "conclusion"
+       ],
+       "e": [
+        "That concerns an opening establishing topic and direction, rather than a link expressing an actual relationship.",
+        "That concerns a focused point supported by explanation, rather than a link expressing an actual relationship.",
+        "That concerns an ending drawing together the developed answer, rather than a link expressing an actual relationship."
+       ],
+       "y": "A connector must match the relation."
+      },
+      {
+       "q": "Which term means an ending drawing together the developed answer?",
+       "r": "conclusion",
+       "w": [
+        "introduction",
+        "developed paragraph",
+        "logical connection"
+       ],
+       "e": [
+        "That concerns an opening establishing topic and direction, rather than an ending drawing together the developed answer.",
+        "That concerns a focused point supported by explanation, rather than an ending drawing together the developed answer.",
+        "That concerns a link expressing an actual relationship, rather than an ending drawing together the developed answer."
+       ],
+       "y": "It resolves the established direction."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-7-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A notice needs purpose, information and confirmation.\nWhich description best fits the selected feature?",
+       "r": "introduction",
+       "w": [
+        "developed paragraph",
+        "logical connection",
+        "conclusion"
+       ],
+       "e": [
+        "That means a focused point supported by explanation. The selected feature instead illustrates an opening establishing topic and direction.",
+        "That means a link expressing an actual relationship. The selected feature instead illustrates an opening establishing topic and direction.",
+        "That means an ending drawing together the developed answer. The selected feature instead illustrates an opening establishing topic and direction."
+       ],
+       "y": "The opening establishes direction; the body develops it."
+      },
+      {
+       "q": "The heading example explains why a precise title helps.\nWhich description best fits the selected feature?",
+       "r": "developed paragraph",
+       "w": [
+        "introduction",
+        "logical connection",
+        "conclusion"
+       ],
+       "e": [
+        "That means an opening establishing topic and direction. The selected feature instead illustrates a focused point supported by explanation.",
+        "That means a link expressing an actual relationship. The selected feature instead illustrates a focused point supported by explanation.",
+        "That means an ending drawing together the developed answer. The selected feature instead illustrates a focused point supported by explanation."
+       ],
+       "y": "Development supplies reasoning or illustration."
+      },
+      {
+       "q": "If a room is unconfirmed, identify the uncertainty.\nWhich description best fits the selected feature?",
+       "r": "logical connection",
+       "w": [
+        "introduction",
+        "developed paragraph",
+        "conclusion"
+       ],
+       "e": [
+        "That means an opening establishing topic and direction. The selected feature instead illustrates a link expressing an actual relationship.",
+        "That means a focused point supported by explanation. The selected feature instead illustrates a link expressing an actual relationship.",
+        "That means an ending drawing together the developed answer. The selected feature instead illustrates a link expressing an actual relationship."
+       ],
+       "y": "A connector must match the relation."
+      },
+      {
+       "q": "A useful notice combines a heading with checked details.\nWhich description best fits the selected feature?",
+       "r": "conclusion",
+       "w": [
+        "introduction",
+        "developed paragraph",
+        "logical connection"
+       ],
+       "e": [
+        "That means an opening establishing topic and direction. The selected feature instead illustrates an ending drawing together the developed answer.",
+        "That means a focused point supported by explanation. The selected feature instead illustrates an ending drawing together the developed answer.",
+        "That means a link expressing an actual relationship. The selected feature instead illustrates an ending drawing together the developed answer."
+       ],
+       "y": "It resolves the established direction."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-7-build",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "A notice needs purpose, information and confirmation.",
+       "b": "A notice needs purpose, information and confirmation."
+      },
+      {
+       "a": "The heading example explains why a precise title helps.",
+       "b": "The heading example explains why a precise title helps."
+      },
+      {
+       "a": "If a room is unconfirmed, identify the uncertainty.",
+       "b": "If a room is unconfirmed, identify the uncertainty."
+      },
+      {
+       "a": "A useful notice combines a heading with checked details.",
+       "b": "A useful notice combines a heading with checked details."
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e5-7-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "introduction",
+     "right": "A notice needs purpose, information and confirmation."
+    },
+    {
+     "left": "developed paragraph",
+     "right": "The heading example explains why a precise title helps."
+    },
+    {
+     "left": "logical connection",
+     "right": "If a room is unconfirmed, identify the uncertainty."
+    },
+    {
+     "left": "conclusion",
+     "right": "A useful notice combines a heading with checked details."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e5-7-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "introduction: an opening establishing topic and direction.",
+      "truth": "true",
+      "explain": "This is correct: an opening establishing topic and direction. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "developed paragraph: a focused point supported by explanation.",
+      "truth": "true",
+      "explain": "This is correct: a focused point supported by explanation. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "logical connection: a link expressing an actual relationship.",
+      "truth": "true",
+      "explain": "This is correct: a link expressing an actual relationship. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "conclusion: an ending drawing together the developed answer.",
+      "truth": "true",
+      "explain": "This is correct: an ending drawing together the developed answer. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "An introduction must contain every example.",
+      "truth": "false",
+      "explain": "The opening establishes direction; the body develops it."
+     },
+     {
+      "text": "Repeating an assertion adds supporting evidence.",
+      "truth": "false",
+      "explain": "Development supplies reasoning or illustration."
+     },
+     {
+      "text": "Every connector fits every relationship.",
+      "truth": "false",
+      "explain": "A connector must match the relation."
+     },
+     {
+      "text": "The ending must introduce an unrelated argument.",
+      "truth": "false",
+      "explain": "It resolves the established direction."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "checks": [],
+  "prompt": "Develop your outline into an essay explaining clearer school messages. Include an introduction, developed body paragraphs and conclusion. Follow the teacher’s required length; the model illustrates development, not a compulsory word count.",
+  "model": [
+   "A notice helps only when readers can work out what action is expected. A heading may attract attention, but the details must also be clear. Improving a club notice requires a recognisable purpose, useful information and a way to confirm uncertain details.",
+   "First, a precise heading identifies the activity. Reading club discussion tells a reader more than Important! The body should explain who is invited and what preparation is needed. Such details connect the heading to an action rather than leaving the audience to guess.",
+   "A notice also needs honest treatment of uncertainty. If a room is unconfirmed, presenting it as settled may mislead readers. The writer can mark it provisional and identify whom to ask. Clear wording cannot make an uncertain arrangement certain, but it can show what remains to be checked.",
+   "A useful notice combines a focused heading with checked details. Its value lies in helping readers understand their next step, not in filling a page with impressive words."
+  ],
+  "checklist": [
+   "Introduction: an opening establishing topic and direction.",
+   "Developed paragraph: a focused point supported by explanation.",
+   "Logical connection: a link expressing an actual relationship.",
+   "Conclusion: an ending drawing together the developed answer.",
+   "Use relevant original details and check sentence boundaries, agreement and spelling."
+  ]
+ }
+}

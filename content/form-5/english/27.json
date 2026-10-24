@@ -1,0 +1,550 @@
+{
+ "subject": "english-language",
+ "class": "Form 5",
+ "lesson_no": 27,
+ "language": "en",
+ "prerequisites": [
+  7,
+  26
+ ],
+ "skills": [
+  {
+   "id": "e5-27",
+   "name": "Writing an expository essay"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Expository writing explains an idea, relationship or process. A process explanation connects stages and shows why they matter; it is more than a list of commands. Examples clarify abstract points, and transitions signal actual sequence or cause. Keep the focus on explanation even if the conclusion mentions an application. Define necessary terms and qualify claims whose evidence is limited.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to explain a process through connected stages and examples. Builds on: developed essays and attributed reporting. Leads to: reasoned environmental discussion."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "Expository writing explains an idea, relationship or process. A process explanation connects stages and shows why they matter; it is more than a list of commands. Examples clarify abstract points, and transitions signal actual sequence or cause. Keep the focus on explanation even if the conclusion mentions an application. Define necessary terms and qualify claims whose evidence is limited."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original model extract: Checking a notice means examining whether its details are supported before using or repeating them. The process begins with the message, moves to its sources and ends by identifying what still needs confirmation."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Identify the audience, purpose and required content. Plan the order, draft in your own words and check each feature against the model. Explain why an edit improves the answer."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "expository focus",
+    "meaning": "the explanatory purpose guiding the text"
+   },
+   {
+    "word": "connected stages",
+    "meaning": "steps related in a meaningful process"
+   },
+   {
+    "word": "clarifying example",
+    "meaning": "a case explaining an abstract point"
+   },
+   {
+    "word": "limited conclusion",
+    "meaning": "an ending preserving the explanation’s scope"
+   }
+  ],
+  "mistake": {
+   "wrong": "Every explanation requires an adventure plot.",
+   "right": "expository focus: the explanatory purpose guiding the text.",
+   "why": "The text develops understanding rather than requiring a plot."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The essay explains how checking works. Explain the selected feature.",
+  "steps": [
+   "The explanatory purpose guiding the text.",
+   "The text develops understanding rather than requiring a plot."
+  ],
+  "answer": "expository focus",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e5-27-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "expository focus: the explanatory purpose guiding the text.",
+     "connected stages: steps related in a meaningful process.",
+     "clarifying example: a case explaining an abstract point.",
+     "limited conclusion: an ending preserving the explanation’s scope."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-27-terms"
+    }
+   },
+   {
+    "id": "e5-27-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "The essay explains how checking works.",
+     "Identify action, check sources and state unknowns.",
+     "A suggested room differs from a confirmed room.",
+     "Checking supports judgement but cannot prevent every change."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-27-cases"
+    }
+   },
+   {
+    "id": "e5-27-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "Every explanation requires an adventure plot. Correction: The text develops understanding rather than requiring a plot.",
+     "Stages can contradict each other without consequence. Correction: The order must support the explanation.",
+     "An example must introduce an unrelated claim. Correction: It should illuminate the point.",
+     "A process explanation removes all uncertainty. Correction: The text supports no universal guarantee."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e5-27-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "expository focus: the explanatory purpose guiding the text.",
+        "truth": "true",
+        "explain": "This is correct: the explanatory purpose guiding the text. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "connected stages: steps related in a meaningful process.",
+        "truth": "true",
+        "explain": "This is correct: steps related in a meaningful process. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "clarifying example: a case explaining an abstract point.",
+        "truth": "true",
+        "explain": "This is correct: a case explaining an abstract point. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "limited conclusion: an ending preserving the explanation’s scope.",
+        "truth": "true",
+        "explain": "This is correct: an ending preserving the explanation’s scope. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Every explanation requires an adventure plot.",
+        "truth": "false",
+        "explain": "The text develops understanding rather than requiring a plot."
+       },
+       {
+        "text": "Stages can contradict each other without consequence.",
+        "truth": "false",
+        "explain": "The order must support the explanation."
+       },
+       {
+        "text": "An example must introduce an unrelated claim.",
+        "truth": "false",
+        "explain": "It should illuminate the point."
+       },
+       {
+        "text": "A process explanation removes all uncertainty.",
+        "truth": "false",
+        "explain": "The text supports no universal guarantee."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e5-27-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means the explanatory purpose guiding the text?",
+       "r": "expository focus",
+       "w": [
+        "connected stages",
+        "clarifying example",
+        "limited conclusion"
+       ],
+       "e": [
+        "That concerns steps related in a meaningful process, rather than the explanatory purpose guiding the text.",
+        "That concerns a case explaining an abstract point, rather than the explanatory purpose guiding the text.",
+        "That concerns an ending preserving the explanation’s scope, rather than the explanatory purpose guiding the text."
+       ],
+       "y": "The text develops understanding rather than requiring a plot."
+      },
+      {
+       "q": "Which term means steps related in a meaningful process?",
+       "r": "connected stages",
+       "w": [
+        "expository focus",
+        "clarifying example",
+        "limited conclusion"
+       ],
+       "e": [
+        "That concerns the explanatory purpose guiding the text, rather than steps related in a meaningful process.",
+        "That concerns a case explaining an abstract point, rather than steps related in a meaningful process.",
+        "That concerns an ending preserving the explanation’s scope, rather than steps related in a meaningful process."
+       ],
+       "y": "The order must support the explanation."
+      },
+      {
+       "q": "Which term means a case explaining an abstract point?",
+       "r": "clarifying example",
+       "w": [
+        "expository focus",
+        "connected stages",
+        "limited conclusion"
+       ],
+       "e": [
+        "That concerns the explanatory purpose guiding the text, rather than a case explaining an abstract point.",
+        "That concerns steps related in a meaningful process, rather than a case explaining an abstract point.",
+        "That concerns an ending preserving the explanation’s scope, rather than a case explaining an abstract point."
+       ],
+       "y": "It should illuminate the point."
+      },
+      {
+       "q": "Which term means an ending preserving the explanation’s scope?",
+       "r": "limited conclusion",
+       "w": [
+        "expository focus",
+        "connected stages",
+        "clarifying example"
+       ],
+       "e": [
+        "That concerns the explanatory purpose guiding the text, rather than an ending preserving the explanation’s scope.",
+        "That concerns steps related in a meaningful process, rather than an ending preserving the explanation’s scope.",
+        "That concerns a case explaining an abstract point, rather than an ending preserving the explanation’s scope."
+       ],
+       "y": "The text supports no universal guarantee."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-27-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The essay explains how checking works.\nWhich description best fits the selected feature?",
+       "r": "expository focus",
+       "w": [
+        "connected stages",
+        "clarifying example",
+        "limited conclusion"
+       ],
+       "e": [
+        "That means steps related in a meaningful process. The selected feature instead illustrates the explanatory purpose guiding the text.",
+        "That means a case explaining an abstract point. The selected feature instead illustrates the explanatory purpose guiding the text.",
+        "That means an ending preserving the explanation’s scope. The selected feature instead illustrates the explanatory purpose guiding the text."
+       ],
+       "y": "The text develops understanding rather than requiring a plot."
+      },
+      {
+       "q": "Identify action, check sources and state unknowns.\nWhich description best fits the selected feature?",
+       "r": "connected stages",
+       "w": [
+        "expository focus",
+        "clarifying example",
+        "limited conclusion"
+       ],
+       "e": [
+        "That means the explanatory purpose guiding the text. The selected feature instead illustrates steps related in a meaningful process.",
+        "That means a case explaining an abstract point. The selected feature instead illustrates steps related in a meaningful process.",
+        "That means an ending preserving the explanation’s scope. The selected feature instead illustrates steps related in a meaningful process."
+       ],
+       "y": "The order must support the explanation."
+      },
+      {
+       "q": "A suggested room differs from a confirmed room.\nWhich description best fits the selected feature?",
+       "r": "clarifying example",
+       "w": [
+        "expository focus",
+        "connected stages",
+        "limited conclusion"
+       ],
+       "e": [
+        "That means the explanatory purpose guiding the text. The selected feature instead illustrates a case explaining an abstract point.",
+        "That means steps related in a meaningful process. The selected feature instead illustrates a case explaining an abstract point.",
+        "That means an ending preserving the explanation’s scope. The selected feature instead illustrates a case explaining an abstract point."
+       ],
+       "y": "It should illuminate the point."
+      },
+      {
+       "q": "Checking supports judgement but cannot prevent every change.\nWhich description best fits the selected feature?",
+       "r": "limited conclusion",
+       "w": [
+        "expository focus",
+        "connected stages",
+        "clarifying example"
+       ],
+       "e": [
+        "That means the explanatory purpose guiding the text. The selected feature instead illustrates an ending preserving the explanation’s scope.",
+        "That means steps related in a meaningful process. The selected feature instead illustrates an ending preserving the explanation’s scope.",
+        "That means a case explaining an abstract point. The selected feature instead illustrates an ending preserving the explanation’s scope."
+       ],
+       "y": "The text supports no universal guarantee."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-27-build",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "The essay explains how checking works.",
+       "b": "The essay explains how checking works."
+      },
+      {
+       "a": "Identify action, check sources and state unknowns.",
+       "b": "Identify action, check sources and state unknowns."
+      },
+      {
+       "a": "A suggested room differs from a confirmed room.",
+       "b": "A suggested room differs from a confirmed room."
+      },
+      {
+       "a": "Checking supports judgement but cannot prevent every change.",
+       "b": "Checking supports judgement but cannot prevent every change."
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e5-27-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "expository focus",
+     "right": "The essay explains how checking works."
+    },
+    {
+     "left": "connected stages",
+     "right": "Identify action, check sources and state unknowns."
+    },
+    {
+     "left": "clarifying example",
+     "right": "A suggested room differs from a confirmed room."
+    },
+    {
+     "left": "limited conclusion",
+     "right": "Checking supports judgement but cannot prevent every change."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e5-27-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "expository focus: the explanatory purpose guiding the text.",
+      "truth": "true",
+      "explain": "This is correct: the explanatory purpose guiding the text. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "connected stages: steps related in a meaningful process.",
+      "truth": "true",
+      "explain": "This is correct: steps related in a meaningful process. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "clarifying example: a case explaining an abstract point.",
+      "truth": "true",
+      "explain": "This is correct: a case explaining an abstract point. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "limited conclusion: an ending preserving the explanation’s scope.",
+      "truth": "true",
+      "explain": "This is correct: an ending preserving the explanation’s scope. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every explanation requires an adventure plot.",
+      "truth": "false",
+      "explain": "The text develops understanding rather than requiring a plot."
+     },
+     {
+      "text": "Stages can contradict each other without consequence.",
+      "truth": "false",
+      "explain": "The order must support the explanation."
+     },
+     {
+      "text": "An example must introduce an unrelated claim.",
+      "truth": "false",
+      "explain": "It should illuminate the point."
+     },
+     {
+      "text": "A process explanation removes all uncertainty.",
+      "truth": "false",
+      "explain": "The text supports no universal guarantee."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "checks": [],
+  "prompt": "Write an expository essay explaining how to check a classroom message. Define the process, develop stages with examples and conclude with a realistic account of what it achieves.",
+  "model": [
+   "Checking a notice means examining whether its details are supported before using or repeating them. The process begins with the message, moves to its sources and ends by identifying what still needs confirmation.",
+   "First, identify the activity and expected action. An invitation should distinguish attending a discussion from bringing materials or preparing a contribution. This prevents a familiar heading from hiding an unclear instruction.",
+   "Next, check the source of details affecting action. A suggested room differs from a room confirmed by the responsible person. Comparing the notice with its source preserves the information’s status instead of turning a possibility into a fact.",
+   "Finally, make unresolved details visible. Label a venue provisional and identify whom to ask. Checking cannot prevent every later change; it helps readers understand the evidence available when a message is shared."
+  ],
+  "checklist": [
+   "Expository focus: the explanatory purpose guiding the text.",
+   "Connected stages: steps related in a meaningful process.",
+   "Clarifying example: a case explaining an abstract point.",
+   "Limited conclusion: an ending preserving the explanation’s scope.",
+   "Use relevant original details and check sentence boundaries, agreement and spelling."
+  ]
+ }
+}

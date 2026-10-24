@@ -1,0 +1,552 @@
+{
+ "subject": "english-language",
+ "class": "Form 5",
+ "lesson_no": 32,
+ "language": "en",
+ "prerequisites": [
+  10,
+  13,
+  26,
+  31
+ ],
+ "skills": [
+  {
+   "id": "e5-32",
+   "name": "Directed writing: formal and informal letters"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Letters adapt content, layout and register to recipient and purpose. A formal request to an unnamed official can pair Dear Sir or Madam with Yours faithfully in the British convention modelled here. A letter to a friend can use a personal greeting and friendly closing. Both require clear paragraphs and accurate information. Formality does not require inflated vocabulary; friendliness does not remove sentence boundaries. The teacher should confirm local address, date, length and closing requirements.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to adapt core information to a formal request and a personal letter. Builds on: audience, punctuation, directed writing and concord. Leads to: independent writing with controlled register and clear connections."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "Letters adapt content, layout and register to recipient and purpose. A formal request to an unnamed official can pair Dear Sir or Madam with Yours faithfully in the British convention modelled here. A letter to a friend can use a personal greeting and friendly closing. Both require clear paragraphs and accurate information. Formality does not require inflated vocabulary; friendliness does not remove sentence boundaries. The teacher should confirm local address, date, length and closing requirements."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original model extract: Formal model: Reading Club, Fictional School, Bamenda. Date: the day of drafting. Dear Sir or Madam, I write for our club to request permission for a supervised discussion on checking school notices. We would like pupils to practise distinguishing confirmed details from suggestions."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Identify the audience, purpose and required content. Plan the order, draft in your own words and check each feature against the model. Explain why an edit improves the answer."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "formal purpose and register",
+    "meaning": "a clear request suited to the official recipient"
+   },
+   {
+    "word": "matched greeting and closing",
+    "meaning": "a consistent pair following the stated convention"
+   },
+   {
+    "word": "informal personal tone",
+    "meaning": "friendly wording suited to the named correspondent"
+   },
+   {
+    "word": "preserved core information",
+    "meaning": "facts kept consistent despite changed audience"
+   }
+  ],
+  "mistake": {
+   "wrong": "A formal letter must hide its purpose in long words.",
+   "right": "formal purpose and register: a clear request suited to the official recipient.",
+   "why": "The request should be direct and understandable."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "I write to request permission for a supervised discussion. Explain the selected feature.",
+  "steps": [
+   "A clear request suited to the official recipient.",
+   "The request should be direct and understandable."
+  ],
+  "answer": "formal purpose and register",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e5-32-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "formal purpose and register: a clear request suited to the official recipient.",
+     "matched greeting and closing: a consistent pair following the stated convention.",
+     "informal personal tone: friendly wording suited to the named correspondent.",
+     "preserved core information: facts kept consistent despite changed audience."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-32-terms"
+    }
+   },
+   {
+    "id": "e5-32-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "I write to request permission for a supervised discussion.",
+     "Dear Sir or Madam pairs with Yours faithfully here.",
+     "Dear Amina, I thought you would enjoy helping.",
+     "Both letters leave arrangements unconfirmed."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-32-cases"
+    }
+   },
+   {
+    "id": "e5-32-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "A formal letter must hide its purpose in long words. Correction: The request should be direct and understandable.",
+     "The unnamed official greeting requires an unrelated nickname as its closing. Correction: Use the stated convention and task requirements.",
+     "Friendly letters need no readable sentence boundaries. Correction: Warmth and accurate sentences work together.",
+     "Changing recipient permits inventing a confirmed date. Correction: Audience adaptation does not justify changed facts."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e5-32-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "formal purpose and register: a clear request suited to the official recipient.",
+        "truth": "true",
+        "explain": "This is correct: a clear request suited to the official recipient. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "matched greeting and closing: a consistent pair following the stated convention.",
+        "truth": "true",
+        "explain": "This is correct: a consistent pair following the stated convention. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "informal personal tone: friendly wording suited to the named correspondent.",
+        "truth": "true",
+        "explain": "This is correct: friendly wording suited to the named correspondent. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "preserved core information: facts kept consistent despite changed audience.",
+        "truth": "true",
+        "explain": "This is correct: facts kept consistent despite changed audience. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A formal letter must hide its purpose in long words.",
+        "truth": "false",
+        "explain": "The request should be direct and understandable."
+       },
+       {
+        "text": "The unnamed official greeting requires an unrelated nickname as its closing.",
+        "truth": "false",
+        "explain": "Use the stated convention and task requirements."
+       },
+       {
+        "text": "Friendly letters need no readable sentence boundaries.",
+        "truth": "false",
+        "explain": "Warmth and accurate sentences work together."
+       },
+       {
+        "text": "Changing recipient permits inventing a confirmed date.",
+        "truth": "false",
+        "explain": "Audience adaptation does not justify changed facts."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e5-32-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a clear request suited to the official recipient?",
+       "r": "formal purpose and register",
+       "w": [
+        "matched greeting and closing",
+        "informal personal tone",
+        "preserved core information"
+       ],
+       "e": [
+        "That concerns a consistent pair following the stated convention, rather than a clear request suited to the official recipient.",
+        "That concerns friendly wording suited to the named correspondent, rather than a clear request suited to the official recipient.",
+        "That concerns facts kept consistent despite changed audience, rather than a clear request suited to the official recipient."
+       ],
+       "y": "The request should be direct and understandable."
+      },
+      {
+       "q": "Which term means a consistent pair following the stated convention?",
+       "r": "matched greeting and closing",
+       "w": [
+        "formal purpose and register",
+        "informal personal tone",
+        "preserved core information"
+       ],
+       "e": [
+        "That concerns a clear request suited to the official recipient, rather than a consistent pair following the stated convention.",
+        "That concerns friendly wording suited to the named correspondent, rather than a consistent pair following the stated convention.",
+        "That concerns facts kept consistent despite changed audience, rather than a consistent pair following the stated convention."
+       ],
+       "y": "Use the stated convention and task requirements."
+      },
+      {
+       "q": "Which term means friendly wording suited to the named correspondent?",
+       "r": "informal personal tone",
+       "w": [
+        "formal purpose and register",
+        "matched greeting and closing",
+        "preserved core information"
+       ],
+       "e": [
+        "That concerns a clear request suited to the official recipient, rather than friendly wording suited to the named correspondent.",
+        "That concerns a consistent pair following the stated convention, rather than friendly wording suited to the named correspondent.",
+        "That concerns facts kept consistent despite changed audience, rather than friendly wording suited to the named correspondent."
+       ],
+       "y": "Warmth and accurate sentences work together."
+      },
+      {
+       "q": "Which term means facts kept consistent despite changed audience?",
+       "r": "preserved core information",
+       "w": [
+        "formal purpose and register",
+        "matched greeting and closing",
+        "informal personal tone"
+       ],
+       "e": [
+        "That concerns a clear request suited to the official recipient, rather than facts kept consistent despite changed audience.",
+        "That concerns a consistent pair following the stated convention, rather than facts kept consistent despite changed audience.",
+        "That concerns friendly wording suited to the named correspondent, rather than facts kept consistent despite changed audience."
+       ],
+       "y": "Audience adaptation does not justify changed facts."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-32-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "I write to request permission for a supervised discussion.\nWhich description best fits the selected feature?",
+       "r": "formal purpose and register",
+       "w": [
+        "matched greeting and closing",
+        "informal personal tone",
+        "preserved core information"
+       ],
+       "e": [
+        "That means a consistent pair following the stated convention. The selected feature instead illustrates a clear request suited to the official recipient.",
+        "That means friendly wording suited to the named correspondent. The selected feature instead illustrates a clear request suited to the official recipient.",
+        "That means facts kept consistent despite changed audience. The selected feature instead illustrates a clear request suited to the official recipient."
+       ],
+       "y": "The request should be direct and understandable."
+      },
+      {
+       "q": "Dear Sir or Madam pairs with Yours faithfully here.\nWhich description best fits the selected feature?",
+       "r": "matched greeting and closing",
+       "w": [
+        "formal purpose and register",
+        "informal personal tone",
+        "preserved core information"
+       ],
+       "e": [
+        "That means a clear request suited to the official recipient. The selected feature instead illustrates a consistent pair following the stated convention.",
+        "That means friendly wording suited to the named correspondent. The selected feature instead illustrates a consistent pair following the stated convention.",
+        "That means facts kept consistent despite changed audience. The selected feature instead illustrates a consistent pair following the stated convention."
+       ],
+       "y": "Use the stated convention and task requirements."
+      },
+      {
+       "q": "Dear Amina, I thought you would enjoy helping.\nWhich description best fits the selected feature?",
+       "r": "informal personal tone",
+       "w": [
+        "formal purpose and register",
+        "matched greeting and closing",
+        "preserved core information"
+       ],
+       "e": [
+        "That means a clear request suited to the official recipient. The selected feature instead illustrates friendly wording suited to the named correspondent.",
+        "That means a consistent pair following the stated convention. The selected feature instead illustrates friendly wording suited to the named correspondent.",
+        "That means facts kept consistent despite changed audience. The selected feature instead illustrates friendly wording suited to the named correspondent."
+       ],
+       "y": "Warmth and accurate sentences work together."
+      },
+      {
+       "q": "Both letters leave arrangements unconfirmed.\nWhich description best fits the selected feature?",
+       "r": "preserved core information",
+       "w": [
+        "formal purpose and register",
+        "matched greeting and closing",
+        "informal personal tone"
+       ],
+       "e": [
+        "That means a clear request suited to the official recipient. The selected feature instead illustrates facts kept consistent despite changed audience.",
+        "That means a consistent pair following the stated convention. The selected feature instead illustrates facts kept consistent despite changed audience.",
+        "That means friendly wording suited to the named correspondent. The selected feature instead illustrates facts kept consistent despite changed audience."
+       ],
+       "y": "Audience adaptation does not justify changed facts."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-32-build",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "I write to request permission for a supervised discussion.",
+       "b": "I write to request permission for a supervised discussion."
+      },
+      {
+       "a": "Dear Sir or Madam pairs with Yours faithfully here.",
+       "b": "Dear Sir or Madam pairs with Yours faithfully here."
+      },
+      {
+       "a": "Dear Amina, I thought you would enjoy helping.",
+       "b": "Dear Amina, I thought you would enjoy helping."
+      },
+      {
+       "a": "Both letters leave arrangements unconfirmed.",
+       "b": "Both letters leave arrangements unconfirmed."
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e5-32-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "formal purpose and register",
+     "right": "I write to request permission for a supervised discussion."
+    },
+    {
+     "left": "matched greeting and closing",
+     "right": "Dear Sir or Madam pairs with Yours faithfully here."
+    },
+    {
+     "left": "informal personal tone",
+     "right": "Dear Amina, I thought you would enjoy helping."
+    },
+    {
+     "left": "preserved core information",
+     "right": "Both letters leave arrangements unconfirmed."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e5-32-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "formal purpose and register: a clear request suited to the official recipient.",
+      "truth": "true",
+      "explain": "This is correct: a clear request suited to the official recipient. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "matched greeting and closing: a consistent pair following the stated convention.",
+      "truth": "true",
+      "explain": "This is correct: a consistent pair following the stated convention. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "informal personal tone: friendly wording suited to the named correspondent.",
+      "truth": "true",
+      "explain": "This is correct: friendly wording suited to the named correspondent. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "preserved core information: facts kept consistent despite changed audience.",
+      "truth": "true",
+      "explain": "This is correct: facts kept consistent despite changed audience. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A formal letter must hide its purpose in long words.",
+      "truth": "false",
+      "explain": "The request should be direct and understandable."
+     },
+     {
+      "text": "The unnamed official greeting requires an unrelated nickname as its closing.",
+      "truth": "false",
+      "explain": "Use the stated convention and task requirements."
+     },
+     {
+      "text": "Friendly letters need no readable sentence boundaries.",
+      "truth": "false",
+      "explain": "Warmth and accurate sentences work together."
+     },
+     {
+      "text": "Changing recipient permits inventing a confirmed date.",
+      "truth": "false",
+      "explain": "Audience adaptation does not justify changed facts."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "checks": [],
+  "prompt": "Write a formal request to an unnamed school official for the notice-checking discussion, then an informal letter telling a friend about it. Preserve unconfirmed arrangements in both. Follow the teacher’s required layout and length.",
+  "model": [
+   "Formal model: Reading Club, Fictional School, Bamenda. Date: the day of drafting. Dear Sir or Madam, I write for our club to request permission for a supervised discussion on checking school notices. We would like pupils to practise distinguishing confirmed details from suggestions.",
+   "The session would use original classroom examples and partner work. A teacher would need to confirm the venue and timing before invitations are issued. Please let us know whether the proposal can be considered and whom we should consult. Yours faithfully, Bih, Club secretary.",
+   "Informal model: Fictional School, Bamenda. Date: the day of drafting. Dear Amina, Our reading club is planning a discussion about checking notices. I thought you would enjoy helping with examples. We want to show how a suggested room can accidentally become a confirmed venue in a copied message.",
+   "The arrangements are still provisional, so please do not make travel plans from this letter. I will write when the teacher confirms the time and place. If you have a confusing fictional notice we could discuss, I would like to hear your idea. Best wishes, Bih."
+  ],
+  "checklist": [
+   "Formal purpose and register: a clear request suited to the official recipient.",
+   "Matched greeting and closing: a consistent pair following the stated convention.",
+   "Informal personal tone: friendly wording suited to the named correspondent.",
+   "Preserved core information: facts kept consistent despite changed audience.",
+   "Use relevant original details and check sentence boundaries, agreement and spelling."
+  ]
+ }
+}

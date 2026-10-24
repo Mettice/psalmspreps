@@ -1,0 +1,604 @@
+{
+ "subject": "english-language",
+ "class": "Form 5",
+ "lesson_no": 25,
+ "language": "en",
+ "prerequisites": [
+  22,
+  24
+ ],
+ "skills": [
+  {
+   "id": "e5-25",
+   "name": "Reading: natural resources and proposed uses"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Read the whole passage before answering. Separate directly stated facts, reasons, proposals and information that remains unknown. An inference needs an identifiable clue and must not turn a fictional case into a universal claim. Notice who speaks and whether a statement is an opinion, a plan or an observed result. The passage is original classroom fiction, not a report about a real named organisation.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to compare proposed resource uses and identify limits of evidence. Builds on: quantity, conditions and supported reading. Leads to: newspaper reporting and environmental discussion."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "Read the whole passage before answering. Separate directly stated facts, reasons, proposals and information that remains unknown. An inference needs an identifiable clue and must not turn a fictional case into a universal claim. Notice who speaks and whether a statement is an opinion, a plan or an observed result. The passage is original classroom fiction, not a report about a real named organisation."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original passage: A fictional village group discusses a shared stream. Some members propose watering a school garden; others want to keep water clear for existing users. The group proposes seeking appropriate technical guidance before changing how water is taken. It records both concerns and plans a discussion with affected users. No measured flow, laboratory result or permission to alter the stream is supplied. Compatibility of the uses in every season remains unestablished."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Locate the relevant sentence, state your answer and identify its support. Check whether a question asks what happened, why, or what cannot be concluded. Do not add a result or private detail that the passage does not provide."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "explicit information",
+    "meaning": "a detail directly supplied in the passage"
+   },
+   {
+    "word": "supported inference",
+    "meaning": "a conclusion grounded in a relevant textual clue"
+   },
+   {
+    "word": "proposal",
+    "meaning": "an action suggested rather than necessarily completed"
+   },
+   {
+    "word": "limit of evidence",
+    "meaning": "what this passage cannot establish"
+   }
+  ],
+  "mistake": {
+   "wrong": "Any plausible invented detail is explicitly stated.",
+   "right": "explicit information: a detail directly supplied in the passage.",
+   "why": "The detail must actually be present."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A stated role or action can be located in the text. Explain the selected feature.",
+  "steps": [
+   "A detail directly supplied in the passage.",
+   "The detail must actually be present."
+  ],
+  "answer": "explicit information",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e5-25-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "explicit information: a detail directly supplied in the passage.",
+     "supported inference: a conclusion grounded in a relevant textual clue.",
+     "proposal: an action suggested rather than necessarily completed.",
+     "limit of evidence: what this passage cannot establish."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-25-terms"
+    }
+   },
+   {
+    "id": "e5-25-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "A stated role or action can be located in the text.",
+     "A request to verify a source suggests that confirmation is still needed.",
+     "Planning a meeting does not show its eventual attendance.",
+     "An absent outcome must remain unknown."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-25-cases"
+    }
+   },
+   {
+    "id": "e5-25-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "Any plausible invented detail is explicitly stated. Correction: The detail must actually be present.",
+     "Every guess is equally supported regardless of the wording. Correction: The conclusion needs an appropriate clue.",
+     "Every proposed action is a measured success already. Correction: Intention and result are different.",
+     "One invented case proves every real community behaves identically. Correction: The evidence does not carry that universal scope."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e5-25-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "explicit information: a detail directly supplied in the passage.",
+        "truth": "true",
+        "explain": "This is correct: a detail directly supplied in the passage. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "supported inference: a conclusion grounded in a relevant textual clue.",
+        "truth": "true",
+        "explain": "This is correct: a conclusion grounded in a relevant textual clue. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "proposal: an action suggested rather than necessarily completed.",
+        "truth": "true",
+        "explain": "This is correct: an action suggested rather than necessarily completed. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "limit of evidence: what this passage cannot establish.",
+        "truth": "true",
+        "explain": "This is correct: what this passage cannot establish. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Any plausible invented detail is explicitly stated.",
+        "truth": "false",
+        "explain": "The detail must actually be present."
+       },
+       {
+        "text": "Every guess is equally supported regardless of the wording.",
+        "truth": "false",
+        "explain": "The conclusion needs an appropriate clue."
+       },
+       {
+        "text": "Every proposed action is a measured success already.",
+        "truth": "false",
+        "explain": "Intention and result are different."
+       },
+       {
+        "text": "One invented case proves every real community behaves identically.",
+        "truth": "false",
+        "explain": "The evidence does not carry that universal scope."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e5-25-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a detail directly supplied in the passage?",
+       "r": "explicit information",
+       "w": [
+        "supported inference",
+        "proposal",
+        "limit of evidence"
+       ],
+       "e": [
+        "That concerns a conclusion grounded in a relevant textual clue, rather than a detail directly supplied in the passage.",
+        "That concerns an action suggested rather than necessarily completed, rather than a detail directly supplied in the passage.",
+        "That concerns what this passage cannot establish, rather than a detail directly supplied in the passage."
+       ],
+       "y": "The detail must actually be present."
+      },
+      {
+       "q": "Which term means a conclusion grounded in a relevant textual clue?",
+       "r": "supported inference",
+       "w": [
+        "explicit information",
+        "proposal",
+        "limit of evidence"
+       ],
+       "e": [
+        "That concerns a detail directly supplied in the passage, rather than a conclusion grounded in a relevant textual clue.",
+        "That concerns an action suggested rather than necessarily completed, rather than a conclusion grounded in a relevant textual clue.",
+        "That concerns what this passage cannot establish, rather than a conclusion grounded in a relevant textual clue."
+       ],
+       "y": "The conclusion needs an appropriate clue."
+      },
+      {
+       "q": "Which term means an action suggested rather than necessarily completed?",
+       "r": "proposal",
+       "w": [
+        "explicit information",
+        "supported inference",
+        "limit of evidence"
+       ],
+       "e": [
+        "That concerns a detail directly supplied in the passage, rather than an action suggested rather than necessarily completed.",
+        "That concerns a conclusion grounded in a relevant textual clue, rather than an action suggested rather than necessarily completed.",
+        "That concerns what this passage cannot establish, rather than an action suggested rather than necessarily completed."
+       ],
+       "y": "Intention and result are different."
+      },
+      {
+       "q": "Which term means what this passage cannot establish?",
+       "r": "limit of evidence",
+       "w": [
+        "explicit information",
+        "supported inference",
+        "proposal"
+       ],
+       "e": [
+        "That concerns a detail directly supplied in the passage, rather than what this passage cannot establish.",
+        "That concerns a conclusion grounded in a relevant textual clue, rather than what this passage cannot establish.",
+        "That concerns an action suggested rather than necessarily completed, rather than what this passage cannot establish."
+       ],
+       "y": "The evidence does not carry that universal scope."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-25-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A stated role or action can be located in the text.\nWhich description best fits the selected feature?",
+       "r": "explicit information",
+       "w": [
+        "supported inference",
+        "proposal",
+        "limit of evidence"
+       ],
+       "e": [
+        "That means a conclusion grounded in a relevant textual clue. The selected feature instead illustrates a detail directly supplied in the passage.",
+        "That means an action suggested rather than necessarily completed. The selected feature instead illustrates a detail directly supplied in the passage.",
+        "That means what this passage cannot establish. The selected feature instead illustrates a detail directly supplied in the passage."
+       ],
+       "y": "The detail must actually be present."
+      },
+      {
+       "q": "A request to verify a source suggests that confirmation is still needed.\nWhich description best fits the selected feature?",
+       "r": "supported inference",
+       "w": [
+        "explicit information",
+        "proposal",
+        "limit of evidence"
+       ],
+       "e": [
+        "That means a detail directly supplied in the passage. The selected feature instead illustrates a conclusion grounded in a relevant textual clue.",
+        "That means an action suggested rather than necessarily completed. The selected feature instead illustrates a conclusion grounded in a relevant textual clue.",
+        "That means what this passage cannot establish. The selected feature instead illustrates a conclusion grounded in a relevant textual clue."
+       ],
+       "y": "The conclusion needs an appropriate clue."
+      },
+      {
+       "q": "Planning a meeting does not show its eventual attendance.\nWhich description best fits the selected feature?",
+       "r": "proposal",
+       "w": [
+        "explicit information",
+        "supported inference",
+        "limit of evidence"
+       ],
+       "e": [
+        "That means a detail directly supplied in the passage. The selected feature instead illustrates an action suggested rather than necessarily completed.",
+        "That means a conclusion grounded in a relevant textual clue. The selected feature instead illustrates an action suggested rather than necessarily completed.",
+        "That means what this passage cannot establish. The selected feature instead illustrates an action suggested rather than necessarily completed."
+       ],
+       "y": "Intention and result are different."
+      },
+      {
+       "q": "An absent outcome must remain unknown.\nWhich description best fits the selected feature?",
+       "r": "limit of evidence",
+       "w": [
+        "explicit information",
+        "supported inference",
+        "proposal"
+       ],
+       "e": [
+        "That means a detail directly supplied in the passage. The selected feature instead illustrates what this passage cannot establish.",
+        "That means a conclusion grounded in a relevant textual clue. The selected feature instead illustrates what this passage cannot establish.",
+        "That means an action suggested rather than necessarily completed. The selected feature instead illustrates what this passage cannot establish."
+       ],
+       "y": "The evidence does not carry that universal scope."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-25-comprehend",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What resource is discussed?",
+       "r": "A shared stream.",
+       "w": [
+        "An oil field.",
+        "A completed power station.",
+        "An imported folder."
+       ],
+       "e": [
+        "No oil field appears.",
+        "No station appears.",
+        "The passage concerns water."
+       ],
+       "y": "The stream is explicitly named."
+      },
+      {
+       "q": "What concern accompanies garden watering?",
+       "r": "Keeping water clear for existing users.",
+       "w": [
+        "All seasons have identical flow.",
+        "A laboratory analysis is complete.",
+        "No affected users exist."
+       ],
+       "e": [
+        "Seasonal compatibility is unknown.",
+        "No result is supplied.",
+        "Existing users are mentioned."
+       ],
+       "y": "The passage records different concerns."
+      },
+      {
+       "q": "What is proposed before changing use?",
+       "r": "Seeking appropriate technical guidance.",
+       "w": [
+        "Altering the stream immediately.",
+        "Inventing a laboratory result.",
+        "Announcing permission already granted."
+       ],
+       "e": [
+        "Guidance is proposed first.",
+        "No result is supplied.",
+        "No permission is supplied."
+       ],
+       "y": "Further information is needed."
+      },
+      {
+       "q": "Which conclusion exceeds the evidence?",
+       "r": "The uses are compatible in every season.",
+       "w": [
+        "Different concerns are recorded.",
+        "Discussion with users is planned.",
+        "No measured flow is supplied."
+       ],
+       "e": [
+        "This action is stated.",
+        "This plan is stated.",
+        "This limitation is stated."
+       ],
+       "y": "Compatibility is explicitly unestablished."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-25-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "explicit information",
+     "right": "A stated role or action can be located in the text."
+    },
+    {
+     "left": "supported inference",
+     "right": "A request to verify a source suggests that confirmation is still needed."
+    },
+    {
+     "left": "proposal",
+     "right": "Planning a meeting does not show its eventual attendance."
+    },
+    {
+     "left": "limit of evidence",
+     "right": "An absent outcome must remain unknown."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e5-25-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "explicit information: a detail directly supplied in the passage.",
+      "truth": "true",
+      "explain": "This is correct: a detail directly supplied in the passage. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "supported inference: a conclusion grounded in a relevant textual clue.",
+      "truth": "true",
+      "explain": "This is correct: a conclusion grounded in a relevant textual clue. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "proposal: an action suggested rather than necessarily completed.",
+      "truth": "true",
+      "explain": "This is correct: an action suggested rather than necessarily completed. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "limit of evidence: what this passage cannot establish.",
+      "truth": "true",
+      "explain": "This is correct: what this passage cannot establish. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Any plausible invented detail is explicitly stated.",
+      "truth": "false",
+      "explain": "The detail must actually be present."
+     },
+     {
+      "text": "Every guess is equally supported regardless of the wording.",
+      "truth": "false",
+      "explain": "The conclusion needs an appropriate clue."
+     },
+     {
+      "text": "Every proposed action is a measured success already.",
+      "truth": "false",
+      "explain": "Intention and result are different."
+     },
+     {
+      "text": "One invented case proves every real community behaves identically.",
+      "truth": "false",
+      "explain": "The evidence does not carry that universal scope."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

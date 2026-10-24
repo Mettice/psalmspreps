@@ -1,0 +1,604 @@
+{
+ "subject": "english-language",
+ "class": "Form 5",
+ "lesson_no": 19,
+ "language": "en",
+ "prerequisites": [
+  9,
+  18
+ ],
+ "skills": [
+  {
+   "id": "e5-19",
+   "name": "Idioms in context"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An idiom has a conventional meaning that may not follow from its individual words. Context helps distinguish figurative use from literal description. Break the ice can mean easing social awkwardness; lend a hand can mean helping. An idiom may fit informal speech without fitting every formal task. Explaining it in plain language is often clearer than substituting another unexplained idiom. Learn the phrase and check its context.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to interpret selected idioms and preserve figurative meaning. Builds on: context clues, collocations and discussion. Leads to: narrative dialogue and word replacement."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "An idiom has a conventional meaning that may not follow from its individual words. Context helps distinguish figurative use from literal description. Break the ice can mean easing social awkwardness; lend a hand can mean helping. An idiom may fit informal speech without fitting every formal task. Explaining it in plain language is often clearer than substituting another unexplained idiom. Learn the phrase and check its context."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original dialogue: Bih says, “I will introduce the new members to break the ice.” Ayuk replies, “I can lend a hand with the chairs.” They check that they are on the same page about the plan, then ask Manka to keep an eye on the time. No frozen water or detached body part is involved."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Locate the phrase, identify the activity and paraphrase in ordinary words. Preserve the speaker’s idea or request. Do not impose a figurative interpretation when a different context describes a literal action."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "break the ice",
+    "meaning": "help people begin interacting comfortably"
+   },
+   {
+    "word": "be on the same page",
+    "meaning": "share an understanding"
+   },
+   {
+    "word": "lend a hand",
+    "meaning": "help with a task"
+   },
+   {
+    "word": "keep an eye on",
+    "meaning": "watch or monitor something"
+   }
+  ],
+  "mistake": {
+   "wrong": "The host physically shattered a frozen lake.",
+   "right": "break the ice: help people begin interacting comfortably.",
+   "why": "The social context means easing initial awkwardness."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The host used introductions to break the ice. Explain the selected feature.",
+  "steps": [
+   "Help people begin interacting comfortably.",
+   "The social context means easing initial awkwardness."
+  ],
+  "answer": "break the ice",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e5-19-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "break the ice: help people begin interacting comfortably.",
+     "be on the same page: share an understanding.",
+     "lend a hand: help with a task.",
+     "keep an eye on: watch or monitor something."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-19-terms"
+    }
+   },
+   {
+    "id": "e5-19-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "The host used introductions to break the ice.",
+     "Let us check that we are on the same page about the plan.",
+     "Could you lend a hand with the chairs?",
+     "Please keep an eye on the time during rehearsal."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-19-cases"
+    }
+   },
+   {
+    "id": "e5-19-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "The host physically shattered a frozen lake. Correction: The social context means easing initial awkwardness.",
+     "Everyone must stare at one physical sheet. Correction: The context concerns shared understanding.",
+     "Detach a hand and give it away. Correction: The request is for assistance.",
+     "Place an eye on the clock. Correction: The request is for attention to time."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e5-19-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "break the ice: help people begin interacting comfortably.",
+        "truth": "true",
+        "explain": "This is correct: help people begin interacting comfortably. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "be on the same page: share an understanding.",
+        "truth": "true",
+        "explain": "This is correct: share an understanding. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "lend a hand: help with a task.",
+        "truth": "true",
+        "explain": "This is correct: help with a task. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "keep an eye on: watch or monitor something.",
+        "truth": "true",
+        "explain": "This is correct: watch or monitor something. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "The host physically shattered a frozen lake.",
+        "truth": "false",
+        "explain": "The social context means easing initial awkwardness."
+       },
+       {
+        "text": "Everyone must stare at one physical sheet.",
+        "truth": "false",
+        "explain": "The context concerns shared understanding."
+       },
+       {
+        "text": "Detach a hand and give it away.",
+        "truth": "false",
+        "explain": "The request is for assistance."
+       },
+       {
+        "text": "Place an eye on the clock.",
+        "truth": "false",
+        "explain": "The request is for attention to time."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e5-19-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means help people begin interacting comfortably?",
+       "r": "break the ice",
+       "w": [
+        "be on the same page",
+        "lend a hand",
+        "keep an eye on"
+       ],
+       "e": [
+        "That concerns share an understanding, rather than help people begin interacting comfortably.",
+        "That concerns help with a task, rather than help people begin interacting comfortably.",
+        "That concerns watch or monitor something, rather than help people begin interacting comfortably."
+       ],
+       "y": "The social context means easing initial awkwardness."
+      },
+      {
+       "q": "Which term means share an understanding?",
+       "r": "be on the same page",
+       "w": [
+        "break the ice",
+        "lend a hand",
+        "keep an eye on"
+       ],
+       "e": [
+        "That concerns help people begin interacting comfortably, rather than share an understanding.",
+        "That concerns help with a task, rather than share an understanding.",
+        "That concerns watch or monitor something, rather than share an understanding."
+       ],
+       "y": "The context concerns shared understanding."
+      },
+      {
+       "q": "Which term means help with a task?",
+       "r": "lend a hand",
+       "w": [
+        "break the ice",
+        "be on the same page",
+        "keep an eye on"
+       ],
+       "e": [
+        "That concerns help people begin interacting comfortably, rather than help with a task.",
+        "That concerns share an understanding, rather than help with a task.",
+        "That concerns watch or monitor something, rather than help with a task."
+       ],
+       "y": "The request is for assistance."
+      },
+      {
+       "q": "Which term means watch or monitor something?",
+       "r": "keep an eye on",
+       "w": [
+        "break the ice",
+        "be on the same page",
+        "lend a hand"
+       ],
+       "e": [
+        "That concerns help people begin interacting comfortably, rather than watch or monitor something.",
+        "That concerns share an understanding, rather than watch or monitor something.",
+        "That concerns help with a task, rather than watch or monitor something."
+       ],
+       "y": "The request is for attention to time."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-19-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The host used introductions to break the ice.\nWhich description best fits the selected feature?",
+       "r": "break the ice",
+       "w": [
+        "be on the same page",
+        "lend a hand",
+        "keep an eye on"
+       ],
+       "e": [
+        "That means share an understanding. The selected feature instead illustrates help people begin interacting comfortably.",
+        "That means help with a task. The selected feature instead illustrates help people begin interacting comfortably.",
+        "That means watch or monitor something. The selected feature instead illustrates help people begin interacting comfortably."
+       ],
+       "y": "The social context means easing initial awkwardness."
+      },
+      {
+       "q": "Let us check that we are on the same page about the plan.\nWhich description best fits the selected feature?",
+       "r": "be on the same page",
+       "w": [
+        "break the ice",
+        "lend a hand",
+        "keep an eye on"
+       ],
+       "e": [
+        "That means help people begin interacting comfortably. The selected feature instead illustrates share an understanding.",
+        "That means help with a task. The selected feature instead illustrates share an understanding.",
+        "That means watch or monitor something. The selected feature instead illustrates share an understanding."
+       ],
+       "y": "The context concerns shared understanding."
+      },
+      {
+       "q": "Could you lend a hand with the chairs?\nWhich description best fits the selected feature?",
+       "r": "lend a hand",
+       "w": [
+        "break the ice",
+        "be on the same page",
+        "keep an eye on"
+       ],
+       "e": [
+        "That means help people begin interacting comfortably. The selected feature instead illustrates help with a task.",
+        "That means share an understanding. The selected feature instead illustrates help with a task.",
+        "That means watch or monitor something. The selected feature instead illustrates help with a task."
+       ],
+       "y": "The request is for assistance."
+      },
+      {
+       "q": "Please keep an eye on the time during rehearsal.\nWhich description best fits the selected feature?",
+       "r": "keep an eye on",
+       "w": [
+        "break the ice",
+        "be on the same page",
+        "lend a hand"
+       ],
+       "e": [
+        "That means help people begin interacting comfortably. The selected feature instead illustrates watch or monitor something.",
+        "That means share an understanding. The selected feature instead illustrates watch or monitor something.",
+        "That means help with a task. The selected feature instead illustrates watch or monitor something."
+       ],
+       "y": "The request is for attention to time."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-19-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The host used introductions to break the ice. What does the idiom mean?",
+       "r": "help people begin interacting comfortably",
+       "w": [
+        "share an understanding",
+        "help with a task",
+        "watch or monitor something"
+       ],
+       "e": [
+        "That explains be on the same page, rather than break the ice here.",
+        "That explains lend a hand, rather than break the ice here.",
+        "That explains keep an eye on, rather than break the ice here."
+       ],
+       "y": "The social context means easing initial awkwardness."
+      },
+      {
+       "q": "Let us check that we are on the same page about the plan. What does the idiom mean?",
+       "r": "share an understanding",
+       "w": [
+        "help people begin interacting comfortably",
+        "help with a task",
+        "watch or monitor something"
+       ],
+       "e": [
+        "That explains break the ice, rather than be on the same page here.",
+        "That explains lend a hand, rather than be on the same page here.",
+        "That explains keep an eye on, rather than be on the same page here."
+       ],
+       "y": "The context concerns shared understanding."
+      },
+      {
+       "q": "Could you lend a hand with the chairs? What does the idiom mean?",
+       "r": "help with a task",
+       "w": [
+        "help people begin interacting comfortably",
+        "share an understanding",
+        "watch or monitor something"
+       ],
+       "e": [
+        "That explains break the ice, rather than lend a hand here.",
+        "That explains be on the same page, rather than lend a hand here.",
+        "That explains keep an eye on, rather than lend a hand here."
+       ],
+       "y": "The request is for assistance."
+      },
+      {
+       "q": "Please keep an eye on the time during rehearsal. What does the idiom mean?",
+       "r": "watch or monitor something",
+       "w": [
+        "help people begin interacting comfortably",
+        "share an understanding",
+        "help with a task"
+       ],
+       "e": [
+        "That explains break the ice, rather than keep an eye on here.",
+        "That explains be on the same page, rather than keep an eye on here.",
+        "That explains lend a hand, rather than keep an eye on here."
+       ],
+       "y": "The request is for attention to time."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-19-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "break the ice",
+     "right": "The host used introductions to break the ice."
+    },
+    {
+     "left": "be on the same page",
+     "right": "Let us check that we are on the same page about the plan."
+    },
+    {
+     "left": "lend a hand",
+     "right": "Could you lend a hand with the chairs?"
+    },
+    {
+     "left": "keep an eye on",
+     "right": "Please keep an eye on the time during rehearsal."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e5-19-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "break the ice: help people begin interacting comfortably.",
+      "truth": "true",
+      "explain": "This is correct: help people begin interacting comfortably. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "be on the same page: share an understanding.",
+      "truth": "true",
+      "explain": "This is correct: share an understanding. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "lend a hand: help with a task.",
+      "truth": "true",
+      "explain": "This is correct: help with a task. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "keep an eye on: watch or monitor something.",
+      "truth": "true",
+      "explain": "This is correct: watch or monitor something. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The host physically shattered a frozen lake.",
+      "truth": "false",
+      "explain": "The social context means easing initial awkwardness."
+     },
+     {
+      "text": "Everyone must stare at one physical sheet.",
+      "truth": "false",
+      "explain": "The context concerns shared understanding."
+     },
+     {
+      "text": "Detach a hand and give it away.",
+      "truth": "false",
+      "explain": "The request is for assistance."
+     },
+     {
+      "text": "Place an eye on the clock.",
+      "truth": "false",
+      "explain": "The request is for attention to time."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

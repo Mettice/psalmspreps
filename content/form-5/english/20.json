@@ -1,0 +1,550 @@
+{
+ "subject": "english-language",
+ "class": "Form 5",
+ "lesson_no": 20,
+ "language": "en",
+ "prerequisites": [
+  7,
+  19
+ ],
+ "skills": [
+  {
+   "id": "e5-20",
+   "name": "Writing a narrative essay"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A narrative develops events through a viewpoint. A complication motivates action; choices and consequences make the sequence more than a timetable. Select details contributing to action or meaning. Keep a clear time frame, with tense changes justified by relationships. Dialogue should reveal a concern or advance the event. A resolution shows change without necessarily solving every future problem. The original model is not prescribed literature.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to develop a consistent viewpoint and causal events leading to resolution. Builds on: essay organisation, tense choices and dialogue. Leads to: reported viewpoints and tense sequence."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "A narrative develops events through a viewpoint. A complication motivates action; choices and consequences make the sequence more than a timetable. Select details contributing to action or meaning. Keep a clear time frame, with tense changes justified by relationships. Dialogue should reveal a concern or advance the event. A resolution shows change without necessarily solving every future problem. The original model is not prescribed literature."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original model extract: I reached the reading room carrying the notice I had copied that morning. Visitors were gathering, but the door was locked. I looked at my handwriting and feared I had ruined the event."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Identify the audience, purpose and required content. Plan the order, draft in your own words and check each feature against the model. Explain why an edit improves the answer."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "narrative viewpoint",
+    "meaning": "the perspective presenting events"
+   },
+   {
+    "word": "complication",
+    "meaning": "a problem motivating consequential action"
+   },
+   {
+    "word": "causal development",
+    "meaning": "events linked through choices and consequences"
+   },
+   {
+    "word": "resolution and reflection",
+    "meaning": "an ending showing change and significance"
+   }
+  ],
+  "mistake": {
+   "wrong": "A first-person narrator automatically knows every private thought.",
+   "right": "narrative viewpoint: the perspective presenting events.",
+   "why": "The viewpoint gives the narrator’s experience, not all minds."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "I reached the room and feared I had ruined the event. Explain the selected feature.",
+  "steps": [
+   "The perspective presenting events.",
+   "The viewpoint gives the narrator’s experience, not all minds."
+  ],
+  "answer": "narrative viewpoint",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e5-20-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "narrative viewpoint: the perspective presenting events.",
+     "complication: a problem motivating consequential action.",
+     "causal development: events linked through choices and consequences.",
+     "resolution and reflection: an ending showing change and significance."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-20-terms"
+    }
+   },
+   {
+    "id": "e5-20-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "I reached the room and feared I had ruined the event.",
+     "Visitors gather while the room is locked.",
+     "The narrator admits the mistake and seeks help.",
+     "The notice is corrected and the narrator reflects."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-20-cases"
+    }
+   },
+   {
+    "id": "e5-20-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "A first-person narrator automatically knows every private thought. Correction: The viewpoint gives the narrator’s experience, not all minds.",
+     "The problem must be unrelated to later choices. Correction: The complication motivates relevant action.",
+     "Disconnected times alone develop a meaningful narrative. Correction: Choices and consequences link events.",
+     "An ending must erase every consequence. Correction: Change can coexist with remaining consequences."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e5-20-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "narrative viewpoint: the perspective presenting events.",
+        "truth": "true",
+        "explain": "This is correct: the perspective presenting events. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "complication: a problem motivating consequential action.",
+        "truth": "true",
+        "explain": "This is correct: a problem motivating consequential action. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "causal development: events linked through choices and consequences.",
+        "truth": "true",
+        "explain": "This is correct: events linked through choices and consequences. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "resolution and reflection: an ending showing change and significance.",
+        "truth": "true",
+        "explain": "This is correct: an ending showing change and significance. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A first-person narrator automatically knows every private thought.",
+        "truth": "false",
+        "explain": "The viewpoint gives the narrator’s experience, not all minds."
+       },
+       {
+        "text": "The problem must be unrelated to later choices.",
+        "truth": "false",
+        "explain": "The complication motivates relevant action."
+       },
+       {
+        "text": "Disconnected times alone develop a meaningful narrative.",
+        "truth": "false",
+        "explain": "Choices and consequences link events."
+       },
+       {
+        "text": "An ending must erase every consequence.",
+        "truth": "false",
+        "explain": "Change can coexist with remaining consequences."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e5-20-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means the perspective presenting events?",
+       "r": "narrative viewpoint",
+       "w": [
+        "complication",
+        "causal development",
+        "resolution and reflection"
+       ],
+       "e": [
+        "That concerns a problem motivating consequential action, rather than the perspective presenting events.",
+        "That concerns events linked through choices and consequences, rather than the perspective presenting events.",
+        "That concerns an ending showing change and significance, rather than the perspective presenting events."
+       ],
+       "y": "The viewpoint gives the narrator’s experience, not all minds."
+      },
+      {
+       "q": "Which term means a problem motivating consequential action?",
+       "r": "complication",
+       "w": [
+        "narrative viewpoint",
+        "causal development",
+        "resolution and reflection"
+       ],
+       "e": [
+        "That concerns the perspective presenting events, rather than a problem motivating consequential action.",
+        "That concerns events linked through choices and consequences, rather than a problem motivating consequential action.",
+        "That concerns an ending showing change and significance, rather than a problem motivating consequential action."
+       ],
+       "y": "The complication motivates relevant action."
+      },
+      {
+       "q": "Which term means events linked through choices and consequences?",
+       "r": "causal development",
+       "w": [
+        "narrative viewpoint",
+        "complication",
+        "resolution and reflection"
+       ],
+       "e": [
+        "That concerns the perspective presenting events, rather than events linked through choices and consequences.",
+        "That concerns a problem motivating consequential action, rather than events linked through choices and consequences.",
+        "That concerns an ending showing change and significance, rather than events linked through choices and consequences."
+       ],
+       "y": "Choices and consequences link events."
+      },
+      {
+       "q": "Which term means an ending showing change and significance?",
+       "r": "resolution and reflection",
+       "w": [
+        "narrative viewpoint",
+        "complication",
+        "causal development"
+       ],
+       "e": [
+        "That concerns the perspective presenting events, rather than an ending showing change and significance.",
+        "That concerns a problem motivating consequential action, rather than an ending showing change and significance.",
+        "That concerns events linked through choices and consequences, rather than an ending showing change and significance."
+       ],
+       "y": "Change can coexist with remaining consequences."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-20-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "I reached the room and feared I had ruined the event.\nWhich description best fits the selected feature?",
+       "r": "narrative viewpoint",
+       "w": [
+        "complication",
+        "causal development",
+        "resolution and reflection"
+       ],
+       "e": [
+        "That means a problem motivating consequential action. The selected feature instead illustrates the perspective presenting events.",
+        "That means events linked through choices and consequences. The selected feature instead illustrates the perspective presenting events.",
+        "That means an ending showing change and significance. The selected feature instead illustrates the perspective presenting events."
+       ],
+       "y": "The viewpoint gives the narrator’s experience, not all minds."
+      },
+      {
+       "q": "Visitors gather while the room is locked.\nWhich description best fits the selected feature?",
+       "r": "complication",
+       "w": [
+        "narrative viewpoint",
+        "causal development",
+        "resolution and reflection"
+       ],
+       "e": [
+        "That means the perspective presenting events. The selected feature instead illustrates a problem motivating consequential action.",
+        "That means events linked through choices and consequences. The selected feature instead illustrates a problem motivating consequential action.",
+        "That means an ending showing change and significance. The selected feature instead illustrates a problem motivating consequential action."
+       ],
+       "y": "The complication motivates relevant action."
+      },
+      {
+       "q": "The narrator admits the mistake and seeks help.\nWhich description best fits the selected feature?",
+       "r": "causal development",
+       "w": [
+        "narrative viewpoint",
+        "complication",
+        "resolution and reflection"
+       ],
+       "e": [
+        "That means the perspective presenting events. The selected feature instead illustrates events linked through choices and consequences.",
+        "That means a problem motivating consequential action. The selected feature instead illustrates events linked through choices and consequences.",
+        "That means an ending showing change and significance. The selected feature instead illustrates events linked through choices and consequences."
+       ],
+       "y": "Choices and consequences link events."
+      },
+      {
+       "q": "The notice is corrected and the narrator reflects.\nWhich description best fits the selected feature?",
+       "r": "resolution and reflection",
+       "w": [
+        "narrative viewpoint",
+        "complication",
+        "causal development"
+       ],
+       "e": [
+        "That means the perspective presenting events. The selected feature instead illustrates an ending showing change and significance.",
+        "That means a problem motivating consequential action. The selected feature instead illustrates an ending showing change and significance.",
+        "That means events linked through choices and consequences. The selected feature instead illustrates an ending showing change and significance."
+       ],
+       "y": "Change can coexist with remaining consequences."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-20-build",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "I reached the room and feared I had ruined the event.",
+       "b": "I reached the room and feared I had ruined the event."
+      },
+      {
+       "a": "Visitors gather while the room is locked.",
+       "b": "Visitors gather while the room is locked."
+      },
+      {
+       "a": "The narrator admits the mistake and seeks help.",
+       "b": "The narrator admits the mistake and seeks help."
+      },
+      {
+       "a": "The notice is corrected and the narrator reflects.",
+       "b": "The notice is corrected and the narrator reflects."
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e5-20-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "narrative viewpoint",
+     "right": "I reached the room and feared I had ruined the event."
+    },
+    {
+     "left": "complication",
+     "right": "Visitors gather while the room is locked."
+    },
+    {
+     "left": "causal development",
+     "right": "The narrator admits the mistake and seeks help."
+    },
+    {
+     "left": "resolution and reflection",
+     "right": "The notice is corrected and the narrator reflects."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e5-20-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "narrative viewpoint: the perspective presenting events.",
+      "truth": "true",
+      "explain": "This is correct: the perspective presenting events. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "complication: a problem motivating consequential action.",
+      "truth": "true",
+      "explain": "This is correct: a problem motivating consequential action. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "causal development: events linked through choices and consequences.",
+      "truth": "true",
+      "explain": "This is correct: events linked through choices and consequences. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "resolution and reflection: an ending showing change and significance.",
+      "truth": "true",
+      "explain": "This is correct: an ending showing change and significance. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A first-person narrator automatically knows every private thought.",
+      "truth": "false",
+      "explain": "The viewpoint gives the narrator’s experience, not all minds."
+     },
+     {
+      "text": "The problem must be unrelated to later choices.",
+      "truth": "false",
+      "explain": "The complication motivates relevant action."
+     },
+     {
+      "text": "Disconnected times alone develop a meaningful narrative.",
+      "truth": "false",
+      "explain": "Choices and consequences link events."
+     },
+     {
+      "text": "An ending must erase every consequence.",
+      "truth": "false",
+      "explain": "Change can coexist with remaining consequences."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "checks": [],
+  "prompt": "Write a narrative where an unconfirmed detail causes difficulty. Maintain viewpoint, develop a choice and consequence, and end with resolution or reflection. Include dialogue only where relevant.",
+  "model": [
+   "I reached the reading room carrying the notice I had copied that morning. Visitors were gathering, but the door was locked. I looked at my handwriting and feared I had ruined the event.",
+   "“Who confirmed this room?” Manka asked. I started to say everyone had mentioned it. Then I remembered the coordinator’s words: the room was still a suggestion. I had turned a possibility into an instruction. Instead of blaming the caretaker, I admitted the mistake and asked Manka to help find the teacher.",
+   "The teacher arranged an available supervised space while we explained the change. The beginning was delayed, and some visitors had to leave. We could not undo that inconvenience. Afterwards I corrected the notice and marked the new arrangement clearly.",
+   "When I folded the old sheet away, it no longer looked like a small copying mistake. Repeating a detail confidently was different from checking it."
+  ],
+  "checklist": [
+   "Narrative viewpoint: the perspective presenting events.",
+   "Complication: a problem motivating consequential action.",
+   "Causal development: events linked through choices and consequences.",
+   "Resolution and reflection: an ending showing change and significance.",
+   "Use relevant original details and check sentence boundaries, agreement and spelling."
+  ]
+ }
+}

@@ -1,0 +1,547 @@
+{
+ "subject": "english-language",
+ "class": "Form 5",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "e5-3",
+   "name": "Speaking preparation: explaining an effective study plan"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A useful explanation identifies a particular difficulty and links an action to it. Describing a study plan is different from promising instant success for everyone. An example helps an audience understand the proposed action; acknowledging a constraint makes the plan clearer. This lesson prepares written speaking notes. A teacher or partner should later listen, ask a follow-up question and assess clarity, pronunciation and interaction separately.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to prepare a study explanation with a reason, example and realistic adjustment. Builds on: word functions and earlier study routines. Leads to: listening preparation and purposeful essay planning."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "A useful explanation identifies a particular difficulty and links an action to it. Describing a study plan is different from promising instant success for everyone. An example helps an audience understand the proposed action; acknowledging a constraint makes the plan clearer. This lesson prepares written speaking notes. A teacher or partner should later listen, ask a follow-up question and assess clarity, pronunciation and interaction separately."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original model extract: I recognise a definition while looking at it but sometimes cannot explain it with the page closed. My plan is to recall an idea, check the attempt and correct a gap. For example, I can explain a word to a partner before comparing my explanation with the lesson."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Identify the audience, purpose and required content. Plan the order, draft in your own words and check each feature against the model. Explain why an edit improves the answer."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "specific difficulty",
+    "meaning": "the particular problem to address"
+   },
+   {
+    "word": "reasoned action",
+    "meaning": "a proposed step linked to the difficulty"
+   },
+   {
+    "word": "illustrating example",
+    "meaning": "a concrete case clarifying an explanation"
+   },
+   {
+    "word": "practical adjustment",
+    "meaning": "a change recognising a constraint"
+   }
+  ],
+  "mistake": {
+   "wrong": "A study explanation must conceal the difficulty.",
+   "right": "specific difficulty: the particular problem to address.",
+   "why": "Naming the problem makes the response relevant."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "I recognise a definition but cannot explain it later. Explain the selected feature.",
+  "steps": [
+   "The particular problem to address.",
+   "Naming the problem makes the response relevant."
+  ],
+  "answer": "specific difficulty",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e5-3-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "specific difficulty: the particular problem to address.",
+     "reasoned action: a proposed step linked to the difficulty.",
+     "illustrating example: a concrete case clarifying an explanation.",
+     "practical adjustment: a change recognising a constraint."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-3-terms"
+    }
+   },
+   {
+    "id": "e5-3-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "I recognise a definition but cannot explain it later.",
+     "I will recall an idea before checking it.",
+     "I can explain a word to a partner.",
+     "If time changes, I will shorten the activity."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-3-cases"
+    }
+   },
+   {
+    "id": "e5-3-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "A study explanation must conceal the difficulty. Correction: Naming the problem makes the response relevant.",
+     "Copying a plan proves mastery already. Correction: A proposal and demonstrated learning are different.",
+     "An example must be unrelated to the action. Correction: It should illustrate the proposed action.",
+     "A plan guarantees identical outcomes for everyone. Correction: Constraints and outcomes differ."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e5-3-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "specific difficulty: the particular problem to address.",
+        "truth": "true",
+        "explain": "This is correct: the particular problem to address. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "reasoned action: a proposed step linked to the difficulty.",
+        "truth": "true",
+        "explain": "This is correct: a proposed step linked to the difficulty. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "illustrating example: a concrete case clarifying an explanation.",
+        "truth": "true",
+        "explain": "This is correct: a concrete case clarifying an explanation. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "practical adjustment: a change recognising a constraint.",
+        "truth": "true",
+        "explain": "This is correct: a change recognising a constraint. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A study explanation must conceal the difficulty.",
+        "truth": "false",
+        "explain": "Naming the problem makes the response relevant."
+       },
+       {
+        "text": "Copying a plan proves mastery already.",
+        "truth": "false",
+        "explain": "A proposal and demonstrated learning are different."
+       },
+       {
+        "text": "An example must be unrelated to the action.",
+        "truth": "false",
+        "explain": "It should illustrate the proposed action."
+       },
+       {
+        "text": "A plan guarantees identical outcomes for everyone.",
+        "truth": "false",
+        "explain": "Constraints and outcomes differ."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e5-3-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means the particular problem to address?",
+       "r": "specific difficulty",
+       "w": [
+        "reasoned action",
+        "illustrating example",
+        "practical adjustment"
+       ],
+       "e": [
+        "That concerns a proposed step linked to the difficulty, rather than the particular problem to address.",
+        "That concerns a concrete case clarifying an explanation, rather than the particular problem to address.",
+        "That concerns a change recognising a constraint, rather than the particular problem to address."
+       ],
+       "y": "Naming the problem makes the response relevant."
+      },
+      {
+       "q": "Which term means a proposed step linked to the difficulty?",
+       "r": "reasoned action",
+       "w": [
+        "specific difficulty",
+        "illustrating example",
+        "practical adjustment"
+       ],
+       "e": [
+        "That concerns the particular problem to address, rather than a proposed step linked to the difficulty.",
+        "That concerns a concrete case clarifying an explanation, rather than a proposed step linked to the difficulty.",
+        "That concerns a change recognising a constraint, rather than a proposed step linked to the difficulty."
+       ],
+       "y": "A proposal and demonstrated learning are different."
+      },
+      {
+       "q": "Which term means a concrete case clarifying an explanation?",
+       "r": "illustrating example",
+       "w": [
+        "specific difficulty",
+        "reasoned action",
+        "practical adjustment"
+       ],
+       "e": [
+        "That concerns the particular problem to address, rather than a concrete case clarifying an explanation.",
+        "That concerns a proposed step linked to the difficulty, rather than a concrete case clarifying an explanation.",
+        "That concerns a change recognising a constraint, rather than a concrete case clarifying an explanation."
+       ],
+       "y": "It should illustrate the proposed action."
+      },
+      {
+       "q": "Which term means a change recognising a constraint?",
+       "r": "practical adjustment",
+       "w": [
+        "specific difficulty",
+        "reasoned action",
+        "illustrating example"
+       ],
+       "e": [
+        "That concerns the particular problem to address, rather than a change recognising a constraint.",
+        "That concerns a proposed step linked to the difficulty, rather than a change recognising a constraint.",
+        "That concerns a concrete case clarifying an explanation, rather than a change recognising a constraint."
+       ],
+       "y": "Constraints and outcomes differ."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-3-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "I recognise a definition but cannot explain it later.\nWhich description best fits the selected feature?",
+       "r": "specific difficulty",
+       "w": [
+        "reasoned action",
+        "illustrating example",
+        "practical adjustment"
+       ],
+       "e": [
+        "That means a proposed step linked to the difficulty. The selected feature instead illustrates the particular problem to address.",
+        "That means a concrete case clarifying an explanation. The selected feature instead illustrates the particular problem to address.",
+        "That means a change recognising a constraint. The selected feature instead illustrates the particular problem to address."
+       ],
+       "y": "Naming the problem makes the response relevant."
+      },
+      {
+       "q": "I will recall an idea before checking it.\nWhich description best fits the selected feature?",
+       "r": "reasoned action",
+       "w": [
+        "specific difficulty",
+        "illustrating example",
+        "practical adjustment"
+       ],
+       "e": [
+        "That means the particular problem to address. The selected feature instead illustrates a proposed step linked to the difficulty.",
+        "That means a concrete case clarifying an explanation. The selected feature instead illustrates a proposed step linked to the difficulty.",
+        "That means a change recognising a constraint. The selected feature instead illustrates a proposed step linked to the difficulty."
+       ],
+       "y": "A proposal and demonstrated learning are different."
+      },
+      {
+       "q": "I can explain a word to a partner.\nWhich description best fits the selected feature?",
+       "r": "illustrating example",
+       "w": [
+        "specific difficulty",
+        "reasoned action",
+        "practical adjustment"
+       ],
+       "e": [
+        "That means the particular problem to address. The selected feature instead illustrates a concrete case clarifying an explanation.",
+        "That means a proposed step linked to the difficulty. The selected feature instead illustrates a concrete case clarifying an explanation.",
+        "That means a change recognising a constraint. The selected feature instead illustrates a concrete case clarifying an explanation."
+       ],
+       "y": "It should illustrate the proposed action."
+      },
+      {
+       "q": "If time changes, I will shorten the activity.\nWhich description best fits the selected feature?",
+       "r": "practical adjustment",
+       "w": [
+        "specific difficulty",
+        "reasoned action",
+        "illustrating example"
+       ],
+       "e": [
+        "That means the particular problem to address. The selected feature instead illustrates a change recognising a constraint.",
+        "That means a proposed step linked to the difficulty. The selected feature instead illustrates a change recognising a constraint.",
+        "That means a concrete case clarifying an explanation. The selected feature instead illustrates a change recognising a constraint."
+       ],
+       "y": "Constraints and outcomes differ."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-3-build",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "I recognise a definition but cannot explain it later.",
+       "b": "I recognise a definition but cannot explain it later."
+      },
+      {
+       "a": "I will recall an idea before checking it.",
+       "b": "I will recall an idea before checking it."
+      },
+      {
+       "a": "I can explain a word to a partner.",
+       "b": "I can explain a word to a partner."
+      },
+      {
+       "a": "If time changes, I will shorten the activity.",
+       "b": "If time changes, I will shorten the activity."
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e5-3-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "specific difficulty",
+     "right": "I recognise a definition but cannot explain it later."
+    },
+    {
+     "left": "reasoned action",
+     "right": "I will recall an idea before checking it."
+    },
+    {
+     "left": "illustrating example",
+     "right": "I can explain a word to a partner."
+    },
+    {
+     "left": "practical adjustment",
+     "right": "If time changes, I will shorten the activity."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e5-3-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "specific difficulty: the particular problem to address.",
+      "truth": "true",
+      "explain": "This is correct: the particular problem to address. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "reasoned action: a proposed step linked to the difficulty.",
+      "truth": "true",
+      "explain": "This is correct: a proposed step linked to the difficulty. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "illustrating example: a concrete case clarifying an explanation.",
+      "truth": "true",
+      "explain": "This is correct: a concrete case clarifying an explanation. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "practical adjustment: a change recognising a constraint.",
+      "truth": "true",
+      "explain": "This is correct: a change recognising a constraint. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A study explanation must conceal the difficulty.",
+      "truth": "false",
+      "explain": "Naming the problem makes the response relevant."
+     },
+     {
+      "text": "Copying a plan proves mastery already.",
+      "truth": "false",
+      "explain": "A proposal and demonstrated learning are different."
+     },
+     {
+      "text": "An example must be unrelated to the action.",
+      "truth": "false",
+      "explain": "It should illustrate the proposed action."
+     },
+     {
+      "text": "A plan guarantees identical outcomes for everyone.",
+      "truth": "false",
+      "explain": "Constraints and outcomes differ."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "checks": [],
+  "prompt": "Prepare notes explaining a study difficulty, an action, an example and an adjustment. Rehearse with a partner if possible; this screen assesses written preparation only.",
+  "model": [
+   "I recognise a definition while looking at it but sometimes cannot explain it with the page closed. My plan is to recall an idea, check the attempt and correct a gap. For example, I can explain a word to a partner before comparing my explanation with the lesson.",
+   "I will begin after my household tasks. If the available time changes, I will shorten the activity rather than claim I completed it. My partner can ask what supports my explanation. This is a plan to try and review, not a guarantee of a particular examination result."
+  ],
+  "checklist": [
+   "Specific difficulty: the particular problem to address.",
+   "Reasoned action: a proposed step linked to the difficulty.",
+   "Illustrating example: a concrete case clarifying an explanation.",
+   "Practical adjustment: a change recognising a constraint.",
+   "Use relevant original details and check sentence boundaries, agreement and spelling."
+  ]
+ }
+}

@@ -1,0 +1,601 @@
+{
+ "subject": "english-language",
+ "class": "Form 5",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "e5-2",
+   "name": "Reviewing parts of speech and spelling rules"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A word’s class depends on its use: record can name a document or function as a verb. Adjectives modify nouns; adverbs can modify actions or other expressions, but endings alone do not identify every class. Inflectional spelling also depends on the base: write gives writing, plan gives planned, and study gives studied. A final -e, a consonant before y and a short stressed vowel can matter in different rules. There are exceptions and different patterns: use the relevant model rather than applying a doubling rule to all verbs.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to classify a word by its use and apply a supported inflectional spelling pattern. Builds on: Form Four word classes and computed verb forms. Leads to: study explanations, tense revision and sentence structure."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "A word’s class depends on its use: record can name a document or function as a verb. Adjectives modify nouns; adverbs can modify actions or other expressions, but endings alone do not identify every class. Inflectional spelling also depends on the base: write gives writing, plan gives planned, and study gives studied. A final -e, a consonant before y and a short stressed vowel can matter in different rules. There are exceptions and different patterns: use the relevant model rather than applying a doubling rule to all verbs."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original models: The careful member reviews a clear record. Members record their decision carefully. Compare {ing(\"write\")}, {past(\"plan\")} and {past(\"study\")}. Careful describes a member; carefully describes the manner of reviewing or recording in an appropriate sentence. The grammatical role and the spelling operation need separate explanations."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Read the whole phrase, identify what the word contributes, then state the spelling change required. Check the base and suffix. Do not assume that every word ending in -ly must be an adverb or that every -ed form doubles a consonant."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "word class in use",
+    "meaning": "a classification based on a word’s function in context"
+   },
+   {
+    "word": "adjective",
+    "meaning": "a modifier of a noun in the model"
+   },
+   {
+    "word": "silent-e change",
+    "meaning": "dropping final silent e before -ing in the studied model"
+   },
+   {
+    "word": "consonant doubling",
+    "meaning": "the spelling change illustrated by the stressed short-vowel model plan"
+   }
+  ],
+  "mistake": {
+   "wrong": "A spelling can never belong to different word classes.",
+   "right": "word class in use: a classification based on a word’s function in context.",
+   "why": "The noun and verb uses show why context matters."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Record names a document in a clear record. Explain the selected feature.",
+  "steps": [
+   "A classification based on a word’s function in context.",
+   "The noun and verb uses show why context matters."
+  ],
+  "answer": "word class in use",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e5-2-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "word class in use: a classification based on a word’s function in context.",
+     "adjective: a modifier of a noun in the model.",
+     "silent-e change: dropping final silent e before -ing in the studied model.",
+     "consonant doubling: the spelling change illustrated by the stressed short-vowel model plan."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-2-terms"
+    }
+   },
+   {
+    "id": "e5-2-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "Record names a document in a clear record.",
+     "Careful modifies member in a careful member.",
+     "Write gives {ing(\"write\")}.",
+     "Plan gives {past(\"plan\")}."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-2-cases"
+    }
+   },
+   {
+    "id": "e5-2-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "A spelling can never belong to different word classes. Correction: The noun and verb uses show why context matters.",
+     "Careful is necessarily the finite verb of the clause. Correction: It describes the noun rather than carrying the clause’s tense.",
+     "Write must give writeing in this model. Correction: The computed model drops the final silent e.",
+     "Every English verb doubles its final consonant before every suffix. Correction: Doubling depends on the spelling and stress pattern, not a universal instruction."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e5-2-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "word class in use: a classification based on a word’s function in context.",
+        "truth": "true",
+        "explain": "This is correct: a classification based on a word’s function in context. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "adjective: a modifier of a noun in the model.",
+        "truth": "true",
+        "explain": "This is correct: a modifier of a noun in the model. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "silent-e change: dropping final silent e before -ing in the studied model.",
+        "truth": "true",
+        "explain": "This is correct: dropping final silent e before -ing in the studied model. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "consonant doubling: the spelling change illustrated by the stressed short-vowel model plan.",
+        "truth": "true",
+        "explain": "This is correct: the spelling change illustrated by the stressed short-vowel model plan. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A spelling can never belong to different word classes.",
+        "truth": "false",
+        "explain": "The noun and verb uses show why context matters."
+       },
+       {
+        "text": "Careful is necessarily the finite verb of the clause.",
+        "truth": "false",
+        "explain": "It describes the noun rather than carrying the clause’s tense."
+       },
+       {
+        "text": "Write must give writeing in this model.",
+        "truth": "false",
+        "explain": "The computed model drops the final silent e."
+       },
+       {
+        "text": "Every English verb doubles its final consonant before every suffix.",
+        "truth": "false",
+        "explain": "Doubling depends on the spelling and stress pattern, not a universal instruction."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e5-2-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a classification based on a word’s function in context?",
+       "r": "word class in use",
+       "w": [
+        "adjective",
+        "silent-e change",
+        "consonant doubling"
+       ],
+       "e": [
+        "That concerns a modifier of a noun in the model, rather than a classification based on a word’s function in context.",
+        "That concerns dropping final silent e before -ing in the studied model, rather than a classification based on a word’s function in context.",
+        "That concerns the spelling change illustrated by the stressed short-vowel model plan, rather than a classification based on a word’s function in context."
+       ],
+       "y": "The noun and verb uses show why context matters."
+      },
+      {
+       "q": "Which term means a modifier of a noun in the model?",
+       "r": "adjective",
+       "w": [
+        "word class in use",
+        "silent-e change",
+        "consonant doubling"
+       ],
+       "e": [
+        "That concerns a classification based on a word’s function in context, rather than a modifier of a noun in the model.",
+        "That concerns dropping final silent e before -ing in the studied model, rather than a modifier of a noun in the model.",
+        "That concerns the spelling change illustrated by the stressed short-vowel model plan, rather than a modifier of a noun in the model."
+       ],
+       "y": "It describes the noun rather than carrying the clause’s tense."
+      },
+      {
+       "q": "Which term means dropping final silent e before -ing in the studied model?",
+       "r": "silent-e change",
+       "w": [
+        "word class in use",
+        "adjective",
+        "consonant doubling"
+       ],
+       "e": [
+        "That concerns a classification based on a word’s function in context, rather than dropping final silent e before -ing in the studied model.",
+        "That concerns a modifier of a noun in the model, rather than dropping final silent e before -ing in the studied model.",
+        "That concerns the spelling change illustrated by the stressed short-vowel model plan, rather than dropping final silent e before -ing in the studied model."
+       ],
+       "y": "The computed model drops the final silent e."
+      },
+      {
+       "q": "Which term means the spelling change illustrated by the stressed short-vowel model plan?",
+       "r": "consonant doubling",
+       "w": [
+        "word class in use",
+        "adjective",
+        "silent-e change"
+       ],
+       "e": [
+        "That concerns a classification based on a word’s function in context, rather than the spelling change illustrated by the stressed short-vowel model plan.",
+        "That concerns a modifier of a noun in the model, rather than the spelling change illustrated by the stressed short-vowel model plan.",
+        "That concerns dropping final silent e before -ing in the studied model, rather than the spelling change illustrated by the stressed short-vowel model plan."
+       ],
+       "y": "Doubling depends on the spelling and stress pattern, not a universal instruction."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-2-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Record names a document in a clear record.\nWhich description best fits the selected feature?",
+       "r": "word class in use",
+       "w": [
+        "adjective",
+        "silent-e change",
+        "consonant doubling"
+       ],
+       "e": [
+        "That means a modifier of a noun in the model. The selected feature instead illustrates a classification based on a word’s function in context.",
+        "That means dropping final silent e before -ing in the studied model. The selected feature instead illustrates a classification based on a word’s function in context.",
+        "That means the spelling change illustrated by the stressed short-vowel model plan. The selected feature instead illustrates a classification based on a word’s function in context."
+       ],
+       "y": "The noun and verb uses show why context matters."
+      },
+      {
+       "q": "Careful modifies member in a careful member.\nWhich description best fits the selected feature?",
+       "r": "adjective",
+       "w": [
+        "word class in use",
+        "silent-e change",
+        "consonant doubling"
+       ],
+       "e": [
+        "That means a classification based on a word’s function in context. The selected feature instead illustrates a modifier of a noun in the model.",
+        "That means dropping final silent e before -ing in the studied model. The selected feature instead illustrates a modifier of a noun in the model.",
+        "That means the spelling change illustrated by the stressed short-vowel model plan. The selected feature instead illustrates a modifier of a noun in the model."
+       ],
+       "y": "It describes the noun rather than carrying the clause’s tense."
+      },
+      {
+       "q": "Write gives {ing(\"write\")}.\nWhich description best fits the selected feature?",
+       "r": "silent-e change",
+       "w": [
+        "word class in use",
+        "adjective",
+        "consonant doubling"
+       ],
+       "e": [
+        "That means a classification based on a word’s function in context. The selected feature instead illustrates dropping final silent e before -ing in the studied model.",
+        "That means a modifier of a noun in the model. The selected feature instead illustrates dropping final silent e before -ing in the studied model.",
+        "That means the spelling change illustrated by the stressed short-vowel model plan. The selected feature instead illustrates dropping final silent e before -ing in the studied model."
+       ],
+       "y": "The computed model drops the final silent e."
+      },
+      {
+       "q": "Plan gives {past(\"plan\")}.\nWhich description best fits the selected feature?",
+       "r": "consonant doubling",
+       "w": [
+        "word class in use",
+        "adjective",
+        "silent-e change"
+       ],
+       "e": [
+        "That means a classification based on a word’s function in context. The selected feature instead illustrates the spelling change illustrated by the stressed short-vowel model plan.",
+        "That means a modifier of a noun in the model. The selected feature instead illustrates the spelling change illustrated by the stressed short-vowel model plan.",
+        "That means dropping final silent e before -ing in the studied model. The selected feature instead illustrates the spelling change illustrated by the stressed short-vowel model plan."
+       ],
+       "y": "Doubling depends on the spelling and stress pattern, not a universal instruction."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-2-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Choose the spelling of the -ing form of write.",
+       "r": "{ing(\"write\")}",
+       "w": [
+        "writeing",
+        "writting",
+        "writen"
+       ],
+       "e": [
+        "The silent final e is dropped in this model.",
+        "This verb does not double t in its -ing form.",
+        "That does not form the required -ing spelling."
+       ],
+       "y": "Check the base and suffix rather than adding letters at random."
+      },
+      {
+       "q": "In a careful review, what is careful doing?",
+       "r": "Describing the noun review.",
+       "w": [
+        "Naming an action as the finite verb.",
+        "Replacing the whole subject as a personal pronoun.",
+        "Joining two clauses as a conjunction."
+       ],
+       "e": [
+        "Review is modified by the adjective.",
+        "Careful does not replace the subject.",
+        "It does not join clauses here."
+       ],
+       "y": "Classify the word in its sentence."
+      },
+      {
+       "q": "Which word is the verb in they record the decision?",
+       "r": "record",
+       "w": [
+        "they",
+        "the",
+        "decision"
+       ],
+       "e": [
+        "They is the subject pronoun.",
+        "The is a determiner.",
+        "Decision is a noun functioning within the object."
+       ],
+       "y": "The same spelling record can have a different class in the record is clear."
+      },
+      {
+       "q": "Choose the regular past spelling of plan.",
+       "r": "{past(\"plan\")}",
+       "w": [
+        "planed",
+        "planning",
+        "plans"
+       ],
+       "e": [
+        "The model doubles the final consonant before -ed.",
+        "This is the -ing form, not past tense.",
+        "This is a present singular form."
+       ],
+       "y": "Apply the relevant spelling pattern, not every rule to every verb."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-2-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "word class in use",
+     "right": "Record names a document in a clear record."
+    },
+    {
+     "left": "adjective",
+     "right": "Careful modifies member in a careful member."
+    },
+    {
+     "left": "silent-e change",
+     "right": "Write gives {ing(\"write\")}."
+    },
+    {
+     "left": "consonant doubling",
+     "right": "Plan gives {past(\"plan\")}."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e5-2-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "word class in use: a classification based on a word’s function in context.",
+      "truth": "true",
+      "explain": "This is correct: a classification based on a word’s function in context. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "adjective: a modifier of a noun in the model.",
+      "truth": "true",
+      "explain": "This is correct: a modifier of a noun in the model. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "silent-e change: dropping final silent e before -ing in the studied model.",
+      "truth": "true",
+      "explain": "This is correct: dropping final silent e before -ing in the studied model. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "consonant doubling: the spelling change illustrated by the stressed short-vowel model plan.",
+      "truth": "true",
+      "explain": "This is correct: the spelling change illustrated by the stressed short-vowel model plan. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A spelling can never belong to different word classes.",
+      "truth": "false",
+      "explain": "The noun and verb uses show why context matters."
+     },
+     {
+      "text": "Careful is necessarily the finite verb of the clause.",
+      "truth": "false",
+      "explain": "It describes the noun rather than carrying the clause’s tense."
+     },
+     {
+      "text": "Write must give writeing in this model.",
+      "truth": "false",
+      "explain": "The computed model drops the final silent e."
+     },
+     {
+      "text": "Every English verb doubles its final consonant before every suffix.",
+      "truth": "false",
+      "explain": "Doubling depends on the spelling and stress pattern, not a universal instruction."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

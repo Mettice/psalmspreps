@@ -1,6 +1,6 @@
-# Codex assigned content — coverage and teacher feedback
+# Codex earlier-batch content — coverage and teacher feedback
 
-Audit date: 2026-10-24. Scope: the assigned Form Three and Form Four Term One language/humanities/economics/logic subjects, Form Four Literature, and the two Form Two Term Three language quality batches. Forms Five and Sixth are not assigned in ASSIGNMENTS.md.
+Audit date: 2026-10-24. Scope: Form Three and Form Four Term One language/humanities/economics/logic subjects, Form Four Literature, and the two Form Two Term Three language quality batches. The newly authorised Form Five and Sixth work in ASSIGNMENTS.md is additional work outside this baseline; it is not claimed complete here.
 
 A draft is technically checked content awaiting teacher review, not a claim of classroom approval. A deferred row is explicitly awaiting teacher feedback and is not counted as written. Diagnostic/integration/revision rows are excluded under AUTHORING.md.
 

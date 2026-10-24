@@ -1,0 +1,605 @@
+{
+ "subject": "english-language",
+ "class": "Form 5",
+ "lesson_no": 11,
+ "language": "en",
+ "prerequisites": [
+  2,
+  4,
+  10
+ ],
+ "skills": [
+  {
+   "id": "e5-11",
+   "name": "Sentence structure"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A simple sentence has one independent clause; it can still have a compound subject or verb. A compound sentence has at least two independent clauses. A complex sentence has an independent clause and at least one dependent clause. A compound-complex sentence combines at least two independent clauses with a dependent clause. Length and the mere presence of and do not determine the type. A comma alone does not normally join independent clauses in formal writing; use an appropriate conjunction or punctuation.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to distinguish independent and dependent clauses and repair clause connections. Builds on: word functions and tense patterns. Leads to: punctuation and connected written arguments."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "A simple sentence has one independent clause; it can still have a compound subject or verb. A compound sentence has at least two independent clauses. A complex sentence has an independent clause and at least one dependent clause. A compound-complex sentence combines at least two independent clauses with a dependent clause. Length and the mere presence of and do not determine the type. A comma alone does not normally join independent clauses in formal writing; use an appropriate conjunction or punctuation."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original set: Bih and Ayuk read quietly: simple. Bih reads, and Ayuk writes: compound. Bih reads because the room is quiet: complex. Bih reads because the room is quiet, and Ayuk writes: compound-complex. Count clauses by their structure, not names or verbs in a list."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Mark the boundaries, identify clauses that can stand independently and note dependent markers. Check whether and joins words, phrases or clauses. When repairing a comma splice, preserve the intended relationship rather than inserting any connector at random."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "simple sentence",
+    "meaning": "a sentence with one independent clause"
+   },
+   {
+    "word": "compound sentence",
+    "meaning": "a sentence with at least two independent clauses and no dependent clause in this classification"
+   },
+   {
+    "word": "complex sentence",
+    "meaning": "a sentence combining an independent clause with a dependent clause"
+   },
+   {
+    "word": "compound-complex sentence",
+    "meaning": "a sentence combining multiple independent clauses with a dependent clause"
+   }
+  ],
+  "mistake": {
+   "wrong": "Every sentence containing and is compound.",
+   "right": "simple sentence: a sentence with one independent clause.",
+   "why": "And can join subjects within a single clause."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih and Ayuk read quietly. Explain the selected feature.",
+  "steps": [
+   "A sentence with one independent clause.",
+   "And can join subjects within a single clause."
+  ],
+  "answer": "simple sentence",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e5-11-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "simple sentence: a sentence with one independent clause.",
+     "compound sentence: a sentence with at least two independent clauses and no dependent clause in this classification.",
+     "complex sentence: a sentence combining an independent clause with a dependent clause.",
+     "compound-complex sentence: a sentence combining multiple independent clauses with a dependent clause."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-11-terms"
+    }
+   },
+   {
+    "id": "e5-11-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "Bih and Ayuk read quietly.",
+     "Bih reads, and Ayuk writes.",
+     "Bih reads because the room is quiet.",
+     "Bih reads because it is quiet, and Ayuk writes."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-11-cases"
+    }
+   },
+   {
+    "id": "e5-11-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "Every sentence containing and is compound. Correction: And can join subjects within a single clause.",
+     "A compound sentence must contain only one independent clause. Correction: Both clauses can stand independently.",
+     "A because-clause alone is always a complete independent sentence. Correction: The dependent clause needs its main clause in this model.",
+     "Sentence length alone proves that a sentence is compound-complex. Correction: The number and dependence of clauses decide the classification."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e5-11-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "simple sentence: a sentence with one independent clause.",
+        "truth": "true",
+        "explain": "This is correct: a sentence with one independent clause. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "compound sentence: a sentence with at least two independent clauses and no dependent clause in this classification.",
+        "truth": "true",
+        "explain": "This is correct: a sentence with at least two independent clauses and no dependent clause in this classification. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "complex sentence: a sentence combining an independent clause with a dependent clause.",
+        "truth": "true",
+        "explain": "This is correct: a sentence combining an independent clause with a dependent clause. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "compound-complex sentence: a sentence combining multiple independent clauses with a dependent clause.",
+        "truth": "true",
+        "explain": "This is correct: a sentence combining multiple independent clauses with a dependent clause. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Every sentence containing and is compound.",
+        "truth": "false",
+        "explain": "And can join subjects within a single clause."
+       },
+       {
+        "text": "A compound sentence must contain only one independent clause.",
+        "truth": "false",
+        "explain": "Both clauses can stand independently."
+       },
+       {
+        "text": "A because-clause alone is always a complete independent sentence.",
+        "truth": "false",
+        "explain": "The dependent clause needs its main clause in this model."
+       },
+       {
+        "text": "Sentence length alone proves that a sentence is compound-complex.",
+        "truth": "false",
+        "explain": "The number and dependence of clauses decide the classification."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e5-11-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a sentence with one independent clause?",
+       "r": "simple sentence",
+       "w": [
+        "compound sentence",
+        "complex sentence",
+        "compound-complex sentence"
+       ],
+       "e": [
+        "That concerns a sentence with at least two independent clauses and no dependent clause in this classification, rather than a sentence with one independent clause.",
+        "That concerns a sentence combining an independent clause with a dependent clause, rather than a sentence with one independent clause.",
+        "That concerns a sentence combining multiple independent clauses with a dependent clause, rather than a sentence with one independent clause."
+       ],
+       "y": "And can join subjects within a single clause."
+      },
+      {
+       "q": "Which term means a sentence with at least two independent clauses and no dependent clause in this classification?",
+       "r": "compound sentence",
+       "w": [
+        "simple sentence",
+        "complex sentence",
+        "compound-complex sentence"
+       ],
+       "e": [
+        "That concerns a sentence with one independent clause, rather than a sentence with at least two independent clauses and no dependent clause in this classification.",
+        "That concerns a sentence combining an independent clause with a dependent clause, rather than a sentence with at least two independent clauses and no dependent clause in this classification.",
+        "That concerns a sentence combining multiple independent clauses with a dependent clause, rather than a sentence with at least two independent clauses and no dependent clause in this classification."
+       ],
+       "y": "Both clauses can stand independently."
+      },
+      {
+       "q": "Which term means a sentence combining an independent clause with a dependent clause?",
+       "r": "complex sentence",
+       "w": [
+        "simple sentence",
+        "compound sentence",
+        "compound-complex sentence"
+       ],
+       "e": [
+        "That concerns a sentence with one independent clause, rather than a sentence combining an independent clause with a dependent clause.",
+        "That concerns a sentence with at least two independent clauses and no dependent clause in this classification, rather than a sentence combining an independent clause with a dependent clause.",
+        "That concerns a sentence combining multiple independent clauses with a dependent clause, rather than a sentence combining an independent clause with a dependent clause."
+       ],
+       "y": "The dependent clause needs its main clause in this model."
+      },
+      {
+       "q": "Which term means a sentence combining multiple independent clauses with a dependent clause?",
+       "r": "compound-complex sentence",
+       "w": [
+        "simple sentence",
+        "compound sentence",
+        "complex sentence"
+       ],
+       "e": [
+        "That concerns a sentence with one independent clause, rather than a sentence combining multiple independent clauses with a dependent clause.",
+        "That concerns a sentence with at least two independent clauses and no dependent clause in this classification, rather than a sentence combining multiple independent clauses with a dependent clause.",
+        "That concerns a sentence combining an independent clause with a dependent clause, rather than a sentence combining multiple independent clauses with a dependent clause."
+       ],
+       "y": "The number and dependence of clauses decide the classification."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-11-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih and Ayuk read quietly.\nWhich description best fits the selected feature?",
+       "r": "simple sentence",
+       "w": [
+        "compound sentence",
+        "complex sentence",
+        "compound-complex sentence"
+       ],
+       "e": [
+        "That means a sentence with at least two independent clauses and no dependent clause in this classification. The selected feature instead illustrates a sentence with one independent clause.",
+        "That means a sentence combining an independent clause with a dependent clause. The selected feature instead illustrates a sentence with one independent clause.",
+        "That means a sentence combining multiple independent clauses with a dependent clause. The selected feature instead illustrates a sentence with one independent clause."
+       ],
+       "y": "And can join subjects within a single clause."
+      },
+      {
+       "q": "Bih reads, and Ayuk writes.\nWhich description best fits the selected feature?",
+       "r": "compound sentence",
+       "w": [
+        "simple sentence",
+        "complex sentence",
+        "compound-complex sentence"
+       ],
+       "e": [
+        "That means a sentence with one independent clause. The selected feature instead illustrates a sentence with at least two independent clauses and no dependent clause in this classification.",
+        "That means a sentence combining an independent clause with a dependent clause. The selected feature instead illustrates a sentence with at least two independent clauses and no dependent clause in this classification.",
+        "That means a sentence combining multiple independent clauses with a dependent clause. The selected feature instead illustrates a sentence with at least two independent clauses and no dependent clause in this classification."
+       ],
+       "y": "Both clauses can stand independently."
+      },
+      {
+       "q": "Bih reads because the room is quiet.\nWhich description best fits the selected feature?",
+       "r": "complex sentence",
+       "w": [
+        "simple sentence",
+        "compound sentence",
+        "compound-complex sentence"
+       ],
+       "e": [
+        "That means a sentence with one independent clause. The selected feature instead illustrates a sentence combining an independent clause with a dependent clause.",
+        "That means a sentence with at least two independent clauses and no dependent clause in this classification. The selected feature instead illustrates a sentence combining an independent clause with a dependent clause.",
+        "That means a sentence combining multiple independent clauses with a dependent clause. The selected feature instead illustrates a sentence combining an independent clause with a dependent clause."
+       ],
+       "y": "The dependent clause needs its main clause in this model."
+      },
+      {
+       "q": "Bih reads because it is quiet, and Ayuk writes.\nWhich description best fits the selected feature?",
+       "r": "compound-complex sentence",
+       "w": [
+        "simple sentence",
+        "compound sentence",
+        "complex sentence"
+       ],
+       "e": [
+        "That means a sentence with one independent clause. The selected feature instead illustrates a sentence combining multiple independent clauses with a dependent clause.",
+        "That means a sentence with at least two independent clauses and no dependent clause in this classification. The selected feature instead illustrates a sentence combining multiple independent clauses with a dependent clause.",
+        "That means a sentence combining an independent clause with a dependent clause. The selected feature instead illustrates a sentence combining multiple independent clauses with a dependent clause."
+       ],
+       "y": "The number and dependence of clauses decide the classification."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-11-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Classify Bih and Ayuk write reports.",
+       "r": "simple",
+       "w": [
+        "compound",
+        "complex",
+        "compound-complex"
+       ],
+       "e": [
+        "And joins subjects, not independent clauses.",
+        "There is no dependent clause.",
+        "There are not multiple independent clauses plus a dependent one."
+       ],
+       "y": "There is one independent clause."
+      },
+      {
+       "q": "Classify Bih writes because the club needs a report.",
+       "r": "complex",
+       "w": [
+        "simple",
+        "compound",
+        "compound-complex"
+       ],
+       "e": [
+        "Because introduces a dependent clause.",
+        "The because-clause is not independent.",
+        "There are not two independent clauses."
+       ],
+       "y": "An independent and a dependent clause form the complex model."
+      },
+      {
+       "q": "Classify Bih writes, and Ayuk checks the list.",
+       "r": "compound",
+       "w": [
+        "simple",
+        "complex",
+        "compound-complex"
+       ],
+       "e": [
+        "There are two independent clauses.",
+        "No dependent clause is present.",
+        "No dependent clause is present."
+       ],
+       "y": "And coordinates independent clauses."
+      },
+      {
+       "q": "Repair the comma splice without changing the two events.",
+       "r": "Bih writes the report, and Ayuk checks it.",
+       "w": [
+        "Bih writes the report, Ayuk checks it.",
+        "Because Bih writes the report.",
+        "Bih writing the report and Ayuk checking it."
+       ],
+       "e": [
+        "The comma alone still joins independent clauses.",
+        "This leaves a dependent fragment and omits the other event.",
+        "The finite clauses have become incomplete phrases."
+       ],
+       "y": "The coordinator joins the independent clauses."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-11-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "simple sentence",
+     "right": "Bih and Ayuk read quietly."
+    },
+    {
+     "left": "compound sentence",
+     "right": "Bih reads, and Ayuk writes."
+    },
+    {
+     "left": "complex sentence",
+     "right": "Bih reads because the room is quiet."
+    },
+    {
+     "left": "compound-complex sentence",
+     "right": "Bih reads because it is quiet, and Ayuk writes."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e5-11-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "simple sentence: a sentence with one independent clause.",
+      "truth": "true",
+      "explain": "This is correct: a sentence with one independent clause. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "compound sentence: a sentence with at least two independent clauses and no dependent clause in this classification.",
+      "truth": "true",
+      "explain": "This is correct: a sentence with at least two independent clauses and no dependent clause in this classification. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "complex sentence: a sentence combining an independent clause with a dependent clause.",
+      "truth": "true",
+      "explain": "This is correct: a sentence combining an independent clause with a dependent clause. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "compound-complex sentence: a sentence combining multiple independent clauses with a dependent clause.",
+      "truth": "true",
+      "explain": "This is correct: a sentence combining multiple independent clauses with a dependent clause. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every sentence containing and is compound.",
+      "truth": "false",
+      "explain": "And can join subjects within a single clause."
+     },
+     {
+      "text": "A compound sentence must contain only one independent clause.",
+      "truth": "false",
+      "explain": "Both clauses can stand independently."
+     },
+     {
+      "text": "A because-clause alone is always a complete independent sentence.",
+      "truth": "false",
+      "explain": "The dependent clause needs its main clause in this model."
+     },
+     {
+      "text": "Sentence length alone proves that a sentence is compound-complex.",
+      "truth": "false",
+      "explain": "The number and dependence of clauses decide the classification."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

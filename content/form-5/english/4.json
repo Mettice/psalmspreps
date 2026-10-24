@@ -1,0 +1,596 @@
+{
+ "subject": "english-language",
+ "class": "Form 5",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  2,
+  3
+ ],
+ "skills": [
+  {
+   "id": "e5-4",
+   "name": "Reviewing tense and aspect patterns"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Simple present can describe a habit or general situation; simple past can present an event as completed in the past. Present progressive uses a present form of be with -ing, while present perfect uses have or has with a past participle. Time reference depends on context, not the form alone. A participle is not automatically a finite verb group. Choose auxiliaries and agreement as well as the lexical form. The exercises name the required pattern so that a different valid meaning is not unfairly marked as the same target.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to form simple, progressive and perfect groups and explain why a complete auxiliary pattern matters. Builds on: word functions, spelling and study language. Leads to: clause structure, sequence of tenses and conditional meanings."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "Simple present can describe a habit or general situation; simple past can present an event as completed in the past. Present progressive uses a present form of be with -ing, while present perfect uses have or has with a past participle. Time reference depends on context, not the form alone. A participle is not automatically a finite verb group. Choose auxiliaries and agreement as well as the lexical form. The exercises name the required pattern so that a different valid meaning is not unfairly marked as the same target."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original models: Bih {thirdPerson(\"write\")} the club summary as a regular duty. Yesterday she {past(\"write\")} it. At this moment she is {ing(\"write\")} it. She has {participle(\"write\")} the current summary. The changing groups present different viewpoints; the form written alone does not supply every complete clause."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Find the subject and the requested pattern, then assemble the full group. Check the distinction between past and participle for irregular verbs. In your own writing, choose the form that fits the intended situation rather than changing tenses without a reason."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "simple present",
+    "meaning": "the finite pattern used for a habit in the model"
+   },
+   {
+    "word": "simple past",
+    "meaning": "the pattern presenting the model event as completed in the past"
+   },
+   {
+    "word": "present progressive",
+    "meaning": "present be followed by the -ing form"
+   },
+   {
+    "word": "present perfect",
+    "meaning": "have or has followed by a past participle"
+   }
+  ],
+  "mistake": {
+   "wrong": "A third-person singular habit must always use write without agreement.",
+   "right": "simple present: the finite pattern used for a habit in the model.",
+   "why": "The studied affirmative pattern needs the singular form."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih writes the summary as a regular duty. Explain the selected feature.",
+  "steps": [
+   "The finite pattern used for a habit in the model.",
+   "The studied affirmative pattern needs the singular form."
+  ],
+  "answer": "simple present",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e5-4-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "simple present: the finite pattern used for a habit in the model.",
+     "simple past: the pattern presenting the model event as completed in the past.",
+     "present progressive: present be followed by the -ing form.",
+     "present perfect: have or has followed by a past participle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-4-terms"
+    }
+   },
+   {
+    "id": "e5-4-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "Bih writes the summary as a regular duty.",
+     "Yesterday Bih wrote the summary.",
+     "Bih is writing the summary now.",
+     "Bih has written the summary."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-4-cases"
+    }
+   },
+   {
+    "id": "e5-4-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "A third-person singular habit must always use write without agreement. Correction: The studied affirmative pattern needs the singular form.",
+     "Yesterday necessarily demands has wrote in every clause. Correction: That combines an inappropriate time model with a wrong participle.",
+     "Bih writing alone supplies the complete finite group in this model. Correction: The auxiliary is is required.",
+     "Has must be followed by the simple past wrote. Correction: The perfect uses the participle written."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e5-4-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "simple present: the finite pattern used for a habit in the model.",
+        "truth": "true",
+        "explain": "This is correct: the finite pattern used for a habit in the model. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "simple past: the pattern presenting the model event as completed in the past.",
+        "truth": "true",
+        "explain": "This is correct: the pattern presenting the model event as completed in the past. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "present progressive: present be followed by the -ing form.",
+        "truth": "true",
+        "explain": "This is correct: present be followed by the -ing form. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "present perfect: have or has followed by a past participle.",
+        "truth": "true",
+        "explain": "This is correct: have or has followed by a past participle. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A third-person singular habit must always use write without agreement.",
+        "truth": "false",
+        "explain": "The studied affirmative pattern needs the singular form."
+       },
+       {
+        "text": "Yesterday necessarily demands has wrote in every clause.",
+        "truth": "false",
+        "explain": "That combines an inappropriate time model with a wrong participle."
+       },
+       {
+        "text": "Bih writing alone supplies the complete finite group in this model.",
+        "truth": "false",
+        "explain": "The auxiliary is is required."
+       },
+       {
+        "text": "Has must be followed by the simple past wrote.",
+        "truth": "false",
+        "explain": "The perfect uses the participle written."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e5-4-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means the finite pattern used for a habit in the model?",
+       "r": "simple present",
+       "w": [
+        "simple past",
+        "present progressive",
+        "present perfect"
+       ],
+       "e": [
+        "That concerns the pattern presenting the model event as completed in the past, rather than the finite pattern used for a habit in the model.",
+        "That concerns present be followed by the -ing form, rather than the finite pattern used for a habit in the model.",
+        "That concerns have or has followed by a past participle, rather than the finite pattern used for a habit in the model."
+       ],
+       "y": "The studied affirmative pattern needs the singular form."
+      },
+      {
+       "q": "Which term means the pattern presenting the model event as completed in the past?",
+       "r": "simple past",
+       "w": [
+        "simple present",
+        "present progressive",
+        "present perfect"
+       ],
+       "e": [
+        "That concerns the finite pattern used for a habit in the model, rather than the pattern presenting the model event as completed in the past.",
+        "That concerns present be followed by the -ing form, rather than the pattern presenting the model event as completed in the past.",
+        "That concerns have or has followed by a past participle, rather than the pattern presenting the model event as completed in the past."
+       ],
+       "y": "That combines an inappropriate time model with a wrong participle."
+      },
+      {
+       "q": "Which term means present be followed by the -ing form?",
+       "r": "present progressive",
+       "w": [
+        "simple present",
+        "simple past",
+        "present perfect"
+       ],
+       "e": [
+        "That concerns the finite pattern used for a habit in the model, rather than present be followed by the -ing form.",
+        "That concerns the pattern presenting the model event as completed in the past, rather than present be followed by the -ing form.",
+        "That concerns have or has followed by a past participle, rather than present be followed by the -ing form."
+       ],
+       "y": "The auxiliary is is required."
+      },
+      {
+       "q": "Which term means have or has followed by a past participle?",
+       "r": "present perfect",
+       "w": [
+        "simple present",
+        "simple past",
+        "present progressive"
+       ],
+       "e": [
+        "That concerns the finite pattern used for a habit in the model, rather than have or has followed by a past participle.",
+        "That concerns the pattern presenting the model event as completed in the past, rather than have or has followed by a past participle.",
+        "That concerns present be followed by the -ing form, rather than have or has followed by a past participle."
+       ],
+       "y": "The perfect uses the participle written."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-4-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih writes the summary as a regular duty.\nWhich description best fits the selected feature?",
+       "r": "simple present",
+       "w": [
+        "simple past",
+        "present progressive",
+        "present perfect"
+       ],
+       "e": [
+        "That means the pattern presenting the model event as completed in the past. The selected feature instead illustrates the finite pattern used for a habit in the model.",
+        "That means present be followed by the -ing form. The selected feature instead illustrates the finite pattern used for a habit in the model.",
+        "That means have or has followed by a past participle. The selected feature instead illustrates the finite pattern used for a habit in the model."
+       ],
+       "y": "The studied affirmative pattern needs the singular form."
+      },
+      {
+       "q": "Yesterday Bih wrote the summary.\nWhich description best fits the selected feature?",
+       "r": "simple past",
+       "w": [
+        "simple present",
+        "present progressive",
+        "present perfect"
+       ],
+       "e": [
+        "That means the finite pattern used for a habit in the model. The selected feature instead illustrates the pattern presenting the model event as completed in the past.",
+        "That means present be followed by the -ing form. The selected feature instead illustrates the pattern presenting the model event as completed in the past.",
+        "That means have or has followed by a past participle. The selected feature instead illustrates the pattern presenting the model event as completed in the past."
+       ],
+       "y": "That combines an inappropriate time model with a wrong participle."
+      },
+      {
+       "q": "Bih is writing the summary now.\nWhich description best fits the selected feature?",
+       "r": "present progressive",
+       "w": [
+        "simple present",
+        "simple past",
+        "present perfect"
+       ],
+       "e": [
+        "That means the finite pattern used for a habit in the model. The selected feature instead illustrates present be followed by the -ing form.",
+        "That means the pattern presenting the model event as completed in the past. The selected feature instead illustrates present be followed by the -ing form.",
+        "That means have or has followed by a past participle. The selected feature instead illustrates present be followed by the -ing form."
+       ],
+       "y": "The auxiliary is is required."
+      },
+      {
+       "q": "Bih has written the summary.\nWhich description best fits the selected feature?",
+       "r": "present perfect",
+       "w": [
+        "simple present",
+        "simple past",
+        "present progressive"
+       ],
+       "e": [
+        "That means the finite pattern used for a habit in the model. The selected feature instead illustrates have or has followed by a past participle.",
+        "That means the pattern presenting the model event as completed in the past. The selected feature instead illustrates have or has followed by a past participle.",
+        "That means present be followed by the -ing form. The selected feature instead illustrates have or has followed by a past participle."
+       ],
+       "y": "The perfect uses the participle written."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-4-forms",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "S": {
+     "pick": [
+      {
+       "t": "Bih",
+       "s": {
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "t": "the members",
+       "s": {
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "t": "I",
+       "s": {
+        "person": 1,
+        "plural": false
+       }
+      }
+     ]
+    },
+    "v": {
+     "pick": [
+      "write",
+      "take",
+      "choose",
+      "speak"
+     ]
+    },
+    "T": {
+     "pick": [
+      {
+       "label": "simple present",
+       "kind": "present"
+      },
+      {
+       "label": "simple past",
+       "kind": "past"
+      },
+      {
+       "label": "present progressive",
+       "kind": "progressive"
+      },
+      {
+       "label": "present perfect",
+       "kind": "perfect"
+      }
+     ]
+    }
+   },
+   "prompt": "Use the explicitly requested form: {T.label}, with {S.t} and {v}. Choose the complete verb group.",
+   "correct": "{T.kind==\"present\" ? presentFor(S.s,v) : T.kind==\"past\" ? past(v) : T.kind==\"progressive\" ? beFor(S.s)+\" \"+ing(v) : haveFor(S.s)+\" \"+participle(v)}",
+   "distractors": [
+    {
+     "text": "{v}",
+     "misconception": "base"
+    },
+    {
+     "text": "{participle(v)}",
+     "misconception": "barepp"
+    },
+    {
+     "text": "{T.kind==\"progressive\" ? wasWere(S.s)+\" \"+ing(v) : \"will \"+v}",
+     "misconception": "other"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "base",
+     "explain": "This uninflected base does not supply the requested complete group in this item."
+    },
+    {
+     "id": "barepp",
+     "explain": "A bare past participle is not the complete requested group here."
+    },
+    {
+     "id": "other",
+     "explain": "That group has a different tense or aspect from the stated target."
+    }
+   ],
+   "solution": [
+    "Identify the requested time/aspect pattern and subject.",
+    "The complete group is {answer}."
+   ],
+   "where": [
+    "T.kind!=\"present\" || S.s.person==3 && !S.s.plural"
+   ]
+  },
+  {
+   "id": "e5-4-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "simple present",
+     "right": "Bih writes the summary as a regular duty."
+    },
+    {
+     "left": "simple past",
+     "right": "Yesterday Bih wrote the summary."
+    },
+    {
+     "left": "present progressive",
+     "right": "Bih is writing the summary now."
+    },
+    {
+     "left": "present perfect",
+     "right": "Bih has written the summary."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e5-4-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "simple present: the finite pattern used for a habit in the model.",
+      "truth": "true",
+      "explain": "This is correct: the finite pattern used for a habit in the model. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "simple past: the pattern presenting the model event as completed in the past.",
+      "truth": "true",
+      "explain": "This is correct: the pattern presenting the model event as completed in the past. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "present progressive: present be followed by the -ing form.",
+      "truth": "true",
+      "explain": "This is correct: present be followed by the -ing form. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "present perfect: have or has followed by a past participle.",
+      "truth": "true",
+      "explain": "This is correct: have or has followed by a past participle. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A third-person singular habit must always use write without agreement.",
+      "truth": "false",
+      "explain": "The studied affirmative pattern needs the singular form."
+     },
+     {
+      "text": "Yesterday necessarily demands has wrote in every clause.",
+      "truth": "false",
+      "explain": "That combines an inappropriate time model with a wrong participle."
+     },
+     {
+      "text": "Bih writing alone supplies the complete finite group in this model.",
+      "truth": "false",
+      "explain": "The auxiliary is is required."
+     },
+     {
+      "text": "Has must be followed by the simple past wrote.",
+      "truth": "false",
+      "explain": "The perfect uses the participle written."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

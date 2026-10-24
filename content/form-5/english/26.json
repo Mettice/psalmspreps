@@ -1,0 +1,551 @@
+{
+ "subject": "english-language",
+ "class": "Form 5",
+ "lesson_no": 26,
+ "language": "en",
+ "prerequisites": [
+  10,
+  21,
+  25
+ ],
+ "skills": [
+  {
+   "id": "e5-26",
+   "name": "Directed writing: a newspaper article"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An article helps readers identify what happened and why it matters. A headline identifies focus; a lead presents the central event; later paragraphs develop relevant details and attribute their source. Quote only words supplied in the task and preserve meaning in indirect reports. Do not invent a real witness’s words or present a proposal as completed. This model reports classroom fiction, not current news or a universal examination format.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to separate reported facts, attribution and unconfirmed outcomes in an article. Builds on: directed writing, reported viewpoints and resource reading. Leads to: expository explanation and accurate reporting."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "An article helps readers identify what happened and why it matters. A headline identifies focus; a lead presents the central event; later paragraphs develop relevant details and attribute their source. Quote only words supplied in the task and preserve meaning in indirect reports. Do not invent a real witness’s words or present a proposal as completed. This model reports classroom fiction, not current news or a universal examination format."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original model extract: Village group seeks guidance on shared stream"
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Identify the audience, purpose and required content. Plan the order, draft in your own words and check each feature against the model. Explain why an edit improves the answer."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "focused headline",
+    "meaning": "a heading identifying the central event"
+   },
+   {
+    "word": "informative lead",
+    "meaning": "an opening supplying the main event"
+   },
+   {
+    "word": "attribution",
+    "meaning": "identification of the information’s source"
+   },
+   {
+    "word": "status accuracy",
+    "meaning": "preservation of whether action is planned or completed"
+   }
+  ],
+  "mistake": {
+   "wrong": "A headline must claim success when only a plan exists.",
+   "right": "focused headline: a heading identifying the central event.",
+   "why": "The heading should match the event’s status."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Village group seeks guidance on shared stream. Explain the selected feature.",
+  "steps": [
+   "A heading identifying the central event.",
+   "The heading should match the event’s status."
+  ],
+  "answer": "focused headline",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e5-26-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "focused headline: a heading identifying the central event.",
+     "informative lead: an opening supplying the main event.",
+     "attribution: identification of the information’s source.",
+     "status accuracy: preservation of whether action is planned or completed."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-26-terms"
+    }
+   },
+   {
+    "id": "e5-26-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "Village group seeks guidance on shared stream.",
+     "The group proposes guidance before changing water use.",
+     "According to the passage, discussion is planned.",
+     "Compatibility remains unestablished."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-26-cases"
+    }
+   },
+   {
+    "id": "e5-26-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "A headline must claim success when only a plan exists. Correction: The heading should match the event’s status.",
+     "The lead must hide the central action. Correction: Readers need the main event early.",
+     "Inventing a witness’s quotation supplies evidence. Correction: Reported details need a supplied source.",
+     "Planning consultation proves all work is complete. Correction: A plan does not establish a final outcome."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e5-26-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "focused headline: a heading identifying the central event.",
+        "truth": "true",
+        "explain": "This is correct: a heading identifying the central event. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "informative lead: an opening supplying the main event.",
+        "truth": "true",
+        "explain": "This is correct: an opening supplying the main event. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "attribution: identification of the information’s source.",
+        "truth": "true",
+        "explain": "This is correct: identification of the information’s source. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "status accuracy: preservation of whether action is planned or completed.",
+        "truth": "true",
+        "explain": "This is correct: preservation of whether action is planned or completed. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A headline must claim success when only a plan exists.",
+        "truth": "false",
+        "explain": "The heading should match the event’s status."
+       },
+       {
+        "text": "The lead must hide the central action.",
+        "truth": "false",
+        "explain": "Readers need the main event early."
+       },
+       {
+        "text": "Inventing a witness’s quotation supplies evidence.",
+        "truth": "false",
+        "explain": "Reported details need a supplied source."
+       },
+       {
+        "text": "Planning consultation proves all work is complete.",
+        "truth": "false",
+        "explain": "A plan does not establish a final outcome."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e5-26-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a heading identifying the central event?",
+       "r": "focused headline",
+       "w": [
+        "informative lead",
+        "attribution",
+        "status accuracy"
+       ],
+       "e": [
+        "That concerns an opening supplying the main event, rather than a heading identifying the central event.",
+        "That concerns identification of the information’s source, rather than a heading identifying the central event.",
+        "That concerns preservation of whether action is planned or completed, rather than a heading identifying the central event."
+       ],
+       "y": "The heading should match the event’s status."
+      },
+      {
+       "q": "Which term means an opening supplying the main event?",
+       "r": "informative lead",
+       "w": [
+        "focused headline",
+        "attribution",
+        "status accuracy"
+       ],
+       "e": [
+        "That concerns a heading identifying the central event, rather than an opening supplying the main event.",
+        "That concerns identification of the information’s source, rather than an opening supplying the main event.",
+        "That concerns preservation of whether action is planned or completed, rather than an opening supplying the main event."
+       ],
+       "y": "Readers need the main event early."
+      },
+      {
+       "q": "Which term means identification of the information’s source?",
+       "r": "attribution",
+       "w": [
+        "focused headline",
+        "informative lead",
+        "status accuracy"
+       ],
+       "e": [
+        "That concerns a heading identifying the central event, rather than identification of the information’s source.",
+        "That concerns an opening supplying the main event, rather than identification of the information’s source.",
+        "That concerns preservation of whether action is planned or completed, rather than identification of the information’s source."
+       ],
+       "y": "Reported details need a supplied source."
+      },
+      {
+       "q": "Which term means preservation of whether action is planned or completed?",
+       "r": "status accuracy",
+       "w": [
+        "focused headline",
+        "informative lead",
+        "attribution"
+       ],
+       "e": [
+        "That concerns a heading identifying the central event, rather than preservation of whether action is planned or completed.",
+        "That concerns an opening supplying the main event, rather than preservation of whether action is planned or completed.",
+        "That concerns identification of the information’s source, rather than preservation of whether action is planned or completed."
+       ],
+       "y": "A plan does not establish a final outcome."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-26-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Village group seeks guidance on shared stream.\nWhich description best fits the selected feature?",
+       "r": "focused headline",
+       "w": [
+        "informative lead",
+        "attribution",
+        "status accuracy"
+       ],
+       "e": [
+        "That means an opening supplying the main event. The selected feature instead illustrates a heading identifying the central event.",
+        "That means identification of the information’s source. The selected feature instead illustrates a heading identifying the central event.",
+        "That means preservation of whether action is planned or completed. The selected feature instead illustrates a heading identifying the central event."
+       ],
+       "y": "The heading should match the event’s status."
+      },
+      {
+       "q": "The group proposes guidance before changing water use.\nWhich description best fits the selected feature?",
+       "r": "informative lead",
+       "w": [
+        "focused headline",
+        "attribution",
+        "status accuracy"
+       ],
+       "e": [
+        "That means a heading identifying the central event. The selected feature instead illustrates an opening supplying the main event.",
+        "That means identification of the information’s source. The selected feature instead illustrates an opening supplying the main event.",
+        "That means preservation of whether action is planned or completed. The selected feature instead illustrates an opening supplying the main event."
+       ],
+       "y": "Readers need the main event early."
+      },
+      {
+       "q": "According to the passage, discussion is planned.\nWhich description best fits the selected feature?",
+       "r": "attribution",
+       "w": [
+        "focused headline",
+        "informative lead",
+        "status accuracy"
+       ],
+       "e": [
+        "That means a heading identifying the central event. The selected feature instead illustrates identification of the information’s source.",
+        "That means an opening supplying the main event. The selected feature instead illustrates identification of the information’s source.",
+        "That means preservation of whether action is planned or completed. The selected feature instead illustrates identification of the information’s source."
+       ],
+       "y": "Reported details need a supplied source."
+      },
+      {
+       "q": "Compatibility remains unestablished.\nWhich description best fits the selected feature?",
+       "r": "status accuracy",
+       "w": [
+        "focused headline",
+        "informative lead",
+        "attribution"
+       ],
+       "e": [
+        "That means a heading identifying the central event. The selected feature instead illustrates preservation of whether action is planned or completed.",
+        "That means an opening supplying the main event. The selected feature instead illustrates preservation of whether action is planned or completed.",
+        "That means identification of the information’s source. The selected feature instead illustrates preservation of whether action is planned or completed."
+       ],
+       "y": "A plan does not establish a final outcome."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-26-build",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "Village group seeks guidance on shared stream.",
+       "b": "Village group seeks guidance on shared stream."
+      },
+      {
+       "a": "The group proposes guidance before changing water use.",
+       "b": "The group proposes guidance before changing water use."
+      },
+      {
+       "a": "According to the passage, discussion is planned.",
+       "b": "According to the passage, discussion is planned."
+      },
+      {
+       "a": "Compatibility remains unestablished.",
+       "b": "Compatibility remains unestablished."
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e5-26-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "focused headline",
+     "right": "Village group seeks guidance on shared stream."
+    },
+    {
+     "left": "informative lead",
+     "right": "The group proposes guidance before changing water use."
+    },
+    {
+     "left": "attribution",
+     "right": "According to the passage, discussion is planned."
+    },
+    {
+     "left": "status accuracy",
+     "right": "Compatibility remains unestablished."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e5-26-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "focused headline: a heading identifying the central event.",
+      "truth": "true",
+      "explain": "This is correct: a heading identifying the central event. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "informative lead: an opening supplying the main event.",
+      "truth": "true",
+      "explain": "This is correct: an opening supplying the main event. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "attribution: identification of the information’s source.",
+      "truth": "true",
+      "explain": "This is correct: identification of the information’s source. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "status accuracy: preservation of whether action is planned or completed.",
+      "truth": "true",
+      "explain": "This is correct: preservation of whether action is planned or completed. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A headline must claim success when only a plan exists.",
+      "truth": "false",
+      "explain": "The heading should match the event’s status."
+     },
+     {
+      "text": "The lead must hide the central action.",
+      "truth": "false",
+      "explain": "Readers need the main event early."
+     },
+     {
+      "text": "Inventing a witness’s quotation supplies evidence.",
+      "truth": "false",
+      "explain": "Reported details need a supplied source."
+     },
+     {
+      "text": "Planning consultation proves all work is complete.",
+      "truth": "false",
+      "explain": "A plan does not establish a final outcome."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "checks": [],
+  "prompt": "Report the fictional stream discussion in a newspaper-style article. Include headline, lead, attributed details and unknowns. Use supplied facts; invent no real witnesses or direct quotations.",
+  "model": [
+   "Village group seeks guidance on shared stream",
+   "A fictional village group proposes seeking technical guidance before changing stream use for a school garden. Members recorded concerns about watering the garden and keeping water clear for existing users.",
+   "According to the classroom passage, discussion with affected users is planned. No measured flow or laboratory result is supplied. There is also no permission to alter the stream, so the discussion cannot be reported as an authorised construction project.",
+   "Compatibility of the uses in every season remains unestablished. Further information is part of the proposal, rather than an outcome achieved already."
+  ],
+  "checklist": [
+   "Focused headline: a heading identifying the central event.",
+   "Informative lead: an opening supplying the main event.",
+   "Attribution: identification of the information’s source.",
+   "Status accuracy: preservation of whether action is planned or completed.",
+   "Use relevant original details and check sentence boundaries, agreement and spelling."
+  ]
+ }
+}

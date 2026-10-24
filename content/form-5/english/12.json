@@ -1,0 +1,605 @@
+{
+ "subject": "english-language",
+ "class": "Form 5",
+ "lesson_no": 12,
+ "language": "en",
+ "prerequisites": [
+  2,
+  5,
+  11
+ ],
+ "skills": [
+  {
+   "id": "e5-12",
+   "name": "Speech preparation: contrasting English consonants"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Consonants can be compared by place, manner and voicing. Lip closure produces the stops /p/ and /b/; /b/ is voiced and /p/ voiceless. The initial sounds /t/ and /d/ are alveolar stops. The pairs /f/ and /v/, and /s/ and /z/, are fricatives: air passes through a narrow opening rather than being fully stopped. Letters and sounds are different systems. This lesson covers selected contrasts, not the full inventory. Written choices do not assess hearing, accent or spoken production.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to identify selected consonant contrasts and explain voicing and manner. Builds on: word forms, listening scripts and clause structure. Leads to: editing written speech and teacher-led pronunciation practice."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "Consonants can be compared by place, manner and voicing. Lip closure produces the stops /p/ and /b/; /b/ is voiced and /p/ voiceless. The initial sounds /t/ and /d/ are alveolar stops. The pairs /f/ and /v/, and /s/ and /z/, are fricatives: air passes through a narrow opening rather than being fully stopped. Letters and sounds are different systems. This lesson covers selected contrasts, not the full inventory. Written choices do not assess hearing, accent or spoken production."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original pairs: pin/bin, tie/die, fan/van and sip/zip. Each changes an initial consonant while keeping the rest comparable. /p/ and /b/ use the lips; /f/ and /v/ involve lower lip and upper teeth. A teacher can model these words aloud and check recognition and production."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Identify the requested words, compare place and manner, then identify the voiced member. Use a teacher’s spoken model for actual listening and pronunciation practice. A correct written label does not demonstrate accurate pronunciation."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "voicing contrast",
+    "meaning": "a difference in vocal-fold vibration in the taught pair"
+   },
+   {
+    "word": "bilabial stop",
+    "meaning": "a consonant made with lip closure in the model"
+   },
+   {
+    "word": "alveolar stop",
+    "meaning": "a stop at the alveolar place in the studied pair"
+   },
+   {
+    "word": "fricative",
+    "meaning": "a consonant with airflow through a narrow opening"
+   }
+  ],
+  "mistake": {
+   "wrong": "Every different letter marks only a voicing contrast.",
+   "right": "voicing contrast: a difference in vocal-fold vibration in the taught pair.",
+   "why": "Letters do not automatically specify one articulatory difference."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "/p/ is voiceless and /b/ voiced. Explain the selected feature.",
+  "steps": [
+   "A difference in vocal-fold vibration in the taught pair.",
+   "Letters do not automatically specify one articulatory difference."
+  ],
+  "answer": "voicing contrast",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e5-12-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "voicing contrast: a difference in vocal-fold vibration in the taught pair.",
+     "bilabial stop: a consonant made with lip closure in the model.",
+     "alveolar stop: a stop at the alveolar place in the studied pair.",
+     "fricative: a consonant with airflow through a narrow opening."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-12-terms"
+    }
+   },
+   {
+    "id": "e5-12-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "/p/ is voiceless and /b/ voiced.",
+     "/p/ and /b/ are bilabial stops.",
+     "/t/ and /d/ begin tie and die.",
+     "/f/, /v/, /s/ and /z/ are fricatives."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-12-cases"
+    }
+   },
+   {
+    "id": "e5-12-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "Every different letter marks only a voicing contrast. Correction: Letters do not automatically specify one articulatory difference.",
+     "/p/ and /b/ need lower-lip contact with upper teeth. Correction: That describes the labiodental model, not bilabial closure.",
+     "/t/ and /d/ begin fan and van. Correction: Fan and van begin with /f/ and /v/.",
+     "Every fricative requires complete stop closure. Correction: Friction and complete stop closure are different manners."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e5-12-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "voicing contrast: a difference in vocal-fold vibration in the taught pair.",
+        "truth": "true",
+        "explain": "This is correct: a difference in vocal-fold vibration in the taught pair. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "bilabial stop: a consonant made with lip closure in the model.",
+        "truth": "true",
+        "explain": "This is correct: a consonant made with lip closure in the model. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "alveolar stop: a stop at the alveolar place in the studied pair.",
+        "truth": "true",
+        "explain": "This is correct: a stop at the alveolar place in the studied pair. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "fricative: a consonant with airflow through a narrow opening.",
+        "truth": "true",
+        "explain": "This is correct: a consonant with airflow through a narrow opening. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Every different letter marks only a voicing contrast.",
+        "truth": "false",
+        "explain": "Letters do not automatically specify one articulatory difference."
+       },
+       {
+        "text": "/p/ and /b/ need lower-lip contact with upper teeth.",
+        "truth": "false",
+        "explain": "That describes the labiodental model, not bilabial closure."
+       },
+       {
+        "text": "/t/ and /d/ begin fan and van.",
+        "truth": "false",
+        "explain": "Fan and van begin with /f/ and /v/."
+       },
+       {
+        "text": "Every fricative requires complete stop closure.",
+        "truth": "false",
+        "explain": "Friction and complete stop closure are different manners."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e5-12-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a difference in vocal-fold vibration in the taught pair?",
+       "r": "voicing contrast",
+       "w": [
+        "bilabial stop",
+        "alveolar stop",
+        "fricative"
+       ],
+       "e": [
+        "That concerns a consonant made with lip closure in the model, rather than a difference in vocal-fold vibration in the taught pair.",
+        "That concerns a stop at the alveolar place in the studied pair, rather than a difference in vocal-fold vibration in the taught pair.",
+        "That concerns a consonant with airflow through a narrow opening, rather than a difference in vocal-fold vibration in the taught pair."
+       ],
+       "y": "Letters do not automatically specify one articulatory difference."
+      },
+      {
+       "q": "Which term means a consonant made with lip closure in the model?",
+       "r": "bilabial stop",
+       "w": [
+        "voicing contrast",
+        "alveolar stop",
+        "fricative"
+       ],
+       "e": [
+        "That concerns a difference in vocal-fold vibration in the taught pair, rather than a consonant made with lip closure in the model.",
+        "That concerns a stop at the alveolar place in the studied pair, rather than a consonant made with lip closure in the model.",
+        "That concerns a consonant with airflow through a narrow opening, rather than a consonant made with lip closure in the model."
+       ],
+       "y": "That describes the labiodental model, not bilabial closure."
+      },
+      {
+       "q": "Which term means a stop at the alveolar place in the studied pair?",
+       "r": "alveolar stop",
+       "w": [
+        "voicing contrast",
+        "bilabial stop",
+        "fricative"
+       ],
+       "e": [
+        "That concerns a difference in vocal-fold vibration in the taught pair, rather than a stop at the alveolar place in the studied pair.",
+        "That concerns a consonant made with lip closure in the model, rather than a stop at the alveolar place in the studied pair.",
+        "That concerns a consonant with airflow through a narrow opening, rather than a stop at the alveolar place in the studied pair."
+       ],
+       "y": "Fan and van begin with /f/ and /v/."
+      },
+      {
+       "q": "Which term means a consonant with airflow through a narrow opening?",
+       "r": "fricative",
+       "w": [
+        "voicing contrast",
+        "bilabial stop",
+        "alveolar stop"
+       ],
+       "e": [
+        "That concerns a difference in vocal-fold vibration in the taught pair, rather than a consonant with airflow through a narrow opening.",
+        "That concerns a consonant made with lip closure in the model, rather than a consonant with airflow through a narrow opening.",
+        "That concerns a stop at the alveolar place in the studied pair, rather than a consonant with airflow through a narrow opening."
+       ],
+       "y": "Friction and complete stop closure are different manners."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-12-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "/p/ is voiceless and /b/ voiced.\nWhich description best fits the selected feature?",
+       "r": "voicing contrast",
+       "w": [
+        "bilabial stop",
+        "alveolar stop",
+        "fricative"
+       ],
+       "e": [
+        "That means a consonant made with lip closure in the model. The selected feature instead illustrates a difference in vocal-fold vibration in the taught pair.",
+        "That means a stop at the alveolar place in the studied pair. The selected feature instead illustrates a difference in vocal-fold vibration in the taught pair.",
+        "That means a consonant with airflow through a narrow opening. The selected feature instead illustrates a difference in vocal-fold vibration in the taught pair."
+       ],
+       "y": "Letters do not automatically specify one articulatory difference."
+      },
+      {
+       "q": "/p/ and /b/ are bilabial stops.\nWhich description best fits the selected feature?",
+       "r": "bilabial stop",
+       "w": [
+        "voicing contrast",
+        "alveolar stop",
+        "fricative"
+       ],
+       "e": [
+        "That means a difference in vocal-fold vibration in the taught pair. The selected feature instead illustrates a consonant made with lip closure in the model.",
+        "That means a stop at the alveolar place in the studied pair. The selected feature instead illustrates a consonant made with lip closure in the model.",
+        "That means a consonant with airflow through a narrow opening. The selected feature instead illustrates a consonant made with lip closure in the model."
+       ],
+       "y": "That describes the labiodental model, not bilabial closure."
+      },
+      {
+       "q": "/t/ and /d/ begin tie and die.\nWhich description best fits the selected feature?",
+       "r": "alveolar stop",
+       "w": [
+        "voicing contrast",
+        "bilabial stop",
+        "fricative"
+       ],
+       "e": [
+        "That means a difference in vocal-fold vibration in the taught pair. The selected feature instead illustrates a stop at the alveolar place in the studied pair.",
+        "That means a consonant made with lip closure in the model. The selected feature instead illustrates a stop at the alveolar place in the studied pair.",
+        "That means a consonant with airflow through a narrow opening. The selected feature instead illustrates a stop at the alveolar place in the studied pair."
+       ],
+       "y": "Fan and van begin with /f/ and /v/."
+      },
+      {
+       "q": "/f/, /v/, /s/ and /z/ are fricatives.\nWhich description best fits the selected feature?",
+       "r": "fricative",
+       "w": [
+        "voicing contrast",
+        "bilabial stop",
+        "alveolar stop"
+       ],
+       "e": [
+        "That means a difference in vocal-fold vibration in the taught pair. The selected feature instead illustrates a consonant with airflow through a narrow opening.",
+        "That means a consonant made with lip closure in the model. The selected feature instead illustrates a consonant with airflow through a narrow opening.",
+        "That means a stop at the alveolar place in the studied pair. The selected feature instead illustrates a consonant with airflow through a narrow opening."
+       ],
+       "y": "Friction and complete stop closure are different manners."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-12-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which initial sound pair distinguishes pin and bin?",
+       "r": "/p/ and /b/",
+       "w": [
+        "/t/ and /d/",
+        "/f/ and /v/",
+        "/s/ and /z/"
+       ],
+       "e": [
+        "/t/ and /d/ begins tie and die, not the requested words.",
+        "/f/ and /v/ begins fan and van, not the requested words.",
+        "/s/ and /z/ begins sip and zip, not the requested words."
+       ],
+       "y": "These initial sounds contrast voicing at lip closure."
+      },
+      {
+       "q": "Which initial sound pair distinguishes tie and die?",
+       "r": "/t/ and /d/",
+       "w": [
+        "/p/ and /b/",
+        "/f/ and /v/",
+        "/s/ and /z/"
+       ],
+       "e": [
+        "/p/ and /b/ begins pin and bin, not the requested words.",
+        "/f/ and /v/ begins fan and van, not the requested words.",
+        "/s/ and /z/ begins sip and zip, not the requested words."
+       ],
+       "y": "These initial sounds are voiceless and voiced alveolar stops."
+      },
+      {
+       "q": "Which initial sound pair distinguishes fan and van?",
+       "r": "/f/ and /v/",
+       "w": [
+        "/p/ and /b/",
+        "/t/ and /d/",
+        "/s/ and /z/"
+       ],
+       "e": [
+        "/p/ and /b/ begins pin and bin, not the requested words.",
+        "/t/ and /d/ begins tie and die, not the requested words.",
+        "/s/ and /z/ begins sip and zip, not the requested words."
+       ],
+       "y": "These contrast voicing with lower-lip and upper-teeth contact."
+      },
+      {
+       "q": "Which initial sound pair distinguishes sip and zip?",
+       "r": "/s/ and /z/",
+       "w": [
+        "/p/ and /b/",
+        "/t/ and /d/",
+        "/f/ and /v/"
+       ],
+       "e": [
+        "/p/ and /b/ begins pin and bin, not the requested words.",
+        "/t/ and /d/ begins tie and die, not the requested words.",
+        "/f/ and /v/ begins fan and van, not the requested words."
+       ],
+       "y": "These contrast voicing in alveolar fricatives."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-12-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "voicing contrast",
+     "right": "/p/ is voiceless and /b/ voiced."
+    },
+    {
+     "left": "bilabial stop",
+     "right": "/p/ and /b/ are bilabial stops."
+    },
+    {
+     "left": "alveolar stop",
+     "right": "/t/ and /d/ begin tie and die."
+    },
+    {
+     "left": "fricative",
+     "right": "/f/, /v/, /s/ and /z/ are fricatives."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e5-12-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "voicing contrast: a difference in vocal-fold vibration in the taught pair.",
+      "truth": "true",
+      "explain": "This is correct: a difference in vocal-fold vibration in the taught pair. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "bilabial stop: a consonant made with lip closure in the model.",
+      "truth": "true",
+      "explain": "This is correct: a consonant made with lip closure in the model. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "alveolar stop: a stop at the alveolar place in the studied pair.",
+      "truth": "true",
+      "explain": "This is correct: a stop at the alveolar place in the studied pair. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "fricative: a consonant with airflow through a narrow opening.",
+      "truth": "true",
+      "explain": "This is correct: a consonant with airflow through a narrow opening. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every different letter marks only a voicing contrast.",
+      "truth": "false",
+      "explain": "Letters do not automatically specify one articulatory difference."
+     },
+     {
+      "text": "/p/ and /b/ need lower-lip contact with upper teeth.",
+      "truth": "false",
+      "explain": "That describes the labiodental model, not bilabial closure."
+     },
+     {
+      "text": "/t/ and /d/ begin fan and van.",
+      "truth": "false",
+      "explain": "Fan and van begin with /f/ and /v/."
+     },
+     {
+      "text": "Every fricative requires complete stop closure.",
+      "truth": "false",
+      "explain": "Friction and complete stop closure are different manners."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

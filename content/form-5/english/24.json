@@ -1,0 +1,606 @@
+{
+ "subject": "english-language",
+ "class": "Form 5",
+ "lesson_no": 24,
+ "language": "en",
+ "prerequisites": [
+  2,
+  9,
+  22,
+  23
+ ],
+ "skills": [
+  {
+   "id": "e5-24",
+   "name": "Quantifiers and qualifiers"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Quantifiers express quantity: several proposals, much information, a little time. Countability is a property of the noun’s use, so a dictionary and the sentence matter. A few suggests some countable items, while few often emphasises scarcity; a little and little make a similar contrast with an uncountable amount. Qualifiers such as fairly or very can modify the degree of an adjective. They do not automatically provide a numerical measurement. A statement with some or fairly should not be rewritten as all or completely without evidence.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to match quantity expressions to noun uses and explain how a qualifier changes the degree of a description. Builds on: word classes, context and conditional statements. Leads to: resource explanations and appropriately limited claims."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "Quantifiers express quantity: several proposals, much information, a little time. Countability is a property of the noun’s use, so a dictionary and the sentence matter. A few suggests some countable items, while few often emphasises scarcity; a little and little make a similar contrast with an uncountable amount. Qualifiers such as fairly or very can modify the degree of an adjective. They do not automatically provide a numerical measurement. A statement with some or fairly should not be rewritten as all or completely without evidence."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original models: Several members read the fairly clear proposal. A few offered questions, so the number was small but positive. The group needed a little more information. Information is uncountable in this use; an item of information introduces a countable unit. Fairly modifies clear, not the exact attendance."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Identify the noun use, then choose a compatible quantifier. For a qualifier, name the word it modifies and the strength of the claim. Preserve small positive quantity, absence and totality as different meanings."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "count quantifier",
+    "meaning": "an expression compatible here with a plural countable noun"
+   },
+   {
+    "word": "amount quantifier",
+    "meaning": "an expression for an uncountable amount in the model"
+   },
+   {
+    "word": "positive small quantity",
+    "meaning": "the some meaning of a few or a little in context"
+   },
+   {
+    "word": "degree qualifier",
+    "meaning": "a modifier changing the strength of a description"
+   }
+  ],
+  "mistake": {
+   "wrong": "Much proposals is the required model.",
+   "right": "count quantifier: an expression compatible here with a plural countable noun.",
+   "why": "Much does not fit this plural countable use."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Several proposals gives a countable quantity. Explain the selected feature.",
+  "steps": [
+   "An expression compatible here with a plural countable noun.",
+   "Much does not fit this plural countable use."
+  ],
+  "answer": "count quantifier",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e5-24-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "count quantifier: an expression compatible here with a plural countable noun.",
+     "amount quantifier: an expression for an uncountable amount in the model.",
+     "positive small quantity: the some meaning of a few or a little in context.",
+     "degree qualifier: a modifier changing the strength of a description."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-24-terms"
+    }
+   },
+   {
+    "id": "e5-24-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "Several proposals gives a countable quantity.",
+     "A little information gives an amount without counting items.",
+     "A few attended means some attended.",
+     "Fairly qualifies clear in the proposal description."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-24-cases"
+    }
+   },
+   {
+    "id": "e5-24-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "Much proposals is the required model. Correction: Much does not fit this plural countable use.",
+     "Many information is the ordinary pattern in this use. Correction: Use much or an appropriate amount phrase rather than many.",
+     "A few always means no one. Correction: The phrase indicates a small positive number.",
+     "Fairly supplies an exact numerical percentage by itself. Correction: A degree word does not automatically supply a measurement."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e5-24-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "count quantifier: an expression compatible here with a plural countable noun.",
+        "truth": "true",
+        "explain": "This is correct: an expression compatible here with a plural countable noun. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "amount quantifier: an expression for an uncountable amount in the model.",
+        "truth": "true",
+        "explain": "This is correct: an expression for an uncountable amount in the model. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "positive small quantity: the some meaning of a few or a little in context.",
+        "truth": "true",
+        "explain": "This is correct: the some meaning of a few or a little in context. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "degree qualifier: a modifier changing the strength of a description.",
+        "truth": "true",
+        "explain": "This is correct: a modifier changing the strength of a description. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Much proposals is the required model.",
+        "truth": "false",
+        "explain": "Much does not fit this plural countable use."
+       },
+       {
+        "text": "Many information is the ordinary pattern in this use.",
+        "truth": "false",
+        "explain": "Use much or an appropriate amount phrase rather than many."
+       },
+       {
+        "text": "A few always means no one.",
+        "truth": "false",
+        "explain": "The phrase indicates a small positive number."
+       },
+       {
+        "text": "Fairly supplies an exact numerical percentage by itself.",
+        "truth": "false",
+        "explain": "A degree word does not automatically supply a measurement."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e5-24-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means an expression compatible here with a plural countable noun?",
+       "r": "count quantifier",
+       "w": [
+        "amount quantifier",
+        "positive small quantity",
+        "degree qualifier"
+       ],
+       "e": [
+        "That concerns an expression for an uncountable amount in the model, rather than an expression compatible here with a plural countable noun.",
+        "That concerns the some meaning of a few or a little in context, rather than an expression compatible here with a plural countable noun.",
+        "That concerns a modifier changing the strength of a description, rather than an expression compatible here with a plural countable noun."
+       ],
+       "y": "Much does not fit this plural countable use."
+      },
+      {
+       "q": "Which term means an expression for an uncountable amount in the model?",
+       "r": "amount quantifier",
+       "w": [
+        "count quantifier",
+        "positive small quantity",
+        "degree qualifier"
+       ],
+       "e": [
+        "That concerns an expression compatible here with a plural countable noun, rather than an expression for an uncountable amount in the model.",
+        "That concerns the some meaning of a few or a little in context, rather than an expression for an uncountable amount in the model.",
+        "That concerns a modifier changing the strength of a description, rather than an expression for an uncountable amount in the model."
+       ],
+       "y": "Use much or an appropriate amount phrase rather than many."
+      },
+      {
+       "q": "Which term means the some meaning of a few or a little in context?",
+       "r": "positive small quantity",
+       "w": [
+        "count quantifier",
+        "amount quantifier",
+        "degree qualifier"
+       ],
+       "e": [
+        "That concerns an expression compatible here with a plural countable noun, rather than the some meaning of a few or a little in context.",
+        "That concerns an expression for an uncountable amount in the model, rather than the some meaning of a few or a little in context.",
+        "That concerns a modifier changing the strength of a description, rather than the some meaning of a few or a little in context."
+       ],
+       "y": "The phrase indicates a small positive number."
+      },
+      {
+       "q": "Which term means a modifier changing the strength of a description?",
+       "r": "degree qualifier",
+       "w": [
+        "count quantifier",
+        "amount quantifier",
+        "positive small quantity"
+       ],
+       "e": [
+        "That concerns an expression compatible here with a plural countable noun, rather than a modifier changing the strength of a description.",
+        "That concerns an expression for an uncountable amount in the model, rather than a modifier changing the strength of a description.",
+        "That concerns the some meaning of a few or a little in context, rather than a modifier changing the strength of a description."
+       ],
+       "y": "A degree word does not automatically supply a measurement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-24-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Several proposals gives a countable quantity.\nWhich description best fits the selected feature?",
+       "r": "count quantifier",
+       "w": [
+        "amount quantifier",
+        "positive small quantity",
+        "degree qualifier"
+       ],
+       "e": [
+        "That means an expression for an uncountable amount in the model. The selected feature instead illustrates an expression compatible here with a plural countable noun.",
+        "That means the some meaning of a few or a little in context. The selected feature instead illustrates an expression compatible here with a plural countable noun.",
+        "That means a modifier changing the strength of a description. The selected feature instead illustrates an expression compatible here with a plural countable noun."
+       ],
+       "y": "Much does not fit this plural countable use."
+      },
+      {
+       "q": "A little information gives an amount without counting items.\nWhich description best fits the selected feature?",
+       "r": "amount quantifier",
+       "w": [
+        "count quantifier",
+        "positive small quantity",
+        "degree qualifier"
+       ],
+       "e": [
+        "That means an expression compatible here with a plural countable noun. The selected feature instead illustrates an expression for an uncountable amount in the model.",
+        "That means the some meaning of a few or a little in context. The selected feature instead illustrates an expression for an uncountable amount in the model.",
+        "That means a modifier changing the strength of a description. The selected feature instead illustrates an expression for an uncountable amount in the model."
+       ],
+       "y": "Use much or an appropriate amount phrase rather than many."
+      },
+      {
+       "q": "A few attended means some attended.\nWhich description best fits the selected feature?",
+       "r": "positive small quantity",
+       "w": [
+        "count quantifier",
+        "amount quantifier",
+        "degree qualifier"
+       ],
+       "e": [
+        "That means an expression compatible here with a plural countable noun. The selected feature instead illustrates the some meaning of a few or a little in context.",
+        "That means an expression for an uncountable amount in the model. The selected feature instead illustrates the some meaning of a few or a little in context.",
+        "That means a modifier changing the strength of a description. The selected feature instead illustrates the some meaning of a few or a little in context."
+       ],
+       "y": "The phrase indicates a small positive number."
+      },
+      {
+       "q": "Fairly qualifies clear in the proposal description.\nWhich description best fits the selected feature?",
+       "r": "degree qualifier",
+       "w": [
+        "count quantifier",
+        "amount quantifier",
+        "positive small quantity"
+       ],
+       "e": [
+        "That means an expression compatible here with a plural countable noun. The selected feature instead illustrates a modifier changing the strength of a description.",
+        "That means an expression for an uncountable amount in the model. The selected feature instead illustrates a modifier changing the strength of a description.",
+        "That means the some meaning of a few or a little in context. The selected feature instead illustrates a modifier changing the strength of a description."
+       ],
+       "y": "A degree word does not automatically supply a measurement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-24-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Choose the quantifier for countable plural proposals: There are ___ proposals to compare.",
+       "r": "several",
+       "w": [
+        "much",
+        "a little",
+        "an"
+       ],
+       "e": [
+        "Much normally modifies uncountable quantity here.",
+        "A little does not fit these plural countable proposals.",
+        "An does not determine a plural noun."
+       ],
+       "y": "Proposals are countable in this use."
+      },
+      {
+       "q": "Choose the uncountable pattern: We need ___ information.",
+       "r": "a little more",
+       "w": [
+        "a few more",
+        "many more",
+        "an extra"
+       ],
+       "e": [
+        "A few goes with plural countable items.",
+        "Many does not fit uncountable information in this use.",
+        "An would need a countable unit such as item."
+       ],
+       "y": "Use an amount expression with information."
+      },
+      {
+       "q": "A few members attended, so some were present. Which reformulation preserves that meaning?",
+       "r": "Some members attended, though the number was small.",
+       "w": [
+        "No member attended.",
+        "All members definitely attended.",
+        "The phrase gives the exact attendance."
+       ],
+       "e": [
+        "A few has a positive some meaning.",
+        "The statement does not say all.",
+        "No exact count is supplied."
+       ],
+       "y": "Distinguish a small positive number from absence."
+      },
+      {
+       "q": "What does fairly in a fairly clear proposal contribute?",
+       "r": "It qualifies the degree of clear.",
+       "w": [
+        "It counts the exact proposals.",
+        "It is the main finite verb.",
+        "It necessarily means completely unclear."
+       ],
+       "e": [
+        "It modifies the degree rather than stating a count.",
+        "The phrase does not make fairly a finite verb.",
+        "The qualifier does not reverse clear into that absolute opposite."
+       ],
+       "y": "Qualifiers and quantifiers do different work in this context."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-24-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "count quantifier",
+     "right": "Several proposals gives a countable quantity."
+    },
+    {
+     "left": "amount quantifier",
+     "right": "A little information gives an amount without counting items."
+    },
+    {
+     "left": "positive small quantity",
+     "right": "A few attended means some attended."
+    },
+    {
+     "left": "degree qualifier",
+     "right": "Fairly qualifies clear in the proposal description."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e5-24-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "count quantifier: an expression compatible here with a plural countable noun.",
+      "truth": "true",
+      "explain": "This is correct: an expression compatible here with a plural countable noun. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "amount quantifier: an expression for an uncountable amount in the model.",
+      "truth": "true",
+      "explain": "This is correct: an expression for an uncountable amount in the model. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "positive small quantity: the some meaning of a few or a little in context.",
+      "truth": "true",
+      "explain": "This is correct: the some meaning of a few or a little in context. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "degree qualifier: a modifier changing the strength of a description.",
+      "truth": "true",
+      "explain": "This is correct: a modifier changing the strength of a description. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Much proposals is the required model.",
+      "truth": "false",
+      "explain": "Much does not fit this plural countable use."
+     },
+     {
+      "text": "Many information is the ordinary pattern in this use.",
+      "truth": "false",
+      "explain": "Use much or an appropriate amount phrase rather than many."
+     },
+     {
+      "text": "A few always means no one.",
+      "truth": "false",
+      "explain": "The phrase indicates a small positive number."
+     },
+     {
+      "text": "Fairly supplies an exact numerical percentage by itself.",
+      "truth": "false",
+      "explain": "A degree word does not automatically supply a measurement."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,548 @@
+{
+ "subject": "english-language",
+ "class": "Form 5",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  3,
+  5
+ ],
+ "skills": [
+  {
+   "id": "e5-6",
+   "name": "Essay types, topic selection and planning"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Essay labels describe a dominant purpose. Narrative develops events; description creates a focused impression; exposition explains; argument develops a supported position. A response can use several techniques while answering a particular task. Select a manageable topic, identify a controlling idea and order supporting points. An outline is not a collection of unrelated headings. The task and teacher determine required form and length.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to choose an essay approach fitting a task and organise a focused outline. Builds on: study explanations and relevant information. Leads to: developed essays and genre-specific writing."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "Essay labels describe a dominant purpose. Narrative develops events; description creates a focused impression; exposition explains; argument develops a supported position. A response can use several techniques while answering a particular task. Select a manageable topic, identify a controlling idea and order supporting points. An outline is not a collection of unrelated headings. The task and teacher determine required form and length."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original model extract: Task: Explain how a school club can make notices clearer. Purpose: explanation rather than an invented adventure. Focus: readers need an identifiable activity, required action and source of confirmation."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Identify the audience, purpose and required content. Plan the order, draft in your own words and check each feature against the model. Explain why an edit improves the answer."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "dominant purpose",
+    "meaning": "the main communicative job requested"
+   },
+   {
+    "word": "manageable focus",
+    "meaning": "a topic narrow enough to develop"
+   },
+   {
+    "word": "controlling idea",
+    "meaning": "the central relationship guiding the outline"
+   },
+   {
+    "word": "planned development",
+    "meaning": "ordered points with relevant support"
+   }
+  ],
+  "mistake": {
+   "wrong": "Every essay requires an invented adventure.",
+   "right": "dominant purpose: the main communicative job requested.",
+   "why": "An explaining task needs processes and reasons."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Explain how a notice becomes clearer. Explain the selected feature.",
+  "steps": [
+   "The main communicative job requested.",
+   "An explaining task needs processes and reasons."
+  ],
+  "answer": "dominant purpose",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e5-6-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "dominant purpose: the main communicative job requested.",
+     "manageable focus: a topic narrow enough to develop.",
+     "controlling idea: the central relationship guiding the outline.",
+     "planned development: ordered points with relevant support."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-6-terms"
+    }
+   },
+   {
+    "id": "e5-6-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "Explain how a notice becomes clearer.",
+     "Focus on clearer club notices.",
+     "Readers need an activity, action and confirmation.",
+     "Explain the heading, checked details and provisional information."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-6-cases"
+    }
+   },
+   {
+    "id": "e5-6-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "Every essay requires an invented adventure. Correction: An explaining task needs processes and reasons.",
+     "Selecting every school problem always improves focus. Correction: Excessive breadth can prevent development.",
+     "Outline points need no shared purpose. Correction: Points should develop a central direction.",
+     "Repeating a heading supplies its supporting explanation. Correction: Each point needs relevant development."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e5-6-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "dominant purpose: the main communicative job requested.",
+        "truth": "true",
+        "explain": "This is correct: the main communicative job requested. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "manageable focus: a topic narrow enough to develop.",
+        "truth": "true",
+        "explain": "This is correct: a topic narrow enough to develop. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "controlling idea: the central relationship guiding the outline.",
+        "truth": "true",
+        "explain": "This is correct: the central relationship guiding the outline. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "planned development: ordered points with relevant support.",
+        "truth": "true",
+        "explain": "This is correct: ordered points with relevant support. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Every essay requires an invented adventure.",
+        "truth": "false",
+        "explain": "An explaining task needs processes and reasons."
+       },
+       {
+        "text": "Selecting every school problem always improves focus.",
+        "truth": "false",
+        "explain": "Excessive breadth can prevent development."
+       },
+       {
+        "text": "Outline points need no shared purpose.",
+        "truth": "false",
+        "explain": "Points should develop a central direction."
+       },
+       {
+        "text": "Repeating a heading supplies its supporting explanation.",
+        "truth": "false",
+        "explain": "Each point needs relevant development."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e5-6-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means the main communicative job requested?",
+       "r": "dominant purpose",
+       "w": [
+        "manageable focus",
+        "controlling idea",
+        "planned development"
+       ],
+       "e": [
+        "That concerns a topic narrow enough to develop, rather than the main communicative job requested.",
+        "That concerns the central relationship guiding the outline, rather than the main communicative job requested.",
+        "That concerns ordered points with relevant support, rather than the main communicative job requested."
+       ],
+       "y": "An explaining task needs processes and reasons."
+      },
+      {
+       "q": "Which term means a topic narrow enough to develop?",
+       "r": "manageable focus",
+       "w": [
+        "dominant purpose",
+        "controlling idea",
+        "planned development"
+       ],
+       "e": [
+        "That concerns the main communicative job requested, rather than a topic narrow enough to develop.",
+        "That concerns the central relationship guiding the outline, rather than a topic narrow enough to develop.",
+        "That concerns ordered points with relevant support, rather than a topic narrow enough to develop."
+       ],
+       "y": "Excessive breadth can prevent development."
+      },
+      {
+       "q": "Which term means the central relationship guiding the outline?",
+       "r": "controlling idea",
+       "w": [
+        "dominant purpose",
+        "manageable focus",
+        "planned development"
+       ],
+       "e": [
+        "That concerns the main communicative job requested, rather than the central relationship guiding the outline.",
+        "That concerns a topic narrow enough to develop, rather than the central relationship guiding the outline.",
+        "That concerns ordered points with relevant support, rather than the central relationship guiding the outline."
+       ],
+       "y": "Points should develop a central direction."
+      },
+      {
+       "q": "Which term means ordered points with relevant support?",
+       "r": "planned development",
+       "w": [
+        "dominant purpose",
+        "manageable focus",
+        "controlling idea"
+       ],
+       "e": [
+        "That concerns the main communicative job requested, rather than ordered points with relevant support.",
+        "That concerns a topic narrow enough to develop, rather than ordered points with relevant support.",
+        "That concerns the central relationship guiding the outline, rather than ordered points with relevant support."
+       ],
+       "y": "Each point needs relevant development."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-6-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Explain how a notice becomes clearer.\nWhich description best fits the selected feature?",
+       "r": "dominant purpose",
+       "w": [
+        "manageable focus",
+        "controlling idea",
+        "planned development"
+       ],
+       "e": [
+        "That means a topic narrow enough to develop. The selected feature instead illustrates the main communicative job requested.",
+        "That means the central relationship guiding the outline. The selected feature instead illustrates the main communicative job requested.",
+        "That means ordered points with relevant support. The selected feature instead illustrates the main communicative job requested."
+       ],
+       "y": "An explaining task needs processes and reasons."
+      },
+      {
+       "q": "Focus on clearer club notices.\nWhich description best fits the selected feature?",
+       "r": "manageable focus",
+       "w": [
+        "dominant purpose",
+        "controlling idea",
+        "planned development"
+       ],
+       "e": [
+        "That means the main communicative job requested. The selected feature instead illustrates a topic narrow enough to develop.",
+        "That means the central relationship guiding the outline. The selected feature instead illustrates a topic narrow enough to develop.",
+        "That means ordered points with relevant support. The selected feature instead illustrates a topic narrow enough to develop."
+       ],
+       "y": "Excessive breadth can prevent development."
+      },
+      {
+       "q": "Readers need an activity, action and confirmation.\nWhich description best fits the selected feature?",
+       "r": "controlling idea",
+       "w": [
+        "dominant purpose",
+        "manageable focus",
+        "planned development"
+       ],
+       "e": [
+        "That means the main communicative job requested. The selected feature instead illustrates the central relationship guiding the outline.",
+        "That means a topic narrow enough to develop. The selected feature instead illustrates the central relationship guiding the outline.",
+        "That means ordered points with relevant support. The selected feature instead illustrates the central relationship guiding the outline."
+       ],
+       "y": "Points should develop a central direction."
+      },
+      {
+       "q": "Explain the heading, checked details and provisional information.\nWhich description best fits the selected feature?",
+       "r": "planned development",
+       "w": [
+        "dominant purpose",
+        "manageable focus",
+        "controlling idea"
+       ],
+       "e": [
+        "That means the main communicative job requested. The selected feature instead illustrates ordered points with relevant support.",
+        "That means a topic narrow enough to develop. The selected feature instead illustrates ordered points with relevant support.",
+        "That means the central relationship guiding the outline. The selected feature instead illustrates ordered points with relevant support."
+       ],
+       "y": "Each point needs relevant development."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-6-build",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "Explain how a notice becomes clearer.",
+       "b": "Explain how a notice becomes clearer."
+      },
+      {
+       "a": "Focus on clearer club notices.",
+       "b": "Focus on clearer club notices."
+      },
+      {
+       "a": "Readers need an activity, action and confirmation.",
+       "b": "Readers need an activity, action and confirmation."
+      },
+      {
+       "a": "Explain the heading, checked details and provisional information.",
+       "b": "Explain the heading, checked details and provisional information."
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "e5-6-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "dominant purpose",
+     "right": "Explain how a notice becomes clearer."
+    },
+    {
+     "left": "manageable focus",
+     "right": "Focus on clearer club notices."
+    },
+    {
+     "left": "controlling idea",
+     "right": "Readers need an activity, action and confirmation."
+    },
+    {
+     "left": "planned development",
+     "right": "Explain the heading, checked details and provisional information."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e5-6-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "dominant purpose: the main communicative job requested.",
+      "truth": "true",
+      "explain": "This is correct: the main communicative job requested. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "manageable focus: a topic narrow enough to develop.",
+      "truth": "true",
+      "explain": "This is correct: a topic narrow enough to develop. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "controlling idea: the central relationship guiding the outline.",
+      "truth": "true",
+      "explain": "This is correct: the central relationship guiding the outline. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "planned development: ordered points with relevant support.",
+      "truth": "true",
+      "explain": "This is correct: ordered points with relevant support. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every essay requires an invented adventure.",
+      "truth": "false",
+      "explain": "An explaining task needs processes and reasons."
+     },
+     {
+      "text": "Selecting every school problem always improves focus.",
+      "truth": "false",
+      "explain": "Excessive breadth can prevent development."
+     },
+     {
+      "text": "Outline points need no shared purpose.",
+      "truth": "false",
+      "explain": "Points should develop a central direction."
+     },
+     {
+      "text": "Repeating a heading supplies its supporting explanation.",
+      "truth": "false",
+      "explain": "Each point needs relevant development."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "checks": [],
+  "prompt": "Choose a school-communication essay task. State its purpose, narrow the topic and outline a controlling idea, ordered points and an example for each. Do not draft the full essay yet.",
+  "model": [
+   "Task: Explain how a school club can make notices clearer. Purpose: explanation rather than an invented adventure. Focus: readers need an identifiable activity, required action and source of confirmation.",
+   "Outline: introduce a confusing notice; explain how a precise heading identifies the activity; explain how checked details support action; conclude by showing why unconfirmed details must remain labelled as provisional. Develop each point with a relevant example."
+  ],
+  "checklist": [
+   "Dominant purpose: the main communicative job requested.",
+   "Manageable focus: a topic narrow enough to develop.",
+   "Controlling idea: the central relationship guiding the outline.",
+   "Planned development: ordered points with relevant support.",
+   "Use relevant original details and check sentence boundaries, agreement and spelling."
+  ]
+ }
+}

@@ -53,16 +53,17 @@ and `npm test`. Form 1 changes stay on `form-2` until Dion approves them for the
   in `C:\Users\efuet\preps`; generators in `tools/authoring/form4/`; the same opening goal screen as Codex's.
 - **Codex: the other Form 4 subjects** (English, French, Français intensif, History, Geography; Literature waits
   for the set books, AUTHORING section 6). Dion can move any subject between authors.
-- Forms 5, Lower and Upper Sixth Term 1: listed in `content/classes.json` (cinema subjects excepted); subject
-  ownership is still to be split. Sheet errors in each class's `issues.md`
-  need Dion's decisions first.
+- **Codex, authorised by Dion on 2026-10-24:** Form Five Term One English, French, Français intensif, History, Geography, Economics and Logic; then Lower Sixth Term One English, French, Français intensif, African History, Cameroon History, World History, Geography, Economics and Philosophy; then Upper Sixth Term One English, French, Français intensif, Cameroon History, World History, Geography, Economics and Philosophy. Literature in English may be handled with prescribed-text rows held for teacher feedback until books/editions are confirmed.
+  Work through Form Five first, then Lower Sixth, then Upper Sixth, completing and pushing each subject after tests and browser checks. Keep the existing ownership split for Maths/sciences/technical subjects. Generators stay in the relevant `tools/authoring/<class>/` folder. Unclear sheet titles and prescribed books remain teacher-feedback items; do not invent corrections or replacements.
 - Codex: bring Form 2 Term 3 French (70–81) and Français intensif (104–128) up to the quality bar (4+ questions,
   specific feedback, 3+ variants, Learn screens) when Form 3 is done.
   French 70–81 and Français intensif 104–128 upgraded on 2026-10-24; both assigned Term Three quality batches are complete as drafts pending teacher review.
 
 ## Codex coverage and teacher feedback (2026-10-24)
 
-- The current assigned batches contain 348 written drafts, including guided practicals, and 74 explicitly deferred teaching rows. No assigned teaching row is unaccounted for; diagnostic rows remain excluded under AUTHORING.md.
+- The earlier completed batches contain 348 written drafts, including guided practicals, and 74 explicitly deferred teaching rows. No assigned teaching row is unaccounted for; diagnostic rows remain excluded under AUTHORING.md.
 - Form Four Literature foundations 2/19 are drafted using original examples. Text-specific rows await teacher feedback on books/editions. Form Three/Four Français intensif prescribed-text rows and the three ambiguous Form Three French titles also remain deferred.
 - Dion requested that unresolved book choices and titles be kept for teacher feedback. Collect decisions in the subject TEACHER-REVIEW.md files; do not guess replacements or mark them approved.
-- The reproducible coverage and row-by-row feedback list is [CODEX-CONTENT-STATUS.md](CODEX-CONTENT-STATUS.md). Run `python tools/authoring/audit_codex_scope.py` to refresh it. Later-class ownership remains unassigned as stated above.
+- The earlier-batch coverage and row-by-row feedback list is [CODEX-CONTENT-STATUS.md](CODEX-CONTENT-STATUS.md). Run `python tools/authoring/audit_codex_scope.py` to refresh that baseline. The new Form Five/Sixth assignment above is additional work and is not counted as complete in the 348-draft baseline.
+
+- Form Five English Term One: 31 teaching drafts (rows 2–32) completed on 2026-10-24 with goals/connections, writing models and teacher notes; diagnostic row 1 excluded. This adds to the earlier baseline.

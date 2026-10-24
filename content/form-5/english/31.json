@@ -1,0 +1,582 @@
+{
+ "subject": "english-language",
+ "class": "Form 5",
+ "lesson_no": 31,
+ "language": "en",
+ "prerequisites": [
+  4,
+  11,
+  24,
+  30
+ ],
+ "skills": [
+  {
+   "id": "e5-31",
+   "name": "Concord: agreement with the grammatical subject"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The finite verb agrees with the grammatical subject in the taught present patterns. In the chair of the groups, chair is the singular nucleus; groups is inside a complement. Each of the reporters takes singular agreement in the model. Distinct subjects Bih and Ayuk joined by and take plural agreement. A nearby plural noun does not automatically control the verb. Collective nouns and some coordinated constructions vary according to meaning and convention; the exercises use explicit cases rather than treating every collective expression alike.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to choose a present verb agreeing with its subject despite an intervening complement or a coordinated subject. Builds on: sentence structure, quantifiers and the revised verb forms. Leads to: editing formal and informal letters."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "The finite verb agrees with the grammatical subject in the taught present patterns. In the chair of the groups, chair is the singular nucleus; groups is inside a complement. Each of the reporters takes singular agreement in the model. Distinct subjects Bih and Ayuk joined by and take plural agreement. A nearby plural noun does not automatically control the verb. Collective nouns and some coordinated constructions vary according to meaning and convention; the exercises use explicit cases rather than treating every collective expression alike."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original models: The chair of the groups {thirdPerson(\"write\")} the summary. The members of the club write it. Each of the reporters {thirdPerson(\"check\")} a detail. Bih and Ayuk prepare the notice. The complements do not replace the subject, and a participle alone does not provide a missing finite verb."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Mark the whole subject, find its nucleus or coordination, then choose the present form. Check that an apparent correction has not changed tense. Read the full clause rather than matching the last noun to the nearest verb."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "subject nucleus",
+    "meaning": "the central word controlling agreement in the model group"
+   },
+   {
+    "word": "singular each",
+    "meaning": "the singular agreement pattern with each in the model"
+   },
+   {
+    "word": "coordinated plural",
+    "meaning": "agreement with distinct subjects joined by and"
+   },
+   {
+    "word": "finite agreement",
+    "meaning": "the matching form within a complete finite clause"
+   }
+  ],
+  "mistake": {
+   "wrong": "Groups must control the verb simply because it is nearer.",
+   "right": "subject nucleus: the central word controlling agreement in the model group.",
+   "why": "The nearer noun is inside a complement."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Chair is singular in the chair of the groups. Explain the selected feature.",
+  "steps": [
+   "The central word controlling agreement in the model group.",
+   "The nearer noun is inside a complement."
+  ],
+  "answer": "subject nucleus",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "e5-31-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "subject nucleus: the central word controlling agreement in the model group.",
+     "singular each: the singular agreement pattern with each in the model.",
+     "coordinated plural: agreement with distinct subjects joined by and.",
+     "finite agreement: the matching form within a complete finite clause."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-31-terms"
+    }
+   },
+   {
+    "id": "e5-31-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "Chair is singular in the chair of the groups.",
+     "Each of the reporters checks a detail.",
+     "Bih and Ayuk prepare a notice.",
+     "The members write contains a present finite verb."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "e5-31-cases"
+    }
+   },
+   {
+    "id": "e5-31-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "Groups must control the verb simply because it is nearer. Correction: The nearer noun is inside a complement.",
+     "Each of the reporters always requires check without the singular marker. Correction: Each controls singular agreement here.",
+     "Two distinct named subjects here require prepares. Correction: The coordination is plural in the stated model.",
+     "The members writing alone gives the complete finite model. Correction: The -ing form needs an appropriate auxiliary to make that progressive clause."
+    ],
+    "checks": [],
+    "check": {
+     "id": "e5-31-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "subject nucleus: the central word controlling agreement in the model group.",
+        "truth": "true",
+        "explain": "This is correct: the central word controlling agreement in the model group. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "singular each: the singular agreement pattern with each in the model.",
+        "truth": "true",
+        "explain": "This is correct: the singular agreement pattern with each in the model. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "coordinated plural: agreement with distinct subjects joined by and.",
+        "truth": "true",
+        "explain": "This is correct: agreement with distinct subjects joined by and. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "finite agreement: the matching form within a complete finite clause.",
+        "truth": "true",
+        "explain": "This is correct: the matching form within a complete finite clause. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Groups must control the verb simply because it is nearer.",
+        "truth": "false",
+        "explain": "The nearer noun is inside a complement."
+       },
+       {
+        "text": "Each of the reporters always requires check without the singular marker.",
+        "truth": "false",
+        "explain": "Each controls singular agreement here."
+       },
+       {
+        "text": "Two distinct named subjects here require prepares.",
+        "truth": "false",
+        "explain": "The coordination is plural in the stated model."
+       },
+       {
+        "text": "The members writing alone gives the complete finite model.",
+        "truth": "false",
+        "explain": "The -ing form needs an appropriate auxiliary to make that progressive clause."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "e5-31-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means the central word controlling agreement in the model group?",
+       "r": "subject nucleus",
+       "w": [
+        "singular each",
+        "coordinated plural",
+        "finite agreement"
+       ],
+       "e": [
+        "That concerns the singular agreement pattern with each in the model, rather than the central word controlling agreement in the model group.",
+        "That concerns agreement with distinct subjects joined by and, rather than the central word controlling agreement in the model group.",
+        "That concerns the matching form within a complete finite clause, rather than the central word controlling agreement in the model group."
+       ],
+       "y": "The nearer noun is inside a complement."
+      },
+      {
+       "q": "Which term means the singular agreement pattern with each in the model?",
+       "r": "singular each",
+       "w": [
+        "subject nucleus",
+        "coordinated plural",
+        "finite agreement"
+       ],
+       "e": [
+        "That concerns the central word controlling agreement in the model group, rather than the singular agreement pattern with each in the model.",
+        "That concerns agreement with distinct subjects joined by and, rather than the singular agreement pattern with each in the model.",
+        "That concerns the matching form within a complete finite clause, rather than the singular agreement pattern with each in the model."
+       ],
+       "y": "Each controls singular agreement here."
+      },
+      {
+       "q": "Which term means agreement with distinct subjects joined by and?",
+       "r": "coordinated plural",
+       "w": [
+        "subject nucleus",
+        "singular each",
+        "finite agreement"
+       ],
+       "e": [
+        "That concerns the central word controlling agreement in the model group, rather than agreement with distinct subjects joined by and.",
+        "That concerns the singular agreement pattern with each in the model, rather than agreement with distinct subjects joined by and.",
+        "That concerns the matching form within a complete finite clause, rather than agreement with distinct subjects joined by and."
+       ],
+       "y": "The coordination is plural in the stated model."
+      },
+      {
+       "q": "Which term means the matching form within a complete finite clause?",
+       "r": "finite agreement",
+       "w": [
+        "subject nucleus",
+        "singular each",
+        "coordinated plural"
+       ],
+       "e": [
+        "That concerns the central word controlling agreement in the model group, rather than the matching form within a complete finite clause.",
+        "That concerns the singular agreement pattern with each in the model, rather than the matching form within a complete finite clause.",
+        "That concerns agreement with distinct subjects joined by and, rather than the matching form within a complete finite clause."
+       ],
+       "y": "The -ing form needs an appropriate auxiliary to make that progressive clause."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-31-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Chair is singular in the chair of the groups.\nWhich description best fits the selected feature?",
+       "r": "subject nucleus",
+       "w": [
+        "singular each",
+        "coordinated plural",
+        "finite agreement"
+       ],
+       "e": [
+        "That means the singular agreement pattern with each in the model. The selected feature instead illustrates the central word controlling agreement in the model group.",
+        "That means agreement with distinct subjects joined by and. The selected feature instead illustrates the central word controlling agreement in the model group.",
+        "That means the matching form within a complete finite clause. The selected feature instead illustrates the central word controlling agreement in the model group."
+       ],
+       "y": "The nearer noun is inside a complement."
+      },
+      {
+       "q": "Each of the reporters checks a detail.\nWhich description best fits the selected feature?",
+       "r": "singular each",
+       "w": [
+        "subject nucleus",
+        "coordinated plural",
+        "finite agreement"
+       ],
+       "e": [
+        "That means the central word controlling agreement in the model group. The selected feature instead illustrates the singular agreement pattern with each in the model.",
+        "That means agreement with distinct subjects joined by and. The selected feature instead illustrates the singular agreement pattern with each in the model.",
+        "That means the matching form within a complete finite clause. The selected feature instead illustrates the singular agreement pattern with each in the model."
+       ],
+       "y": "Each controls singular agreement here."
+      },
+      {
+       "q": "Bih and Ayuk prepare a notice.\nWhich description best fits the selected feature?",
+       "r": "coordinated plural",
+       "w": [
+        "subject nucleus",
+        "singular each",
+        "finite agreement"
+       ],
+       "e": [
+        "That means the central word controlling agreement in the model group. The selected feature instead illustrates agreement with distinct subjects joined by and.",
+        "That means the singular agreement pattern with each in the model. The selected feature instead illustrates agreement with distinct subjects joined by and.",
+        "That means the matching form within a complete finite clause. The selected feature instead illustrates agreement with distinct subjects joined by and."
+       ],
+       "y": "The coordination is plural in the stated model."
+      },
+      {
+       "q": "The members write contains a present finite verb.\nWhich description best fits the selected feature?",
+       "r": "finite agreement",
+       "w": [
+        "subject nucleus",
+        "singular each",
+        "coordinated plural"
+       ],
+       "e": [
+        "That means the central word controlling agreement in the model group. The selected feature instead illustrates the matching form within a complete finite clause.",
+        "That means the singular agreement pattern with each in the model. The selected feature instead illustrates the matching form within a complete finite clause.",
+        "That means agreement with distinct subjects joined by and. The selected feature instead illustrates the matching form within a complete finite clause."
+       ],
+       "y": "The -ing form needs an appropriate auxiliary to make that progressive clause."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "e5-31-concord",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "text": "The chair of the groups",
+       "s": {
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "text": "The members of the club",
+       "s": {
+        "person": 3,
+        "plural": true
+       }
+      },
+      {
+       "text": "Each of the reporters",
+       "s": {
+        "person": 3,
+        "plural": false
+       }
+      },
+      {
+       "text": "Bih and Ayuk",
+       "s": {
+        "person": 3,
+        "plural": true
+       }
+      }
+     ]
+    },
+    "v": {
+     "pick": [
+      "write",
+      "check",
+      "prepare",
+      "organise"
+     ]
+    }
+   },
+   "prompt": "Complete the simple-present affirmative clause: {X.text} ___ the summary. Verb: {v}.",
+   "correct": "{presentFor(X.s,v)}",
+   "distractors": [
+    {
+     "text": "{X.s.plural ? thirdPerson(v) : v}",
+     "misconception": "number"
+    },
+    {
+     "text": "{past(v)}",
+     "misconception": "past"
+    },
+    {
+     "text": "{ing(v)}",
+     "misconception": "ing"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "number",
+     "explain": "This form follows a different subject number from the stated nucleus."
+    },
+    {
+     "id": "past",
+     "explain": "The task requests simple present, not a past form."
+    },
+    {
+     "id": "ing",
+     "explain": "The bare -ing form is not the finite affirmative group required here."
+    }
+   ],
+   "solution": [
+    "Find the subject nucleus rather than agreeing with the nearest noun.",
+    "The form is {answer}."
+   ]
+  },
+  {
+   "id": "e5-31-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "subject nucleus",
+     "right": "Chair is singular in the chair of the groups."
+    },
+    {
+     "left": "singular each",
+     "right": "Each of the reporters checks a detail."
+    },
+    {
+     "left": "coordinated plural",
+     "right": "Bih and Ayuk prepare a notice."
+    },
+    {
+     "left": "finite agreement",
+     "right": "The members write contains a present finite verb."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "e5-31-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "subject nucleus: the central word controlling agreement in the model group.",
+      "truth": "true",
+      "explain": "This is correct: the central word controlling agreement in the model group. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "singular each: the singular agreement pattern with each in the model.",
+      "truth": "true",
+      "explain": "This is correct: the singular agreement pattern with each in the model. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "coordinated plural: agreement with distinct subjects joined by and.",
+      "truth": "true",
+      "explain": "This is correct: agreement with distinct subjects joined by and. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "finite agreement: the matching form within a complete finite clause.",
+      "truth": "true",
+      "explain": "This is correct: the matching form within a complete finite clause. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Groups must control the verb simply because it is nearer.",
+      "truth": "false",
+      "explain": "The nearer noun is inside a complement."
+     },
+     {
+      "text": "Each of the reporters always requires check without the singular marker.",
+      "truth": "false",
+      "explain": "Each controls singular agreement here."
+     },
+     {
+      "text": "Two distinct named subjects here require prepares.",
+      "truth": "false",
+      "explain": "The coordination is plural in the stated model."
+     },
+     {
+      "text": "The members writing alone gives the complete finite model.",
+      "truth": "false",
+      "explain": "The -ing form needs an appropriate auxiliary to make that progressive clause."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
