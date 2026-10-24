@@ -1,0 +1,645 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [
+  13
+ ],
+ "skills": [
+  {
+   "id": "k4-14",
+   "name": "Describe the effect of heat on nitrates"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "All nitrates decompose on heating, but what is left depends on the metal.\n• Sodium and potassium nitrates (very reactive metals) give the nitrite and oxygen:\n2NaNO3 → 2NaNO2 + O2.\n• Most other metal nitrates give the metal oxide, brown nitrogen dioxide and oxygen:\n2Pb(NO3)2 → 2PbO + 4NO2 + O2. Lead(II) nitrate crackles as it decomposes.\n• Silver and mercury nitrates (very unreactive metals) give the metal itself, nitrogen dioxide and oxygen:\n2AgNO3 → 2Ag + 2NO2 + O2.\n• Ammonium nitrate is not a metal nitrate: it gives dinitrogen oxide and water, NH4NO3 → N2O + 2H2O.\nThe more reactive the metal, the more stable its nitrate is to heat.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to predict and write equations for what heat does to the nitrate of any metal, and link it to the reactivity series.\nBuilds on: Lesson {13} (nitrates as the salts of nitric acid) and Form Three the reactivity series.\nLeads to: Lesson {15} (the oxides of nitrogen given off) and testing for nitrates."
+   },
+   {
+    "heading": "Three patterns",
+    "text": "Every nitrate decomposes on heating, but the products depend on how reactive the metal is.\n• VERY REACTIVE metals (sodium, potassium): the nitrite and oxygen only.\n{2}{formula('NaNO3')} → {2}{formula('NaNO2')} + {formula('O2')}\n• MOST metals (calcium, magnesium, zinc, iron, lead, copper): the oxide, brown nitrogen dioxide and oxygen.\n{2}{formula('Pb(NO3)2')} → {2}{formula('PbO')} + {4}{formula('NO2')} + {formula('O2')}\nLead(II) nitrate crackles loudly as it decomposes, and the yellow {formula('PbO')} left is orange while hot.\n• VERY UNREACTIVE metals (silver, mercury): the metal itself, nitrogen dioxide and oxygen.\n{2}{formula('AgNO3')} → {2}Ag + {2}{formula('NO2')} + {formula('O2')}"
+   },
+   {
+    "heading": "Ammonium nitrate, and what you see",
+    "text": "Ammonium nitrate is not a metal nitrate, and it behaves differently again:\n{formula('NH4NO3')} → {formula('N2O')} + {2}{formula('H2O')}\nThis gentle heating is how dinitrogen oxide, 'laughing gas', is prepared. Strong heating of ammonium nitrate is dangerous, because it can explode.\nWhat to look for when a nitrate is heated:\n• a colourless gas that relights a glowing splint: oxygen;\n• a brown gas that turns damp blue litmus red: nitrogen dioxide;\n• the colour of the solid left: white for a nitrite, yellow or black for an oxide, shiny for a metal.\nThe rule to remember: the more reactive the metal, the more stable its nitrate."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "decompose",
+    "meaning": "break down into simpler substances"
+   },
+   {
+    "word": "nitrite",
+    "meaning": "a salt containing the {formula('NO2')} ion with a {1}− charge, such as {formula('NaNO2')}"
+   },
+   {
+    "word": "thermal stability",
+    "meaning": "how well a compound stands up to heat"
+   },
+   {
+    "word": "reactivity series",
+    "meaning": "metals in order of how readily they react"
+   }
+  ],
+  "examples": [
+   "{2}{formula('NaNO3')} → {2}{formula('NaNO2')} + {formula('O2')}",
+   "{2}{formula('Pb(NO3)2')} → {2}{formula('PbO')} + {4}{formula('NO2')} + {formula('O2')}",
+   "{formula('NH4NO3')} → {formula('N2O')} + {2}{formula('H2O')}"
+  ],
+  "mistake": {
+   "wrong": "heating sodium nitrate gives sodium oxide and nitrogen dioxide",
+   "right": "it gives sodium nitrite and oxygen",
+   "why": "Sodium is very reactive, so its nitrate decomposes only as far as the nitrite."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 1
+  },
+  "problem": "Lead(II) nitrate and sodium nitrate are each heated strongly. State what is seen and write the equations.",
+  "steps": [
+   "Lead(II) nitrate crackles, gives off a brown gas and leaves a yellow solid.",
+   "{2}{formula('Pb(NO3)2')} → {2}{formula('PbO')} + {4}{formula('NO2')} + {formula('O2')}.",
+   "Sodium nitrate melts and gives off a colourless gas that relights a glowing splint; the solid left is white.",
+   "{2}{formula('NaNO3')} → {2}{formula('NaNO2')} + {formula('O2')}."
+  ],
+  "answer": "lead nitrate gives {formula('PbO')}, {formula('NO2')} and {formula('O2')}; sodium nitrate gives {formula('NaNO2')} and {formula('O2')}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k14-1",
+    "status": "draft",
+    "idea": "Sodium and potassium nitrates give the nitrite and oxygen only.",
+    "vars": {},
+    "example": [
+     "{2}{formula('NaNO3')} → {2}{formula('NaNO2')} + {formula('O2')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-14-which"
+    }
+   },
+   {
+    "id": "c4k14-2",
+    "status": "draft",
+    "idea": "Most other metal nitrates give the oxide, brown {formula('NO2')} and oxygen.",
+    "vars": {},
+    "example": [
+     "{2}{formula('Pb(NO3)2')} → {2}{formula('PbO')} + {4}{formula('NO2')} + {formula('O2')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-14-product"
+    }
+   },
+   {
+    "id": "c4k14-3",
+    "status": "draft",
+    "idea": "Silver and mercury nitrates leave the metal itself.",
+    "vars": {},
+    "example": [
+     "{2}{formula('AgNO3')} → {2}Ag + {2}{formula('NO2')} + {formula('O2')}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-14-group-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "nitrogen"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Two nitrates are heated. One gives off only a colourless gas; the other gives off a brown gas as well. What does this show?",
+         "r": "The first is the nitrate of a very reactive metal such as sodium or potassium",
+         "w": [
+          "The first is the nitrate of a very unreactive metal",
+          "The second has not been heated strongly enough",
+          "The two are the same compound"
+         ],
+         "e": [
+          "An unreactive metal such as silver gives the metal, brown {formula('NO2')} AND oxygen.",
+          "Stronger heating would not change which products form.",
+          "The same compound would give the same products."
+         ],
+         "y": "Only sodium and potassium nitrates decompose as far as the nitrite, giving off oxygen alone."
+        },
+        {
+         "q": "A nitrate is heated and a shiny solid is left in the tube. Which metal is it likely to be?",
+         "r": "Silver",
+         "w": [
+          "Sodium",
+          "Copper",
+          "Zinc"
+         ],
+         "e": [
+          "Sodium nitrate leaves a white nitrite, not a shiny metal.",
+          "Copper(II) nitrate leaves black copper(II) oxide.",
+          "Zinc nitrate leaves zinc oxide, yellow while hot and white when cold."
+         ],
+         "y": "Only the very unreactive metals, silver and mercury, are left as the metal itself."
+        },
+        {
+         "q": "A nitrate is heated and leaves a solid that is yellow while hot and white when cold. Which oxide is it?",
+         "r": "Zinc oxide",
+         "w": [
+          "Lead(II) oxide",
+          "Copper(II) oxide",
+          "Sodium oxide"
+         ],
+         "e": [
+          "Lead(II) oxide is orange while hot and yellow when cold.",
+          "Copper(II) oxide is black both hot and cold.",
+          "Sodium nitrate leaves a nitrite, not an oxide."
+         ],
+         "y": "Zinc oxide is the one that changes from yellow to white as it cools."
+        },
+        {
+         "q": "Which gas given off when a nitrate is heated would relight a glowing splint?",
+         "r": "Oxygen",
+         "w": [
+          "Nitrogen dioxide",
+          "Nitrogen",
+          "Carbon dioxide"
+         ],
+         "e": [
+          "Nitrogen dioxide is brown and would not relight a splint.",
+          "Nitrogen puts a splint out.",
+          "No carbon dioxide is given off by a nitrate."
+         ],
+         "y": "Every nitrate gives off oxygen on heating, and oxygen relights a glowing splint."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-14-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is formed when sodium nitrate is heated?",
+       "r": "Sodium nitrite and oxygen",
+       "w": [
+        "Sodium oxide, nitrogen dioxide and oxygen",
+        "Sodium, nitrogen dioxide and oxygen",
+        "It does not decompose"
+       ],
+       "e": [
+        "That is what happens to the nitrates of most other metals, but not to those of sodium and potassium.",
+        "Only the nitrates of silver and mercury leave the metal itself.",
+        "It does decompose, giving off oxygen."
+       ],
+       "y": "{2}{formula('NaNO3')} → {2}{formula('NaNO2')} + {formula('O2')}: a very reactive metal keeps its nitrogen as a nitrite."
+      },
+      {
+       "q": "What is formed when lead(II) nitrate is heated?",
+       "r": "Lead(II) oxide, nitrogen dioxide and oxygen",
+       "w": [
+        "Lead(II) nitrite and oxygen",
+        "Lead, nitrogen dioxide and oxygen",
+        "Lead(II) oxide only"
+       ],
+       "e": [
+        "Only the nitrates of sodium and potassium give nitrites.",
+        "Only silver and mercury nitrates leave the metal itself.",
+        "A brown gas and oxygen are given off as well."
+       ],
+       "y": "{2}{formula('Pb(NO3)2')} → {2}{formula('PbO')} + {4}{formula('NO2')} + {formula('O2')}, with crackling and a brown gas."
+      },
+      {
+       "q": "What is formed when silver nitrate is heated?",
+       "r": "Silver, nitrogen dioxide and oxygen",
+       "w": [
+        "Silver oxide, nitrogen dioxide and oxygen",
+        "Silver nitrite and oxygen",
+        "It does not decompose"
+       ],
+       "e": [
+        "Silver oxide is itself unstable to heat and breaks down to the metal.",
+        "Only the very reactive metals give nitrites.",
+        "It decomposes readily on heating."
+       ],
+       "y": "{2}{formula('AgNO3')} → {2}Ag + {2}{formula('NO2')} + {formula('O2')}: an unreactive metal is left as the metal."
+      },
+      {
+       "q": "What is formed when ammonium nitrate is heated gently?",
+       "r": "Dinitrogen oxide and water",
+       "w": [
+        "Ammonia and nitric acid",
+        "Nitrogen and water",
+        "Nitrogen dioxide and water"
+       ],
+       "e": [
+        "The salt does not simply split back into its acid and base on gentle heating.",
+        "Nitrogen and water come from ammonium NITRITE, not nitrate.",
+        "Nitrogen dioxide comes from the nitrates of metals."
+       ],
+       "y": "{formula('NH4NO3')} → {formula('N2O')} + {2}{formula('H2O')}: this is how laughing gas is prepared."
+      },
+      {
+       "q": "Which observation shows that a brown gas given off on heating a nitrate is nitrogen dioxide?",
+       "r": "It is brown, it turns damp blue litmus red, and it is the only common brown gas here",
+       "w": [
+        "It is brown and turns limewater milky",
+        "It is brown and relights a glowing splint",
+        "It is brown and smells of rotten eggs"
+       ],
+       "e": [
+        "Limewater is the test for carbon dioxide, which is colourless.",
+        "Oxygen relights a splint, but oxygen is colourless.",
+        "Rotten eggs is hydrogen sulphide, which is colourless."
+       ],
+       "y": "{formula('NO2')} is brown and acidic; the oxygen given off with it is what relights a splint."
+      },
+      {
+       "q": "Why do the nitrates of sodium and potassium behave differently from the rest?",
+       "r": "They are the nitrates of very reactive metals, so they decompose only as far as the nitrite",
+       "w": [
+        "They are not really nitrates",
+        "They contain no oxygen",
+        "They melt instead of decomposing"
+       ],
+       "e": [
+        "They are nitrates, with the same {formula('NO3')} ion.",
+        "Every nitrate contains oxygen.",
+        "They do melt, but they also decompose, giving off oxygen."
+       ],
+       "y": "The more reactive the metal, the more stable its compounds are to heat."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-14-product",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      {
+       "n": "Potassium nitrate",
+       "r": "Potassium nitrite",
+       "w1": "Potassium oxide",
+       "w2": "Potassium metal",
+       "w3": "Nothing at all",
+       "y": "Potassium is very reactive, so its nitrate decomposes only as far as the nitrite."
+      },
+      {
+       "n": "Copper(II) nitrate",
+       "r": "Black copper(II) oxide",
+       "w1": "Copper(II) nitrite",
+       "w2": "Copper metal",
+       "w3": "Nothing at all",
+       "y": "A metal of middling reactivity leaves its oxide, with brown {formula('NO2')} and oxygen given off."
+      },
+      {
+       "n": "Silver nitrate",
+       "r": "Silver metal",
+       "w1": "Silver oxide",
+       "w2": "Silver nitrite",
+       "w3": "Nothing at all",
+       "y": "Silver is very unreactive, so even its oxide is unstable and the metal is left."
+      },
+      {
+       "n": "Zinc nitrate",
+       "r": "Zinc oxide",
+       "w1": "Zinc nitrite",
+       "w2": "Zinc metal",
+       "w3": "Nothing at all",
+       "y": "Zinc is in the middle of the reactivity series, so its nitrate gives the oxide."
+      }
+     ]
+    },
+    "N": {
+     "expr": "P.n"
+    }
+   },
+   "prompt": "{N} is heated strongly. What solid is left?",
+   "correct": "{P.r}",
+   "distractors": [
+    {
+     "text": "{P.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{P.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{P.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{P.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{P.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{P.y}"
+    }
+   ],
+   "solution": [
+    "{P.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "k4-14-group",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Two nitrates are heated. One gives off only a colourless gas; the other gives off a brown gas as well. What does this show?",
+       "r": "The first is the nitrate of a very reactive metal such as sodium or potassium",
+       "w": [
+        "The first is the nitrate of a very unreactive metal",
+        "The second has not been heated strongly enough",
+        "The two are the same compound"
+       ],
+       "e": [
+        "An unreactive metal such as silver gives the metal, brown {formula('NO2')} AND oxygen.",
+        "Stronger heating would not change which products form.",
+        "The same compound would give the same products."
+       ],
+       "y": "Only sodium and potassium nitrates decompose as far as the nitrite, giving off oxygen alone."
+      },
+      {
+       "q": "A nitrate is heated and a shiny solid is left in the tube. Which metal is it likely to be?",
+       "r": "Silver",
+       "w": [
+        "Sodium",
+        "Copper",
+        "Zinc"
+       ],
+       "e": [
+        "Sodium nitrate leaves a white nitrite, not a shiny metal.",
+        "Copper(II) nitrate leaves black copper(II) oxide.",
+        "Zinc nitrate leaves zinc oxide, yellow while hot and white when cold."
+       ],
+       "y": "Only the very unreactive metals, silver and mercury, are left as the metal itself."
+      },
+      {
+       "q": "A nitrate is heated and leaves a solid that is yellow while hot and white when cold. Which oxide is it?",
+       "r": "Zinc oxide",
+       "w": [
+        "Lead(II) oxide",
+        "Copper(II) oxide",
+        "Sodium oxide"
+       ],
+       "e": [
+        "Lead(II) oxide is orange while hot and yellow when cold.",
+        "Copper(II) oxide is black both hot and cold.",
+        "Sodium nitrate leaves a nitrite, not an oxide."
+       ],
+       "y": "Zinc oxide is the one that changes from yellow to white as it cools."
+      },
+      {
+       "q": "Which gas given off when a nitrate is heated would relight a glowing splint?",
+       "r": "Oxygen",
+       "w": [
+        "Nitrogen dioxide",
+        "Nitrogen",
+        "Carbon dioxide"
+       ],
+       "e": [
+        "Nitrogen dioxide is brown and would not relight a splint.",
+        "Nitrogen puts a splint out.",
+        "No carbon dioxide is given off by a nitrate."
+       ],
+       "y": "Every nitrate gives off oxygen on heating, and oxygen relights a glowing splint."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-14-vol",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      0.2,
+      0.4,
+      0.5,
+      1,
+      2,
+      4
+     ]
+    }
+   },
+   "prompt": "What volume of oxygen, in dm³ at s.t.p., is given off when {n} mol of sodium nitrate decomposes completely?",
+   "answer": "gasVolume(n / 2)",
+   "misconceptions": [
+    {
+     "id": "same",
+     "wrong": "gasVolume(n)",
+     "explain": "The equation gives {1} mol of oxygen for every {2} mol of nitrate."
+    },
+    {
+     "id": "double",
+     "wrong": "gasVolume(2 * n)",
+     "explain": "Read the coefficients: {2} nitrate to {1} oxygen."
+    }
+   ],
+   "solution": [
+    "{2}{formula('NaNO3')} → {2}{formula('NaNO2')} + {formula('O2')}.",
+    "{2} mol of the nitrate gives {1} mol of oxygen, so {n} mol gives {n} ÷ {2} = {n / 2} mol.",
+    "At s.t.p. that is {n / 2} × {22.4} = {answer} dm³."
+   ],
+   "unit": "dm³"
+  },
+  {
+   "id": "k4-14-mass",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      0.1,
+      0.2,
+      0.25,
+      0.5,
+      1
+     ]
+    }
+   },
+   "prompt": "What mass of lead(II) oxide, in grams, is left when {n} mol of lead(II) nitrate decomposes completely?",
+   "answer": "massOf(n, 'PbO')",
+   "misconceptions": [
+    {
+     "id": "nitrate",
+     "wrong": "massOf(n, 'Pb(NO3)2')",
+     "explain": "The question asks for the mass of the OXIDE left, not of the nitrate."
+    },
+    {
+     "id": "half",
+     "wrong": "massOf(n / 2, 'PbO')",
+     "explain": "The ratio is {2} to {2}, that is {1} mol of oxide for each {1} mol of nitrate."
+    }
+   ],
+   "solution": [
+    "{2}{formula('Pb(NO3)2')} → {2}{formula('PbO')} + {4}{formula('NO2')} + {formula('O2')}: {1} mol gives {1} mol of {formula('PbO')}.",
+    "The relative formula mass of {formula('PbO')} is {molarMass('PbO')}.",
+    "Mass = {n} × {molarMass('PbO')} = {answer} g."
+   ],
+   "unit": "g"
+  }
+ ]
+}

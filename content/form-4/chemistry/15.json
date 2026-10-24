@@ -1,0 +1,448 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [
+  14
+ ],
+ "skills": [
+  {
+   "id": "k4-15",
+   "name": "Prepare and describe the oxides of nitrogen"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Three oxides of nitrogen are studied.\n• Dinitrogen oxide, N2O ('laughing gas'): made by gently heating ammonium nitrate, NH4NO3 → N2O + 2H2O. Colourless, faintly sweet, fairly soluble, neutral. It relights a glowing splint, like oxygen, because it decomposes on the hot splint. Used with oxygen as a mild anaesthetic.\n• Nitrogen oxide, NO: made by warming copper with dilute nitric acid. Colourless and neutral, almost insoluble in water, but it turns brown at once in air: 2NO + O2 → 2NO2. That is the test for it.\n• Nitrogen dioxide, NO2: made by heating lead(II) nitrate, or by copper with concentrated nitric acid. A brown, poisonous, acidic gas, denser than air, very soluble: 2NO2 + H2O → HNO3 + HNO2.\nNitrogen oxides from car engines and lightning take part in acid rain.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to prepare and recognise the three oxides of nitrogen and tell them apart by colour and by simple tests.\nBuilds on: Lesson {14} (nitrates give oxides of nitrogen on heating) and Lesson {13} (nitric acid with copper).\nLeads to: Lesson {16} (the nitrogen cycle) and the part these oxides play in acid rain."
+   },
+   {
+    "heading": "Dinitrogen oxide and nitrogen oxide",
+    "text": "DINITROGEN OXIDE, {formula('N2O')}, 'laughing gas':\n• made by gently heating ammonium nitrate: {formula('NH4NO3')} → {formula('N2O')} + {2}{formula('H2O')};\n• colourless, faintly sweet, fairly soluble, neutral;\n• it RELIGHTS a glowing splint, because it decomposes on the hot splint and gives oxygen. So this test alone cannot tell it from oxygen;\n• used with oxygen as a mild anaesthetic.\nNITROGEN OXIDE, {formula('NO')}:\n• made by warming copper with DILUTE nitric acid;\n• colourless, neutral, almost insoluble, so it is collected over water;\n• it turns brown at once in air: {2}{formula('NO')} + {formula('O2')} → {2}{formula('NO2')}. This is its test."
+   },
+   {
+    "heading": "Nitrogen dioxide",
+    "text": "NITROGEN DIOXIDE, {formula('NO2')}:\n• made by heating lead(II) nitrate, or by warming copper with CONCENTRATED nitric acid;\n• a BROWN, poisonous gas, denser than air and very soluble;\n• acidic: {2}{formula('NO2')} + {formula('H2O')} → {formula('HNO3')} + {formula('HNO2')}, so it turns damp blue litmus red.\nTelling the three apart: only {formula('NO2')} is brown to start with; {formula('NO')} turns brown when air reaches it; {formula('N2O')} stays colourless and relights a splint.\nNitrogen oxides are made in car engines and by lightning, and they help to cause acid rain and photochemical smog."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "anaesthetic",
+    "meaning": "a substance that takes away the feeling of pain"
+   },
+   {
+    "word": "acidic oxide",
+    "meaning": "an oxide that gives an acid with water"
+   },
+   {
+    "word": "smog",
+    "meaning": "a haze formed when sunlight acts on pollutants in the air"
+   }
+  ],
+  "examples": [
+   "{formula('NH4NO3')} → {formula('N2O')} + {2}{formula('H2O')}",
+   "{2}{formula('NO')} + {formula('O2')} → {2}{formula('NO2')}",
+   "{2}{formula('NO2')} + {formula('H2O')} → {formula('HNO3')} + {formula('HNO2')}"
+  ],
+  "mistake": {
+   "wrong": "a gas that relights a glowing splint must be oxygen",
+   "right": "it could also be dinitrogen oxide",
+   "why": "{formula('N2O')} decomposes on the hot splint and gives oxygen, so it relights it too."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 1
+  },
+  "problem": "A colourless gas relights a glowing splint. Give two gases it could be, and a test that tells them apart.",
+  "steps": [
+   "Oxygen relights a glowing splint.",
+   "Dinitrogen oxide also relights one, because it decomposes on the hot splint to give oxygen.",
+   "To tell them apart, mix the gas with nitrogen oxide, {formula('NO')}.",
+   "With oxygen the mixture turns brown at once, because {2}{formula('NO')} + {formula('O2')} → {2}{formula('NO2')}; with {formula('N2O')} it does not."
+  ],
+  "answer": "oxygen or dinitrogen oxide; mixing with {formula('NO')} turns brown only with oxygen",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k15-1",
+    "status": "draft",
+    "idea": "{formula('N2O')} comes from gently heating ammonium nitrate and relights a glowing splint.",
+    "vars": {},
+    "example": [
+     "{formula('NH4NO3')} → {formula('N2O')} + {2}{formula('H2O')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-15-which"
+    }
+   },
+   {
+    "id": "c4k15-2",
+    "status": "draft",
+    "idea": "{formula('NO')} is colourless but turns brown at once in air.",
+    "vars": {},
+    "example": [
+     "{2}{formula('NO')} + {formula('O2')} → {2}{formula('NO2')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-15-no"
+    }
+   },
+   {
+    "id": "c4k15-3",
+    "status": "draft",
+    "idea": "{formula('NO2')} is brown and acidic: with water it gives nitric and nitrous acids.",
+    "vars": {},
+    "example": [
+     "{2}{formula('NO2')} + {formula('H2O')} → {formula('HNO3')} + {formula('HNO2')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-15-match"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-15-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How is dinitrogen oxide, {formula('N2O')}, prepared?",
+       "r": "By gently heating ammonium nitrate",
+       "w": [
+        "By heating a metal nitrate",
+        "By burning nitrogen in air",
+        "By adding water to a nitride"
+       ],
+       "e": [
+        "A metal nitrate gives {formula('NO2')} and oxygen, not {formula('N2O')}.",
+        "Nitrogen does not burn in air.",
+        "A nitride with water gives ammonia."
+       ],
+       "y": "{formula('NH4NO3')} → {formula('N2O')} + {2}{formula('H2O')}, gently heated."
+      },
+      {
+       "q": "What is unusual about dinitrogen oxide in a test for gases?",
+       "r": "It relights a glowing splint, like oxygen",
+       "w": [
+        "It turns limewater milky",
+        "It smells of rotten eggs",
+        "It is brown"
+       ],
+       "e": [
+        "Limewater is the test for carbon dioxide.",
+        "That smell belongs to hydrogen sulphide.",
+        "{formula('N2O')} is colourless; {formula('NO2')} is the brown one."
+       ],
+       "y": "It decomposes on the hot splint to give oxygen, so it relights it; but it is not oxygen, and it has a faint sweet smell."
+      },
+      {
+       "q": "Nitrogen oxide, {formula('NO')}, is let out into the air. What is seen?",
+       "r": "It turns brown at once",
+       "w": [
+        "It stays colourless",
+        "It turns blue",
+        "It disappears"
+       ],
+       "e": [
+        "It reacts with the oxygen of the air immediately.",
+        "No blue colour is formed.",
+        "It does not disappear; it becomes a visible brown gas."
+       ],
+       "y": "{2}{formula('NO')} + {formula('O2')} → {2}{formula('NO2')}: the brown colour is a test for {formula('NO')}."
+      },
+      {
+       "q": "Which oxide of nitrogen is brown?",
+       "r": "Nitrogen dioxide, {formula('NO2')}",
+       "w": [
+        "Nitrogen oxide, {formula('NO')}",
+        "Dinitrogen oxide, {formula('N2O')}",
+        "All three are brown"
+       ],
+       "e": [
+        "{formula('NO')} is colourless until it meets air.",
+        "{formula('N2O')} is colourless.",
+        "Only {formula('NO2')} is coloured."
+       ],
+       "y": "{formula('NO2')} is a brown, poisonous, acidic gas."
+      },
+      {
+       "q": "Nitrogen dioxide is dissolved in water. What is formed?",
+       "r": "A mixture of nitric acid and nitrous acid",
+       "w": [
+        "Ammonia solution",
+        "A neutral solution",
+        "Nitrogen and oxygen"
+       ],
+       "e": [
+        "Ammonia is alkaline and is not formed from {formula('NO2')} and water.",
+        "The solution turns blue litmus red, so it is acidic.",
+        "The gas dissolves and reacts; it does not split into its elements."
+       ],
+       "y": "{2}{formula('NO2')} + {formula('H2O')} → {formula('HNO3')} + {formula('HNO2')}: an acidic oxide."
+      },
+      {
+       "q": "Which oxide of nitrogen is used as an anaesthetic?",
+       "r": "Dinitrogen oxide, {formula('N2O')}",
+       "w": [
+        "Nitrogen oxide, {formula('NO')}",
+        "Nitrogen dioxide, {formula('NO2')}",
+        "None of them"
+       ],
+       "e": [
+        "{formula('NO')} is poisonous and is not used as an anaesthetic.",
+        "{formula('NO2')} is poisonous and damages the lungs.",
+        "{formula('N2O')} has been used in dentistry for many years."
+       ],
+       "y": "Dinitrogen oxide, 'laughing gas', is used with oxygen as a mild anaesthetic."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-15-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nitrogen"
+   ],
+   "prompt": "Match each oxide of nitrogen to a property.",
+   "pool": [
+    {
+     "left": "{formula('N2O')}",
+     "right": "Colourless; relights a glowing splint"
+    },
+    {
+     "left": "{formula('NO')}",
+     "right": "Colourless; turns brown in air"
+    },
+    {
+     "left": "{formula('NO2')}",
+     "right": "Brown and acidic"
+    },
+    {
+     "left": "{formula('N2')}",
+     "right": "Makes up most of the air"
+    },
+    {
+     "left": "{formula('NH3')}",
+     "right": "Alkaline, with a pungent smell"
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "k4-15-no",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "Q": {
+     "pick": [
+      {
+       "q": "How can nitrogen oxide be told from dinitrogen oxide?",
+       "r": "Nitrogen oxide turns brown when it meets air; dinitrogen oxide does not",
+       "w1": "Dinitrogen oxide turns brown in air",
+       "w2": "Both turn brown in air",
+       "w3": "Neither can be told from the other",
+       "y": "{2}{formula('NO')} + {formula('O2')} → {2}{formula('NO2')}, and {formula('NO2')} is brown."
+      },
+      {
+       "q": "How is nitrogen oxide prepared in the laboratory?",
+       "r": "By warming copper with dilute nitric acid",
+       "w1": "By warming copper with concentrated nitric acid",
+       "w2": "By heating ammonium nitrate",
+       "w3": "By burning ammonia in air",
+       "y": "The dilute acid is reduced as far as {formula('NO')}; the concentrated acid gives {formula('NO2')}."
+      },
+      {
+       "q": "Why is nitrogen oxide collected over water?",
+       "r": "It is almost insoluble in water, and water keeps the air away from it",
+       "w1": "It is very soluble in water",
+       "w2": "It is less dense than air",
+       "w3": "It reacts with water to give an acid",
+       "y": "Collecting it over water stops it meeting air and turning brown."
+      }
+     ]
+    }
+   },
+   "prompt": "{Q.q}",
+   "correct": "{Q.r}",
+   "distractors": [
+    {
+     "text": "{Q.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{Q.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{Q.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{Q.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{Q.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{Q.y}"
+    }
+   ],
+   "solution": [
+    "{Q.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "k4-15-vol",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      0.1,
+      0.2,
+      0.25,
+      0.5,
+      1,
+      2
+     ]
+    }
+   },
+   "prompt": "What volume of dinitrogen oxide, in dm³ at s.t.p., is given off when {n} mol of ammonium nitrate is gently heated?",
+   "answer": "gasVolume(n)",
+   "misconceptions": [
+    {
+     "id": "double",
+     "wrong": "gasVolume(2 * n)",
+     "explain": "{2} is the coefficient of the WATER, not of the gas collected."
+    },
+    {
+     "id": "mass",
+     "wrong": "massOf(n, 'N2O')",
+     "explain": "The question asks for a volume in dm³, not a mass in grams."
+    }
+   ],
+   "solution": [
+    "{formula('NH4NO3')} → {formula('N2O')} + {2}{formula('H2O')}: {1} mol gives {1} mol of gas.",
+    "At s.t.p. that is {n} × {22.4} = {answer} dm³."
+   ],
+   "unit": "dm³"
+  },
+  {
+   "id": "k4-15-mass",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      0.1,
+      0.2,
+      0.25,
+      0.5,
+      1,
+      2
+     ]
+    }
+   },
+   "prompt": "What mass of ammonium nitrate, in grams, is needed to make {n} mol of dinitrogen oxide?",
+   "answer": "massOf(n, 'NH4NO3')",
+   "misconceptions": [
+    {
+     "id": "gas",
+     "wrong": "massOf(n, 'N2O')",
+     "explain": "The question asks for the mass of the SALT, not of the gas."
+    },
+    {
+     "id": "div",
+     "wrong": "roundTo(n / molarMass('NH4NO3'), 0.0001)",
+     "explain": "Mass = moles × molar mass."
+    }
+   ],
+   "solution": [
+    "{formula('NH4NO3')} → {formula('N2O')} + {2}{formula('H2O')}: {1} mol of the salt gives {1} mol of gas.",
+    "The relative formula mass of {formula('NH4NO3')} is {molarMass('NH4NO3')}.",
+    "Mass = {n} × {molarMass('NH4NO3')} = {answer} g."
+   ],
+   "unit": "g"
+  }
+ ]
+}

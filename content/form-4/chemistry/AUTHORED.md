@@ -35,6 +35,20 @@ Rules the computed answers use are listed in the subject’s library tests; ever
 | 21 | `k4-9-uses` | 9 | multiple choice, 1 | sulphur |
 | 22 | `k4-9-match` | 9 | matching, 2 | sulphur |
 | 23 | `k4-9-match-card` (card c4k9-2) | 9 | matching, 1 | sulphur |
+| 24 | `k4-11-which` | 11 | multiple choice, 1 | nitrogen |
+| 25 | `k4-12-prep` | 12 | multiple choice, 1 | nitrogen |
+| 26 | `k4-12-reduce` | 12 | multiple choice, 2 | nitrogen |
+| 27 | `k4-12-reduce-card` (card c4k12-3) | 12 | multiple choice, 1 | nitrogen |
+| 28 | `k4-13-prep` | 13 | multiple choice, 1 | nitrogen |
+| 29 | `k4-14-which` | 14 | multiple choice, 1 | nitrogen |
+| 30 | `k4-14-group` | 14 | multiple choice, 2 | nitrogen |
+| 31 | `k4-14-group-card` (card c4k14-3) | 14 | multiple choice, 1 | nitrogen |
+| 32 | `k4-15-which` | 15 | multiple choice, 1 | nitrogen |
+| 33 | `k4-15-match` | 15 | matching, 1 | nitrogen |
+| 34 | `k4-16-which` | 16 | multiple choice, 1 | nitrogen |
+| 35 | `k4-16-match` | 16 | matching, 1 | nitrogen |
+| 36 | `k4-17-uses` | 17 | multiple choice, 1 | nitrogen |
+| 37 | `k4-17-match` | 17 | matching, 1 | nitrogen |
 
 ### `k4-1-frasch` · Lesson 1 · multiple choice, level 1
 
@@ -1570,4 +1584,943 @@ Full working after a second miss:
 > Sulphur → Vulcanising rubber  
 
 Sources: sulphur (Form 4 Chemistry syllabus, Term 1, Chemistry of Sulphur: occurrence and the Frasch process; properties and allotropes; preparation and properties of SO2 and H2S; sulphides of sodium and iron; properties of sulphuric acid; uses)
+
+### `k4-11-which` · Lesson 11 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| About what fraction of the air is nitrogen by volume? | About {78} per cent | About {21} per cent · About {50} per cent · Less than {1} per cent | {21} per cent is the proportion of oxygen. · Nitrogen is far more than half of the air. · Less than {1} per cent covers argon, carbon dioxide and the rest together. | Air is about {78} per cent nitrogen, {21} per cent oxygen and {1} per cent other gases by volume. |
+| Why is nitrogen so unreactive? | Its two atoms are held by a strong triple bond that is hard to break | Its atoms have a full outer shell already · It is a noble gas · Its molecules are very large | A nitrogen atom has {5} outer electrons, so it is not full; the molecule is stable because of the bond. · Nitrogen is in group {5}, not group {0}; it is not a noble gas. · The molecule is small; it is the strength of the bond that matters. | A great deal of energy is needed to break the N≡N triple bond, so nitrogen reacts only in hard conditions. |
+| How can nitrogen be obtained from air in the laboratory? | By passing air over heated copper to remove the oxygen, after removing carbon dioxide and water | By burning the air · By cooling air until the nitrogen freezes out · By bubbling air through sodium hydroxide only | Air cannot be burned; something must be burned IN it. · That is the industrial method (fractional distillation of liquid air), not the laboratory one. · Sodium hydroxide removes carbon dioxide only, leaving the oxygen behind. | Heated copper takes the oxygen as copper(II) oxide, leaving nitrogen with a little argon. |
+| Nitrogen prepared from air is slightly denser than pure nitrogen. Why? | It still contains the noble gases, mainly argon, which are denser | It contains some oxygen · It contains water vapour · Nitrogen from air has heavier atoms | The oxygen has been removed by the heated copper. · The air is dried before the oxygen is removed. · Atoms of nitrogen from air are the same as any other nitrogen atoms. | Argon and the other noble gases are not removed, and argon has a relative atomic mass of {40}. |
+| Magnesium burns in nitrogen. What is formed? | Magnesium nitride, {formula('Mg3N2')} | Magnesium oxide · Magnesium and nitrogen do not react · Ammonia | Magnesium oxide needs oxygen, which is not present here. · Magnesium is reactive enough to combine with nitrogen when it is burning. · Ammonia needs hydrogen as well; it is not formed directly here. | {3}Mg + {formula('N2')} → {formula('Mg3N2')}: one of the few reactions of nitrogen at ordinary pressure. |
+| How is nitrogen obtained in industry? | By the fractional distillation of liquid air | By heating nitrates · From natural gas · By passing air over heated copper | Heating nitrates gives oxygen and oxides of nitrogen, not pure nitrogen. · Natural gas is mainly methane; it is a source of hydrogen, not nitrogen. · That is the laboratory method and is far too slow for industry. | Air is liquefied and then distilled; nitrogen boils off first at −{196} °C, before oxygen at −{183} °C. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Magnesium burns in nitrogen. What is formed?
+
+- ◻️ Ammonia  
+  _↳ feedback if chosen: Ammonia needs hydrogen as well; it is not formed directly here._
+- ◻️ Magnesium and nitrogen do not react  
+  _↳ feedback if chosen: Magnesium is reactive enough to combine with nitrogen when it is burning._
+- ◻️ Magnesium oxide  
+  _↳ feedback if chosen: Magnesium oxide needs oxygen, which is not present here._
+- ✅ Magnesium nitride, Mg₃N₂
+
+Full working after a second miss:
+
+> 3Mg + N₂ → Mg₃N₂: one of the few reactions of nitrogen at ordinary pressure.  
+> So the answer is Magnesium nitride, Mg₃N₂.  
+
+> Why is nitrogen so unreactive?
+
+- ◻️ It is a noble gas  
+  _↳ feedback if chosen: Nitrogen is in group 5, not group 0; it is not a noble gas._
+- ✅ Its two atoms are held by a strong triple bond that is hard to break
+- ◻️ Its molecules are very large  
+  _↳ feedback if chosen: The molecule is small; it is the strength of the bond that matters._
+- ◻️ Its atoms have a full outer shell already  
+  _↳ feedback if chosen: A nitrogen atom has 5 outer electrons, so it is not full; the molecule is stable because of the bond._
+
+Full working after a second miss:
+
+> A great deal of energy is needed to break the N≡N triple bond, so nitrogen reacts only in hard conditions.  
+> So the answer is Its two atoms are held by a strong triple bond that is hard to break.  
+
+> Magnesium burns in nitrogen. What is formed?
+
+- ◻️ Magnesium and nitrogen do not react  
+  _↳ feedback if chosen: Magnesium is reactive enough to combine with nitrogen when it is burning._
+- ✅ Magnesium nitride, Mg₃N₂
+- ◻️ Ammonia  
+  _↳ feedback if chosen: Ammonia needs hydrogen as well; it is not formed directly here._
+- ◻️ Magnesium oxide  
+  _↳ feedback if chosen: Magnesium oxide needs oxygen, which is not present here._
+
+Full working after a second miss:
+
+> 3Mg + N₂ → Mg₃N₂: one of the few reactions of nitrogen at ordinary pressure.  
+> So the answer is Magnesium nitride, Mg₃N₂.  
+
+Sources: nitrogen (Form 4 Chemistry syllabus, Term 1, Chemistry of Nitrogen: occurrence and properties of nitrogen; preparation and properties of ammonia and of nitric acid; effect of heat on nitrates; oxides of nitrogen; the nitrogen cycle; uses of nitrogen compounds)
+
+### `k4-12-prep` · Lesson 12 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which reagents are used to prepare ammonia in the laboratory? | An ammonium salt and an alkali, heated: ammonium chloride with calcium hydroxide | Ammonium chloride and dilute hydrochloric acid · Nitrogen and water · A nitrate and a dilute acid | An acid would give no ammonia; an ALKALI drives it out of an ammonium salt. · Nitrogen and water do not react; the Haber process uses hydrogen, not water. · A nitrate with a dilute acid gives no ammonia. | {2}{formula('NH4Cl')} + {formula('Ca(OH)2')} → {formula('CaCl2')} + {2}{formula('NH3')} + {2}{formula('H2O')}. |
+| How is ammonia collected? | By upward delivery, because it is less dense than air | By downward delivery · Over water · Over mercury only | Its relative molecular mass is {17}, well below the average for air, so it rises. · It is extremely soluble in water, so none would be collected. · There is no need for mercury; an inverted jar works. | A gas less dense than air and very soluble is collected by upward delivery into an inverted jar. |
+| Which drying agent is used for ammonia? | Quicklime, {formula('CaO')} | Concentrated sulphuric acid · Phosphorus(V) oxide · Anhydrous calcium chloride | Concentrated sulphuric acid is acidic and reacts with ammonia to give ammonium sulphate. · Phosphorus(V) oxide is acidic and also reacts with ammonia. · Anhydrous calcium chloride forms a compound with ammonia, so it cannot be used. | An alkaline gas must be dried with a basic drying agent, and quicklime is the usual choice. |
+| What is seen in the fountain experiment with ammonia? | Water rushes up into the flask as a fountain, turning red if litmus is present | The water stays where it is · The flask cracks · The gas bubbles out through the water | The gas dissolves so fast that the pressure in the flask falls at once. · No crack is needed; the pressure difference drives the fountain. · The gas is taken INTO the water, not pushed out. | Ammonia is extremely soluble, so a drop of water lowers the pressure in the flask and the rest is pushed in. |
+| Ammonia gas meets hydrogen chloride gas. What is seen? | Dense white fumes of ammonium chloride | A brown gas · A yellow solid · Nothing is seen | A brown gas is nitrogen dioxide, which is not formed here. · The solid formed is white, not yellow. · The white fumes are easy to see and are used as a test. | {formula('NH3')} + {formula('HCl')} → {formula('NH4Cl')}: the two gases meet and form a white smoke of fine solid. |
+| Ammonia is passed over heated copper(II) oxide. What is seen, and what does it show? | The black solid turns pink-brown; ammonia is acting as a reducing agent | The black solid turns white; ammonia is acting as an acid · The solid is unchanged; ammonia is unreactive · A yellow solid forms; ammonia is acting as an oxidising agent | No white solid is formed, and ammonia is alkaline, not acidic. · The reaction is clear, and the copper(II) oxide is reduced to copper. · The ammonia is oxidised here, so it is the reducing agent. | {3}{formula('CuO')} + {2}{formula('NH3')} → {3}Cu + {formula('N2')} + {3}{formula('H2O')}: the copper oxide is reduced to copper. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> How is ammonia collected?
+
+- ◻️ By downward delivery  
+  _↳ feedback if chosen: Its relative molecular mass is 17, well below the average for air, so it rises._
+- ✅ By upward delivery, because it is less dense than air
+- ◻️ Over mercury only  
+  _↳ feedback if chosen: There is no need for mercury; an inverted jar works._
+- ◻️ Over water  
+  _↳ feedback if chosen: It is extremely soluble in water, so none would be collected._
+
+Full working after a second miss:
+
+> A gas less dense than air and very soluble is collected by upward delivery into an inverted jar.  
+> So the answer is By upward delivery, because it is less dense than air.  
+
+> Ammonia gas meets hydrogen chloride gas. What is seen?
+
+- ◻️ A yellow solid  
+  _↳ feedback if chosen: The solid formed is white, not yellow._
+- ✅ Dense white fumes of ammonium chloride
+- ◻️ Nothing is seen  
+  _↳ feedback if chosen: The white fumes are easy to see and are used as a test._
+- ◻️ A brown gas  
+  _↳ feedback if chosen: A brown gas is nitrogen dioxide, which is not formed here._
+
+Full working after a second miss:
+
+> NH₃ + HCl → NH₄Cl: the two gases meet and form a white smoke of fine solid.  
+> So the answer is Dense white fumes of ammonium chloride.  
+
+> How is ammonia collected?
+
+- ✅ By upward delivery, because it is less dense than air
+- ◻️ By downward delivery  
+  _↳ feedback if chosen: Its relative molecular mass is 17, well below the average for air, so it rises._
+- ◻️ Over mercury only  
+  _↳ feedback if chosen: There is no need for mercury; an inverted jar works._
+- ◻️ Over water  
+  _↳ feedback if chosen: It is extremely soluble in water, so none would be collected._
+
+Full working after a second miss:
+
+> A gas less dense than air and very soluble is collected by upward delivery into an inverted jar.  
+> So the answer is By upward delivery, because it is less dense than air.  
+
+Sources: nitrogen (Form 4 Chemistry syllabus, Term 1, Chemistry of Nitrogen: occurrence and properties of nitrogen; preparation and properties of ammonia and of nitric acid; effect of heat on nitrates; oxides of nitrogen; the nitrogen cycle; uses of nitrogen compounds)
+
+### `k4-12-reduce` · Lesson 12 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Ammonia is passed over heated copper(II) oxide. Which statement is correct? | The copper(II) oxide is reduced to copper, and the ammonia is oxidised to nitrogen | The copper(II) oxide is oxidised and the ammonia reduced · Neither is changed · Both are reduced | Losing oxygen is reduction, so it is the copper(II) oxide that is reduced. · The colour change from black to pink-brown shows a clear reaction. · In any redox reaction one substance is oxidised while the other is reduced. | {3}{formula('CuO')} + {2}{formula('NH3')} → {3}Cu + {formula('N2')} + {3}{formula('H2O')}. |
+| What colour change is seen when ammonia reduces heated copper(II) oxide? | Black to pink-brown | Pink-brown to black · Black to white · Blue to white | That is what happens when copper is heated in air: the opposite change. · No white solid is formed; copper metal is pink-brown. · Blue to white is what happens to copper(II) sulphate crystals when they are dehydrated. | The black copper(II) oxide becomes pink-brown copper as the oxygen is taken away. |
+| Which gas is formed from the ammonia when it reduces copper(II) oxide? | Nitrogen | Hydrogen · Oxygen · Nitrogen dioxide | The hydrogen of the ammonia ends up in the water that is formed. · The oxygen comes FROM the copper oxide and also ends up in the water. · Nitrogen dioxide needs more oxygen; the product here is nitrogen itself. | The nitrogen of the ammonia is set free as {formula('N2')}, and its hydrogen becomes water. |
+| Why does ammonia burn in pure oxygen but not in air? | Air holds too little oxygen to keep the flame going | Ammonia is not flammable at all · The nitrogen in air puts the flame out by reacting · Air is too cold | It does burn, as the experiment in pure oxygen shows. · Nitrogen does not react; it simply dilutes the oxygen. · Temperature is not the difference; the proportion of oxygen is. | In pure oxygen ammonia burns with a greenish-yellow flame; in air, with only {21} per cent oxygen, it will not. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why does ammonia burn in pure oxygen but not in air?
+
+- ◻️ The nitrogen in air puts the flame out by reacting  
+  _↳ feedback if chosen: Nitrogen does not react; it simply dilutes the oxygen._
+- ◻️ Air is too cold  
+  _↳ feedback if chosen: Temperature is not the difference; the proportion of oxygen is._
+- ◻️ Ammonia is not flammable at all  
+  _↳ feedback if chosen: It does burn, as the experiment in pure oxygen shows._
+- ✅ Air holds too little oxygen to keep the flame going
+
+Full working after a second miss:
+
+> In pure oxygen ammonia burns with a greenish-yellow flame; in air, with only 21 per cent oxygen, it will not.  
+> So the answer is Air holds too little oxygen to keep the flame going.  
+
+> Which gas is formed from the ammonia when it reduces copper(II) oxide?
+
+- ◻️ Nitrogen dioxide  
+  _↳ feedback if chosen: Nitrogen dioxide needs more oxygen; the product here is nitrogen itself._
+- ◻️ Oxygen  
+  _↳ feedback if chosen: The oxygen comes FROM the copper oxide and also ends up in the water._
+- ◻️ Hydrogen  
+  _↳ feedback if chosen: The hydrogen of the ammonia ends up in the water that is formed._
+- ✅ Nitrogen
+
+Full working after a second miss:
+
+> The nitrogen of the ammonia is set free as N₂, and its hydrogen becomes water.  
+> So the answer is Nitrogen.  
+
+> Ammonia is passed over heated copper(II) oxide. Which statement is correct?
+
+- ◻️ Both are reduced  
+  _↳ feedback if chosen: In any redox reaction one substance is oxidised while the other is reduced._
+- ◻️ Neither is changed  
+  _↳ feedback if chosen: The colour change from black to pink-brown shows a clear reaction._
+- ✅ The copper(II) oxide is reduced to copper, and the ammonia is oxidised to nitrogen
+- ◻️ The copper(II) oxide is oxidised and the ammonia reduced  
+  _↳ feedback if chosen: Losing oxygen is reduction, so it is the copper(II) oxide that is reduced._
+
+Full working after a second miss:
+
+> 3CuO + 2NH₃ → 3Cu + N₂ + 3H₂O.  
+> So the answer is The copper(II) oxide is reduced to copper, and the ammonia is oxidised to nitrogen.  
+
+Sources: nitrogen (Form 4 Chemistry syllabus, Term 1, Chemistry of Nitrogen: occurrence and properties of nitrogen; preparation and properties of ammonia and of nitric acid; effect of heat on nitrates; oxides of nitrogen; the nitrogen cycle; uses of nitrogen compounds)
+
+### `k4-12-reduce-card` · Lesson 12 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Ammonia is passed over heated copper(II) oxide. Which statement is correct? | The copper(II) oxide is reduced to copper, and the ammonia is oxidised to nitrogen | The copper(II) oxide is oxidised and the ammonia reduced · Neither is changed · Both are reduced | Losing oxygen is reduction, so it is the copper(II) oxide that is reduced. · The colour change from black to pink-brown shows a clear reaction. · In any redox reaction one substance is oxidised while the other is reduced. | {3}{formula('CuO')} + {2}{formula('NH3')} → {3}Cu + {formula('N2')} + {3}{formula('H2O')}. |
+| What colour change is seen when ammonia reduces heated copper(II) oxide? | Black to pink-brown | Pink-brown to black · Black to white · Blue to white | That is what happens when copper is heated in air: the opposite change. · No white solid is formed; copper metal is pink-brown. · Blue to white is what happens to copper(II) sulphate crystals when they are dehydrated. | The black copper(II) oxide becomes pink-brown copper as the oxygen is taken away. |
+| Which gas is formed from the ammonia when it reduces copper(II) oxide? | Nitrogen | Hydrogen · Oxygen · Nitrogen dioxide | The hydrogen of the ammonia ends up in the water that is formed. · The oxygen comes FROM the copper oxide and also ends up in the water. · Nitrogen dioxide needs more oxygen; the product here is nitrogen itself. | The nitrogen of the ammonia is set free as {formula('N2')}, and its hydrogen becomes water. |
+| Why does ammonia burn in pure oxygen but not in air? | Air holds too little oxygen to keep the flame going | Ammonia is not flammable at all · The nitrogen in air puts the flame out by reacting · Air is too cold | It does burn, as the experiment in pure oxygen shows. · Nitrogen does not react; it simply dilutes the oxygen. · Temperature is not the difference; the proportion of oxygen is. | In pure oxygen ammonia burns with a greenish-yellow flame; in air, with only {21} per cent oxygen, it will not. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which gas is formed from the ammonia when it reduces copper(II) oxide?
+
+- ◻️ Nitrogen dioxide  
+  _↳ feedback if chosen: Nitrogen dioxide needs more oxygen; the product here is nitrogen itself._
+- ◻️ Hydrogen  
+  _↳ feedback if chosen: The hydrogen of the ammonia ends up in the water that is formed._
+- ✅ Nitrogen
+- ◻️ Oxygen  
+  _↳ feedback if chosen: The oxygen comes FROM the copper oxide and also ends up in the water._
+
+Full working after a second miss:
+
+> The nitrogen of the ammonia is set free as N₂, and its hydrogen becomes water.  
+> So the answer is Nitrogen.  
+
+> What colour change is seen when ammonia reduces heated copper(II) oxide?
+
+- ✅ Black to pink-brown
+- ◻️ Pink-brown to black  
+  _↳ feedback if chosen: That is what happens when copper is heated in air: the opposite change._
+- ◻️ Blue to white  
+  _↳ feedback if chosen: Blue to white is what happens to copper(II) sulphate crystals when they are dehydrated._
+- ◻️ Black to white  
+  _↳ feedback if chosen: No white solid is formed; copper metal is pink-brown._
+
+Full working after a second miss:
+
+> The black copper(II) oxide becomes pink-brown copper as the oxygen is taken away.  
+> So the answer is Black to pink-brown.  
+
+> Why does ammonia burn in pure oxygen but not in air?
+
+- ◻️ Air is too cold  
+  _↳ feedback if chosen: Temperature is not the difference; the proportion of oxygen is._
+- ◻️ The nitrogen in air puts the flame out by reacting  
+  _↳ feedback if chosen: Nitrogen does not react; it simply dilutes the oxygen._
+- ✅ Air holds too little oxygen to keep the flame going
+- ◻️ Ammonia is not flammable at all  
+  _↳ feedback if chosen: It does burn, as the experiment in pure oxygen shows._
+
+Full working after a second miss:
+
+> In pure oxygen ammonia burns with a greenish-yellow flame; in air, with only 21 per cent oxygen, it will not.  
+> So the answer is Air holds too little oxygen to keep the flame going.  
+
+Sources: nitrogen (Form 4 Chemistry syllabus, Term 1, Chemistry of Nitrogen: occurrence and properties of nitrogen; preparation and properties of ammonia and of nitric acid; effect of heat on nitrates; oxides of nitrogen; the nitrogen cycle; uses of nitrogen compounds)
+
+### `k4-13-prep` · Lesson 13 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| How is nitric acid prepared in the laboratory? | By heating a nitrate with concentrated sulphuric acid and distilling off the nitric acid | By dissolving nitrogen in water · By heating a nitrate alone · By adding water to ammonia | Nitrogen is almost insoluble in water and does not give an acid. · Heating a nitrate alone gives oxygen and oxides of nitrogen, not the acid. · Ammonia in water gives an ALKALINE solution. | {formula('KNO3')} + {formula('H2SO4')} → {formula('KHSO4')} + {formula('HNO3')}: the less volatile acid drives out the more volatile one. |
+| Why must an all-glass apparatus be used when nitric acid is distilled? | The hot acid attacks cork, rubber and most metals | Glass is cheaper · The acid would dissolve in rubber harmlessly · Any apparatus will do | Cost is not the reason; glass resists the acid. · The acid attacks and destroys rubber rather than dissolving in it. · Cork or rubber joints would be charred and would spoil the product. | Nitric acid is both a strong acid and a strong oxidising agent, so only glass stands up to it when hot. |
+| Pure nitric acid turns yellow on standing in the light. Why? | It decomposes a little, and the nitrogen dioxide formed dissolves in it | It absorbs water from the air · It reacts with the glass · It takes in carbon dioxide | Taking in water would dilute it, not colour it. · The acid does not attack glass. · Carbon dioxide does not react with nitric acid. | {4}{formula('HNO3')} → {4}{formula('NO2')} + {2}{formula('H2O')} + {formula('O2')}: the brown {formula('NO2')} colours the acid yellow. |
+| Dilute nitric acid is added to copper. What gas is given off? | Nitrogen oxide, {formula('NO')}, which turns brown at the mouth of the tube | Hydrogen · Nitrogen dioxide only · No gas at all | Copper is below hydrogen in the reactivity series, and nitric acid is an oxidising acid: no hydrogen is given off. · {formula('NO2')} is given off with the CONCENTRATED acid; the dilute acid gives {formula('NO')}. · The reaction does take place, and a blue solution of copper(II) nitrate forms. | The colourless {formula('NO')} meets the air and is oxidised at once to brown {formula('NO2')}. |
+| Why does nitric acid give no hydrogen with most metals? | It is a strong oxidising agent, so it oxidises any hydrogen formed to water | It is too weak an acid · Metals do not react with it at all · It contains no hydrogen | Nitric acid is a strong acid; that is not the reason. · Most metals do react with it, giving a nitrate and an oxide of nitrogen. · Its formula {formula('HNO3')} shows that it does contain hydrogen. | Being an oxidising acid, it gives oxides of nitrogen instead of hydrogen; very dilute acid with magnesium is the exception. |
+| Dilute nitric acid is added to sodium carbonate. What happens? | Carbon dioxide is given off and sodium nitrate is formed | Nitrogen dioxide is given off · Hydrogen is given off · Nothing happens | Nitrogen dioxide comes from the concentrated acid with a metal, not from a carbonate. · Hydrogen comes from a metal with a non-oxidising acid. · Any acid reacts with a carbonate. | {formula('Na2CO3')} + {2}{formula('HNO3')} → {2}{formula('NaNO3')} + {formula('H2O')} + {formula('CO2')}: here it behaves as an ordinary acid. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> How is nitric acid prepared in the laboratory?
+
+- ◻️ By heating a nitrate alone  
+  _↳ feedback if chosen: Heating a nitrate alone gives oxygen and oxides of nitrogen, not the acid._
+- ◻️ By dissolving nitrogen in water  
+  _↳ feedback if chosen: Nitrogen is almost insoluble in water and does not give an acid._
+- ✅ By heating a nitrate with concentrated sulphuric acid and distilling off the nitric acid
+- ◻️ By adding water to ammonia  
+  _↳ feedback if chosen: Ammonia in water gives an ALKALINE solution._
+
+Full working after a second miss:
+
+> KNO₃ + H₂SO₄ → KHSO₄ + HNO₃: the less volatile acid drives out the more volatile one.  
+> So the answer is By heating a nitrate with concentrated sulphuric acid and distilling off the nitric acid.  
+
+> How is nitric acid prepared in the laboratory?
+
+- ◻️ By heating a nitrate alone  
+  _↳ feedback if chosen: Heating a nitrate alone gives oxygen and oxides of nitrogen, not the acid._
+- ✅ By heating a nitrate with concentrated sulphuric acid and distilling off the nitric acid
+- ◻️ By adding water to ammonia  
+  _↳ feedback if chosen: Ammonia in water gives an ALKALINE solution._
+- ◻️ By dissolving nitrogen in water  
+  _↳ feedback if chosen: Nitrogen is almost insoluble in water and does not give an acid._
+
+Full working after a second miss:
+
+> KNO₃ + H₂SO₄ → KHSO₄ + HNO₃: the less volatile acid drives out the more volatile one.  
+> So the answer is By heating a nitrate with concentrated sulphuric acid and distilling off the nitric acid.  
+
+> Why must an all-glass apparatus be used when nitric acid is distilled?
+
+- ✅ The hot acid attacks cork, rubber and most metals
+- ◻️ Glass is cheaper  
+  _↳ feedback if chosen: Cost is not the reason; glass resists the acid._
+- ◻️ The acid would dissolve in rubber harmlessly  
+  _↳ feedback if chosen: The acid attacks and destroys rubber rather than dissolving in it._
+- ◻️ Any apparatus will do  
+  _↳ feedback if chosen: Cork or rubber joints would be charred and would spoil the product._
+
+Full working after a second miss:
+
+> Nitric acid is both a strong acid and a strong oxidising agent, so only glass stands up to it when hot.  
+> So the answer is The hot acid attacks cork, rubber and most metals.  
+
+Sources: nitrogen (Form 4 Chemistry syllabus, Term 1, Chemistry of Nitrogen: occurrence and properties of nitrogen; preparation and properties of ammonia and of nitric acid; effect of heat on nitrates; oxides of nitrogen; the nitrogen cycle; uses of nitrogen compounds)
+
+### `k4-14-which` · Lesson 14 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is formed when sodium nitrate is heated? | Sodium nitrite and oxygen | Sodium oxide, nitrogen dioxide and oxygen · Sodium, nitrogen dioxide and oxygen · It does not decompose | That is what happens to the nitrates of most other metals, but not to those of sodium and potassium. · Only the nitrates of silver and mercury leave the metal itself. · It does decompose, giving off oxygen. | {2}{formula('NaNO3')} → {2}{formula('NaNO2')} + {formula('O2')}: a very reactive metal keeps its nitrogen as a nitrite. |
+| What is formed when lead(II) nitrate is heated? | Lead(II) oxide, nitrogen dioxide and oxygen | Lead(II) nitrite and oxygen · Lead, nitrogen dioxide and oxygen · Lead(II) oxide only | Only the nitrates of sodium and potassium give nitrites. · Only silver and mercury nitrates leave the metal itself. · A brown gas and oxygen are given off as well. | {2}{formula('Pb(NO3)2')} → {2}{formula('PbO')} + {4}{formula('NO2')} + {formula('O2')}, with crackling and a brown gas. |
+| What is formed when silver nitrate is heated? | Silver, nitrogen dioxide and oxygen | Silver oxide, nitrogen dioxide and oxygen · Silver nitrite and oxygen · It does not decompose | Silver oxide is itself unstable to heat and breaks down to the metal. · Only the very reactive metals give nitrites. · It decomposes readily on heating. | {2}{formula('AgNO3')} → {2}Ag + {2}{formula('NO2')} + {formula('O2')}: an unreactive metal is left as the metal. |
+| What is formed when ammonium nitrate is heated gently? | Dinitrogen oxide and water | Ammonia and nitric acid · Nitrogen and water · Nitrogen dioxide and water | The salt does not simply split back into its acid and base on gentle heating. · Nitrogen and water come from ammonium NITRITE, not nitrate. · Nitrogen dioxide comes from the nitrates of metals. | {formula('NH4NO3')} → {formula('N2O')} + {2}{formula('H2O')}: this is how laughing gas is prepared. |
+| Which observation shows that a brown gas given off on heating a nitrate is nitrogen dioxide? | It is brown, it turns damp blue litmus red, and it is the only common brown gas here | It is brown and turns limewater milky · It is brown and relights a glowing splint · It is brown and smells of rotten eggs | Limewater is the test for carbon dioxide, which is colourless. · Oxygen relights a splint, but oxygen is colourless. · Rotten eggs is hydrogen sulphide, which is colourless. | {formula('NO2')} is brown and acidic; the oxygen given off with it is what relights a splint. |
+| Why do the nitrates of sodium and potassium behave differently from the rest? | They are the nitrates of very reactive metals, so they decompose only as far as the nitrite | They are not really nitrates · They contain no oxygen · They melt instead of decomposing | They are nitrates, with the same {formula('NO3')} ion. · Every nitrate contains oxygen. · They do melt, but they also decompose, giving off oxygen. | The more reactive the metal, the more stable its compounds are to heat. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why do the nitrates of sodium and potassium behave differently from the rest?
+
+- ✅ They are the nitrates of very reactive metals, so they decompose only as far as the nitrite
+- ◻️ They contain no oxygen  
+  _↳ feedback if chosen: Every nitrate contains oxygen._
+- ◻️ They are not really nitrates  
+  _↳ feedback if chosen: They are nitrates, with the same NO₃ ion._
+- ◻️ They melt instead of decomposing  
+  _↳ feedback if chosen: They do melt, but they also decompose, giving off oxygen._
+
+Full working after a second miss:
+
+> The more reactive the metal, the more stable its compounds are to heat.  
+> So the answer is They are the nitrates of very reactive metals, so they decompose only as far as the nitrite.  
+
+> What is formed when lead(II) nitrate is heated?
+
+- ◻️ Lead, nitrogen dioxide and oxygen  
+  _↳ feedback if chosen: Only silver and mercury nitrates leave the metal itself._
+- ✅ Lead(II) oxide, nitrogen dioxide and oxygen
+- ◻️ Lead(II) oxide only  
+  _↳ feedback if chosen: A brown gas and oxygen are given off as well._
+- ◻️ Lead(II) nitrite and oxygen  
+  _↳ feedback if chosen: Only the nitrates of sodium and potassium give nitrites._
+
+Full working after a second miss:
+
+> 2Pb(NO₃)₂ → 2PbO + 4NO₂ + O₂, with crackling and a brown gas.  
+> So the answer is Lead(II) oxide, nitrogen dioxide and oxygen.  
+
+> What is formed when lead(II) nitrate is heated?
+
+- ◻️ Lead, nitrogen dioxide and oxygen  
+  _↳ feedback if chosen: Only silver and mercury nitrates leave the metal itself._
+- ◻️ Lead(II) nitrite and oxygen  
+  _↳ feedback if chosen: Only the nitrates of sodium and potassium give nitrites._
+- ◻️ Lead(II) oxide only  
+  _↳ feedback if chosen: A brown gas and oxygen are given off as well._
+- ✅ Lead(II) oxide, nitrogen dioxide and oxygen
+
+Full working after a second miss:
+
+> 2Pb(NO₃)₂ → 2PbO + 4NO₂ + O₂, with crackling and a brown gas.  
+> So the answer is Lead(II) oxide, nitrogen dioxide and oxygen.  
+
+Sources: nitrogen (Form 4 Chemistry syllabus, Term 1, Chemistry of Nitrogen: occurrence and properties of nitrogen; preparation and properties of ammonia and of nitric acid; effect of heat on nitrates; oxides of nitrogen; the nitrogen cycle; uses of nitrogen compounds)
+
+### `k4-14-group` · Lesson 14 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Two nitrates are heated. One gives off only a colourless gas; the other gives off a brown gas as well. What does this show? | The first is the nitrate of a very reactive metal such as sodium or potassium | The first is the nitrate of a very unreactive metal · The second has not been heated strongly enough · The two are the same compound | An unreactive metal such as silver gives the metal, brown {formula('NO2')} AND oxygen. · Stronger heating would not change which products form. · The same compound would give the same products. | Only sodium and potassium nitrates decompose as far as the nitrite, giving off oxygen alone. |
+| A nitrate is heated and a shiny solid is left in the tube. Which metal is it likely to be? | Silver | Sodium · Copper · Zinc | Sodium nitrate leaves a white nitrite, not a shiny metal. · Copper(II) nitrate leaves black copper(II) oxide. · Zinc nitrate leaves zinc oxide, yellow while hot and white when cold. | Only the very unreactive metals, silver and mercury, are left as the metal itself. |
+| A nitrate is heated and leaves a solid that is yellow while hot and white when cold. Which oxide is it? | Zinc oxide | Lead(II) oxide · Copper(II) oxide · Sodium oxide | Lead(II) oxide is orange while hot and yellow when cold. · Copper(II) oxide is black both hot and cold. · Sodium nitrate leaves a nitrite, not an oxide. | Zinc oxide is the one that changes from yellow to white as it cools. |
+| Which gas given off when a nitrate is heated would relight a glowing splint? | Oxygen | Nitrogen dioxide · Nitrogen · Carbon dioxide | Nitrogen dioxide is brown and would not relight a splint. · Nitrogen puts a splint out. · No carbon dioxide is given off by a nitrate. | Every nitrate gives off oxygen on heating, and oxygen relights a glowing splint. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which gas given off when a nitrate is heated would relight a glowing splint?
+
+- ◻️ Nitrogen  
+  _↳ feedback if chosen: Nitrogen puts a splint out._
+- ◻️ Nitrogen dioxide  
+  _↳ feedback if chosen: Nitrogen dioxide is brown and would not relight a splint._
+- ✅ Oxygen
+- ◻️ Carbon dioxide  
+  _↳ feedback if chosen: No carbon dioxide is given off by a nitrate._
+
+Full working after a second miss:
+
+> Every nitrate gives off oxygen on heating, and oxygen relights a glowing splint.  
+> So the answer is Oxygen.  
+
+> Two nitrates are heated. One gives off only a colourless gas; the other gives off a brown gas as well. What does this show?
+
+- ◻️ The two are the same compound  
+  _↳ feedback if chosen: The same compound would give the same products._
+- ◻️ The second has not been heated strongly enough  
+  _↳ feedback if chosen: Stronger heating would not change which products form._
+- ✅ The first is the nitrate of a very reactive metal such as sodium or potassium
+- ◻️ The first is the nitrate of a very unreactive metal  
+  _↳ feedback if chosen: An unreactive metal such as silver gives the metal, brown NO₂ AND oxygen._
+
+Full working after a second miss:
+
+> Only sodium and potassium nitrates decompose as far as the nitrite, giving off oxygen alone.  
+> So the answer is The first is the nitrate of a very reactive metal such as sodium or potassium.  
+
+> Which gas given off when a nitrate is heated would relight a glowing splint?
+
+- ✅ Oxygen
+- ◻️ Carbon dioxide  
+  _↳ feedback if chosen: No carbon dioxide is given off by a nitrate._
+- ◻️ Nitrogen  
+  _↳ feedback if chosen: Nitrogen puts a splint out._
+- ◻️ Nitrogen dioxide  
+  _↳ feedback if chosen: Nitrogen dioxide is brown and would not relight a splint._
+
+Full working after a second miss:
+
+> Every nitrate gives off oxygen on heating, and oxygen relights a glowing splint.  
+> So the answer is Oxygen.  
+
+Sources: nitrogen (Form 4 Chemistry syllabus, Term 1, Chemistry of Nitrogen: occurrence and properties of nitrogen; preparation and properties of ammonia and of nitric acid; effect of heat on nitrates; oxides of nitrogen; the nitrogen cycle; uses of nitrogen compounds)
+
+### `k4-14-group-card` · Lesson 14 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Two nitrates are heated. One gives off only a colourless gas; the other gives off a brown gas as well. What does this show? | The first is the nitrate of a very reactive metal such as sodium or potassium | The first is the nitrate of a very unreactive metal · The second has not been heated strongly enough · The two are the same compound | An unreactive metal such as silver gives the metal, brown {formula('NO2')} AND oxygen. · Stronger heating would not change which products form. · The same compound would give the same products. | Only sodium and potassium nitrates decompose as far as the nitrite, giving off oxygen alone. |
+| A nitrate is heated and a shiny solid is left in the tube. Which metal is it likely to be? | Silver | Sodium · Copper · Zinc | Sodium nitrate leaves a white nitrite, not a shiny metal. · Copper(II) nitrate leaves black copper(II) oxide. · Zinc nitrate leaves zinc oxide, yellow while hot and white when cold. | Only the very unreactive metals, silver and mercury, are left as the metal itself. |
+| A nitrate is heated and leaves a solid that is yellow while hot and white when cold. Which oxide is it? | Zinc oxide | Lead(II) oxide · Copper(II) oxide · Sodium oxide | Lead(II) oxide is orange while hot and yellow when cold. · Copper(II) oxide is black both hot and cold. · Sodium nitrate leaves a nitrite, not an oxide. | Zinc oxide is the one that changes from yellow to white as it cools. |
+| Which gas given off when a nitrate is heated would relight a glowing splint? | Oxygen | Nitrogen dioxide · Nitrogen · Carbon dioxide | Nitrogen dioxide is brown and would not relight a splint. · Nitrogen puts a splint out. · No carbon dioxide is given off by a nitrate. | Every nitrate gives off oxygen on heating, and oxygen relights a glowing splint. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> A nitrate is heated and a shiny solid is left in the tube. Which metal is it likely to be?
+
+- ✅ Silver
+- ◻️ Sodium  
+  _↳ feedback if chosen: Sodium nitrate leaves a white nitrite, not a shiny metal._
+- ◻️ Copper  
+  _↳ feedback if chosen: Copper(II) nitrate leaves black copper(II) oxide._
+- ◻️ Zinc  
+  _↳ feedback if chosen: Zinc nitrate leaves zinc oxide, yellow while hot and white when cold._
+
+Full working after a second miss:
+
+> Only the very unreactive metals, silver and mercury, are left as the metal itself.  
+> So the answer is Silver.  
+
+> Two nitrates are heated. One gives off only a colourless gas; the other gives off a brown gas as well. What does this show?
+
+- ◻️ The first is the nitrate of a very unreactive metal  
+  _↳ feedback if chosen: An unreactive metal such as silver gives the metal, brown NO₂ AND oxygen._
+- ◻️ The two are the same compound  
+  _↳ feedback if chosen: The same compound would give the same products._
+- ◻️ The second has not been heated strongly enough  
+  _↳ feedback if chosen: Stronger heating would not change which products form._
+- ✅ The first is the nitrate of a very reactive metal such as sodium or potassium
+
+Full working after a second miss:
+
+> Only sodium and potassium nitrates decompose as far as the nitrite, giving off oxygen alone.  
+> So the answer is The first is the nitrate of a very reactive metal such as sodium or potassium.  
+
+> A nitrate is heated and leaves a solid that is yellow while hot and white when cold. Which oxide is it?
+
+- ✅ Zinc oxide
+- ◻️ Lead(II) oxide  
+  _↳ feedback if chosen: Lead(II) oxide is orange while hot and yellow when cold._
+- ◻️ Sodium oxide  
+  _↳ feedback if chosen: Sodium nitrate leaves a nitrite, not an oxide._
+- ◻️ Copper(II) oxide  
+  _↳ feedback if chosen: Copper(II) oxide is black both hot and cold._
+
+Full working after a second miss:
+
+> Zinc oxide is the one that changes from yellow to white as it cools.  
+> So the answer is Zinc oxide.  
+
+Sources: nitrogen (Form 4 Chemistry syllabus, Term 1, Chemistry of Nitrogen: occurrence and properties of nitrogen; preparation and properties of ammonia and of nitric acid; effect of heat on nitrates; oxides of nitrogen; the nitrogen cycle; uses of nitrogen compounds)
+
+### `k4-15-which` · Lesson 15 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| How is dinitrogen oxide, {formula('N2O')}, prepared? | By gently heating ammonium nitrate | By heating a metal nitrate · By burning nitrogen in air · By adding water to a nitride | A metal nitrate gives {formula('NO2')} and oxygen, not {formula('N2O')}. · Nitrogen does not burn in air. · A nitride with water gives ammonia. | {formula('NH4NO3')} → {formula('N2O')} + {2}{formula('H2O')}, gently heated. |
+| What is unusual about dinitrogen oxide in a test for gases? | It relights a glowing splint, like oxygen | It turns limewater milky · It smells of rotten eggs · It is brown | Limewater is the test for carbon dioxide. · That smell belongs to hydrogen sulphide. · {formula('N2O')} is colourless; {formula('NO2')} is the brown one. | It decomposes on the hot splint to give oxygen, so it relights it; but it is not oxygen, and it has a faint sweet smell. |
+| Nitrogen oxide, {formula('NO')}, is let out into the air. What is seen? | It turns brown at once | It stays colourless · It turns blue · It disappears | It reacts with the oxygen of the air immediately. · No blue colour is formed. · It does not disappear; it becomes a visible brown gas. | {2}{formula('NO')} + {formula('O2')} → {2}{formula('NO2')}: the brown colour is a test for {formula('NO')}. |
+| Which oxide of nitrogen is brown? | Nitrogen dioxide, {formula('NO2')} | Nitrogen oxide, {formula('NO')} · Dinitrogen oxide, {formula('N2O')} · All three are brown | {formula('NO')} is colourless until it meets air. · {formula('N2O')} is colourless. · Only {formula('NO2')} is coloured. | {formula('NO2')} is a brown, poisonous, acidic gas. |
+| Nitrogen dioxide is dissolved in water. What is formed? | A mixture of nitric acid and nitrous acid | Ammonia solution · A neutral solution · Nitrogen and oxygen | Ammonia is alkaline and is not formed from {formula('NO2')} and water. · The solution turns blue litmus red, so it is acidic. · The gas dissolves and reacts; it does not split into its elements. | {2}{formula('NO2')} + {formula('H2O')} → {formula('HNO3')} + {formula('HNO2')}: an acidic oxide. |
+| Which oxide of nitrogen is used as an anaesthetic? | Dinitrogen oxide, {formula('N2O')} | Nitrogen oxide, {formula('NO')} · Nitrogen dioxide, {formula('NO2')} · None of them | {formula('NO')} is poisonous and is not used as an anaesthetic. · {formula('NO2')} is poisonous and damages the lungs. · {formula('N2O')} has been used in dentistry for many years. | Dinitrogen oxide, 'laughing gas', is used with oxygen as a mild anaesthetic. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is unusual about dinitrogen oxide in a test for gases?
+
+- ◻️ It smells of rotten eggs  
+  _↳ feedback if chosen: That smell belongs to hydrogen sulphide._
+- ◻️ It is brown  
+  _↳ feedback if chosen: N₂O is colourless; NO₂ is the brown one._
+- ✅ It relights a glowing splint, like oxygen
+- ◻️ It turns limewater milky  
+  _↳ feedback if chosen: Limewater is the test for carbon dioxide._
+
+Full working after a second miss:
+
+> It decomposes on the hot splint to give oxygen, so it relights it; but it is not oxygen, and it has a faint sweet smell.  
+> So the answer is It relights a glowing splint, like oxygen.  
+
+> Which oxide of nitrogen is brown?
+
+- ◻️ Dinitrogen oxide, N₂O  
+  _↳ feedback if chosen: N₂O is colourless._
+- ✅ Nitrogen dioxide, NO₂
+- ◻️ Nitrogen oxide, NO  
+  _↳ feedback if chosen: NO is colourless until it meets air._
+- ◻️ All three are brown  
+  _↳ feedback if chosen: Only NO₂ is coloured._
+
+Full working after a second miss:
+
+> NO₂ is a brown, poisonous, acidic gas.  
+> So the answer is Nitrogen dioxide, NO₂.  
+
+> How is dinitrogen oxide, N₂O, prepared?
+
+- ✅ By gently heating ammonium nitrate
+- ◻️ By adding water to a nitride  
+  _↳ feedback if chosen: A nitride with water gives ammonia._
+- ◻️ By burning nitrogen in air  
+  _↳ feedback if chosen: Nitrogen does not burn in air._
+- ◻️ By heating a metal nitrate  
+  _↳ feedback if chosen: A metal nitrate gives NO₂ and oxygen, not N₂O._
+
+Full working after a second miss:
+
+> NH₄NO₃ → N₂O + 2H₂O, gently heated.  
+> So the answer is By gently heating ammonium nitrate.  
+
+Sources: nitrogen (Form 4 Chemistry syllabus, Term 1, Chemistry of Nitrogen: occurrence and properties of nitrogen; preparation and properties of ammonia and of nitric acid; effect of heat on nitrates; oxides of nitrogen; the nitrogen cycle; uses of nitrogen compounds)
+
+### `k4-15-match` · Lesson 15 · matching, level 1
+
+Prompt: Match each oxide of nitrogen to a property.
+
+Pairs (3 shown each time):
+
+- N₂O → **Colourless; relights a glowing splint**
+- NO → **Colourless; turns brown in air**
+- NO₂ → **Brown and acidic**
+- N₂ → **Makes up most of the air**
+- NH₃ → **Alkaline, with a pungent smell**
+
+
+Three generated variants:
+
+> Match each oxide of nitrogen to a property.
+
+Right-hand side (shuffled): Alkaline, with a pungent smell · Colourless; turns brown in air · Makes up most of the air
+- NO → **Colourless; turns brown in air**
+- NH₃ → **Alkaline, with a pungent smell**
+- N₂ → **Makes up most of the air**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> NO → Colourless; turns brown in air  
+> NH₃ → Alkaline, with a pungent smell  
+> N₂ → Makes up most of the air  
+
+> Match each oxide of nitrogen to a property.
+
+Right-hand side (shuffled): Alkaline, with a pungent smell · Brown and acidic · Makes up most of the air
+- NO₂ → **Brown and acidic**
+- NH₃ → **Alkaline, with a pungent smell**
+- N₂ → **Makes up most of the air**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> NO₂ → Brown and acidic  
+> NH₃ → Alkaline, with a pungent smell  
+> N₂ → Makes up most of the air  
+
+> Match each oxide of nitrogen to a property.
+
+Right-hand side (shuffled): Colourless; relights a glowing splint · Colourless; turns brown in air · Makes up most of the air
+- NO → **Colourless; turns brown in air**
+- N₂O → **Colourless; relights a glowing splint**
+- N₂ → **Makes up most of the air**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> NO → Colourless; turns brown in air  
+> N₂O → Colourless; relights a glowing splint  
+> N₂ → Makes up most of the air  
+
+Sources: nitrogen (Form 4 Chemistry syllabus, Term 1, Chemistry of Nitrogen: occurrence and properties of nitrogen; preparation and properties of ammonia and of nitric acid; effect of heat on nitrates; oxides of nitrogen; the nitrogen cycle; uses of nitrogen compounds)
+
+### `k4-16-which` · Lesson 16 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is nitrogen fixation? | Changing nitrogen from the air into a compound that plants can use | Taking nitrates out of the soil · Changing nitrates back into nitrogen gas · Holding nitrogen in the air so it cannot escape | Taking nitrates out of the soil is what plants do when they absorb them. · That is denitrification, the opposite process. · Nitrogen does not need to be held in; the problem is that plants cannot use it as a gas. | Plants cannot use nitrogen gas, so it must first be fixed into ammonia or nitrates. |
+| Which bacteria live in the root nodules of leguminous plants such as beans and groundnuts? | Nitrogen-fixing bacteria | Denitrifying bacteria · Nitrifying bacteria · Bacteria of decay | Denitrifying bacteria live in waterlogged soil and give nitrogen back to the air. · Nitrifying bacteria live free in the soil and change ammonium compounds into nitrates. · Bacteria of decay break down dead matter; they do not live in root nodules. | Rhizobium in the nodules fixes nitrogen from the air, which is why legumes enrich the soil. |
+| What do nitrifying bacteria do? | They change ammonium compounds into nitrites and then into nitrates | They change nitrates into nitrogen gas · They fix nitrogen from the air · They break down protein in dead plants | That is denitrification. · That is nitrogen fixation, done by different bacteria. · That is done by the bacteria of decay, which give ammonium compounds. | Nitrosomonas gives nitrites and Nitrobacter gives nitrates, which the plant roots can absorb. |
+| What happens during denitrification? | Nitrates in the soil are changed back into nitrogen gas | Nitrogen gas is changed into nitrates · Protein is changed into ammonia · Ammonia is changed into nitrates | That is nitrogen fixation. · That is decay, carried out by bacteria of decay. · That is nitrification. | Denitrifying bacteria work in waterlogged soil with little air, and the soil loses nitrogen to the atmosphere. |
+| How does lightning take part in the nitrogen cycle? | Its very high temperature makes nitrogen and oxygen combine, and the oxides dissolve in rain as nitric acid | It splits nitrates in the soil · It kills nitrifying bacteria · It has no part in the cycle | Lightning acts on the air, not on the soil. · Its effect is to add fixed nitrogen, not to remove bacteria. · It is one of the natural ways nitrogen is fixed. | {formula('N2')} + {formula('O2')} → {2}{formula('NO')} in the flash; the acid formed reaches the soil as nitrate. |
+| Why do farmers often grow beans or groundnuts between crops of maize? | The bacteria in their root nodules put fixed nitrogen back into the soil | They take nitrates out of the soil faster · They keep insects away from the maize · They use less water than maize | Legumes add nitrogen to the soil rather than stripping it. · Keeping insects away is not the reason for this rotation. · Water use is not what makes this rotation useful. | Legumes carry nitrogen-fixing bacteria, so the soil is richer in nitrogen for the next crop. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Why do farmers often grow beans or groundnuts between crops of maize?
+
+- ◻️ They use less water than maize  
+  _↳ feedback if chosen: Water use is not what makes this rotation useful._
+- ◻️ They keep insects away from the maize  
+  _↳ feedback if chosen: Keeping insects away is not the reason for this rotation._
+- ◻️ They take nitrates out of the soil faster  
+  _↳ feedback if chosen: Legumes add nitrogen to the soil rather than stripping it._
+- ✅ The bacteria in their root nodules put fixed nitrogen back into the soil
+
+Full working after a second miss:
+
+> Legumes carry nitrogen-fixing bacteria, so the soil is richer in nitrogen for the next crop.  
+> So the answer is The bacteria in their root nodules put fixed nitrogen back into the soil.  
+
+> What is nitrogen fixation?
+
+- ◻️ Holding nitrogen in the air so it cannot escape  
+  _↳ feedback if chosen: Nitrogen does not need to be held in; the problem is that plants cannot use it as a gas._
+- ✅ Changing nitrogen from the air into a compound that plants can use
+- ◻️ Taking nitrates out of the soil  
+  _↳ feedback if chosen: Taking nitrates out of the soil is what plants do when they absorb them._
+- ◻️ Changing nitrates back into nitrogen gas  
+  _↳ feedback if chosen: That is denitrification, the opposite process._
+
+Full working after a second miss:
+
+> Plants cannot use nitrogen gas, so it must first be fixed into ammonia or nitrates.  
+> So the answer is Changing nitrogen from the air into a compound that plants can use.  
+
+> Why do farmers often grow beans or groundnuts between crops of maize?
+
+- ◻️ They keep insects away from the maize  
+  _↳ feedback if chosen: Keeping insects away is not the reason for this rotation._
+- ✅ The bacteria in their root nodules put fixed nitrogen back into the soil
+- ◻️ They take nitrates out of the soil faster  
+  _↳ feedback if chosen: Legumes add nitrogen to the soil rather than stripping it._
+- ◻️ They use less water than maize  
+  _↳ feedback if chosen: Water use is not what makes this rotation useful._
+
+Full working after a second miss:
+
+> Legumes carry nitrogen-fixing bacteria, so the soil is richer in nitrogen for the next crop.  
+> So the answer is The bacteria in their root nodules put fixed nitrogen back into the soil.  
+
+Sources: nitrogen (Form 4 Chemistry syllabus, Term 1, Chemistry of Nitrogen: occurrence and properties of nitrogen; preparation and properties of ammonia and of nitric acid; effect of heat on nitrates; oxides of nitrogen; the nitrogen cycle; uses of nitrogen compounds)
+
+### `k4-16-match` · Lesson 16 · matching, level 1
+
+Prompt: Match each stage of the nitrogen cycle to what happens.
+
+Pairs (3 shown each time):
+
+- Nitrogen fixation → **Nitrogen gas becomes a compound plants can use**
+- Decay → **Dead matter becomes ammonium compounds**
+- Nitrification → **Ammonium compounds become nitrates**
+- Denitrification → **Nitrates become nitrogen gas again**
+- Absorption → **Plant roots take in nitrates from the soil**
+
+
+Three generated variants:
+
+> Match each stage of the nitrogen cycle to what happens.
+
+Right-hand side (shuffled): Ammonium compounds become nitrates · Plant roots take in nitrates from the soil · Nitrogen gas becomes a compound plants can use
+- Absorption → **Plant roots take in nitrates from the soil**
+- Nitrification → **Ammonium compounds become nitrates**
+- Nitrogen fixation → **Nitrogen gas becomes a compound plants can use**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> Absorption → Plant roots take in nitrates from the soil  
+> Nitrification → Ammonium compounds become nitrates  
+> Nitrogen fixation → Nitrogen gas becomes a compound plants can use  
+
+> Match each stage of the nitrogen cycle to what happens.
+
+Right-hand side (shuffled): Plant roots take in nitrates from the soil · Nitrates become nitrogen gas again · Dead matter becomes ammonium compounds
+- Denitrification → **Nitrates become nitrogen gas again**
+- Absorption → **Plant roots take in nitrates from the soil**
+- Decay → **Dead matter becomes ammonium compounds**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> Denitrification → Nitrates become nitrogen gas again  
+> Absorption → Plant roots take in nitrates from the soil  
+> Decay → Dead matter becomes ammonium compounds  
+
+> Match each stage of the nitrogen cycle to what happens.
+
+Right-hand side (shuffled): Dead matter becomes ammonium compounds · Ammonium compounds become nitrates · Nitrogen gas becomes a compound plants can use
+- Decay → **Dead matter becomes ammonium compounds**
+- Nitrogen fixation → **Nitrogen gas becomes a compound plants can use**
+- Nitrification → **Ammonium compounds become nitrates**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> Decay → Dead matter becomes ammonium compounds  
+> Nitrogen fixation → Nitrogen gas becomes a compound plants can use  
+> Nitrification → Ammonium compounds become nitrates  
+
+Sources: nitrogen (Form 4 Chemistry syllabus, Term 1, Chemistry of Nitrogen: occurrence and properties of nitrogen; preparation and properties of ammonia and of nitric acid; effect of heat on nitrates; oxides of nitrogen; the nitrogen cycle; uses of nitrogen compounds)
+
+### `k4-17-uses` · Lesson 17 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Which compound of nitrogen is the starting point for most nitrogen fertilisers? | Ammonia | Nitrogen dioxide · Dinitrogen oxide · Hydrogen sulphide | Nitrogen dioxide is a poisonous pollutant, not a feedstock for fertiliser. · Dinitrogen oxide is used as an anaesthetic, not for fertiliser. · Hydrogen sulphide contains no nitrogen at all. | Ammonia from the Haber process is neutralised by acids to give ammonium salts, or oxidised to nitric acid. |
+| Ammonia is neutralised by sulphuric acid. Which fertiliser is formed? | Ammonium sulphate | Ammonium nitrate · Sodium nitrate · Urea | Ammonium nitrate comes from ammonia and NITRIC acid. · Sodium nitrate contains no ammonium; it is mined or made from sodium compounds. · Urea is made from ammonia and carbon dioxide. | {2}{formula('NH3')} + {formula('H2SO4')} → {formula('(NH4)2SO4')}. |
+| Why is liquid nitrogen used to freeze food and to store medical samples? | It is very cold and unreactive, so it freezes quickly without damaging the material | It is hot enough to kill bacteria · It dissolves the water in the food · It burns away any oxygen | Liquid nitrogen is extremely cold, not hot. · It does not dissolve anything; it freezes it. · It does not burn; it simply keeps oxygen away by being unreactive. | Liquid nitrogen boils at −{196} °C, so it freezes quickly, and being inert it does not react with the sample. |
+| Which use depends on a nitrogen compound exploding? | Making TNT and other explosives for quarrying | Making ammonium sulphate fertiliser · Filling packets of food · Making nitric acid | A fertiliser must not explode in the field; it is used for its nitrogen. · Food packets are filled with nitrogen GAS, which is unreactive. · Nitric acid is a reagent, not an explosive itself. | Nitro compounds made from nitric acid release a great deal of gas very suddenly. |
+| Why is ammonia used in some refrigerators? | It is easily liquefied and takes in a great deal of heat when it evaporates | It is poisonous to bacteria · It is lighter than air · It freezes at a very high temperature | Keeping food cold, not killing bacteria directly, is the purpose of a refrigerator. · Being lighter than air has nothing to do with cooling. · A refrigerant must evaporate easily, not freeze easily. | The latent heat taken in as the liquid ammonia evaporates is what cools the cabinet. |
+| Which statement about nitrogen fertilisers and the environment is correct? | Fertiliser washed into rivers makes water plants grow too fast, and the water loses its oxygen | Fertilisers cannot reach rivers · Extra nitrates in a river are always harmless · Nitrogen fertilisers cause acid rain directly | Rain washes soluble nitrates off fields into streams and rivers. · Too much nitrate causes eutrophication, which kills fish. · Acid rain comes mainly from sulphur dioxide and nitrogen oxides in smoke, not from fertiliser in the soil. | Eutrophication: the plants grow, then die and decay, and the decay uses up the oxygen in the water. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Which statement about nitrogen fertilisers and the environment is correct?
+
+- ◻️ Fertilisers cannot reach rivers  
+  _↳ feedback if chosen: Rain washes soluble nitrates off fields into streams and rivers._
+- ✅ Fertiliser washed into rivers makes water plants grow too fast, and the water loses its oxygen
+- ◻️ Nitrogen fertilisers cause acid rain directly  
+  _↳ feedback if chosen: Acid rain comes mainly from sulphur dioxide and nitrogen oxides in smoke, not from fertiliser in the soil._
+- ◻️ Extra nitrates in a river are always harmless  
+  _↳ feedback if chosen: Too much nitrate causes eutrophication, which kills fish._
+
+Full working after a second miss:
+
+> Eutrophication: the plants grow, then die and decay, and the decay uses up the oxygen in the water.  
+> So the answer is Fertiliser washed into rivers makes water plants grow too fast, and the water loses its oxygen.  
+
+> Why is ammonia used in some refrigerators?
+
+- ✅ It is easily liquefied and takes in a great deal of heat when it evaporates
+- ◻️ It is lighter than air  
+  _↳ feedback if chosen: Being lighter than air has nothing to do with cooling._
+- ◻️ It is poisonous to bacteria  
+  _↳ feedback if chosen: Keeping food cold, not killing bacteria directly, is the purpose of a refrigerator._
+- ◻️ It freezes at a very high temperature  
+  _↳ feedback if chosen: A refrigerant must evaporate easily, not freeze easily._
+
+Full working after a second miss:
+
+> The latent heat taken in as the liquid ammonia evaporates is what cools the cabinet.  
+> So the answer is It is easily liquefied and takes in a great deal of heat when it evaporates.  
+
+> Why is ammonia used in some refrigerators?
+
+- ◻️ It freezes at a very high temperature  
+  _↳ feedback if chosen: A refrigerant must evaporate easily, not freeze easily._
+- ✅ It is easily liquefied and takes in a great deal of heat when it evaporates
+- ◻️ It is poisonous to bacteria  
+  _↳ feedback if chosen: Keeping food cold, not killing bacteria directly, is the purpose of a refrigerator._
+- ◻️ It is lighter than air  
+  _↳ feedback if chosen: Being lighter than air has nothing to do with cooling._
+
+Full working after a second miss:
+
+> The latent heat taken in as the liquid ammonia evaporates is what cools the cabinet.  
+> So the answer is It is easily liquefied and takes in a great deal of heat when it evaporates.  
+
+Sources: nitrogen (Form 4 Chemistry syllabus, Term 1, Chemistry of Nitrogen: occurrence and properties of nitrogen; preparation and properties of ammonia and of nitric acid; effect of heat on nitrates; oxides of nitrogen; the nitrogen cycle; uses of nitrogen compounds)
+
+### `k4-17-match` · Lesson 17 · matching, level 1
+
+Prompt: Match each substance to a use.
+
+Pairs (3 shown each time):
+
+- Liquid nitrogen → **Quick-freezing food**
+- Ammonia → **Making fertiliser in the Haber process route**
+- Nitric acid → **Making explosives**
+- Ammonium sulphate → **Feeding a maize crop**
+- Dinitrogen oxide → **A mild anaesthetic**
+
+
+Three generated variants:
+
+> Match each substance to a use.
+
+Right-hand side (shuffled): Feeding a maize crop · Making fertiliser in the Haber process route · A mild anaesthetic
+- Dinitrogen oxide → **A mild anaesthetic**
+- Ammonia → **Making fertiliser in the Haber process route**
+- Ammonium sulphate → **Feeding a maize crop**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> Dinitrogen oxide → A mild anaesthetic  
+> Ammonia → Making fertiliser in the Haber process route  
+> Ammonium sulphate → Feeding a maize crop  
+
+> Match each substance to a use.
+
+Right-hand side (shuffled): A mild anaesthetic · Quick-freezing food · Making explosives
+- Liquid nitrogen → **Quick-freezing food**
+- Nitric acid → **Making explosives**
+- Dinitrogen oxide → **A mild anaesthetic**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> Liquid nitrogen → Quick-freezing food  
+> Nitric acid → Making explosives  
+> Dinitrogen oxide → A mild anaesthetic  
+
+> Match each substance to a use.
+
+Right-hand side (shuffled): Making explosives · Quick-freezing food · A mild anaesthetic
+- Nitric acid → **Making explosives**
+- Dinitrogen oxide → **A mild anaesthetic**
+- Liquid nitrogen → **Quick-freezing food**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> Nitric acid → Making explosives  
+> Dinitrogen oxide → A mild anaesthetic  
+> Liquid nitrogen → Quick-freezing food  
+
+Sources: nitrogen (Form 4 Chemistry syllabus, Term 1, Chemistry of Nitrogen: occurrence and properties of nitrogen; preparation and properties of ammonia and of nitric acid; effect of heat on nitrates; oxides of nitrogen; the nitrogen cycle; uses of nitrogen compounds)
 

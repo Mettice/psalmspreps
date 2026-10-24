@@ -1,0 +1,578 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 16,
+ "language": "en",
+ "prerequisites": [
+  15
+ ],
+ "skills": [
+  {
+   "id": "k4-16",
+   "name": "Describe the nitrogen cycle"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The nitrogen cycle is how nitrogen passes between the air, the soil and living things.\n• Fixation: nitrogen from the air is turned into compounds plants can use. By nitrogen-fixing bacteria (Rhizobium) in the root nodules of legumes such as beans and groundnuts; by lightning, which makes nitrogen oxides that reach the soil in rain; and by industry, in the Haber process.\n• Absorption: plant roots take in nitrates and build them into proteins. Animals get their protein by eating plants.\n• Decay: bacteria of decay break down dead plants, animals and waste into ammonium compounds.\n• Nitrification: nitrifying bacteria change ammonium compounds into nitrites (Nitrosomonas) and then nitrates (Nitrobacter).\n• Denitrification: in waterlogged soil, denitrifying bacteria change nitrates back into nitrogen gas, which returns to the air.\nFarmers keep the soil rich by rotating crops with legumes and by adding fertilisers.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to name and explain each stage of the nitrogen cycle and say how farming practices affect it.\nBuilds on: Lesson {11} (nitrogen is unreactive) and Form Three food chains.\nLeads to: Lesson {17} (fertilisers) and the study of soil fertility in Biology and Agriculture."
+   },
+   {
+    "heading": "Getting nitrogen into living things",
+    "text": "Nitrogen gas is {78} per cent of the air, but it is so unreactive that plants cannot use it. It must first be FIXED into a compound:\n• nitrogen-fixing bacteria (Rhizobium) in the root nodules of legumes such as beans, groundnuts and soya;\n• lightning: the flash is hot enough to make {formula('N2')} and {formula('O2')} combine, and the oxides dissolve in rain;\n• industry: the Haber process makes ammonia, which is turned into fertiliser.\nPlant roots absorb NITRATES from the soil and build them into proteins. Animals get their protein by eating plants."
+   },
+   {
+    "heading": "Returning nitrogen to the soil and the air",
+    "text": "• DECAY: when plants and animals die, and in their waste, bacteria of decay break the protein down into ammonium compounds.\n• NITRIFICATION: nitrifying bacteria change these into nitrites (Nitrosomonas) and then into nitrates (Nitrobacter), which plants can use again.\n• DENITRIFICATION: in waterlogged soil, where there is little air, denitrifying bacteria change nitrates back into nitrogen gas, and the soil loses nitrogen to the air.\nFarmers work with the cycle: they rotate crops with legumes, plough crop residues back in, drain waterlogged land, and add fertilisers to replace the nitrogen taken away in the harvest."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "nitrogen fixation",
+    "meaning": "changing nitrogen gas into a usable compound"
+   },
+   {
+    "word": "legume",
+    "meaning": "a plant such as a bean or groundnut with nitrogen-fixing root nodules"
+   },
+   {
+    "word": "nitrification",
+    "meaning": "the change of ammonium compounds into nitrates by bacteria"
+   },
+   {
+    "word": "denitrification",
+    "meaning": "the change of nitrates back into nitrogen gas"
+   }
+  ],
+  "examples": [
+   "Rhizobium in bean roots: fixation",
+   "decay → ammonium compounds",
+   "waterlogged soil: denitrification"
+  ],
+  "mistake": {
+   "wrong": "plants take nitrogen straight from the air",
+   "right": "they take nitrates from the soil",
+   "why": "Only certain bacteria can use nitrogen gas; plants need it already fixed."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 1
+  },
+  "problem": "Explain why planting beans in a field helps the maize grown there the following year.",
+  "steps": [
+   "Beans are legumes, and their roots carry nodules holding nitrogen-fixing bacteria.",
+   "These bacteria change nitrogen from the air into compounds the plant can use.",
+   "When the bean plants die and decay, that fixed nitrogen is left in the soil as ammonium compounds.",
+   "Nitrifying bacteria change these into nitrates, which the maize roots can take in."
+  ],
+  "answer": "the bacteria in the bean root nodules leave fixed nitrogen in the soil",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k16-1",
+    "status": "draft",
+    "idea": "Fixation turns nitrogen gas into compounds plants can use.",
+    "vars": {},
+    "example": [
+     "by bacteria in root nodules, by lightning, and in the Haber process"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-16-which"
+    }
+   },
+   {
+    "id": "c4k16-2",
+    "status": "draft",
+    "idea": "Nitrifying bacteria turn ammonium compounds into nitrites and then nitrates.",
+    "vars": {},
+    "example": [
+     "decay gives ammonium compounds; nitrification gives nitrates"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-16-stage-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "nitrogen"
+     ],
+     "vars": {
+      "G": {
+       "pick": [
+        {
+         "q": "Which stage comes immediately after the decay of a dead plant?",
+         "r": "Nitrification: the ammonium compounds become nitrites and then nitrates",
+         "w1": "Denitrification",
+         "w2": "Nitrogen fixation",
+         "w3": "Absorption by the roots",
+         "y": "Decay gives ammonium compounds, which nitrifying bacteria change into nitrates."
+        },
+        {
+         "q": "A field is waterlogged for several weeks. What is likely to happen to its nitrates?",
+         "r": "Denitrifying bacteria change them into nitrogen gas, which escapes",
+         "w1": "They are fixed into protein",
+         "w2": "They turn into ammonia and stay in the soil",
+         "w3": "Nothing happens to them",
+         "y": "Denitrifying bacteria work where there is little air, so waterlogged soil loses nitrogen."
+        },
+        {
+         "q": "How does nitrogen from the air reach the protein of a cow?",
+         "r": "Fixation to nitrates, absorption by a plant, then the cow eats the plant",
+         "w1": "The cow breathes in nitrogen and uses it directly",
+         "w2": "The cow absorbs nitrates through its skin",
+         "w3": "Lightning puts nitrogen straight into the cow's food",
+         "y": "Animals cannot use nitrogen gas: it must pass through fixation and then through plants."
+        }
+       ]
+      }
+     },
+     "prompt": "{G.q}",
+     "correct": "{G.r}",
+     "distractors": [
+      {
+       "text": "{G.w1}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{G.w2}",
+       "misconception": "w2"
+      },
+      {
+       "text": "{G.w3}",
+       "misconception": "w3"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w1",
+       "explain": "{G.y}"
+      },
+      {
+       "id": "w2",
+       "explain": "{G.y}"
+      },
+      {
+       "id": "w3",
+       "explain": "{G.y}"
+      }
+     ],
+     "solution": [
+      "{G.y}",
+      "So the answer is: {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c4k16-3",
+    "status": "draft",
+    "idea": "Denitrifying bacteria return nitrogen to the air from waterlogged soil.",
+    "vars": {},
+    "example": [
+     "which is why waterlogged fields lose their fertility"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-16-match"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-16-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is nitrogen fixation?",
+       "r": "Changing nitrogen from the air into a compound that plants can use",
+       "w": [
+        "Taking nitrates out of the soil",
+        "Changing nitrates back into nitrogen gas",
+        "Holding nitrogen in the air so it cannot escape"
+       ],
+       "e": [
+        "Taking nitrates out of the soil is what plants do when they absorb them.",
+        "That is denitrification, the opposite process.",
+        "Nitrogen does not need to be held in; the problem is that plants cannot use it as a gas."
+       ],
+       "y": "Plants cannot use nitrogen gas, so it must first be fixed into ammonia or nitrates."
+      },
+      {
+       "q": "Which bacteria live in the root nodules of leguminous plants such as beans and groundnuts?",
+       "r": "Nitrogen-fixing bacteria",
+       "w": [
+        "Denitrifying bacteria",
+        "Nitrifying bacteria",
+        "Bacteria of decay"
+       ],
+       "e": [
+        "Denitrifying bacteria live in waterlogged soil and give nitrogen back to the air.",
+        "Nitrifying bacteria live free in the soil and change ammonium compounds into nitrates.",
+        "Bacteria of decay break down dead matter; they do not live in root nodules."
+       ],
+       "y": "Rhizobium in the nodules fixes nitrogen from the air, which is why legumes enrich the soil."
+      },
+      {
+       "q": "What do nitrifying bacteria do?",
+       "r": "They change ammonium compounds into nitrites and then into nitrates",
+       "w": [
+        "They change nitrates into nitrogen gas",
+        "They fix nitrogen from the air",
+        "They break down protein in dead plants"
+       ],
+       "e": [
+        "That is denitrification.",
+        "That is nitrogen fixation, done by different bacteria.",
+        "That is done by the bacteria of decay, which give ammonium compounds."
+       ],
+       "y": "Nitrosomonas gives nitrites and Nitrobacter gives nitrates, which the plant roots can absorb."
+      },
+      {
+       "q": "What happens during denitrification?",
+       "r": "Nitrates in the soil are changed back into nitrogen gas",
+       "w": [
+        "Nitrogen gas is changed into nitrates",
+        "Protein is changed into ammonia",
+        "Ammonia is changed into nitrates"
+       ],
+       "e": [
+        "That is nitrogen fixation.",
+        "That is decay, carried out by bacteria of decay.",
+        "That is nitrification."
+       ],
+       "y": "Denitrifying bacteria work in waterlogged soil with little air, and the soil loses nitrogen to the atmosphere."
+      },
+      {
+       "q": "How does lightning take part in the nitrogen cycle?",
+       "r": "Its very high temperature makes nitrogen and oxygen combine, and the oxides dissolve in rain as nitric acid",
+       "w": [
+        "It splits nitrates in the soil",
+        "It kills nitrifying bacteria",
+        "It has no part in the cycle"
+       ],
+       "e": [
+        "Lightning acts on the air, not on the soil.",
+        "Its effect is to add fixed nitrogen, not to remove bacteria.",
+        "It is one of the natural ways nitrogen is fixed."
+       ],
+       "y": "{formula('N2')} + {formula('O2')} → {2}{formula('NO')} in the flash; the acid formed reaches the soil as nitrate."
+      },
+      {
+       "q": "Why do farmers often grow beans or groundnuts between crops of maize?",
+       "r": "The bacteria in their root nodules put fixed nitrogen back into the soil",
+       "w": [
+        "They take nitrates out of the soil faster",
+        "They keep insects away from the maize",
+        "They use less water than maize"
+       ],
+       "e": [
+        "Legumes add nitrogen to the soil rather than stripping it.",
+        "Keeping insects away is not the reason for this rotation.",
+        "Water use is not what makes this rotation useful."
+       ],
+       "y": "Legumes carry nitrogen-fixing bacteria, so the soil is richer in nitrogen for the next crop."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-16-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nitrogen"
+   ],
+   "prompt": "Match each stage of the nitrogen cycle to what happens.",
+   "pool": [
+    {
+     "left": "Nitrogen fixation",
+     "right": "Nitrogen gas becomes a compound plants can use"
+    },
+    {
+     "left": "Decay",
+     "right": "Dead matter becomes ammonium compounds"
+    },
+    {
+     "left": "Nitrification",
+     "right": "Ammonium compounds become nitrates"
+    },
+    {
+     "left": "Denitrification",
+     "right": "Nitrates become nitrogen gas again"
+    },
+    {
+     "left": "Absorption",
+     "right": "Plant roots take in nitrates from the soil"
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "k4-16-stage",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "G": {
+     "pick": [
+      {
+       "q": "Which stage comes immediately after the decay of a dead plant?",
+       "r": "Nitrification: the ammonium compounds become nitrites and then nitrates",
+       "w1": "Denitrification",
+       "w2": "Nitrogen fixation",
+       "w3": "Absorption by the roots",
+       "y": "Decay gives ammonium compounds, which nitrifying bacteria change into nitrates."
+      },
+      {
+       "q": "A field is waterlogged for several weeks. What is likely to happen to its nitrates?",
+       "r": "Denitrifying bacteria change them into nitrogen gas, which escapes",
+       "w1": "They are fixed into protein",
+       "w2": "They turn into ammonia and stay in the soil",
+       "w3": "Nothing happens to them",
+       "y": "Denitrifying bacteria work where there is little air, so waterlogged soil loses nitrogen."
+      },
+      {
+       "q": "How does nitrogen from the air reach the protein of a cow?",
+       "r": "Fixation to nitrates, absorption by a plant, then the cow eats the plant",
+       "w1": "The cow breathes in nitrogen and uses it directly",
+       "w2": "The cow absorbs nitrates through its skin",
+       "w3": "Lightning puts nitrogen straight into the cow's food",
+       "y": "Animals cannot use nitrogen gas: it must pass through fixation and then through plants."
+      }
+     ]
+    }
+   },
+   "prompt": "{G.q}",
+   "correct": "{G.r}",
+   "distractors": [
+    {
+     "text": "{G.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{G.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{G.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{G.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{G.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{G.y}"
+    }
+   ],
+   "solution": [
+    "{G.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "k4-16-order",
+   "type": "ordering",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "A": {
+     "pick": [
+      {
+       "q": "Put the stages of the nitrogen cycle in order, starting from nitrogen in the air.",
+       "s": [
+        "Nitrogen in the air is fixed by bacteria or by lightning",
+        "Nitrates form in the soil",
+        "Plant roots absorb the nitrates and build proteins",
+        "Animals eat the plants, and both die and decay",
+        "Denitrifying bacteria return nitrogen gas to the air"
+       ]
+      },
+      {
+       "q": "Put these stages of decay and nitrification in order.",
+       "s": [
+        "A plant dies and falls on the soil",
+        "Bacteria of decay break down its protein",
+        "Ammonium compounds are left in the soil",
+        "Nitrosomonas changes them into nitrites",
+        "Nitrobacter changes the nitrites into nitrates"
+       ]
+      },
+      {
+       "q": "Put the stages by which lightning adds nitrogen to the soil in order.",
+       "s": [
+        "A lightning flash heats the air to a very high temperature",
+        "Nitrogen and oxygen combine to give nitrogen oxide",
+        "The nitrogen oxide is oxidised to nitrogen dioxide in the air",
+        "The nitrogen dioxide dissolves in rain to give an acid",
+        "The acid reaches the soil, where it forms nitrates"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "{A.q}",
+   "items": [
+    {
+     "text": "{A.s[0]}"
+    },
+    {
+     "text": "{A.s[1]}"
+    },
+    {
+     "text": "{A.s[2]}"
+    },
+    {
+     "text": "{A.s[3]}"
+    },
+    {
+     "text": "{A.s[4]}"
+    }
+   ],
+   "order": "as_written"
+  },
+  {
+   "id": "k4-16-farm",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "F": {
+     "pick": [
+      {
+       "q": "Why does a farmer plough and drain a waterlogged field?",
+       "r": "To let air into the soil, so that denitrifying bacteria do not take the nitrates away",
+       "w1": "To kill the nitrifying bacteria",
+       "w2": "To add nitrates directly",
+       "w3": "To stop lightning fixing nitrogen",
+       "y": "Denitrifying bacteria work where there is little air, so draining the soil protects its nitrates."
+      },
+      {
+       "q": "Why does burning crop residues instead of ploughing them in waste nitrogen?",
+       "r": "The nitrogen in the plants escapes into the air instead of decaying into the soil",
+       "w1": "Burning makes the soil too hot for roots",
+       "w2": "Ash contains no minerals at all",
+       "w3": "Burning kills the plants, which were still growing",
+       "y": "Ploughing the residues in lets bacteria of decay return their nitrogen to the soil."
+      },
+      {
+       "q": "A farmer grows maize in the same field every year without fertiliser. What happens to the yield?",
+       "r": "It falls, because each crop removes nitrates that are not replaced",
+       "w1": "It rises, because the soil gets used to maize",
+       "w2": "It stays the same for ever",
+       "w3": "It falls, because lightning stops fixing nitrogen",
+       "y": "Harvesting takes the nitrogen away in the grain, so the soil must be replenished."
+      }
+     ]
+    }
+   },
+   "prompt": "{F.q}",
+   "correct": "{F.r}",
+   "distractors": [
+    {
+     "text": "{F.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{F.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{F.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{F.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{F.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{F.y}"
+    }
+   ],
+   "solution": [
+    "{F.y}",
+    "So the answer is: {answer}."
+   ]
+  }
+ ]
+}

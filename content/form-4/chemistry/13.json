@@ -1,0 +1,648 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 13,
+ "language": "en",
+ "prerequisites": [
+  12
+ ],
+ "skills": [
+  {
+   "id": "k4-13",
+   "name": "Prepare nitric acid and describe its properties"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Laboratory preparation: heat potassium or sodium nitrate with concentrated sulphuric acid in an all-glass apparatus and distil off the nitric acid.\nKNO3 + H2SO4 → KHSO4 + HNO3\nThe less volatile sulphuric acid drives out the more volatile nitric acid. Glass is used because the hot acid attacks cork, rubber and metals.\nIndustrially it is made by oxidising ammonia (the Ostwald process).\nProperties:\n• As an acid: with bases, basic oxides and carbonates it gives nitrates. Na2CO3 + 2HNO3 → 2NaNO3 + H2O + CO2.\n• As an oxidising agent: with metals it gives a nitrate and an oxide of nitrogen, not hydrogen. Dilute acid with copper gives NO; concentrated acid gives NO2.\n• It decomposes in light: 4HNO3 → 4NO2 + 2H2O + O2, so pure acid slowly turns yellow and is kept in dark bottles.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to prepare nitric acid, explain why glass is used, and describe it as both an acid and an oxidising agent.\nBuilds on: Lesson {8} (sulphuric acid as a less volatile acid) and Lesson {12} (ammonia).\nLeads to: Lesson {14} (what heat does to nitrates) and Lesson {15} (the oxides of nitrogen)."
+   },
+   {
+    "heading": "Preparation",
+    "text": "Heat potassium or sodium nitrate with concentrated sulphuric acid and distil:\n{formula('KNO3')} + {formula('H2SO4')} → {formula('KHSO4')} + {formula('HNO3')}\nSulphuric acid is less volatile, so on heating it drives the more volatile nitric acid out of its salt, and the nitric acid distils over.\nThe whole apparatus must be glass, because the hot acid attacks cork, rubber and most metals. The receiver is kept cool so that the acid condenses.\nPure nitric acid is colourless, but it slowly decomposes in the light:\n{4}{formula('HNO3')} → {4}{formula('NO2')} + {2}{formula('H2O')} + {formula('O2')}, and the brown {formula('NO2')} dissolving in it turns it yellow. It is kept in dark bottles.\nIn industry it is made by oxidising ammonia in the Ostwald process."
+   },
+   {
+    "heading": "An acid and an oxidising agent",
+    "text": "As an ACID, dilute nitric acid behaves normally with bases, basic oxides and carbonates, giving nitrates:\n• {formula('NaOH')} + {formula('HNO3')} → {formula('NaNO3')} + {formula('H2O')};\n• {formula('Na2CO3')} + {2}{formula('HNO3')} → {2}{formula('NaNO3')} + {formula('H2O')} + {formula('CO2')}.\nWith METALS it behaves differently, because it is a strong oxidising agent. Instead of hydrogen it gives an oxide of nitrogen:\n• dilute acid with copper: colourless {formula('NO')}, which turns brown in the air;\n• concentrated acid with copper: brown {formula('NO2')}.\nThe one common exception is very dilute acid with magnesium, which does give hydrogen."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "volatile",
+    "meaning": "easily turned into a vapour"
+   },
+   {
+    "word": "oxidising acid",
+    "meaning": "an acid that oxidises what it reacts with, giving no hydrogen with most metals"
+   },
+   {
+    "word": "distil",
+    "meaning": "boil a liquid and condense the vapour to collect it"
+   },
+   {
+    "word": "nitrate",
+    "meaning": "a salt of nitric acid, such as {formula('NaNO3')}"
+   }
+  ],
+  "examples": [
+   "{formula('KNO3')} + {formula('H2SO4')} → {formula('KHSO4')} + {formula('HNO3')}",
+   "dilute acid + Cu → {formula('NO')}",
+   "concentrated acid + Cu → {formula('NO2')}"
+  ],
+  "mistake": {
+   "wrong": "copper and dilute nitric acid give hydrogen",
+   "right": "they give nitrogen oxide, {formula('NO')}",
+   "why": "Nitric acid is an oxidising acid, and copper is below hydrogen in the reactivity series."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 1
+  },
+  "problem": "Explain why copper gives no hydrogen with nitric acid, although zinc gives hydrogen with dilute hydrochloric acid.",
+  "steps": [
+   "Copper is below hydrogen in the reactivity series, so it cannot displace hydrogen from any acid.",
+   "Zinc is above hydrogen, so with hydrochloric acid it does displace it.",
+   "Nitric acid is also a strong oxidising agent.",
+   "It oxidises copper to copper(II) nitrate and is itself reduced to an oxide of nitrogen: {formula('NO')} with the dilute acid, {formula('NO2')} with the concentrated acid."
+  ],
+  "answer": "copper is below hydrogen, and nitric acid oxidises instead, giving an oxide of nitrogen",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k13-1",
+    "status": "draft",
+    "idea": "A nitrate with concentrated sulphuric acid gives nitric acid, distilled in all-glass apparatus.",
+    "vars": {},
+    "example": [
+     "{formula('KNO3')} + {formula('H2SO4')} → {formula('KHSO4')} + {formula('HNO3')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-13-prep"
+    }
+   },
+   {
+    "id": "c4k13-2",
+    "status": "draft",
+    "idea": "Nitric acid is an oxidising acid: with metals it gives an oxide of nitrogen, not hydrogen.",
+    "vars": {},
+    "example": [
+     "dilute acid with copper gives {formula('NO')}; concentrated acid gives {formula('NO2')}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-13-metal-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "nitrogen"
+     ],
+     "vars": {
+      "M": {
+       "pick": [
+        {
+         "q": "Copper is warmed with dilute nitric acid. What gas is given off?",
+         "r": "Nitrogen oxide, {formula('NO')}, colourless but turning brown in air",
+         "w1": "Hydrogen",
+         "w2": "Nitrogen dioxide, brown from the start",
+         "w3": "Carbon dioxide",
+         "y": "The dilute acid is reduced to {formula('NO')}, which is oxidised to brown {formula('NO2')} when it meets the air."
+        },
+        {
+         "q": "Copper is warmed with concentrated nitric acid. What gas is given off?",
+         "r": "Nitrogen dioxide, {formula('NO2')}, a brown gas",
+         "w1": "Hydrogen",
+         "w2": "Nitrogen oxide, which stays colourless",
+         "w3": "Oxygen",
+         "y": "The concentrated acid is reduced only as far as {formula('NO2')}, which is brown."
+        },
+        {
+         "q": "Very dilute nitric acid is added to magnesium. What gas is given off?",
+         "r": "Hydrogen, the one case where nitric acid behaves as an ordinary acid with a metal",
+         "w1": "Nitrogen dioxide",
+         "w2": "Nitrogen oxide",
+         "w3": "No gas at all",
+         "y": "Magnesium is reactive enough, and the acid is too dilute to act as an oxidising agent."
+        },
+        {
+         "q": "Why is no hydrogen given off when copper reacts with nitric acid?",
+         "r": "Copper is below hydrogen in the reactivity series, and the acid oxidises instead",
+         "w1": "Copper is above hydrogen in the reactivity series",
+         "w2": "Nitric acid contains no hydrogen",
+         "w3": "Copper does not react with nitric acid at all",
+         "y": "An oxidising acid gives an oxide of nitrogen rather than hydrogen."
+        }
+       ]
+      }
+     },
+     "prompt": "{M.q}",
+     "correct": "{M.r}",
+     "distractors": [
+      {
+       "text": "{M.w1}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{M.w2}",
+       "misconception": "w2"
+      },
+      {
+       "text": "{M.w3}",
+       "misconception": "w3"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w1",
+       "explain": "{M.y}"
+      },
+      {
+       "id": "w2",
+       "explain": "{M.y}"
+      },
+      {
+       "id": "w3",
+       "explain": "{M.y}"
+      }
+     ],
+     "solution": [
+      "{M.y}",
+      "So the answer is: {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c4k13-3",
+    "status": "draft",
+    "idea": "With bases and carbonates it behaves as an ordinary acid, giving nitrates.",
+    "vars": {},
+    "example": [
+     "{formula('Na2CO3')} + {2}{formula('HNO3')} → {2}{formula('NaNO3')} + {formula('H2O')} + {formula('CO2')}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-13-salt-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "nitrogen"
+     ],
+     "vars": {
+      "R": {
+       "pick": [
+        {
+         "n": "sodium carbonate",
+         "r": "Sodium nitrate, water and carbon dioxide",
+         "w1": "Sodium nitrate and hydrogen",
+         "w2": "Sodium nitrate and nitrogen dioxide",
+         "w3": "No reaction",
+         "y": "{formula('Na2CO3')} + {2}{formula('HNO3')} → {2}{formula('NaNO3')} + {formula('H2O')} + {formula('CO2')}."
+        },
+        {
+         "n": "copper(II) oxide",
+         "r": "Copper(II) nitrate and water, giving a blue solution",
+         "w1": "Copper(II) nitrate and hydrogen",
+         "w2": "Copper and water",
+         "w3": "No reaction",
+         "y": "{formula('CuO')} + {2}{formula('HNO3')} → {formula('Cu(NO3)2')} + {formula('H2O')}: a base with an acid gives a salt and water."
+        },
+        {
+         "n": "sodium hydroxide solution",
+         "r": "Sodium nitrate and water",
+         "w1": "Sodium nitrate and hydrogen",
+         "w2": "Ammonia and water",
+         "w3": "No reaction",
+         "y": "{formula('NaOH')} + {formula('HNO3')} → {formula('NaNO3')} + {formula('H2O')}: an ordinary neutralisation."
+        }
+       ]
+      }
+     },
+     "prompt": "Dilute nitric acid is added to {R.n}. What is formed?",
+     "correct": "{R.r}",
+     "distractors": [
+      {
+       "text": "{R.w1}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{R.w2}",
+       "misconception": "w2"
+      },
+      {
+       "text": "{R.w3}",
+       "misconception": "w3"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w1",
+       "explain": "{R.y}"
+      },
+      {
+       "id": "w2",
+       "explain": "{R.y}"
+      },
+      {
+       "id": "w3",
+       "explain": "{R.y}"
+      }
+     ],
+     "solution": [
+      "{R.y}",
+      "So the answer is: {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-13-prep",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How is nitric acid prepared in the laboratory?",
+       "r": "By heating a nitrate with concentrated sulphuric acid and distilling off the nitric acid",
+       "w": [
+        "By dissolving nitrogen in water",
+        "By heating a nitrate alone",
+        "By adding water to ammonia"
+       ],
+       "e": [
+        "Nitrogen is almost insoluble in water and does not give an acid.",
+        "Heating a nitrate alone gives oxygen and oxides of nitrogen, not the acid.",
+        "Ammonia in water gives an ALKALINE solution."
+       ],
+       "y": "{formula('KNO3')} + {formula('H2SO4')} → {formula('KHSO4')} + {formula('HNO3')}: the less volatile acid drives out the more volatile one."
+      },
+      {
+       "q": "Why must an all-glass apparatus be used when nitric acid is distilled?",
+       "r": "The hot acid attacks cork, rubber and most metals",
+       "w": [
+        "Glass is cheaper",
+        "The acid would dissolve in rubber harmlessly",
+        "Any apparatus will do"
+       ],
+       "e": [
+        "Cost is not the reason; glass resists the acid.",
+        "The acid attacks and destroys rubber rather than dissolving in it.",
+        "Cork or rubber joints would be charred and would spoil the product."
+       ],
+       "y": "Nitric acid is both a strong acid and a strong oxidising agent, so only glass stands up to it when hot."
+      },
+      {
+       "q": "Pure nitric acid turns yellow on standing in the light. Why?",
+       "r": "It decomposes a little, and the nitrogen dioxide formed dissolves in it",
+       "w": [
+        "It absorbs water from the air",
+        "It reacts with the glass",
+        "It takes in carbon dioxide"
+       ],
+       "e": [
+        "Taking in water would dilute it, not colour it.",
+        "The acid does not attack glass.",
+        "Carbon dioxide does not react with nitric acid."
+       ],
+       "y": "{4}{formula('HNO3')} → {4}{formula('NO2')} + {2}{formula('H2O')} + {formula('O2')}: the brown {formula('NO2')} colours the acid yellow."
+      },
+      {
+       "q": "Dilute nitric acid is added to copper. What gas is given off?",
+       "r": "Nitrogen oxide, {formula('NO')}, which turns brown at the mouth of the tube",
+       "w": [
+        "Hydrogen",
+        "Nitrogen dioxide only",
+        "No gas at all"
+       ],
+       "e": [
+        "Copper is below hydrogen in the reactivity series, and nitric acid is an oxidising acid: no hydrogen is given off.",
+        "{formula('NO2')} is given off with the CONCENTRATED acid; the dilute acid gives {formula('NO')}.",
+        "The reaction does take place, and a blue solution of copper(II) nitrate forms."
+       ],
+       "y": "The colourless {formula('NO')} meets the air and is oxidised at once to brown {formula('NO2')}."
+      },
+      {
+       "q": "Why does nitric acid give no hydrogen with most metals?",
+       "r": "It is a strong oxidising agent, so it oxidises any hydrogen formed to water",
+       "w": [
+        "It is too weak an acid",
+        "Metals do not react with it at all",
+        "It contains no hydrogen"
+       ],
+       "e": [
+        "Nitric acid is a strong acid; that is not the reason.",
+        "Most metals do react with it, giving a nitrate and an oxide of nitrogen.",
+        "Its formula {formula('HNO3')} shows that it does contain hydrogen."
+       ],
+       "y": "Being an oxidising acid, it gives oxides of nitrogen instead of hydrogen; very dilute acid with magnesium is the exception."
+      },
+      {
+       "q": "Dilute nitric acid is added to sodium carbonate. What happens?",
+       "r": "Carbon dioxide is given off and sodium nitrate is formed",
+       "w": [
+        "Nitrogen dioxide is given off",
+        "Hydrogen is given off",
+        "Nothing happens"
+       ],
+       "e": [
+        "Nitrogen dioxide comes from the concentrated acid with a metal, not from a carbonate.",
+        "Hydrogen comes from a metal with a non-oxidising acid.",
+        "Any acid reacts with a carbonate."
+       ],
+       "y": "{formula('Na2CO3')} + {2}{formula('HNO3')} → {2}{formula('NaNO3')} + {formula('H2O')} + {formula('CO2')}: here it behaves as an ordinary acid."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-13-metal",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "M": {
+     "pick": [
+      {
+       "q": "Copper is warmed with dilute nitric acid. What gas is given off?",
+       "r": "Nitrogen oxide, {formula('NO')}, colourless but turning brown in air",
+       "w1": "Hydrogen",
+       "w2": "Nitrogen dioxide, brown from the start",
+       "w3": "Carbon dioxide",
+       "y": "The dilute acid is reduced to {formula('NO')}, which is oxidised to brown {formula('NO2')} when it meets the air."
+      },
+      {
+       "q": "Copper is warmed with concentrated nitric acid. What gas is given off?",
+       "r": "Nitrogen dioxide, {formula('NO2')}, a brown gas",
+       "w1": "Hydrogen",
+       "w2": "Nitrogen oxide, which stays colourless",
+       "w3": "Oxygen",
+       "y": "The concentrated acid is reduced only as far as {formula('NO2')}, which is brown."
+      },
+      {
+       "q": "Very dilute nitric acid is added to magnesium. What gas is given off?",
+       "r": "Hydrogen, the one case where nitric acid behaves as an ordinary acid with a metal",
+       "w1": "Nitrogen dioxide",
+       "w2": "Nitrogen oxide",
+       "w3": "No gas at all",
+       "y": "Magnesium is reactive enough, and the acid is too dilute to act as an oxidising agent."
+      },
+      {
+       "q": "Why is no hydrogen given off when copper reacts with nitric acid?",
+       "r": "Copper is below hydrogen in the reactivity series, and the acid oxidises instead",
+       "w1": "Copper is above hydrogen in the reactivity series",
+       "w2": "Nitric acid contains no hydrogen",
+       "w3": "Copper does not react with nitric acid at all",
+       "y": "An oxidising acid gives an oxide of nitrogen rather than hydrogen."
+      }
+     ]
+    }
+   },
+   "prompt": "{M.q}",
+   "correct": "{M.r}",
+   "distractors": [
+    {
+     "text": "{M.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{M.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{M.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{M.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{M.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{M.y}"
+    }
+   ],
+   "solution": [
+    "{M.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "k4-13-mass",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      0.1,
+      0.2,
+      0.25,
+      0.5,
+      1,
+      2
+     ]
+    }
+   },
+   "prompt": "What mass of nitric acid, in grams, is there in {n} mol of the acid?",
+   "answer": "massOf(n, 'HNO3')",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "roundTo(n / molarMass('HNO3'), 0.0001)",
+     "explain": "Mass = moles × molar mass."
+    },
+    {
+     "id": "no3",
+     "wrong": "massOf(n, 'NO3')",
+     "explain": "Include the hydrogen atom: the formula is {formula('HNO3')}."
+    }
+   ],
+   "solution": [
+    "The relative molecular mass of {formula('HNO3')} is {molarMass('HNO3')}.",
+    "Mass = moles × molar mass = {n} × {molarMass('HNO3')} = {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "k4-13-salt",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "R": {
+     "pick": [
+      {
+       "n": "sodium carbonate",
+       "r": "Sodium nitrate, water and carbon dioxide",
+       "w1": "Sodium nitrate and hydrogen",
+       "w2": "Sodium nitrate and nitrogen dioxide",
+       "w3": "No reaction",
+       "y": "{formula('Na2CO3')} + {2}{formula('HNO3')} → {2}{formula('NaNO3')} + {formula('H2O')} + {formula('CO2')}."
+      },
+      {
+       "n": "copper(II) oxide",
+       "r": "Copper(II) nitrate and water, giving a blue solution",
+       "w1": "Copper(II) nitrate and hydrogen",
+       "w2": "Copper and water",
+       "w3": "No reaction",
+       "y": "{formula('CuO')} + {2}{formula('HNO3')} → {formula('Cu(NO3)2')} + {formula('H2O')}: a base with an acid gives a salt and water."
+      },
+      {
+       "n": "sodium hydroxide solution",
+       "r": "Sodium nitrate and water",
+       "w1": "Sodium nitrate and hydrogen",
+       "w2": "Ammonia and water",
+       "w3": "No reaction",
+       "y": "{formula('NaOH')} + {formula('HNO3')} → {formula('NaNO3')} + {formula('H2O')}: an ordinary neutralisation."
+      }
+     ]
+    }
+   },
+   "prompt": "Dilute nitric acid is added to {R.n}. What is formed?",
+   "correct": "{R.r}",
+   "distractors": [
+    {
+     "text": "{R.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{R.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{R.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{R.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{R.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{R.y}"
+    }
+   ],
+   "solution": [
+    "{R.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "k4-13-salt-mass",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      0.1,
+      0.2,
+      0.25,
+      0.5,
+      1,
+      2
+     ]
+    }
+   },
+   "prompt": "What mass of sodium nitrate, in grams, is made when {n} mol of sodium hydroxide is neutralised by dilute nitric acid?",
+   "answer": "massOf(n, 'NaNO3')",
+   "misconceptions": [
+    {
+     "id": "acid",
+     "wrong": "massOf(n, 'HNO3')",
+     "explain": "The question asks for the mass of the SALT, not of the acid."
+    },
+    {
+     "id": "base",
+     "wrong": "massOf(n, 'NaOH')",
+     "explain": "The question asks for the mass of sodium nitrate."
+    }
+   ],
+   "solution": [
+    "{formula('NaOH')} + {formula('HNO3')} → {formula('NaNO3')} + {formula('H2O')}: {1} mol gives {1} mol.",
+    "The relative formula mass of {formula('NaNO3')} is {molarMass('NaNO3')}.",
+    "Mass = {n} × {molarMass('NaNO3')} = {answer} g."
+   ],
+   "unit": "g"
+  }
+ ]
+}

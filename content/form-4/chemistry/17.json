@@ -1,0 +1,542 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [
+  16
+ ],
+ "skills": [
+  {
+   "id": "k4-17",
+   "name": "State the uses of nitrogen and its compounds"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Nitrogen gas: filling packets of food and flushing oil tanks, because it is unreactive; as liquid nitrogen at −196 °C for quick-freezing food and storing medical samples.\nAmmonia: made in the Haber process and used to make fertilisers (ammonium sulphate, ammonium nitrate, urea), nitric acid (the Ostwald process), cleaning liquids, and as a refrigerant.\nNitric acid: making fertilisers, explosives (TNT, nitroglycerine), dyes, drugs and plastics.\nFertilisers replace the nitrogen taken out of the soil by crops, so yields stay high. Too much, however, is washed into rivers, where it makes water plants grow too fast; when these die and decay the water loses its oxygen and fish die. This is eutrophication.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to give the uses of nitrogen, ammonia and nitric acid, and explain how too much fertiliser harms rivers.\nBuilds on: Lessons {11} to {16}, which give the properties behind each use.\nLeads to: the mole calculations of the next chapter, used to work out how much fertiliser a crop needs."
+   },
+   {
+    "heading": "Uses",
+    "text": "NITROGEN GAS is used where an unreactive atmosphere is needed: filling packets of crisps and other food so the fat does not go rancid, and flushing out oil tanks so that they cannot catch fire. As LIQUID nitrogen at −{196} °C it quick-freezes food and stores blood and other medical samples.\nAMMONIA, made in the Haber process, is the starting point for:\n• fertilisers: ammonium sulphate, ammonium nitrate and urea;\n• nitric acid, by the Ostwald process;\n• cleaning liquids, and refrigeration, because it takes in much heat as it evaporates.\nNITRIC ACID is used for fertilisers, explosives such as TNT, dyes, drugs and plastics.\nDINITROGEN OXIDE is used with oxygen as a mild anaesthetic."
+   },
+   {
+    "heading": "Fertilisers and the environment",
+    "text": "Every harvest takes nitrogen off the land in the grain or the leaves. Fertilisers put it back, so yields stay high and the same field can be used year after year.\nA fertiliser is judged partly by its percentage of nitrogen by mass: in {formula('NH4NO3')} the nitrogen is {28} out of {80}, which is {35} per cent.\nBut nitrates are soluble, so rain washes them into streams. There they make water plants grow very fast; when these die, the bacteria that decay them use up the oxygen and the fish suffocate. This is eutrophication.\nCareful farmers use only what the crop needs and leave strips of grass beside streams."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "fertiliser",
+    "meaning": "a substance added to soil to supply the elements plants need"
+   },
+   {
+    "word": "Haber process",
+    "meaning": "making ammonia from nitrogen and hydrogen"
+   },
+   {
+    "word": "eutrophication",
+    "meaning": "the loss of oxygen in water caused by too many nutrients"
+   },
+   {
+    "word": "urea",
+    "meaning": "{formula('CO(NH2)2')}, a nitrogen fertiliser made from ammonia and carbon dioxide"
+   }
+  ],
+  "examples": [
+   "{2}{formula('NH3')} + {formula('H2SO4')} → {formula('(NH4)2SO4')}",
+   "{formula('NH4NO3')}: {35} per cent nitrogen",
+   "liquid nitrogen at −{196} °C"
+  ],
+  "mistake": {
+   "wrong": "more fertiliser always means a better harvest",
+   "right": "too much is washed into rivers and causes eutrophication",
+   "why": "Beyond what the crop can take up, the extra nitrate runs off and kills fish."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": 2
+  },
+  "problem": "What mass of ammonium sulphate, {formula('(NH4)2SO4')}, is made from {n} mol of ammonia?",
+  "steps": [
+   "{2}{formula('NH3')} + {formula('H2SO4')} → {formula('(NH4)2SO4')}.",
+   "{2} mol of ammonia gives {1} mol of the fertiliser, so {n} mol gives {n} ÷ {2} = {n / 2} mol.",
+   "The relative formula mass of {formula('(NH4)2SO4')} is {molarMass('(NH4)2SO4')}.",
+   "Mass = {n / 2} × {molarMass('(NH4)2SO4')}."
+  ],
+  "answer": "{massOf(n / 2, '(NH4)2SO4')} g",
+  "checks": [
+   "molarMass('(NH4)2SO4') == 132"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k17-1",
+    "status": "draft",
+    "idea": "Ammonia from the Haber process is the starting point for fertilisers and nitric acid.",
+    "vars": {},
+    "example": [
+     "{2}{formula('NH3')} + {formula('H2SO4')} → {formula('(NH4)2SO4')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-17-uses"
+    }
+   },
+   {
+    "id": "c4k17-2",
+    "status": "draft",
+    "idea": "Nitrogen gas is used where an unreactive atmosphere is needed.",
+    "vars": {},
+    "example": [
+     "packets of food, oil tanks, and liquid nitrogen for quick-freezing"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-17-which-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "nitrogen"
+     ],
+     "vars": {
+      "U": {
+       "pick": [
+        {
+         "q": "to stop crisps going stale in a sealed packet",
+         "r": "Nitrogen gas",
+         "w1": "Ammonia",
+         "w2": "Nitrogen dioxide",
+         "w3": "Nitric acid",
+         "y": "Nitrogen is unreactive, so it keeps oxygen away without affecting the food."
+        },
+        {
+         "q": "to add nitrogen to a field of maize",
+         "r": "Ammonium sulphate",
+         "w1": "Liquid nitrogen",
+         "w2": "Nitrogen dioxide",
+         "w3": "Dinitrogen oxide",
+         "y": "A soluble ammonium salt gives the plants nitrogen in a form their roots can take up."
+        },
+        {
+         "q": "to freeze a medical sample quickly",
+         "r": "Liquid nitrogen",
+         "w1": "Ammonium nitrate",
+         "w2": "Nitric acid",
+         "w3": "Nitrogen dioxide",
+         "y": "Liquid nitrogen boils at −{196} °C and is unreactive, so it freezes the sample without harming it."
+        },
+        {
+         "q": "to make dyes and explosives in a factory",
+         "r": "Nitric acid",
+         "w1": "Liquid nitrogen",
+         "w2": "Nitrogen gas",
+         "w3": "Dinitrogen oxide",
+         "y": "Nitric acid puts nitro groups into organic compounds, which is how dyes and explosives are made."
+        }
+       ]
+      }
+     },
+     "prompt": "Which substance would be used {U.q}?",
+     "correct": "{U.r}",
+     "distractors": [
+      {
+       "text": "{U.w1}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{U.w2}",
+       "misconception": "w2"
+      },
+      {
+       "text": "{U.w3}",
+       "misconception": "w3"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w1",
+       "explain": "{U.y}"
+      },
+      {
+       "id": "w2",
+       "explain": "{U.y}"
+      },
+      {
+       "id": "w3",
+       "explain": "{U.y}"
+      }
+     ],
+     "solution": [
+      "{U.y}",
+      "So the answer is: {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c4k17-3",
+    "status": "draft",
+    "idea": "Too much fertiliser washed into rivers causes eutrophication.",
+    "vars": {},
+    "example": [
+     "water plants grow fast, die, and their decay uses up the oxygen"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-17-match"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-17-uses",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which compound of nitrogen is the starting point for most nitrogen fertilisers?",
+       "r": "Ammonia",
+       "w": [
+        "Nitrogen dioxide",
+        "Dinitrogen oxide",
+        "Hydrogen sulphide"
+       ],
+       "e": [
+        "Nitrogen dioxide is a poisonous pollutant, not a feedstock for fertiliser.",
+        "Dinitrogen oxide is used as an anaesthetic, not for fertiliser.",
+        "Hydrogen sulphide contains no nitrogen at all."
+       ],
+       "y": "Ammonia from the Haber process is neutralised by acids to give ammonium salts, or oxidised to nitric acid."
+      },
+      {
+       "q": "Ammonia is neutralised by sulphuric acid. Which fertiliser is formed?",
+       "r": "Ammonium sulphate",
+       "w": [
+        "Ammonium nitrate",
+        "Sodium nitrate",
+        "Urea"
+       ],
+       "e": [
+        "Ammonium nitrate comes from ammonia and NITRIC acid.",
+        "Sodium nitrate contains no ammonium; it is mined or made from sodium compounds.",
+        "Urea is made from ammonia and carbon dioxide."
+       ],
+       "y": "{2}{formula('NH3')} + {formula('H2SO4')} → {formula('(NH4)2SO4')}."
+      },
+      {
+       "q": "Why is liquid nitrogen used to freeze food and to store medical samples?",
+       "r": "It is very cold and unreactive, so it freezes quickly without damaging the material",
+       "w": [
+        "It is hot enough to kill bacteria",
+        "It dissolves the water in the food",
+        "It burns away any oxygen"
+       ],
+       "e": [
+        "Liquid nitrogen is extremely cold, not hot.",
+        "It does not dissolve anything; it freezes it.",
+        "It does not burn; it simply keeps oxygen away by being unreactive."
+       ],
+       "y": "Liquid nitrogen boils at −{196} °C, so it freezes quickly, and being inert it does not react with the sample."
+      },
+      {
+       "q": "Which use depends on a nitrogen compound exploding?",
+       "r": "Making TNT and other explosives for quarrying",
+       "w": [
+        "Making ammonium sulphate fertiliser",
+        "Filling packets of food",
+        "Making nitric acid"
+       ],
+       "e": [
+        "A fertiliser must not explode in the field; it is used for its nitrogen.",
+        "Food packets are filled with nitrogen GAS, which is unreactive.",
+        "Nitric acid is a reagent, not an explosive itself."
+       ],
+       "y": "Nitro compounds made from nitric acid release a great deal of gas very suddenly."
+      },
+      {
+       "q": "Why is ammonia used in some refrigerators?",
+       "r": "It is easily liquefied and takes in a great deal of heat when it evaporates",
+       "w": [
+        "It is poisonous to bacteria",
+        "It is lighter than air",
+        "It freezes at a very high temperature"
+       ],
+       "e": [
+        "Keeping food cold, not killing bacteria directly, is the purpose of a refrigerator.",
+        "Being lighter than air has nothing to do with cooling.",
+        "A refrigerant must evaporate easily, not freeze easily."
+       ],
+       "y": "The latent heat taken in as the liquid ammonia evaporates is what cools the cabinet."
+      },
+      {
+       "q": "Which statement about nitrogen fertilisers and the environment is correct?",
+       "r": "Fertiliser washed into rivers makes water plants grow too fast, and the water loses its oxygen",
+       "w": [
+        "Fertilisers cannot reach rivers",
+        "Extra nitrates in a river are always harmless",
+        "Nitrogen fertilisers cause acid rain directly"
+       ],
+       "e": [
+        "Rain washes soluble nitrates off fields into streams and rivers.",
+        "Too much nitrate causes eutrophication, which kills fish.",
+        "Acid rain comes mainly from sulphur dioxide and nitrogen oxides in smoke, not from fertiliser in the soil."
+       ],
+       "y": "Eutrophication: the plants grow, then die and decay, and the decay uses up the oxygen in the water."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-17-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nitrogen"
+   ],
+   "prompt": "Match each substance to a use.",
+   "pool": [
+    {
+     "left": "Liquid nitrogen",
+     "right": "Quick-freezing food"
+    },
+    {
+     "left": "Ammonia",
+     "right": "Making fertiliser in the Haber process route"
+    },
+    {
+     "left": "Nitric acid",
+     "right": "Making explosives"
+    },
+    {
+     "left": "Ammonium sulphate",
+     "right": "Feeding a maize crop"
+    },
+    {
+     "left": "Dinitrogen oxide",
+     "right": "A mild anaesthetic"
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "k4-17-which",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "U": {
+     "pick": [
+      {
+       "q": "to stop crisps going stale in a sealed packet",
+       "r": "Nitrogen gas",
+       "w1": "Ammonia",
+       "w2": "Nitrogen dioxide",
+       "w3": "Nitric acid",
+       "y": "Nitrogen is unreactive, so it keeps oxygen away without affecting the food."
+      },
+      {
+       "q": "to add nitrogen to a field of maize",
+       "r": "Ammonium sulphate",
+       "w1": "Liquid nitrogen",
+       "w2": "Nitrogen dioxide",
+       "w3": "Dinitrogen oxide",
+       "y": "A soluble ammonium salt gives the plants nitrogen in a form their roots can take up."
+      },
+      {
+       "q": "to freeze a medical sample quickly",
+       "r": "Liquid nitrogen",
+       "w1": "Ammonium nitrate",
+       "w2": "Nitric acid",
+       "w3": "Nitrogen dioxide",
+       "y": "Liquid nitrogen boils at −{196} °C and is unreactive, so it freezes the sample without harming it."
+      },
+      {
+       "q": "to make dyes and explosives in a factory",
+       "r": "Nitric acid",
+       "w1": "Liquid nitrogen",
+       "w2": "Nitrogen gas",
+       "w3": "Dinitrogen oxide",
+       "y": "Nitric acid puts nitro groups into organic compounds, which is how dyes and explosives are made."
+      }
+     ]
+    }
+   },
+   "prompt": "Which substance would be used {U.q}?",
+   "correct": "{U.r}",
+   "distractors": [
+    {
+     "text": "{U.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{U.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{U.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{U.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{U.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{U.y}"
+    }
+   ],
+   "solution": [
+    "{U.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "k4-17-fert",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      0.2,
+      0.4,
+      0.5,
+      1,
+      2,
+      4
+     ]
+    }
+   },
+   "prompt": "What mass of ammonium sulphate, in grams, is made from {n} mol of ammonia?",
+   "answer": "massOf(n / 2, '(NH4)2SO4')",
+   "misconceptions": [
+    {
+     "id": "nohalf",
+     "wrong": "massOf(n, '(NH4)2SO4')",
+     "explain": "{2} mol of ammonia are needed for each {1} mol of the salt."
+    },
+    {
+     "id": "ammonia",
+     "wrong": "massOf(n, 'NH3')",
+     "explain": "The question asks for the mass of the FERTILISER, not of the ammonia."
+    }
+   ],
+   "solution": [
+    "{2}{formula('NH3')} + {formula('H2SO4')} → {formula('(NH4)2SO4')}: {2} mol of ammonia gives {1} mol of the salt.",
+    "{n} mol of ammonia gives {n / 2} mol.",
+    "Mass = {n / 2} × {molarMass('(NH4)2SO4')} = {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "k4-17-percent",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "F": {
+     "pick": [
+      "NH3",
+      "NH4NO3",
+      "(NH4)2SO4",
+      "NaNO3",
+      "KNO3",
+      "CO(NH2)2"
+     ]
+    }
+   },
+   "prompt": "What is the percentage by mass of nitrogen in {formula(F)}? Give your answer to {1} decimal place.",
+   "answer": "roundTo(percentMass(F, 'N'), 0.1)",
+   "misconceptions": [
+    {
+     "id": "swap",
+     "wrong": "roundTo(molarMass(F) / (atomCount(F, 'N') * ram('N')) * 100, 0.1)",
+     "explain": "Divide the mass of nitrogen by the WHOLE formula mass."
+    },
+    {
+     "id": "one",
+     "wrong": "roundTo(ram('N') / molarMass(F) * 100, 0.1)",
+     "explain": "Count every nitrogen atom: there are {atomCount(F, 'N')}.",
+     "when": "atomCount(F, 'N') > 1"
+    }
+   ],
+   "solution": [
+    "The relative formula mass of {formula(F)} is {molarMass(F)}.",
+    "It holds {atomCount(F, 'N')} nitrogen atoms, of mass {atomCount(F, 'N')} × {ram('N')} = {atomCount(F, 'N') * ram('N')}.",
+    "Percentage = {atomCount(F, 'N') * ram('N')} ÷ {molarMass(F)} × {100} = {answer} per cent."
+   ],
+   "unit": "%"
+  }
+ ]
+}

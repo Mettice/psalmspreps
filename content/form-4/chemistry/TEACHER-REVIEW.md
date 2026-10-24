@@ -13,3 +13,7 @@ Every lesson, Learn screen, card and worked example is **draft**. Open items:
 - **TR-K4-4 (rows 1-9).** Sulphur: Frasch water at about 170 °C; transition temperature 96 °C; melting point
   about 115 °C; densities 2.07 and 1.98 g/cm³. Hydrogen sulphide is prepared with hydrochloric acid, never nitric.
   Sulphur dioxide is said to bleach by reduction (temporary) and chlorine by oxidation (permanent).
+- **TR-K4-5 (rows 11-17).** Nitrogen: air taken as 78 per cent nitrogen by volume; ammonia dried with quicklime,
+  never with concentrated sulphuric acid; nitric acid distilled in all-glass apparatus. Nitrates on heating follow
+  the three patterns (Na/K → nitrite; most metals → oxide; Ag/Hg → metal). The nitrogen cycle names Rhizobium,
+  Nitrosomonas and Nitrobacter. Please confirm the depth and the names the class uses.

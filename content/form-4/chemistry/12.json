@@ -1,0 +1,631 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 12,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "k4-12",
+   "name": "Prepare ammonia and describe its properties"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Laboratory preparation: heat an ammonium salt with an alkali.\n2NH4Cl + Ca(OH)2 → CaCl2 + 2NH3 + 2H2O\nThe gas is dried with quicklime (not concentrated sulphuric acid, which would react with it) and collected by upward delivery, because it is less dense than air and extremely soluble in water.\nPhysical properties: a colourless gas with a sharp, pungent smell; less dense than air (relative molecular mass 17); extremely soluble in water, as the fountain experiment shows; easily liquefied.\nChemical properties:\n• Alkaline: its solution turns damp red litmus blue, the only common alkaline gas.\n• With acids it gives ammonium salts: NH3 + HCl → NH4Cl, seen as dense white fumes.\n• A reducing agent: it reduces heated copper(II) oxide, 3CuO + 2NH3 → 3Cu + N2 + 3H2O.\n• It burns in oxygen, but not in air.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to prepare ammonia, explain how it is dried and collected, and describe it as an alkaline gas and a reducing agent.\nBuilds on: Lesson {11} (nitrogen) and Form Three acids, bases and salts.\nLeads to: Lesson {17} (fertilisers made from ammonia) and the Haber process."
+   },
+   {
+    "heading": "Preparation and collection",
+    "text": "Heat an ammonium salt with an alkali:\n{2}{formula('NH4Cl')} + {formula('Ca(OH)2')} → {formula('CaCl2')} + {2}{formula('NH3')} + {2}{formula('H2O')}\nThe mixture is heated in a slanting tube, so that the water that condenses runs away from the hot glass.\nDrying: with QUICKLIME, {formula('CaO')}. Concentrated sulphuric acid cannot be used, because the acid would react with the alkaline gas; anhydrous calcium chloride also forms a compound with it.\nCollection: by upward delivery into an inverted jar, because ammonia is less dense than air (relative molecular mass {17}) and far too soluble to collect over water."
+   },
+   {
+    "heading": "Properties",
+    "text": "Ammonia is a colourless gas with a sharp, pungent smell. It is extremely soluble in water: in the fountain experiment, a few drops of water in a flask of the gas lower the pressure so much that water rushes in as a fountain.\n• ALKALINE: it is the only common alkaline gas, and turns damp red litmus blue.\n• With acids it gives ammonium salts: {formula('NH3')} + {formula('HCl')} → {formula('NH4Cl')}, seen as dense white fumes. This is the test for the gas.\n• REDUCING agent: {3}{formula('CuO')} + {2}{formula('NH3')} → {3}Cu + {formula('N2')} + {3}{formula('H2O')}. The black solid turns pink-brown.\n• It burns in pure oxygen but not in air."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "alkaline gas",
+    "meaning": "a gas whose solution is an alkali; ammonia is the only common one"
+   },
+   {
+    "word": "quicklime",
+    "meaning": "calcium oxide, {formula('CaO')}, a basic drying agent"
+   },
+   {
+    "word": "upward delivery",
+    "meaning": "collecting a gas less dense than air in an inverted jar"
+   },
+   {
+    "word": "fountain experiment",
+    "meaning": "a demonstration of how soluble ammonia is"
+   }
+  ],
+  "examples": [
+   "{2}{formula('NH4Cl')} + {formula('Ca(OH)2')} → {formula('CaCl2')} + {2}{formula('NH3')} + {2}{formula('H2O')}",
+   "{formula('NH3')} + {formula('HCl')} → {formula('NH4Cl')}: white fumes"
+  ],
+  "mistake": {
+   "wrong": "ammonia is dried with concentrated sulphuric acid",
+   "right": "it is dried with quicklime",
+   "why": "The acid reacts with the alkaline gas to give ammonium sulphate, so the gas would be lost."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 1
+  },
+  "problem": "Explain why ammonia is dried with quicklime and not with concentrated sulphuric acid.",
+  "steps": [
+   "A drying agent must remove water without reacting with the gas.",
+   "Ammonia is an alkaline gas.",
+   "Concentrated sulphuric acid is an acid, so it would react with the ammonia to give ammonium sulphate.",
+   "Quicklime, {formula('CaO')}, is a basic oxide, so it dries the gas without reacting with it."
+  ],
+  "answer": "because sulphuric acid would react with the alkaline gas, while quicklime does not",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k12-1",
+    "status": "draft",
+    "idea": "An ammonium salt heated with an alkali gives ammonia.",
+    "vars": {},
+    "example": [
+     "{2}{formula('NH4Cl')} + {formula('Ca(OH)2')} → {formula('CaCl2')} + {2}{formula('NH3')} + {2}{formula('H2O')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-12-prep"
+    }
+   },
+   {
+    "id": "c4k12-2",
+    "status": "draft",
+    "idea": "Ammonia is the only common alkaline gas: it turns damp red litmus blue.",
+    "vars": {},
+    "example": [
+     "with {formula('HCl')} it gives dense white fumes of {formula('NH4Cl')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-12-test"
+    }
+   },
+   {
+    "id": "c4k12-3",
+    "status": "draft",
+    "idea": "Ammonia is a reducing agent: it reduces heated copper(II) oxide to copper.",
+    "vars": {},
+    "example": [
+     "{3}{formula('CuO')} + {2}{formula('NH3')} → {3}Cu + {formula('N2')} + {3}{formula('H2O')}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-12-reduce-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "nitrogen"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Ammonia is passed over heated copper(II) oxide. Which statement is correct?",
+         "r": "The copper(II) oxide is reduced to copper, and the ammonia is oxidised to nitrogen",
+         "w": [
+          "The copper(II) oxide is oxidised and the ammonia reduced",
+          "Neither is changed",
+          "Both are reduced"
+         ],
+         "e": [
+          "Losing oxygen is reduction, so it is the copper(II) oxide that is reduced.",
+          "The colour change from black to pink-brown shows a clear reaction.",
+          "In any redox reaction one substance is oxidised while the other is reduced."
+         ],
+         "y": "{3}{formula('CuO')} + {2}{formula('NH3')} → {3}Cu + {formula('N2')} + {3}{formula('H2O')}."
+        },
+        {
+         "q": "What colour change is seen when ammonia reduces heated copper(II) oxide?",
+         "r": "Black to pink-brown",
+         "w": [
+          "Pink-brown to black",
+          "Black to white",
+          "Blue to white"
+         ],
+         "e": [
+          "That is what happens when copper is heated in air: the opposite change.",
+          "No white solid is formed; copper metal is pink-brown.",
+          "Blue to white is what happens to copper(II) sulphate crystals when they are dehydrated."
+         ],
+         "y": "The black copper(II) oxide becomes pink-brown copper as the oxygen is taken away."
+        },
+        {
+         "q": "Which gas is formed from the ammonia when it reduces copper(II) oxide?",
+         "r": "Nitrogen",
+         "w": [
+          "Hydrogen",
+          "Oxygen",
+          "Nitrogen dioxide"
+         ],
+         "e": [
+          "The hydrogen of the ammonia ends up in the water that is formed.",
+          "The oxygen comes FROM the copper oxide and also ends up in the water.",
+          "Nitrogen dioxide needs more oxygen; the product here is nitrogen itself."
+         ],
+         "y": "The nitrogen of the ammonia is set free as {formula('N2')}, and its hydrogen becomes water."
+        },
+        {
+         "q": "Why does ammonia burn in pure oxygen but not in air?",
+         "r": "Air holds too little oxygen to keep the flame going",
+         "w": [
+          "Ammonia is not flammable at all",
+          "The nitrogen in air puts the flame out by reacting",
+          "Air is too cold"
+         ],
+         "e": [
+          "It does burn, as the experiment in pure oxygen shows.",
+          "Nitrogen does not react; it simply dilutes the oxygen.",
+          "Temperature is not the difference; the proportion of oxygen is."
+         ],
+         "y": "In pure oxygen ammonia burns with a greenish-yellow flame; in air, with only {21} per cent oxygen, it will not."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-12-prep",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which reagents are used to prepare ammonia in the laboratory?",
+       "r": "An ammonium salt and an alkali, heated: ammonium chloride with calcium hydroxide",
+       "w": [
+        "Ammonium chloride and dilute hydrochloric acid",
+        "Nitrogen and water",
+        "A nitrate and a dilute acid"
+       ],
+       "e": [
+        "An acid would give no ammonia; an ALKALI drives it out of an ammonium salt.",
+        "Nitrogen and water do not react; the Haber process uses hydrogen, not water.",
+        "A nitrate with a dilute acid gives no ammonia."
+       ],
+       "y": "{2}{formula('NH4Cl')} + {formula('Ca(OH)2')} → {formula('CaCl2')} + {2}{formula('NH3')} + {2}{formula('H2O')}."
+      },
+      {
+       "q": "How is ammonia collected?",
+       "r": "By upward delivery, because it is less dense than air",
+       "w": [
+        "By downward delivery",
+        "Over water",
+        "Over mercury only"
+       ],
+       "e": [
+        "Its relative molecular mass is {17}, well below the average for air, so it rises.",
+        "It is extremely soluble in water, so none would be collected.",
+        "There is no need for mercury; an inverted jar works."
+       ],
+       "y": "A gas less dense than air and very soluble is collected by upward delivery into an inverted jar."
+      },
+      {
+       "q": "Which drying agent is used for ammonia?",
+       "r": "Quicklime, {formula('CaO')}",
+       "w": [
+        "Concentrated sulphuric acid",
+        "Phosphorus(V) oxide",
+        "Anhydrous calcium chloride"
+       ],
+       "e": [
+        "Concentrated sulphuric acid is acidic and reacts with ammonia to give ammonium sulphate.",
+        "Phosphorus(V) oxide is acidic and also reacts with ammonia.",
+        "Anhydrous calcium chloride forms a compound with ammonia, so it cannot be used."
+       ],
+       "y": "An alkaline gas must be dried with a basic drying agent, and quicklime is the usual choice."
+      },
+      {
+       "q": "What is seen in the fountain experiment with ammonia?",
+       "r": "Water rushes up into the flask as a fountain, turning red if litmus is present",
+       "w": [
+        "The water stays where it is",
+        "The flask cracks",
+        "The gas bubbles out through the water"
+       ],
+       "e": [
+        "The gas dissolves so fast that the pressure in the flask falls at once.",
+        "No crack is needed; the pressure difference drives the fountain.",
+        "The gas is taken INTO the water, not pushed out."
+       ],
+       "y": "Ammonia is extremely soluble, so a drop of water lowers the pressure in the flask and the rest is pushed in."
+      },
+      {
+       "q": "Ammonia gas meets hydrogen chloride gas. What is seen?",
+       "r": "Dense white fumes of ammonium chloride",
+       "w": [
+        "A brown gas",
+        "A yellow solid",
+        "Nothing is seen"
+       ],
+       "e": [
+        "A brown gas is nitrogen dioxide, which is not formed here.",
+        "The solid formed is white, not yellow.",
+        "The white fumes are easy to see and are used as a test."
+       ],
+       "y": "{formula('NH3')} + {formula('HCl')} → {formula('NH4Cl')}: the two gases meet and form a white smoke of fine solid."
+      },
+      {
+       "q": "Ammonia is passed over heated copper(II) oxide. What is seen, and what does it show?",
+       "r": "The black solid turns pink-brown; ammonia is acting as a reducing agent",
+       "w": [
+        "The black solid turns white; ammonia is acting as an acid",
+        "The solid is unchanged; ammonia is unreactive",
+        "A yellow solid forms; ammonia is acting as an oxidising agent"
+       ],
+       "e": [
+        "No white solid is formed, and ammonia is alkaline, not acidic.",
+        "The reaction is clear, and the copper(II) oxide is reduced to copper.",
+        "The ammonia is oxidised here, so it is the reducing agent."
+       ],
+       "y": "{3}{formula('CuO')} + {2}{formula('NH3')} → {3}Cu + {formula('N2')} + {3}{formula('H2O')}: the copper oxide is reduced to copper."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-12-test",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "T": {
+     "pick": [
+      {
+       "r": "Damp red litmus paper turns blue",
+       "w1": "Damp blue litmus paper turns red",
+       "w2": "Limewater turns milky",
+       "w3": "A glowing splint relights",
+       "y": "Ammonia is the only common alkaline gas, so it turns RED litmus blue."
+      },
+      {
+       "r": "A rod dipped in concentrated hydrochloric acid gives dense white fumes",
+       "w1": "A rod dipped in acid gives a brown gas",
+       "w2": "A lighted splint burns more brightly",
+       "w3": "The gas turns lead(II) ethanoate paper black",
+       "y": "{formula('NH3')} + {formula('HCl')} → {formula('NH4Cl')}, a white solid that appears as a smoke."
+      },
+      {
+       "r": "It has a sharp pungent smell and turns damp red litmus blue",
+       "w1": "It smells of rotten eggs",
+       "w2": "It has no smell at all",
+       "w3": "It smells sweet and turns limewater milky",
+       "y": "The smell with the litmus test together identify ammonia."
+      }
+     ]
+    }
+   },
+   "prompt": "How would you show that a colourless gas is ammonia?",
+   "correct": "{T.r}",
+   "distractors": [
+    {
+     "text": "{T.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{T.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{T.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{T.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{T.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{T.y}"
+    }
+   ],
+   "solution": [
+    "{T.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "k4-12-reduce",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Ammonia is passed over heated copper(II) oxide. Which statement is correct?",
+       "r": "The copper(II) oxide is reduced to copper, and the ammonia is oxidised to nitrogen",
+       "w": [
+        "The copper(II) oxide is oxidised and the ammonia reduced",
+        "Neither is changed",
+        "Both are reduced"
+       ],
+       "e": [
+        "Losing oxygen is reduction, so it is the copper(II) oxide that is reduced.",
+        "The colour change from black to pink-brown shows a clear reaction.",
+        "In any redox reaction one substance is oxidised while the other is reduced."
+       ],
+       "y": "{3}{formula('CuO')} + {2}{formula('NH3')} → {3}Cu + {formula('N2')} + {3}{formula('H2O')}."
+      },
+      {
+       "q": "What colour change is seen when ammonia reduces heated copper(II) oxide?",
+       "r": "Black to pink-brown",
+       "w": [
+        "Pink-brown to black",
+        "Black to white",
+        "Blue to white"
+       ],
+       "e": [
+        "That is what happens when copper is heated in air: the opposite change.",
+        "No white solid is formed; copper metal is pink-brown.",
+        "Blue to white is what happens to copper(II) sulphate crystals when they are dehydrated."
+       ],
+       "y": "The black copper(II) oxide becomes pink-brown copper as the oxygen is taken away."
+      },
+      {
+       "q": "Which gas is formed from the ammonia when it reduces copper(II) oxide?",
+       "r": "Nitrogen",
+       "w": [
+        "Hydrogen",
+        "Oxygen",
+        "Nitrogen dioxide"
+       ],
+       "e": [
+        "The hydrogen of the ammonia ends up in the water that is formed.",
+        "The oxygen comes FROM the copper oxide and also ends up in the water.",
+        "Nitrogen dioxide needs more oxygen; the product here is nitrogen itself."
+       ],
+       "y": "The nitrogen of the ammonia is set free as {formula('N2')}, and its hydrogen becomes water."
+      },
+      {
+       "q": "Why does ammonia burn in pure oxygen but not in air?",
+       "r": "Air holds too little oxygen to keep the flame going",
+       "w": [
+        "Ammonia is not flammable at all",
+        "The nitrogen in air puts the flame out by reacting",
+        "Air is too cold"
+       ],
+       "e": [
+        "It does burn, as the experiment in pure oxygen shows.",
+        "Nitrogen does not react; it simply dilutes the oxygen.",
+        "Temperature is not the difference; the proportion of oxygen is."
+       ],
+       "y": "In pure oxygen ammonia burns with a greenish-yellow flame; in air, with only {21} per cent oxygen, it will not."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-12-mass",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      0.1,
+      0.2,
+      0.25,
+      0.5,
+      1,
+      2,
+      3
+     ]
+    }
+   },
+   "prompt": "What mass of ammonia, in grams, is there in {n} mol of the gas?",
+   "answer": "massOf(n, 'NH3')",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "roundTo(n / molarMass('NH3'), 0.0001)",
+     "explain": "Mass = moles × molar mass."
+    },
+    {
+     "id": "n2",
+     "wrong": "massOf(n, 'N2')",
+     "explain": "Use the formula {formula('NH3')}, which includes the {3} hydrogen atoms."
+    }
+   ],
+   "solution": [
+    "The relative molecular mass of {formula('NH3')} is {molarMass('NH3')}.",
+    "Mass = moles × molar mass = {n} × {molarMass('NH3')} = {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "k4-12-vol",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      0.1,
+      0.2,
+      0.25,
+      0.5,
+      1,
+      2
+     ]
+    }
+   },
+   "prompt": "What volume of ammonia, in dm³ at s.t.p., is given off when {n} mol of ammonium chloride is heated with excess calcium hydroxide?",
+   "answer": "gasVolume(n)",
+   "misconceptions": [
+    {
+     "id": "half",
+     "wrong": "gasVolume(n / 2)",
+     "explain": "The ratio is {2} to {2}, that is {1} mol of gas for each {1} mol of the salt."
+    },
+    {
+     "id": "mass",
+     "wrong": "massOf(n, 'NH3')",
+     "explain": "The question asks for a volume in dm³, not a mass in grams."
+    }
+   ],
+   "solution": [
+    "{2}{formula('NH4Cl')} + {formula('Ca(OH)2')} → {formula('CaCl2')} + {2}{formula('NH3')} + {2}{formula('H2O')}.",
+    "{2} mol of {formula('NH4Cl')} gives {2} mol of {formula('NH3')}, so {n} mol gives {n} mol.",
+    "At s.t.p. that is {n} × {22.4} = {answer} dm³."
+   ],
+   "unit": "dm³"
+  }
+ ]
+}

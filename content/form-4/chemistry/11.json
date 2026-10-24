@@ -1,0 +1,641 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 11,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "k4-11",
+   "name": "Describe the occurrence and properties of nitrogen"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Nitrogen makes up about 78 per cent of the air by volume. It is also combined in proteins, in nitrates in the soil, and in ammonia.\nLaboratory preparation from air: remove carbon dioxide with sodium hydroxide, dry the air, then pass it over heated copper, which takes the oxygen. What is left is nitrogen with a little argon, so it is slightly denser than pure nitrogen.\nPure nitrogen is made by heating ammonium nitrite: NH4NO2 → N2 + 2H2O.\nIn industry it comes from the fractional distillation of liquid air.\nProperties: a colourless, odourless gas, almost insoluble in water, slightly less dense than air, and very unreactive because of the strong triple bond N≡N. It does not burn and does not support burning. It combines with magnesium (3Mg + N2 → Mg3N2), with hydrogen in the Haber process, and with oxygen in a lightning flash.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to say where nitrogen is found, prepare it from air, and explain its properties from its triple bond.\nBuilds on: Form One the composition of air, and Form Three bonding.\nLeads to: Lesson {12} (ammonia) and Lesson {16}, the nitrogen cycle."
+   },
+   {
+    "heading": "Where nitrogen is found, and how it is obtained",
+    "text": "Nitrogen makes up about {78} per cent of the air by volume. It is also combined in the proteins of living things, in nitrates in the soil, and in ammonia.\nFrom air in the laboratory: pass air through sodium hydroxide solution to take out carbon dioxide, then through concentrated sulphuric acid to dry it, then over heated copper, which takes the oxygen:\n{2}Cu + {formula('O2')} → {2}{formula('CuO')}\nWhat is left is nitrogen with a little argon, so it is slightly DENSER than pure nitrogen.\nPure nitrogen: heat ammonium nitrite, {formula('NH4NO2')} → {formula('N2')} + {2}{formula('H2O')}.\nIn industry: fractional distillation of liquid air, where nitrogen boils off first."
+   },
+   {
+    "heading": "Properties",
+    "text": "Nitrogen is a colourless, odourless gas, almost insoluble in water, and very slightly less dense than air (relative molecular mass {28} against about {29} for air).\nIt is very unreactive. Its two atoms are joined by a TRIPLE bond, N≡N, which needs a great deal of energy to break. It does not burn and does not support burning.\nIt does react in hard conditions:\n• with burning magnesium: {3}Mg + {formula('N2')} → {formula('Mg3N2')};\n• with hydrogen under pressure and a catalyst (the Haber process): {formula('N2')} + {3}{formula('H2')} → {2}{formula('NH3')};\n• with oxygen in a lightning flash or a hot engine: {formula('N2')} + {formula('O2')} → {2}{formula('NO')}.\nBeing unreactive makes it useful: packets of food and oil tanks are filled with it to keep oxygen out."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "triple bond",
+    "meaning": "three shared pairs of electrons between two atoms"
+   },
+   {
+    "word": "inert",
+    "meaning": "very unreactive"
+   },
+   {
+    "word": "fractional distillation",
+    "meaning": "separating liquids by their different boiling points"
+   },
+   {
+    "word": "nitride",
+    "meaning": "a compound of a metal with nitrogen, such as {formula('Mg3N2')}"
+   }
+  ],
+  "examples": [
+   "air: about {78} per cent nitrogen",
+   "{2}Cu + {formula('O2')} → {2}{formula('CuO')}",
+   "{3}Mg + {formula('N2')} → {formula('Mg3N2')}"
+  ],
+  "mistake": {
+   "wrong": "nitrogen is unreactive because its atoms have full outer shells",
+   "right": "it is unreactive because of the strong triple bond",
+   "why": "A nitrogen ATOM has {5} outer electrons. It is the N≡N bond in the molecule that is hard to break."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 1
+  },
+  "problem": "Explain why nitrogen obtained by removing oxygen from air is slightly denser than nitrogen made from ammonium nitrite.",
+  "steps": [
+   "Removing carbon dioxide, water and oxygen from air leaves nitrogen and the noble gases.",
+   "The noble gases, mainly argon, are not removed by heated copper.",
+   "Argon has a relative atomic mass of {40}, well above the {28} of a nitrogen molecule.",
+   "So the mixture is a little denser than pure nitrogen."
+  ],
+  "answer": "because it still contains argon, which is denser than nitrogen",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k11-1",
+    "status": "draft",
+    "idea": "Air is about {78} per cent nitrogen by volume.",
+    "vars": {},
+    "example": [
+     "with about {21} per cent oxygen and {1} per cent other gases"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-11-which"
+    }
+   },
+   {
+    "id": "c4k11-2",
+    "status": "draft",
+    "idea": "Nitrogen is unreactive because of its strong triple bond.",
+    "vars": {},
+    "example": [
+     "N≡N needs a great deal of energy to break"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-11-unreactive-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "nitrogen"
+     ],
+     "vars": {
+      "U": {
+       "pick": [
+        {
+         "r": "It is unreactive, so it keeps oxygen away without attacking the contents",
+         "w1": "It is poisonous, so it kills bacteria",
+         "w2": "It is very soluble in fat",
+         "w3": "It burns readily",
+         "y": "The strong triple bond makes nitrogen almost inert at ordinary temperatures."
+        },
+        {
+         "r": "It does not support burning, so a tank filled with it cannot catch fire",
+         "w1": "It puts out fires by cooling them",
+         "w2": "It reacts with petrol to make it safe",
+         "w3": "It is denser than air, so it smothers a fire",
+         "y": "Nitrogen neither burns nor lets anything else burn, so flushing a tank removes the danger."
+        },
+        {
+         "r": "It is unreactive, so food does not go stale by being oxidised",
+         "w1": "It dissolves the fat in food",
+         "w2": "It freezes the food",
+         "w3": "It makes the packet stronger",
+         "y": "Replacing the air with nitrogen takes away the oxygen that makes fat go rancid."
+        }
+       ]
+      }
+     },
+     "prompt": "Nitrogen is used to fill packets of crisps and to flush oil tanks. Which property does this use?",
+     "correct": "{U.r}",
+     "distractors": [
+      {
+       "text": "{U.w1}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{U.w2}",
+       "misconception": "w2"
+      },
+      {
+       "text": "{U.w3}",
+       "misconception": "w3"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w1",
+       "explain": "{U.y}"
+      },
+      {
+       "id": "w2",
+       "explain": "{U.y}"
+      },
+      {
+       "id": "w3",
+       "explain": "{U.y}"
+      }
+     ],
+     "solution": [
+      "{U.y}",
+      "So the answer is: {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c4k11-3",
+    "status": "draft",
+    "idea": "Heated copper removes oxygen from air, leaving nitrogen and argon.",
+    "vars": {},
+    "example": [
+     "{2}Cu + {formula('O2')} → {2}{formula('CuO')}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-11-prep-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "nitrogen"
+     ],
+     "vars": {
+      "P": {
+       "pick": [
+        {
+         "n": "the sodium hydroxide solution",
+         "r": "To remove the carbon dioxide from the air",
+         "w1": "To remove the oxygen",
+         "w2": "To dry the air",
+         "w3": "To remove the argon",
+         "y": "An alkali absorbs the acidic carbon dioxide."
+        },
+        {
+         "n": "the concentrated sulphuric acid",
+         "r": "To dry the air by removing water vapour",
+         "w1": "To remove the oxygen",
+         "w2": "To remove the carbon dioxide",
+         "w3": "To react with the nitrogen",
+         "y": "Concentrated sulphuric acid is a drying agent and does not react with nitrogen."
+        },
+        {
+         "n": "the heated copper",
+         "r": "To remove the oxygen, forming copper(II) oxide",
+         "w1": "To remove the carbon dioxide",
+         "w2": "To dry the gas",
+         "w3": "To remove the argon",
+         "y": "{2}Cu + {formula('O2')} → {2}{formula('CuO')}: the copper turns from pink-brown to black."
+        },
+        {
+         "n": "heating ammonium nitrite instead",
+         "r": "To obtain pure nitrogen, free of the noble gases",
+         "w1": "To obtain oxygen",
+         "w2": "To obtain ammonia",
+         "w3": "To dry the nitrogen",
+         "y": "{formula('NH4NO2')} → {formula('N2')} + {2}{formula('H2O')} gives nitrogen with no argon in it."
+        }
+       ]
+      }
+     },
+     "prompt": "In preparing nitrogen from air, what is the purpose of {P.n}?",
+     "correct": "{P.r}",
+     "distractors": [
+      {
+       "text": "{P.w1}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{P.w2}",
+       "misconception": "w2"
+      },
+      {
+       "text": "{P.w3}",
+       "misconception": "w3"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w1",
+       "explain": "{P.y}"
+      },
+      {
+       "id": "w2",
+       "explain": "{P.y}"
+      },
+      {
+       "id": "w3",
+       "explain": "{P.y}"
+      }
+     ],
+     "solution": [
+      "{P.y}",
+      "So the answer is: {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-11-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "About what fraction of the air is nitrogen by volume?",
+       "r": "About {78} per cent",
+       "w": [
+        "About {21} per cent",
+        "About {50} per cent",
+        "Less than {1} per cent"
+       ],
+       "e": [
+        "{21} per cent is the proportion of oxygen.",
+        "Nitrogen is far more than half of the air.",
+        "Less than {1} per cent covers argon, carbon dioxide and the rest together."
+       ],
+       "y": "Air is about {78} per cent nitrogen, {21} per cent oxygen and {1} per cent other gases by volume."
+      },
+      {
+       "q": "Why is nitrogen so unreactive?",
+       "r": "Its two atoms are held by a strong triple bond that is hard to break",
+       "w": [
+        "Its atoms have a full outer shell already",
+        "It is a noble gas",
+        "Its molecules are very large"
+       ],
+       "e": [
+        "A nitrogen atom has {5} outer electrons, so it is not full; the molecule is stable because of the bond.",
+        "Nitrogen is in group {5}, not group {0}; it is not a noble gas.",
+        "The molecule is small; it is the strength of the bond that matters."
+       ],
+       "y": "A great deal of energy is needed to break the N≡N triple bond, so nitrogen reacts only in hard conditions."
+      },
+      {
+       "q": "How can nitrogen be obtained from air in the laboratory?",
+       "r": "By passing air over heated copper to remove the oxygen, after removing carbon dioxide and water",
+       "w": [
+        "By burning the air",
+        "By cooling air until the nitrogen freezes out",
+        "By bubbling air through sodium hydroxide only"
+       ],
+       "e": [
+        "Air cannot be burned; something must be burned IN it.",
+        "That is the industrial method (fractional distillation of liquid air), not the laboratory one.",
+        "Sodium hydroxide removes carbon dioxide only, leaving the oxygen behind."
+       ],
+       "y": "Heated copper takes the oxygen as copper(II) oxide, leaving nitrogen with a little argon."
+      },
+      {
+       "q": "Nitrogen prepared from air is slightly denser than pure nitrogen. Why?",
+       "r": "It still contains the noble gases, mainly argon, which are denser",
+       "w": [
+        "It contains some oxygen",
+        "It contains water vapour",
+        "Nitrogen from air has heavier atoms"
+       ],
+       "e": [
+        "The oxygen has been removed by the heated copper.",
+        "The air is dried before the oxygen is removed.",
+        "Atoms of nitrogen from air are the same as any other nitrogen atoms."
+       ],
+       "y": "Argon and the other noble gases are not removed, and argon has a relative atomic mass of {40}."
+      },
+      {
+       "q": "Magnesium burns in nitrogen. What is formed?",
+       "r": "Magnesium nitride, {formula('Mg3N2')}",
+       "w": [
+        "Magnesium oxide",
+        "Magnesium and nitrogen do not react",
+        "Ammonia"
+       ],
+       "e": [
+        "Magnesium oxide needs oxygen, which is not present here.",
+        "Magnesium is reactive enough to combine with nitrogen when it is burning.",
+        "Ammonia needs hydrogen as well; it is not formed directly here."
+       ],
+       "y": "{3}Mg + {formula('N2')} → {formula('Mg3N2')}: one of the few reactions of nitrogen at ordinary pressure."
+      },
+      {
+       "q": "How is nitrogen obtained in industry?",
+       "r": "By the fractional distillation of liquid air",
+       "w": [
+        "By heating nitrates",
+        "From natural gas",
+        "By passing air over heated copper"
+       ],
+       "e": [
+        "Heating nitrates gives oxygen and oxides of nitrogen, not pure nitrogen.",
+        "Natural gas is mainly methane; it is a source of hydrogen, not nitrogen.",
+        "That is the laboratory method and is far too slow for industry."
+       ],
+       "y": "Air is liquefied and then distilled; nitrogen boils off first at −{196} °C, before oxygen at −{183} °C."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-11-mass",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "F": {
+     "pick": [
+      "N2",
+      "NH3",
+      "HNO3",
+      "NO",
+      "NO2",
+      "N2O",
+      "NH4NO3",
+      "Mg3N2"
+     ]
+    }
+   },
+   "prompt": "Find the relative molecular mass of {formula(F)}.",
+   "answer": "molarMass(F)",
+   "misconceptions": [
+    {
+     "id": "atoms",
+     "wrong": "totalAtoms(F)",
+     "explain": "{totalAtoms(F)} is the number of atoms, not the mass."
+    },
+    {
+     "id": "one",
+     "wrong": "ram(symbolsIn(F)[0])",
+     "explain": "Include every atom in the formula."
+    }
+   ],
+   "solution": [
+    "Add the relative atomic mass of every atom in the formula.",
+    "The relative molecular mass of {formula(F)} is {answer}."
+   ]
+  },
+  {
+   "id": "k4-11-prep",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      {
+       "n": "the sodium hydroxide solution",
+       "r": "To remove the carbon dioxide from the air",
+       "w1": "To remove the oxygen",
+       "w2": "To dry the air",
+       "w3": "To remove the argon",
+       "y": "An alkali absorbs the acidic carbon dioxide."
+      },
+      {
+       "n": "the concentrated sulphuric acid",
+       "r": "To dry the air by removing water vapour",
+       "w1": "To remove the oxygen",
+       "w2": "To remove the carbon dioxide",
+       "w3": "To react with the nitrogen",
+       "y": "Concentrated sulphuric acid is a drying agent and does not react with nitrogen."
+      },
+      {
+       "n": "the heated copper",
+       "r": "To remove the oxygen, forming copper(II) oxide",
+       "w1": "To remove the carbon dioxide",
+       "w2": "To dry the gas",
+       "w3": "To remove the argon",
+       "y": "{2}Cu + {formula('O2')} → {2}{formula('CuO')}: the copper turns from pink-brown to black."
+      },
+      {
+       "n": "heating ammonium nitrite instead",
+       "r": "To obtain pure nitrogen, free of the noble gases",
+       "w1": "To obtain oxygen",
+       "w2": "To obtain ammonia",
+       "w3": "To dry the nitrogen",
+       "y": "{formula('NH4NO2')} → {formula('N2')} + {2}{formula('H2O')} gives nitrogen with no argon in it."
+      }
+     ]
+    }
+   },
+   "prompt": "In preparing nitrogen from air, what is the purpose of {P.n}?",
+   "correct": "{P.r}",
+   "distractors": [
+    {
+     "text": "{P.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{P.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{P.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{P.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{P.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{P.y}"
+    }
+   ],
+   "solution": [
+    "{P.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "k4-11-vol",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      50,
+      100,
+      200,
+      250,
+      400,
+      500,
+      1000
+     ]
+    }
+   },
+   "prompt": "What volume of nitrogen, in dm³, is there in {v} dm³ of air? Take air as {78} per cent nitrogen by volume.",
+   "answer": "roundTo(v * 78 / 100, 0.01)",
+   "misconceptions": [
+    {
+     "id": "oxygen",
+     "wrong": "roundTo(v * 21 / 100, 0.01)",
+     "explain": "{21} per cent is the OXYGEN; nitrogen is {78} per cent."
+    },
+    {
+     "id": "whole",
+     "wrong": "v",
+     "explain": "Only part of the air is nitrogen, not all of it."
+    }
+   ],
+   "solution": [
+    "{78} per cent of the air is nitrogen.",
+    "{78} ÷ {100} × {v} = {answer} dm³."
+   ],
+   "unit": "dm³"
+  },
+  {
+   "id": "k4-11-unreactive",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "nitrogen"
+   ],
+   "vars": {
+    "U": {
+     "pick": [
+      {
+       "r": "It is unreactive, so it keeps oxygen away without attacking the contents",
+       "w1": "It is poisonous, so it kills bacteria",
+       "w2": "It is very soluble in fat",
+       "w3": "It burns readily",
+       "y": "The strong triple bond makes nitrogen almost inert at ordinary temperatures."
+      },
+      {
+       "r": "It does not support burning, so a tank filled with it cannot catch fire",
+       "w1": "It puts out fires by cooling them",
+       "w2": "It reacts with petrol to make it safe",
+       "w3": "It is denser than air, so it smothers a fire",
+       "y": "Nitrogen neither burns nor lets anything else burn, so flushing a tank removes the danger."
+      },
+      {
+       "r": "It is unreactive, so food does not go stale by being oxidised",
+       "w1": "It dissolves the fat in food",
+       "w2": "It freezes the food",
+       "w3": "It makes the packet stronger",
+       "y": "Replacing the air with nitrogen takes away the oxygen that makes fat go rancid."
+      }
+     ]
+    }
+   },
+   "prompt": "Nitrogen is used to fill packets of crisps and to flush oil tanks. Which property does this use?",
+   "correct": "{U.r}",
+   "distractors": [
+    {
+     "text": "{U.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{U.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{U.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{U.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{U.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{U.y}"
+    }
+   ],
+   "solution": [
+    "{U.y}",
+    "So the answer is: {answer}."
+   ]
+  }
+ ]
+}
