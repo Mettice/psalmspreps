@@ -1,8 +1,8 @@
 # Codex completed batches — coverage and teacher feedback
 
-Audit date: 2026-10-24. Scope: Form Three, Form Four and Form Five Term One assigned language/humanities/economics/logic subjects, Form Four Literature, and the two Form Two Term Three language quality batches. The authorised Lower/Upper Sixth work remains outside this completed-batch audit and is not claimed complete.
+Audit date: 2026-10-24. Scope: Form Three, Form Four and Form Five Term One assigned language/humanities/economics/logic subjects, Form Four Literature, the two Form Two Term Three language quality batches, and completed Lower Sixth English. Other authorised Lower/Upper Sixth subjects remain outside this completed-batch audit and are not claimed complete.
 
-A draft is technically checked content awaiting teacher review, not a claim of classroom approval. A deferred row is explicitly awaiting teacher feedback and is not counted as written. Diagnostic/integration/revision rows are excluded under AUTHORING.md. Form Five French row 3 is classified integration despite a vocabulary title; teacher/integrator feedback is requested before reclassification.
+A draft is technically checked content awaiting teacher review, not a claim of classroom approval. A deferred row is explicitly awaiting teacher feedback and is not counted as written. Diagnostic/integration/revision activities are excluded under AUTHORING.md. Lower Sixth English row 16 is the standalone comprehension/grammar review; rows 10/12 teach named word-class foundations despite their review wording. Form Five French row 3 is classified integration despite a vocabulary title; teacher/integrator feedback is requested before reclassification.
 
 | Class / batch | Subject | Draft lessons and guided practicals | Awaiting teacher feedback | Unaccounted rows |
 |---|---|---:|---:|---:|
@@ -30,8 +30,9 @@ A draft is technically checked content awaiting teacher review, not a claim of c
 | form-5, Term 1 | geography | 23 | 0 | 0 |
 | form-5, Term 1 | economics | 17 | 0 | 0 |
 | form-5, Term 1 | logic | 10 | 0 | 0 |
+| lower-sixth, Term 1 | english | 24 | 0 | 0 |
 
-Total: 505 drafts (including guided practicals), 94 rows awaiting teacher feedback, no unaccounted assigned teaching rows.
+Total: 529 drafts (including guided practicals), 94 rows awaiting teacher feedback, no unaccounted assigned teaching rows.
 
 ## Feedback to collect from teachers
 
@@ -139,5 +140,7 @@ Total: 505 drafts (including guided practicals), 94 rows awaiting teacher feedba
 - form-5 francais-intensif row 47: Œuvres au programme : titre, auteur et édition en attente de retour enseignant, conformément à la demande de Dion. Aucune lecture suivie de remplacement inventée.
 - form-5 francais-intensif row 48: Œuvres au programme : titre, auteur et édition en attente de retour enseignant, conformément à la demande de Dion. Aucune lecture suivie de remplacement inventée.
 - form-5 francais-intensif row 52: Œuvres au programme : titre, auteur et édition en attente de retour enseignant, conformément à la demande de Dion. Aucune lecture suivie de remplacement inventée.
+- lower-sixth english row 1: diagnostic excluded even though the parser labels it lesson.
+- lower-sixth english row 16: standalone comprehension/grammar review excluded despite its lesson classification.
 
 User direction on 2026-10-24: keep these unresolved choices for teacher feedback. Do not replace prescribed works, guess ambiguous titles or treat a deferral as a completed lesson.

@@ -1,0 +1,605 @@
+{
+ "subject": "english-language",
+ "class": "Lower Sixth",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [
+  12,
+  13,
+  15
+ ],
+ "skills": [
+  {
+   "id": "el6-17",
+   "name": "Word formation: bases, prefixes and suffixes"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A prefix attaches before a base, while a suffix attaches after it. Either can affect meaning, and suffixes can change word class. Unhappy uses a negative prefix; helpful uses a suffix to form an adjective. Not every visible letter sequence is a productive affix. Synonyms have related meanings in context, while antonyms oppose meanings on a relevant scale. A word may have several senses, so neither a prefix nor a dictionary synonym permits every possible substitution.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to analyse an affixed word in context and distinguish formation from a guessed letter sequence. Builds on: word functions and paraphrase. Leads to: lexical relations and precise word choice."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "A prefix attaches before a base, while a suffix attaches after it. Either can affect meaning, and suffixes can change word class. Unhappy uses a negative prefix; helpful uses a suffix to form an adjective. Not every visible letter sequence is a productive affix. Synonyms have related meanings in context, while antonyms oppose meanings on a relevant scale. A word may have several senses, so neither a prefix nor a dictionary synonym permits every possible substitution."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Lower Sixth extension: analyse how a base, prefix or suffix affects meaning and grammatical use in a sentence. Compare happy, unhappy and happiness without assuming every apparent beginning is a productive prefix. Check an unfamiliar formation in a suitable dictionary rather than inventing a form. A related word may change function, so test its sentence role as well as its spelling. The pattern banks extend the Form Five word-formation foundation."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Find the base, identify the added part and check the resulting word in its sentence. For synonyms and antonyms, preserve the relevant sense and grammatical construction. Verify unfamiliar forms rather than adding un- or -ness to every word mechanically."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "prefix",
+    "meaning": "an element added before a base"
+   },
+   {
+    "word": "suffix",
+    "meaning": "an element added after a base"
+   },
+   {
+    "word": "synonym in context",
+    "meaning": "a word with a related meaning in the stated use"
+   },
+   {
+    "word": "antonym in context",
+    "meaning": "a word expressing an opposed meaning on the relevant aspect"
+   }
+  ],
+  "mistake": {
+   "wrong": "A prefix always follows its base.",
+   "right": "prefix: an element added before a base.",
+   "why": "Its position is before the base."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Un- precedes happy in unhappy. Explain the selected feature.",
+  "steps": [
+   "An element added before a base.",
+   "Its position is before the base."
+  ],
+  "answer": "prefix",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "el6-17-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "prefix: an element added before a base.",
+     "suffix: an element added after a base.",
+     "synonym in context: a word with a related meaning in the stated use.",
+     "antonym in context: a word expressing an opposed meaning on the relevant aspect."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "el6-17-terms"
+    }
+   },
+   {
+    "id": "el6-17-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "Un- precedes happy in unhappy.",
+     "-ful follows help in helpful.",
+     "Calm and peaceful can describe the same quiet room.",
+     "Open and closed contrast the door’s state."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "el6-17-cases"
+    }
+   },
+   {
+    "id": "el6-17-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "A prefix always follows its base. Correction: Its position is before the base.",
+     "Every suffix leaves word class unchanged. Correction: Suffixes can alter class as well as meaning.",
+     "A synonym must fit every possible sense of a word. Correction: Related meanings remain context-dependent.",
+     "Antonyms are defined only by similar spelling. Correction: The opposition is semantic, not merely visual."
+    ],
+    "checks": [],
+    "check": {
+     "id": "el6-17-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "prefix: an element added before a base.",
+        "truth": "true",
+        "explain": "This is correct: an element added before a base. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "suffix: an element added after a base.",
+        "truth": "true",
+        "explain": "This is correct: an element added after a base. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "synonym in context: a word with a related meaning in the stated use.",
+        "truth": "true",
+        "explain": "This is correct: a word with a related meaning in the stated use. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "antonym in context: a word expressing an opposed meaning on the relevant aspect.",
+        "truth": "true",
+        "explain": "This is correct: a word expressing an opposed meaning on the relevant aspect. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A prefix always follows its base.",
+        "truth": "false",
+        "explain": "Its position is before the base."
+       },
+       {
+        "text": "Every suffix leaves word class unchanged.",
+        "truth": "false",
+        "explain": "Suffixes can alter class as well as meaning."
+       },
+       {
+        "text": "A synonym must fit every possible sense of a word.",
+        "truth": "false",
+        "explain": "Related meanings remain context-dependent."
+       },
+       {
+        "text": "Antonyms are defined only by similar spelling.",
+        "truth": "false",
+        "explain": "The opposition is semantic, not merely visual."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "el6-17-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means an element added before a base?",
+       "r": "prefix",
+       "w": [
+        "suffix",
+        "synonym in context",
+        "antonym in context"
+       ],
+       "e": [
+        "That concerns an element added after a base, rather than an element added before a base.",
+        "That concerns a word with a related meaning in the stated use, rather than an element added before a base.",
+        "That concerns a word expressing an opposed meaning on the relevant aspect, rather than an element added before a base."
+       ],
+       "y": "Its position is before the base."
+      },
+      {
+       "q": "Which term means an element added after a base?",
+       "r": "suffix",
+       "w": [
+        "prefix",
+        "synonym in context",
+        "antonym in context"
+       ],
+       "e": [
+        "That concerns an element added before a base, rather than an element added after a base.",
+        "That concerns a word with a related meaning in the stated use, rather than an element added after a base.",
+        "That concerns a word expressing an opposed meaning on the relevant aspect, rather than an element added after a base."
+       ],
+       "y": "Suffixes can alter class as well as meaning."
+      },
+      {
+       "q": "Which term means a word with a related meaning in the stated use?",
+       "r": "synonym in context",
+       "w": [
+        "prefix",
+        "suffix",
+        "antonym in context"
+       ],
+       "e": [
+        "That concerns an element added before a base, rather than a word with a related meaning in the stated use.",
+        "That concerns an element added after a base, rather than a word with a related meaning in the stated use.",
+        "That concerns a word expressing an opposed meaning on the relevant aspect, rather than a word with a related meaning in the stated use."
+       ],
+       "y": "Related meanings remain context-dependent."
+      },
+      {
+       "q": "Which term means a word expressing an opposed meaning on the relevant aspect?",
+       "r": "antonym in context",
+       "w": [
+        "prefix",
+        "suffix",
+        "synonym in context"
+       ],
+       "e": [
+        "That concerns an element added before a base, rather than a word expressing an opposed meaning on the relevant aspect.",
+        "That concerns an element added after a base, rather than a word expressing an opposed meaning on the relevant aspect.",
+        "That concerns a word with a related meaning in the stated use, rather than a word expressing an opposed meaning on the relevant aspect."
+       ],
+       "y": "The opposition is semantic, not merely visual."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-17-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Un- precedes happy in unhappy.\nWhich description best fits the selected feature?",
+       "r": "prefix",
+       "w": [
+        "suffix",
+        "synonym in context",
+        "antonym in context"
+       ],
+       "e": [
+        "That means an element added after a base. The selected feature instead illustrates an element added before a base.",
+        "That means a word with a related meaning in the stated use. The selected feature instead illustrates an element added before a base.",
+        "That means a word expressing an opposed meaning on the relevant aspect. The selected feature instead illustrates an element added before a base."
+       ],
+       "y": "Its position is before the base."
+      },
+      {
+       "q": "-ful follows help in helpful.\nWhich description best fits the selected feature?",
+       "r": "suffix",
+       "w": [
+        "prefix",
+        "synonym in context",
+        "antonym in context"
+       ],
+       "e": [
+        "That means an element added before a base. The selected feature instead illustrates an element added after a base.",
+        "That means a word with a related meaning in the stated use. The selected feature instead illustrates an element added after a base.",
+        "That means a word expressing an opposed meaning on the relevant aspect. The selected feature instead illustrates an element added after a base."
+       ],
+       "y": "Suffixes can alter class as well as meaning."
+      },
+      {
+       "q": "Calm and peaceful can describe the same quiet room.\nWhich description best fits the selected feature?",
+       "r": "synonym in context",
+       "w": [
+        "prefix",
+        "suffix",
+        "antonym in context"
+       ],
+       "e": [
+        "That means an element added before a base. The selected feature instead illustrates a word with a related meaning in the stated use.",
+        "That means an element added after a base. The selected feature instead illustrates a word with a related meaning in the stated use.",
+        "That means a word expressing an opposed meaning on the relevant aspect. The selected feature instead illustrates a word with a related meaning in the stated use."
+       ],
+       "y": "Related meanings remain context-dependent."
+      },
+      {
+       "q": "Open and closed contrast the door’s state.\nWhich description best fits the selected feature?",
+       "r": "antonym in context",
+       "w": [
+        "prefix",
+        "suffix",
+        "synonym in context"
+       ],
+       "e": [
+        "That means an element added before a base. The selected feature instead illustrates a word expressing an opposed meaning on the relevant aspect.",
+        "That means an element added after a base. The selected feature instead illustrates a word expressing an opposed meaning on the relevant aspect.",
+        "That means a word with a related meaning in the stated use. The selected feature instead illustrates a word expressing an opposed meaning on the relevant aspect."
+       ],
+       "y": "The opposition is semantic, not merely visual."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-17-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which part is a prefix in unhappy?",
+       "r": "un-",
+       "w": [
+        "-ness",
+        "-ful",
+        "happy"
+       ],
+       "e": [
+        "That suffix is not present.",
+        "That suffix is not present.",
+        "Happy is the base."
+       ],
+       "y": "Un- is added before the base."
+      },
+      {
+       "q": "Choose the adjective: a ___ response.",
+       "r": "helpful",
+       "w": [
+        "helpfully",
+        "helpfulness",
+        "helpingness"
+       ],
+       "e": [
+        "Helpfully is the adverb.",
+        "Helpfulness is a noun.",
+        "This invented form is not the standard adjective."
+       ],
+       "y": "Helpful modifies response."
+      },
+      {
+       "q": "Choose a contextual synonym for calm in a calm room.",
+       "r": "peaceful",
+       "w": [
+        "noisy",
+        "narrow",
+        "expensive"
+       ],
+       "e": [
+        "Noisy opposes the quiet atmosphere.",
+        "Narrow concerns width.",
+        "Expensive concerns cost."
+       ],
+       "y": "Peaceful preserves the intended atmosphere."
+      },
+      {
+       "q": "Choose the opposite of open for the stated door position.",
+       "r": "closed",
+       "w": [
+        "wide",
+        "welcome",
+        "opening"
+       ],
+       "e": [
+        "Wide is not the opposite state.",
+        "Welcome concerns another sense.",
+        "Opening does not express the closed state."
+       ],
+       "y": "Closed opposes open in this setting."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-17-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "prefix",
+     "right": "Un- precedes happy in unhappy."
+    },
+    {
+     "left": "suffix",
+     "right": "-ful follows help in helpful."
+    },
+    {
+     "left": "synonym in context",
+     "right": "Calm and peaceful can describe the same quiet room."
+    },
+    {
+     "left": "antonym in context",
+     "right": "Open and closed contrast the door’s state."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "el6-17-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "prefix: an element added before a base.",
+      "truth": "true",
+      "explain": "This is correct: an element added before a base. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "suffix: an element added after a base.",
+      "truth": "true",
+      "explain": "This is correct: an element added after a base. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "synonym in context: a word with a related meaning in the stated use.",
+      "truth": "true",
+      "explain": "This is correct: a word with a related meaning in the stated use. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "antonym in context: a word expressing an opposed meaning on the relevant aspect.",
+      "truth": "true",
+      "explain": "This is correct: a word expressing an opposed meaning on the relevant aspect. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A prefix always follows its base.",
+      "truth": "false",
+      "explain": "Its position is before the base."
+     },
+     {
+      "text": "Every suffix leaves word class unchanged.",
+      "truth": "false",
+      "explain": "Suffixes can alter class as well as meaning."
+     },
+     {
+      "text": "A synonym must fit every possible sense of a word.",
+      "truth": "false",
+      "explain": "Related meanings remain context-dependent."
+     },
+     {
+      "text": "Antonyms are defined only by similar spelling.",
+      "truth": "false",
+      "explain": "The opposition is semantic, not merely visual."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

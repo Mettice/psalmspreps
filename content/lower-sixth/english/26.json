@@ -1,0 +1,550 @@
+{
+ "subject": "english-language",
+ "class": "Lower Sixth",
+ "lesson_no": 26,
+ "language": "en",
+ "prerequisites": [
+  15,
+  22,
+  24,
+  25
+ ],
+ "skills": [
+  {
+   "id": "el6-26",
+   "name": "Writing a focused descriptive passage"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Description selects details to create a coherent impression for a reader. Organise attention, for example from entrance to interior or from a broad view to a significant object. Sensory detail should serve the intended mood rather than accumulate unrelated adjectives. Concrete nouns and precise verbs can carry description. A comparison should clarify an impression without making an unsupported literal claim. Avoid shifting viewpoint or time accidentally.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to create an impression through selected sensory detail and coherent organisation. Builds on: modification, comparison and narrative viewpoint. Leads to: later extended description and stylistic analysis."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "Description selects details to create a coherent impression for a reader. Organise attention, for example from entrance to interior or from a broad view to a significant object. Sensory detail should serve the intended mood rather than accumulate unrelated adjectives. Concrete nouns and precise verbs can carry description. A comparison should clarify an impression without making an unsupported literal claim. Avoid shifting viewpoint or time accidentally."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original model extract: From the doorway, the reading room looked almost empty. A strip of afternoon light crossed the nearest table, leaving the far shelves in shadow. The open window lifted the edge of a loose page, then let it fall with a soft tap."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Identify the audience, purpose and required content. Plan the order, draft in your own words and check each feature against the model. Explain why an edit improves the answer."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "controlling impression",
+    "meaning": "the main effect towards which descriptive details contribute"
+   },
+   {
+    "word": "spatial organisation",
+    "meaning": "an order guiding attention through a described space"
+   },
+   {
+    "word": "sensory detail",
+    "meaning": "a specific impression associated with perception"
+   },
+   {
+    "word": "qualified interpretation",
+    "meaning": "a judgement limited to what observed detail suggests"
+   }
+  ],
+  "mistake": {
+   "wrong": "A description should pursue every possible mood at once.",
+   "right": "controlling impression: the main effect towards which descriptive details contribute.",
+   "why": "Selection helps details work towards a coherent effect."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quiet rather than abandoned gives the model a focused impression. Explain the selected feature.",
+  "steps": [
+   "The main effect towards which descriptive details contribute.",
+   "Selection helps details work towards a coherent effect."
+  ],
+  "answer": "controlling impression",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "el6-26-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "controlling impression: the main effect towards which descriptive details contribute.",
+     "spatial organisation: an order guiding attention through a described space.",
+     "sensory detail: a specific impression associated with perception.",
+     "qualified interpretation: a judgement limited to what observed detail suggests."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "el6-26-terms"
+    }
+   },
+   {
+    "id": "el6-26-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "Quiet rather than abandoned gives the model a focused impression.",
+     "The model moves from doorway to table and far shelves.",
+     "A loose page falls with a soft tap.",
+     "The room seems quiet rather than abandoned."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "el6-26-cases"
+    }
+   },
+   {
+    "id": "el6-26-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "A description should pursue every possible mood at once. Correction: Selection helps details work towards a coherent effect.",
+     "Description must list objects in a random order. Correction: A spatial path helps the reader follow attention.",
+     "Every sentence needs several unrelated adjectives. Correction: Relevant concrete detail can convey an impression efficiently.",
+     "A small observation proves every fact about a place. Correction: The narrator’s impression should not exceed its evidence."
+    ],
+    "checks": [],
+    "check": {
+     "id": "el6-26-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "controlling impression: the main effect towards which descriptive details contribute.",
+        "truth": "true",
+        "explain": "This is correct: the main effect towards which descriptive details contribute. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "spatial organisation: an order guiding attention through a described space.",
+        "truth": "true",
+        "explain": "This is correct: an order guiding attention through a described space. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "sensory detail: a specific impression associated with perception.",
+        "truth": "true",
+        "explain": "This is correct: a specific impression associated with perception. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "qualified interpretation: a judgement limited to what observed detail suggests.",
+        "truth": "true",
+        "explain": "This is correct: a judgement limited to what observed detail suggests. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A description should pursue every possible mood at once.",
+        "truth": "false",
+        "explain": "Selection helps details work towards a coherent effect."
+       },
+       {
+        "text": "Description must list objects in a random order.",
+        "truth": "false",
+        "explain": "A spatial path helps the reader follow attention."
+       },
+       {
+        "text": "Every sentence needs several unrelated adjectives.",
+        "truth": "false",
+        "explain": "Relevant concrete detail can convey an impression efficiently."
+       },
+       {
+        "text": "A small observation proves every fact about a place.",
+        "truth": "false",
+        "explain": "The narrator’s impression should not exceed its evidence."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "el6-26-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means the main effect towards which descriptive details contribute?",
+       "r": "controlling impression",
+       "w": [
+        "spatial organisation",
+        "sensory detail",
+        "qualified interpretation"
+       ],
+       "e": [
+        "That concerns an order guiding attention through a described space, rather than the main effect towards which descriptive details contribute.",
+        "That concerns a specific impression associated with perception, rather than the main effect towards which descriptive details contribute.",
+        "That concerns a judgement limited to what observed detail suggests, rather than the main effect towards which descriptive details contribute."
+       ],
+       "y": "Selection helps details work towards a coherent effect."
+      },
+      {
+       "q": "Which term means an order guiding attention through a described space?",
+       "r": "spatial organisation",
+       "w": [
+        "controlling impression",
+        "sensory detail",
+        "qualified interpretation"
+       ],
+       "e": [
+        "That concerns the main effect towards which descriptive details contribute, rather than an order guiding attention through a described space.",
+        "That concerns a specific impression associated with perception, rather than an order guiding attention through a described space.",
+        "That concerns a judgement limited to what observed detail suggests, rather than an order guiding attention through a described space."
+       ],
+       "y": "A spatial path helps the reader follow attention."
+      },
+      {
+       "q": "Which term means a specific impression associated with perception?",
+       "r": "sensory detail",
+       "w": [
+        "controlling impression",
+        "spatial organisation",
+        "qualified interpretation"
+       ],
+       "e": [
+        "That concerns the main effect towards which descriptive details contribute, rather than a specific impression associated with perception.",
+        "That concerns an order guiding attention through a described space, rather than a specific impression associated with perception.",
+        "That concerns a judgement limited to what observed detail suggests, rather than a specific impression associated with perception."
+       ],
+       "y": "Relevant concrete detail can convey an impression efficiently."
+      },
+      {
+       "q": "Which term means a judgement limited to what observed detail suggests?",
+       "r": "qualified interpretation",
+       "w": [
+        "controlling impression",
+        "spatial organisation",
+        "sensory detail"
+       ],
+       "e": [
+        "That concerns the main effect towards which descriptive details contribute, rather than a judgement limited to what observed detail suggests.",
+        "That concerns an order guiding attention through a described space, rather than a judgement limited to what observed detail suggests.",
+        "That concerns a specific impression associated with perception, rather than a judgement limited to what observed detail suggests."
+       ],
+       "y": "The narrator’s impression should not exceed its evidence."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-26-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quiet rather than abandoned gives the model a focused impression.\nWhich description best fits the selected feature?",
+       "r": "controlling impression",
+       "w": [
+        "spatial organisation",
+        "sensory detail",
+        "qualified interpretation"
+       ],
+       "e": [
+        "That means an order guiding attention through a described space. The selected feature instead illustrates the main effect towards which descriptive details contribute.",
+        "That means a specific impression associated with perception. The selected feature instead illustrates the main effect towards which descriptive details contribute.",
+        "That means a judgement limited to what observed detail suggests. The selected feature instead illustrates the main effect towards which descriptive details contribute."
+       ],
+       "y": "Selection helps details work towards a coherent effect."
+      },
+      {
+       "q": "The model moves from doorway to table and far shelves.\nWhich description best fits the selected feature?",
+       "r": "spatial organisation",
+       "w": [
+        "controlling impression",
+        "sensory detail",
+        "qualified interpretation"
+       ],
+       "e": [
+        "That means the main effect towards which descriptive details contribute. The selected feature instead illustrates an order guiding attention through a described space.",
+        "That means a specific impression associated with perception. The selected feature instead illustrates an order guiding attention through a described space.",
+        "That means a judgement limited to what observed detail suggests. The selected feature instead illustrates an order guiding attention through a described space."
+       ],
+       "y": "A spatial path helps the reader follow attention."
+      },
+      {
+       "q": "A loose page falls with a soft tap.\nWhich description best fits the selected feature?",
+       "r": "sensory detail",
+       "w": [
+        "controlling impression",
+        "spatial organisation",
+        "qualified interpretation"
+       ],
+       "e": [
+        "That means the main effect towards which descriptive details contribute. The selected feature instead illustrates a specific impression associated with perception.",
+        "That means an order guiding attention through a described space. The selected feature instead illustrates a specific impression associated with perception.",
+        "That means a judgement limited to what observed detail suggests. The selected feature instead illustrates a specific impression associated with perception."
+       ],
+       "y": "Relevant concrete detail can convey an impression efficiently."
+      },
+      {
+       "q": "The room seems quiet rather than abandoned.\nWhich description best fits the selected feature?",
+       "r": "qualified interpretation",
+       "w": [
+        "controlling impression",
+        "spatial organisation",
+        "sensory detail"
+       ],
+       "e": [
+        "That means the main effect towards which descriptive details contribute. The selected feature instead illustrates a judgement limited to what observed detail suggests.",
+        "That means an order guiding attention through a described space. The selected feature instead illustrates a judgement limited to what observed detail suggests.",
+        "That means a specific impression associated with perception. The selected feature instead illustrates a judgement limited to what observed detail suggests."
+       ],
+       "y": "The narrator’s impression should not exceed its evidence."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-26-build",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "Quiet rather than abandoned gives the model a focused impression.",
+       "b": "Quiet rather than abandoned gives the model a focused impression."
+      },
+      {
+       "a": "The model moves from doorway to table and far shelves.",
+       "b": "The model moves from doorway to table and far shelves."
+      },
+      {
+       "a": "A loose page falls with a soft tap.",
+       "b": "A loose page falls with a soft tap."
+      },
+      {
+       "a": "The room seems quiet rather than abandoned.",
+       "b": "The room seems quiet rather than abandoned."
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "el6-26-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "controlling impression",
+     "right": "Quiet rather than abandoned gives the model a focused impression."
+    },
+    {
+     "left": "spatial organisation",
+     "right": "The model moves from doorway to table and far shelves."
+    },
+    {
+     "left": "sensory detail",
+     "right": "A loose page falls with a soft tap."
+    },
+    {
+     "left": "qualified interpretation",
+     "right": "The room seems quiet rather than abandoned."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "el6-26-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "controlling impression: the main effect towards which descriptive details contribute.",
+      "truth": "true",
+      "explain": "This is correct: the main effect towards which descriptive details contribute. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "spatial organisation: an order guiding attention through a described space.",
+      "truth": "true",
+      "explain": "This is correct: an order guiding attention through a described space. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "sensory detail: a specific impression associated with perception.",
+      "truth": "true",
+      "explain": "This is correct: a specific impression associated with perception. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "qualified interpretation: a judgement limited to what observed detail suggests.",
+      "truth": "true",
+      "explain": "This is correct: a judgement limited to what observed detail suggests. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A description should pursue every possible mood at once.",
+      "truth": "false",
+      "explain": "Selection helps details work towards a coherent effect."
+     },
+     {
+      "text": "Description must list objects in a random order.",
+      "truth": "false",
+      "explain": "A spatial path helps the reader follow attention."
+     },
+     {
+      "text": "Every sentence needs several unrelated adjectives.",
+      "truth": "false",
+      "explain": "Relevant concrete detail can convey an impression efficiently."
+     },
+     {
+      "text": "A small observation proves every fact about a place.",
+      "truth": "false",
+      "explain": "The narrator’s impression should not exceed its evidence."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "checks": [],
+  "prompt": "Describe a familiar shared space at a particular moment for a reader who has never seen it. Establish a viewpoint and a controlling impression, use an intelligible spatial order and select details that support the effect. Create a new passage rather than copying the reading-room model.",
+  "model": [
+   "From the doorway, the reading room looked almost empty. A strip of afternoon light crossed the nearest table, leaving the far shelves in shadow. The open window lifted the edge of a loose page, then let it fall with a soft tap.",
+   "Beyond the table, a chair stood angled towards the window. Its worn seat and the small stack of folded notes beside it suggested recent use. I stopped at the threshold; the room seemed quiet rather than abandoned."
+  ],
+  "checklist": [
+   "Controlling impression: the main effect towards which descriptive details contribute.",
+   "Spatial organisation: an order guiding attention through a described space.",
+   "Sensory detail: a specific impression associated with perception.",
+   "Qualified interpretation: a judgement limited to what observed detail suggests.",
+   "Use relevant original details and check sentence boundaries, agreement and spelling."
+  ]
+ }
+}

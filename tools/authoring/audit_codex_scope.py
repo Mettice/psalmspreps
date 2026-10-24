@@ -11,6 +11,7 @@ subjects=['english','french','francais-intensif','history','geography','economic
 scopes=[(c,d,1) for c in ['form-3','form-4'] for d in subjects]
 scopes += [('form-4','literature',1),('form-2','french',3),('form-2','francais-intensif',3)]
 scopes += [('form-5',d,1) for d in subjects]
+scopes += [('lower-sixth','english',1)]
 pending={
  ('form-3','french'):{18:'Libellé « L’imparfait présent » ambigu : retour enseignant attendu, conformément à la consigne de Dion de laisser cette ligne en attente.'},
  ('form-3','francais-intensif'):{
@@ -33,7 +34,7 @@ for (cls,subject),entries in pending.items():
         path.parent.mkdir(parents=True,exist_ok=True)
         path.write_text(json.dumps(data,ensure_ascii=False,indent=1)+'\n',encoding='utf-8')
 
-report=['# Codex completed batches — coverage and teacher feedback','','Audit date: 2026-10-24. Scope: Form Three, Form Four and Form Five Term One assigned language/humanities/economics/logic subjects, Form Four Literature, and the two Form Two Term Three language quality batches. The authorised Lower/Upper Sixth work remains outside this completed-batch audit and is not claimed complete.','','A draft is technically checked content awaiting teacher review, not a claim of classroom approval. A deferred row is explicitly awaiting teacher feedback and is not counted as written. Diagnostic/integration/revision rows are excluded under AUTHORING.md. Form Five French row 3 is classified integration despite a vocabulary title; teacher/integrator feedback is requested before reclassification.','','| Class / batch | Subject | Draft lessons and guided practicals | Awaiting teacher feedback | Unaccounted rows |','|---|---|---:|---:|---:|']
+report=['# Codex completed batches — coverage and teacher feedback','','Audit date: 2026-10-24. Scope: Form Three, Form Four and Form Five Term One assigned language/humanities/economics/logic subjects, Form Four Literature, the two Form Two Term Three language quality batches, and completed Lower Sixth English. Other authorised Lower/Upper Sixth subjects remain outside this completed-batch audit and are not claimed complete.','','A draft is technically checked content awaiting teacher review, not a claim of classroom approval. A deferred row is explicitly awaiting teacher feedback and is not counted as written. Diagnostic/integration/revision activities are excluded under AUTHORING.md. Lower Sixth English row 16 is the standalone comprehension/grammar review; rows 10/12 teach named word-class foundations despite their review wording. Form Five French row 3 is classified integration despite a vocabulary title; teacher/integrator feedback is requested before reclassification.','','| Class / batch | Subject | Draft lessons and guided practicals | Awaiting teacher feedback | Unaccounted rows |','|---|---|---:|---:|---:|']
 totals={'draft':0,'deferred':0}
 details=[]
 for cls,subject,term in scopes:
@@ -45,6 +46,9 @@ for cls,subject,term in scopes:
     rows=next(t for t in spine['terms'] if t['term']==term)['lessons']
     counts={'draft':0,'deferred':0};missing=[]
     for row in rows:
+        if (cls,subject,row['seq'])==('lower-sixth','english',16):
+            details.append('- lower-sixth english row 16: standalone comprehension/grammar review excluded despite its lesson classification.')
+            continue
         if row['kind'] not in (['lesson','practical','guided_work'] if cls=='form-5' else ['lesson','practical']):
             continue
         if 'diagnostic' in row['title'].lower():

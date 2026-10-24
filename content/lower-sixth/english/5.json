@@ -1,0 +1,589 @@
+{
+ "subject": "english-language",
+ "class": "Lower Sixth",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  2,
+  4
+ ],
+ "skills": [
+  {
+   "id": "el6-5",
+   "name": "Selecting essential information for summary"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A summary condenses a source for a stated focus. Select central information and necessary qualifications, combine related points and express them concisely. Examples and repetition can often be omitted, but a necessary contrast or limitation must remain. A summary should not add a personal recommendation or reverse uncertainty into certainty. Any word limit must come from the actual task.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to retain central points while removing repetition, illustration and unsupported additions. Builds on: main ideas and text functions. Leads to: inference and paraphrase."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "A summary condenses a source for a stated focus. Select central information and necessary qualifications, combine related points and express them concisely. Examples and repetition can often be omitted, but a necessary contrast or limitation must remain. A summary should not add a personal recommendation or reverse uncertainty into certainty. Any word limit must come from the actual task."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original source: A fictional club moved notices to a sheltered board because rain damaged paper. Members also copied announcements into a book. The trial made notices easier to retain, but pupils absent from school still needed another way to receive them. Summary: Sheltered display and a record book improved retention of club notices, though reaching absent pupils remained unresolved."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Identify the focus, mark central actions and results, then preserve any qualification needed to avoid distortion. Remove repeated examples before cutting essential meaning. Compare the summary against the source, not against what you wish had happened."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "essential point",
+    "meaning": "information necessary to the source’s central meaning or task focus"
+   },
+   {
+    "word": "compression",
+    "meaning": "expressing relevant information more concisely"
+   },
+   {
+    "word": "qualification",
+    "meaning": "a limitation needed for accurate meaning"
+   },
+   {
+    "word": "source fidelity",
+    "meaning": "keeping a summary within the source’s meaning"
+   }
+  ],
+  "mistake": {
+   "wrong": "Every example is always essential.",
+   "right": "essential point: information necessary to the source’s central meaning or task focus.",
+   "why": "Selection depends on the task and main meaning."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The summary retains both improved retention and the unresolved access problem. Explain the selected feature.",
+  "steps": [
+   "Information necessary to the source’s central meaning or task focus.",
+   "Selection depends on the task and main meaning."
+  ],
+  "answer": "essential point",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "el6-5-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "essential point: information necessary to the source’s central meaning or task focus.",
+     "compression: expressing relevant information more concisely.",
+     "qualification: a limitation needed for accurate meaning.",
+     "source fidelity: keeping a summary within the source’s meaning."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "el6-5-terms"
+    }
+   },
+   {
+    "id": "el6-5-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "The summary retains both improved retention and the unresolved access problem.",
+     "Related notice changes are combined in a short sentence.",
+     "Absent pupils still need another communication route.",
+     "No extra recommendation is added to the summary."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "el6-5-cases"
+    }
+   },
+   {
+    "id": "el6-5-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "Every example is always essential. Correction: Selection depends on the task and main meaning.",
+     "Compression permits inventing a stronger outcome. Correction: Shortening must preserve meaning.",
+     "Every but clause can be deleted without changing meaning. Correction: A contrast may carry a central limit.",
+     "A summary should invent the writer’s preferred solution. Correction: Source information and new advice are different tasks."
+    ],
+    "checks": [],
+    "check": {
+     "id": "el6-5-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "essential point: information necessary to the source’s central meaning or task focus.",
+        "truth": "true",
+        "explain": "This is correct: information necessary to the source’s central meaning or task focus. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "compression: expressing relevant information more concisely.",
+        "truth": "true",
+        "explain": "This is correct: expressing relevant information more concisely. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "qualification: a limitation needed for accurate meaning.",
+        "truth": "true",
+        "explain": "This is correct: a limitation needed for accurate meaning. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "source fidelity: keeping a summary within the source’s meaning.",
+        "truth": "true",
+        "explain": "This is correct: keeping a summary within the source’s meaning. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Every example is always essential.",
+        "truth": "false",
+        "explain": "Selection depends on the task and main meaning."
+       },
+       {
+        "text": "Compression permits inventing a stronger outcome.",
+        "truth": "false",
+        "explain": "Shortening must preserve meaning."
+       },
+       {
+        "text": "Every but clause can be deleted without changing meaning.",
+        "truth": "false",
+        "explain": "A contrast may carry a central limit."
+       },
+       {
+        "text": "A summary should invent the writer’s preferred solution.",
+        "truth": "false",
+        "explain": "Source information and new advice are different tasks."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "el6-5-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means information necessary to the source’s central meaning or task focus?",
+       "r": "essential point",
+       "w": [
+        "compression",
+        "qualification",
+        "source fidelity"
+       ],
+       "e": [
+        "That concerns expressing relevant information more concisely, rather than information necessary to the source’s central meaning or task focus.",
+        "That concerns a limitation needed for accurate meaning, rather than information necessary to the source’s central meaning or task focus.",
+        "That concerns keeping a summary within the source’s meaning, rather than information necessary to the source’s central meaning or task focus."
+       ],
+       "y": "Selection depends on the task and main meaning."
+      },
+      {
+       "q": "Which term means expressing relevant information more concisely?",
+       "r": "compression",
+       "w": [
+        "essential point",
+        "qualification",
+        "source fidelity"
+       ],
+       "e": [
+        "That concerns information necessary to the source’s central meaning or task focus, rather than expressing relevant information more concisely.",
+        "That concerns a limitation needed for accurate meaning, rather than expressing relevant information more concisely.",
+        "That concerns keeping a summary within the source’s meaning, rather than expressing relevant information more concisely."
+       ],
+       "y": "Shortening must preserve meaning."
+      },
+      {
+       "q": "Which term means a limitation needed for accurate meaning?",
+       "r": "qualification",
+       "w": [
+        "essential point",
+        "compression",
+        "source fidelity"
+       ],
+       "e": [
+        "That concerns information necessary to the source’s central meaning or task focus, rather than a limitation needed for accurate meaning.",
+        "That concerns expressing relevant information more concisely, rather than a limitation needed for accurate meaning.",
+        "That concerns keeping a summary within the source’s meaning, rather than a limitation needed for accurate meaning."
+       ],
+       "y": "A contrast may carry a central limit."
+      },
+      {
+       "q": "Which term means keeping a summary within the source’s meaning?",
+       "r": "source fidelity",
+       "w": [
+        "essential point",
+        "compression",
+        "qualification"
+       ],
+       "e": [
+        "That concerns information necessary to the source’s central meaning or task focus, rather than keeping a summary within the source’s meaning.",
+        "That concerns expressing relevant information more concisely, rather than keeping a summary within the source’s meaning.",
+        "That concerns a limitation needed for accurate meaning, rather than keeping a summary within the source’s meaning."
+       ],
+       "y": "Source information and new advice are different tasks."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-5-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The summary retains both improved retention and the unresolved access problem.\nWhich description best fits the selected feature?",
+       "r": "essential point",
+       "w": [
+        "compression",
+        "qualification",
+        "source fidelity"
+       ],
+       "e": [
+        "That means expressing relevant information more concisely. The selected feature instead illustrates information necessary to the source’s central meaning or task focus.",
+        "That means a limitation needed for accurate meaning. The selected feature instead illustrates information necessary to the source’s central meaning or task focus.",
+        "That means keeping a summary within the source’s meaning. The selected feature instead illustrates information necessary to the source’s central meaning or task focus."
+       ],
+       "y": "Selection depends on the task and main meaning."
+      },
+      {
+       "q": "Related notice changes are combined in a short sentence.\nWhich description best fits the selected feature?",
+       "r": "compression",
+       "w": [
+        "essential point",
+        "qualification",
+        "source fidelity"
+       ],
+       "e": [
+        "That means information necessary to the source’s central meaning or task focus. The selected feature instead illustrates expressing relevant information more concisely.",
+        "That means a limitation needed for accurate meaning. The selected feature instead illustrates expressing relevant information more concisely.",
+        "That means keeping a summary within the source’s meaning. The selected feature instead illustrates expressing relevant information more concisely."
+       ],
+       "y": "Shortening must preserve meaning."
+      },
+      {
+       "q": "Absent pupils still need another communication route.\nWhich description best fits the selected feature?",
+       "r": "qualification",
+       "w": [
+        "essential point",
+        "compression",
+        "source fidelity"
+       ],
+       "e": [
+        "That means information necessary to the source’s central meaning or task focus. The selected feature instead illustrates a limitation needed for accurate meaning.",
+        "That means expressing relevant information more concisely. The selected feature instead illustrates a limitation needed for accurate meaning.",
+        "That means keeping a summary within the source’s meaning. The selected feature instead illustrates a limitation needed for accurate meaning."
+       ],
+       "y": "A contrast may carry a central limit."
+      },
+      {
+       "q": "No extra recommendation is added to the summary.\nWhich description best fits the selected feature?",
+       "r": "source fidelity",
+       "w": [
+        "essential point",
+        "compression",
+        "qualification"
+       ],
+       "e": [
+        "That means information necessary to the source’s central meaning or task focus. The selected feature instead illustrates keeping a summary within the source’s meaning.",
+        "That means expressing relevant information more concisely. The selected feature instead illustrates keeping a summary within the source’s meaning.",
+        "That means a limitation needed for accurate meaning. The selected feature instead illustrates keeping a summary within the source’s meaning."
+       ],
+       "y": "Source information and new advice are different tasks."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-5-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Original source: The group labelled tools and recorded loans. Lost items were reported less often, but no independent count was made. Which summary is faithful?",
+       "r": "Labelling and loan records coincided with fewer loss reports, without an independent count",
+       "w": [
+        "The trial proved no tool was ever lost",
+        "Every school must use identical labels",
+        "Independent counts confirmed a permanent result"
+       ],
+       "e": [
+        "Fewer reports do not prove no losses.",
+        "That recommendation is not supplied.",
+        "The source explicitly lacks independent counts."
+       ],
+       "y": "Preserve both reported change and evidential limit."
+      },
+      {
+       "q": "Original source: Bih offered morning and afternoon practice. Attendance was higher in the morning; reasons were not investigated. Which summary fits?",
+       "r": "Morning practice had higher attendance, for reasons not investigated",
+       "w": [
+        "Pupils disliked all afternoon work",
+        "Morning practice guarantees better learning",
+        "The source proves household tasks caused absence"
+       ],
+       "e": [
+        "A preference or dislike is not established.",
+        "Attendance is not a learning-outcome measure.",
+        "No cause was investigated."
+       ],
+       "y": "Condense the comparison without inventing its cause."
+      },
+      {
+       "q": "Original source: A board displayed opening times twice in the same paragraph, then explained where to ask about changes. What can usually be compressed?",
+       "r": "The repeated opening-time information",
+       "w": [
+        "The only instruction for finding updates",
+        "Every fact about access",
+        "An invented penalty for lateness"
+       ],
+       "e": [
+        "That instruction may be central to access.",
+        "Compression should retain relevant meaning.",
+        "A penalty is absent from the source."
+       ],
+       "y": "Remove repetition before essential information."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-5-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "essential point",
+     "right": "The summary retains both improved retention and the unresolved access problem."
+    },
+    {
+     "left": "compression",
+     "right": "Related notice changes are combined in a short sentence."
+    },
+    {
+     "left": "qualification",
+     "right": "Absent pupils still need another communication route."
+    },
+    {
+     "left": "source fidelity",
+     "right": "No extra recommendation is added to the summary."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "el6-5-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "essential point: information necessary to the source’s central meaning or task focus.",
+      "truth": "true",
+      "explain": "This is correct: information necessary to the source’s central meaning or task focus. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "compression: expressing relevant information more concisely.",
+      "truth": "true",
+      "explain": "This is correct: expressing relevant information more concisely. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "qualification: a limitation needed for accurate meaning.",
+      "truth": "true",
+      "explain": "This is correct: a limitation needed for accurate meaning. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "source fidelity: keeping a summary within the source’s meaning.",
+      "truth": "true",
+      "explain": "This is correct: keeping a summary within the source’s meaning. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every example is always essential.",
+      "truth": "false",
+      "explain": "Selection depends on the task and main meaning."
+     },
+     {
+      "text": "Compression permits inventing a stronger outcome.",
+      "truth": "false",
+      "explain": "Shortening must preserve meaning."
+     },
+     {
+      "text": "Every but clause can be deleted without changing meaning.",
+      "truth": "false",
+      "explain": "A contrast may carry a central limit."
+     },
+     {
+      "text": "A summary should invent the writer’s preferred solution.",
+      "truth": "false",
+      "explain": "Source information and new advice are different tasks."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

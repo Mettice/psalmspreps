@@ -1,0 +1,605 @@
+{
+ "subject": "english-language",
+ "class": "Lower Sixth",
+ "lesson_no": 19,
+ "language": "en",
+ "prerequisites": [
+  8,
+  17,
+  18
+ ],
+ "skills": [
+  {
+   "id": "el6-19",
+   "name": "Synonyms, antonyms, homonyms and homophones"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Synonyms have similar meanings in an appropriate context, but are not interchangeable in every phrase. Antonyms express opposition along a relevant dimension. Homophones share pronunciation in the selected model while differing in meaning and often spelling. Homonym terminology varies: here a homonym shares spelling and pronunciation but has distinct unrelated meanings. State the convention and use the sentence to distinguish senses.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to choose a lexical relationship in context and preserve meaning when substituting. Builds on: word formation and model sound contrasts. Leads to: narrative retelling and confusing words."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "Synonyms have similar meanings in an appropriate context, but are not interchangeable in every phrase. Antonyms express opposition along a relevant dimension. Homophones share pronunciation in the selected model while differing in meaning and often spelling. Homonym terminology varies: here a homonym shares spelling and pronunciation but has distinct unrelated meanings. State the convention and use the sentence to distinguish senses."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original models: a rapid response and a quick response are close in this context. Open contrasts with closed for the door’s state. Flour and flower are model homophones; a bat used in a game and a bat as an animal illustrate our narrow homonym convention. Sound patterns can vary by accent, while context still helps identify intended meaning."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Identify the meanings in their actual sentences. Test a replacement for sense, register and collocation. For sound relationships use the stated model and seek oral demonstration; a printed choice alone is not listening assessment."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "contextual synonym",
+    "meaning": "a word with a similar meaning in the specified use"
+   },
+   {
+    "word": "antonym",
+    "meaning": "a word expressing a relevant opposition"
+   },
+   {
+    "word": "homophone",
+    "meaning": "a word sharing pronunciation with another in the selected model"
+   },
+   {
+    "word": "homonym in this lesson",
+    "meaning": "a word sharing spelling and pronunciation with an unrelated meaning"
+   }
+  ],
+  "mistake": {
+   "wrong": "Every synonym works in every phrase and register.",
+   "right": "contextual synonym: a word with a similar meaning in the specified use.",
+   "why": "Meaning and collocation depend on context."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Quick can replace rapid in a rapid response. Explain the selected feature.",
+  "steps": [
+   "A word with a similar meaning in the specified use.",
+   "Meaning and collocation depend on context."
+  ],
+  "answer": "contextual synonym",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "el6-19-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "contextual synonym: a word with a similar meaning in the specified use.",
+     "antonym: a word expressing a relevant opposition.",
+     "homophone: a word sharing pronunciation with another in the selected model.",
+     "homonym in this lesson: a word sharing spelling and pronunciation with an unrelated meaning."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "el6-19-terms"
+    }
+   },
+   {
+    "id": "el6-19-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "Quick can replace rapid in a rapid response.",
+     "Closed contrasts with open for this door state.",
+     "Flour and flower share the model pronunciation.",
+     "Bat names an animal or a game implement in these examples."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "el6-19-cases"
+    }
+   },
+   {
+    "id": "el6-19-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "Every synonym works in every phrase and register. Correction: Meaning and collocation depend on context.",
+     "Any unrelated word is an antonym. Correction: Opposition needs a shared dimension.",
+     "Different spelling always guarantees different sound. Correction: Spelling and pronunciation do not correspond uniquely.",
+     "The lesson’s narrow homonym convention must be universal. Correction: Dictionaries and courses can use broader terminology."
+    ],
+    "checks": [],
+    "check": {
+     "id": "el6-19-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "contextual synonym: a word with a similar meaning in the specified use.",
+        "truth": "true",
+        "explain": "This is correct: a word with a similar meaning in the specified use. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "antonym: a word expressing a relevant opposition.",
+        "truth": "true",
+        "explain": "This is correct: a word expressing a relevant opposition. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "homophone: a word sharing pronunciation with another in the selected model.",
+        "truth": "true",
+        "explain": "This is correct: a word sharing pronunciation with another in the selected model. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "homonym in this lesson: a word sharing spelling and pronunciation with an unrelated meaning.",
+        "truth": "true",
+        "explain": "This is correct: a word sharing spelling and pronunciation with an unrelated meaning. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Every synonym works in every phrase and register.",
+        "truth": "false",
+        "explain": "Meaning and collocation depend on context."
+       },
+       {
+        "text": "Any unrelated word is an antonym.",
+        "truth": "false",
+        "explain": "Opposition needs a shared dimension."
+       },
+       {
+        "text": "Different spelling always guarantees different sound.",
+        "truth": "false",
+        "explain": "Spelling and pronunciation do not correspond uniquely."
+       },
+       {
+        "text": "The lesson’s narrow homonym convention must be universal.",
+        "truth": "false",
+        "explain": "Dictionaries and courses can use broader terminology."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "el6-19-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a word with a similar meaning in the specified use?",
+       "r": "contextual synonym",
+       "w": [
+        "antonym",
+        "homophone",
+        "homonym in this lesson"
+       ],
+       "e": [
+        "That concerns a word expressing a relevant opposition, rather than a word with a similar meaning in the specified use.",
+        "That concerns a word sharing pronunciation with another in the selected model, rather than a word with a similar meaning in the specified use.",
+        "That concerns a word sharing spelling and pronunciation with an unrelated meaning, rather than a word with a similar meaning in the specified use."
+       ],
+       "y": "Meaning and collocation depend on context."
+      },
+      {
+       "q": "Which term means a word expressing a relevant opposition?",
+       "r": "antonym",
+       "w": [
+        "contextual synonym",
+        "homophone",
+        "homonym in this lesson"
+       ],
+       "e": [
+        "That concerns a word with a similar meaning in the specified use, rather than a word expressing a relevant opposition.",
+        "That concerns a word sharing pronunciation with another in the selected model, rather than a word expressing a relevant opposition.",
+        "That concerns a word sharing spelling and pronunciation with an unrelated meaning, rather than a word expressing a relevant opposition."
+       ],
+       "y": "Opposition needs a shared dimension."
+      },
+      {
+       "q": "Which term means a word sharing pronunciation with another in the selected model?",
+       "r": "homophone",
+       "w": [
+        "contextual synonym",
+        "antonym",
+        "homonym in this lesson"
+       ],
+       "e": [
+        "That concerns a word with a similar meaning in the specified use, rather than a word sharing pronunciation with another in the selected model.",
+        "That concerns a word expressing a relevant opposition, rather than a word sharing pronunciation with another in the selected model.",
+        "That concerns a word sharing spelling and pronunciation with an unrelated meaning, rather than a word sharing pronunciation with another in the selected model."
+       ],
+       "y": "Spelling and pronunciation do not correspond uniquely."
+      },
+      {
+       "q": "Which term means a word sharing spelling and pronunciation with an unrelated meaning?",
+       "r": "homonym in this lesson",
+       "w": [
+        "contextual synonym",
+        "antonym",
+        "homophone"
+       ],
+       "e": [
+        "That concerns a word with a similar meaning in the specified use, rather than a word sharing spelling and pronunciation with an unrelated meaning.",
+        "That concerns a word expressing a relevant opposition, rather than a word sharing spelling and pronunciation with an unrelated meaning.",
+        "That concerns a word sharing pronunciation with another in the selected model, rather than a word sharing spelling and pronunciation with an unrelated meaning."
+       ],
+       "y": "Dictionaries and courses can use broader terminology."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-19-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quick can replace rapid in a rapid response.\nWhich description best fits the selected feature?",
+       "r": "contextual synonym",
+       "w": [
+        "antonym",
+        "homophone",
+        "homonym in this lesson"
+       ],
+       "e": [
+        "That means a word expressing a relevant opposition. The selected feature instead illustrates a word with a similar meaning in the specified use.",
+        "That means a word sharing pronunciation with another in the selected model. The selected feature instead illustrates a word with a similar meaning in the specified use.",
+        "That means a word sharing spelling and pronunciation with an unrelated meaning. The selected feature instead illustrates a word with a similar meaning in the specified use."
+       ],
+       "y": "Meaning and collocation depend on context."
+      },
+      {
+       "q": "Closed contrasts with open for this door state.\nWhich description best fits the selected feature?",
+       "r": "antonym",
+       "w": [
+        "contextual synonym",
+        "homophone",
+        "homonym in this lesson"
+       ],
+       "e": [
+        "That means a word with a similar meaning in the specified use. The selected feature instead illustrates a word expressing a relevant opposition.",
+        "That means a word sharing pronunciation with another in the selected model. The selected feature instead illustrates a word expressing a relevant opposition.",
+        "That means a word sharing spelling and pronunciation with an unrelated meaning. The selected feature instead illustrates a word expressing a relevant opposition."
+       ],
+       "y": "Opposition needs a shared dimension."
+      },
+      {
+       "q": "Flour and flower share the model pronunciation.\nWhich description best fits the selected feature?",
+       "r": "homophone",
+       "w": [
+        "contextual synonym",
+        "antonym",
+        "homonym in this lesson"
+       ],
+       "e": [
+        "That means a word with a similar meaning in the specified use. The selected feature instead illustrates a word sharing pronunciation with another in the selected model.",
+        "That means a word expressing a relevant opposition. The selected feature instead illustrates a word sharing pronunciation with another in the selected model.",
+        "That means a word sharing spelling and pronunciation with an unrelated meaning. The selected feature instead illustrates a word sharing pronunciation with another in the selected model."
+       ],
+       "y": "Spelling and pronunciation do not correspond uniquely."
+      },
+      {
+       "q": "Bat names an animal or a game implement in these examples.\nWhich description best fits the selected feature?",
+       "r": "homonym in this lesson",
+       "w": [
+        "contextual synonym",
+        "antonym",
+        "homophone"
+       ],
+       "e": [
+        "That means a word with a similar meaning in the specified use. The selected feature instead illustrates a word sharing spelling and pronunciation with an unrelated meaning.",
+        "That means a word expressing a relevant opposition. The selected feature instead illustrates a word sharing spelling and pronunciation with an unrelated meaning.",
+        "That means a word sharing pronunciation with another in the selected model. The selected feature instead illustrates a word sharing spelling and pronunciation with an unrelated meaning."
+       ],
+       "y": "Dictionaries and courses can use broader terminology."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-19-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In a rapid response, which replacement is close in meaning?",
+       "r": "a quick response",
+       "w": [
+        "an absent response",
+        "a hostile response",
+        "a response made of water"
+       ],
+       "e": [
+        "Absent changes presence rather than speed.",
+        "Hostile changes attitude rather than speed.",
+        "That phrase does not preserve the intended sense."
+       ],
+       "y": "The relevant dimension is speed."
+      },
+      {
+       "q": "The room was open, not ___. Choose the direct state contrast.",
+       "r": "closed",
+       "w": [
+        "blue",
+        "quiet",
+        "large"
+       ],
+       "e": [
+        "Colour is a different dimension.",
+        "Noise is a different dimension.",
+        "Size is a different dimension."
+       ],
+       "y": "Antonyms contrast along the relevant meaning dimension."
+      },
+      {
+       "q": "In the supplied pronunciation model, flour and flower sound alike but have different meanings. Which relationship is shown?",
+       "r": "Homophony",
+       "w": [
+        "Antonymy",
+        "A prefix relationship",
+        "Identical spelling"
+       ],
+       "e": [
+        "Their meanings are not opposites.",
+        "Neither is formed by prefixing the other.",
+        "Their spellings differ."
+       ],
+       "y": "Shared model pronunciation identifies homophones."
+      },
+      {
+       "q": "A bat flew above the pitch; a player held a bat. Under this lesson’s narrow convention, what is illustrated?",
+       "r": "Homonymy",
+       "w": [
+        "Antonymy",
+        "Two words with different spellings",
+        "A common suffix"
+       ],
+       "e": [
+        "Animal and implement are not opposite ends of a scale.",
+        "Both uses are spelled bat.",
+        "No suffix relationship is described."
+       ],
+       "y": "The form is shared while the contextual meanings differ."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-19-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "contextual synonym",
+     "right": "Quick can replace rapid in a rapid response."
+    },
+    {
+     "left": "antonym",
+     "right": "Closed contrasts with open for this door state."
+    },
+    {
+     "left": "homophone",
+     "right": "Flour and flower share the model pronunciation."
+    },
+    {
+     "left": "homonym in this lesson",
+     "right": "Bat names an animal or a game implement in these examples."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "el6-19-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "contextual synonym: a word with a similar meaning in the specified use.",
+      "truth": "true",
+      "explain": "This is correct: a word with a similar meaning in the specified use. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "antonym: a word expressing a relevant opposition.",
+      "truth": "true",
+      "explain": "This is correct: a word expressing a relevant opposition. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "homophone: a word sharing pronunciation with another in the selected model.",
+      "truth": "true",
+      "explain": "This is correct: a word sharing pronunciation with another in the selected model. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "homonym in this lesson: a word sharing spelling and pronunciation with an unrelated meaning.",
+      "truth": "true",
+      "explain": "This is correct: a word sharing spelling and pronunciation with an unrelated meaning. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every synonym works in every phrase and register.",
+      "truth": "false",
+      "explain": "Meaning and collocation depend on context."
+     },
+     {
+      "text": "Any unrelated word is an antonym.",
+      "truth": "false",
+      "explain": "Opposition needs a shared dimension."
+     },
+     {
+      "text": "Different spelling always guarantees different sound.",
+      "truth": "false",
+      "explain": "Spelling and pronunciation do not correspond uniquely."
+     },
+     {
+      "text": "The lesson’s narrow homonym convention must be universal.",
+      "truth": "false",
+      "explain": "Dictionaries and courses can use broader terminology."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

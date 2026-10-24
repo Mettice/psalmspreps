@@ -1,0 +1,586 @@
+{
+ "subject": "english-language",
+ "class": "Lower Sixth",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "el6-2",
+   "name": "Main ideas and supporting details"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A main idea states what the passage principally says about its topic. A topic names the subject but does not express the claim. Supporting details explain, illustrate or justify the main idea. A good main-idea statement covers the relevant details without adding a conclusion the passage does not support. It need not reproduce an opening sentence word for word.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to select a passage’s controlling idea and distinguish it from evidence or an unsupported claim. Builds on: Form Five evidence-based reading. Leads to: purpose, summary and inference."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "A main idea states what the passage principally says about its topic. A topic names the subject but does not express the claim. Supporting details explain, illustrate or justify the main idea. A good main-idea statement covers the relevant details without adding a conclusion the passage does not support. It need not reproduce an opening sentence word for word."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original passage: The fictional school library changed its loan routine after pupils reported long queues. Volunteers sorted returns before the break, and borrowers placed requests on slips. The trial shortened some queues, but staff had not yet compared all weekdays. The passage describes a trial with a limited reported result, rather than proving every queue problem is solved."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "State the topic, ask what the writer says about it, then test a proposed main idea against the whole passage. Identify which detail supports it and which limitation it must retain."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "topic",
+    "meaning": "the subject discussed without the full controlling claim"
+   },
+   {
+    "word": "main idea",
+    "meaning": "the controlling point that accounts for the passage’s relevant details"
+   },
+   {
+    "word": "supporting detail",
+    "meaning": "information that develops or illustrates the controlling point"
+   },
+   {
+    "word": "scope limit",
+    "meaning": "a boundary on what the passage establishes"
+   }
+  ],
+  "mistake": {
+   "wrong": "A topic label alone expresses every argument.",
+   "right": "topic: the subject discussed without the full controlling claim.",
+   "why": "A main idea says something about the topic."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Library queues names the subject of the passage. Explain the selected feature.",
+  "steps": [
+   "The subject discussed without the full controlling claim.",
+   "A main idea says something about the topic."
+  ],
+  "answer": "topic",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "el6-2-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "topic: the subject discussed without the full controlling claim.",
+     "main idea: the controlling point that accounts for the passage’s relevant details.",
+     "supporting detail: information that develops or illustrates the controlling point.",
+     "scope limit: a boundary on what the passage establishes."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "el6-2-terms"
+    }
+   },
+   {
+    "id": "el6-2-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "Library queues names the subject of the passage.",
+     "A changed loan routine showed a limited improvement during a trial.",
+     "Volunteers sorted returns before the break.",
+     "Staff had not compared all weekdays."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "el6-2-cases"
+    }
+   },
+   {
+    "id": "el6-2-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "A topic label alone expresses every argument. Correction: A main idea says something about the topic.",
+     "The passage proves every library needs identical slips. Correction: The trial’s context and limited evidence must be preserved.",
+     "A single detail is always the entire main idea. Correction: A detail supports a broader point rather than necessarily replacing it.",
+     "An early result guarantees permanent success. Correction: The passage explicitly limits the comparison."
+    ],
+    "checks": [],
+    "check": {
+     "id": "el6-2-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "topic: the subject discussed without the full controlling claim.",
+        "truth": "true",
+        "explain": "This is correct: the subject discussed without the full controlling claim. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "main idea: the controlling point that accounts for the passage’s relevant details.",
+        "truth": "true",
+        "explain": "This is correct: the controlling point that accounts for the passage’s relevant details. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "supporting detail: information that develops or illustrates the controlling point.",
+        "truth": "true",
+        "explain": "This is correct: information that develops or illustrates the controlling point. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "scope limit: a boundary on what the passage establishes.",
+        "truth": "true",
+        "explain": "This is correct: a boundary on what the passage establishes. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A topic label alone expresses every argument.",
+        "truth": "false",
+        "explain": "A main idea says something about the topic."
+       },
+       {
+        "text": "The passage proves every library needs identical slips.",
+        "truth": "false",
+        "explain": "The trial’s context and limited evidence must be preserved."
+       },
+       {
+        "text": "A single detail is always the entire main idea.",
+        "truth": "false",
+        "explain": "A detail supports a broader point rather than necessarily replacing it."
+       },
+       {
+        "text": "An early result guarantees permanent success.",
+        "truth": "false",
+        "explain": "The passage explicitly limits the comparison."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "el6-2-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means the subject discussed without the full controlling claim?",
+       "r": "topic",
+       "w": [
+        "main idea",
+        "supporting detail",
+        "scope limit"
+       ],
+       "e": [
+        "That concerns the controlling point that accounts for the passage’s relevant details, rather than the subject discussed without the full controlling claim.",
+        "That concerns information that develops or illustrates the controlling point, rather than the subject discussed without the full controlling claim.",
+        "That concerns a boundary on what the passage establishes, rather than the subject discussed without the full controlling claim."
+       ],
+       "y": "A main idea says something about the topic."
+      },
+      {
+       "q": "Which term means the controlling point that accounts for the passage’s relevant details?",
+       "r": "main idea",
+       "w": [
+        "topic",
+        "supporting detail",
+        "scope limit"
+       ],
+       "e": [
+        "That concerns the subject discussed without the full controlling claim, rather than the controlling point that accounts for the passage’s relevant details.",
+        "That concerns information that develops or illustrates the controlling point, rather than the controlling point that accounts for the passage’s relevant details.",
+        "That concerns a boundary on what the passage establishes, rather than the controlling point that accounts for the passage’s relevant details."
+       ],
+       "y": "The trial’s context and limited evidence must be preserved."
+      },
+      {
+       "q": "Which term means information that develops or illustrates the controlling point?",
+       "r": "supporting detail",
+       "w": [
+        "topic",
+        "main idea",
+        "scope limit"
+       ],
+       "e": [
+        "That concerns the subject discussed without the full controlling claim, rather than information that develops or illustrates the controlling point.",
+        "That concerns the controlling point that accounts for the passage’s relevant details, rather than information that develops or illustrates the controlling point.",
+        "That concerns a boundary on what the passage establishes, rather than information that develops or illustrates the controlling point."
+       ],
+       "y": "A detail supports a broader point rather than necessarily replacing it."
+      },
+      {
+       "q": "Which term means a boundary on what the passage establishes?",
+       "r": "scope limit",
+       "w": [
+        "topic",
+        "main idea",
+        "supporting detail"
+       ],
+       "e": [
+        "That concerns the subject discussed without the full controlling claim, rather than a boundary on what the passage establishes.",
+        "That concerns the controlling point that accounts for the passage’s relevant details, rather than a boundary on what the passage establishes.",
+        "That concerns information that develops or illustrates the controlling point, rather than a boundary on what the passage establishes."
+       ],
+       "y": "The passage explicitly limits the comparison."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-2-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Library queues names the subject of the passage.\nWhich description best fits the selected feature?",
+       "r": "topic",
+       "w": [
+        "main idea",
+        "supporting detail",
+        "scope limit"
+       ],
+       "e": [
+        "That means the controlling point that accounts for the passage’s relevant details. The selected feature instead illustrates the subject discussed without the full controlling claim.",
+        "That means information that develops or illustrates the controlling point. The selected feature instead illustrates the subject discussed without the full controlling claim.",
+        "That means a boundary on what the passage establishes. The selected feature instead illustrates the subject discussed without the full controlling claim."
+       ],
+       "y": "A main idea says something about the topic."
+      },
+      {
+       "q": "A changed loan routine showed a limited improvement during a trial.\nWhich description best fits the selected feature?",
+       "r": "main idea",
+       "w": [
+        "topic",
+        "supporting detail",
+        "scope limit"
+       ],
+       "e": [
+        "That means the subject discussed without the full controlling claim. The selected feature instead illustrates the controlling point that accounts for the passage’s relevant details.",
+        "That means information that develops or illustrates the controlling point. The selected feature instead illustrates the controlling point that accounts for the passage’s relevant details.",
+        "That means a boundary on what the passage establishes. The selected feature instead illustrates the controlling point that accounts for the passage’s relevant details."
+       ],
+       "y": "The trial’s context and limited evidence must be preserved."
+      },
+      {
+       "q": "Volunteers sorted returns before the break.\nWhich description best fits the selected feature?",
+       "r": "supporting detail",
+       "w": [
+        "topic",
+        "main idea",
+        "scope limit"
+       ],
+       "e": [
+        "That means the subject discussed without the full controlling claim. The selected feature instead illustrates information that develops or illustrates the controlling point.",
+        "That means the controlling point that accounts for the passage’s relevant details. The selected feature instead illustrates information that develops or illustrates the controlling point.",
+        "That means a boundary on what the passage establishes. The selected feature instead illustrates information that develops or illustrates the controlling point."
+       ],
+       "y": "A detail supports a broader point rather than necessarily replacing it."
+      },
+      {
+       "q": "Staff had not compared all weekdays.\nWhich description best fits the selected feature?",
+       "r": "scope limit",
+       "w": [
+        "topic",
+        "main idea",
+        "supporting detail"
+       ],
+       "e": [
+        "That means the subject discussed without the full controlling claim. The selected feature instead illustrates a boundary on what the passage establishes.",
+        "That means the controlling point that accounts for the passage’s relevant details. The selected feature instead illustrates a boundary on what the passage establishes.",
+        "That means information that develops or illustrates the controlling point. The selected feature instead illustrates a boundary on what the passage establishes."
+       ],
+       "y": "The passage explicitly limits the comparison."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-2-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Original passage: Bih’s club tested shaded seating. Members used it at midday, but rainy-day use was not recorded. Which main idea preserves scope?",
+       "r": "A seating trial attracted midday use, with evidence still limited",
+       "w": [
+        "Rain never affects seating",
+        "Every school must build the same seats",
+        "Bih owns all the chairs"
+       ],
+       "e": [
+        "Rainy-day evidence is missing.",
+        "The trial does not establish a universal requirement.",
+        "Ownership is not stated."
+       ],
+       "y": "Cover both the observed use and the evidence limit."
+      },
+      {
+       "q": "Original passage: A fictional market team labelled separate collection bins and explained the labels. Sorting improved during observed mornings; afternoon use remains unknown. Which is the main idea?",
+       "r": "A labelling-and-explanation trial improved observed sorting, with incomplete coverage",
+       "w": [
+        "The only topic is the colour of paper",
+        "All waste problems ended permanently",
+        "Afternoons were proved identical"
+       ],
+       "e": [
+        "The passage concerns a sorting intervention.",
+        "Only a limited observation is reported.",
+        "Afternoon use was not observed."
+       ],
+       "y": "A main idea covers intervention, result and limitation."
+      },
+      {
+       "q": "Original passage: Ayuk’s group shared a timetable to avoid room clashes. Reported clashes fell, though the group had no record of informal meetings. Which statement fits the whole passage?",
+       "r": "A shared timetable reduced reported clashes but the record was incomplete",
+       "w": [
+        "Informal meetings never happen",
+        "The timetable is irrelevant",
+        "No meeting ever clashed again"
+       ],
+       "e": [
+        "Missing records do not prove absence.",
+        "The reported change concerns the timetable.",
+        "The claim exceeds the reported evidence."
+       ],
+       "y": "Keep the central change without turning incomplete records into certainty."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-2-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "topic",
+     "right": "Library queues names the subject of the passage."
+    },
+    {
+     "left": "main idea",
+     "right": "A changed loan routine showed a limited improvement during a trial."
+    },
+    {
+     "left": "supporting detail",
+     "right": "Volunteers sorted returns before the break."
+    },
+    {
+     "left": "scope limit",
+     "right": "Staff had not compared all weekdays."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "el6-2-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "topic: the subject discussed without the full controlling claim.",
+      "truth": "true",
+      "explain": "This is correct: the subject discussed without the full controlling claim. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "main idea: the controlling point that accounts for the passage’s relevant details.",
+      "truth": "true",
+      "explain": "This is correct: the controlling point that accounts for the passage’s relevant details. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "supporting detail: information that develops or illustrates the controlling point.",
+      "truth": "true",
+      "explain": "This is correct: information that develops or illustrates the controlling point. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "scope limit: a boundary on what the passage establishes.",
+      "truth": "true",
+      "explain": "This is correct: a boundary on what the passage establishes. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A topic label alone expresses every argument.",
+      "truth": "false",
+      "explain": "A main idea says something about the topic."
+     },
+     {
+      "text": "The passage proves every library needs identical slips.",
+      "truth": "false",
+      "explain": "The trial’s context and limited evidence must be preserved."
+     },
+     {
+      "text": "A single detail is always the entire main idea.",
+      "truth": "false",
+      "explain": "A detail supports a broader point rather than necessarily replacing it."
+     },
+     {
+      "text": "An early result guarantees permanent success.",
+      "truth": "false",
+      "explain": "The passage explicitly limits the comparison."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

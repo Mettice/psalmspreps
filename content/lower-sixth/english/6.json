@@ -1,0 +1,588 @@
+{
+ "subject": "english-language",
+ "class": "Lower Sixth",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "el6-6",
+   "name": "Inference and conclusions from texts"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An inference combines textual clues with a reasonable connection. It is more than copying a sentence, but it must remain supported. Several explanations may fit the same clue, so the strength of the conclusion must match the evidence. Words such as may, suggests and probably can preserve appropriate uncertainty. An absence of information is not proof that an event never occurred.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to justify a cautious inference and distinguish it from an unstated certainty. Builds on: main ideas and summary fidelity. Leads to: character interpretation and prose."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "An inference combines textual clues with a reasonable connection. It is more than copying a sentence, but it must remain supported. Several explanations may fit the same clue, so the strength of the conclusion must match the evidence. Words such as may, suggests and probably can preserve appropriate uncertainty. An absence of information is not proof that an event never occurred."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original passage: Rain tapped the roof. Bih placed a basin under a damp patch and moved the books away. The passage suggests concern about water reaching the books. It does not state who owns the roof or prove that every book was damaged. The action supports an inference about precaution without establishing all background facts."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Name the clue, explain the link and state the inference with suitable certainty. Test an alternative explanation. Reject an answer that adds a private motive or universal outcome without evidence."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "textual clue",
+    "meaning": "a detail that supports an interpretation"
+   },
+   {
+    "word": "supported inference",
+    "meaning": "a conclusion reasonably connected to supplied clues"
+   },
+   {
+    "word": "certainty limit",
+    "meaning": "a restriction on how strongly evidence permits a claim"
+   },
+   {
+    "word": "alternative explanation",
+    "meaning": "another account compatible with the evidence"
+   }
+  ],
+  "mistake": {
+   "wrong": "An inference needs no evidence from the passage.",
+   "right": "textual clue: a detail that supports an interpretation.",
+   "why": "The action provides a basis for interpretation."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih moves books away from a damp patch. Explain the selected feature.",
+  "steps": [
+   "A detail that supports an interpretation.",
+   "The action provides a basis for interpretation."
+  ],
+  "answer": "textual clue",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "el6-6-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "textual clue: a detail that supports an interpretation.",
+     "supported inference: a conclusion reasonably connected to supplied clues.",
+     "certainty limit: a restriction on how strongly evidence permits a claim.",
+     "alternative explanation: another account compatible with the evidence."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "el6-6-terms"
+    }
+   },
+   {
+    "id": "el6-6-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "Bih moves books away from a damp patch.",
+     "Bih may be trying to protect books from water.",
+     "The passage does not identify the roof’s owner.",
+     "A cautious reader asks whether books were moved before damage occurred."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "el6-6-cases"
+    }
+   },
+   {
+    "id": "el6-6-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "An inference needs no evidence from the passage. Correction: The action provides a basis for interpretation.",
+     "Concern about water proves every book is already ruined. Correction: A precaution does not prove the feared damage happened.",
+     "Missing ownership information proves nobody owns it. Correction: Unstated information remains unknown.",
+     "Only one possible motive can ever fit an action. Correction: Evidence can leave more than one explanation open."
+    ],
+    "checks": [],
+    "check": {
+     "id": "el6-6-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "textual clue: a detail that supports an interpretation.",
+        "truth": "true",
+        "explain": "This is correct: a detail that supports an interpretation. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "supported inference: a conclusion reasonably connected to supplied clues.",
+        "truth": "true",
+        "explain": "This is correct: a conclusion reasonably connected to supplied clues. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "certainty limit: a restriction on how strongly evidence permits a claim.",
+        "truth": "true",
+        "explain": "This is correct: a restriction on how strongly evidence permits a claim. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "alternative explanation: another account compatible with the evidence.",
+        "truth": "true",
+        "explain": "This is correct: another account compatible with the evidence. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "An inference needs no evidence from the passage.",
+        "truth": "false",
+        "explain": "The action provides a basis for interpretation."
+       },
+       {
+        "text": "Concern about water proves every book is already ruined.",
+        "truth": "false",
+        "explain": "A precaution does not prove the feared damage happened."
+       },
+       {
+        "text": "Missing ownership information proves nobody owns it.",
+        "truth": "false",
+        "explain": "Unstated information remains unknown."
+       },
+       {
+        "text": "Only one possible motive can ever fit an action.",
+        "truth": "false",
+        "explain": "Evidence can leave more than one explanation open."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "el6-6-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a detail that supports an interpretation?",
+       "r": "textual clue",
+       "w": [
+        "supported inference",
+        "certainty limit",
+        "alternative explanation"
+       ],
+       "e": [
+        "That concerns a conclusion reasonably connected to supplied clues, rather than a detail that supports an interpretation.",
+        "That concerns a restriction on how strongly evidence permits a claim, rather than a detail that supports an interpretation.",
+        "That concerns another account compatible with the evidence, rather than a detail that supports an interpretation."
+       ],
+       "y": "The action provides a basis for interpretation."
+      },
+      {
+       "q": "Which term means a conclusion reasonably connected to supplied clues?",
+       "r": "supported inference",
+       "w": [
+        "textual clue",
+        "certainty limit",
+        "alternative explanation"
+       ],
+       "e": [
+        "That concerns a detail that supports an interpretation, rather than a conclusion reasonably connected to supplied clues.",
+        "That concerns a restriction on how strongly evidence permits a claim, rather than a conclusion reasonably connected to supplied clues.",
+        "That concerns another account compatible with the evidence, rather than a conclusion reasonably connected to supplied clues."
+       ],
+       "y": "A precaution does not prove the feared damage happened."
+      },
+      {
+       "q": "Which term means a restriction on how strongly evidence permits a claim?",
+       "r": "certainty limit",
+       "w": [
+        "textual clue",
+        "supported inference",
+        "alternative explanation"
+       ],
+       "e": [
+        "That concerns a detail that supports an interpretation, rather than a restriction on how strongly evidence permits a claim.",
+        "That concerns a conclusion reasonably connected to supplied clues, rather than a restriction on how strongly evidence permits a claim.",
+        "That concerns another account compatible with the evidence, rather than a restriction on how strongly evidence permits a claim."
+       ],
+       "y": "Unstated information remains unknown."
+      },
+      {
+       "q": "Which term means another account compatible with the evidence?",
+       "r": "alternative explanation",
+       "w": [
+        "textual clue",
+        "supported inference",
+        "certainty limit"
+       ],
+       "e": [
+        "That concerns a detail that supports an interpretation, rather than another account compatible with the evidence.",
+        "That concerns a conclusion reasonably connected to supplied clues, rather than another account compatible with the evidence.",
+        "That concerns a restriction on how strongly evidence permits a claim, rather than another account compatible with the evidence."
+       ],
+       "y": "Evidence can leave more than one explanation open."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-6-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih moves books away from a damp patch.\nWhich description best fits the selected feature?",
+       "r": "textual clue",
+       "w": [
+        "supported inference",
+        "certainty limit",
+        "alternative explanation"
+       ],
+       "e": [
+        "That means a conclusion reasonably connected to supplied clues. The selected feature instead illustrates a detail that supports an interpretation.",
+        "That means a restriction on how strongly evidence permits a claim. The selected feature instead illustrates a detail that supports an interpretation.",
+        "That means another account compatible with the evidence. The selected feature instead illustrates a detail that supports an interpretation."
+       ],
+       "y": "The action provides a basis for interpretation."
+      },
+      {
+       "q": "Bih may be trying to protect books from water.\nWhich description best fits the selected feature?",
+       "r": "supported inference",
+       "w": [
+        "textual clue",
+        "certainty limit",
+        "alternative explanation"
+       ],
+       "e": [
+        "That means a detail that supports an interpretation. The selected feature instead illustrates a conclusion reasonably connected to supplied clues.",
+        "That means a restriction on how strongly evidence permits a claim. The selected feature instead illustrates a conclusion reasonably connected to supplied clues.",
+        "That means another account compatible with the evidence. The selected feature instead illustrates a conclusion reasonably connected to supplied clues."
+       ],
+       "y": "A precaution does not prove the feared damage happened."
+      },
+      {
+       "q": "The passage does not identify the roof’s owner.\nWhich description best fits the selected feature?",
+       "r": "certainty limit",
+       "w": [
+        "textual clue",
+        "supported inference",
+        "alternative explanation"
+       ],
+       "e": [
+        "That means a detail that supports an interpretation. The selected feature instead illustrates a restriction on how strongly evidence permits a claim.",
+        "That means a conclusion reasonably connected to supplied clues. The selected feature instead illustrates a restriction on how strongly evidence permits a claim.",
+        "That means another account compatible with the evidence. The selected feature instead illustrates a restriction on how strongly evidence permits a claim."
+       ],
+       "y": "Unstated information remains unknown."
+      },
+      {
+       "q": "A cautious reader asks whether books were moved before damage occurred.\nWhich description best fits the selected feature?",
+       "r": "alternative explanation",
+       "w": [
+        "textual clue",
+        "supported inference",
+        "certainty limit"
+       ],
+       "e": [
+        "That means a detail that supports an interpretation. The selected feature instead illustrates another account compatible with the evidence.",
+        "That means a conclusion reasonably connected to supplied clues. The selected feature instead illustrates another account compatible with the evidence.",
+        "That means a restriction on how strongly evidence permits a claim. The selected feature instead illustrates another account compatible with the evidence."
+       ],
+       "y": "Evidence can leave more than one explanation open."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-6-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Original passage: Ayuk checked the clouds and placed a cover over the seed trays. Which inference is supported?",
+       "r": "He may be protecting the trays from expected weather",
+       "w": [
+        "He certainly knows tomorrow’s rainfall total",
+        "Every tray was already destroyed",
+        "He owns every farm nearby"
+       ],
+       "e": [
+        "No exact forecast is supplied.",
+        "Precaution does not establish destruction.",
+        "Ownership beyond the trays is not stated."
+       ],
+       "y": "Cloud checking and a cover support a weather precaution."
+      },
+      {
+       "q": "Original passage: Before speaking, Bih read her notes again and took a slow breath. Which conclusion respects the evidence?",
+       "r": "She appears to be preparing carefully",
+       "w": [
+        "She definitely forgot every word",
+        "She must dislike all listeners",
+        "The speech has already failed"
+       ],
+       "e": [
+        "Reading notes does not prove total forgetting.",
+        "No hostility towards listeners is stated.",
+        "No outcome has occurred in the excerpt."
+       ],
+       "y": "The actions support preparation, not invented certainty about feelings or outcomes."
+      },
+      {
+       "q": "Original passage: The hall was dark when the group arrived. Nothing else is said. What remains uncertain?",
+       "r": "Why the hall was dark",
+       "w": [
+        "Whether the passage mentions darkness",
+        "Whether the group arrived",
+        "Whether darkness is described"
+       ],
+       "e": [
+        "Darkness is directly stated.",
+        "Arrival is directly stated.",
+        "The text explicitly describes that condition."
+       ],
+       "y": "A condition alone does not identify its cause."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-6-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "textual clue",
+     "right": "Bih moves books away from a damp patch."
+    },
+    {
+     "left": "supported inference",
+     "right": "Bih may be trying to protect books from water."
+    },
+    {
+     "left": "certainty limit",
+     "right": "The passage does not identify the roof’s owner."
+    },
+    {
+     "left": "alternative explanation",
+     "right": "A cautious reader asks whether books were moved before damage occurred."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "el6-6-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "textual clue: a detail that supports an interpretation.",
+      "truth": "true",
+      "explain": "This is correct: a detail that supports an interpretation. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "supported inference: a conclusion reasonably connected to supplied clues.",
+      "truth": "true",
+      "explain": "This is correct: a conclusion reasonably connected to supplied clues. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "certainty limit: a restriction on how strongly evidence permits a claim.",
+      "truth": "true",
+      "explain": "This is correct: a restriction on how strongly evidence permits a claim. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "alternative explanation: another account compatible with the evidence.",
+      "truth": "true",
+      "explain": "This is correct: another account compatible with the evidence. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "An inference needs no evidence from the passage.",
+      "truth": "false",
+      "explain": "The action provides a basis for interpretation."
+     },
+     {
+      "text": "Concern about water proves every book is already ruined.",
+      "truth": "false",
+      "explain": "A precaution does not prove the feared damage happened."
+     },
+     {
+      "text": "Missing ownership information proves nobody owns it.",
+      "truth": "false",
+      "explain": "Unstated information remains unknown."
+     },
+     {
+      "text": "Only one possible motive can ever fit an action.",
+      "truth": "false",
+      "explain": "Evidence can leave more than one explanation open."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

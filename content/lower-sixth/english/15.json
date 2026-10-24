@@ -1,0 +1,549 @@
+{
+ "subject": "english-language",
+ "class": "Lower Sixth",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [
+  7,
+  11,
+  14
+ ],
+ "skills": [
+  {
+   "id": "el6-15",
+   "name": "Creative writing: purposeful invention"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Creative writing makes purposeful choices about viewpoint, situation, voice and detail. Imagination does not require an impossible event; an ordinary choice can create interest when its stakes are clear. Select details that contribute to the scene, let actions reveal character and give the reader enough continuity to follow. A surprising ending should connect to earlier events rather than solve everything through an unexplained intervention.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to draft an original scene whose viewpoint, details and choices create a coherent effect. Builds on: character, setting and essay organisation. Leads to: drama and narrative reconstruction."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "Creative writing makes purposeful choices about viewpoint, situation, voice and detail. Imagination does not require an impossible event; an ordinary choice can create interest when its stakes are clear. Select details that contribute to the scene, let actions reveal character and give the reader enough continuity to follow. A surprising ending should connect to earlier events rather than solve everything through an unexplained intervention."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original model extract: The envelope lay beneath the library door. I recognised the club stamp, but the name on the front belonged to a pupil who had left. Beside me, Bih reached for it. I held my hand above the paper and stopped."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Identify the audience, purpose and required content. Plan the order, draft in your own words and check each feature against the model. Explain why an edit improves the answer."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "consistent viewpoint",
+    "meaning": "a stable perspective through which the scene is presented"
+   },
+   {
+    "word": "relevant detail",
+    "meaning": "a selected feature contributing to mood, action or meaning"
+   },
+   {
+    "word": "character choice",
+    "meaning": "an action that reveals priorities under a constraint"
+   },
+   {
+    "word": "coherent consequence",
+    "meaning": "a result connected to the scene’s earlier actions"
+   }
+  ],
+  "mistake": {
+   "wrong": "A narrator must know every character’s private thought.",
+   "right": "consistent viewpoint: a stable perspective through which the scene is presented.",
+   "why": "A limited viewpoint need not supply information it cannot know."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "I recognised the stamp presents a first-person viewpoint. Explain the selected feature.",
+  "steps": [
+   "A stable perspective through which the scene is presented.",
+   "A limited viewpoint need not supply information it cannot know."
+  ],
+  "answer": "consistent viewpoint",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "el6-15-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "consistent viewpoint: a stable perspective through which the scene is presented.",
+     "relevant detail: a selected feature contributing to mood, action or meaning.",
+     "character choice: an action that reveals priorities under a constraint.",
+     "coherent consequence: a result connected to the scene’s earlier actions."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "el6-15-terms"
+    }
+   },
+   {
+    "id": "el6-15-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "I recognised the stamp presents a first-person viewpoint.",
+     "Rain creeping across the floor creates urgency.",
+     "The pupils protect the envelope without opening it.",
+     "The envelope stays dry because the pupils use a tray."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "el6-15-cases"
+    }
+   },
+   {
+    "id": "el6-15-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "A narrator must know every character’s private thought. Correction: A limited viewpoint need not supply information it cannot know.",
+     "Every imaginable object must be described. Correction: Select details that help the intended effect.",
+     "A character is developed only by a list of adjectives. Correction: Choices and actions can reveal priorities.",
+     "An unexplained event is always the strongest resolution. Correction: Consequences should follow intelligibly from the established situation."
+    ],
+    "checks": [],
+    "check": {
+     "id": "el6-15-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "consistent viewpoint: a stable perspective through which the scene is presented.",
+        "truth": "true",
+        "explain": "This is correct: a stable perspective through which the scene is presented. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "relevant detail: a selected feature contributing to mood, action or meaning.",
+        "truth": "true",
+        "explain": "This is correct: a selected feature contributing to mood, action or meaning. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "character choice: an action that reveals priorities under a constraint.",
+        "truth": "true",
+        "explain": "This is correct: an action that reveals priorities under a constraint. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "coherent consequence: a result connected to the scene’s earlier actions.",
+        "truth": "true",
+        "explain": "This is correct: a result connected to the scene’s earlier actions. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A narrator must know every character’s private thought.",
+        "truth": "false",
+        "explain": "A limited viewpoint need not supply information it cannot know."
+       },
+       {
+        "text": "Every imaginable object must be described.",
+        "truth": "false",
+        "explain": "Select details that help the intended effect."
+       },
+       {
+        "text": "A character is developed only by a list of adjectives.",
+        "truth": "false",
+        "explain": "Choices and actions can reveal priorities."
+       },
+       {
+        "text": "An unexplained event is always the strongest resolution.",
+        "truth": "false",
+        "explain": "Consequences should follow intelligibly from the established situation."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "el6-15-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a stable perspective through which the scene is presented?",
+       "r": "consistent viewpoint",
+       "w": [
+        "relevant detail",
+        "character choice",
+        "coherent consequence"
+       ],
+       "e": [
+        "That concerns a selected feature contributing to mood, action or meaning, rather than a stable perspective through which the scene is presented.",
+        "That concerns an action that reveals priorities under a constraint, rather than a stable perspective through which the scene is presented.",
+        "That concerns a result connected to the scene’s earlier actions, rather than a stable perspective through which the scene is presented."
+       ],
+       "y": "A limited viewpoint need not supply information it cannot know."
+      },
+      {
+       "q": "Which term means a selected feature contributing to mood, action or meaning?",
+       "r": "relevant detail",
+       "w": [
+        "consistent viewpoint",
+        "character choice",
+        "coherent consequence"
+       ],
+       "e": [
+        "That concerns a stable perspective through which the scene is presented, rather than a selected feature contributing to mood, action or meaning.",
+        "That concerns an action that reveals priorities under a constraint, rather than a selected feature contributing to mood, action or meaning.",
+        "That concerns a result connected to the scene’s earlier actions, rather than a selected feature contributing to mood, action or meaning."
+       ],
+       "y": "Select details that help the intended effect."
+      },
+      {
+       "q": "Which term means an action that reveals priorities under a constraint?",
+       "r": "character choice",
+       "w": [
+        "consistent viewpoint",
+        "relevant detail",
+        "coherent consequence"
+       ],
+       "e": [
+        "That concerns a stable perspective through which the scene is presented, rather than an action that reveals priorities under a constraint.",
+        "That concerns a selected feature contributing to mood, action or meaning, rather than an action that reveals priorities under a constraint.",
+        "That concerns a result connected to the scene’s earlier actions, rather than an action that reveals priorities under a constraint."
+       ],
+       "y": "Choices and actions can reveal priorities."
+      },
+      {
+       "q": "Which term means a result connected to the scene’s earlier actions?",
+       "r": "coherent consequence",
+       "w": [
+        "consistent viewpoint",
+        "relevant detail",
+        "character choice"
+       ],
+       "e": [
+        "That concerns a stable perspective through which the scene is presented, rather than a result connected to the scene’s earlier actions.",
+        "That concerns a selected feature contributing to mood, action or meaning, rather than a result connected to the scene’s earlier actions.",
+        "That concerns an action that reveals priorities under a constraint, rather than a result connected to the scene’s earlier actions."
+       ],
+       "y": "Consequences should follow intelligibly from the established situation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-15-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "I recognised the stamp presents a first-person viewpoint.\nWhich description best fits the selected feature?",
+       "r": "consistent viewpoint",
+       "w": [
+        "relevant detail",
+        "character choice",
+        "coherent consequence"
+       ],
+       "e": [
+        "That means a selected feature contributing to mood, action or meaning. The selected feature instead illustrates a stable perspective through which the scene is presented.",
+        "That means an action that reveals priorities under a constraint. The selected feature instead illustrates a stable perspective through which the scene is presented.",
+        "That means a result connected to the scene’s earlier actions. The selected feature instead illustrates a stable perspective through which the scene is presented."
+       ],
+       "y": "A limited viewpoint need not supply information it cannot know."
+      },
+      {
+       "q": "Rain creeping across the floor creates urgency.\nWhich description best fits the selected feature?",
+       "r": "relevant detail",
+       "w": [
+        "consistent viewpoint",
+        "character choice",
+        "coherent consequence"
+       ],
+       "e": [
+        "That means a stable perspective through which the scene is presented. The selected feature instead illustrates a selected feature contributing to mood, action or meaning.",
+        "That means an action that reveals priorities under a constraint. The selected feature instead illustrates a selected feature contributing to mood, action or meaning.",
+        "That means a result connected to the scene’s earlier actions. The selected feature instead illustrates a selected feature contributing to mood, action or meaning."
+       ],
+       "y": "Select details that help the intended effect."
+      },
+      {
+       "q": "The pupils protect the envelope without opening it.\nWhich description best fits the selected feature?",
+       "r": "character choice",
+       "w": [
+        "consistent viewpoint",
+        "relevant detail",
+        "coherent consequence"
+       ],
+       "e": [
+        "That means a stable perspective through which the scene is presented. The selected feature instead illustrates an action that reveals priorities under a constraint.",
+        "That means a selected feature contributing to mood, action or meaning. The selected feature instead illustrates an action that reveals priorities under a constraint.",
+        "That means a result connected to the scene’s earlier actions. The selected feature instead illustrates an action that reveals priorities under a constraint."
+       ],
+       "y": "Choices and actions can reveal priorities."
+      },
+      {
+       "q": "The envelope stays dry because the pupils use a tray.\nWhich description best fits the selected feature?",
+       "r": "coherent consequence",
+       "w": [
+        "consistent viewpoint",
+        "relevant detail",
+        "character choice"
+       ],
+       "e": [
+        "That means a stable perspective through which the scene is presented. The selected feature instead illustrates a result connected to the scene’s earlier actions.",
+        "That means a selected feature contributing to mood, action or meaning. The selected feature instead illustrates a result connected to the scene’s earlier actions.",
+        "That means an action that reveals priorities under a constraint. The selected feature instead illustrates a result connected to the scene’s earlier actions."
+       ],
+       "y": "Consequences should follow intelligibly from the established situation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-15-build",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "I recognised the stamp presents a first-person viewpoint.",
+       "b": "I recognised the stamp presents a first-person viewpoint."
+      },
+      {
+       "a": "Rain creeping across the floor creates urgency.",
+       "b": "Rain creeping across the floor creates urgency."
+      },
+      {
+       "a": "The pupils protect the envelope without opening it.",
+       "b": "The pupils protect the envelope without opening it."
+      },
+      {
+       "a": "The envelope stays dry because the pupils use a tray.",
+       "b": "The envelope stays dry because the pupils use a tray."
+      }
+     ]
+    }
+   },
+   "prompt": "Tap the words in the right order.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ]
+  },
+  {
+   "id": "el6-15-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "consistent viewpoint",
+     "right": "I recognised the stamp presents a first-person viewpoint."
+    },
+    {
+     "left": "relevant detail",
+     "right": "Rain creeping across the floor creates urgency."
+    },
+    {
+     "left": "character choice",
+     "right": "The pupils protect the envelope without opening it."
+    },
+    {
+     "left": "coherent consequence",
+     "right": "The envelope stays dry because the pupils use a tray."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "el6-15-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "consistent viewpoint: a stable perspective through which the scene is presented.",
+      "truth": "true",
+      "explain": "This is correct: a stable perspective through which the scene is presented. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "relevant detail: a selected feature contributing to mood, action or meaning.",
+      "truth": "true",
+      "explain": "This is correct: a selected feature contributing to mood, action or meaning. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "character choice: an action that reveals priorities under a constraint.",
+      "truth": "true",
+      "explain": "This is correct: an action that reveals priorities under a constraint. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "coherent consequence: a result connected to the scene’s earlier actions.",
+      "truth": "true",
+      "explain": "This is correct: a result connected to the scene’s earlier actions. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A narrator must know every character’s private thought.",
+      "truth": "false",
+      "explain": "A limited viewpoint need not supply information it cannot know."
+     },
+     {
+      "text": "Every imaginable object must be described.",
+      "truth": "false",
+      "explain": "Select details that help the intended effect."
+     },
+     {
+      "text": "A character is developed only by a list of adjectives.",
+      "truth": "false",
+      "explain": "Choices and actions can reveal priorities."
+     },
+     {
+      "text": "An unexplained event is always the strongest resolution.",
+      "truth": "false",
+      "explain": "Consequences should follow intelligibly from the established situation."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "checks": [],
+  "prompt": "Write an original scene about finding an object intended for someone else. Establish a viewpoint, a meaningful constraint and a choice with a consequence. Do not copy the envelope model; change the situation and language.",
+  "model": [
+   "The envelope lay beneath the library door. I recognised the club stamp, but the name on the front belonged to a pupil who had left. Beside me, Bih reached for it. I held my hand above the paper and stopped.",
+   "“We should ask the organiser,” I said. Bih looked at the rain creeping across the floor. She fetched an empty tray, and we lifted the envelope without opening it. When the organiser arrived, the paper was dry and the seal remained unbroken."
+  ],
+  "checklist": [
+   "Consistent viewpoint: a stable perspective through which the scene is presented.",
+   "Relevant detail: a selected feature contributing to mood, action or meaning.",
+   "Character choice: an action that reveals priorities under a constraint.",
+   "Coherent consequence: a result connected to the scene’s earlier actions.",
+   "Use relevant original details and check sentence boundaries, agreement and spelling."
+  ]
+ }
+}

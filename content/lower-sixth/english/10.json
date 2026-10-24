@@ -1,0 +1,588 @@
+{
+ "subject": "english-language",
+ "class": "Lower Sixth",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  9
+ ],
+ "skills": [
+  {
+   "id": "el6-10",
+   "name": "Nouns, pronouns and verbs in context"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A noun can head a noun phrase; a pronoun can stand as the head of a noun phrase and refer to a person, thing or idea. A verb heads the predicate and can express an action, event or state. Form alone is insufficient: record is a noun in the record and a verb in record the decision. Pronoun references need to be clear. A sentence can contain several verb forms with different functions.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to identify a word’s function in its sentence and maintain clear reference. Builds on: Form Five parts of speech. Leads to: modification, determiners and sentence control."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "A noun can head a noun phrase; a pronoun can stand as the head of a noun phrase and refer to a person, thing or idea. A verb heads the predicate and can express an action, event or state. Form alone is insufficient: record is a noun in the record and a verb in record the decision. Pronoun references need to be clear. A sentence can contain several verb forms with different functions."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original model: Bih keeps the club record. She records decisions after meetings. Record follows the and heads a noun phrase in the first sentence; records is the finite verb in the second. She refers to Bih. If another possible person intervenes, repeating a name may be clearer than leaving a pronoun ambiguous."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Locate the whole phrase and clause before labelling a word. Ask what it does here. Track the intended referent and test whether a reader could reasonably identify someone else."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "noun use",
+    "meaning": "a word functioning as the head of a noun phrase"
+   },
+   {
+    "word": "pronoun reference",
+    "meaning": "the link between a pronoun and the person or thing identified"
+   },
+   {
+    "word": "finite verb",
+    "meaning": "a verb form carrying tense or agreement in its clause"
+   },
+   {
+    "word": "state verb use",
+    "meaning": "a verb expressing a condition rather than an action here"
+   }
+  ],
+  "mistake": {
+   "wrong": "Record must be the same word class in every sentence.",
+   "right": "noun use: a word functioning as the head of a noun phrase.",
+   "why": "Sentence position and function distinguish its uses."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The record is complete uses record as a noun. Explain the selected feature.",
+  "steps": [
+   "A word functioning as the head of a noun phrase.",
+   "Sentence position and function distinguish its uses."
+  ],
+  "answer": "noun use",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "el6-10-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "noun use: a word functioning as the head of a noun phrase.",
+     "pronoun reference: the link between a pronoun and the person or thing identified.",
+     "finite verb: a verb form carrying tense or agreement in its clause.",
+     "state verb use: a verb expressing a condition rather than an action here."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "el6-10-terms"
+    }
+   },
+   {
+    "id": "el6-10-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "The record is complete uses record as a noun.",
+     "Bih checked the record; she corrected it.",
+     "Bih records decisions has records as its finite verb.",
+     "The record seems complete uses seems for a state."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "el6-10-cases"
+    }
+   },
+   {
+    "id": "el6-10-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "Record must be the same word class in every sentence. Correction: Sentence position and function distinguish its uses.",
+     "A pronoun can never be unclear. Correction: Several possible referents can create ambiguity.",
+     "Every word ending in s is a plural noun. Correction: Records functions as a verb in this clause.",
+     "Every verb must describe a physical action. Correction: Verbs can express states as well as actions."
+    ],
+    "checks": [],
+    "check": {
+     "id": "el6-10-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "noun use: a word functioning as the head of a noun phrase.",
+        "truth": "true",
+        "explain": "This is correct: a word functioning as the head of a noun phrase. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "pronoun reference: the link between a pronoun and the person or thing identified.",
+        "truth": "true",
+        "explain": "This is correct: the link between a pronoun and the person or thing identified. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "finite verb: a verb form carrying tense or agreement in its clause.",
+        "truth": "true",
+        "explain": "This is correct: a verb form carrying tense or agreement in its clause. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "state verb use: a verb expressing a condition rather than an action here.",
+        "truth": "true",
+        "explain": "This is correct: a verb expressing a condition rather than an action here. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Record must be the same word class in every sentence.",
+        "truth": "false",
+        "explain": "Sentence position and function distinguish its uses."
+       },
+       {
+        "text": "A pronoun can never be unclear.",
+        "truth": "false",
+        "explain": "Several possible referents can create ambiguity."
+       },
+       {
+        "text": "Every word ending in s is a plural noun.",
+        "truth": "false",
+        "explain": "Records functions as a verb in this clause."
+       },
+       {
+        "text": "Every verb must describe a physical action.",
+        "truth": "false",
+        "explain": "Verbs can express states as well as actions."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "el6-10-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a word functioning as the head of a noun phrase?",
+       "r": "noun use",
+       "w": [
+        "pronoun reference",
+        "finite verb",
+        "state verb use"
+       ],
+       "e": [
+        "That concerns the link between a pronoun and the person or thing identified, rather than a word functioning as the head of a noun phrase.",
+        "That concerns a verb form carrying tense or agreement in its clause, rather than a word functioning as the head of a noun phrase.",
+        "That concerns a verb expressing a condition rather than an action here, rather than a word functioning as the head of a noun phrase."
+       ],
+       "y": "Sentence position and function distinguish its uses."
+      },
+      {
+       "q": "Which term means the link between a pronoun and the person or thing identified?",
+       "r": "pronoun reference",
+       "w": [
+        "noun use",
+        "finite verb",
+        "state verb use"
+       ],
+       "e": [
+        "That concerns a word functioning as the head of a noun phrase, rather than the link between a pronoun and the person or thing identified.",
+        "That concerns a verb form carrying tense or agreement in its clause, rather than the link between a pronoun and the person or thing identified.",
+        "That concerns a verb expressing a condition rather than an action here, rather than the link between a pronoun and the person or thing identified."
+       ],
+       "y": "Several possible referents can create ambiguity."
+      },
+      {
+       "q": "Which term means a verb form carrying tense or agreement in its clause?",
+       "r": "finite verb",
+       "w": [
+        "noun use",
+        "pronoun reference",
+        "state verb use"
+       ],
+       "e": [
+        "That concerns a word functioning as the head of a noun phrase, rather than a verb form carrying tense or agreement in its clause.",
+        "That concerns the link between a pronoun and the person or thing identified, rather than a verb form carrying tense or agreement in its clause.",
+        "That concerns a verb expressing a condition rather than an action here, rather than a verb form carrying tense or agreement in its clause."
+       ],
+       "y": "Records functions as a verb in this clause."
+      },
+      {
+       "q": "Which term means a verb expressing a condition rather than an action here?",
+       "r": "state verb use",
+       "w": [
+        "noun use",
+        "pronoun reference",
+        "finite verb"
+       ],
+       "e": [
+        "That concerns a word functioning as the head of a noun phrase, rather than a verb expressing a condition rather than an action here.",
+        "That concerns the link between a pronoun and the person or thing identified, rather than a verb expressing a condition rather than an action here.",
+        "That concerns a verb form carrying tense or agreement in its clause, rather than a verb expressing a condition rather than an action here."
+       ],
+       "y": "Verbs can express states as well as actions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-10-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The record is complete uses record as a noun.\nWhich description best fits the selected feature?",
+       "r": "noun use",
+       "w": [
+        "pronoun reference",
+        "finite verb",
+        "state verb use"
+       ],
+       "e": [
+        "That means the link between a pronoun and the person or thing identified. The selected feature instead illustrates a word functioning as the head of a noun phrase.",
+        "That means a verb form carrying tense or agreement in its clause. The selected feature instead illustrates a word functioning as the head of a noun phrase.",
+        "That means a verb expressing a condition rather than an action here. The selected feature instead illustrates a word functioning as the head of a noun phrase."
+       ],
+       "y": "Sentence position and function distinguish its uses."
+      },
+      {
+       "q": "Bih checked the record; she corrected it.\nWhich description best fits the selected feature?",
+       "r": "pronoun reference",
+       "w": [
+        "noun use",
+        "finite verb",
+        "state verb use"
+       ],
+       "e": [
+        "That means a word functioning as the head of a noun phrase. The selected feature instead illustrates the link between a pronoun and the person or thing identified.",
+        "That means a verb form carrying tense or agreement in its clause. The selected feature instead illustrates the link between a pronoun and the person or thing identified.",
+        "That means a verb expressing a condition rather than an action here. The selected feature instead illustrates the link between a pronoun and the person or thing identified."
+       ],
+       "y": "Several possible referents can create ambiguity."
+      },
+      {
+       "q": "Bih records decisions has records as its finite verb.\nWhich description best fits the selected feature?",
+       "r": "finite verb",
+       "w": [
+        "noun use",
+        "pronoun reference",
+        "state verb use"
+       ],
+       "e": [
+        "That means a word functioning as the head of a noun phrase. The selected feature instead illustrates a verb form carrying tense or agreement in its clause.",
+        "That means the link between a pronoun and the person or thing identified. The selected feature instead illustrates a verb form carrying tense or agreement in its clause.",
+        "That means a verb expressing a condition rather than an action here. The selected feature instead illustrates a verb form carrying tense or agreement in its clause."
+       ],
+       "y": "Records functions as a verb in this clause."
+      },
+      {
+       "q": "The record seems complete uses seems for a state.\nWhich description best fits the selected feature?",
+       "r": "state verb use",
+       "w": [
+        "noun use",
+        "pronoun reference",
+        "finite verb"
+       ],
+       "e": [
+        "That means a word functioning as the head of a noun phrase. The selected feature instead illustrates a verb expressing a condition rather than an action here.",
+        "That means the link between a pronoun and the person or thing identified. The selected feature instead illustrates a verb expressing a condition rather than an action here.",
+        "That means a verb form carrying tense or agreement in its clause. The selected feature instead illustrates a verb expressing a condition rather than an action here."
+       ],
+       "y": "Verbs can express states as well as actions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-10-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In The club will record the decision, what is record doing?",
+       "r": "Functioning as a verb after will",
+       "w": [
+        "Heading a noun phrase after the",
+        "Replacing the club as a pronoun",
+        "Describing a noun as an adjective"
+       ],
+       "e": [
+        "It follows the auxiliary will, not the determiner the.",
+        "It does not replace a referent.",
+        "It names the predicated action."
+       ],
+       "y": "Function in the clause determines the label."
+      },
+      {
+       "q": "Bih told Ngozi that she had the key. Without further context, what may need clarification?",
+       "r": "Who she refers to",
+       "w": [
+        "Whether key is mentioned",
+        "Whether Bih spoke to Ngozi",
+        "Whether the sentence has any verb"
+       ],
+       "e": [
+        "Key is explicit.",
+        "That relationship is explicit.",
+        "Told and had are verb forms."
+       ],
+       "y": "Both named people could be possible referents."
+      },
+      {
+       "q": "In The room seems quiet, why is seems a verb?",
+       "r": "It heads a predicate expressing a state",
+       "w": [
+        "Only action words can ever be verbs",
+        "It is the name of the room",
+        "Every word before an adjective is a noun"
+       ],
+       "e": [
+        "Verbs can express states.",
+        "Room names the place.",
+        "Position alone does not justify that rule."
+       ],
+       "y": "A state can be predicated without physical movement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-10-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "noun use",
+     "right": "The record is complete uses record as a noun."
+    },
+    {
+     "left": "pronoun reference",
+     "right": "Bih checked the record; she corrected it."
+    },
+    {
+     "left": "finite verb",
+     "right": "Bih records decisions has records as its finite verb."
+    },
+    {
+     "left": "state verb use",
+     "right": "The record seems complete uses seems for a state."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "el6-10-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "noun use: a word functioning as the head of a noun phrase.",
+      "truth": "true",
+      "explain": "This is correct: a word functioning as the head of a noun phrase. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "pronoun reference: the link between a pronoun and the person or thing identified.",
+      "truth": "true",
+      "explain": "This is correct: the link between a pronoun and the person or thing identified. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "finite verb: a verb form carrying tense or agreement in its clause.",
+      "truth": "true",
+      "explain": "This is correct: a verb form carrying tense or agreement in its clause. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "state verb use: a verb expressing a condition rather than an action here.",
+      "truth": "true",
+      "explain": "This is correct: a verb expressing a condition rather than an action here. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Record must be the same word class in every sentence.",
+      "truth": "false",
+      "explain": "Sentence position and function distinguish its uses."
+     },
+     {
+      "text": "A pronoun can never be unclear.",
+      "truth": "false",
+      "explain": "Several possible referents can create ambiguity."
+     },
+     {
+      "text": "Every word ending in s is a plural noun.",
+      "truth": "false",
+      "explain": "Records functions as a verb in this clause."
+     },
+     {
+      "text": "Every verb must describe a physical action.",
+      "truth": "false",
+      "explain": "Verbs can express states as well as actions."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

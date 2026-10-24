@@ -1,0 +1,588 @@
+{
+ "subject": "english-language",
+ "class": "Lower Sixth",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "el6-4",
+   "name": "Recognising narrative, descriptive, expository and argumentative texts"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A narrative organises events; description creates a picture through selected detail; exposition explains a topic or process; argument advances a claim with reasons. These functions can overlap: a narrative may describe a setting, and an argument may explain background. Classify the dominant work done by the excerpt rather than spotting an isolated word and assuming the whole text has one pure form.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to identify a dominant text function and recognise mixed features. Builds on: audience and purpose. Leads to: summary and purposeful composition."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "A narrative organises events; description creates a picture through selected detail; exposition explains a topic or process; argument advances a claim with reasons. These functions can overlap: a narrative may describe a setting, and an argument may explain background. Classify the dominant work done by the excerpt rather than spotting an isolated word and assuming the whole text has one pure form."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original models: Bih opened the hall, then discovered the missing key — narrative sequence. Dust lay along the narrow window ledge — description. A loan record links a borrower to an item — explanation. The club should retain loan records because they make returns traceable — argument. The same subject can support different text purposes."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Ask what the passage mainly does: recount events, depict, explain or argue. Support the choice with a structural feature. A first-person pronoun alone does not determine the type."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "narrative",
+    "meaning": "a text function organising events in time"
+   },
+   {
+    "word": "description",
+    "meaning": "a text function presenting selected qualities or impressions"
+   },
+   {
+    "word": "exposition",
+    "meaning": "a text function explaining a topic or process"
+   },
+   {
+    "word": "argument",
+    "meaning": "a text function advancing a claim through reasons"
+   }
+  ],
+  "mistake": {
+   "wrong": "A narrative can never include a description.",
+   "right": "narrative: a text function organising events in time.",
+   "why": "Events can be developed alongside setting or character detail."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bih opened the hall, then searched for the missing key. Explain the selected feature.",
+  "steps": [
+   "A text function organising events in time.",
+   "Events can be developed alongside setting or character detail."
+  ],
+  "answer": "narrative",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "el6-4-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "narrative: a text function organising events in time.",
+     "description: a text function presenting selected qualities or impressions.",
+     "exposition: a text function explaining a topic or process.",
+     "argument: a text function advancing a claim through reasons."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "el6-4-terms"
+    }
+   },
+   {
+    "id": "el6-4-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "Bih opened the hall, then searched for the missing key.",
+     "Dust lay along the narrow window ledge.",
+     "A loan record links a borrower to an item.",
+     "The club should keep records because returns become traceable."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "el6-4-cases"
+    }
+   },
+   {
+    "id": "el6-4-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "A narrative can never include a description. Correction: Events can be developed alongside setting or character detail.",
+     "Description must list every visible object. Correction: Details are selected to create a relevant impression.",
+     "Any explanation automatically argues for a disputed policy. Correction: Explanation can clarify without advocating a policy.",
+     "An unsupported opinion and a developed argument are identical. Correction: Argument needs reasons and an intelligible relation to its claim."
+    ],
+    "checks": [],
+    "check": {
+     "id": "el6-4-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "narrative: a text function organising events in time.",
+        "truth": "true",
+        "explain": "This is correct: a text function organising events in time. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "description: a text function presenting selected qualities or impressions.",
+        "truth": "true",
+        "explain": "This is correct: a text function presenting selected qualities or impressions. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "exposition: a text function explaining a topic or process.",
+        "truth": "true",
+        "explain": "This is correct: a text function explaining a topic or process. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "argument: a text function advancing a claim through reasons.",
+        "truth": "true",
+        "explain": "This is correct: a text function advancing a claim through reasons. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "A narrative can never include a description.",
+        "truth": "false",
+        "explain": "Events can be developed alongside setting or character detail."
+       },
+       {
+        "text": "Description must list every visible object.",
+        "truth": "false",
+        "explain": "Details are selected to create a relevant impression."
+       },
+       {
+        "text": "Any explanation automatically argues for a disputed policy.",
+        "truth": "false",
+        "explain": "Explanation can clarify without advocating a policy."
+       },
+       {
+        "text": "An unsupported opinion and a developed argument are identical.",
+        "truth": "false",
+        "explain": "Argument needs reasons and an intelligible relation to its claim."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "el6-4-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a text function organising events in time?",
+       "r": "narrative",
+       "w": [
+        "description",
+        "exposition",
+        "argument"
+       ],
+       "e": [
+        "That concerns a text function presenting selected qualities or impressions, rather than a text function organising events in time.",
+        "That concerns a text function explaining a topic or process, rather than a text function organising events in time.",
+        "That concerns a text function advancing a claim through reasons, rather than a text function organising events in time."
+       ],
+       "y": "Events can be developed alongside setting or character detail."
+      },
+      {
+       "q": "Which term means a text function presenting selected qualities or impressions?",
+       "r": "description",
+       "w": [
+        "narrative",
+        "exposition",
+        "argument"
+       ],
+       "e": [
+        "That concerns a text function organising events in time, rather than a text function presenting selected qualities or impressions.",
+        "That concerns a text function explaining a topic or process, rather than a text function presenting selected qualities or impressions.",
+        "That concerns a text function advancing a claim through reasons, rather than a text function presenting selected qualities or impressions."
+       ],
+       "y": "Details are selected to create a relevant impression."
+      },
+      {
+       "q": "Which term means a text function explaining a topic or process?",
+       "r": "exposition",
+       "w": [
+        "narrative",
+        "description",
+        "argument"
+       ],
+       "e": [
+        "That concerns a text function organising events in time, rather than a text function explaining a topic or process.",
+        "That concerns a text function presenting selected qualities or impressions, rather than a text function explaining a topic or process.",
+        "That concerns a text function advancing a claim through reasons, rather than a text function explaining a topic or process."
+       ],
+       "y": "Explanation can clarify without advocating a policy."
+      },
+      {
+       "q": "Which term means a text function advancing a claim through reasons?",
+       "r": "argument",
+       "w": [
+        "narrative",
+        "description",
+        "exposition"
+       ],
+       "e": [
+        "That concerns a text function organising events in time, rather than a text function advancing a claim through reasons.",
+        "That concerns a text function presenting selected qualities or impressions, rather than a text function advancing a claim through reasons.",
+        "That concerns a text function explaining a topic or process, rather than a text function advancing a claim through reasons."
+       ],
+       "y": "Argument needs reasons and an intelligible relation to its claim."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-4-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih opened the hall, then searched for the missing key.\nWhich description best fits the selected feature?",
+       "r": "narrative",
+       "w": [
+        "description",
+        "exposition",
+        "argument"
+       ],
+       "e": [
+        "That means a text function presenting selected qualities or impressions. The selected feature instead illustrates a text function organising events in time.",
+        "That means a text function explaining a topic or process. The selected feature instead illustrates a text function organising events in time.",
+        "That means a text function advancing a claim through reasons. The selected feature instead illustrates a text function organising events in time."
+       ],
+       "y": "Events can be developed alongside setting or character detail."
+      },
+      {
+       "q": "Dust lay along the narrow window ledge.\nWhich description best fits the selected feature?",
+       "r": "description",
+       "w": [
+        "narrative",
+        "exposition",
+        "argument"
+       ],
+       "e": [
+        "That means a text function organising events in time. The selected feature instead illustrates a text function presenting selected qualities or impressions.",
+        "That means a text function explaining a topic or process. The selected feature instead illustrates a text function presenting selected qualities or impressions.",
+        "That means a text function advancing a claim through reasons. The selected feature instead illustrates a text function presenting selected qualities or impressions."
+       ],
+       "y": "Details are selected to create a relevant impression."
+      },
+      {
+       "q": "A loan record links a borrower to an item.\nWhich description best fits the selected feature?",
+       "r": "exposition",
+       "w": [
+        "narrative",
+        "description",
+        "argument"
+       ],
+       "e": [
+        "That means a text function organising events in time. The selected feature instead illustrates a text function explaining a topic or process.",
+        "That means a text function presenting selected qualities or impressions. The selected feature instead illustrates a text function explaining a topic or process.",
+        "That means a text function advancing a claim through reasons. The selected feature instead illustrates a text function explaining a topic or process."
+       ],
+       "y": "Explanation can clarify without advocating a policy."
+      },
+      {
+       "q": "The club should keep records because returns become traceable.\nWhich description best fits the selected feature?",
+       "r": "argument",
+       "w": [
+        "narrative",
+        "description",
+        "exposition"
+       ],
+       "e": [
+        "That means a text function organising events in time. The selected feature instead illustrates a text function advancing a claim through reasons.",
+        "That means a text function presenting selected qualities or impressions. The selected feature instead illustrates a text function advancing a claim through reasons.",
+        "That means a text function explaining a topic or process. The selected feature instead illustrates a text function advancing a claim through reasons."
+       ],
+       "y": "Argument needs reasons and an intelligible relation to its claim."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-4-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Original excerpt: A request enters the register, the organiser checks availability, and a reply confirms the booking. Its main function is to explain the process. Which category fits?",
+       "r": "Expository",
+       "w": [
+        "Argumentative solely because it has verbs",
+        "Descriptive solely because it names an organiser",
+        "A poem proved by the commas"
+       ],
+       "e": [
+        "Verbs occur in many text types.",
+        "Naming a person does not establish description as dominant.",
+        "Punctuation does not prove verse."
+       ],
+       "y": "The stated dominant function is process explanation."
+      },
+      {
+       "q": "Original excerpt: The hall should stay open later because many pupils arrive after chores. Which dominant function is supported?",
+       "r": "Argumentative",
+       "w": [
+        "Only a neutral physical description",
+        "Only a list with no claim",
+        "A narrative solely because pupils are mentioned"
+       ],
+       "e": [
+        "It advocates a policy with a reason.",
+        "Should and because connect claim and reason.",
+        "Mentioning people does not establish an event sequence."
+       ],
+       "y": "Identify the proposal and its support."
+      },
+      {
+       "q": "Original excerpt: The pale walls enclosed a cool, echoing room. The dominant function is what?",
+       "r": "Descriptive",
+       "w": [
+        "An explicit policy argument",
+        "A complete sequence of several events",
+        "A set of transport calculations"
+       ],
+       "e": [
+        "No policy claim is advanced.",
+        "The line presents qualities rather than a sequence.",
+        "No quantities or calculations appear."
+       ],
+       "y": "Selected sensory qualities build an impression."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-4-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "narrative",
+     "right": "Bih opened the hall, then searched for the missing key."
+    },
+    {
+     "left": "description",
+     "right": "Dust lay along the narrow window ledge."
+    },
+    {
+     "left": "exposition",
+     "right": "A loan record links a borrower to an item."
+    },
+    {
+     "left": "argument",
+     "right": "The club should keep records because returns become traceable."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "el6-4-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "narrative: a text function organising events in time.",
+      "truth": "true",
+      "explain": "This is correct: a text function organising events in time. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "description: a text function presenting selected qualities or impressions.",
+      "truth": "true",
+      "explain": "This is correct: a text function presenting selected qualities or impressions. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "exposition: a text function explaining a topic or process.",
+      "truth": "true",
+      "explain": "This is correct: a text function explaining a topic or process. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "argument: a text function advancing a claim through reasons.",
+      "truth": "true",
+      "explain": "This is correct: a text function advancing a claim through reasons. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A narrative can never include a description.",
+      "truth": "false",
+      "explain": "Events can be developed alongside setting or character detail."
+     },
+     {
+      "text": "Description must list every visible object.",
+      "truth": "false",
+      "explain": "Details are selected to create a relevant impression."
+     },
+     {
+      "text": "Any explanation automatically argues for a disputed policy.",
+      "truth": "false",
+      "explain": "Explanation can clarify without advocating a policy."
+     },
+     {
+      "text": "An unsupported opinion and a developed argument are identical.",
+      "truth": "false",
+      "explain": "Argument needs reasons and an intelligible relation to its claim."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

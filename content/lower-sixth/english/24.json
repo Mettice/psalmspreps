@@ -1,0 +1,591 @@
+{
+ "subject": "english-language",
+ "class": "Lower Sixth",
+ "lesson_no": 24,
+ "language": "en",
+ "prerequisites": [
+  10,
+  14,
+  21,
+  23
+ ],
+ "skills": [
+  {
+   "id": "el6-24",
+   "name": "Diagnosing grammatical errors in context"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Editing requires a diagnosis before a correction. Identify the intended meaning and the relevant pattern: agreement, reference, word form or clause boundary. The nearest noun does not necessarily control a verb. A comma alone cannot join independent clauses in the taught formal model. Different acceptable English varieties may use different patterns, so distinguish the specified edited model from a claim that every local use lacks meaning.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to identify a specific error and make a meaning-preserving repair. Builds on: word roles, clause structure and reference. Leads to: comparison and descriptive drafting."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "Editing requires a diagnosis before a correction. Identify the intended meaning and the relevant pattern: agreement, reference, word form or clause boundary. The nearest noun does not necessarily control a verb. A comma alone cannot join independent clauses in the taught formal model. Different acceptable English varieties may use different patterns, so distinguish the specified edited model from a claim that every local use lacks meaning."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original editing examples: The list of items is ready agrees with list, not items. Bih spoke to Ngozi; the pronoun she may need clarification if either could be meant. We waited because the room was locked expresses a reason. We waited, the room was locked needs a suitable boundary or an explicit connector in this edited model."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Read for meaning, mark the exact faulty relationship and repair only what is needed. Check the whole result for a new error. If more than one repair is possible, state what meaning your chosen connector creates."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "agreement diagnosis",
+    "meaning": "identifying the grammatical subject controlling the finite verb"
+   },
+   {
+    "word": "reference diagnosis",
+    "meaning": "checking whether a pronoun’s intended referent is clear"
+   },
+   {
+    "word": "boundary diagnosis",
+    "meaning": "checking how independent clauses are joined"
+   },
+   {
+    "word": "meaning-preserving repair",
+    "meaning": "an edit that corrects form without inventing a different message"
+   }
+  ],
+  "mistake": {
+   "wrong": "The nearest plural noun always requires a plural verb.",
+   "right": "agreement diagnosis: identifying the grammatical subject controlling the finite verb.",
+   "why": "The head of the subject, not every nearby noun, controls this agreement."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The list of items is ready agrees with list. Explain the selected feature.",
+  "steps": [
+   "Identifying the grammatical subject controlling the finite verb.",
+   "The head of the subject, not every nearby noun, controls this agreement."
+  ],
+  "answer": "agreement diagnosis",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "el6-24-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "agreement diagnosis: identifying the grammatical subject controlling the finite verb.",
+     "reference diagnosis: checking whether a pronoun’s intended referent is clear.",
+     "boundary diagnosis: checking how independent clauses are joined.",
+     "meaning-preserving repair: an edit that corrects form without inventing a different message."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "el6-24-terms"
+    }
+   },
+   {
+    "id": "el6-24-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "The list of items is ready agrees with list.",
+     "Two named people before she may leave the referent uncertain.",
+     "A comma alone between independent clauses creates a comma splice in this model.",
+     "Because is chosen only when a reason is intended."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "el6-24-cases"
+    }
+   },
+   {
+    "id": "el6-24-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "The nearest plural noun always requires a plural verb. Correction: The head of the subject, not every nearby noun, controls this agreement.",
+     "Every pronoun has exactly one possible referent in every context. Correction: Context or repetition may be needed to clarify reference.",
+     "Every comma can replace a full stop between independent clauses. Correction: Use a suitable connector, semicolon or full stop for this relationship.",
+     "Any grammatical connector preserves exactly the same relation. Correction: Different connectors can change time, condition, reason or contrast."
+    ],
+    "checks": [],
+    "check": {
+     "id": "el6-24-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "agreement diagnosis: identifying the grammatical subject controlling the finite verb.",
+        "truth": "true",
+        "explain": "This is correct: identifying the grammatical subject controlling the finite verb. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "reference diagnosis: checking whether a pronoun’s intended referent is clear.",
+        "truth": "true",
+        "explain": "This is correct: checking whether a pronoun’s intended referent is clear. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "boundary diagnosis: checking how independent clauses are joined.",
+        "truth": "true",
+        "explain": "This is correct: checking how independent clauses are joined. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "meaning-preserving repair: an edit that corrects form without inventing a different message.",
+        "truth": "true",
+        "explain": "This is correct: an edit that corrects form without inventing a different message. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "The nearest plural noun always requires a plural verb.",
+        "truth": "false",
+        "explain": "The head of the subject, not every nearby noun, controls this agreement."
+       },
+       {
+        "text": "Every pronoun has exactly one possible referent in every context.",
+        "truth": "false",
+        "explain": "Context or repetition may be needed to clarify reference."
+       },
+       {
+        "text": "Every comma can replace a full stop between independent clauses.",
+        "truth": "false",
+        "explain": "Use a suitable connector, semicolon or full stop for this relationship."
+       },
+       {
+        "text": "Any grammatical connector preserves exactly the same relation.",
+        "truth": "false",
+        "explain": "Different connectors can change time, condition, reason or contrast."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "el6-24-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means identifying the grammatical subject controlling the finite verb?",
+       "r": "agreement diagnosis",
+       "w": [
+        "reference diagnosis",
+        "boundary diagnosis",
+        "meaning-preserving repair"
+       ],
+       "e": [
+        "That concerns checking whether a pronoun’s intended referent is clear, rather than identifying the grammatical subject controlling the finite verb.",
+        "That concerns checking how independent clauses are joined, rather than identifying the grammatical subject controlling the finite verb.",
+        "That concerns an edit that corrects form without inventing a different message, rather than identifying the grammatical subject controlling the finite verb."
+       ],
+       "y": "The head of the subject, not every nearby noun, controls this agreement."
+      },
+      {
+       "q": "Which term means checking whether a pronoun’s intended referent is clear?",
+       "r": "reference diagnosis",
+       "w": [
+        "agreement diagnosis",
+        "boundary diagnosis",
+        "meaning-preserving repair"
+       ],
+       "e": [
+        "That concerns identifying the grammatical subject controlling the finite verb, rather than checking whether a pronoun’s intended referent is clear.",
+        "That concerns checking how independent clauses are joined, rather than checking whether a pronoun’s intended referent is clear.",
+        "That concerns an edit that corrects form without inventing a different message, rather than checking whether a pronoun’s intended referent is clear."
+       ],
+       "y": "Context or repetition may be needed to clarify reference."
+      },
+      {
+       "q": "Which term means checking how independent clauses are joined?",
+       "r": "boundary diagnosis",
+       "w": [
+        "agreement diagnosis",
+        "reference diagnosis",
+        "meaning-preserving repair"
+       ],
+       "e": [
+        "That concerns identifying the grammatical subject controlling the finite verb, rather than checking how independent clauses are joined.",
+        "That concerns checking whether a pronoun’s intended referent is clear, rather than checking how independent clauses are joined.",
+        "That concerns an edit that corrects form without inventing a different message, rather than checking how independent clauses are joined."
+       ],
+       "y": "Use a suitable connector, semicolon or full stop for this relationship."
+      },
+      {
+       "q": "Which term means an edit that corrects form without inventing a different message?",
+       "r": "meaning-preserving repair",
+       "w": [
+        "agreement diagnosis",
+        "reference diagnosis",
+        "boundary diagnosis"
+       ],
+       "e": [
+        "That concerns identifying the grammatical subject controlling the finite verb, rather than an edit that corrects form without inventing a different message.",
+        "That concerns checking whether a pronoun’s intended referent is clear, rather than an edit that corrects form without inventing a different message.",
+        "That concerns checking how independent clauses are joined, rather than an edit that corrects form without inventing a different message."
+       ],
+       "y": "Different connectors can change time, condition, reason or contrast."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-24-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The list of items is ready agrees with list.\nWhich description best fits the selected feature?",
+       "r": "agreement diagnosis",
+       "w": [
+        "reference diagnosis",
+        "boundary diagnosis",
+        "meaning-preserving repair"
+       ],
+       "e": [
+        "That means checking whether a pronoun’s intended referent is clear. The selected feature instead illustrates identifying the grammatical subject controlling the finite verb.",
+        "That means checking how independent clauses are joined. The selected feature instead illustrates identifying the grammatical subject controlling the finite verb.",
+        "That means an edit that corrects form without inventing a different message. The selected feature instead illustrates identifying the grammatical subject controlling the finite verb."
+       ],
+       "y": "The head of the subject, not every nearby noun, controls this agreement."
+      },
+      {
+       "q": "Two named people before she may leave the referent uncertain.\nWhich description best fits the selected feature?",
+       "r": "reference diagnosis",
+       "w": [
+        "agreement diagnosis",
+        "boundary diagnosis",
+        "meaning-preserving repair"
+       ],
+       "e": [
+        "That means identifying the grammatical subject controlling the finite verb. The selected feature instead illustrates checking whether a pronoun’s intended referent is clear.",
+        "That means checking how independent clauses are joined. The selected feature instead illustrates checking whether a pronoun’s intended referent is clear.",
+        "That means an edit that corrects form without inventing a different message. The selected feature instead illustrates checking whether a pronoun’s intended referent is clear."
+       ],
+       "y": "Context or repetition may be needed to clarify reference."
+      },
+      {
+       "q": "A comma alone between independent clauses creates a comma splice in this model.\nWhich description best fits the selected feature?",
+       "r": "boundary diagnosis",
+       "w": [
+        "agreement diagnosis",
+        "reference diagnosis",
+        "meaning-preserving repair"
+       ],
+       "e": [
+        "That means identifying the grammatical subject controlling the finite verb. The selected feature instead illustrates checking how independent clauses are joined.",
+        "That means checking whether a pronoun’s intended referent is clear. The selected feature instead illustrates checking how independent clauses are joined.",
+        "That means an edit that corrects form without inventing a different message. The selected feature instead illustrates checking how independent clauses are joined."
+       ],
+       "y": "Use a suitable connector, semicolon or full stop for this relationship."
+      },
+      {
+       "q": "Because is chosen only when a reason is intended.\nWhich description best fits the selected feature?",
+       "r": "meaning-preserving repair",
+       "w": [
+        "agreement diagnosis",
+        "reference diagnosis",
+        "boundary diagnosis"
+       ],
+       "e": [
+        "That means identifying the grammatical subject controlling the finite verb. The selected feature instead illustrates an edit that corrects form without inventing a different message.",
+        "That means checking whether a pronoun’s intended referent is clear. The selected feature instead illustrates an edit that corrects form without inventing a different message.",
+        "That means checking how independent clauses are joined. The selected feature instead illustrates an edit that corrects form without inventing a different message."
+       ],
+       "y": "Different connectors can change time, condition, reason or contrast."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-24-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Choose the edited agreement: The list of requests ___ ready.",
+       "r": "is",
+       "w": [
+        "are",
+        "be",
+        "were being be"
+       ],
+       "e": [
+        "Requests is inside an of phrase; list is the subject head.",
+        "Be alone is not the present finite form needed.",
+        "That sequence does not form the intended predicate."
+       ],
+       "y": "The singular head list controls is."
+      },
+      {
+       "q": "Two independent clauses are intended with no causal claim: Bih checked the note, Tabe waited. Which minimal formal repair preserves that?",
+       "r": "Bih checked the note; Tabe waited.",
+       "w": [
+        "Bih checked the note Tabe waited.",
+        "Because Bih checked the note.",
+        "Bih checked the note, because Tabe always lied."
+       ],
+       "e": [
+        "Removing punctuation leaves a fused sentence.",
+        "That leaves only a dependent clause and drops the other event.",
+        "The invented cause and lying claim change the message."
+       ],
+       "y": "A semicolon can join related independent clauses without adding a cause."
+      },
+      {
+       "q": "Bih told Ngozi that she would lead. The writer means Ngozi. Which repair makes that reference explicit?",
+       "r": "Bih told Ngozi that Ngozi would lead.",
+       "w": [
+        "Bih told Ngozi that Bih would lead.",
+        "Nobody would lead.",
+        "They had never spoken."
+       ],
+       "e": [
+        "That selects the other person.",
+        "That removes the stated plan.",
+        "That contradicts the speech event."
+       ],
+       "y": "Repeating the intended name removes this ambiguity."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-24-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "agreement diagnosis",
+     "right": "The list of items is ready agrees with list."
+    },
+    {
+     "left": "reference diagnosis",
+     "right": "Two named people before she may leave the referent uncertain."
+    },
+    {
+     "left": "boundary diagnosis",
+     "right": "A comma alone between independent clauses creates a comma splice in this model."
+    },
+    {
+     "left": "meaning-preserving repair",
+     "right": "Because is chosen only when a reason is intended."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "el6-24-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "agreement diagnosis: identifying the grammatical subject controlling the finite verb.",
+      "truth": "true",
+      "explain": "This is correct: identifying the grammatical subject controlling the finite verb. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "reference diagnosis: checking whether a pronoun’s intended referent is clear.",
+      "truth": "true",
+      "explain": "This is correct: checking whether a pronoun’s intended referent is clear. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "boundary diagnosis: checking how independent clauses are joined.",
+      "truth": "true",
+      "explain": "This is correct: checking how independent clauses are joined. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "meaning-preserving repair: an edit that corrects form without inventing a different message.",
+      "truth": "true",
+      "explain": "This is correct: an edit that corrects form without inventing a different message. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The nearest plural noun always requires a plural verb.",
+      "truth": "false",
+      "explain": "The head of the subject, not every nearby noun, controls this agreement."
+     },
+     {
+      "text": "Every pronoun has exactly one possible referent in every context.",
+      "truth": "false",
+      "explain": "Context or repetition may be needed to clarify reference."
+     },
+     {
+      "text": "Every comma can replace a full stop between independent clauses.",
+      "truth": "false",
+      "explain": "Use a suitable connector, semicolon or full stop for this relationship."
+     },
+     {
+      "text": "Any grammatical connector preserves exactly the same relation.",
+      "truth": "false",
+      "explain": "Different connectors can change time, condition, reason or contrast."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,604 @@
+{
+ "subject": "english-language",
+ "class": "Lower Sixth",
+ "lesson_no": 21,
+ "language": "en",
+ "prerequisites": [
+  19,
+  20
+ ],
+ "skills": [
+  {
+   "id": "el6-21",
+   "name": "Malapropism and words often confused"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A malapropism substitutes an inappropriate word resembling the intended word in sound, often creating an unintended comic effect. Not every spelling error or joke is a malapropism. Other confused-word errors arise from near forms, meanings or grammatical roles. Check the intended idea, the sentence pattern and a dictionary entry before choosing a correction. Sound resemblance alone does not make a replacement appropriate.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to repair a contextually wrong near-sounding word and explain the intended meaning. Builds on: lexical relationships and retelling. Leads to: accurate narrative and editing."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "A malapropism substitutes an inappropriate word resembling the intended word in sound, often creating an unintended comic effect. Not every spelling error or joke is a malapropism. Other confused-word errors arise from near forms, meanings or grammatical roles. Check the intended idea, the sentence pattern and a dictionary entry before choosing a correction. Sound resemblance alone does not make a replacement appropriate."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original model error: Please give a pacific reason for changing the meeting. If the writer means an exact reason, specific is intended; pacific concerns peace. Separately, advice is a noun and advise a verb in these models: Bih gave advice; she advised the group. Correcting a word should preserve the intended message rather than merely produce a different grammatical sentence."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "State what the writer seems to mean, identify the unsuitable word and propose a context-fitting form. Explain the difference in meaning or function. Mark uncertainty if the intended meaning cannot be established."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "malapropism",
+    "meaning": "an inappropriate near-sounding substitution for an intended word"
+   },
+   {
+    "word": "meaning distinction",
+    "meaning": "a difference in sense relevant to the intended message"
+   },
+   {
+    "word": "word-class distinction",
+    "meaning": "a grammatical-role difference between confusing forms"
+   },
+   {
+    "word": "contextual correction",
+    "meaning": "a repair fitting the intended sense and sentence pattern"
+   }
+  ],
+  "mistake": {
+   "wrong": "Every spelling mistake must be a malapropism.",
+   "right": "malapropism: an inappropriate near-sounding substitution for an intended word.",
+   "why": "The taught feature involves an inappropriate sound-related word substitution."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Pacific is used where the model intends specific. Explain the selected feature.",
+  "steps": [
+   "An inappropriate near-sounding substitution for an intended word.",
+   "The taught feature involves an inappropriate sound-related word substitution."
+  ],
+  "answer": "malapropism",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "el6-21-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "malapropism: an inappropriate near-sounding substitution for an intended word.",
+     "meaning distinction: a difference in sense relevant to the intended message.",
+     "word-class distinction: a grammatical-role difference between confusing forms.",
+     "contextual correction: a repair fitting the intended sense and sentence pattern."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "el6-21-terms"
+    }
+   },
+   {
+    "id": "el6-21-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "Pacific is used where the model intends specific.",
+     "Specific concerns precision; pacific concerns peace.",
+     "Advice is the noun; advise is the verb in the model.",
+     "A request for an exact reason needs specific here."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "el6-21-cases"
+    }
+   },
+   {
+    "id": "el6-21-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "Every spelling mistake must be a malapropism. Correction: The taught feature involves an inappropriate sound-related word substitution.",
+     "Near-sounding words always have the same meaning. Correction: Resembling forms can carry different senses.",
+     "Advice and advise can always exchange sentence roles unchanged. Correction: The sentence needs the appropriate grammatical form.",
+     "Any correctly spelled replacement preserves the message. Correction: Correct spelling alone does not ensure intended meaning."
+    ],
+    "checks": [],
+    "check": {
+     "id": "el6-21-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "malapropism: an inappropriate near-sounding substitution for an intended word.",
+        "truth": "true",
+        "explain": "This is correct: an inappropriate near-sounding substitution for an intended word. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "meaning distinction: a difference in sense relevant to the intended message.",
+        "truth": "true",
+        "explain": "This is correct: a difference in sense relevant to the intended message. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "word-class distinction: a grammatical-role difference between confusing forms.",
+        "truth": "true",
+        "explain": "This is correct: a grammatical-role difference between confusing forms. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "contextual correction: a repair fitting the intended sense and sentence pattern.",
+        "truth": "true",
+        "explain": "This is correct: a repair fitting the intended sense and sentence pattern. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Every spelling mistake must be a malapropism.",
+        "truth": "false",
+        "explain": "The taught feature involves an inappropriate sound-related word substitution."
+       },
+       {
+        "text": "Near-sounding words always have the same meaning.",
+        "truth": "false",
+        "explain": "Resembling forms can carry different senses."
+       },
+       {
+        "text": "Advice and advise can always exchange sentence roles unchanged.",
+        "truth": "false",
+        "explain": "The sentence needs the appropriate grammatical form."
+       },
+       {
+        "text": "Any correctly spelled replacement preserves the message.",
+        "truth": "false",
+        "explain": "Correct spelling alone does not ensure intended meaning."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "el6-21-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means an inappropriate near-sounding substitution for an intended word?",
+       "r": "malapropism",
+       "w": [
+        "meaning distinction",
+        "word-class distinction",
+        "contextual correction"
+       ],
+       "e": [
+        "That concerns a difference in sense relevant to the intended message, rather than an inappropriate near-sounding substitution for an intended word.",
+        "That concerns a grammatical-role difference between confusing forms, rather than an inappropriate near-sounding substitution for an intended word.",
+        "That concerns a repair fitting the intended sense and sentence pattern, rather than an inappropriate near-sounding substitution for an intended word."
+       ],
+       "y": "The taught feature involves an inappropriate sound-related word substitution."
+      },
+      {
+       "q": "Which term means a difference in sense relevant to the intended message?",
+       "r": "meaning distinction",
+       "w": [
+        "malapropism",
+        "word-class distinction",
+        "contextual correction"
+       ],
+       "e": [
+        "That concerns an inappropriate near-sounding substitution for an intended word, rather than a difference in sense relevant to the intended message.",
+        "That concerns a grammatical-role difference between confusing forms, rather than a difference in sense relevant to the intended message.",
+        "That concerns a repair fitting the intended sense and sentence pattern, rather than a difference in sense relevant to the intended message."
+       ],
+       "y": "Resembling forms can carry different senses."
+      },
+      {
+       "q": "Which term means a grammatical-role difference between confusing forms?",
+       "r": "word-class distinction",
+       "w": [
+        "malapropism",
+        "meaning distinction",
+        "contextual correction"
+       ],
+       "e": [
+        "That concerns an inappropriate near-sounding substitution for an intended word, rather than a grammatical-role difference between confusing forms.",
+        "That concerns a difference in sense relevant to the intended message, rather than a grammatical-role difference between confusing forms.",
+        "That concerns a repair fitting the intended sense and sentence pattern, rather than a grammatical-role difference between confusing forms."
+       ],
+       "y": "The sentence needs the appropriate grammatical form."
+      },
+      {
+       "q": "Which term means a repair fitting the intended sense and sentence pattern?",
+       "r": "contextual correction",
+       "w": [
+        "malapropism",
+        "meaning distinction",
+        "word-class distinction"
+       ],
+       "e": [
+        "That concerns an inappropriate near-sounding substitution for an intended word, rather than a repair fitting the intended sense and sentence pattern.",
+        "That concerns a difference in sense relevant to the intended message, rather than a repair fitting the intended sense and sentence pattern.",
+        "That concerns a grammatical-role difference between confusing forms, rather than a repair fitting the intended sense and sentence pattern."
+       ],
+       "y": "Correct spelling alone does not ensure intended meaning."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-21-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Pacific is used where the model intends specific.\nWhich description best fits the selected feature?",
+       "r": "malapropism",
+       "w": [
+        "meaning distinction",
+        "word-class distinction",
+        "contextual correction"
+       ],
+       "e": [
+        "That means a difference in sense relevant to the intended message. The selected feature instead illustrates an inappropriate near-sounding substitution for an intended word.",
+        "That means a grammatical-role difference between confusing forms. The selected feature instead illustrates an inappropriate near-sounding substitution for an intended word.",
+        "That means a repair fitting the intended sense and sentence pattern. The selected feature instead illustrates an inappropriate near-sounding substitution for an intended word."
+       ],
+       "y": "The taught feature involves an inappropriate sound-related word substitution."
+      },
+      {
+       "q": "Specific concerns precision; pacific concerns peace.\nWhich description best fits the selected feature?",
+       "r": "meaning distinction",
+       "w": [
+        "malapropism",
+        "word-class distinction",
+        "contextual correction"
+       ],
+       "e": [
+        "That means an inappropriate near-sounding substitution for an intended word. The selected feature instead illustrates a difference in sense relevant to the intended message.",
+        "That means a grammatical-role difference between confusing forms. The selected feature instead illustrates a difference in sense relevant to the intended message.",
+        "That means a repair fitting the intended sense and sentence pattern. The selected feature instead illustrates a difference in sense relevant to the intended message."
+       ],
+       "y": "Resembling forms can carry different senses."
+      },
+      {
+       "q": "Advice is the noun; advise is the verb in the model.\nWhich description best fits the selected feature?",
+       "r": "word-class distinction",
+       "w": [
+        "malapropism",
+        "meaning distinction",
+        "contextual correction"
+       ],
+       "e": [
+        "That means an inappropriate near-sounding substitution for an intended word. The selected feature instead illustrates a grammatical-role difference between confusing forms.",
+        "That means a difference in sense relevant to the intended message. The selected feature instead illustrates a grammatical-role difference between confusing forms.",
+        "That means a repair fitting the intended sense and sentence pattern. The selected feature instead illustrates a grammatical-role difference between confusing forms."
+       ],
+       "y": "The sentence needs the appropriate grammatical form."
+      },
+      {
+       "q": "A request for an exact reason needs specific here.\nWhich description best fits the selected feature?",
+       "r": "contextual correction",
+       "w": [
+        "malapropism",
+        "meaning distinction",
+        "word-class distinction"
+       ],
+       "e": [
+        "That means an inappropriate near-sounding substitution for an intended word. The selected feature instead illustrates a repair fitting the intended sense and sentence pattern.",
+        "That means a difference in sense relevant to the intended message. The selected feature instead illustrates a repair fitting the intended sense and sentence pattern.",
+        "That means a grammatical-role difference between confusing forms. The selected feature instead illustrates a repair fitting the intended sense and sentence pattern."
+       ],
+       "y": "Correct spelling alone does not ensure intended meaning."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-21-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The writer wants an exact reason: Please give a pacific reason. Which repair fits?",
+       "r": "Please give a specific reason.",
+       "w": [
+        "Please give an oceanic reason.",
+        "Please give a peaceful reason.",
+        "Please give no reason."
+       ],
+       "e": [
+        "Oceanic does not mean exact.",
+        "Peaceful changes the intended precision to peacefulness.",
+        "That reverses the request."
+       ],
+       "y": "Specific expresses the stated intention."
+      },
+      {
+       "q": "Choose the verb: Please ___ the club about the change.",
+       "r": "advise",
+       "w": [
+        "advice",
+        "advisable",
+        "adviser"
+       ],
+       "e": [
+        "Advice is a noun here.",
+        "Advisable is an adjective.",
+        "Adviser names a person."
+       ],
+       "y": "After please, the request needs the base verb advise."
+      },
+      {
+       "q": "Choose the noun: Bih offered useful ___.",
+       "r": "advice",
+       "w": [
+        "advise",
+        "advisable",
+        "advising us"
+       ],
+       "e": [
+        "Advise is the verb, not the intended noun.",
+        "Advisable is adjectival.",
+        "That phrase does not fit the stated noun pattern."
+       ],
+       "y": "Advice is the uncountable noun in this use."
+      },
+      {
+       "q": "Choose the form meaning receive: The secretary will ___ the documents.",
+       "r": "accept",
+       "w": [
+        "except",
+        "acceptance",
+        "exception"
+       ],
+       "e": [
+        "Except ordinarily expresses exclusion here, not receipt.",
+        "Acceptance is a noun, not the base verb after will.",
+        "Exception names an excluded case."
+       ],
+       "y": "The intended action is acceptance, not exclusion."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-21-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "malapropism",
+     "right": "Pacific is used where the model intends specific."
+    },
+    {
+     "left": "meaning distinction",
+     "right": "Specific concerns precision; pacific concerns peace."
+    },
+    {
+     "left": "word-class distinction",
+     "right": "Advice is the noun; advise is the verb in the model."
+    },
+    {
+     "left": "contextual correction",
+     "right": "A request for an exact reason needs specific here."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "el6-21-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "malapropism: an inappropriate near-sounding substitution for an intended word.",
+      "truth": "true",
+      "explain": "This is correct: an inappropriate near-sounding substitution for an intended word. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "meaning distinction: a difference in sense relevant to the intended message.",
+      "truth": "true",
+      "explain": "This is correct: a difference in sense relevant to the intended message. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "word-class distinction: a grammatical-role difference between confusing forms.",
+      "truth": "true",
+      "explain": "This is correct: a grammatical-role difference between confusing forms. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "contextual correction: a repair fitting the intended sense and sentence pattern.",
+      "truth": "true",
+      "explain": "This is correct: a repair fitting the intended sense and sentence pattern. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every spelling mistake must be a malapropism.",
+      "truth": "false",
+      "explain": "The taught feature involves an inappropriate sound-related word substitution."
+     },
+     {
+      "text": "Near-sounding words always have the same meaning.",
+      "truth": "false",
+      "explain": "Resembling forms can carry different senses."
+     },
+     {
+      "text": "Advice and advise can always exchange sentence roles unchanged.",
+      "truth": "false",
+      "explain": "The sentence needs the appropriate grammatical form."
+     },
+     {
+      "text": "Any correctly spelled replacement preserves the message.",
+      "truth": "false",
+      "explain": "Correct spelling alone does not ensure intended meaning."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

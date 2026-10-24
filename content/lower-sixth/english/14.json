@@ -1,0 +1,604 @@
+{
+ "subject": "english-language",
+ "class": "Lower Sixth",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [
+  10,
+  13
+ ],
+ "skills": [
+  {
+   "id": "el6-14",
+   "name": "Determiners: articles, quantity and possession"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Determiners help specify a noun phrase. Articles distinguish uses such as a new proposal and the proposal already identified. The choice of a or an follows the next sound in the selected pronunciation, not simply its first letter: an hour but a useful guide. Quantifiers express amount or number; possessive forms identify a relationship. Countability depends on use: information is uncountable in the model, while an item of information is countable.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to choose a determiner that fits reference, countability and meaning. Builds on: noun phrases and prior quantifiers. Leads to: precise description and summary."
+   },
+   {
+    "heading": "Understand the pattern",
+    "text": "Determiners help specify a noun phrase. Articles distinguish uses such as a new proposal and the proposal already identified. The choice of a or an follows the next sound in the selected pronunciation, not simply its first letter: an hour but a useful guide. Quantifiers express amount or number; possessive forms identify a relationship. Countability depends on use: information is uncountable in the model, while an item of information is countable."
+   },
+   {
+    "heading": "Read the original model",
+    "text": "Original model: Bih read a proposal. The proposal concerned our library and requested some information. A introduces an unspecified proposal; the points back to the identified one; our marks a relationship; some fits the uncountable use of information. These choices guide the reader’s reference rather than merely decorating the noun."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Identify the noun and intended reference. Test countability in this use, the next sound for a/an and whether possession or quantity is intended. Do not combine incompatible determiners merely because each can occur elsewhere."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "indefinite article",
+    "meaning": "a or an introducing a singular countable noun phrase in the taught use"
+   },
+   {
+    "word": "definite article",
+    "meaning": "the used for an identifiable referent in the taught context"
+   },
+   {
+    "word": "quantity determiner",
+    "meaning": "an expression specifying amount or number"
+   },
+   {
+    "word": "possessive determiner",
+    "meaning": "a form such as our specifying a possessive relationship before a noun"
+   }
+  ],
+  "mistake": {
+   "wrong": "An must precede every word beginning with a vowel letter.",
+   "right": "indefinite article: a or an introducing a singular countable noun phrase in the taught use.",
+   "why": "The next sound, rather than the letter alone, determines a or an."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A proposal introduces a not-yet-identified proposal. Explain the selected feature.",
+  "steps": [
+   "A or an introducing a singular countable noun phrase in the taught use.",
+   "The next sound, rather than the letter alone, determines a or an."
+  ],
+  "answer": "indefinite article",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "el6-14-c1",
+    "status": "draft",
+    "idea": "Distinguish the ideas used in this lesson.",
+    "vars": {},
+    "example": [
+     "indefinite article: a or an introducing a singular countable noun phrase in the taught use.",
+     "definite article: the used for an identifiable referent in the taught context.",
+     "quantity determiner: an expression specifying amount or number.",
+     "possessive determiner: a form such as our specifying a possessive relationship before a noun."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "el6-14-terms"
+    }
+   },
+   {
+    "id": "el6-14-c2",
+    "status": "draft",
+    "idea": "Read the whole example before identifying its function.",
+    "vars": {},
+    "example": [
+     "A proposal introduces a not-yet-identified proposal.",
+     "The proposal points back to the one just introduced.",
+     "Some information refers to an uncountable amount here.",
+     "Our library relates the library to the group."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "el6-14-cases"
+    }
+   },
+   {
+    "id": "el6-14-c3",
+    "status": "draft",
+    "idea": "A correction must preserve the intended meaning and form.",
+    "vars": {},
+    "example": [
+     "An must precede every word beginning with a vowel letter. Correction: The next sound, rather than the letter alone, determines a or an.",
+     "The always means the referent is unknown to everyone. Correction: Context can identify a referent.",
+     "Many information is the taught ordinary pattern. Correction: Many fits plural countable nouns, not this use of information.",
+     "Our and ours are interchangeable before library. Correction: Our precedes the noun; ours can stand independently."
+    ],
+    "checks": [],
+    "check": {
+     "id": "el6-14-repair-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "english"
+     ],
+     "prompt": "Find the incorrect claim or language form.",
+     "pool": {
+      "right": [
+       {
+        "text": "indefinite article: a or an introducing a singular countable noun phrase in the taught use.",
+        "truth": "true",
+        "explain": "This is correct: a or an introducing a singular countable noun phrase in the taught use. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "definite article: the used for an identifiable referent in the taught context.",
+        "truth": "true",
+        "explain": "This is correct: the used for an identifiable referent in the taught context. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "quantity determiner: an expression specifying amount or number.",
+        "truth": "true",
+        "explain": "This is correct: an expression specifying amount or number. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       },
+       {
+        "text": "possessive determiner: a form such as our specifying a possessive relationship before a noun.",
+        "truth": "true",
+        "explain": "This is correct: a form such as our specifying a possessive relationship before a noun. Look for a claim that conflicts with a rule or distinction taught in Learn."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "An must precede every word beginning with a vowel letter.",
+        "truth": "false",
+        "explain": "The next sound, rather than the letter alone, determines a or an."
+       },
+       {
+        "text": "The always means the referent is unknown to everyone.",
+        "truth": "false",
+        "explain": "Context can identify a referent."
+       },
+       {
+        "text": "Many information is the taught ordinary pattern.",
+        "truth": "false",
+        "explain": "Many fits plural countable nouns, not this use of information."
+       },
+       {
+        "text": "Our and ours are interchangeable before library.",
+        "truth": "false",
+        "explain": "Our precedes the noun; ours can stand independently."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     }
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "el6-14-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a or an introducing a singular countable noun phrase in the taught use?",
+       "r": "indefinite article",
+       "w": [
+        "definite article",
+        "quantity determiner",
+        "possessive determiner"
+       ],
+       "e": [
+        "That concerns the used for an identifiable referent in the taught context, rather than a or an introducing a singular countable noun phrase in the taught use.",
+        "That concerns an expression specifying amount or number, rather than a or an introducing a singular countable noun phrase in the taught use.",
+        "That concerns a form such as our specifying a possessive relationship before a noun, rather than a or an introducing a singular countable noun phrase in the taught use."
+       ],
+       "y": "The next sound, rather than the letter alone, determines a or an."
+      },
+      {
+       "q": "Which term means the used for an identifiable referent in the taught context?",
+       "r": "definite article",
+       "w": [
+        "indefinite article",
+        "quantity determiner",
+        "possessive determiner"
+       ],
+       "e": [
+        "That concerns a or an introducing a singular countable noun phrase in the taught use, rather than the used for an identifiable referent in the taught context.",
+        "That concerns an expression specifying amount or number, rather than the used for an identifiable referent in the taught context.",
+        "That concerns a form such as our specifying a possessive relationship before a noun, rather than the used for an identifiable referent in the taught context."
+       ],
+       "y": "Context can identify a referent."
+      },
+      {
+       "q": "Which term means an expression specifying amount or number?",
+       "r": "quantity determiner",
+       "w": [
+        "indefinite article",
+        "definite article",
+        "possessive determiner"
+       ],
+       "e": [
+        "That concerns a or an introducing a singular countable noun phrase in the taught use, rather than an expression specifying amount or number.",
+        "That concerns the used for an identifiable referent in the taught context, rather than an expression specifying amount or number.",
+        "That concerns a form such as our specifying a possessive relationship before a noun, rather than an expression specifying amount or number."
+       ],
+       "y": "Many fits plural countable nouns, not this use of information."
+      },
+      {
+       "q": "Which term means a form such as our specifying a possessive relationship before a noun?",
+       "r": "possessive determiner",
+       "w": [
+        "indefinite article",
+        "definite article",
+        "quantity determiner"
+       ],
+       "e": [
+        "That concerns a or an introducing a singular countable noun phrase in the taught use, rather than a form such as our specifying a possessive relationship before a noun.",
+        "That concerns the used for an identifiable referent in the taught context, rather than a form such as our specifying a possessive relationship before a noun.",
+        "That concerns an expression specifying amount or number, rather than a form such as our specifying a possessive relationship before a noun."
+       ],
+       "y": "Our precedes the noun; ours can stand independently."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-14-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A proposal introduces a not-yet-identified proposal.\nWhich description best fits the selected feature?",
+       "r": "indefinite article",
+       "w": [
+        "definite article",
+        "quantity determiner",
+        "possessive determiner"
+       ],
+       "e": [
+        "That means the used for an identifiable referent in the taught context. The selected feature instead illustrates a or an introducing a singular countable noun phrase in the taught use.",
+        "That means an expression specifying amount or number. The selected feature instead illustrates a or an introducing a singular countable noun phrase in the taught use.",
+        "That means a form such as our specifying a possessive relationship before a noun. The selected feature instead illustrates a or an introducing a singular countable noun phrase in the taught use."
+       ],
+       "y": "The next sound, rather than the letter alone, determines a or an."
+      },
+      {
+       "q": "The proposal points back to the one just introduced.\nWhich description best fits the selected feature?",
+       "r": "definite article",
+       "w": [
+        "indefinite article",
+        "quantity determiner",
+        "possessive determiner"
+       ],
+       "e": [
+        "That means a or an introducing a singular countable noun phrase in the taught use. The selected feature instead illustrates the used for an identifiable referent in the taught context.",
+        "That means an expression specifying amount or number. The selected feature instead illustrates the used for an identifiable referent in the taught context.",
+        "That means a form such as our specifying a possessive relationship before a noun. The selected feature instead illustrates the used for an identifiable referent in the taught context."
+       ],
+       "y": "Context can identify a referent."
+      },
+      {
+       "q": "Some information refers to an uncountable amount here.\nWhich description best fits the selected feature?",
+       "r": "quantity determiner",
+       "w": [
+        "indefinite article",
+        "definite article",
+        "possessive determiner"
+       ],
+       "e": [
+        "That means a or an introducing a singular countable noun phrase in the taught use. The selected feature instead illustrates an expression specifying amount or number.",
+        "That means the used for an identifiable referent in the taught context. The selected feature instead illustrates an expression specifying amount or number.",
+        "That means a form such as our specifying a possessive relationship before a noun. The selected feature instead illustrates an expression specifying amount or number."
+       ],
+       "y": "Many fits plural countable nouns, not this use of information."
+      },
+      {
+       "q": "Our library relates the library to the group.\nWhich description best fits the selected feature?",
+       "r": "possessive determiner",
+       "w": [
+        "indefinite article",
+        "definite article",
+        "quantity determiner"
+       ],
+       "e": [
+        "That means a or an introducing a singular countable noun phrase in the taught use. The selected feature instead illustrates a form such as our specifying a possessive relationship before a noun.",
+        "That means the used for an identifiable referent in the taught context. The selected feature instead illustrates a form such as our specifying a possessive relationship before a noun.",
+        "That means an expression specifying amount or number. The selected feature instead illustrates a form such as our specifying a possessive relationship before a noun."
+       ],
+       "y": "Our precedes the noun; ours can stand independently."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-14-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Choose the model article: ___ hour remained.",
+       "r": "An",
+       "w": [
+        "A",
+        "Many",
+        "Ours"
+       ],
+       "e": [
+        "Hour begins with a vowel sound in this model.",
+        "Hour is singular here.",
+        "Ours cannot determine hour this way."
+       ],
+       "y": "The article follows sound, not the silent initial letter."
+      },
+      {
+       "q": "Choose the model article: It is ___ useful guide.",
+       "r": "a",
+       "w": [
+        "an",
+        "many",
+        "ours"
+       ],
+       "e": [
+        "Useful begins with a consonant /j/ sound in this model.",
+        "Guide is singular here.",
+        "Ours does not determine guide this way."
+       ],
+       "y": "Use a before the consonant onset in useful."
+      },
+      {
+       "q": "Choose the ordinary uncountable pattern: We need ___.",
+       "r": "some information",
+       "w": [
+        "an information",
+        "many information",
+        "a few information"
+       ],
+       "e": [
+        "Use an item of information for a countable unit.",
+        "Many normally requires a plural countable noun.",
+        "A few requires plural countable items."
+       ],
+       "y": "Match the quantity form to the noun’s use."
+      },
+      {
+       "q": "Bih read a report. ___ report proposed a library trial. Choose the reference back to the same report.",
+       "r": "The",
+       "w": [
+        "An",
+        "Many",
+        "Ours"
+       ],
+       "e": [
+        "Report starts with a consonant sound and the referent is already identified.",
+        "Report is singular here.",
+        "Ours does not determine report this way."
+       ],
+       "y": "The points back to the identified report."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "el6-14-link",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Match each term to its example.",
+   "pool": [
+    {
+     "left": "indefinite article",
+     "right": "A proposal introduces a not-yet-identified proposal."
+    },
+    {
+     "left": "definite article",
+     "right": "The proposal points back to the one just introduced."
+    },
+    {
+     "left": "quantity determiner",
+     "right": "Some information refers to an uncountable amount here."
+    },
+    {
+     "left": "possessive determiner",
+     "right": "Our library relates the library to the group."
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "el6-14-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "english"
+   ],
+   "prompt": "Find the incorrect claim or language form.",
+   "pool": {
+    "right": [
+     {
+      "text": "indefinite article: a or an introducing a singular countable noun phrase in the taught use.",
+      "truth": "true",
+      "explain": "This is correct: a or an introducing a singular countable noun phrase in the taught use. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "definite article: the used for an identifiable referent in the taught context.",
+      "truth": "true",
+      "explain": "This is correct: the used for an identifiable referent in the taught context. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "quantity determiner: an expression specifying amount or number.",
+      "truth": "true",
+      "explain": "This is correct: an expression specifying amount or number. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     },
+     {
+      "text": "possessive determiner: a form such as our specifying a possessive relationship before a noun.",
+      "truth": "true",
+      "explain": "This is correct: a form such as our specifying a possessive relationship before a noun. Look for a claim that conflicts with a rule or distinction taught in Learn."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "An must precede every word beginning with a vowel letter.",
+      "truth": "false",
+      "explain": "The next sound, rather than the letter alone, determines a or an."
+     },
+     {
+      "text": "The always means the referent is unknown to everyone.",
+      "truth": "false",
+      "explain": "Context can identify a referent."
+     },
+     {
+      "text": "Many information is the taught ordinary pattern.",
+      "truth": "false",
+      "explain": "Many fits plural countable nouns, not this use of information."
+     },
+     {
+      "text": "Our and ours are interchangeable before library.",
+      "truth": "false",
+      "explain": "Our precedes the noun; ours can stand independently."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
