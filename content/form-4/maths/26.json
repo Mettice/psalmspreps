@@ -1,0 +1,560 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 26,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "m4-26",
+   "name": "Simplify surds, rationalise denominators and bound an irrational number"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A surd is a root that is not a whole number, such as √2 or 3√5. Leave it exact unless a decimal is asked for.\n• Simplify: take out the largest square factor. √72 = √(36 × 2) = 6√2.\n• Like surds add like terms: 3√2 + 5√2 = 8√2. √8 + √18 = 2√2 + 3√2 = 5√2.\n• √a × √b = √(ab); √a × √a = a.\n• Rationalise a denominator: 6/√3 = 6√3/3 = 2√3. For 1/(√5 − 2) multiply top and bottom by √5 + 2: (√5 + 2)/(5 − 4) = √5 + 2.\n• Bounds: 36 < 40 < 49, so 6 < √40 < 7.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to simplify and add surds, rationalise denominators (including √a − b) and place a root between two whole numbers.\nBuilds on: Form Three square roots and Lesson {3} (the difference of two squares).\nLeads to: exact answers in trigonometry, the quadratic formula and Form Five surd equations."
+   },
+   {
+    "heading": "Simplifying and adding",
+    "text": "√{72} is not a whole number, but it can be simplified. Look for the largest square factor: {72} = {36} × {2}.\n√{72} = √{36} × √{2} = {surd(72)}.\nSurds with the same root are like terms: {surd(8)} + {surd(18)} = {surd(2, 2)} + {surd(2, 3)} = {surd(2, 5)}.\nBut √{2} + √{3} cannot be combined, and √{9} + √{16} = {7}, not √{25}.\nBounds: {36} < {40} < {49}, so {6} < √{40} < {7}."
+   },
+   {
+    "heading": "Rationalising",
+    "text": "A root in the denominator is usually removed.\n• {6}/√{3}: multiply top and bottom by √{3}: {6}√{3}/{3} = {surd(3, 2)}.\n• {1}/(√{5} − {2}): multiply by the conjugate √{5} + {2}. The bottom becomes {5} − {4} = {1} (a difference of two squares), so the answer is √{5} + {2}.\nMultiplying top and bottom by the same thing does not change the value, only its form."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "surd",
+    "meaning": "an exact root that is not a whole number, such as √{2}"
+   },
+   {
+    "word": "rationalise",
+    "meaning": "rewrite with no root in the denominator"
+   },
+   {
+    "word": "conjugate",
+    "meaning": "the same two terms with the middle sign changed: √{5} + {2} for √{5} − {2}"
+   }
+  ],
+  "examples": [
+   "√{48} = {surd(48)}",
+   "{surd(5, 3)} − √{5} = {surd(5, 2)}",
+   "{10}/√{5} = {surd(5, 2)}"
+  ],
+  "mistake": {
+   "wrong": "√{9} + √{16} = √{25} = {5}",
+   "right": "√{9} + √{16} = {3} + {4} = {7}",
+   "why": "Roots do not add under one root sign. Simplify each first."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "k": 6,
+   "m": 2
+  },
+  "problem": "Simplify √{k * k * m}.",
+  "steps": [
+   "Look for the largest square number that divides {k * k * m}: {k * k}.",
+   "√{k * k * m} = √({k * k} × {m}) = √{k * k} × √{m}.",
+   "√{k * k} = {k}."
+  ],
+  "answer": "{surd(k * k * m)}",
+  "checks": [
+   "k * k * m == 72"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m26-1",
+    "status": "draft",
+    "idea": "Take out the largest square factor: √(a²b) = a√b.",
+    "vars": {},
+    "example": [
+     "√{50} = √({25} × {2}) = {surd(50)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-26-simp"
+    }
+   },
+   {
+    "id": "c4m26-2",
+    "status": "draft",
+    "idea": "Like surds can be added: they work like like terms.",
+    "vars": {},
+    "example": [
+     "{surd(8)} + {surd(18)} = {surd(2, 5)}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-26-add-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "surds"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        1,
+        5
+       ]
+      },
+      "b": {
+       "int": [
+        2,
+        6
+       ]
+      },
+      "m": {
+       "pick": [
+        2,
+        3,
+        5,
+        6,
+        7
+       ]
+      }
+     },
+     "prompt": "Simplify √{a * a * m} + √{b * b * m}.",
+     "correct": "{surd(m, a + b)}",
+     "distractors": [
+      {
+       "text": "√{a * a * m + b * b * m}",
+       "misconception": "addunder"
+      },
+      {
+       "text": "{surd(2 * m, a + b)}",
+       "misconception": "double"
+      },
+      {
+       "text": "{surd(m, a * b)}",
+       "misconception": "mult"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "addunder",
+       "explain": "√x + √y is not √(x + y). Simplify each surd, then add."
+      },
+      {
+       "id": "double",
+       "explain": "Adding √{m} to √{m} gives {2}√{m}, not √{2 * m}."
+      },
+      {
+       "id": "mult",
+       "explain": "Add the coefficients, do not multiply: {a} + {b} = {a + b}."
+      }
+     ],
+     "solution": [
+      "√{a * a * m} = {surd(a * a * m)} and √{b * b * m} = {surd(b * b * m)}.",
+      "Like surds: {a} + {b} = {a + b} lots of √{m}.",
+      "So the answer is {answer}."
+     ],
+     "where": [
+      "a != b",
+      "a * b != a + b"
+     ]
+    }
+   },
+   {
+    "id": "c4m26-3",
+    "status": "draft",
+    "idea": "To rationalise a/√b, multiply top and bottom by √b.",
+    "vars": {},
+    "example": [
+     "{6}/√{3} = {6}√{3}/{3} = {surd(3, 2)}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-26-rat-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "surds"
+     ],
+     "vars": {
+      "j": {
+       "int": [
+        2,
+        6
+       ]
+      },
+      "b": {
+       "pick": [
+        2,
+        3,
+        5,
+        6,
+        7
+       ]
+      }
+     },
+     "prompt": "Rationalise the denominator of {j * b}/√{b}.",
+     "correct": "{surd(b, j)}",
+     "distractors": [
+      {
+       "text": "{surd(b, j * b)}",
+       "misconception": "nodiv"
+      },
+      {
+       "text": "{j}/√{b}",
+       "misconception": "half"
+      },
+      {
+       "text": "{j * b}",
+       "misconception": "drop"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "nodiv",
+       "explain": "After multiplying, the bottom is √{b} × √{b} = {b}: divide {j * b} by it."
+      },
+      {
+       "id": "half",
+       "explain": "The denominator still has a root. Multiply top and bottom by √{b}."
+      },
+      {
+       "id": "drop",
+       "explain": "√{b} × √{b} = {b}, and {j * b}√{b} ÷ {b} still has √{b}."
+      }
+     ],
+     "solution": [
+      "Multiply top and bottom by √{b}: {j * b}√{b}/{b}.",
+      "{j * b} ÷ {b} = {j}.",
+      "So the answer is {answer}."
+     ],
+     "where": [
+      "j != b"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-26-simp",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "surds"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      7
+     ]
+    },
+    "m": {
+     "pick": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      10,
+      11
+     ]
+    }
+   },
+   "prompt": "Simplify √{k * k * m}.",
+   "correct": "{surd(k * k * m)}",
+   "distractors": [
+    {
+     "text": "{k * k}√{m}",
+     "misconception": "noroot"
+    },
+    {
+     "text": "{m}√{k}",
+     "misconception": "swap"
+    },
+    {
+     "text": "{surd(m, k * m)}",
+     "misconception": "times"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "noroot",
+     "explain": "Take the square root of {k * k}: it is {k}, not {k * k}."
+    },
+    {
+     "id": "swap",
+     "explain": "{k * k} is the square factor, so {k} comes out and {m} stays under the root."
+    },
+    {
+     "id": "times",
+     "explain": "Only the square root of the square factor comes out: {k}, not {k * m}."
+    }
+   ],
+   "solution": [
+    "√{k * k * m} = √({k * k} × {m}) = √{k * k} × √{m}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "k != m"
+   ]
+  },
+  {
+   "id": "m4-26-bound",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "surds"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      10,
+      150
+     ]
+    }
+   },
+   "prompt": "√{n} lies between two consecutive whole numbers. What is the smaller one?",
+   "answer": "sqrtFloor(n)",
+   "misconceptions": [
+    {
+     "id": "half",
+     "wrong": "floor(n / 2)",
+     "explain": "√{n} is not half of {n}: find the squares on each side of {n}."
+    },
+    {
+     "id": "upper",
+     "wrong": "sqrtFloor(n) + 1",
+     "explain": "That is the larger one."
+    }
+   ],
+   "solution": [
+    "{sqrtFloor(n) * sqrtFloor(n)} < {n} < {(sqrtFloor(n) + 1) * (sqrtFloor(n) + 1)}.",
+    "So {sqrtFloor(n)} < √{n} < {sqrtFloor(n) + 1}.",
+    "The smaller is {answer}."
+   ],
+   "where": [
+    "!isPerfectSquare(n)"
+   ]
+  },
+  {
+   "id": "m4-26-add",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "surds"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "m": {
+     "pick": [
+      2,
+      3,
+      5,
+      6,
+      7
+     ]
+    }
+   },
+   "prompt": "Simplify √{a * a * m} + √{b * b * m}.",
+   "correct": "{surd(m, a + b)}",
+   "distractors": [
+    {
+     "text": "√{a * a * m + b * b * m}",
+     "misconception": "addunder"
+    },
+    {
+     "text": "{surd(2 * m, a + b)}",
+     "misconception": "double"
+    },
+    {
+     "text": "{surd(m, a * b)}",
+     "misconception": "mult"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "addunder",
+     "explain": "√x + √y is not √(x + y). Simplify each surd, then add."
+    },
+    {
+     "id": "double",
+     "explain": "Adding √{m} to √{m} gives {2}√{m}, not √{2 * m}."
+    },
+    {
+     "id": "mult",
+     "explain": "Add the coefficients, do not multiply: {a} + {b} = {a + b}."
+    }
+   ],
+   "solution": [
+    "√{a * a * m} = {surd(a * a * m)} and √{b * b * m} = {surd(b * b * m)}.",
+    "Like surds: {a} + {b} = {a + b} lots of √{m}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "a != b",
+    "a * b != a + b"
+   ]
+  },
+  {
+   "id": "m4-26-rat",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "surds"
+   ],
+   "vars": {
+    "j": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "b": {
+     "pick": [
+      2,
+      3,
+      5,
+      6,
+      7
+     ]
+    }
+   },
+   "prompt": "Rationalise the denominator of {j * b}/√{b}.",
+   "correct": "{surd(b, j)}",
+   "distractors": [
+    {
+     "text": "{surd(b, j * b)}",
+     "misconception": "nodiv"
+    },
+    {
+     "text": "{j}/√{b}",
+     "misconception": "half"
+    },
+    {
+     "text": "{j * b}",
+     "misconception": "drop"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "nodiv",
+     "explain": "After multiplying, the bottom is √{b} × √{b} = {b}: divide {j * b} by it."
+    },
+    {
+     "id": "half",
+     "explain": "The denominator still has a root. Multiply top and bottom by √{b}."
+    },
+    {
+     "id": "drop",
+     "explain": "√{b} × √{b} = {b}, and {j * b}√{b} ÷ {b} still has √{b}."
+    }
+   ],
+   "solution": [
+    "Multiply top and bottom by √{b}: {j * b}√{b}/{b}.",
+    "{j * b} ÷ {b} = {j}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "j != b"
+   ]
+  },
+  {
+   "id": "m4-26-conj",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "surds"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      2,
+      3,
+      5,
+      6,
+      7,
+      10,
+      11,
+      13,
+      15
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      3
+     ]
+    }
+   },
+   "prompt": "Rationalise {1}/(√{a} − {b}).",
+   "correct": "{a - b * b == 1 ? '√' + a + ' + ' + b : '(√' + a + ' + ' + b + ')/' + fmt(a - b * b)}",
+   "distractors": [
+    {
+     "text": "{a - b * b == 1 ? '√' + a + ' − ' + b : '(√' + a + ' − ' + b + ')/' + fmt(a - b * b)}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{'(√' + a + ' + ' + b + ')/' + fmt(a + b * b)}",
+     "misconception": "plus"
+    },
+    {
+     "text": "{'(√' + a + ' + ' + b + ')/' + fmt(a - b)}",
+     "misconception": "nosq"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "sign",
+     "explain": "Multiply by the conjugate √{a} + {b}: the sign changes."
+    },
+    {
+     "id": "plus",
+     "explain": "(√{a} − {b})(√{a} + {b}) = {a} − {b}², a difference of two squares."
+    },
+    {
+     "id": "nosq",
+     "explain": "The second term is squared too: {b}² = {b * b}."
+    }
+   ],
+   "solution": [
+    "Multiply top and bottom by √{a} + {b}.",
+    "Bottom: (√{a} − {b})(√{a} + {b}) = {a} − {b * b} = {a - b * b}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "a - b * b != 0",
+    "a - b * b != a - b",
+    "a - b * b != a + b * b"
+   ]
+  }
+ ]
+}

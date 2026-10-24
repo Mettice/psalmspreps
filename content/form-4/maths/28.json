@@ -1,0 +1,422 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 28,
+ "language": "en",
+ "prerequisites": [
+  27
+ ],
+ "skills": [
+  {
+   "id": "m4-28",
+   "name": "Use the laws of logarithms and solve logarithmic and exponential equations"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "log_b x = y means bʸ = x. So log_2 8 = 3 because 2³ = 8.\nLaws: log(xy) = log x + log y; log(x/y) = log x − log y; log xⁿ = n log x; log_b b = 1; log_b 1 = 0.\nLogarithmic equations: rewrite as a power. log_3(x + 1) = 2 → x + 1 = 3² → x = 8.\nExponential equations with unmatched bases: take logs. 2ˣ = 7 → x log 2 = log 7 → x = log 7 ÷ log 2 ≈ 2.81.\nNote: log x + log y is NOT log(x + y).",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to use the laws of logarithms, solve log equations by rewriting them as powers, and solve bˣ = n by taking logs.\nBuilds on: Form Three logarithms and Lesson {27} (exponential equations).\nLeads to: growth and decay problems (interest, populations) and Form Five logarithmic functions."
+   },
+   {
+    "heading": "Laws, revised",
+    "text": "log_b x = y means b{sup('y')} = x. For example log₂ {8} = {3} and log₁₀ {1000} = {3}.\n• log x + log y = log(xy)  • log x − log y = log(x/y)  • log xⁿ = n log x\n• log_b b = {1} and log_b {1} = {0}.\nExample: log₆ {4} + log₆ {9} = log₆ {36} = {2}.\nWarning: log x + log y is not log(x + y), and log x ÷ log y is not log(x − y)."
+   },
+   {
+    "heading": "Solving",
+    "text": "• A log equation: rewrite as a power. log₃(x + {1}) = {2} → x + {1} = {3}{sup(2)} = {9} → x = {8}.\n• Combine logs first: log₂ x + log₂ {4} = {5} → log₂ {4}x = {5} → {4}x = {32} → x = {8}.\n• An exponential equation whose sides are not powers of the same base: take logs.\n{2}ˣ = {7} → x log {2} = log {7} → x = {roundTo(log10(7), 0.0001)} ÷ {roundTo(log10(2), 0.0001)} ≈ {roundTo(log10(7) / log10(2), 0.01)}.\nCheck: {2}{sup(2)} = {4} < {7} < {8} = {2}{sup(3)}, so x is between {2} and {3}."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "logarithm",
+    "meaning": "the index: log_b x is the power of b that gives x"
+   },
+   {
+    "word": "base",
+    "meaning": "b in log_b x; log means log₁₀ on a calculator"
+   },
+   {
+    "word": "take logs",
+    "meaning": "apply log to both sides of an equation"
+   }
+  ],
+  "examples": [
+   "log₅ {125} = {3}",
+   "log {2} + log {50} = log {100} = {2}",
+   "{5}ˣ = {30} → x ≈ {roundTo(log10(30) / log10(5), 0.01)}"
+  ],
+  "mistake": {
+   "wrong": "log {2} + log {3} = log {5}",
+   "right": "log {2} + log {3} = log {6}",
+   "why": "Adding logs multiplies the numbers inside: {2} × {3} = {6}."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "b": 2,
+   "n": 7
+  },
+  "problem": "Solve {b}ˣ = {n}, giving x to {2} decimal places.",
+  "steps": [
+   "{n} is not a power of {b}, so take logs of both sides: log({b}ˣ) = log {n}.",
+   "Power law: x log {b} = log {n}.",
+   "x = log {n} ÷ log {b} = {roundTo(log10(n), 0.0001)} ÷ {roundTo(log10(b), 0.0001)}."
+  ],
+  "answer": "x ≈ {roundTo(log10(n) / log10(b), 0.01)}",
+  "checks": [
+   "roundTo(log10(n) / log10(b), 0.01) == 2.81"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m28-1",
+    "status": "draft",
+    "idea": "log_b x asks: b to what power gives x?",
+    "vars": {},
+    "example": [
+     "log₂ {32} = {5}, because {2}{sup(5)} = {32}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-28-value"
+    }
+   },
+   {
+    "id": "c4m28-2",
+    "status": "draft",
+    "idea": "Adding logs multiplies the numbers inside; subtracting divides them.",
+    "vars": {},
+    "example": [
+     "log₆ {4} + log₆ {9} = log₆ {36} = {2}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-28-law"
+    }
+   },
+   {
+    "id": "c4m28-3",
+    "status": "draft",
+    "idea": "Take logs to bring an unknown index down: log(bˣ) = x log b.",
+    "vars": {},
+    "example": [
+     "{3}ˣ = {20} → x = log {20} ÷ log {3} ≈ {roundTo(log10(20) / log10(3), 0.01)}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-28-exp-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "indices-logs"
+     ],
+     "vars": {
+      "b": {
+       "pick": [
+        2,
+        3,
+        5,
+        7
+       ]
+      },
+      "n": {
+       "int": [
+        5,
+        90
+       ]
+      }
+     },
+     "prompt": "Solve {b}ˣ = {n}, giving x to {2} decimal places.",
+     "answer": "roundTo(log10(n) / log10(b), 0.01)",
+     "misconceptions": [
+      {
+       "id": "div",
+       "wrong": "roundTo(n / b, 0.01)",
+       "explain": "Divide the logs, not the numbers: log {n} ÷ log {b}."
+      },
+      {
+       "id": "sub",
+       "wrong": "roundTo(log10(n) - log10(b), 0.01)",
+       "explain": "x log {b} = log {n}: divide by log {b}; log {n} − log {b} is log({n}/{b})."
+      }
+     ],
+     "solution": [
+      "Take logs: x log {b} = log {n}.",
+      "x = log {n} ÷ log {b} = {roundTo(log10(n), 0.0001)} ÷ {roundTo(log10(b), 0.0001)}.",
+      "x ≈ {answer}."
+     ],
+     "where": [
+      "abs(logb(b, n) - round(logb(b, n))) > 0.01",
+      "abs(log10(n) / log10(b) * 1000 - round(log10(n) / log10(b) * 1000)) > 0.01 || abs(round(log10(n) / log10(b) * 1000)) % 10 != 5"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-28-value",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "b": {
+     "pick": [
+      2,
+      3,
+      4,
+      5,
+      10
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      5
+     ]
+    }
+   },
+   "prompt": "Find log{sub(b)} {b ^ k}.",
+   "answer": "k",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "b ^ k / b",
+     "explain": "The log is the index, not {b ^ k} ÷ {b}."
+    }
+   ],
+   "solution": [
+    "log{sub(b)} {b ^ k} asks: {b} to what power gives {b ^ k}?",
+    "{b}{sup(k)} = {b ^ k}, so the answer is {answer}."
+   ],
+   "where": [
+    "b ^ k <= 100000"
+   ]
+  },
+  {
+   "id": "m4-28-law",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "b": {
+     "pick": [
+      2,
+      3,
+      6,
+      10
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      4
+     ]
+    },
+    "x": {
+     "pick": [
+      2,
+      3,
+      4,
+      5,
+      8,
+      9,
+      20,
+      25,
+      50
+     ]
+    },
+    "y": {
+     "expr": "b ^ k / x"
+    }
+   },
+   "prompt": "Find log{sub(b)} {x} + log{sub(b)} {y}.",
+   "answer": "k",
+   "solution": [
+    "log{sub(b)} {x} + log{sub(b)} {y} = log{sub(b)} ({x} × {y}) = log{sub(b)} {x * y}.",
+    "{x * y} = {b}{sup(k)}, so the answer is {answer}."
+   ],
+   "where": [
+    "y == round(y)",
+    "y > 1"
+   ]
+  },
+  {
+   "id": "m4-28-eq",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "b": {
+     "pick": [
+      2,
+      3,
+      5,
+      10
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      4
+     ]
+    },
+    "d": {
+     "int": [
+      1,
+      9
+     ]
+    }
+   },
+   "prompt": "Solve log{sub(b)}(x + {d}) = {k}.",
+   "answer": "b ^ k - d",
+   "misconceptions": [
+    {
+     "id": "times",
+     "wrong": "b * k - d",
+     "explain": "{b}{sup(k)} means {b} to the power {k}, not {b} × {k}."
+    },
+    {
+     "id": "plus",
+     "wrong": "b ^ k + d",
+     "explain": "Subtract {d} from both sides."
+    }
+   ],
+   "solution": [
+    "Rewrite as a power: x + {d} = {b}{sup(k)} = {b ^ k}.",
+    "x = {b ^ k} − {d} = {answer}."
+   ],
+   "where": [
+    "b ^ k <= 10000",
+    "b * k != b ^ k",
+    "b ^ k > d"
+   ]
+  },
+  {
+   "id": "m4-28-two",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "b": {
+     "pick": [
+      2,
+      3,
+      10
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      4
+     ]
+    },
+    "c": {
+     "pick": [
+      2,
+      4,
+      5,
+      9,
+      25
+     ]
+    }
+   },
+   "prompt": "Solve log{sub(b)} x + log{sub(b)} {c} = {k}.",
+   "answer": "b ^ k / c",
+   "misconceptions": [
+    {
+     "id": "sub",
+     "wrong": "b ^ k - c",
+     "explain": "log x + log {c} = log({c}x): divide by {c}, do not subtract."
+    },
+    {
+     "id": "power",
+     "wrong": "b ^ (k - 1)",
+     "explain": "Rewrite the whole equation first: {c}x = {b ^ k}.",
+     "when": "c != b"
+    }
+   ],
+   "solution": [
+    "Combine: log{sub(b)} ({c}x) = {k}.",
+    "{c}x = {b}{sup(k)} = {b ^ k}.",
+    "x = {b ^ k} ÷ {c} = {answer}."
+   ],
+   "where": [
+    "(b ^ k) % c == 0",
+    "b ^ k / c > 1",
+    "b ^ k <= 10000"
+   ]
+  },
+  {
+   "id": "m4-28-exp",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "b": {
+     "pick": [
+      2,
+      3,
+      5,
+      7
+     ]
+    },
+    "n": {
+     "int": [
+      5,
+      90
+     ]
+    }
+   },
+   "prompt": "Solve {b}ˣ = {n}, giving x to {2} decimal places.",
+   "answer": "roundTo(log10(n) / log10(b), 0.01)",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "roundTo(n / b, 0.01)",
+     "explain": "Divide the logs, not the numbers: log {n} ÷ log {b}."
+    },
+    {
+     "id": "sub",
+     "wrong": "roundTo(log10(n) - log10(b), 0.01)",
+     "explain": "x log {b} = log {n}: divide by log {b}; log {n} − log {b} is log({n}/{b})."
+    }
+   ],
+   "solution": [
+    "Take logs: x log {b} = log {n}.",
+    "x = log {n} ÷ log {b} = {roundTo(log10(n), 0.0001)} ÷ {roundTo(log10(b), 0.0001)}.",
+    "x ≈ {answer}."
+   ],
+   "where": [
+    "abs(logb(b, n) - round(logb(b, n))) > 0.01",
+    "abs(log10(n) / log10(b) * 1000 - round(log10(n) / log10(b) * 1000)) > 0.01 || abs(round(log10(n) / log10(b) * 1000)) % 10 != 5"
+   ]
+  }
+ ]
+}

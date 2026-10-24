@@ -16,7 +16,9 @@ export function fmt(n) {
   const grouped = int.length > 4 ? int.replace(/\B(?=(\d{3})+(?!\d))/g, NBSP) : int;
   return (neg ? "−" : "") + grouped + (frac ? "." + frac : "");
 }
-export const sup = (n) => String(n).replace(/[0-9]/g, (d) => SUP[d]);
+// signs, brackets and the letters used in indices are raised too (2026-10-24: 10⁻³ had an ordinary hyphen); spaces go
+const SUP_OTHER = { "-": "⁻", "−": "⁻", "+": "⁺", "(": "⁽", ")": "⁾", x: "ˣ", y: "ʸ", n: "ⁿ", m: "ᵐ", " ": "" };
+export const sup = (n) => String(n).replace(/[0-9]/g, (d) => SUP[d]).replace(/[-−+()xynm ]/g, (c) => SUP_OTHER[c]);
 export const sub = (n) => String(n).replace(/[0-9]/g, (d) => SUB[d]);
 export const str = (x) => String(x);
 export const num = (s) => Number(s);

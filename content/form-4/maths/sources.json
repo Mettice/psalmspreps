@@ -23,5 +23,21 @@
  "graphs": {
   "ref": "Form 4 Mathematics syllabus, Term 1, Equations and inequations: graphical solutions of simultaneous linear equations, linear inequalities (half planes) and simultaneous inequalities; graphs of quadratic functions; the discriminant; graphical solution of quadratic equations",
   "checked": "Graphs drawn by graphFig from the same numbers as the answers; crossings, regions (lattice) and roots computed by the engine; checked by 1000-seed tests."
+ },
+ "surds": {
+  "ref": "Form 4 Mathematics syllabus, Term 1, Surds, indices and logarithms: simplification and operations with surds, rationalising the denominator, bounds of an irrational number",
+  "checked": "Surds computed by the engine (surdOut, surdIn); checked by 1000-seed tests."
+ },
+ "indices-logs": {
+  "ref": "Form 4 Mathematics syllabus, Term 1, Surds, indices and logarithms: laws of indices, simple exponential equations, laws of logarithms, simple logarithmic equations",
+  "checked": "Indices and logarithms computed by the engine (log10, logb); decimal answers avoid an exact 5 in the third place; 1000-seed tests."
+ },
+ "matrices": {
+  "ref": "Form 4 Mathematics syllabus, Term 1, Matrices: operations, determinant, adjugate and inverse of a 2 × 2 matrix, solving simultaneous linear equations",
+  "checked": "Products, determinants and inverses computed by the engine (matMul, det2, adj2); every solution substituted back by the 1000-seed tests."
+ },
+ "approximation": {
+  "ref": "Form 4 Mathematics syllabus, Term 1, Estimations, approximations and errors: place value, degree of accuracy, rounding up and down, significant figures, absolute, relative and percentage error, greatest and least values, standard form",
+  "checked": "Rounding, bounds and errors computed by the engine (roundTo, sigFig, dec); checked by 1000-seed tests."
  }
 }

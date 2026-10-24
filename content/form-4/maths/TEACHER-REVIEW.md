@@ -19,3 +19,11 @@ Every lesson, Learn screen, card and worked example is **draft**. Open items:
   |x − a| < b, |x − a| > b in row 18. Please confirm the intended forms.
 - **TR-M4-8 (row 19).** Quadratic inequalities are solved by factorising and a sign test (+ − + for a positive x²
   term); the graph method follows in rows 23 and 25.
+- **TR-M4-9 (rows 33, 34).** The sheet's row 34 reads "percentage error, Max and min values from a given
+  approximation" with no lesson number (the end of row 33, split by the layout). The app teaches significant
+  figures with absolute and relative error in row 33, and percentage error with greatest and least values in row 34.
+- **TR-M4-10 (rows 27-31).** Form Three already taught indices, logarithms and matrices up to the inverse. The
+  Form Four lessons revise briefly and add exponential equations, solving bˣ = n with logs, non-square products,
+  singular matrices and solving simultaneous equations with matrices. Is that the intended depth?
+- **TR-M4-11 (row 32).** "Rounding up / rounding down" is taught both as ordinary rounding and as rounding forced by
+  the meaning (vans needed, full crates). Confirm that is what the sheet means.

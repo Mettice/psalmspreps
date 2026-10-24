@@ -1,0 +1,392 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 34,
+ "language": "en",
+ "prerequisites": [
+  33
+ ],
+ "skills": [
+  {
+   "id": "m4-34",
+   "name": "Find percentage errors and the greatest and least values from approximations"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Percentage error = relative error × 100% = (absolute error ÷ true value) × 100%.\nA value rounded to a unit has a lower bound (half a unit below) and an upper bound (half a unit above): 7 cm to the nearest cm is between 6.5 cm and 7.5 cm.\nGreatest and least values of a calculation:\n• sum: greatest = upper + upper; least = lower + lower.\n• difference a − b: greatest = upper a − lower b; least = lower a − upper b.\n• product (positive numbers): greatest = upper × upper; least = lower × lower.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to work out percentage errors and the greatest and least values of sums, differences and products of rounded measurements.\nBuilds on: Lesson {33} (absolute and relative error) and Lesson {32} (bounds).\nLeads to: accuracy in Physics practicals and upper and lower bounds in Form Five."
+   },
+   {
+    "heading": "Percentage error",
+    "text": "Percentage error = (absolute error ÷ true value) × {100}%.\nA bottle holding {500} ml measured as {490} ml: absolute error {10} ml, relative error {10} ÷ {500} = {0.02}, percentage error {2}%.\nAlways divide by the true value."
+   },
+   {
+    "heading": "Greatest and least values",
+    "text": "{12} cm to the nearest cm lies between {11.5} cm and {12.5} cm. Use these bounds to find the extreme answers.\n• Sum {12} + {8}: greatest {12.5} + {8.5} = {21}; least {11.5} + {7.5} = {19}.\n• Difference {12} − {8}: greatest {12.5} − {7.5} = {5}; least {11.5} − {8.5} = {3}.\n• Area {12} × {8}: greatest {12.5} × {8.5} = {106.25}; least {11.5} × {7.5} = {86.25}.\nFor a difference, the greatest uses the larger value's upper bound and the smaller value's lower bound."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "percentage error",
+    "meaning": "(absolute error ÷ true value) × {100}%"
+   },
+   {
+    "word": "upper bound",
+    "meaning": "the largest value that rounds to the given value"
+   },
+   {
+    "word": "lower bound",
+    "meaning": "the smallest value that rounds to the given value"
+   }
+  ],
+  "examples": [
+   "{20} m to the nearest m: bounds {19.5} m and {20.5} m",
+   "true {80}, measured {84}: percentage error {5}%"
+  ],
+  "mistake": {
+   "wrong": "greatest of {12} − {8} (nearest cm) = {12.5} − {8.5}",
+   "right": "greatest = {12.5} − {7.5} = {5}",
+   "why": "To make a difference as large as possible, take as much as possible away from as little as possible."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "l": 12,
+   "w": 8
+  },
+  "problem": "A rectangle measures {l} cm by {w} cm, each to the nearest cm. Find the greatest possible perimeter.",
+  "steps": [
+   "Upper bounds: {l} + {0.5} = {l + 0.5} cm and {w} + {0.5} = {w + 0.5} cm.",
+   "Perimeter = {2} × (length + width).",
+   "Greatest = {2} × ({l + 0.5} + {w + 0.5}) = {2 * (l + w + 1)} cm."
+  ],
+  "answer": "{2 * (l + w + 1)} cm",
+  "checks": [
+   "2 * (l + w + 1) == 42"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m34-1",
+    "status": "draft",
+    "idea": "Percentage error = (absolute error ÷ true value) × {100}%.",
+    "vars": {},
+    "example": [
+     "true {50}, measured {52}: {2} ÷ {50} × {100}% = {4}%"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-34-pct"
+    }
+   },
+   {
+    "id": "c4m34-2",
+    "status": "draft",
+    "idea": "To the nearest unit, the bounds are half a unit below and above.",
+    "vars": {},
+    "example": [
+     "{7} cm to the nearest cm: from {6.5} cm to {7.5} cm"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-34-lower"
+    }
+   },
+   {
+    "id": "c4m34-3",
+    "status": "draft",
+    "idea": "Greatest sum: add the upper bounds. Greatest difference: upper minus lower.",
+    "vars": {},
+    "example": [
+     "{12} cm and {8} cm (nearest cm): greatest sum {21} cm; greatest difference {12.5} − {7.5} = {5} cm"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-34-sum-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "approximation"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        5,
+        40
+       ]
+      },
+      "b": {
+       "int": [
+        5,
+        40
+       ]
+      }
+     },
+     "prompt": "Two lengths are {a} cm and {b} cm, each to the nearest cm. What is the greatest possible total length?",
+     "answer": "a + b + 1",
+     "misconceptions": [
+      {
+       "id": "plain",
+       "wrong": "a + b",
+       "explain": "Each length could be up to {0.5} cm more: add the upper bounds."
+      },
+      {
+       "id": "half",
+       "wrong": "a + b + 0.5",
+       "explain": "Both lengths can be {0.5} cm more: add {0.5} twice."
+      }
+     ],
+     "solution": [
+      "Upper bounds: {a + 0.5} cm and {b + 0.5} cm.",
+      "Greatest total = {a + 0.5} + {b + 0.5} = {answer} cm."
+     ],
+     "unit": "cm"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-34-pct",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "approximation"
+   ],
+   "vars": {
+    "t": {
+     "pick": [
+      50,
+      200,
+      250,
+      500,
+      1000
+     ]
+    },
+    "d": {
+     "int": [
+      -20,
+      20
+     ]
+    },
+    "m": {
+     "expr": "t + d"
+    }
+   },
+   "prompt": "The true volume of a bottle is {t} ml. It is measured as {m} ml. What is the percentage error?",
+   "answer": "abs(m - t) / t * 100",
+   "misconceptions": [
+    {
+     "id": "rel",
+     "wrong": "abs(m - t) / t",
+     "explain": "Multiply the relative error by {100} to get a percentage."
+    },
+    {
+     "id": "meas",
+     "wrong": "abs(m - t) / m * 100",
+     "explain": "Divide by the true value {t}, not the measured value.",
+     "when": "(abs(m - t) * 100) % m == 0"
+    }
+   ],
+   "solution": [
+    "Absolute error = |{m} − {t}| = {abs(m - t)} ml.",
+    "Percentage error = {abs(m - t)} ÷ {t} × {100}% = {answer}%."
+   ],
+   "where": [
+    "d != 0",
+    "(abs(d) * 100) % t == 0"
+   ],
+   "unit": "%"
+  },
+  {
+   "id": "m4-34-lower",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "approximation"
+   ],
+   "vars": {
+    "u": {
+     "pick": [
+      1,
+      2,
+      10
+     ]
+    },
+    "q": {
+     "int": [
+      3,
+      40
+     ]
+    },
+    "x": {
+     "expr": "q * u"
+    }
+   },
+   "prompt": "A mass is {x} kg to the nearest {u} kg. What is its lower bound, in kg?",
+   "answer": "dec(x - u / 2)",
+   "misconceptions": [
+    {
+     "id": "unit",
+     "wrong": "x - u",
+     "explain": "Go down half a unit, not a whole unit."
+    },
+    {
+     "id": "upper",
+     "wrong": "dec(x + u / 2)",
+     "explain": "That is the upper bound."
+    }
+   ],
+   "solution": [
+    "Half the unit is {fmt(dec(u / 2))} kg.",
+    "Lower bound = {x} − {fmt(dec(u / 2))} = {answer} kg."
+   ],
+   "unit": "kg"
+  },
+  {
+   "id": "m4-34-sum",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "approximation"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      5,
+      40
+     ]
+    },
+    "b": {
+     "int": [
+      5,
+      40
+     ]
+    }
+   },
+   "prompt": "Two lengths are {a} cm and {b} cm, each to the nearest cm. What is the greatest possible total length?",
+   "answer": "a + b + 1",
+   "misconceptions": [
+    {
+     "id": "plain",
+     "wrong": "a + b",
+     "explain": "Each length could be up to {0.5} cm more: add the upper bounds."
+    },
+    {
+     "id": "half",
+     "wrong": "a + b + 0.5",
+     "explain": "Both lengths can be {0.5} cm more: add {0.5} twice."
+    }
+   ],
+   "solution": [
+    "Upper bounds: {a + 0.5} cm and {b + 0.5} cm.",
+    "Greatest total = {a + 0.5} + {b + 0.5} = {answer} cm."
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "m4-34-area",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "approximation"
+   ],
+   "vars": {
+    "l": {
+     "int": [
+      6,
+      30
+     ]
+    },
+    "w": {
+     "int": [
+      4,
+      20
+     ]
+    }
+   },
+   "prompt": "A rectangular plot is {l} m by {w} m, each to the nearest metre. What is the least possible area, in m²?",
+   "answer": "(l - 0.5) * (w - 0.5)",
+   "misconceptions": [
+    {
+     "id": "plain",
+     "wrong": "l * w",
+     "explain": "Each side could be up to {0.5} m less: use the lower bounds."
+    },
+    {
+     "id": "upper",
+     "wrong": "(l + 0.5) * (w + 0.5)",
+     "explain": "That is the greatest area."
+    },
+    {
+     "id": "sub",
+     "wrong": "l * w - 0.5",
+     "explain": "Use the lower bound of each side, then multiply."
+    }
+   ],
+   "solution": [
+    "Lower bounds: {l - 0.5} m and {w - 0.5} m.",
+    "Least area = {l - 0.5} × {w - 0.5} = {answer} m²."
+   ],
+   "unit": "m²"
+  },
+  {
+   "id": "m4-34-diff",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "approximation"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      60,
+      200
+     ]
+    },
+    "b": {
+     "int": [
+      10,
+      50
+     ]
+    }
+   },
+   "prompt": "A plank {a} cm long (to the nearest cm) has {b} cm (to the nearest cm) cut off. What is the greatest possible length left?",
+   "answer": "a - b + 1",
+   "misconceptions": [
+    {
+     "id": "both",
+     "wrong": "a - b",
+     "explain": "Using upper − upper keeps the same difference. For the greatest, subtract the least cut."
+    },
+    {
+     "id": "least",
+     "wrong": "a - b - 1",
+     "explain": "That is the least length left (lower − upper)."
+    }
+   ],
+   "solution": [
+    "Greatest left = greatest start − least cut.",
+    "= {a + 0.5} − {b - 0.5} = {answer} cm."
+   ],
+   "unit": "cm"
+  }
+ ]
+}

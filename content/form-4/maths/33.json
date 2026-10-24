@@ -1,0 +1,488 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 33,
+ "language": "en",
+ "prerequisites": [
+  32
+ ],
+ "skills": [
+  {
+   "id": "m4-33",
+   "name": "Use significant figures, absolute error and relative error"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Significant figures count from the first non-zero digit. 0.004 507 to 2 s.f. is 0.0045; 38 260 to 2 s.f. is 38 000.\nZeros between non-zero digits count (4 507 has 4 s.f.); leading zeros never count (0.004 has 1 s.f.); zeros at the end after a decimal point count (0.0450 has 3 s.f.).\nAbsolute error = |measured value − true value|.\nRelative error = absolute error ÷ true value.\nFor a measurement given to a unit, the maximum absolute error is half the unit: 3.4 cm to the nearest 0.1 cm has a maximum error of 0.05 cm.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to round to significant figures, count the significant figures in a number, and find absolute, relative and maximum errors.\nBuilds on: Lesson {32} (rounding and bounds).\nLeads to: Lesson {34} (percentage error and greatest and least values) and measurement in Physics."
+   },
+   {
+    "heading": "Significant figures",
+    "text": "Significant figures (s.f.) start at the first non-zero digit, wherever the decimal point is.\n• {0.004507} to {2} s.f.: the first two are {4} and {5}; next is {0}, so {0.0045}.\n• {38260} to {2} s.f.: {3}, {8}; next {2} → {38000}. Keep the place value with zeros.\nCounting: leading zeros never count; zeros between digits count; final zeros after a decimal point count. So {0.0450} has three s.f. and {4507} has four."
+   },
+   {
+    "heading": "Errors",
+    "text": "No measurement is perfect.\n• Absolute error = |measured − true|: a table of {50} cm measured as {52} cm has an error of {2} cm.\n• Relative error = absolute error ÷ true value = {2} ÷ {50} = {0.04}. It compares the error with the size: {2} cm on a table matters less than {2} cm on a pencil.\n• A value given to the nearest {0.1} cm can be wrong by up to {0.05} cm: half the unit. That is the maximum absolute error."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "significant figure (s.f.)",
+    "meaning": "a digit that carries meaning, counted from the first non-zero digit"
+   },
+   {
+    "word": "absolute error",
+    "meaning": "|measured − true|"
+   },
+   {
+    "word": "relative error",
+    "meaning": "absolute error ÷ true value"
+   }
+  ],
+  "examples": [
+   "{0.07362} to {2} s.f. = {0.074}",
+   "{619500} to {3} s.f. = {620000}",
+   "true {200} g, measured {196} g: relative error {0.02}"
+  ],
+  "mistake": {
+   "wrong": "{0.004507} to {2} s.f. = {0.00}",
+   "right": "{0.004507} to {2} s.f. = {0.0045}",
+   "why": "Significant figures start at the first non-zero digit, not at the decimal point."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": 50,
+   "m": 52
+  },
+  "problem": "A pupil measures a table as {m} cm; its true length is {t} cm. Find the absolute error and the relative error.",
+  "steps": [
+   "Absolute error = |{m} − {t}| = {abs(m - t)} cm.",
+   "Relative error = {abs(m - t)} ÷ {t}."
+  ],
+  "answer": "absolute error {abs(m - t)} cm; relative error {dec(abs(m - t) / t)}",
+  "checks": [
+   "dec(abs(m - t) / t) == 0.04"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m33-1",
+    "status": "draft",
+    "idea": "Count significant figures from the first non-zero digit; then round as usual.",
+    "vars": {},
+    "example": [
+     "{0.004507} to {2} s.f. = {0.0045}; {38260} to {2} s.f. = {38000}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-33-sf"
+    }
+   },
+   {
+    "id": "c4m33-2",
+    "status": "draft",
+    "idea": "Absolute error = |measured − true|.",
+    "vars": {},
+    "example": [
+     "measured {52} cm, true {50} cm: absolute error {2} cm"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-33-abs-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "approximation"
+     ],
+     "vars": {
+      "t": {
+       "pick": [
+        5,
+        10,
+        25,
+        50
+       ]
+      },
+      "d": {
+       "int": [
+        -15,
+        15
+       ]
+      },
+      "m": {
+       "expr": "dec(t + d / 10)"
+      }
+     },
+     "prompt": "The true mass of a bag of rice is {t} kg. A trader's scale shows {fmt(m)} kg. What is the absolute error, in kg?",
+     "answer": "dec(abs(m - t))",
+     "misconceptions": [
+      {
+       "id": "signed",
+       "wrong": "dec(m - t)",
+       "explain": "Absolute error is a size: it is never negative.",
+       "when": "m < t"
+      },
+      {
+       "id": "rel",
+       "wrong": "dec(abs(m - t) / t)",
+       "explain": "That is the relative error. The absolute error is the difference itself."
+      }
+     ],
+     "solution": [
+      "Absolute error = |{fmt(m)} − {t}|.",
+      "= {answer} kg."
+     ],
+     "where": [
+      "d != 0"
+     ],
+     "unit": "kg"
+    }
+   },
+   {
+    "id": "c4m33-3",
+    "status": "draft",
+    "idea": "Relative error = absolute error ÷ true value.",
+    "vars": {},
+    "example": [
+     "{2} ÷ {50} = {0.04}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-33-rel-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "approximation"
+     ],
+     "vars": {
+      "t": {
+       "pick": [
+        20,
+        25,
+        40,
+        50,
+        80,
+        100,
+        200
+       ]
+      },
+      "d": {
+       "int": [
+        -8,
+        8
+       ]
+      },
+      "m": {
+       "expr": "t + d"
+      }
+     },
+     "prompt": "A length of {t} m is measured as {m} m. Find the relative error as a decimal.",
+     "answer": "dec(abs(m - t) / t)",
+     "misconceptions": [
+      {
+       "id": "meas",
+       "wrong": "dec(abs(m - t) / m)",
+       "explain": "Divide by the true value {t}, not the measured value."
+      },
+      {
+       "id": "abs",
+       "wrong": "abs(m - t)",
+       "explain": "That is the absolute error. Divide it by the true value."
+      }
+     ],
+     "solution": [
+      "Absolute error = |{m} − {t}| = {abs(m - t)} m.",
+      "Relative error = {abs(m - t)} ÷ {t} = {answer}."
+     ],
+     "where": [
+      "d != 0",
+      "(abs(d) * 1000) % t == 0"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-33-sf",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "approximation"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      1001,
+      9999
+     ]
+    },
+    "e": {
+     "int": [
+      -5,
+      2
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      3
+     ]
+    },
+    "x": {
+     "expr": "dec(m * 10 ^ e)"
+    }
+   },
+   "prompt": "Round {fmt(x)} to {k} significant figures.",
+   "answer": "sigFig(x, k)",
+   "misconceptions": [
+    {
+     "id": "dp",
+     "wrong": "roundTo(x, 10 ^ -k)",
+     "explain": "Significant figures are not decimal places: start counting at the first non-zero digit.",
+     "when": "roundTo(x, 10 ^ -k) != sigFig(x, k)"
+    }
+   ],
+   "solution": [
+    "The first significant figure is the first non-zero digit.",
+    "Keep {k} figures and look at the next: {fmt(x)} ≈ {answer}."
+   ],
+   "where": [
+    "m % 10 != 0",
+    "x < 100000",
+    "floor(m / 10 ^ (4 - k - 1)) % 10 != 5"
+   ]
+  },
+  {
+   "id": "m4-33-count",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "approximation"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "0.004 50",
+       "n": 3,
+       "w": 2,
+       "y": "Leading zeros do not count; the final zero after the point does: 4, 5, 0."
+      },
+      {
+       "s": "4 507",
+       "n": 4,
+       "w": 3,
+       "y": "Zeros between non-zero digits count: 4, 5, 0, 7."
+      },
+      {
+       "s": "0.000 3",
+       "n": 1,
+       "w": 4,
+       "y": "Leading zeros do not count: only the 3."
+      },
+      {
+       "s": "12.0",
+       "n": 3,
+       "w": 2,
+       "y": "A final zero after the point counts: 1, 2, 0."
+      },
+      {
+       "s": "0.020 4",
+       "n": 3,
+       "w": 2,
+       "y": "Leading zeros do not count; the zero between 2 and 4 does: 2, 0, 4."
+      },
+      {
+       "s": "3.010",
+       "n": 4,
+       "w": 3,
+       "y": "All four digits count: the middle and the final zeros both count."
+      }
+     ]
+    }
+   },
+   "prompt": "How many significant figures does {X.s} have?",
+   "answer": "X.n",
+   "misconceptions": [
+    {
+     "id": "count",
+     "wrong": "X.w",
+     "explain": "Count from the first non-zero digit: zeros between digits count, and so do final zeros after the point; leading zeros never do."
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So it has {answer}."
+   ]
+  },
+  {
+   "id": "m4-33-abs",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "approximation"
+   ],
+   "vars": {
+    "t": {
+     "pick": [
+      5,
+      10,
+      25,
+      50
+     ]
+    },
+    "d": {
+     "int": [
+      -15,
+      15
+     ]
+    },
+    "m": {
+     "expr": "dec(t + d / 10)"
+    }
+   },
+   "prompt": "The true mass of a bag of rice is {t} kg. A trader's scale shows {fmt(m)} kg. What is the absolute error, in kg?",
+   "answer": "dec(abs(m - t))",
+   "misconceptions": [
+    {
+     "id": "signed",
+     "wrong": "dec(m - t)",
+     "explain": "Absolute error is a size: it is never negative.",
+     "when": "m < t"
+    },
+    {
+     "id": "rel",
+     "wrong": "dec(abs(m - t) / t)",
+     "explain": "That is the relative error. The absolute error is the difference itself."
+    }
+   ],
+   "solution": [
+    "Absolute error = |{fmt(m)} − {t}|.",
+    "= {answer} kg."
+   ],
+   "where": [
+    "d != 0"
+   ],
+   "unit": "kg"
+  },
+  {
+   "id": "m4-33-rel",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "approximation"
+   ],
+   "vars": {
+    "t": {
+     "pick": [
+      20,
+      25,
+      40,
+      50,
+      80,
+      100,
+      200
+     ]
+    },
+    "d": {
+     "int": [
+      -8,
+      8
+     ]
+    },
+    "m": {
+     "expr": "t + d"
+    }
+   },
+   "prompt": "A length of {t} m is measured as {m} m. Find the relative error as a decimal.",
+   "answer": "dec(abs(m - t) / t)",
+   "misconceptions": [
+    {
+     "id": "meas",
+     "wrong": "dec(abs(m - t) / m)",
+     "explain": "Divide by the true value {t}, not the measured value."
+    },
+    {
+     "id": "abs",
+     "wrong": "abs(m - t)",
+     "explain": "That is the absolute error. Divide it by the true value."
+    }
+   ],
+   "solution": [
+    "Absolute error = |{m} − {t}| = {abs(m - t)} m.",
+    "Relative error = {abs(m - t)} ÷ {t} = {answer}."
+   ],
+   "where": [
+    "d != 0",
+    "(abs(d) * 1000) % t == 0"
+   ]
+  },
+  {
+   "id": "m4-33-max",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "approximation"
+   ],
+   "vars": {
+    "u": {
+     "pick": [
+      0.1,
+      0.5,
+      1,
+      2,
+      10
+     ]
+    },
+    "q": {
+     "int": [
+      3,
+      60
+     ]
+    },
+    "x": {
+     "expr": "dec(q * u)"
+    }
+   },
+   "prompt": "A length is measured as {fmt(x)} cm, correct to the nearest {fmt(u)} cm. What is the maximum absolute error, in cm?",
+   "answer": "dec(u / 2)",
+   "misconceptions": [
+    {
+     "id": "unit",
+     "wrong": "u",
+     "explain": "The measurement could be wrong by up to half a unit either way, not a whole unit."
+    },
+    {
+     "id": "tenth",
+     "wrong": "dec(x / 10)",
+     "explain": "The error depends on the unit of accuracy, {fmt(u)} cm, not on the size of the measurement."
+    }
+   ],
+   "solution": [
+    "The true length is within half a unit of {fmt(x)}.",
+    "Half of {fmt(u)} = {answer} cm."
+   ],
+   "unit": "cm"
+  }
+ ]
+}
