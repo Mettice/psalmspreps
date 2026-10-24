@@ -1,0 +1,8 @@
+# Form Five Economics — teacher review
+
+- TR-economics-1: Confirm depth, pace and local examination definitions of money aggregates, real value, bank capital and public-budget classifications. Balances are simplified models, not full regulatory statements.
+- TR-economics-2: All CFA-franc amounts, baskets, budgets, banks and retained fractions are invented. There are no current monetary statistics, real bank accounts, live rates or actual tax/borrowing instructions. Practical work needs no purchase or private information.
+- TR-economics-3: Confirm how the course expects the traditional credit multiplier. Drafts explicitly teach its assumptions and limiting versus finite totals while preserving the modern paired loan/deposit mechanism and actual lending constraints. No hypothetical fraction is presented as current BEAC regulation.
+- TR-economics-4: BEAC missions/member scope are sourced to official pages. Mission evidence does not establish current policy parameters or achieved outcomes. Confirm local terminology distinguishing BEAC, COBAC, commercial banks, government fiscal decisions and settlement balances.
+- TR-economics-5: Practicals 5/15 and guided work 17 are screen-based records/source analysis. Further-study rows 11/18 are excluded under the lesson-row policy. Teachers may request a separately scoped enrichment lesson; these rows are not silently counted as completed teaching drafts.
+- TR-economics-6: Check accepted calculation precision and alternative explanations, especially welfare effects during inflation/deflation. Technical checks do not establish teacher approval or learning outcomes.

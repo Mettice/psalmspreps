@@ -1,0 +1,674 @@
+{
+ "subject": "economics",
+ "class": "Form 5",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [
+  13,
+  14
+ ],
+ "skills": [
+  {
+   "id": "n5-15",
+   "name": "Practical preparation: credit-creation records in Cameroon"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Use fictional banks and invented CFA-franc amounts, not actual account details. Prepare columns for incoming deposit, stipulated retained fraction and next redeposit. Calculate each round from its predecessor. Compare a finite sum with the limiting model total. Record which assumptions permit the chain. A local currency or place name does not turn a hypothetical fraction into a Cameroon regulation or make the result an observed banking statistic.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to construct a finite deposit-round record and identify why it is not an observed lending total. Builds on: loan/deposit entries and the stylised multiplier. Leads to: BEAC, central-bank functions and evidence-based interpretation."
+   },
+   {
+    "heading": "Understand the economics",
+    "text": "Use fictional banks and invented CFA-franc amounts, not actual account details. Prepare columns for incoming deposit, stipulated retained fraction and next redeposit. Calculate each round from its predecessor. Compare a finite sum with the limiting model total. Record which assumptions permit the chain. A local currency or place name does not turn a hypothetical fraction into a Cameroon regulation or make the result an observed banking statistic."
+   },
+   {
+    "heading": "Follow the local case",
+    "text": "Original model banks A, B and C: deposit {10000}, retained fraction {20}/{100}. Subsequent deposits are {10000*(1-20/100)} and {10000*(1-20/100)*(1-20/100)}. The finite sum is {10000+10000*(1-20/100)+10000*(1-20/100)*(1-20/100)}; the limiting model total is {10000/(20/100)}. No real customers, banks or current reserve ratios are represented.",
+    "figure": "\"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 320 224\\\" role=\\\"img\\\" aria-label=\\\"Invented three-bank deposit-round record\\\"><rect width=\\\"320\\\" height=\\\"100%\\\" fill=\\\"#f2f3ee\\\"/><g font-family=\\\"sans-serif\\\" font-size=\\\"14\\\" fill=\\\"#213b2d\\\"><text x=\\\"10\\\" y=\\\"23\\\">Classroom model - CFA francs</text>\" + \"<text x=\\\"10\\\" y=\\\"52\\\">Bank A deposit</text><text x=\\\"309\\\" y=\\\"52\\\" text-anchor=\\\"end\\\">\" + fmt(10000) + \"</text>\" + \"<text x=\\\"10\\\" y=\\\"81\\\">A retained</text><text x=\\\"309\\\" y=\\\"81\\\" text-anchor=\\\"end\\\">\" + fmt(10000*20/100) + \"</text>\" + \"<text x=\\\"10\\\" y=\\\"110\\\">Bank B deposit</text><text x=\\\"309\\\" y=\\\"110\\\" text-anchor=\\\"end\\\">\" + fmt(10000*(1-20/100)) + \"</text>\" + \"<text x=\\\"10\\\" y=\\\"139\\\">B retained</text><text x=\\\"309\\\" y=\\\"139\\\" text-anchor=\\\"end\\\">\" + fmt(10000*(1-20/100)*20/100) + \"</text>\" + \"<text x=\\\"10\\\" y=\\\"168\\\">Bank C deposit</text><text x=\\\"309\\\" y=\\\"168\\\" text-anchor=\\\"end\\\">\" + fmt(10000*(1-20/100)*(1-20/100)) + \"</text>\" + \"<text x=\\\"10\\\" y=\\\"197\\\">Finite deposit sum</text><text x=\\\"309\\\" y=\\\"197\\\" text-anchor=\\\"end\\\">\" + fmt(10000+10000*(1-20/100)+10000*(1-20/100)*(1-20/100)) + \"</text>\" + \"</g></svg>\""
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Write assumptions above the table. Multiply by the fraction left after retention to find the next deposit. Add exactly the rounds requested. Explain how incomplete redepositing or a decision not to lend would change the assumed sequence; actual lending requires separate evidence."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "incoming deposit",
+    "meaning": "the amount received for the current assumed round"
+   },
+   {
+    "word": "next-round amount",
+    "meaning": "the retained-fraction complement applied to the incoming deposit"
+   },
+   {
+    "word": "finite sum",
+    "meaning": "the total of only the specified recorded rounds"
+   },
+   {
+    "word": "local-evidence distinction",
+    "meaning": "separation of a Cameroon-labelled model from a real institutional observation"
+   }
+  ],
+  "mistake": {
+   "wrong": "Every bank automatically starts again with the full original amount.",
+   "right": "incoming deposit: the amount received for the current assumed round.",
+   "why": "Each round follows the previous remainder in this model."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Bank B receives the preceding round’s stipulated redeposit. Explain the feature.",
+  "steps": [
+   "The amount received for the current assumed round.",
+   "Each round follows the previous remainder in this model."
+  ],
+  "answer": "incoming deposit",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "n5-15-c1",
+    "status": "draft",
+    "idea": "Distinguish the monetary concepts before evaluating a case.",
+    "vars": {},
+    "example": [
+     "incoming deposit: the amount received for the current assumed round.",
+     "next-round amount: the retained-fraction complement applied to the incoming deposit.",
+     "finite sum: the total of only the specified recorded rounds.",
+     "local-evidence distinction: separation of a Cameroon-labelled model from a real institutional observation."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n5-15-terms"
+    }
+   },
+   {
+    "id": "n5-15-c2",
+    "status": "draft",
+    "idea": "Use the stated case evidence to identify the economic feature.",
+    "vars": {},
+    "example": [
+     "Bank B receives the preceding round’s stipulated redeposit.",
+     "Multiply the received deposit by the fraction not retained.",
+     "Add the initial deposit and the next two when requested.",
+     "CFA-franc labels do not establish a current regulatory fraction."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n5-15-cases"
+    }
+   },
+   {
+    "id": "n5-15-c3",
+    "status": "draft",
+    "idea": "Explain a consequence instead of assuming every option has the same effect.",
+    "vars": {},
+    "example": [
+     "incoming deposit: Each round follows the previous remainder in this model.",
+     "next-round amount: The assumed next amount is the remainder.",
+     "finite sum: A limiting sum includes further assumed terms.",
+     "local-evidence distinction: Official claims need actual applicable sources."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n5-15-reasons-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "money"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Bank B receives the preceding round’s stipulated redeposit.\nWhich explanation is appropriate?",
+         "r": "Each round follows the previous remainder in this model.",
+         "w": [
+          "The assumed next amount is the remainder.",
+          "A limiting sum includes further assumed terms.",
+          "Official claims need actual applicable sources."
+         ],
+         "e": [
+          "That explanation addresses next-round amount, rather than the feature described here.",
+          "That explanation addresses finite sum, rather than the feature described here.",
+          "That explanation addresses local-evidence distinction, rather than the feature described here."
+         ],
+         "y": "The amount received for the current assumed round."
+        },
+        {
+         "q": "Multiply the received deposit by the fraction not retained.\nWhich explanation is appropriate?",
+         "r": "The assumed next amount is the remainder.",
+         "w": [
+          "Each round follows the previous remainder in this model.",
+          "A limiting sum includes further assumed terms.",
+          "Official claims need actual applicable sources."
+         ],
+         "e": [
+          "That explanation addresses incoming deposit, rather than the feature described here.",
+          "That explanation addresses finite sum, rather than the feature described here.",
+          "That explanation addresses local-evidence distinction, rather than the feature described here."
+         ],
+         "y": "The retained-fraction complement applied to the incoming deposit."
+        },
+        {
+         "q": "Add the initial deposit and the next two when requested.\nWhich explanation is appropriate?",
+         "r": "A limiting sum includes further assumed terms.",
+         "w": [
+          "Each round follows the previous remainder in this model.",
+          "The assumed next amount is the remainder.",
+          "Official claims need actual applicable sources."
+         ],
+         "e": [
+          "That explanation addresses incoming deposit, rather than the feature described here.",
+          "That explanation addresses next-round amount, rather than the feature described here.",
+          "That explanation addresses local-evidence distinction, rather than the feature described here."
+         ],
+         "y": "The total of only the specified recorded rounds."
+        },
+        {
+         "q": "CFA-franc labels do not establish a current regulatory fraction.\nWhich explanation is appropriate?",
+         "r": "Official claims need actual applicable sources.",
+         "w": [
+          "Each round follows the previous remainder in this model.",
+          "The assumed next amount is the remainder.",
+          "A limiting sum includes further assumed terms."
+         ],
+         "e": [
+          "That explanation addresses incoming deposit, rather than the feature described here.",
+          "That explanation addresses next-round amount, rather than the feature described here.",
+          "That explanation addresses finite sum, rather than the feature described here."
+         ],
+         "y": "Separation of a cameroon-labelled model from a real institutional observation."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n5-15-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means the amount received for the current assumed round?",
+       "r": "incoming deposit",
+       "w": [
+        "next-round amount",
+        "finite sum",
+        "local-evidence distinction"
+       ],
+       "e": [
+        "next-round amount concerns the retained-fraction complement applied to the incoming deposit, rather than the concept asked for.",
+        "finite sum concerns the total of only the specified recorded rounds, rather than the concept asked for.",
+        "local-evidence distinction concerns separation of a Cameroon-labelled model from a real institutional observation, rather than the concept asked for."
+       ],
+       "y": "The amount received for the current assumed round."
+      },
+      {
+       "q": "Which term means the retained-fraction complement applied to the incoming deposit?",
+       "r": "next-round amount",
+       "w": [
+        "incoming deposit",
+        "finite sum",
+        "local-evidence distinction"
+       ],
+       "e": [
+        "incoming deposit concerns the amount received for the current assumed round, rather than the concept asked for.",
+        "finite sum concerns the total of only the specified recorded rounds, rather than the concept asked for.",
+        "local-evidence distinction concerns separation of a Cameroon-labelled model from a real institutional observation, rather than the concept asked for."
+       ],
+       "y": "The retained-fraction complement applied to the incoming deposit."
+      },
+      {
+       "q": "Which term means the total of only the specified recorded rounds?",
+       "r": "finite sum",
+       "w": [
+        "incoming deposit",
+        "next-round amount",
+        "local-evidence distinction"
+       ],
+       "e": [
+        "incoming deposit concerns the amount received for the current assumed round, rather than the concept asked for.",
+        "next-round amount concerns the retained-fraction complement applied to the incoming deposit, rather than the concept asked for.",
+        "local-evidence distinction concerns separation of a Cameroon-labelled model from a real institutional observation, rather than the concept asked for."
+       ],
+       "y": "The total of only the specified recorded rounds."
+      },
+      {
+       "q": "Which term means separation of a Cameroon-labelled model from a real institutional observation?",
+       "r": "local-evidence distinction",
+       "w": [
+        "incoming deposit",
+        "next-round amount",
+        "finite sum"
+       ],
+       "e": [
+        "incoming deposit concerns the amount received for the current assumed round, rather than the concept asked for.",
+        "next-round amount concerns the retained-fraction complement applied to the incoming deposit, rather than the concept asked for.",
+        "finite sum concerns the total of only the specified recorded rounds, rather than the concept asked for."
+       ],
+       "y": "Separation of a cameroon-labelled model from a real institutional observation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-15-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bank B receives the preceding round’s stipulated redeposit.\nWhich concept best explains the highlighted feature?",
+       "r": "incoming deposit",
+       "w": [
+        "next-round amount",
+        "finite sum",
+        "local-evidence distinction"
+       ],
+       "e": [
+        "That concerns the retained-fraction complement applied to the incoming deposit. This case instead concerns the amount received for the current assumed round.",
+        "That concerns the total of only the specified recorded rounds. This case instead concerns the amount received for the current assumed round.",
+        "That concerns separation of a Cameroon-labelled model from a real institutional observation. This case instead concerns the amount received for the current assumed round."
+       ],
+       "y": "Each round follows the previous remainder in this model."
+      },
+      {
+       "q": "Multiply the received deposit by the fraction not retained.\nWhich concept best explains the highlighted feature?",
+       "r": "next-round amount",
+       "w": [
+        "incoming deposit",
+        "finite sum",
+        "local-evidence distinction"
+       ],
+       "e": [
+        "That concerns the amount received for the current assumed round. This case instead concerns the retained-fraction complement applied to the incoming deposit.",
+        "That concerns the total of only the specified recorded rounds. This case instead concerns the retained-fraction complement applied to the incoming deposit.",
+        "That concerns separation of a Cameroon-labelled model from a real institutional observation. This case instead concerns the retained-fraction complement applied to the incoming deposit."
+       ],
+       "y": "The assumed next amount is the remainder."
+      },
+      {
+       "q": "Add the initial deposit and the next two when requested.\nWhich concept best explains the highlighted feature?",
+       "r": "finite sum",
+       "w": [
+        "incoming deposit",
+        "next-round amount",
+        "local-evidence distinction"
+       ],
+       "e": [
+        "That concerns the amount received for the current assumed round. This case instead concerns the total of only the specified recorded rounds.",
+        "That concerns the retained-fraction complement applied to the incoming deposit. This case instead concerns the total of only the specified recorded rounds.",
+        "That concerns separation of a Cameroon-labelled model from a real institutional observation. This case instead concerns the total of only the specified recorded rounds."
+       ],
+       "y": "A limiting sum includes further assumed terms."
+      },
+      {
+       "q": "CFA-franc labels do not establish a current regulatory fraction.\nWhich concept best explains the highlighted feature?",
+       "r": "local-evidence distinction",
+       "w": [
+        "incoming deposit",
+        "next-round amount",
+        "finite sum"
+       ],
+       "e": [
+        "That concerns the amount received for the current assumed round. This case instead concerns separation of a Cameroon-labelled model from a real institutional observation.",
+        "That concerns the retained-fraction complement applied to the incoming deposit. This case instead concerns separation of a Cameroon-labelled model from a real institutional observation.",
+        "That concerns the total of only the specified recorded rounds. This case instead concerns separation of a Cameroon-labelled model from a real institutional observation."
+       ],
+       "y": "Official claims need actual applicable sources."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-15-reasons",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bank B receives the preceding round’s stipulated redeposit.\nWhich explanation is appropriate?",
+       "r": "Each round follows the previous remainder in this model.",
+       "w": [
+        "The assumed next amount is the remainder.",
+        "A limiting sum includes further assumed terms.",
+        "Official claims need actual applicable sources."
+       ],
+       "e": [
+        "That explanation addresses next-round amount, rather than the feature described here.",
+        "That explanation addresses finite sum, rather than the feature described here.",
+        "That explanation addresses local-evidence distinction, rather than the feature described here."
+       ],
+       "y": "The amount received for the current assumed round."
+      },
+      {
+       "q": "Multiply the received deposit by the fraction not retained.\nWhich explanation is appropriate?",
+       "r": "The assumed next amount is the remainder.",
+       "w": [
+        "Each round follows the previous remainder in this model.",
+        "A limiting sum includes further assumed terms.",
+        "Official claims need actual applicable sources."
+       ],
+       "e": [
+        "That explanation addresses incoming deposit, rather than the feature described here.",
+        "That explanation addresses finite sum, rather than the feature described here.",
+        "That explanation addresses local-evidence distinction, rather than the feature described here."
+       ],
+       "y": "The retained-fraction complement applied to the incoming deposit."
+      },
+      {
+       "q": "Add the initial deposit and the next two when requested.\nWhich explanation is appropriate?",
+       "r": "A limiting sum includes further assumed terms.",
+       "w": [
+        "Each round follows the previous remainder in this model.",
+        "The assumed next amount is the remainder.",
+        "Official claims need actual applicable sources."
+       ],
+       "e": [
+        "That explanation addresses incoming deposit, rather than the feature described here.",
+        "That explanation addresses next-round amount, rather than the feature described here.",
+        "That explanation addresses local-evidence distinction, rather than the feature described here."
+       ],
+       "y": "The total of only the specified recorded rounds."
+      },
+      {
+       "q": "CFA-franc labels do not establish a current regulatory fraction.\nWhich explanation is appropriate?",
+       "r": "Official claims need actual applicable sources.",
+       "w": [
+        "Each round follows the previous remainder in this model.",
+        "The assumed next amount is the remainder.",
+        "A limiting sum includes further assumed terms."
+       ],
+       "e": [
+        "That explanation addresses incoming deposit, rather than the feature described here.",
+        "That explanation addresses next-round amount, rather than the feature described here.",
+        "That explanation addresses finite sum, rather than the feature described here."
+       ],
+       "y": "Separation of a cameroon-labelled model from a real institutional observation."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-15-rounds",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "u": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "r": {
+     "pick": [
+      10,
+      20,
+      25,
+      50
+     ]
+    },
+    "D": {
+     "expr": "u*10000"
+    }
+   },
+   "prompt": "Invented Cameroon classroom model: an initial deposit is {D} CFA francs and each bank retains {r}% of its received deposit. Each remaining amount is fully lent and redeposited at the next bank. Add only the initial deposit and the next two deposits; do not use the infinite total.",
+   "answer": "D+D*(1-r/100)+D*(1-r/100)*(1-r/100)",
+   "misconceptions": [
+    {
+     "id": "infinite",
+     "wrong": "D*100/r",
+     "explain": "That includes all indefinitely assumed rounds, not just the stated initial and next two deposits."
+    },
+    {
+     "id": "omit",
+     "wrong": "D*(1-r/100)+D*(1-r/100)*(1-r/100)",
+     "explain": "That omits the initial deposit the question expressly includes."
+    }
+   ],
+   "solution": [
+    "Initial deposit: {D}. Next deposit: {D*(1-r/100)}. Following deposit: {D*(1-r/100)*(1-r/100)}.",
+    "Finite sum = {answer} CFA francs.",
+    "This finite sum is below the stipulated limiting total {D*100/r}."
+   ],
+   "where": [],
+   "unit": "CFA francs"
+  },
+  {
+   "id": "n5-15-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "prompt": "Find the incorrect economic claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "incoming deposit: the amount received for the current assumed round.",
+      "truth": "true",
+      "explain": "This is correct: the amount received for the current assumed round. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "next-round amount: the retained-fraction complement applied to the incoming deposit.",
+      "truth": "true",
+      "explain": "This is correct: the retained-fraction complement applied to the incoming deposit. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "finite sum: the total of only the specified recorded rounds.",
+      "truth": "true",
+      "explain": "This is correct: the total of only the specified recorded rounds. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "local-evidence distinction: separation of a Cameroon-labelled model from a real institutional observation.",
+      "truth": "true",
+      "explain": "This is correct: separation of a Cameroon-labelled model from a real institutional observation. Look for a statement that contradicts the lesson’s distinction."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every bank automatically starts again with the full original amount.",
+      "truth": "false",
+      "explain": "Each round follows the previous remainder in this model."
+     },
+     {
+      "text": "The retained amount itself is the whole next loan in this model.",
+      "truth": "false",
+      "explain": "The assumed next amount is the remainder."
+     },
+     {
+      "text": "A finite record already includes every infinitely continuing round.",
+      "truth": "false",
+      "explain": "A limiting sum includes further assumed terms."
+     },
+     {
+      "text": "Writing Cameroon in the title proves the figures are official.",
+      "truth": "false",
+      "explain": "Official claims need actual applicable sources."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

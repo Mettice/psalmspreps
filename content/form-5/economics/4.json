@@ -1,0 +1,676 @@
+{
+ "subject": "economics",
+ "class": "Form 5",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  1,
+  3
+ ],
+ "skills": [
+  {
+   "id": "n5-4",
+   "name": "The value of money"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Internal value is purchasing power over goods and services. For a fixed amount of money, a higher comparable price level means less purchasing power. A price index compares the cost of the same defined basket with its base cost. A purchasing-power index relative to the same base is the reciprocal price ratio scaled to the base. External value concerns exchange against another currency; it is not the same measurement. These exercises use invented baskets and no current exchange rate.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to distinguish internal purchasing power from external exchange value and calculate a reciprocal index. Builds on: money stock, transactions and comparable units. Leads to: basket practical and inflation measurement."
+   },
+   {
+    "heading": "Understand the economics",
+    "text": "Internal value is purchasing power over goods and services. For a fixed amount of money, a higher comparable price level means less purchasing power. A price index compares the cost of the same defined basket with its base cost. A purchasing-power index relative to the same base is the reciprocal price ratio scaled to the base. External value concerns exchange against another currency; it is not the same measurement. These exercises use invented baskets and no current exchange rate."
+   },
+   {
+    "heading": "Follow the local case",
+    "text": "Original basket: base cost {2000} CFA francs; later cost {2500}. The price index is {100*2500/2000}. The purchasing-power index of a fixed unit is {100*2000/2500}. The higher price index does not mean the fixed balance buys more. This basket is a teaching model, not a national consumer-price series."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Keep basket composition fixed and label which index is requested. Divide later by base for prices and base by later for purchasing power, then scale. Do not confuse an index level with a percentage change or infer an exchange rate from an internal price index."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "internal value",
+    "meaning": "purchasing power over a specified goods-and-services basket"
+   },
+   {
+    "word": "price index",
+    "meaning": "a scaled comparison of current and base basket cost"
+   },
+   {
+    "word": "purchasing-power index",
+    "meaning": "the reciprocal price ratio scaled to the common base"
+   },
+   {
+    "word": "external value",
+    "meaning": "exchange value against another currency"
+   }
+  ],
+  "mistake": {
+   "wrong": "Higher basket prices always increase a fixed balance’s purchasing power.",
+   "right": "internal value: purchasing power over a specified goods-and-services basket.",
+   "why": "The same money then covers less of the basket."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A fixed balance buys less when the same basket costs more. Explain the feature.",
+  "steps": [
+   "Purchasing power over a specified goods-and-services basket.",
+   "The same money then covers less of the basket."
+  ],
+  "answer": "internal value",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "n5-4-c1",
+    "status": "draft",
+    "idea": "Distinguish the monetary concepts before evaluating a case.",
+    "vars": {},
+    "example": [
+     "internal value: purchasing power over a specified goods-and-services basket.",
+     "price index: a scaled comparison of current and base basket cost.",
+     "purchasing-power index: the reciprocal price ratio scaled to the common base.",
+     "external value: exchange value against another currency."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n5-4-terms"
+    }
+   },
+   {
+    "id": "n5-4-c2",
+    "status": "draft",
+    "idea": "Use the stated case evidence to identify the economic feature.",
+    "vars": {},
+    "example": [
+     "A fixed balance buys less when the same basket costs more.",
+     "Divide later basket cost by base cost and scale.",
+     "Divide base basket cost by later cost and scale.",
+     "An exchange quotation compares currency units."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n5-4-cases"
+    }
+   },
+   {
+    "id": "n5-4-c3",
+    "status": "draft",
+    "idea": "Explain a consequence instead of assuming every option has the same effect.",
+    "vars": {},
+    "example": [
+     "internal value: The same money then covers less of the basket.",
+     "price index: A basket comparison and an exchange quotation differ.",
+     "purchasing-power index: They move inversely for this fixed-basket model.",
+     "external value: A separate exchange comparison is needed."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n5-4-reasons-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "money"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A fixed balance buys less when the same basket costs more.\nWhich explanation is appropriate?",
+         "r": "The same money then covers less of the basket.",
+         "w": [
+          "A basket comparison and an exchange quotation differ.",
+          "They move inversely for this fixed-basket model.",
+          "A separate exchange comparison is needed."
+         ],
+         "e": [
+          "That explanation addresses price index, rather than the feature described here.",
+          "That explanation addresses purchasing-power index, rather than the feature described here.",
+          "That explanation addresses external value, rather than the feature described here."
+         ],
+         "y": "Purchasing power over a specified goods-and-services basket."
+        },
+        {
+         "q": "Divide later basket cost by base cost and scale.\nWhich explanation is appropriate?",
+         "r": "A basket comparison and an exchange quotation differ.",
+         "w": [
+          "The same money then covers less of the basket.",
+          "They move inversely for this fixed-basket model.",
+          "A separate exchange comparison is needed."
+         ],
+         "e": [
+          "That explanation addresses internal value, rather than the feature described here.",
+          "That explanation addresses purchasing-power index, rather than the feature described here.",
+          "That explanation addresses external value, rather than the feature described here."
+         ],
+         "y": "A scaled comparison of current and base basket cost."
+        },
+        {
+         "q": "Divide base basket cost by later cost and scale.\nWhich explanation is appropriate?",
+         "r": "They move inversely for this fixed-basket model.",
+         "w": [
+          "The same money then covers less of the basket.",
+          "A basket comparison and an exchange quotation differ.",
+          "A separate exchange comparison is needed."
+         ],
+         "e": [
+          "That explanation addresses internal value, rather than the feature described here.",
+          "That explanation addresses price index, rather than the feature described here.",
+          "That explanation addresses external value, rather than the feature described here."
+         ],
+         "y": "The reciprocal price ratio scaled to the common base."
+        },
+        {
+         "q": "An exchange quotation compares currency units.\nWhich explanation is appropriate?",
+         "r": "A separate exchange comparison is needed.",
+         "w": [
+          "The same money then covers less of the basket.",
+          "A basket comparison and an exchange quotation differ.",
+          "They move inversely for this fixed-basket model."
+         ],
+         "e": [
+          "That explanation addresses internal value, rather than the feature described here.",
+          "That explanation addresses price index, rather than the feature described here.",
+          "That explanation addresses purchasing-power index, rather than the feature described here."
+         ],
+         "y": "Exchange value against another currency."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n5-4-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means purchasing power over a specified goods-and-services basket?",
+       "r": "internal value",
+       "w": [
+        "price index",
+        "purchasing-power index",
+        "external value"
+       ],
+       "e": [
+        "price index concerns a scaled comparison of current and base basket cost, rather than the concept asked for.",
+        "purchasing-power index concerns the reciprocal price ratio scaled to the common base, rather than the concept asked for.",
+        "external value concerns exchange value against another currency, rather than the concept asked for."
+       ],
+       "y": "Purchasing power over a specified goods-and-services basket."
+      },
+      {
+       "q": "Which term means a scaled comparison of current and base basket cost?",
+       "r": "price index",
+       "w": [
+        "internal value",
+        "purchasing-power index",
+        "external value"
+       ],
+       "e": [
+        "internal value concerns purchasing power over a specified goods-and-services basket, rather than the concept asked for.",
+        "purchasing-power index concerns the reciprocal price ratio scaled to the common base, rather than the concept asked for.",
+        "external value concerns exchange value against another currency, rather than the concept asked for."
+       ],
+       "y": "A scaled comparison of current and base basket cost."
+      },
+      {
+       "q": "Which term means the reciprocal price ratio scaled to the common base?",
+       "r": "purchasing-power index",
+       "w": [
+        "internal value",
+        "price index",
+        "external value"
+       ],
+       "e": [
+        "internal value concerns purchasing power over a specified goods-and-services basket, rather than the concept asked for.",
+        "price index concerns a scaled comparison of current and base basket cost, rather than the concept asked for.",
+        "external value concerns exchange value against another currency, rather than the concept asked for."
+       ],
+       "y": "The reciprocal price ratio scaled to the common base."
+      },
+      {
+       "q": "Which term means exchange value against another currency?",
+       "r": "external value",
+       "w": [
+        "internal value",
+        "price index",
+        "purchasing-power index"
+       ],
+       "e": [
+        "internal value concerns purchasing power over a specified goods-and-services basket, rather than the concept asked for.",
+        "price index concerns a scaled comparison of current and base basket cost, rather than the concept asked for.",
+        "purchasing-power index concerns the reciprocal price ratio scaled to the common base, rather than the concept asked for."
+       ],
+       "y": "Exchange value against another currency."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-4-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A fixed balance buys less when the same basket costs more.\nWhich concept best explains the highlighted feature?",
+       "r": "internal value",
+       "w": [
+        "price index",
+        "purchasing-power index",
+        "external value"
+       ],
+       "e": [
+        "That concerns a scaled comparison of current and base basket cost. This case instead concerns purchasing power over a specified goods-and-services basket.",
+        "That concerns the reciprocal price ratio scaled to the common base. This case instead concerns purchasing power over a specified goods-and-services basket.",
+        "That concerns exchange value against another currency. This case instead concerns purchasing power over a specified goods-and-services basket."
+       ],
+       "y": "The same money then covers less of the basket."
+      },
+      {
+       "q": "Divide later basket cost by base cost and scale.\nWhich concept best explains the highlighted feature?",
+       "r": "price index",
+       "w": [
+        "internal value",
+        "purchasing-power index",
+        "external value"
+       ],
+       "e": [
+        "That concerns purchasing power over a specified goods-and-services basket. This case instead concerns a scaled comparison of current and base basket cost.",
+        "That concerns the reciprocal price ratio scaled to the common base. This case instead concerns a scaled comparison of current and base basket cost.",
+        "That concerns exchange value against another currency. This case instead concerns a scaled comparison of current and base basket cost."
+       ],
+       "y": "A basket comparison and an exchange quotation differ."
+      },
+      {
+       "q": "Divide base basket cost by later cost and scale.\nWhich concept best explains the highlighted feature?",
+       "r": "purchasing-power index",
+       "w": [
+        "internal value",
+        "price index",
+        "external value"
+       ],
+       "e": [
+        "That concerns purchasing power over a specified goods-and-services basket. This case instead concerns the reciprocal price ratio scaled to the common base.",
+        "That concerns a scaled comparison of current and base basket cost. This case instead concerns the reciprocal price ratio scaled to the common base.",
+        "That concerns exchange value against another currency. This case instead concerns the reciprocal price ratio scaled to the common base."
+       ],
+       "y": "They move inversely for this fixed-basket model."
+      },
+      {
+       "q": "An exchange quotation compares currency units.\nWhich concept best explains the highlighted feature?",
+       "r": "external value",
+       "w": [
+        "internal value",
+        "price index",
+        "purchasing-power index"
+       ],
+       "e": [
+        "That concerns purchasing power over a specified goods-and-services basket. This case instead concerns exchange value against another currency.",
+        "That concerns a scaled comparison of current and base basket cost. This case instead concerns exchange value against another currency.",
+        "That concerns the reciprocal price ratio scaled to the common base. This case instead concerns exchange value against another currency."
+       ],
+       "y": "A separate exchange comparison is needed."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-4-reasons",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A fixed balance buys less when the same basket costs more.\nWhich explanation is appropriate?",
+       "r": "The same money then covers less of the basket.",
+       "w": [
+        "A basket comparison and an exchange quotation differ.",
+        "They move inversely for this fixed-basket model.",
+        "A separate exchange comparison is needed."
+       ],
+       "e": [
+        "That explanation addresses price index, rather than the feature described here.",
+        "That explanation addresses purchasing-power index, rather than the feature described here.",
+        "That explanation addresses external value, rather than the feature described here."
+       ],
+       "y": "Purchasing power over a specified goods-and-services basket."
+      },
+      {
+       "q": "Divide later basket cost by base cost and scale.\nWhich explanation is appropriate?",
+       "r": "A basket comparison and an exchange quotation differ.",
+       "w": [
+        "The same money then covers less of the basket.",
+        "They move inversely for this fixed-basket model.",
+        "A separate exchange comparison is needed."
+       ],
+       "e": [
+        "That explanation addresses internal value, rather than the feature described here.",
+        "That explanation addresses purchasing-power index, rather than the feature described here.",
+        "That explanation addresses external value, rather than the feature described here."
+       ],
+       "y": "A scaled comparison of current and base basket cost."
+      },
+      {
+       "q": "Divide base basket cost by later cost and scale.\nWhich explanation is appropriate?",
+       "r": "They move inversely for this fixed-basket model.",
+       "w": [
+        "The same money then covers less of the basket.",
+        "A basket comparison and an exchange quotation differ.",
+        "A separate exchange comparison is needed."
+       ],
+       "e": [
+        "That explanation addresses internal value, rather than the feature described here.",
+        "That explanation addresses price index, rather than the feature described here.",
+        "That explanation addresses external value, rather than the feature described here."
+       ],
+       "y": "The reciprocal price ratio scaled to the common base."
+      },
+      {
+       "q": "An exchange quotation compares currency units.\nWhich explanation is appropriate?",
+       "r": "A separate exchange comparison is needed.",
+       "w": [
+        "The same money then covers less of the basket.",
+        "A basket comparison and an exchange quotation differ.",
+        "They move inversely for this fixed-basket model."
+       ],
+       "e": [
+        "That explanation addresses internal value, rather than the feature described here.",
+        "That explanation addresses price index, rather than the feature described here.",
+        "That explanation addresses purchasing-power index, rather than the feature described here."
+       ],
+       "y": "Exchange value against another currency."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-4-power",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "u": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "k": {
+     "pick": [
+      2,
+      4,
+      5
+     ]
+    },
+    "base": {
+     "expr": "u*1000"
+    },
+    "now": {
+     "expr": "base*k/2"
+    }
+   },
+   "prompt": "A fictional fixed basket cost {base} CFA francs in the base period and costs {now} now. What is the present purchasing-power index of a fixed money unit relative to base {100}?",
+   "answer": "100*base/now",
+   "misconceptions": [
+    {
+     "id": "priceindex",
+     "wrong": "100*now/base",
+     "explain": "That is the price index; purchasing power moves inversely."
+    },
+    {
+     "id": "change",
+     "wrong": "100*(now-base)/base",
+     "explain": "That is a price-change percentage, not the requested level index."
+    }
+   ],
+   "solution": [
+    "The price index is {100*now/base}.",
+    "The reciprocal purchasing-power index is {100} × {base}/{now} = {answer}."
+   ],
+   "where": [
+    "now!=base"
+   ],
+   "unit": "index points"
+  },
+  {
+   "id": "n5-4-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "prompt": "Find the incorrect economic claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "internal value: purchasing power over a specified goods-and-services basket.",
+      "truth": "true",
+      "explain": "This is correct: purchasing power over a specified goods-and-services basket. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "price index: a scaled comparison of current and base basket cost.",
+      "truth": "true",
+      "explain": "This is correct: a scaled comparison of current and base basket cost. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "purchasing-power index: the reciprocal price ratio scaled to the common base.",
+      "truth": "true",
+      "explain": "This is correct: the reciprocal price ratio scaled to the common base. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "external value: exchange value against another currency.",
+      "truth": "true",
+      "explain": "This is correct: exchange value against another currency. Look for a statement that contradicts the lesson’s distinction."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Higher basket prices always increase a fixed balance’s purchasing power.",
+      "truth": "false",
+      "explain": "The same money then covers less of the basket."
+     },
+     {
+      "text": "A price index directly gives a current foreign-exchange rate.",
+      "truth": "false",
+      "explain": "A basket comparison and an exchange quotation differ."
+     },
+     {
+      "text": "Price and purchasing-power indices always rise together.",
+      "truth": "false",
+      "explain": "They move inversely for this fixed-basket model."
+     },
+     {
+      "text": "An internal basket index alone establishes external exchange value.",
+      "truth": "false",
+      "explain": "A separate exchange comparison is needed."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

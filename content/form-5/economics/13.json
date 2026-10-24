@@ -1,0 +1,673 @@
+{
+ "subject": "economics",
+ "class": "Form 5",
+ "lesson_no": 13,
+ "language": "en",
+ "prerequisites": [
+  10,
+  12
+ ],
+ "skills": [
+  {
+   "id": "n5-13",
+   "name": "Credit creation: the loan and deposit entry"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "When a bank grants a loan by crediting an account, it records a loan asset and matching deposit liability. The borrower has a new deposit asset and loan debt. This creates deposit money, not equal net wealth or new physical resources. Spending can move the deposit to another person or bank; settlement then matters. Repayment of principal from a deposit reduces both the loan and deposit in the simplified entry. Interest and fees are separate events. Real lending remains constrained by risk, capital, liquidity, demand and monetary conditions.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to trace a new bank loan and matching deposit without confusing money creation with wealth creation. Builds on: bank assets, liabilities and equity. Leads to: the assumptions of the simplified deposit-expansion model."
+   },
+   {
+    "heading": "Understand the economics",
+    "text": "When a bank grants a loan by crediting an account, it records a loan asset and matching deposit liability. The borrower has a new deposit asset and loan debt. This creates deposit money, not equal net wealth or new physical resources. Spending can move the deposit to another person or bank; settlement then matters. Repayment of principal from a deposit reduces both the loan and deposit in the simplified entry. Interest and fees are separate events. Real lending remains constrained by risk, capital, liquidity, demand and monetary conditions."
+   },
+   {
+    "heading": "Follow the local case",
+    "text": "Original new loan: {4000} CFA francs credited to a borrower. Bank loan assets rise by {4000}; deposit liabilities rise by {4000}; equity is unchanged by this principal-only entry. The borrower’s deposit and debt rise together. Subsequent transfer, interest and repayment need separate entries rather than being silently combined."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Write the bank’s asset and liability changes, then the borrower’s asset and debt changes. Track the event and perspective before calculating. Do not say banks merely move a particular saver’s labelled notes or that recording a loan removes all lending limits."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "paired creation",
+    "meaning": "a loan asset and deposit liability created together at origination"
+   },
+   {
+    "word": "borrower debt",
+    "meaning": "the obligation matching the borrower’s new loan funds"
+   },
+   {
+    "word": "principal repayment",
+    "meaning": "a reduction of loan and deposit through the stated repayment entry"
+   },
+   {
+    "word": "money versus wealth",
+    "meaning": "the distinction between a monetary balance and net resources"
+   }
+  ],
+  "mistake": {
+   "wrong": "A bank records only a free asset when it credits the borrower.",
+   "right": "paired creation: a loan asset and deposit liability created together at origination.",
+   "why": "It also owes the new deposit."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Granting and crediting the loan expands both sides. Explain the feature.",
+  "steps": [
+   "A loan asset and deposit liability created together at origination.",
+   "It also owes the new deposit."
+  ],
+  "answer": "paired creation",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "n5-13-c1",
+    "status": "draft",
+    "idea": "Distinguish the monetary concepts before evaluating a case.",
+    "vars": {},
+    "example": [
+     "paired creation: a loan asset and deposit liability created together at origination.",
+     "borrower debt: the obligation matching the borrower’s new loan funds.",
+     "principal repayment: a reduction of loan and deposit through the stated repayment entry.",
+     "money versus wealth: the distinction between a monetary balance and net resources."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n5-13-terms"
+    }
+   },
+   {
+    "id": "n5-13-c2",
+    "status": "draft",
+    "idea": "Use the stated case evidence to identify the economic feature.",
+    "vars": {},
+    "example": [
+     "Granting and crediting the loan expands both sides.",
+     "The borrower’s deposit rises alongside a repayment obligation.",
+     "Principal paid from a deposit extinguishes that part of the loan and deposit.",
+     "A matching deposit and debt do not create equal net wealth."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n5-13-cases"
+    }
+   },
+   {
+    "id": "n5-13-c3",
+    "status": "draft",
+    "idea": "Explain a consequence instead of assuming every option has the same effect.",
+    "vars": {},
+    "example": [
+     "paired creation: It also owes the new deposit.",
+     "borrower debt: The loan remains repayable under its terms.",
+     "principal repayment: The stated entry reduces, rather than originates, the claim.",
+     "money versus wealth: A financial entry is not physical production."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n5-13-reasons-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "money"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Granting and crediting the loan expands both sides.\nWhich explanation is appropriate?",
+         "r": "It also owes the new deposit.",
+         "w": [
+          "The loan remains repayable under its terms.",
+          "The stated entry reduces, rather than originates, the claim.",
+          "A financial entry is not physical production."
+         ],
+         "e": [
+          "That explanation addresses borrower debt, rather than the feature described here.",
+          "That explanation addresses principal repayment, rather than the feature described here.",
+          "That explanation addresses money versus wealth, rather than the feature described here."
+         ],
+         "y": "A loan asset and deposit liability created together at origination."
+        },
+        {
+         "q": "The borrower’s deposit rises alongside a repayment obligation.\nWhich explanation is appropriate?",
+         "r": "The loan remains repayable under its terms.",
+         "w": [
+          "It also owes the new deposit.",
+          "The stated entry reduces, rather than originates, the claim.",
+          "A financial entry is not physical production."
+         ],
+         "e": [
+          "That explanation addresses paired creation, rather than the feature described here.",
+          "That explanation addresses principal repayment, rather than the feature described here.",
+          "That explanation addresses money versus wealth, rather than the feature described here."
+         ],
+         "y": "The obligation matching the borrower’s new loan funds."
+        },
+        {
+         "q": "Principal paid from a deposit extinguishes that part of the loan and deposit.\nWhich explanation is appropriate?",
+         "r": "The stated entry reduces, rather than originates, the claim.",
+         "w": [
+          "It also owes the new deposit.",
+          "The loan remains repayable under its terms.",
+          "A financial entry is not physical production."
+         ],
+         "e": [
+          "That explanation addresses paired creation, rather than the feature described here.",
+          "That explanation addresses borrower debt, rather than the feature described here.",
+          "That explanation addresses money versus wealth, rather than the feature described here."
+         ],
+         "y": "A reduction of loan and deposit through the stated repayment entry."
+        },
+        {
+         "q": "A matching deposit and debt do not create equal net wealth.\nWhich explanation is appropriate?",
+         "r": "A financial entry is not physical production.",
+         "w": [
+          "It also owes the new deposit.",
+          "The loan remains repayable under its terms.",
+          "The stated entry reduces, rather than originates, the claim."
+         ],
+         "e": [
+          "That explanation addresses paired creation, rather than the feature described here.",
+          "That explanation addresses borrower debt, rather than the feature described here.",
+          "That explanation addresses principal repayment, rather than the feature described here."
+         ],
+         "y": "The distinction between a monetary balance and net resources."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n5-13-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a loan asset and deposit liability created together at origination?",
+       "r": "paired creation",
+       "w": [
+        "borrower debt",
+        "principal repayment",
+        "money versus wealth"
+       ],
+       "e": [
+        "borrower debt concerns the obligation matching the borrower’s new loan funds, rather than the concept asked for.",
+        "principal repayment concerns a reduction of loan and deposit through the stated repayment entry, rather than the concept asked for.",
+        "money versus wealth concerns the distinction between a monetary balance and net resources, rather than the concept asked for."
+       ],
+       "y": "A loan asset and deposit liability created together at origination."
+      },
+      {
+       "q": "Which term means the obligation matching the borrower’s new loan funds?",
+       "r": "borrower debt",
+       "w": [
+        "paired creation",
+        "principal repayment",
+        "money versus wealth"
+       ],
+       "e": [
+        "paired creation concerns a loan asset and deposit liability created together at origination, rather than the concept asked for.",
+        "principal repayment concerns a reduction of loan and deposit through the stated repayment entry, rather than the concept asked for.",
+        "money versus wealth concerns the distinction between a monetary balance and net resources, rather than the concept asked for."
+       ],
+       "y": "The obligation matching the borrower’s new loan funds."
+      },
+      {
+       "q": "Which term means a reduction of loan and deposit through the stated repayment entry?",
+       "r": "principal repayment",
+       "w": [
+        "paired creation",
+        "borrower debt",
+        "money versus wealth"
+       ],
+       "e": [
+        "paired creation concerns a loan asset and deposit liability created together at origination, rather than the concept asked for.",
+        "borrower debt concerns the obligation matching the borrower’s new loan funds, rather than the concept asked for.",
+        "money versus wealth concerns the distinction between a monetary balance and net resources, rather than the concept asked for."
+       ],
+       "y": "A reduction of loan and deposit through the stated repayment entry."
+      },
+      {
+       "q": "Which term means the distinction between a monetary balance and net resources?",
+       "r": "money versus wealth",
+       "w": [
+        "paired creation",
+        "borrower debt",
+        "principal repayment"
+       ],
+       "e": [
+        "paired creation concerns a loan asset and deposit liability created together at origination, rather than the concept asked for.",
+        "borrower debt concerns the obligation matching the borrower’s new loan funds, rather than the concept asked for.",
+        "principal repayment concerns a reduction of loan and deposit through the stated repayment entry, rather than the concept asked for."
+       ],
+       "y": "The distinction between a monetary balance and net resources."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-13-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Granting and crediting the loan expands both sides.\nWhich concept best explains the highlighted feature?",
+       "r": "paired creation",
+       "w": [
+        "borrower debt",
+        "principal repayment",
+        "money versus wealth"
+       ],
+       "e": [
+        "That concerns the obligation matching the borrower’s new loan funds. This case instead concerns a loan asset and deposit liability created together at origination.",
+        "That concerns a reduction of loan and deposit through the stated repayment entry. This case instead concerns a loan asset and deposit liability created together at origination.",
+        "That concerns the distinction between a monetary balance and net resources. This case instead concerns a loan asset and deposit liability created together at origination."
+       ],
+       "y": "It also owes the new deposit."
+      },
+      {
+       "q": "The borrower’s deposit rises alongside a repayment obligation.\nWhich concept best explains the highlighted feature?",
+       "r": "borrower debt",
+       "w": [
+        "paired creation",
+        "principal repayment",
+        "money versus wealth"
+       ],
+       "e": [
+        "That concerns a loan asset and deposit liability created together at origination. This case instead concerns the obligation matching the borrower’s new loan funds.",
+        "That concerns a reduction of loan and deposit through the stated repayment entry. This case instead concerns the obligation matching the borrower’s new loan funds.",
+        "That concerns the distinction between a monetary balance and net resources. This case instead concerns the obligation matching the borrower’s new loan funds."
+       ],
+       "y": "The loan remains repayable under its terms."
+      },
+      {
+       "q": "Principal paid from a deposit extinguishes that part of the loan and deposit.\nWhich concept best explains the highlighted feature?",
+       "r": "principal repayment",
+       "w": [
+        "paired creation",
+        "borrower debt",
+        "money versus wealth"
+       ],
+       "e": [
+        "That concerns a loan asset and deposit liability created together at origination. This case instead concerns a reduction of loan and deposit through the stated repayment entry.",
+        "That concerns the obligation matching the borrower’s new loan funds. This case instead concerns a reduction of loan and deposit through the stated repayment entry.",
+        "That concerns the distinction between a monetary balance and net resources. This case instead concerns a reduction of loan and deposit through the stated repayment entry."
+       ],
+       "y": "The stated entry reduces, rather than originates, the claim."
+      },
+      {
+       "q": "A matching deposit and debt do not create equal net wealth.\nWhich concept best explains the highlighted feature?",
+       "r": "money versus wealth",
+       "w": [
+        "paired creation",
+        "borrower debt",
+        "principal repayment"
+       ],
+       "e": [
+        "That concerns a loan asset and deposit liability created together at origination. This case instead concerns the distinction between a monetary balance and net resources.",
+        "That concerns the obligation matching the borrower’s new loan funds. This case instead concerns the distinction between a monetary balance and net resources.",
+        "That concerns a reduction of loan and deposit through the stated repayment entry. This case instead concerns the distinction between a monetary balance and net resources."
+       ],
+       "y": "A financial entry is not physical production."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-13-reasons",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Granting and crediting the loan expands both sides.\nWhich explanation is appropriate?",
+       "r": "It also owes the new deposit.",
+       "w": [
+        "The loan remains repayable under its terms.",
+        "The stated entry reduces, rather than originates, the claim.",
+        "A financial entry is not physical production."
+       ],
+       "e": [
+        "That explanation addresses borrower debt, rather than the feature described here.",
+        "That explanation addresses principal repayment, rather than the feature described here.",
+        "That explanation addresses money versus wealth, rather than the feature described here."
+       ],
+       "y": "A loan asset and deposit liability created together at origination."
+      },
+      {
+       "q": "The borrower’s deposit rises alongside a repayment obligation.\nWhich explanation is appropriate?",
+       "r": "The loan remains repayable under its terms.",
+       "w": [
+        "It also owes the new deposit.",
+        "The stated entry reduces, rather than originates, the claim.",
+        "A financial entry is not physical production."
+       ],
+       "e": [
+        "That explanation addresses paired creation, rather than the feature described here.",
+        "That explanation addresses principal repayment, rather than the feature described here.",
+        "That explanation addresses money versus wealth, rather than the feature described here."
+       ],
+       "y": "The obligation matching the borrower’s new loan funds."
+      },
+      {
+       "q": "Principal paid from a deposit extinguishes that part of the loan and deposit.\nWhich explanation is appropriate?",
+       "r": "The stated entry reduces, rather than originates, the claim.",
+       "w": [
+        "It also owes the new deposit.",
+        "The loan remains repayable under its terms.",
+        "A financial entry is not physical production."
+       ],
+       "e": [
+        "That explanation addresses paired creation, rather than the feature described here.",
+        "That explanation addresses borrower debt, rather than the feature described here.",
+        "That explanation addresses money versus wealth, rather than the feature described here."
+       ],
+       "y": "A reduction of loan and deposit through the stated repayment entry."
+      },
+      {
+       "q": "A matching deposit and debt do not create equal net wealth.\nWhich explanation is appropriate?",
+       "r": "A financial entry is not physical production.",
+       "w": [
+        "It also owes the new deposit.",
+        "The loan remains repayable under its terms.",
+        "The stated entry reduces, rather than originates, the claim."
+       ],
+       "e": [
+        "That explanation addresses paired creation, rather than the feature described here.",
+        "That explanation addresses borrower debt, rather than the feature described here.",
+        "That explanation addresses principal repayment, rather than the feature described here."
+       ],
+       "y": "The distinction between a monetary balance and net resources."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-13-loan-entry",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      10,
+      30
+     ]
+    },
+    "b": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "l": {
+     "expr": "a*1000"
+    },
+    "x": {
+     "expr": "b*1000"
+    }
+   },
+   "prompt": "A fictional bank’s loan assets are {l} CFA francs before it grants and credits a new loan of {x}. No repayments, write-downs or other changes occur. What are its loan assets afterwards?",
+   "answer": "l+x",
+   "misconceptions": [
+    {
+     "id": "subtract",
+     "wrong": "l-x",
+     "explain": "The granted loan adds to the lender’s loan claim in this case."
+    },
+    {
+     "id": "newonly",
+     "wrong": "x",
+     "explain": "That omits the stated existing loan assets."
+    }
+   ],
+   "solution": [
+    "The new loan increases the bank’s claim on borrowers by {x}.",
+    "Loan assets become {l} + {x} = {answer} CFA francs; a matching deposit liability is created at origination."
+   ],
+   "where": [],
+   "unit": "CFA francs"
+  },
+  {
+   "id": "n5-13-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "prompt": "Find the incorrect economic claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "paired creation: a loan asset and deposit liability created together at origination.",
+      "truth": "true",
+      "explain": "This is correct: a loan asset and deposit liability created together at origination. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "borrower debt: the obligation matching the borrower’s new loan funds.",
+      "truth": "true",
+      "explain": "This is correct: the obligation matching the borrower’s new loan funds. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "principal repayment: a reduction of loan and deposit through the stated repayment entry.",
+      "truth": "true",
+      "explain": "This is correct: a reduction of loan and deposit through the stated repayment entry. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "money versus wealth: the distinction between a monetary balance and net resources.",
+      "truth": "true",
+      "explain": "This is correct: the distinction between a monetary balance and net resources. Look for a statement that contradicts the lesson’s distinction."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A bank records only a free asset when it credits the borrower.",
+      "truth": "false",
+      "explain": "It also owes the new deposit."
+     },
+     {
+      "text": "A credited loan is a debt-free gift.",
+      "truth": "false",
+      "explain": "The loan remains repayable under its terms."
+     },
+     {
+      "text": "Principal repayment necessarily creates an equal new loan.",
+      "truth": "false",
+      "explain": "The stated entry reduces, rather than originates, the claim."
+     },
+     {
+      "text": "Creating a deposit automatically creates a new physical machine.",
+      "truth": "false",
+      "explain": "A financial entry is not physical production."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

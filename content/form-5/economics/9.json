@@ -1,0 +1,734 @@
+{
+ "subject": "economics",
+ "class": "Form 5",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  2,
+  3,
+  8
+ ],
+ "skills": [
+  {
+   "id": "n5-9",
+   "name": "Fundamental notions of banking"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A bank provides deposit and payment services and extends credit. It brings financial relationships together, assesses borrowers and manages risks, rather than merely storing every customer’s deposit as labelled notes. A customer’s deposit is a claim on the bank. A loan granted by the bank is its claim on the borrower. Liquidity concerns meeting payments when due; credit risk concerns failure to repay. These can interact but are not the same. The lesson describes economic functions without recommending any institution or announcing account rules.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to explain deposit-taking, payments and lending while distinguishing liquidity and credit risk. Builds on: money forms, desired balances and real value. Leads to: commercial-bank functions and the bank balance sheet."
+   },
+   {
+    "heading": "Understand the economics",
+    "text": "A bank provides deposit and payment services and extends credit. It brings financial relationships together, assesses borrowers and manages risks, rather than merely storing every customer’s deposit as labelled notes. A customer’s deposit is a claim on the bank. A loan granted by the bank is its claim on the borrower. Liquidity concerns meeting payments when due; credit risk concerns failure to repay. These can interact but are not the same. The lesson describes economic functions without recommending any institution or announcing account rules."
+   },
+   {
+    "heading": "Follow the local case",
+    "text": "An imaginary bank serves a Bamenda trader receiving deposits and paying suppliers. Another customer borrows for a stated purpose. The bank must consider repayment and settlement needs. A sound-looking loan may not be immediately convertible into cash for a payment; a failed borrower may reduce the value of the bank’s assets."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Identify who owes whom. Separate a deposit claim, a loan claim and a payment service. Ask whether a difficulty concerns timing of liquid funds or loss from non-repayment. Do not infer that a profitable-looking bank can ignore payment needs."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "deposit-taking",
+    "meaning": "accepting balances owed by the bank to customers"
+   },
+   {
+    "word": "payment service",
+    "meaning": "arranging transfers to settle obligations"
+   },
+   {
+    "word": "liquidity risk",
+    "meaning": "the risk of being unable to meet payments when due"
+   },
+   {
+    "word": "credit risk",
+    "meaning": "the risk that a borrower fails to repay as agreed"
+   }
+  ],
+  "mistake": {
+   "wrong": "Every deposit is a share of ownership in the bank.",
+   "right": "deposit-taking: accepting balances owed by the bank to customers.",
+   "why": "A deposit claim differs from an equity stake."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A customer holds a claim recorded in an account. Explain the feature.",
+  "steps": [
+   "Accepting balances owed by the bank to customers.",
+   "A deposit claim differs from an equity stake."
+  ],
+  "answer": "deposit-taking",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "n5-9-c1",
+    "status": "draft",
+    "idea": "Distinguish the monetary concepts before evaluating a case.",
+    "vars": {},
+    "example": [
+     "deposit-taking: accepting balances owed by the bank to customers.",
+     "payment service: arranging transfers to settle obligations.",
+     "liquidity risk: the risk of being unable to meet payments when due.",
+     "credit risk: the risk that a borrower fails to repay as agreed."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n5-9-terms"
+    }
+   },
+   {
+    "id": "n5-9-c2",
+    "status": "draft",
+    "idea": "Use the stated case evidence to identify the economic feature.",
+    "vars": {},
+    "example": [
+     "A customer holds a claim recorded in an account.",
+     "The trader transfers a balance to pay a supplier.",
+     "Assets may exist without enough immediately available settlement funds.",
+     "A default reduces the expected value of a loan claim."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n5-9-cases"
+    }
+   },
+   {
+    "id": "n5-9-c3",
+    "status": "draft",
+    "idea": "Explain a consequence instead of assuming every option has the same effect.",
+    "vars": {},
+    "example": [
+     "deposit-taking: A deposit claim differs from an equity stake.",
+     "payment service: A transfer can move an existing balance.",
+     "liquidity risk: Timing and liquid availability matter.",
+     "credit risk: It concerns repayment, not office supplies."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n5-9-reasons-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "money"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A customer holds a claim recorded in an account.\nWhich explanation is appropriate?",
+         "r": "A deposit claim differs from an equity stake.",
+         "w": [
+          "A transfer can move an existing balance.",
+          "Timing and liquid availability matter.",
+          "It concerns repayment, not office supplies."
+         ],
+         "e": [
+          "That explanation addresses payment service, rather than the feature described here.",
+          "That explanation addresses liquidity risk, rather than the feature described here.",
+          "That explanation addresses credit risk, rather than the feature described here."
+         ],
+         "y": "Accepting balances owed by the bank to customers."
+        },
+        {
+         "q": "The trader transfers a balance to pay a supplier.\nWhich explanation is appropriate?",
+         "r": "A transfer can move an existing balance.",
+         "w": [
+          "A deposit claim differs from an equity stake.",
+          "Timing and liquid availability matter.",
+          "It concerns repayment, not office supplies."
+         ],
+         "e": [
+          "That explanation addresses deposit-taking, rather than the feature described here.",
+          "That explanation addresses liquidity risk, rather than the feature described here.",
+          "That explanation addresses credit risk, rather than the feature described here."
+         ],
+         "y": "Arranging transfers to settle obligations."
+        },
+        {
+         "q": "Assets may exist without enough immediately available settlement funds.\nWhich explanation is appropriate?",
+         "r": "Timing and liquid availability matter.",
+         "w": [
+          "A deposit claim differs from an equity stake.",
+          "A transfer can move an existing balance.",
+          "It concerns repayment, not office supplies."
+         ],
+         "e": [
+          "That explanation addresses deposit-taking, rather than the feature described here.",
+          "That explanation addresses payment service, rather than the feature described here.",
+          "That explanation addresses credit risk, rather than the feature described here."
+         ],
+         "y": "The risk of being unable to meet payments when due."
+        },
+        {
+         "q": "A default reduces the expected value of a loan claim.\nWhich explanation is appropriate?",
+         "r": "It concerns repayment, not office supplies.",
+         "w": [
+          "A deposit claim differs from an equity stake.",
+          "A transfer can move an existing balance.",
+          "Timing and liquid availability matter."
+         ],
+         "e": [
+          "That explanation addresses deposit-taking, rather than the feature described here.",
+          "That explanation addresses payment service, rather than the feature described here.",
+          "That explanation addresses liquidity risk, rather than the feature described here."
+         ],
+         "y": "The risk that a borrower fails to repay as agreed."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n5-9-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means accepting balances owed by the bank to customers?",
+       "r": "deposit-taking",
+       "w": [
+        "payment service",
+        "liquidity risk",
+        "credit risk"
+       ],
+       "e": [
+        "payment service concerns arranging transfers to settle obligations, rather than the concept asked for.",
+        "liquidity risk concerns the risk of being unable to meet payments when due, rather than the concept asked for.",
+        "credit risk concerns the risk that a borrower fails to repay as agreed, rather than the concept asked for."
+       ],
+       "y": "Accepting balances owed by the bank to customers."
+      },
+      {
+       "q": "Which term means arranging transfers to settle obligations?",
+       "r": "payment service",
+       "w": [
+        "deposit-taking",
+        "liquidity risk",
+        "credit risk"
+       ],
+       "e": [
+        "deposit-taking concerns accepting balances owed by the bank to customers, rather than the concept asked for.",
+        "liquidity risk concerns the risk of being unable to meet payments when due, rather than the concept asked for.",
+        "credit risk concerns the risk that a borrower fails to repay as agreed, rather than the concept asked for."
+       ],
+       "y": "Arranging transfers to settle obligations."
+      },
+      {
+       "q": "Which term means the risk of being unable to meet payments when due?",
+       "r": "liquidity risk",
+       "w": [
+        "deposit-taking",
+        "payment service",
+        "credit risk"
+       ],
+       "e": [
+        "deposit-taking concerns accepting balances owed by the bank to customers, rather than the concept asked for.",
+        "payment service concerns arranging transfers to settle obligations, rather than the concept asked for.",
+        "credit risk concerns the risk that a borrower fails to repay as agreed, rather than the concept asked for."
+       ],
+       "y": "The risk of being unable to meet payments when due."
+      },
+      {
+       "q": "Which term means the risk that a borrower fails to repay as agreed?",
+       "r": "credit risk",
+       "w": [
+        "deposit-taking",
+        "payment service",
+        "liquidity risk"
+       ],
+       "e": [
+        "deposit-taking concerns accepting balances owed by the bank to customers, rather than the concept asked for.",
+        "payment service concerns arranging transfers to settle obligations, rather than the concept asked for.",
+        "liquidity risk concerns the risk of being unable to meet payments when due, rather than the concept asked for."
+       ],
+       "y": "The risk that a borrower fails to repay as agreed."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-9-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A customer holds a claim recorded in an account.\nWhich concept best explains the highlighted feature?",
+       "r": "deposit-taking",
+       "w": [
+        "payment service",
+        "liquidity risk",
+        "credit risk"
+       ],
+       "e": [
+        "That concerns arranging transfers to settle obligations. This case instead concerns accepting balances owed by the bank to customers.",
+        "That concerns the risk of being unable to meet payments when due. This case instead concerns accepting balances owed by the bank to customers.",
+        "That concerns the risk that a borrower fails to repay as agreed. This case instead concerns accepting balances owed by the bank to customers."
+       ],
+       "y": "A deposit claim differs from an equity stake."
+      },
+      {
+       "q": "The trader transfers a balance to pay a supplier.\nWhich concept best explains the highlighted feature?",
+       "r": "payment service",
+       "w": [
+        "deposit-taking",
+        "liquidity risk",
+        "credit risk"
+       ],
+       "e": [
+        "That concerns accepting balances owed by the bank to customers. This case instead concerns arranging transfers to settle obligations.",
+        "That concerns the risk of being unable to meet payments when due. This case instead concerns arranging transfers to settle obligations.",
+        "That concerns the risk that a borrower fails to repay as agreed. This case instead concerns arranging transfers to settle obligations."
+       ],
+       "y": "A transfer can move an existing balance."
+      },
+      {
+       "q": "Assets may exist without enough immediately available settlement funds.\nWhich concept best explains the highlighted feature?",
+       "r": "liquidity risk",
+       "w": [
+        "deposit-taking",
+        "payment service",
+        "credit risk"
+       ],
+       "e": [
+        "That concerns accepting balances owed by the bank to customers. This case instead concerns the risk of being unable to meet payments when due.",
+        "That concerns arranging transfers to settle obligations. This case instead concerns the risk of being unable to meet payments when due.",
+        "That concerns the risk that a borrower fails to repay as agreed. This case instead concerns the risk of being unable to meet payments when due."
+       ],
+       "y": "Timing and liquid availability matter."
+      },
+      {
+       "q": "A default reduces the expected value of a loan claim.\nWhich concept best explains the highlighted feature?",
+       "r": "credit risk",
+       "w": [
+        "deposit-taking",
+        "payment service",
+        "liquidity risk"
+       ],
+       "e": [
+        "That concerns accepting balances owed by the bank to customers. This case instead concerns the risk that a borrower fails to repay as agreed.",
+        "That concerns arranging transfers to settle obligations. This case instead concerns the risk that a borrower fails to repay as agreed.",
+        "That concerns the risk of being unable to meet payments when due. This case instead concerns the risk that a borrower fails to repay as agreed."
+       ],
+       "y": "It concerns repayment, not office supplies."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-9-reasons",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A customer holds a claim recorded in an account.\nWhich explanation is appropriate?",
+       "r": "A deposit claim differs from an equity stake.",
+       "w": [
+        "A transfer can move an existing balance.",
+        "Timing and liquid availability matter.",
+        "It concerns repayment, not office supplies."
+       ],
+       "e": [
+        "That explanation addresses payment service, rather than the feature described here.",
+        "That explanation addresses liquidity risk, rather than the feature described here.",
+        "That explanation addresses credit risk, rather than the feature described here."
+       ],
+       "y": "Accepting balances owed by the bank to customers."
+      },
+      {
+       "q": "The trader transfers a balance to pay a supplier.\nWhich explanation is appropriate?",
+       "r": "A transfer can move an existing balance.",
+       "w": [
+        "A deposit claim differs from an equity stake.",
+        "Timing and liquid availability matter.",
+        "It concerns repayment, not office supplies."
+       ],
+       "e": [
+        "That explanation addresses deposit-taking, rather than the feature described here.",
+        "That explanation addresses liquidity risk, rather than the feature described here.",
+        "That explanation addresses credit risk, rather than the feature described here."
+       ],
+       "y": "Arranging transfers to settle obligations."
+      },
+      {
+       "q": "Assets may exist without enough immediately available settlement funds.\nWhich explanation is appropriate?",
+       "r": "Timing and liquid availability matter.",
+       "w": [
+        "A deposit claim differs from an equity stake.",
+        "A transfer can move an existing balance.",
+        "It concerns repayment, not office supplies."
+       ],
+       "e": [
+        "That explanation addresses deposit-taking, rather than the feature described here.",
+        "That explanation addresses payment service, rather than the feature described here.",
+        "That explanation addresses credit risk, rather than the feature described here."
+       ],
+       "y": "The risk of being unable to meet payments when due."
+      },
+      {
+       "q": "A default reduces the expected value of a loan claim.\nWhich explanation is appropriate?",
+       "r": "It concerns repayment, not office supplies.",
+       "w": [
+        "A deposit claim differs from an equity stake.",
+        "A transfer can move an existing balance.",
+        "Timing and liquid availability matter."
+       ],
+       "e": [
+        "That explanation addresses deposit-taking, rather than the feature described here.",
+        "That explanation addresses payment service, rather than the feature described here.",
+        "That explanation addresses liquidity risk, rather than the feature described here."
+       ],
+       "y": "The risk that a borrower fails to repay as agreed."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-9-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "From the bank’s perspective, who owes a customer deposit?",
+       "r": "The bank owes the customer.",
+       "w": [
+        "The customer necessarily owes the deposit to the bank.",
+        "The customer becomes the central bank.",
+        "Nobody has any claim."
+       ],
+       "e": [
+        "That reverses the liability relationship.",
+        "Holding a deposit changes no institutional identity.",
+        "The balance is a claim."
+       ],
+       "y": "Deposits are bank liabilities."
+      },
+      {
+       "q": "A loan is not repaid as agreed. Which risk is illustrated?",
+       "r": "Credit risk.",
+       "w": [
+        "Divisibility.",
+        "A guaranteed capital gain.",
+        "An index base change only."
+       ],
+       "e": [
+        "Divisibility is a money quality.",
+        "Non-repayment can cause loss.",
+        "No price index is supplied."
+       ],
+       "y": "The problem concerns repayment."
+      },
+      {
+       "q": "A bank has long-term claims but lacks funds for a payment due now. Which issue is central?",
+       "r": "Liquidity.",
+       "w": [
+        "An automatic absence of all assets.",
+        "The definition of a banknote.",
+        "A proof that no customer exists."
+       ],
+       "e": [
+        "The case explicitly supplies assets.",
+        "It concerns payment timing.",
+        "No such absence is implied."
+       ],
+       "y": "Existing assets may be insufficiently liquid."
+      },
+      {
+       "q": "Why distinguish a deposit from an ownership share?",
+       "r": "A deposit is a claim owed to a customer; equity is a residual ownership interest.",
+       "w": [
+        "Both must be the same physical note.",
+        "Every customer controls the bank.",
+        "An account balance proves a guaranteed dividend."
+       ],
+       "e": [
+        "They are different claims, not necessarily notes.",
+        "Depositing does not establish control.",
+        "A deposit is not a dividend entitlement."
+       ],
+       "y": "Keep liability and ownership separate."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-9-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "prompt": "Find the incorrect economic claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "deposit-taking: accepting balances owed by the bank to customers.",
+      "truth": "true",
+      "explain": "This is correct: accepting balances owed by the bank to customers. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "payment service: arranging transfers to settle obligations.",
+      "truth": "true",
+      "explain": "This is correct: arranging transfers to settle obligations. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "liquidity risk: the risk of being unable to meet payments when due.",
+      "truth": "true",
+      "explain": "This is correct: the risk of being unable to meet payments when due. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "credit risk: the risk that a borrower fails to repay as agreed.",
+      "truth": "true",
+      "explain": "This is correct: the risk that a borrower fails to repay as agreed. Look for a statement that contradicts the lesson’s distinction."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every deposit is a share of ownership in the bank.",
+      "truth": "false",
+      "explain": "A deposit claim differs from an equity stake."
+     },
+     {
+      "text": "Every transfer necessarily creates a new loan.",
+      "truth": "false",
+      "explain": "A transfer can move an existing balance."
+     },
+     {
+      "text": "Having assets guarantees every immediate payment can be met.",
+      "truth": "false",
+      "explain": "Timing and liquid availability matter."
+     },
+     {
+      "text": "Credit risk means the printer has run out of paper.",
+      "truth": "false",
+      "explain": "It concerns repayment, not office supplies."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

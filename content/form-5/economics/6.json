@@ -1,0 +1,675 @@
+{
+ "subject": "economics",
+ "class": "Form 5",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  4,
+  5
+ ],
+ "skills": [
+  {
+   "id": "n5-6",
+   "name": "Inflation: meaning and measurement"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Inflation is a sustained rise in the general price level. A consumer-price measure tracks a defined basket with weights reflecting a specified method. An individual price can rise while others fall, so its movement alone does not establish general inflation. Calculate a period’s percentage index change using the earlier index as denominator. A change in index points is not automatically the same numerical percentage. The fictional indices here teach arithmetic; they are not current Cameroon inflation statistics.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to calculate a price-index change and distinguish general inflation from a single price movement. Builds on: basket records, indices and purchasing power. Leads to: causes, effects and the distinction from deflation."
+   },
+   {
+    "heading": "Understand the economics",
+    "text": "Inflation is a sustained rise in the general price level. A consumer-price measure tracks a defined basket with weights reflecting a specified method. An individual price can rise while others fall, so its movement alone does not establish general inflation. Calculate a period’s percentage index change using the earlier index as denominator. A change in index points is not automatically the same numerical percentage. The fictional indices here teach arithmetic; they are not current Cameroon inflation statistics."
+   },
+   {
+    "heading": "Follow the local case",
+    "text": "Original index: {120} rises to {126}. The change is {126-120} index points, while the percentage change is {100*(126-120)/120}%. A stationery price alone cannot establish that all national prices rose at that rate. Nor does a lower inflation rate necessarily mean falling prices."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Identify the periods and index method, subtract earlier from later and divide by earlier before multiplying by {100}. Label percentage and index points separately. Check whether the evidence describes one item or a broader price measure."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "inflation",
+    "meaning": "a sustained increase in the general price level"
+   },
+   {
+    "word": "basket weight",
+    "meaning": "an item’s contribution under the index method"
+   },
+   {
+    "word": "index-point change",
+    "meaning": "the arithmetic difference between index levels"
+   },
+   {
+    "word": "percentage inflation rate",
+    "meaning": "the index change relative to its earlier level"
+   }
+  ],
+  "mistake": {
+   "wrong": "Any single shop’s price rise proves national inflation of the same size.",
+   "right": "inflation: a sustained increase in the general price level.",
+   "why": "One price does not establish the broad measure."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A broad comparable price index rises over time. Explain the feature.",
+  "steps": [
+   "A sustained increase in the general price level.",
+   "One price does not establish the broad measure."
+  ],
+  "answer": "inflation",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "n5-6-c1",
+    "status": "draft",
+    "idea": "Distinguish the monetary concepts before evaluating a case.",
+    "vars": {},
+    "example": [
+     "inflation: a sustained increase in the general price level.",
+     "basket weight: an item’s contribution under the index method.",
+     "index-point change: the arithmetic difference between index levels.",
+     "percentage inflation rate: the index change relative to its earlier level."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n5-6-terms"
+    }
+   },
+   {
+    "id": "n5-6-c2",
+    "status": "draft",
+    "idea": "Use the stated case evidence to identify the economic feature.",
+    "vars": {},
+    "example": [
+     "A broad comparable price index rises over time.",
+     "A frequently purchased item may receive a greater expenditure weight.",
+     "Subtract earlier from later index.",
+     "Divide the change by the earlier index and scale."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n5-6-cases"
+    }
+   },
+   {
+    "id": "n5-6-c3",
+    "status": "draft",
+    "idea": "Explain a consequence instead of assuming every option has the same effect.",
+    "vars": {},
+    "example": [
+     "inflation: One price does not establish the broad measure.",
+     "basket weight: Weights depend on the defined measure.",
+     "index-point change: Percentage change also depends on the earlier level.",
+     "percentage inflation rate: The earlier level is the reference for this change."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n5-6-reasons-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "money"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A broad comparable price index rises over time.\nWhich explanation is appropriate?",
+         "r": "One price does not establish the broad measure.",
+         "w": [
+          "Weights depend on the defined measure.",
+          "Percentage change also depends on the earlier level.",
+          "The earlier level is the reference for this change."
+         ],
+         "e": [
+          "That explanation addresses basket weight, rather than the feature described here.",
+          "That explanation addresses index-point change, rather than the feature described here.",
+          "That explanation addresses percentage inflation rate, rather than the feature described here."
+         ],
+         "y": "A sustained increase in the general price level."
+        },
+        {
+         "q": "A frequently purchased item may receive a greater expenditure weight.\nWhich explanation is appropriate?",
+         "r": "Weights depend on the defined measure.",
+         "w": [
+          "One price does not establish the broad measure.",
+          "Percentage change also depends on the earlier level.",
+          "The earlier level is the reference for this change."
+         ],
+         "e": [
+          "That explanation addresses inflation, rather than the feature described here.",
+          "That explanation addresses index-point change, rather than the feature described here.",
+          "That explanation addresses percentage inflation rate, rather than the feature described here."
+         ],
+         "y": "An item’s contribution under the index method."
+        },
+        {
+         "q": "Subtract earlier from later index.\nWhich explanation is appropriate?",
+         "r": "Percentage change also depends on the earlier level.",
+         "w": [
+          "One price does not establish the broad measure.",
+          "Weights depend on the defined measure.",
+          "The earlier level is the reference for this change."
+         ],
+         "e": [
+          "That explanation addresses inflation, rather than the feature described here.",
+          "That explanation addresses basket weight, rather than the feature described here.",
+          "That explanation addresses percentage inflation rate, rather than the feature described here."
+         ],
+         "y": "The arithmetic difference between index levels."
+        },
+        {
+         "q": "Divide the change by the earlier index and scale.\nWhich explanation is appropriate?",
+         "r": "The earlier level is the reference for this change.",
+         "w": [
+          "One price does not establish the broad measure.",
+          "Weights depend on the defined measure.",
+          "Percentage change also depends on the earlier level."
+         ],
+         "e": [
+          "That explanation addresses inflation, rather than the feature described here.",
+          "That explanation addresses basket weight, rather than the feature described here.",
+          "That explanation addresses index-point change, rather than the feature described here."
+         ],
+         "y": "The index change relative to its earlier level."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n5-6-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a sustained increase in the general price level?",
+       "r": "inflation",
+       "w": [
+        "basket weight",
+        "index-point change",
+        "percentage inflation rate"
+       ],
+       "e": [
+        "basket weight concerns an item’s contribution under the index method, rather than the concept asked for.",
+        "index-point change concerns the arithmetic difference between index levels, rather than the concept asked for.",
+        "percentage inflation rate concerns the index change relative to its earlier level, rather than the concept asked for."
+       ],
+       "y": "A sustained increase in the general price level."
+      },
+      {
+       "q": "Which term means an item’s contribution under the index method?",
+       "r": "basket weight",
+       "w": [
+        "inflation",
+        "index-point change",
+        "percentage inflation rate"
+       ],
+       "e": [
+        "inflation concerns a sustained increase in the general price level, rather than the concept asked for.",
+        "index-point change concerns the arithmetic difference between index levels, rather than the concept asked for.",
+        "percentage inflation rate concerns the index change relative to its earlier level, rather than the concept asked for."
+       ],
+       "y": "An item’s contribution under the index method."
+      },
+      {
+       "q": "Which term means the arithmetic difference between index levels?",
+       "r": "index-point change",
+       "w": [
+        "inflation",
+        "basket weight",
+        "percentage inflation rate"
+       ],
+       "e": [
+        "inflation concerns a sustained increase in the general price level, rather than the concept asked for.",
+        "basket weight concerns an item’s contribution under the index method, rather than the concept asked for.",
+        "percentage inflation rate concerns the index change relative to its earlier level, rather than the concept asked for."
+       ],
+       "y": "The arithmetic difference between index levels."
+      },
+      {
+       "q": "Which term means the index change relative to its earlier level?",
+       "r": "percentage inflation rate",
+       "w": [
+        "inflation",
+        "basket weight",
+        "index-point change"
+       ],
+       "e": [
+        "inflation concerns a sustained increase in the general price level, rather than the concept asked for.",
+        "basket weight concerns an item’s contribution under the index method, rather than the concept asked for.",
+        "index-point change concerns the arithmetic difference between index levels, rather than the concept asked for."
+       ],
+       "y": "The index change relative to its earlier level."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-6-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A broad comparable price index rises over time.\nWhich concept best explains the highlighted feature?",
+       "r": "inflation",
+       "w": [
+        "basket weight",
+        "index-point change",
+        "percentage inflation rate"
+       ],
+       "e": [
+        "That concerns an item’s contribution under the index method. This case instead concerns a sustained increase in the general price level.",
+        "That concerns the arithmetic difference between index levels. This case instead concerns a sustained increase in the general price level.",
+        "That concerns the index change relative to its earlier level. This case instead concerns a sustained increase in the general price level."
+       ],
+       "y": "One price does not establish the broad measure."
+      },
+      {
+       "q": "A frequently purchased item may receive a greater expenditure weight.\nWhich concept best explains the highlighted feature?",
+       "r": "basket weight",
+       "w": [
+        "inflation",
+        "index-point change",
+        "percentage inflation rate"
+       ],
+       "e": [
+        "That concerns a sustained increase in the general price level. This case instead concerns an item’s contribution under the index method.",
+        "That concerns the arithmetic difference between index levels. This case instead concerns an item’s contribution under the index method.",
+        "That concerns the index change relative to its earlier level. This case instead concerns an item’s contribution under the index method."
+       ],
+       "y": "Weights depend on the defined measure."
+      },
+      {
+       "q": "Subtract earlier from later index.\nWhich concept best explains the highlighted feature?",
+       "r": "index-point change",
+       "w": [
+        "inflation",
+        "basket weight",
+        "percentage inflation rate"
+       ],
+       "e": [
+        "That concerns a sustained increase in the general price level. This case instead concerns the arithmetic difference between index levels.",
+        "That concerns an item’s contribution under the index method. This case instead concerns the arithmetic difference between index levels.",
+        "That concerns the index change relative to its earlier level. This case instead concerns the arithmetic difference between index levels."
+       ],
+       "y": "Percentage change also depends on the earlier level."
+      },
+      {
+       "q": "Divide the change by the earlier index and scale.\nWhich concept best explains the highlighted feature?",
+       "r": "percentage inflation rate",
+       "w": [
+        "inflation",
+        "basket weight",
+        "index-point change"
+       ],
+       "e": [
+        "That concerns a sustained increase in the general price level. This case instead concerns the index change relative to its earlier level.",
+        "That concerns an item’s contribution under the index method. This case instead concerns the index change relative to its earlier level.",
+        "That concerns the arithmetic difference between index levels. This case instead concerns the index change relative to its earlier level."
+       ],
+       "y": "The earlier level is the reference for this change."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-6-reasons",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A broad comparable price index rises over time.\nWhich explanation is appropriate?",
+       "r": "One price does not establish the broad measure.",
+       "w": [
+        "Weights depend on the defined measure.",
+        "Percentage change also depends on the earlier level.",
+        "The earlier level is the reference for this change."
+       ],
+       "e": [
+        "That explanation addresses basket weight, rather than the feature described here.",
+        "That explanation addresses index-point change, rather than the feature described here.",
+        "That explanation addresses percentage inflation rate, rather than the feature described here."
+       ],
+       "y": "A sustained increase in the general price level."
+      },
+      {
+       "q": "A frequently purchased item may receive a greater expenditure weight.\nWhich explanation is appropriate?",
+       "r": "Weights depend on the defined measure.",
+       "w": [
+        "One price does not establish the broad measure.",
+        "Percentage change also depends on the earlier level.",
+        "The earlier level is the reference for this change."
+       ],
+       "e": [
+        "That explanation addresses inflation, rather than the feature described here.",
+        "That explanation addresses index-point change, rather than the feature described here.",
+        "That explanation addresses percentage inflation rate, rather than the feature described here."
+       ],
+       "y": "An item’s contribution under the index method."
+      },
+      {
+       "q": "Subtract earlier from later index.\nWhich explanation is appropriate?",
+       "r": "Percentage change also depends on the earlier level.",
+       "w": [
+        "One price does not establish the broad measure.",
+        "Weights depend on the defined measure.",
+        "The earlier level is the reference for this change."
+       ],
+       "e": [
+        "That explanation addresses inflation, rather than the feature described here.",
+        "That explanation addresses basket weight, rather than the feature described here.",
+        "That explanation addresses percentage inflation rate, rather than the feature described here."
+       ],
+       "y": "The arithmetic difference between index levels."
+      },
+      {
+       "q": "Divide the change by the earlier index and scale.\nWhich explanation is appropriate?",
+       "r": "The earlier level is the reference for this change.",
+       "w": [
+        "One price does not establish the broad measure.",
+        "Weights depend on the defined measure.",
+        "Percentage change also depends on the earlier level."
+       ],
+       "e": [
+        "That explanation addresses inflation, rather than the feature described here.",
+        "That explanation addresses basket weight, rather than the feature described here.",
+        "That explanation addresses index-point change, rather than the feature described here."
+       ],
+       "y": "The index change relative to its earlier level."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-6-rate",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "old": {
+     "pick": [
+      100,
+      120,
+      150,
+      200
+     ]
+    },
+    "r": {
+     "pick": [
+      2,
+      4,
+      5,
+      10
+     ]
+    },
+    "new": {
+     "expr": "old*(1+r/100)"
+    }
+   },
+   "prompt": "A fictional comparable price index rises from {old} to {new} over the stated period. Calculate the percentage change.",
+   "answer": "100*(new-old)/old",
+   "misconceptions": [
+    {
+     "id": "difference",
+     "wrong": "new-old",
+     "explain": "That is an index-point change, not generally a percentage of the earlier level.",
+     "when": "old!=100"
+    },
+    {
+     "id": "newbase",
+     "wrong": "100*(new-old)/new",
+     "explain": "The requested percentage uses the earlier index as denominator."
+    }
+   ],
+   "solution": [
+    "Change = later minus earlier index.",
+    "Divide by earlier: {100} × ({new} − {old})/{old} = {answer}%."
+   ],
+   "where": [],
+   "unit": "%"
+  },
+  {
+   "id": "n5-6-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "prompt": "Find the incorrect economic claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "inflation: a sustained increase in the general price level.",
+      "truth": "true",
+      "explain": "This is correct: a sustained increase in the general price level. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "basket weight: an item’s contribution under the index method.",
+      "truth": "true",
+      "explain": "This is correct: an item’s contribution under the index method. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "index-point change: the arithmetic difference between index levels.",
+      "truth": "true",
+      "explain": "This is correct: the arithmetic difference between index levels. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "percentage inflation rate: the index change relative to its earlier level.",
+      "truth": "true",
+      "explain": "This is correct: the index change relative to its earlier level. Look for a statement that contradicts the lesson’s distinction."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Any single shop’s price rise proves national inflation of the same size.",
+      "truth": "false",
+      "explain": "One price does not establish the broad measure."
+     },
+     {
+      "text": "Every possible index must weight each item equally.",
+      "truth": "false",
+      "explain": "Weights depend on the defined measure."
+     },
+     {
+      "text": "An index-point difference is always the same numerical percentage.",
+      "truth": "false",
+      "explain": "Percentage change also depends on the earlier level."
+     },
+     {
+      "text": "Always divide the change by the later index.",
+      "truth": "false",
+      "explain": "The earlier level is the reference for this change."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

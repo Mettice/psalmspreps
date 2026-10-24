@@ -1,0 +1,674 @@
+{
+ "subject": "economics",
+ "class": "Form 5",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [
+  9,
+  12,
+  13
+ ],
+ "skills": [
+  {
+   "id": "n5-14",
+   "name": "Credit creation: a simplified expansion model and its limits"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A traditional classroom model assumes an outside reserve injection becomes a deposit; banks retain a fixed fraction, lend the remainder and recipients redeposit it completely. With no leakages or excess reserves, the geometric deposit total is the initial deposit divided by the retained fraction. Additional model credit excludes the initial deposit. This is a stylised accounting model, not a mechanical description or prediction of real bank lending. Actual banks create deposits when lending and face demand, risk, capital, liquidity and monetary-policy conditions.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to calculate a model deposit total and separate its assumptions from real bank lending. Builds on: paired loan/deposit entries and bank risk. Leads to: guided model comparison in a Cameroon setting."
+   },
+   {
+    "heading": "Understand the economics",
+    "text": "A traditional classroom model assumes an outside reserve injection becomes a deposit; banks retain a fixed fraction, lend the remainder and recipients redeposit it completely. With no leakages or excess reserves, the geometric deposit total is the initial deposit divided by the retained fraction. Additional model credit excludes the initial deposit. This is a stylised accounting model, not a mechanical description or prediction of real bank lending. Actual banks create deposits when lending and face demand, risk, capital, liquidity and monetary-policy conditions."
+   },
+   {
+    "heading": "Follow the local case",
+    "text": "Original model: initial deposit {10000} CFA francs, invented retained fraction {20}/{100}. Limiting deposits are {10000/(20/100)} and additional credit is {10000/(20/100)-10000}. These totals assume indefinite completion of the stated rounds. The fraction is not claimed to be a current BEAC rule or a lending recommendation."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "State the assumptions, convert the percentage to a fraction and identify whether total deposits or additional credit is requested. Do not confuse a limiting total with the result after a few rounds. Explain why actual credit cannot be predicted from this formula alone."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "retained fraction",
+    "meaning": "the stipulated proportion held in each model round"
+   },
+   {
+    "word": "limiting deposit total",
+    "meaning": "the sum approached by all assumed deposit rounds"
+   },
+   {
+    "word": "additional model credit",
+    "meaning": "the limiting deposit total less the initial deposit"
+   },
+   {
+    "word": "model limitation",
+    "meaning": "an assumption preventing automatic real-world prediction"
+   }
+  ],
+  "mistake": {
+   "wrong": "The exercise fraction announces today’s BEAC reserve rule.",
+   "right": "retained fraction: the stipulated proportion held in each model round.",
+   "why": "It is a hypothetical model parameter, not a current regulation."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The exercise states an invented fraction of each deposit. Explain the feature.",
+  "steps": [
+   "The stipulated proportion held in each model round.",
+   "It is a hypothetical model parameter, not a current regulation."
+  ],
+  "answer": "retained fraction",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "n5-14-c1",
+    "status": "draft",
+    "idea": "Distinguish the monetary concepts before evaluating a case.",
+    "vars": {},
+    "example": [
+     "retained fraction: the stipulated proportion held in each model round.",
+     "limiting deposit total: the sum approached by all assumed deposit rounds.",
+     "additional model credit: the limiting deposit total less the initial deposit.",
+     "model limitation: an assumption preventing automatic real-world prediction."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n5-14-terms"
+    }
+   },
+   {
+    "id": "n5-14-c2",
+    "status": "draft",
+    "idea": "Use the stated case evidence to identify the economic feature.",
+    "vars": {},
+    "example": [
+     "The exercise states an invented fraction of each deposit.",
+     "Divide the initial deposit by the retained fraction.",
+     "Remove the starting deposit from the model total.",
+     "Leakages, risk or weak borrowing demand can break the stipulated chain."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n5-14-cases"
+    }
+   },
+   {
+    "id": "n5-14-c3",
+    "status": "draft",
+    "idea": "Explain a consequence instead of assuming every option has the same effect.",
+    "vars": {},
+    "example": [
+     "retained fraction: It is a hypothetical model parameter, not a current regulation.",
+     "limiting deposit total: The total includes the initial and later assumed deposits.",
+     "additional model credit: The initial deposit distinguishes them.",
+     "model limitation: The stylised assumptions need not hold in practice."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n5-14-reasons-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "money"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "The exercise states an invented fraction of each deposit.\nWhich explanation is appropriate?",
+         "r": "It is a hypothetical model parameter, not a current regulation.",
+         "w": [
+          "The total includes the initial and later assumed deposits.",
+          "The initial deposit distinguishes them.",
+          "The stylised assumptions need not hold in practice."
+         ],
+         "e": [
+          "That explanation addresses limiting deposit total, rather than the feature described here.",
+          "That explanation addresses additional model credit, rather than the feature described here.",
+          "That explanation addresses model limitation, rather than the feature described here."
+         ],
+         "y": "The stipulated proportion held in each model round."
+        },
+        {
+         "q": "Divide the initial deposit by the retained fraction.\nWhich explanation is appropriate?",
+         "r": "The total includes the initial and later assumed deposits.",
+         "w": [
+          "It is a hypothetical model parameter, not a current regulation.",
+          "The initial deposit distinguishes them.",
+          "The stylised assumptions need not hold in practice."
+         ],
+         "e": [
+          "That explanation addresses retained fraction, rather than the feature described here.",
+          "That explanation addresses additional model credit, rather than the feature described here.",
+          "That explanation addresses model limitation, rather than the feature described here."
+         ],
+         "y": "The sum approached by all assumed deposit rounds."
+        },
+        {
+         "q": "Remove the starting deposit from the model total.\nWhich explanation is appropriate?",
+         "r": "The initial deposit distinguishes them.",
+         "w": [
+          "It is a hypothetical model parameter, not a current regulation.",
+          "The total includes the initial and later assumed deposits.",
+          "The stylised assumptions need not hold in practice."
+         ],
+         "e": [
+          "That explanation addresses retained fraction, rather than the feature described here.",
+          "That explanation addresses limiting deposit total, rather than the feature described here.",
+          "That explanation addresses model limitation, rather than the feature described here."
+         ],
+         "y": "The limiting deposit total less the initial deposit."
+        },
+        {
+         "q": "Leakages, risk or weak borrowing demand can break the stipulated chain.\nWhich explanation is appropriate?",
+         "r": "The stylised assumptions need not hold in practice.",
+         "w": [
+          "It is a hypothetical model parameter, not a current regulation.",
+          "The total includes the initial and later assumed deposits.",
+          "The initial deposit distinguishes them."
+         ],
+         "e": [
+          "That explanation addresses retained fraction, rather than the feature described here.",
+          "That explanation addresses limiting deposit total, rather than the feature described here.",
+          "That explanation addresses additional model credit, rather than the feature described here."
+         ],
+         "y": "An assumption preventing automatic real-world prediction."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n5-14-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means the stipulated proportion held in each model round?",
+       "r": "retained fraction",
+       "w": [
+        "limiting deposit total",
+        "additional model credit",
+        "model limitation"
+       ],
+       "e": [
+        "limiting deposit total concerns the sum approached by all assumed deposit rounds, rather than the concept asked for.",
+        "additional model credit concerns the limiting deposit total less the initial deposit, rather than the concept asked for.",
+        "model limitation concerns an assumption preventing automatic real-world prediction, rather than the concept asked for."
+       ],
+       "y": "The stipulated proportion held in each model round."
+      },
+      {
+       "q": "Which term means the sum approached by all assumed deposit rounds?",
+       "r": "limiting deposit total",
+       "w": [
+        "retained fraction",
+        "additional model credit",
+        "model limitation"
+       ],
+       "e": [
+        "retained fraction concerns the stipulated proportion held in each model round, rather than the concept asked for.",
+        "additional model credit concerns the limiting deposit total less the initial deposit, rather than the concept asked for.",
+        "model limitation concerns an assumption preventing automatic real-world prediction, rather than the concept asked for."
+       ],
+       "y": "The sum approached by all assumed deposit rounds."
+      },
+      {
+       "q": "Which term means the limiting deposit total less the initial deposit?",
+       "r": "additional model credit",
+       "w": [
+        "retained fraction",
+        "limiting deposit total",
+        "model limitation"
+       ],
+       "e": [
+        "retained fraction concerns the stipulated proportion held in each model round, rather than the concept asked for.",
+        "limiting deposit total concerns the sum approached by all assumed deposit rounds, rather than the concept asked for.",
+        "model limitation concerns an assumption preventing automatic real-world prediction, rather than the concept asked for."
+       ],
+       "y": "The limiting deposit total less the initial deposit."
+      },
+      {
+       "q": "Which term means an assumption preventing automatic real-world prediction?",
+       "r": "model limitation",
+       "w": [
+        "retained fraction",
+        "limiting deposit total",
+        "additional model credit"
+       ],
+       "e": [
+        "retained fraction concerns the stipulated proportion held in each model round, rather than the concept asked for.",
+        "limiting deposit total concerns the sum approached by all assumed deposit rounds, rather than the concept asked for.",
+        "additional model credit concerns the limiting deposit total less the initial deposit, rather than the concept asked for."
+       ],
+       "y": "An assumption preventing automatic real-world prediction."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-14-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The exercise states an invented fraction of each deposit.\nWhich concept best explains the highlighted feature?",
+       "r": "retained fraction",
+       "w": [
+        "limiting deposit total",
+        "additional model credit",
+        "model limitation"
+       ],
+       "e": [
+        "That concerns the sum approached by all assumed deposit rounds. This case instead concerns the stipulated proportion held in each model round.",
+        "That concerns the limiting deposit total less the initial deposit. This case instead concerns the stipulated proportion held in each model round.",
+        "That concerns an assumption preventing automatic real-world prediction. This case instead concerns the stipulated proportion held in each model round."
+       ],
+       "y": "It is a hypothetical model parameter, not a current regulation."
+      },
+      {
+       "q": "Divide the initial deposit by the retained fraction.\nWhich concept best explains the highlighted feature?",
+       "r": "limiting deposit total",
+       "w": [
+        "retained fraction",
+        "additional model credit",
+        "model limitation"
+       ],
+       "e": [
+        "That concerns the stipulated proportion held in each model round. This case instead concerns the sum approached by all assumed deposit rounds.",
+        "That concerns the limiting deposit total less the initial deposit. This case instead concerns the sum approached by all assumed deposit rounds.",
+        "That concerns an assumption preventing automatic real-world prediction. This case instead concerns the sum approached by all assumed deposit rounds."
+       ],
+       "y": "The total includes the initial and later assumed deposits."
+      },
+      {
+       "q": "Remove the starting deposit from the model total.\nWhich concept best explains the highlighted feature?",
+       "r": "additional model credit",
+       "w": [
+        "retained fraction",
+        "limiting deposit total",
+        "model limitation"
+       ],
+       "e": [
+        "That concerns the stipulated proportion held in each model round. This case instead concerns the limiting deposit total less the initial deposit.",
+        "That concerns the sum approached by all assumed deposit rounds. This case instead concerns the limiting deposit total less the initial deposit.",
+        "That concerns an assumption preventing automatic real-world prediction. This case instead concerns the limiting deposit total less the initial deposit."
+       ],
+       "y": "The initial deposit distinguishes them."
+      },
+      {
+       "q": "Leakages, risk or weak borrowing demand can break the stipulated chain.\nWhich concept best explains the highlighted feature?",
+       "r": "model limitation",
+       "w": [
+        "retained fraction",
+        "limiting deposit total",
+        "additional model credit"
+       ],
+       "e": [
+        "That concerns the stipulated proportion held in each model round. This case instead concerns an assumption preventing automatic real-world prediction.",
+        "That concerns the sum approached by all assumed deposit rounds. This case instead concerns an assumption preventing automatic real-world prediction.",
+        "That concerns the limiting deposit total less the initial deposit. This case instead concerns an assumption preventing automatic real-world prediction."
+       ],
+       "y": "The stylised assumptions need not hold in practice."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-14-reasons",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The exercise states an invented fraction of each deposit.\nWhich explanation is appropriate?",
+       "r": "It is a hypothetical model parameter, not a current regulation.",
+       "w": [
+        "The total includes the initial and later assumed deposits.",
+        "The initial deposit distinguishes them.",
+        "The stylised assumptions need not hold in practice."
+       ],
+       "e": [
+        "That explanation addresses limiting deposit total, rather than the feature described here.",
+        "That explanation addresses additional model credit, rather than the feature described here.",
+        "That explanation addresses model limitation, rather than the feature described here."
+       ],
+       "y": "The stipulated proportion held in each model round."
+      },
+      {
+       "q": "Divide the initial deposit by the retained fraction.\nWhich explanation is appropriate?",
+       "r": "The total includes the initial and later assumed deposits.",
+       "w": [
+        "It is a hypothetical model parameter, not a current regulation.",
+        "The initial deposit distinguishes them.",
+        "The stylised assumptions need not hold in practice."
+       ],
+       "e": [
+        "That explanation addresses retained fraction, rather than the feature described here.",
+        "That explanation addresses additional model credit, rather than the feature described here.",
+        "That explanation addresses model limitation, rather than the feature described here."
+       ],
+       "y": "The sum approached by all assumed deposit rounds."
+      },
+      {
+       "q": "Remove the starting deposit from the model total.\nWhich explanation is appropriate?",
+       "r": "The initial deposit distinguishes them.",
+       "w": [
+        "It is a hypothetical model parameter, not a current regulation.",
+        "The total includes the initial and later assumed deposits.",
+        "The stylised assumptions need not hold in practice."
+       ],
+       "e": [
+        "That explanation addresses retained fraction, rather than the feature described here.",
+        "That explanation addresses limiting deposit total, rather than the feature described here.",
+        "That explanation addresses model limitation, rather than the feature described here."
+       ],
+       "y": "The limiting deposit total less the initial deposit."
+      },
+      {
+       "q": "Leakages, risk or weak borrowing demand can break the stipulated chain.\nWhich explanation is appropriate?",
+       "r": "The stylised assumptions need not hold in practice.",
+       "w": [
+        "It is a hypothetical model parameter, not a current regulation.",
+        "The total includes the initial and later assumed deposits.",
+        "The initial deposit distinguishes them."
+       ],
+       "e": [
+        "That explanation addresses retained fraction, rather than the feature described here.",
+        "That explanation addresses limiting deposit total, rather than the feature described here.",
+        "That explanation addresses additional model credit, rather than the feature described here."
+       ],
+       "y": "An assumption preventing automatic real-world prediction."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-14-total",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "u": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "r": {
+     "pick": [
+      10,
+      20,
+      25,
+      50
+     ]
+    },
+    "D": {
+     "expr": "u*10000"
+    }
+   },
+   "prompt": "Stylised closed banking model only: an outside reserve injection of {D} CFA francs becomes an initial deposit. Banks retain fraction {r}/{100} of every deposit; all remainder is lent and redeposited, with no cash leakage or excess reserves. What is the limiting total of deposits, including the initial deposit?",
+   "answer": "D*100/r",
+   "misconceptions": [
+    {
+     "id": "credit",
+     "wrong": "D*100/r-D",
+     "explain": "That is additional model credit, excluding the initial deposit; the question asks total deposits."
+    },
+    {
+     "id": "reserve",
+     "wrong": "D*r/100",
+     "explain": "That is the first-round retained reserve, not the limiting deposit total."
+    }
+   ],
+   "solution": [
+    "This is an assumed geometric expansion, not a forecast of real lending.",
+    "Total deposits = initial deposit / reserve fraction = {D} / ({r}/{100}) = {answer} CFA francs.",
+    "Additional model credit excludes the initial deposit: {D*100/r-D}."
+   ],
+   "where": [],
+   "unit": "CFA francs"
+  },
+  {
+   "id": "n5-14-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "prompt": "Find the incorrect economic claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "retained fraction: the stipulated proportion held in each model round.",
+      "truth": "true",
+      "explain": "This is correct: the stipulated proportion held in each model round. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "limiting deposit total: the sum approached by all assumed deposit rounds.",
+      "truth": "true",
+      "explain": "This is correct: the sum approached by all assumed deposit rounds. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "additional model credit: the limiting deposit total less the initial deposit.",
+      "truth": "true",
+      "explain": "This is correct: the limiting deposit total less the initial deposit. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "model limitation: an assumption preventing automatic real-world prediction.",
+      "truth": "true",
+      "explain": "This is correct: an assumption preventing automatic real-world prediction. Look for a statement that contradicts the lesson’s distinction."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "The exercise fraction announces today’s BEAC reserve rule.",
+      "truth": "false",
+      "explain": "It is a hypothetical model parameter, not a current regulation."
+     },
+     {
+      "text": "The limiting total equals only the first loan.",
+      "truth": "false",
+      "explain": "The total includes the initial and later assumed deposits."
+     },
+     {
+      "text": "Additional credit and total deposits are always identical.",
+      "truth": "false",
+      "explain": "The initial deposit distinguishes them."
+     },
+     {
+      "text": "Actual lending must always equal the formula regardless of conditions.",
+      "truth": "false",
+      "explain": "The stylised assumptions need not hold in practice."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

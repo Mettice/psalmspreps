@@ -1,0 +1,733 @@
+{
+ "subject": "economics",
+ "class": "Form 5",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  6,
+  7
+ ],
+ "skills": [
+  {
+   "id": "n5-8",
+   "name": "Deflation and disinflation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Deflation is a sustained fall in the general price level; disinflation is a reduction in the inflation rate. Prices can keep rising during disinflation when the rate remains positive. A single discounted item is not enough to establish general deflation. Persistent deflation can increase the real burden of a fixed nominal debt and may accompany weak spending and employment, though effects depend on the cause and wider conditions. A productivity-led relative price fall differs from a broad, prolonged demand contraction.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to distinguish a falling price level from a slowing rise and explain a possible consequence. Builds on: inflation rates, purchasing power and nominal debt. Leads to: banking and the monetary-policy role."
+   },
+   {
+    "heading": "Understand the economics",
+    "text": "Deflation is a sustained fall in the general price level; disinflation is a reduction in the inflation rate. Prices can keep rising during disinflation when the rate remains positive. A single discounted item is not enough to establish general deflation. Persistent deflation can increase the real burden of a fixed nominal debt and may accompany weak spending and employment, though effects depend on the cause and wider conditions. A productivity-led relative price fall differs from a broad, prolonged demand contraction."
+   },
+   {
+    "heading": "Follow the local case",
+    "text": "Original comparison: an inflation rate slows from {8}% to {3}% while remaining positive, so the general price level still rises. A comparable broad index falling from {100} to {96} instead records a {100*(96-100)/100}% movement. The first is disinflation; a sustained general decline is deflation."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Look at the price level as well as the rate of change. Ask whether the measure is broad and the decline sustained. Do not turn a higher purchasing power of fixed cash into a guarantee that every household is better off when income or employment may also change."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "deflation",
+    "meaning": "a sustained fall in the general price level"
+   },
+   {
+    "word": "disinflation",
+    "meaning": "a fall in the rate of inflation"
+   },
+   {
+    "word": "real debt burden",
+    "meaning": "the purchasing-value burden of a fixed nominal repayment"
+   },
+   {
+    "word": "conditional welfare effect",
+    "meaning": "recognition that price changes interact with income and work"
+   }
+  ],
+  "mistake": {
+   "wrong": "Every price discount establishes general deflation.",
+   "right": "deflation: a sustained fall in the general price level.",
+   "why": "One item is not the general price level."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A broad price measure declines persistently. Explain the feature.",
+  "steps": [
+   "A sustained fall in the general price level.",
+   "One item is not the general price level."
+  ],
+  "answer": "deflation",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "n5-8-c1",
+    "status": "draft",
+    "idea": "Distinguish the monetary concepts before evaluating a case.",
+    "vars": {},
+    "example": [
+     "deflation: a sustained fall in the general price level.",
+     "disinflation: a fall in the rate of inflation.",
+     "real debt burden: the purchasing-value burden of a fixed nominal repayment.",
+     "conditional welfare effect: recognition that price changes interact with income and work."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n5-8-terms"
+    }
+   },
+   {
+    "id": "n5-8-c2",
+    "status": "draft",
+    "idea": "Use the stated case evidence to identify the economic feature.",
+    "vars": {},
+    "example": [
+     "A broad price measure declines persistently.",
+     "Positive inflation slows while prices keep rising.",
+     "Falling prices can make a fixed repayment larger in real terms.",
+     "Cheaper goods do not prove everyone benefits if incomes fall too."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n5-8-cases"
+    }
+   },
+   {
+    "id": "n5-8-c3",
+    "status": "draft",
+    "idea": "Explain a consequence instead of assuming every option has the same effect.",
+    "vars": {},
+    "example": [
+     "deflation: One item is not the general price level.",
+     "disinflation: A positive rate still means an increase.",
+     "real debt burden: The nominal obligation remains in this model.",
+     "conditional welfare effect: Income, debt and employment outcomes also matter."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n5-8-reasons-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "money"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A broad price measure declines persistently.\nWhich explanation is appropriate?",
+         "r": "One item is not the general price level.",
+         "w": [
+          "A positive rate still means an increase.",
+          "The nominal obligation remains in this model.",
+          "Income, debt and employment outcomes also matter."
+         ],
+         "e": [
+          "That explanation addresses disinflation, rather than the feature described here.",
+          "That explanation addresses real debt burden, rather than the feature described here.",
+          "That explanation addresses conditional welfare effect, rather than the feature described here."
+         ],
+         "y": "A sustained fall in the general price level."
+        },
+        {
+         "q": "Positive inflation slows while prices keep rising.\nWhich explanation is appropriate?",
+         "r": "A positive rate still means an increase.",
+         "w": [
+          "One item is not the general price level.",
+          "The nominal obligation remains in this model.",
+          "Income, debt and employment outcomes also matter."
+         ],
+         "e": [
+          "That explanation addresses deflation, rather than the feature described here.",
+          "That explanation addresses real debt burden, rather than the feature described here.",
+          "That explanation addresses conditional welfare effect, rather than the feature described here."
+         ],
+         "y": "A fall in the rate of inflation."
+        },
+        {
+         "q": "Falling prices can make a fixed repayment larger in real terms.\nWhich explanation is appropriate?",
+         "r": "The nominal obligation remains in this model.",
+         "w": [
+          "One item is not the general price level.",
+          "A positive rate still means an increase.",
+          "Income, debt and employment outcomes also matter."
+         ],
+         "e": [
+          "That explanation addresses deflation, rather than the feature described here.",
+          "That explanation addresses disinflation, rather than the feature described here.",
+          "That explanation addresses conditional welfare effect, rather than the feature described here."
+         ],
+         "y": "The purchasing-value burden of a fixed nominal repayment."
+        },
+        {
+         "q": "Cheaper goods do not prove everyone benefits if incomes fall too.\nWhich explanation is appropriate?",
+         "r": "Income, debt and employment outcomes also matter.",
+         "w": [
+          "One item is not the general price level.",
+          "A positive rate still means an increase.",
+          "The nominal obligation remains in this model."
+         ],
+         "e": [
+          "That explanation addresses deflation, rather than the feature described here.",
+          "That explanation addresses disinflation, rather than the feature described here.",
+          "That explanation addresses real debt burden, rather than the feature described here."
+         ],
+         "y": "Recognition that price changes interact with income and work."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n5-8-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a sustained fall in the general price level?",
+       "r": "deflation",
+       "w": [
+        "disinflation",
+        "real debt burden",
+        "conditional welfare effect"
+       ],
+       "e": [
+        "disinflation concerns a fall in the rate of inflation, rather than the concept asked for.",
+        "real debt burden concerns the purchasing-value burden of a fixed nominal repayment, rather than the concept asked for.",
+        "conditional welfare effect concerns recognition that price changes interact with income and work, rather than the concept asked for."
+       ],
+       "y": "A sustained fall in the general price level."
+      },
+      {
+       "q": "Which term means a fall in the rate of inflation?",
+       "r": "disinflation",
+       "w": [
+        "deflation",
+        "real debt burden",
+        "conditional welfare effect"
+       ],
+       "e": [
+        "deflation concerns a sustained fall in the general price level, rather than the concept asked for.",
+        "real debt burden concerns the purchasing-value burden of a fixed nominal repayment, rather than the concept asked for.",
+        "conditional welfare effect concerns recognition that price changes interact with income and work, rather than the concept asked for."
+       ],
+       "y": "A fall in the rate of inflation."
+      },
+      {
+       "q": "Which term means the purchasing-value burden of a fixed nominal repayment?",
+       "r": "real debt burden",
+       "w": [
+        "deflation",
+        "disinflation",
+        "conditional welfare effect"
+       ],
+       "e": [
+        "deflation concerns a sustained fall in the general price level, rather than the concept asked for.",
+        "disinflation concerns a fall in the rate of inflation, rather than the concept asked for.",
+        "conditional welfare effect concerns recognition that price changes interact with income and work, rather than the concept asked for."
+       ],
+       "y": "The purchasing-value burden of a fixed nominal repayment."
+      },
+      {
+       "q": "Which term means recognition that price changes interact with income and work?",
+       "r": "conditional welfare effect",
+       "w": [
+        "deflation",
+        "disinflation",
+        "real debt burden"
+       ],
+       "e": [
+        "deflation concerns a sustained fall in the general price level, rather than the concept asked for.",
+        "disinflation concerns a fall in the rate of inflation, rather than the concept asked for.",
+        "real debt burden concerns the purchasing-value burden of a fixed nominal repayment, rather than the concept asked for."
+       ],
+       "y": "Recognition that price changes interact with income and work."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-8-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A broad price measure declines persistently.\nWhich concept best explains the highlighted feature?",
+       "r": "deflation",
+       "w": [
+        "disinflation",
+        "real debt burden",
+        "conditional welfare effect"
+       ],
+       "e": [
+        "That concerns a fall in the rate of inflation. This case instead concerns a sustained fall in the general price level.",
+        "That concerns the purchasing-value burden of a fixed nominal repayment. This case instead concerns a sustained fall in the general price level.",
+        "That concerns recognition that price changes interact with income and work. This case instead concerns a sustained fall in the general price level."
+       ],
+       "y": "One item is not the general price level."
+      },
+      {
+       "q": "Positive inflation slows while prices keep rising.\nWhich concept best explains the highlighted feature?",
+       "r": "disinflation",
+       "w": [
+        "deflation",
+        "real debt burden",
+        "conditional welfare effect"
+       ],
+       "e": [
+        "That concerns a sustained fall in the general price level. This case instead concerns a fall in the rate of inflation.",
+        "That concerns the purchasing-value burden of a fixed nominal repayment. This case instead concerns a fall in the rate of inflation.",
+        "That concerns recognition that price changes interact with income and work. This case instead concerns a fall in the rate of inflation."
+       ],
+       "y": "A positive rate still means an increase."
+      },
+      {
+       "q": "Falling prices can make a fixed repayment larger in real terms.\nWhich concept best explains the highlighted feature?",
+       "r": "real debt burden",
+       "w": [
+        "deflation",
+        "disinflation",
+        "conditional welfare effect"
+       ],
+       "e": [
+        "That concerns a sustained fall in the general price level. This case instead concerns the purchasing-value burden of a fixed nominal repayment.",
+        "That concerns a fall in the rate of inflation. This case instead concerns the purchasing-value burden of a fixed nominal repayment.",
+        "That concerns recognition that price changes interact with income and work. This case instead concerns the purchasing-value burden of a fixed nominal repayment."
+       ],
+       "y": "The nominal obligation remains in this model."
+      },
+      {
+       "q": "Cheaper goods do not prove everyone benefits if incomes fall too.\nWhich concept best explains the highlighted feature?",
+       "r": "conditional welfare effect",
+       "w": [
+        "deflation",
+        "disinflation",
+        "real debt burden"
+       ],
+       "e": [
+        "That concerns a sustained fall in the general price level. This case instead concerns recognition that price changes interact with income and work.",
+        "That concerns a fall in the rate of inflation. This case instead concerns recognition that price changes interact with income and work.",
+        "That concerns the purchasing-value burden of a fixed nominal repayment. This case instead concerns recognition that price changes interact with income and work."
+       ],
+       "y": "Income, debt and employment outcomes also matter."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-8-reasons",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A broad price measure declines persistently.\nWhich explanation is appropriate?",
+       "r": "One item is not the general price level.",
+       "w": [
+        "A positive rate still means an increase.",
+        "The nominal obligation remains in this model.",
+        "Income, debt and employment outcomes also matter."
+       ],
+       "e": [
+        "That explanation addresses disinflation, rather than the feature described here.",
+        "That explanation addresses real debt burden, rather than the feature described here.",
+        "That explanation addresses conditional welfare effect, rather than the feature described here."
+       ],
+       "y": "A sustained fall in the general price level."
+      },
+      {
+       "q": "Positive inflation slows while prices keep rising.\nWhich explanation is appropriate?",
+       "r": "A positive rate still means an increase.",
+       "w": [
+        "One item is not the general price level.",
+        "The nominal obligation remains in this model.",
+        "Income, debt and employment outcomes also matter."
+       ],
+       "e": [
+        "That explanation addresses deflation, rather than the feature described here.",
+        "That explanation addresses real debt burden, rather than the feature described here.",
+        "That explanation addresses conditional welfare effect, rather than the feature described here."
+       ],
+       "y": "A fall in the rate of inflation."
+      },
+      {
+       "q": "Falling prices can make a fixed repayment larger in real terms.\nWhich explanation is appropriate?",
+       "r": "The nominal obligation remains in this model.",
+       "w": [
+        "One item is not the general price level.",
+        "A positive rate still means an increase.",
+        "Income, debt and employment outcomes also matter."
+       ],
+       "e": [
+        "That explanation addresses deflation, rather than the feature described here.",
+        "That explanation addresses disinflation, rather than the feature described here.",
+        "That explanation addresses conditional welfare effect, rather than the feature described here."
+       ],
+       "y": "The purchasing-value burden of a fixed nominal repayment."
+      },
+      {
+       "q": "Cheaper goods do not prove everyone benefits if incomes fall too.\nWhich explanation is appropriate?",
+       "r": "Income, debt and employment outcomes also matter.",
+       "w": [
+        "One item is not the general price level.",
+        "A positive rate still means an increase.",
+        "The nominal obligation remains in this model."
+       ],
+       "e": [
+        "That explanation addresses deflation, rather than the feature described here.",
+        "That explanation addresses disinflation, rather than the feature described here.",
+        "That explanation addresses real debt burden, rather than the feature described here."
+       ],
+       "y": "Recognition that price changes interact with income and work."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-8-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Inflation slows from {8}% to {3}% and remains positive. Which description fits?",
+       "r": "Disinflation with prices still rising.",
+       "w": [
+        "Deflation with prices falling.",
+        "An unchanged price level.",
+        "A guarantee of rising real wages."
+       ],
+       "e": [
+        "Both stated rates are positive.",
+        "The later positive rate still raises prices.",
+        "No wage information is supplied."
+       ],
+       "y": "Slower increases are not decreases."
+      },
+      {
+       "q": "A general price level falls persistently. Which description fits?",
+       "r": "Deflation.",
+       "w": [
+        "Positive inflation by definition.",
+        "Only a reduction in a still-positive rate.",
+        "A guaranteed improvement for every debtor."
+       ],
+       "e": [
+        "The direction is downward.",
+        "The price level itself falls.",
+        "Fixed nominal debts can become heavier in real terms."
+       ],
+       "y": "Use the level direction and persistence."
+      },
+      {
+       "q": "A shop discounts one notebook. What can be concluded about general deflation?",
+       "r": "The single observation is insufficient.",
+       "w": [
+        "General deflation is proved.",
+        "All wages must fall.",
+        "All other prices must be unchanged."
+       ],
+       "e": [
+        "A single item is not the general measure.",
+        "No wage data are supplied.",
+        "Other prices are unknown."
+       ],
+       "y": "Keep the evidence’s scope."
+      },
+      {
+       "q": "Why may fixed nominal debt become harder to bear during broad deflation?",
+       "r": "Its repayment can represent more purchasing value.",
+       "w": [
+        "Its nominal amount must become zero.",
+        "The lender loses all claims by definition.",
+        "Every borrower’s income is guaranteed to rise."
+       ],
+       "e": [
+        "The nominal amount is fixed in the case.",
+        "No such cancellation rule is supplied.",
+        "Income can move differently."
+       ],
+       "y": "The real burden can rise without a nominal increase."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-8-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "prompt": "Find the incorrect economic claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "deflation: a sustained fall in the general price level.",
+      "truth": "true",
+      "explain": "This is correct: a sustained fall in the general price level. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "disinflation: a fall in the rate of inflation.",
+      "truth": "true",
+      "explain": "This is correct: a fall in the rate of inflation. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "real debt burden: the purchasing-value burden of a fixed nominal repayment.",
+      "truth": "true",
+      "explain": "This is correct: the purchasing-value burden of a fixed nominal repayment. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "conditional welfare effect: recognition that price changes interact with income and work.",
+      "truth": "true",
+      "explain": "This is correct: recognition that price changes interact with income and work. Look for a statement that contradicts the lesson’s distinction."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every price discount establishes general deflation.",
+      "truth": "false",
+      "explain": "One item is not the general price level."
+     },
+     {
+      "text": "A lower positive inflation rate means the price level must fall.",
+      "truth": "false",
+      "explain": "A positive rate still means an increase."
+     },
+     {
+      "text": "A fixed nominal debt automatically vanishes during deflation.",
+      "truth": "false",
+      "explain": "The nominal obligation remains in this model."
+     },
+     {
+      "text": "Falling prices guarantee every person is better off.",
+      "truth": "false",
+      "explain": "Income, debt and employment outcomes also matter."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

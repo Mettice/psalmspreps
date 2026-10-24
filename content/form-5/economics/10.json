@@ -1,0 +1,681 @@
+{
+ "subject": "economics",
+ "class": "Form 5",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  9
+ ],
+ "skills": [
+  {
+   "id": "n5-10",
+   "name": "Commercial banks: functions and payments"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Commercial banks provide customer deposits, payments and credit, normally subject to banking rules and commercial constraints. A transfer within a bank reduces the sender’s deposit and increases the recipient’s deposit without itself increasing the combined balance. A new bank loan credited to a borrower’s account creates both a loan asset and a matching deposit liability. The bank still faces capital, liquidity, risk, profitability and settlement constraints. It does not create unlimited wealth or freely spend every customer liability as profit.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to distinguish moving existing deposits from creating a deposit through lending. Builds on: bank claims, payment services and risk. Leads to: balance-sheet entries and credit creation."
+   },
+   {
+    "heading": "Understand the economics",
+    "text": "Commercial banks provide customer deposits, payments and credit, normally subject to banking rules and commercial constraints. A transfer within a bank reduces the sender’s deposit and increases the recipient’s deposit without itself increasing the combined balance. A new bank loan credited to a borrower’s account creates both a loan asset and a matching deposit liability. The bank still faces capital, liquidity, risk, profitability and settlement constraints. It does not create unlimited wealth or freely spend every customer liability as profit."
+   },
+   {
+    "heading": "Follow the local case",
+    "text": "A fictional Douala supplier receives a transfer from another customer at the same bank. Their combined balance is unchanged when no fees or lending occur. A separate loan credited by the bank increases a borrower’s deposit and debt together. A payment to another bank can require interbank settlement, which differs from merely relabelling balances within one bank."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Identify the event: existing-balance transfer, new lending, principal repayment or fee. State the perspective and track both sides. Do not call every digital balance movement new money or assume a bank loan adds equal net wealth to its borrower."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "within-bank transfer",
+    "meaning": "movement of an existing balance between customers of the same bank"
+   },
+   {
+    "word": "loan-created deposit",
+    "meaning": "a deposit credited alongside a new bank loan claim"
+   },
+   {
+    "word": "interbank settlement",
+    "meaning": "settlement of obligations between different banks"
+   },
+   {
+    "word": "commercial constraint",
+    "meaning": "a risk or resource condition limiting bank decisions"
+   }
+  ],
+  "mistake": {
+   "wrong": "Every transfer increases their combined deposits.",
+   "right": "within-bank transfer: movement of an existing balance between customers of the same bank.",
+   "why": "Without new lending or fees, this transfer leaves the combined total unchanged."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Sender loses the amount that recipient gains. Explain the feature.",
+  "steps": [
+   "Movement of an existing balance between customers of the same bank.",
+   "Without new lending or fees, this transfer leaves the combined total unchanged."
+  ],
+  "answer": "within-bank transfer",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "n5-10-c1",
+    "status": "draft",
+    "idea": "Distinguish the monetary concepts before evaluating a case.",
+    "vars": {},
+    "example": [
+     "within-bank transfer: movement of an existing balance between customers of the same bank.",
+     "loan-created deposit: a deposit credited alongside a new bank loan claim.",
+     "interbank settlement: settlement of obligations between different banks.",
+     "commercial constraint: a risk or resource condition limiting bank decisions."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n5-10-terms"
+    }
+   },
+   {
+    "id": "n5-10-c2",
+    "status": "draft",
+    "idea": "Use the stated case evidence to identify the economic feature.",
+    "vars": {},
+    "example": [
+     "Sender loses the amount that recipient gains.",
+     "The bank records an asset and matching deposit liability.",
+     "A payment to another bank can require transfer of settlement funds.",
+     "A proposed loan must be assessed for repayment and funding needs."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n5-10-cases"
+    }
+   },
+   {
+    "id": "n5-10-c3",
+    "status": "draft",
+    "idea": "Explain a consequence instead of assuming every option has the same effect.",
+    "vars": {},
+    "example": [
+     "within-bank transfer: Without new lending or fees, this transfer leaves the combined total unchanged.",
+     "loan-created deposit: The new loan is also an obligation of the borrower.",
+     "interbank settlement: They concern different holders and claims.",
+     "commercial constraint: Capital, liquidity, demand and risk still constrain lending."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n5-10-reasons-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "money"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Sender loses the amount that recipient gains.\nWhich explanation is appropriate?",
+         "r": "Without new lending or fees, this transfer leaves the combined total unchanged.",
+         "w": [
+          "The new loan is also an obligation of the borrower.",
+          "They concern different holders and claims.",
+          "Capital, liquidity, demand and risk still constrain lending."
+         ],
+         "e": [
+          "That explanation addresses loan-created deposit, rather than the feature described here.",
+          "That explanation addresses interbank settlement, rather than the feature described here.",
+          "That explanation addresses commercial constraint, rather than the feature described here."
+         ],
+         "y": "Movement of an existing balance between customers of the same bank."
+        },
+        {
+         "q": "The bank records an asset and matching deposit liability.\nWhich explanation is appropriate?",
+         "r": "The new loan is also an obligation of the borrower.",
+         "w": [
+          "Without new lending or fees, this transfer leaves the combined total unchanged.",
+          "They concern different holders and claims.",
+          "Capital, liquidity, demand and risk still constrain lending."
+         ],
+         "e": [
+          "That explanation addresses within-bank transfer, rather than the feature described here.",
+          "That explanation addresses interbank settlement, rather than the feature described here.",
+          "That explanation addresses commercial constraint, rather than the feature described here."
+         ],
+         "y": "A deposit credited alongside a new bank loan claim."
+        },
+        {
+         "q": "A payment to another bank can require transfer of settlement funds.\nWhich explanation is appropriate?",
+         "r": "They concern different holders and claims.",
+         "w": [
+          "Without new lending or fees, this transfer leaves the combined total unchanged.",
+          "The new loan is also an obligation of the borrower.",
+          "Capital, liquidity, demand and risk still constrain lending."
+         ],
+         "e": [
+          "That explanation addresses within-bank transfer, rather than the feature described here.",
+          "That explanation addresses loan-created deposit, rather than the feature described here.",
+          "That explanation addresses commercial constraint, rather than the feature described here."
+         ],
+         "y": "Settlement of obligations between different banks."
+        },
+        {
+         "q": "A proposed loan must be assessed for repayment and funding needs.\nWhich explanation is appropriate?",
+         "r": "Capital, liquidity, demand and risk still constrain lending.",
+         "w": [
+          "Without new lending or fees, this transfer leaves the combined total unchanged.",
+          "The new loan is also an obligation of the borrower.",
+          "They concern different holders and claims."
+         ],
+         "e": [
+          "That explanation addresses within-bank transfer, rather than the feature described here.",
+          "That explanation addresses loan-created deposit, rather than the feature described here.",
+          "That explanation addresses interbank settlement, rather than the feature described here."
+         ],
+         "y": "A risk or resource condition limiting bank decisions."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n5-10-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means movement of an existing balance between customers of the same bank?",
+       "r": "within-bank transfer",
+       "w": [
+        "loan-created deposit",
+        "interbank settlement",
+        "commercial constraint"
+       ],
+       "e": [
+        "loan-created deposit concerns a deposit credited alongside a new bank loan claim, rather than the concept asked for.",
+        "interbank settlement concerns settlement of obligations between different banks, rather than the concept asked for.",
+        "commercial constraint concerns a risk or resource condition limiting bank decisions, rather than the concept asked for."
+       ],
+       "y": "Movement of an existing balance between customers of the same bank."
+      },
+      {
+       "q": "Which term means a deposit credited alongside a new bank loan claim?",
+       "r": "loan-created deposit",
+       "w": [
+        "within-bank transfer",
+        "interbank settlement",
+        "commercial constraint"
+       ],
+       "e": [
+        "within-bank transfer concerns movement of an existing balance between customers of the same bank, rather than the concept asked for.",
+        "interbank settlement concerns settlement of obligations between different banks, rather than the concept asked for.",
+        "commercial constraint concerns a risk or resource condition limiting bank decisions, rather than the concept asked for."
+       ],
+       "y": "A deposit credited alongside a new bank loan claim."
+      },
+      {
+       "q": "Which term means settlement of obligations between different banks?",
+       "r": "interbank settlement",
+       "w": [
+        "within-bank transfer",
+        "loan-created deposit",
+        "commercial constraint"
+       ],
+       "e": [
+        "within-bank transfer concerns movement of an existing balance between customers of the same bank, rather than the concept asked for.",
+        "loan-created deposit concerns a deposit credited alongside a new bank loan claim, rather than the concept asked for.",
+        "commercial constraint concerns a risk or resource condition limiting bank decisions, rather than the concept asked for."
+       ],
+       "y": "Settlement of obligations between different banks."
+      },
+      {
+       "q": "Which term means a risk or resource condition limiting bank decisions?",
+       "r": "commercial constraint",
+       "w": [
+        "within-bank transfer",
+        "loan-created deposit",
+        "interbank settlement"
+       ],
+       "e": [
+        "within-bank transfer concerns movement of an existing balance between customers of the same bank, rather than the concept asked for.",
+        "loan-created deposit concerns a deposit credited alongside a new bank loan claim, rather than the concept asked for.",
+        "interbank settlement concerns settlement of obligations between different banks, rather than the concept asked for."
+       ],
+       "y": "A risk or resource condition limiting bank decisions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-10-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Sender loses the amount that recipient gains.\nWhich concept best explains the highlighted feature?",
+       "r": "within-bank transfer",
+       "w": [
+        "loan-created deposit",
+        "interbank settlement",
+        "commercial constraint"
+       ],
+       "e": [
+        "That concerns a deposit credited alongside a new bank loan claim. This case instead concerns movement of an existing balance between customers of the same bank.",
+        "That concerns settlement of obligations between different banks. This case instead concerns movement of an existing balance between customers of the same bank.",
+        "That concerns a risk or resource condition limiting bank decisions. This case instead concerns movement of an existing balance between customers of the same bank."
+       ],
+       "y": "Without new lending or fees, this transfer leaves the combined total unchanged."
+      },
+      {
+       "q": "The bank records an asset and matching deposit liability.\nWhich concept best explains the highlighted feature?",
+       "r": "loan-created deposit",
+       "w": [
+        "within-bank transfer",
+        "interbank settlement",
+        "commercial constraint"
+       ],
+       "e": [
+        "That concerns movement of an existing balance between customers of the same bank. This case instead concerns a deposit credited alongside a new bank loan claim.",
+        "That concerns settlement of obligations between different banks. This case instead concerns a deposit credited alongside a new bank loan claim.",
+        "That concerns a risk or resource condition limiting bank decisions. This case instead concerns a deposit credited alongside a new bank loan claim."
+       ],
+       "y": "The new loan is also an obligation of the borrower."
+      },
+      {
+       "q": "A payment to another bank can require transfer of settlement funds.\nWhich concept best explains the highlighted feature?",
+       "r": "interbank settlement",
+       "w": [
+        "within-bank transfer",
+        "loan-created deposit",
+        "commercial constraint"
+       ],
+       "e": [
+        "That concerns movement of an existing balance between customers of the same bank. This case instead concerns settlement of obligations between different banks.",
+        "That concerns a deposit credited alongside a new bank loan claim. This case instead concerns settlement of obligations between different banks.",
+        "That concerns a risk or resource condition limiting bank decisions. This case instead concerns settlement of obligations between different banks."
+       ],
+       "y": "They concern different holders and claims."
+      },
+      {
+       "q": "A proposed loan must be assessed for repayment and funding needs.\nWhich concept best explains the highlighted feature?",
+       "r": "commercial constraint",
+       "w": [
+        "within-bank transfer",
+        "loan-created deposit",
+        "interbank settlement"
+       ],
+       "e": [
+        "That concerns movement of an existing balance between customers of the same bank. This case instead concerns a risk or resource condition limiting bank decisions.",
+        "That concerns a deposit credited alongside a new bank loan claim. This case instead concerns a risk or resource condition limiting bank decisions.",
+        "That concerns settlement of obligations between different banks. This case instead concerns a risk or resource condition limiting bank decisions."
+       ],
+       "y": "Capital, liquidity, demand and risk still constrain lending."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-10-reasons",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Sender loses the amount that recipient gains.\nWhich explanation is appropriate?",
+       "r": "Without new lending or fees, this transfer leaves the combined total unchanged.",
+       "w": [
+        "The new loan is also an obligation of the borrower.",
+        "They concern different holders and claims.",
+        "Capital, liquidity, demand and risk still constrain lending."
+       ],
+       "e": [
+        "That explanation addresses loan-created deposit, rather than the feature described here.",
+        "That explanation addresses interbank settlement, rather than the feature described here.",
+        "That explanation addresses commercial constraint, rather than the feature described here."
+       ],
+       "y": "Movement of an existing balance between customers of the same bank."
+      },
+      {
+       "q": "The bank records an asset and matching deposit liability.\nWhich explanation is appropriate?",
+       "r": "The new loan is also an obligation of the borrower.",
+       "w": [
+        "Without new lending or fees, this transfer leaves the combined total unchanged.",
+        "They concern different holders and claims.",
+        "Capital, liquidity, demand and risk still constrain lending."
+       ],
+       "e": [
+        "That explanation addresses within-bank transfer, rather than the feature described here.",
+        "That explanation addresses interbank settlement, rather than the feature described here.",
+        "That explanation addresses commercial constraint, rather than the feature described here."
+       ],
+       "y": "A deposit credited alongside a new bank loan claim."
+      },
+      {
+       "q": "A payment to another bank can require transfer of settlement funds.\nWhich explanation is appropriate?",
+       "r": "They concern different holders and claims.",
+       "w": [
+        "Without new lending or fees, this transfer leaves the combined total unchanged.",
+        "The new loan is also an obligation of the borrower.",
+        "Capital, liquidity, demand and risk still constrain lending."
+       ],
+       "e": [
+        "That explanation addresses within-bank transfer, rather than the feature described here.",
+        "That explanation addresses loan-created deposit, rather than the feature described here.",
+        "That explanation addresses commercial constraint, rather than the feature described here."
+       ],
+       "y": "Settlement of obligations between different banks."
+      },
+      {
+       "q": "A proposed loan must be assessed for repayment and funding needs.\nWhich explanation is appropriate?",
+       "r": "Capital, liquidity, demand and risk still constrain lending.",
+       "w": [
+        "Without new lending or fees, this transfer leaves the combined total unchanged.",
+        "The new loan is also an obligation of the borrower.",
+        "They concern different holders and claims."
+       ],
+       "e": [
+        "That explanation addresses within-bank transfer, rather than the feature described here.",
+        "That explanation addresses loan-created deposit, rather than the feature described here.",
+        "That explanation addresses interbank settlement, rather than the feature described here."
+       ],
+       "y": "A risk or resource condition limiting bank decisions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-10-transfer",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "u": {
+     "int": [
+      5,
+      12
+     ]
+    },
+    "v": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "w": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "a": {
+     "expr": "u*1000"
+    },
+    "b": {
+     "expr": "v*1000"
+    },
+    "x": {
+     "expr": "w*1000"
+    }
+   },
+   "prompt": "At an imaginary bank, account A holds {a} CFA francs and account B holds {b}. A transfers {x} to B within this same bank. No fees or new lending occur. What is their combined deposit balance afterwards?",
+   "answer": "a+b",
+   "misconceptions": [
+    {
+     "id": "creation",
+     "wrong": "a+b+x",
+     "explain": "The transfer moves an existing deposit; it does not add this amount to the combined balance."
+    },
+    {
+     "id": "loss",
+     "wrong": "a+b-x",
+     "explain": "The recipient receives what the sender loses, so the combined balance does not shrink."
+    }
+   ],
+   "solution": [
+    "A ends with {a-x}; B ends with {b+x}.",
+    "Their sum is ({a} − {x}) + ({b} + {x}) = {answer} CFA francs."
+   ],
+   "where": [],
+   "unit": "CFA francs"
+  },
+  {
+   "id": "n5-10-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "prompt": "Find the incorrect economic claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "within-bank transfer: movement of an existing balance between customers of the same bank.",
+      "truth": "true",
+      "explain": "This is correct: movement of an existing balance between customers of the same bank. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "loan-created deposit: a deposit credited alongside a new bank loan claim.",
+      "truth": "true",
+      "explain": "This is correct: a deposit credited alongside a new bank loan claim. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "interbank settlement: settlement of obligations between different banks.",
+      "truth": "true",
+      "explain": "This is correct: settlement of obligations between different banks. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "commercial constraint: a risk or resource condition limiting bank decisions.",
+      "truth": "true",
+      "explain": "This is correct: a risk or resource condition limiting bank decisions. Look for a statement that contradicts the lesson’s distinction."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every transfer increases their combined deposits.",
+      "truth": "false",
+      "explain": "Without new lending or fees, this transfer leaves the combined total unchanged."
+     },
+     {
+      "text": "The borrower receives a deposit without any debt.",
+      "truth": "false",
+      "explain": "The new loan is also an obligation of the borrower."
+     },
+     {
+      "text": "A customer deposit and central-bank settlement reserves are identical accounts.",
+      "truth": "false",
+      "explain": "They concern different holders and claims."
+     },
+     {
+      "text": "Banks can lend without limit because deposits can be recorded.",
+      "truth": "false",
+      "explain": "Capital, liquidity, demand and risk still constrain lending."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -68,3 +68,4 @@ and `npm test`. Form 1 changes stay on `form-2` until Dion approves them for the
 
 - Form Five English Term One: 31 teaching drafts (rows 2–32) completed on 2026-10-24 with goals/connections, writing models and teacher notes; diagnostic row 1 excluded. This adds to the earlier baseline.
 - Form Five Logic Term One: nine teaching rows plus screen-based guided work 6 (ten drafts, rows 1–10) completed on 2026-10-24. Explicit existence conventions and local eduction terminology require teacher review.
+- Form Five Economics Term One: fourteen lesson rows plus practicals 5/15 and guided work 17 (seventeen drafts) completed on 2026-10-24. Further-study 11/18 excluded by row policy; current parameters and teacher approval are not claimed. Form Five now has 58 new drafts across English, Logic and Economics; French, Français intensif, History and Geography remain.

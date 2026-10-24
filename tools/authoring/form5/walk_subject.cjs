@@ -90,5 +90,16 @@ const root = path.resolve(__dirname, '../../..');
       await page.screenshot({path:squareShot,fullPage:true});
       console.log('Square screenshot: '+squareShot);
     }
+    if (subject === 'f5-economics') {
+      for (const [n,label] of [[5,/Invented fixed stationery basket/],[12,/Invented bank balance sheet/],[15,/Invented three-bank/]]) {
+        await page.evaluate(({id,n}) => openLesson(id,n), {id:subject,n});
+        await page.getByRole('button', {name:'Next',exact:true}).click();
+        await page.getByRole('button', {name:'Next',exact:true}).click();
+        if (await page.getByRole('img', {name:label}).count()!==1) throw Error('Missing record '+n);
+        const tableShot=path.join(os.tmpdir(), `${subject}-record-${n}.png`);
+        await page.screenshot({path:tableShot,fullPage:true});
+        console.log('Record screenshot: '+tableShot);
+      }
+    }
   } finally { await browser.close(); }
 })().catch((e) => { console.error(e); process.exitCode = 1; });

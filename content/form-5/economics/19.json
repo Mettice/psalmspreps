@@ -1,0 +1,685 @@
+{
+ "subject": "economics",
+ "class": "Form 5",
+ "lesson_no": 19,
+ "language": "en",
+ "prerequisites": [
+  12,
+  16,
+  17
+ ],
+ "skills": [
+  {
+   "id": "n5-19",
+   "name": "Fundamental notions of public finance"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Public finance concerns government revenue, expenditure and financing. Taxes and non-tax receipts can provide revenue; borrowing finances a gap but is not counted as revenue in this stated model. Expenditure purchases services or assets and makes transfers under the applicable budget classification. Revenue minus expenditure gives a surplus if positive, a deficit if negative and balance if equal. A deficit is a flow during a period; public debt is a stock at a date. Fiscal choices differ from central-bank monetary policy.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to distinguish public revenue, expenditure and financing and calculate a stated budget balance. Builds on: government/central-bank distinctions and financial records. Leads to: later taxation, public spending and budget-policy analysis."
+   },
+   {
+    "heading": "Understand the economics",
+    "text": "Public finance concerns government revenue, expenditure and financing. Taxes and non-tax receipts can provide revenue; borrowing finances a gap but is not counted as revenue in this stated model. Expenditure purchases services or assets and makes transfers under the applicable budget classification. Revenue minus expenditure gives a surplus if positive, a deficit if negative and balance if equal. A deficit is a flow during a period; public debt is a stock at a date. Fiscal choices differ from central-bank monetary policy."
+   },
+   {
+    "heading": "Follow the local case",
+    "text": "Original simplified public budget: tax receipts {12000}, non-tax receipts {3000} and expenditure {18000} CFA francs. Revenue is {12000+3000}; balance is {12000+3000-18000}. Borrowing that finances the gap does not turn the deficit into tax revenue. These tiny invented amounts teach a relationship, not a real Cameroon government budget or tax rule."
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Use the period and classification stated. Add revenue categories, subtract expenditure and interpret the sign. Keep financing and revenue separate, and distinguish an annual deficit from total debt. Real budgets require more detailed classifications than this introductory model."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "public revenue",
+    "meaning": "tax and non-tax receipts included under the stated classification"
+   },
+   {
+    "word": "public expenditure",
+    "meaning": "spending included under the stated public-budget classification"
+   },
+   {
+    "word": "budget balance",
+    "meaning": "revenue less expenditure for the stated period"
+   },
+   {
+    "word": "stock-flow distinction",
+    "meaning": "separation of a debt position from a period’s deficit"
+   }
+  ],
+  "mistake": {
+   "wrong": "Borrowing is automatically a tax receipt in this model.",
+   "right": "public revenue: tax and non-tax receipts included under the stated classification.",
+   "why": "It is financing rather than classified revenue here."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The model combines taxes and its non-tax receipts. Explain the feature.",
+  "steps": [
+   "Tax and non-tax receipts included under the stated classification.",
+   "It is financing rather than classified revenue here."
+  ],
+  "answer": "public revenue",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "n5-19-c1",
+    "status": "draft",
+    "idea": "Distinguish the monetary concepts before evaluating a case.",
+    "vars": {},
+    "example": [
+     "public revenue: tax and non-tax receipts included under the stated classification.",
+     "public expenditure: spending included under the stated public-budget classification.",
+     "budget balance: revenue less expenditure for the stated period.",
+     "stock-flow distinction: separation of a debt position from a period’s deficit."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n5-19-terms"
+    }
+   },
+   {
+    "id": "n5-19-c2",
+    "status": "draft",
+    "idea": "Use the stated case evidence to identify the economic feature.",
+    "vars": {},
+    "example": [
+     "The model combines taxes and its non-tax receipts.",
+     "The model records spending on public purposes and transfers.",
+     "A negative result records a deficit in the model.",
+     "Debt is measured at a date; deficit over a period."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n5-19-cases"
+    }
+   },
+   {
+    "id": "n5-19-c3",
+    "status": "draft",
+    "idea": "Explain a consequence instead of assuming every option has the same effect.",
+    "vars": {},
+    "example": [
+     "public revenue: It is financing rather than classified revenue here.",
+     "public expenditure: Spending and revenue have different roles.",
+     "budget balance: Expenditure is subtracted.",
+     "stock-flow distinction: A stock and one period’s flow need not coincide."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n5-19-reasons-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "money"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "The model combines taxes and its non-tax receipts.\nWhich explanation is appropriate?",
+         "r": "It is financing rather than classified revenue here.",
+         "w": [
+          "Spending and revenue have different roles.",
+          "Expenditure is subtracted.",
+          "A stock and one period’s flow need not coincide."
+         ],
+         "e": [
+          "That explanation addresses public expenditure, rather than the feature described here.",
+          "That explanation addresses budget balance, rather than the feature described here.",
+          "That explanation addresses stock-flow distinction, rather than the feature described here."
+         ],
+         "y": "Tax and non-tax receipts included under the stated classification."
+        },
+        {
+         "q": "The model records spending on public purposes and transfers.\nWhich explanation is appropriate?",
+         "r": "Spending and revenue have different roles.",
+         "w": [
+          "It is financing rather than classified revenue here.",
+          "Expenditure is subtracted.",
+          "A stock and one period’s flow need not coincide."
+         ],
+         "e": [
+          "That explanation addresses public revenue, rather than the feature described here.",
+          "That explanation addresses budget balance, rather than the feature described here.",
+          "That explanation addresses stock-flow distinction, rather than the feature described here."
+         ],
+         "y": "Spending included under the stated public-budget classification."
+        },
+        {
+         "q": "A negative result records a deficit in the model.\nWhich explanation is appropriate?",
+         "r": "Expenditure is subtracted.",
+         "w": [
+          "It is financing rather than classified revenue here.",
+          "Spending and revenue have different roles.",
+          "A stock and one period’s flow need not coincide."
+         ],
+         "e": [
+          "That explanation addresses public revenue, rather than the feature described here.",
+          "That explanation addresses public expenditure, rather than the feature described here.",
+          "That explanation addresses stock-flow distinction, rather than the feature described here."
+         ],
+         "y": "Revenue less expenditure for the stated period."
+        },
+        {
+         "q": "Debt is measured at a date; deficit over a period.\nWhich explanation is appropriate?",
+         "r": "A stock and one period’s flow need not coincide.",
+         "w": [
+          "It is financing rather than classified revenue here.",
+          "Spending and revenue have different roles.",
+          "Expenditure is subtracted."
+         ],
+         "e": [
+          "That explanation addresses public revenue, rather than the feature described here.",
+          "That explanation addresses public expenditure, rather than the feature described here.",
+          "That explanation addresses budget balance, rather than the feature described here."
+         ],
+         "y": "Separation of a debt position from a period’s deficit."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n5-19-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means tax and non-tax receipts included under the stated classification?",
+       "r": "public revenue",
+       "w": [
+        "public expenditure",
+        "budget balance",
+        "stock-flow distinction"
+       ],
+       "e": [
+        "public expenditure concerns spending included under the stated public-budget classification, rather than the concept asked for.",
+        "budget balance concerns revenue less expenditure for the stated period, rather than the concept asked for.",
+        "stock-flow distinction concerns separation of a debt position from a period’s deficit, rather than the concept asked for."
+       ],
+       "y": "Tax and non-tax receipts included under the stated classification."
+      },
+      {
+       "q": "Which term means spending included under the stated public-budget classification?",
+       "r": "public expenditure",
+       "w": [
+        "public revenue",
+        "budget balance",
+        "stock-flow distinction"
+       ],
+       "e": [
+        "public revenue concerns tax and non-tax receipts included under the stated classification, rather than the concept asked for.",
+        "budget balance concerns revenue less expenditure for the stated period, rather than the concept asked for.",
+        "stock-flow distinction concerns separation of a debt position from a period’s deficit, rather than the concept asked for."
+       ],
+       "y": "Spending included under the stated public-budget classification."
+      },
+      {
+       "q": "Which term means revenue less expenditure for the stated period?",
+       "r": "budget balance",
+       "w": [
+        "public revenue",
+        "public expenditure",
+        "stock-flow distinction"
+       ],
+       "e": [
+        "public revenue concerns tax and non-tax receipts included under the stated classification, rather than the concept asked for.",
+        "public expenditure concerns spending included under the stated public-budget classification, rather than the concept asked for.",
+        "stock-flow distinction concerns separation of a debt position from a period’s deficit, rather than the concept asked for."
+       ],
+       "y": "Revenue less expenditure for the stated period."
+      },
+      {
+       "q": "Which term means separation of a debt position from a period’s deficit?",
+       "r": "stock-flow distinction",
+       "w": [
+        "public revenue",
+        "public expenditure",
+        "budget balance"
+       ],
+       "e": [
+        "public revenue concerns tax and non-tax receipts included under the stated classification, rather than the concept asked for.",
+        "public expenditure concerns spending included under the stated public-budget classification, rather than the concept asked for.",
+        "budget balance concerns revenue less expenditure for the stated period, rather than the concept asked for."
+       ],
+       "y": "Separation of a debt position from a period’s deficit."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-19-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The model combines taxes and its non-tax receipts.\nWhich concept best explains the highlighted feature?",
+       "r": "public revenue",
+       "w": [
+        "public expenditure",
+        "budget balance",
+        "stock-flow distinction"
+       ],
+       "e": [
+        "That concerns spending included under the stated public-budget classification. This case instead concerns tax and non-tax receipts included under the stated classification.",
+        "That concerns revenue less expenditure for the stated period. This case instead concerns tax and non-tax receipts included under the stated classification.",
+        "That concerns separation of a debt position from a period’s deficit. This case instead concerns tax and non-tax receipts included under the stated classification."
+       ],
+       "y": "It is financing rather than classified revenue here."
+      },
+      {
+       "q": "The model records spending on public purposes and transfers.\nWhich concept best explains the highlighted feature?",
+       "r": "public expenditure",
+       "w": [
+        "public revenue",
+        "budget balance",
+        "stock-flow distinction"
+       ],
+       "e": [
+        "That concerns tax and non-tax receipts included under the stated classification. This case instead concerns spending included under the stated public-budget classification.",
+        "That concerns revenue less expenditure for the stated period. This case instead concerns spending included under the stated public-budget classification.",
+        "That concerns separation of a debt position from a period’s deficit. This case instead concerns spending included under the stated public-budget classification."
+       ],
+       "y": "Spending and revenue have different roles."
+      },
+      {
+       "q": "A negative result records a deficit in the model.\nWhich concept best explains the highlighted feature?",
+       "r": "budget balance",
+       "w": [
+        "public revenue",
+        "public expenditure",
+        "stock-flow distinction"
+       ],
+       "e": [
+        "That concerns tax and non-tax receipts included under the stated classification. This case instead concerns revenue less expenditure for the stated period.",
+        "That concerns spending included under the stated public-budget classification. This case instead concerns revenue less expenditure for the stated period.",
+        "That concerns separation of a debt position from a period’s deficit. This case instead concerns revenue less expenditure for the stated period."
+       ],
+       "y": "Expenditure is subtracted."
+      },
+      {
+       "q": "Debt is measured at a date; deficit over a period.\nWhich concept best explains the highlighted feature?",
+       "r": "stock-flow distinction",
+       "w": [
+        "public revenue",
+        "public expenditure",
+        "budget balance"
+       ],
+       "e": [
+        "That concerns tax and non-tax receipts included under the stated classification. This case instead concerns separation of a debt position from a period’s deficit.",
+        "That concerns spending included under the stated public-budget classification. This case instead concerns separation of a debt position from a period’s deficit.",
+        "That concerns revenue less expenditure for the stated period. This case instead concerns separation of a debt position from a period’s deficit."
+       ],
+       "y": "A stock and one period’s flow need not coincide."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-19-reasons",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The model combines taxes and its non-tax receipts.\nWhich explanation is appropriate?",
+       "r": "It is financing rather than classified revenue here.",
+       "w": [
+        "Spending and revenue have different roles.",
+        "Expenditure is subtracted.",
+        "A stock and one period’s flow need not coincide."
+       ],
+       "e": [
+        "That explanation addresses public expenditure, rather than the feature described here.",
+        "That explanation addresses budget balance, rather than the feature described here.",
+        "That explanation addresses stock-flow distinction, rather than the feature described here."
+       ],
+       "y": "Tax and non-tax receipts included under the stated classification."
+      },
+      {
+       "q": "The model records spending on public purposes and transfers.\nWhich explanation is appropriate?",
+       "r": "Spending and revenue have different roles.",
+       "w": [
+        "It is financing rather than classified revenue here.",
+        "Expenditure is subtracted.",
+        "A stock and one period’s flow need not coincide."
+       ],
+       "e": [
+        "That explanation addresses public revenue, rather than the feature described here.",
+        "That explanation addresses budget balance, rather than the feature described here.",
+        "That explanation addresses stock-flow distinction, rather than the feature described here."
+       ],
+       "y": "Spending included under the stated public-budget classification."
+      },
+      {
+       "q": "A negative result records a deficit in the model.\nWhich explanation is appropriate?",
+       "r": "Expenditure is subtracted.",
+       "w": [
+        "It is financing rather than classified revenue here.",
+        "Spending and revenue have different roles.",
+        "A stock and one period’s flow need not coincide."
+       ],
+       "e": [
+        "That explanation addresses public revenue, rather than the feature described here.",
+        "That explanation addresses public expenditure, rather than the feature described here.",
+        "That explanation addresses stock-flow distinction, rather than the feature described here."
+       ],
+       "y": "Revenue less expenditure for the stated period."
+      },
+      {
+       "q": "Debt is measured at a date; deficit over a period.\nWhich explanation is appropriate?",
+       "r": "A stock and one period’s flow need not coincide.",
+       "w": [
+        "It is financing rather than classified revenue here.",
+        "Spending and revenue have different roles.",
+        "Expenditure is subtracted."
+       ],
+       "e": [
+        "That explanation addresses public revenue, rather than the feature described here.",
+        "That explanation addresses public expenditure, rather than the feature described here.",
+        "That explanation addresses budget balance, rather than the feature described here."
+       ],
+       "y": "Separation of a debt position from a period’s deficit."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-19-balance",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "u": {
+     "int": [
+      10,
+      20
+     ]
+    },
+    "v": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "w": {
+     "int": [
+      8,
+      28
+     ]
+    },
+    "t": {
+     "expr": "u*1000"
+    },
+    "n": {
+     "expr": "v*1000"
+    },
+    "e": {
+     "expr": "w*1000"
+    }
+   },
+   "prompt": "An invented public-budget model has tax revenue {t} CFA francs, non-tax revenue {n} and expenditure {e}. Borrowing is financing, excluded from revenue here. Calculate revenue minus expenditure.",
+   "answer": "t+n-e",
+   "misconceptions": [
+    {
+     "id": "expense",
+     "wrong": "e",
+     "explain": "Expenditure alone is not the revenue-minus-expenditure balance.",
+     "when": "e != t+n-e"
+    },
+    {
+     "id": "alladd",
+     "wrong": "t+n+e",
+     "explain": "Spending is subtracted in this balance rather than added as revenue."
+    }
+   ],
+   "solution": [
+    "Revenue = tax plus non-tax receipts = {t+n}.",
+    "Balance = {t+n} − {e} = {answer} CFA francs. A negative result is a deficit in this stated model."
+   ],
+   "where": [],
+   "unit": "CFA francs",
+   "signed": true
+  },
+  {
+   "id": "n5-19-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "prompt": "Find the incorrect economic claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "public revenue: tax and non-tax receipts included under the stated classification.",
+      "truth": "true",
+      "explain": "This is correct: tax and non-tax receipts included under the stated classification. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "public expenditure: spending included under the stated public-budget classification.",
+      "truth": "true",
+      "explain": "This is correct: spending included under the stated public-budget classification. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "budget balance: revenue less expenditure for the stated period.",
+      "truth": "true",
+      "explain": "This is correct: revenue less expenditure for the stated period. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "stock-flow distinction: separation of a debt position from a period’s deficit.",
+      "truth": "true",
+      "explain": "This is correct: separation of a debt position from a period’s deficit. Look for a statement that contradicts the lesson’s distinction."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Borrowing is automatically a tax receipt in this model.",
+      "truth": "false",
+      "explain": "It is financing rather than classified revenue here."
+     },
+     {
+      "text": "Every expenditure is money earned by government.",
+      "truth": "false",
+      "explain": "Spending and revenue have different roles."
+     },
+     {
+      "text": "Adding expenditure to revenue gives this balance.",
+      "truth": "false",
+      "explain": "Expenditure is subtracted."
+     },
+     {
+      "text": "An annual deficit and total debt are always the same amount.",
+      "truth": "false",
+      "explain": "A stock and one period’s flow need not coincide."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

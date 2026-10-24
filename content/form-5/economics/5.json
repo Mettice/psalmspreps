@@ -1,0 +1,687 @@
+{
+ "subject": "economics",
+ "class": "Form 5",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  4
+ ],
+ "skills": [
+  {
+   "id": "n5-5",
+   "name": "Practical preparation: a fixed-basket record"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Use an invented basket or teacher-supplied observations; no shopping or personal spending is required. Record item, unit, fixed quantity, base unit price and later unit price. Multiply quantity by unit price and add item costs in each period. Hold composition and quality constant for this model. A small classroom basket describes itself; it is not automatically representative of Cameroon’s national price level. Mark any missing quotation rather than inventing a price.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to record comparable quantities and costs and explain what a small basket can establish. Builds on: internal purchasing power and price indices. Leads to: inflation measurement and careful comparisons."
+   },
+   {
+    "heading": "Understand the economics",
+    "text": "Use an invented basket or teacher-supplied observations; no shopping or personal spending is required. Record item, unit, fixed quantity, base unit price and later unit price. Multiply quantity by unit price and add item costs in each period. Hold composition and quality constant for this model. A small classroom basket describes itself; it is not automatically representative of Cameroon’s national price level. Mark any missing quotation rather than inventing a price."
+   },
+   {
+    "heading": "Follow the local case",
+    "text": "Original basket: {2} notebooks at {200} then {250} CFA francs each; {1} folder at {600} then {650}. Base cost is {2*200+600}; later cost is {2*250+650}. Price index is {100*(2*250+650)/(2*200+600)}. The comparison preserves quantities, units and quality. It does not measure the experience of every household.",
+    "figure": "\"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 320 224\\\" role=\\\"img\\\" aria-label=\\\"Invented fixed stationery basket totals\\\"><rect width=\\\"320\\\" height=\\\"100%\\\" fill=\\\"#f2f3ee\\\"/><g font-family=\\\"sans-serif\\\" font-size=\\\"14\\\" fill=\\\"#213b2d\\\"><text x=\\\"10\\\" y=\\\"23\\\">Classroom model - CFA francs</text>\" + \"<text x=\\\"10\\\" y=\\\"52\\\">Base notebooks</text><text x=\\\"309\\\" y=\\\"52\\\" text-anchor=\\\"end\\\">\" + fmt(2*200) + \"</text>\" + \"<text x=\\\"10\\\" y=\\\"81\\\">Base folder</text><text x=\\\"309\\\" y=\\\"81\\\" text-anchor=\\\"end\\\">\" + fmt(600) + \"</text>\" + \"<text x=\\\"10\\\" y=\\\"110\\\">Base total</text><text x=\\\"309\\\" y=\\\"110\\\" text-anchor=\\\"end\\\">\" + fmt(2*200+600) + \"</text>\" + \"<text x=\\\"10\\\" y=\\\"139\\\">Later notebooks</text><text x=\\\"309\\\" y=\\\"139\\\" text-anchor=\\\"end\\\">\" + fmt(2*250) + \"</text>\" + \"<text x=\\\"10\\\" y=\\\"168\\\">Later folder</text><text x=\\\"309\\\" y=\\\"168\\\" text-anchor=\\\"end\\\">\" + fmt(650) + \"</text>\" + \"<text x=\\\"10\\\" y=\\\"197\\\">Later total</text><text x=\\\"309\\\" y=\\\"197\\\" text-anchor=\\\"end\\\">\" + fmt(2*250+650) + \"</text>\" + \"</g></svg>\""
+   },
+   {
+    "heading": "Reason and check",
+    "text": "Prepare the item record, calculate both totals and label the base. Check missing observations and comparable units. Explain the difference between a particular basket’s movement and a representative price index. A different basket needs its own weights and evidence."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "fixed quantity",
+    "meaning": "an unchanged amount of each item across the comparison"
+   },
+   {
+    "word": "item cost",
+    "meaning": "quantity multiplied by comparable unit price"
+   },
+   {
+    "word": "basket total",
+    "meaning": "the sum of the included item costs"
+   },
+   {
+    "word": "representativeness limit",
+    "meaning": "the scope restriction of a small chosen basket"
+   }
+  ],
+  "mistake": {
+   "wrong": "Changing quantities without explanation isolates only price movement.",
+   "right": "fixed quantity: an unchanged amount of each item across the comparison.",
+   "why": "A changed basket mixes quantity and price effects."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "The same notebook count is used in both periods. Explain the feature.",
+  "steps": [
+   "An unchanged amount of each item across the comparison.",
+   "A changed basket mixes quantity and price effects."
+  ],
+  "answer": "fixed quantity",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "n5-5-c1",
+    "status": "draft",
+    "idea": "Distinguish the monetary concepts before evaluating a case.",
+    "vars": {},
+    "example": [
+     "fixed quantity: an unchanged amount of each item across the comparison.",
+     "item cost: quantity multiplied by comparable unit price.",
+     "basket total: the sum of the included item costs.",
+     "representativeness limit: the scope restriction of a small chosen basket."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n5-5-terms"
+    }
+   },
+   {
+    "id": "n5-5-c2",
+    "status": "draft",
+    "idea": "Use the stated case evidence to identify the economic feature.",
+    "vars": {},
+    "example": [
+     "The same notebook count is used in both periods.",
+     "Notebook count multiplies price per notebook.",
+     "Notebook and folder costs are added within the same period.",
+     "This stationery basket does not measure every household’s inflation."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "n5-5-cases"
+    }
+   },
+   {
+    "id": "n5-5-c3",
+    "status": "draft",
+    "idea": "Explain a consequence instead of assuming every option has the same effect.",
+    "vars": {},
+    "example": [
+     "fixed quantity: A changed basket mixes quantity and price effects.",
+     "item cost: The quantities multiply matching unit prices.",
+     "basket total: The periods need separate totals.",
+     "representativeness limit: A national measure needs a defined representative method."
+    ],
+    "checks": [],
+    "check": {
+     "id": "n5-5-reasons-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "money"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "The same notebook count is used in both periods.\nWhich explanation is appropriate?",
+         "r": "A changed basket mixes quantity and price effects.",
+         "w": [
+          "The quantities multiply matching unit prices.",
+          "The periods need separate totals.",
+          "A national measure needs a defined representative method."
+         ],
+         "e": [
+          "That explanation addresses item cost, rather than the feature described here.",
+          "That explanation addresses basket total, rather than the feature described here.",
+          "That explanation addresses representativeness limit, rather than the feature described here."
+         ],
+         "y": "An unchanged amount of each item across the comparison."
+        },
+        {
+         "q": "Notebook count multiplies price per notebook.\nWhich explanation is appropriate?",
+         "r": "The quantities multiply matching unit prices.",
+         "w": [
+          "A changed basket mixes quantity and price effects.",
+          "The periods need separate totals.",
+          "A national measure needs a defined representative method."
+         ],
+         "e": [
+          "That explanation addresses fixed quantity, rather than the feature described here.",
+          "That explanation addresses basket total, rather than the feature described here.",
+          "That explanation addresses representativeness limit, rather than the feature described here."
+         ],
+         "y": "Quantity multiplied by comparable unit price."
+        },
+        {
+         "q": "Notebook and folder costs are added within the same period.\nWhich explanation is appropriate?",
+         "r": "The periods need separate totals.",
+         "w": [
+          "A changed basket mixes quantity and price effects.",
+          "The quantities multiply matching unit prices.",
+          "A national measure needs a defined representative method."
+         ],
+         "e": [
+          "That explanation addresses fixed quantity, rather than the feature described here.",
+          "That explanation addresses item cost, rather than the feature described here.",
+          "That explanation addresses representativeness limit, rather than the feature described here."
+         ],
+         "y": "The sum of the included item costs."
+        },
+        {
+         "q": "This stationery basket does not measure every household’s inflation.\nWhich explanation is appropriate?",
+         "r": "A national measure needs a defined representative method.",
+         "w": [
+          "A changed basket mixes quantity and price effects.",
+          "The quantities multiply matching unit prices.",
+          "The periods need separate totals."
+         ],
+         "e": [
+          "That explanation addresses fixed quantity, rather than the feature described here.",
+          "That explanation addresses item cost, rather than the feature described here.",
+          "That explanation addresses basket total, rather than the feature described here."
+         ],
+         "y": "The scope restriction of a small chosen basket."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "n5-5-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means an unchanged amount of each item across the comparison?",
+       "r": "fixed quantity",
+       "w": [
+        "item cost",
+        "basket total",
+        "representativeness limit"
+       ],
+       "e": [
+        "item cost concerns quantity multiplied by comparable unit price, rather than the concept asked for.",
+        "basket total concerns the sum of the included item costs, rather than the concept asked for.",
+        "representativeness limit concerns the scope restriction of a small chosen basket, rather than the concept asked for."
+       ],
+       "y": "An unchanged amount of each item across the comparison."
+      },
+      {
+       "q": "Which term means quantity multiplied by comparable unit price?",
+       "r": "item cost",
+       "w": [
+        "fixed quantity",
+        "basket total",
+        "representativeness limit"
+       ],
+       "e": [
+        "fixed quantity concerns an unchanged amount of each item across the comparison, rather than the concept asked for.",
+        "basket total concerns the sum of the included item costs, rather than the concept asked for.",
+        "representativeness limit concerns the scope restriction of a small chosen basket, rather than the concept asked for."
+       ],
+       "y": "Quantity multiplied by comparable unit price."
+      },
+      {
+       "q": "Which term means the sum of the included item costs?",
+       "r": "basket total",
+       "w": [
+        "fixed quantity",
+        "item cost",
+        "representativeness limit"
+       ],
+       "e": [
+        "fixed quantity concerns an unchanged amount of each item across the comparison, rather than the concept asked for.",
+        "item cost concerns quantity multiplied by comparable unit price, rather than the concept asked for.",
+        "representativeness limit concerns the scope restriction of a small chosen basket, rather than the concept asked for."
+       ],
+       "y": "The sum of the included item costs."
+      },
+      {
+       "q": "Which term means the scope restriction of a small chosen basket?",
+       "r": "representativeness limit",
+       "w": [
+        "fixed quantity",
+        "item cost",
+        "basket total"
+       ],
+       "e": [
+        "fixed quantity concerns an unchanged amount of each item across the comparison, rather than the concept asked for.",
+        "item cost concerns quantity multiplied by comparable unit price, rather than the concept asked for.",
+        "basket total concerns the sum of the included item costs, rather than the concept asked for."
+       ],
+       "y": "The scope restriction of a small chosen basket."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-5-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The same notebook count is used in both periods.\nWhich concept best explains the highlighted feature?",
+       "r": "fixed quantity",
+       "w": [
+        "item cost",
+        "basket total",
+        "representativeness limit"
+       ],
+       "e": [
+        "That concerns quantity multiplied by comparable unit price. This case instead concerns an unchanged amount of each item across the comparison.",
+        "That concerns the sum of the included item costs. This case instead concerns an unchanged amount of each item across the comparison.",
+        "That concerns the scope restriction of a small chosen basket. This case instead concerns an unchanged amount of each item across the comparison."
+       ],
+       "y": "A changed basket mixes quantity and price effects."
+      },
+      {
+       "q": "Notebook count multiplies price per notebook.\nWhich concept best explains the highlighted feature?",
+       "r": "item cost",
+       "w": [
+        "fixed quantity",
+        "basket total",
+        "representativeness limit"
+       ],
+       "e": [
+        "That concerns an unchanged amount of each item across the comparison. This case instead concerns quantity multiplied by comparable unit price.",
+        "That concerns the sum of the included item costs. This case instead concerns quantity multiplied by comparable unit price.",
+        "That concerns the scope restriction of a small chosen basket. This case instead concerns quantity multiplied by comparable unit price."
+       ],
+       "y": "The quantities multiply matching unit prices."
+      },
+      {
+       "q": "Notebook and folder costs are added within the same period.\nWhich concept best explains the highlighted feature?",
+       "r": "basket total",
+       "w": [
+        "fixed quantity",
+        "item cost",
+        "representativeness limit"
+       ],
+       "e": [
+        "That concerns an unchanged amount of each item across the comparison. This case instead concerns the sum of the included item costs.",
+        "That concerns quantity multiplied by comparable unit price. This case instead concerns the sum of the included item costs.",
+        "That concerns the scope restriction of a small chosen basket. This case instead concerns the sum of the included item costs."
+       ],
+       "y": "The periods need separate totals."
+      },
+      {
+       "q": "This stationery basket does not measure every household’s inflation.\nWhich concept best explains the highlighted feature?",
+       "r": "representativeness limit",
+       "w": [
+        "fixed quantity",
+        "item cost",
+        "basket total"
+       ],
+       "e": [
+        "That concerns an unchanged amount of each item across the comparison. This case instead concerns the scope restriction of a small chosen basket.",
+        "That concerns quantity multiplied by comparable unit price. This case instead concerns the scope restriction of a small chosen basket.",
+        "That concerns the sum of the included item costs. This case instead concerns the scope restriction of a small chosen basket."
+       ],
+       "y": "A national measure needs a defined representative method."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-5-reasons",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The same notebook count is used in both periods.\nWhich explanation is appropriate?",
+       "r": "A changed basket mixes quantity and price effects.",
+       "w": [
+        "The quantities multiply matching unit prices.",
+        "The periods need separate totals.",
+        "A national measure needs a defined representative method."
+       ],
+       "e": [
+        "That explanation addresses item cost, rather than the feature described here.",
+        "That explanation addresses basket total, rather than the feature described here.",
+        "That explanation addresses representativeness limit, rather than the feature described here."
+       ],
+       "y": "An unchanged amount of each item across the comparison."
+      },
+      {
+       "q": "Notebook count multiplies price per notebook.\nWhich explanation is appropriate?",
+       "r": "The quantities multiply matching unit prices.",
+       "w": [
+        "A changed basket mixes quantity and price effects.",
+        "The periods need separate totals.",
+        "A national measure needs a defined representative method."
+       ],
+       "e": [
+        "That explanation addresses fixed quantity, rather than the feature described here.",
+        "That explanation addresses basket total, rather than the feature described here.",
+        "That explanation addresses representativeness limit, rather than the feature described here."
+       ],
+       "y": "Quantity multiplied by comparable unit price."
+      },
+      {
+       "q": "Notebook and folder costs are added within the same period.\nWhich explanation is appropriate?",
+       "r": "The periods need separate totals.",
+       "w": [
+        "A changed basket mixes quantity and price effects.",
+        "The quantities multiply matching unit prices.",
+        "A national measure needs a defined representative method."
+       ],
+       "e": [
+        "That explanation addresses fixed quantity, rather than the feature described here.",
+        "That explanation addresses item cost, rather than the feature described here.",
+        "That explanation addresses representativeness limit, rather than the feature described here."
+       ],
+       "y": "The sum of the included item costs."
+      },
+      {
+       "q": "This stationery basket does not measure every household’s inflation.\nWhich explanation is appropriate?",
+       "r": "A national measure needs a defined representative method.",
+       "w": [
+        "A changed basket mixes quantity and price effects.",
+        "The quantities multiply matching unit prices.",
+        "The periods need separate totals."
+       ],
+       "e": [
+        "That explanation addresses fixed quantity, rather than the feature described here.",
+        "That explanation addresses item cost, rather than the feature described here.",
+        "That explanation addresses basket total, rather than the feature described here."
+       ],
+       "y": "The scope restriction of a small chosen basket."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "n5-5-basket",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "money"
+   ],
+   "vars": {
+    "q": {
+     "int": [
+      2,
+      5
+     ]
+    },
+    "k": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "p": {
+     "pick": [
+      100,
+      200,
+      300
+     ]
+    },
+    "f": {
+     "pick": [
+      400,
+      500,
+      600
+     ]
+    },
+    "np": {
+     "expr": "p+50"
+    },
+    "nf": {
+     "expr": "f+100"
+    }
+   },
+   "prompt": "Invented fixed basket: {q} notebooks at {p} CFA francs each in the base period, now {np} each; and {k} folders at {f} each in the base period, now {nf} each. Find the later cost of the same basket.",
+   "answer": "q*np+k*nf",
+   "misconceptions": [
+    {
+     "id": "base",
+     "wrong": "q*p+k*f",
+     "explain": "That uses the old prices rather than the later prices."
+    },
+    {
+     "id": "unweighted",
+     "wrong": "np+nf",
+     "explain": "That adds unit prices without multiplying by the stated quantities."
+    }
+   ],
+   "solution": [
+    "Keep the quantities fixed rather than replacing the basket.",
+    "Later cost = {q} × {np} + {k} × {nf} = {answer} CFA francs."
+   ],
+   "where": [],
+   "unit": "CFA francs"
+  },
+  {
+   "id": "n5-5-repair",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "money"
+   ],
+   "prompt": "Find the incorrect economic claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "fixed quantity: an unchanged amount of each item across the comparison.",
+      "truth": "true",
+      "explain": "This is correct: an unchanged amount of each item across the comparison. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "item cost: quantity multiplied by comparable unit price.",
+      "truth": "true",
+      "explain": "This is correct: quantity multiplied by comparable unit price. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "basket total: the sum of the included item costs.",
+      "truth": "true",
+      "explain": "This is correct: the sum of the included item costs. Look for a statement that contradicts the lesson’s distinction."
+     },
+     {
+      "text": "representativeness limit: the scope restriction of a small chosen basket.",
+      "truth": "true",
+      "explain": "This is correct: the scope restriction of a small chosen basket. Look for a statement that contradicts the lesson’s distinction."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Changing quantities without explanation isolates only price movement.",
+      "truth": "false",
+      "explain": "A changed basket mixes quantity and price effects."
+     },
+     {
+      "text": "Adding quantities to currency prices gives an item cost.",
+      "truth": "false",
+      "explain": "The quantities multiply matching unit prices."
+     },
+     {
+      "text": "Adding the base and later totals gives the later basket cost.",
+      "truth": "false",
+      "explain": "The periods need separate totals."
+     },
+     {
+      "text": "Any classroom basket is automatically the official national index.",
+      "truth": "false",
+      "explain": "A national measure needs a defined representative method."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
