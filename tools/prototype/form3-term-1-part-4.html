@@ -434,7 +434,9 @@ function fmt(n) {
   const grouped = int.length > 4 ? int.replace(/\B(?=(\d{3})+(?!\d))/g, NBSP) : int;
   return (neg ? "−" : "") + grouped + (frac ? "." + frac : "");
 }
-const sup = (n) => String(n).replace(/[0-9]/g, (d) => SUP[d]);
+// signs, brackets and the letters used in indices are raised too (2026-10-24: 10⁻³ had an ordinary hyphen); spaces go
+const SUP_OTHER = { "-": "⁻", "−": "⁻", "+": "⁺", "(": "⁽", ")": "⁾", x: "ˣ", y: "ʸ", n: "ⁿ", m: "ᵐ", " ": "" };
+const sup = (n) => String(n).replace(/[0-9]/g, (d) => SUP[d]).replace(/[-−+()xynm ]/g, (c) => SUP_OTHER[c]);
 const sub = (n) => String(n).replace(/[0-9]/g, (d) => SUB[d]);
 const str = (x) => String(x);
 const num = (s) => Number(s);
@@ -2252,7 +2254,7 @@ const CLASSES = {"form-1":"Form One","form-2":"Form Two","form-3":"Form Three","
 const CLASS_OF = {"f3-logic":"form-3","f3-french":"form-3","f3-francais-intensif":"form-3"};
 const PAPER = {"f3-logic":[],"f3-french":[6,10,23,29],"f3-francais-intensif":[10,16,25,36]};
 const MODE = "single";
-const BUILD = "2026-10-23";
+const BUILD = "2026-10-24";
 const VERSIONS = {};
 const SHARE = {};
 const TERM = 1;

@@ -1,0 +1,590 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 27,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "m4-27",
+   "name": "Use the laws of indices and solve simple exponential equations"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Laws of indices: aᵐ × aⁿ = aᵐ⁺ⁿ; aᵐ ÷ aⁿ = aᵐ⁻ⁿ; (aᵐ)ⁿ = aᵐⁿ; a⁰ = 1; a⁻ⁿ = 1/aⁿ; a^(1/n) is the nth root.\nAn exponential equation has the unknown in the index, such as 2ˣ = 32.\nMethod: write both sides as powers of the same base, then the indices are equal.\n• 2ˣ = 32 = 2⁵, so x = 5.\n• 3ˣ⁺¹ = 81 = 3⁴, so x + 1 = 4 and x = 3.\n• 4ˣ = 8: 4 = 2², 8 = 2³, so 2²ˣ = 2³ and x = 3/2.\n• 9ˣ = 1/27: 3²ˣ = 3⁻³, so x = −3/2.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to use the laws of indices and solve exponential equations by writing both sides as powers of the same base.\nBuilds on: Form Three laws of indices (zero, negative and fractional indices).\nLeads to: Lesson {28} (logarithms), which solves exponential equations when the bases cannot be matched."
+   },
+   {
+    "heading": "The laws, revised",
+    "text": "For any base a:\n• aᵐ × aⁿ = a{sup('m+n')}  • aᵐ ÷ aⁿ = a{sup('m−n')}  • (aᵐ)ⁿ = a{sup('mn')}\n• a{sup(0)} = {1}  • a{sup(-1)} = {1}/a, a{sup(-2)} = {1}/a²  • a{sup('1/2')} = √a\nExample: {2}{sup(5)} × {2}{sup(3)} ÷ {2}{sup(4)} = {2}{sup(4)} = {16}.\nThese work only for the same base: {2}{sup(3)} × {3}{sup(2)} cannot be combined into one power."
+   },
+   {
+    "heading": "Exponential equations",
+    "text": "When x is in the index, make the bases match, then the indices must be equal.\n• {3}{sup('x+1')} = {81}: {81} = {3}{sup(4)}, so x + {1} = {4}, x = {3}.\n• {4}ˣ = {8}: {4} = {2}{sup(2)} and {8} = {2}{sup(3)}, so {2}{sup('2x')} = {2}{sup(3)}, {2}x = {3}, x = {frac(3, 2)}.\n• {9}ˣ = {1}/{27}: {3}{sup('2x')} = {3}{sup(-3)}, so x = {frac(-3, 2)}.\nCheck by putting the answer back: {4}{sup('3/2')} = (√{4})³ = {8}."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "index (power)",
+    "meaning": "the small raised number: the {3} in {2}{sup(3)}"
+   },
+   {
+    "word": "base",
+    "meaning": "the number being raised to the power"
+   },
+   {
+    "word": "exponential equation",
+    "meaning": "an equation with the unknown in the index"
+   }
+  ],
+  "examples": [
+   "{5}ˣ = {125} → x = {3}",
+   "{8}ˣ = {4} → {2}{sup('3x')} = {2}{sup(2)} → x = {frac(2, 3)}",
+   "{2}ˣ = {frac(1, 8)} → x = {-3}"
+  ],
+  "mistake": {
+   "wrong": "{4}ˣ = {8} → x = {2}",
+   "right": "{4}ˣ = {8} → x = {frac(3, 2)}",
+   "why": "{4}{sup(2)} = {16}, not {8}. Write both as powers of {2}: {2}{sup('2x')} = {2}{sup(3)}."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": 2,
+   "q": 3
+  },
+  "problem": "Solve {2 ^ p}ˣ = {2 ^ q}.",
+  "steps": [
+   "Write both sides as powers of {2}: {2 ^ p} = {2}{sup(p)} and {2 ^ q} = {2}{sup(q)}.",
+   "So ({2}{sup(p)})ˣ = {2}{sup(q)}, that is {2}{sup('2x')} = {2}{sup(q)}.",
+   "The indices are equal: {p}x = {q}."
+  ],
+  "answer": "x = {frac(q, p)}",
+  "checks": [
+   "2 ^ p == 4",
+   "2 ^ q == 8"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m27-1",
+    "status": "draft",
+    "idea": "Multiplying powers of the same base adds the indices; dividing subtracts them.",
+    "vars": {},
+    "example": [
+     "{2}{sup(5)} × {2}{sup(3)} ÷ {2}{sup(4)} = {2}{sup(4)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-27-laws"
+    }
+   },
+   {
+    "id": "c4m27-2",
+    "status": "draft",
+    "idea": "If both sides are powers of the same base, the indices are equal.",
+    "vars": {},
+    "example": [
+     "{3}ˣ = {81} = {3}{sup(4)}, so x = {4}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-27-solve"
+    }
+   },
+   {
+    "id": "c4m27-3",
+    "status": "draft",
+    "idea": "Change both sides to a common base first.",
+    "vars": {},
+    "example": [
+     "{4}ˣ = {8}: {2}{sup('2x')} = {2}{sup(3)}, so x = {frac(3, 2)}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-27-common-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "indices-logs"
+     ],
+     "vars": {
+      "P": {
+       "pick": [
+        [
+         2,
+         2,
+         3
+        ],
+        [
+         2,
+         3,
+         2
+        ],
+        [
+         2,
+         2,
+         5
+        ],
+        [
+         3,
+         2,
+         3
+        ],
+        [
+         2,
+         4,
+         3
+        ],
+        [
+         5,
+         2,
+         3
+        ],
+        [
+         3,
+         3,
+         2
+        ],
+        [
+         2,
+         3,
+         4
+        ]
+       ]
+      },
+      "g": {
+       "expr": "P[0]"
+      },
+      "p": {
+       "expr": "P[1]"
+      },
+      "q": {
+       "expr": "P[2]"
+      },
+      "B": {
+       "expr": "g ^ p"
+      },
+      "C": {
+       "expr": "g ^ q"
+      }
+     },
+     "prompt": "Solve {B}ˣ = {C}.",
+     "correct": "x = {frac(q, p)}",
+     "distractors": [
+      {
+       "text": "x = {frac(p, q)}",
+       "misconception": "flip"
+      },
+      {
+       "text": "x = {frac(C, B)}",
+       "misconception": "divide"
+      },
+      {
+       "text": "x = {q - p}",
+       "misconception": "sub"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "flip",
+       "explain": "{p}x = {q} gives x = {q} ÷ {p}, not {p} ÷ {q}."
+      },
+      {
+       "id": "divide",
+       "explain": "Write both sides as powers of {g} first; dividing {C} by {B} does not give the index."
+      },
+      {
+       "id": "sub",
+       "explain": "The index on the left is {p}x, a product: divide, do not subtract."
+      }
+     ],
+     "solution": [
+      "{B} = {g}{sup(p)} and {C} = {g}{sup(q)}.",
+      "So {g}{sup(p + 'x')} = {g}{sup(q)}, and {p}x = {q}.",
+      "So the answer is {answer}."
+     ],
+     "where": [
+      "frac(C, B) != frac(q, p)",
+      "q - p != q / p"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-27-laws",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "b": {
+     "pick": [
+      2,
+      3,
+      5,
+      7
+     ]
+    },
+    "m": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "p": {
+     "int": [
+      1,
+      8
+     ]
+    }
+   },
+   "prompt": "Write {b}{sup(m)} × {b}{sup(n)} ÷ {b}{sup(p)} as a single power of {b}. What is the index?",
+   "answer": "m + n - p",
+   "misconceptions": [
+    {
+     "id": "mult",
+     "wrong": "m * n - p",
+     "explain": "Multiplying powers adds the indices; it does not multiply them."
+    },
+    {
+     "id": "div",
+     "wrong": "(m + n) / p",
+     "explain": "Dividing powers subtracts the indices.",
+     "when": "(m + n) % p == 0"
+    }
+   ],
+   "solution": [
+    "Multiplying adds the indices: {m} + {n} = {m + n}.",
+    "Dividing subtracts: {m + n} − {p} = {answer}."
+   ],
+   "where": [
+    "m + n - p != 0",
+    "m * n - p != m + n - p"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-27-solve",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "b": {
+     "pick": [
+      2,
+      3,
+      5
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      7
+     ]
+    }
+   },
+   "prompt": "Solve {b}ˣ = {b ^ k}.",
+   "answer": "k",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "b ^ k / b",
+     "explain": "{b ^ k} ÷ {b} is not the index. Count how many {b}s multiply to give {b ^ k}."
+    }
+   ],
+   "solution": [
+    "Write {b ^ k} as a power of {b}: {b ^ k} = {b}{sup(k)}.",
+    "So x = {answer}."
+   ],
+   "where": [
+    "b ^ k <= 3125"
+   ]
+  },
+  {
+   "id": "m4-27-shift",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "b": {
+     "pick": [
+      2,
+      3,
+      5
+     ]
+    },
+    "k": {
+     "int": [
+      3,
+      7
+     ]
+    },
+    "d": {
+     "int": [
+      1,
+      3
+     ]
+    }
+   },
+   "prompt": "Solve {b}{sup('x + ' + d)} = {b ^ k}.",
+   "answer": "k - d",
+   "misconceptions": [
+    {
+     "id": "nod",
+     "wrong": "k",
+     "explain": "The index is x + {d}, so x + {d} = {k}: subtract {d}."
+    },
+    {
+     "id": "add",
+     "wrong": "k + d",
+     "explain": "Subtract {d} from {k}, do not add it."
+    }
+   ],
+   "solution": [
+    "{b ^ k} = {b}{sup(k)}, so x + {d} = {k}.",
+    "x = {answer}."
+   ],
+   "where": [
+    "b ^ k <= 3125",
+    "k - d != 0"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-27-common",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      [
+       2,
+       2,
+       3
+      ],
+      [
+       2,
+       3,
+       2
+      ],
+      [
+       2,
+       2,
+       5
+      ],
+      [
+       3,
+       2,
+       3
+      ],
+      [
+       2,
+       4,
+       3
+      ],
+      [
+       5,
+       2,
+       3
+      ],
+      [
+       3,
+       3,
+       2
+      ],
+      [
+       2,
+       3,
+       4
+      ]
+     ]
+    },
+    "g": {
+     "expr": "P[0]"
+    },
+    "p": {
+     "expr": "P[1]"
+    },
+    "q": {
+     "expr": "P[2]"
+    },
+    "B": {
+     "expr": "g ^ p"
+    },
+    "C": {
+     "expr": "g ^ q"
+    }
+   },
+   "prompt": "Solve {B}ˣ = {C}.",
+   "correct": "x = {frac(q, p)}",
+   "distractors": [
+    {
+     "text": "x = {frac(p, q)}",
+     "misconception": "flip"
+    },
+    {
+     "text": "x = {frac(C, B)}",
+     "misconception": "divide"
+    },
+    {
+     "text": "x = {q - p}",
+     "misconception": "sub"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "{p}x = {q} gives x = {q} ÷ {p}, not {p} ÷ {q}."
+    },
+    {
+     "id": "divide",
+     "explain": "Write both sides as powers of {g} first; dividing {C} by {B} does not give the index."
+    },
+    {
+     "id": "sub",
+     "explain": "The index on the left is {p}x, a product: divide, do not subtract."
+    }
+   ],
+   "solution": [
+    "{B} = {g}{sup(p)} and {C} = {g}{sup(q)}.",
+    "So {g}{sup(p + 'x')} = {g}{sup(q)}, and {p}x = {q}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "frac(C, B) != frac(q, p)",
+    "q - p != q / p"
+   ]
+  },
+  {
+   "id": "m4-27-neg",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "indices-logs"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      [
+       3,
+       2,
+       3
+      ],
+      [
+       2,
+       2,
+       3
+      ],
+      [
+       2,
+       3,
+       2
+      ],
+      [
+       5,
+       2,
+       1
+      ],
+      [
+       2,
+       2,
+       5
+      ],
+      [
+       3,
+       2,
+       1
+      ],
+      [
+       2,
+       3,
+       4
+      ]
+     ]
+    },
+    "g": {
+     "expr": "P[0]"
+    },
+    "p": {
+     "expr": "P[1]"
+    },
+    "q": {
+     "expr": "P[2]"
+    }
+   },
+   "prompt": "Solve {g ^ p}ˣ = {1}/{g ^ q}.",
+   "correct": "x = {frac(-q, p)}",
+   "distractors": [
+    {
+     "text": "x = {frac(q, p)}",
+     "misconception": "pos"
+    },
+    {
+     "text": "x = {frac(-p, q)}",
+     "misconception": "flip"
+    },
+    {
+     "text": "x = {-q}",
+     "misconception": "nop"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "pos",
+     "explain": "A reciprocal gives a negative index: {1}/{g ^ q} = {g}{sup(-q)}."
+    },
+    {
+     "id": "flip",
+     "explain": "{p}x = {-q} gives x = {-q} ÷ {p}."
+    },
+    {
+     "id": "nop",
+     "explain": "Write {g ^ p} as {g}{sup(p)} too: then {p}x = {-q}."
+    }
+   ],
+   "solution": [
+    "{1}/{g ^ q} = {g}{sup(-q)}, and {g ^ p} = {g}{sup(p)}.",
+    "So {g}{sup(p + 'x')} = {g}{sup(-q)}: {p}x = {-q}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "p != q",
+    "frac(-q, p) != -q"
+   ]
+  }
+ ]
+}

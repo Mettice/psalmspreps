@@ -1,0 +1,532 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 30,
+ "language": "en",
+ "prerequisites": [
+  29
+ ],
+ "skills": [
+  {
+   "id": "m4-30",
+   "name": "Find the determinant, the adjugate and the inverse of a 2 × 2 matrix"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "For A = (a b; c d):\n• Determinant: det A = ad − bc.\n• Adjugate (adjoint): adj A = (d −b; −c a): swap the main diagonal, change the signs of the other two.\n• Inverse: A⁻¹ = (1/det A) × adj A, if det A ≠ 0. Check: A A⁻¹ = I.\n• If det A = 0 the matrix is singular and has no inverse.\nExample: A = (3 1; 5 2): det = 6 − 5 = 1, A⁻¹ = (2 −1; −5 3).",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to find the determinant, adjugate and inverse of a {2} × {2} matrix, and recognise a singular matrix.\nBuilds on: Form Three determinant and inverse, and Lesson {29} (matrix products).\nLeads to: Lesson {31} (solving simultaneous equations) and transformations in Form Five."
+   },
+   {
+    "heading": "Determinant and adjugate",
+    "text": "For A = (a  b ; c  d):\n• det A = ad − bc. For ({4}  {3} ; {2}  {5}): {20} − {6} = {14}.\n• adj A = (d  −b ; −c  a): swap the two on the main diagonal, change the signs of the other two.\nFor ({4}  {3} ; {2}  {5}): adj = ({5}  {-3} ; {-2}  {4}).\nA × adj A = det A × I. That is why dividing by the determinant gives the inverse."
+   },
+   {
+    "heading": "The inverse",
+    "text": "A⁻¹ = ({1}/det A) × adj A.\n• A = ({3}  {1} ; {5}  {2}): det = {1}, so A⁻¹ = ({2}  {-1} ; {-5}  {3}). Check: A A⁻¹ = ({1}  {0} ; {0}  {1}).\n• If det A = {0}, you cannot divide by it: A is singular and has no inverse. ({2}  {4} ; {1}  {2}) is singular.\nUseful: det(AB) = det A × det B, and (AB)⁻¹ = B⁻¹A⁻¹."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "determinant",
+    "meaning": "ad − bc for (a  b ; c  d)"
+   },
+   {
+    "word": "adjugate (adjoint)",
+    "meaning": "(d  −b ; −c  a)"
+   },
+   {
+    "word": "inverse",
+    "meaning": "A⁻¹ with A A⁻¹ = I"
+   },
+   {
+    "word": "singular",
+    "meaning": "determinant {0}; no inverse"
+   }
+  ],
+  "examples": [
+   "det ({2}  {1} ; {7}  {4}) = {1}; inverse ({4}  {-1} ; {-7}  {2})",
+   "({6}  {3} ; {4}  {2}) is singular"
+  ],
+  "mistake": {
+   "wrong": "det ({4}  {3} ; {2}  {5}) = {12} − {10}",
+   "right": "det = {4} × {5} − {3} × {2} = {14}",
+   "why": "Multiply along the diagonals: main diagonal a × d, other diagonal b × c."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 3,
+   "b": 1,
+   "c": 5,
+   "d": 2
+  },
+  "problem": "Find the inverse of A = ({a}  {b} ; {c}  {d}).",
+  "steps": [
+   "det A = {a} × {d} − {b} × {c} = {a * d - b * c}.",
+   "adj A: swap {a} and {d}, change the signs of {b} and {c}: ({d}  {-b} ; {-c}  {a}).",
+   "A⁻¹ = ({1}/{a * d - b * c}) × adj A."
+  ],
+  "answer": "A⁻¹ = ({d}  {-b} ; {-c}  {a})",
+  "checks": [
+   "a * d - b * c == 1"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m30-1",
+    "status": "draft",
+    "idea": "det (a b; c d) = ad − bc: the main diagonal product minus the other.",
+    "vars": {},
+    "example": [
+     "det ({4}  {3} ; {2}  {5}) = {20} − {6} = {14}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-30-det"
+    }
+   },
+   {
+    "id": "c4m30-2",
+    "status": "draft",
+    "idea": "adj (a b; c d) = (d −b; −c a).",
+    "vars": {},
+    "example": [
+     "adj ({4}  {3} ; {2}  {5}) = ({5}  {-3} ; {-2}  {4})"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-30-adj"
+    }
+   },
+   {
+    "id": "c4m30-3",
+    "status": "draft",
+    "idea": "A⁻¹ = ({1}/det A) × adj A; no inverse when det A = {0}.",
+    "vars": {},
+    "example": [
+     "({2}  {4} ; {1}  {2}): det = {4} − {4} = {0}, so it has no inverse"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-30-sing-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "matrices"
+     ],
+     "vars": {
+      "b": {
+       "int": [
+        -6,
+        6
+       ]
+      },
+      "c": {
+       "int": [
+        -6,
+        6
+       ]
+      },
+      "d": {
+       "pick": [
+        -3,
+        -2,
+        2,
+        3,
+        4
+       ]
+      }
+     },
+     "prompt": "Find k so that (k  {b} ; {c}  {d}) — has no inverse.",
+     "answer": "b * c / d",
+     "misconceptions": [
+      {
+       "id": "prod",
+       "wrong": "b * c",
+       "explain": "Divide by {d}: {mono(d, 'k')} = {b * c}."
+      },
+      {
+       "id": "sign",
+       "wrong": "-b * c / d",
+       "explain": "det = kd − bc = {0}, so kd = bc."
+      }
+     ],
+     "solution": [
+      "No inverse means det = {0}: k × {br(d)} − {b} × {br(c)} = {0}.",
+      "{mono(d, 'k')} = {b * c}, so k = {answer}."
+     ],
+     "where": [
+      "b != 0 && c != 0",
+      "(b * c) % d == 0",
+      "b * c / d != 0"
+     ],
+     "signed": true
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-30-det",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "b": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "c": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "d": {
+     "int": [
+      -6,
+      6
+     ]
+    }
+   },
+   "prompt": "Find the determinant of ({a}  {b} ; {c}  {d}).",
+   "answer": "a * d - b * c",
+   "misconceptions": [
+    {
+     "id": "plus",
+     "wrong": "a * d + b * c",
+     "explain": "Subtract bc: ad − bc."
+    },
+    {
+     "id": "cross",
+     "wrong": "b * c - a * d",
+     "explain": "It is the main diagonal (ad) minus the other (bc), not the other way round."
+    },
+    {
+     "id": "rows",
+     "wrong": "a * b - c * d",
+     "explain": "Multiply along the diagonals: a × d and b × c."
+    }
+   ],
+   "solution": [
+    "det = ad − bc = {a} × {br(d)} − {b} × {br(c)}.",
+    "= {a * d} − {br(b * c)} = {answer}."
+   ],
+   "where": [
+    "b != 0 && c != 0",
+    "a * d - b * c != 0",
+    "a * b - c * d != a * d - b * c"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-30-adj",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "b": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "c": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "d": {
+     "int": [
+      -6,
+      6
+     ]
+    }
+   },
+   "prompt": "Find the adjugate of ({a}  {b} ; {c}  {d}).",
+   "correct": "{matStr([[d, -b], [-c, a]])}",
+   "distractors": [
+    {
+     "text": "{matStr([[d, b], [c, a]])}",
+     "misconception": "nosign"
+    },
+    {
+     "text": "{matStr([[-a, b], [c, -d]])}",
+     "misconception": "wrong"
+    },
+    {
+     "text": "{matStr([[a, c], [b, d]])}",
+     "misconception": "trans"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "nosign",
+     "explain": "The other two elements change sign."
+    },
+    {
+     "id": "wrong",
+     "explain": "Swap a and d; change the signs of b and c."
+    },
+    {
+     "id": "trans",
+     "explain": "That is the transpose (rows and columns swapped)."
+    }
+   ],
+   "solution": [
+    "Swap the main diagonal: {a} and {d}.",
+    "Change the signs of the other two: {-b} and {-c}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "b != 0 && c != 0",
+    "a != d",
+    "b != c",
+    "a != 0 && d != 0"
+   ]
+  },
+  {
+   "id": "m4-30-sing",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "c": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "d": {
+     "pick": [
+      -3,
+      -2,
+      2,
+      3,
+      4
+     ]
+    }
+   },
+   "prompt": "Find k so that (k  {b} ; {c}  {d}) — has no inverse.",
+   "answer": "b * c / d",
+   "misconceptions": [
+    {
+     "id": "prod",
+     "wrong": "b * c",
+     "explain": "Divide by {d}: {mono(d, 'k')} = {b * c}."
+    },
+    {
+     "id": "sign",
+     "wrong": "-b * c / d",
+     "explain": "det = kd − bc = {0}, so kd = bc."
+    }
+   ],
+   "solution": [
+    "No inverse means det = {0}: k × {br(d)} − {b} × {br(c)} = {0}.",
+    "{mono(d, 'k')} = {b * c}, so k = {answer}."
+   ],
+   "where": [
+    "b != 0 && c != 0",
+    "(b * c) % d == 0",
+    "b * c / d != 0"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-30-inv",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      6
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "c": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "d": {
+     "int": [
+      1,
+      6
+     ]
+    }
+   },
+   "prompt": "Find the inverse of A = ({a}  {b} ; {c}  {d}).",
+   "correct": "{(a * d - b * c) == 1 ? matStr([[d, -b], [-c, a]]) : '(' + 1 + '/' + fmt(a * d - b * c) + ') × ' + matStr([[d, -b], [-c, a]])}",
+   "distractors": [
+    {
+     "text": "{matStr([[d, -b], [-c, a]])}{(a * d - b * c) == 1 ? ' × ' + fmt(a * d - b * c + 1) : ''}",
+     "misconception": "nodet"
+    },
+    {
+     "text": "{(a * d - b * c) == 1 ? '' : '(' + 1 + '/' + fmt(a * d - b * c) + ') × '}{matStr([[a, -b], [-c, d]])}",
+     "misconception": "noswap"
+    },
+    {
+     "text": "{(a * d - b * c) == 1 ? '' : '(' + 1 + '/' + fmt(a * d - b * c) + ') × '}{matStr([[d, b], [c, a]])}",
+     "misconception": "nosign"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "nodet",
+     "explain": "Divide by the determinant {a * d - b * c}."
+    },
+    {
+     "id": "noswap",
+     "explain": "Swap a and d in the adjugate."
+    },
+    {
+     "id": "nosign",
+     "explain": "Change the signs of b and c in the adjugate."
+    }
+   ],
+   "solution": [
+    "det A = {a * d} − {b * c} = {a * d - b * c}.",
+    "adj A = {matStr([[d, -b], [-c, a]])}.",
+    "A⁻¹ = ({1}/det A) × adj A. So the answer is {answer}."
+   ],
+   "where": [
+    "a * d - b * c > 0",
+    "a != d",
+    "a * d - b * c != 0"
+   ]
+  },
+  {
+   "id": "m4-30-prod",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -4,
+      5
+     ]
+    },
+    "b": {
+     "int": [
+      -4,
+      5
+     ]
+    },
+    "c": {
+     "int": [
+      -4,
+      5
+     ]
+    },
+    "d": {
+     "int": [
+      -4,
+      5
+     ]
+    },
+    "e": {
+     "int": [
+      -4,
+      5
+     ]
+    },
+    "f": {
+     "int": [
+      -4,
+      5
+     ]
+    },
+    "g": {
+     "int": [
+      -4,
+      5
+     ]
+    },
+    "h": {
+     "int": [
+      -4,
+      5
+     ]
+    }
+   },
+   "prompt": "A = ({a}  {b} ; {c}  {d}) and B = ({e}  {f} ; {g}  {h}). Find det(AB) without working out AB.",
+   "answer": "(a * d - b * c) * (e * h - f * g)",
+   "misconceptions": [
+    {
+     "id": "sum",
+     "wrong": "(a * d - b * c) + (e * h - f * g)",
+     "explain": "det(AB) = det A × det B: multiply, do not add."
+    }
+   ],
+   "solution": [
+    "det(AB) = det A × det B.",
+    "det A = {a * d - b * c}; det B = {e * h - f * g}.",
+    "det(AB) = {answer}."
+   ],
+   "where": [
+    "a * d - b * c != 0 && e * h - f * g != 0",
+    "abs((a * d - b * c) * (e * h - f * g)) <= 400",
+    "(a * d - b * c) * (e * h - f * g) != (a * d - b * c) + (e * h - f * g)"
+   ],
+   "signed": true
+  }
+ ]
+}

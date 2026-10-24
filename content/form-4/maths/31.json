@@ -1,0 +1,693 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 31,
+ "language": "en",
+ "prerequisites": [
+  30
+ ],
+ "skills": [
+  {
+   "id": "m4-31",
+   "name": "Solve simultaneous linear equations using matrices"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The equations ax + by = e, cx + dy = f can be written as one matrix equation: (a b; c d)(x; y) = (e; f), or AX = B.\nIf det A ≠ 0, multiply both sides on the left by A⁻¹: X = A⁻¹B.\nSo (x; y) = (1/det A) × (d −b; −c a)(e; f), which gives x = (de − bf)/det A and y = (af − ce)/det A.\nExample: 2x + y = 7, x + y = 4: det = 1, (x; y) = (1 −1; −1 2)(7; 4) = (3; 1).\nIf det A = 0 there is no unique solution: the lines are parallel or the same line.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to write a pair of simultaneous equations as AX = B and solve them with X = A⁻¹B, recognising when there is no unique solution.\nBuilds on: Lesson {30} (inverse matrices) and Form Three simultaneous equations.\nLeads to: larger systems with matrices in further mathematics and transformation problems."
+   },
+   {
+    "heading": "One matrix equation",
+    "text": "{mono(2, 'x')} + y = {7} and x + y = {4} have the same shape: numbers times x, numbers times y.\nPut the coefficients in a matrix A, the unknowns in X and the right-hand sides in B:\n({2}  {1} ; {1}  {1})(x ; y) = ({7} ; {4}).\nMultiply out the left to check: ({mono(2, 'x')} + y ; x + y). It matches the equations."
+   },
+   {
+    "heading": "Solving with the inverse",
+    "text": "AX = B. Multiply both sides on the left by A⁻¹: A⁻¹AX = A⁻¹B, and A⁻¹A = I, so X = A⁻¹B.\nFor our A: det = {2} − {1} = {1}, A⁻¹ = ({1}  {-1} ; {-1}  {2}).\nX = ({1}  {-1} ; {-1}  {2})({7} ; {4}) = ({7} − {4} ; {-7} + {8}) = ({3} ; {1}). So x = {3}, y = {1}.\nCheck in both equations: {6} + {1} = {7} and {3} + {1} = {4}.\nIf det A = {0}, A has no inverse: the equations describe parallel lines (no solution) or the same line (many)."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "coefficient matrix",
+    "meaning": "the matrix of the numbers multiplying x and y"
+   },
+   {
+    "word": "A⁻¹B",
+    "meaning": "the inverse times the right-hand sides: the solution"
+   },
+   {
+    "word": "unique solution",
+    "meaning": "exactly one pair (x, y)"
+   }
+  ],
+  "examples": [
+   "x + y = {5}, x − y = {1} → x = {3}, y = {2}",
+   "{mono(3, 'x')} + {mono(2, 'y')} = {12}, x + y = {5} → x = {2}, y = {3}"
+  ],
+  "mistake": {
+   "wrong": "X = BA⁻¹",
+   "right": "X = A⁻¹B",
+   "why": "Matrix order matters: A⁻¹ goes on the left, where A was, so that A⁻¹A = I."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 2,
+   "b": 1,
+   "c": 1,
+   "d": 1,
+   "x": 3,
+   "y": 1
+  },
+  "problem": "Solve {poly([a, 'x'], [b, 'y'])} = {a * x + b * y} and {poly([c, 'x'], [d, 'y'])} = {c * x + d * y} using matrices.",
+  "steps": [
+   "Matrix form: ({a}  {b} ; {c}  {d})(x ; y) = ({a * x + b * y} ; {c * x + d * y}).",
+   "det = {a * d} − {b * c} = {a * d - b * c}; inverse = ({d}  {-b} ; {-c}  {a}) (dividing by {a * d - b * c}).",
+   "({d}  {-b} ; {-c}  {a})({a * x + b * y} ; {c * x + d * y}) = ({d * (a * x + b * y) - b * (c * x + d * y)} ; {-c * (a * x + b * y) + a * (c * x + d * y)})."
+  ],
+  "answer": "x = {x}, y = {y}",
+  "checks": [
+   "a * d - b * c == 1"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m31-1",
+    "status": "draft",
+    "idea": "Write the coefficients as a matrix A, the unknowns as (x ; y) and the right-hand sides as B.",
+    "vars": {},
+    "example": [
+     "{mono(2, 'x')} + y = {7}, x + y = {4} → ({2}  {1} ; {1}  {1})(x ; y) = ({7} ; {4})"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-31-form"
+    }
+   },
+   {
+    "id": "c4m31-2",
+    "status": "draft",
+    "idea": "X = A⁻¹B: the inverse undoes A.",
+    "vars": {},
+    "example": [
+     "({1}  {-1} ; {-1}  {2})({7} ; {4}) = ({3} ; {1}), so x = {3}, y = {1}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-31-x-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "matrices"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        1,
+        5
+       ]
+      },
+      "b": {
+       "int": [
+        -4,
+        4
+       ]
+      },
+      "c": {
+       "int": [
+        -4,
+        4
+       ]
+      },
+      "d": {
+       "int": [
+        1,
+        5
+       ]
+      },
+      "x": {
+       "int": [
+        -5,
+        5
+       ]
+      },
+      "y": {
+       "int": [
+        -5,
+        5
+       ]
+      },
+      "e": {
+       "expr": "a * x + b * y"
+      },
+      "f": {
+       "expr": "c * x + d * y"
+      }
+     },
+     "prompt": "Solve {poly([a, 'x'], [b, 'y'])} = {e} and {poly([c, 'x'], [d, 'y'])} = {f} using matrices. What is x?",
+     "answer": "x",
+     "misconceptions": [
+      {
+       "id": "y",
+       "wrong": "y",
+       "explain": "{y} is the value of y. x comes from the top row of A⁻¹B."
+      },
+      {
+       "id": "nodet",
+       "wrong": "d * e - b * f",
+       "explain": "Divide by the determinant {a * d - b * c}.",
+       "when": "a * d - b * c != 1"
+      }
+     ],
+     "solution": [
+      "det = {a * d - b * c}.",
+      "x = (d × e − b × f) ÷ det = ({d} × {br(e)} − {b} × {br(f)}) ÷ {br(a * d - b * c)}.",
+      "x = {answer}."
+     ],
+     "where": [
+      "a * d - b * c != 0",
+      "abs(a * d - b * c) <= 12",
+      "b != 0 && c != 0",
+      "x != y"
+     ],
+     "signed": true
+    }
+   },
+   {
+    "id": "c4m31-3",
+    "status": "draft",
+    "idea": "If det A = {0}, there is no unique solution.",
+    "vars": {},
+    "example": [
+     "x + {mono(2, 'y')} = {3}, {mono(2, 'x')} + {mono(4, 'y')} = {5}: det = {0}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-31-none-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "matrices"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        1,
+        4
+       ]
+      },
+      "b": {
+       "int": [
+        1,
+        4
+       ]
+      },
+      "k": {
+       "int": [
+        2,
+        3
+       ]
+      },
+      "e": {
+       "int": [
+        1,
+        9
+       ]
+      },
+      "f2": {
+       "int": [
+        1,
+        20
+       ]
+      }
+     },
+     "prompt": "What happens when you try to solve {poly([a, 'x'], [b, 'y'])} = {e} and {poly([k * a, 'x'], [k * b, 'y'])} = {f2} using matrices?",
+     "correct": "det = {0}, so there is no inverse and no unique solution",
+     "distractors": [
+      {
+       "text": "det = {k}, so x = {e}",
+       "misconception": "det"
+      },
+      {
+       "text": "The inverse gives x = {0}, y = {0}",
+       "misconception": "zero"
+      },
+      {
+       "text": "There is exactly one solution",
+       "misconception": "one"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "det",
+       "explain": "Work it out: {a} × {k * b} − {b} × {k * a} = {0}."
+      },
+      {
+       "id": "zero",
+       "explain": "A matrix with determinant {0} has no inverse."
+      },
+      {
+       "id": "one",
+       "explain": "The lines have the same gradient, so they do not cross at exactly one point."
+      }
+     ],
+     "solution": [
+      "det = {a} × {k * b} − {b} × {k * a} = {0}.",
+      "The second equation's left side is {k} times the first: the lines are parallel (or the same).",
+      "So the answer is: {answer}."
+     ],
+     "where": [
+      "f2 != k * e"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-31-form",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "b": {
+     "int": [
+      -4,
+      4
+     ]
+    },
+    "c": {
+     "int": [
+      -4,
+      4
+     ]
+    },
+    "d": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "x": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "y": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "e": {
+     "expr": "a * x + b * y"
+    },
+    "f": {
+     "expr": "c * x + d * y"
+    }
+   },
+   "prompt": "Write {poly([a, 'x'], [b, 'y'])} = {e} and {poly([c, 'x'], [d, 'y'])} = {f} as a matrix equation.",
+   "correct": "({a}  {b} ; {c}  {d})(x ; y) = ({e} ; {f})",
+   "distractors": [
+    {
+     "text": "({a}  {c} ; {b}  {d})(x ; y) = ({e} ; {f})",
+     "misconception": "trans"
+    },
+    {
+     "text": "({a}  {b} ; {c}  {d})(x ; y) = ({f} ; {e})",
+     "misconception": "swap"
+    },
+    {
+     "text": "({e}  {b} ; {f}  {d})(x ; y) = ({a} ; {c})",
+     "misconception": "const"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "trans",
+     "explain": "Each row is one equation; the first row is ({a}, {b})."
+    },
+    {
+     "id": "swap",
+     "explain": "The first equation's answer {e} goes in the first row."
+    },
+    {
+     "id": "const",
+     "explain": "The numbers on the right go in the column on the right, not in the matrix."
+    }
+   ],
+   "solution": [
+    "Each row of the matrix holds one equation's coefficients: ({a}, {b}) and ({c}, {d}).",
+    "The right-hand sides make the column ({e} ; {f}).",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "a * d - b * c != 0",
+    "abs(a * d - b * c) <= 12",
+    "b != 0 && c != 0",
+    "x != y",
+    "b != c",
+    "e != f"
+   ]
+  },
+  {
+   "id": "m4-31-det",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "b": {
+     "int": [
+      -4,
+      4
+     ]
+    },
+    "c": {
+     "int": [
+      -4,
+      4
+     ]
+    },
+    "d": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "x": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "y": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "e": {
+     "expr": "a * x + b * y"
+    },
+    "f": {
+     "expr": "c * x + d * y"
+    }
+   },
+   "prompt": "For {poly([a, 'x'], [b, 'y'])} = {e} and {poly([c, 'x'], [d, 'y'])} = {f}, find the determinant of the matrix of coefficients.",
+   "answer": "a * d - b * c",
+   "misconceptions": [
+    {
+     "id": "rhs",
+     "wrong": "a * f - c * e",
+     "explain": "Use the coefficients of x and y only, not the right-hand sides."
+    },
+    {
+     "id": "plus",
+     "wrong": "a * d + b * c",
+     "explain": "det = ad − bc."
+    }
+   ],
+   "solution": [
+    "The matrix is ({a}  {b} ; {c}  {d}).",
+    "det = {a} × {d} − {b} × {br(c)} = {answer}."
+   ],
+   "where": [
+    "a * d - b * c != 0",
+    "abs(a * d - b * c) <= 12",
+    "b != 0 && c != 0",
+    "x != y",
+    "a * f - c * e != a * d - b * c"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-31-x",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "b": {
+     "int": [
+      -4,
+      4
+     ]
+    },
+    "c": {
+     "int": [
+      -4,
+      4
+     ]
+    },
+    "d": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "x": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "y": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "e": {
+     "expr": "a * x + b * y"
+    },
+    "f": {
+     "expr": "c * x + d * y"
+    }
+   },
+   "prompt": "Solve {poly([a, 'x'], [b, 'y'])} = {e} and {poly([c, 'x'], [d, 'y'])} = {f} using matrices. What is x?",
+   "answer": "x",
+   "misconceptions": [
+    {
+     "id": "y",
+     "wrong": "y",
+     "explain": "{y} is the value of y. x comes from the top row of A⁻¹B."
+    },
+    {
+     "id": "nodet",
+     "wrong": "d * e - b * f",
+     "explain": "Divide by the determinant {a * d - b * c}.",
+     "when": "a * d - b * c != 1"
+    }
+   ],
+   "solution": [
+    "det = {a * d - b * c}.",
+    "x = (d × e − b × f) ÷ det = ({d} × {br(e)} − {b} × {br(f)}) ÷ {br(a * d - b * c)}.",
+    "x = {answer}."
+   ],
+   "where": [
+    "a * d - b * c != 0",
+    "abs(a * d - b * c) <= 12",
+    "b != 0 && c != 0",
+    "x != y"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-31-y",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "b": {
+     "int": [
+      -4,
+      4
+     ]
+    },
+    "c": {
+     "int": [
+      -4,
+      4
+     ]
+    },
+    "d": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "x": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "y": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "e": {
+     "expr": "a * x + b * y"
+    },
+    "f": {
+     "expr": "c * x + d * y"
+    }
+   },
+   "prompt": "Solve {poly([a, 'x'], [b, 'y'])} = {e} and {poly([c, 'x'], [d, 'y'])} = {f} using matrices. What is y?",
+   "answer": "y",
+   "misconceptions": [
+    {
+     "id": "x",
+     "wrong": "x",
+     "explain": "{x} is the value of x. y comes from the bottom row of A⁻¹B."
+    },
+    {
+     "id": "sign",
+     "wrong": "-y",
+     "explain": "Bottom row of the adjugate is (−c, a): −{c} × {e} + {a} × {f}."
+    }
+   ],
+   "solution": [
+    "det = {a * d - b * c}.",
+    "y = (a × f − c × e) ÷ det = ({a} × {br(f)} − {c} × {br(e)}) ÷ {br(a * d - b * c)}.",
+    "y = {answer}."
+   ],
+   "where": [
+    "a * d - b * c != 0",
+    "abs(a * d - b * c) <= 12",
+    "b != 0 && c != 0",
+    "x != y"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-31-none",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "matrices"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      3
+     ]
+    },
+    "e": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "f2": {
+     "int": [
+      1,
+      20
+     ]
+    }
+   },
+   "prompt": "What happens when you try to solve {poly([a, 'x'], [b, 'y'])} = {e} and {poly([k * a, 'x'], [k * b, 'y'])} = {f2} using matrices?",
+   "correct": "det = {0}, so there is no inverse and no unique solution",
+   "distractors": [
+    {
+     "text": "det = {k}, so x = {e}",
+     "misconception": "det"
+    },
+    {
+     "text": "The inverse gives x = {0}, y = {0}",
+     "misconception": "zero"
+    },
+    {
+     "text": "There is exactly one solution",
+     "misconception": "one"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "det",
+     "explain": "Work it out: {a} × {k * b} − {b} × {k * a} = {0}."
+    },
+    {
+     "id": "zero",
+     "explain": "A matrix with determinant {0} has no inverse."
+    },
+    {
+     "id": "one",
+     "explain": "The lines have the same gradient, so they do not cross at exactly one point."
+    }
+   ],
+   "solution": [
+    "det = {a} × {k * b} − {b} × {k * a} = {0}.",
+    "The second equation's left side is {k} times the first: the lines are parallel (or the same).",
+    "So the answer is: {answer}."
+   ],
+   "where": [
+    "f2 != k * e"
+   ]
+  }
+ ]
+}

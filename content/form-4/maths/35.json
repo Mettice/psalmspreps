@@ -1,0 +1,641 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 35,
+ "language": "en",
+ "prerequisites": [
+  33
+ ],
+ "skills": [
+  {
+   "id": "m4-35",
+   "name": "Write numbers in standard form and calculate with them"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Standard form is A × 10ⁿ with 1 ≤ A < 10 and n a whole number.\n• 45 000 = 4.5 × 10⁴; 0.000 32 = 3.2 × 10⁻⁴.\n• Multiply: multiply the A's and add the indices, then adjust: (3 × 10⁴)(5 × 10³) = 15 × 10⁷ = 1.5 × 10⁸.\n• Divide: divide the A's and subtract the indices: (6 × 10⁵) ÷ (2 × 10²) = 3 × 10³.\n• Add or subtract: write both with the same power first: 3 × 10⁴ + 5 × 10³ = 30 × 10³ + 5 × 10³ = 3.5 × 10⁴.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to write very large and very small numbers in standard form and multiply, divide, add and subtract them.\nBuilds on: Lesson {27} (laws of indices) and Lesson {33} (significant figures).\nLeads to: Physics and Chemistry calculations (the mole, wavelengths) and the use of a calculator's EXP key."
+   },
+   {
+    "heading": "Writing standard form",
+    "text": "A × {10}ⁿ with {1} ≤ A < {10}.\n• {45000}: move the point {4} places left to get {4.5}, so {4.5} × {10}{sup(4)}.\n• {0.00032}: move it {4} places right to get {3.2}, so {3.2} × {10}{sup(-4)}.\nBig numbers have a positive index; numbers between {0} and {1} have a negative one.\n{15} × {10}{sup(7)} is not standard form: {15} = {1.5} × {10}, so it is {1.5} × {10}{sup(8)}."
+   },
+   {
+    "heading": "Calculating",
+    "text": "• Multiply: ({3} × {10}{sup(4)})({5} × {10}{sup(3)}) = {15} × {10}{sup(7)} = {1.5} × {10}{sup(8)}.\n• Divide: ({6} × {10}{sup(5)}) ÷ ({2} × {10}{sup(2)}) = {3} × {10}{sup(3)}.\n• Add: make the powers equal first. {3} × {10}{sup(4)} + {5} × {10}{sup(3)} = {30} × {10}{sup(3)} + {5} × {10}{sup(3)} = {35} × {10}{sup(3)} = {3.5} × {10}{sup(4)}.\nCheck the size roughly: {30000} + {5000} = {35000}."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "standard form",
+    "meaning": "A × {10}ⁿ with {1} ≤ A < {10}"
+   },
+   {
+    "word": "index",
+    "meaning": "the power of {10}"
+   },
+   {
+    "word": "adjust",
+    "meaning": "rewrite so that A is between {1} and {10}"
+   }
+  ],
+  "examples": [
+   "{602000} = {6.02} × {10}{sup(5)}",
+   "{0.0071} = {7.1} × {10}{sup(-3)}",
+   "({2} × {10}{sup(3)})² = {4} × {10}{sup(6)}"
+  ],
+  "mistake": {
+   "wrong": "{3} × {10}{sup(4)} + {5} × {10}{sup(3)} = {8} × {10}{sup(7)}",
+   "right": "= {3.5} × {10}{sup(4)}",
+   "why": "Only multiplying adds indices. For adding, make the powers the same, then add the front numbers."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 3,
+   "m": 4,
+   "b": 5,
+   "n": 3
+  },
+  "problem": "Work out ({a} × {10}{sup(m)}) × ({b} × {10}{sup(n)}), giving the answer in standard form.",
+  "steps": [
+   "Multiply the numbers: {a} × {b} = {a * b}.",
+   "Add the indices: {10}{sup(m)} × {10}{sup(n)} = {10}{sup(m + n)}.",
+   "{a * b} × {10}{sup(m + n)} is not in standard form: {a * b} = {dec(a * b / 10)} × {10}."
+  ],
+  "answer": "{dec(a * b / 10)} × {10}{sup(m + n + 1)}",
+  "checks": [
+   "a * b == 15"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m35-1",
+    "status": "draft",
+    "idea": "In standard form the first number is at least {1} and less than {10}.",
+    "vars": {},
+    "example": [
+     "{45000} = {4.5} × {10}{sup(4)}; {0.00032} = {3.2} × {10}{sup(-4)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-35-write"
+    }
+   },
+   {
+    "id": "c4m35-2",
+    "status": "draft",
+    "idea": "Multiplying: multiply the numbers, add the indices, then adjust to standard form.",
+    "vars": {},
+    "example": [
+     "({3} × {10}{sup(4)})({5} × {10}{sup(3)}) = {15} × {10}{sup(7)} = {1.5} × {10}{sup(8)}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-35-mult-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "approximation"
+     ],
+     "vars": {
+      "a": {
+       "pick": [
+        1.5,
+        2,
+        2.5,
+        3,
+        4,
+        5,
+        6,
+        8
+       ]
+      },
+      "b": {
+       "pick": [
+        1.2,
+        2,
+        3,
+        4,
+        5,
+        7
+       ]
+      },
+      "m": {
+       "int": [
+        2,
+        8
+       ]
+      },
+      "n": {
+       "int": [
+        -4,
+        6
+       ]
+      }
+     },
+     "prompt": "Work out ({fmt(a)} × {10}{sup(m)}) × ({fmt(b)} × {10}{sup(n)}).",
+     "correct": "{fmt(a * b >= 10 ? dec(a * b / 10) : dec(a * b))} × {10}{sup(a * b >= 10 ? m + n + 1 : m + n)}",
+     "distractors": [
+      {
+       "text": "{fmt(dec(a * b))} × {10}{sup(m * n)}",
+       "misconception": "multidx"
+      },
+      {
+       "text": "{fmt(a * b >= 10 ? dec(a * b / 10) : dec(a * b))} × {10}{sup(a * b >= 10 ? m + n : m + n + 1)}",
+       "misconception": "adjust"
+      },
+      {
+       "text": "{fmt(dec(a + b))} × {10}{sup(m + n)}",
+       "misconception": "addnum"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "multidx",
+       "explain": "Multiplying powers of {10} adds the indices: {m} + {n}."
+      },
+      {
+       "id": "adjust",
+       "explain": "{a * b >= 10 ? fmt(dec(a * b)) + ' is 10 or more: write it as ' + fmt(dec(a * b / 10)) + ' × 10 and add 1 to the index.' : 'No adjustment is needed: ' + fmt(dec(a * b)) + ' is less than 10.'}"
+      },
+      {
+       "id": "addnum",
+       "explain": "Multiply the front numbers, do not add them."
+      }
+     ],
+     "solution": [
+      "Multiply the numbers: {fmt(a)} × {fmt(b)} = {fmt(dec(a * b))}.",
+      "Add the indices: {m} + {n} = {m + n}.",
+      "{a * b >= 10 ? 'Adjust: ' + fmt(dec(a * b)) + ' = ' + fmt(dec(a * b / 10)) + ' × 10, so the index goes up by 1.' : fmt(dec(a * b)) + ' is already between 1 and 10.'}",
+      "So the answer is {answer}."
+     ],
+     "where": [
+      "m * n != m + n",
+      "dec(a + b) < 10",
+      "dec(a * b) != dec(a + b)"
+     ]
+    }
+   },
+   {
+    "id": "c4m35-3",
+    "status": "draft",
+    "idea": "Adding: make the powers the same first.",
+    "vars": {},
+    "example": [
+     "{3} × {10}{sup(4)} + {5} × {10}{sup(3)} = {30} × {10}{sup(3)} + {5} × {10}{sup(3)} = {3.5} × {10}{sup(4)}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-35-add-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "approximation"
+     ],
+     "vars": {
+      "a": {
+       "pick": [
+        2,
+        3,
+        4.5,
+        6,
+        7.2
+       ]
+      },
+      "b": {
+       "pick": [
+        1,
+        3,
+        5,
+        8
+       ]
+      },
+      "m": {
+       "int": [
+        3,
+        7
+       ]
+      }
+     },
+     "prompt": "Work out {fmt(a)} × {10}{sup(m)} + {fmt(b)} × {10}{sup(m - 1)}, in standard form.",
+     "correct": "{fmt(dec((a * 10 + b) / 10 >= 10 ? (a * 10 + b) / 100 : (a * 10 + b) / 10))} × {10}{sup((a * 10 + b) / 10 >= 10 ? m + 1 : m)}",
+     "distractors": [
+      {
+       "text": "{fmt(dec(a + b))} × {10}{sup(m)}",
+       "misconception": "addnums"
+      },
+      {
+       "text": "{fmt(dec(a + b))} × {10}{sup(2 * m - 1)}",
+       "misconception": "addidx"
+      },
+      {
+       "text": "{fmt(dec((a * 10 + b) / 10))} × {10}{sup(m - 1)}",
+       "misconception": "power"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "addnums",
+       "explain": "The powers are different: make them the same before adding."
+      },
+      {
+       "id": "addidx",
+       "explain": "Adding numbers does not add their indices."
+      },
+      {
+       "id": "power",
+       "explain": "Adjust: {fmt(dec(a * 10 + b))} × {10}{sup(m - 1)} = {fmt(dec((a * 10 + b) / 10))} × {10}{sup(m)}."
+      }
+     ],
+     "solution": [
+      "Write both with {10}{sup(m - 1)}: {fmt(dec(a * 10))} × {10}{sup(m - 1)} + {fmt(b)} × {10}{sup(m - 1)} = {fmt(dec(a * 10 + b))} × {10}{sup(m - 1)}.",
+      "Adjust to standard form.",
+      "So the answer is {answer}."
+     ],
+     "where": [
+      "dec(a + b) != dec((a * 10 + b) / 10)"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-35-write",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "approximation"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      11,
+      99
+     ]
+    },
+    "k": {
+     "pick": [
+      -5,
+      -4,
+      -3,
+      -2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ]
+    },
+    "A": {
+     "expr": "dec(m / 10)"
+    },
+    "x": {
+     "expr": "dec(A * 10 ^ k)"
+    }
+   },
+   "prompt": "Write {fmt(x)} in standard form.",
+   "correct": "{fmt(A)} × {10}{sup(k)}",
+   "distractors": [
+    {
+     "text": "{fmt(dec(A * 10))} × {10}{sup(k - 1)}",
+     "misconception": "big"
+    },
+    {
+     "text": "{fmt(A)} × {10}{sup(-k)}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{fmt(A)} × {10}{sup(k + 1)}",
+     "misconception": "count"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "big",
+     "explain": "The first number must be less than {10}: {fmt(dec(A * 10))} is too big."
+    },
+    {
+     "id": "sign",
+     "explain": "{k > 0 ? 'A large number has a positive index.' : 'A small number (less than 1) has a negative index.'}"
+    },
+    {
+     "id": "count",
+     "explain": "Count the places the point moves: {abs(k)}."
+    }
+   ],
+   "solution": [
+    "Move the point so that one non-zero digit is in front: {fmt(A)}.",
+    "The point moved {abs(k)} place{abs(k) == 1 ? '' : 's'} {k > 0 ? 'left, so n = ' + k : 'right, so n = ' + fmt(k)}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "m % 10 != 0"
+   ]
+  },
+  {
+   "id": "m4-35-index",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "approximation"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      11,
+      99
+     ]
+    },
+    "k": {
+     "pick": [
+      -6,
+      -4,
+      -3,
+      -2,
+      2,
+      3,
+      5,
+      6
+     ]
+    },
+    "A": {
+     "expr": "dec(m / 10)"
+    },
+    "x": {
+     "expr": "dec(A * 10 ^ k)"
+    }
+   },
+   "prompt": "{fmt(x)} = {fmt(A)} × {10}ⁿ. What is n?",
+   "answer": "k",
+   "misconceptions": [
+    {
+     "id": "sign",
+     "wrong": "-k",
+     "explain": "{k > 0 ? 'The number is large: the index is positive.' : 'The number is less than 1: the index is negative.'}"
+    }
+   ],
+   "solution": [
+    "The point moves {abs(k)} place{abs(k) == 1 ? '' : 's'} to give {fmt(A)}.",
+    "n = {answer}."
+   ],
+   "where": [
+    "m % 10 != 0"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-35-mult",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "approximation"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      1.5,
+      2,
+      2.5,
+      3,
+      4,
+      5,
+      6,
+      8
+     ]
+    },
+    "b": {
+     "pick": [
+      1.2,
+      2,
+      3,
+      4,
+      5,
+      7
+     ]
+    },
+    "m": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "n": {
+     "int": [
+      -4,
+      6
+     ]
+    }
+   },
+   "prompt": "Work out ({fmt(a)} × {10}{sup(m)}) × ({fmt(b)} × {10}{sup(n)}).",
+   "correct": "{fmt(a * b >= 10 ? dec(a * b / 10) : dec(a * b))} × {10}{sup(a * b >= 10 ? m + n + 1 : m + n)}",
+   "distractors": [
+    {
+     "text": "{fmt(dec(a * b))} × {10}{sup(m * n)}",
+     "misconception": "multidx"
+    },
+    {
+     "text": "{fmt(a * b >= 10 ? dec(a * b / 10) : dec(a * b))} × {10}{sup(a * b >= 10 ? m + n : m + n + 1)}",
+     "misconception": "adjust"
+    },
+    {
+     "text": "{fmt(dec(a + b))} × {10}{sup(m + n)}",
+     "misconception": "addnum"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "multidx",
+     "explain": "Multiplying powers of {10} adds the indices: {m} + {n}."
+    },
+    {
+     "id": "adjust",
+     "explain": "{a * b >= 10 ? fmt(dec(a * b)) + ' is 10 or more: write it as ' + fmt(dec(a * b / 10)) + ' × 10 and add 1 to the index.' : 'No adjustment is needed: ' + fmt(dec(a * b)) + ' is less than 10.'}"
+    },
+    {
+     "id": "addnum",
+     "explain": "Multiply the front numbers, do not add them."
+    }
+   ],
+   "solution": [
+    "Multiply the numbers: {fmt(a)} × {fmt(b)} = {fmt(dec(a * b))}.",
+    "Add the indices: {m} + {n} = {m + n}.",
+    "{a * b >= 10 ? 'Adjust: ' + fmt(dec(a * b)) + ' = ' + fmt(dec(a * b / 10)) + ' × 10, so the index goes up by 1.' : fmt(dec(a * b)) + ' is already between 1 and 10.'}",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "m * n != m + n",
+    "dec(a + b) < 10",
+    "dec(a * b) != dec(a + b)"
+   ]
+  },
+  {
+   "id": "m4-35-div",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "approximation"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      1.5,
+      2,
+      2.5,
+      3,
+      4
+     ]
+    },
+    "b": {
+     "pick": [
+      2,
+      3
+     ]
+    },
+    "m": {
+     "int": [
+      3,
+      9
+     ]
+    },
+    "n": {
+     "int": [
+      -3,
+      5
+     ]
+    }
+   },
+   "prompt": "Work out ({fmt(dec(a * b))} × {10}{sup(m)}) ÷ ({fmt(b)} × {10}{sup(n)}).",
+   "correct": "{fmt(a)} × {10}{sup(m - n)}",
+   "distractors": [
+    {
+     "text": "{fmt(a)} × {10}{sup(m + n)}",
+     "misconception": "add"
+    },
+    {
+     "text": "{fmt(a)} × {10}{sup(m / n)}",
+     "misconception": "divi"
+    },
+    {
+     "text": "{fmt(dec(a * b - b))} × {10}{sup(m - n)}",
+     "misconception": "subnum"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "add",
+     "explain": "Dividing subtracts the indices."
+    },
+    {
+     "id": "divi",
+     "explain": "Subtract the indices, do not divide them."
+    },
+    {
+     "id": "subnum",
+     "explain": "Divide the front numbers."
+    }
+   ],
+   "solution": [
+    "Divide the numbers: {fmt(dec(a * b))} ÷ {fmt(b)} = {fmt(a)}.",
+    "Subtract the indices: {m} − {br(n)} = {m - n}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "n != 0",
+    "m % n == 0",
+    "m - n != m / n",
+    "dec(a * b) < 10"
+   ]
+  },
+  {
+   "id": "m4-35-add",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "approximation"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      2,
+      3,
+      4.5,
+      6,
+      7.2
+     ]
+    },
+    "b": {
+     "pick": [
+      1,
+      3,
+      5,
+      8
+     ]
+    },
+    "m": {
+     "int": [
+      3,
+      7
+     ]
+    }
+   },
+   "prompt": "Work out {fmt(a)} × {10}{sup(m)} + {fmt(b)} × {10}{sup(m - 1)}, in standard form.",
+   "correct": "{fmt(dec((a * 10 + b) / 10 >= 10 ? (a * 10 + b) / 100 : (a * 10 + b) / 10))} × {10}{sup((a * 10 + b) / 10 >= 10 ? m + 1 : m)}",
+   "distractors": [
+    {
+     "text": "{fmt(dec(a + b))} × {10}{sup(m)}",
+     "misconception": "addnums"
+    },
+    {
+     "text": "{fmt(dec(a + b))} × {10}{sup(2 * m - 1)}",
+     "misconception": "addidx"
+    },
+    {
+     "text": "{fmt(dec((a * 10 + b) / 10))} × {10}{sup(m - 1)}",
+     "misconception": "power"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "addnums",
+     "explain": "The powers are different: make them the same before adding."
+    },
+    {
+     "id": "addidx",
+     "explain": "Adding numbers does not add their indices."
+    },
+    {
+     "id": "power",
+     "explain": "Adjust: {fmt(dec(a * 10 + b))} × {10}{sup(m - 1)} = {fmt(dec((a * 10 + b) / 10))} × {10}{sup(m)}."
+    }
+   ],
+   "solution": [
+    "Write both with {10}{sup(m - 1)}: {fmt(dec(a * 10))} × {10}{sup(m - 1)} + {fmt(b)} × {10}{sup(m - 1)} = {fmt(dec(a * 10 + b))} × {10}{sup(m - 1)}.",
+    "Adjust to standard form.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "dec(a + b) != dec((a * 10 + b) / 10)"
+   ]
+  }
+ ]
+}

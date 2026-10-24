@@ -1,0 +1,472 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 18,
+ "language": "en",
+ "prerequisites": [
+  17
+ ],
+ "skills": [
+  {
+   "id": "m4-18",
+   "name": "Solve absolute value inequalities |x − a| < b and |x − a| > b"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Think of |x − a| as the distance from x to a.\n• |x − a| < b: x is closer than b to a, so a − b < x < a + b. One interval: (a − b, a + b).\n• |x − a| > b: x is further than b from a, so x < a − b or x > a + b. Two pieces.\nWith ≤ or ≥ the ends are included.\nExample: |x − 3| ≤ 2 → 1 ≤ x ≤ 5, that is [1, 5]. |x + 1| > 4 → x < −5 or x > 3.\nFor |ax + b| < c write −c < ax + b < c and solve all three parts.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to turn an absolute value inequality into an interval (or two pieces) and show it on a number line.\nBuilds on: Lesson {17} (absolute value as distance) and Lesson {16} (interval notation).\nLeads to: Lesson {19} (quadratic inequalities) and tolerances such as {50} cm ± {2} cm."
+   },
+   {
+    "heading": "Close to a: one interval",
+    "text": "|x − {3}| ≤ {2} asks for the numbers at most {2} away from {3}.\nStart at {3} and go {2} each way: from {1} to {5}. So {1} ≤ x ≤ {5}, that is {interval(1, 5, true, true)}.\nIn general |x − a| < b gives a − b < x < a + b: one interval, centre a, half-width b.\nWith a coefficient, write it as a double inequality: |{poly([2, 'x'], [1, ''])}| < {7} → {-7} < {poly([2, 'x'], [1, ''])} < {7} → {-4} < x < {3}."
+   },
+   {
+    "heading": "Far from a: two pieces",
+    "text": "|x + {1}| > {4} means x − ({-1}) is more than {4} from {0}: x is more than {4} away from {-1}.\nOn the left: x < {-1} − {4} = {-5}. On the right: x > {-1} + {4} = {3}.\nSo x < {-5} or x > {3}. On a number line this is two arrows pointing away from each other.\nA tolerance works the same way: a length of {50} cm ± {2} cm means |L − {50}| ≤ {2}, so {48} ≤ L ≤ {52}."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "absolute value inequality",
+    "meaning": "an inequality with |…|, such as |x − {3}| ≤ {2}"
+   },
+   {
+    "word": "centre",
+    "meaning": "the number a in |x − a|"
+   },
+   {
+    "word": "tolerance",
+    "meaning": "the largest allowed difference from a target value"
+   }
+  ],
+  "examples": [
+   "|x| ≤ {3} → {interval(-3, 3, true, true)}",
+   "|x − {1}| < {4} → {interval(-3, 5, false, false)}",
+   "|x| ≥ {2} → x ≤ {-2} or x ≥ {2}"
+  ],
+  "mistake": {
+   "wrong": "|x − {1}| > {3} → {-2} < x < {4}",
+   "right": "|x − {1}| > {3} → x < {-2} or x > {4}",
+   "why": "> means far from the centre: the solutions lie outside the interval, on both sides."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 3,
+   "k": 2
+  },
+  "problem": "Solve |x − {a}| ≤ {k} and write the answer in interval notation.",
+  "steps": [
+   "|x − {a}| ≤ {k} means x is at most {k} away from {a}.",
+   "So {a} − {k} ≤ x ≤ {a} + {k}.",
+   "That is {a - k} ≤ x ≤ {a + k}."
+  ],
+  "answer": "{interval(a - k, a + k, true, true)}",
+  "checks": [
+   "a - k == 1"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m18-1",
+    "status": "draft",
+    "idea": "|x| < k means x lies between −k and k.",
+    "vars": {},
+    "example": [
+     "|x| < {4} → {-4} < x < {4}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-18-zero"
+    }
+   },
+   {
+    "id": "c4m18-2",
+    "status": "draft",
+    "idea": "|x − a| ≤ b: the numbers at most b away from a form one interval [a − b, a + b].",
+    "vars": {},
+    "example": [
+     "|x − {3}| ≤ {2} → {interval(1, 5, true, true)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-18-in"
+    }
+   },
+   {
+    "id": "c4m18-3",
+    "status": "draft",
+    "idea": "|x − a| > b: the numbers more than b away from a lie on both sides, outside the interval.",
+    "vars": {},
+    "example": [
+     "|x + {1}| > {4} → x < {-5} or x > {3}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-18-out-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "inequalities"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        -6,
+        6
+       ]
+      },
+      "k": {
+       "int": [
+        1,
+        6
+       ]
+      }
+     },
+     "prompt": "Solve |x − {br(a)}| > {k}.",
+     "correct": "x < {a - k} or x > {a + k}",
+     "distractors": [
+      {
+       "text": "{a - k} < x < {a + k}",
+       "misconception": "inside"
+      },
+      {
+       "text": "x > {a + k}",
+       "misconception": "half"
+      },
+      {
+       "text": "x < {-k} or x > {k}",
+       "misconception": "centre"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "inside",
+       "explain": "That is |x − {br(a)}| < {k}: the numbers close to {a}."
+      },
+      {
+       "id": "half",
+       "explain": "Numbers far away on the left count too: x < {a - k}."
+      },
+      {
+       "id": "centre",
+       "explain": "The distance is measured from {a}, not from {0}."
+      }
+     ],
+     "solution": [
+      "The numbers more than {k} away from {a}: on the left below {a - k}, on the right above {a + k}.",
+      "So the answer is {answer}."
+     ],
+     "where": [
+      "a != 0"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-18-zero",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      12
+     ]
+    }
+   },
+   "prompt": "Solve |x| < {k}.",
+   "correct": "{-k} < x < {k}",
+   "distractors": [
+    {
+     "text": "x < {k}",
+     "misconception": "half"
+    },
+    {
+     "text": "x < {-k} or x > {k}",
+     "misconception": "out"
+    },
+    {
+     "text": "{-k} ≤ x ≤ {k}",
+     "misconception": "ends"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "half",
+     "explain": "x = {-k - 3} is less than {k}, but |{-k - 3}| = {k + 3} is not less than {k}."
+    },
+    {
+     "id": "out",
+     "explain": "That describes |x| > {k}: the numbers far from {0}."
+    },
+    {
+     "id": "ends",
+     "explain": "The sign is <, so ±{k} themselves are left out."
+    }
+   ],
+   "solution": [
+    "|x| < {k} means x is less than {k} away from {0}.",
+    "So x lies between {-k} and {k}, ends left out.",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "m4-18-in",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "k": {
+     "int": [
+      1,
+      6
+     ]
+    }
+   },
+   "prompt": "Solve |x − {br(a)}| ≤ {k}.",
+   "correct": "{interval(a - k, a + k, true, true)}",
+   "distractors": [
+    {
+     "text": "{interval(-k, k, true, true)}",
+     "misconception": "centre"
+    },
+    {
+     "text": "{interval(a - k, a + k, false, false)}",
+     "misconception": "open"
+    },
+    {
+     "text": "{interval(k - a, k + a, true, true)}",
+     "misconception": "swap"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "centre",
+     "explain": "The centre is {a}, not {0}: start from {a} and go {k} each way."
+    },
+    {
+     "id": "open",
+     "explain": "≤ includes the ends, so use square brackets."
+    },
+    {
+     "id": "swap",
+     "explain": "The ends are {a} − {k} and {a} + {k}."
+    }
+   ],
+   "solution": [
+    "The numbers at most {k} away from {a}.",
+    "{a} − {k} ≤ x ≤ {a} + {k}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "a != 0",
+    "k != a && k != -a",
+    "a > 0 || k - a != a - k"
+   ]
+  },
+  {
+   "id": "m4-18-out",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "k": {
+     "int": [
+      1,
+      6
+     ]
+    }
+   },
+   "prompt": "Solve |x − {br(a)}| > {k}.",
+   "correct": "x < {a - k} or x > {a + k}",
+   "distractors": [
+    {
+     "text": "{a - k} < x < {a + k}",
+     "misconception": "inside"
+    },
+    {
+     "text": "x > {a + k}",
+     "misconception": "half"
+    },
+    {
+     "text": "x < {-k} or x > {k}",
+     "misconception": "centre"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "inside",
+     "explain": "That is |x − {br(a)}| < {k}: the numbers close to {a}."
+    },
+    {
+     "id": "half",
+     "explain": "Numbers far away on the left count too: x < {a - k}."
+    },
+    {
+     "id": "centre",
+     "explain": "The distance is measured from {a}, not from {0}."
+    }
+   ],
+   "solution": [
+    "The numbers more than {k} away from {a}: on the left below {a - k}, on the right above {a + k}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "a != 0"
+   ]
+  },
+  {
+   "id": "m4-18-count",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      7
+     ]
+    }
+   },
+   "prompt": "How many whole numbers satisfy |x − {br(a)}| < {k}?",
+   "answer": "2 * k - 1",
+   "misconceptions": [
+    {
+     "id": "ends",
+     "wrong": "2 * k + 1",
+     "explain": "The sign is <, so {a - k} and {a + k} are left out."
+    },
+    {
+     "id": "onehalf",
+     "wrong": "k",
+     "explain": "Count both sides of {a}: {k - 1} below, {k - 1} above, and {a} itself."
+    }
+   ],
+   "solution": [
+    "{a - k} < x < {a + k}.",
+    "The whole numbers from {a - k + 1} to {a + k - 1}.",
+    "There are {answer}."
+   ],
+   "where": [
+    "a != 0"
+   ]
+  },
+  {
+   "id": "m4-18-ax",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      2,
+      3
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      2,
+      15
+     ]
+    }
+   },
+   "prompt": "Solve |{poly([m, 'x'], [b, ''])}| ≤ {c}.",
+   "correct": "{interval((-c - b) / m, (c - b) / m, true, true)}",
+   "distractors": [
+    {
+     "text": "{interval(-c - b, c - b, true, true)}",
+     "misconception": "nodiv"
+    },
+    {
+     "text": "{interval((-c + b) / m, (c + b) / m, true, true)}",
+     "misconception": "signb"
+    },
+    {
+     "text": "{intervalIneq('-inf', (-c - b) / m, false, true)} or x ≥ {(c - b) / m}",
+     "misconception": "out"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "nodiv",
+     "explain": "Divide every part by {m}."
+    },
+    {
+     "id": "signb",
+     "explain": "Take {b} away from every part: {-c} − {br(b)} = {-c - b} and {c} − {br(b)} = {c - b}."
+    },
+    {
+     "id": "out",
+     "explain": "≤ means close to the centre: one interval, not two pieces."
+    }
+   ],
+   "solution": [
+    "Write {-c} ≤ {poly([m, 'x'], [b, ''])} ≤ {c}.",
+    "Subtract {b}: {-c - b} ≤ {mono(m, 'x')} ≤ {c - b}.",
+    "Divide by {m}: {(-c - b) / m} ≤ x ≤ {(c - b) / m}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "b != 0",
+    "(c - b) % m == 0",
+    "(-c - b) % m == 0",
+    "(c + b) % m == 0"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,588 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 21,
+ "language": "en",
+ "prerequisites": [
+  20
+ ],
+ "skills": [
+  {
+   "id": "m4-21",
+   "name": "Show a linear inequality as a region (half plane) on a graph"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A line divides the plane into two half planes. An inequality such as y ≤ 2x + 1 describes one of them.\n1. Draw the boundary line y = 2x + 1: solid if the line is included (≤, ≥), broken if not (<, >).\n2. Test a point not on the line, usually O(0, 0): 0 ≤ 1 is true, so O is in the wanted region.\n3. Shade the unwanted side (the convention in GCE answers), leaving the wanted region clear.\nx ≥ 3 is the region to the right of the vertical line x = 3; y < −1 is below the horizontal line y = −1.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to draw the region for a linear inequality: the right boundary (solid or broken) and the right side, tested with a point.\nBuilds on: Lesson {20} (drawing lines) and Lesson {16} (inequalities).\nLeads to: Lesson {22} (regions for several inequalities) and linear programming in Form Five."
+   },
+   {
+    "heading": "Boundary and side",
+    "text": "The inequality y ≤ {mono(2, 'x')} + {1} is true for the points on the line y = {mono(2, 'x')} + {1} and for every point on one side of it.\n• Boundary: draw the line. With ≤ or ≥ it is included, so draw it solid. With < or > draw it broken.\n• Side: test a point that is not on the line. O({0}, {0}): {0} ≤ {mono(2, 'x')} + {1} becomes {0} ≤ {1}, true. So O's side is wanted.\n• Shade the unwanted side. The clear region shows all the solutions."
+   },
+   {
+    "heading": "Vertical and horizontal boundaries",
+    "text": "x ≥ {3}: the boundary is the vertical line x = {3}; the wanted region is to the right of it.\ny < {-1}: the boundary is the horizontal line y = {-1}, broken; the wanted region is below it.\nIf the line passes through O, test another point such as ({1}, {0}).\nSome books shade the wanted region instead. Always say which convention you use; here the shaded part is unwanted."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "half plane",
+    "meaning": "all the points on one side of a line"
+   },
+   {
+    "word": "boundary",
+    "meaning": "the line that separates the two sides"
+   },
+   {
+    "word": "unwanted region",
+    "meaning": "the part shaded because it does not satisfy the inequality"
+   }
+  ],
+  "examples": [
+   "x + y < {4}: broken line x + y = {4}; O is wanted",
+   "y ≥ {-2}: solid horizontal line; wanted above"
+  ],
+  "mistake": {
+   "wrong": "y < x + {2}: draw the line solid",
+   "right": "y < x + {2}: draw the line broken",
+   "why": "< leaves out the equals case, so the points on the line are not solutions."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": 2,
+   "c": 1
+  },
+  "problem": "Show y ≤ {poly([m, 'x'], [c, ''])} on a graph.",
+  "steps": [
+   "Boundary y = {poly([m, 'x'], [c, ''])}: x = {0}, y = {c}; x = {1}, y = {m + c}. ≤ includes the line, so draw it solid.",
+   "Test O({0}, {0}): {0} ≤ {c} is true, so O is in the wanted region.",
+   "Shade the other side, above the line: that is the unwanted region."
+  ],
+  "answer": "the unshaded region below the solid line y = {poly([m, 'x'], [c, ''])}",
+  "checks": [
+   "c > 0"
+  ],
+  "figure": "graphFig([-4, 4], [-4, 4], [[-m, 1, c, false, '']], [[-m, 1, c]])"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m21-1",
+    "status": "draft",
+    "idea": "≤ and ≥ include the line: draw it solid. < and > leave it out: draw it broken.",
+    "vars": {},
+    "example": [
+     "y < x + {2}: broken line; y ≥ x + {2}: solid line"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-21-line"
+    }
+   },
+   {
+    "id": "c4m21-2",
+    "status": "draft",
+    "idea": "Test a point such as O({0}, {0}): if it makes the inequality true, it is in the wanted region.",
+    "vars": {},
+    "example": [
+     "y ≤ {mono(2, 'x')} + {1}: {0} ≤ {1} is true, so O is wanted"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-21-point"
+    }
+   },
+   {
+    "id": "c4m21-3",
+    "status": "draft",
+    "idea": "Shade the unwanted side; the clear region is the solution.",
+    "vars": {},
+    "example": [
+     "for y ≤ {mono(2, 'x')} + {1}, shade above the line"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-21-read-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "graphs"
+     ],
+     "vars": {
+      "m": {
+       "pick": [
+        -2,
+        -1,
+        1,
+        2
+       ]
+      },
+      "c": {
+       "int": [
+        -3,
+        3
+       ]
+      },
+      "op": {
+       "pick": [
+        "<",
+        "≤",
+        ">",
+        "≥"
+       ]
+      },
+      "below": {
+       "expr": "op == '<' || op == '≤'"
+      },
+      "strict": {
+       "expr": "op == '<' || op == '>'"
+      }
+     },
+     "prompt": "The graph shows a line and a shaded (unwanted) region. Which inequality describes the unshaded region?",
+     "correct": "y {op} {poly([m, 'x'], [c, ''])}",
+     "distractors": [
+      {
+       "text": "y {flipOp(op)} {poly([m, 'x'], [c, ''])}",
+       "misconception": "side"
+      },
+      {
+       "text": "y {strict ? looseOp(op) : strictOp(op)} {poly([m, 'x'], [c, ''])}",
+       "misconception": "line"
+      },
+      {
+       "text": "y {op} {poly([-m, 'x'], [c, ''])}",
+       "misconception": "grad"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "side",
+       "explain": "The shading is the unwanted side. The clear region is {below ? 'below' : 'above'} the line."
+      },
+      {
+       "id": "line",
+       "explain": "Look at the line: {strict ? 'broken, so it is not included' : 'solid, so it is included'}."
+      },
+      {
+       "id": "grad",
+       "explain": "The line slopes {m > 0 ? 'up' : 'down'} to the right, so its gradient is {m}."
+      }
+     ],
+     "solution": [
+      "The boundary is y = {poly([m, 'x'], [c, ''])}, drawn {strict ? 'broken (not included)' : 'solid (included)'}.",
+      "The clear region is {below ? 'below' : 'above'} the line.",
+      "So the answer is {answer}."
+     ],
+     "figure": "graphFig([-6, 6], [-6, 6], [[-m, 1, c, strict, '']], [below ? [-m, 1, c] : [m, -1, -c]])",
+     "where": [
+      "c != 0"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-21-line",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      4
+     ]
+    },
+    "c": {
+     "int": [
+      2,
+      12
+     ]
+    },
+    "op": {
+     "pick": [
+      "<",
+      "≤",
+      ">",
+      "≥"
+     ]
+    }
+   },
+   "prompt": "When you draw the boundary of {mono(a, 'x')} + {mono(b, 'y')} {op} {c} on a graph, how should the line be drawn?",
+   "correct": "{op == '<' || op == '>' ? 'Broken, because the line itself is not included' : 'Solid, because the line itself is included'}",
+   "distractors": [
+    {
+     "text": "{op == '<' || op == '>' ? 'Solid, because the line itself is included' : 'Broken, because the line itself is not included'}",
+     "misconception": "swap"
+    },
+    {
+     "text": "Solid, because every boundary is drawn solid",
+     "misconception": "always"
+    },
+    {
+     "text": "{op == '<' || op == '>' ? 'Broken, because the region is below the line' : 'Solid, because the region is above the line'}",
+     "misconception": "side"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "≤ and ≥ include the line (solid); < and > do not (broken)."
+    },
+    {
+     "id": "always",
+     "explain": "A boundary that is not part of the solution is drawn broken."
+    },
+    {
+     "id": "side",
+     "explain": "Solid or broken depends on whether the line is included, not on which side the region is."
+    }
+   ],
+   "solution": [
+    "{op} {op == '<' || op == '>' ? 'leaves out the equals case' : 'includes the equals case'}.",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "m4-21-point",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "m": {
+     "pick": [
+      -2,
+      -1,
+      1,
+      2
+     ]
+    },
+    "c": {
+     "int": [
+      -3,
+      3
+     ]
+    },
+    "op": {
+     "pick": [
+      "<",
+      "≤",
+      ">",
+      "≥"
+     ]
+    },
+    "below": {
+     "expr": "op == '<' || op == '≤'"
+    },
+    "strict": {
+     "expr": "op == '<' || op == '>'"
+    },
+    "px": {
+     "int": [
+      -3,
+      3
+     ]
+    },
+    "py": {
+     "int": [
+      -4,
+      4
+     ]
+    }
+   },
+   "prompt": "Is the point ({px}, {py}) in the region y {op} {poly([m, 'x'], [c, ''])}?",
+   "correct": "{holds(py, op, m * px + c) ? 'Yes: ' + fmt(py) + ' ' + op + ' ' + fmt(m * px + c) + ' is true' : 'No: ' + fmt(py) + ' ' + op + ' ' + fmt(m * px + c) + ' is false'}",
+   "distractors": [
+    {
+     "text": "{holds(py, op, m * px + c) ? 'No: ' + fmt(py) + ' ' + op + ' ' + fmt(m * px + c) + ' is false' : 'Yes: ' + fmt(py) + ' ' + op + ' ' + fmt(m * px + c) + ' is true'}",
+     "misconception": "flip"
+    },
+    {
+     "text": "Yes: every point with a positive x is in it",
+     "misconception": "posx"
+    },
+    {
+     "text": "No: points on the boundary are never included",
+     "misconception": "edge"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "flip",
+     "explain": "Substitute and compare: {py} {op} {m * px + c} is {holds(py, op, m * px + c) ? 'true' : 'false'}."
+    },
+    {
+     "id": "posx",
+     "explain": "Whether a point is in the region depends on the inequality, not just on x."
+    },
+    {
+     "id": "edge",
+     "explain": "With ≤ or ≥ the boundary is included. Substitute and compare."
+    }
+   ],
+   "solution": [
+    "Substitute x = {px}: {poly([m, 'x'], [c, ''])} = {m * px + c}.",
+    "Compare with y = {py}: is {py} {op} {m * px + c}? {holds(py, op, m * px + c) ? 'Yes.' : 'No.'}",
+    "So the answer is: {answer}."
+   ],
+   "where": [
+    "py != m * px + c"
+   ]
+  },
+  {
+   "id": "m4-21-read",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "m": {
+     "pick": [
+      -2,
+      -1,
+      1,
+      2
+     ]
+    },
+    "c": {
+     "int": [
+      -3,
+      3
+     ]
+    },
+    "op": {
+     "pick": [
+      "<",
+      "≤",
+      ">",
+      "≥"
+     ]
+    },
+    "below": {
+     "expr": "op == '<' || op == '≤'"
+    },
+    "strict": {
+     "expr": "op == '<' || op == '>'"
+    }
+   },
+   "prompt": "The graph shows a line and a shaded (unwanted) region. Which inequality describes the unshaded region?",
+   "correct": "y {op} {poly([m, 'x'], [c, ''])}",
+   "distractors": [
+    {
+     "text": "y {flipOp(op)} {poly([m, 'x'], [c, ''])}",
+     "misconception": "side"
+    },
+    {
+     "text": "y {strict ? looseOp(op) : strictOp(op)} {poly([m, 'x'], [c, ''])}",
+     "misconception": "line"
+    },
+    {
+     "text": "y {op} {poly([-m, 'x'], [c, ''])}",
+     "misconception": "grad"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "side",
+     "explain": "The shading is the unwanted side. The clear region is {below ? 'below' : 'above'} the line."
+    },
+    {
+     "id": "line",
+     "explain": "Look at the line: {strict ? 'broken, so it is not included' : 'solid, so it is included'}."
+    },
+    {
+     "id": "grad",
+     "explain": "The line slopes {m > 0 ? 'up' : 'down'} to the right, so its gradient is {m}."
+    }
+   ],
+   "solution": [
+    "The boundary is y = {poly([m, 'x'], [c, ''])}, drawn {strict ? 'broken (not included)' : 'solid (included)'}.",
+    "The clear region is {below ? 'below' : 'above'} the line.",
+    "So the answer is {answer}."
+   ],
+   "figure": "graphFig([-6, 6], [-6, 6], [[-m, 1, c, strict, '']], [below ? [-m, 1, c] : [m, -1, -c]])",
+   "where": [
+    "c != 0"
+   ]
+  },
+  {
+   "id": "m4-21-vert",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "x",
+      "y"
+     ]
+    },
+    "k": {
+     "int": [
+      -3,
+      3
+     ]
+    },
+    "op": {
+     "pick": [
+      "<",
+      "≤",
+      ">",
+      "≥"
+     ]
+    },
+    "strict": {
+     "expr": "op == '<' || op == '>'"
+    },
+    "lo": {
+     "expr": "op == '<' || op == '≤'"
+    }
+   },
+   "prompt": "The graph shows the region {v == 'x' ? 'beside a vertical line' : 'beside a horizontal line'}. The unshaded part is wanted. Which inequality describes it?",
+   "correct": "{v} {op} {k}",
+   "distractors": [
+    {
+     "text": "{v} {flipOp(op)} {k}",
+     "misconception": "side"
+    },
+    {
+     "text": "{v == 'x' ? 'y' : 'x'} {op} {k}",
+     "misconception": "axis"
+    },
+    {
+     "text": "{v} {strict ? looseOp(op) : strictOp(op)} {k}",
+     "misconception": "line"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "side",
+     "explain": "The shaded side is unwanted; the wanted side is where {v} is {op == '<' || op == '≤' ? 'smaller' : 'larger'} than {k}."
+    },
+    {
+     "id": "axis",
+     "explain": "A {v == 'x' ? 'vertical' : 'horizontal'} line has the equation {v} = {k}."
+    },
+    {
+     "id": "line",
+     "explain": "The line is {strict ? 'broken: not included' : 'solid: included'}."
+    }
+   ],
+   "solution": [
+    "The boundary is the {v == 'x' ? 'vertical' : 'horizontal'} line {v} = {k}, drawn {strict ? 'broken' : 'solid'}.",
+    "The clear side is where {v} is {op == '<' || op == '≤' ? 'smaller' : 'larger'}.",
+    "So the answer is {answer}."
+   ],
+   "figure": "graphFig([-6, 6], [-6, 6], [v == 'x' ? [1, 0, k, strict, ''] : [0, 1, k, strict, '']], [v == 'x' ? (lo ? [1, 0, k] : [-1, 0, -k]) : (lo ? [0, 1, k] : [0, -1, -k])])",
+   "where": [
+    "k != 0"
+   ]
+  },
+  {
+   "id": "m4-21-origin",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "b": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "c": {
+     "int": [
+      -12,
+      12
+     ]
+    },
+    "op": {
+     "pick": [
+      "<",
+      "≤",
+      ">",
+      "≥"
+     ]
+    }
+   },
+   "prompt": "To show {mono(a, 'x')} + {mono(b, 'y')} {op} {c} you draw the line {mono(a, 'x')} + {mono(b, 'y')} = {c}. Which side do you shade (unwanted)?",
+   "correct": "{holds(0, op, c) ? 'The side that does not contain O(0, 0), because O satisfies the inequality' : 'The side that contains O(0, 0), because O does not satisfy the inequality'}",
+   "distractors": [
+    {
+     "text": "{holds(0, op, c) ? 'The side that contains O(0, 0), because O satisfies the inequality' : 'The side that does not contain O(0, 0), because O does not satisfy the inequality'}",
+     "misconception": "swap"
+    },
+    {
+     "text": "Always the side above the line",
+     "misconception": "above"
+    },
+    {
+     "text": "Always the side containing O(0, 0)",
+     "misconception": "origin"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "If O satisfies the inequality, O's side is wanted and stays clear."
+    },
+    {
+     "id": "above",
+     "explain": "'Above' depends on the inequality. Test a point such as O."
+    },
+    {
+     "id": "origin",
+     "explain": "O's side is shaded only if O does not satisfy the inequality."
+    }
+   ],
+   "solution": [
+    "Test O: {a} × {0} + {b} × {0} = {0}, and {0} {op} {c} is {holds(0, op, c) ? 'true' : 'false'}.",
+    "{holds(0, op, c) ? 'O is wanted, so shade the other side.' : 'O is unwanted, so shade its side.'}",
+    "So the answer is: {answer}."
+   ],
+   "where": [
+    "c != 0"
+   ]
+  }
+ ]
+}

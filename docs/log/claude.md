@@ -48,3 +48,16 @@
 - ASSIGNMENTS: Form 4 split recorded (Claude numbers and sciences, Codex languages and humanities). AUTHORING:
   the Form 4 "Your goal and connections" opening screen and LEARNING-PATH.md.
 - form-2 = f3-claude = 648620d, pushed. main untouched.
+
+## 2026-10-24: Form 4 Maths Term 1 complete (34 lessons)
+
+- Rows 2-35, each opening with "Your goal and connections". Row 1 (diagnostic) is not a lesson; rows 5/6 (same
+  title) split as x² + bx + c and ax² + bx + c; rows 17/18 and 33/34 were split by the sheet layout (TR-M4-7, 9).
+- New lib: surd, lin2, quad, cubic, cval, graphFig (lines, exact half-plane shading, parabolas, region labels),
+  lattice, latticeCount, latticeMax. sup now raises signs, brackets and x, y, m, n (10⁻³ had a plain hyphen).
+- New shared test: a numeric question whose answer can be negative must be "signed" (phone number pads may lack
+  a minus key). It found Form 1 Physics p18-c (269 K → −4 °C), fixed on form-2 and in the waiting main copy.
+- Found while reading rendered questions: answers not fully factorised; a region label drawn as a dot on the
+  right answer; hyphen minus signs in built strings; a yes/no question nearly always "no"; log answer negative.
+- npm test 7233 pass; walk at 360 px: f4-maths 34/34. Teacher points TR-M4-1 to 11.
+- Waiting for Dion's "push": the stuck-pupil fixes and the p18-c fix for main (C:\Users\efuet\preps-main).

@@ -1,0 +1,579 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 20,
+ "language": "en",
+ "prerequisites": [
+  16
+ ],
+ "skills": [
+  {
+   "id": "m4-20",
+   "name": "Solve simultaneous linear equations by drawing graphs"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "To solve two linear equations with graphs:\n1. Make a table of values for each line (three points are enough; the third is a check).\n2. Draw both lines on the same axes.\n3. The point where they cross gives the solution: its x-coordinate and its y-coordinate.\nExample: y = x + 1 and y = −x + 5 cross at (2, 3), so x = 2 and y = 3.\nCheck by substituting into both equations. Parallel lines (same gradient) never cross: no solution.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to draw two straight lines from tables of values and read the solution of the simultaneous equations from where they cross.\nBuilds on: Form Three straight-line graphs (y = mx + c) and Lesson {16}.\nLeads to: Lessons {21} and {22} (regions), where lines become the edges of a solution set."
+   },
+   {
+    "heading": "From equation to line",
+    "text": "Each linear equation, such as y = x + {1}, has many solutions: ({0}, {1}), ({1}, {2}), ({2}, {3}) … On a graph they make a straight line.\nTo draw it, make a table with three values of x, work out y, plot the points and join them with a ruler. The third point is a check: if it is not in line, a value is wrong.\nFor y = −x + {5}: x = {0} gives {5}, x = {2} gives {3}, x = {4} gives {1}."
+   },
+   {
+    "heading": "Reading the solution",
+    "text": "Draw y = x + {1} and y = −x + {5} on the same axes. They cross at ({2}, {3}).\nThat point is on both lines, so it satisfies both equations: x = {2}, y = {3}.\nCheck: {2} + {1} = {3} and −{2} + {5} = {3}.\nRead the x-coordinate first (across), then y (up). If the crossing is between grid lines, give the closest reading and check algebraically. Lines with the same gradient are parallel: no solution."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "simultaneous equations",
+    "meaning": "two equations that must both be true at once"
+   },
+   {
+    "word": "table of values",
+    "meaning": "chosen x values with the y values worked out"
+   },
+   {
+    "word": "point of intersection",
+    "meaning": "where two lines cross"
+   },
+   {
+    "word": "gradient",
+    "meaning": "the steepness m in y = mx + c"
+   }
+  ],
+  "examples": [
+   "y = {mono(2, 'x')} and y = x + {3} cross at ({3}, {6})",
+   "y = x − {1} and y = {mono(-2, 'x')} + {5} cross at ({2}, {1})"
+  ],
+  "mistake": {
+   "wrong": "crossing at ({2}, {3}) → x = {3}, y = {2}",
+   "right": "crossing at ({2}, {3}) → x = {2}, y = {3}",
+   "why": "Coordinates are written (x, y): across first, then up."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "h": 2,
+   "k": 3,
+   "m1": 1,
+   "m2": -1,
+   "c1": 1,
+   "c2": 5
+  },
+  "problem": "Solve y = {poly([m1, 'x'], [c1, ''])} and y = {poly([m2, 'x'], [c2, ''])} graphically.",
+  "steps": [
+   "Table for y = {poly([m1, 'x'], [c1, ''])}: x = {0}, y = {c1}; x = {2}, y = {2 * m1 + c1}; x = {4}, y = {4 * m1 + c1}.",
+   "Table for y = {poly([m2, 'x'], [c2, ''])}: x = {0}, y = {c2}; x = {2}, y = {2 * m2 + c2}; x = {4}, y = {4 * m2 + c2}.",
+   "Draw both lines. They cross at ({h}, {k}).",
+   "Check: {m1 * h + c1} = {k} and {m2 * h + c2} = {k}."
+  ],
+  "answer": "x = {h}, y = {k}",
+  "checks": [
+   "m1 * h + c1 == k",
+   "m2 * h + c2 == k"
+  ],
+  "figure": "graphFig([-1, 6], [-1, 6], [[-m1, 1, c1, false, 'A'], [-m2, 1, c2, false, 'B']], [], [], [['P', h, k]])"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m20-1",
+    "status": "draft",
+    "idea": "Each line is the picture of all the solutions of one equation.",
+    "vars": {},
+    "example": [
+     "Every point on y = x + {1} satisfies the equation: ({0}, {1}), ({1}, {2}), ({2}, {3}) …"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-20-table"
+    }
+   },
+   {
+    "id": "c4m20-2",
+    "status": "draft",
+    "idea": "The crossing point satisfies both equations at once: it is the solution.",
+    "vars": {},
+    "example": [
+     "y = x + {1} and y = −x + {5} cross at ({2}, {3}): x = {2}, y = {3}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-20-read"
+    }
+   },
+   {
+    "id": "c4m20-3",
+    "status": "draft",
+    "idea": "Parallel lines never cross, so the equations have no solution.",
+    "vars": {},
+    "example": [
+     "y = {mono(2, 'x')} + {1} and y = {mono(2, 'x')} − {3}: same gradient, no crossing"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-20-parallel-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "graphs"
+     ],
+     "vars": {
+      "m": {
+       "int": [
+        -3,
+        3
+       ]
+      },
+      "c1": {
+       "int": [
+        -6,
+        6
+       ]
+      },
+      "c2": {
+       "int": [
+        -6,
+        6
+       ]
+      }
+     },
+     "prompt": "How many solutions do y = {poly([m, 'x'], [c1, ''])} and y = {poly([m, 'x'], [c2, ''])} have?",
+     "correct": "None: the lines are parallel",
+     "distractors": [
+      {
+       "text": "One: the lines cross once",
+       "misconception": "one"
+      },
+      {
+       "text": "Two",
+       "misconception": "two"
+      },
+      {
+       "text": "Infinitely many: the lines are the same",
+       "misconception": "same"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "one",
+       "explain": "Lines with the same gradient never meet."
+      },
+      {
+       "id": "two",
+       "explain": "Two straight lines can cross at most once."
+      },
+      {
+       "id": "same",
+       "explain": "The lines cross the y-axis at {c1} and {c2}: different lines."
+      }
+     ],
+     "solution": [
+      "Both lines have gradient {m}, so they are parallel.",
+      "The y-intercepts {c1} and {c2} are different, so they are not the same line.",
+      "So the answer is: {answer}."
+     ],
+     "figure": "graphFig([-6, 6], [-6, 6], [[-m, 1, c1, false, 'A'], [-m, 1, c2, false, 'B']])",
+     "where": [
+      "m != 0",
+      "c1 != c2",
+      "abs(c1 - c2) >= 2"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-20-table",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      -3,
+      3
+     ]
+    },
+    "c": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "t": {
+     "int": [
+      -3,
+      3
+     ]
+    }
+   },
+   "prompt": "Complete the table of values for y = {poly([m, 'x'], [c, ''])}. What is y when x = {t}?",
+   "answer": "m * t + c",
+   "misconceptions": [
+    {
+     "id": "noc",
+     "wrong": "m * t",
+     "explain": "Add the {c} after multiplying: {m * t} + {br(c)}."
+    },
+    {
+     "id": "add",
+     "wrong": "m + t + c",
+     "explain": "{mono(m, 'x')} means {m} × x: multiply by {t}."
+    }
+   ],
+   "solution": [
+    "y = {m} × {br(t)} + {br(c)}.",
+    "= {m * t} + {br(c)} = {answer}."
+   ],
+   "where": [
+    "m != 0 && c != 0 && t != 0",
+    "m * t + c != m + t + c"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-20-read",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      -4,
+      4
+     ]
+    },
+    "k": {
+     "int": [
+      -4,
+      4
+     ]
+    },
+    "m1": {
+     "pick": [
+      -2,
+      -1,
+      1,
+      2,
+      3
+     ]
+    },
+    "m2": {
+     "pick": [
+      -3,
+      -2,
+      -1,
+      1,
+      2
+     ]
+    },
+    "c1": {
+     "expr": "k - m1 * h"
+    },
+    "c2": {
+     "expr": "k - m2 * h"
+    }
+   },
+   "prompt": "The graph shows lines A and B. Use it to solve their two equations.",
+   "correct": "x = {h}, y = {k}",
+   "distractors": [
+    {
+     "text": "x = {k}, y = {h}",
+     "misconception": "swap"
+    },
+    {
+     "text": "x = {0}, y = {c1}",
+     "misconception": "icept"
+    },
+    {
+     "text": "x = {h}, y = {0}",
+     "misconception": "axis"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "Read x across (horizontal) first, then y up: the point is ({h}, {k})."
+    },
+    {
+     "id": "icept",
+     "explain": "({0}, {c1}) is where line A meets the y-axis. Line B does not pass through it."
+    },
+    {
+     "id": "axis",
+     "explain": "The crossing is at height y = {k}, not on the x-axis."
+    }
+   ],
+   "solution": [
+    "The solution is where the lines cross.",
+    "They cross at ({h}, {k}): x = {h}, y = {k}.",
+    "So the answer is {answer}."
+   ],
+   "figure": "graphFig([-6, 6], [-6, 6], [[-m1, 1, c1, false, 'A'], [-m2, 1, c2, false, 'B']])",
+   "where": [
+    "m1 != m2",
+    "h != k",
+    "c1 != 0 && c2 != 0",
+    "abs(c1) <= 9 && abs(c2) <= 9",
+    "h != 0 && k != 0"
+   ]
+  },
+  {
+   "id": "m4-20-meet",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      -4,
+      4
+     ]
+    },
+    "k": {
+     "int": [
+      -4,
+      4
+     ]
+    },
+    "m1": {
+     "pick": [
+      -2,
+      -1,
+      1,
+      2,
+      3
+     ]
+    },
+    "m2": {
+     "pick": [
+      -3,
+      -2,
+      -1,
+      1,
+      2
+     ]
+    },
+    "c1": {
+     "expr": "k - m1 * h"
+    },
+    "c2": {
+     "expr": "k - m2 * h"
+    }
+   },
+   "prompt": "The lines y = {poly([m1, 'x'], [c1, ''])} and y = {poly([m2, 'x'], [c2, ''])} are drawn. At what value of x do they cross?",
+   "answer": "h",
+   "misconceptions": [
+    {
+     "id": "y",
+     "wrong": "k",
+     "explain": "{k} is the y-coordinate of the crossing. The question asks for x."
+    },
+    {
+     "id": "c",
+     "wrong": "c2 - c1",
+     "explain": "Divide by {m1 - m2}: x = {c2 - c1} ÷ {br(m1 - m2)} = {h}."
+    }
+   ],
+   "solution": [
+    "At the crossing both y values are equal: {poly([m1, 'x'], [c1, ''])} = {poly([m2, 'x'], [c2, ''])}.",
+    "{mono(m1 - m2, 'x')} = {c2 - c1}, so x = {answer}.",
+    "Check on the graph: at x = {h} both lines have y = {k}."
+   ],
+   "figure": "graphFig([-6, 6], [-6, 6], [[-m1, 1, c1, false, 'A'], [-m2, 1, c2, false, 'B']])",
+   "where": [
+    "m1 != m2",
+    "h != k",
+    "c1 != 0 && c2 != 0",
+    "abs(c1) <= 9 && abs(c2) <= 9",
+    "h != 0 && k != 0",
+    "m1 - m2 != 1"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-20-check",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "h": {
+     "int": [
+      -4,
+      4
+     ]
+    },
+    "k": {
+     "int": [
+      -4,
+      4
+     ]
+    },
+    "m1": {
+     "pick": [
+      -2,
+      -1,
+      1,
+      2,
+      3
+     ]
+    },
+    "m2": {
+     "pick": [
+      -3,
+      -2,
+      -1,
+      1,
+      2
+     ]
+    },
+    "c1": {
+     "expr": "k - m1 * h"
+    },
+    "c2": {
+     "expr": "k - m2 * h"
+    }
+   },
+   "prompt": "Asong drew y = {poly([m1, 'x'], [c1, ''])} and y = {poly([m2, 'x'], [c2, ''])} and read off the crossing as ({h + 1}, {k}). Is that right?",
+   "correct": "No: x = {h + 1} gives y = {m1 * (h + 1) + c1} on the first line and {m2 * (h + 1) + c2} on the second. The lines cross at ({h}, {k})",
+   "distractors": [
+    {
+     "text": "Yes: the point is on both lines",
+     "misconception": "yes"
+    },
+    {
+     "text": "No: the lines are parallel and never cross",
+     "misconception": "par"
+    },
+    {
+     "text": "No: the crossing is at ({k}, {h})",
+     "misconception": "swap"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "yes",
+     "explain": "Substitute x = {h + 1}: y = {m1 * (h + 1) + c1} and y = {m2 * (h + 1) + c2} are different."
+    },
+    {
+     "id": "par",
+     "explain": "The gradients {m1} and {m2} are different, so the lines do cross."
+    },
+    {
+     "id": "swap",
+     "explain": "({k}, {h}) has x and y swapped. Check: it does not satisfy y = {poly([m1, 'x'], [c1, ''])}."
+    }
+   ],
+   "solution": [
+    "Substitute x = {h + 1}: the two lines give different y values, so it is not on both.",
+    "At x = {h} both give y = {k}.",
+    "So the answer is: {answer}."
+   ],
+   "where": [
+    "m1 != m2",
+    "h != k",
+    "c1 != 0 && c2 != 0",
+    "abs(c1) <= 9 && abs(c2) <= 9",
+    "h != 0 && k != 0",
+    "m1 * k + c1 != h || m2 * k + c2 != h"
+   ]
+  },
+  {
+   "id": "m4-20-parallel",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "m": {
+     "int": [
+      -3,
+      3
+     ]
+    },
+    "c1": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "c2": {
+     "int": [
+      -6,
+      6
+     ]
+    }
+   },
+   "prompt": "How many solutions do y = {poly([m, 'x'], [c1, ''])} and y = {poly([m, 'x'], [c2, ''])} have?",
+   "correct": "None: the lines are parallel",
+   "distractors": [
+    {
+     "text": "One: the lines cross once",
+     "misconception": "one"
+    },
+    {
+     "text": "Two",
+     "misconception": "two"
+    },
+    {
+     "text": "Infinitely many: the lines are the same",
+     "misconception": "same"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "one",
+     "explain": "Lines with the same gradient never meet."
+    },
+    {
+     "id": "two",
+     "explain": "Two straight lines can cross at most once."
+    },
+    {
+     "id": "same",
+     "explain": "The lines cross the y-axis at {c1} and {c2}: different lines."
+    }
+   ],
+   "solution": [
+    "Both lines have gradient {m}, so they are parallel.",
+    "The y-intercepts {c1} and {c2} are different, so they are not the same line.",
+    "So the answer is: {answer}."
+   ],
+   "figure": "graphFig([-6, 6], [-6, 6], [[-m, 1, c1, false, 'A'], [-m, 1, c2, false, 'B']])",
+   "where": [
+    "m != 0",
+    "c1 != c2",
+    "abs(c1 - c2) >= 2"
+   ]
+  }
+ ]
+}

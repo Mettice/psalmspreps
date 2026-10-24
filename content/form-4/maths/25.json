@@ -1,0 +1,592 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 25,
+ "language": "en",
+ "prerequisites": [
+  23,
+  20
+ ],
+ "skills": [
+  {
+   "id": "m4-25",
+   "name": "Solve quadratic equations using graphs"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "On the graph of y = ax² + bx + c, the roots of ax² + bx + c = 0 are the x-coordinates where the curve crosses the x-axis (y = 0).\nTo solve ax² + bx + c = k with the same graph, draw the horizontal line y = k and read the x-coordinates where it meets the curve.\nTo solve a different quadratic, rearrange it as (the graphed expression) = (a straight line), draw that line, and read the crossings.\nExample: with y = x² − 2x − 3 drawn, x² − 3x − 1 = 0 becomes x² − 2x − 3 = x − 2: draw y = x − 2.\nGraph readings are approximate; give them to the nearest grid line or as the question asks.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to read the roots of a quadratic equation from its graph and solve related equations by drawing a straight line.\nBuilds on: Lesson {23} (drawing parabolas) and Lesson {20} (crossings of graphs).\nLeads to: intersections of curves and lines in Form Five, and solving equations that algebra cannot."
+   },
+   {
+    "heading": "Roots on the x-axis",
+    "text": "The graph of y = {quad(1, -2, -3)} crosses the x-axis at x = {-1} and x = {3}.\nOn the x-axis y = {0}, so these x values make {quad(1, -2, -3)} = {0}: they are the roots.\nCheck: ({-1})² − {2} × ({-1}) − {3} = {1} + {2} − {3} = {0}.\nIf the curve crosses between grid lines, estimate: x ≈ {2.6}, for example."
+   },
+   {
+    "heading": "Other equations with the same graph",
+    "text": "To solve {quad(1, -2, -3)} = {5}, draw the horizontal line y = {5}. It meets the curve at x = {-2} and x = {4}.\nTo solve x² − {mono(3, 'x')} − {1} = {0}, make the left side match the graph:\nx² − {mono(3, 'x')} − {1} = {0} is the same as {quad(1, -2, -3)} = x − {2} (add x − {2} to both sides).\nSo draw y = x − {2} and read the x values where it crosses the curve."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "graphical solution",
+    "meaning": "an answer read from a graph"
+   },
+   {
+    "word": "intersection",
+    "meaning": "where two graphs meet"
+   },
+   {
+    "word": "estimate",
+    "meaning": "read as closely as the grid allows"
+   }
+  ],
+  "examples": [
+   "y = {quad(1, 0, -4)}: roots x = {-2}, {2}",
+   "{quad(1, 0, -4)} = {5}: draw y = {5}, x = {-3} or {3}"
+  ],
+  "mistake": {
+   "wrong": "to solve {quad(1, -2, -3)} = {5}, read where the curve crosses the x-axis",
+   "right": "draw y = {5} and read where it meets the curve",
+   "why": "The x-axis is y = {0}. For = {5}, use the line y = {5}."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "p": -1,
+   "q": 3,
+   "k": 5
+  },
+  "problem": "The graph of y = {quad(1, -(p + q), p * q)} is drawn. Use it to solve {quad(1, -(p + q), p * q)} = {k}.",
+  "steps": [
+   "Draw the horizontal line y = {k}.",
+   "Read the x-coordinates where it meets the curve: x = {-2} and x = {4}.",
+   "Check x = {4}: {16} − {8} − {3} = {5}. Correct."
+  ],
+  "answer": "x = {-2} or x = {4}",
+  "checks": [
+   "16 - 2 * 4 - 3 == k",
+   "4 + 4 - 3 == k"
+  ],
+  "figure": "graphFig([-3, 5], [-5, 7], [[0, 1, k, false, 'y = ' + k]], [], [[1, -(p + q), p * q, '']], [])"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m25-1",
+    "status": "draft",
+    "idea": "The roots of ax² + bx + c = {0} are where the graph crosses the x-axis.",
+    "vars": {},
+    "example": [
+     "y = {quad(1, -2, -3)} crosses at x = {-1} and x = {3}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-25-roots"
+    }
+   },
+   {
+    "id": "c4m25-2",
+    "status": "draft",
+    "idea": "To solve ax² + bx + c = k, draw the line y = k and read where it meets the curve.",
+    "vars": {},
+    "example": [
+     "{quad(1, -2, -3)} = {5}: y = {5} meets the curve at x = {-2} and x = {4}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-25-k-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "graphs"
+     ],
+     "vars": {
+      "p": {
+       "int": [
+        -4,
+        0
+       ]
+      },
+      "w": {
+       "int": [
+        2,
+        6
+       ]
+      },
+      "q": {
+       "expr": "p + w"
+      },
+      "k": {
+       "int": [
+        -3,
+        6
+       ]
+      }
+     },
+     "prompt": "The graph of y = {quad(1, -(p + q), p * q)} is drawn. Which line do you draw to solve {quad(1, -(p + q), p * q)} = {k}?",
+     "correct": "y = {k}",
+     "distractors": [
+      {
+       "text": "y = {-k}",
+       "misconception": "sign"
+      },
+      {
+       "text": "x = {k}",
+       "misconception": "vert"
+      },
+      {
+       "text": "y = x + {k}",
+       "misconception": "slant"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "sign",
+       "explain": "The equation says the expression equals {k}: draw y = {k}."
+      },
+      {
+       "id": "vert",
+       "explain": "x = {k} is a vertical line: it gives only one point on the curve, not the solutions."
+      },
+      {
+       "id": "slant",
+       "explain": "The right side is just the number {k}, so the line is horizontal."
+      }
+     ],
+     "solution": [
+      "The left side is the graphed expression y. So y = {k}.",
+      "Draw the horizontal line y = {k} and read where it meets the curve.",
+      "So the answer is {answer}."
+     ],
+     "figure": "graphFig([-5, 6], [-9, 9], [], [], [[1, -(p + q), p * q, '']], [])",
+     "where": [
+      "p != 0",
+      "k != 0"
+     ]
+    }
+   },
+   {
+    "id": "c4m25-3",
+    "status": "draft",
+    "idea": "For another equation, rearrange it as (the graphed expression) = (a line), and draw the line.",
+    "vars": {},
+    "example": [
+     "x² − {mono(3, 'x')} − {1} = {0} ↔ {quad(1, -2, -3)} = x − {2}: draw y = x − {2}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-25-line-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "graphs"
+     ],
+     "vars": {
+      "b": {
+       "int": [
+        -4,
+        4
+       ]
+      },
+      "c": {
+       "int": [
+        -6,
+        6
+       ]
+      },
+      "b2": {
+       "int": [
+        -4,
+        4
+       ]
+      },
+      "c2": {
+       "int": [
+        -6,
+        6
+       ]
+      }
+     },
+     "prompt": "The graph of y = {quad(1, b, c)} is drawn. Which straight line must you draw to solve {quad(1, b2, c2)} = {0}?",
+     "correct": "y = {poly([b - b2, 'x'], [c - c2, ''])}",
+     "distractors": [
+      {
+       "text": "y = {poly([b2 - b, 'x'], [c2 - c, ''])}",
+       "misconception": "sign"
+      },
+      {
+       "text": "y = {poly([b2, 'x'], [c2, ''])}",
+       "misconception": "whole"
+      },
+      {
+       "text": "y = {0}",
+       "misconception": "axis"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "sign",
+       "explain": "Move the terms the right way: x² + {mono(b, 'x')} + {c} − ({poly([b - b2, 'x'], [c - c2, ''])}) must give {quad(1, b2, c2)}."
+      },
+      {
+       "id": "whole",
+       "explain": "Subtract the two quadratics: the line is the difference, not the new x and number terms."
+      },
+      {
+       "id": "axis",
+       "explain": "y = {0} solves {quad(1, b, c)} = {0}, a different equation."
+      }
+     ],
+     "solution": [
+      "Rearrange so that the left side is the graphed expression: {quad(1, b2, c2)} = {0}.",
+      "Add {poly([b - b2, 'x'], [c - c2, ''])} to both sides: {quad(1, b, c)} = {poly([b - b2, 'x'], [c - c2, ''])}.",
+      "So draw y = {poly([b - b2, 'x'], [c - c2, ''])}."
+     ],
+     "where": [
+      "b != b2",
+      "c != c2",
+      "b - b2 != b2 - b"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-25-roots",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      -4,
+      0
+     ]
+    },
+    "w": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "q": {
+     "expr": "p + w"
+    }
+   },
+   "prompt": "The graph shows y = {quad(1, -(p + q), p * q)}. What are the roots of {quad(1, -(p + q), p * q)} = {0}?",
+   "correct": "x = {p} or x = {q}",
+   "distractors": [
+    {
+     "text": "x = {-p} or x = {-q}",
+     "misconception": "sign"
+    },
+    {
+     "text": "x = {p * q}",
+     "misconception": "icept"
+    },
+    {
+     "text": "x = {(p + q) / 2}",
+     "misconception": "axis"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "sign",
+     "explain": "Read the crossings off the x-axis: they are at {p} and {q}."
+    },
+    {
+     "id": "icept",
+     "explain": "{p * q} is where the curve meets the y-axis, not the x-axis."
+    },
+    {
+     "id": "axis",
+     "explain": "That is the axis of symmetry, halfway between the roots."
+    }
+   ],
+   "solution": [
+    "The roots are where the curve crosses the x-axis.",
+    "It crosses at x = {p} and x = {q}.",
+    "So the answer is {answer}."
+   ],
+   "figure": "graphFig([-5, 6], [-9, 9], [], [], [[1, -(p + q), p * q, '']], [])",
+   "where": [
+    "p != 0",
+    "(p + q) % 2 == 0",
+    "p != -q"
+   ]
+  },
+  {
+   "id": "m4-25-large",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      -4,
+      0
+     ]
+    },
+    "w": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "q": {
+     "expr": "p + w"
+    }
+   },
+   "prompt": "The graph shows y = {quad(1, -(p + q), p * q)}. Use it to find the larger root of {quad(1, -(p + q), p * q)} = {0}.",
+   "answer": "q",
+   "misconceptions": [
+    {
+     "id": "small",
+     "wrong": "p",
+     "explain": "That is the smaller root."
+    },
+    {
+     "id": "icept",
+     "wrong": "p * q",
+     "explain": "{p * q} is the y-intercept. The roots are on the x-axis."
+    }
+   ],
+   "solution": [
+    "Look for where the curve crosses the x-axis.",
+    "The crossings are at x = {p} and x = {q}.",
+    "The larger root is {answer}."
+   ],
+   "figure": "graphFig([-5, 6], [-9, 9], [], [], [[1, -(p + q), p * q, '']], [])",
+   "where": [
+    "p != 0",
+    "q != -p * q"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-25-k",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      -4,
+      0
+     ]
+    },
+    "w": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "q": {
+     "expr": "p + w"
+    },
+    "k": {
+     "int": [
+      -3,
+      6
+     ]
+    }
+   },
+   "prompt": "The graph of y = {quad(1, -(p + q), p * q)} is drawn. Which line do you draw to solve {quad(1, -(p + q), p * q)} = {k}?",
+   "correct": "y = {k}",
+   "distractors": [
+    {
+     "text": "y = {-k}",
+     "misconception": "sign"
+    },
+    {
+     "text": "x = {k}",
+     "misconception": "vert"
+    },
+    {
+     "text": "y = x + {k}",
+     "misconception": "slant"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "sign",
+     "explain": "The equation says the expression equals {k}: draw y = {k}."
+    },
+    {
+     "id": "vert",
+     "explain": "x = {k} is a vertical line: it gives only one point on the curve, not the solutions."
+    },
+    {
+     "id": "slant",
+     "explain": "The right side is just the number {k}, so the line is horizontal."
+    }
+   ],
+   "solution": [
+    "The left side is the graphed expression y. So y = {k}.",
+    "Draw the horizontal line y = {k} and read where it meets the curve.",
+    "So the answer is {answer}."
+   ],
+   "figure": "graphFig([-5, 6], [-9, 9], [], [], [[1, -(p + q), p * q, '']], [])",
+   "where": [
+    "p != 0",
+    "k != 0"
+   ]
+  },
+  {
+   "id": "m4-25-solvek",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "p": {
+     "int": [
+      -4,
+      0
+     ]
+    },
+    "w": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "q": {
+     "expr": "p + w"
+    },
+    "t": {
+     "int": [
+      -3,
+      5
+     ]
+    }
+   },
+   "prompt": "The graph of y = {quad(1, -(p + q), p * q)} is drawn. Draw y = {t * t - (p + q) * t + p * q} and use it to solve {quad(1, -(p + q), p * q)} = {t * t - (p + q) * t + p * q}. Give the larger solution.",
+   "answer": "max(t, p + q - t)",
+   "misconceptions": [
+    {
+     "id": "small",
+     "wrong": "min(t, p + q - t)",
+     "explain": "That is the smaller solution."
+    },
+    {
+     "id": "roots",
+     "wrong": "q",
+     "explain": "{q} is a root of the curve = {0}. Here the curve equals {t * t - (p + q) * t + p * q}."
+    }
+   ],
+   "solution": [
+    "The line y = {t * t - (p + q) * t + p * q} meets the curve at x = {t} and x = {p + q - t} (symmetric about x = {(p + q) / 2}).",
+    "Check x = {t}: {t * t} − {(p + q) * t} + {br(p * q)} = {t * t - (p + q) * t + p * q}.",
+    "The larger solution is {answer}."
+   ],
+   "figure": "graphFig([-5, 6], [-9, 9], [[0, 1, t * t - (p + q) * t + p * q, false, '']], [], [[1, -(p + q), p * q, '']], [])",
+   "where": [
+    "p != 0",
+    "t != p && t != q",
+    "t != p + q - t",
+    "abs(t * t - (p + q) * t + p * q) <= 8"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-25-line",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "graphs"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      -4,
+      4
+     ]
+    },
+    "c": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "b2": {
+     "int": [
+      -4,
+      4
+     ]
+    },
+    "c2": {
+     "int": [
+      -6,
+      6
+     ]
+    }
+   },
+   "prompt": "The graph of y = {quad(1, b, c)} is drawn. Which straight line must you draw to solve {quad(1, b2, c2)} = {0}?",
+   "correct": "y = {poly([b - b2, 'x'], [c - c2, ''])}",
+   "distractors": [
+    {
+     "text": "y = {poly([b2 - b, 'x'], [c2 - c, ''])}",
+     "misconception": "sign"
+    },
+    {
+     "text": "y = {poly([b2, 'x'], [c2, ''])}",
+     "misconception": "whole"
+    },
+    {
+     "text": "y = {0}",
+     "misconception": "axis"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "sign",
+     "explain": "Move the terms the right way: x² + {mono(b, 'x')} + {c} − ({poly([b - b2, 'x'], [c - c2, ''])}) must give {quad(1, b2, c2)}."
+    },
+    {
+     "id": "whole",
+     "explain": "Subtract the two quadratics: the line is the difference, not the new x and number terms."
+    },
+    {
+     "id": "axis",
+     "explain": "y = {0} solves {quad(1, b, c)} = {0}, a different equation."
+    }
+   ],
+   "solution": [
+    "Rearrange so that the left side is the graphed expression: {quad(1, b2, c2)} = {0}.",
+    "Add {poly([b - b2, 'x'], [c - c2, ''])} to both sides: {quad(1, b, c)} = {poly([b - b2, 'x'], [c - c2, ''])}.",
+    "So draw y = {poly([b - b2, 'x'], [c - c2, ''])}."
+   ],
+   "where": [
+    "b != b2",
+    "c != c2",
+    "b - b2 != b2 - b"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,523 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 32,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "m4-32",
+   "name": "Approximate numbers: place value, rounding, rounding up and down"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The value of a digit depends on its place: in 3.4567 the 5 stands for 5 hundredths, 0.05.\nTo round, look at the next digit: 5 or more, round up; 4 or less, keep.\n• 3.4567 to 1 decimal place: 3.5. To 2 decimal places: 3.46. To the nearest whole number: 3.\n• 4 682 to the nearest hundred: 4 700.\nIn real problems you sometimes must round up (buses needed for 130 pupils, 50 per bus: 3) or down (full boxes of 12 from 130 eggs: 10), whatever the next digit is.\nA rounded value has bounds: 4.7 to 1 d.p. means 4.65 ≤ x < 4.75.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to give the value of any digit, round to a number of decimal places or to the nearest {10}, {100}, {1000}, and decide when to round up or down.\nBuilds on: Form One place value and rounding.\nLeads to: Lessons {33} and {34} (significant figures, errors and bounds) and every measured answer in science."
+   },
+   {
+    "heading": "Place value and rounding",
+    "text": "In {3.4567}: {3} units, {4} tenths, {5} hundredths, {6} thousandths, {7} ten-thousandths. The {5} stands for {0.05}.\nTo round, keep the digits you need and look at the next one:\n• {3.4567} to {1} d.p.: next digit {5} → {3.5}.\n• to {2} d.p.: next digit {6} → {3.46}.\n• {4682} to the nearest {100}: next digit {8} → {4700}.\nKeep the size: {4682} to the nearest {100} is {4700}, not {47}."
+   },
+   {
+    "heading": "Up, down and bounds",
+    "text": "Sometimes the meaning decides, not the digit:\n• {130} pupils, {50} per bus: {130} ÷ {50} = {2.6}, but {2} buses leave pupils behind: {3} buses.\n• {130} eggs, boxes of {12}: {10.8}, but only {10} boxes are full.\nA rounded value stands for a range. {4.7} to {1} d.p. could be anything from {4.65} up to just below {4.75}: half a unit each way. These are its lower and upper bounds."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "decimal place (d.p.)",
+    "meaning": "a place after the point"
+   },
+   {
+    "word": "round up / round down",
+    "meaning": "go to the next value above / below"
+   },
+   {
+    "word": "bounds",
+    "meaning": "the smallest and largest values that round to a given number"
+   }
+  ],
+  "examples": [
+   "{12.749} to {1} d.p. = {12.7}",
+   "{0.0386} to {2} d.p. = {0.04}",
+   "{25} to the nearest {10} = {30}"
+  ],
+  "mistake": {
+   "wrong": "{4682} to the nearest {100} = {47}",
+   "right": "{4682} to the nearest {100} = {4700}",
+   "why": "Rounding keeps the size of the number: fill the places with zeros."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": 130,
+   "c": 50
+  },
+  "problem": "{n} pupils travel on buses that each carry {c}. How many buses are needed?",
+  "steps": [
+   "{n} ÷ {c} = {n / c}.",
+   "{floor(n / c)} buses carry only {floor(n / c) * c} pupils; the others still need a seat.",
+   "So round up."
+  ],
+  "answer": "{floor((n + c - 1) / c)} buses",
+  "checks": [
+   "floor((n + c - 1) / c) == 3"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m32-1",
+    "status": "draft",
+    "idea": "Rounding: look at the next digit. {5} or more, round up; less than {5}, keep.",
+    "vars": {},
+    "example": [
+     "{3.4567} to {1} d.p.: next digit {5}, so {3.5}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-32-dp"
+    }
+   },
+   {
+    "id": "c4m32-2",
+    "status": "draft",
+    "idea": "In a problem, decide whether to round up or down from the meaning.",
+    "vars": {},
+    "example": [
+     "{130} pupils, {50} per bus: {3} buses (up). {130} eggs, boxes of {12}: {10} full boxes (down)"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-32-context-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "approximation"
+     ],
+     "vars": {
+      "up": {
+       "pick": [
+        true,
+        false
+       ]
+      },
+      "c": {
+       "int": [
+        6,
+        20
+       ]
+      },
+      "n": {
+       "int": [
+        40,
+        300
+       ]
+      }
+     },
+     "prompt": "{up ? n + ' people need transport in vans that carry ' + c + ' each. How many vans are needed?' : 'Mangoes are packed ' + c + ' to a crate. How many full crates can be made from ' + n + ' mangoes?'}",
+     "answer": "up ? floor((n + c - 1) / c) : floor(n / c)",
+     "misconceptions": [
+      {
+       "id": "near",
+       "wrong": "round(n / c)",
+       "explain": "{up ? 'Rounding down leaves people behind' : 'A part-filled crate is not full'}: round {up ? 'up' : 'down'}.",
+       "when": "round(n / c) != (up ? floor((n + c - 1) / c) : floor(n / c))"
+      }
+     ],
+     "solution": [
+      "{n} ÷ {c} = {roundTo(n / c, 0.01)}.",
+      "{up ? 'Everyone needs a seat, so round up' : 'Only full crates count, so round down'}.",
+      "The answer is {answer}."
+     ],
+     "where": [
+      "n % c != 0",
+      "round(n / c) == (up ? floor(n / c) : floor((n + c - 1) / c))"
+     ]
+    }
+   },
+   {
+    "id": "c4m32-3",
+    "status": "draft",
+    "idea": "A rounded number stands for a range: half a unit either side.",
+    "vars": {},
+    "example": [
+     "{4.7} to {1} d.p.: from {4.65} up to (not including) {4.75}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-32-bounds-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "approximation"
+     ],
+     "vars": {
+      "w": {
+       "int": [
+        2,
+        30
+       ]
+      },
+      "t": {
+       "int": [
+        1,
+        9
+       ]
+      },
+      "x": {
+       "expr": "dec(w + t / 10)"
+      }
+     },
+     "prompt": "A length is {fmt(x)} cm, correct to {1} decimal place. Which range contains the true length L?",
+     "correct": "{fmt(dec(x - 0.05))} ≤ L < {fmt(dec(x + 0.05))}",
+     "distractors": [
+      {
+       "text": "{fmt(dec(x - 0.1))} ≤ L < {fmt(dec(x + 0.1))}",
+       "misconception": "unit"
+      },
+      {
+       "text": "{fmt(x)} ≤ L < {fmt(dec(x + 0.1))}",
+       "misconception": "up"
+      },
+      {
+       "text": "{fmt(dec(x - 0.5))} ≤ L < {fmt(dec(x + 0.5))}",
+       "misconception": "whole"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "unit",
+       "explain": "Go half a unit each way: {0.05}, not {0.1}."
+      },
+      {
+       "id": "up",
+       "explain": "Rounding works both ways: values just below {fmt(x)} also round to it."
+      },
+      {
+       "id": "whole",
+       "explain": "The accuracy is {1} d.p., so the half-unit is {0.05}."
+      }
+     ],
+     "solution": [
+      "To {1} d.p. the unit is {0.1}; half of it is {0.05}.",
+      "L is within {0.05} of {fmt(x)}.",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-32-place",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "approximation"
+   ],
+   "vars": {
+    "w": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "d1": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "d2": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "d3": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "pos": {
+     "int": [
+      1,
+      3
+     ]
+    },
+    "x": {
+     "expr": "dec(w + d1 / 10 + d2 / 100 + d3 / 1000)"
+    },
+    "dig": {
+     "expr": "pos == 1 ? d1 : pos == 2 ? d2 : d3"
+    }
+   },
+   "prompt": "What is the value of the digit {dig} in {fmt(x)}?",
+   "answer": "dig / 10 ^ pos",
+   "misconceptions": [
+    {
+     "id": "face",
+     "wrong": "dig",
+     "explain": "{dig} is not in the units place: it stands for {dig} ÷ {10 ^ pos}."
+    },
+    {
+     "id": "tens",
+     "wrong": "dig * 10 ^ pos",
+     "explain": "Places after the point are tenths, hundredths, thousandths: divide, do not multiply."
+    }
+   ],
+   "solution": [
+    "{dig} is in the {pos == 1 ? 'tenths' : pos == 2 ? 'hundredths' : 'thousandths'} place.",
+    "So it stands for {dig} ÷ {10 ^ pos} = {answer}."
+   ],
+   "where": [
+    "d1 != d2 && d2 != d3 && d1 != d3",
+    "dig != w"
+   ]
+  },
+  {
+   "id": "m4-32-dp",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "approximation"
+   ],
+   "vars": {
+    "w": {
+     "int": [
+      0,
+      30
+     ]
+    },
+    "d1": {
+     "int": [
+      0,
+      9
+     ]
+    },
+    "d2": {
+     "int": [
+      0,
+      9
+     ]
+    },
+    "d3": {
+     "int": [
+      0,
+      9
+     ]
+    },
+    "d4": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "k": {
+     "int": [
+      1,
+      2
+     ]
+    },
+    "x": {
+     "expr": "dec(w + d1 / 10 + d2 / 100 + d3 / 1000 + d4 / 10000)"
+    }
+   },
+   "prompt": "Round {fmt(x)} to {k} decimal place{k == 1 ? '' : 's'}.",
+   "answer": "roundTo(x, 10 ^ -k)",
+   "misconceptions": [
+    {
+     "id": "trunc",
+     "wrong": "floor(x * 10 ^ k) / 10 ^ k",
+     "explain": "The next digit is {k == 1 ? d2 : d3}, so round up.",
+     "when": "(k == 1 ? d2 : d3) >= 5"
+    },
+    {
+     "id": "other",
+     "wrong": "roundTo(x, 10 ^ -(3 - k))",
+     "explain": "Count the decimal places carefully: {k} place{k == 1 ? '' : 's'} after the point."
+    }
+   ],
+   "solution": [
+    "Look at decimal place {k + 1}.",
+    "It is {k == 1 ? d2 : d3}: {(k == 1 ? d2 : d3) >= 5 ? 'round up' : 'keep'}.",
+    "{fmt(x)} ≈ {answer}."
+   ],
+   "where": [
+    "roundTo(x, 10 ^ -k) != floor(x * 10 ^ k) / 10 ^ k || (k == 1 ? d2 : d3) < 5"
+   ]
+  },
+  {
+   "id": "m4-32-hundred",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "approximation"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      1001,
+      98999
+     ]
+    },
+    "u": {
+     "pick": [
+      10,
+      100,
+      1000
+     ]
+    }
+   },
+   "prompt": "Round {n} to the nearest {u}.",
+   "answer": "roundTo(n, u)",
+   "misconceptions": [
+    {
+     "id": "down",
+     "wrong": "floor(n / u) * u",
+     "explain": "The next digit is {floor(n / (u / 10)) % 10}: {floor(n / (u / 10)) % 10 >= 5 ? 'round up' : 'keep'}.",
+     "when": "floor(n / (u / 10)) % 10 >= 5"
+    },
+    {
+     "id": "drop",
+     "wrong": "floor(n / u)",
+     "explain": "Keep the size of the number: write the zeros, {roundTo(n, u)}."
+    }
+   ],
+   "solution": [
+    "Look at the digit after the {u == 10 ? 'tens' : u == 100 ? 'hundreds' : 'thousands'} place.",
+    "{n} ≈ {answer}."
+   ],
+   "where": [
+    "n % (u / 10) != 0",
+    "floor(n / (u / 10)) % 10 != 5 || n % (u / 10) != 0"
+   ]
+  },
+  {
+   "id": "m4-32-context",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "approximation"
+   ],
+   "vars": {
+    "up": {
+     "pick": [
+      true,
+      false
+     ]
+    },
+    "c": {
+     "int": [
+      6,
+      20
+     ]
+    },
+    "n": {
+     "int": [
+      40,
+      300
+     ]
+    }
+   },
+   "prompt": "{up ? n + ' people need transport in vans that carry ' + c + ' each. How many vans are needed?' : 'Mangoes are packed ' + c + ' to a crate. How many full crates can be made from ' + n + ' mangoes?'}",
+   "answer": "up ? floor((n + c - 1) / c) : floor(n / c)",
+   "misconceptions": [
+    {
+     "id": "near",
+     "wrong": "round(n / c)",
+     "explain": "{up ? 'Rounding down leaves people behind' : 'A part-filled crate is not full'}: round {up ? 'up' : 'down'}.",
+     "when": "round(n / c) != (up ? floor((n + c - 1) / c) : floor(n / c))"
+    }
+   ],
+   "solution": [
+    "{n} ÷ {c} = {roundTo(n / c, 0.01)}.",
+    "{up ? 'Everyone needs a seat, so round up' : 'Only full crates count, so round down'}.",
+    "The answer is {answer}."
+   ],
+   "where": [
+    "n % c != 0",
+    "round(n / c) == (up ? floor(n / c) : floor((n + c - 1) / c))"
+   ]
+  },
+  {
+   "id": "m4-32-bounds",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "approximation"
+   ],
+   "vars": {
+    "w": {
+     "int": [
+      2,
+      30
+     ]
+    },
+    "t": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "x": {
+     "expr": "dec(w + t / 10)"
+    }
+   },
+   "prompt": "A length is {fmt(x)} cm, correct to {1} decimal place. Which range contains the true length L?",
+   "correct": "{fmt(dec(x - 0.05))} ≤ L < {fmt(dec(x + 0.05))}",
+   "distractors": [
+    {
+     "text": "{fmt(dec(x - 0.1))} ≤ L < {fmt(dec(x + 0.1))}",
+     "misconception": "unit"
+    },
+    {
+     "text": "{fmt(x)} ≤ L < {fmt(dec(x + 0.1))}",
+     "misconception": "up"
+    },
+    {
+     "text": "{fmt(dec(x - 0.5))} ≤ L < {fmt(dec(x + 0.5))}",
+     "misconception": "whole"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "unit",
+     "explain": "Go half a unit each way: {0.05}, not {0.1}."
+    },
+    {
+     "id": "up",
+     "explain": "Rounding works both ways: values just below {fmt(x)} also round to it."
+    },
+    {
+     "id": "whole",
+     "explain": "The accuracy is {1} d.p., so the half-unit is {0.05}."
+    }
+   ],
+   "solution": [
+    "To {1} d.p. the unit is {0.1}; half of it is {0.05}.",
+    "L is within {0.05} of {fmt(x)}.",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

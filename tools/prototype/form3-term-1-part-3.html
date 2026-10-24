@@ -434,7 +434,9 @@ function fmt(n) {
   const grouped = int.length > 4 ? int.replace(/\B(?=(\d{3})+(?!\d))/g, NBSP) : int;
   return (neg ? "−" : "") + grouped + (frac ? "." + frac : "");
 }
-const sup = (n) => String(n).replace(/[0-9]/g, (d) => SUP[d]);
+// signs, brackets and the letters used in indices are raised too (2026-10-24: 10⁻³ had an ordinary hyphen); spaces go
+const SUP_OTHER = { "-": "⁻", "−": "⁻", "+": "⁺", "(": "⁽", ")": "⁾", x: "ˣ", y: "ʸ", n: "ⁿ", m: "ᵐ", " ": "" };
+const sup = (n) => String(n).replace(/[0-9]/g, (d) => SUP[d]).replace(/[-−+()xynm ]/g, (c) => SUP_OTHER[c]);
 const sub = (n) => String(n).replace(/[0-9]/g, (d) => SUB[d]);
 const str = (x) => String(x);
 const num = (s) => Number(s);
@@ -1432,8 +1434,96 @@ function surd(n, c = 1) {
 const lin2 = (a, b, c, d, v = "x") => `(${poly([a, v], [b, ""])})(${poly([c, v], [d, ""])})`;
 /** ax² + bx + c, zero terms left out: quad(1, -5, 6) → "x² − 5x + 6". */
 const quad = (a, b, c, v = "x") => poly([a, `${v}²`], [b, v], [c, ""]);
+/** ax³ + bx² + cx + d, zero terms left out: cubic(1, 0, -7, 6) → "x³ − 7x + 6". */
+const cubic = (a, b, c, d, v = "x") => poly([a, `${v}³`], [b, `${v}²`], [c, v], [d, ""]);
+/** The value of ax³ + bx² + cx + d at x (also the remainder on dividing by x − x0). */
+const cval = (a, b, c, d, x) => ((a * x + b) * x + c) * x + d;
 
-return { br, pw, powExpand, signWord, powNoSign, isPrime, primeFactors, factorProduct, factorise, ladder, numFactors, factorsOf, multiplesOf, hcf, lcm, hcf3, lcm3, isSquare, isCube, seqTerms, geoTerms, squaresList, cubesList, triangleOk, pt, mono, poly, bracket, ineq, holds, flipOp, strictOp, looseOp, opWords, solutionsIn, coordPlane, numberLine, ineqLine, bisectorFig, segmentFig, angleAt, anglePair, pairEqual, angleLetter, parallelFig, crossFig, triangleFig, rightTriFig, TRIPLES, triple, nTriples, isRightTriangle, frac, fracRaw, mixed, fAddN, fAddD, fAdd, fSub, fMul, fDiv, lcmOf, fAddWrong, fDivWrong, roundTo, sigFig, sigFigStr, countSig, dec, isPerfectSquare, root, sqrtInt, interval, intervalIneq, inInterval, intsIn, pctOf, pctChange, simpleInterest, compound, polyName, angleSum, interiorRegular, exteriorRegular, regularFig, trapeziumFig, parallelogramFig, reflectX, halfTurn, symLines, symShapes, hasPointSym, circlesPos, CIRCLE_POSITIONS, otherPositions, tA, tB, tC, sqrtFloor, smallestSet, sqrt, pairPhrase, isLowest, aOrAn, prismFaces, prismEdges, prismVertices, pyramidFaces, pyramidEdges, pyramidVertices, baseName, lateralArea, prismTotalArea, prismVolume, sqPyramidArea, sphereArea, sphereVolume, sorted, listStr, meanOf, medianOf, modeOf, rangeOf, freqMean, freqTotal, freqSumXF, freqMode, freqModeUnique, pieAngle, countEach, prismFig, pyramidFig, sphereFig, barChartFig, pieFig, sinD, cosD, tanD, asinD, acosD, atanD, log10, logb, det2, matAdd, matSub, matScale, matMul, matT, adj2, matStr, matFig, trigFig, thalesFig, surdOut, surdIn, surd, lin2, quad };
+// ---------------------------------------------------------------- graphs of lines, regions and parabolas (Form 4, 2026-10-24)
+/** Keeps the part of polygon pts (world coordinates) where A·x + B·y > C (one Sutherland–Hodgman pass). */
+function clipHalf(pts, A, B, C) {
+  const inside = (p) => A * p[0] + B * p[1] > C, out = [];
+  for (let i = 0; i < pts.length; i++) {
+    const P = pts[i], Q = pts[(i + 1) % pts.length], ip = inside(P), iq = inside(Q);
+    if (ip) out.push(P);
+    if (ip !== iq) {
+      const t = (C - A * P[0] - B * P[1]) / (A * (Q[0] - P[0]) + B * (Q[1] - P[1]));
+      out.push([P[0] + t * (Q[0] - P[0]), P[1] + t * (Q[1] - P[1])]);
+    }
+  }
+  return out;
+}
+/**
+ * A graph on squared paper. xr, yr: [lo, hi] whole numbers (at most 14 units each way).
+ * lines: [A, B, C, dashed, label] for the line A·x + B·y = C (dashed when the line itself is not included).
+ * shade: [A, B, C] shades the region A·x + B·y > C: the UNWANTED region, as in GCE answers.
+ * curves: [a, b, c, label] for y = ax² + bx + c. points: [name, x, y] (a dot), or [name, x, y, false] (the name only).
+ */
+function graphFig(xr, yr, lines = [], shade = [], curves = [], points = []) {
+  const [x0, x1] = xr, [y0, y1] = yr;
+  if (x1 - x0 > 18 || y1 - y0 > 18 || x0 >= x1 || y0 >= y1) throw new RangeError("graphFig: bad ranges");
+  const S = Math.min(300 / (x1 - x0), 300 / (y1 - y0)), m = 22;
+  const X = (x) => m + (x - x0) * S, Y = (y) => m + (y1 - y) * S;
+  const W = 2 * m + (x1 - x0) * S, H = 2 * m + (y1 - y0) * S;
+  const rect = [[x0, y0], [x1, y0], [x1, y1], [x0, y1]];
+  let body = "";
+  for (const [A, B, C] of shade) {
+    const poly = clipHalf(rect, A, B, C);
+    if (poly.length > 2) body += `<polygon points="${poly.map((p) => `${r1(X(p[0]))},${r1(Y(p[1]))}`).join(" ")}" fill="currentColor" fill-opacity="0.18" stroke="none"/>`;
+  }
+  const step = Math.max(x1 - x0, y1 - y0) > 12 ? 2 : 1;
+  for (let i = x0; i <= x1; i++) {
+    body += line(X(i), Y(y0), X(i), Y(y1), ` stroke-opacity="0.2"`);
+    if (i !== 0 && i % step === 0) body += text(X(i), Y(Math.min(Math.max(0, y0), y1)) + 13, fmt(i), ` font-size="9"`);
+  }
+  for (let j = y0; j <= y1; j++) {
+    body += line(X(x0), Y(j), X(x1), Y(j), ` stroke-opacity="0.2"`);
+    if (j !== 0 && j % step === 0) body += text(X(Math.min(Math.max(0, x0), x1)) - 4, Y(j) + 3, fmt(j), ` font-size="9" text-anchor="end"`);
+  }
+  const ax = Math.min(Math.max(0, x0), x1), ay = Math.min(Math.max(0, y0), y1);
+  body += line(X(x0) - 6, Y(ay), X(x1) + 6, Y(ay), ` stroke-width="1.5"`) + line(X(ax), Y(y0) + 6, X(ax), Y(y1) - 6, ` stroke-width="1.5"`);
+  body += text(X(x1) + 12, Y(ay) + 4, "x", ` font-style="italic"`) + text(X(ax), Y(y1) - 10, "y", ` font-style="italic"`);
+  for (const [A, B, C, dashed, label] of lines) {
+    // the part of the line inside the box: where it crosses the four edges
+    const hits = [];
+    if (B !== 0) for (const x of [x0, x1]) { const y = (C - A * x) / B; if (y >= y0 - 1e-9 && y <= y1 + 1e-9) hits.push([x, y]); }
+    if (A !== 0) for (const y of [y0, y1]) { const x = (C - B * y) / A; if (x >= x0 - 1e-9 && x <= x1 + 1e-9) hits.push([x, y]); }
+    if (hits.length < 2) continue;
+    hits.sort((p, q) => p[0] - q[0] || p[1] - q[1]);
+    const [P, Q] = [hits[0], hits[hits.length - 1]];
+    body += line(X(P[0]), Y(P[1]), X(Q[0]), Y(Q[1]), ` stroke-width="2"${dashed ? ` stroke-dasharray="6 4"` : ""}`);
+    if (label) body += text(X(Q[0]) - 4, Y(Q[1]) + (Q[1] >= y1 - 1e-9 ? 14 : -6), label, ` text-anchor="end" font-size="11" font-weight="bold"`);
+  }
+  for (const [a, b, c, label] of curves) {
+    let d = "", pen = false, last = null;
+    for (let k = 0; k <= 400; k++) {
+      const x = x0 + ((x1 - x0) * k) / 400, y = a * x * x + b * x + c;
+      if (y < y0 || y > y1) { pen = false; continue; }
+      d += `${pen ? "L" : "M"}${r1(X(x))} ${r1(Y(y))} `; pen = true; last = [x, y];
+    }
+    body += `<path d="${d.trim()}" stroke-width="2"/>`;
+    if (label && last) body += text(X(x0) + 4, Y(y1) + 14, label, ` text-anchor="start" font-size="11" font-weight="bold"`);  // top-left, clear of the axes labels
+  }
+  // [name, x, y] marks a point; [name, x, y, false] only writes the name there (a region label such as R)
+  for (const [name, x, y, mark = true] of points) body += mark ? dot(X(x), Y(y), 3.5) + text(X(x) + 7, Y(y) - 6, name, ` text-anchor="start" font-weight="bold" font-size="12"`)
+    : text(X(x), Y(y) + 5, name, ` font-weight="bold" font-size="14"`);
+  return svg(r1(W + 10), r1(H), "A graph on squared paper", body);
+}
+/** Whole-number points (x, y) in the box xr × yr that satisfy every constraint [A, B, C, op]: A·x + B·y op C. */
+function lattice(cons, xr, yr) {
+  const out = [];
+  for (let x = xr[0]; x <= xr[1]; x++) for (let y = yr[0]; y <= yr[1]; y++)
+    if (cons.every(([A, B, C, op]) => holds(A * x + B * y, op, C))) out.push([x, y]);
+  return out;
+}
+const latticeCount = (cons, xr, yr) => lattice(cons, xr, yr).length;
+/** The greatest value of a·x + b·y over those points (null if there are none). */
+function latticeMax(cons, xr, yr, a, b) {
+  const pts = lattice(cons, xr, yr);
+  return pts.length ? Math.max(...pts.map(([x, y]) => a * x + b * y)) : null;
+}
+
+return { br, pw, powExpand, signWord, powNoSign, isPrime, primeFactors, factorProduct, factorise, ladder, numFactors, factorsOf, multiplesOf, hcf, lcm, hcf3, lcm3, isSquare, isCube, seqTerms, geoTerms, squaresList, cubesList, triangleOk, pt, mono, poly, bracket, ineq, holds, flipOp, strictOp, looseOp, opWords, solutionsIn, coordPlane, numberLine, ineqLine, bisectorFig, segmentFig, angleAt, anglePair, pairEqual, angleLetter, parallelFig, crossFig, triangleFig, rightTriFig, TRIPLES, triple, nTriples, isRightTriangle, frac, fracRaw, mixed, fAddN, fAddD, fAdd, fSub, fMul, fDiv, lcmOf, fAddWrong, fDivWrong, roundTo, sigFig, sigFigStr, countSig, dec, isPerfectSquare, root, sqrtInt, interval, intervalIneq, inInterval, intsIn, pctOf, pctChange, simpleInterest, compound, polyName, angleSum, interiorRegular, exteriorRegular, regularFig, trapeziumFig, parallelogramFig, reflectX, halfTurn, symLines, symShapes, hasPointSym, circlesPos, CIRCLE_POSITIONS, otherPositions, tA, tB, tC, sqrtFloor, smallestSet, sqrt, pairPhrase, isLowest, aOrAn, prismFaces, prismEdges, prismVertices, pyramidFaces, pyramidEdges, pyramidVertices, baseName, lateralArea, prismTotalArea, prismVolume, sqPyramidArea, sphereArea, sphereVolume, sorted, listStr, meanOf, medianOf, modeOf, rangeOf, freqMean, freqTotal, freqSumXF, freqMode, freqModeUnique, pieAngle, countEach, prismFig, pyramidFig, sphereFig, barChartFig, pieFig, sinD, cosD, tanD, asinD, acosD, atanD, log10, logb, det2, matAdd, matSub, matScale, matMul, matT, adj2, matStr, matFig, trigFig, thalesFig, surdOut, surdIn, surd, lin2, quad, cubic, cval, graphFig, lattice, latticeCount, latticeMax };
 })();
 __mods["lib/english.js"] = (() => {
 // English word forms for templates. Rules plus authored exception tables; the tables are facts a teacher
@@ -2546,7 +2636,7 @@ const CLASSES = {"form-1":"Form One","form-2":"Form Two","form-3":"Form Three","
 const CLASS_OF = {"f3-history":"form-3","f3-economics":"form-3","f3-accounting":"form-3"};
 const PAPER = {"f3-history":[],"f3-economics":[],"f3-accounting":[]};
 const MODE = "single";
-const BUILD = "2026-10-23";
+const BUILD = "2026-10-24";
 const VERSIONS = {};
 const SHARE = {};
 const TERM = 1;

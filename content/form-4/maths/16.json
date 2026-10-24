@@ -1,0 +1,449 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 16,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "m4-16",
+   "name": "Use interval notation and solve linear inequalities in one unknown"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Interval notation writes a set of numbers by its ends.\n• Square bracket: the end is included (≤ or ≥). Round bracket: the end is left out (< or >).\n• −2 ≤ x < 5 is [−2, 5). x > 3 is (3, +∞). x ≤ 1 is (−∞, 1]. The symbol ∞ always has a round bracket.\nOn a number line, a filled circle means included and an open circle means left out.\nSolve a linear inequality like an equation, with one extra rule: multiplying or dividing both sides by a negative number turns the sign round.\nExample: −3x + 4 ≥ 10 → −3x ≥ 6 → x ≤ −2, that is (−∞, −2].",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to write sets of numbers in interval notation and solve linear inequalities, turning the sign when you multiply or divide by a negative number.\nBuilds on: Form Three inequalities and the number line.\nLeads to: absolute values (Lessons {17} and {18}), quadratic inequalities (Lesson {19}) and regions on graphs."
+   },
+   {
+    "heading": "Interval notation",
+    "text": "A set of numbers between two ends can be written with brackets.\n• [a, b]: a ≤ x ≤ b, both ends included.\n• (a, b): a < x < b, both ends left out.\n• [a, b): a ≤ x < b.\n• (a, +∞): x > a. (−∞, b]: x ≤ b. The symbol ∞ is never reached, so it always takes a round bracket.\nExample: the ages of pupils in a class, at least {13} and under {16}, form {interval(13, 16, true, false)}.\nOn a number line: a filled circle for an included end, an open circle for one left out."
+   },
+   {
+    "heading": "Solving and the negative rule",
+    "text": "Treat an inequality like an equation: add, subtract, multiply or divide both sides by the same number.\n• {poly([3, 'x'], [-5, ''])} < x + {7} → {mono(2, 'x')} < {12} → x < {6}.\nOne extra rule: multiplying or dividing by a negative number turns the sign round. Check with numbers: {2} < {5}, but {-2} > {-5}.\n• {poly([-3, 'x'], [4, ''])} ≥ {10} → {mono(-3, 'x')} ≥ {6} → x ≤ {-2}, that is {interval('-inf', -2, false, true)}."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "interval",
+    "meaning": "all the numbers between two ends, such as {interval(-1, 4, true, false)}"
+   },
+   {
+    "word": "inequality",
+    "meaning": "a statement with <, >, ≤ or ≥"
+   },
+   {
+    "word": "infinity (∞)",
+    "meaning": "without end; it is never included"
+   }
+  ],
+  "examples": [
+   "x ≥ {-3} is {interval(-3, 'inf', true, false)}",
+   "{1} < x ≤ {6} is {interval(1, 6, false, true)}",
+   "{mono(-2, 'x')} < {8} → x > {-4}"
+  ],
+  "mistake": {
+   "wrong": "{mono(-2, 'x')} < {8} → x < {-4}",
+   "right": "{mono(-2, 'x')} < {8} → x > {-4}",
+   "why": "Dividing by {-2} turns the sign round. Check: x = {0} makes {mono(-2, 'x')} = {0} < {8}, and {0} > {-4}."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 3,
+   "b": -5,
+   "c": 1,
+   "d": 7
+  },
+  "problem": "Solve {poly([a, 'x'], [b, ''])} < {poly([c, 'x'], [d, ''])} and write the answer in interval notation.",
+  "steps": [
+   "Subtract {mono(c, 'x')} from both sides: {poly([a - c, 'x'], [b, ''])} < {d}.",
+   "Add {-b} to both sides: {mono(a - c, 'x')} < {d - b}.",
+   "Divide by {a - c}, a positive number, so the sign stays: x < {(d - b) / (a - c)}."
+  ],
+  "answer": "x < {(d - b) / (a - c)}, that is {interval('-inf', (d - b) / (a - c), false, false)}",
+  "checks": [
+   "(d - b) % (a - c) == 0",
+   "a - c > 0"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m16-1",
+    "status": "draft",
+    "idea": "Square brackets include the end; round brackets leave it out. ∞ always takes a round bracket.",
+    "vars": {},
+    "example": [
+     "{-2} ≤ x < {5} is {interval(-2, 5, true, false)}",
+     "x > {3} is {interval(3, 'inf', false, false)}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-16-interval"
+    }
+   },
+   {
+    "id": "c4m16-2",
+    "status": "draft",
+    "idea": "Solve an inequality like an equation: do the same to both sides.",
+    "vars": {},
+    "example": [
+     "{poly([2, 'x'], [3, ''])} < {11} → {mono(2, 'x')} < {8} → x < {4}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-16-solve"
+    }
+   },
+   {
+    "id": "c4m16-3",
+    "status": "draft",
+    "idea": "Multiplying or dividing by a negative number turns the inequality sign round.",
+    "vars": {},
+    "example": [
+     "{poly([-3, 'x'], [4, ''])} ≥ {10} → {mono(-3, 'x')} ≥ {6} → x ≤ {-2}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-16-neg-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "inequalities"
+     ],
+     "vars": {
+      "a": {
+       "int": [
+        2,
+        6
+       ]
+      },
+      "b": {
+       "int": [
+        -9,
+        9
+       ]
+      },
+      "k": {
+       "int": [
+        -6,
+        6
+       ]
+      }
+     },
+     "prompt": "Solve {poly([-a, 'x'], [b, ''])} ≥ {b + a * k}.",
+     "correct": "{interval('-inf', -k, false, true)}",
+     "distractors": [
+      {
+       "text": "{interval(-k, 'inf', true, false)}",
+       "misconception": "noflip"
+      },
+      {
+       "text": "{interval('-inf', -k, false, false)}",
+       "misconception": "strict"
+      },
+      {
+       "text": "{interval('-inf', k, false, true)}",
+       "misconception": "sign"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "noflip",
+       "explain": "Dividing by the negative number {-a} turns ≥ into ≤."
+      },
+      {
+       "id": "strict",
+       "explain": "The sign ≥ includes the end, so it stays included: x ≤ {-k} uses a square bracket."
+      },
+      {
+       "id": "sign",
+       "explain": "{a * k} ÷ {br(-a)} = {-k}, not {k}."
+      }
+     ],
+     "solution": [
+      "Subtract {b}: {mono(-a, 'x')} ≥ {a * k}.",
+      "Divide by {-a}, a negative number, so the sign turns round: x ≤ {-k}.",
+      "So the answer is {answer}."
+     ],
+     "where": [
+      "k != 0",
+      "b != 0"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-16-interval",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      -9,
+      4
+     ]
+    },
+    "w": {
+     "int": [
+      2,
+      9
+     ]
+    },
+    "b": {
+     "expr": "a + w"
+    },
+    "ca": {
+     "pick": [
+      true,
+      false
+     ]
+    },
+    "cb": {
+     "pick": [
+      true,
+      false
+     ]
+    }
+   },
+   "prompt": "Write {intervalIneq(a, b, ca, cb)} in interval notation.",
+   "correct": "{interval(a, b, ca, cb)}",
+   "distractors": [
+    {
+     "text": "{interval(a, b, !ca, !cb)}",
+     "misconception": "swap"
+    },
+    {
+     "text": "{interval(a, b, true, true)}",
+     "misconception": "closed"
+    },
+    {
+     "text": "{interval(a, b, false, false)}",
+     "misconception": "open"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "A square bracket means 'included' (≤); a round bracket means 'left out' (<)."
+    },
+    {
+     "id": "closed",
+     "explain": "Only an end with ≤ gets a square bracket."
+    },
+    {
+     "id": "open",
+     "explain": "An end with ≤ is included, so it gets a square bracket."
+    }
+   ],
+   "solution": [
+    "{ca ? '≤ means the end ' + fmt(a) + ' is included: [' : '< means the end ' + fmt(a) + ' is left out: ('}.",
+    "{cb ? '≤ means ' + fmt(b) + ' is included: ]' : '< means ' + fmt(b) + ' is left out: )'}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "ca != cb"
+   ]
+  },
+  {
+   "id": "m4-16-solve",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      3,
+      7
+     ]
+    },
+    "c": {
+     "int": [
+      1,
+      2
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "k": {
+     "int": [
+      -4,
+      8
+     ]
+    },
+    "d": {
+     "expr": "b + k * (a - c)"
+    }
+   },
+   "prompt": "Solve {poly([a, 'x'], [b, ''])} < {poly([c, 'x'], [d, ''])}. What is the largest whole number x can be?",
+   "answer": "(d - b) / (a - c) - 1",
+   "misconceptions": [
+    {
+     "id": "equal",
+     "wrong": "(d - b) / (a - c)",
+     "explain": "x < {(d - b) / (a - c)} leaves out {(d - b) / (a - c)} itself: the sign is <, not ≤."
+    },
+    {
+     "id": "nodiv",
+     "wrong": "d - b - 1",
+     "explain": "Divide by {a - c} as well: {mono(a - c, 'x')} < {d - b} gives x < {(d - b) / (a - c)}."
+    }
+   ],
+   "solution": [
+    "Collect x on the left: {mono(a - c, 'x')} < {d - b}.",
+    "Divide by {a - c}: x < {(d - b) / (a - c)}.",
+    "x must be less than {(d - b) / (a - c)}, so the largest whole number is {answer}."
+   ],
+   "where": [
+    "a - c != 1",
+    "b != 0"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-16-neg",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "k": {
+     "int": [
+      -6,
+      6
+     ]
+    }
+   },
+   "prompt": "Solve {poly([-a, 'x'], [b, ''])} ≥ {b + a * k}.",
+   "correct": "{interval('-inf', -k, false, true)}",
+   "distractors": [
+    {
+     "text": "{interval(-k, 'inf', true, false)}",
+     "misconception": "noflip"
+    },
+    {
+     "text": "{interval('-inf', -k, false, false)}",
+     "misconception": "strict"
+    },
+    {
+     "text": "{interval('-inf', k, false, true)}",
+     "misconception": "sign"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "noflip",
+     "explain": "Dividing by the negative number {-a} turns ≥ into ≤."
+    },
+    {
+     "id": "strict",
+     "explain": "The sign ≥ includes the end, so it stays included: x ≤ {-k} uses a square bracket."
+    },
+    {
+     "id": "sign",
+     "explain": "{a * k} ÷ {br(-a)} = {-k}, not {k}."
+    }
+   ],
+   "solution": [
+    "Subtract {b}: {mono(-a, 'x')} ≥ {a * k}.",
+    "Divide by {-a}, a negative number, so the sign turns round: x ≤ {-k}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "k != 0",
+    "b != 0"
+   ]
+  },
+  {
+   "id": "m4-16-double",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "inequalities"
+   ],
+   "vars": {
+    "q": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "lo": {
+     "int": [
+      -9,
+      3
+     ]
+    },
+    "w": {
+     "int": [
+      6,
+      12
+     ]
+    },
+    "hi": {
+     "expr": "lo + w"
+    }
+   },
+   "prompt": "How many whole numbers x satisfy {lo} < {poly([2, 'x'], [q, ''])} ≤ {hi}?",
+   "answer": "floor((hi - q) / 2) - floor((lo - q) / 2)",
+   "misconceptions": [
+    {
+     "id": "both",
+     "wrong": "floor((hi - q) / 2) - floor((lo - q) / 2) + (abs(lo - q) % 2 == 0 ? 1 : 0)",
+     "explain": "The left sign is <, so {(lo - q) / 2} itself is left out.",
+     "when": "abs(lo - q) % 2 == 0"
+    },
+    {
+     "id": "nohalf",
+     "wrong": "hi - lo",
+     "explain": "Divide every part by {2} before counting."
+    }
+   ],
+   "solution": [
+    "Subtract {q} from all three parts: {lo - q} < {mono(2, 'x')} ≤ {hi - q}.",
+    "Divide by {2}: {(lo - q) / 2} < x ≤ {(hi - q) / 2}.",
+    "The whole numbers are {listStr(intsIn((lo - q) / 2, (hi - q) / 2, false, true))}: there are {answer}."
+   ]
+  }
+ ]
+}

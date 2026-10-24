@@ -1,0 +1,500 @@
+{
+ "subject": "mathematics",
+ "class": "Form 4",
+ "lesson_no": 12,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "m4-12",
+   "name": "Divide a polynomial by x − k using long division"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Long division of polynomials works like long division of numbers.\n1. Divide the first term of what is left by x: that gives the next term of the quotient.\n2. Multiply the whole divisor by that term and write it underneath.\n3. Subtract, and bring down the next term.\nRepeat until the degree of what is left is less than the divisor's. What is left is the remainder.\nExample: (x² + 5x + 7) ÷ (x + 2) = x + 3, remainder 1, because (x + 2)(x + 3) + 1 = x² + 5x + 7.\nWrite missing powers with 0: x³ − 8 is x³ + 0x² + 0x − 8.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to divide a polynomial by x − k or x + k by long division and state the quotient and the remainder.\nBuilds on: Form One long division of numbers and Lesson {2} (expanding brackets).\nLeads to: Lesson {13} (the remainder and factor theorems) and factorising cubics."
+   },
+   {
+    "heading": "The same steps as with numbers",
+    "text": "Divide {quad(1, 5, 7)} by x + {2}.\n• Divide the first term by x: x² ÷ x = x. Write x in the quotient.\n• Multiply the divisor by it: x(x + {2}) = {quad(1, 2, 0)}. Write it underneath.\n• Subtract: ({quad(1, 5, 7)}) − ({quad(1, 2, 0)}) = {mono(3, 'x')} + {7}.\n• Again: {mono(3, 'x')} ÷ x = {3}; {3}(x + {2}) = {mono(3, 'x')} + {6}; subtract: {1}.\nSo the quotient is x + {3} and the remainder is {1}. Check: (x + {2})(x + {3}) + {1} = {quad(1, 5, 7)}."
+   },
+   {
+    "heading": "Zero terms and checking",
+    "text": "If a power is missing, write it with {0} so that like terms stay in the same column: {poly([1, 'x³'], [-8, ''])} becomes x³ + {0}x² + {0}x − {8}.\nDividing it by x − {2} gives {quad(1, 2, 4)} with remainder {0}, which matches the difference of cubes from Lesson {4}.\nAlways check: divisor × quotient + remainder must give back the original polynomial."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "polynomial",
+    "meaning": "a sum of terms in powers of x, such as {cubic(1, -2, 0, 5)}"
+   },
+   {
+    "word": "quotient",
+    "meaning": "the result of the division"
+   },
+   {
+    "word": "remainder",
+    "meaning": "what is left at the end; zero if the divisor goes exactly"
+   },
+   {
+    "word": "degree",
+    "meaning": "the highest power of x"
+   }
+  ],
+  "examples": [
+   "({quad(1, 7, 10)}) ÷ (x + {2}) = x + {5}",
+   "({quad(1, 1, -4)}) ÷ (x − {2}) = x + {3}, remainder {2}"
+  ],
+  "mistake": {
+   "wrong": "x² × (x − {2}) = x³ − {2}",
+   "right": "x² × (x − {2}) = x³ − {mono(2, 'x²')}",
+   "why": "Multiply the whole divisor by the new term: x² × x and x² × {br(-2)}. Each term gets a power of x."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "k": 2,
+   "p": 1,
+   "q": -3,
+   "r": 5
+  },
+  "problem": "Divide {cubic(1, p - k, q - p * k, r - q * k)} by ({poly([1, 'x'], [-k, ''])}).",
+  "steps": [
+   "x³ ÷ x = x². Multiply: x²({poly([1, 'x'], [-k, ''])}) = {poly([1, 'x³'], [-k, 'x²'])}. Subtract: {poly([p, 'x²'], [q - p * k, 'x'])} is left.",
+   "{mono(p, 'x²')} ÷ x = {mono(p, 'x')}. Multiply: {mono(p, 'x')}({poly([1, 'x'], [-k, ''])}) = {poly([p, 'x²'], [-p * k, 'x'])}. Subtract: {poly([q, 'x'], [r - q * k, ''])} is left.",
+   "{mono(q, 'x')} ÷ x = {q}. Multiply: {q}({poly([1, 'x'], [-k, ''])}) = {poly([q, 'x'], [-q * k, ''])}. Subtract: {r} is left.",
+   "The quotient is {quad(1, p, q)} and the remainder is {r}."
+  ],
+  "answer": "{quad(1, p, q)}, remainder {r}",
+  "checks": [
+   "r == 5"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4m12-1",
+    "status": "draft",
+    "idea": "Each step: divide the first term by x, multiply the whole divisor by the result, subtract.",
+    "vars": {},
+    "example": [
+     "{quad(1, 5, 6)} ÷ (x + {2}): x² ÷ x = x; x(x + {2}) = {quad(1, 2, 0)}; subtract: {mono(3, 'x')} + {6}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-12-exact"
+    }
+   },
+   {
+    "id": "c4m12-2",
+    "status": "draft",
+    "idea": "What is left at the end, with a lower power than the divisor, is the remainder.",
+    "vars": {},
+    "example": [
+     "{quad(1, 5, 7)} ÷ (x + {2}) = x + {3}, remainder {1}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "m4-12-rem"
+    }
+   },
+   {
+    "id": "c4m12-3",
+    "status": "draft",
+    "idea": "Fill missing powers with zero terms so that the columns line up.",
+    "vars": {},
+    "example": [
+     "{poly([1, 'x³'], [-8, ''])} = x³ + {0}x² + {0}x − {8}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "m4-12-gap-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "polynomials"
+     ],
+     "vars": {
+      "k": {
+       "int": [
+        2,
+        4
+       ]
+      },
+      "c": {
+       "int": [
+        1,
+        70
+       ]
+      }
+     },
+     "prompt": "Divide {poly([1, 'x³'], [-c, ''])} by ({poly([1, 'x'], [-k, ''])}).",
+     "correct": "{quad(1, k, k * k)}, remainder {k ^ 3 - c}",
+     "distractors": [
+      {
+       "text": "{quad(1, k, k * k)}, remainder {-c}",
+       "misconception": "rem"
+      },
+      {
+       "text": "{quad(1, 0, 0)}, remainder {k * 0 - c}",
+       "misconception": "nogap"
+      },
+      {
+       "text": "{quad(1, -k, k * k)}, remainder {k ^ 3 - c}",
+       "misconception": "sign"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "rem",
+       "explain": "The {0}x² and {0}x terms still get filled: the last subtraction leaves {k ^ 3} − {c} = {k ^ 3 - c}."
+      },
+      {
+       "id": "nogap",
+       "explain": "Without zero terms the columns slip. Write x³ + {0}x² + {0}x − {c} first."
+      },
+      {
+       "id": "sign",
+       "explain": "x² × ({poly([1, 'x'], [-k, ''])}) = x³ − {mono(k, 'x²')}; subtracting it from x³ + {0}x² leaves +{mono(k, 'x²')}."
+      }
+     ],
+     "solution": [
+      "Write {poly([1, 'x³'], [-c, ''])} as x³ + {0}x² + {0}x − {c}.",
+      "x³ ÷ x = x²: subtract x²({poly([1, 'x'], [-k, ''])}) to leave {mono(k, 'x²')}; then {mono(k, 'x')}: leave {mono(k * k, 'x')}; then {k * k}: leave {k ^ 3} − {c}.",
+      "So the answer is {answer}."
+     ],
+     "where": [
+      "c != k ^ 3",
+      "k ^ 3 - c != -c"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "m4-12-exact",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "polynomials"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "m": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Divide {quad(1, m - k, -m * k)} by ({poly([1, 'x'], [-k, ''])}).",
+   "correct": "{poly([1, 'x'], [m, ''])}",
+   "distractors": [
+    {
+     "text": "{poly([1, 'x'], [-m, ''])}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{poly([1, 'x'], [-k, ''])}",
+     "misconception": "divisor"
+    },
+    {
+     "text": "{poly([1, 'x'], [m - k, ''])}",
+     "misconception": "middle"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "sign",
+     "explain": "Check: ({poly([1, 'x'], [-k, ''])})({poly([1, 'x'], [-m, ''])}) has number term {m * k}, not {-m * k}."
+    },
+    {
+     "id": "divisor",
+     "explain": "The quotient times the divisor must give the expression; ({poly([1, 'x'], [-k, ''])})² does not."
+    },
+    {
+     "id": "middle",
+     "explain": "Subtract x({poly([1, 'x'], [-k, ''])}) first: what is left starts {mono(m, 'x')}, so the quotient is x + {br(m)}."
+    }
+   ],
+   "solution": [
+    "x² ÷ x = x; x({poly([1, 'x'], [-k, ''])}) = {quad(1, -k, 0)}; subtract: {poly([m, 'x'], [-m * k, ''])} is left.",
+    "{mono(m, 'x')} ÷ x = {m}; {m}({poly([1, 'x'], [-k, ''])}) = {poly([m, 'x'], [-m * k, ''])}; nothing is left.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "k != 0 && m != 0",
+    "m != k && m != -k",
+    "m - k != 0",
+    "m - k != -m"
+   ]
+  },
+  {
+   "id": "m4-12-rem",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "polynomials"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "c": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "k": {
+     "int": [
+      -5,
+      5
+     ]
+    }
+   },
+   "prompt": "Divide {quad(1, b, c)} by ({poly([1, 'x'], [-k, ''])}). What is the remainder?",
+   "answer": "k * k + b * k + c",
+   "misconceptions": [
+    {
+     "id": "c",
+     "wrong": "c",
+     "explain": "{c} is not the remainder: after both subtractions {c} + {br((b + k) * k)} is left."
+    },
+    {
+     "id": "negk",
+     "wrong": "k * k - b * k + c",
+     "explain": "Divide by ({poly([1, 'x'], [-k, ''])}): the remainder is the value at x = {k}, not {-k}."
+    }
+   ],
+   "solution": [
+    "x² ÷ x = x; subtract x({poly([1, 'x'], [-k, ''])}): {poly([b + k, 'x'], [c, ''])} is left.",
+    "{mono(b + k, 'x')} ÷ x = {b + k}; subtract {b + k}({poly([1, 'x'], [-k, ''])}): {c} + {br((b + k) * k)} is left.",
+    "The remainder is {answer}."
+   ],
+   "where": [
+    "k != 0 && b != 0 && c != 0",
+    "k * k + b * k + c != 0",
+    "b * k != 0"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-12-cubic",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "polynomials"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      -4,
+      4
+     ]
+    },
+    "p": {
+     "int": [
+      -6,
+      6
+     ]
+    },
+    "q": {
+     "int": [
+      -9,
+      9
+     ]
+    }
+   },
+   "prompt": "Divide {cubic(1, p - k, q - p * k, -q * k)} by ({poly([1, 'x'], [-k, ''])}).",
+   "correct": "{quad(1, p, q)}",
+   "distractors": [
+    {
+     "text": "{quad(1, -p, q)}",
+     "misconception": "sign"
+    },
+    {
+     "text": "{quad(1, p - k, q)}",
+     "misconception": "first"
+    },
+    {
+     "text": "{quad(1, p, -q * k)}",
+     "misconception": "last"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "sign",
+     "explain": "Multiply back: ({poly([1, 'x'], [-k, ''])})({quad(1, -p, q)}) does not give {mono(p - k, 'x²')}."
+    },
+    {
+     "id": "first",
+     "explain": "Subtract x²({poly([1, 'x'], [-k, ''])}) before dividing again: {mono(p - k, 'x²')} + {mono(k, 'x²')} = {mono(p, 'x²')}."
+    },
+    {
+     "id": "last",
+     "explain": "The last term of the quotient is {mono(q, 'x')} ÷ x = {q}, not the whole number term."
+    }
+   ],
+   "solution": [
+    "x³ ÷ x = x²; subtract x²({poly([1, 'x'], [-k, ''])}): {poly([p, 'x²'], [q - p * k, 'x'])} is left.",
+    "{mono(p, 'x²')} ÷ x = {mono(p, 'x')}; subtract: {poly([q, 'x'], [-q * k, ''])} is left; ÷ x gives {q}, remainder {0}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "k != 0 && p != 0 && q != 0",
+    "p - k != 0",
+    "q - p * k != 0",
+    "p != k",
+    "-q * k != q"
+   ]
+  },
+  {
+   "id": "m4-12-plus",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "polynomials"
+   ],
+   "vars": {
+    "b": {
+     "int": [
+      -5,
+      5
+     ]
+    },
+    "c": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "d": {
+     "int": [
+      -9,
+      9
+     ]
+    },
+    "k": {
+     "int": [
+      1,
+      4
+     ]
+    }
+   },
+   "prompt": "Find the remainder when {cubic(1, b, c, d)} is divided by ({poly([1, 'x'], [k, ''])}).",
+   "answer": "cval(1, b, c, d, -k)",
+   "misconceptions": [
+    {
+     "id": "plusk",
+     "wrong": "cval(1, b, c, d, k)",
+     "explain": "Dividing by (x + {k}) matches x = {-k}, not x = {k}."
+    },
+    {
+     "id": "d",
+     "wrong": "d",
+     "explain": "{d} is the last term, not the remainder: subtract {k} × the last quotient term from it."
+    }
+   ],
+   "solution": [
+    "Long division by ({poly([1, 'x'], [k, ''])}) ends with what is left after the x term.",
+    "Quotient: {quad(1, b - k, c - (b - k) * k)}.",
+    "Remainder: {d} − {br(k)} × {br(c - (b - k) * k)} = {answer}."
+   ],
+   "where": [
+    "b != 0 && c != 0 && d != 0",
+    "cval(1, b, c, d, -k) != 0",
+    "cval(1, b, c, d, k) != cval(1, b, c, d, -k)"
+   ],
+   "signed": true
+  },
+  {
+   "id": "m4-12-gap",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "polynomials"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      4
+     ]
+    },
+    "c": {
+     "int": [
+      1,
+      70
+     ]
+    }
+   },
+   "prompt": "Divide {poly([1, 'x³'], [-c, ''])} by ({poly([1, 'x'], [-k, ''])}).",
+   "correct": "{quad(1, k, k * k)}, remainder {k ^ 3 - c}",
+   "distractors": [
+    {
+     "text": "{quad(1, k, k * k)}, remainder {-c}",
+     "misconception": "rem"
+    },
+    {
+     "text": "{quad(1, 0, 0)}, remainder {k * 0 - c}",
+     "misconception": "nogap"
+    },
+    {
+     "text": "{quad(1, -k, k * k)}, remainder {k ^ 3 - c}",
+     "misconception": "sign"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "rem",
+     "explain": "The {0}x² and {0}x terms still get filled: the last subtraction leaves {k ^ 3} − {c} = {k ^ 3 - c}."
+    },
+    {
+     "id": "nogap",
+     "explain": "Without zero terms the columns slip. Write x³ + {0}x² + {0}x − {c} first."
+    },
+    {
+     "id": "sign",
+     "explain": "x² × ({poly([1, 'x'], [-k, ''])}) = x³ − {mono(k, 'x²')}; subtracting it from x³ + {0}x² leaves +{mono(k, 'x²')}."
+    }
+   ],
+   "solution": [
+    "Write {poly([1, 'x³'], [-c, ''])} as x³ + {0}x² + {0}x − {c}.",
+    "x³ ÷ x = x²: subtract x²({poly([1, 'x'], [-k, ''])}) to leave {mono(k, 'x²')}; then {mono(k, 'x')}: leave {mono(k * k, 'x')}; then {k * k}: leave {k ^ 3} − {c}.",
+    "So the answer is {answer}."
+   ],
+   "where": [
+    "c != k ^ 3",
+    "k ^ 3 - c != -c"
+   ]
+  }
+ ]
+}
