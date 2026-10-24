@@ -1,0 +1,446 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 21,
+ "language": "en",
+ "prerequisites": [
+  20
+ ],
+ "skills": [
+  {
+   "id": "k4-21",
+   "name": "Carry out basic calculations with moles, mass, particles and gas volume"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Three relations link a mole to things that can be measured.\n• moles = mass ÷ molar mass, so mass = moles × molar mass.\n• number of particles = moles × 6.02 × 10²³.\n• volume of a gas at s.t.p. = moles × 22.4 dm³, so moles = volume ÷ 22.4.\nAlways write down what is given, change it to moles, and then change the moles to what is asked for.\nExample: 11 g of carbon dioxide. Molar mass 44 g/mol, so moles = 11 ÷ 44 = 0.25 mol; volume at s.t.p. = 0.25 × 22.4 = 5.6 dm³; molecules = 0.25 × 6.02 × 10²³.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to change between mass, moles, number of particles and gas volume in any direction.\nBuilds on: Lesson {20} (the mole and the Avogadro constant) and Lesson {19} (molar mass and molar volume).\nLeads to: Lessons {22} to {27}, where these steps are used inside larger calculations."
+   },
+   {
+    "heading": "The three links",
+    "text": "Everything in this chapter uses three relations, with MOLES always in the middle.\n• mass: moles = mass ÷ molar mass, and mass = moles × molar mass;\n• particles: number = moles × L, where L = {6.02} × {10} to the power {23};\n• gas volume at s.t.p.: volume = moles × {22.4} dm³, and moles = volume ÷ {22.4}.\nA question that gives one of these and asks for another is solved in two steps: change what is given into moles, then change the moles into what is asked for."
+   },
+   {
+    "heading": "Worked examples",
+    "text": "{11} g of carbon dioxide:\n• molar mass {44} g/mol, so moles = {11} ÷ {44} = {0.25} mol;\n• volume at s.t.p. = {0.25} × {22.4} = {5.6} dm³;\n• molecules = {0.25} × {6.02} × {10} to the power {23}.\n{5.6} dm³ of oxygen at s.t.p.:\n• moles = {5.6} ÷ {22.4} = {0.25} mol;\n• mass = {0.25} × {32} = {8} g.\nAlways write the unit with the answer: mol, g or dm³. If the answer looks far too large or small, check whether you multiplied where you should have divided."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "molar mass",
+    "meaning": "the mass of one mole, in g/mol"
+   },
+   {
+    "word": "s.t.p.",
+    "meaning": "standard temperature and pressure: {0} °C and one atmosphere"
+   },
+   {
+    "word": "dm³",
+    "meaning": "a cubic decimetre, the same as a litre"
+   }
+  ],
+  "examples": [
+   "{9} g of {formula('H2O')} = {0.5} mol",
+   "{0.5} mol of gas = {11.2} dm³ at s.t.p.",
+   "{2} mol = {1.204} × {10} to the power {24} particles"
+  ],
+  "mistake": {
+   "wrong": "moles = molar mass ÷ mass",
+   "right": "moles = mass ÷ molar mass",
+   "why": "Check with a simple case: {44} g of {formula('CO2')} must be {1} mol, and {44} ÷ {44} = {1}."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": 11,
+   "F": "CO2"
+  },
+  "problem": "Find the number of moles in {m} g of {formula(F)}, and the volume it would fill at s.t.p.",
+  "steps": [
+   "The molar mass of {formula(F)} is {molarMass(F)} g/mol.",
+   "moles = mass ÷ molar mass = {m} ÷ {molarMass(F)} = {molesOf(m, F)} mol.",
+   "At s.t.p. {1} mol fills {22.4} dm³.",
+   "Volume = {molesOf(m, F)} × {22.4} = {gasVolume(molesOf(m, F))} dm³."
+  ],
+  "answer": "{molesOf(m, F)} mol, filling {gasVolume(molesOf(m, F))} dm³",
+  "checks": [
+   "molesOf(11, 'CO2') == 0.25"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k21-1",
+    "status": "draft",
+    "idea": "moles = mass ÷ molar mass.",
+    "vars": {},
+    "example": [
+     "{44} g of {formula('CO2')} ÷ {44} g/mol = {1} mol"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-21-moles"
+    }
+   },
+   {
+    "id": "c4k21-2",
+    "status": "draft",
+    "idea": "mass = moles × molar mass.",
+    "vars": {},
+    "example": [
+     "{0.5} mol of {formula('H2O')} × {18} g/mol = {9} g"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-21-mass"
+    }
+   },
+   {
+    "id": "c4k21-3",
+    "status": "draft",
+    "idea": "At s.t.p., volume = moles × {22.4} dm³.",
+    "vars": {},
+    "example": [
+     "{0.25} mol of a gas fills {5.6} dm³"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-21-vol-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "moles"
+     ],
+     "vars": {
+      "F": {
+       "pick": [
+        "CO2",
+        "NH3",
+        "SO2",
+        "H2S",
+        "N2",
+        "O2",
+        "H2",
+        "CH4"
+       ]
+      },
+      "k": {
+       "pick": [
+        0.1,
+        0.2,
+        0.25,
+        0.5,
+        1,
+        2
+       ]
+      },
+      "m": {
+       "expr": "roundTo(k * molarMass(F), 0.01)"
+      }
+     },
+     "prompt": "What volume, in dm³ at s.t.p., is filled by {m} g of {formula(F)} gas?",
+     "answer": "roundTo(gasVolume(molesOf(m, F)), 0.01)",
+     "misconceptions": [
+      {
+       "id": "nomole",
+       "wrong": "roundTo(gasVolume(m), 0.01)",
+       "explain": "Change the mass to MOLES first, then multiply by {22.4}."
+      },
+      {
+       "id": "div",
+       "wrong": "roundTo(volumeToMoles(m), 0.001)",
+       "explain": "Multiply the moles by {22.4} dm³/mol."
+      }
+     ],
+     "solution": [
+      "moles = {m} ÷ {molarMass(F)} = {roundTo(molesOf(m, F), 0.001)} mol.",
+      "volume = moles × {22.4} = {answer} dm³."
+     ],
+     "unit": "dm³"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-21-moles",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "F": {
+     "pick": [
+      "H2O",
+      "CO2",
+      "NaCl",
+      "CaCO3",
+      "H2SO4",
+      "NH3",
+      "MgO",
+      "CuO",
+      "NaOH",
+      "KNO3",
+      "ZnO"
+     ]
+    },
+    "k": {
+     "pick": [
+      0.1,
+      0.2,
+      0.25,
+      0.5,
+      1,
+      2,
+      5
+     ]
+    },
+    "m": {
+     "expr": "roundTo(k * molarMass(F), 0.01)"
+    }
+   },
+   "prompt": "How many moles are there in {m} g of {formula(F)}?",
+   "answer": "roundTo(molesOf(m, F), 0.001)",
+   "misconceptions": [
+    {
+     "id": "mult",
+     "wrong": "roundTo(massOf(m, F), 0.01)",
+     "explain": "Divide the mass by the molar mass."
+    },
+    {
+     "id": "swap",
+     "wrong": "roundTo(molarMass(F) / m, 0.001)",
+     "explain": "moles = mass ÷ molar mass, not molar mass ÷ mass."
+    }
+   ],
+   "solution": [
+    "Molar mass of {formula(F)} = {molarMass(F)} g/mol.",
+    "moles = {m} ÷ {molarMass(F)} = {answer} mol."
+   ],
+   "unit": "mol"
+  },
+  {
+   "id": "k4-21-mass",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      0.1,
+      0.2,
+      0.25,
+      0.5,
+      1,
+      2,
+      3
+     ]
+    },
+    "F": {
+     "pick": [
+      "H2O",
+      "CO2",
+      "NaCl",
+      "CaCO3",
+      "H2SO4",
+      "NH3",
+      "MgO",
+      "CuO",
+      "NaOH",
+      "KNO3",
+      "ZnO"
+     ]
+    }
+   },
+   "prompt": "What is the mass, in grams, of {n} mol of {formula(F)}?",
+   "answer": "massOf(n, F)",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "roundTo(molesOf(n, F), 0.0001)",
+     "explain": "mass = moles × molar mass."
+    },
+    {
+     "id": "one",
+     "wrong": "molarMass(F)",
+     "explain": "{molarMass(F)} g is one mole; here there are {n} mol."
+    }
+   ],
+   "solution": [
+    "Molar mass of {formula(F)} = {molarMass(F)} g/mol.",
+    "mass = {n} × {molarMass(F)} = {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "k4-21-vol",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "F": {
+     "pick": [
+      "CO2",
+      "NH3",
+      "SO2",
+      "H2S",
+      "N2",
+      "O2",
+      "H2",
+      "CH4"
+     ]
+    },
+    "k": {
+     "pick": [
+      0.1,
+      0.2,
+      0.25,
+      0.5,
+      1,
+      2
+     ]
+    },
+    "m": {
+     "expr": "roundTo(k * molarMass(F), 0.01)"
+    }
+   },
+   "prompt": "What volume, in dm³ at s.t.p., is filled by {m} g of {formula(F)} gas?",
+   "answer": "roundTo(gasVolume(molesOf(m, F)), 0.01)",
+   "misconceptions": [
+    {
+     "id": "nomole",
+     "wrong": "roundTo(gasVolume(m), 0.01)",
+     "explain": "Change the mass to MOLES first, then multiply by {22.4}."
+    },
+    {
+     "id": "div",
+     "wrong": "roundTo(volumeToMoles(m), 0.001)",
+     "explain": "Multiply the moles by {22.4} dm³/mol."
+    }
+   ],
+   "solution": [
+    "moles = {m} ÷ {molarMass(F)} = {roundTo(molesOf(m, F), 0.001)} mol.",
+    "volume = moles × {22.4} = {answer} dm³."
+   ],
+   "unit": "dm³"
+  },
+  {
+   "id": "k4-21-back",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "F": {
+     "pick": [
+      "CO2",
+      "NH3",
+      "SO2",
+      "N2",
+      "O2",
+      "H2",
+      "CH4"
+     ]
+    },
+    "v": {
+     "pick": [
+      2.24,
+      4.48,
+      5.6,
+      11.2,
+      22.4,
+      44.8
+     ]
+    }
+   },
+   "prompt": "What mass, in grams, of {formula(F)} gas fills {v} dm³ at s.t.p.?",
+   "answer": "roundTo(massOf(volumeToMoles(v), F), 0.01)",
+   "misconceptions": [
+    {
+     "id": "novol",
+     "wrong": "roundTo(massOf(v, F), 0.01)",
+     "explain": "Change the volume to MOLES first: divide by {22.4}."
+    },
+    {
+     "id": "mult",
+     "wrong": "roundTo(massOf(gasVolume(v), F), 0.01)",
+     "explain": "Divide the volume by {22.4}; do not multiply."
+    }
+   ],
+   "solution": [
+    "moles = volume ÷ {22.4} = {v} ÷ {22.4} = {roundTo(volumeToMoles(v), 0.001)} mol.",
+    "mass = moles × {molarMass(F)} = {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "k4-21-count",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "p": {
+     "pick": [
+      0.1,
+      0.25,
+      0.5,
+      1.5,
+      2,
+      3
+     ]
+    },
+    "F": {
+     "pick": [
+      "CO2",
+      "H2O",
+      "NH3",
+      "O2"
+     ]
+    }
+   },
+   "prompt": "How many moles of {formula(F)} hold {p} times the Avogadro number of molecules?",
+   "answer": "p",
+   "misconceptions": [
+    {
+     "id": "avog",
+     "wrong": "roundTo(p * 6.02, 0.01)",
+     "explain": "The Avogadro number IS one mole: no further multiplying is needed."
+    },
+    {
+     "id": "div",
+     "wrong": "roundTo(1 / p, 0.001)",
+     "explain": "{p} times the number of particles is {p} times the number of moles."
+    }
+   ],
+   "solution": [
+    "The Avogadro number of molecules is {1} mol.",
+    "{p} times that number is {p} mol."
+   ],
+   "unit": "mol"
+  }
+ ]
+}

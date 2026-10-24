@@ -1,0 +1,604 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 23,
+ "language": "en",
+ "prerequisites": [
+  21
+ ],
+ "skills": [
+  {
+   "id": "k4-23",
+   "name": "Calculate percentage composition by mass"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The percentage by mass of an element in a compound is:\n(mass of that element in one formula unit ÷ relative formula mass) × 100 per cent.\nSteps: work out the relative formula mass; multiply the relative atomic mass of the element by how many atoms of it there are; divide and multiply by 100.\nExample: water, H2O, Mr = 18. Hydrogen: 2 × 1 = 2, so 2/18 × 100 = 11.1 per cent. Oxygen: 16/18 × 100 = 88.9 per cent. The percentages add up to 100.\nThe same idea tells a farmer which fertiliser carries the most nitrogen per bag, and tells a miner how much metal an ore holds.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to work out the percentage by mass of any element in a compound, and use it to compare fertilisers or ores.\nBuilds on: Lesson {19} (relative formula mass) and Lesson {21} (mole calculations).\nLeads to: Lesson {24}, which runs this calculation backwards to find a formula from percentages."
+   },
+   {
+    "heading": "The calculation",
+    "text": "Percentage by mass of an element = (mass of that element in one formula unit ÷ relative formula mass) × {100}.\nWater, {formula('H2O')}, Mr = {18}:\n• hydrogen: {2} × {1} = {2}, so {2} ÷ {18} × {100} = {11.1} per cent;\n• oxygen: {16} ÷ {18} × {100} = {88.9} per cent.\nThe two add up to {100}, which is a useful check.\nCount EVERY atom of the element. In {formula('H2SO4')} (Mr = {98}) the oxygen is {4} × {16} = {64}, so {64} ÷ {98} × {100} = {65.3} per cent."
+   },
+   {
+    "heading": "Why it matters",
+    "text": "A farmer buying fertiliser wants the most nitrogen for the money, so the percentage of nitrogen matters more than the mass of the bag:\n• ammonium nitrate {formula('NH4NO3')} (Mr {80}): nitrogen {28} ÷ {80} × {100} = {35} per cent;\n• ammonium sulphate {formula('(NH4)2SO4')} (Mr {132}): nitrogen {28} ÷ {132} × {100} = {21.2} per cent;\n• urea {formula('CO(NH2)2')} (Mr {60}): nitrogen {28} ÷ {60} × {100} = {46.7} per cent.\nIn the same way, a miner works out how much metal an ore carries: haematite {formula('Fe2O3')} is {70} per cent iron, so {100} tonnes of pure ore would give {70} tonnes of iron."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "percentage composition",
+    "meaning": "the percentage by mass of each element in a compound"
+   },
+   {
+    "word": "relative formula mass",
+    "meaning": "the sum of the relative atomic masses in the formula"
+   },
+   {
+    "word": "ore",
+    "meaning": "a rock from which a metal can be taken"
+   }
+  ],
+  "examples": [
+   "{formula('H2O')}: {11.1} per cent H",
+   "{formula('CaCO3')}: {40} per cent Ca",
+   "urea: {46.7} per cent N"
+  ],
+  "mistake": {
+   "wrong": "the percentage of oxygen in {formula('H2SO4')} is {16} ÷ {98} × {100}",
+   "right": "it is {4} × {16} ÷ {98} × {100}",
+   "why": "There are {4} oxygen atoms in the formula, so their total mass is {64}."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "F": "CaCO3",
+   "E": "Ca"
+  },
+  "problem": "Find the percentage by mass of {E} in {formula(F)}.",
+  "steps": [
+   "Relative formula mass of {formula(F)} = {molarMass(F)}.",
+   "There {atomCount(F, E) == 1 ? 'is' : 'are'} {atomCount(F, E)} atom of {E}, of mass {atomCount(F, E) * ram(E)}.",
+   "Percentage = {atomCount(F, E) * ram(E)} ÷ {molarMass(F)} × {100}."
+  ],
+  "answer": "{roundTo(percentMass(F, E), 0.1)} per cent",
+  "checks": [
+   "molarMass('CaCO3') == 100"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k23-1",
+    "status": "draft",
+    "idea": "Percentage = (mass of the element ÷ relative formula mass) × {100}.",
+    "vars": {},
+    "example": [
+     "{formula('H2O')}: hydrogen is {2} ÷ {18} × {100} = {11.1} per cent"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-23-pc"
+    }
+   },
+   {
+    "id": "c4k23-2",
+    "status": "draft",
+    "idea": "Count every atom of the element in the formula.",
+    "vars": {},
+    "example": [
+     "{formula('H2SO4')}: oxygen is {4} × {16} = {64} out of {98}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-23-count"
+    }
+   },
+   {
+    "id": "c4k23-3",
+    "status": "draft",
+    "idea": "The percentages of all the elements add up to {100}.",
+    "vars": {},
+    "example": [
+     "{formula('H2O')}: {11.1} + {88.9} = {100}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-23-sum-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "moles"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "The percentages by mass of all the elements in a compound are added. What should the total be?",
+         "r": "{100} per cent",
+         "w": [
+          "It depends on the compound",
+          "More than {100} per cent for a large molecule",
+          "Less than {100} per cent"
+         ],
+         "e": [
+          "The whole is always the sum of its parts, whatever the compound.",
+          "The parts cannot add to more than the whole.",
+          "Nothing is left out: every atom belongs to one of the elements."
+         ],
+         "y": "Every atom belongs to one element, so the masses add up to the whole formula mass."
+        },
+        {
+         "q": "A pupil finds that a compound is {40} per cent carbon and {70} per cent oxygen. What does this show?",
+         "r": "A mistake has been made, because the total is more than {100} per cent",
+         "w": [
+          "The compound holds another element as well",
+          "The compound is a mixture",
+          "Nothing is wrong"
+         ],
+         "e": [
+          "Another element would make the total even larger, not smaller.",
+          "Even a mixture's percentages must add to {100}.",
+          "A total above {100} per cent is impossible."
+         ],
+         "y": "The percentages of the parts can never add to more than the whole."
+        },
+        {
+         "q": "Which fertiliser carries the most nitrogen for each kilogram bought?",
+         "r": "Urea, {formula('CO(NH2)2')}, at about {47} per cent nitrogen",
+         "w": [
+          "Ammonium sulphate, at about {21} per cent",
+          "Ammonium nitrate, at about {35} per cent",
+          "Sodium nitrate, at about {16} per cent"
+         ],
+         "e": [
+          "Ammonium sulphate carries a heavy sulphate group, so its nitrogen percentage is low.",
+          "Ammonium nitrate is good, but urea is better still.",
+          "Sodium nitrate carries a heavy sodium atom for each nitrogen."
+         ],
+         "y": "The smaller the rest of the formula, the larger the share of the mass that is nitrogen."
+        },
+        {
+         "q": "Why does a mining company care about the percentage of metal in an ore?",
+         "r": "It tells them how much metal each tonne of rock will give, and so whether mining is worth the cost",
+         "w": [
+          "It tells them how deep the ore lies",
+          "It tells them the colour of the metal",
+          "It tells them how hard the rock is"
+         ],
+         "e": [
+          "Depth is found by surveying, not from the formula.",
+          "The colour has nothing to do with the percentage by mass.",
+          "Hardness is a physical property of the rock."
+         ],
+         "y": "Haematite, {formula('Fe2O3')}, is {70} per cent iron, so {100} tonnes of pure ore would give {70} tonnes of iron."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-23-pc",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      [
+       "H2O",
+       "O"
+      ],
+      [
+       "CO2",
+       "C"
+      ],
+      [
+       "CaCO3",
+       "Ca"
+      ],
+      [
+       "MgO",
+       "Mg"
+      ],
+      [
+       "NaCl",
+       "Na"
+      ],
+      [
+       "H2SO4",
+       "S"
+      ],
+      [
+       "CuO",
+       "Cu"
+      ],
+      [
+       "Fe2O3",
+       "Fe"
+      ],
+      [
+       "NH3",
+       "N"
+      ],
+      [
+       "ZnO",
+       "Zn"
+      ]
+     ]
+    },
+    "F": {
+     "expr": "P[0]"
+    },
+    "E": {
+     "expr": "P[1]"
+    }
+   },
+   "prompt": "Find the percentage by mass of {E} in {formula(F)}. Give your answer to {1} decimal place.",
+   "answer": "roundTo(percentMass(F, E), 0.1)",
+   "misconceptions": [
+    {
+     "id": "swap",
+     "wrong": "roundTo(molarMass(F) / (atomCount(F, E) * ram(E)) * 100, 0.1)",
+     "explain": "Divide the mass of the ELEMENT by the whole formula mass."
+    },
+    {
+     "id": "noatoms",
+     "wrong": "roundTo(ram(E) / molarMass(F) * 100, 0.1)",
+     "explain": "Count every atom of {E}: there are {atomCount(F, E)}.",
+     "when": "atomCount(F, E) > 1"
+    }
+   ],
+   "solution": [
+    "Relative formula mass of {formula(F)} = {molarMass(F)}.",
+    "{E}: {atomCount(F, E)} × {ram(E)} = {atomCount(F, E) * ram(E)}.",
+    "Percentage = {atomCount(F, E) * ram(E)} ÷ {molarMass(F)} × {100} = {answer} per cent."
+   ],
+   "unit": "%"
+  },
+  {
+   "id": "k4-23-count",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      [
+       "H2SO4",
+       "O"
+      ],
+      [
+       "CaCO3",
+       "O"
+      ],
+      [
+       "Fe2O3",
+       "O"
+      ],
+      [
+       "NH3",
+       "H"
+      ],
+      [
+       "H2O",
+       "H"
+      ],
+      [
+       "CO2",
+       "O"
+      ],
+      [
+       "Al2O3",
+       "O"
+      ]
+     ]
+    },
+    "F": {
+     "expr": "P[0]"
+    },
+    "E": {
+     "expr": "P[1]"
+    }
+   },
+   "prompt": "What is the total mass of {E} in one formula unit of {formula(F)}?",
+   "answer": "atomCount(F, E) * ram(E)",
+   "misconceptions": [
+    {
+     "id": "one",
+     "wrong": "ram(E)",
+     "explain": "There are {atomCount(F, E)} atoms of {E}, not one."
+    },
+    {
+     "id": "whole",
+     "wrong": "molarMass(F)",
+     "explain": "{molarMass(F)} is the mass of the WHOLE formula unit."
+    }
+   ],
+   "solution": [
+    "{formula(F)} holds {atomCount(F, E)} atoms of {E}.",
+    "{atomCount(F, E)} × {ram(E)} = {answer}."
+   ]
+  },
+  {
+   "id": "k4-23-mass",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      [
+       "CaCO3",
+       "Ca"
+      ],
+      [
+       "MgO",
+       "Mg"
+      ],
+      [
+       "CuO",
+       "Cu"
+      ],
+      [
+       "Fe2O3",
+       "Fe"
+      ],
+      [
+       "ZnO",
+       "Zn"
+      ],
+      [
+       "H2O",
+       "O"
+      ]
+     ]
+    },
+    "F": {
+     "expr": "P[0]"
+    },
+    "E": {
+     "expr": "P[1]"
+    },
+    "m": {
+     "pick": [
+      20,
+      25,
+      40,
+      50,
+      100,
+      200
+     ]
+    }
+   },
+   "prompt": "What mass of {E}, in grams, is there in {m} g of {formula(F)}? Give your answer to {1} decimal place.",
+   "answer": "roundTo(m * percentMass(F, E) / 100, 0.1)",
+   "misconceptions": [
+    {
+     "id": "pc",
+     "wrong": "roundTo(percentMass(F, E), 0.1)",
+     "explain": "That is the PERCENTAGE; apply it to the {m} g given."
+    },
+    {
+     "id": "whole",
+     "wrong": "m",
+     "explain": "Only part of the {m} g is {E}."
+    }
+   ],
+   "solution": [
+    "{E} is {roundTo(percentMass(F, E), 0.1)} per cent of {formula(F)} by mass.",
+    "{roundTo(percentMass(F, E), 0.1)} per cent of {m} g = {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "k4-23-sum",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The percentages by mass of all the elements in a compound are added. What should the total be?",
+       "r": "{100} per cent",
+       "w": [
+        "It depends on the compound",
+        "More than {100} per cent for a large molecule",
+        "Less than {100} per cent"
+       ],
+       "e": [
+        "The whole is always the sum of its parts, whatever the compound.",
+        "The parts cannot add to more than the whole.",
+        "Nothing is left out: every atom belongs to one of the elements."
+       ],
+       "y": "Every atom belongs to one element, so the masses add up to the whole formula mass."
+      },
+      {
+       "q": "A pupil finds that a compound is {40} per cent carbon and {70} per cent oxygen. What does this show?",
+       "r": "A mistake has been made, because the total is more than {100} per cent",
+       "w": [
+        "The compound holds another element as well",
+        "The compound is a mixture",
+        "Nothing is wrong"
+       ],
+       "e": [
+        "Another element would make the total even larger, not smaller.",
+        "Even a mixture's percentages must add to {100}.",
+        "A total above {100} per cent is impossible."
+       ],
+       "y": "The percentages of the parts can never add to more than the whole."
+      },
+      {
+       "q": "Which fertiliser carries the most nitrogen for each kilogram bought?",
+       "r": "Urea, {formula('CO(NH2)2')}, at about {47} per cent nitrogen",
+       "w": [
+        "Ammonium sulphate, at about {21} per cent",
+        "Ammonium nitrate, at about {35} per cent",
+        "Sodium nitrate, at about {16} per cent"
+       ],
+       "e": [
+        "Ammonium sulphate carries a heavy sulphate group, so its nitrogen percentage is low.",
+        "Ammonium nitrate is good, but urea is better still.",
+        "Sodium nitrate carries a heavy sodium atom for each nitrogen."
+       ],
+       "y": "The smaller the rest of the formula, the larger the share of the mass that is nitrogen."
+      },
+      {
+       "q": "Why does a mining company care about the percentage of metal in an ore?",
+       "r": "It tells them how much metal each tonne of rock will give, and so whether mining is worth the cost",
+       "w": [
+        "It tells them how deep the ore lies",
+        "It tells them the colour of the metal",
+        "It tells them how hard the rock is"
+       ],
+       "e": [
+        "Depth is found by surveying, not from the formula.",
+        "The colour has nothing to do with the percentage by mass.",
+        "Hardness is a physical property of the rock."
+       ],
+       "y": "Haematite, {formula('Fe2O3')}, is {70} per cent iron, so {100} tonnes of pure ore would give {70} tonnes of iron."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-23-fert",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "F": {
+     "pick": [
+      "NH4NO3",
+      "(NH4)2SO4",
+      "NaNO3",
+      "KNO3",
+      "CO(NH2)2",
+      "NH3"
+     ]
+    }
+   },
+   "prompt": "A farmer compares two fertilisers. What is the percentage by mass of nitrogen in {formula(F)}? Give your answer to {1} decimal place.",
+   "answer": "roundTo(percentMass(F, 'N'), 0.1)",
+   "misconceptions": [
+    {
+     "id": "one",
+     "wrong": "roundTo(ram('N') / molarMass(F) * 100, 0.1)",
+     "explain": "Count every nitrogen atom: there are {atomCount(F, 'N')}.",
+     "when": "atomCount(F, 'N') > 1"
+    },
+    {
+     "id": "swap",
+     "wrong": "roundTo(molarMass(F) / (atomCount(F, 'N') * ram('N')) * 100, 0.1)",
+     "explain": "Divide the nitrogen mass by the whole formula mass."
+    }
+   ],
+   "solution": [
+    "Relative formula mass of {formula(F)} = {molarMass(F)}.",
+    "Nitrogen: {atomCount(F, 'N')} × {ram('N')} = {atomCount(F, 'N') * ram('N')}.",
+    "Percentage = {atomCount(F, 'N') * ram('N')} ÷ {molarMass(F)} × {100} = {answer} per cent."
+   ],
+   "unit": "%"
+  }
+ ]
+}

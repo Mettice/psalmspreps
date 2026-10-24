@@ -1,0 +1,771 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 24,
+ "language": "en",
+ "prerequisites": [
+  23
+ ],
+ "skills": [
+  {
+   "id": "k4-24",
+   "name": "Find empirical and molecular formulae"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The empirical formula is the simplest whole-number ratio of the atoms in a compound. The molecular formula is the actual number of atoms in one molecule.\nTo find an empirical formula from masses or percentages:\n1. Write the mass (or percentage) of each element.\n2. Divide each by its relative atomic mass: this gives the moles.\n3. Divide every answer by the smallest of them.\n4. If the numbers are not whole, multiply them all until they are.\nTo go from the empirical formula to the molecular formula, divide the relative molecular mass by the mass of the empirical formula; the answer is how many times to multiply.\nExample: 85.7 per cent carbon and 14.3 per cent hydrogen gives CH2. If Mr = 42, then 42 ÷ 14 = 3, so the molecular formula is C3H6. Ionic compounds have only an empirical formula.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to find an empirical formula from masses or percentages, and turn it into a molecular formula using the relative molecular mass.\nBuilds on: Lesson {23} (percentage composition) and Lesson {22} (formulae by experiment).\nLeads to: Lesson {25}, where a balanced equation is used to find masses and volumes."
+   },
+   {
+    "heading": "Finding the empirical formula",
+    "text": "The EMPIRICAL formula is the simplest whole-number ratio of the atoms. The MOLECULAR formula is the actual number in one molecule. Glucose is {formula('C6H12O6')}, whose empirical formula is {formula('CH2O')}.\nFrom masses or percentages:\n{1}. Write the mass of each element (a percentage behaves like a mass in {100} g).\n{2}. Divide each by its relative atomic mass: that gives the moles.\n{3}. Divide every answer by the smallest.\n{4}. If the answers are not whole numbers, multiply them all by {2} or {3} until they are.\nExample: {85.7} per cent C and {14.3} per cent H. {85.7} ÷ {12} = {7.14}; {14.3} ÷ {1} = {14.3}. Dividing by {7.14}: {1} and {2}. The empirical formula is {formula('CH2')}."
+   },
+   {
+    "heading": "From empirical to molecular",
+    "text": "The molecular formula is always a whole-number multiple of the empirical formula.\nDivide the relative molecular mass by the mass of the empirical formula:\n• {formula('CH2')} has a mass of {14}. If Mr = {42}, then {42} ÷ {14} = {3}, so the molecular formula is {formula('C3H6')}.\n• If Mr = {56}, then {56} ÷ {14} = {4}, giving {formula('C4H8')}.\nIonic compounds, such as {formula('NaCl')} and {formula('CaCO3')}, have no molecules, so their formulae are always empirical: they show the ratio of ions in the lattice."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "empirical formula",
+    "meaning": "the simplest whole-number ratio of the atoms"
+   },
+   {
+    "word": "molecular formula",
+    "meaning": "the actual number of atoms in one molecule"
+   },
+   {
+    "word": "lattice",
+    "meaning": "the regular arrangement of ions in an ionic solid"
+   },
+   {
+    "word": "simplest ratio",
+    "meaning": "the ratio after dividing by the smallest value"
+   }
+  ],
+  "examples": [
+   "{formula('C6H12O6')} → {formula('CH2O')}",
+   "{formula('CH2')} with Mr {42} → {formula('C3H6')}",
+   "{2.4} g Mg + {1.6} g O → {formula('MgO')}"
+  ],
+  "mistake": {
+   "wrong": "the empirical formula of {formula('C6H12O6')} is {formula('C6H12O6')}",
+   "right": "it is {formula('CH2O')}",
+   "why": "Divide every subscript by their highest common factor, which is {6}."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "pc": 85.7,
+   "ph": 14.3,
+   "M": 42
+  },
+  "problem": "A hydrocarbon is {pc} per cent carbon and {ph} per cent hydrogen, and its relative molecular mass is {M}. Find its molecular formula.",
+  "steps": [
+   "Divide each percentage by the relative atomic mass: C {pc} ÷ {ram('C')}, H {ph} ÷ {ram('H')}.",
+   "That gives about {roundTo(pc / ram('C'), 0.01)} and {roundTo(ph / ram('H'), 0.01)} moles.",
+   "Divide both by the smaller: the ratio is about {1} : {2}, so the empirical formula is {formula('CH2')}.",
+   "The empirical formula mass is {molarMass('CH2')}, and {M} ÷ {molarMass('CH2')} = {formulaTimes('CH2', M)}."
+  ],
+  "answer": "{formula('C3H6')}",
+  "checks": [
+   "formulaTimes('CH2', 42) == 3"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k24-1",
+    "status": "draft",
+    "idea": "Empirical formula: the simplest ratio. Molecular formula: the actual atoms in a molecule.",
+    "vars": {},
+    "example": [
+     "{formula('C6H12O6')} has the empirical formula {formula('CH2O')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-24-define"
+    }
+   },
+   {
+    "id": "c4k24-2",
+    "status": "draft",
+    "idea": "Divide each mass or percentage by its relative atomic mass, then by the smallest answer.",
+    "vars": {},
+    "example": [
+     "{2.4} ÷ {24} = {0.1}; {1.6} ÷ {16} = {0.1}; the ratio is {1} : {1}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-24-emp-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "moles"
+     ],
+     "vars": {
+      "P": {
+       "pick": [
+        [
+         "Mg",
+         "O",
+         2.4,
+         1.6
+        ],
+        [
+         "Cu",
+         "O",
+         6.4,
+         1.6
+        ],
+        [
+         "Fe",
+         "O",
+         11.2,
+         4.8
+        ],
+        [
+         "Ca",
+         "O",
+         4,
+         1.6
+        ],
+        [
+         "Zn",
+         "O",
+         6.5,
+         1.6
+        ],
+        [
+         "Na",
+         "Cl",
+         4.6,
+         7.1
+        ],
+        [
+         "Al",
+         "O",
+         5.4,
+         4.8
+        ]
+       ]
+      },
+      "E1": {
+       "expr": "P[0]"
+      },
+      "E2": {
+       "expr": "P[1]"
+      },
+      "m1": {
+       "expr": "P[2]"
+      },
+      "m2": {
+       "expr": "P[3]"
+      }
+     },
+     "prompt": "A compound holds {m1} g of {E1} and {m2} g of {E2}. What is its empirical formula?",
+     "correct": "{formula(empiricalOf([E1, E2], [m1, m2]))}",
+     "distractors": [
+      {
+       "text": "{formula(E1 + '2' + E2)}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{formula(E1 + E2 + '2')}",
+       "misconception": "w2"
+      },
+      {
+       "text": "{formula(E1 + '2' + E2 + '3')}",
+       "misconception": "w3"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w1",
+       "explain": "Work out the moles: {roundTo(m1 / ram(E1), 0.001)} of {E1} and {roundTo(m2 / ram(E2), 0.001)} of {E2}."
+      },
+      {
+       "id": "w2",
+       "explain": "Divide each mass by its own relative atomic mass before comparing."
+      },
+      {
+       "id": "w3",
+       "explain": "The simplest ratio of the moles gives {formula(empiricalOf([E1, E2], [m1, m2]))}."
+      }
+     ],
+     "solution": [
+      "Moles of {E1} = {m1} ÷ {ram(E1)} = {roundTo(m1 / ram(E1), 0.001)}; moles of {E2} = {m2} ÷ {ram(E2)} = {roundTo(m2 / ram(E2), 0.001)}.",
+      "Divide both by the smaller to get the simplest ratio.",
+      "So the empirical formula is {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c4k24-3",
+    "status": "draft",
+    "idea": "Molecular formula = empirical formula × (Mr ÷ empirical formula mass).",
+    "vars": {},
+    "example": [
+     "{formula('CH2')} with Mr {42}: {42} ÷ {14} = {3}, so {formula('C3H6')}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-24-mol-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "moles"
+     ],
+     "vars": {
+      "P": {
+       "pick": [
+        [
+         "CH2",
+         42
+        ],
+        [
+         "CH2",
+         56
+        ],
+        [
+         "CH2O",
+         180
+        ],
+        [
+         "CH",
+         78
+        ],
+        [
+         "NO2",
+         92
+        ],
+        [
+         "CH2O",
+         60
+        ],
+        [
+         "HO",
+         34
+        ]
+       ]
+      },
+      "F": {
+       "expr": "P[0]"
+      },
+      "M": {
+       "expr": "P[1]"
+      }
+     },
+     "prompt": "A compound has the empirical formula {formula(F)} and a relative molecular mass of {M}. How many times does the empirical formula fit into the molecular formula?",
+     "answer": "formulaTimes(F, M)",
+     "misconceptions": [
+      {
+       "id": "mult",
+       "wrong": "roundTo(M * molarMass(F), 0.01)",
+       "explain": "Divide the relative molecular mass by the empirical formula mass."
+      },
+      {
+       "id": "swap",
+       "wrong": "roundTo(molarMass(F) / M, 0.001)",
+       "explain": "Divide the LARGER mass by the smaller one."
+      }
+     ],
+     "solution": [
+      "The empirical formula mass of {formula(F)} is {molarMass(F)}.",
+      "{M} ÷ {molarMass(F)} = {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-24-define",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is an empirical formula?",
+       "r": "The simplest whole-number ratio of the atoms in a compound",
+       "w": [
+        "The actual number of atoms in one molecule",
+        "The formula of the simplest compound of two elements",
+        "A formula found only by experiment"
+       ],
+       "e": [
+        "That is the MOLECULAR formula.",
+        "'Empirical' describes the ratio, not how simple the compound is.",
+        "It can be worked out from a molecular formula on paper as well."
+       ],
+       "y": "{formula('C6H12O6')} has the empirical formula {formula('CH2O')}: the ratio {1} : {2} : {1}."
+      },
+      {
+       "q": "What is a molecular formula?",
+       "r": "The actual number of atoms of each element in one molecule",
+       "w": [
+        "The simplest ratio of the atoms",
+        "The formula of an ionic compound",
+        "The formula written with state symbols"
+       ],
+       "e": [
+        "That is the EMPIRICAL formula.",
+        "Ionic compounds have formula units, not molecules.",
+        "State symbols are added to an equation; they are not part of the formula."
+       ],
+       "y": "Glucose has the molecular formula {formula('C6H12O6')}, which is {6} times its empirical formula {formula('CH2O')}."
+      },
+      {
+       "q": "A compound has the empirical formula {formula('CH2')} and a relative molecular mass of {42}. What is its molecular formula?",
+       "r": "{formula('C3H6')}",
+       "w": [
+        "{formula('CH2')}",
+        "{formula('C2H4')}",
+        "{formula('C4H8')}"
+       ],
+       "e": [
+        "{formula('CH2')} has a mass of only {14}, not {42}.",
+        "{formula('C2H4')} has a mass of {28}.",
+        "{formula('C4H8')} has a mass of {56}, which is too much."
+       ],
+       "y": "{42} ÷ {14} = {3}, so the molecular formula is {3} times the empirical one."
+      },
+      {
+       "q": "Why do ionic compounds have only an empirical formula?",
+       "r": "They are lattices of ions, with no separate molecules",
+       "w": [
+        "Their molecules are too large to write",
+        "They have no fixed composition",
+        "Their molecular formula is always the same as the empirical one by chance"
+       ],
+       "e": [
+        "Size is not the reason; there are no molecules at all.",
+        "An ionic compound does have a fixed composition.",
+        "There is no molecule for a molecular formula to describe."
+       ],
+       "y": "{formula('NaCl')} shows the ratio of ions in the lattice; there is no {formula('NaCl')} molecule."
+      },
+      {
+       "q": "In finding an empirical formula from percentages, what is the first step?",
+       "r": "Divide each percentage by the relative atomic mass of that element",
+       "w": [
+        "Add the percentages together",
+        "Multiply each percentage by the relative atomic mass",
+        "Divide each percentage by {100}"
+       ],
+       "e": [
+        "The percentages add to {100}, which is a check but not a step.",
+        "Dividing, not multiplying, turns a mass into a number of moles.",
+        "Dividing by {100} changes nothing about the ratio."
+       ],
+       "y": "Percentage by mass behaves like a mass in grams, so dividing by Ar gives the moles."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-24-emp",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      [
+       "Mg",
+       "O",
+       2.4,
+       1.6
+      ],
+      [
+       "Cu",
+       "O",
+       6.4,
+       1.6
+      ],
+      [
+       "Fe",
+       "O",
+       11.2,
+       4.8
+      ],
+      [
+       "Ca",
+       "O",
+       4,
+       1.6
+      ],
+      [
+       "Zn",
+       "O",
+       6.5,
+       1.6
+      ],
+      [
+       "Na",
+       "Cl",
+       4.6,
+       7.1
+      ],
+      [
+       "Al",
+       "O",
+       5.4,
+       4.8
+      ]
+     ]
+    },
+    "E1": {
+     "expr": "P[0]"
+    },
+    "E2": {
+     "expr": "P[1]"
+    },
+    "m1": {
+     "expr": "P[2]"
+    },
+    "m2": {
+     "expr": "P[3]"
+    }
+   },
+   "prompt": "A compound holds {m1} g of {E1} and {m2} g of {E2}. What is its empirical formula?",
+   "correct": "{formula(empiricalOf([E1, E2], [m1, m2]))}",
+   "distractors": [
+    {
+     "text": "{formula(E1 + '2' + E2)}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{formula(E1 + E2 + '2')}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{formula(E1 + '2' + E2 + '3')}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "Work out the moles: {roundTo(m1 / ram(E1), 0.001)} of {E1} and {roundTo(m2 / ram(E2), 0.001)} of {E2}."
+    },
+    {
+     "id": "w2",
+     "explain": "Divide each mass by its own relative atomic mass before comparing."
+    },
+    {
+     "id": "w3",
+     "explain": "The simplest ratio of the moles gives {formula(empiricalOf([E1, E2], [m1, m2]))}."
+    }
+   ],
+   "solution": [
+    "Moles of {E1} = {m1} ÷ {ram(E1)} = {roundTo(m1 / ram(E1), 0.001)}; moles of {E2} = {m2} ÷ {ram(E2)} = {roundTo(m2 / ram(E2), 0.001)}.",
+    "Divide both by the smaller to get the simplest ratio.",
+    "So the empirical formula is {answer}."
+   ]
+  },
+  {
+   "id": "k4-24-mol",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      [
+       "CH2",
+       42
+      ],
+      [
+       "CH2",
+       56
+      ],
+      [
+       "CH2O",
+       180
+      ],
+      [
+       "CH",
+       78
+      ],
+      [
+       "NO2",
+       92
+      ],
+      [
+       "CH2O",
+       60
+      ],
+      [
+       "HO",
+       34
+      ]
+     ]
+    },
+    "F": {
+     "expr": "P[0]"
+    },
+    "M": {
+     "expr": "P[1]"
+    }
+   },
+   "prompt": "A compound has the empirical formula {formula(F)} and a relative molecular mass of {M}. How many times does the empirical formula fit into the molecular formula?",
+   "answer": "formulaTimes(F, M)",
+   "misconceptions": [
+    {
+     "id": "mult",
+     "wrong": "roundTo(M * molarMass(F), 0.01)",
+     "explain": "Divide the relative molecular mass by the empirical formula mass."
+    },
+    {
+     "id": "swap",
+     "wrong": "roundTo(molarMass(F) / M, 0.001)",
+     "explain": "Divide the LARGER mass by the smaller one."
+    }
+   ],
+   "solution": [
+    "The empirical formula mass of {formula(F)} is {molarMass(F)}.",
+    "{M} ÷ {molarMass(F)} = {answer}."
+   ]
+  },
+  {
+   "id": "k4-24-pc",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      [
+       "Mg",
+       "O",
+       60
+      ],
+      [
+       "Ca",
+       "O",
+       40
+      ],
+      [
+       "Na",
+       "Cl",
+       39.3
+      ],
+      [
+       "C",
+       "O",
+       27.3
+      ],
+      [
+       "Fe",
+       "O",
+       70
+      ],
+      [
+       "H",
+       "O",
+       11.1
+      ]
+     ]
+    },
+    "E1": {
+     "expr": "P[0]"
+    },
+    "E2": {
+     "expr": "P[1]"
+    },
+    "p1": {
+     "expr": "P[2]"
+    }
+   },
+   "prompt": "A compound is {p1} per cent {E1} and the rest {E2}. How many moles of {E1} are there in {100} g of it?",
+   "answer": "roundTo(p1 / ram(E1), 0.001)",
+   "misconceptions": [
+    {
+     "id": "mult",
+     "wrong": "roundTo(p1 * ram(E1), 0.01)",
+     "explain": "Divide the mass by the relative atomic mass to get moles."
+    },
+    {
+     "id": "other",
+     "wrong": "roundTo((100 - p1) / ram(E2), 0.001)",
+     "explain": "That is the moles of {E2}; the question asks for {E1}."
+    }
+   ],
+   "solution": [
+    "In {100} g there are {p1} g of {E1}.",
+    "Moles = {p1} ÷ {ram(E1)} = {answer} mol."
+   ],
+   "unit": "mol"
+  },
+  {
+   "id": "k4-24-full",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      [
+       "C",
+       "H",
+       85.7,
+       14.3,
+       42,
+       "CH2",
+       "C3H6"
+      ],
+      [
+       "C",
+       "H",
+       85.7,
+       14.3,
+       56,
+       "CH2",
+       "C4H8"
+      ],
+      [
+       "C",
+       "H",
+       92.3,
+       7.7,
+       78,
+       "CH",
+       "C6H6"
+      ],
+      [
+       "N",
+       "O",
+       30.4,
+       69.6,
+       92,
+       "NO2",
+       "N2O4"
+      ]
+     ]
+    },
+    "E1": {
+     "expr": "P[0]"
+    },
+    "E2": {
+     "expr": "P[1]"
+    },
+    "p1": {
+     "expr": "P[2]"
+    },
+    "p2": {
+     "expr": "P[3]"
+    },
+    "M": {
+     "expr": "P[4]"
+    },
+    "EMPF": {
+     "expr": "P[5]"
+    },
+    "MOL": {
+     "expr": "P[6]"
+    }
+   },
+   "prompt": "A compound is {p1} per cent {E1} and {p2} per cent {E2}, with a relative molecular mass of {M}. What is its molecular formula?",
+   "correct": "{formula(MOL)}",
+   "distractors": [
+    {
+     "text": "{formula(EMPF)}",
+     "misconception": "emp"
+    },
+    {
+     "text": "{formula(E1 + E2)}",
+     "misconception": "simple"
+    },
+    {
+     "text": "{formula(E1 + '2' + E2 + '2')}",
+     "misconception": "guess"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "emp",
+     "explain": "That is the EMPIRICAL formula, of mass {molarMass(EMPF)}; the molecule is {formulaTimes(EMPF, M)} times as heavy."
+    },
+    {
+     "id": "simple",
+     "explain": "Work out the moles first: the ratio is not {1} : {1}."
+    },
+    {
+     "id": "guess",
+     "explain": "Find the empirical formula from the moles, then scale it up by {formulaTimes(EMPF, M)}."
+    }
+   ],
+   "solution": [
+    "Moles in {100} g: {E1} {roundTo(p1 / ram(E1), 0.01)}, {E2} {roundTo(p2 / ram(E2), 0.01)}.",
+    "The simplest ratio gives the empirical formula {formula(EMPF)}, of mass {molarMass(EMPF)}.",
+    "{M} ÷ {molarMass(EMPF)} = {formulaTimes(EMPF, M)}, so multiply every subscript by {formulaTimes(EMPF, M)}.",
+    "So the molecular formula is {answer}."
+   ]
+  }
+ ]
+}

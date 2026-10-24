@@ -1,0 +1,676 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 29,
+ "language": "en",
+ "prerequisites": [
+  28
+ ],
+ "skills": [
+  {
+   "id": "k4-29",
+   "name": "Write chemical equations including state symbols"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "State symbols are written after each formula to show the physical state:\n• (s) solid  • (l) pure liquid  • (g) gas  • (aq) dissolved in water (aqueous)\nExamples:\nZn(s) + H2SO4(aq) → ZnSO4(aq) + H2(g)\nNaOH(aq) + HCl(aq) → NaCl(aq) + H2O(l)\nPb(NO3)2(aq) + 2KI(aq) → PbI2(s) + 2KNO3(aq)\nThey are useful because they tell you what would be seen: an (s) formed from (aq) solutions is a precipitate, a (g) means bubbles, and water formed in a neutralisation is (l), not (aq).\nA full equation is balanced first, then the state symbols are added.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to add state symbols to a balanced equation and use them to say what would be seen.\nBuilds on: Lesson {28} (balancing) and Form Three states of matter.\nLeads to: writing the full equations required in examinations, and ionic equations in Form Five."
+   },
+   {
+    "heading": "The four symbols",
+    "text": "A state symbol is written just after each formula:\n• (s) solid  • (l) pure liquid  • (g) gas  • (aq) aqueous, that is dissolved in water.\nTake care with (l) and (aq). Water made in a neutralisation is {formula('H2O')}(l), because it is water itself. Salt dissolved in water is {formula('NaCl')}(aq), because it is dissolved IN water.\nWrite the equation and balance it first; the state symbols are added last, and never change the balancing."
+   },
+   {
+    "heading": "Reading what would be seen",
+    "text": "State symbols turn an equation into a description of the experiment.\n• {formula('Zn')}(s) + {formula('H2SO4')}(aq) → {formula('ZnSO4')}(aq) + {formula('H2')}(g): the solid disappears and bubbles are given off.\n• {formula('Pb(NO3)2')}(aq) + {2}{formula('KI')}(aq) → {formula('PbI2')}(s) + {2}{formula('KNO3')}(aq): two clear solutions give a yellow precipitate.\n• {formula('NaOH')}(aq) + {formula('HCl')}(aq) → {formula('NaCl')}(aq) + {formula('H2O')}(l): nothing is seen at all, though the mixture warms up.\nSo an (s) among (aq) substances means a precipitate, and a (g) means bubbles."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "state symbol",
+    "meaning": "(s), (l), (g) or (aq), showing the physical state"
+   },
+   {
+    "word": "aqueous",
+    "meaning": "dissolved in water"
+   },
+   {
+    "word": "precipitate",
+    "meaning": "an insoluble solid formed when two solutions are mixed"
+   },
+   {
+    "word": "neutralisation",
+    "meaning": "the reaction of an acid with a base to give a salt and water"
+   }
+  ],
+  "examples": [
+   "{formula('Zn')}(s) + {formula('H2SO4')}(aq) → {formula('ZnSO4')}(aq) + {formula('H2')}(g)",
+   "{formula('NaOH')}(aq) + {formula('HCl')}(aq) → {formula('NaCl')}(aq) + {formula('H2O')}(l)"
+  ],
+  "mistake": {
+   "wrong": "the water made in a neutralisation is written {formula('H2O')}(aq)",
+   "right": "it is {formula('H2O')}(l)",
+   "why": "(aq) means dissolved in water; water cannot be dissolved in itself."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 1
+  },
+  "problem": "Write the equation, with state symbols, for adding dilute hydrochloric acid to solid calcium carbonate.",
+  "steps": [
+   "The reactants are solid calcium carbonate and hydrochloric acid solution.",
+   "A carbonate with an acid gives a salt, water and carbon dioxide.",
+   "Balance first: {formula('CaCO3')} + {2}{formula('HCl')} → {formula('CaCl2')} + {formula('H2O')} + {formula('CO2')}.",
+   "Then add the states: the carbonate is (s), the acid and the salt are (aq), the water is (l) and the carbon dioxide is (g)."
+  ],
+  "answer": "{formula('CaCO3')}(s) + {2}{formula('HCl')}(aq) → {formula('CaCl2')}(aq) + {formula('H2O')}(l) + {formula('CO2')}(g)",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k29-1",
+    "status": "draft",
+    "idea": "(s) solid, (l) pure liquid, (g) gas, (aq) dissolved in water.",
+    "vars": {},
+    "example": [
+     "{formula('NaCl')}(aq) is salt solution; {formula('H2O')}(l) is water itself"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-29-which"
+    }
+   },
+   {
+    "id": "c4k29-2",
+    "status": "draft",
+    "idea": "An (s) made from (aq) solutions is a precipitate.",
+    "vars": {},
+    "example": [
+     "{formula('PbI2')}(s) from two solutions: a yellow precipitate"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-29-see-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "moles"
+     ],
+     "vars": {
+      "R": {
+       "pick": [
+        {
+         "eq": "{formula('Zn')}(s) + {formula('H2SO4')}(aq) → {formula('ZnSO4')}(aq) + {formula('H2')}(g)",
+         "r": "The zinc dissolves and bubbles of gas are given off",
+         "w1": "A precipitate forms",
+         "w2": "Nothing changes",
+         "w3": "The solution turns solid",
+         "y": "The (g) means a gas is given off, and the solid zinc passes into solution."
+        },
+        {
+         "eq": "{formula('Pb(NO3)2')}(aq) + {2}{formula('KI')}(aq) → {formula('PbI2')}(s) + {2}{formula('KNO3')}(aq)",
+         "r": "A precipitate forms from two clear solutions",
+         "w1": "Bubbles of gas are given off",
+         "w2": "The mixture boils",
+         "w3": "Nothing at all",
+         "y": "An (s) formed from (aq) solutions is a precipitate: yellow lead(II) iodide."
+        },
+        {
+         "eq": "{formula('NaOH')}(aq) + {formula('HCl')}(aq) → {formula('NaCl')}(aq) + {formula('H2O')}(l)",
+         "r": "No visible change, though the mixture warms up",
+         "w1": "A precipitate forms",
+         "w2": "Bubbles of gas are given off",
+         "w3": "The solution turns blue",
+         "y": "Every product is (aq) or (l), so nothing can be seen; only an indicator or a thermometer shows the change."
+        },
+        {
+         "eq": "{formula('CaCO3')}(s) + {2}{formula('HCl')}(aq) → {formula('CaCl2')}(aq) + {formula('H2O')}(l) + {formula('CO2')}(g)",
+         "r": "The solid disappears and bubbles of gas are given off",
+         "w1": "A precipitate forms",
+         "w2": "Nothing changes",
+         "w3": "The liquid turns into a solid",
+         "y": "The (s) reactant is used up and the (g) product bubbles away."
+        }
+       ]
+      }
+     },
+     "prompt": "What would be seen in the reaction {R.eq}?",
+     "correct": "{R.r}",
+     "distractors": [
+      {
+       "text": "{R.w1}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{R.w2}",
+       "misconception": "w2"
+      },
+      {
+       "text": "{R.w3}",
+       "misconception": "w3"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w1",
+       "explain": "{R.y}"
+      },
+      {
+       "id": "w2",
+       "explain": "{R.y}"
+      },
+      {
+       "id": "w3",
+       "explain": "{R.y}"
+      }
+     ],
+     "solution": [
+      "{R.y}",
+      "So the answer is: {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c4k29-3",
+    "status": "draft",
+    "idea": "Balance the equation first, then add the state symbols.",
+    "vars": {},
+    "example": [
+     "{formula('CaCO3')}(s) + {2}{formula('HCl')}(aq) → {formula('CaCl2')}(aq) + {formula('H2O')}(l) + {formula('CO2')}(g)"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-29-write-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "moles"
+     ],
+     "vars": {
+      "W": {
+       "pick": [
+        {
+         "n": "the water made in a neutralisation",
+         "r": "(l)",
+         "w1": "(aq)",
+         "w2": "(g)",
+         "w3": "(s)",
+         "y": "Water at room temperature is a pure liquid; (aq) is for things dissolved IN water."
+        },
+        {
+         "n": "dilute hydrochloric acid",
+         "r": "(aq)",
+         "w1": "(l)",
+         "w2": "(g)",
+         "w3": "(s)",
+         "y": "A dilute acid is hydrogen chloride dissolved in water, so it is aqueous."
+        },
+        {
+         "n": "the carbon dioxide given off by a carbonate",
+         "r": "(g)",
+         "w1": "(aq)",
+         "w2": "(l)",
+         "w3": "(s)",
+         "y": "Carbon dioxide bubbles away as a gas."
+        },
+        {
+         "n": "the marble chips added to an acid",
+         "r": "(s)",
+         "w1": "(aq)",
+         "w2": "(l)",
+         "w3": "(g)",
+         "y": "Marble is solid calcium carbonate."
+        },
+        {
+         "n": "the copper(II) sulphate solution in a beaker",
+         "r": "(aq)",
+         "w1": "(s)",
+         "w2": "(l)",
+         "w3": "(g)",
+         "y": "The salt is dissolved in water, so it is aqueous."
+        }
+       ]
+      }
+     },
+     "prompt": "Which state symbol belongs to {W.n} in an equation at room temperature?",
+     "correct": "{W.r}",
+     "distractors": [
+      {
+       "text": "{W.w1}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{W.w2}",
+       "misconception": "w2"
+      },
+      {
+       "text": "{W.w3}",
+       "misconception": "w3"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w1",
+       "explain": "{W.y}"
+      },
+      {
+       "id": "w2",
+       "explain": "{W.y}"
+      },
+      {
+       "id": "w3",
+       "explain": "{W.y}"
+      }
+     ],
+     "solution": [
+      "{W.y}",
+      "So the answer is: {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-29-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does the state symbol (aq) mean?",
+       "r": "Dissolved in water: an aqueous solution",
+       "w": [
+        "A pure liquid",
+        "A gas",
+        "A solid"
+       ],
+       "e": [
+        "A pure liquid is shown by (l), such as water itself.",
+        "A gas is shown by (g).",
+        "A solid is shown by (s)."
+       ],
+       "y": "(aq) shows that the substance is dissolved in water, as in {formula('NaCl')}(aq)."
+      },
+      {
+       "q": "Which state symbol is used for water formed in a neutralisation at room temperature?",
+       "r": "(l)",
+       "w": [
+        "(aq)",
+        "(g)",
+        "(s)"
+       ],
+       "e": [
+        "(aq) is for a substance DISSOLVED in water, not for water itself.",
+        "Water is a gas only above {100} °C.",
+        "Water is a solid only below {0} °C."
+       ],
+       "y": "Water at room temperature is a pure liquid, so it takes (l)."
+      },
+      {
+       "q": "Why are state symbols useful in an equation?",
+       "r": "They show what would be seen: a precipitate, a gas given off, or a clear solution",
+       "w": [
+        "They make the equation balance",
+        "They give the mass of each substance",
+        "They show how fast the reaction goes"
+       ],
+       "e": [
+        "Balancing is done with coefficients; state symbols do not affect it.",
+        "Masses come from the moles and the molar masses.",
+        "Speed is not shown by an equation at all."
+       ],
+       "y": "A (s) among (aq) substances means a precipitate; a (g) means bubbles."
+      },
+      {
+       "q": "In {formula('Zn')}(s) + {formula('H2SO4')}(aq) → {formula('ZnSO4')}(aq) + {formula('H2')}(g), what would be seen?",
+       "r": "The zinc dissolves and bubbles of gas are given off",
+       "w": [
+        "A precipitate forms",
+        "Nothing changes",
+        "The solution turns solid"
+       ],
+       "e": [
+        "No (s) appears among the products, so there is no precipitate.",
+        "A gas is given off, which is easy to see.",
+        "The products are a solution and a gas."
+       ],
+       "y": "The (g) tells you to expect bubbles, and the zinc (s) disappears into the solution."
+      },
+      {
+       "q": "In {formula('Pb(NO3)2')}(aq) + {2}{formula('KI')}(aq) → {formula('PbI2')}(s) + {2}{formula('KNO3')}(aq), what would be seen?",
+       "r": "A precipitate forms",
+       "w": [
+        "Bubbles of gas",
+        "The mixture boils",
+        "Nothing at all"
+       ],
+       "e": [
+        "There is no (g) in the equation, so no gas is given off.",
+        "Nothing in the equation suggests boiling.",
+        "The (s) among the products is a clear change."
+       ],
+       "y": "An (s) formed from two (aq) solutions is a precipitate: here the yellow lead(II) iodide."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-29-match",
+   "type": "matching",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "moles"
+   ],
+   "prompt": "Match each state symbol to its meaning.",
+   "pool": [
+    {
+     "left": "(s)",
+     "right": "Solid"
+    },
+    {
+     "left": "(l)",
+     "right": "Pure liquid"
+    },
+    {
+     "left": "(g)",
+     "right": "Gas"
+    },
+    {
+     "left": "(aq)",
+     "right": "Dissolved in water"
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "k4-29-see",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "R": {
+     "pick": [
+      {
+       "eq": "{formula('Zn')}(s) + {formula('H2SO4')}(aq) → {formula('ZnSO4')}(aq) + {formula('H2')}(g)",
+       "r": "The zinc dissolves and bubbles of gas are given off",
+       "w1": "A precipitate forms",
+       "w2": "Nothing changes",
+       "w3": "The solution turns solid",
+       "y": "The (g) means a gas is given off, and the solid zinc passes into solution."
+      },
+      {
+       "eq": "{formula('Pb(NO3)2')}(aq) + {2}{formula('KI')}(aq) → {formula('PbI2')}(s) + {2}{formula('KNO3')}(aq)",
+       "r": "A precipitate forms from two clear solutions",
+       "w1": "Bubbles of gas are given off",
+       "w2": "The mixture boils",
+       "w3": "Nothing at all",
+       "y": "An (s) formed from (aq) solutions is a precipitate: yellow lead(II) iodide."
+      },
+      {
+       "eq": "{formula('NaOH')}(aq) + {formula('HCl')}(aq) → {formula('NaCl')}(aq) + {formula('H2O')}(l)",
+       "r": "No visible change, though the mixture warms up",
+       "w1": "A precipitate forms",
+       "w2": "Bubbles of gas are given off",
+       "w3": "The solution turns blue",
+       "y": "Every product is (aq) or (l), so nothing can be seen; only an indicator or a thermometer shows the change."
+      },
+      {
+       "eq": "{formula('CaCO3')}(s) + {2}{formula('HCl')}(aq) → {formula('CaCl2')}(aq) + {formula('H2O')}(l) + {formula('CO2')}(g)",
+       "r": "The solid disappears and bubbles of gas are given off",
+       "w1": "A precipitate forms",
+       "w2": "Nothing changes",
+       "w3": "The liquid turns into a solid",
+       "y": "The (s) reactant is used up and the (g) product bubbles away."
+      }
+     ]
+    }
+   },
+   "prompt": "What would be seen in the reaction {R.eq}?",
+   "correct": "{R.r}",
+   "distractors": [
+    {
+     "text": "{R.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{R.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{R.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{R.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{R.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{R.y}"
+    }
+   ],
+   "solution": [
+    "{R.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "k4-29-write",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "W": {
+     "pick": [
+      {
+       "n": "the water made in a neutralisation",
+       "r": "(l)",
+       "w1": "(aq)",
+       "w2": "(g)",
+       "w3": "(s)",
+       "y": "Water at room temperature is a pure liquid; (aq) is for things dissolved IN water."
+      },
+      {
+       "n": "dilute hydrochloric acid",
+       "r": "(aq)",
+       "w1": "(l)",
+       "w2": "(g)",
+       "w3": "(s)",
+       "y": "A dilute acid is hydrogen chloride dissolved in water, so it is aqueous."
+      },
+      {
+       "n": "the carbon dioxide given off by a carbonate",
+       "r": "(g)",
+       "w1": "(aq)",
+       "w2": "(l)",
+       "w3": "(s)",
+       "y": "Carbon dioxide bubbles away as a gas."
+      },
+      {
+       "n": "the marble chips added to an acid",
+       "r": "(s)",
+       "w1": "(aq)",
+       "w2": "(l)",
+       "w3": "(g)",
+       "y": "Marble is solid calcium carbonate."
+      },
+      {
+       "n": "the copper(II) sulphate solution in a beaker",
+       "r": "(aq)",
+       "w1": "(s)",
+       "w2": "(l)",
+       "w3": "(g)",
+       "y": "The salt is dissolved in water, so it is aqueous."
+      }
+     ]
+    }
+   },
+   "prompt": "Which state symbol belongs to {W.n} in an equation at room temperature?",
+   "correct": "{W.r}",
+   "distractors": [
+    {
+     "text": "{W.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{W.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{W.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{W.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{W.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{W.y}"
+    }
+   ],
+   "solution": [
+    "{W.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "k4-29-steps",
+   "type": "ordering",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "A": {
+     "pick": [
+      {
+       "q": "Put the steps of writing a full chemical equation in order.",
+       "s": [
+        "Name the reactants and the products",
+        "Write the correct formula for each one",
+        "Balance the equation by changing the coefficients only",
+        "Count every element again to check",
+        "Add the state symbols after each formula"
+       ]
+      },
+      {
+       "q": "Put these steps of predicting what will be seen in order.",
+       "s": [
+        "Write the balanced equation with state symbols",
+        "Look for an (s) among the products of (aq) reactants",
+        "If there is one, expect a precipitate",
+        "Look for a (g) among the products",
+        "If there is one, expect bubbles of gas"
+       ]
+      },
+      {
+       "q": "Put the steps of working out a mass from an equation in order.",
+       "s": [
+        "Write the balanced equation",
+        "Change the mass given into moles",
+        "Use the mole ratio from the equation",
+        "Change the moles of the product into a mass",
+        "Write the answer with its unit"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "{A.q}",
+   "items": [
+    {
+     "text": "{A.s[0]}"
+    },
+    {
+     "text": "{A.s[1]}"
+    },
+    {
+     "text": "{A.s[2]}"
+    },
+    {
+     "text": "{A.s[3]}"
+    },
+    {
+     "text": "{A.s[4]}"
+    }
+   ],
+   "order": "as_written"
+  }
+ ]
+}

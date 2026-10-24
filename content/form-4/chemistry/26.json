@@ -1,0 +1,594 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 26,
+ "language": "en",
+ "prerequisites": [
+  25
+ ],
+ "skills": [
+  {
+   "id": "k4-26",
+   "name": "Use limiting reagents, theoretical yield and percentage yield"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "When two reactants are mixed, one is usually used up first. That one is the limiting reagent, and it decides how much product can be made. The other is said to be in excess.\nTo find it: work out the moles of each reactant, divide each by its coefficient in the equation, and take the smallest.\nTheoretical yield: the mass of product the equation says should be made from the limiting reagent, if nothing is lost.\nActual yield: the mass actually collected. It is almost always less, because product is lost in transferring, filtering and purifying, because reactions may not go to completion, and because side reactions use up reactant.\nPercentage yield = (actual yield ÷ theoretical yield) × 100 per cent. It can never be more than 100 per cent.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to find the limiting reagent, work out a theoretical yield, and calculate a percentage yield.\nBuilds on: Lesson {25} (masses from equations) and Lesson {21} (mole calculations).\nLeads to: Lesson {27} (percentage yield in practice) and the costing of industrial processes."
+   },
+   {
+    "heading": "The limiting reagent",
+    "text": "Mix {2} slices of bread with {10} slices of cheese and you can still make only {1} sandwich: the bread limits it. Chemistry works the same way.\nThe LIMITING REAGENT is the reactant used up first; it decides how much product can be made. The other reactant is in EXCESS and is left over.\nTo find it:\n{1}. work out the moles of each reactant;\n{2}. divide each by its coefficient in the balanced equation;\n{3}. the smallest answer belongs to the limiting reagent.\nFor {formula('N2')} + {3}{formula('H2')} → {2}{formula('NH3')} with {0.3} mol of {formula('N2')} and {0.4} mol of {formula('H2')}: {0.3} ÷ {1} = {0.3}, and {0.4} ÷ {3} = {0.133}. The hydrogen is limiting."
+   },
+   {
+    "heading": "Theoretical, actual and percentage yield",
+    "text": "The THEORETICAL yield is what the equation says should be made from the limiting reagent, with nothing lost.\nThe ACTUAL yield is what is really collected. It is almost always smaller, because:\n• some product sticks to the filter paper or the beaker;\n• some stays dissolved in the solvent;\n• the reaction may not go to completion;\n• side reactions use up some reactant.\nPERCENTAGE YIELD = (actual ÷ theoretical) × {100} per cent.\nIf {10} g was expected and {8} g collected, the yield is {80} per cent. A yield above {100} per cent is impossible; if one is calculated, the product is probably still wet or impure."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "limiting reagent",
+    "meaning": "the reactant used up first, which decides the amount of product"
+   },
+   {
+    "word": "excess",
+    "meaning": "more than enough of a reactant"
+   },
+   {
+    "word": "theoretical yield",
+    "meaning": "the mass of product the equation predicts"
+   },
+   {
+    "word": "percentage yield",
+    "meaning": "actual ÷ theoretical × {100}"
+   }
+  ],
+  "examples": [
+   "{0.4} mol {formula('H2')} with {0.3} mol {formula('N2')}: hydrogen limits",
+   "{8} g of a possible {10} g: {80} per cent"
+  ],
+  "mistake": {
+   "wrong": "the reactant with the smaller mass is always limiting",
+   "right": "divide the moles by the coefficient and compare",
+   "why": "A small mass of a light substance can still be many moles."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 0.3,
+   "b": 0.4
+  },
+  "problem": "{a} mol of nitrogen is mixed with {b} mol of hydrogen: {formula('N2')} + {3}{formula('H2')} → {2}{formula('NH3')}. Which is the limiting reagent, and how many moles of ammonia can be made?",
+  "steps": [
+   "Divide each by its coefficient: nitrogen {a} ÷ {1} = {a}; hydrogen {b} ÷ {3} = {roundTo(b / 3, 0.001)}.",
+   "The smaller is the hydrogen, so hydrogen is the limiting reagent.",
+   "The ratio of {formula('H2')} to {formula('NH3')} is {3} : {2}.",
+   "Moles of ammonia = {b} × {2} ÷ {3} = {roundTo(b * 2 / 3, 0.001)} mol."
+  ],
+  "answer": "hydrogen is limiting; {roundTo(b * 2 / 3, 0.001)} mol of ammonia",
+  "checks": [
+   "0.4 / 3 < 0.3"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k26-1",
+    "status": "draft",
+    "idea": "The limiting reagent runs out first and decides how much product is made.",
+    "vars": {},
+    "example": [
+     "the other reactant is in excess and is left over"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-26-define"
+    }
+   },
+   {
+    "id": "c4k26-2",
+    "status": "draft",
+    "idea": "Divide the moles of each reactant by its coefficient; the smallest is limiting.",
+    "vars": {},
+    "example": [
+     "{0.3} ÷ {1} = {0.3} against {0.4} ÷ {3} = {0.133}: the second is limiting"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-26-find-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "moles"
+     ],
+     "vars": {
+      "a": {
+       "pick": [
+        0.1,
+        0.2,
+        0.3,
+        0.5,
+        1
+       ]
+      },
+      "b": {
+       "pick": [
+        0.3,
+        0.4,
+        0.6,
+        0.9,
+        1.2,
+        2
+       ]
+      }
+     },
+     "prompt": "{a} mol of {formula('N2')} is mixed with {b} mol of {formula('H2')}: {formula('N2')} + {3}{formula('H2')} → {2}{formula('NH3')}. Which is the limiting reagent?",
+     "correct": "{b / 3 < a ? 'Hydrogen' : 'Nitrogen'}",
+     "distractors": [
+      {
+       "text": "{b / 3 < a ? 'Nitrogen' : 'Hydrogen'}",
+       "misconception": "swap"
+      },
+      {
+       "text": "Neither: they are exactly matched",
+       "misconception": "exact"
+      },
+      {
+       "text": "The one with the larger number of moles",
+       "misconception": "more"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "swap",
+       "explain": "Compare {a} with {roundTo(b / 3, 0.001)}: the SMALLER one runs out first."
+      },
+      {
+       "id": "exact",
+       "explain": "{a} and {roundTo(b / 3, 0.001)} are not equal, so one runs out before the other."
+      },
+      {
+       "id": "more",
+       "explain": "Having more moles does not help if the equation needs {3} times as many."
+      }
+     ],
+     "solution": [
+      "Divide each by its coefficient: nitrogen {a} ÷ {1} = {a}; hydrogen {b} ÷ {3} = {roundTo(b / 3, 0.001)}.",
+      "The smaller value belongs to the limiting reagent.",
+      "So the answer is: {answer}."
+     ],
+     "where": [
+      "abs(b / 3 - a) > 0.02"
+     ]
+    }
+   },
+   {
+    "id": "c4k26-3",
+    "status": "draft",
+    "idea": "Percentage yield = actual ÷ theoretical × {100}.",
+    "vars": {},
+    "example": [
+     "{8} g made out of a possible {10} g is {80} per cent"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-26-yield-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "moles"
+     ],
+     "vars": {
+      "t": {
+       "pick": [
+        10,
+        20,
+        25,
+        40,
+        50,
+        80,
+        100
+       ]
+      },
+      "f": {
+       "pick": [
+        0.5,
+        0.6,
+        0.7,
+        0.75,
+        0.8,
+        0.9,
+        0.95
+       ]
+      },
+      "y": {
+       "expr": "roundTo(t * f, 0.01)"
+      }
+     },
+     "prompt": "A reaction should give {t} g of product, but only {y} g is collected. What is the percentage yield?",
+     "answer": "percentYield(y, t)",
+     "misconceptions": [
+      {
+       "id": "swap",
+       "wrong": "percentYield(t, y)",
+       "explain": "Divide the ACTUAL yield by the theoretical one."
+      },
+      {
+       "id": "diff",
+       "wrong": "roundTo(t - y, 0.01)",
+       "explain": "That is the mass lost, not the percentage yield."
+      }
+     ],
+     "solution": [
+      "Percentage yield = actual ÷ theoretical × {100}.",
+      "{y} ÷ {t} × {100} = {answer} per cent."
+     ],
+     "unit": "%"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-26-define",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a limiting reagent?",
+       "r": "The reactant that is used up first and so decides how much product is made",
+       "w": [
+        "The reactant there is most of",
+        "The reactant with the largest molar mass",
+        "The product made in the smallest amount"
+       ],
+       "e": [
+        "The one in excess is left over; it is not what limits the reaction.",
+        "Molar mass does not decide which runs out first.",
+        "A limiting reagent is a reactant, not a product."
+       ],
+       "y": "Once the limiting reagent is gone the reaction stops, however much of the other reactant is left."
+      },
+      {
+       "q": "How is the limiting reagent found?",
+       "r": "Divide the moles of each reactant by its coefficient, and take the smallest",
+       "w": [
+        "Take the reactant with the smaller mass",
+        "Take the reactant with the smaller molar mass",
+        "Take the reactant with the larger number of moles"
+       ],
+       "e": [
+        "A small mass may still be many moles if the molar mass is small.",
+        "Molar mass alone does not decide it.",
+        "More moles does not help if the equation needs even more of it."
+       ],
+       "y": "The coefficient says how many moles the reaction uses for each unit of reaction, so divide by it before comparing."
+      },
+      {
+       "q": "What is the theoretical yield?",
+       "r": "The mass of product that the equation says should be made, if nothing is lost",
+       "w": [
+        "The mass of product actually collected",
+        "The mass of the reactants used",
+        "The percentage of product that is pure"
+       ],
+       "e": [
+        "That is the ACTUAL yield.",
+        "The reactants are what you start with, not the yield.",
+        "Purity is a different idea."
+       ],
+       "y": "It is worked out from the limiting reagent and the mole ratio in the equation."
+      },
+      {
+       "q": "Why is the actual yield usually less than the theoretical yield?",
+       "r": "Some product is lost in transferring and purifying, and the reaction may not go to completion",
+       "w": [
+        "The equation is wrong",
+        "Atoms are destroyed in the reaction",
+        "The theoretical yield is always a guess"
+       ],
+       "e": [
+        "The equation is right; the losses happen in the laboratory.",
+        "Atoms are never destroyed; they are simply left behind in the apparatus or in side products.",
+        "The theoretical yield is calculated exactly from the equation."
+       ],
+       "y": "Product sticks to filter papers and beakers, some stays dissolved, and side reactions use up reactant."
+      },
+      {
+       "q": "A reaction has a percentage yield of {100} per cent. What does this mean?",
+       "r": "All the limiting reagent was turned into product and none was lost",
+       "w": [
+        "The product is {100} per cent pure",
+        "The reaction was very fast",
+        "Twice as much product was made as expected"
+       ],
+       "e": [
+        "Purity and yield are different measurements.",
+        "Speed has nothing to do with yield.",
+        "A yield can never be more than {100} per cent."
+       ],
+       "y": "Percentage yield = actual ÷ theoretical × {100}, so {100} per cent means actual = theoretical."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-26-find",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      1
+     ]
+    },
+    "b": {
+     "pick": [
+      0.3,
+      0.4,
+      0.6,
+      0.9,
+      1.2,
+      2
+     ]
+    }
+   },
+   "prompt": "{a} mol of {formula('N2')} is mixed with {b} mol of {formula('H2')}: {formula('N2')} + {3}{formula('H2')} → {2}{formula('NH3')}. Which is the limiting reagent?",
+   "correct": "{b / 3 < a ? 'Hydrogen' : 'Nitrogen'}",
+   "distractors": [
+    {
+     "text": "{b / 3 < a ? 'Nitrogen' : 'Hydrogen'}",
+     "misconception": "swap"
+    },
+    {
+     "text": "Neither: they are exactly matched",
+     "misconception": "exact"
+    },
+    {
+     "text": "The one with the larger number of moles",
+     "misconception": "more"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "Compare {a} with {roundTo(b / 3, 0.001)}: the SMALLER one runs out first."
+    },
+    {
+     "id": "exact",
+     "explain": "{a} and {roundTo(b / 3, 0.001)} are not equal, so one runs out before the other."
+    },
+    {
+     "id": "more",
+     "explain": "Having more moles does not help if the equation needs {3} times as many."
+    }
+   ],
+   "solution": [
+    "Divide each by its coefficient: nitrogen {a} ÷ {1} = {a}; hydrogen {b} ÷ {3} = {roundTo(b / 3, 0.001)}.",
+    "The smaller value belongs to the limiting reagent.",
+    "So the answer is: {answer}."
+   ],
+   "where": [
+    "abs(b / 3 - a) > 0.02"
+   ]
+  },
+  {
+   "id": "k4-26-yield",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "t": {
+     "pick": [
+      10,
+      20,
+      25,
+      40,
+      50,
+      80,
+      100
+     ]
+    },
+    "f": {
+     "pick": [
+      0.5,
+      0.6,
+      0.7,
+      0.75,
+      0.8,
+      0.9,
+      0.95
+     ]
+    },
+    "y": {
+     "expr": "roundTo(t * f, 0.01)"
+    }
+   },
+   "prompt": "A reaction should give {t} g of product, but only {y} g is collected. What is the percentage yield?",
+   "answer": "percentYield(y, t)",
+   "misconceptions": [
+    {
+     "id": "swap",
+     "wrong": "percentYield(t, y)",
+     "explain": "Divide the ACTUAL yield by the theoretical one."
+    },
+    {
+     "id": "diff",
+     "wrong": "roundTo(t - y, 0.01)",
+     "explain": "That is the mass lost, not the percentage yield."
+    }
+   ],
+   "solution": [
+    "Percentage yield = actual ÷ theoretical × {100}.",
+    "{y} ÷ {t} × {100} = {answer} per cent."
+   ],
+   "unit": "%"
+  },
+  {
+   "id": "k4-26-actual",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "t": {
+     "pick": [
+      10,
+      20,
+      25,
+      40,
+      50,
+      80
+     ]
+    },
+    "p": {
+     "pick": [
+      40,
+      50,
+      60,
+      75,
+      80,
+      90
+     ]
+    }
+   },
+   "prompt": "A reaction has a theoretical yield of {t} g and a percentage yield of {p} per cent. What mass of product, in grams, is actually collected?",
+   "answer": "roundTo(t * p / 100, 0.01)",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "roundTo(t * 100 / p, 0.01)",
+     "explain": "The actual yield is LESS than the theoretical one."
+    },
+    {
+     "id": "same",
+     "wrong": "t",
+     "explain": "Only {p} per cent of the possible yield was collected."
+    }
+   ],
+   "solution": [
+    "Actual = theoretical × percentage ÷ {100}.",
+    "{t} × {p} ÷ {100} = {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "k4-26-full",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "m": {
+     "pick": [
+      10,
+      20,
+      25,
+      50,
+      100
+     ]
+    },
+    "f": {
+     "pick": [
+      0.5,
+      0.6,
+      0.75,
+      0.8,
+      0.9
+     ]
+    },
+    "y": {
+     "expr": "roundTo(massOf(molesOf(m, 'CaCO3'), 'CaO') * f, 0.01)"
+    }
+   },
+   "prompt": "{m} g of calcium carbonate is heated and {y} g of calcium oxide is collected. What is the percentage yield?",
+   "answer": "percentYield(y, massOf(molesOf(m, 'CaCO3'), 'CaO'))",
+   "misconceptions": [
+    {
+     "id": "carbonate",
+     "wrong": "percentYield(y, m)",
+     "explain": "Compare the yield with the theoretical mass of {formula('CaO')}, not with the mass of carbonate."
+    },
+    {
+     "id": "swap",
+     "wrong": "percentYield(massOf(molesOf(m, 'CaCO3'), 'CaO'), y)",
+     "explain": "Divide the actual yield by the theoretical one."
+    }
+   ],
+   "solution": [
+    "Moles of {formula('CaCO3')} = {m} ÷ {molarMass('CaCO3')} = {roundTo(molesOf(m, 'CaCO3'), 0.001)} mol.",
+    "The ratio is {1} : {1}, so the theoretical mass of {formula('CaO')} is {roundTo(massOf(molesOf(m, 'CaCO3'), 'CaO'), 0.01)} g.",
+    "Percentage yield = {y} ÷ {roundTo(massOf(molesOf(m, 'CaCO3'), 'CaO'), 0.01)} × {100} = {answer} per cent."
+   ],
+   "unit": "%"
+  }
+ ]
+}

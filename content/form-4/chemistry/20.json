@@ -1,0 +1,568 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 20,
+ "language": "en",
+ "prerequisites": [
+  19
+ ],
+ "skills": [
+  {
+   "id": "k4-20",
+   "name": "Define the mole and the Avogadro constant and apply them to atoms, molecules and ions"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A mole is the amount of a substance that holds as many particles as there are atoms in 12 g of carbon-12. That number is the Avogadro constant, L = 6.02 × 10²³ per mole.\nOne mole of any substance holds 6.02 × 10²³ particles, whether they are atoms, molecules or ions.\n• 1 mol of helium = 6.02 × 10²³ atoms.\n• 1 mol of water = 6.02 × 10²³ molecules, but 3 × 6.02 × 10²³ atoms, because each molecule has 3 atoms.\n• 1 mol of NaCl gives 2 mol of ions: one of Na⁺ and one of Cl⁻.\nNumber of particles = moles × L.\nThe mass of one mole is the molar mass in g/mol, and one mole of any gas fills 22.4 dm³ at s.t.p.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to define the mole and the Avogadro constant, and count particles, atoms and ions in a given amount.\nBuilds on: Lesson {19} (relative masses) and Form Three the mole of atoms.\nLeads to: Lesson {21}, where moles, mass and volume are used together in calculations."
+   },
+   {
+    "heading": "The mole and the Avogadro constant",
+    "text": "Chemists work with huge numbers of atoms, so they count them in moles.\nA MOLE is the amount of a substance that holds as many particles as there are atoms in {12} g of carbon-{12}. That number is the AVOGADRO CONSTANT, L = {6.02} × {10} to the power {23} per mole.\nOne mole of any substance holds that many particles:\n• {1} mol of helium: {6.02} × {10} to the power {23} atoms;\n• {1} mol of carbon dioxide: {6.02} × {10} to the power {23} molecules;\n• {1} mol of sodium chloride: {6.02} × {10} to the power {23} formula units, which is {2} mol of ions.\nNumber of particles = moles × L."
+   },
+   {
+    "heading": "Atoms, molecules and ions",
+    "text": "Be careful to say WHICH particle is being counted.\nOne mole of water, {formula('H2O')}:\n• {1} mol of molecules;\n• {3} mol of atoms, because each molecule has {2} hydrogen and {1} oxygen;\n• {2} mol of hydrogen atoms and {1} mol of oxygen atoms.\nOne mole of {formula('H2SO4')} holds {7} mol of atoms: {2} of hydrogen, {1} of sulphur and {4} of oxygen.\nOne mole of {formula('CaCl2')} gives {3} mol of ions: {1} of calcium and {2} of chloride.\nTogether with the molar mass from Lesson {19}, this links a mass you can weigh to a number of particles you cannot count."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "mole",
+    "meaning": "the amount of substance holding {6.02} × {10} to the power {23} particles"
+   },
+   {
+    "word": "Avogadro constant (L)",
+    "meaning": "{6.02} × {10} to the power {23} per mole"
+   },
+   {
+    "word": "formula unit",
+    "meaning": "the group of ions shown by the formula of an ionic compound"
+   },
+   {
+    "word": "amount of substance",
+    "meaning": "the quantity measured in moles"
+   }
+  ],
+  "examples": [
+   "{1} mol of {formula('CO2')}: {3} mol of atoms",
+   "{2} mol of {formula('NaCl')}: {4} mol of ions",
+   "particles = moles × L"
+  ],
+  "mistake": {
+   "wrong": "one mole of water holds {6.02} × {10} to the power {23} atoms",
+   "right": "it holds that many MOLECULES, and three times as many atoms",
+   "why": "Each water molecule has {3} atoms, so a mole of molecules is {3} mol of atoms."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "n": 0.5,
+   "F": "H2O"
+  },
+  "problem": "How many molecules, and how many atoms, are there in {n} mol of {formula(F)}?",
+  "steps": [
+   "Number of molecules = moles × L = {n} × {6.02} × {10} to the power {23}.",
+   "= {particles(n)} molecules.",
+   "Each molecule of {formula(F)} holds {totalAtoms(F)} atoms.",
+   "So the number of atoms is {totalAtoms(F)} × {particles(n)}."
+  ],
+  "answer": "{particles(n)} molecules and {particles(n * totalAtoms(F))} atoms",
+  "checks": [
+   "totalAtoms('H2O') == 3"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k20-1",
+    "status": "draft",
+    "idea": "One mole holds {6.02} × {10} to the power {23} particles: the Avogadro constant.",
+    "vars": {},
+    "example": [
+     "{1} mol of helium = {6.02} × {10} to the power {23} atoms"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-20-define"
+    }
+   },
+   {
+    "id": "c4k20-2",
+    "status": "draft",
+    "idea": "Number of particles = moles × L.",
+    "vars": {},
+    "example": [
+     "{2} mol of {formula('CO2')} = {1.2} × {10} to the power {24} molecules"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-20-count"
+    }
+   },
+   {
+    "id": "c4k20-3",
+    "status": "draft",
+    "idea": "A mole of molecules holds more than a mole of atoms: count the atoms in the formula.",
+    "vars": {},
+    "example": [
+     "{1} mol of {formula('H2O')} = {3} mol of atoms"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-20-atoms-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "moles"
+     ],
+     "vars": {
+      "P": {
+       "pick": [
+        [
+         "H2SO4",
+         "O"
+        ],
+        [
+         "H2SO4",
+         "H"
+        ],
+        [
+         "CaCO3",
+         "O"
+        ],
+        [
+         "Fe2O3",
+         "Fe"
+        ],
+        [
+         "NH3",
+         "H"
+        ],
+        [
+         "CO2",
+         "O"
+        ],
+        [
+         "H2O",
+         "H"
+        ]
+       ]
+      },
+      "F": {
+       "expr": "P[0]"
+      },
+      "E": {
+       "expr": "P[1]"
+      },
+      "n": {
+       "pick": [
+        0.1,
+        0.25,
+        0.5,
+        1,
+        2
+       ]
+      }
+     },
+     "prompt": "How many moles of {E} atoms are there in {n} mol of {formula(F)}?",
+     "answer": "roundTo(n * atomCount(F, E), 0.001)",
+     "misconceptions": [
+      {
+       "id": "same",
+       "wrong": "n",
+       "explain": "Each formula unit holds {atomCount(F, E)} atoms of {E}, not one."
+      },
+      {
+       "id": "all",
+       "wrong": "roundTo(n * totalAtoms(F), 0.001)",
+       "explain": "Count only the {E} atoms ({atomCount(F, E)}), not all {totalAtoms(F)}."
+      }
+     ],
+     "solution": [
+      "Each formula unit of {formula(F)} holds {atomCount(F, E)} atoms of {E}.",
+      "{n} × {atomCount(F, E)} = {answer} mol of {E} atoms."
+     ],
+     "unit": "mol"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-20-define",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a mole?",
+       "r": "The amount of a substance that holds as many particles as there are atoms in {12} g of carbon-12",
+       "w": [
+        "A mass of {1} g of any substance",
+        "A volume of {22.4} dm³ of any substance",
+        "The mass of one molecule"
+       ],
+       "e": [
+        "The mass of a mole differs from substance to substance.",
+        "{22.4} dm³ is the volume of a mole of a GAS, not of a solid or liquid.",
+        "A mole holds a very large number of molecules, not one."
+       ],
+       "y": "That number is the Avogadro constant, about {6.02} × {10} to the power {23}."
+      },
+      {
+       "q": "What is the Avogadro constant?",
+       "r": "About {6.02} × {10} to the power {23} particles per mole",
+       "w": [
+        "{22.4} dm³ per mole",
+        "{12} g per mole",
+        "{100} particles per mole"
+       ],
+       "e": [
+        "{22.4} dm³/mol is the molar volume of a gas.",
+        "{12} g/mol is the molar mass of carbon.",
+        "The number is enormously larger than {100}."
+       ],
+       "y": "One mole of any substance holds that number of particles, whether atoms, molecules or ions."
+      },
+      {
+       "q": "How many atoms are there in one mole of helium?",
+       "r": "About {6.02} × {10} to the power {23}",
+       "w": [
+        "{4}",
+        "{22.4}",
+        "{12}"
+       ],
+       "e": [
+        "{4} is the relative atomic mass of helium, not a number of atoms.",
+        "{22.4} dm³ is the volume a mole of helium fills at s.t.p.",
+        "{12} g is the mass of a mole of carbon."
+       ],
+       "y": "One mole of ANY substance holds the Avogadro number of particles."
+      },
+      {
+       "q": "How many atoms are there in one mole of water molecules?",
+       "r": "Three times the Avogadro number, because each molecule has {3} atoms",
+       "w": [
+        "The Avogadro number",
+        "Twice the Avogadro number",
+        "One third of the Avogadro number"
+       ],
+       "e": [
+        "That is the number of MOLECULES, not of atoms.",
+        "There are {2} hydrogen atoms AND {1} oxygen atom: {3} in all.",
+        "There are more atoms than molecules, not fewer."
+       ],
+       "y": "{formula('H2O')} has {3} atoms per molecule, so a mole of molecules holds {3} moles of atoms."
+      },
+      {
+       "q": "How many ions are there in one mole of sodium chloride, {formula('NaCl')}?",
+       "r": "Two moles of ions: one of {formula('Na')} and one of {formula('Cl')}",
+       "w": [
+        "One mole of ions",
+        "Three moles of ions",
+        "There are no ions"
+       ],
+       "e": [
+        "Each formula unit gives TWO ions.",
+        "{formula('NaCl')} holds only two ions per formula unit.",
+        "Sodium chloride is ionic: it is made of ions."
+       ],
+       "y": "{formula('NaCl')} → {formula('Na')} and {formula('Cl')} ions, so a mole of the salt gives {2} mol of ions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-20-count",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      0.1,
+      0.25,
+      0.5,
+      1,
+      2,
+      3
+     ]
+    },
+    "F": {
+     "pick": [
+      "H2O",
+      "CO2",
+      "NH3",
+      "H2SO4",
+      "SO2",
+      "CH4"
+     ]
+    }
+   },
+   "prompt": "How many moles of atoms are there in {n} mol of {formula(F)} molecules?",
+   "answer": "roundTo(n * totalAtoms(F), 0.001)",
+   "misconceptions": [
+    {
+     "id": "same",
+     "wrong": "n",
+     "explain": "A molecule holds more than one atom: multiply by {totalAtoms(F)}."
+    },
+    {
+     "id": "elements",
+     "wrong": "roundTo(n * elementCount(F), 0.001)",
+     "explain": "Count the ATOMS ({totalAtoms(F)}), not the different elements ({elementCount(F)})."
+    }
+   ],
+   "solution": [
+    "Each molecule of {formula(F)} holds {totalAtoms(F)} atoms.",
+    "{n} × {totalAtoms(F)} = {answer} mol of atoms."
+   ],
+   "unit": "mol"
+  },
+  {
+   "id": "k4-20-moles",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "F": {
+     "pick": [
+      "H2O",
+      "CO2",
+      "NaCl",
+      "CaCO3",
+      "H2SO4",
+      "NaOH",
+      "MgO"
+     ]
+    },
+    "k": {
+     "pick": [
+      0.1,
+      0.2,
+      0.25,
+      0.5,
+      1,
+      2,
+      4
+     ]
+    },
+    "m": {
+     "expr": "roundTo(k * molarMass(F), 0.01)"
+    }
+   },
+   "prompt": "How many moles are there in {m} g of {formula(F)}?",
+   "answer": "roundTo(molesOf(m, F), 0.001)",
+   "misconceptions": [
+    {
+     "id": "mult",
+     "wrong": "roundTo(massOf(m, F), 0.01)",
+     "explain": "Moles = mass ÷ molar mass: divide, do not multiply."
+    },
+    {
+     "id": "swap",
+     "wrong": "roundTo(molarMass(F) / m, 0.001)",
+     "explain": "Divide the MASS by the molar mass, not the other way round."
+    }
+   ],
+   "solution": [
+    "Moles = mass ÷ molar mass.",
+    "The molar mass of {formula(F)} is {molarMass(F)} g/mol.",
+    "{m} ÷ {molarMass(F)} = {answer} mol."
+   ],
+   "unit": "mol"
+  },
+  {
+   "id": "k4-20-mass",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      0.1,
+      0.2,
+      0.25,
+      0.5,
+      1,
+      2,
+      3
+     ]
+    },
+    "F": {
+     "pick": [
+      "H2O",
+      "CO2",
+      "NaCl",
+      "CaCO3",
+      "H2SO4",
+      "NH3",
+      "MgO",
+      "CuO",
+      "Fe2O3",
+      "NaOH",
+      "KNO3",
+      "ZnO"
+     ]
+    }
+   },
+   "prompt": "What is the mass, in grams, of {n} mol of {formula(F)}?",
+   "answer": "massOf(n, F)",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "roundTo(molesOf(n, F), 0.0001)",
+     "explain": "Mass = moles × molar mass: multiply, do not divide."
+    },
+    {
+     "id": "molar",
+     "wrong": "molarMass(F)",
+     "explain": "{molarMass(F)} g is the mass of ONE mole; here there are {n} mol."
+    }
+   ],
+   "solution": [
+    "Mass = moles × molar mass.",
+    "The molar mass of {formula(F)} is {molarMass(F)} g/mol.",
+    "{n} × {molarMass(F)} = {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "k4-20-atoms",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      [
+       "H2SO4",
+       "O"
+      ],
+      [
+       "H2SO4",
+       "H"
+      ],
+      [
+       "CaCO3",
+       "O"
+      ],
+      [
+       "Fe2O3",
+       "Fe"
+      ],
+      [
+       "NH3",
+       "H"
+      ],
+      [
+       "CO2",
+       "O"
+      ],
+      [
+       "H2O",
+       "H"
+      ]
+     ]
+    },
+    "F": {
+     "expr": "P[0]"
+    },
+    "E": {
+     "expr": "P[1]"
+    },
+    "n": {
+     "pick": [
+      0.1,
+      0.25,
+      0.5,
+      1,
+      2
+     ]
+    }
+   },
+   "prompt": "How many moles of {E} atoms are there in {n} mol of {formula(F)}?",
+   "answer": "roundTo(n * atomCount(F, E), 0.001)",
+   "misconceptions": [
+    {
+     "id": "same",
+     "wrong": "n",
+     "explain": "Each formula unit holds {atomCount(F, E)} atoms of {E}, not one."
+    },
+    {
+     "id": "all",
+     "wrong": "roundTo(n * totalAtoms(F), 0.001)",
+     "explain": "Count only the {E} atoms ({atomCount(F, E)}), not all {totalAtoms(F)}."
+    }
+   ],
+   "solution": [
+    "Each formula unit of {formula(F)} holds {atomCount(F, E)} atoms of {E}.",
+    "{n} × {atomCount(F, E)} = {answer} mol of {E} atoms."
+   ],
+   "unit": "mol"
+  }
+ ]
+}

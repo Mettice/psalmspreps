@@ -1,0 +1,543 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 28,
+ "language": "en",
+ "prerequisites": [
+  25
+ ],
+ "skills": [
+  {
+   "id": "k4-28",
+   "name": "Balance chemical equations using the mole concept"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A balanced equation has the same number of atoms of each element on both sides, because atoms are neither made nor destroyed. The numbers put in front of the formulae are the coefficients; they give the ratio of moles.\nRules:\n• Change only the coefficients. Never change a subscript: that would change the substance.\n• Balance the element that appears in fewest places first, and leave hydrogen and oxygen to the end.\n• Count again at the end, element by element.\nExample: balance Fe2O3 + CO → Fe + CO2.\nIron: 2 on the left, so put 2 in front of Fe. Oxygen: 3 + 1 = 4 on the left against 2 on the right; trying 3CO and 3CO2 gives 3 + 3 = 6 on each side. The balanced equation is Fe2O3 + 3CO → 2Fe + 3CO2.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to balance an equation by changing only the coefficients, and read the mole ratio from it.\nBuilds on: Form Three balancing simple equations and Lesson {25} (using the ratio).\nLeads to: Lesson {29} (adding state symbols) and every calculation that starts from an equation."
+   },
+   {
+    "heading": "Why and how to balance",
+    "text": "In a chemical reaction atoms are neither made nor destroyed; they are only rearranged. So an equation must have the same number of atoms of each element on both sides.\nThe numbers written IN FRONT of the formulae are the coefficients. They may be changed freely. The small numbers INSIDE a formula are subscripts; they must never be changed, because they say what the substance is. Changing {formula('H2O')} to {formula('H2O2')} turns water into hydrogen peroxide.\nA useful order:\n{1}. balance the element that appears in the fewest places;\n{2}. leave hydrogen and oxygen until last;\n{3}. count every element again at the end."
+   },
+   {
+    "heading": "A worked example and the mole ratio",
+    "text": "Balance {formula('Fe2O3')} + {formula('CO')} → Fe + {formula('CO2')}.\n• Iron: {2} on the left, so write {2}Fe.\n• Oxygen: {3} + {1} = {4} on the left, {2} on the right. Try {3}{formula('CO')} and {3}{formula('CO2')}: {3} + {3} = {6} on the left and {6} on the right.\n• Carbon: {3} and {3}. Balanced: {formula('Fe2O3')} + {3}{formula('CO')} → {2}Fe + {3}{formula('CO2')}.\nOnce balanced, the coefficients give the MOLE RATIO, which is what every calculation uses: {1} mol of {formula('Fe2O3')} needs {3} mol of {formula('CO')} and gives {2} mol of iron."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "coefficient",
+    "meaning": "the number written in front of a formula"
+   },
+   {
+    "word": "subscript",
+    "meaning": "the small number inside a formula, which must not be changed"
+   },
+   {
+    "word": "conservation of matter",
+    "meaning": "atoms are neither made nor destroyed in a reaction"
+   },
+   {
+    "word": "mole ratio",
+    "meaning": "the ratio given by the coefficients"
+   }
+  ],
+  "examples": [
+   "{2}{formula('Mg')} + {formula('O2')} → {2}{formula('MgO')}",
+   "{formula('CH4')} + {2}{formula('O2')} → {formula('CO2')} + {2}{formula('H2O')}"
+  ],
+  "mistake": {
+   "wrong": "balance {formula('H2')} + {formula('O2')} → {formula('H2O')} by writing {formula('H2O2')}",
+   "right": "write {2}{formula('H2')} + {formula('O2')} → {2}{formula('H2O')}",
+   "why": "Changing the subscript changes the substance. Only coefficients may be changed."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 1
+  },
+  "problem": "Balance {formula('Fe2O3')} + {formula('CO')} → Fe + {formula('CO2')}.",
+  "steps": [
+   "Iron appears in fewest places: {2} on the left, so write {2}Fe on the right.",
+   "Carbon: {1} on each side so far; oxygen: {3} + {1} = {4} on the left and {2} on the right.",
+   "Try {3}{formula('CO')} and {3}{formula('CO2')}: oxygen becomes {3} + {3} = {6} on the left and {6} on the right.",
+   "Count again: Fe {2} and {2}; C {3} and {3}; O {6} and {6}."
+  ],
+  "answer": "{formula('Fe2O3')} + {3}{formula('CO')} → {2}Fe + {3}{formula('CO2')}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k28-1",
+    "status": "draft",
+    "idea": "Balance by changing coefficients only; never change a subscript.",
+    "vars": {},
+    "example": [
+     "{formula('H2O')} must stay {formula('H2O')}, not become {formula('H2O2')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-28-rules"
+    }
+   },
+   {
+    "id": "c4k28-2",
+    "status": "draft",
+    "idea": "The coefficients give the ratio of moles.",
+    "vars": {},
+    "example": [
+     "{2}{formula('H2')} + {formula('O2')} → {2}{formula('H2O')} is {2} : {1} : {2} by moles"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-28-coef"
+    }
+   },
+   {
+    "id": "c4k28-3",
+    "status": "draft",
+    "idea": "Count every element again at the end.",
+    "vars": {},
+    "example": [
+     "{formula('Fe2O3')} + {3}{formula('CO')} → {2}Fe + {3}{formula('CO2')}: O is {6} on each side"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-28-count-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "moles"
+     ],
+     "vars": {
+      "B": {
+       "pick": [
+        {
+         "r": "{2}{formula('Mg')} + {formula('O2')} → {2}{formula('MgO')}",
+         "w1": "{formula('Mg')} + {formula('O2')} → {formula('MgO')}",
+         "w2": "{formula('Mg')} + {formula('O2')} → {formula('MgO2')}",
+         "w3": "{2}{formula('Mg')} + {formula('O2')} → {formula('MgO')}",
+         "y": "Count the atoms: Mg {2} and {2}; O {2} and {2}. The others leave oxygen unbalanced or change the formula."
+        },
+        {
+         "r": "{formula('CH4')} + {2}{formula('O2')} → {formula('CO2')} + {2}{formula('H2O')}",
+         "w1": "{formula('CH4')} + {formula('O2')} → {formula('CO2')} + {formula('H2O')}",
+         "w2": "{formula('CH4')} + {2}{formula('O2')} → {formula('CO2')} + {formula('H2O')}",
+         "w3": "{formula('CH4')} + {3}{formula('O2')} → {formula('CO2')} + {2}{formula('H2O')}",
+         "y": "Count: C {1} and {1}; H {4} and {4}; O {4} and {4}."
+        },
+        {
+         "r": "{formula('N2')} + {3}{formula('H2')} → {2}{formula('NH3')}",
+         "w1": "{formula('N2')} + {formula('H2')} → {formula('NH3')}",
+         "w2": "{formula('N2')} + {2}{formula('H2')} → {2}{formula('NH3')}",
+         "w3": "{formula('N2')} + {3}{formula('H2')} → {formula('NH3')}",
+         "y": "Count: N {2} and {2}; H {6} and {6}."
+        },
+        {
+         "r": "{2}{formula('H2')} + {formula('O2')} → {2}{formula('H2O')}",
+         "w1": "{formula('H2')} + {formula('O2')} → {formula('H2O')}",
+         "w2": "{formula('H2')} + {formula('O2')} → {formula('H2O2')}",
+         "w3": "{2}{formula('H2')} + {2}{formula('O2')} → {2}{formula('H2O')}",
+         "y": "Count: H {4} and {4}; O {2} and {2}."
+        }
+       ]
+      }
+     },
+     "prompt": "Which equation is correctly balanced?",
+     "correct": "{B.r}",
+     "distractors": [
+      {
+       "text": "{B.w1}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{B.w2}",
+       "misconception": "w2"
+      },
+      {
+       "text": "{B.w3}",
+       "misconception": "w3"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w1",
+       "explain": "{B.y}"
+      },
+      {
+       "id": "w2",
+       "explain": "{B.y}"
+      },
+      {
+       "id": "w3",
+       "explain": "{B.y}"
+      }
+     ],
+     "solution": [
+      "{B.y}",
+      "So the answer is: {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-28-rules",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why must a chemical equation be balanced?",
+       "r": "Atoms are neither made nor destroyed, so each element must have the same number of atoms on both sides",
+       "w": [
+        "To make the equation look tidy",
+        "So that the masses of the reactants are equal",
+        "So that there is the same number of molecules on both sides"
+       ],
+       "e": [
+        "Balancing is not about appearance; it states a law of nature.",
+        "The two reactants may have very different masses; it is the atoms that must match.",
+        "The number of MOLECULES often changes; it is the atoms that are conserved."
+       ],
+       "y": "Balancing states the conservation of matter: the same atoms are simply rearranged."
+      },
+      {
+       "q": "What may be changed when balancing an equation?",
+       "r": "Only the coefficients, the numbers in front of the formulae",
+       "w": [
+        "The subscripts inside the formulae",
+        "Both the subscripts and the coefficients",
+        "Nothing at all"
+       ],
+       "e": [
+        "Changing a subscript changes the substance: {formula('H2O')} is water, but {formula('H2O2')} is not.",
+        "Subscripts must never be changed; they belong to the formula.",
+        "The coefficients are exactly what is adjusted."
+       ],
+       "y": "A coefficient says how many units react; a subscript says what the substance IS."
+      },
+      {
+       "q": "What does the equation {2}{formula('H2')} + {formula('O2')} → {2}{formula('H2O')} tell us?",
+       "r": "{2} mol of hydrogen react with {1} mol of oxygen to give {2} mol of water",
+       "w": [
+        "{2} g of hydrogen react with {1} g of oxygen",
+        "{2} molecules make {1} molecule",
+        "Hydrogen and oxygen react in equal masses"
+       ],
+       "e": [
+        "The coefficients are moles (or molecules), not grams.",
+        "It is {2} molecules of hydrogen with {1} of oxygen giving {2} of water.",
+        "{4} g of hydrogen react with {32} g of oxygen: not equal masses."
+       ],
+       "y": "The coefficients give the ratio of moles, which is also the ratio of molecules."
+      },
+      {
+       "q": "In {formula('Fe2O3')} + {3}{formula('CO')} → {2}Fe + {3}{formula('CO2')}, how many moles of carbon monoxide react with {1} mol of iron(III) oxide?",
+       "r": "{3} mol",
+       "w": [
+        "{1} mol",
+        "{2} mol",
+        "{6} mol"
+       ],
+       "e": [
+        "The coefficient of {formula('CO')} is {3}, not {1}.",
+        "{2} is the coefficient of the iron.",
+        "{6} is twice the coefficient of the carbon monoxide."
+       ],
+       "y": "Read the coefficient in front of {formula('CO')}: it is {3}."
+      },
+      {
+       "q": "A pupil balances an equation by changing {formula('H2O')} into {formula('H2O2')}. What is wrong?",
+       "r": "{formula('H2O2')} is hydrogen peroxide, a different substance from water",
+       "w": [
+        "Nothing: it balances the equation",
+        "{formula('H2O2')} does not exist",
+        "The coefficient should have been changed to {2} as well"
+       ],
+       "e": [
+        "Balancing must not change which substances take part.",
+        "Hydrogen peroxide does exist, but it is not water.",
+        "No change of coefficient can make up for changing the formula."
+       ],
+       "y": "Subscripts belong to the formula of the substance and must never be changed to balance."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-28-coef",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "E": {
+     "pick": [
+      {
+       "eq": "{2}{formula('H2')} + {formula('O2')} → {2}{formula('H2O')}",
+       "t": "{formula('O2')}",
+       "c": 1
+      },
+      {
+       "eq": "{2}{formula('H2')} + {formula('O2')} → {2}{formula('H2O')}",
+       "t": "{formula('H2O')}",
+       "c": 2
+      },
+      {
+       "eq": "{formula('Fe2O3')} + {3}{formula('CO')} → {2}Fe + {3}{formula('CO2')}",
+       "t": "{formula('CO')}",
+       "c": 3
+      },
+      {
+       "eq": "{formula('N2')} + {3}{formula('H2')} → {2}{formula('NH3')}",
+       "t": "{formula('H2')}",
+       "c": 3
+      },
+      {
+       "eq": "{formula('CH4')} + {2}{formula('O2')} → {formula('CO2')} + {2}{formula('H2O')}",
+       "t": "{formula('O2')}",
+       "c": 2
+      },
+      {
+       "eq": "{2}{formula('Mg')} + {formula('O2')} → {2}{formula('MgO')}",
+       "t": "{formula('MgO')}",
+       "c": 2
+      }
+     ]
+    }
+   },
+   "prompt": "In the equation {E.eq}, what is the coefficient of {E.t}?",
+   "answer": "E.c",
+   "misconceptions": [
+    {
+     "id": "one",
+     "wrong": "1",
+     "explain": "A number is written in front of {E.t} in this equation: read it again."
+    },
+    {
+     "id": "sub",
+     "wrong": "2",
+     "explain": "Read the number in FRONT of the formula, not a subscript inside it."
+    }
+   ],
+   "solution": [
+    "Read the number written in front of {E.t}.",
+    "It is {answer}. (A formula with no number in front has a coefficient of {1}.)"
+   ]
+  },
+  {
+   "id": "k4-28-count",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "B": {
+     "pick": [
+      {
+       "r": "{2}{formula('Mg')} + {formula('O2')} → {2}{formula('MgO')}",
+       "w1": "{formula('Mg')} + {formula('O2')} → {formula('MgO')}",
+       "w2": "{formula('Mg')} + {formula('O2')} → {formula('MgO2')}",
+       "w3": "{2}{formula('Mg')} + {formula('O2')} → {formula('MgO')}",
+       "y": "Count the atoms: Mg {2} and {2}; O {2} and {2}. The others leave oxygen unbalanced or change the formula."
+      },
+      {
+       "r": "{formula('CH4')} + {2}{formula('O2')} → {formula('CO2')} + {2}{formula('H2O')}",
+       "w1": "{formula('CH4')} + {formula('O2')} → {formula('CO2')} + {formula('H2O')}",
+       "w2": "{formula('CH4')} + {2}{formula('O2')} → {formula('CO2')} + {formula('H2O')}",
+       "w3": "{formula('CH4')} + {3}{formula('O2')} → {formula('CO2')} + {2}{formula('H2O')}",
+       "y": "Count: C {1} and {1}; H {4} and {4}; O {4} and {4}."
+      },
+      {
+       "r": "{formula('N2')} + {3}{formula('H2')} → {2}{formula('NH3')}",
+       "w1": "{formula('N2')} + {formula('H2')} → {formula('NH3')}",
+       "w2": "{formula('N2')} + {2}{formula('H2')} → {2}{formula('NH3')}",
+       "w3": "{formula('N2')} + {3}{formula('H2')} → {formula('NH3')}",
+       "y": "Count: N {2} and {2}; H {6} and {6}."
+      },
+      {
+       "r": "{2}{formula('H2')} + {formula('O2')} → {2}{formula('H2O')}",
+       "w1": "{formula('H2')} + {formula('O2')} → {formula('H2O')}",
+       "w2": "{formula('H2')} + {formula('O2')} → {formula('H2O2')}",
+       "w3": "{2}{formula('H2')} + {2}{formula('O2')} → {2}{formula('H2O')}",
+       "y": "Count: H {4} and {4}; O {2} and {2}."
+      }
+     ]
+    }
+   },
+   "prompt": "Which equation is correctly balanced?",
+   "correct": "{B.r}",
+   "distractors": [
+    {
+     "text": "{B.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{B.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{B.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{B.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{B.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{B.y}"
+    }
+   ],
+   "solution": [
+    "{B.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "k4-28-moles",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      0.1,
+      0.25,
+      0.5,
+      1,
+      2,
+      2.5
+     ]
+    }
+   },
+   "prompt": "In {formula('N2')} + {3}{formula('H2')} → {2}{formula('NH3')}, how many moles of hydrogen are needed for {n} mol of nitrogen?",
+   "answer": "3 * n",
+   "misconceptions": [
+    {
+     "id": "two",
+     "wrong": "2 * n",
+     "explain": "{2} is the coefficient of the ammonia, not of the hydrogen."
+    },
+    {
+     "id": "same",
+     "wrong": "n",
+     "explain": "Each mole of nitrogen needs {3} mol of hydrogen."
+    }
+   ],
+   "solution": [
+    "The ratio of {formula('N2')} to {formula('H2')} is {1} : {3}.",
+    "{n} × {3} = {answer} mol."
+   ],
+   "unit": "mol"
+  },
+  {
+   "id": "k4-28-mass",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "m": {
+     "pick": [
+      2.4,
+      4.8,
+      12,
+      24,
+      48
+     ]
+    }
+   },
+   "prompt": "In {2}{formula('Mg')} + {formula('O2')} → {2}{formula('MgO')}, what mass of oxygen, in grams, reacts with {m} g of magnesium?",
+   "answer": "roundTo(massOf(molesOf(m, 'Mg') / 2, 'O2'), 0.01)",
+   "misconceptions": [
+    {
+     "id": "noratio",
+     "wrong": "roundTo(massOf(molesOf(m, 'Mg'), 'O2'), 0.01)",
+     "explain": "The ratio is {2} mol of Mg to {1} mol of {formula('O2')}: halve it."
+    },
+    {
+     "id": "atom",
+     "wrong": "roundTo(massOf(molesOf(m, 'Mg') / 2, 'O'), 0.01)",
+     "explain": "Oxygen gas is {formula('O2')}, of molar mass {molarMass('O2')}."
+    }
+   ],
+   "solution": [
+    "Moles of Mg = {m} ÷ {ram('Mg')} = {roundTo(molesOf(m, 'Mg'), 0.001)} mol.",
+    "The ratio of Mg to {formula('O2')} is {2} : {1}, so moles of {formula('O2')} = {roundTo(molesOf(m, 'Mg') / 2, 0.001)} mol.",
+    "Mass = {roundTo(molesOf(m, 'Mg') / 2, 0.001)} × {molarMass('O2')} = {answer} g."
+   ],
+   "unit": "g"
+  }
+ ]
+}

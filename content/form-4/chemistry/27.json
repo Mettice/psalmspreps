@@ -1,0 +1,534 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 27,
+ "language": "en",
+ "prerequisites": [
+  26
+ ],
+ "skills": [
+  {
+   "id": "k4-27",
+   "name": "Calculate the percentage yield of a reaction"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Percentage yield = (actual yield ÷ theoretical yield) × 100 per cent.\nTo work one out:\n1. Find the moles of the limiting reagent.\n2. Use the equation to find the moles of product expected.\n3. Change that to a mass: this is the theoretical yield.\n4. Divide the actual yield by it and multiply by 100.\nA yield above 100 per cent is impossible; if one is calculated, the product is probably still wet or impure.\nYields matter in industry: a low yield wastes raw material, so the cost of the reactants, the energy used and the purity of the product are all weighed up together when a process is chosen.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to calculate a percentage yield from experimental masses and explain why yields fall short.\nBuilds on: Lesson {26} (theoretical yield and limiting reagents) and Lesson {25} (masses from equations).\nLeads to: Lesson {28} (balancing by the mole concept) and the costing of industrial processes."
+   },
+   {
+    "heading": "Working out a percentage yield",
+    "text": "Percentage yield = (actual ÷ theoretical) × {100} per cent.\nThe four steps:\n{1}. find the moles of the limiting reagent;\n{2}. use the equation to find the moles of product expected;\n{3}. change that to a mass: the theoretical yield;\n{4}. divide the actual yield by it and multiply by {100}.\nExample: {10} g of {formula('CaCO3')} is heated and {4.4} g of {formula('CaO')} is collected.\nMoles of carbonate = {10} ÷ {100} = {0.1}; so {0.1} mol of {formula('CaO')}, which is {0.1} × {56} = {5.6} g.\nPercentage yield = {4.4} ÷ {5.6} × {100} = {78.6} per cent."
+   },
+   {
+    "heading": "Why yields fall short, and why it matters",
+    "text": "Common reasons:\n• product left on the filter paper, the beaker or the stirring rod;\n• product that stays dissolved in the solvent;\n• a reaction that does not go to completion, or that reverses;\n• side reactions making something else.\nA yield above {100} per cent is impossible, because atoms are conserved. If one is calculated, the product was probably weighed before it was dry, so water was counted as product. The cure is to dry to constant mass.\nIn industry a low yield means buying more raw material for the same output, so it costs more. A process is chosen by weighing up yield, the cost of the reactants, the energy needed, the time taken and the purity of the product."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "actual yield",
+    "meaning": "the mass of product really collected"
+   },
+   {
+    "word": "theoretical yield",
+    "meaning": "the mass the equation predicts"
+   },
+   {
+    "word": "percentage yield",
+    "meaning": "actual ÷ theoretical × {100}"
+   },
+   {
+    "word": "constant mass",
+    "meaning": "the mass once no more water can be driven off"
+   }
+  ],
+  "examples": [
+   "{4.4} g of a possible {5.6} g: {78.6} per cent",
+   "{8} g of a possible {10} g: {80} per cent"
+  ],
+  "mistake": {
+   "wrong": "a yield of {110} per cent shows an unusually good reaction",
+   "right": "it shows the product was wet or impure",
+   "why": "Atoms are conserved, so no reaction can beat its theoretical yield."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": 10,
+   "y": 4.4
+  },
+  "problem": "{m} g of calcium carbonate is heated and {y} g of calcium oxide is collected. Find the percentage yield.",
+  "steps": [
+   "{formula('CaCO3')} → {formula('CaO')} + {formula('CO2')}.",
+   "Moles of {formula('CaCO3')} = {m} ÷ {molarMass('CaCO3')} = {roundTo(molesOf(m, 'CaCO3'), 0.001)} mol.",
+   "Theoretical mass of {formula('CaO')} = {roundTo(molesOf(m, 'CaCO3'), 0.001)} × {molarMass('CaO')} = {roundTo(massOf(molesOf(m, 'CaCO3'), 'CaO'), 0.01)} g.",
+   "Percentage yield = {y} ÷ {roundTo(massOf(molesOf(m, 'CaCO3'), 'CaO'), 0.01)} × {100}."
+  ],
+  "answer": "{percentYield(y, massOf(molesOf(m, 'CaCO3'), 'CaO'))} per cent",
+  "checks": [
+   "molarMass('CaO') == 56"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k27-1",
+    "status": "draft",
+    "idea": "Percentage yield = actual ÷ theoretical × {100}.",
+    "vars": {},
+    "example": [
+     "{8} g collected out of a possible {10} g is {80} per cent"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-27-why"
+    }
+   },
+   {
+    "id": "c4k27-2",
+    "status": "draft",
+    "idea": "Work out the theoretical yield from the equation first.",
+    "vars": {},
+    "example": [
+     "{10} g {formula('CaCO3')} should give {5.6} g {formula('CaO')}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-27-theory-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "moles"
+     ],
+     "vars": {
+      "m": {
+       "pick": [
+        2.4,
+        4.8,
+        7.2,
+        12,
+        24,
+        48
+       ]
+      }
+     },
+     "prompt": "What is the theoretical mass, in grams, of magnesium oxide from burning {m} g of magnesium completely?",
+     "answer": "roundTo(massOf(molesOf(m, 'Mg'), 'MgO'), 0.01)",
+     "misconceptions": [
+      {
+       "id": "same",
+       "wrong": "m",
+       "explain": "Oxygen adds to the mass, so the oxide is heavier than the magnesium."
+      },
+      {
+       "id": "half",
+       "wrong": "roundTo(massOf(molesOf(m, 'Mg') / 2, 'MgO'), 0.01)",
+       "explain": "The ratio is {2} : {2}, that is {1} mol of oxide for each {1} mol of magnesium."
+      }
+     ],
+     "solution": [
+      "{2}Mg + {formula('O2')} → {2}{formula('MgO')}: {1} mol of Mg gives {1} mol of {formula('MgO')}.",
+      "Moles of Mg = {m} ÷ {ram('Mg')} = {roundTo(molesOf(m, 'Mg'), 0.001)} mol.",
+      "Mass of {formula('MgO')} = {roundTo(molesOf(m, 'Mg'), 0.001)} × {molarMass('MgO')} = {answer} g."
+     ],
+     "unit": "g"
+    }
+   },
+   {
+    "id": "c4k27-3",
+    "status": "draft",
+    "idea": "A yield above {100} per cent means the product is wet or impure.",
+    "vars": {},
+    "example": [
+     "dry the product to constant mass before weighing it"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-27-over-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "moles"
+     ],
+     "vars": {
+      "t": {
+       "pick": [
+        10,
+        20,
+        25,
+        40,
+        50
+       ]
+      },
+      "e": {
+       "pick": [
+        0.5,
+        1,
+        1.5,
+        2,
+        3
+       ]
+      },
+      "y": {
+       "expr": "roundTo(t + e, 0.01)"
+      }
+     },
+     "prompt": "A reaction has a theoretical yield of {t} g. A pupil weighs the product and finds {y} g. By what mass, in grams, must the product be wet or impure?",
+     "answer": "roundTo(y - t, 0.01)",
+     "misconceptions": [
+      {
+       "id": "sum",
+       "wrong": "roundTo(y + t, 0.01)",
+       "explain": "Find the DIFFERENCE between what was weighed and what was possible."
+      },
+      {
+       "id": "pc",
+       "wrong": "percentYield(y, t)",
+       "explain": "That is the percentage yield; the question asks for a mass in grams."
+      }
+     ],
+     "solution": [
+      "No reaction can give more than its theoretical yield of {t} g.",
+      "The extra mass must be water or impurity: {y} − {t} = {answer} g."
+     ],
+     "unit": "g"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-27-why",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why can a percentage yield never be more than {100} per cent?",
+       "r": "No more product can be made than the equation allows from the reactants used",
+       "w": [
+        "Because the balance is not accurate enough",
+        "Because some reactant is always left over",
+        "It can be more than {100} per cent in a good experiment"
+       ],
+       "e": [
+        "A more accurate balance would not create extra product.",
+        "Leftover reactant lowers the yield, it does not raise it.",
+        "A figure above {100} per cent means the product is wet or impure."
+       ],
+       "y": "Atoms are conserved: the theoretical yield already counts every atom available."
+      },
+      {
+       "q": "A pupil calculates a percentage yield of {110} per cent. What is the most likely reason?",
+       "r": "The product was weighed before it was dry, so the water counted as product",
+       "w": [
+        "The reaction was very efficient",
+        "The balance was set to zero",
+        "The theoretical yield was too large"
+       ],
+       "e": [
+        "No reaction can beat its theoretical yield.",
+        "Zeroing the balance is correct practice and would not raise the mass.",
+        "A theoretical yield that was too large would give a yield BELOW {100} per cent."
+       ],
+       "y": "Water or unreacted material left in the product adds to the mass weighed."
+      },
+      {
+       "q": "Which of these lowers the percentage yield?",
+       "r": "Some of the product stays on the filter paper",
+       "w": [
+        "Using a cleaner balance",
+        "Writing the equation correctly",
+        "Using excess of the other reactant"
+       ],
+       "e": [
+        "A cleaner balance gives a more accurate reading, not a lower yield.",
+        "A correct equation gives the right theoretical yield.",
+        "Excess of the other reactant does not change what the limiting reagent can give."
+       ],
+       "y": "Any product left behind in the apparatus is not weighed, so the actual yield falls."
+      },
+      {
+       "q": "Why does industry care about percentage yield?",
+       "r": "A low yield wastes raw material and money, so the process may not be worth running",
+       "w": [
+        "A low yield makes the product impure",
+        "A low yield makes the reaction dangerous",
+        "Yield has nothing to do with cost"
+       ],
+       "e": [
+        "Purity and yield are different measurements.",
+        "A low yield is wasteful, not necessarily dangerous.",
+        "Raw materials cost money, so the yield is central to the cost."
+       ],
+       "y": "If only half the reactant becomes product, twice as much must be bought for the same output."
+      },
+      {
+       "q": "Two methods make the same product. One has a yield of {85} per cent and the other {40} per cent. What else must be known before choosing?",
+       "r": "The cost and availability of the reactants, the energy needed and how pure the product is",
+       "w": [
+        "Nothing: always choose the higher yield",
+        "Only the colour of the product",
+        "Only how long each method takes"
+       ],
+       "e": [
+        "A high yield from a very expensive reactant can still be the worse choice.",
+        "Colour is not usually what decides a process.",
+        "Time matters, but so do cost, energy and purity."
+       ],
+       "y": "Yield is one factor among several in choosing an industrial process."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-27-pc",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "t": {
+     "pick": [
+      8,
+      10,
+      16,
+      20,
+      25,
+      40,
+      50
+     ]
+    },
+    "f": {
+     "pick": [
+      0.4,
+      0.5,
+      0.6,
+      0.75,
+      0.8,
+      0.9
+     ]
+    },
+    "y": {
+     "expr": "roundTo(t * f, 0.01)"
+    }
+   },
+   "prompt": "A reaction should give {t} g of product and {y} g is collected. What is the percentage yield?",
+   "answer": "percentYield(y, t)",
+   "misconceptions": [
+    {
+     "id": "swap",
+     "wrong": "percentYield(t, y)",
+     "explain": "Divide the ACTUAL yield by the theoretical one."
+    },
+    {
+     "id": "diff",
+     "wrong": "roundTo(t - y, 0.01)",
+     "explain": "That is the mass lost, not a percentage."
+    }
+   ],
+   "solution": [
+    "Percentage yield = actual ÷ theoretical × {100}.",
+    "{y} ÷ {t} × {100} = {answer} per cent."
+   ],
+   "unit": "%"
+  },
+  {
+   "id": "k4-27-theory",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "m": {
+     "pick": [
+      2.4,
+      4.8,
+      7.2,
+      12,
+      24,
+      48
+     ]
+    }
+   },
+   "prompt": "What is the theoretical mass, in grams, of magnesium oxide from burning {m} g of magnesium completely?",
+   "answer": "roundTo(massOf(molesOf(m, 'Mg'), 'MgO'), 0.01)",
+   "misconceptions": [
+    {
+     "id": "same",
+     "wrong": "m",
+     "explain": "Oxygen adds to the mass, so the oxide is heavier than the magnesium."
+    },
+    {
+     "id": "half",
+     "wrong": "roundTo(massOf(molesOf(m, 'Mg') / 2, 'MgO'), 0.01)",
+     "explain": "The ratio is {2} : {2}, that is {1} mol of oxide for each {1} mol of magnesium."
+    }
+   ],
+   "solution": [
+    "{2}Mg + {formula('O2')} → {2}{formula('MgO')}: {1} mol of Mg gives {1} mol of {formula('MgO')}.",
+    "Moles of Mg = {m} ÷ {ram('Mg')} = {roundTo(molesOf(m, 'Mg'), 0.001)} mol.",
+    "Mass of {formula('MgO')} = {roundTo(molesOf(m, 'Mg'), 0.001)} × {molarMass('MgO')} = {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "k4-27-full",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "m": {
+     "pick": [
+      2.4,
+      4.8,
+      12,
+      24
+     ]
+    },
+    "f": {
+     "pick": [
+      0.5,
+      0.6,
+      0.75,
+      0.8,
+      0.9
+     ]
+    },
+    "y": {
+     "expr": "roundTo(massOf(molesOf(m, 'Mg'), 'MgO') * f, 0.01)"
+    }
+   },
+   "prompt": "{m} g of magnesium is burned and {y} g of magnesium oxide is collected. What is the percentage yield?",
+   "answer": "percentYield(y, massOf(molesOf(m, 'Mg'), 'MgO'))",
+   "misconceptions": [
+    {
+     "id": "mg",
+     "wrong": "percentYield(y, m)",
+     "explain": "Compare the yield with the theoretical mass of the OXIDE, not of the magnesium."
+    },
+    {
+     "id": "swap",
+     "wrong": "percentYield(massOf(molesOf(m, 'Mg'), 'MgO'), y)",
+     "explain": "Divide the actual yield by the theoretical one."
+    }
+   ],
+   "solution": [
+    "Theoretical mass of {formula('MgO')} = {roundTo(massOf(molesOf(m, 'Mg'), 'MgO'), 0.01)} g.",
+    "Percentage yield = {y} ÷ {roundTo(massOf(molesOf(m, 'Mg'), 'MgO'), 0.01)} × {100} = {answer} per cent."
+   ],
+   "unit": "%"
+  },
+  {
+   "id": "k4-27-over",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "t": {
+     "pick": [
+      10,
+      20,
+      25,
+      40,
+      50
+     ]
+    },
+    "e": {
+     "pick": [
+      0.5,
+      1,
+      1.5,
+      2,
+      3
+     ]
+    },
+    "y": {
+     "expr": "roundTo(t + e, 0.01)"
+    }
+   },
+   "prompt": "A reaction has a theoretical yield of {t} g. A pupil weighs the product and finds {y} g. By what mass, in grams, must the product be wet or impure?",
+   "answer": "roundTo(y - t, 0.01)",
+   "misconceptions": [
+    {
+     "id": "sum",
+     "wrong": "roundTo(y + t, 0.01)",
+     "explain": "Find the DIFFERENCE between what was weighed and what was possible."
+    },
+    {
+     "id": "pc",
+     "wrong": "percentYield(y, t)",
+     "explain": "That is the percentage yield; the question asks for a mass in grams."
+    }
+   ],
+   "solution": [
+    "No reaction can give more than its theoretical yield of {t} g.",
+    "The extra mass must be water or impurity: {y} − {t} = {answer} g."
+   ],
+   "unit": "g"
+  }
+ ]
+}

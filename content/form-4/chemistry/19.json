@@ -1,0 +1,472 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 19,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "k4-19",
+   "name": "Define relative atomic mass, relative molecular mass, molar mass and molar volume"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Relative atomic mass (Ar): the average mass of the atoms of an element compared with one twelfth of the mass of a carbon-12 atom. It is a ratio, so it has no unit. Ar(H) = 1, Ar(C) = 12, Ar(O) = 16, Ar(Cl) = 35.5.\nRelative molecular mass (Mr): the sum of the relative atomic masses of all the atoms in a molecule. Mr(H2O) = 2 × 1 + 16 = 18.\nFor an ionic compound, which has no molecules, the same sum is called the relative formula mass. Mr(NaCl) = 23 + 35.5 = 58.5.\nMolar mass: the mass of one mole of a substance, in g/mol. Its number is the same as the relative atomic or molecular mass.\nMolar volume: the volume of one mole of ANY gas, 22.4 dm³ at s.t.p. (0 °C and one atmosphere).",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to define and use relative atomic mass, relative molecular mass, molar mass and molar volume.\nBuilds on: Form Three relative atomic mass and the mole of atoms.\nLeads to: Lesson {20} (the mole and the Avogadro constant) and every calculation in this chapter."
+   },
+   {
+    "heading": "Relative masses",
+    "text": "Atoms are far too light to weigh one at a time, so their masses are compared with a standard.\nRELATIVE ATOMIC MASS (Ar) is the average mass of the atoms of an element compared with one twelfth of the mass of a carbon-{12} atom. Being a ratio, it has no unit: Ar(H) = {1}, Ar(C) = {12}, Ar(O) = {16}, Ar(Cl) = {35.5}.\nRELATIVE MOLECULAR MASS (Mr) adds the relative atomic masses of all the atoms in a molecule:\n{formula('H2O')} = {2} × {1} + {16} = {18}; {formula('H2SO4')} = {2} + {32} + {64} = {98}.\nAn ionic compound has no molecules, so the same sum is called the RELATIVE FORMULA MASS: {formula('NaCl')} = {23} + {35.5} = {58.5}."
+   },
+   {
+    "heading": "Molar mass and molar volume",
+    "text": "MOLAR MASS is the mass of one mole, in grams per mole. Its number is the same as the relative atomic or molecular mass, so one mole of water is {18} g and one mole of carbon dioxide is {44} g.\nMOLAR VOLUME is the volume of one mole of any GAS: {22.4} dm³ at s.t.p., which means {0} °C and one atmosphere.\nThat the same volume holds a mole of any gas follows from Avogadro's law: equal volumes of gases at the same temperature and pressure hold equal numbers of molecules. In a gas the molecules are so far apart that their own size and mass hardly matter."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "relative atomic mass (Ar)",
+    "meaning": "the mass of an atom compared with one twelfth of a carbon-{12} atom"
+   },
+   {
+    "word": "relative molecular mass (Mr)",
+    "meaning": "the sum of the relative atomic masses in a molecule"
+   },
+   {
+    "word": "molar mass",
+    "meaning": "the mass of one mole, in g/mol"
+   },
+   {
+    "word": "molar volume",
+    "meaning": "{22.4} dm³/mol, the volume of one mole of any gas at s.t.p."
+   },
+   {
+    "word": "s.t.p.",
+    "meaning": "standard temperature and pressure: {0} °C and one atmosphere"
+   }
+  ],
+  "examples": [
+   "Mr({formula('CO2')}) = {44}",
+   "Mr({formula('NaCl')}) = {58.5}",
+   "{1} mol of any gas = {22.4} dm³ at s.t.p."
+  ],
+  "mistake": {
+   "wrong": "relative atomic mass is measured in grams",
+   "right": "it has no unit at all",
+   "why": "It is a RATIO of two masses, so the units cancel. The molar mass, in g/mol, is the one with a unit."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "F": "H2SO4"
+  },
+  "problem": "Find the relative molecular mass of {formula(F)} and state its molar mass.",
+  "steps": [
+   "Count the atoms: {totalAtoms(F)} in all.",
+   "Add the relative atomic masses: H is {ram('H')}, S is {ram('S')} and O is {ram('O')}.",
+   "{2} × {ram('H')} + {ram('S')} + {4} × {ram('O')} = {molarMass(F)}.",
+   "The molar mass is the same number with the unit g/mol."
+  ],
+  "answer": "relative molecular mass {molarMass(F)}; molar mass {molarMass(F)} g/mol",
+  "checks": [
+   "molarMass('H2SO4') == 98"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k19-1",
+    "status": "draft",
+    "idea": "Relative atomic mass compares an atom with one twelfth of a carbon-{12} atom; it has no unit.",
+    "vars": {},
+    "example": [
+     "Ar(H) = {1}, Ar(C) = {12}, Ar(O) = {16}, Ar(Cl) = {35.5}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-19-define"
+    }
+   },
+   {
+    "id": "c4k19-2",
+    "status": "draft",
+    "idea": "Relative molecular mass is the sum of the relative atomic masses in the formula.",
+    "vars": {},
+    "example": [
+     "{formula('H2O')}: {2} × {1} + {16} = {18}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-19-mr"
+    }
+   },
+   {
+    "id": "c4k19-3",
+    "status": "draft",
+    "idea": "Molar mass is in g/mol; molar volume is {22.4} dm³/mol for any gas at s.t.p.",
+    "vars": {},
+    "example": [
+     "{1} mol of {formula('CO2')} is {44} g and fills {22.4} dm³ at s.t.p."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-19-molar"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-19-define",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the relative atomic mass of an element?",
+       "r": "The average mass of its atoms compared with one twelfth of the mass of a carbon-12 atom",
+       "w": [
+        "The mass of one atom in grams",
+        "The number of protons in an atom",
+        "The mass of one mole in kilograms"
+       ],
+       "e": [
+        "The mass of a single atom in grams is far too small to be convenient; a RELATIVE mass is used.",
+        "The number of protons is the atomic number, not the mass.",
+        "The molar mass is in grams per mole, and relative atomic mass has no unit."
+       ],
+       "y": "It is a ratio, so it has no unit: the relative atomic mass of carbon is {12} exactly."
+      },
+      {
+       "q": "What is the relative molecular mass of a compound?",
+       "r": "The sum of the relative atomic masses of all the atoms in its molecule",
+       "w": [
+        "The mass of one molecule in grams",
+        "The number of atoms in the molecule",
+        "The mass of one mole of its atoms"
+       ],
+       "e": [
+        "Again, a relative mass is used, not the tiny mass in grams.",
+        "The number of atoms is a count, not a mass.",
+        "That would be the molar mass of the element, not of the compound."
+       ],
+       "y": "For {formula('H2O')}: {2} × {1} + {16} = {18}."
+      },
+      {
+       "q": "Why is 'relative formula mass' used for sodium chloride rather than 'relative molecular mass'?",
+       "r": "Sodium chloride is ionic, so it has no molecules, only a lattice of ions",
+       "w": [
+        "Its molecules are too large",
+        "It has no mass",
+        "The two terms mean exactly the same thing"
+       ],
+       "e": [
+        "Size is not the point; an ionic solid has no separate molecules at all.",
+        "It certainly has mass; the point is what the formula stands for.",
+        "'Molecular' is used where molecules exist; 'formula' covers ionic compounds too."
+       ],
+       "y": "{formula('NaCl')} is the simplest ratio of ions in the lattice, so the mass found from it is a formula mass."
+      },
+      {
+       "q": "What is molar mass?",
+       "r": "The mass of one mole of a substance, in grams per mole",
+       "w": [
+        "The number of particles in one mole",
+        "The volume of one mole of a gas",
+        "The mass of one atom"
+       ],
+       "e": [
+        "The number of particles is the Avogadro constant.",
+        "That is the molar volume, {22.4} dm³/mol at s.t.p.",
+        "The mass of one atom is a tiny number of grams."
+       ],
+       "y": "The molar mass in g/mol is the same number as the relative atomic or molecular mass."
+      },
+      {
+       "q": "What is molar volume?",
+       "r": "The volume occupied by one mole of any gas, {22.4} dm³ at s.t.p.",
+       "w": [
+        "The volume of one mole of any liquid",
+        "The volume of one gram of a gas",
+        "The volume of {6.02} × {10} to the power {23} atoms of a solid"
+       ],
+       "e": [
+        "Liquids and solids have very different molar volumes; the rule holds for gases.",
+        "The molar volume is per MOLE, not per gram.",
+        "The rule applies to gases, not to solids."
+       ],
+       "y": "At the same temperature and pressure, equal volumes of gases hold equal numbers of molecules."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-19-mr",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "F": {
+     "pick": [
+      "H2O",
+      "CO2",
+      "NaCl",
+      "CaCO3",
+      "H2SO4",
+      "NH3",
+      "MgO",
+      "CuO",
+      "Fe2O3",
+      "NaOH",
+      "KNO3",
+      "ZnO"
+     ]
+    }
+   },
+   "prompt": "Find the relative molecular (or formula) mass of {formula(F)}.",
+   "answer": "molarMass(F)",
+   "misconceptions": [
+    {
+     "id": "atoms",
+     "wrong": "totalAtoms(F)",
+     "explain": "{totalAtoms(F)} is the NUMBER of atoms, not their total mass."
+    },
+    {
+     "id": "first",
+     "wrong": "ram(symbolsIn(F)[0])",
+     "explain": "Include every atom, not just the first element."
+    }
+   ],
+   "solution": [
+    "Add the relative atomic mass of every atom in the formula.",
+    "{formula(F)} has {totalAtoms(F)} atoms from {elementCount(F)} elements.",
+    "The answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-19-molar",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "F": {
+     "pick": [
+      "H2O",
+      "CO2",
+      "NaCl",
+      "CaCO3",
+      "H2SO4",
+      "NH3",
+      "MgO",
+      "CuO",
+      "Fe2O3",
+      "NaOH",
+      "KNO3",
+      "ZnO"
+     ]
+    }
+   },
+   "prompt": "What is the mass, in grams, of {1} mole of {formula(F)}?",
+   "answer": "molarMass(F)",
+   "misconceptions": [
+    {
+     "id": "atoms",
+     "wrong": "totalAtoms(F)",
+     "explain": "Add the masses of the atoms; do not count them."
+    },
+    {
+     "id": "vol",
+     "wrong": "22.4",
+     "explain": "{22.4} dm³ is the molar VOLUME of a gas, not a mass."
+    }
+   ],
+   "solution": [
+    "The molar mass in g/mol has the same number as the relative molecular mass.",
+    "For {formula(F)} that is {molarMass(F)}.",
+    "So {1} mole has a mass of {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "k4-19-vol",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      0.1,
+      0.2,
+      0.25,
+      0.5,
+      1,
+      2,
+      3
+     ]
+    },
+    "F": {
+     "pick": [
+      "CO2",
+      "NH3",
+      "SO2",
+      "H2S",
+      "N2",
+      "O2",
+      "H2"
+     ]
+    }
+   },
+   "prompt": "What volume, in dm³ at s.t.p., is occupied by {n} mol of {formula(F)} gas?",
+   "answer": "gasVolume(n)",
+   "misconceptions": [
+    {
+     "id": "mass",
+     "wrong": "massOf(n, F)",
+     "explain": "The question asks for a VOLUME in dm³, not a mass in grams."
+    },
+    {
+     "id": "div",
+     "wrong": "volumeToMoles(n)",
+     "explain": "Multiply by {22.4} dm³/mol; do not divide."
+    }
+   ],
+   "solution": [
+    "At s.t.p. {1} mol of any gas fills {22.4} dm³.",
+    "{n} × {22.4} = {answer} dm³."
+   ],
+   "unit": "dm³"
+  },
+  {
+   "id": "k4-19-equal",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "E": {
+     "pick": [
+      {
+       "q": "Two flasks of the same size hold carbon dioxide and hydrogen at the same temperature and pressure. What is the same in both?",
+       "r": "The number of molecules",
+       "w1": "The mass of gas",
+       "w2": "The density of the gas",
+       "w3": "Nothing is the same",
+       "y": "Equal volumes of gases at the same temperature and pressure hold equal numbers of molecules."
+      },
+      {
+       "q": "Why does {1} mol of hydrogen fill the same volume as {1} mol of carbon dioxide at s.t.p., although it is much lighter?",
+       "r": "The molar volume is the same for every gas: the molecules are far apart whatever their mass",
+       "w1": "Hydrogen molecules are larger",
+       "w2": "Carbon dioxide molecules are squashed together",
+       "w3": "They do not fill the same volume",
+       "y": "In a gas the molecules are so far apart that their own size and mass hardly affect the volume."
+      },
+      {
+       "q": "Which holds more molecules at s.t.p.: {22.4} dm³ of oxygen or {22.4} dm³ of ammonia?",
+       "r": "Neither: both hold one mole, that is the same number of molecules",
+       "w1": "The oxygen, because it is denser",
+       "w2": "The ammonia, because its molecules are smaller",
+       "w3": "It cannot be worked out",
+       "y": "Equal volumes at the same temperature and pressure hold equal numbers of molecules."
+      }
+     ]
+    }
+   },
+   "prompt": "{E.q}",
+   "correct": "{E.r}",
+   "distractors": [
+    {
+     "text": "{E.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{E.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{E.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{E.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{E.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{E.y}"
+    }
+   ],
+   "solution": [
+    "{E.y}",
+    "So the answer is: {answer}."
+   ]
+  }
+ ]
+}

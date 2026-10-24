@@ -1,0 +1,403 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 25,
+ "language": "en",
+ "prerequisites": [
+  24
+ ],
+ "skills": [
+  {
+   "id": "k4-25",
+   "name": "Calculate masses and volumes of gases from balanced equations"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A balanced equation gives the ratio of moles. That ratio is the key to every calculation.\nSteps:\n1. Write the balanced equation.\n2. Change what is given into moles (mass ÷ molar mass, or volume ÷ 22.4).\n3. Use the ratio in the equation to find the moles of what is wanted.\n4. Change those moles into a mass or a volume.\nExample: CaCO3 → CaO + CO2. 10 g of CaCO3 is 10 ÷ 100 = 0.1 mol, which gives 0.1 mol of CO2, that is 0.1 × 44 = 4.4 g, or 0.1 × 22.4 = 2.24 dm³ at s.t.p.\nFor gases alone, the mole ratio is also the ratio of the volumes at the same temperature and pressure.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to use a balanced equation to find the mass or volume of any substance in a reaction.\nBuilds on: Lesson {21} (mass, moles and volume) and Form Three balanced equations.\nLeads to: Lesson {26} (when one reactant runs out first) and every quantitative experiment."
+   },
+   {
+    "heading": "Moles are the bridge",
+    "text": "A balanced equation gives the ratio of MOLES, not of masses. In\n{formula('CaCO3')} → {formula('CaO')} + {formula('CO2')}\none mole of the carbonate gives one mole of each product, but their masses are {100} g, {56} g and {44} g.\nEvery calculation has the same four steps:\n{1}. write the balanced equation;\n{2}. change what is given into moles;\n{3}. use the ratio to get the moles of what is wanted;\n{4}. change those moles into a mass or a volume.\nFor {10} g of {formula('CaCO3')}: moles = {10} ÷ {100} = {0.1}; so {0.1} mol of {formula('CO2')}; that is {0.1} × {44} = {4.4} g, or {0.1} × {22.4} = {2.24} dm³ at s.t.p."
+   },
+   {
+    "heading": "Volumes of gases",
+    "text": "When every substance in the ratio is a gas, and all are measured at the same temperature and pressure, the mole ratio is also the VOLUME ratio. This follows from Avogadro's law.\n{formula('N2')} + {3}{formula('H2')} → {2}{formula('NH3')}\nSo {1} dm³ of nitrogen needs {3} dm³ of hydrogen and gives {2} dm³ of ammonia; {10} dm³ of nitrogen gives {20} dm³ of ammonia, with no need to work out any moles at all.\nBe careful: this shortcut works only for gases. For a solid or a liquid in the equation, go through the moles."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "mole ratio",
+    "meaning": "the ratio of the coefficients in a balanced equation"
+   },
+   {
+    "word": "excess",
+    "meaning": "more than enough, so that the other reactant decides the amount made"
+   },
+   {
+    "word": "Avogadro's law",
+    "meaning": "equal volumes of gases at the same temperature and pressure hold equal numbers of molecules"
+   }
+  ],
+  "examples": [
+   "{10} g {formula('CaCO3')} → {4.4} g {formula('CO2')}",
+   "{1} dm³ {formula('N2')} → {2} dm³ {formula('NH3')}"
+  ],
+  "mistake": {
+   "wrong": "{100} g of {formula('CaCO3')} gives {100} g of {formula('CaO')}",
+   "right": "it gives {56} g, because {44} g leaves as {formula('CO2')}",
+   "why": "The equation balances MOLES, not masses; always change to moles first."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": 10
+  },
+  "problem": "What mass of calcium oxide, and what volume of carbon dioxide at s.t.p., are made when {m} g of calcium carbonate decomposes completely?",
+  "steps": [
+   "{formula('CaCO3')} → {formula('CaO')} + {formula('CO2')}.",
+   "Moles of {formula('CaCO3')} = {m} ÷ {molarMass('CaCO3')} = {roundTo(molesOf(m, 'CaCO3'), 0.001)} mol.",
+   "The ratio is {1} : {1} : {1}, so the same number of moles of each product is made.",
+   "Mass of {formula('CaO')} = {roundTo(molesOf(m, 'CaCO3'), 0.001)} × {molarMass('CaO')}; volume of {formula('CO2')} = {roundTo(molesOf(m, 'CaCO3'), 0.001)} × {22.4}."
+  ],
+  "answer": "{roundTo(massOf(molesOf(m, 'CaCO3'), 'CaO'), 0.01)} g of {formula('CaO')} and {roundTo(gasVolume(molesOf(m, 'CaCO3')), 0.01)} dm³ of {formula('CO2')}",
+  "checks": [
+   "molarMass('CaCO3') == 100"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k25-1",
+    "status": "draft",
+    "idea": "A balanced equation gives the ratio of MOLES, not of masses.",
+    "vars": {},
+    "example": [
+     "{formula('CaCO3')} → {formula('CaO')} + {formula('CO2')} is {1} : {1} : {1} by moles"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-25-ratio"
+    }
+   },
+   {
+    "id": "c4k25-2",
+    "status": "draft",
+    "idea": "Change to moles, use the ratio, then change back.",
+    "vars": {},
+    "example": [
+     "{10} g {formula('CaCO3')} → {0.1} mol → {0.1} mol {formula('CO2')} → {4.4} g"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-25-mass-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "moles"
+     ],
+     "vars": {
+      "m": {
+       "pick": [
+        5,
+        10,
+        20,
+        25,
+        50,
+        100
+       ]
+      }
+     },
+     "prompt": "What mass of calcium oxide, in grams, is made when {m} g of calcium carbonate decomposes completely?",
+     "answer": "roundTo(massOf(molesOf(m, 'CaCO3'), 'CaO'), 0.01)",
+     "misconceptions": [
+      {
+       "id": "same",
+       "wrong": "m",
+       "explain": "Some mass leaves as carbon dioxide, so the oxide is lighter than the carbonate."
+      },
+      {
+       "id": "co2",
+       "wrong": "roundTo(massOf(molesOf(m, 'CaCO3'), 'CO2'), 0.01)",
+       "explain": "That is the mass of carbon dioxide given off."
+      }
+     ],
+     "solution": [
+      "{formula('CaCO3')} → {formula('CaO')} + {formula('CO2')}, a ratio of {1} : {1}.",
+      "Moles of {formula('CaCO3')} = {m} ÷ {molarMass('CaCO3')} = {roundTo(molesOf(m, 'CaCO3'), 0.001)} mol.",
+      "Mass of {formula('CaO')} = {roundTo(molesOf(m, 'CaCO3'), 0.001)} × {molarMass('CaO')} = {answer} g."
+     ],
+     "unit": "g"
+    }
+   },
+   {
+    "id": "c4k25-3",
+    "status": "draft",
+    "idea": "For gases, the mole ratio is also the volume ratio.",
+    "vars": {},
+    "example": [
+     "{formula('N2')} + {3}{formula('H2')} → {2}{formula('NH3')}: {1} : {3} : {2} by volume"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-25-vol-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "moles"
+     ],
+     "vars": {
+      "m": {
+       "pick": [
+        5,
+        10,
+        20,
+        25,
+        50,
+        100
+       ]
+      }
+     },
+     "prompt": "What volume of carbon dioxide, in dm³ at s.t.p., is given off when {m} g of calcium carbonate decomposes completely?",
+     "answer": "roundTo(gasVolume(molesOf(m, 'CaCO3')), 0.01)",
+     "misconceptions": [
+      {
+       "id": "mass",
+       "wrong": "roundTo(massOf(molesOf(m, 'CaCO3'), 'CO2'), 0.01)",
+       "explain": "That is the MASS in grams; the question asks for a volume."
+      },
+      {
+       "id": "nomole",
+       "wrong": "roundTo(gasVolume(m), 0.01)",
+       "explain": "Change the mass to moles first."
+      }
+     ],
+     "solution": [
+      "Moles of {formula('CaCO3')} = {m} ÷ {molarMass('CaCO3')} = {roundTo(molesOf(m, 'CaCO3'), 0.001)} mol.",
+      "{1} mol gives {1} mol of {formula('CO2')}.",
+      "Volume = {roundTo(molesOf(m, 'CaCO3'), 0.001)} × {22.4} = {answer} dm³."
+     ],
+     "unit": "dm³"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-25-ratio",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      0.1,
+      0.25,
+      0.5,
+      1,
+      1.5,
+      2,
+      3
+     ]
+    }
+   },
+   "prompt": "In the equation {2}{formula('H2')} + {formula('O2')} → {2}{formula('H2O')}, how many moles of water are made from {n} mol of oxygen?",
+   "answer": "2 * n",
+   "misconceptions": [
+    {
+     "id": "same",
+     "wrong": "n",
+     "explain": "Read the coefficients: {1} mol of oxygen gives {2} mol of water."
+    },
+    {
+     "id": "half",
+     "wrong": "roundTo(n / 2, 0.001)",
+     "explain": "{2} is the coefficient of the water, so multiply by {2}."
+    }
+   ],
+   "solution": [
+    "The ratio of {formula('O2')} to {formula('H2O')} is {1} : {2}.",
+    "{n} × {2} = {answer} mol."
+   ],
+   "unit": "mol"
+  },
+  {
+   "id": "k4-25-mass",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "m": {
+     "pick": [
+      5,
+      10,
+      20,
+      25,
+      50,
+      100
+     ]
+    }
+   },
+   "prompt": "What mass of calcium oxide, in grams, is made when {m} g of calcium carbonate decomposes completely?",
+   "answer": "roundTo(massOf(molesOf(m, 'CaCO3'), 'CaO'), 0.01)",
+   "misconceptions": [
+    {
+     "id": "same",
+     "wrong": "m",
+     "explain": "Some mass leaves as carbon dioxide, so the oxide is lighter than the carbonate."
+    },
+    {
+     "id": "co2",
+     "wrong": "roundTo(massOf(molesOf(m, 'CaCO3'), 'CO2'), 0.01)",
+     "explain": "That is the mass of carbon dioxide given off."
+    }
+   ],
+   "solution": [
+    "{formula('CaCO3')} → {formula('CaO')} + {formula('CO2')}, a ratio of {1} : {1}.",
+    "Moles of {formula('CaCO3')} = {m} ÷ {molarMass('CaCO3')} = {roundTo(molesOf(m, 'CaCO3'), 0.001)} mol.",
+    "Mass of {formula('CaO')} = {roundTo(molesOf(m, 'CaCO3'), 0.001)} × {molarMass('CaO')} = {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "k4-25-vol",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "m": {
+     "pick": [
+      5,
+      10,
+      20,
+      25,
+      50,
+      100
+     ]
+    }
+   },
+   "prompt": "What volume of carbon dioxide, in dm³ at s.t.p., is given off when {m} g of calcium carbonate decomposes completely?",
+   "answer": "roundTo(gasVolume(molesOf(m, 'CaCO3')), 0.01)",
+   "misconceptions": [
+    {
+     "id": "mass",
+     "wrong": "roundTo(massOf(molesOf(m, 'CaCO3'), 'CO2'), 0.01)",
+     "explain": "That is the MASS in grams; the question asks for a volume."
+    },
+    {
+     "id": "nomole",
+     "wrong": "roundTo(gasVolume(m), 0.01)",
+     "explain": "Change the mass to moles first."
+    }
+   ],
+   "solution": [
+    "Moles of {formula('CaCO3')} = {m} ÷ {molarMass('CaCO3')} = {roundTo(molesOf(m, 'CaCO3'), 0.001)} mol.",
+    "{1} mol gives {1} mol of {formula('CO2')}.",
+    "Volume = {roundTo(molesOf(m, 'CaCO3'), 0.001)} × {22.4} = {answer} dm³."
+   ],
+   "unit": "dm³"
+  },
+  {
+   "id": "k4-25-gas",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      5,
+      10,
+      20,
+      25,
+      50,
+      100
+     ]
+    }
+   },
+   "prompt": "In the Haber process, {formula('N2')} + {3}{formula('H2')} → {2}{formula('NH3')}. What volume of ammonia, in dm³, is made from {v} dm³ of nitrogen, all volumes measured at the same temperature and pressure?",
+   "answer": "2 * v",
+   "misconceptions": [
+    {
+     "id": "three",
+     "wrong": "3 * v",
+     "explain": "{3} is the coefficient of the HYDROGEN, not of the ammonia."
+    },
+    {
+     "id": "same",
+     "wrong": "v",
+     "explain": "{1} volume of nitrogen gives {2} volumes of ammonia."
+    }
+   ],
+   "solution": [
+    "For gases, the mole ratio is also the volume ratio.",
+    "The ratio of {formula('N2')} to {formula('NH3')} is {1} : {2}.",
+    "{v} × {2} = {answer} dm³."
+   ],
+   "unit": "dm³"
+  },
+  {
+   "id": "k4-25-zinc",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      2.24,
+      4.48,
+      5.6,
+      11.2,
+      22.4
+     ]
+    }
+   },
+   "prompt": "What mass of zinc, in grams, is needed to make {v} dm³ of hydrogen at s.t.p. with excess dilute sulphuric acid?",
+   "answer": "roundTo(massOf(volumeToMoles(v), 'Zn'), 0.01)",
+   "misconceptions": [
+    {
+     "id": "novol",
+     "wrong": "roundTo(massOf(v, 'Zn'), 0.01)",
+     "explain": "Change the volume to moles first: divide by {22.4}."
+    },
+    {
+     "id": "h2",
+     "wrong": "roundTo(massOf(volumeToMoles(v), 'H2'), 0.01)",
+     "explain": "That is the mass of the hydrogen, not of the zinc."
+    }
+   ],
+   "solution": [
+    "Zn + {formula('H2SO4')} → {formula('ZnSO4')} + {formula('H2')}, a ratio of {1} : {1}.",
+    "Moles of hydrogen = {v} ÷ {22.4} = {roundTo(volumeToMoles(v), 0.001)} mol, so the same moles of zinc are needed.",
+    "Mass = {roundTo(volumeToMoles(v), 0.001)} × {ram('Zn')} = {answer} g."
+   ],
+   "unit": "g"
+  }
+ ]
+}

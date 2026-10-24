@@ -1,0 +1,550 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 22,
+ "language": "en",
+ "prerequisites": [
+  21
+ ],
+ "skills": [
+  {
+   "id": "k4-22",
+   "name": "Find the formulae of magnesium oxide and copper oxide by experiment"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Magnesium oxide, by combination:\nWeigh a crucible and lid; add magnesium ribbon and weigh again. Heat strongly, lifting the lid from time to time to let air in without letting the white smoke escape. Heat, cool and weigh until the mass is constant.\nmass of Mg = (crucible + Mg) − crucible; mass of O = (crucible + product) − (crucible + Mg).\nDivide each mass by its relative atomic mass and take the simplest ratio: 1 : 1, so the formula is MgO.\nCopper oxide, by reduction:\nWeigh a dry tube holding copper(II) oxide. Pass dry hydrogen over it, letting the gas flow before lighting it, so that no air is left to explode. Heat; the black solid turns pink-brown. Cool in hydrogen and weigh.\nmass of O is the loss in mass. The ratio again gives CuO.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to describe both experiments and use the masses to work out the formula of the oxide.\nBuilds on: Lesson {21} (moles from mass) and Form Three oxidation and reduction.\nLeads to: Lesson {24} (empirical formulae from any data) and practical work in the laboratory."
+   },
+   {
+    "heading": "Magnesium oxide, by combination",
+    "text": "• Weigh a clean, dry crucible with its lid.\n• Add a coil of cleaned magnesium ribbon and weigh again.\n• Heat strongly, lifting the lid from time to time. Air must get in for the reaction, but the white smoke must not get out, or the mass of the product will be too small.\n• When all the magnesium has burned, cool and weigh. Heat, cool and weigh again until the mass is CONSTANT, which shows that the reaction is complete.\nmass of magnesium = (crucible + Mg) − crucible;\nmass of oxygen = (crucible + product) − (crucible + Mg).\nDivide each by its relative atomic mass: {2.4} ÷ {24} = {0.1} and {1.6} ÷ {16} = {0.1}. The ratio is {1} : {1}, so the formula is {formula('MgO')}."
+   },
+   {
+    "heading": "Copper oxide, by reduction",
+    "text": "• Weigh a dry reduction tube holding copper(II) oxide.\n• Pass DRY hydrogen over it. Let the gas flow for a while BEFORE lighting it at the jet, so that all the air is swept out: a mixture of hydrogen and air explodes.\n• Heat the oxide. The black solid turns pink-brown as copper forms, and water collects in the cool part of the tube.\n• Cool in a stream of hydrogen, so that the hot copper cannot be oxidised again by air, then weigh.\n{formula('CuO')} + {formula('H2')} → Cu + {formula('H2O')}\nmass of copper = final − tube; mass of oxygen = the loss in mass. {6.4} ÷ {64} = {0.1} and {1.6} ÷ {16} = {0.1}: the ratio is {1} : {1}, so the formula is {formula('CuO')}."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "constant mass",
+    "meaning": "a mass that no longer changes on further heating, showing the reaction is complete"
+   },
+   {
+    "word": "crucible",
+    "meaning": "a small dish that stands strong heating"
+   },
+   {
+    "word": "reduction",
+    "meaning": "removal of oxygen from a compound"
+   },
+   {
+    "word": "simplest ratio",
+    "meaning": "the smallest whole-number ratio of the moles"
+   }
+  ],
+  "examples": [
+   "{2.4} g Mg + {1.6} g O → {formula('MgO')}",
+   "{8} g {formula('CuO')} → {6.4} g Cu + {1.6} g O"
+  ],
+  "mistake": {
+   "wrong": "the mass of oxygen in the magnesium oxide experiment is the mass of the product",
+   "right": "it is the product minus the magnesium",
+   "why": "The product holds both the magnesium and the oxygen; subtract to find the oxygen alone."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "mg": 2.4,
+   "mo": 4.0
+  },
+  "problem": "In an experiment, {mg} g of magnesium gave {mo} g of magnesium oxide. Find the formula.",
+  "steps": [
+   "Mass of oxygen = {mo} − {mg} = {roundTo(mo - mg, 0.01)} g.",
+   "Moles of Mg = {mg} ÷ {ram('Mg')} = {roundTo(mg / ram('Mg'), 0.001)}.",
+   "Moles of O = {roundTo(mo - mg, 0.01)} ÷ {ram('O')} = {roundTo((mo - mg) / ram('O'), 0.001)}.",
+   "Divide both by the smaller: the ratio is {1} : {1}."
+  ],
+  "answer": "{formula('MgO')}",
+  "checks": [
+   "empiricalOf(['Mg', 'O'], [2.4, 1.6]) == 'MgO'"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k22-1",
+    "status": "draft",
+    "idea": "Heat, cool and weigh until the mass is constant: that shows the reaction is complete.",
+    "vars": {},
+    "example": [
+     "the mass rises as oxygen is taken in, then stops changing"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-22-method"
+    }
+   },
+   {
+    "id": "c4k22-2",
+    "status": "draft",
+    "idea": "Divide each mass by its relative atomic mass, then take the simplest ratio.",
+    "vars": {},
+    "example": [
+     "{2.4} ÷ {24} = {0.1} and {1.6} ÷ {16} = {0.1}: a ratio of {1} : {1}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-22-formula-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "moles"
+     ],
+     "vars": {
+      "k": {
+       "pick": [
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3
+       ]
+      },
+      "mg": {
+       "expr": "roundTo(k * 24, 0.01)"
+      },
+      "mo": {
+       "expr": "roundTo(k * 16, 0.01)"
+      }
+     },
+     "prompt": "{mg} g of magnesium combines with {mo} g of oxygen. What is the formula of the oxide?",
+     "correct": "{empiricalOf(['Mg', 'O'], [mg, mo])}",
+     "distractors": [
+      {
+       "text": "{formula('Mg2O')}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{formula('MgO2')}",
+       "misconception": "w2"
+      },
+      {
+       "text": "{formula('Mg2O3')}",
+       "misconception": "w3"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w1",
+       "explain": "That would need twice as many moles of magnesium as of oxygen; here they are equal."
+      },
+      {
+       "id": "w2",
+       "explain": "That would need twice as many moles of oxygen as of magnesium; here they are equal."
+      },
+      {
+       "id": "w3",
+       "explain": "The moles come out equal, so the ratio is {1} : {1}."
+      }
+     ],
+     "solution": [
+      "Moles of Mg = {mg} ÷ {ram('Mg')} = {roundTo(mg / ram('Mg'), 0.001)}; moles of O = {mo} ÷ {ram('O')} = {roundTo(mo / ram('O'), 0.001)}.",
+      "Divide both by the smaller to get the simplest ratio.",
+      "So the formula is {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c4k22-3",
+    "status": "draft",
+    "idea": "Copper oxide is reduced by hydrogen: the mass falls as oxygen leaves.",
+    "vars": {},
+    "example": [
+     "{formula('CuO')} + {formula('H2')} → Cu + {formula('H2O')}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-22-copper-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "moles"
+     ],
+     "vars": {
+      "k": {
+       "pick": [
+        0.05,
+        0.1,
+        0.2,
+        0.25,
+        0.5
+       ]
+      },
+      "mo": {
+       "expr": "roundTo(k * 80, 0.01)"
+      },
+      "mc": {
+       "expr": "roundTo(k * 64, 0.01)"
+      }
+     },
+     "prompt": "{mo} g of copper(II) oxide is reduced by hydrogen and leaves {mc} g of copper. What mass of oxygen, in grams, was in the oxide?",
+     "answer": "roundTo(mo - mc, 0.01)",
+     "misconceptions": [
+      {
+       "id": "sum",
+       "wrong": "roundTo(mo + mc, 0.01)",
+       "explain": "The oxygen is the LOSS in mass: subtract."
+      },
+      {
+       "id": "copper",
+       "wrong": "mc",
+       "explain": "{mc} g is the copper left behind."
+      }
+     ],
+     "solution": [
+      "The loss in mass is the oxygen removed.",
+      "{mo} − {mc} = {answer} g."
+     ],
+     "unit": "g"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-22-method",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "In finding the formula of magnesium oxide, why is the crucible lid lifted from time to time?",
+       "r": "To let air in so the magnesium can go on burning, while keeping the white smoke in",
+       "w": [
+        "To let the magnesium oxide escape",
+        "To cool the crucible",
+        "To let water in"
+       ],
+       "e": [
+        "Letting the oxide escape would make the mass found too small; the lid keeps it in.",
+        "Cooling would stop the reaction, which is the opposite of what is wanted.",
+        "Water must be kept out; it would react with the product."
+       ],
+       "y": "Oxygen is needed for the reaction, but the white smoke of magnesium oxide must not be lost."
+      },
+      {
+       "q": "Why is the crucible heated, cooled and weighed again, more than once?",
+       "r": "To make sure the reaction is complete, shown by a constant mass",
+       "w": [
+        "To make the crucible lighter",
+        "To take the average of the readings",
+        "To dry the crucible"
+       ],
+       "e": [
+        "The mass does not fall; it rises as oxygen is taken in.",
+        "The readings are not averaged; the aim is a mass that stops changing.",
+        "Drying is not the purpose, though the crucible must be dry at the start."
+       ],
+       "y": "Heating to CONSTANT MASS shows that all the magnesium has reacted."
+      },
+      {
+       "q": "In finding the formula of copper oxide, why is the hydrogen allowed to flow for a while before it is lit?",
+       "r": "To sweep all the air out of the tube, so the hydrogen does not explode",
+       "w": [
+        "To warm the copper oxide",
+        "To dry the copper oxide",
+        "To measure the volume of hydrogen"
+       ],
+       "e": [
+        "The flame does the heating, not the gas flow.",
+        "The gas is dried before it reaches the tube, not by waiting.",
+        "No volume is measured in this experiment."
+       ],
+       "y": "A mixture of hydrogen and air explodes when lit, so the air must be swept out first."
+      },
+      {
+       "q": "In the copper oxide experiment, the mass falls as the reaction goes on. Why?",
+       "r": "Oxygen is removed from the oxide and leaves as water vapour",
+       "w": [
+        "Copper evaporates",
+        "Hydrogen is added to the copper",
+        "The crucible burns away"
+       ],
+       "e": [
+        "Copper does not evaporate at the temperature used.",
+        "The hydrogen leaves with the oxygen as water; it does not stay behind.",
+        "The apparatus does not burn."
+       ],
+       "y": "{formula('CuO')} + {formula('H2')} → Cu + {formula('H2O')}: the oxygen leaves the solid."
+      },
+      {
+       "q": "Which masses must be measured to find the formula of magnesium oxide?",
+       "r": "The crucible empty, the crucible with magnesium, and the crucible with the product",
+       "w": [
+        "Only the magnesium at the start",
+        "Only the product at the end",
+        "The crucible and the lid separately"
+       ],
+       "e": [
+        "The mass of oxygen taken in can only be found by weighing the product as well.",
+        "Without the starting mass of magnesium, the ratio cannot be found.",
+        "The lid is weighed with the crucible throughout, so it cancels out."
+       ],
+       "y": "Mass of magnesium and mass of oxygen are both needed, and the oxygen is the difference between the last two."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-22-oxygen",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "k": {
+     "pick": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25
+     ]
+    },
+    "mg": {
+     "expr": "roundTo(k * 24, 0.01)"
+    },
+    "mo": {
+     "expr": "roundTo(k * 40, 0.01)"
+    }
+   },
+   "prompt": "A crucible holds {mg} g of magnesium. After burning, the product has a mass of {mo} g. What mass of oxygen, in grams, has combined?",
+   "answer": "roundTo(mo - mg, 0.01)",
+   "misconceptions": [
+    {
+     "id": "sum",
+     "wrong": "roundTo(mo + mg, 0.01)",
+     "explain": "The oxygen is the INCREASE in mass: subtract."
+    },
+    {
+     "id": "whole",
+     "wrong": "mo",
+     "explain": "{mo} g is the mass of the whole product, magnesium and oxygen together."
+    }
+   ],
+   "solution": [
+    "The gain in mass is the oxygen taken in.",
+    "{mo} − {mg} = {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "k4-22-formula",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "k": {
+     "pick": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3
+     ]
+    },
+    "mg": {
+     "expr": "roundTo(k * 24, 0.01)"
+    },
+    "mo": {
+     "expr": "roundTo(k * 16, 0.01)"
+    }
+   },
+   "prompt": "{mg} g of magnesium combines with {mo} g of oxygen. What is the formula of the oxide?",
+   "correct": "{empiricalOf(['Mg', 'O'], [mg, mo])}",
+   "distractors": [
+    {
+     "text": "{formula('Mg2O')}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{formula('MgO2')}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{formula('Mg2O3')}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "That would need twice as many moles of magnesium as of oxygen; here they are equal."
+    },
+    {
+     "id": "w2",
+     "explain": "That would need twice as many moles of oxygen as of magnesium; here they are equal."
+    },
+    {
+     "id": "w3",
+     "explain": "The moles come out equal, so the ratio is {1} : {1}."
+    }
+   ],
+   "solution": [
+    "Moles of Mg = {mg} ÷ {ram('Mg')} = {roundTo(mg / ram('Mg'), 0.001)}; moles of O = {mo} ÷ {ram('O')} = {roundTo(mo / ram('O'), 0.001)}.",
+    "Divide both by the smaller to get the simplest ratio.",
+    "So the formula is {answer}."
+   ]
+  },
+  {
+   "id": "k4-22-copper",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "k": {
+     "pick": [
+      0.05,
+      0.1,
+      0.2,
+      0.25,
+      0.5
+     ]
+    },
+    "mo": {
+     "expr": "roundTo(k * 80, 0.01)"
+    },
+    "mc": {
+     "expr": "roundTo(k * 64, 0.01)"
+    }
+   },
+   "prompt": "{mo} g of copper(II) oxide is reduced by hydrogen and leaves {mc} g of copper. What mass of oxygen, in grams, was in the oxide?",
+   "answer": "roundTo(mo - mc, 0.01)",
+   "misconceptions": [
+    {
+     "id": "sum",
+     "wrong": "roundTo(mo + mc, 0.01)",
+     "explain": "The oxygen is the LOSS in mass: subtract."
+    },
+    {
+     "id": "copper",
+     "wrong": "mc",
+     "explain": "{mc} g is the copper left behind."
+    }
+   ],
+   "solution": [
+    "The loss in mass is the oxygen removed.",
+    "{mo} − {mc} = {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "k4-22-check",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "moles"
+   ],
+   "vars": {
+    "k": {
+     "pick": [
+      0.1,
+      0.2,
+      0.25,
+      0.5,
+      1
+     ]
+    },
+    "mo": {
+     "expr": "roundTo(k * 80, 0.01)"
+    },
+    "mc": {
+     "expr": "roundTo(k * 64, 0.01)"
+    }
+   },
+   "prompt": "In the copper oxide experiment, {mo} g of copper(II) oxide gave {mc} g of copper. How many moles of oxygen atoms were removed?",
+   "answer": "roundTo((mo - mc) / ram('O'), 0.001)",
+   "misconceptions": [
+    {
+     "id": "mass",
+     "wrong": "roundTo(mo - mc, 0.01)",
+     "explain": "That is the MASS of oxygen; divide it by {ram('O')} for the moles."
+    },
+    {
+     "id": "copper",
+     "wrong": "roundTo(mc / ram('Cu'), 0.001)",
+     "explain": "That is the moles of copper; the question asks for oxygen."
+    }
+   ],
+   "solution": [
+    "Mass of oxygen = {mo} − {mc} = {roundTo(mo - mc, 0.01)} g.",
+    "Moles of oxygen atoms = {roundTo(mo - mc, 0.01)} ÷ {ram('O')} = {answer} mol."
+   ],
+   "unit": "mol"
+  }
+ ]
+}

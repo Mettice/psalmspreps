@@ -17,3 +17,8 @@ Every lesson, Learn screen, card and worked example is **draft**. Open items:
   never with concentrated sulphuric acid; nitric acid distilled in all-glass apparatus. Nitrates on heating follow
   the three patterns (Na/K → nitrite; most metals → oxide; Ag/Hg → metal). The nitrogen cycle names Rhizobium,
   Nitrosomonas and Nitrobacter. Please confirm the depth and the names the class uses.
+- **TR-K4-6 (rows 19-29).** The mole chapter: molar volume 22.4 dm³/mol at s.t.p.; Avogadro constant 6.02 × 10²³.
+  Empirical formulae are found by dividing by Ar and scaling to whole numbers. Limiting reagent is found by
+  dividing moles by the coefficient. Percentage yield = actual ÷ theoretical × 100.
+- **TR-K4-7 (not yet done).** The 27 lessons have passed the automatic checks and the quality check, but the
+  browser walk at phone width has NOT been run for Form 4 Chemistry. Do that before the class uses them.

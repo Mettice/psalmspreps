@@ -49,6 +49,17 @@ Rules the computed answers use are listed in the subject’s library tests; ever
 | 35 | `k4-16-match` | 16 | matching, 1 | nitrogen |
 | 36 | `k4-17-uses` | 17 | multiple choice, 1 | nitrogen |
 | 37 | `k4-17-match` | 17 | matching, 1 | nitrogen |
+| 38 | `k4-19-define` | 19 | multiple choice, 1 | moles |
+| 39 | `k4-20-define` | 20 | multiple choice, 1 | moles |
+| 40 | `k4-22-method` | 22 | multiple choice, 1 | moles |
+| 41 | `k4-23-sum` | 23 | multiple choice, 2 | moles |
+| 42 | `k4-23-sum-card` (card c4k23-3) | 23 | multiple choice, 1 | moles |
+| 43 | `k4-24-define` | 24 | multiple choice, 1 | moles |
+| 44 | `k4-26-define` | 26 | multiple choice, 1 | moles |
+| 45 | `k4-27-why` | 27 | multiple choice, 1 | moles |
+| 46 | `k4-28-rules` | 28 | multiple choice, 1 | moles |
+| 47 | `k4-29-which` | 29 | multiple choice, 1 | moles |
+| 48 | `k4-29-match` | 29 | matching, 1 | moles |
 
 ### `k4-1-frasch` · Lesson 1 · multiple choice, level 1
 
@@ -2523,4 +2534,750 @@ Full working after a second miss:
 > Liquid nitrogen → Quick-freezing food  
 
 Sources: nitrogen (Form 4 Chemistry syllabus, Term 1, Chemistry of Nitrogen: occurrence and properties of nitrogen; preparation and properties of ammonia and of nitric acid; effect of heat on nitrates; oxides of nitrogen; the nitrogen cycle; uses of nitrogen compounds)
+
+### `k4-19-define` · Lesson 19 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is the relative atomic mass of an element? | The average mass of its atoms compared with one twelfth of the mass of a carbon-12 atom | The mass of one atom in grams · The number of protons in an atom · The mass of one mole in kilograms | The mass of a single atom in grams is far too small to be convenient; a RELATIVE mass is used. · The number of protons is the atomic number, not the mass. · The molar mass is in grams per mole, and relative atomic mass has no unit. | It is a ratio, so it has no unit: the relative atomic mass of carbon is {12} exactly. |
+| What is the relative molecular mass of a compound? | The sum of the relative atomic masses of all the atoms in its molecule | The mass of one molecule in grams · The number of atoms in the molecule · The mass of one mole of its atoms | Again, a relative mass is used, not the tiny mass in grams. · The number of atoms is a count, not a mass. · That would be the molar mass of the element, not of the compound. | For {formula('H2O')}: {2} × {1} + {16} = {18}. |
+| Why is 'relative formula mass' used for sodium chloride rather than 'relative molecular mass'? | Sodium chloride is ionic, so it has no molecules, only a lattice of ions | Its molecules are too large · It has no mass · The two terms mean exactly the same thing | Size is not the point; an ionic solid has no separate molecules at all. · It certainly has mass; the point is what the formula stands for. · 'Molecular' is used where molecules exist; 'formula' covers ionic compounds too. | {formula('NaCl')} is the simplest ratio of ions in the lattice, so the mass found from it is a formula mass. |
+| What is molar mass? | The mass of one mole of a substance, in grams per mole | The number of particles in one mole · The volume of one mole of a gas · The mass of one atom | The number of particles is the Avogadro constant. · That is the molar volume, {22.4} dm³/mol at s.t.p. · The mass of one atom is a tiny number of grams. | The molar mass in g/mol is the same number as the relative atomic or molecular mass. |
+| What is molar volume? | The volume occupied by one mole of any gas, {22.4} dm³ at s.t.p. | The volume of one mole of any liquid · The volume of one gram of a gas · The volume of {6.02} × {10} to the power {23} atoms of a solid | Liquids and solids have very different molar volumes; the rule holds for gases. · The molar volume is per MOLE, not per gram. · The rule applies to gases, not to solids. | At the same temperature and pressure, equal volumes of gases hold equal numbers of molecules. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is the relative atomic mass of an element?
+
+- ✅ The average mass of its atoms compared with one twelfth of the mass of a carbon-12 atom
+- ◻️ The mass of one mole in kilograms  
+  _↳ feedback if chosen: The molar mass is in grams per mole, and relative atomic mass has no unit._
+- ◻️ The number of protons in an atom  
+  _↳ feedback if chosen: The number of protons is the atomic number, not the mass._
+- ◻️ The mass of one atom in grams  
+  _↳ feedback if chosen: The mass of a single atom in grams is far too small to be convenient; a RELATIVE mass is used._
+
+Full working after a second miss:
+
+> It is a ratio, so it has no unit: the relative atomic mass of carbon is 12 exactly.  
+> So the answer is The average mass of its atoms compared with one twelfth of the mass of a carbon-12 atom.  
+
+> What is the relative atomic mass of an element?
+
+- ✅ The average mass of its atoms compared with one twelfth of the mass of a carbon-12 atom
+- ◻️ The mass of one mole in kilograms  
+  _↳ feedback if chosen: The molar mass is in grams per mole, and relative atomic mass has no unit._
+- ◻️ The number of protons in an atom  
+  _↳ feedback if chosen: The number of protons is the atomic number, not the mass._
+- ◻️ The mass of one atom in grams  
+  _↳ feedback if chosen: The mass of a single atom in grams is far too small to be convenient; a RELATIVE mass is used._
+
+Full working after a second miss:
+
+> It is a ratio, so it has no unit: the relative atomic mass of carbon is 12 exactly.  
+> So the answer is The average mass of its atoms compared with one twelfth of the mass of a carbon-12 atom.  
+
+> What is molar volume?
+
+- ✅ The volume occupied by one mole of any gas, 22.4 dm³ at s.t.p.
+- ◻️ The volume of 6.02 × 10 to the power 23 atoms of a solid  
+  _↳ feedback if chosen: The rule applies to gases, not to solids._
+- ◻️ The volume of one mole of any liquid  
+  _↳ feedback if chosen: Liquids and solids have very different molar volumes; the rule holds for gases._
+- ◻️ The volume of one gram of a gas  
+  _↳ feedback if chosen: The molar volume is per MOLE, not per gram._
+
+Full working after a second miss:
+
+> At the same temperature and pressure, equal volumes of gases hold equal numbers of molecules.  
+> So the answer is The volume occupied by one mole of any gas, 22.4 dm³ at s.t.p..  
+
+Sources: moles (Form 4 Chemistry syllabus, Term 1, Formulae, moles and equations: definitions of relative atomic, molecular and molar mass and molar volume; the mole and the Avogadro constant; basic mole calculations; experimental determination of the formulae of magnesium oxide and copper oxide; percentage composition by mass; empirical and molecular formulae; masses and volumes from equations; limiting reagents, theoretical and percentage yield; balancing equations; state symbols)
+
+### `k4-20-define` · Lesson 20 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is a mole? | The amount of a substance that holds as many particles as there are atoms in {12} g of carbon-12 | A mass of {1} g of any substance · A volume of {22.4} dm³ of any substance · The mass of one molecule | The mass of a mole differs from substance to substance. · {22.4} dm³ is the volume of a mole of a GAS, not of a solid or liquid. · A mole holds a very large number of molecules, not one. | That number is the Avogadro constant, about {6.02} × {10} to the power {23}. |
+| What is the Avogadro constant? | About {6.02} × {10} to the power {23} particles per mole | {22.4} dm³ per mole · {12} g per mole · {100} particles per mole | {22.4} dm³/mol is the molar volume of a gas. · {12} g/mol is the molar mass of carbon. · The number is enormously larger than {100}. | One mole of any substance holds that number of particles, whether atoms, molecules or ions. |
+| How many atoms are there in one mole of helium? | About {6.02} × {10} to the power {23} | {4} · {22.4} · {12} | {4} is the relative atomic mass of helium, not a number of atoms. · {22.4} dm³ is the volume a mole of helium fills at s.t.p. · {12} g is the mass of a mole of carbon. | One mole of ANY substance holds the Avogadro number of particles. |
+| How many atoms are there in one mole of water molecules? | Three times the Avogadro number, because each molecule has {3} atoms | The Avogadro number · Twice the Avogadro number · One third of the Avogadro number | That is the number of MOLECULES, not of atoms. · There are {2} hydrogen atoms AND {1} oxygen atom: {3} in all. · There are more atoms than molecules, not fewer. | {formula('H2O')} has {3} atoms per molecule, so a mole of molecules holds {3} moles of atoms. |
+| How many ions are there in one mole of sodium chloride, {formula('NaCl')}? | Two moles of ions: one of {formula('Na')} and one of {formula('Cl')} | One mole of ions · Three moles of ions · There are no ions | Each formula unit gives TWO ions. · {formula('NaCl')} holds only two ions per formula unit. · Sodium chloride is ionic: it is made of ions. | {formula('NaCl')} → {formula('Na')} and {formula('Cl')} ions, so a mole of the salt gives {2} mol of ions. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> How many atoms are there in one mole of water molecules?
+
+- ✅ Three times the Avogadro number, because each molecule has 3 atoms
+- ◻️ One third of the Avogadro number  
+  _↳ feedback if chosen: There are more atoms than molecules, not fewer._
+- ◻️ Twice the Avogadro number  
+  _↳ feedback if chosen: There are 2 hydrogen atoms AND 1 oxygen atom: 3 in all._
+- ◻️ The Avogadro number  
+  _↳ feedback if chosen: That is the number of MOLECULES, not of atoms._
+
+Full working after a second miss:
+
+> H₂O has 3 atoms per molecule, so a mole of molecules holds 3 moles of atoms.  
+> So the answer is Three times the Avogadro number, because each molecule has 3 atoms.  
+
+> How many ions are there in one mole of sodium chloride, NaCl?
+
+- ◻️ One mole of ions  
+  _↳ feedback if chosen: Each formula unit gives TWO ions._
+- ◻️ Three moles of ions  
+  _↳ feedback if chosen: NaCl holds only two ions per formula unit._
+- ✅ Two moles of ions: one of Na and one of Cl
+- ◻️ There are no ions  
+  _↳ feedback if chosen: Sodium chloride is ionic: it is made of ions._
+
+Full working after a second miss:
+
+> NaCl → Na and Cl ions, so a mole of the salt gives 2 mol of ions.  
+> So the answer is Two moles of ions: one of Na and one of Cl.  
+
+> How many atoms are there in one mole of helium?
+
+- ◻️ 22.4  
+  _↳ feedback if chosen: 22.4 dm³ is the volume a mole of helium fills at s.t.p._
+- ✅ About 6.02 × 10 to the power 23
+- ◻️ 12  
+  _↳ feedback if chosen: 12 g is the mass of a mole of carbon._
+- ◻️ 4  
+  _↳ feedback if chosen: 4 is the relative atomic mass of helium, not a number of atoms._
+
+Full working after a second miss:
+
+> One mole of ANY substance holds the Avogadro number of particles.  
+> So the answer is About 6.02 × 10 to the power 23.  
+
+Sources: moles (Form 4 Chemistry syllabus, Term 1, Formulae, moles and equations: definitions of relative atomic, molecular and molar mass and molar volume; the mole and the Avogadro constant; basic mole calculations; experimental determination of the formulae of magnesium oxide and copper oxide; percentage composition by mass; empirical and molecular formulae; masses and volumes from equations; limiting reagents, theoretical and percentage yield; balancing equations; state symbols)
+
+### `k4-22-method` · Lesson 22 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| In finding the formula of magnesium oxide, why is the crucible lid lifted from time to time? | To let air in so the magnesium can go on burning, while keeping the white smoke in | To let the magnesium oxide escape · To cool the crucible · To let water in | Letting the oxide escape would make the mass found too small; the lid keeps it in. · Cooling would stop the reaction, which is the opposite of what is wanted. · Water must be kept out; it would react with the product. | Oxygen is needed for the reaction, but the white smoke of magnesium oxide must not be lost. |
+| Why is the crucible heated, cooled and weighed again, more than once? | To make sure the reaction is complete, shown by a constant mass | To make the crucible lighter · To take the average of the readings · To dry the crucible | The mass does not fall; it rises as oxygen is taken in. · The readings are not averaged; the aim is a mass that stops changing. · Drying is not the purpose, though the crucible must be dry at the start. | Heating to CONSTANT MASS shows that all the magnesium has reacted. |
+| In finding the formula of copper oxide, why is the hydrogen allowed to flow for a while before it is lit? | To sweep all the air out of the tube, so the hydrogen does not explode | To warm the copper oxide · To dry the copper oxide · To measure the volume of hydrogen | The flame does the heating, not the gas flow. · The gas is dried before it reaches the tube, not by waiting. · No volume is measured in this experiment. | A mixture of hydrogen and air explodes when lit, so the air must be swept out first. |
+| In the copper oxide experiment, the mass falls as the reaction goes on. Why? | Oxygen is removed from the oxide and leaves as water vapour | Copper evaporates · Hydrogen is added to the copper · The crucible burns away | Copper does not evaporate at the temperature used. · The hydrogen leaves with the oxygen as water; it does not stay behind. · The apparatus does not burn. | {formula('CuO')} + {formula('H2')} → Cu + {formula('H2O')}: the oxygen leaves the solid. |
+| Which masses must be measured to find the formula of magnesium oxide? | The crucible empty, the crucible with magnesium, and the crucible with the product | Only the magnesium at the start · Only the product at the end · The crucible and the lid separately | The mass of oxygen taken in can only be found by weighing the product as well. · Without the starting mass of magnesium, the ratio cannot be found. · The lid is weighed with the crucible throughout, so it cancels out. | Mass of magnesium and mass of oxygen are both needed, and the oxygen is the difference between the last two. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> In finding the formula of copper oxide, why is the hydrogen allowed to flow for a while before it is lit?
+
+- ✅ To sweep all the air out of the tube, so the hydrogen does not explode
+- ◻️ To measure the volume of hydrogen  
+  _↳ feedback if chosen: No volume is measured in this experiment._
+- ◻️ To dry the copper oxide  
+  _↳ feedback if chosen: The gas is dried before it reaches the tube, not by waiting._
+- ◻️ To warm the copper oxide  
+  _↳ feedback if chosen: The flame does the heating, not the gas flow._
+
+Full working after a second miss:
+
+> A mixture of hydrogen and air explodes when lit, so the air must be swept out first.  
+> So the answer is To sweep all the air out of the tube, so the hydrogen does not explode.  
+
+> In the copper oxide experiment, the mass falls as the reaction goes on. Why?
+
+- ◻️ The crucible burns away  
+  _↳ feedback if chosen: The apparatus does not burn._
+- ✅ Oxygen is removed from the oxide and leaves as water vapour
+- ◻️ Hydrogen is added to the copper  
+  _↳ feedback if chosen: The hydrogen leaves with the oxygen as water; it does not stay behind._
+- ◻️ Copper evaporates  
+  _↳ feedback if chosen: Copper does not evaporate at the temperature used._
+
+Full working after a second miss:
+
+> CuO + H₂ → Cu + H₂O: the oxygen leaves the solid.  
+> So the answer is Oxygen is removed from the oxide and leaves as water vapour.  
+
+> In finding the formula of copper oxide, why is the hydrogen allowed to flow for a while before it is lit?
+
+- ◻️ To measure the volume of hydrogen  
+  _↳ feedback if chosen: No volume is measured in this experiment._
+- ◻️ To dry the copper oxide  
+  _↳ feedback if chosen: The gas is dried before it reaches the tube, not by waiting._
+- ◻️ To warm the copper oxide  
+  _↳ feedback if chosen: The flame does the heating, not the gas flow._
+- ✅ To sweep all the air out of the tube, so the hydrogen does not explode
+
+Full working after a second miss:
+
+> A mixture of hydrogen and air explodes when lit, so the air must be swept out first.  
+> So the answer is To sweep all the air out of the tube, so the hydrogen does not explode.  
+
+Sources: moles (Form 4 Chemistry syllabus, Term 1, Formulae, moles and equations: definitions of relative atomic, molecular and molar mass and molar volume; the mole and the Avogadro constant; basic mole calculations; experimental determination of the formulae of magnesium oxide and copper oxide; percentage composition by mass; empirical and molecular formulae; masses and volumes from equations; limiting reagents, theoretical and percentage yield; balancing equations; state symbols)
+
+### `k4-23-sum` · Lesson 23 · multiple choice, level 2
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| The percentages by mass of all the elements in a compound are added. What should the total be? | {100} per cent | It depends on the compound · More than {100} per cent for a large molecule · Less than {100} per cent | The whole is always the sum of its parts, whatever the compound. · The parts cannot add to more than the whole. · Nothing is left out: every atom belongs to one of the elements. | Every atom belongs to one element, so the masses add up to the whole formula mass. |
+| A pupil finds that a compound is {40} per cent carbon and {70} per cent oxygen. What does this show? | A mistake has been made, because the total is more than {100} per cent | The compound holds another element as well · The compound is a mixture · Nothing is wrong | Another element would make the total even larger, not smaller. · Even a mixture's percentages must add to {100}. · A total above {100} per cent is impossible. | The percentages of the parts can never add to more than the whole. |
+| Which fertiliser carries the most nitrogen for each kilogram bought? | Urea, {formula('CO(NH2)2')}, at about {47} per cent nitrogen | Ammonium sulphate, at about {21} per cent · Ammonium nitrate, at about {35} per cent · Sodium nitrate, at about {16} per cent | Ammonium sulphate carries a heavy sulphate group, so its nitrogen percentage is low. · Ammonium nitrate is good, but urea is better still. · Sodium nitrate carries a heavy sodium atom for each nitrogen. | The smaller the rest of the formula, the larger the share of the mass that is nitrogen. |
+| Why does a mining company care about the percentage of metal in an ore? | It tells them how much metal each tonne of rock will give, and so whether mining is worth the cost | It tells them how deep the ore lies · It tells them the colour of the metal · It tells them how hard the rock is | Depth is found by surveying, not from the formula. · The colour has nothing to do with the percentage by mass. · Hardness is a physical property of the rock. | Haematite, {formula('Fe2O3')}, is {70} per cent iron, so {100} tonnes of pure ore would give {70} tonnes of iron. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> The percentages by mass of all the elements in a compound are added. What should the total be?
+
+- ◻️ More than 100 per cent for a large molecule  
+  _↳ feedback if chosen: The parts cannot add to more than the whole._
+- ◻️ Less than 100 per cent  
+  _↳ feedback if chosen: Nothing is left out: every atom belongs to one of the elements._
+- ◻️ It depends on the compound  
+  _↳ feedback if chosen: The whole is always the sum of its parts, whatever the compound._
+- ✅ 100 per cent
+
+Full working after a second miss:
+
+> Every atom belongs to one element, so the masses add up to the whole formula mass.  
+> So the answer is 100 per cent.  
+
+> Why does a mining company care about the percentage of metal in an ore?
+
+- ◻️ It tells them how deep the ore lies  
+  _↳ feedback if chosen: Depth is found by surveying, not from the formula._
+- ◻️ It tells them the colour of the metal  
+  _↳ feedback if chosen: The colour has nothing to do with the percentage by mass._
+- ✅ It tells them how much metal each tonne of rock will give, and so whether mining is worth the cost
+- ◻️ It tells them how hard the rock is  
+  _↳ feedback if chosen: Hardness is a physical property of the rock._
+
+Full working after a second miss:
+
+> Haematite, Fe₂O₃, is 70 per cent iron, so 100 tonnes of pure ore would give 70 tonnes of iron.  
+> So the answer is It tells them how much metal each tonne of rock will give, and so whether mining is worth the cost.  
+
+> The percentages by mass of all the elements in a compound are added. What should the total be?
+
+- ◻️ Less than 100 per cent  
+  _↳ feedback if chosen: Nothing is left out: every atom belongs to one of the elements._
+- ✅ 100 per cent
+- ◻️ It depends on the compound  
+  _↳ feedback if chosen: The whole is always the sum of its parts, whatever the compound._
+- ◻️ More than 100 per cent for a large molecule  
+  _↳ feedback if chosen: The parts cannot add to more than the whole._
+
+Full working after a second miss:
+
+> Every atom belongs to one element, so the masses add up to the whole formula mass.  
+> So the answer is 100 per cent.  
+
+Sources: moles (Form 4 Chemistry syllabus, Term 1, Formulae, moles and equations: definitions of relative atomic, molecular and molar mass and molar volume; the mole and the Avogadro constant; basic mole calculations; experimental determination of the formulae of magnesium oxide and copper oxide; percentage composition by mass; empirical and molecular formulae; masses and volumes from equations; limiting reagents, theoretical and percentage yield; balancing equations; state symbols)
+
+### `k4-23-sum-card` · Lesson 23 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| The percentages by mass of all the elements in a compound are added. What should the total be? | {100} per cent | It depends on the compound · More than {100} per cent for a large molecule · Less than {100} per cent | The whole is always the sum of its parts, whatever the compound. · The parts cannot add to more than the whole. · Nothing is left out: every atom belongs to one of the elements. | Every atom belongs to one element, so the masses add up to the whole formula mass. |
+| A pupil finds that a compound is {40} per cent carbon and {70} per cent oxygen. What does this show? | A mistake has been made, because the total is more than {100} per cent | The compound holds another element as well · The compound is a mixture · Nothing is wrong | Another element would make the total even larger, not smaller. · Even a mixture's percentages must add to {100}. · A total above {100} per cent is impossible. | The percentages of the parts can never add to more than the whole. |
+| Which fertiliser carries the most nitrogen for each kilogram bought? | Urea, {formula('CO(NH2)2')}, at about {47} per cent nitrogen | Ammonium sulphate, at about {21} per cent · Ammonium nitrate, at about {35} per cent · Sodium nitrate, at about {16} per cent | Ammonium sulphate carries a heavy sulphate group, so its nitrogen percentage is low. · Ammonium nitrate is good, but urea is better still. · Sodium nitrate carries a heavy sodium atom for each nitrogen. | The smaller the rest of the formula, the larger the share of the mass that is nitrogen. |
+| Why does a mining company care about the percentage of metal in an ore? | It tells them how much metal each tonne of rock will give, and so whether mining is worth the cost | It tells them how deep the ore lies · It tells them the colour of the metal · It tells them how hard the rock is | Depth is found by surveying, not from the formula. · The colour has nothing to do with the percentage by mass. · Hardness is a physical property of the rock. | Haematite, {formula('Fe2O3')}, is {70} per cent iron, so {100} tonnes of pure ore would give {70} tonnes of iron. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> A pupil finds that a compound is 40 per cent carbon and 70 per cent oxygen. What does this show?
+
+- ◻️ Nothing is wrong  
+  _↳ feedback if chosen: A total above 100 per cent is impossible._
+- ◻️ The compound is a mixture  
+  _↳ feedback if chosen: Even a mixture's percentages must add to 100._
+- ✅ A mistake has been made, because the total is more than 100 per cent
+- ◻️ The compound holds another element as well  
+  _↳ feedback if chosen: Another element would make the total even larger, not smaller._
+
+Full working after a second miss:
+
+> The percentages of the parts can never add to more than the whole.  
+> So the answer is A mistake has been made, because the total is more than 100 per cent.  
+
+> The percentages by mass of all the elements in a compound are added. What should the total be?
+
+- ◻️ Less than 100 per cent  
+  _↳ feedback if chosen: Nothing is left out: every atom belongs to one of the elements._
+- ✅ 100 per cent
+- ◻️ It depends on the compound  
+  _↳ feedback if chosen: The whole is always the sum of its parts, whatever the compound._
+- ◻️ More than 100 per cent for a large molecule  
+  _↳ feedback if chosen: The parts cannot add to more than the whole._
+
+Full working after a second miss:
+
+> Every atom belongs to one element, so the masses add up to the whole formula mass.  
+> So the answer is 100 per cent.  
+
+> A pupil finds that a compound is 40 per cent carbon and 70 per cent oxygen. What does this show?
+
+- ◻️ The compound holds another element as well  
+  _↳ feedback if chosen: Another element would make the total even larger, not smaller._
+- ◻️ The compound is a mixture  
+  _↳ feedback if chosen: Even a mixture's percentages must add to 100._
+- ◻️ Nothing is wrong  
+  _↳ feedback if chosen: A total above 100 per cent is impossible._
+- ✅ A mistake has been made, because the total is more than 100 per cent
+
+Full working after a second miss:
+
+> The percentages of the parts can never add to more than the whole.  
+> So the answer is A mistake has been made, because the total is more than 100 per cent.  
+
+Sources: moles (Form 4 Chemistry syllabus, Term 1, Formulae, moles and equations: definitions of relative atomic, molecular and molar mass and molar volume; the mole and the Avogadro constant; basic mole calculations; experimental determination of the formulae of magnesium oxide and copper oxide; percentage composition by mass; empirical and molecular formulae; masses and volumes from equations; limiting reagents, theoretical and percentage yield; balancing equations; state symbols)
+
+### `k4-24-define` · Lesson 24 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is an empirical formula? | The simplest whole-number ratio of the atoms in a compound | The actual number of atoms in one molecule · The formula of the simplest compound of two elements · A formula found only by experiment | That is the MOLECULAR formula. · 'Empirical' describes the ratio, not how simple the compound is. · It can be worked out from a molecular formula on paper as well. | {formula('C6H12O6')} has the empirical formula {formula('CH2O')}: the ratio {1} : {2} : {1}. |
+| What is a molecular formula? | The actual number of atoms of each element in one molecule | The simplest ratio of the atoms · The formula of an ionic compound · The formula written with state symbols | That is the EMPIRICAL formula. · Ionic compounds have formula units, not molecules. · State symbols are added to an equation; they are not part of the formula. | Glucose has the molecular formula {formula('C6H12O6')}, which is {6} times its empirical formula {formula('CH2O')}. |
+| A compound has the empirical formula {formula('CH2')} and a relative molecular mass of {42}. What is its molecular formula? | {formula('C3H6')} | {formula('CH2')} · {formula('C2H4')} · {formula('C4H8')} | {formula('CH2')} has a mass of only {14}, not {42}. · {formula('C2H4')} has a mass of {28}. · {formula('C4H8')} has a mass of {56}, which is too much. | {42} ÷ {14} = {3}, so the molecular formula is {3} times the empirical one. |
+| Why do ionic compounds have only an empirical formula? | They are lattices of ions, with no separate molecules | Their molecules are too large to write · They have no fixed composition · Their molecular formula is always the same as the empirical one by chance | Size is not the reason; there are no molecules at all. · An ionic compound does have a fixed composition. · There is no molecule for a molecular formula to describe. | {formula('NaCl')} shows the ratio of ions in the lattice; there is no {formula('NaCl')} molecule. |
+| In finding an empirical formula from percentages, what is the first step? | Divide each percentage by the relative atomic mass of that element | Add the percentages together · Multiply each percentage by the relative atomic mass · Divide each percentage by {100} | The percentages add to {100}, which is a check but not a step. · Dividing, not multiplying, turns a mass into a number of moles. · Dividing by {100} changes nothing about the ratio. | Percentage by mass behaves like a mass in grams, so dividing by Ar gives the moles. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> A compound has the empirical formula CH₂ and a relative molecular mass of 42. What is its molecular formula?
+
+- ◻️ CH₂  
+  _↳ feedback if chosen: CH₂ has a mass of only 14, not 42._
+- ◻️ C₂H₄  
+  _↳ feedback if chosen: C₂H₄ has a mass of 28._
+- ✅ C₃H₆
+- ◻️ C₄H₈  
+  _↳ feedback if chosen: C₄H₈ has a mass of 56, which is too much._
+
+Full working after a second miss:
+
+> 42 ÷ 14 = 3, so the molecular formula is 3 times the empirical one.  
+> So the answer is C₃H₆.  
+
+> What is an empirical formula?
+
+- ◻️ The actual number of atoms in one molecule  
+  _↳ feedback if chosen: That is the MOLECULAR formula._
+- ✅ The simplest whole-number ratio of the atoms in a compound
+- ◻️ The formula of the simplest compound of two elements  
+  _↳ feedback if chosen: 'Empirical' describes the ratio, not how simple the compound is._
+- ◻️ A formula found only by experiment  
+  _↳ feedback if chosen: It can be worked out from a molecular formula on paper as well._
+
+Full working after a second miss:
+
+> C₆H₁₂O₆ has the empirical formula CH₂O: the ratio 1 : 2 : 1.  
+> So the answer is The simplest whole-number ratio of the atoms in a compound.  
+
+> A compound has the empirical formula CH₂ and a relative molecular mass of 42. What is its molecular formula?
+
+- ◻️ C₄H₈  
+  _↳ feedback if chosen: C₄H₈ has a mass of 56, which is too much._
+- ✅ C₃H₆
+- ◻️ CH₂  
+  _↳ feedback if chosen: CH₂ has a mass of only 14, not 42._
+- ◻️ C₂H₄  
+  _↳ feedback if chosen: C₂H₄ has a mass of 28._
+
+Full working after a second miss:
+
+> 42 ÷ 14 = 3, so the molecular formula is 3 times the empirical one.  
+> So the answer is C₃H₆.  
+
+Sources: moles (Form 4 Chemistry syllabus, Term 1, Formulae, moles and equations: definitions of relative atomic, molecular and molar mass and molar volume; the mole and the Avogadro constant; basic mole calculations; experimental determination of the formulae of magnesium oxide and copper oxide; percentage composition by mass; empirical and molecular formulae; masses and volumes from equations; limiting reagents, theoretical and percentage yield; balancing equations; state symbols)
+
+### `k4-26-define` · Lesson 26 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What is a limiting reagent? | The reactant that is used up first and so decides how much product is made | The reactant there is most of · The reactant with the largest molar mass · The product made in the smallest amount | The one in excess is left over; it is not what limits the reaction. · Molar mass does not decide which runs out first. · A limiting reagent is a reactant, not a product. | Once the limiting reagent is gone the reaction stops, however much of the other reactant is left. |
+| How is the limiting reagent found? | Divide the moles of each reactant by its coefficient, and take the smallest | Take the reactant with the smaller mass · Take the reactant with the smaller molar mass · Take the reactant with the larger number of moles | A small mass may still be many moles if the molar mass is small. · Molar mass alone does not decide it. · More moles does not help if the equation needs even more of it. | The coefficient says how many moles the reaction uses for each unit of reaction, so divide by it before comparing. |
+| What is the theoretical yield? | The mass of product that the equation says should be made, if nothing is lost | The mass of product actually collected · The mass of the reactants used · The percentage of product that is pure | That is the ACTUAL yield. · The reactants are what you start with, not the yield. · Purity is a different idea. | It is worked out from the limiting reagent and the mole ratio in the equation. |
+| Why is the actual yield usually less than the theoretical yield? | Some product is lost in transferring and purifying, and the reaction may not go to completion | The equation is wrong · Atoms are destroyed in the reaction · The theoretical yield is always a guess | The equation is right; the losses happen in the laboratory. · Atoms are never destroyed; they are simply left behind in the apparatus or in side products. · The theoretical yield is calculated exactly from the equation. | Product sticks to filter papers and beakers, some stays dissolved, and side reactions use up reactant. |
+| A reaction has a percentage yield of {100} per cent. What does this mean? | All the limiting reagent was turned into product and none was lost | The product is {100} per cent pure · The reaction was very fast · Twice as much product was made as expected | Purity and yield are different measurements. · Speed has nothing to do with yield. · A yield can never be more than {100} per cent. | Percentage yield = actual ÷ theoretical × {100}, so {100} per cent means actual = theoretical. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> What is a limiting reagent?
+
+- ◻️ The reactant with the largest molar mass  
+  _↳ feedback if chosen: Molar mass does not decide which runs out first._
+- ◻️ The reactant there is most of  
+  _↳ feedback if chosen: The one in excess is left over; it is not what limits the reaction._
+- ✅ The reactant that is used up first and so decides how much product is made
+- ◻️ The product made in the smallest amount  
+  _↳ feedback if chosen: A limiting reagent is a reactant, not a product._
+
+Full working after a second miss:
+
+> Once the limiting reagent is gone the reaction stops, however much of the other reactant is left.  
+> So the answer is The reactant that is used up first and so decides how much product is made.  
+
+> How is the limiting reagent found?
+
+- ◻️ Take the reactant with the smaller molar mass  
+  _↳ feedback if chosen: Molar mass alone does not decide it._
+- ◻️ Take the reactant with the larger number of moles  
+  _↳ feedback if chosen: More moles does not help if the equation needs even more of it._
+- ◻️ Take the reactant with the smaller mass  
+  _↳ feedback if chosen: A small mass may still be many moles if the molar mass is small._
+- ✅ Divide the moles of each reactant by its coefficient, and take the smallest
+
+Full working after a second miss:
+
+> The coefficient says how many moles the reaction uses for each unit of reaction, so divide by it before comparing.  
+> So the answer is Divide the moles of each reactant by its coefficient, and take the smallest.  
+
+> What is a limiting reagent?
+
+- ◻️ The reactant with the largest molar mass  
+  _↳ feedback if chosen: Molar mass does not decide which runs out first._
+- ◻️ The reactant there is most of  
+  _↳ feedback if chosen: The one in excess is left over; it is not what limits the reaction._
+- ✅ The reactant that is used up first and so decides how much product is made
+- ◻️ The product made in the smallest amount  
+  _↳ feedback if chosen: A limiting reagent is a reactant, not a product._
+
+Full working after a second miss:
+
+> Once the limiting reagent is gone the reaction stops, however much of the other reactant is left.  
+> So the answer is The reactant that is used up first and so decides how much product is made.  
+
+Sources: moles (Form 4 Chemistry syllabus, Term 1, Formulae, moles and equations: definitions of relative atomic, molecular and molar mass and molar volume; the mole and the Avogadro constant; basic mole calculations; experimental determination of the formulae of magnesium oxide and copper oxide; percentage composition by mass; empirical and molecular formulae; masses and volumes from equations; limiting reagents, theoretical and percentage yield; balancing equations; state symbols)
+
+### `k4-27-why` · Lesson 27 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why can a percentage yield never be more than {100} per cent? | No more product can be made than the equation allows from the reactants used | Because the balance is not accurate enough · Because some reactant is always left over · It can be more than {100} per cent in a good experiment | A more accurate balance would not create extra product. · Leftover reactant lowers the yield, it does not raise it. · A figure above {100} per cent means the product is wet or impure. | Atoms are conserved: the theoretical yield already counts every atom available. |
+| A pupil calculates a percentage yield of {110} per cent. What is the most likely reason? | The product was weighed before it was dry, so the water counted as product | The reaction was very efficient · The balance was set to zero · The theoretical yield was too large | No reaction can beat its theoretical yield. · Zeroing the balance is correct practice and would not raise the mass. · A theoretical yield that was too large would give a yield BELOW {100} per cent. | Water or unreacted material left in the product adds to the mass weighed. |
+| Which of these lowers the percentage yield? | Some of the product stays on the filter paper | Using a cleaner balance · Writing the equation correctly · Using excess of the other reactant | A cleaner balance gives a more accurate reading, not a lower yield. · A correct equation gives the right theoretical yield. · Excess of the other reactant does not change what the limiting reagent can give. | Any product left behind in the apparatus is not weighed, so the actual yield falls. |
+| Why does industry care about percentage yield? | A low yield wastes raw material and money, so the process may not be worth running | A low yield makes the product impure · A low yield makes the reaction dangerous · Yield has nothing to do with cost | Purity and yield are different measurements. · A low yield is wasteful, not necessarily dangerous. · Raw materials cost money, so the yield is central to the cost. | If only half the reactant becomes product, twice as much must be bought for the same output. |
+| Two methods make the same product. One has a yield of {85} per cent and the other {40} per cent. What else must be known before choosing? | The cost and availability of the reactants, the energy needed and how pure the product is | Nothing: always choose the higher yield · Only the colour of the product · Only how long each method takes | A high yield from a very expensive reactant can still be the worse choice. · Colour is not usually what decides a process. · Time matters, but so do cost, energy and purity. | Yield is one factor among several in choosing an industrial process. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> Two methods make the same product. One has a yield of 85 per cent and the other 40 per cent. What else must be known before choosing?
+
+- ◻️ Nothing: always choose the higher yield  
+  _↳ feedback if chosen: A high yield from a very expensive reactant can still be the worse choice._
+- ◻️ Only how long each method takes  
+  _↳ feedback if chosen: Time matters, but so do cost, energy and purity._
+- ✅ The cost and availability of the reactants, the energy needed and how pure the product is
+- ◻️ Only the colour of the product  
+  _↳ feedback if chosen: Colour is not usually what decides a process._
+
+Full working after a second miss:
+
+> Yield is one factor among several in choosing an industrial process.  
+> So the answer is The cost and availability of the reactants, the energy needed and how pure the product is.  
+
+> Two methods make the same product. One has a yield of 85 per cent and the other 40 per cent. What else must be known before choosing?
+
+- ◻️ Only the colour of the product  
+  _↳ feedback if chosen: Colour is not usually what decides a process._
+- ◻️ Nothing: always choose the higher yield  
+  _↳ feedback if chosen: A high yield from a very expensive reactant can still be the worse choice._
+- ◻️ Only how long each method takes  
+  _↳ feedback if chosen: Time matters, but so do cost, energy and purity._
+- ✅ The cost and availability of the reactants, the energy needed and how pure the product is
+
+Full working after a second miss:
+
+> Yield is one factor among several in choosing an industrial process.  
+> So the answer is The cost and availability of the reactants, the energy needed and how pure the product is.  
+
+> Why can a percentage yield never be more than 100 per cent?
+
+- ◻️ Because some reactant is always left over  
+  _↳ feedback if chosen: Leftover reactant lowers the yield, it does not raise it._
+- ◻️ It can be more than 100 per cent in a good experiment  
+  _↳ feedback if chosen: A figure above 100 per cent means the product is wet or impure._
+- ✅ No more product can be made than the equation allows from the reactants used
+- ◻️ Because the balance is not accurate enough  
+  _↳ feedback if chosen: A more accurate balance would not create extra product._
+
+Full working after a second miss:
+
+> Atoms are conserved: the theoretical yield already counts every atom available.  
+> So the answer is No more product can be made than the equation allows from the reactants used.  
+
+Sources: moles (Form 4 Chemistry syllabus, Term 1, Formulae, moles and equations: definitions of relative atomic, molecular and molar mass and molar volume; the mole and the Avogadro constant; basic mole calculations; experimental determination of the formulae of magnesium oxide and copper oxide; percentage composition by mass; empirical and molecular formulae; masses and volumes from equations; limiting reagents, theoretical and percentage yield; balancing equations; state symbols)
+
+### `k4-28-rules` · Lesson 28 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| Why must a chemical equation be balanced? | Atoms are neither made nor destroyed, so each element must have the same number of atoms on both sides | To make the equation look tidy · So that the masses of the reactants are equal · So that there is the same number of molecules on both sides | Balancing is not about appearance; it states a law of nature. · The two reactants may have very different masses; it is the atoms that must match. · The number of MOLECULES often changes; it is the atoms that are conserved. | Balancing states the conservation of matter: the same atoms are simply rearranged. |
+| What may be changed when balancing an equation? | Only the coefficients, the numbers in front of the formulae | The subscripts inside the formulae · Both the subscripts and the coefficients · Nothing at all | Changing a subscript changes the substance: {formula('H2O')} is water, but {formula('H2O2')} is not. · Subscripts must never be changed; they belong to the formula. · The coefficients are exactly what is adjusted. | A coefficient says how many units react; a subscript says what the substance IS. |
+| What does the equation {2}{formula('H2')} + {formula('O2')} → {2}{formula('H2O')} tell us? | {2} mol of hydrogen react with {1} mol of oxygen to give {2} mol of water | {2} g of hydrogen react with {1} g of oxygen · {2} molecules make {1} molecule · Hydrogen and oxygen react in equal masses | The coefficients are moles (or molecules), not grams. · It is {2} molecules of hydrogen with {1} of oxygen giving {2} of water. · {4} g of hydrogen react with {32} g of oxygen: not equal masses. | The coefficients give the ratio of moles, which is also the ratio of molecules. |
+| In {formula('Fe2O3')} + {3}{formula('CO')} → {2}Fe + {3}{formula('CO2')}, how many moles of carbon monoxide react with {1} mol of iron(III) oxide? | {3} mol | {1} mol · {2} mol · {6} mol | The coefficient of {formula('CO')} is {3}, not {1}. · {2} is the coefficient of the iron. · {6} is twice the coefficient of the carbon monoxide. | Read the coefficient in front of {formula('CO')}: it is {3}. |
+| A pupil balances an equation by changing {formula('H2O')} into {formula('H2O2')}. What is wrong? | {formula('H2O2')} is hydrogen peroxide, a different substance from water | Nothing: it balances the equation · {formula('H2O2')} does not exist · The coefficient should have been changed to {2} as well | Balancing must not change which substances take part. · Hydrogen peroxide does exist, but it is not water. · No change of coefficient can make up for changing the formula. | Subscripts belong to the formula of the substance and must never be changed to balance. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> A pupil balances an equation by changing H₂O into H₂O₂. What is wrong?
+
+- ◻️ The coefficient should have been changed to 2 as well  
+  _↳ feedback if chosen: No change of coefficient can make up for changing the formula._
+- ◻️ Nothing: it balances the equation  
+  _↳ feedback if chosen: Balancing must not change which substances take part._
+- ◻️ H₂O₂ does not exist  
+  _↳ feedback if chosen: Hydrogen peroxide does exist, but it is not water._
+- ✅ H₂O₂ is hydrogen peroxide, a different substance from water
+
+Full working after a second miss:
+
+> Subscripts belong to the formula of the substance and must never be changed to balance.  
+> So the answer is H₂O₂ is hydrogen peroxide, a different substance from water.  
+
+> Why must a chemical equation be balanced?
+
+- ◻️ So that there is the same number of molecules on both sides  
+  _↳ feedback if chosen: The number of MOLECULES often changes; it is the atoms that are conserved._
+- ✅ Atoms are neither made nor destroyed, so each element must have the same number of atoms on both sides
+- ◻️ To make the equation look tidy  
+  _↳ feedback if chosen: Balancing is not about appearance; it states a law of nature._
+- ◻️ So that the masses of the reactants are equal  
+  _↳ feedback if chosen: The two reactants may have very different masses; it is the atoms that must match._
+
+Full working after a second miss:
+
+> Balancing states the conservation of matter: the same atoms are simply rearranged.  
+> So the answer is Atoms are neither made nor destroyed, so each element must have the same number of atoms on both sides.  
+
+> Why must a chemical equation be balanced?
+
+- ◻️ So that the masses of the reactants are equal  
+  _↳ feedback if chosen: The two reactants may have very different masses; it is the atoms that must match._
+- ◻️ To make the equation look tidy  
+  _↳ feedback if chosen: Balancing is not about appearance; it states a law of nature._
+- ◻️ So that there is the same number of molecules on both sides  
+  _↳ feedback if chosen: The number of MOLECULES often changes; it is the atoms that are conserved._
+- ✅ Atoms are neither made nor destroyed, so each element must have the same number of atoms on both sides
+
+Full working after a second miss:
+
+> Balancing states the conservation of matter: the same atoms are simply rearranged.  
+> So the answer is Atoms are neither made nor destroyed, so each element must have the same number of atoms on both sides.  
+
+Sources: moles (Form 4 Chemistry syllabus, Term 1, Formulae, moles and equations: definitions of relative atomic, molecular and molar mass and molar volume; the mole and the Avogadro constant; basic mole calculations; experimental determination of the formulae of magnesium oxide and copper oxide; percentage composition by mass; empirical and molecular formulae; masses and volumes from equations; limiting reagents, theoretical and percentage yield; balancing equations; state symbols)
+
+### `k4-29-which` · Lesson 29 · multiple choice, level 1
+
+Prompt: {X.q}
+
+Table `X` (one row is picked each time):
+
+| q | r | w | e | y |
+|---|---|---|---|---|
+| What does the state symbol (aq) mean? | Dissolved in water: an aqueous solution | A pure liquid · A gas · A solid | A pure liquid is shown by (l), such as water itself. · A gas is shown by (g). · A solid is shown by (s). | (aq) shows that the substance is dissolved in water, as in {formula('NaCl')}(aq). |
+| Which state symbol is used for water formed in a neutralisation at room temperature? | (l) | (aq) · (g) · (s) | (aq) is for a substance DISSOLVED in water, not for water itself. · Water is a gas only above {100} °C. · Water is a solid only below {0} °C. | Water at room temperature is a pure liquid, so it takes (l). |
+| Why are state symbols useful in an equation? | They show what would be seen: a precipitate, a gas given off, or a clear solution | They make the equation balance · They give the mass of each substance · They show how fast the reaction goes | Balancing is done with coefficients; state symbols do not affect it. · Masses come from the moles and the molar masses. · Speed is not shown by an equation at all. | A (s) among (aq) substances means a precipitate; a (g) means bubbles. |
+| In {formula('Zn')}(s) + {formula('H2SO4')}(aq) → {formula('ZnSO4')}(aq) + {formula('H2')}(g), what would be seen? | The zinc dissolves and bubbles of gas are given off | A precipitate forms · Nothing changes · The solution turns solid | No (s) appears among the products, so there is no precipitate. · A gas is given off, which is easy to see. · The products are a solution and a gas. | The (g) tells you to expect bubbles, and the zinc (s) disappears into the solution. |
+| In {formula('Pb(NO3)2')}(aq) + {2}{formula('KI')}(aq) → {formula('PbI2')}(s) + {2}{formula('KNO3')}(aq), what would be seen? | A precipitate forms | Bubbles of gas · The mixture boils · Nothing at all | There is no (g) in the equation, so no gas is given off. · Nothing in the equation suggests boiling. · The (s) among the products is a clear change. | An (s) formed from two (aq) solutions is a precipitate: here the yellow lead(II) iodide. |
+
+Right answer: `{X.r}`; wrong choices: `{X.w[0]}`, `{X.w[1]}`, `{X.w[2]}`
+
+- Feedback `w0`: “{X.e[0]}”
+- Feedback `w1`: “{X.e[1]}”
+- Feedback `w2`: “{X.e[2]}”
+
+Three generated variants:
+
+> In Pb(NO₃)₂(aq) + 2KI(aq) → PbI₂(s) + 2KNO₃(aq), what would be seen?
+
+- ◻️ The mixture boils  
+  _↳ feedback if chosen: Nothing in the equation suggests boiling._
+- ✅ A precipitate forms
+- ◻️ Nothing at all  
+  _↳ feedback if chosen: The (s) among the products is a clear change._
+- ◻️ Bubbles of gas  
+  _↳ feedback if chosen: There is no (g) in the equation, so no gas is given off._
+
+Full working after a second miss:
+
+> An (s) formed from two (aq) solutions is a precipitate: here the yellow lead(II) iodide.  
+> So the answer is A precipitate forms.  
+
+> In Pb(NO₃)₂(aq) + 2KI(aq) → PbI₂(s) + 2KNO₃(aq), what would be seen?
+
+- ◻️ Bubbles of gas  
+  _↳ feedback if chosen: There is no (g) in the equation, so no gas is given off._
+- ✅ A precipitate forms
+- ◻️ The mixture boils  
+  _↳ feedback if chosen: Nothing in the equation suggests boiling._
+- ◻️ Nothing at all  
+  _↳ feedback if chosen: The (s) among the products is a clear change._
+
+Full working after a second miss:
+
+> An (s) formed from two (aq) solutions is a precipitate: here the yellow lead(II) iodide.  
+> So the answer is A precipitate forms.  
+
+> What does the state symbol (aq) mean?
+
+- ◻️ A solid  
+  _↳ feedback if chosen: A solid is shown by (s)._
+- ◻️ A pure liquid  
+  _↳ feedback if chosen: A pure liquid is shown by (l), such as water itself._
+- ◻️ A gas  
+  _↳ feedback if chosen: A gas is shown by (g)._
+- ✅ Dissolved in water: an aqueous solution
+
+Full working after a second miss:
+
+> (aq) shows that the substance is dissolved in water, as in NaCl(aq).  
+> So the answer is Dissolved in water: an aqueous solution.  
+
+Sources: moles (Form 4 Chemistry syllabus, Term 1, Formulae, moles and equations: definitions of relative atomic, molecular and molar mass and molar volume; the mole and the Avogadro constant; basic mole calculations; experimental determination of the formulae of magnesium oxide and copper oxide; percentage composition by mass; empirical and molecular formulae; masses and volumes from equations; limiting reagents, theoretical and percentage yield; balancing equations; state symbols)
+
+### `k4-29-match` · Lesson 29 · matching, level 1
+
+Prompt: Match each state symbol to its meaning.
+
+Pairs (3 shown each time):
+
+- (s) → **Solid**
+- (l) → **Pure liquid**
+- (g) → **Gas**
+- (aq) → **Dissolved in water**
+
+
+Three generated variants:
+
+> Match each state symbol to its meaning.
+
+Right-hand side (shuffled): Gas · Dissolved in water · Pure liquid
+- (g) → **Gas**
+- (l) → **Pure liquid**
+- (aq) → **Dissolved in water**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> (g) → Gas  
+> (l) → Pure liquid  
+> (aq) → Dissolved in water  
+
+> Match each state symbol to its meaning.
+
+Right-hand side (shuffled): Solid · Dissolved in water · Gas
+- (aq) → **Dissolved in water**
+- (s) → **Solid**
+- (g) → **Gas**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> (aq) → Dissolved in water  
+> (s) → Solid  
+> (g) → Gas  
+
+> Match each state symbol to its meaning.
+
+Right-hand side (shuffled): Pure liquid · Solid · Dissolved in water
+- (aq) → **Dissolved in water**
+- (l) → **Pure liquid**
+- (s) → **Solid**
+
+Full working after a second miss:
+
+> The right pairs are:  
+> (aq) → Dissolved in water  
+> (l) → Pure liquid  
+> (s) → Solid  
+
+Sources: moles (Form 4 Chemistry syllabus, Term 1, Formulae, moles and equations: definitions of relative atomic, molecular and molar mass and molar volume; the mole and the Avogadro constant; basic mole calculations; experimental determination of the formulae of magnesium oxide and copper oxide; percentage composition by mass; empirical and molecular formulae; masses and volumes from equations; limiting reagents, theoretical and percentage yield; balancing equations; state symbols)
 
