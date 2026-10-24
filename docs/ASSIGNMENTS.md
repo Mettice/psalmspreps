@@ -59,3 +59,10 @@ and `npm test`. Form 1 changes stay on `form-2` until Dion approves them for the
 - Codex: bring Form 2 Term 3 French (70–81) and Français intensif (104–128) up to the quality bar (4+ questions,
   specific feedback, 3+ variants, Learn screens) when Form 3 is done.
   French 70–81 and Français intensif 104–128 upgraded on 2026-10-24; both assigned Term Three quality batches are complete as drafts pending teacher review.
+
+## Codex coverage and teacher feedback (2026-10-24)
+
+- The current assigned batches contain 348 written drafts, including guided practicals, and 74 explicitly deferred teaching rows. No assigned teaching row is unaccounted for; diagnostic rows remain excluded under AUTHORING.md.
+- Form Four Literature foundations 2/19 are drafted using original examples. Text-specific rows await teacher feedback on books/editions. Form Three/Four Français intensif prescribed-text rows and the three ambiguous Form Three French titles also remain deferred.
+- Dion requested that unresolved book choices and titles be kept for teacher feedback. Collect decisions in the subject TEACHER-REVIEW.md files; do not guess replacements or mark them approved.
+- The reproducible coverage and row-by-row feedback list is [CODEX-CONTENT-STATUS.md](CODEX-CONTENT-STATUS.md). Run `python tools/authoring/audit_codex_scope.py` to refresh it. Later-class ownership remains unassigned as stated above.
