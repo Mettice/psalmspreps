@@ -1,0 +1,714 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "k4-4",
+   "name": "Describe the chemical properties of sulphur dioxide"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Sulphur dioxide is an acidic oxide, a reducing agent and a bleaching agent.\n• Acidic oxide: SO2 + H2O → H2SO3 (sulphurous acid), which turns blue litmus red. With alkalis it gives sulphites: SO2 + 2NaOH → Na2SO3 + H2O.\n• Reducing agent: it decolourises acidified potassium manganate(VII) (purple to colourless) and turns acidified potassium dichromate(VI) from orange to green. It also decolourises bromine water.\n• Bleaching agent: it bleaches by reduction, so the bleaching is temporary; the colour slowly returns as air oxidises the material. Chlorine bleaches by oxidation and is permanent.\n• As an oxidising agent with a stronger reducing agent: SO2 + 2H2S → 3S + 2H2O, giving a yellow deposit of sulphur.\nIn the air, SO2 is oxidised to SO3 and dissolves in rain as sulphuric acid: this is acid rain.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to describe sulphur dioxide as an acidic oxide, a reducing agent, a bleach and sometimes an oxidising agent.\nBuilds on: Lesson {3} (preparing {formula('SO2')}) and Form Three acids, bases and redox.\nLeads to: Lesson {8} (sulphuric acid) and the problem of acid rain."
+   },
+   {
+    "heading": "An acidic oxide and a reducing agent",
+    "text": "Sulphur dioxide is the oxide of a non-metal, so it is acidic.\n• With water: {formula('SO2')} + {formula('H2O')} → {formula('H2SO3')}, sulphurous acid, which turns blue litmus red.\n• With an alkali: {formula('SO2')} + {2}{formula('NaOH')} → {formula('Na2SO3')} + {formula('H2O')}, giving a sulphite.\nIt is also a good reducing agent, and the colour changes are used as tests:\n• acidified potassium manganate(VII): purple → colourless;\n• acidified potassium dichromate(VI): orange → green;\n• bromine water: brown → colourless.\nIn each case the {formula('SO2')} is itself oxidised to a sulphate."
+   },
+   {
+    "heading": "Bleaching, oxidising and acid rain",
+    "text": "Sulphur dioxide bleaches moist coloured materials such as flowers, straw, wool and paper. It does so by REDUCTION, so oxygen in the air slowly turns the colour back: the bleaching is temporary. Chlorine bleaches by oxidation, and that bleaching is permanent.\nWith a stronger reducing agent, {formula('SO2')} is itself the oxidising agent:\n{formula('SO2')} + {2}{formula('H2S')} → {3}S + {2}{formula('H2O')}, seen as a pale yellow deposit of sulphur.\nIn the air, sulphur dioxide from burning coal and oil is oxidised and dissolves in rain as sulphuric acid. This acid rain damages buildings, kills fish in lakes and harms crops."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "acidic oxide",
+    "meaning": "an oxide that gives an acid with water and a salt with an alkali"
+   },
+   {
+    "word": "reducing agent",
+    "meaning": "a substance that removes oxygen from, or gives electrons to, another"
+   },
+   {
+    "word": "temporary bleach",
+    "meaning": "a bleach whose effect is slowly reversed by air"
+   },
+   {
+    "word": "acid rain",
+    "meaning": "rain made acidic by dissolved oxides of sulphur and nitrogen"
+   }
+  ],
+  "examples": [
+   "{formula('SO2')} + {formula('H2O')} → {formula('H2SO3')}",
+   "purple → colourless with manganate(VII)",
+   "{formula('SO2')} + {2}{formula('H2S')} → {3}S + {2}{formula('H2O')}"
+  ],
+  "mistake": {
+   "wrong": "sulphur dioxide dissolves in water to give sulphuric acid",
+   "right": "it gives sulphurous acid, {formula('H2SO3')}",
+   "why": "Sulphuric acid, {formula('H2SO4')}, comes from sulphur TRIoxide, {formula('SO3')}."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 1
+  },
+  "problem": "Explain, with an equation, what is seen when sulphur dioxide is bubbled through acidified potassium manganate(VII) solution.",
+  "steps": [
+   "Acidified potassium manganate(VII) solution is purple.",
+   "Sulphur dioxide is a reducing agent, so it reduces the manganate(VII) ion.",
+   "The purple colour disappears and the solution becomes colourless.",
+   "The {formula('SO2')} is itself oxidised to sulphate: it gains oxygen from the oxidising agent."
+  ],
+  "answer": "the purple colour disappears, because {formula('SO2')} reduces the manganate(VII)",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k4-1",
+    "status": "draft",
+    "idea": "{formula('SO2')} is an acidic oxide: with water it gives sulphurous acid, with alkalis sulphites.",
+    "vars": {},
+    "example": [
+     "{formula('SO2')} + {formula('H2O')} → {formula('H2SO3')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-4-chem"
+    }
+   },
+   {
+    "id": "c4k4-2",
+    "status": "draft",
+    "idea": "{formula('SO2')} is a reducing agent: purple manganate(VII) goes colourless, orange dichromate(VI) goes green.",
+    "vars": {},
+    "example": [
+     "it is itself oxidised to a sulphate"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-4-reduce-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "sulphur"
+     ],
+     "vars": {
+      "T": {
+       "pick": [
+        {
+         "n": "acidified potassium manganate(VII) solution",
+         "r": "The purple colour disappears",
+         "w1": "The solution turns purple from colourless",
+         "w2": "A yellow solid appears",
+         "w3": "The solution turns green",
+         "y": "{formula('SO2')} reduces the purple manganate(VII) ion to a colourless one."
+        },
+        {
+         "n": "acidified potassium dichromate(VI) solution",
+         "r": "The orange colour changes to green",
+         "w1": "The orange colour changes to purple",
+         "w2": "The solution stays orange",
+         "w3": "A white precipitate forms",
+         "y": "{formula('SO2')} reduces the orange dichromate(VI) ion to the green chromium(III) ion."
+        },
+        {
+         "n": "bromine water",
+         "r": "The brown colour of the bromine water disappears",
+         "w1": "The solution turns brown from colourless",
+         "w2": "A yellow solid appears",
+         "w3": "The solution turns blue",
+         "y": "{formula('SO2')} reduces the bromine to colourless bromide ions."
+        },
+        {
+         "n": "hydrogen sulphide",
+         "r": "A yellow deposit of sulphur forms",
+         "w1": "The mixture turns purple",
+         "w2": "A white precipitate forms",
+         "w3": "Nothing is seen",
+         "y": "Here {formula('SO2')} is the OXIDISING agent: {formula('SO2')} + {2}{formula('H2S')} → {3}S + {2}{formula('H2O')}."
+        }
+       ]
+      }
+     },
+     "prompt": "What is seen when sulphur dioxide is bubbled through {T.n}?",
+     "correct": "{T.r}",
+     "distractors": [
+      {
+       "text": "{T.w1}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{T.w2}",
+       "misconception": "w2"
+      },
+      {
+       "text": "{T.w3}",
+       "misconception": "w3"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w1",
+       "explain": "{T.y}"
+      },
+      {
+       "id": "w2",
+       "explain": "{T.y}"
+      },
+      {
+       "id": "w3",
+       "explain": "{T.y}"
+      }
+     ],
+     "solution": [
+      "{T.y}",
+      "So the answer is: {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c4k4-3",
+    "status": "draft",
+    "idea": "{formula('SO2')} bleaches by reduction, so the bleaching is temporary.",
+    "vars": {},
+    "example": [
+     "the colour returns as air oxidises the material again"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-4-bleach-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "sulphur"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A red flower is held in moist sulphur dioxide and loses its colour. It is then left in the air for some days. What happens?",
+         "r": "The colour slowly returns, because the bleaching by {formula('SO2')} is temporary",
+         "w": [
+          "The flower stays white for ever",
+          "The flower turns black",
+          "The colour returns at once"
+         ],
+         "e": [
+          "Permanent bleaching is what chlorine does, by oxidation.",
+          "Blackening is what concentrated sulphuric acid does to sugar, by dehydration.",
+          "The change back takes days, because oxidation by air is slow."
+         ],
+         "y": "{formula('SO2')} bleaches by reduction, and oxygen in the air slowly reverses it."
+        },
+        {
+         "q": "Why must the material be moist for sulphur dioxide to bleach it?",
+         "r": "The gas must dissolve in the water to act on the colouring matter",
+         "w": [
+          "Water is what does the bleaching",
+          "Dry material would catch fire",
+          "The water washes the colour away"
+         ],
+         "e": [
+          "Water alone does not remove the colour of a flower.",
+          "Nothing catches fire in this test.",
+          "Washing is not the effect: the colour is removed chemically, and later returns."
+         ],
+         "y": "Moisture lets the gas form sulphurous acid at the surface, and that is the reducing agent."
+        },
+        {
+         "q": "Which bleach is used for cotton cloth, and why not sulphur dioxide?",
+         "r": "Chlorine or a chlorine compound, because its bleaching is permanent",
+         "w": [
+          "Sulphur dioxide, because it is cheaper",
+          "Neither: cotton cannot be bleached",
+          "Sulphur dioxide, because it is permanent"
+         ],
+         "e": [
+          "Cheapness does not help if the colour returns.",
+          "Cotton is bleached in large amounts in industry.",
+          "Bleaching by {formula('SO2')} is temporary, not permanent."
+         ],
+         "y": "Chlorine bleaches by oxidation, which the air cannot reverse; sulphur dioxide bleaches by reduction."
+        },
+        {
+         "q": "Why is sulphur dioxide still used to bleach straw, wool and paper?",
+         "r": "Chlorine would attack and weaken those materials, while sulphur dioxide does not",
+         "w": [
+          "It is the only bleach that works on them",
+          "It makes them stronger",
+          "Its bleaching lasts longer than chlorine's"
+         ],
+         "e": [
+          "Other bleaches exist, but they damage these materials.",
+          "Bleaching does not strengthen a material.",
+          "Its bleaching lasts a shorter time, not longer."
+         ],
+         "y": "A gentle reducing bleach is chosen where an oxidising bleach would damage the fibres."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-4-chem",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What does sulphur dioxide form when it dissolves in water?",
+       "r": "Sulphurous acid, {formula('H2SO3')}",
+       "w": [
+        "Sulphuric acid, {formula('H2SO4')}",
+        "Hydrogen sulphide, {formula('H2S')}",
+        "A neutral solution"
+       ],
+       "e": [
+        "Sulphuric acid comes from sulphur TRIoxide dissolving in water.",
+        "Hydrogen sulphide is a different compound, made from a sulphide and an acid.",
+        "The solution turns blue litmus red, so it is acidic."
+       ],
+       "y": "{formula('SO2')} + {formula('H2O')} → {formula('H2SO3')}: an acidic oxide gives an acid."
+      },
+      {
+       "q": "What happens when sulphur dioxide is bubbled into acidified potassium manganate(VII) solution?",
+       "r": "The purple colour disappears, because the {formula('SO2')} reduces it",
+       "w": [
+        "The solution turns a deeper purple",
+        "The solution turns brown",
+        "Nothing happens"
+       ],
+       "e": [
+        "Reduction removes the purple colour; it does not deepen it.",
+        "Brown is what happens with bromine water, not with manganate(VII).",
+        "The colour change is clear and is used as a test."
+       ],
+       "y": "{formula('SO2')} is a reducing agent: it is itself oxidised to a sulphate while the purple ion is reduced."
+      },
+      {
+       "q": "Why is the bleaching by sulphur dioxide called temporary?",
+       "r": "The colour slowly returns as air oxidises the bleached material",
+       "w": [
+        "The bleaching only works in the dark",
+        "The material is destroyed rather than bleached",
+        "It only works on cotton"
+       ],
+       "e": [
+        "Light is not what undoes it; oxygen from the air is.",
+        "The material is not destroyed; its colour is removed and then returns.",
+        "It works on wool, silk, straw and paper as well."
+       ],
+       "y": "{formula('SO2')} bleaches by reduction, and oxygen in the air slowly reverses the change."
+      },
+      {
+       "q": "How does bleaching by sulphur dioxide differ from bleaching by chlorine?",
+       "r": "Sulphur dioxide bleaches by reduction; chlorine bleaches by oxidation",
+       "w": [
+        "Both bleach by oxidation",
+        "Both bleach by reduction",
+        "Sulphur dioxide bleaches by oxidation and chlorine by reduction"
+       ],
+       "e": [
+        "Chlorine bleaches by oxidation, but sulphur dioxide does not.",
+        "Chlorine is an oxidising bleach, not a reducing one.",
+        "It is the other way round."
+       ],
+       "y": "That is why the bleaching by {formula('SO2')} is temporary and that by chlorine is permanent."
+      },
+      {
+       "q": "Sulphur dioxide is bubbled through hydrogen sulphide. What is seen?",
+       "r": "A yellow deposit of sulphur forms",
+       "w": [
+        "A white precipitate forms",
+        "The mixture turns blue",
+        "No change is seen"
+       ],
+       "e": [
+        "No white precipitate is formed in this reaction.",
+        "No blue colour appears.",
+        "A pale yellow solid appears clearly."
+       ],
+       "y": "{formula('SO2')} + {2}{formula('H2S')} → {3}S + {2}{formula('H2O')}: here {formula('SO2')} acts as the oxidising agent."
+      },
+      {
+       "q": "Which gas is mainly responsible for acid rain from burning coal?",
+       "r": "Sulphur dioxide",
+       "w": [
+        "Carbon dioxide",
+        "Nitrogen",
+        "Oxygen"
+       ],
+       "e": [
+        "Carbon dioxide makes rain only very slightly acidic; it is not the main cause of acid rain.",
+        "Nitrogen in the air is unreactive and does not itself cause acid rain.",
+        "Oxygen is neutral."
+       ],
+       "y": "{formula('SO2')} from the sulphur in coal dissolves in rain and is oxidised to sulphuric acid."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-4-reduce",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "T": {
+     "pick": [
+      {
+       "n": "acidified potassium manganate(VII) solution",
+       "r": "The purple colour disappears",
+       "w1": "The solution turns purple from colourless",
+       "w2": "A yellow solid appears",
+       "w3": "The solution turns green",
+       "y": "{formula('SO2')} reduces the purple manganate(VII) ion to a colourless one."
+      },
+      {
+       "n": "acidified potassium dichromate(VI) solution",
+       "r": "The orange colour changes to green",
+       "w1": "The orange colour changes to purple",
+       "w2": "The solution stays orange",
+       "w3": "A white precipitate forms",
+       "y": "{formula('SO2')} reduces the orange dichromate(VI) ion to the green chromium(III) ion."
+      },
+      {
+       "n": "bromine water",
+       "r": "The brown colour of the bromine water disappears",
+       "w1": "The solution turns brown from colourless",
+       "w2": "A yellow solid appears",
+       "w3": "The solution turns blue",
+       "y": "{formula('SO2')} reduces the bromine to colourless bromide ions."
+      },
+      {
+       "n": "hydrogen sulphide",
+       "r": "A yellow deposit of sulphur forms",
+       "w1": "The mixture turns purple",
+       "w2": "A white precipitate forms",
+       "w3": "Nothing is seen",
+       "y": "Here {formula('SO2')} is the OXIDISING agent: {formula('SO2')} + {2}{formula('H2S')} → {3}S + {2}{formula('H2O')}."
+      }
+     ]
+    }
+   },
+   "prompt": "What is seen when sulphur dioxide is bubbled through {T.n}?",
+   "correct": "{T.r}",
+   "distractors": [
+    {
+     "text": "{T.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{T.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{T.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{T.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{T.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{T.y}"
+    }
+   ],
+   "solution": [
+    "{T.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "k4-4-bleach",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A red flower is held in moist sulphur dioxide and loses its colour. It is then left in the air for some days. What happens?",
+       "r": "The colour slowly returns, because the bleaching by {formula('SO2')} is temporary",
+       "w": [
+        "The flower stays white for ever",
+        "The flower turns black",
+        "The colour returns at once"
+       ],
+       "e": [
+        "Permanent bleaching is what chlorine does, by oxidation.",
+        "Blackening is what concentrated sulphuric acid does to sugar, by dehydration.",
+        "The change back takes days, because oxidation by air is slow."
+       ],
+       "y": "{formula('SO2')} bleaches by reduction, and oxygen in the air slowly reverses it."
+      },
+      {
+       "q": "Why must the material be moist for sulphur dioxide to bleach it?",
+       "r": "The gas must dissolve in the water to act on the colouring matter",
+       "w": [
+        "Water is what does the bleaching",
+        "Dry material would catch fire",
+        "The water washes the colour away"
+       ],
+       "e": [
+        "Water alone does not remove the colour of a flower.",
+        "Nothing catches fire in this test.",
+        "Washing is not the effect: the colour is removed chemically, and later returns."
+       ],
+       "y": "Moisture lets the gas form sulphurous acid at the surface, and that is the reducing agent."
+      },
+      {
+       "q": "Which bleach is used for cotton cloth, and why not sulphur dioxide?",
+       "r": "Chlorine or a chlorine compound, because its bleaching is permanent",
+       "w": [
+        "Sulphur dioxide, because it is cheaper",
+        "Neither: cotton cannot be bleached",
+        "Sulphur dioxide, because it is permanent"
+       ],
+       "e": [
+        "Cheapness does not help if the colour returns.",
+        "Cotton is bleached in large amounts in industry.",
+        "Bleaching by {formula('SO2')} is temporary, not permanent."
+       ],
+       "y": "Chlorine bleaches by oxidation, which the air cannot reverse; sulphur dioxide bleaches by reduction."
+      },
+      {
+       "q": "Why is sulphur dioxide still used to bleach straw, wool and paper?",
+       "r": "Chlorine would attack and weaken those materials, while sulphur dioxide does not",
+       "w": [
+        "It is the only bleach that works on them",
+        "It makes them stronger",
+        "Its bleaching lasts longer than chlorine's"
+       ],
+       "e": [
+        "Other bleaches exist, but they damage these materials.",
+        "Bleaching does not strengthen a material.",
+        "Its bleaching lasts a shorter time, not longer."
+       ],
+       "y": "A gentle reducing bleach is chosen where an oxidising bleach would damage the fibres."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-4-vol",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      0.1,
+      0.2,
+      0.25,
+      0.5,
+      1,
+      1.5,
+      2
+     ]
+    }
+   },
+   "prompt": "What volume of sulphur dioxide, in dm³ at s.t.p., is given off when {n} mol of sodium sulphite reacts completely with dilute hydrochloric acid?",
+   "answer": "gasVolume(n)",
+   "misconceptions": [
+    {
+     "id": "double",
+     "wrong": "gasVolume(2 * n)",
+     "explain": "The equation gives {1} mol of {formula('SO2')} for each {1} mol of sulphite, not {2}."
+    },
+    {
+     "id": "div",
+     "wrong": "volumeToMoles(n)",
+     "explain": "Multiply the moles by {22.4} dm³/mol; do not divide."
+    }
+   ],
+   "solution": [
+    "{formula('Na2SO3')} + {2}{formula('HCl')} → {2}{formula('NaCl')} + {formula('H2O')} + {formula('SO2')}.",
+    "{1} mol of sulphite gives {1} mol of {formula('SO2')}, so {n} mol gives {n} mol.",
+    "At s.t.p. {1} mol of any gas is {22.4} dm³, so the volume is {n} × {22.4} = {answer} dm³."
+   ],
+   "unit": "dm³"
+  },
+  {
+   "id": "k4-4-match",
+   "type": "matching",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "sulphur"
+   ],
+   "prompt": "Match each observation to what is formed or seen.",
+   "pool": [
+    {
+     "left": "{formula('SO2')} dissolved in water",
+     "right": "Sulphurous acid, {formula('H2SO3')}"
+    },
+    {
+     "left": "{formula('SO2')} passed into sodium hydroxide solution",
+     "right": "Sodium sulphite, {formula('Na2SO3')}"
+    },
+    {
+     "left": "{formula('SO2')} bubbled into acidified manganate(VII)",
+     "right": "The purple colour disappears"
+    },
+    {
+     "left": "{formula('SO2')} bubbled into acidified dichromate(VI)",
+     "right": "Orange changes to green"
+    },
+    {
+     "left": "{formula('SO2')} mixed with {formula('H2S')}",
+     "right": "A yellow deposit of sulphur"
+    }
+   ],
+   "pick": 3
+  }
+ ]
+}

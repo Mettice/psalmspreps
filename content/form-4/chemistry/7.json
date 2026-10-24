@@ -1,0 +1,579 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  6
+ ],
+ "skills": [
+  {
+   "id": "k4-7",
+   "name": "Prepare the sulphides of sodium and iron and describe their properties"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A sulphide is a compound of a metal with sulphur.\nIron(II) sulphide: heat a mixture of iron filings and sulphur. Fe + S → FeS. The mixture glows and goes on reacting without more heating, because the reaction gives out heat. The product is a black solid.\nSodium sulphide: made by heating sodium with sulphur, or by reducing sodium sulphate with carbon. It is a solid that dissolves easily in water to give an alkaline solution.\nA compound is not a mixture: a magnet picks iron out of a MIXTURE of iron and sulphur, but not out of FeS; the mixture shows yellow specks, while FeS is uniformly black.\nBoth sulphides give hydrogen sulphide with a dilute acid: FeS + 2HCl → FeCl2 + H2S.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to prepare the sulphides of iron and sodium, tell a compound from a mixture, and work out the masses that combine.\nBuilds on: Lesson {6} (hydrogen sulphide) and Form One compounds and mixtures.\nLeads to: Lesson {8} (sulphuric acid) and the mole calculations of the third chapter."
+   },
+   {
+    "heading": "Making the sulphides",
+    "text": "Iron(II) sulphide: mix iron filings with powdered sulphur and heat one spot strongly. The mixture begins to glow red and goes on reacting without further heating, because the reaction gives out heat:\nFe + S → {formula('FeS')}\nThe product is a black solid.\nSodium sulphide: made by heating sodium with sulphur, or in industry by reducing sodium sulphate with carbon. It is a solid that dissolves readily in water, giving an alkaline solution.\nBoth sulphides give hydrogen sulphide with a dilute acid, which is how the gas is prepared."
+   },
+   {
+    "heading": "Compound against mixture",
+    "text": "A mixture of iron and sulphur and the compound {formula('FeS')} look different and behave differently:\n• a magnet picks the iron out of the MIXTURE, but takes nothing from the compound;\n• the mixture shows yellow specks among grey, while the compound is uniformly black;\n• dilute acid gives odourless hydrogen from the mixture, but hydrogen sulphide from the compound;\n• a mixture can hold any proportions, but {formula('FeS')} always has {56} parts of iron to {32} of sulphur by mass.\nIn a compound the elements have joined chemically and lost their own properties."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "sulphide",
+    "meaning": "a compound of a metal with sulphur"
+   },
+   {
+    "word": "mixture",
+    "meaning": "substances together but not chemically joined"
+   },
+   {
+    "word": "exothermic",
+    "meaning": "giving out heat, as the iron and sulphur reaction does"
+   },
+   {
+    "word": "fixed proportions",
+    "meaning": "the fixed ratio by mass in which elements combine in a compound"
+   }
+  ],
+  "examples": [
+   "Fe + S → {formula('FeS')}",
+   "{formula('FeS')} + {2}{formula('HCl')} → {formula('FeCl2')} + {formula('H2S')}",
+   "{56} g of Fe needs {32} g of S"
+  ],
+  "mistake": {
+   "wrong": "a magnet separates iron from iron(II) sulphide",
+   "right": "a magnet separates iron from a MIXTURE of iron and sulphur only",
+   "why": "In the compound the iron is chemically joined and the solid is not magnetic."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 1
+  },
+  "problem": "Give two ways of showing that the black solid made by heating iron and sulphur is a compound, not a mixture.",
+  "steps": [
+   "Hold a magnet near it: a mixture gives up its iron filings to the magnet, but the compound does not.",
+   "Look at it closely: a mixture shows yellow specks of sulphur among grey iron, but the compound is uniformly black.",
+   "Add dilute hydrochloric acid: the mixture gives hydrogen (odourless), the compound gives hydrogen sulphide (rotten eggs).",
+   "In a compound the elements have lost their own properties."
+  ],
+  "answer": "a magnet no longer picks out iron, and the solid is uniformly black",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k7-1",
+    "status": "draft",
+    "idea": "Fe + S → {formula('FeS')}: heating starts the reaction, which then continues on its own.",
+    "vars": {},
+    "example": [
+     "the mixture glows red without more heating"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-7-make"
+    }
+   },
+   {
+    "id": "c4k7-2",
+    "status": "draft",
+    "idea": "A compound is not a mixture: {formula('FeS')} is not magnetic and is uniformly black.",
+    "vars": {},
+    "example": [
+     "a magnet picks iron out of the mixture only"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-7-tell"
+    }
+   },
+   {
+    "id": "c4k7-3",
+    "status": "draft",
+    "idea": "A sulphide with a dilute acid gives hydrogen sulphide.",
+    "vars": {},
+    "example": [
+     "{formula('FeS')} + {2}{formula('HCl')} → {formula('FeCl2')} + {formula('H2S')}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-7-acid-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "sulphur"
+     ],
+     "vars": {
+      "C": {
+       "pick": [
+        {
+         "n": "iron(II) sulphide",
+         "r": "Hydrogen sulphide, which smells of rotten eggs",
+         "w1": "Hydrogen",
+         "w2": "Sulphur dioxide",
+         "w3": "Carbon dioxide",
+         "y": "{formula('FeS')} + {2}{formula('HCl')} → {formula('FeCl2')} + {formula('H2S')}."
+        },
+        {
+         "n": "sodium sulphite",
+         "r": "Sulphur dioxide, which has a sharp choking smell",
+         "w1": "Hydrogen sulphide",
+         "w2": "Hydrogen",
+         "w3": "Oxygen",
+         "y": "A sulphITE gives {formula('SO2')}; a sulphIDE gives {formula('H2S')}."
+        },
+        {
+         "n": "iron filings",
+         "r": "Hydrogen, which is odourless and pops with a lighted splint",
+         "w1": "Hydrogen sulphide",
+         "w2": "Sulphur dioxide",
+         "w3": "No gas at all",
+         "y": "A metal above hydrogen in the reactivity series gives hydrogen with a dilute acid."
+        },
+        {
+         "n": "sodium carbonate",
+         "r": "Carbon dioxide, which turns limewater milky",
+         "w1": "Hydrogen sulphide",
+         "w2": "Sulphur dioxide",
+         "w3": "Hydrogen",
+         "y": "A carbonate with an acid always gives carbon dioxide."
+        }
+       ]
+      }
+     },
+     "prompt": "Dilute hydrochloric acid is added to {C.n}. What gas is given off?",
+     "correct": "{C.r}",
+     "distractors": [
+      {
+       "text": "{C.w1}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{C.w2}",
+       "misconception": "w2"
+      },
+      {
+       "text": "{C.w3}",
+       "misconception": "w3"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w1",
+       "explain": "{C.y}"
+      },
+      {
+       "id": "w2",
+       "explain": "{C.y}"
+      },
+      {
+       "id": "w3",
+       "explain": "{C.y}"
+      }
+     ],
+     "solution": [
+      "{C.y}",
+      "So the answer is: {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-7-make",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How is iron(II) sulphide prepared in the laboratory?",
+       "r": "By heating a mixture of iron filings and sulphur",
+       "w": [
+        "By adding iron filings to dilute sulphuric acid",
+        "By burning iron in air",
+        "By adding iron filings to water containing sulphur"
+       ],
+       "e": [
+        "Iron with dilute sulphuric acid gives iron(II) sulphate and hydrogen.",
+        "Burning iron in air gives an oxide, not a sulphide.",
+        "Sulphur is insoluble in water, and no reaction takes place in the cold."
+       ],
+       "y": "Fe + S → {formula('FeS')}: once started, the mixture glows and keeps reacting by itself."
+      },
+      {
+       "q": "What is seen when a mixture of iron filings and sulphur is heated strongly?",
+       "r": "The mixture glows red and keeps reacting without more heating",
+       "w": [
+        "The mixture melts and runs like a liquid",
+        "A brown gas is given off",
+        "Nothing happens until acid is added"
+       ],
+       "e": [
+        "The product is a solid that does not melt at that temperature.",
+        "No brown gas is formed; the product is a black solid.",
+        "The reaction starts with heat alone."
+       ],
+       "y": "The reaction gives out heat, so it continues on its own once it has started."
+      },
+      {
+       "q": "How can iron(II) sulphide be told from a mixture of iron and sulphur?",
+       "r": "A magnet picks iron out of the mixture but not out of the compound",
+       "w": [
+        "The compound is yellow and the mixture is black",
+        "Both behave in exactly the same way",
+        "Only the compound can be seen with a hand lens"
+       ],
+       "e": [
+        "It is the other way round in colour terms: the compound is black and the mixture shows yellow specks.",
+        "A compound has properties of its own, different from those of its elements.",
+        "Both can be seen; the difference is in their properties."
+       ],
+       "y": "In a mixture the elements keep their own properties, so the iron is still magnetic."
+      },
+      {
+       "q": "What happens when dilute hydrochloric acid is added to iron(II) sulphide?",
+       "r": "Hydrogen sulphide is given off",
+       "w": [
+        "Hydrogen is given off",
+        "Sulphur dioxide is given off",
+        "Nothing happens"
+       ],
+       "e": [
+        "Hydrogen comes from a metal with an acid, not from a sulphide.",
+        "Sulphur dioxide comes from a sulphite with an acid.",
+        "The reaction is the standard way of making {formula('H2S')}."
+       ],
+       "y": "{formula('FeS')} + {2}{formula('HCl')} → {formula('FeCl2')} + {formula('H2S')}."
+      },
+      {
+       "q": "Which statement about sodium sulphide is correct?",
+       "r": "It is soluble in water and its solution is alkaline",
+       "w": [
+        "It is insoluble in water",
+        "Its solution is strongly acidic",
+        "It is a yellow gas"
+       ],
+       "e": [
+        "Sodium compounds are generally soluble, and sodium sulphide is no exception.",
+        "The solution of a salt of a strong base and a weak acid is alkaline, not acidic.",
+        "It is a solid, not a gas."
+       ],
+       "y": "{formula('Na2S')} dissolves and its solution is alkaline because the sulphide ion reacts with water."
+      },
+      {
+       "q": "Why is iron(II) sulphide used, rather than sodium sulphide, to make hydrogen sulphide in the laboratory?",
+       "r": "It is a solid that reacts steadily with dilute acid, so the flow of gas is easy to control",
+       "w": [
+        "Sodium sulphide gives a different gas",
+        "Iron(II) sulphide is the only sulphide that exists",
+        "Sodium sulphide does not react with acids"
+       ],
+       "e": [
+        "Both give hydrogen sulphide with an acid.",
+        "Many metal sulphides exist, such as {formula('Na2S')}, {formula('ZnS')} and {formula('PbS')}.",
+        "Sodium sulphide does react, and very readily."
+       ],
+       "y": "Lumps of {formula('FeS')} react at a steady rate, while the very soluble {formula('Na2S')} would react too fast."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-7-tell",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "M": {
+     "pick": [
+      {
+       "q": "using a magnet",
+       "r": "A magnet picks iron out of the mixture, but takes nothing from the compound",
+       "w1": "A magnet picks iron out of both",
+       "w2": "A magnet picks iron out of the compound only",
+       "w3": "A magnet has no effect on either",
+       "y": "In a mixture each element keeps its own properties, so the iron is still magnetic."
+      },
+      {
+       "q": "looking at them",
+       "r": "The mixture shows yellow specks among grey, while the compound is uniformly black",
+       "w1": "Both are uniformly black",
+       "w2": "The compound shows yellow specks",
+       "w3": "Both show yellow specks",
+       "y": "The compound is a new substance with its own appearance."
+      },
+      {
+       "q": "adding dilute hydrochloric acid",
+       "r": "The mixture gives an odourless gas, the compound a gas smelling of rotten eggs",
+       "w1": "Both give an odourless gas",
+       "w2": "Both give a gas smelling of rotten eggs",
+       "w3": "Neither reacts with the acid",
+       "y": "The iron in a mixture gives hydrogen; the compound gives hydrogen sulphide."
+      }
+     ]
+    }
+   },
+   "prompt": "How can you tell iron(II) sulphide from a mixture of iron and sulphur by {M.q}?",
+   "correct": "{M.r}",
+   "distractors": [
+    {
+     "text": "{M.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{M.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{M.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{M.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{M.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{M.y}"
+    }
+   ],
+   "solution": [
+    "{M.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "k4-7-ratio",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "m": {
+     "pick": [
+      5.6,
+      11.2,
+      14,
+      22.4,
+      28,
+      56
+     ]
+    }
+   },
+   "prompt": "What mass of sulphur, in grams, combines exactly with {m} g of iron to make iron(II) sulphide?",
+   "answer": "roundTo(m * ram('S') / ram('Fe'), 0.01)",
+   "misconceptions": [
+    {
+     "id": "same",
+     "wrong": "m",
+     "explain": "Equal moles do not mean equal masses: iron and sulphur have different relative atomic masses."
+    },
+    {
+     "id": "swap",
+     "wrong": "roundTo(m * ram('Fe') / ram('S'), 0.01)",
+     "explain": "Divide by the relative atomic mass of IRON and multiply by that of sulphur."
+    }
+   ],
+   "solution": [
+    "Fe + S → {formula('FeS')}: {1} mol of iron needs {1} mol of sulphur.",
+    "{m} g of iron is {m} ÷ {ram('Fe')} = {roundTo(m / ram('Fe'), 0.001)} mol.",
+    "That needs the same number of moles of sulphur: {roundTo(m / ram('Fe'), 0.001)} × {ram('S')} = {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "k4-7-acid",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "C": {
+     "pick": [
+      {
+       "n": "iron(II) sulphide",
+       "r": "Hydrogen sulphide, which smells of rotten eggs",
+       "w1": "Hydrogen",
+       "w2": "Sulphur dioxide",
+       "w3": "Carbon dioxide",
+       "y": "{formula('FeS')} + {2}{formula('HCl')} → {formula('FeCl2')} + {formula('H2S')}."
+      },
+      {
+       "n": "sodium sulphite",
+       "r": "Sulphur dioxide, which has a sharp choking smell",
+       "w1": "Hydrogen sulphide",
+       "w2": "Hydrogen",
+       "w3": "Oxygen",
+       "y": "A sulphITE gives {formula('SO2')}; a sulphIDE gives {formula('H2S')}."
+      },
+      {
+       "n": "iron filings",
+       "r": "Hydrogen, which is odourless and pops with a lighted splint",
+       "w1": "Hydrogen sulphide",
+       "w2": "Sulphur dioxide",
+       "w3": "No gas at all",
+       "y": "A metal above hydrogen in the reactivity series gives hydrogen with a dilute acid."
+      },
+      {
+       "n": "sodium carbonate",
+       "r": "Carbon dioxide, which turns limewater milky",
+       "w1": "Hydrogen sulphide",
+       "w2": "Sulphur dioxide",
+       "w3": "Hydrogen",
+       "y": "A carbonate with an acid always gives carbon dioxide."
+      }
+     ]
+    }
+   },
+   "prompt": "Dilute hydrochloric acid is added to {C.n}. What gas is given off?",
+   "correct": "{C.r}",
+   "distractors": [
+    {
+     "text": "{C.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{C.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{C.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{C.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{C.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{C.y}"
+    }
+   ],
+   "solution": [
+    "{C.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "k4-7-mass",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "m": {
+     "pick": [
+      5.6,
+      11.2,
+      14,
+      22.4,
+      28,
+      56
+     ]
+    }
+   },
+   "prompt": "What mass of iron(II) sulphide, in grams, is made when {m} g of iron combines completely with sulphur?",
+   "answer": "roundTo(m * molarMass('FeS') / ram('Fe'), 0.01)",
+   "misconceptions": [
+    {
+     "id": "same",
+     "wrong": "m",
+     "explain": "The sulphur adds to the mass: the product is heavier than the iron alone."
+    },
+    {
+     "id": "sulphur",
+     "wrong": "roundTo(m * ram('S') / ram('Fe'), 0.01)",
+     "explain": "That is the mass of SULPHUR needed; the question asks for the mass of {formula('FeS')}."
+    }
+   ],
+   "solution": [
+    "{m} g of iron is {roundTo(m / ram('Fe'), 0.001)} mol.",
+    "Fe + S → {formula('FeS')}, so the same number of moles of {formula('FeS')} is made.",
+    "The relative formula mass of {formula('FeS')} is {molarMass('FeS')}, so the mass is {roundTo(m / ram('Fe'), 0.001)} × {molarMass('FeS')} = {answer} g."
+   ],
+   "unit": "g"
+  }
+ ]
+}

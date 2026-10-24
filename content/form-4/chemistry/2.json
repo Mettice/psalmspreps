@@ -1,0 +1,688 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "k4-2",
+   "name": "Describe the physical and chemical properties of sulphur and its allotropes"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Sulphur is a brittle yellow solid, insoluble in water, soluble in carbon disulphide, and a poor conductor of heat and electricity.\nAllotropes are different forms of the same element in the same physical state. Sulphur has two crystalline allotropes:\n• Rhombic (alpha) sulphur: octahedral crystals, stable below about 96 °C, density 2.07 g/cm³.\n• Monoclinic (beta) sulphur: needle-shaped crystals, stable between about 96 °C and the melting point, density 1.98 g/cm³.\n96 °C is the transition temperature. Plastic sulphur, a brown rubbery form made by pouring boiling sulphur into cold water, is not crystalline and slowly changes back to rhombic sulphur.\nChemically, sulphur burns in air with a blue flame to sulphur dioxide, and combines with many metals on heating to form sulphides.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to describe the properties of sulphur and tell its allotropes apart by crystal shape, stability and density.\nBuilds on: Lesson {1} (where sulphur comes from) and Form Three structure and bonding.\nLeads to: Lessons {3} to {8}, which deal with the compounds sulphur forms."
+   },
+   {
+    "heading": "Physical properties and allotropes",
+    "text": "Sulphur is a brittle yellow solid. It is insoluble in water, dissolves in carbon disulphide, does not conduct electricity, and melts at about {115} °C.\nAllotropes are different forms of the same element in the same physical state. Sulphur has two crystalline forms:\n• Rhombic (alpha): octahedral crystals, density {2.07} g/cm³, stable below about {96} °C. Grown by letting carbon disulphide evaporate from a solution of sulphur.\n• Monoclinic (beta): needle-shaped crystals, density {1.98} g/cm³, stable between about {96} °C and the melting point. Grown by letting molten sulphur cool slowly and pouring off the liquid left.\nAbout {96} °C is the transition temperature, where one form changes into the other."
+   },
+   {
+    "heading": "Plastic sulphur and chemical properties",
+    "text": "If boiling sulphur is poured into cold water it sets as plastic sulphur: a brown rubbery solid with no crystals. It is unstable and slowly turns back into rhombic sulphur.\nChemically, sulphur:\n• burns in air with a blue flame to sulphur dioxide: S + {formula('O2')} → {formula('SO2')};\n• combines with many metals on heating to give sulphides: Fe + S → {formula('FeS')};\n• is oxidised by hot concentrated sulphuric acid and by hot concentrated nitric acid.\nIt does not react with water or with dilute acids."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "allotropes",
+    "meaning": "different forms of the same element in the same physical state"
+   },
+   {
+    "word": "rhombic sulphur",
+    "meaning": "the octahedral form, stable below about {96} °C"
+   },
+   {
+    "word": "monoclinic sulphur",
+    "meaning": "the needle-shaped form, stable above about {96} °C"
+   },
+   {
+    "word": "transition temperature",
+    "meaning": "the temperature at which one allotrope changes into the other"
+   }
+  ],
+  "examples": [
+   "rhombic: octahedral, {2.07} g/cm³",
+   "monoclinic: needles, {1.98} g/cm³",
+   "S + {formula('O2')} → {formula('SO2')}"
+  ],
+  "mistake": {
+   "wrong": "rhombic and monoclinic sulphur are isotopes of sulphur",
+   "right": "they are allotropes",
+   "why": "Isotopes differ in the nucleus. Allotropes differ in how the same atoms are arranged."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "t": 96
+  },
+  "problem": "A sample of sulphur is kept at {t - 20} °C for several days and then at {t + 10} °C for several days. Name the stable form in each case.",
+  "steps": [
+   "The transition temperature is about {t} °C.",
+   "Below {t} °C the stable form is rhombic (alpha) sulphur, with octahedral crystals.",
+   "Between {t} °C and the melting point the stable form is monoclinic (beta) sulphur, with needle-shaped crystals.",
+   "{t - 20} °C is below {t} °C, and {t + 10} °C is above it."
+  ],
+  "answer": "rhombic at {t - 20} °C and monoclinic at {t + 10} °C",
+  "checks": [
+   "t == 96"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k2-1",
+    "status": "draft",
+    "idea": "Allotropes are different forms of the same element in the same state.",
+    "vars": {},
+    "example": [
+     "rhombic and monoclinic sulphur are both pure solid sulphur"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-2-allo"
+    }
+   },
+   {
+    "id": "c4k2-2",
+    "status": "draft",
+    "idea": "Rhombic sulphur is stable below about {96} °C; monoclinic above it.",
+    "vars": {},
+    "example": [
+     "{96} °C is the transition temperature"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-2-stable"
+    }
+   },
+   {
+    "id": "c4k2-3",
+    "status": "draft",
+    "idea": "Sulphur burns in air with a blue flame to give sulphur dioxide.",
+    "vars": {},
+    "example": [
+     "S + {formula('O2')} → {formula('SO2')}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-2-burn-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "sulphur"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Sulphur is heated in a deflagrating spoon and lowered into a gas jar of air. What is seen and formed?",
+         "r": "A blue flame, forming sulphur dioxide, {formula('SO2')}",
+         "w": [
+          "A yellow flame, forming sulphur trioxide, {formula('SO3')}",
+          "A white flame, forming a white solid",
+          "Nothing happens"
+         ],
+         "e": [
+          "{formula('SO3')} is made in the Contact process with a catalyst, not by burning sulphur in air.",
+          "The product is a gas, not a solid.",
+          "Heated sulphur burns in air with a clearly visible flame."
+         ],
+         "y": "S + {formula('O2')} → {formula('SO2')}, with a blue flame and a choking smell."
+        },
+        {
+         "q": "Iron filings and sulphur are heated together. What is formed?",
+         "r": "Iron(II) sulphide, {formula('FeS')}, a black solid",
+         "w": [
+          "A mixture of iron and sulphur, unchanged",
+          "Iron(II) sulphate, {formula('FeSO4')}",
+          "Iron and sulphur dioxide"
+         ],
+         "e": [
+          "Heating makes them react; the product cannot be separated with a magnet.",
+          "No oxygen is present, so no sulphate can form.",
+          "No oxygen is present, so no {formula('SO2')} can form."
+         ],
+         "y": "Fe + S → {formula('FeS')}: sulphur combines with many metals when heated."
+        },
+        {
+         "q": "What does sulphur do with dilute hydrochloric acid?",
+         "r": "Nothing: sulphur does not react with dilute acids",
+         "w": [
+          "It gives off hydrogen",
+          "It gives off hydrogen sulphide",
+          "It dissolves to give a yellow solution"
+         ],
+         "e": [
+          "Only metals above hydrogen give off hydrogen with a dilute acid.",
+          "That happens with a metal SULPHIDE, not with sulphur itself.",
+          "Sulphur is insoluble and unreactive towards dilute acids."
+         ],
+         "y": "Sulphur reacts with hot concentrated acids, but not with dilute ones."
+        },
+        {
+         "q": "Why is a deflagrating spoon used to burn sulphur in a gas jar?",
+         "r": "It holds the burning sulphur safely in the jar while the gas collects",
+         "w": [
+          "It makes the sulphur burn more brightly",
+          "It stops the sulphur from melting",
+          "It dries the gas as it forms"
+         ],
+         "e": [
+          "The brightness depends on the sulphur and the air, not on the spoon.",
+          "The sulphur melts before it burns; the spoon holds the molten sulphur.",
+          "The spoon does not dry anything."
+         ],
+         "y": "The long handle lets the burning sulphur be lowered into the jar and taken out safely."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-2-allo",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What are allotropes?",
+       "r": "Different forms of the same element in the same physical state",
+       "w": [
+        "Different elements with the same properties",
+        "Compounds of one element with another",
+        "Atoms of one element with different numbers of neutrons"
+       ],
+       "e": [
+        "Allotropes are forms of ONE element, not different elements.",
+        "No other element is joined: an allotrope is still the pure element.",
+        "Those are isotopes, which differ in the nucleus, not in the arrangement of the atoms."
+       ],
+       "y": "Rhombic and monoclinic sulphur are both pure solid sulphur, with the atoms packed differently."
+      },
+      {
+       "q": "Which allotrope of sulphur is stable below {96} °C?",
+       "r": "Rhombic (alpha) sulphur",
+       "w": [
+        "Monoclinic (beta) sulphur",
+        "Plastic sulphur",
+        "Both are equally stable"
+       ],
+       "e": [
+        "Monoclinic sulphur is the stable form between about {96} °C and the melting point.",
+        "Plastic sulphur is not stable at all: it slowly changes back to rhombic.",
+        "Only one form is stable at a given temperature."
+       ],
+       "y": "Below the transition temperature of about {96} °C, rhombic sulphur is the stable form."
+      },
+      {
+       "q": "What shape are the crystals of monoclinic sulphur?",
+       "r": "Long needle-shaped crystals",
+       "w": [
+        "Octahedral crystals",
+        "Cubes",
+        "It has no crystals at all"
+       ],
+       "e": [
+        "Octahedral crystals are the rhombic form.",
+        "Neither allotrope of sulphur forms cubes.",
+        "Monoclinic sulphur does form crystals; it is plastic sulphur that has none."
+       ],
+       "y": "Monoclinic sulphur grows as needles, while rhombic sulphur grows as octahedral crystals."
+      },
+      {
+       "q": "In which liquid does sulphur dissolve?",
+       "r": "Carbon disulphide",
+       "w": [
+        "Water",
+        "Dilute hydrochloric acid",
+        "Ethanol, very readily"
+       ],
+       "e": [
+        "Sulphur is insoluble in water.",
+        "Sulphur does not react with or dissolve in dilute acids.",
+        "Sulphur is only very slightly soluble in ethanol."
+       ],
+       "y": "Sulphur is insoluble in water but dissolves well in carbon disulphide, which is how rhombic crystals are grown."
+      },
+      {
+       "q": "What is seen when sulphur burns in air?",
+       "r": "A blue flame, giving a colourless gas with a choking smell",
+       "w": [
+        "A bright white flame, giving a white solid",
+        "A yellow flame, giving a black solid",
+        "No reaction takes place"
+       ],
+       "e": [
+        "A bright white flame with a white solid is burning magnesium.",
+        "A black solid is not formed; the product is a gas.",
+        "Sulphur burns readily when heated in air."
+       ],
+       "y": "Sulphur burns with a blue flame to give sulphur dioxide: S + {formula('O2')} → {formula('SO2')}."
+      },
+      {
+       "q": "How is plastic sulphur made?",
+       "r": "By pouring boiling sulphur into cold water",
+       "w": [
+        "By cooling molten sulphur very slowly",
+        "By dissolving sulphur in carbon disulphide and evaporating",
+        "By heating sulphur gently to just above its melting point"
+       ],
+       "e": [
+        "Slow cooling gives crystals, not the plastic form.",
+        "That method grows rhombic crystals.",
+        "Gentle melting gives a runny amber liquid, which sets back to a crystalline form."
+       ],
+       "y": "Sudden cooling traps long chains of sulphur atoms, giving a brown rubbery solid that is not crystalline."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-2-stable",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "t": {
+     "pick": [
+      20,
+      25,
+      40,
+      60,
+      80,
+      90,
+      100,
+      105,
+      110,
+      112
+     ]
+    }
+   },
+   "prompt": "Which form of sulphur is stable at {t} °C?",
+   "correct": "{t < 96 ? 'Rhombic (alpha) sulphur' : 'Monoclinic (beta) sulphur'}",
+   "distractors": [
+    {
+     "text": "{t < 96 ? 'Monoclinic (beta) sulphur' : 'Rhombic (alpha) sulphur'}",
+     "misconception": "swap"
+    },
+    {
+     "text": "Plastic sulphur",
+     "misconception": "plastic"
+    },
+    {
+     "text": "Neither: sulphur is liquid at that temperature",
+     "misconception": "liquid"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "Rhombic is stable BELOW about {96} °C and monoclinic above it, up to the melting point."
+    },
+    {
+     "id": "plastic",
+     "explain": "Plastic sulphur is never the stable form: it slowly changes back to rhombic."
+    },
+    {
+     "id": "liquid",
+     "explain": "Sulphur melts at about {115} °C, so at {t} °C it is still solid."
+    }
+   ],
+   "solution": [
+    "The transition temperature is about {96} °C.",
+    "{t} °C is {t < 96 ? 'below' : 'above'} it, and the melting point is about {115} °C.",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "k4-2-match",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "sulphur"
+   ],
+   "prompt": "Match each quantity to its value for sulphur.",
+   "pool": [
+    {
+     "left": "Shape of rhombic crystals",
+     "right": "Octahedral"
+    },
+    {
+     "left": "Shape of monoclinic crystals",
+     "right": "Needles"
+    },
+    {
+     "left": "Density of rhombic sulphur",
+     "right": "{2.07} g/cm³"
+    },
+    {
+     "left": "Density of monoclinic sulphur",
+     "right": "{1.98} g/cm³"
+    },
+    {
+     "left": "Transition temperature",
+     "right": "About {96} °C"
+    },
+    {
+     "left": "Melting point",
+     "right": "About {115} °C"
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "k4-2-burn",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Sulphur is heated in a deflagrating spoon and lowered into a gas jar of air. What is seen and formed?",
+       "r": "A blue flame, forming sulphur dioxide, {formula('SO2')}",
+       "w": [
+        "A yellow flame, forming sulphur trioxide, {formula('SO3')}",
+        "A white flame, forming a white solid",
+        "Nothing happens"
+       ],
+       "e": [
+        "{formula('SO3')} is made in the Contact process with a catalyst, not by burning sulphur in air.",
+        "The product is a gas, not a solid.",
+        "Heated sulphur burns in air with a clearly visible flame."
+       ],
+       "y": "S + {formula('O2')} → {formula('SO2')}, with a blue flame and a choking smell."
+      },
+      {
+       "q": "Iron filings and sulphur are heated together. What is formed?",
+       "r": "Iron(II) sulphide, {formula('FeS')}, a black solid",
+       "w": [
+        "A mixture of iron and sulphur, unchanged",
+        "Iron(II) sulphate, {formula('FeSO4')}",
+        "Iron and sulphur dioxide"
+       ],
+       "e": [
+        "Heating makes them react; the product cannot be separated with a magnet.",
+        "No oxygen is present, so no sulphate can form.",
+        "No oxygen is present, so no {formula('SO2')} can form."
+       ],
+       "y": "Fe + S → {formula('FeS')}: sulphur combines with many metals when heated."
+      },
+      {
+       "q": "What does sulphur do with dilute hydrochloric acid?",
+       "r": "Nothing: sulphur does not react with dilute acids",
+       "w": [
+        "It gives off hydrogen",
+        "It gives off hydrogen sulphide",
+        "It dissolves to give a yellow solution"
+       ],
+       "e": [
+        "Only metals above hydrogen give off hydrogen with a dilute acid.",
+        "That happens with a metal SULPHIDE, not with sulphur itself.",
+        "Sulphur is insoluble and unreactive towards dilute acids."
+       ],
+       "y": "Sulphur reacts with hot concentrated acids, but not with dilute ones."
+      },
+      {
+       "q": "Why is a deflagrating spoon used to burn sulphur in a gas jar?",
+       "r": "It holds the burning sulphur safely in the jar while the gas collects",
+       "w": [
+        "It makes the sulphur burn more brightly",
+        "It stops the sulphur from melting",
+        "It dries the gas as it forms"
+       ],
+       "e": [
+        "The brightness depends on the sulphur and the air, not on the spoon.",
+        "The sulphur melts before it burns; the spoon holds the molten sulphur.",
+        "The spoon does not dry anything."
+       ],
+       "y": "The long handle lets the burning sulphur be lowered into the jar and taken out safely."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-2-why",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Rhombic and monoclinic sulphur are both pure sulphur, yet their densities and crystal shapes differ. Why?",
+       "r": "The same atoms are packed in a different arrangement in each crystal",
+       "w": [
+        "They contain different numbers of neutrons",
+        "One of them contains a little oxygen",
+        "They are different elements"
+       ],
+       "e": [
+        "Different numbers of neutrons give isotopes, which have the same crystal forms.",
+        "Both allotropes are pure sulphur; neither contains oxygen.",
+        "Allotropes are forms of ONE element, not different elements."
+       ],
+       "y": "Both are rings of {8} sulphur atoms, but the rings are stacked differently."
+      },
+      {
+       "q": "Monoclinic sulphur is left at room temperature for several weeks. What happens?",
+       "r": "It slowly changes into rhombic sulphur, the stable form below {96} °C",
+       "w": [
+        "It stays monoclinic for ever",
+        "It changes into plastic sulphur",
+        "It melts"
+       ],
+       "e": [
+        "Below the transition temperature the monoclinic form is not stable.",
+        "Plastic sulphur comes from pouring boiling sulphur into cold water.",
+        "Sulphur melts at about {115} °C, far above room temperature."
+       ],
+       "y": "An allotrope changes into whichever form is stable at that temperature, though slowly."
+      },
+      {
+       "q": "How are crystals of rhombic sulphur grown in the laboratory?",
+       "r": "By dissolving sulphur in carbon disulphide and letting the liquid evaporate slowly",
+       "w": [
+        "By dissolving sulphur in hot water and cooling it",
+        "By pouring boiling sulphur into cold water",
+        "By heating sulphur until it glows"
+       ],
+       "e": [
+        "Sulphur is insoluble in water, so no solution can be made.",
+        "That gives plastic sulphur, which has no crystals.",
+        "Heating alone does not grow crystals."
+       ],
+       "y": "As the solvent evaporates below {96} °C, octahedral rhombic crystals are left."
+      },
+      {
+       "q": "Why does plastic sulphur slowly harden and turn yellow again?",
+       "r": "The long chains of atoms slowly rearrange into stable rhombic crystals",
+       "w": [
+        "It takes in oxygen from the air",
+        "It loses water",
+        "It reacts with the carbon dioxide in air"
+       ],
+       "e": [
+        "No oxygen is taken in; the element stays pure sulphur.",
+        "There is no water in plastic sulphur to lose.",
+        "Sulphur does not react with carbon dioxide."
+       ],
+       "y": "Plastic sulphur is unstable, so its atoms return to the arrangement of the stable rhombic form."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

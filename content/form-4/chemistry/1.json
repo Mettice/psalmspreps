@@ -1,0 +1,636 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "k4-1",
+   "name": "Describe the occurrence of sulphur and its extraction by the Frasch process"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Sulphur occurs free in underground beds, often near volcanoes and oil fields, and combined as sulphides (galena PbS, zinc blende ZnS, iron pyrites FeS2) and sulphates (gypsum CaSO4, barytes BaSO4).\nThe Frasch process brings up free sulphur from deep beds using three concentric pipes:\n• Outer pipe: superheated water at about 170 °C, kept liquid under pressure, melts the sulphur (melting point about 115 °C).\n• Inner pipe: hot compressed air froths the molten sulphur.\n• Middle pipe: the froth, being less dense, is forced up to the surface.\nThe rock and sand stay underground, so the sulphur comes up about 99 per cent pure. It is run into tanks and allowed to solidify.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to say where sulphur is found and describe each stage of the Frasch process and why it gives pure sulphur.\nBuilds on: Form Three elements, mixtures and the idea of melting point.\nLeads to: Lesson {2} (the properties of sulphur) and the compounds made from it in the rest of the chapter."
+   },
+   {
+    "heading": "Where sulphur is found",
+    "text": "Sulphur is found free (uncombined) in beds a few hundred metres underground, often near volcanoes and oil fields, notably in the United States, Mexico and Poland.\nIt is also found combined:\n• as sulphides: galena {formula('PbS')}, zinc blende {formula('ZnS')}, iron pyrites {formula('FeS2')};\n• as sulphates: gypsum {formula('CaSO4')}, barytes {formula('BaSO4')}.\nSulphur is also present in coal and crude oil, and in the proteins of living things."
+   },
+   {
+    "heading": "The Frasch process",
+    "text": "Free sulphur deep underground is brought up by the Frasch pump, which has three concentric pipes.\n• Superheated water at about {170} °C is forced down the OUTER pipe. Pressure keeps it liquid above its normal boiling point, and it melts the sulphur, whose melting point is about {115} °C.\n• Hot compressed air is forced down the INNER pipe. It froths the molten sulphur.\n• The froth is less dense than water, so the pressure pushes it up the MIDDLE pipe to the surface, where it runs into tanks and solidifies.\nBecause only the sulphur melts, the rock and sand stay underground and the sulphur comes up about {99} per cent pure."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "free element",
+    "meaning": "an element not joined to any other, as sulphur is in its beds"
+   },
+   {
+    "word": "superheated water",
+    "meaning": "water kept liquid above {100} °C by pressure"
+   },
+   {
+    "word": "Frasch process",
+    "meaning": "the method of mining underground sulphur with three concentric pipes"
+   },
+   {
+    "word": "froth",
+    "meaning": "a light mixture of gas bubbles and liquid"
+   }
+  ],
+  "examples": [
+   "galena {formula('PbS')}: a sulphide",
+   "gypsum {formula('CaSO4')}: a sulphate",
+   "water at {170} °C melts sulphur at {115} °C"
+  ],
+  "mistake": {
+   "wrong": "the compressed air burns the sulphur so it can rise",
+   "right": "the air froths the molten sulphur so it is light enough to be pushed up",
+   "why": "Burning would destroy the sulphur. The air only makes a light froth."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "mp": 115,
+   "t": 170
+  },
+  "problem": "Explain why the water sent down the Frasch pump is at {t} °C and not at {100} °C.",
+  "steps": [
+   "Sulphur melts at about {mp} °C.",
+   "Water at {100} °C is not hot enough to melt it.",
+   "Water is kept liquid above {100} °C by the pressure in the pipe, so it can be superheated to {t} °C.",
+   "At {t} °C the water is well above {mp} °C and melts the sulphur underground."
+  ],
+  "answer": "because {mp} °C is needed to melt sulphur, which is above the normal boiling point of water",
+  "checks": [
+   "t > mp"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k1-1",
+    "status": "draft",
+    "idea": "Sulphur occurs free underground and combined in sulphides and sulphates.",
+    "vars": {},
+    "example": [
+     "free in beds near oil fields; combined as {formula('PbS')}, {formula('ZnS')} and {formula('CaSO4')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-1-frasch"
+    }
+   },
+   {
+    "id": "c4k1-2",
+    "status": "draft",
+    "idea": "The Frasch pump has three concentric pipes: superheated water in, compressed air in, froth out.",
+    "vars": {},
+    "example": [
+     "water about {170} °C down the outer pipe; air down the inner; froth up the middle"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-1-pipes"
+    }
+   },
+   {
+    "id": "c4k1-3",
+    "status": "draft",
+    "idea": "Only the sulphur melts, so it comes up almost pure.",
+    "vars": {},
+    "example": [
+     "the rock and sand are left underground"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-1-pure-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "sulphur"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why does the Frasch process give sulphur that needs no further purification?",
+         "r": "Only the sulphur melts at that temperature, so the rock and sand are left behind underground",
+         "w": [
+          "The sulphur is distilled as it rises",
+          "Acid is added to dissolve the impurities",
+          "The water washes all the impurities away"
+         ],
+         "e": [
+          "No distillation takes place; the separation happens by melting.",
+          "No acid is used in the Frasch process.",
+          "Sulphur is insoluble in water, and the impurities are not washed out by it."
+         ],
+         "y": "Sulphur melts at about {115} °C but rock and sand do not, so only the sulphur is carried up."
+        },
+        {
+         "q": "Why is the Frasch process used instead of digging the sulphur out?",
+         "r": "The beds lie under layers of loose, water-bearing rock that would collapse into a mine",
+         "w": [
+          "Sulphur is too valuable to dig",
+          "Digging would set the sulphur on fire",
+          "The sulphur lies only a few metres down"
+         ],
+         "e": [
+          "Value is not the reason; the ground above the beds is.",
+          "Sulphur does not catch fire by itself when dug.",
+          "The beds lie a few HUNDRED metres down."
+         ],
+         "y": "Pumping melted sulphur up through pipes avoids sinking a shaft through unsafe ground."
+        },
+        {
+         "q": "What happens to the molten sulphur when it reaches the surface?",
+         "r": "It runs into large tanks and solidifies as it cools",
+         "w": [
+          "It is burned at once to sulphur dioxide",
+          "It is dissolved in water for transport",
+          "It is distilled to separate the allotropes"
+         ],
+         "e": [
+          "Burning it would destroy the product; some is burned later, at the factory.",
+          "Sulphur is insoluble in water.",
+          "Allotropes are not separated by distillation; they are forms of the same element."
+         ],
+         "y": "The froth is run into tanks, where the sulphur cools and sets as a solid ready for use."
+        },
+        {
+         "q": "Roughly how pure is the sulphur brought up by the Frasch process?",
+         "r": "About {99} per cent pure",
+         "w": [
+          "About {50} per cent pure",
+          "About {75} per cent pure",
+          "Less than {10} per cent pure"
+         ],
+         "e": [
+          "Half of the mass would be impurity, which melting underground avoids.",
+          "The purity is much higher than that.",
+          "That would be an ore, not the free element."
+         ],
+         "y": "Because only the sulphur melts, almost nothing else comes up with it."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-1-frasch",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Where is sulphur found as the free element?",
+       "r": "In underground deposits, often near volcanoes and oil fields",
+       "w": [
+        "Only combined in sea water",
+        "Only in the air",
+        "Only in living plants"
+       ],
+       "e": [
+        "Sea water holds sulphates, which are combined sulphur, not the free element.",
+        "Air holds only traces of sulphur compounds, not the free element.",
+        "Plants hold sulphur in proteins, which is combined sulphur."
+       ],
+       "y": "Free sulphur occurs in beds a few hundred metres down, and combined as sulphides and sulphates."
+      },
+      {
+       "q": "How many concentric pipes are used in the Frasch process?",
+       "r": "Three",
+       "w": [
+        "One",
+        "Two",
+        "Five"
+       ],
+       "e": [
+        "One pipe could not carry water down and sulphur up at the same time.",
+        "A third pipe is needed for the compressed air that lifts the froth.",
+        "Three are enough: water in, air in, froth out."
+       ],
+       "y": "Superheated water goes down the outer pipe, hot compressed air down the inner one, and the froth rises up the middle one."
+      },
+      {
+       "q": "What is sent down the outer pipe in the Frasch process, and why?",
+       "r": "Superheated water at about {170} °C, to melt the sulphur underground",
+       "w": [
+        "Cold water, to cool the rock",
+        "Hot compressed air, to blow the sulphur up",
+        "Molten sulphur, to start the process"
+       ],
+       "e": [
+        "Cold water would not melt sulphur, which melts at about {115} °C.",
+        "The compressed air goes down the INNER pipe; the water goes down the outer one.",
+        "The sulphur is already in the ground; the water melts it there."
+       ],
+       "y": "Sulphur melts at about {115} °C, so water above that temperature, kept liquid by pressure, melts it in place."
+      },
+      {
+       "q": "Why is hot compressed air forced down the inner pipe?",
+       "r": "It froths the molten sulphur so that the lighter froth is pushed up the middle pipe",
+       "w": [
+        "It burns the sulphur to sulphur dioxide",
+        "It cools the molten sulphur so it sets",
+        "It dissolves the sulphur in water"
+       ],
+       "e": [
+        "Burning would destroy the product; the air is there to lift it.",
+        "Hot air does not set the sulphur; the froth must stay molten to rise.",
+        "Sulphur is insoluble in water."
+       ],
+       "y": "The froth of air and molten sulphur is less dense, so the pressure pushes it up the middle pipe."
+      },
+      {
+       "q": "Why is sulphur from the Frasch process very pure?",
+       "r": "Only the sulphur melts and is pushed up; the rock and sand stay behind",
+       "w": [
+        "It is purified later by distillation",
+        "It is washed with acid at the surface",
+        "It is crystallised from water"
+       ],
+       "e": [
+        "No further purification is needed; it comes up about {99} per cent pure.",
+        "No acid washing is used in the process.",
+        "Sulphur is insoluble in water, so it cannot be crystallised from it."
+       ],
+       "y": "Melting separates the sulphur from the rock underground, so it arrives almost pure."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-1-pipes",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      {
+       "q": "the superheated water down to the sulphur bed",
+       "r": "The outer pipe",
+       "w1": "The inner pipe",
+       "w2": "The middle pipe",
+       "w3": "There is only one pipe",
+       "y": "Water goes down the outer pipe, air down the inner pipe, and the froth comes up the middle one."
+      },
+      {
+       "q": "the hot compressed air",
+       "r": "The inner pipe",
+       "w1": "The outer pipe",
+       "w2": "The middle pipe",
+       "w3": "A separate fourth pipe",
+       "y": "The innermost pipe carries air, which froths the molten sulphur so it can rise."
+      },
+      {
+       "q": "the froth of molten sulphur to the surface",
+       "r": "The middle pipe",
+       "w1": "The outer pipe",
+       "w2": "The inner pipe",
+       "w3": "The same pipe as the water",
+       "y": "The froth rises between the water pipe and the air pipe, that is up the middle one."
+      }
+     ]
+    }
+   },
+   "prompt": "Which pipe of the Frasch pump carries {P.q}?",
+   "correct": "{P.r}",
+   "distractors": [
+    {
+     "text": "{P.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{P.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{P.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{P.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{P.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{P.y}"
+    }
+   ],
+   "solution": [
+    "{P.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "k4-1-ores",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "sulphur"
+   ],
+   "prompt": "Match each mineral to its formula.",
+   "pool": [
+    {
+     "left": "Galena",
+     "right": "{formula('PbS')}"
+    },
+    {
+     "left": "Zinc blende",
+     "right": "{formula('ZnS')}"
+    },
+    {
+     "left": "Iron pyrites",
+     "right": "{formula('FeS2')}"
+    },
+    {
+     "left": "Gypsum",
+     "right": "{formula('CaSO4')}"
+    },
+    {
+     "left": "Barytes",
+     "right": "{formula('BaSO4')}"
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "k4-1-pure",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does the Frasch process give sulphur that needs no further purification?",
+       "r": "Only the sulphur melts at that temperature, so the rock and sand are left behind underground",
+       "w": [
+        "The sulphur is distilled as it rises",
+        "Acid is added to dissolve the impurities",
+        "The water washes all the impurities away"
+       ],
+       "e": [
+        "No distillation takes place; the separation happens by melting.",
+        "No acid is used in the Frasch process.",
+        "Sulphur is insoluble in water, and the impurities are not washed out by it."
+       ],
+       "y": "Sulphur melts at about {115} °C but rock and sand do not, so only the sulphur is carried up."
+      },
+      {
+       "q": "Why is the Frasch process used instead of digging the sulphur out?",
+       "r": "The beds lie under layers of loose, water-bearing rock that would collapse into a mine",
+       "w": [
+        "Sulphur is too valuable to dig",
+        "Digging would set the sulphur on fire",
+        "The sulphur lies only a few metres down"
+       ],
+       "e": [
+        "Value is not the reason; the ground above the beds is.",
+        "Sulphur does not catch fire by itself when dug.",
+        "The beds lie a few HUNDRED metres down."
+       ],
+       "y": "Pumping melted sulphur up through pipes avoids sinking a shaft through unsafe ground."
+      },
+      {
+       "q": "What happens to the molten sulphur when it reaches the surface?",
+       "r": "It runs into large tanks and solidifies as it cools",
+       "w": [
+        "It is burned at once to sulphur dioxide",
+        "It is dissolved in water for transport",
+        "It is distilled to separate the allotropes"
+       ],
+       "e": [
+        "Burning it would destroy the product; some is burned later, at the factory.",
+        "Sulphur is insoluble in water.",
+        "Allotropes are not separated by distillation; they are forms of the same element."
+       ],
+       "y": "The froth is run into tanks, where the sulphur cools and sets as a solid ready for use."
+      },
+      {
+       "q": "Roughly how pure is the sulphur brought up by the Frasch process?",
+       "r": "About {99} per cent pure",
+       "w": [
+        "About {50} per cent pure",
+        "About {75} per cent pure",
+        "Less than {10} per cent pure"
+       ],
+       "e": [
+        "Half of the mass would be impurity, which melting underground avoids.",
+        "The purity is much higher than that.",
+        "That would be an ore, not the free element."
+       ],
+       "y": "Because only the sulphur melts, almost nothing else comes up with it."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-1-steps",
+   "type": "ordering",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "A": {
+     "pick": [
+      {
+       "q": "Put the stages of the Frasch process in order.",
+       "s": [
+        "Three concentric pipes are sunk down to the sulphur bed",
+        "Superheated water at about {170} °C is forced down the outer pipe",
+        "The sulphur in the bed melts",
+        "Hot compressed air is forced down the inner pipe and froths the molten sulphur",
+        "The froth is pushed up the middle pipe and runs into tanks to solidify"
+       ]
+      },
+      {
+       "q": "Put these stages of getting sulphur from the ground in order, starting with the deepest.",
+       "s": [
+        "Solid sulphur lies in a bed a few hundred metres down",
+        "Heat from the superheated water reaches the bed",
+        "The sulphur melts and collects at the foot of the pipes",
+        "Air bubbles make the molten sulphur into a light froth",
+        "The froth reaches the surface and is run off"
+       ]
+      },
+      {
+       "q": "Put these stages of testing a sample from a Frasch well in order.",
+       "s": [
+        "A sample of the solid from the tank is taken",
+        "Its colour is noted: a brittle yellow solid",
+        "A little is shaken with water and does not dissolve",
+        "A little is shaken with carbon disulphide and dissolves",
+        "A little is heated in air and burns with a blue flame"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "{A.q}",
+   "items": [
+    {
+     "text": "{A.s[0]}"
+    },
+    {
+     "text": "{A.s[1]}"
+    },
+    {
+     "text": "{A.s[2]}"
+    },
+    {
+     "text": "{A.s[3]}"
+    },
+    {
+     "text": "{A.s[4]}"
+    }
+   ],
+   "order": "as_written"
+  }
+ ]
+}

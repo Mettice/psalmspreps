@@ -1,0 +1,503 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "k4-5",
+   "name": "Prepare hydrogen sulphide in the laboratory and state its physical properties"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Laboratory preparation: a metal sulphide and a dilute acid.\nFeS + 2HCl → FeCl2 + H2S\nIron(II) sulphide is placed in a flask and dilute hydrochloric acid is run onto it. No heat is needed. The gas is collected by downward delivery, because it is denser than air.\nDilute sulphuric acid may be used instead. Nitric acid must not be used: it is an oxidising acid and gives sulphur instead.\nPhysical properties: a colourless, very poisonous gas smelling of rotten eggs; denser than air (relative molecular mass 34); fairly soluble in water, giving a weakly acidic solution. It dulls the sense of smell, so it must always be made in a fume cupboard.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to write the equation for preparing hydrogen sulphide, explain how it is collected and state its properties and dangers.\nBuilds on: Lesson {3} (preparing a gas and collecting it) and Form Three acids with salts.\nLeads to: Lesson {6} (the chemical properties of {formula('H2S')}) and the sulphides of Lesson {7}."
+   },
+   {
+    "heading": "Preparation",
+    "text": "A metal sulphide and a dilute acid give hydrogen sulphide:\n{formula('FeS')} + {2}{formula('HCl')} → {formula('FeCl2')} + {formula('H2S')}\nLumps of iron(II) sulphide are placed in a flask and dilute hydrochloric acid is run onto them from a thistle funnel. No heating is needed.\nDilute sulphuric acid works as well. Nitric acid must NOT be used: it is an oxidising acid and would oxidise the hydrogen sulphide to sulphur, leaving a yellow deposit instead of a gas."
+   },
+   {
+    "heading": "Physical properties and safety",
+    "text": "Hydrogen sulphide is a colourless gas with the smell of rotten eggs.\nIts relative molecular mass is {2} × {1} + {32} = {34}, above the average for air, so it is denser than air and is collected by downward delivery.\nIt is fairly soluble in water, giving a weakly acidic solution that turns blue litmus red.\nIt is very poisonous. Worse, it quickly dulls the sense of smell, so a worker may stop noticing it while still breathing it in. It must always be prepared and used in a fume cupboard."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "sulphide",
+    "meaning": "a compound of a metal with sulphur, such as {formula('FeS')}"
+   },
+   {
+    "word": "oxidising acid",
+    "meaning": "an acid such as nitric acid that oxidises what it reacts with"
+   },
+   {
+    "word": "downward delivery",
+    "meaning": "collecting a dense gas at the bottom of a jar"
+   }
+  ],
+  "examples": [
+   "{formula('FeS')} + {2}{formula('HCl')} → {formula('FeCl2')} + {formula('H2S')}",
+   "RMM of {formula('H2S')} = {34}"
+  ],
+  "mistake": {
+   "wrong": "hydrogen sulphide is prepared with dilute nitric acid",
+   "right": "a non-oxidising acid such as hydrochloric acid is used",
+   "why": "Nitric acid would oxidise the gas to sulphur, so none would be collected."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 1
+  },
+  "problem": "Write the equation for the laboratory preparation of hydrogen sulphide and explain why nitric acid is not used.",
+  "steps": [
+   "A metal sulphide with a dilute acid gives a salt and hydrogen sulphide.",
+   "{formula('FeS')} + {2}{formula('HCl')} → {formula('FeCl2')} + {formula('H2S')}.",
+   "Nitric acid is an oxidising acid.",
+   "It would oxidise the hydrogen sulphide to sulphur, so the gas would not be collected."
+  ],
+  "answer": "{formula('FeS')} + {2}{formula('HCl')} → {formula('FeCl2')} + {formula('H2S')}; nitric acid would oxidise the gas to sulphur",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k5-1",
+    "status": "draft",
+    "idea": "A metal sulphide with a dilute acid gives hydrogen sulphide.",
+    "vars": {},
+    "example": [
+     "{formula('FeS')} + {2}{formula('HCl')} → {formula('FeCl2')} + {formula('H2S')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-5-prep"
+    }
+   },
+   {
+    "id": "c4k5-2",
+    "status": "draft",
+    "idea": "{formula('H2S')} is denser than air, so it is collected by downward delivery.",
+    "vars": {},
+    "example": [
+     "relative molecular mass {34}, above the average for air"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-5-mass"
+    }
+   },
+   {
+    "id": "c4k5-3",
+    "status": "draft",
+    "idea": "{formula('H2S')} is very poisonous and dulls the sense of smell: use a fume cupboard.",
+    "vars": {},
+    "example": [
+     "the rotten-egg smell fades even though the gas is still there"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-5-safe-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "sulphur"
+     ],
+     "vars": {
+      "A": {
+       "pick": [
+        {
+         "r": "It is very poisonous, and it soon dulls the sense of smell so that it is no longer noticed",
+         "w1": "It smells unpleasant, but it is harmless",
+         "w2": "It explodes when it meets air",
+         "w3": "It burns the skin on contact",
+         "y": "The fading smell is the real danger: a worker may keep breathing it without knowing."
+        },
+        {
+         "r": "Breathing it damages the lungs and in larger amounts it can kill",
+         "w1": "It stains the skin yellow",
+         "w2": "It makes glassware crack",
+         "w3": "It is harmless once it is dry",
+         "y": "{formula('H2S')} is seriously poisonous, so the fumes must be drawn away."
+        },
+        {
+         "r": "It is denser than air, so it gathers at low level where people work",
+         "w1": "It rises and escapes through the roof",
+         "w2": "It is destroyed by daylight",
+         "w3": "It turns into harmless sulphur in air",
+         "y": "With a relative molecular mass of {34}, {formula('H2S')} sinks instead of rising away."
+        }
+       ]
+      }
+     },
+     "prompt": "Why must hydrogen sulphide always be prepared in a fume cupboard?",
+     "correct": "{A.r}",
+     "distractors": [
+      {
+       "text": "{A.w1}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{A.w2}",
+       "misconception": "w2"
+      },
+      {
+       "text": "{A.w3}",
+       "misconception": "w3"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w1",
+       "explain": "{A.y}"
+      },
+      {
+       "id": "w2",
+       "explain": "{A.y}"
+      },
+      {
+       "id": "w3",
+       "explain": "{A.y}"
+      }
+     ],
+     "solution": [
+      "{A.y}",
+      "So the answer is: {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-5-prep",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which reagents are used to prepare hydrogen sulphide in the laboratory?",
+       "r": "Iron(II) sulphide and dilute hydrochloric acid",
+       "w": [
+        "Iron(II) sulphate and dilute hydrochloric acid",
+        "Iron filings and dilute hydrochloric acid",
+        "Iron(II) sulphide and concentrated nitric acid"
+       ],
+       "e": [
+        "A sulphate gives no {formula('H2S')} with a dilute acid; a sulphide does.",
+        "Iron with a dilute acid gives hydrogen, not hydrogen sulphide.",
+        "Concentrated nitric acid is an oxidising acid; it would oxidise the sulphide to sulphur."
+       ],
+       "y": "{formula('FeS')} + {2}{formula('HCl')} → {formula('FeCl2')} + {formula('H2S')}."
+      },
+      {
+       "q": "What does hydrogen sulphide smell like?",
+       "r": "Rotten eggs",
+       "w": [
+        "A sharp choking smell",
+        "Sweet and pleasant",
+        "It has no smell"
+       ],
+       "e": [
+        "The sharp choking smell is sulphur dioxide.",
+        "The smell is strongly unpleasant.",
+        "Even a trace can be smelt, which is one way it is noticed."
+       ],
+       "y": "{formula('H2S')} is a colourless, poisonous gas that smells of rotten eggs."
+      },
+      {
+       "q": "How is hydrogen sulphide collected?",
+       "r": "By downward delivery, because it is denser than air",
+       "w": [
+        "By upward delivery",
+        "Over water in an open trough",
+        "It cannot be collected"
+       ],
+       "e": [
+        "Its relative molecular mass is {34}, above the average for air, so it sinks.",
+        "It is fairly soluble in water, so some would be lost.",
+        "It is collected in the ordinary way, in a fume cupboard."
+       ],
+       "y": "A gas denser than air and soluble in water is collected by downward delivery."
+      },
+      {
+       "q": "Why is hydrogen sulphide dangerous to work with?",
+       "r": "It is very poisonous, and it dulls the sense of smell so that it may not be noticed",
+       "w": [
+        "It explodes in contact with air",
+        "It is only unpleasant, not harmful",
+        "It burns the skin on contact"
+       ],
+       "e": [
+        "It burns in air, but it does not explode on contact.",
+        "It is seriously poisonous and has killed people.",
+        "The danger is from breathing it in, not from skin contact."
+       ],
+       "y": "After a short time the smell can no longer be noticed, so the gas must always be used in a fume cupboard."
+      },
+      {
+       "q": "How does hydrogen sulphide behave in water?",
+       "r": "It dissolves fairly well, giving a weakly acidic solution",
+       "w": [
+        "It is insoluble",
+        "It dissolves to give an alkaline solution",
+        "It reacts violently with water"
+       ],
+       "e": [
+        "It is fairly soluble: a few volumes dissolve in one volume of water.",
+        "The solution turns blue litmus red, so it is acidic.",
+        "There is no violent reaction; it simply dissolves."
+       ],
+       "y": "The solution is a weak acid, sometimes called hydrosulphuric acid."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-5-mass",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "F": {
+     "pick": [
+      "H2S",
+      "FeS",
+      "Na2S",
+      "PbS",
+      "ZnS",
+      "FeCl2"
+     ]
+    }
+   },
+   "prompt": "Find the relative molecular mass of {formula(F)}.",
+   "answer": "molarMass(F)",
+   "misconceptions": [
+    {
+     "id": "atoms",
+     "wrong": "totalAtoms(F)",
+     "explain": "{totalAtoms(F)} is the number of atoms, not the mass."
+    },
+    {
+     "id": "one",
+     "wrong": "ram(symbolsIn(F)[0])",
+     "explain": "Include every atom in the formula, not just the first element."
+    }
+   ],
+   "solution": [
+    "Add the relative atomic mass of every atom in the formula.",
+    "The relative molecular mass of {formula(F)} is {answer}."
+   ]
+  },
+  {
+   "id": "k4-5-safe",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "A": {
+     "pick": [
+      {
+       "r": "It is very poisonous, and it soon dulls the sense of smell so that it is no longer noticed",
+       "w1": "It smells unpleasant, but it is harmless",
+       "w2": "It explodes when it meets air",
+       "w3": "It burns the skin on contact",
+       "y": "The fading smell is the real danger: a worker may keep breathing it without knowing."
+      },
+      {
+       "r": "Breathing it damages the lungs and in larger amounts it can kill",
+       "w1": "It stains the skin yellow",
+       "w2": "It makes glassware crack",
+       "w3": "It is harmless once it is dry",
+       "y": "{formula('H2S')} is seriously poisonous, so the fumes must be drawn away."
+      },
+      {
+       "r": "It is denser than air, so it gathers at low level where people work",
+       "w1": "It rises and escapes through the roof",
+       "w2": "It is destroyed by daylight",
+       "w3": "It turns into harmless sulphur in air",
+       "y": "With a relative molecular mass of {34}, {formula('H2S')} sinks instead of rising away."
+      }
+     ]
+    }
+   },
+   "prompt": "Why must hydrogen sulphide always be prepared in a fume cupboard?",
+   "correct": "{A.r}",
+   "distractors": [
+    {
+     "text": "{A.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{A.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{A.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{A.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{A.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{A.y}"
+    }
+   ],
+   "solution": [
+    "{A.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "k4-5-vol",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      0.1,
+      0.2,
+      0.25,
+      0.5,
+      1,
+      2
+     ]
+    }
+   },
+   "prompt": "What volume of hydrogen sulphide, in dm³ at s.t.p., is given off when {n} mol of iron(II) sulphide reacts completely with dilute hydrochloric acid?",
+   "answer": "gasVolume(n)",
+   "misconceptions": [
+    {
+     "id": "double",
+     "wrong": "gasVolume(2 * n)",
+     "explain": "The equation gives {1} mol of gas for each {1} mol of sulphide, not {2}."
+    },
+    {
+     "id": "div",
+     "wrong": "volumeToMoles(n)",
+     "explain": "Multiply the moles by {22.4} dm³/mol."
+    }
+   ],
+   "solution": [
+    "{formula('FeS')} + {2}{formula('HCl')} → {formula('FeCl2')} + {formula('H2S')}.",
+    "{1} mol of {formula('FeS')} gives {1} mol of {formula('H2S')}.",
+    "At s.t.p. {1} mol of any gas is {22.4} dm³, so the volume is {n} × {22.4} = {answer} dm³."
+   ],
+   "unit": "dm³"
+  },
+  {
+   "id": "k4-5-mols",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      0.1,
+      0.2,
+      0.25,
+      0.5,
+      1,
+      2
+     ]
+    }
+   },
+   "prompt": "What mass of iron(II) sulphide, in grams, is needed to make {n} mol of hydrogen sulphide?",
+   "answer": "massOf(n, 'FeS')",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "roundTo(n / molarMass('FeS'), 0.0001)",
+     "explain": "Mass = moles × molar mass: multiply, do not divide."
+    },
+    {
+     "id": "h2s",
+     "wrong": "massOf(n, 'H2S')",
+     "explain": "The question asks for the mass of {formula('FeS')}, not of the gas."
+    }
+   ],
+   "solution": [
+    "{1} mol of {formula('FeS')} gives {1} mol of {formula('H2S')}, so {n} mol of {formula('FeS')} is needed.",
+    "The relative formula mass of {formula('FeS')} is {molarMass('FeS')}.",
+    "Mass = moles × molar mass = {n} × {molarMass('FeS')} = {answer} g."
+   ],
+   "unit": "g"
+  }
+ ]
+}

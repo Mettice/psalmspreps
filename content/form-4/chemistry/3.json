@@ -1,0 +1,642 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "k4-3",
+   "name": "Prepare sulphur dioxide in the laboratory and state its physical properties"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Laboratory preparation: a sulphite and a dilute acid.\nNa2SO3 + 2HCl → 2NaCl + H2O + SO2\nThe acid is added to sodium sulphite in a flask; the gas is dried by passing it through concentrated sulphuric acid, and collected by downward delivery into a dry gas jar, because it is denser than air and very soluble in water.\nSulphur dioxide can also be made by burning sulphur in air, or by heating copper with concentrated sulphuric acid.\nPhysical properties: a colourless, poisonous gas with a sharp choking smell; denser than air (relative molecular mass 64); very soluble in water, giving an acidic solution; easily liquefied. It must be made in a fume cupboard.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to write the equation for preparing sulphur dioxide, explain how it is dried and collected, and state its physical properties.\nBuilds on: Lesson {2} (sulphur burns to {formula('SO2')}) and Form Three gas collection.\nLeads to: Lesson {4} (the chemical properties of {formula('SO2')}) and the Contact process."
+   },
+   {
+    "heading": "Preparation",
+    "text": "In the laboratory, sulphur dioxide is made from a sulphite and a dilute acid:\n{formula('Na2SO3')} + {2}{formula('HCl')} → {2}{formula('NaCl')} + {formula('H2O')} + {formula('SO2')}\nThe dilute acid is run onto sodium sulphite in a flask. The gas is led through a wash bottle of concentrated sulphuric acid, which dries it without reacting, and then down into a dry gas jar.\nIt can also be made by burning sulphur in air, or by heating copper with concentrated sulphuric acid:\nCu + {2}{formula('H2SO4')} → {formula('CuSO4')} + {formula('SO2')} + {2}{formula('H2O')}."
+   },
+   {
+    "heading": "Physical properties and collection",
+    "text": "Sulphur dioxide is a colourless gas with a sharp choking smell. It is poisonous, so it must be prepared in a fume cupboard.\nIts relative molecular mass is {32} + {2} × {16} = {64}, well above the average for air, so it is denser than air.\nIt is very soluble in water, giving an acidic solution of sulphurous acid.\nBeing dense and very soluble, it is collected by downward delivery into a dry gas jar: not over water, which would dissolve it.\nIt is easily turned to a liquid by pressure, which is how it is stored and transported."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "sulphite",
+    "meaning": "a salt containing the {formula('SO3')} ion with a {2}− charge, such as {formula('Na2SO3')}"
+   },
+   {
+    "word": "downward delivery",
+    "meaning": "collecting a dense gas by leading it to the bottom of a jar"
+   },
+   {
+    "word": "drying agent",
+    "meaning": "a substance that removes water from a gas without reacting with it"
+   },
+   {
+    "word": "fume cupboard",
+    "meaning": "a cabinet that draws harmful fumes away"
+   }
+  ],
+  "examples": [
+   "{formula('Na2SO3')} + {2}{formula('HCl')} → {2}{formula('NaCl')} + {formula('H2O')} + {formula('SO2')}",
+   "RMM of {formula('SO2')} = {64}"
+  ],
+  "mistake": {
+   "wrong": "sulphur dioxide is collected over water",
+   "right": "it is collected by downward delivery",
+   "why": "{formula('SO2')} is very soluble in water, so collecting it over water would lose the gas."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": 12.6
+  },
+  "problem": "Write the equation for the laboratory preparation of sulphur dioxide from sodium sulphite and dilute hydrochloric acid, and name the drying agent.",
+  "steps": [
+   "A sulphite and a dilute acid give a salt, water and sulphur dioxide.",
+   "{formula('Na2SO3')} + {2}{formula('HCl')} → {2}{formula('NaCl')} + {formula('H2O')} + {formula('SO2')}.",
+   "Sulphur dioxide is an acidic gas, so it is dried with concentrated sulphuric acid, which does not react with it."
+  ],
+  "answer": "{formula('Na2SO3')} + {2}{formula('HCl')} → {2}{formula('NaCl')} + {formula('H2O')} + {formula('SO2')}; dried with concentrated {formula('H2SO4')}",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k3-1",
+    "status": "draft",
+    "idea": "A sulphite with a dilute acid gives sulphur dioxide.",
+    "vars": {},
+    "example": [
+     "{formula('Na2SO3')} + {2}{formula('HCl')} → {2}{formula('NaCl')} + {formula('H2O')} + {formula('SO2')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-3-prep"
+    }
+   },
+   {
+    "id": "c4k3-2",
+    "status": "draft",
+    "idea": "{formula('SO2')} is denser than air and very soluble, so it is collected by downward delivery.",
+    "vars": {},
+    "example": [
+     "relative molecular mass {64}, well above the average for air"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-3-collect"
+    }
+   },
+   {
+    "id": "c4k3-3",
+    "status": "draft",
+    "idea": "An acidic gas is dried with concentrated sulphuric acid, never with a base.",
+    "vars": {},
+    "example": [
+     "quicklime would react with {formula('SO2')}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-3-dry-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "sulphur"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why is quicklime, {formula('CaO')}, not used to dry sulphur dioxide?",
+         "r": "Quicklime is basic and reacts with the acidic gas",
+         "w": [
+          "Quicklime is not a drying agent at all",
+          "Quicklime would make the gas wetter",
+          "Quicklime dissolves the gas in water"
+         ],
+         "e": [
+          "Quicklime IS a drying agent; it is used for ammonia. The problem here is that it reacts.",
+          "A drying agent removes water; quicklime does not add any.",
+          "Quicklime reacts with the gas; it does not dissolve it in water."
+         ],
+         "y": "An acidic gas must be dried with an acidic drying agent, such as concentrated sulphuric acid."
+        },
+        {
+         "q": "Which drying agent is used for ammonia, and why?",
+         "r": "Quicklime, because ammonia is alkaline and would react with an acidic drying agent",
+         "w": [
+          "Concentrated sulphuric acid, because it dries every gas",
+          "Water, because ammonia dissolves in it",
+          "No drying agent can be used with ammonia"
+         ],
+         "e": [
+          "Concentrated sulphuric acid reacts with ammonia to give ammonium sulphate.",
+          "Water dissolves ammonia instead of drying it.",
+          "Quicklime dries it well."
+         ],
+         "y": "A drying agent must not react with the gas: a basic gas needs a basic drying agent."
+        },
+        {
+         "q": "A gas is passed through a wash bottle of concentrated sulphuric acid. What is this for?",
+         "r": "To remove water vapour from the gas",
+         "w": [
+          "To cool the gas",
+          "To make the gas more soluble",
+          "To change the gas into an acid"
+         ],
+         "e": [
+          "Cooling is not the purpose, and the acid does not cool the gas.",
+          "Drying does not change how soluble the gas is.",
+          "The acid does not react with a gas it is used to dry."
+         ],
+         "y": "Concentrated sulphuric acid takes up water strongly, which is why it is a drying agent."
+        },
+        {
+         "q": "Why must the gas jar be dry when sulphur dioxide is collected?",
+         "r": "The gas is very soluble, so any water in the jar would dissolve some of it",
+         "w": [
+          "Water would make the gas explode",
+          "A wet jar would crack",
+          "Water would turn the gas brown"
+         ],
+         "e": [
+          "Sulphur dioxide does not explode with water; it dissolves.",
+          "The jar does not crack; the problem is loss of the gas.",
+          "Sulphur dioxide stays colourless in water; it forms sulphurous acid."
+         ],
+         "y": "{formula('SO2')} is very soluble in water, so a wet jar would hold less gas."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-3-prep",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which reagents are used to prepare sulphur dioxide in the laboratory?",
+       "r": "Sodium sulphite and dilute hydrochloric acid",
+       "w": [
+        "Sodium sulphate and dilute hydrochloric acid",
+        "Sodium sulphide and dilute hydrochloric acid",
+        "Sodium carbonate and dilute hydrochloric acid"
+       ],
+       "e": [
+        "A sulphate does not give off {formula('SO2')} with a dilute acid; a sulphite does.",
+        "A sulphide gives hydrogen sulphide, {formula('H2S')}, not {formula('SO2')}.",
+        "A carbonate gives carbon dioxide."
+       ],
+       "y": "{formula('Na2SO3')} + {2}{formula('HCl')} → {2}{formula('NaCl')} + {formula('H2O')} + {formula('SO2')}."
+      },
+      {
+       "q": "How is sulphur dioxide collected?",
+       "r": "By downward delivery, because it is denser than air",
+       "w": [
+        "By downward displacement of water",
+        "Over water",
+        "By upward delivery, because it is less dense than air"
+       ],
+       "e": [
+        "{formula('SO2')} is very soluble in water, so it cannot be collected over or through water.",
+        "It would dissolve in the water.",
+        "Its relative molecular mass is {64}, well above the average for air, so it is denser."
+       ],
+       "y": "A dense, very soluble gas is collected by downward delivery into a dry gas jar."
+      },
+      {
+       "q": "Which drying agent is used for sulphur dioxide?",
+       "r": "Concentrated sulphuric acid",
+       "w": [
+        "Quicklime, {formula('CaO')}",
+        "Sodium hydroxide pellets",
+        "Water"
+       ],
+       "e": [
+        "Quicklime is basic and would react with the acidic gas.",
+        "Sodium hydroxide is a base and would absorb the gas.",
+        "Water dissolves the gas instead of drying it."
+       ],
+       "y": "An acidic gas is dried with concentrated sulphuric acid, which does not react with it."
+      },
+      {
+       "q": "What is the smell and colour of sulphur dioxide?",
+       "r": "Colourless, with a sharp choking smell",
+       "w": [
+        "Brown, with a choking smell",
+        "Colourless, with a smell of rotten eggs",
+        "Yellow and odourless"
+       ],
+       "e": [
+        "Brown is the colour of nitrogen dioxide.",
+        "Rotten eggs is the smell of hydrogen sulphide.",
+        "Sulphur dioxide is colourless and certainly not odourless."
+       ],
+       "y": "{formula('SO2')} is a colourless, poisonous gas with a sharp choking smell."
+      },
+      {
+       "q": "Why must sulphur dioxide be prepared in a fume cupboard?",
+       "r": "It is poisonous and irritates the eyes and lungs",
+       "w": [
+        "It catches fire easily",
+        "It explodes on contact with air",
+        "It is only a nuisance because of its colour"
+       ],
+       "e": [
+        "Sulphur dioxide does not burn; it is itself a product of burning.",
+        "It does not explode in air.",
+        "The gas is colourless; the danger is that it is poisonous."
+       ],
+       "y": "Breathing it in damages the lungs, so it must be used where the fumes can be drawn away."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-3-mass",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "F": {
+     "pick": [
+      "SO2",
+      "SO3",
+      "H2S",
+      "H2SO4",
+      "H2SO3",
+      "Na2SO3",
+      "CaSO4",
+      "FeS"
+     ]
+    }
+   },
+   "prompt": "Find the relative molecular mass of {formula(F)}.",
+   "answer": "molarMass(F)",
+   "misconceptions": [
+    {
+     "id": "atoms",
+     "wrong": "totalAtoms(F)",
+     "explain": "{totalAtoms(F)} is the NUMBER of atoms; the mass adds their relative atomic masses."
+    },
+    {
+     "id": "elements",
+     "wrong": "elementCount(F)",
+     "explain": "Count the mass of every atom, not the number of different elements."
+    }
+   ],
+   "solution": [
+    "Add the relative atomic mass of every atom in the formula.",
+    "{formula(F)} has {totalAtoms(F)} atoms in all.",
+    "The relative molecular mass is {answer}."
+   ]
+  },
+  {
+   "id": "k4-3-collect",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "G": {
+     "pick": [
+      {
+       "f": "sulphur dioxide",
+       "r": "By downward delivery, because it is denser than air and very soluble in water",
+       "w1": "Over water",
+       "w2": "By upward delivery",
+       "w3": "In a balloon held over the flask",
+       "y": "{formula('SO2')} has a relative molecular mass of {64} and dissolves readily in water."
+      },
+      {
+       "f": "hydrogen sulphide",
+       "r": "By downward delivery, because it is denser than air",
+       "w1": "By upward delivery",
+       "w2": "Over water in an open trough",
+       "w3": "It cannot be collected at all",
+       "y": "{formula('H2S')} has a relative molecular mass of {34}, greater than the average for air."
+      },
+      {
+       "f": "ammonia",
+       "r": "By upward delivery, because it is less dense than air and very soluble in water",
+       "w1": "By downward delivery",
+       "w2": "Over water",
+       "w3": "Over mercury only",
+       "y": "{formula('NH3')} has a relative molecular mass of {17}, well below the average for air."
+      }
+     ]
+    }
+   },
+   "prompt": "How should the gas {G.f} be collected?",
+   "correct": "{G.r}",
+   "distractors": [
+    {
+     "text": "{G.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{G.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{G.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{G.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{G.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{G.y}"
+    }
+   ],
+   "solution": [
+    "{G.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "k4-3-dry",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is quicklime, {formula('CaO')}, not used to dry sulphur dioxide?",
+       "r": "Quicklime is basic and reacts with the acidic gas",
+       "w": [
+        "Quicklime is not a drying agent at all",
+        "Quicklime would make the gas wetter",
+        "Quicklime dissolves the gas in water"
+       ],
+       "e": [
+        "Quicklime IS a drying agent; it is used for ammonia. The problem here is that it reacts.",
+        "A drying agent removes water; quicklime does not add any.",
+        "Quicklime reacts with the gas; it does not dissolve it in water."
+       ],
+       "y": "An acidic gas must be dried with an acidic drying agent, such as concentrated sulphuric acid."
+      },
+      {
+       "q": "Which drying agent is used for ammonia, and why?",
+       "r": "Quicklime, because ammonia is alkaline and would react with an acidic drying agent",
+       "w": [
+        "Concentrated sulphuric acid, because it dries every gas",
+        "Water, because ammonia dissolves in it",
+        "No drying agent can be used with ammonia"
+       ],
+       "e": [
+        "Concentrated sulphuric acid reacts with ammonia to give ammonium sulphate.",
+        "Water dissolves ammonia instead of drying it.",
+        "Quicklime dries it well."
+       ],
+       "y": "A drying agent must not react with the gas: a basic gas needs a basic drying agent."
+      },
+      {
+       "q": "A gas is passed through a wash bottle of concentrated sulphuric acid. What is this for?",
+       "r": "To remove water vapour from the gas",
+       "w": [
+        "To cool the gas",
+        "To make the gas more soluble",
+        "To change the gas into an acid"
+       ],
+       "e": [
+        "Cooling is not the purpose, and the acid does not cool the gas.",
+        "Drying does not change how soluble the gas is.",
+        "The acid does not react with a gas it is used to dry."
+       ],
+       "y": "Concentrated sulphuric acid takes up water strongly, which is why it is a drying agent."
+      },
+      {
+       "q": "Why must the gas jar be dry when sulphur dioxide is collected?",
+       "r": "The gas is very soluble, so any water in the jar would dissolve some of it",
+       "w": [
+        "Water would make the gas explode",
+        "A wet jar would crack",
+        "Water would turn the gas brown"
+       ],
+       "e": [
+        "Sulphur dioxide does not explode with water; it dissolves.",
+        "The jar does not crack; the problem is loss of the gas.",
+        "Sulphur dioxide stays colourless in water; it forms sulphurous acid."
+       ],
+       "y": "{formula('SO2')} is very soluble in water, so a wet jar would hold less gas."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-3-steps",
+   "type": "ordering",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "A": {
+     "pick": [
+      {
+       "q": "Put the steps of preparing a dry jar of sulphur dioxide in order.",
+       "s": [
+        "Place sodium sulphite in the flask and set up the apparatus in a fume cupboard",
+        "Add dilute hydrochloric acid from the thistle funnel",
+        "Pass the gas given off through concentrated sulphuric acid to dry it",
+        "Lead the dry gas to the bottom of a dry gas jar by downward delivery",
+        "Cover the full jar with a greased glass plate"
+       ]
+      },
+      {
+       "q": "Put the path of the gas through the apparatus in order, from where it is made.",
+       "s": [
+        "The gas is given off in the reaction flask",
+        "It passes along the delivery tube",
+        "It bubbles through the concentrated sulphuric acid in the wash bottle",
+        "It leaves the wash bottle dry",
+        "It sinks to the bottom of the gas jar"
+       ]
+      },
+      {
+       "q": "Put the steps of testing a jar of sulphur dioxide in order.",
+       "s": [
+        "Lift the glass plate a little and smell the gas carefully by wafting",
+        "Note the sharp choking smell",
+        "Lower in a piece of damp blue litmus paper",
+        "Note that the litmus turns red",
+        "Note that the red colour is then bleached away"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "{A.q}",
+   "items": [
+    {
+     "text": "{A.s[0]}"
+    },
+    {
+     "text": "{A.s[1]}"
+    },
+    {
+     "text": "{A.s[2]}"
+    },
+    {
+     "text": "{A.s[3]}"
+    },
+    {
+     "text": "{A.s[4]}"
+    }
+   ],
+   "order": "as_written"
+  }
+ ]
+}

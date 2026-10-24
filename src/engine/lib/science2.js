@@ -3,7 +3,8 @@
 // Used with maths.js, english.js, physics.js, chemistry.js and biology.js (bioArrangement for lettered parts).
 // Tables marked "authored" are facts a teacher must check (docs/teacher-review.md, TR-Q, TR-J, TR-V).
 import { fmt } from "./maths.js";
-import { nameOf, ELEMENTS, parseFormula, kindOf, formula } from "./chemistry.js";
+import { dec, roundTo } from "./maths2.js";
+import { nameOf, ELEMENTS, parseFormula, kindOf, formula, atomCount } from "./chemistry.js";
 import { bioArrangement } from "./biology.js";
 
 // ---------------------------------------------------------------- data
@@ -336,3 +337,57 @@ export const foodEnergy = (g, kjPerG) => Number((g * kjPerG).toPrecision(12));
 export const heatToWater = (g, rise) => Number((g * 4.2 * rise).toPrecision(12));
 /** Energy value of a burned food sample in J per gram. */
 export const energyPerGram = (waterG, rise, foodG) => Number((heatToWater(waterG, rise) / foodG).toPrecision(12));
+
+// ---------------------------------------------------------------- the mole and stoichiometry (Form 4, 2026-10-24)
+// Relative atomic masses as used in school work (TEACHER-REVIEW TR-K4-3): Cl is 35.5, Cu 64, Zn 65.
+const RAM = {
+  H: 1, He: 4, Li: 7, Be: 9, B: 11, C: 12, N: 14, O: 16, F: 19, Ne: 20, Na: 23, Mg: 24, Al: 27, Si: 28, P: 31,
+  S: 32, Cl: 35.5, Ar: 40, K: 39, Ca: 40, Cr: 52, Mn: 55, Fe: 56, Ni: 59, Cu: 64, Zn: 65, Br: 80, Ag: 108,
+  Sn: 119, I: 127, Ba: 137, Pb: 207,
+};
+export const AVOGADRO = 6.02e23;
+/** Molar volume of any gas at s.t.p., in dm³/mol. */
+export const MOLAR_VOLUME = 22.4;
+/** Relative atomic mass of an element from its symbol. */
+export function ram(symbol) {
+  const a = RAM[symbol];
+  if (a === undefined) throw new RangeError(`no relative atomic mass for ${symbol}`);
+  return a;
+}
+/** Relative molecular (or formula) mass from a formula: molarMass("H2SO4") = 98. */
+export function molarMass(f) {
+  const parts = parseFormula(f);
+  return dec(Object.entries(parts).reduce((t, [s, n]) => t + ram(s) * n, 0));
+}
+/** Moles from a mass in grams, and back. */
+export const molesOf = (g, f) => dec(g / molarMass(f));
+export const massOf = (n, f) => dec(n * molarMass(f));
+/** Percentage by mass of one element in a compound. */
+export const percentMass = (f, symbol) => dec((ram(symbol) * atomCount(f, symbol) * 100) / molarMass(f));
+/** Number of particles in n moles, and the moles in a given number of particles. */
+export const particles = (n) => Number((n * AVOGADRO).toPrecision(3));
+/** Volume of a gas at s.t.p. in dm³, and back. */
+export const gasVolume = (n) => dec(n * MOLAR_VOLUME);
+export const volumeToMoles = (v) => dec(v / MOLAR_VOLUME);
+/**
+ * The simplest whole-number ratio of a list of mole amounts: ratioOf([0.4, 0.6]) = [2, 3].
+ * Values are divided by the smallest, then scaled by 1, 2 or 3 until every one is close to a whole number.
+ */
+export function ratioOf(moles) {
+  const small = Math.min(...moles);
+  const scaled = moles.map((m) => m / small);
+  for (const k of [1, 2, 3, 4, 5, 6]) {
+    const t = scaled.map((x) => x * k);
+    if (t.every((x) => Math.abs(x - Math.round(x)) < 0.06)) return t.map((x) => Math.round(x));
+  }
+  return scaled.map((x) => Math.round(x));
+}
+/** An empirical formula from symbols and the masses (or percentages) of each: empiricalOf(["C","H"], [85.7, 14.3]). */
+export function empiricalOf(symbols, amounts) {
+  const r = ratioOf(symbols.map((s, i) => amounts[i] / ram(s)));
+  return symbols.map((s, i) => s + (r[i] === 1 ? "" : r[i])).join("");
+}
+/** How many times the empirical formula fits the molecular mass: times("CH2", 42) = 3. */
+export const formulaTimes = (emp, M) => Math.round(M / molarMass(emp));
+/** Percentage yield = actual ÷ theoretical × 100. */
+export const percentYield = (actual, theoretical) => dec(roundTo((actual * 100) / theoretical, 0.1));

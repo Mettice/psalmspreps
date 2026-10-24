@@ -1,0 +1,644 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  5
+ ],
+ "skills": [
+  {
+   "id": "k4-6",
+   "name": "Describe the chemical properties of hydrogen sulphide"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Hydrogen sulphide is a weak acid, a reducing agent and it burns in air.\n• Weak acid: its solution turns blue litmus red. With alkalis it gives sulphides: H2S + 2NaOH → Na2S + 2H2O.\n• Burning: in plenty of air, 2H2S + 3O2 → 2SO2 + 2H2O (blue flame). In a limited supply, 2H2S + O2 → 2S + 2H2O, leaving a yellow deposit.\n• Reducing agent: it is oxidised to sulphur by many oxidising agents. With acidified potassium manganate(VII) the purple colour goes and sulphur appears; with chlorine water the colour goes; with sulphur dioxide: SO2 + 2H2S → 3S + 2H2O.\n• With metal salts it gives coloured sulphide precipitates, used in analysis: lead(II) nitrate gives black PbS. Lead(II) ethanoate paper turning black is the test for the gas.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to describe hydrogen sulphide as a weak acid, a reducing agent and a gas that burns, and give the test for it.\nBuilds on: Lesson {5} (preparing {formula('H2S')}) and Lesson {4} (redox reactions of {formula('SO2')}).\nLeads to: Lesson {7} (the sulphides themselves) and the use of {formula('H2S')} in analysis."
+   },
+   {
+    "heading": "Burning and acidity",
+    "text": "Hydrogen sulphide burns in air with a blue flame, and what it gives depends on how much oxygen it has.\n• Plenty of air: {2}{formula('H2S')} + {3}{formula('O2')} → {2}{formula('SO2')} + {2}{formula('H2O')}.\n• Limited air: {2}{formula('H2S')} + {formula('O2')} → {2}S + {2}{formula('H2O')}, leaving a yellow deposit.\nIn water it is a weak acid: the solution turns blue litmus red, and with sodium hydroxide it gives a sulphide:\n{formula('H2S')} + {2}{formula('NaOH')} → {formula('Na2S')} + {2}{formula('H2O')}."
+   },
+   {
+    "heading": "A reducing agent, and the test",
+    "text": "Hydrogen sulphide gives up hydrogen easily, so it is a good reducing agent. It is itself oxidised to sulphur, which appears as a pale yellow deposit:\n• acidified potassium manganate(VII): purple → colourless, with sulphur;\n• chlorine water: the colour goes, with sulphur;\n• sulphur dioxide: {formula('SO2')} + {2}{formula('H2S')} → {3}S + {2}{formula('H2O')}. Here {formula('SO2')} is the oxidising agent.\nWith solutions of metal salts it gives sulphides of different colours, which is why it is used in analysis:\n{formula('Pb(NO3)2')} + {formula('H2S')} → {formula('PbS')} + {2}{formula('HNO3')}, a BLACK precipitate.\nThe test for the gas is damp lead(II) ethanoate paper, which turns black."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "weak acid",
+    "meaning": "an acid only slightly split into ions in water"
+   },
+   {
+    "word": "reducing agent",
+    "meaning": "a substance that gives electrons or hydrogen to another"
+   },
+   {
+    "word": "precipitate",
+    "meaning": "an insoluble solid formed when two solutions are mixed"
+   },
+   {
+    "word": "lead(II) ethanoate paper",
+    "meaning": "test paper that turns black with hydrogen sulphide"
+   }
+  ],
+  "examples": [
+   "{2}{formula('H2S')} + {3}{formula('O2')} → {2}{formula('SO2')} + {2}{formula('H2O')}",
+   "{formula('PbS')}: black",
+   "sulphur: a pale yellow deposit"
+  ],
+  "mistake": {
+   "wrong": "hydrogen sulphide burning in limited air gives sulphur dioxide",
+   "right": "it gives sulphur",
+   "why": "With too little oxygen, only the hydrogen is oxidised, leaving the sulphur behind."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 1
+  },
+  "problem": "Explain, with equations, what happens when hydrogen sulphide burns in plenty of air and in a limited supply of air.",
+  "steps": [
+   "In plenty of air there is enough oxygen to oxidise both the hydrogen and the sulphur.",
+   "{2}{formula('H2S')} + {3}{formula('O2')} → {2}{formula('SO2')} + {2}{formula('H2O')}, with a blue flame.",
+   "In a limited supply there is only enough oxygen for the hydrogen.",
+   "{2}{formula('H2S')} + {formula('O2')} → {2}S + {2}{formula('H2O')}, leaving a yellow deposit of sulphur."
+  ],
+  "answer": "plenty of air gives {formula('SO2')} and water; limited air gives sulphur and water",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k6-1",
+    "status": "draft",
+    "idea": "{formula('H2S')} burns: plenty of air gives {formula('SO2')}; limited air gives sulphur.",
+    "vars": {},
+    "example": [
+     "{2}{formula('H2S')} + {3}{formula('O2')} → {2}{formula('SO2')} + {2}{formula('H2O')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-6-chem"
+    }
+   },
+   {
+    "id": "c4k6-2",
+    "status": "draft",
+    "idea": "{formula('H2S')} is a reducing agent: it is oxidised to sulphur, seen as a yellow deposit.",
+    "vars": {},
+    "example": [
+     "{formula('SO2')} + {2}{formula('H2S')} → {3}S + {2}{formula('H2O')}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-6-reduce-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "sulphur"
+     ],
+     "vars": {
+      "T": {
+       "pick": [
+        {
+         "n": "acidified potassium manganate(VII) solution",
+         "r": "The purple colour disappears and a yellow deposit of sulphur appears",
+         "w1": "The solution turns a deeper purple",
+         "w2": "A black precipitate forms",
+         "w3": "Nothing is seen",
+         "y": "{formula('H2S')} is a reducing agent: the manganate(VII) is reduced and the {formula('H2S')} is oxidised to sulphur."
+        },
+        {
+         "n": "chlorine water",
+         "r": "The colour of the chlorine water disappears and a yellow deposit forms",
+         "w1": "The solution turns green",
+         "w2": "A white precipitate forms",
+         "w3": "The gas is unchanged",
+         "y": "Chlorine oxidises the {formula('H2S')} to sulphur and is itself reduced to chloride ions."
+        },
+        {
+         "n": "lead(II) nitrate solution",
+         "r": "A black precipitate of lead(II) sulphide forms",
+         "w1": "A white precipitate forms",
+         "w2": "A yellow solution forms",
+         "w3": "Bubbles of gas are given off",
+         "y": "{formula('Pb(NO3)2')} + {formula('H2S')} → {formula('PbS')} + {2}{formula('HNO3')}, and {formula('PbS')} is black."
+        },
+        {
+         "n": "a solution of sulphur dioxide",
+         "r": "A pale yellow deposit of sulphur appears",
+         "w1": "The mixture turns purple",
+         "w2": "A black precipitate forms",
+         "w3": "Nothing is seen",
+         "y": "{formula('SO2')} + {2}{formula('H2S')} → {3}S + {2}{formula('H2O')}: here {formula('SO2')} is the oxidising agent."
+        }
+       ]
+      }
+     },
+     "prompt": "Hydrogen sulphide is bubbled through {T.n}. What is seen?",
+     "correct": "{T.r}",
+     "distractors": [
+      {
+       "text": "{T.w1}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{T.w2}",
+       "misconception": "w2"
+      },
+      {
+       "text": "{T.w3}",
+       "misconception": "w3"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w1",
+       "explain": "{T.y}"
+      },
+      {
+       "id": "w2",
+       "explain": "{T.y}"
+      },
+      {
+       "id": "w3",
+       "explain": "{T.y}"
+      }
+     ],
+     "solution": [
+      "{T.y}",
+      "So the answer is: {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c4k6-3",
+    "status": "draft",
+    "idea": "With metal salts, {formula('H2S')} gives coloured sulphides; lead(II) ethanoate paper turns black.",
+    "vars": {},
+    "example": [
+     "{formula('Pb(NO3)2')} + {formula('H2S')} → {formula('PbS')} + {2}{formula('HNO3')}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-6-test-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "sulphur"
+     ],
+     "vars": {
+      "A": {
+       "pick": [
+        {
+         "r": "Damp lead(II) ethanoate paper turns black",
+         "w1": "Damp red litmus paper turns blue",
+         "w2": "Limewater turns milky",
+         "w3": "A glowing splint relights",
+         "y": "The black colour is lead(II) sulphide, formed from the gas."
+        },
+        {
+         "r": "It smells of rotten eggs and turns damp blue litmus red",
+         "w1": "It smells sweet and turns red litmus blue",
+         "w2": "It has no smell and relights a splint",
+         "w3": "It is brown and turns starch iodide paper blue",
+         "y": "{formula('H2S')} is acidic in water as well as having its characteristic smell."
+        },
+        {
+         "r": "Passed into lead(II) nitrate solution, it gives a black precipitate",
+         "w1": "Passed into limewater, it gives a white precipitate",
+         "w2": "Passed into silver nitrate, it gives no change",
+         "w3": "Passed into water, it turns the water brown",
+         "y": "Black {formula('PbS')} is the sign of hydrogen sulphide in the gas."
+        }
+       ]
+      }
+     },
+     "prompt": "Which observation shows that a gas is hydrogen sulphide?",
+     "correct": "{A.r}",
+     "distractors": [
+      {
+       "text": "{A.w1}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{A.w2}",
+       "misconception": "w2"
+      },
+      {
+       "text": "{A.w3}",
+       "misconception": "w3"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w1",
+       "explain": "{A.y}"
+      },
+      {
+       "id": "w2",
+       "explain": "{A.y}"
+      },
+      {
+       "id": "w3",
+       "explain": "{A.y}"
+      }
+     ],
+     "solution": [
+      "{A.y}",
+      "So the answer is: {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-6-chem",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Hydrogen sulphide burns in plenty of air. What is formed?",
+       "r": "Sulphur dioxide and water",
+       "w": [
+        "Sulphur and water only",
+        "Hydrogen and sulphur",
+        "Sulphur trioxide and hydrogen"
+       ],
+       "e": [
+        "Sulphur and water are formed when the air supply is LIMITED.",
+        "Burning joins the gas with oxygen; it does not split it into its elements.",
+        "{formula('SO3')} is not formed by simple burning, and the hydrogen is oxidised to water."
+       ],
+       "y": "{2}{formula('H2S')} + {3}{formula('O2')} → {2}{formula('SO2')} + {2}{formula('H2O')}, with a blue flame."
+      },
+      {
+       "q": "Hydrogen sulphide burns in a limited supply of air. What is seen?",
+       "r": "A yellow deposit of sulphur forms",
+       "w": [
+        "A white solid forms",
+        "The flame goes out at once",
+        "A brown gas is given off"
+       ],
+       "e": [
+        "No white solid is formed in this reaction.",
+        "It still burns; the limited air changes the product, not whether it burns.",
+        "A brown gas is nitrogen dioxide, which is not formed here."
+       ],
+       "y": "{2}{formula('H2S')} + {formula('O2')} → {2}S + {2}{formula('H2O')}: with too little oxygen the sulphur is not oxidised."
+      },
+      {
+       "q": "Why is hydrogen sulphide described as a reducing agent?",
+       "r": "It gives up its hydrogen or its electrons, and is itself oxidised to sulphur",
+       "w": [
+        "It adds oxygen to other substances",
+        "It is an acid in water",
+        "It is denser than air"
+       ],
+       "e": [
+        "Adding oxygen is what an OXIDISING agent does.",
+        "Being an acid is a separate property; it has nothing to do with reduction.",
+        "Density has nothing to do with being a reducing agent."
+       ],
+       "y": "With most oxidising agents, {formula('H2S')} is oxidised and a pale yellow deposit of sulphur appears."
+      },
+      {
+       "q": "Hydrogen sulphide is passed into lead(II) nitrate solution. What is seen?",
+       "r": "A black precipitate of lead(II) sulphide",
+       "w": [
+        "A white precipitate",
+        "A yellow solution",
+        "No change"
+       ],
+       "e": [
+        "Lead(II) sulphide is black, not white.",
+        "A precipitate forms rather than a coloured solution.",
+        "The change is clear and is used as a test for the gas."
+       ],
+       "y": "{formula('Pb(NO3)2')} + {formula('H2S')} → {formula('PbS')} + {2}{formula('HNO3')}: lead sulphide is black."
+      },
+      {
+       "q": "Which test paper shows that a gas is hydrogen sulphide?",
+       "r": "Filter paper moistened with lead(II) ethanoate, which turns black",
+       "w": [
+        "Damp red litmus paper, which turns blue",
+        "Starch iodide paper, which turns blue",
+        "Filter paper moistened with limewater, which turns milky"
+       ],
+       "e": [
+        "{formula('H2S')} is acidic, so it turns BLUE litmus red, and that is not a specific test.",
+        "Starch iodide paper is used for chlorine and other oxidising gases.",
+        "Limewater is the test for carbon dioxide."
+       ],
+       "y": "Lead(II) ethanoate paper turning black shows the black lead sulphide."
+      },
+      {
+       "q": "Hydrogen sulphide is bubbled into a solution of sulphur dioxide. What is seen, and which gas is oxidised?",
+       "r": "A yellow deposit of sulphur; the hydrogen sulphide is oxidised",
+       "w": [
+        "A yellow deposit; the sulphur dioxide is oxidised",
+        "A white precipitate; neither is oxidised",
+        "No change; the two gases do not react"
+       ],
+       "e": [
+        "{formula('SO2')} is the oxidising agent here, so it is REDUCED, not oxidised.",
+        "A yellow solid, not a white one, is formed, and a redox reaction does take place.",
+        "The two react readily and the sulphur formed is easy to see."
+       ],
+       "y": "{formula('SO2')} + {2}{formula('H2S')} → {3}S + {2}{formula('H2O')}: {formula('H2S')} loses hydrogen, so it is oxidised."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-6-reduce",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "T": {
+     "pick": [
+      {
+       "n": "acidified potassium manganate(VII) solution",
+       "r": "The purple colour disappears and a yellow deposit of sulphur appears",
+       "w1": "The solution turns a deeper purple",
+       "w2": "A black precipitate forms",
+       "w3": "Nothing is seen",
+       "y": "{formula('H2S')} is a reducing agent: the manganate(VII) is reduced and the {formula('H2S')} is oxidised to sulphur."
+      },
+      {
+       "n": "chlorine water",
+       "r": "The colour of the chlorine water disappears and a yellow deposit forms",
+       "w1": "The solution turns green",
+       "w2": "A white precipitate forms",
+       "w3": "The gas is unchanged",
+       "y": "Chlorine oxidises the {formula('H2S')} to sulphur and is itself reduced to chloride ions."
+      },
+      {
+       "n": "lead(II) nitrate solution",
+       "r": "A black precipitate of lead(II) sulphide forms",
+       "w1": "A white precipitate forms",
+       "w2": "A yellow solution forms",
+       "w3": "Bubbles of gas are given off",
+       "y": "{formula('Pb(NO3)2')} + {formula('H2S')} → {formula('PbS')} + {2}{formula('HNO3')}, and {formula('PbS')} is black."
+      },
+      {
+       "n": "a solution of sulphur dioxide",
+       "r": "A pale yellow deposit of sulphur appears",
+       "w1": "The mixture turns purple",
+       "w2": "A black precipitate forms",
+       "w3": "Nothing is seen",
+       "y": "{formula('SO2')} + {2}{formula('H2S')} → {3}S + {2}{formula('H2O')}: here {formula('SO2')} is the oxidising agent."
+      }
+     ]
+    }
+   },
+   "prompt": "Hydrogen sulphide is bubbled through {T.n}. What is seen?",
+   "correct": "{T.r}",
+   "distractors": [
+    {
+     "text": "{T.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{T.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{T.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{T.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{T.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{T.y}"
+    }
+   ],
+   "solution": [
+    "{T.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "k4-6-sulphur",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      0.1,
+      0.2,
+      0.25,
+      0.5,
+      1,
+      1.5,
+      2
+     ]
+    }
+   },
+   "prompt": "When {n} mol of sulphur dioxide reacts completely with hydrogen sulphide, how many moles of sulphur are formed?",
+   "answer": "3 * n",
+   "misconceptions": [
+    {
+     "id": "same",
+     "wrong": "n",
+     "explain": "Read the balanced equation: {1} mol of {formula('SO2')} gives {3} mol of sulphur."
+    },
+    {
+     "id": "two",
+     "wrong": "2 * n",
+     "explain": "{2} is the coefficient of {formula('H2S')}, not of the sulphur."
+    }
+   ],
+   "solution": [
+    "{formula('SO2')} + {2}{formula('H2S')} → {3}S + {2}{formula('H2O')}.",
+    "{1} mol of {formula('SO2')} gives {3} mol of sulphur.",
+    "{n} mol gives {3} × {n} = {answer} mol."
+   ],
+   "unit": "mol"
+  },
+  {
+   "id": "k4-6-test",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "A": {
+     "pick": [
+      {
+       "r": "Damp lead(II) ethanoate paper turns black",
+       "w1": "Damp red litmus paper turns blue",
+       "w2": "Limewater turns milky",
+       "w3": "A glowing splint relights",
+       "y": "The black colour is lead(II) sulphide, formed from the gas."
+      },
+      {
+       "r": "It smells of rotten eggs and turns damp blue litmus red",
+       "w1": "It smells sweet and turns red litmus blue",
+       "w2": "It has no smell and relights a splint",
+       "w3": "It is brown and turns starch iodide paper blue",
+       "y": "{formula('H2S')} is acidic in water as well as having its characteristic smell."
+      },
+      {
+       "r": "Passed into lead(II) nitrate solution, it gives a black precipitate",
+       "w1": "Passed into limewater, it gives a white precipitate",
+       "w2": "Passed into silver nitrate, it gives no change",
+       "w3": "Passed into water, it turns the water brown",
+       "y": "Black {formula('PbS')} is the sign of hydrogen sulphide in the gas."
+      }
+     ]
+    }
+   },
+   "prompt": "Which observation shows that a gas is hydrogen sulphide?",
+   "correct": "{A.r}",
+   "distractors": [
+    {
+     "text": "{A.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{A.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{A.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{A.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{A.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{A.y}"
+    }
+   ],
+   "solution": [
+    "{A.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "k4-6-mass",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      0.1,
+      0.2,
+      0.4,
+      0.5,
+      1,
+      2
+     ]
+    }
+   },
+   "prompt": "What mass of sulphur, in grams, is formed when {n} mol of hydrogen sulphide reacts completely with sulphur dioxide?",
+   "answer": "roundTo(massOf(1.5 * n, 'S'), 0.01)",
+   "misconceptions": [
+    {
+     "id": "same",
+     "wrong": "massOf(n, 'S')",
+     "explain": "The ratio is {3} mol of sulphur for every {2} mol of {formula('H2S')}."
+    },
+    {
+     "id": "three",
+     "wrong": "massOf(3 * n, 'S')",
+     "explain": "{3} mol of sulphur comes from {2} mol of {formula('H2S')}, not from {1}."
+    }
+   ],
+   "solution": [
+    "{formula('SO2')} + {2}{formula('H2S')} → {3}S + {2}{formula('H2O')}.",
+    "{2} mol of {formula('H2S')} gives {3} mol of S, so {n} mol gives {1.5} × {n} = {1.5 * n} mol.",
+    "Mass = moles × {ram('S')} = {1.5 * n} × {ram('S')} = {answer} g."
+   ],
+   "unit": "g"
+  }
+ ]
+}

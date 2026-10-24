@@ -1,0 +1,650 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [
+  4
+ ],
+ "skills": [
+  {
+   "id": "k4-8",
+   "name": "Describe the chemical properties of sulphuric acid"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Dilute sulphuric acid behaves as a typical strong acid:\n• with a metal above hydrogen: Zn + H2SO4 → ZnSO4 + H2;\n• with a base or basic oxide: CuO + H2SO4 → CuSO4 + H2O;\n• with a carbonate: Na2CO3 + H2SO4 → Na2SO4 + H2O + CO2.\nConcentrated sulphuric acid has three further properties:\n• Dehydrating agent: it removes hydrogen and oxygen as water. Sugar turns to a black spongy mass of carbon; blue copper(II) sulphate crystals turn white.\n• Oxidising agent when hot: Cu + 2H2SO4 → CuSO4 + SO2 + 2H2O.\n• A less volatile acid: it displaces more volatile acids from their salts. NaCl + H2SO4 → NaHSO4 + HCl.\nSafety: always add the acid to water, never water to the acid, because a great deal of heat is given out.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to describe dilute sulphuric acid as a typical acid and concentrated sulphuric acid as a dehydrating, oxidising and less volatile acid.\nBuilds on: Lesson {4} ({formula('SO2')} and the acid made from it) and Form Three acids, bases and salts.\nLeads to: Lesson {9} (the uses of sulphur and its compounds) and salt preparations."
+   },
+   {
+    "heading": "The dilute acid",
+    "text": "Dilute sulphuric acid behaves as a typical strong acid. It turns blue litmus red and reacts in the usual three ways:\n• with a metal above hydrogen: Zn + {formula('H2SO4')} → {formula('ZnSO4')} + {formula('H2')};\n• with a base or a basic oxide: {formula('CuO')} + {formula('H2SO4')} → {formula('CuSO4')} + {formula('H2O')};\n• with a carbonate: {formula('Na2CO3')} + {formula('H2SO4')} → {formula('Na2SO4')} + {formula('H2O')} + {formula('CO2')}.\nIts salts are sulphates. Lead and barium sulphates are insoluble, which is why barium chloride solution with dilute hydrochloric acid is the test for a sulphate."
+   },
+   {
+    "heading": "The concentrated acid",
+    "text": "Concentrated sulphuric acid has three extra properties:\n• DEHYDRATING agent: it removes hydrogen and oxygen as water. Sugar becomes a black spongy mass of carbon; blue copper(II) sulphate crystals turn white; paper and wood char. It also dries gases that do not react with it.\n• OXIDISING agent when hot: Cu + {2}{formula('H2SO4')} → {formula('CuSO4')} + {formula('SO2')} + {2}{formula('H2O')}. Copper is below hydrogen, so it could not react with the dilute acid at all.\n• LESS VOLATILE acid: on heating it drives more volatile acids out of their salts: {formula('NaCl')} + {formula('H2SO4')} → {formula('NaHSO4')} + {formula('HCl')}.\nSafety: always add the acid slowly to water with stirring, never water to the acid, because a great deal of heat is given out."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "dehydrating agent",
+    "meaning": "a substance that removes hydrogen and oxygen as water"
+   },
+   {
+    "word": "oxidising agent",
+    "meaning": "a substance that gives oxygen to, or takes electrons from, another"
+   },
+   {
+    "word": "volatile",
+    "meaning": "easily turned into a vapour"
+   },
+   {
+    "word": "water of crystallisation",
+    "meaning": "water joined into a crystal, as in blue {formula('CuSO4')} crystals"
+   }
+  ],
+  "examples": [
+   "Zn + {formula('H2SO4')} → {formula('ZnSO4')} + {formula('H2')}",
+   "sugar → black carbon",
+   "Cu + {2}{formula('H2SO4')} → {formula('CuSO4')} + {formula('SO2')} + {2}{formula('H2O')}"
+  ],
+  "mistake": {
+   "wrong": "copper reacts with dilute sulphuric acid to give hydrogen",
+   "right": "copper does not react with the dilute acid at all",
+   "why": "Copper is below hydrogen in the reactivity series. Only the hot CONCENTRATED acid attacks it, giving {formula('SO2')}."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 1
+  },
+  "problem": "Explain what is seen when concentrated sulphuric acid is poured onto blue copper(II) sulphate crystals, and name the property shown.",
+  "steps": [
+   "Blue copper(II) sulphate crystals contain water of crystallisation.",
+   "Concentrated sulphuric acid takes up water very strongly.",
+   "It removes the water from the crystals, and the solid turns white.",
+   "Removing water from a substance is dehydration, so the acid is acting as a dehydrating agent."
+  ],
+  "answer": "the blue crystals turn white; the acid is acting as a dehydrating agent",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k8-1",
+    "status": "draft",
+    "idea": "Dilute sulphuric acid is a typical acid: metal → hydrogen, base → salt and water, carbonate → carbon dioxide.",
+    "vars": {},
+    "example": [
+     "Zn + {formula('H2SO4')} → {formula('ZnSO4')} + {formula('H2')}"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-8-chem"
+    }
+   },
+   {
+    "id": "c4k8-2",
+    "status": "draft",
+    "idea": "Concentrated sulphuric acid is a dehydrating agent: it removes water from other substances.",
+    "vars": {},
+    "example": [
+     "sugar turns to a black mass of carbon"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-8-dehydrate-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "sulphur"
+     ],
+     "vars": {
+      "D": {
+       "pick": [
+        {
+         "n": "sugar in a beaker",
+         "r": "The sugar turns black and a spongy column of carbon rises",
+         "w1": "The sugar dissolves to a clear solution",
+         "w2": "The sugar turns bright yellow",
+         "w3": "Nothing happens",
+         "y": "The acid removes hydrogen and oxygen as water, leaving the carbon behind."
+        },
+        {
+         "n": "blue copper(II) sulphate crystals",
+         "r": "The blue crystals turn white",
+         "w1": "The crystals turn black",
+         "w2": "The crystals turn green",
+         "w3": "The crystals dissolve to a blue solution",
+         "y": "The acid takes the water of crystallisation out of the blue crystals, leaving the white anhydrous salt."
+        },
+        {
+         "n": "a piece of wood or paper",
+         "r": "It is charred and turns black",
+         "w1": "It turns white",
+         "w2": "It dissolves completely",
+         "w3": "It is unchanged",
+         "y": "Wood and paper contain hydrogen and oxygen, which the acid removes as water, leaving carbon."
+        }
+       ]
+      }
+     },
+     "prompt": "Concentrated sulphuric acid is added to {D.n}. What is seen?",
+     "correct": "{D.r}",
+     "distractors": [
+      {
+       "text": "{D.w1}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{D.w2}",
+       "misconception": "w2"
+      },
+      {
+       "text": "{D.w3}",
+       "misconception": "w3"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w1",
+       "explain": "{D.y}"
+      },
+      {
+       "id": "w2",
+       "explain": "{D.y}"
+      },
+      {
+       "id": "w3",
+       "explain": "{D.y}"
+      }
+     ],
+     "solution": [
+      "{D.y}",
+      "So the answer is: {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c4k8-3",
+    "status": "draft",
+    "idea": "Hot concentrated sulphuric acid is an oxidising agent, and it displaces more volatile acids.",
+    "vars": {},
+    "example": [
+     "Cu + {2}{formula('H2SO4')} → {formula('CuSO4')} + {formula('SO2')} + {2}{formula('H2O')}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-8-conc-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "sulphur"
+     ],
+     "vars": {
+      "P": {
+       "pick": [
+        {
+         "n": "sugar turning into a black spongy mass",
+         "r": "It is a dehydrating agent",
+         "w1": "It is an oxidising agent",
+         "w2": "It is a reducing agent",
+         "w3": "It is a volatile acid",
+         "y": "Hydrogen and oxygen are removed from the sugar as water, leaving carbon."
+        },
+        {
+         "n": "copper giving sulphur dioxide when warmed with the acid",
+         "r": "It is an oxidising agent",
+         "w1": "It is a dehydrating agent",
+         "w2": "It is a reducing agent",
+         "w3": "It is a drying agent",
+         "y": "The copper is oxidised to copper(II) sulphate while the acid is reduced to {formula('SO2')}."
+        },
+        {
+         "n": "hydrogen chloride given off when the acid is warmed with sodium chloride",
+         "r": "It is a less volatile acid than hydrochloric acid",
+         "w1": "It is an oxidising agent",
+         "w2": "It is a dehydrating agent",
+         "w3": "It is a weak acid",
+         "y": "A less volatile acid drives a more volatile acid out of its salt on heating."
+        },
+        {
+         "n": "a gas being dried by bubbling it through the acid",
+         "r": "It is a drying agent",
+         "w1": "It is an oxidising agent",
+         "w2": "It is a reducing agent",
+         "w3": "It is a weak acid",
+         "y": "The acid takes up water vapour strongly without reacting with the gas."
+        }
+       ]
+      }
+     },
+     "prompt": "Which property of concentrated sulphuric acid is shown by {P.n}?",
+     "correct": "{P.r}",
+     "distractors": [
+      {
+       "text": "{P.w1}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{P.w2}",
+       "misconception": "w2"
+      },
+      {
+       "text": "{P.w3}",
+       "misconception": "w3"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w1",
+       "explain": "{P.y}"
+      },
+      {
+       "id": "w2",
+       "explain": "{P.y}"
+      },
+      {
+       "id": "w3",
+       "explain": "{P.y}"
+      }
+     ],
+     "solution": [
+      "{P.y}",
+      "So the answer is: {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-8-chem",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dilute sulphuric acid is added to zinc. What is seen?",
+       "r": "Bubbles of hydrogen, which pop with a lighted splint",
+       "w": [
+        "Bubbles of sulphur dioxide",
+        "A yellow deposit of sulphur",
+        "No reaction"
+       ],
+       "e": [
+        "Sulphur dioxide comes from the CONCENTRATED acid with copper, not from the dilute acid with zinc.",
+        "Sulphur is not formed with the dilute acid.",
+        "Zinc is above hydrogen in the reactivity series, so it does react."
+       ],
+       "y": "Zn + {formula('H2SO4')} → {formula('ZnSO4')} + {formula('H2')}: the dilute acid behaves as an ordinary acid."
+      },
+      {
+       "q": "Dilute sulphuric acid is added to sodium carbonate. What gas is given off?",
+       "r": "Carbon dioxide",
+       "w": [
+        "Hydrogen",
+        "Sulphur dioxide",
+        "Hydrogen sulphide"
+       ],
+       "e": [
+        "Hydrogen comes from a metal with an acid, not from a carbonate.",
+        "Sulphur dioxide comes from a sulphite, not from a carbonate.",
+        "Hydrogen sulphide comes from a sulphide."
+       ],
+       "y": "{formula('Na2CO3')} + {formula('H2SO4')} → {formula('Na2SO4')} + {formula('H2O')} + {formula('CO2')}."
+      },
+      {
+       "q": "Concentrated sulphuric acid is poured onto sugar. What is seen?",
+       "r": "The sugar turns black and a spongy mass of carbon rises out of the beaker",
+       "w": [
+        "The sugar dissolves to give a clear solution",
+        "The sugar turns bright yellow",
+        "Nothing happens until the mixture is heated"
+       ],
+       "e": [
+        "The sugar is not simply dissolved; it is chemically changed.",
+        "The colour is black, from the carbon left behind.",
+        "The change starts at once, and heat is given out."
+       ],
+       "y": "The acid removes hydrogen and oxygen from the sugar as water, leaving carbon: it is a dehydrating agent."
+      },
+      {
+       "q": "Copper is warmed with concentrated sulphuric acid. What gas is given off?",
+       "r": "Sulphur dioxide",
+       "w": [
+        "Hydrogen",
+        "Hydrogen sulphide",
+        "Oxygen"
+       ],
+       "e": [
+        "Copper is below hydrogen in the reactivity series, so it cannot displace hydrogen.",
+        "Hydrogen sulphide comes from a sulphide with a dilute acid.",
+        "No oxygen is given off in this reaction."
+       ],
+       "y": "Cu + {2}{formula('H2SO4')} → {formula('CuSO4')} + {formula('SO2')} + {2}{formula('H2O')}: here the acid is an oxidising agent."
+      },
+      {
+       "q": "Concentrated sulphuric acid is warmed with sodium chloride. What is given off, and why?",
+       "r": "Hydrogen chloride, because the acid is less volatile and displaces the more volatile acid",
+       "w": [
+        "Chlorine, because the acid is an oxidising agent",
+        "Hydrogen, because sodium is a reactive metal",
+        "Nothing: the two do not react"
+       ],
+       "e": [
+        "Chlorine needs a stronger oxidising agent, such as manganese(IV) oxide with concentrated hydrochloric acid.",
+        "The sodium is already combined as a salt, so it cannot displace hydrogen.",
+        "The reaction is the standard preparation of hydrogen chloride."
+       ],
+       "y": "{formula('NaCl')} + {formula('H2SO4')} → {formula('NaHSO4')} + {formula('HCl')}: a less volatile acid drives out a more volatile one."
+      },
+      {
+       "q": "Why must concentrated sulphuric acid be added to water, and never water to the acid?",
+       "r": "Mixing gives out a great deal of heat, and water poured onto the acid can boil and spit acid out",
+       "w": [
+        "The acid would become too weak",
+        "Water would react chemically with the acid to give hydrogen",
+        "The order makes no difference"
+       ],
+       "e": [
+        "Diluting always lowers the concentration; that is not the danger.",
+        "No hydrogen is given off; the danger is heat.",
+        "The order matters a great deal for safety."
+       ],
+       "y": "Adding acid slowly to a large volume of water lets the heat spread out safely."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-8-dehydrate",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "D": {
+     "pick": [
+      {
+       "n": "sugar in a beaker",
+       "r": "The sugar turns black and a spongy column of carbon rises",
+       "w1": "The sugar dissolves to a clear solution",
+       "w2": "The sugar turns bright yellow",
+       "w3": "Nothing happens",
+       "y": "The acid removes hydrogen and oxygen as water, leaving the carbon behind."
+      },
+      {
+       "n": "blue copper(II) sulphate crystals",
+       "r": "The blue crystals turn white",
+       "w1": "The crystals turn black",
+       "w2": "The crystals turn green",
+       "w3": "The crystals dissolve to a blue solution",
+       "y": "The acid takes the water of crystallisation out of the blue crystals, leaving the white anhydrous salt."
+      },
+      {
+       "n": "a piece of wood or paper",
+       "r": "It is charred and turns black",
+       "w1": "It turns white",
+       "w2": "It dissolves completely",
+       "w3": "It is unchanged",
+       "y": "Wood and paper contain hydrogen and oxygen, which the acid removes as water, leaving carbon."
+      }
+     ]
+    }
+   },
+   "prompt": "Concentrated sulphuric acid is added to {D.n}. What is seen?",
+   "correct": "{D.r}",
+   "distractors": [
+    {
+     "text": "{D.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{D.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{D.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{D.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{D.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{D.y}"
+    }
+   ],
+   "solution": [
+    "{D.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "k4-8-mass",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      0.1,
+      0.2,
+      0.25,
+      0.5,
+      1,
+      2,
+      2.5
+     ]
+    }
+   },
+   "prompt": "What mass of {formula('H2SO4')}, in grams, is there in {n} mol of the acid?",
+   "answer": "massOf(n, 'H2SO4')",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "roundTo(n / molarMass('H2SO4'), 0.0001)",
+     "explain": "Mass = moles × molar mass."
+    },
+    {
+     "id": "so3",
+     "wrong": "massOf(n, 'SO3')",
+     "explain": "Use the formula {formula('H2SO4')}, which includes the {2} hydrogen atoms."
+    }
+   ],
+   "solution": [
+    "The relative molecular mass of {formula('H2SO4')} is {molarMass('H2SO4')}.",
+    "Mass = moles × molar mass = {n} × {molarMass('H2SO4')} = {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "k4-8-conc",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      {
+       "n": "sugar turning into a black spongy mass",
+       "r": "It is a dehydrating agent",
+       "w1": "It is an oxidising agent",
+       "w2": "It is a reducing agent",
+       "w3": "It is a volatile acid",
+       "y": "Hydrogen and oxygen are removed from the sugar as water, leaving carbon."
+      },
+      {
+       "n": "copper giving sulphur dioxide when warmed with the acid",
+       "r": "It is an oxidising agent",
+       "w1": "It is a dehydrating agent",
+       "w2": "It is a reducing agent",
+       "w3": "It is a drying agent",
+       "y": "The copper is oxidised to copper(II) sulphate while the acid is reduced to {formula('SO2')}."
+      },
+      {
+       "n": "hydrogen chloride given off when the acid is warmed with sodium chloride",
+       "r": "It is a less volatile acid than hydrochloric acid",
+       "w1": "It is an oxidising agent",
+       "w2": "It is a dehydrating agent",
+       "w3": "It is a weak acid",
+       "y": "A less volatile acid drives a more volatile acid out of its salt on heating."
+      },
+      {
+       "n": "a gas being dried by bubbling it through the acid",
+       "r": "It is a drying agent",
+       "w1": "It is an oxidising agent",
+       "w2": "It is a reducing agent",
+       "w3": "It is a weak acid",
+       "y": "The acid takes up water vapour strongly without reacting with the gas."
+      }
+     ]
+    }
+   },
+   "prompt": "Which property of concentrated sulphuric acid is shown by {P.n}?",
+   "correct": "{P.r}",
+   "distractors": [
+    {
+     "text": "{P.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{P.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{P.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{P.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{P.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{P.y}"
+    }
+   ],
+   "solution": [
+    "{P.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "k4-8-vol",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      0.1,
+      0.2,
+      0.25,
+      0.5,
+      1,
+      1.5,
+      2
+     ]
+    }
+   },
+   "prompt": "What volume of hydrogen, in dm³ at s.t.p., is given off when {n} mol of zinc reacts completely with dilute sulphuric acid?",
+   "answer": "gasVolume(n)",
+   "misconceptions": [
+    {
+     "id": "double",
+     "wrong": "gasVolume(2 * n)",
+     "explain": "The equation gives {1} mol of hydrogen for each {1} mol of zinc."
+    },
+    {
+     "id": "mass",
+     "wrong": "massOf(n, 'H2')",
+     "explain": "The question asks for a VOLUME in dm³, not a mass in grams."
+    }
+   ],
+   "solution": [
+    "Zn + {formula('H2SO4')} → {formula('ZnSO4')} + {formula('H2')}.",
+    "{1} mol of zinc gives {1} mol of hydrogen, so {n} mol gives {n} mol.",
+    "At s.t.p. that is {n} × {22.4} = {answer} dm³."
+   ],
+   "unit": "dm³"
+  }
+ ]
+}

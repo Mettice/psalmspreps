@@ -1,10 +1,11 @@
 // The prototype (readiness + Maths 1–16 + English E1 + Physics P1 + Chemistry C1 + Geography G1 + Home Economics H1 + History Y1 + Biology L1 + Computer Science S1 + French F1) builds from the real engine and content, offline, under 1.5 MB.
-// Form 2 (2026-10-17, form-2 branch): one shareable file per term, form2-term-1.html …; the installable app has both classes.
+// Form 2 (2026-10-17, form-2 branch): shareable files per term, form2-term-1.html or …-part-1.html as the term grows;
+// the installable app has both classes. The names are read from the build, never hard-coded (2026-10-24).
 import { createHash } from "node:crypto";
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { execFileSync } from "node:child_process";
-import { readFileSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 
 const ROOT = new URL("../", import.meta.url);
 const FILE = new URL("tools/prototype/form1.html", ROOT);
@@ -200,7 +201,9 @@ test("installable app: manifest, icons, service worker and the shareable single 
   const sw = pwaFile("sw.js");
   for (const part of ['addEventListener("install"', 'addEventListener("activate"', 'addEventListener("fetch"', 'req.mode === "navigate"', "caches.match"]) assert.ok(sw.includes(part), part);
   assert.equal(pwaFile("offline.html"), page(), "the shareable file is the single-file app");
-  assert.equal(pwaFile("offline-form-2-term-1.html"), readFileSync(new URL("tools/prototype/form2-term-1.html", ROOT), "utf8"), "Form Two has its own shareable file");
+  const f2files = readdirSync(new URL("tools/prototype/", ROOT)).filter((f) => /^form2-term-\d+(-part-\d+)?\.html$/.test(f));
+  assert.ok(f2files.length, "Form Two has at least one shareable file");
+  for (const f of f2files) assert.equal(pwaFile(`offline-${f.replace("form2", "form-2")}`), readFileSync(new URL(`tools/prototype/${f}`, ROOT), "utf8"), `${f} is shared from the app`);
   assert.ok(sw.includes(String.raw`subjects\/([a-z0-9-]+)\.js$`),"saved subjects are fetched again after an update, Form 2 ids (f2-maths) included");
 });
 
@@ -232,11 +235,17 @@ test("installable app: the teacher review list works when only some subjects are
 });
 
 test("classes: Form One stays the default; Form Two has its own subjects, file and progress keys", () => {
-  const one = page(), two = readFileSync(new URL("tools/prototype/form2-term-1.html", ROOT), "utf8"), core = pwaFile("index.html");
+  const one = page(), core = pwaFile("index.html");
+  const f2term1 = readdirSync(new URL("tools/prototype/", ROOT)).filter((f) => /^form2-term-1(-part-\d+)?\.html$/.test(f)).sort()
+    .map((f) => readFileSync(new URL(`tools/prototype/${f}`, ROOT), "utf8"));
   assert.deepEqual(Object.keys(constant(one, "SUBJECTS")), FORM1, "the Form One file has only Form One");
-  assert.deepEqual(Object.keys(constant(two, "SUBJECTS")), FORM2, "the Form Two file has only Form Two");
-  assert.deepEqual(Object.keys(constant(two, "CONTENT")), FORM2);
-  assert.ok(Buffer.byteLength(two) < 2048 * 1024, "Form Two file within the 2 MB budget");
+  // a term may be split over several files as it grows; together they hold exactly the Form Two subjects
+  const inTerm1 = f2term1.flatMap((t) => Object.keys(constant(t, "SUBJECTS")));
+  assert.deepEqual([...new Set(inTerm1)].sort(), FORM2.slice().sort(), "the Form Two term 1 files hold only Form Two subjects");
+  for (const t of f2term1) {
+    assert.deepEqual(Object.keys(constant(t, "CONTENT")), Object.keys(constant(t, "SUBJECTS")));
+    assert.ok(Buffer.byteLength(t) < 2048 * 1024, "each Form Two file within the 2 MB budget");
+  }
   const classOf = constant(core, "CLASS_OF");
   for (const s of FORM1) assert.equal(classOf[s], "form-1");
   for (const s of FORM2) assert.equal(classOf[s], "form-2");

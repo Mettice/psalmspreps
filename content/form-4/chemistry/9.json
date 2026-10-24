@@ -1,0 +1,598 @@
+{
+ "subject": "chemistry",
+ "class": "Form 4",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "k4-9",
+   "name": "State the uses of sulphur and its compounds"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Sulphur itself is used to:\n• make sulphuric acid, by far its largest use (the Contact process);\n• vulcanise rubber, linking the chains so that tyres are harder, stronger and more elastic;\n• make matches, gunpowder and fireworks, because it catches fire easily;\n• make fungicides, dusted or sprayed on crops;\n• make drugs and ointments for skin diseases.\nSulphur dioxide is used to bleach wool, silk, straw and paper, to preserve dried fruit and fruit juice, and to make sulphuric acid.\nSulphuric acid is used in fertilisers (ammonium sulphate), detergents, paints, dyes, plastics, car batteries, pickling steel before plating, and in refining petroleum. Because so many industries depend on it, the amount a country uses is a measure of how industrial it is.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to list the main uses of sulphur, sulphur dioxide and sulphuric acid, and say which property each use depends on.\nBuilds on: Lessons {2} to {8}, which give the properties behind each use.\nLeads to: the nitrogen chapter, where fertilisers made with sulphuric acid appear again."
+   },
+   {
+    "heading": "Sulphur and sulphur dioxide",
+    "text": "Sulphur itself is used to:\n• make sulphuric acid, by far its largest use;\n• vulcanise rubber: heating rubber with sulphur links its chains, so tyres are harder, stronger and more elastic;\n• make matches, gunpowder and fireworks, because it catches fire easily;\n• make fungicides, as dust or as a lime-sulphur spray on crops;\n• make ointments and drugs for skin diseases.\nSulphur dioxide bleaches wool, silk, straw and paper, which chlorine would damage. It also preserves dried fruit and fruit juice, because it kills bacteria and moulds."
+   },
+   {
+    "heading": "Sulphuric acid",
+    "text": "Sulphuric acid is one of the most important chemicals made. It is used:\n• to make fertilisers, especially ammonium sulphate from ammonia;\n• to make detergents, paints, dyes, plastics and fibres;\n• as the electrolyte in lead-acid car batteries;\n• to pickle steel, cleaning the surface before it is plated;\n• in refining petroleum.\nBecause so many industries depend on it, the amount a country uses is often taken as a measure of how industrial it is. Care is still needed: the acid is corrosive, and sulphur dioxide escaping from factories causes acid rain."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "vulcanising",
+    "meaning": "heating rubber with sulphur to link its chains"
+   },
+   {
+    "word": "fungicide",
+    "meaning": "a substance that kills fungi such as mildew"
+   },
+   {
+    "word": "electrolyte",
+    "meaning": "a liquid that conducts electricity by its ions"
+   },
+   {
+    "word": "pickling",
+    "meaning": "cleaning a metal surface with acid before plating"
+   }
+  ],
+  "examples": [
+   "sulphur → sulphuric acid: the largest use",
+   "{formula('SO2')}: preserving fruit juice",
+   "{formula('H2SO4')}: car batteries"
+  ],
+  "mistake": {
+   "wrong": "sulphur dioxide is used in car batteries",
+   "right": "dilute sulphuric acid is used in car batteries",
+   "why": "The battery needs an electrolyte, which is the acid, not the gas."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 1
+  },
+  "problem": "Give three uses of sulphuric acid, with the industry for each.",
+  "steps": [
+   "Fertiliser: ammonia is neutralised with the acid to give ammonium sulphate.",
+   "Batteries: dilute sulphuric acid is the electrolyte of a lead-acid car battery.",
+   "Metals: the acid pickles steel, cleaning the surface before it is plated.",
+   "Others include detergents, paints, dyes, plastics and refining petroleum."
+  ],
+  "answer": "fertilisers, car batteries and pickling steel (among many others)",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4k9-1",
+    "status": "draft",
+    "idea": "The largest use of sulphur is making sulphuric acid.",
+    "vars": {},
+    "example": [
+     "sulphur → {formula('SO2')} → {formula('SO3')} → {formula('H2SO4')} in the Contact process"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "k4-9-uses"
+    }
+   },
+   {
+    "id": "c4k9-2",
+    "status": "draft",
+    "idea": "Sulphur vulcanises rubber, making tyres harder and more elastic.",
+    "vars": {},
+    "example": [
+     "the sulphur links the rubber chains together"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-9-match-card",
+     "type": "matching",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "sulphur"
+     ],
+     "prompt": "Match each substance to a use.",
+     "pool": [
+      {
+       "left": "Sulphur",
+       "right": "Vulcanising rubber"
+      },
+      {
+       "left": "Sulphur dioxide",
+       "right": "Preserving dried fruit"
+      },
+      {
+       "left": "Sulphuric acid",
+       "right": "The electrolyte of a car battery"
+      },
+      {
+       "left": "Ammonium sulphate",
+       "right": "A nitrogen fertiliser"
+      },
+      {
+       "left": "Lime-sulphur spray",
+       "right": "Controlling fungal disease on crops"
+      }
+     ],
+     "pick": 3
+    }
+   },
+   {
+    "id": "c4k9-3",
+    "status": "draft",
+    "idea": "{formula('SO2')} preserves food and bleaches delicate materials.",
+    "vars": {},
+    "example": [
+     "dried fruit and fruit juice are treated with it"
+    ],
+    "checks": [],
+    "check": {
+     "id": "k4-9-which-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "sulphur"
+     ],
+     "vars": {
+      "U": {
+       "pick": [
+        {
+         "q": "to preserve fruit juice",
+         "r": "Sulphur dioxide",
+         "w1": "Sulphuric acid",
+         "w2": "Hydrogen sulphide",
+         "w3": "Iron(II) sulphide",
+         "y": "A little {formula('SO2')} kills the bacteria and moulds that spoil the juice."
+        },
+        {
+         "q": "as the liquid inside a car battery",
+         "r": "Dilute sulphuric acid",
+         "w1": "Concentrated sulphuric acid",
+         "w2": "Sulphur dioxide",
+         "w3": "Sodium sulphide",
+         "y": "A lead-acid battery uses dilute sulphuric acid as its electrolyte."
+        },
+        {
+         "q": "to make tyres harder and more elastic",
+         "r": "Sulphur",
+         "w1": "Sulphur dioxide",
+         "w2": "Sulphuric acid",
+         "w3": "Hydrogen sulphide",
+         "y": "Heating rubber with sulphur links its chains: this is vulcanising."
+        },
+        {
+         "q": "to make the fertiliser ammonium sulphate",
+         "r": "Sulphuric acid",
+         "w1": "Hydrogen sulphide",
+         "w2": "Sulphur dioxide",
+         "w3": "Sodium sulphide",
+         "y": "Ammonia is neutralised with sulphuric acid to give {formula('(NH4)2SO4')}."
+        }
+       ]
+      }
+     },
+     "prompt": "Which substance is used {U.q}?",
+     "correct": "{U.r}",
+     "distractors": [
+      {
+       "text": "{U.w1}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{U.w2}",
+       "misconception": "w2"
+      },
+      {
+       "text": "{U.w3}",
+       "misconception": "w3"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w1",
+       "explain": "{U.y}"
+      },
+      {
+       "id": "w2",
+       "explain": "{U.y}"
+      },
+      {
+       "id": "w3",
+       "explain": "{U.y}"
+      }
+     ],
+     "solution": [
+      "{U.y}",
+      "So the answer is: {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "k4-9-uses",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the largest single use of sulphur?",
+       "r": "Making sulphuric acid",
+       "w": [
+        "Making matches",
+        "Vulcanising rubber",
+        "Making fungicides"
+       ],
+       "e": [
+        "Matches use only a small amount of sulphur.",
+        "Vulcanising is important but uses far less sulphur than the acid industry.",
+        "Fungicides use a small amount compared with the acid industry."
+       ],
+       "y": "Most mined sulphur is burned to {formula('SO2')} and turned into sulphuric acid by the Contact process."
+      },
+      {
+       "q": "Why is sulphur added to rubber?",
+       "r": "To vulcanise it, making it harder and more elastic",
+       "w": [
+        "To make it burn more easily",
+        "To colour it yellow",
+        "To make it dissolve in water"
+       ],
+       "e": [
+        "Rubber is not treated with sulphur in order to burn it.",
+        "Vulcanised rubber is not yellow; the change is in its strength, not its colour.",
+        "Rubber does not dissolve in water either before or after."
+       ],
+       "y": "Sulphur links the rubber chains together, so the rubber keeps its shape and wears better in tyres."
+      },
+      {
+       "q": "Which use depends on sulphur dioxide being a preservative?",
+       "r": "Treating dried fruit and fruit juice so that they keep",
+       "w": [
+        "Filling a car battery",
+        "Making fertiliser",
+        "Vulcanising rubber"
+       ],
+       "e": [
+        "A car battery uses sulphuric ACID, not the gas as a preservative.",
+        "Fertiliser is made with sulphuric acid, not with the gas as a preservative.",
+        "Vulcanising uses the element sulphur."
+       ],
+       "y": "{formula('SO2')} kills bacteria and moulds, so it is used in small amounts to preserve food and drink."
+      },
+      {
+       "q": "Which of these is made using sulphuric acid?",
+       "r": "Ammonium sulphate fertiliser",
+       "w": [
+        "Common salt from sea water",
+        "Limestone for building",
+        "Charcoal from wood"
+       ],
+       "e": [
+        "Salt is obtained by evaporating sea water; no acid is needed.",
+        "Limestone is quarried, not made with acid.",
+        "Charcoal is made by heating wood out of contact with air."
+       ],
+       "y": "Ammonia is neutralised with sulphuric acid to give {formula('(NH4)2SO4')}, a widely used fertiliser."
+      },
+      {
+       "q": "Why is sulphuric acid used in a car battery?",
+       "r": "It is the electrolyte that lets the battery give a current",
+       "w": [
+        "It stops the battery from rusting",
+        "It cools the battery",
+        "It cleans the metal plates"
+       ],
+       "e": [
+        "Rusting is not what the acid is there to prevent.",
+        "Cooling is not its purpose; batteries are cooled by air.",
+        "The acid does not act as a cleaner; it carries the current as ions."
+       ],
+       "y": "A lead-acid battery uses dilute sulphuric acid as its electrolyte."
+      },
+      {
+       "q": "Which use of sulphur depends on its killing fungi?",
+       "r": "Dusting crops to control mildew and other fungal diseases",
+       "w": [
+        "Making gunpowder",
+        "Making matches",
+        "Making sulphuric acid"
+       ],
+       "e": [
+        "Gunpowder uses sulphur because it burns, not because it kills fungi.",
+        "Matches use sulphur because it catches fire easily.",
+        "Making the acid depends on burning the sulphur."
+       ],
+       "y": "Sulphur dust and lime-sulphur sprays are used as fungicides on crops."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "k4-9-match",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "sulphur"
+   ],
+   "prompt": "Match each substance to a use.",
+   "pool": [
+    {
+     "left": "Sulphur",
+     "right": "Vulcanising rubber"
+    },
+    {
+     "left": "Sulphur dioxide",
+     "right": "Preserving dried fruit"
+    },
+    {
+     "left": "Sulphuric acid",
+     "right": "The electrolyte of a car battery"
+    },
+    {
+     "left": "Ammonium sulphate",
+     "right": "A nitrogen fertiliser"
+    },
+    {
+     "left": "Lime-sulphur spray",
+     "right": "Controlling fungal disease on crops"
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "k4-9-which",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "U": {
+     "pick": [
+      {
+       "q": "to preserve fruit juice",
+       "r": "Sulphur dioxide",
+       "w1": "Sulphuric acid",
+       "w2": "Hydrogen sulphide",
+       "w3": "Iron(II) sulphide",
+       "y": "A little {formula('SO2')} kills the bacteria and moulds that spoil the juice."
+      },
+      {
+       "q": "as the liquid inside a car battery",
+       "r": "Dilute sulphuric acid",
+       "w1": "Concentrated sulphuric acid",
+       "w2": "Sulphur dioxide",
+       "w3": "Sodium sulphide",
+       "y": "A lead-acid battery uses dilute sulphuric acid as its electrolyte."
+      },
+      {
+       "q": "to make tyres harder and more elastic",
+       "r": "Sulphur",
+       "w1": "Sulphur dioxide",
+       "w2": "Sulphuric acid",
+       "w3": "Hydrogen sulphide",
+       "y": "Heating rubber with sulphur links its chains: this is vulcanising."
+      },
+      {
+       "q": "to make the fertiliser ammonium sulphate",
+       "r": "Sulphuric acid",
+       "w1": "Hydrogen sulphide",
+       "w2": "Sulphur dioxide",
+       "w3": "Sodium sulphide",
+       "y": "Ammonia is neutralised with sulphuric acid to give {formula('(NH4)2SO4')}."
+      }
+     ]
+    }
+   },
+   "prompt": "Which substance is used {U.q}?",
+   "correct": "{U.r}",
+   "distractors": [
+    {
+     "text": "{U.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{U.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{U.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{U.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{U.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{U.y}"
+    }
+   ],
+   "solution": [
+    "{U.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "k4-9-fert",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      0.1,
+      0.2,
+      0.5,
+      1,
+      2,
+      2.5
+     ]
+    }
+   },
+   "prompt": "What mass of sulphuric acid, in grams, is needed to make {n} mol of ammonium sulphate, {formula('(NH4)2SO4')}?",
+   "answer": "massOf(n, 'H2SO4')",
+   "misconceptions": [
+    {
+     "id": "salt",
+     "wrong": "massOf(n, '(NH4)2SO4')",
+     "explain": "The question asks for the mass of the ACID, not of the fertiliser."
+    },
+    {
+     "id": "double",
+     "wrong": "massOf(2 * n, 'H2SO4')",
+     "explain": "{1} mol of acid is needed for {1} mol of ammonium sulphate, not {2}."
+    }
+   ],
+   "solution": [
+    "{2}{formula('NH3')} + {formula('H2SO4')} → {formula('(NH4)2SO4')}: {1} mol of acid gives {1} mol of the fertiliser.",
+    "The relative molecular mass of {formula('H2SO4')} is {molarMass('H2SO4')}.",
+    "Mass = {n} × {molarMass('H2SO4')} = {answer} g."
+   ],
+   "unit": "g"
+  },
+  {
+   "id": "k4-9-why",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "sulphur"
+   ],
+   "vars": {
+    "W": {
+     "pick": [
+      {
+       "r": "It is used at some stage in a very wide range of industries, from fertilisers to metals and plastics",
+       "w1": "It is the most expensive chemical made",
+       "w2": "It is used only in the making of fertilisers",
+       "w3": "It is the only acid that can be made in a factory",
+       "y": "Because so many different industries need it, its use rises with industry as a whole."
+      },
+      {
+       "r": "Fertilisers, detergents, paints, dyes, plastics, batteries and metal treatment all need it",
+       "w1": "It is used only in car batteries",
+       "w2": "It is the cheapest chemical to transport",
+       "w3": "It cannot be imported, so every country must make its own",
+       "y": "A long list of industries depend on it, so its use follows the size of the whole industrial base."
+      },
+      {
+       "r": "Its use grows with the number of factories, not with the size of the population",
+       "w1": "Its use grows with the population only",
+       "w2": "Its use is fixed by law in every country",
+       "w3": "It is used mainly in homes rather than in factories",
+       "y": "It is an industrial chemical, so its use measures industry rather than the number of people."
+      }
+     ]
+    }
+   },
+   "prompt": "Why is the amount of sulphuric acid a country uses taken as a measure of how industrial it is?",
+   "correct": "{W.r}",
+   "distractors": [
+    {
+     "text": "{W.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{W.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{W.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{W.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{W.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{W.y}"
+    }
+   ],
+   "solution": [
+    "{W.y}",
+    "So the answer is: {answer}."
+   ]
+  }
+ ]
+}
