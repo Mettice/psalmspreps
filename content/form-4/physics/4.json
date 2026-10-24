@@ -1,0 +1,619 @@
+{
+ "subject": "physics",
+ "class": "Form 4",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "p4-4",
+   "name": "Measure the specific heat capacity of a liquid and calculate with Q = mcΔθ"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Electrical method for a liquid: a known mass of liquid in a lagged calorimeter is heated by an immersion heater.\nElectrical energy supplied = VIt (or power × time). If heat losses are ignored, VIt = (m_liquid c_liquid + m_cal c_cal)Δθ.\nIgnoring the calorimeter, c = VIt / (mΔθ).\nReduce errors by lagging the calorimeter, stirring, and starting a few degrees below room temperature so that the gain and loss of heat roughly cancel.\nIn any mixture problem: heat lost by the hot body = heat gained by the cold bodies.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to find the specific heat capacity of a liquid by the electrical method and calculate heat, time or temperature change with Q = mcΔθ.\nBuilds on: Lesson {3} (Q = mcΔθ and c for a solid) and Form Three electrical energy.\nLeads to: Lesson {5}, where heat changes the state of a substance without changing its temperature."
+   },
+   {
+    "heading": "The electrical method",
+    "text": "• Weigh the empty calorimeter, then weigh it again with the liquid: the difference is the mass of liquid.\n• Put in an immersion heater, a stirrer and a thermometer, and lag the calorimeter.\n• Take the starting temperature, switch on, and record the voltage V and current I.\n• After a measured time t, stir and take the highest temperature.\nElectrical energy supplied = VIt. If losses are ignored, VIt = mcΔθ, so c = VIt ÷ (mΔθ).\nA more careful answer includes the calorimeter: VIt = (m_liq c_liq + m_cal c_cal)Δθ."
+   },
+   {
+    "heading": "Errors and calculations",
+    "text": "Heat escaping to the room is the main error. It makes Δθ smaller than it should be, so the calculated c comes out too large. Lagging, stirring, a lid and a short heating time all reduce it. Starting a few degrees below room temperature lets the heat gained at the start cancel the heat lost at the end.\nTypical calculations with Q = mcΔθ:\n• Heat needed: {1} kg of water by {50} K is {1} × {4200} × {50} = {210000} J.\n• Time on a {2000} W heater: {210000} ÷ {2000} = {105} s.\n• Rise given the heat: Δθ = Q ÷ (mc)."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "immersion heater",
+    "meaning": "an electric heater placed in the liquid"
+   },
+   {
+    "word": "lagging",
+    "meaning": "insulation around a calorimeter to reduce heat loss"
+   },
+   {
+    "word": "VIt",
+    "meaning": "electrical energy: voltage × current × time, in joules"
+   }
+  ],
+  "examples": [
+   "a {1000} W heater for {84} s gives {84000} J",
+   "{84000} J into {1} kg of water raises it {20} K"
+  ],
+  "mistake": {
+   "wrong": "heat lost to the room makes the measured c too small",
+   "right": "it makes the measured c too large",
+   "why": "The energy supplied is still counted in full, but the temperature rise is smaller, and c = VIt ÷ (mΔθ)."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "P": 500,
+   "t": 120,
+   "m": 0.5,
+   "dt": 28
+  },
+  "problem": "A {P} W heater warms {m} kg of a liquid for {t} s and the temperature rises by {dt} K. Find the specific heat capacity of the liquid.",
+  "steps": [
+   "Energy supplied = power × time = {P} × {t} = {P * t} J.",
+   "Q = mcΔθ, so c = Q ÷ (mΔθ).",
+   "c = {P * t} ÷ ({m} × {dt}) = {P * t} ÷ {m * dt}."
+  ],
+  "answer": "{roundTo(P * t / (m * dt), 1)} J/(kg·K)",
+  "checks": [
+   "P * t == 60000"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4p4-1",
+    "status": "draft",
+    "idea": "Electrical energy supplied = VIt, or power × time.",
+    "vars": {},
+    "example": [
+     "a {500} W heater for {60} s supplies {30000} J"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-4-energy"
+    }
+   },
+   {
+    "id": "c4p4-2",
+    "status": "draft",
+    "idea": "Ignoring losses: VIt = mcΔθ, so c = VIt ÷ (mΔθ).",
+    "vars": {},
+    "example": [
+     "{30000} J into {0.5} kg raising it {20} K: c = {3000} J/(kg·K)"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p4-4-c-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "calorimetry"
+     ],
+     "vars": {
+      "P": {
+       "pick": [
+        100,
+        250,
+        500,
+        1000
+       ]
+      },
+      "m": {
+       "pick": [
+        0.2,
+        0.5,
+        1,
+        2
+       ]
+      },
+      "t": {
+       "int": [
+        60,
+        400
+       ]
+      },
+      "dt": {
+       "int": [
+        10,
+        60
+       ]
+      }
+     },
+     "prompt": "A {P} W heater warms {m} kg of a liquid for {t} s; the temperature rises by {dt} K. Find c for the liquid, in J/(kg·K).",
+     "answer": "roundTo(P * t / (m * dt), 1)",
+     "misconceptions": [
+      {
+       "id": "nom",
+       "wrong": "roundTo(P * t / dt, 1)",
+       "explain": "Divide by the mass as well."
+      },
+      {
+       "id": "nodt",
+       "wrong": "roundTo(P * t / m, 1)",
+       "explain": "Divide by the temperature change as well."
+      }
+     ],
+     "solution": [
+      "Energy supplied = {P} × {t} = {P * t} J.",
+      "c = Q ÷ (mΔθ) = {P * t} ÷ ({m} × {dt}).",
+      "c = {answer} J/(kg·K)."
+     ],
+     "unit": "J/(kg·K)",
+     "where": [
+      "roundTo(P * t / (m * dt), 1) >= 500",
+      "roundTo(P * t / (m * dt), 1) <= 5000"
+     ]
+    }
+   },
+   {
+    "id": "c4p4-3",
+    "status": "draft",
+    "idea": "Lagging, stirring and a short heating time reduce heat lost to the room.",
+    "vars": {},
+    "example": [
+     "without lagging, the measured c comes out too large"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p4-4-error-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "calorimetry"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "The calorimeter is not lagged, so heat escapes to the room. How does this affect the value found for c?",
+         "r": "It comes out too large, because some of the energy counted did not reach the liquid",
+         "w": [
+          "It comes out too small, because the liquid gets less energy",
+          "It is not affected, because the energy supplied is measured exactly",
+          "It comes out too large, because the temperature rise is bigger"
+         ],
+         "e": [
+          "The energy VIt is counted in full, so the calculated c is too large, not too small.",
+          "The energy is measured exactly, but not all of it reaches the liquid.",
+          "Losing heat makes the temperature rise smaller, not bigger."
+         ],
+         "y": "All of VIt is counted but Δθ comes out small, and c = VIt ÷ (mΔθ)."
+        },
+        {
+         "q": "Why is the liquid stirred during the electrical method?",
+         "r": "So that the whole liquid is at one temperature when the thermometer is read",
+         "w": [
+          "To make the liquid heat up faster",
+          "To stop the liquid from boiling",
+          "To spread the electrical current through the liquid"
+         ],
+         "e": [
+          "Stirring moves heat about but does not add energy, so it does not speed up the heating.",
+          "The liquid is not heated to its boiling point in this experiment.",
+          "The current stays in the heater; it does not pass through the liquid."
+         ],
+         "y": "Without stirring, the liquid near the heater is hotter than the rest and the reading is too high."
+        },
+        {
+         "q": "Why is the experiment often started a few degrees below room temperature?",
+         "r": "Heat gained from the room at the start then roughly cancels the heat lost to it at the end",
+         "w": [
+          "Cold liquid has a larger specific heat capacity",
+          "The heater works better in a cold liquid",
+          "It makes the temperature rise larger"
+         ],
+         "e": [
+          "Specific heat capacity hardly changes over such a small range of temperature.",
+          "The heater supplies the same power whatever the temperature of the liquid.",
+          "The rise measured is the same; what changes is how the losses cancel."
+         ],
+         "y": "Below room temperature heat flows in; above it heat flows out. Starting below makes the two roughly cancel."
+        },
+        {
+         "q": "Why should the heating time be kept fairly short?",
+         "r": "The longer the liquid stays hot, the more heat escapes to the room",
+         "w": [
+          "A long time would use too much electricity",
+          "A long time would melt the calorimeter",
+          "The heater can only run for a short time"
+         ],
+         "e": [
+          "The cost of the electricity is not a source of error in the measurement.",
+          "The temperatures reached are far below the melting point of the calorimeter.",
+          "An immersion heater can run for much longer than the experiment needs."
+         ],
+         "y": "Heat loss grows with the time spent above room temperature, so a short run keeps the error small."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p4-4-energy",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "calorimetry"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      60,
+      100,
+      250,
+      500,
+      1000,
+      1500
+     ]
+    },
+    "t": {
+     "int": [
+      30,
+      600
+     ]
+    }
+   },
+   "prompt": "A heater of power {P} W runs for {t} s. How much energy does it supply, in joules?",
+   "answer": "P * t",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "P / t",
+     "explain": "Multiply power by time."
+    },
+    {
+     "id": "min",
+     "wrong": "P * t / 60",
+     "explain": "The time is already in seconds: do not divide by {60}.",
+     "when": "t % 60 == 0"
+    }
+   ],
+   "solution": [
+    "Energy = power × time.",
+    "= {P} × {t} = {answer} J."
+   ],
+   "unit": "J"
+  },
+  {
+   "id": "p4-4-vit",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "calorimetry"
+   ],
+   "vars": {
+    "V": {
+     "pick": [
+      6,
+      12,
+      24,
+      240
+     ]
+    },
+    "I": {
+     "pick": [
+      0.5,
+      2,
+      3,
+      4,
+      5
+     ]
+    },
+    "t": {
+     "int": [
+      20,
+      300
+     ]
+    }
+   },
+   "prompt": "An immersion heater takes {I} A from a {V} V supply for {t} s. Find the electrical energy supplied, in joules.",
+   "answer": "V * I * t",
+   "misconceptions": [
+    {
+     "id": "vi",
+     "wrong": "V * I",
+     "explain": "Multiply by the time {t} s as well."
+    },
+    {
+     "id": "vt",
+     "wrong": "V * t",
+     "explain": "Multiply by the current {I} A as well."
+    }
+   ],
+   "solution": [
+    "Energy = VIt.",
+    "= {V} × {I} × {t} = {answer} J."
+   ],
+   "unit": "J"
+  },
+  {
+   "id": "p4-4-c",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "calorimetry"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      100,
+      250,
+      500,
+      1000
+     ]
+    },
+    "m": {
+     "pick": [
+      0.2,
+      0.5,
+      1,
+      2
+     ]
+    },
+    "t": {
+     "int": [
+      60,
+      400
+     ]
+    },
+    "dt": {
+     "int": [
+      10,
+      60
+     ]
+    }
+   },
+   "prompt": "A {P} W heater warms {m} kg of a liquid for {t} s; the temperature rises by {dt} K. Find c for the liquid, in J/(kg·K).",
+   "answer": "roundTo(P * t / (m * dt), 1)",
+   "misconceptions": [
+    {
+     "id": "nom",
+     "wrong": "roundTo(P * t / dt, 1)",
+     "explain": "Divide by the mass as well."
+    },
+    {
+     "id": "nodt",
+     "wrong": "roundTo(P * t / m, 1)",
+     "explain": "Divide by the temperature change as well."
+    }
+   ],
+   "solution": [
+    "Energy supplied = {P} × {t} = {P * t} J.",
+    "c = Q ÷ (mΔθ) = {P * t} ÷ ({m} × {dt}).",
+    "c = {answer} J/(kg·K)."
+   ],
+   "unit": "J/(kg·K)",
+   "where": [
+    "roundTo(P * t / (m * dt), 1) >= 500",
+    "roundTo(P * t / (m * dt), 1) <= 5000"
+   ]
+  },
+  {
+   "id": "p4-4-rise",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "calorimetry"
+   ],
+   "vars": {
+    "P": {
+     "pick": [
+      500,
+      700,
+      1000,
+      1400,
+      2000
+     ]
+    },
+    "m": {
+     "pick": [
+      0.5,
+      1,
+      1.5,
+      2
+     ]
+    },
+    "dt": {
+     "int": [
+      10,
+      70
+     ]
+    }
+   },
+   "prompt": "How long must a {P} W heater run to raise {m} kg of water (c = {4200} J/(kg·K)) by {dt} K, if no heat is lost?",
+   "answer": "heatMC(m, 4200, dt) / P",
+   "misconceptions": [
+    {
+     "id": "mult",
+     "wrong": "heatMC(m, 4200, dt) * P",
+     "explain": "Divide the energy by the power to get the time."
+    },
+    {
+     "id": "noc",
+     "wrong": "m * dt / P",
+     "explain": "Include the specific heat capacity {4200} J/(kg·K)."
+    }
+   ],
+   "solution": [
+    "Heat needed Q = mcΔθ = {m} × {4200} × {dt} = {heatMC(m, 4200, dt)} J.",
+    "Time = Q ÷ power = {heatMC(m, 4200, dt)} ÷ {P} = {answer} s."
+   ],
+   "unit": "s",
+   "where": [
+    "heatMC(m, 4200, dt) % P == 0"
+   ]
+  },
+  {
+   "id": "p4-4-error",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "calorimetry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The calorimeter is not lagged, so heat escapes to the room. How does this affect the value found for c?",
+       "r": "It comes out too large, because some of the energy counted did not reach the liquid",
+       "w": [
+        "It comes out too small, because the liquid gets less energy",
+        "It is not affected, because the energy supplied is measured exactly",
+        "It comes out too large, because the temperature rise is bigger"
+       ],
+       "e": [
+        "The energy VIt is counted in full, so the calculated c is too large, not too small.",
+        "The energy is measured exactly, but not all of it reaches the liquid.",
+        "Losing heat makes the temperature rise smaller, not bigger."
+       ],
+       "y": "All of VIt is counted but Δθ comes out small, and c = VIt ÷ (mΔθ)."
+      },
+      {
+       "q": "Why is the liquid stirred during the electrical method?",
+       "r": "So that the whole liquid is at one temperature when the thermometer is read",
+       "w": [
+        "To make the liquid heat up faster",
+        "To stop the liquid from boiling",
+        "To spread the electrical current through the liquid"
+       ],
+       "e": [
+        "Stirring moves heat about but does not add energy, so it does not speed up the heating.",
+        "The liquid is not heated to its boiling point in this experiment.",
+        "The current stays in the heater; it does not pass through the liquid."
+       ],
+       "y": "Without stirring, the liquid near the heater is hotter than the rest and the reading is too high."
+      },
+      {
+       "q": "Why is the experiment often started a few degrees below room temperature?",
+       "r": "Heat gained from the room at the start then roughly cancels the heat lost to it at the end",
+       "w": [
+        "Cold liquid has a larger specific heat capacity",
+        "The heater works better in a cold liquid",
+        "It makes the temperature rise larger"
+       ],
+       "e": [
+        "Specific heat capacity hardly changes over such a small range of temperature.",
+        "The heater supplies the same power whatever the temperature of the liquid.",
+        "The rise measured is the same; what changes is how the losses cancel."
+       ],
+       "y": "Below room temperature heat flows in; above it heat flows out. Starting below makes the two roughly cancel."
+      },
+      {
+       "q": "Why should the heating time be kept fairly short?",
+       "r": "The longer the liquid stays hot, the more heat escapes to the room",
+       "w": [
+        "A long time would use too much electricity",
+        "A long time would melt the calorimeter",
+        "The heater can only run for a short time"
+       ],
+       "e": [
+        "The cost of the electricity is not a source of error in the measurement.",
+        "The temperatures reached are far below the melting point of the calorimeter.",
+        "An immersion heater can run for much longer than the experiment needs."
+       ],
+       "y": "Heat loss grows with the time spent above room temperature, so a short run keeps the error small."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

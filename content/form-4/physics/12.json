@@ -1,0 +1,480 @@
+{
+ "subject": "physics",
+ "class": "Form 4",
+ "lesson_no": 12,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "p4-12",
+   "name": "Describe stationary waves, harmonics and overtones"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A stationary (standing) wave is made when two waves of the same frequency and amplitude travel in opposite directions and interfere, usually a wave and its own reflection.\nNodes are points that never move (destructive interference). Antinodes are points that vibrate most (constructive interference).\nThe distance between two neighbouring nodes is half a wavelength: λ = 2 × (node-to-node distance).\nOn a string of length L fixed at both ends there must be a node at each end, so L = nλ/2, that is λ = 2L/n with n = 1, 2, 3, …\nn = 1 is the fundamental or first harmonic, with frequency f₁. n = 2 is the second harmonic (first overtone), with frequency 2f₁, and so on.\nUnlike a progressive wave, a stationary wave carries no energy along the string.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to explain how a stationary wave is formed, find λ from the node spacing or the number of loops, and name the harmonics.\nBuilds on: Lesson {11} (interference and reflection) and Lesson {10} (v = fλ).\nLeads to: Lesson {15} (vibrating strings) and the notes made by musical instruments."
+   },
+   {
+    "heading": "Nodes, antinodes and loops",
+    "text": "Send a wave along a string fixed at the far end. The reflected wave meets the wave still going forward. Where they are always out of step, the string never moves: a node. Where they are always in step, it vibrates most: an antinode.\nThe pattern stays in one place, so it is a stationary wave. Unlike a progressive wave, it carries no energy along the string.\nEach loop between two nodes is half a wavelength long, so:\nλ = {2} × (distance from one node to the next).\nA string fixed at both ends must have a node at each end, so a whole number of loops must fit: L = nλ ÷ {2}, that is λ = {2}L ÷ n."
+   },
+   {
+    "heading": "Harmonics and overtones",
+    "text": "With n = {1}, the string vibrates as one loop. This is the fundamental, or first harmonic: λ₁ = {2}L and f₁ = v ÷ ({2}L).\n• n = {2}: two loops, λ = L, frequency {2}f₁. Second harmonic, also called the first overtone.\n• n = {3}: three loops, λ = {2}L ÷ {3}, frequency {3}f₁. Third harmonic, second overtone.\nSo the nth harmonic has n loops, n + {1} nodes, n antinodes and frequency n × f₁.\nA plucked guitar string vibrates in several of these at once; the mixture gives the instrument its quality."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "stationary wave",
+    "meaning": "a wave pattern that stays in place, made by two waves meeting"
+   },
+   {
+    "word": "node",
+    "meaning": "a point that never moves"
+   },
+   {
+    "word": "antinode",
+    "meaning": "a point that vibrates most"
+   },
+   {
+    "word": "fundamental",
+    "meaning": "the lowest frequency, with one loop"
+   },
+   {
+    "word": "harmonic",
+    "meaning": "a frequency that is a whole number times the fundamental"
+   }
+  ],
+  "examples": [
+   "nodes {15} cm apart → λ = {30} cm",
+   "L = {1} m, {4} loops → λ = {0.5} m",
+   "f₁ = {120} Hz → third harmonic {360} Hz"
+  ],
+  "mistake": {
+   "wrong": "the distance between neighbouring nodes is one wavelength",
+   "right": "it is half a wavelength",
+   "why": "A full wave has two loops: one above the line and one below."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "L": 0.6,
+   "n": 3
+  },
+  "problem": "A string of length {L} m fixed at both ends vibrates in {n} loops. Find the wavelength.",
+  "steps": [
+   "Each loop is half a wavelength long.",
+   "{n} loops fill the length, so {n} × (λ ÷ {2}) = {L}.",
+   "λ = {2} × {L} ÷ {n}."
+  ],
+  "answer": "{harmonicLen(L, n)} m",
+  "checks": [
+   "harmonicLen(L, n) == 0.4"
+  ],
+  "figure": "harmonicFig(n)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4p12-1",
+    "status": "draft",
+    "idea": "A node never moves; an antinode vibrates most. Neighbouring nodes are half a wavelength apart.",
+    "vars": {},
+    "example": [
+     "nodes {0.2} m apart means λ = {0.4} m"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-12-nodes"
+    }
+   },
+   {
+    "id": "c4p12-2",
+    "status": "draft",
+    "idea": "On a string fixed at both ends, λ = {2}L/n, where n is the number of loops.",
+    "vars": {},
+    "example": [
+     "L = {0.6} m with {3} loops: λ = {0.4} m"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-12-lambda"
+    }
+   },
+   {
+    "id": "c4p12-3",
+    "status": "draft",
+    "idea": "The nth harmonic has frequency n × the fundamental.",
+    "vars": {},
+    "example": [
+     "f₁ = {100} Hz gives a third harmonic of {300} Hz"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p4-12-harm-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "waves"
+     ],
+     "vars": {
+      "f1": {
+       "pick": [
+        50,
+        80,
+        100,
+        110,
+        120,
+        150,
+        200,
+        256
+       ]
+      },
+      "n": {
+       "int": [
+        2,
+        6
+       ]
+      }
+     },
+     "prompt": "A string has a fundamental frequency of {f1} Hz. Find the frequency of its {n}{n == 2 ? 'nd' : n == 3 ? 'rd' : 'th'} harmonic, in hertz.",
+     "answer": "n * f1",
+     "misconceptions": [
+      {
+       "id": "div",
+       "wrong": "roundTo(f1 / n, 0.01)",
+       "explain": "A higher harmonic has a HIGHER frequency: multiply."
+      },
+      {
+       "id": "over",
+       "wrong": "(n + 1) * f1",
+       "explain": "The {n}th harmonic is {n} × f₁. ({n} × f₁ is also called the {n - 1}{n - 1 == 1 ? 'st' : n - 1 == 2 ? 'nd' : n - 1 == 3 ? 'rd' : 'th'} overtone.)"
+      }
+     ],
+     "solution": [
+      "The nth harmonic has n times the fundamental frequency.",
+      "f = {n} × {f1} = {answer} Hz."
+     ],
+     "unit": "Hz"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p4-12-nodes",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "waves"
+   ],
+   "vars": {
+    "d": {
+     "pick": [
+      5,
+      10,
+      12,
+      15,
+      20,
+      25,
+      30
+     ]
+    }
+   },
+   "prompt": "On a stationary wave, two neighbouring nodes are {d} cm apart. Find the wavelength, in cm.",
+   "answer": "2 * d",
+   "misconceptions": [
+    {
+     "id": "same",
+     "wrong": "d",
+     "explain": "{d} cm is only half a wavelength."
+    },
+    {
+     "id": "half",
+     "wrong": "roundTo(d / 2, 0.01)",
+     "explain": "Multiply by {2}: node to node is HALF a wavelength."
+    }
+   ],
+   "solution": [
+    "The distance between neighbouring nodes is half a wavelength.",
+    "λ = {2} × {d} = {answer} cm."
+   ],
+   "unit": "cm"
+  },
+  {
+   "id": "p4-12-lambda",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "waves"
+   ],
+   "vars": {
+    "L": {
+     "pick": [
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.8,
+      1,
+      1.2
+     ]
+    },
+    "n": {
+     "int": [
+      1,
+      5
+     ]
+    }
+   },
+   "prompt": "A string of length {L} m fixed at both ends vibrates in {n} loops. Find the wavelength, in metres.",
+   "answer": "harmonicLen(L, n)",
+   "misconceptions": [
+    {
+     "id": "nohalf",
+     "wrong": "roundTo(L / n, 0.001)",
+     "explain": "Each loop is HALF a wavelength, so λ = {2}L ÷ n."
+    },
+    {
+     "id": "whole",
+     "wrong": "2 * L",
+     "explain": "That is the wavelength of the fundamental, with one loop. Here there are {n}."
+    }
+   ],
+   "solution": [
+    "Each loop is half a wavelength, and {n} loops fill the string.",
+    "λ = {2}L ÷ n = {2} × {L} ÷ {n} = {answer} m."
+   ],
+   "figure": "harmonicFig(n)",
+   "unit": "m",
+   "where": [
+    "n > 1 || harmonicLen(L, n) != 2 * L"
+   ]
+  },
+  {
+   "id": "p4-12-harm",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "waves"
+   ],
+   "vars": {
+    "f1": {
+     "pick": [
+      50,
+      80,
+      100,
+      110,
+      120,
+      150,
+      200,
+      256
+     ]
+    },
+    "n": {
+     "int": [
+      2,
+      6
+     ]
+    }
+   },
+   "prompt": "A string has a fundamental frequency of {f1} Hz. Find the frequency of its {n}{n == 2 ? 'nd' : n == 3 ? 'rd' : 'th'} harmonic, in hertz.",
+   "answer": "n * f1",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "roundTo(f1 / n, 0.01)",
+     "explain": "A higher harmonic has a HIGHER frequency: multiply."
+    },
+    {
+     "id": "over",
+     "wrong": "(n + 1) * f1",
+     "explain": "The {n}th harmonic is {n} × f₁. ({n} × f₁ is also called the {n - 1}{n - 1 == 1 ? 'st' : n - 1 == 2 ? 'nd' : n - 1 == 3 ? 'rd' : 'th'} overtone.)"
+    }
+   ],
+   "solution": [
+    "The nth harmonic has n times the fundamental frequency.",
+    "f = {n} × {f1} = {answer} Hz."
+   ],
+   "unit": "Hz"
+  },
+  {
+   "id": "p4-12-count",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "waves"
+   ],
+   "vars": {
+    "n": {
+     "int": [
+      1,
+      5
+     ]
+    }
+   },
+   "prompt": "The diagram shows a string fixed at both ends vibrating as a stationary wave. How many nodes and antinodes are there?",
+   "correct": "{n + 1} nodes and {n} antinodes",
+   "distractors": [
+    {
+     "text": "{n} nodes and {n + 1} antinodes",
+     "misconception": "swap"
+    },
+    {
+     "text": "{n} nodes and {n} antinodes",
+     "misconception": "equal"
+    },
+    {
+     "text": "{2 * n} nodes and {n} antinodes",
+     "misconception": "double"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "The ends are fixed, so they are nodes: there is always one node more than the number of loops."
+    },
+    {
+     "id": "equal",
+     "explain": "Count the ends: a string fixed at both ends has a node at each end."
+    },
+    {
+     "id": "double",
+     "explain": "Neighbouring loops share a node, so they are not counted twice."
+    }
+   ],
+   "solution": [
+    "Each loop has one antinode in the middle, so there are {n} antinodes.",
+    "There is a node at each end and one between each pair of loops: {n} + {1} = {n + 1}.",
+    "So the answer is: {answer}."
+   ],
+   "figure": "harmonicFig(n)"
+  },
+  {
+   "id": "p4-12-compare",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "waves"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "How does a stationary wave differ from a progressive wave?",
+       "r": "A stationary wave has fixed nodes and carries no energy along; a progressive wave carries energy forward",
+       "w": [
+        "A stationary wave has a higher frequency",
+        "A stationary wave has no amplitude",
+        "There is no difference; the names mean the same thing"
+       ],
+       "e": [
+        "The two waves that make a stationary wave have the same frequency as it does.",
+        "The antinodes have a large amplitude; only the nodes do not move.",
+        "They behave quite differently: one carries energy away, the other does not."
+       ],
+       "y": "In a stationary wave the pattern stays where it is, with the energy stored in the vibration."
+      },
+      {
+       "q": "What is needed to make a stationary wave?",
+       "r": "Two waves of the same frequency and amplitude travelling in opposite directions",
+       "w": [
+        "Two waves of different frequencies travelling the same way",
+        "One wave of very large amplitude",
+        "Two waves travelling the same way at different speeds"
+       ],
+       "e": [
+        "Different frequencies give a pattern that will not stay still.",
+        "A single wave travelling along is a progressive wave, however large.",
+        "Waves going the same way cannot make fixed nodes."
+       ],
+       "y": "Usually a wave and its own reflection meet and interfere, giving fixed nodes and antinodes."
+      },
+      {
+       "q": "In a stationary wave, how does the amplitude vary along the string?",
+       "r": "It is zero at the nodes and greatest at the antinodes",
+       "w": [
+        "It is the same everywhere, as in a progressive wave",
+        "It is greatest at the nodes",
+        "It falls steadily from one end to the other"
+       ],
+       "e": [
+        "Equal amplitude everywhere is what happens in a progressive wave.",
+        "A node is a point that never moves, so its amplitude is zero.",
+        "The amplitude rises and falls repeatedly along the string."
+       ],
+       "y": "Nodes are points of destructive interference and antinodes points of constructive interference."
+      },
+      {
+       "q": "Why does a stationary wave on a string carry no energy along the string?",
+       "r": "The nodes never move, so no energy can pass through them",
+       "w": [
+        "The string is too short to carry energy",
+        "The energy is destroyed at the nodes",
+        "The wave has no amplitude anywhere"
+       ],
+       "e": [
+        "Length is not the reason; a long string behaves the same way.",
+        "Energy is never destroyed; here it stays stored in the vibrating loops.",
+        "The antinodes vibrate with a large amplitude."
+       ],
+       "y": "Energy is stored in each loop, moving between kinetic and potential, but it does not travel past a node."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

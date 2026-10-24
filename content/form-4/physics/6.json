@@ -1,0 +1,745 @@
+{
+ "subject": "physics",
+ "class": "Form 4",
+ "lesson_no": 6,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "p4-6",
+   "name": "Explain conduction, convection and radiation and their applications"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Conduction: heat passes through a material from particle to particle, without the material moving as a whole. Metals conduct best because they have free electrons; air, wood, plastic and water are poor conductors (insulators).\nConvection: heat is carried by a moving fluid. Warmed fluid expands, becomes less dense and rises; cooler fluid sinks to take its place, making a convection current. It happens only in liquids and gases.\nRadiation: heat travels as electromagnetic waves and needs no material medium, so it crosses a vacuum. Dull black surfaces absorb and emit best; shiny light surfaces reflect.\nApplications: cooking pots (conduction), heating water from below and ventilation (convection), the Sun's energy and a vacuum flask (radiation).",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to name and explain the three ways heat moves and use them to explain everyday devices.\nBuilds on: Lesson {1} (heat flows from hot to cold) and Form Two particles and density.\nLeads to: Lesson {7} (expansion) and the design of cooking, cooling and solar devices."
+   },
+   {
+    "heading": "Conduction and convection",
+    "text": "Conduction: heat passes along a material from particle to particle, while the material itself stays put. The hot particles vibrate more and pass the energy on. In a metal, free electrons carry it much faster, so metals are good conductors. Air, wood, plastic, cloth and water are poor conductors, or insulators.\nConvection: in a liquid or a gas, the warmed fluid expands, becomes less dense and rises; cooler, denser fluid sinks to replace it. The circulation is a convection current, and it carries the heat with the moving fluid.\nThat is why a water heater is placed at the bottom of the tank and the freezer at the top of a refrigerator."
+   },
+   {
+    "heading": "Radiation and applications",
+    "text": "Radiation is heat travelling as electromagnetic waves. It needs no material medium, so it crosses the vacuum of space: that is how the Sun's energy reaches us.\n• Dull black surfaces are the best absorbers and the best emitters.\n• Shiny, light surfaces reflect radiation and are poor emitters.\nUses: solar water-heater pipes are painted dull black to absorb; light clothes are worn in the sun to reflect; a vacuum flask is silvered to reflect radiation, with a vacuum to stop conduction and convection and a stopper to stop evaporation."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "conduction",
+    "meaning": "heat passed from particle to particle in a material"
+   },
+   {
+    "word": "convection",
+    "meaning": "heat carried by a moving fluid"
+   },
+   {
+    "word": "radiation",
+    "meaning": "heat travelling as waves, needing no medium"
+   },
+   {
+    "word": "insulator",
+    "meaning": "a poor conductor of heat"
+   }
+  ],
+  "examples": [
+   "a metal spoon in soup: conduction",
+   "a heater at the bottom of a tank: convection",
+   "the Sun warming your face: radiation"
+  ],
+  "mistake": {
+   "wrong": "heat from the Sun reaches us by conduction through the air",
+   "right": "it reaches us by radiation",
+   "why": "Space between the Sun and the atmosphere is almost empty: only radiation can cross a vacuum."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 1
+  },
+  "problem": "Explain how a vacuum flask keeps a hot drink hot.",
+  "steps": [
+   "The vacuum between the double walls has no particles, so conduction and convection cannot cross it.",
+   "Both glass surfaces are silvered: shiny surfaces are poor emitters and reflect radiation back.",
+   "The stopper closes the top, stopping convection and evaporation.",
+   "The thin glass walls and the plastic case reduce the little conduction that is left."
+  ],
+  "answer": "the vacuum stops conduction and convection; the silvering reflects radiation; the stopper stops evaporation",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4p6-1",
+    "status": "draft",
+    "idea": "Conduction passes heat from particle to particle in a solid; metals are best because of their free electrons.",
+    "vars": {},
+    "example": [
+     "a metal spoon in hot soup soon feels hot at the handle; a wooden one does not"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-6-which"
+    }
+   },
+   {
+    "id": "c4p6-2",
+    "status": "draft",
+    "idea": "Convection carries heat in a moving fluid: warm fluid rises because it is less dense.",
+    "vars": {},
+    "example": [
+     "a heater at the bottom of a tank warms all the water; one at the top does not"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-6-convect"
+    }
+   },
+   {
+    "id": "c4p6-3",
+    "status": "draft",
+    "idea": "Radiation needs no medium and crosses a vacuum; dull black absorbs and emits best.",
+    "vars": {},
+    "example": [
+     "heat from the Sun reaches us through empty space"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p4-6-radiate-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "heat-transfer"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Two cans of hot water are alike except that one is dull black and the other shiny silver. Which cools faster?",
+         "r": "The dull black one, because a dull black surface is a better emitter of radiation",
+         "w": [
+          "The shiny one, because shiny metal conducts heat away",
+          "Both cool at the same rate",
+          "The dull black one, because black absorbs more heat"
+         ],
+         "e": [
+          "The cans are the same metal; the paint changes how well they emit, not how they conduct.",
+          "The surfaces differ, so they radiate at different rates.",
+          "These cans are hotter than the room, so they are emitting. The answer is right but the reason is not."
+         ],
+         "y": "Both lose heat by conduction and convection alike; the dull black surface emits radiation best."
+        },
+        {
+         "q": "Which surface takes in radiation best?",
+         "r": "A dull black surface",
+         "w": [
+          "A shiny silver surface",
+          "A white painted surface",
+          "A polished glass surface"
+         ],
+         "e": [
+          "A shiny silver surface reflects most of the radiation that falls on it.",
+          "White reflects much of the radiation.",
+          "Polished glass reflects and lets radiation through rather than absorbing it."
+         ],
+         "y": "A good absorber is also a good emitter: dull black is best at both."
+        },
+        {
+         "q": "Why can radiation reach the Earth from the Sun?",
+         "r": "Radiation is electromagnetic waves, which need no material medium",
+         "w": [
+          "The air between carries it by conduction",
+          "Convection currents cross space",
+          "Space is full of particles that pass it along"
+         ],
+         "e": [
+          "There is almost no matter between the Sun and the atmosphere to conduct through.",
+          "Convection needs a fluid to flow; space is very nearly empty.",
+          "Space is nearly empty, so there is nothing to pass heat along."
+         ],
+         "y": "Only radiation can cross a vacuum; conduction and convection both need particles."
+        },
+        {
+         "q": "A roof is painted shiny white instead of dull black. What is the effect inside the building?",
+         "r": "It stays cooler, because the roof reflects more of the Sun's radiation",
+         "w": [
+          "It becomes hotter, because white absorbs more radiation",
+          "There is no change, because the roof is the same material",
+          "It stays cooler, because white conducts heat away faster"
+         ],
+         "e": [
+          "Dull dark surfaces absorb best; white reflects.",
+          "The surface decides how much radiation is absorbed, whatever the material beneath.",
+          "The colour changes how much radiation is absorbed, not how well the roof conducts."
+         ],
+         "y": "Shiny light surfaces reflect radiation, so less of the Sun's energy enters the building."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p4-6-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-transfer"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A metal spoon left in hot soup becomes hot at the handle. Which method of heat transfer is this?",
+       "r": "Conduction",
+       "w": [
+        "Convection",
+        "Radiation",
+        "Evaporation"
+       ],
+       "e": [
+        "Convection needs a fluid to move; the spoon is solid and stays still.",
+        "Radiation needs no contact, but here the heat travels through the metal itself.",
+        "Evaporation is a change of state at a liquid surface, not a way of carrying heat along a spoon."
+       ],
+       "y": "In a solid, heat passes from particle to particle and, in a metal, by free electrons: that is conduction."
+      },
+      {
+       "q": "Why is the heating element of a water heater placed near the bottom of the tank?",
+       "r": "So that the warm water rises and sets up a convection current",
+       "w": [
+        "So that the heat can radiate upwards",
+        "Because heat cannot travel downwards at all",
+        "To keep the element away from the steam"
+       ],
+       "e": [
+        "Radiation travels in all directions and is not the main effect in water.",
+        "Heat can travel downwards by conduction and radiation; the point is that warm water rises.",
+        "Keeping it away from steam is not the reason for heating from below."
+       ],
+       "y": "Warm water expands, becomes less dense and rises, while cooler water sinks to take its place: a convection current heats the whole tank."
+      },
+      {
+       "q": "Which surface is the best absorber and emitter of radiation?",
+       "r": "A dull black surface",
+       "w": [
+        "A shiny silver surface",
+        "A white painted surface",
+        "All surfaces are equally good"
+       ],
+       "e": [
+        "A shiny silver surface reflects radiation and is a poor absorber and emitter.",
+        "White reflects much of the radiation that falls on it.",
+        "Colour and texture change how well a surface absorbs and emits."
+       ],
+       "y": "Dull black surfaces absorb and emit radiation best; shiny, light surfaces reflect it."
+      },
+      {
+       "q": "How does heat from the Sun reach the Earth?",
+       "r": "By radiation, which needs no material medium",
+       "w": [
+        "By conduction through the air",
+        "By convection currents in space",
+        "By all three methods equally"
+       ],
+       "e": [
+        "There is almost no matter between the Sun and the atmosphere to conduct through.",
+        "Convection needs a fluid to move; space is very nearly empty.",
+        "Only one of the three can cross a vacuum, so they are not equal here."
+       ],
+       "y": "Radiation is electromagnetic waves, so it can cross a vacuum. Conduction and convection cannot."
+      },
+      {
+       "q": "Why is a vacuum flask silvered on both sides of the double wall?",
+       "r": "To reflect radiation back, so little heat enters or leaves",
+       "w": [
+        "To stop conduction through the glass",
+        "To make the flask look attractive",
+        "To stop convection inside the liquid"
+       ],
+       "e": [
+        "Conduction is stopped by the vacuum between the walls, not by the silvering.",
+        "The appearance is not the reason; the silvering is inside the double wall.",
+        "Convection inside the liquid is not what the silvering prevents."
+       ],
+       "y": "Shiny silver surfaces are poor emitters and good reflectors, so radiation is turned back."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p4-6-convect",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "heat-transfer"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does warm water rise in a convection current?",
+       "r": "It expands, so the same mass fills a larger volume and its density falls",
+       "w": [
+        "Warm water is heavier than cold water",
+        "Heat always travels upwards",
+        "The water is pushed up by the heater"
+       ],
+       "e": [
+        "Warming expands water, so it becomes LESS dense, not heavier.",
+        "Heat travels in all directions; here it is the moving fluid that carries it upwards.",
+        "The heater does not push the water; the difference in density does."
+       ],
+       "y": "Density = mass ÷ volume, and less dense fluid floats above denser fluid."
+      },
+      {
+       "q": "In which materials can convection carry heat?",
+       "r": "Only in liquids and gases, because the material itself must move",
+       "w": [
+        "In solids, liquids and gases alike",
+        "Only in solids",
+        "Only in a vacuum"
+       ],
+       "e": [
+        "The particles of a solid are held in place, so they cannot carry heat across the body.",
+        "Convection needs a fluid that can flow, which a solid cannot do.",
+        "A vacuum has no particles at all; only radiation crosses it."
+       ],
+       "y": "Convection moves heat by moving the fluid itself, so it needs a liquid or a gas."
+      },
+      {
+       "q": "Why is the cooling unit of a refrigerator placed at the top?",
+       "r": "Air cooled at the top becomes denser and sinks, cooling the whole cabinet",
+       "w": [
+        "Cold air rises, so it must start at the top",
+        "The food at the top needs the most cooling",
+        "There is no room for it at the bottom"
+       ],
+       "e": [
+        "Cold air is denser than warm air, so it sinks.",
+        "All the food needs cooling; the placing is about the circulation.",
+        "The placing is chosen for the convection current, not for space."
+       ],
+       "y": "Cooled air sinks and warmer air rises to be cooled, so a current circulates through the fridge."
+      },
+      {
+       "q": "Smoke is held over one chimney of a box with two chimneys and a candle under the other. What is seen, and why?",
+       "r": "The smoke is drawn down one chimney and out of the other, showing a convection current",
+       "w": [
+        "The smoke rises straight up from both chimneys",
+        "The smoke stays still above the box",
+        "The smoke is blown away from the box"
+       ],
+       "e": [
+        "Air leaves above the candle, so smoke cannot rise from that chimney.",
+        "The candle sets the air moving, so the smoke does move.",
+        "Nothing blows the smoke away; the current pulls it in."
+       ],
+       "y": "Warm air above the candle rises and leaves, so cooler air (with the smoke) is drawn down the other chimney."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p4-6-radiate",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "heat-transfer"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Two cans of hot water are alike except that one is dull black and the other shiny silver. Which cools faster?",
+       "r": "The dull black one, because a dull black surface is a better emitter of radiation",
+       "w": [
+        "The shiny one, because shiny metal conducts heat away",
+        "Both cool at the same rate",
+        "The dull black one, because black absorbs more heat"
+       ],
+       "e": [
+        "The cans are the same metal; the paint changes how well they emit, not how they conduct.",
+        "The surfaces differ, so they radiate at different rates.",
+        "These cans are hotter than the room, so they are emitting. The answer is right but the reason is not."
+       ],
+       "y": "Both lose heat by conduction and convection alike; the dull black surface emits radiation best."
+      },
+      {
+       "q": "Which surface takes in radiation best?",
+       "r": "A dull black surface",
+       "w": [
+        "A shiny silver surface",
+        "A white painted surface",
+        "A polished glass surface"
+       ],
+       "e": [
+        "A shiny silver surface reflects most of the radiation that falls on it.",
+        "White reflects much of the radiation.",
+        "Polished glass reflects and lets radiation through rather than absorbing it."
+       ],
+       "y": "A good absorber is also a good emitter: dull black is best at both."
+      },
+      {
+       "q": "Why can radiation reach the Earth from the Sun?",
+       "r": "Radiation is electromagnetic waves, which need no material medium",
+       "w": [
+        "The air between carries it by conduction",
+        "Convection currents cross space",
+        "Space is full of particles that pass it along"
+       ],
+       "e": [
+        "There is almost no matter between the Sun and the atmosphere to conduct through.",
+        "Convection needs a fluid to flow; space is very nearly empty.",
+        "Space is nearly empty, so there is nothing to pass heat along."
+       ],
+       "y": "Only radiation can cross a vacuum; conduction and convection both need particles."
+      },
+      {
+       "q": "A roof is painted shiny white instead of dull black. What is the effect inside the building?",
+       "r": "It stays cooler, because the roof reflects more of the Sun's radiation",
+       "w": [
+        "It becomes hotter, because white absorbs more radiation",
+        "There is no change, because the roof is the same material",
+        "It stays cooler, because white conducts heat away faster"
+       ],
+       "e": [
+        "Dull dark surfaces absorb best; white reflects.",
+        "The surface decides how much radiation is absorbed, whatever the material beneath.",
+        "The colour changes how much radiation is absorbed, not how well the roof conducts."
+       ],
+       "y": "Shiny light surfaces reflect radiation, so less of the Sun's energy enters the building."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p4-6-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "heat-transfer"
+   ],
+   "vars": {
+    "A": {
+     "pick": [
+      {
+       "q": "are cooking pots usually made of metal with wooden or plastic handles",
+       "r": "Metal conducts heat quickly to the food, while wood and plastic are poor conductors and stay cool to hold",
+       "w1": "Metal is cheaper than wood",
+       "w2": "Wood radiates heat better than metal",
+       "w3": "Plastic conducts heat faster than metal",
+       "y": "A good conductor carries heat to the food; a poor conductor keeps the handle safe to touch."
+      },
+      {
+       "q": "do people wear light-coloured clothes in hot sunshine",
+       "r": "Light surfaces reflect much of the radiation instead of absorbing it",
+       "w1": "Light cloth is always thinner",
+       "w2": "Light colours conduct heat away faster",
+       "w3": "Dark colours stop sweat evaporating",
+       "y": "A dull dark surface absorbs radiation best, so light colours keep the wearer cooler."
+      },
+      {
+       "q": "is the freezer compartment placed at the top of a refrigerator",
+       "r": "Air cooled at the top sinks, setting up a convection current that cools the whole fridge",
+       "w1": "Cold air rises to the top",
+       "w2": "The motor is at the bottom",
+       "w3": "Food at the top spoils faster",
+       "y": "Cooled air becomes denser and sinks, while warmer air rises to be cooled."
+      },
+      {
+       "q": "are the pipes of a solar water heater painted dull black",
+       "r": "A dull black surface absorbs radiation from the Sun better than a shiny one",
+       "w1": "Black paint conducts heat better than metal",
+       "w2": "Black pipes are stronger",
+       "w3": "Black paint stops convection in the water",
+       "y": "The pipes must take in as much of the Sun's radiation as possible, and dull black absorbs best."
+      },
+      {
+       "q": "does a room need vents near the ceiling and near the floor",
+       "r": "Warm stale air leaves at the top while cool fresh air enters at the bottom: a convection current",
+       "w1": "Radiation can only pass through high openings",
+       "w2": "Heat is conducted out through the vents",
+       "w3": "Two vents simply make the room brighter",
+       "y": "Warm air rises and leaves through the upper vent, drawing cooler air in at the bottom."
+      }
+     ]
+    },
+    "q": {
+     "expr": "A.q"
+    },
+    "r": {
+     "expr": "A.r"
+    },
+    "w1": {
+     "expr": "A.w1"
+    },
+    "w2": {
+     "expr": "A.w2"
+    },
+    "w3": {
+     "expr": "A.w3"
+    },
+    "y": {
+     "expr": "A.y"
+    }
+   },
+   "prompt": "Why {q}?",
+   "correct": "{r}",
+   "distractors": [
+    {
+     "text": "{w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{y}"
+    }
+   ],
+   "solution": [
+    "{y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "p4-6-flask",
+   "type": "ordering",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "heat-transfer"
+   ],
+   "vars": {
+    "A": {
+     "pick": [
+      {
+       "q": "Put the parts of a vacuum flask in order, from the inside outwards.",
+       "s": [
+        "The liquid is held in a double-walled glass vessel",
+        "Both glass surfaces facing the gap are silvered, so radiation is reflected back",
+        "The space between the walls is a vacuum, so there are no particles to conduct or convect",
+        "A stopper closes the top to stop convection and evaporation",
+        "A plastic or metal case protects the glass"
+       ]
+      },
+      {
+       "q": "Put the stages of a convection current in a tank of water in order.",
+       "s": [
+        "The heater at the bottom warms the water near it",
+        "That water expands, so the same mass fills a larger volume",
+        "Its density falls below that of the water above it",
+        "The warm water rises and cooler, denser water sinks to take its place",
+        "The circulation carries heat through the whole tank"
+       ]
+      },
+      {
+       "q": "Put the stages by which the Sun's energy heats water in a solar heater in order.",
+       "s": [
+        "Radiation from the Sun crosses the empty space and the atmosphere",
+        "It falls on the dull black pipes, which are good absorbers",
+        "The pipes become hot and conduct heat to the water touching them",
+        "The warmed water rises to the tank above by convection",
+        "Cooler water flows down to the pipes and is heated in turn"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "{A.q}",
+   "items": [
+    {
+     "text": "{A.s[0]}"
+    },
+    {
+     "text": "{A.s[1]}"
+    },
+    {
+     "text": "{A.s[2]}"
+    },
+    {
+     "text": "{A.s[3]}"
+    },
+    {
+     "text": "{A.s[4]}"
+    }
+   ],
+   "order": "as_written"
+  }
+ ]
+}

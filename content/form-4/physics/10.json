@@ -1,0 +1,487 @@
+{
+ "subject": "physics",
+ "class": "Form 4",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  9
+ ],
+ "skills": [
+  {
+   "id": "p4-10",
+   "name": "Find wavelength and wave speed; use v = fλ"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A displacement-distance graph (a wave profile) is a snapshot of the whole wave at one instant: distance runs across.\nWavelength λ is the distance between two successive points in step, for example crest to crest, in metres.\nWave speed v is how fast the wave travels, in m/s.\nIn one period the wave moves one wavelength, so v = λ/T, that is v = fλ.\nRearranged: f = v/λ and λ = v/f.\nIn a ripple tank a vibrating bar makes straight wavefronts and a dipper makes circular ones. A wavefront joins points in step, and the distance between two neighbouring wavefronts is one wavelength.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to read a wavelength from a wave profile and use v = fλ to find speed, frequency or wavelength.\nBuilds on: Lesson {9} (period, frequency and amplitude).\nLeads to: Lesson {11} (what happens when waves meet an obstacle) and Lesson {14} (the speed of sound)."
+   },
+   {
+    "heading": "Wavelength and wave profile",
+    "text": "A displacement-time graph follows one particle. A displacement-distance graph, or wave profile, is a photograph of the whole wave at one instant, with distance running across.\nWavelength λ is the distance between two successive points that are in step: crest to crest, or trough to trough. It is measured in metres.\nIn a ripple tank, a vibrating bar makes straight wavefronts and a vibrating dipper makes circular ones. A wavefront joins points that are in step, such as the tops of the ripples, and neighbouring wavefronts are one wavelength apart."
+   },
+   {
+    "heading": "The wave equation",
+    "text": "In one period T the wave moves forward exactly one wavelength λ.\nspeed = distance ÷ time = λ ÷ T, and since f = {1} ÷ T:\nv = fλ.\nRearranged: f = v ÷ λ and λ = v ÷ f.\nExamples:\n• f = {50} Hz, λ = {0.4} m: v = {50} × {0.4} = {20} m/s.\n• Sound at {340} m/s with f = {170} Hz: λ = {340} ÷ {170} = {2} m.\nKeep the units together: metres with hertz give metres per second."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "wavelength (λ)",
+    "meaning": "the distance between two successive points in step, such as crest to crest"
+   },
+   {
+    "word": "wave speed (v)",
+    "meaning": "how fast the wave travels, in m/s"
+   },
+   {
+    "word": "wavefront",
+    "meaning": "a line joining points of a wave that are in step"
+   },
+   {
+    "word": "ripple tank",
+    "meaning": "a shallow tank of water used to show wave behaviour"
+   }
+  ],
+  "examples": [
+   "v = {2} × {3} = {6} m/s",
+   "λ = {340} ÷ {85} = {4} m",
+   "f = {20} ÷ {0.5} = {40} Hz"
+  ],
+  "mistake": {
+   "wrong": "v = f + λ",
+   "right": "v = fλ",
+   "why": "Speed is the frequency MULTIPLIED by the wavelength: one wavelength for every vibration each second."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f": 50,
+   "lam": 0.4
+  },
+  "problem": "A wave has a frequency of {f} Hz and a wavelength of {lam} m. Find its speed.",
+  "steps": [
+   "v = fλ.",
+   "v = {f} × {lam}.",
+   "= {waveSpeed(f, lam)} m/s."
+  ],
+  "answer": "{waveSpeed(f, lam)} m/s",
+  "checks": [
+   "waveSpeed(f, lam) == 20"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4p10-1",
+    "status": "draft",
+    "idea": "Wavelength is the distance from one crest to the next, read off a displacement-distance graph.",
+    "vars": {},
+    "example": [
+     "crests {2} m apart means λ = {2} m"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-10-lambda"
+    }
+   },
+   {
+    "id": "c4p10-2",
+    "status": "draft",
+    "idea": "v = fλ: speed = frequency × wavelength.",
+    "vars": {},
+    "example": [
+     "f = {50} Hz and λ = {0.4} m give v = {20} m/s"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-10-v"
+    }
+   },
+   {
+    "id": "c4p10-3",
+    "status": "draft",
+    "idea": "Rearranged: f = v/λ and λ = v/f.",
+    "vars": {},
+    "example": [
+     "v = {340} m/s and f = {170} Hz give λ = {2} m"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p4-10-lam-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "waves"
+     ],
+     "vars": {
+      "V": {
+       "pick": [
+        {
+         "n": "air",
+         "v": 330
+        },
+        {
+         "n": "air",
+         "v": 340
+        },
+        {
+         "n": "sea water",
+         "v": 1500
+        }
+       ]
+      },
+      "f": {
+       "pick": [
+        20,
+        25,
+        30,
+        40,
+        50,
+        60,
+        75,
+        100,
+        125,
+        150,
+        170,
+        200,
+        250,
+        300,
+        375,
+        500,
+        750,
+        1000
+       ]
+      }
+     },
+     "prompt": "A sound of frequency {f} Hz travels through {V.n} at {V.v} m/s. Find its wavelength, in metres.",
+     "answer": "waveLen(V.v, f)",
+     "misconceptions": [
+      {
+       "id": "mult",
+       "wrong": "waveSpeed(f, V.v)",
+       "explain": "Divide the speed by the frequency."
+      },
+      {
+       "id": "swap",
+       "wrong": "roundTo(f / V.v, 0.0001)",
+       "explain": "λ = v ÷ f, not f ÷ v."
+      }
+     ],
+     "solution": [
+      "v = fλ, so λ = v ÷ f.",
+      "λ = {V.v} ÷ {f} = {answer} m."
+     ],
+     "unit": "m",
+     "where": [
+      "V.v % f == 0"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p4-10-lambda",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "waves"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      6
+     ]
+    },
+    "lam": {
+     "pick": [
+      0.4,
+      0.5,
+      1,
+      2,
+      2.5,
+      4
+     ]
+    }
+   },
+   "prompt": "From the displacement-distance graph, what is the wavelength, in metres?",
+   "answer": "lam",
+   "misconceptions": [
+    {
+     "id": "two",
+     "wrong": "2 * lam",
+     "explain": "{2 * lam} m covers TWO complete waves."
+    },
+    {
+     "id": "amp",
+     "wrong": "a",
+     "explain": "{a} cm is the amplitude, measured up the displacement axis."
+    }
+   ],
+   "solution": [
+    "Wavelength is the distance from one crest to the next.",
+    "The graph shows {2} complete waves in {2 * lam} m, so λ = {answer} m."
+   ],
+   "figure": "waveFig(a, lam, 2, 'Distance', 'm')",
+   "unit": "m"
+  },
+  {
+   "id": "p4-10-v",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "waves"
+   ],
+   "vars": {
+    "f": {
+     "pick": [
+      2,
+      4,
+      5,
+      10,
+      20,
+      25,
+      50,
+      100,
+      200,
+      500
+     ]
+    },
+    "lam": {
+     "pick": [
+      0.2,
+      0.4,
+      0.5,
+      1,
+      1.5,
+      2,
+      3,
+      4
+     ]
+    }
+   },
+   "prompt": "A wave of frequency {f} Hz has wavelength {lam} m. Find its speed, in m/s.",
+   "answer": "waveSpeed(f, lam)",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "roundTo(waveFreq(f, lam), 0.001)",
+     "explain": "Multiply the frequency by the wavelength."
+    },
+    {
+     "id": "add",
+     "wrong": "f + lam",
+     "explain": "v = fλ is a product, not a sum."
+    }
+   ],
+   "solution": [
+    "v = fλ.",
+    "v = {f} × {lam} = {answer} m/s."
+   ],
+   "unit": "m/s"
+  },
+  {
+   "id": "p4-10-lam",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "waves"
+   ],
+   "vars": {
+    "V": {
+     "pick": [
+      {
+       "n": "air",
+       "v": 330
+      },
+      {
+       "n": "air",
+       "v": 340
+      },
+      {
+       "n": "sea water",
+       "v": 1500
+      }
+     ]
+    },
+    "f": {
+     "pick": [
+      20,
+      25,
+      30,
+      40,
+      50,
+      60,
+      75,
+      100,
+      125,
+      150,
+      170,
+      200,
+      250,
+      300,
+      375,
+      500,
+      750,
+      1000
+     ]
+    }
+   },
+   "prompt": "A sound of frequency {f} Hz travels through {V.n} at {V.v} m/s. Find its wavelength, in metres.",
+   "answer": "waveLen(V.v, f)",
+   "misconceptions": [
+    {
+     "id": "mult",
+     "wrong": "waveSpeed(f, V.v)",
+     "explain": "Divide the speed by the frequency."
+    },
+    {
+     "id": "swap",
+     "wrong": "roundTo(f / V.v, 0.0001)",
+     "explain": "λ = v ÷ f, not f ÷ v."
+    }
+   ],
+   "solution": [
+    "v = fλ, so λ = v ÷ f.",
+    "λ = {V.v} ÷ {f} = {answer} m."
+   ],
+   "unit": "m",
+   "where": [
+    "V.v % f == 0"
+   ]
+  },
+  {
+   "id": "p4-10-f",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "waves"
+   ],
+   "vars": {
+    "lam": {
+     "pick": [
+      0.5,
+      1,
+      2,
+      2.5,
+      4,
+      5
+     ]
+    },
+    "f0": {
+     "pick": [
+      2,
+      5,
+      10,
+      20,
+      40,
+      50,
+      100,
+      170
+     ]
+    },
+    "v": {
+     "expr": "waveSpeed(f0, lam)"
+    }
+   },
+   "prompt": "A wave travels at {v} m/s with a wavelength of {lam} m. Find its frequency, in hertz.",
+   "answer": "waveFreq(v, lam)",
+   "misconceptions": [
+    {
+     "id": "mult",
+     "wrong": "waveSpeed(v, lam)",
+     "explain": "Divide the speed by the wavelength."
+    },
+    {
+     "id": "swap",
+     "wrong": "roundTo(lam / v, 0.0001)",
+     "explain": "f = v ÷ λ, not λ ÷ v."
+    }
+   ],
+   "solution": [
+    "v = fλ, so f = v ÷ λ.",
+    "f = {v} ÷ {lam} = {answer} Hz."
+   ],
+   "unit": "Hz"
+  },
+  {
+   "id": "p4-10-tank",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "waves"
+   ],
+   "vars": {
+    "t": {
+     "pick": [
+      2,
+      4,
+      5,
+      10
+     ]
+    },
+    "f0": {
+     "pick": [
+      4,
+      5,
+      8,
+      10,
+      12,
+      20
+     ]
+    },
+    "n": {
+     "expr": "f0 * t"
+    },
+    "lam": {
+     "pick": [
+      1.5,
+      2,
+      2.5,
+      3,
+      4,
+      5
+     ]
+    }
+   },
+   "prompt": "In a ripple tank a bar vibrates {n} times in {t} s and the wavefronts are {lam} cm apart. Find the speed of the ripples, in cm/s.",
+   "answer": "waveSpeed(n / t, lam)",
+   "misconceptions": [
+    {
+     "id": "nof",
+     "wrong": "waveSpeed(n, lam)",
+     "explain": "{n} is the number of vibrations in {t} s: divide by the time to get the frequency."
+    },
+    {
+     "id": "div",
+     "wrong": "roundTo(waveFreq(n / t, lam), 0.001)",
+     "explain": "v = fλ is a product."
+    }
+   ],
+   "solution": [
+    "Frequency f = {n} ÷ {t} = {n / t} Hz.",
+    "The distance between neighbouring wavefronts is the wavelength, {lam} cm.",
+    "v = fλ = {n / t} × {lam} = {answer} cm/s."
+   ],
+   "unit": "cm/s"
+  }
+ ]
+}

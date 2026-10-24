@@ -1,0 +1,747 @@
+{
+ "subject": "physics",
+ "class": "Form 4",
+ "lesson_no": 11,
+ "language": "en",
+ "prerequisites": [
+  10
+ ],
+ "skills": [
+  {
+   "id": "p4-11",
+   "name": "Describe reflection, refraction, diffraction and interference of waves"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Reflection: a wave meets a barrier and is turned back. The angle of reflection equals the angle of incidence; the speed, frequency and wavelength do not change.\nRefraction: a wave crosses into a medium where it travels at a different speed. The frequency stays the same, so the wavelength changes (λ = v/f) and the wave bends, unless it meets the boundary along the normal. Water waves slow down in shallow water and bend towards the normal.\nDiffraction: a wave spreads out as it passes through a gap or round an obstacle. It is greatest when the gap is about the same width as the wavelength. Sound diffracts round a doorway; light hardly does, because its wavelength is tiny.\nInterference: two waves meeting add their displacements. Crest on crest gives a larger wave (constructive); crest on trough cancels (destructive).",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to describe what reflection, refraction, diffraction and interference do to a wave, and say which quantities change.\nBuilds on: Lesson {10} (v = fλ) and Form Three reflection of light.\nLeads to: Lesson {12} (stationary waves, made by interference) and Lesson {13} (sound)."
+   },
+   {
+    "heading": "Reflection and refraction",
+    "text": "Reflection: the wave meets a barrier and is turned back. The angle of reflection equals the angle of incidence. Nothing else changes: the speed, frequency and wavelength are the same as before.\nRefraction: the wave crosses into a medium where its speed is different. In a ripple tank, deep water to shallow water slows the ripples down.\nThe frequency is fixed by the source and never changes at a boundary. So from v = fλ, if v falls then λ falls too: the wavefronts come closer together. If the wave meets the boundary at an angle, one end of each wavefront slows first and the wave bends, towards the normal when it slows down."
+   },
+   {
+    "heading": "Diffraction and interference",
+    "text": "Diffraction: a wave spreads out as it passes through a gap or round the edge of an obstacle. The spreading is greatest when the gap is about the same width as the wavelength.\nSound has wavelengths of about a metre, so it spreads round a doorway and you hear someone round a corner. Light has a wavelength of less than a thousandth of a millimetre, so it spreads far too little to see.\nInterference: where two waves meet, their displacements add.\n• Crest on crest, or trough on trough: constructive interference, a bigger wave. A loud sound or a bright fringe.\n• Crest on trough: destructive interference, and if the waves are equal they cancel. A quiet place or a dark fringe."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "reflection",
+    "meaning": "a wave turned back at a barrier"
+   },
+   {
+    "word": "refraction",
+    "meaning": "a wave bending because its speed changes"
+   },
+   {
+    "word": "diffraction",
+    "meaning": "spreading through a gap or round an obstacle"
+   },
+   {
+    "word": "interference",
+    "meaning": "two waves meeting and adding their displacements"
+   },
+   {
+    "word": "normal",
+    "meaning": "the line at right angles to a surface"
+   }
+  ],
+  "examples": [
+   "shallow water: v and λ fall, f stays",
+   "sound round a doorway: diffraction",
+   "two speakers: loud and quiet places"
+  ],
+  "mistake": {
+   "wrong": "when a wave is refracted its frequency changes",
+   "right": "the frequency stays the same; the speed and wavelength change",
+   "why": "The source sets the frequency. At the boundary, v and λ change together so that v = fλ still holds."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 1
+  },
+  "problem": "Water waves travel from deep water into shallow water. Say what happens to the speed, the frequency, the wavelength and the direction.",
+  "steps": [
+   "The frequency is set by the source, so it does not change.",
+   "Waves travel more slowly in shallow water, so the speed falls.",
+   "From v = fλ, with f fixed and v smaller, the wavelength must get shorter.",
+   "The part of each wavefront that reaches the shallow water first slows first, so the wavefront swings round towards the normal."
+  ],
+  "answer": "f unchanged, v smaller, λ shorter, and the waves bend towards the normal",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4p11-1",
+    "status": "draft",
+    "idea": "Reflection turns a wave back: angle of reflection = angle of incidence, and λ and f are unchanged.",
+    "vars": {},
+    "example": [
+     "straight water waves hitting a straight barrier come back at the same angle"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-11-which"
+    }
+   },
+   {
+    "id": "c4p11-2",
+    "status": "draft",
+    "idea": "Refraction: f stays the same, v and λ change, and the wave bends.",
+    "vars": {},
+    "example": [
+     "in shallow water the ripples slow down and the wavefronts come closer together"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p4-11-refract-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "wave-phenomena"
+     ],
+     "vars": {
+      "f": {
+       "pick": [
+        2,
+        4,
+        5,
+        10,
+        20
+       ]
+      },
+      "v1": {
+       "pick": [
+        20,
+        30,
+        40,
+        50,
+        60
+       ]
+      },
+      "v2": {
+       "pick": [
+        10,
+        12,
+        15,
+        20,
+        24
+       ]
+      }
+     },
+     "prompt": "Water waves of frequency {f} Hz travel at {v1} m/s in deep water. In shallow water the speed falls to {v2} m/s. Find the wavelength in the shallow water, in metres.",
+     "answer": "waveLen(v2, f)",
+     "misconceptions": [
+      {
+       "id": "deep",
+       "wrong": "waveLen(v1, f)",
+       "explain": "{v1} m/s is the speed in the DEEP water; use the shallow-water speed {v2} m/s."
+      },
+      {
+       "id": "freq",
+       "wrong": "roundTo(waveFreq(v2, f), 0.001)",
+       "explain": "λ = v ÷ f: divide the speed by the frequency."
+      }
+     ],
+     "solution": [
+      "The frequency does not change at a boundary: it is still {f} Hz.",
+      "λ = v ÷ f = {v2} ÷ {f}.",
+      "λ = {answer} m."
+     ],
+     "unit": "m",
+     "where": [
+      "v2 < v1",
+      "waveLen(v2, f) != waveLen(v1, f)"
+     ]
+    }
+   },
+   {
+    "id": "c4p11-3",
+    "status": "draft",
+    "idea": "Diffraction spreads a wave through a gap; it is greatest when the gap ≈ the wavelength.",
+    "vars": {},
+    "example": [
+     "sound bends round a doorway; light does not, because its wavelength is far smaller"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p4-11-diffract-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "wave-phenomena"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why can you hear someone talking round the corner of a corridor, but not see them?",
+         "r": "Sound has a wavelength about the size of the opening, so it diffracts strongly; light's wavelength is far smaller",
+         "w": [
+          "Sound travels faster than light",
+          "Light is absorbed by the wall but sound is not",
+          "Sound waves are longitudinal and light waves are not"
+         ],
+         "e": [
+          "Light travels nearly a million times faster than sound; speed is not what decides diffraction.",
+          "Both are stopped by a solid wall; the difference is how much each spreads at the corner.",
+          "Transverse waves diffract too: water ripples are transverse and diffract well."
+         ],
+         "y": "Diffraction is greatest when the gap or obstacle is about the size of the wavelength."
+        },
+        {
+         "q": "Straight water waves pass through a gap much wider than their wavelength. What is seen beyond the gap?",
+         "r": "The waves go through almost straight, with a little spreading only at the edges",
+         "w": [
+          "The waves spread out in a wide semicircle",
+          "The waves stop at the gap",
+          "The waves change their wavelength"
+         ],
+         "e": [
+          "Wide spreading needs a gap about the size of the wavelength.",
+          "The waves pass through; the barrier only blocks what hits it.",
+          "Diffraction changes the shape of the wavefronts, not the wavelength."
+         ],
+         "y": "A wide gap diffracts little; the spreading grows as the gap narrows towards one wavelength."
+        },
+        {
+         "q": "The gap in a ripple tank barrier is narrowed until it is about one wavelength wide. What happens to the ripples beyond it?",
+         "r": "They spread out in almost semicircular wavefronts",
+         "w": [
+          "They keep their straight shape",
+          "They are reflected back",
+          "They travel faster"
+         ],
+         "e": [
+          "Straight wavefronts pass a wide gap; a narrow gap spreads them.",
+          "The part that hits the barrier is reflected, but what goes through the gap spreads out.",
+          "The depth is unchanged, so the speed is unchanged."
+         ],
+         "y": "Gap ≈ wavelength gives the widest diffraction, and the gap acts almost like a new source."
+        },
+        {
+         "q": "Why does a radio with long waves work better than a television behind a hill?",
+         "r": "The longer radio waves diffract round the hill, while the shorter television waves do not",
+         "w": [
+          "Radio waves are stronger than television waves",
+          "Television waves are absorbed by soil",
+          "Radio waves travel faster than television waves"
+         ],
+         "e": [
+          "Strength is not what decides it; the wavelength compared with the obstacle is.",
+          "Both are reflected and absorbed at a hill; it is the diffraction that differs.",
+          "All electromagnetic waves travel at the same speed in air."
+         ],
+         "y": "An obstacle diffracts a wave most when the wavelength is comparable with its size."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p4-11-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "wave-phenomena"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Straight water waves hit a straight barrier at an angle. What happens?",
+       "r": "They are reflected, with the angle of reflection equal to the angle of incidence",
+       "w": [
+        "They pass straight through the barrier",
+        "They stop at the barrier and disappear",
+        "They bend around the barrier and carry on"
+       ],
+       "e": [
+        "A solid barrier does not let the waves through.",
+        "The energy is turned back, not destroyed.",
+        "Bending round an obstacle is diffraction, which needs a gap or an edge, not a long straight barrier."
+       ],
+       "y": "At a reflection the wavelength and frequency stay the same; only the direction changes."
+      },
+      {
+       "q": "Water waves pass from deep water into shallow water. What happens to them?",
+       "r": "They slow down, the wavelength gets shorter and they bend towards the normal",
+       "w": [
+        "They speed up and the wavelength gets longer",
+        "The frequency changes but the speed does not",
+        "Nothing changes"
+       ],
+       "e": [
+        "Waves travel more slowly in shallow water, not faster.",
+        "The frequency is set by the source and does not change; the speed does.",
+        "The change of depth changes the speed, so something must change."
+       ],
+       "y": "Refraction: f stays the same, v falls, so λ = v ÷ f falls too, and the waves bend."
+      },
+      {
+       "q": "What is diffraction?",
+       "r": "The spreading of waves as they pass through a gap or around an obstacle",
+       "w": [
+        "The bouncing of waves off a barrier",
+        "The bending of waves when their speed changes",
+        "The joining of two waves to make a bigger one"
+       ],
+       "e": [
+        "That is reflection.",
+        "That is refraction.",
+        "That is interference."
+       ],
+       "y": "Diffraction spreads the wave; it is greatest when the gap is about the same size as the wavelength."
+      },
+      {
+       "q": "When is diffraction through a gap greatest?",
+       "r": "When the width of the gap is about the same as the wavelength",
+       "w": [
+        "When the gap is much wider than the wavelength",
+        "When the gap is much narrower than the wavelength",
+        "The width of the gap makes no difference"
+       ],
+       "e": [
+        "A wide gap lets most of the wave through almost straight, with only the edges spreading.",
+        "A very narrow gap lets through little energy, though what passes does spread.",
+        "The width of the gap compared with the wavelength is exactly what decides it."
+       ],
+       "y": "Gap ≈ wavelength gives the widest spreading, which is why sound (long waves) bends round a doorway but light does not."
+      },
+      {
+       "q": "Two waves meet crest to crest. What happens at that point?",
+       "r": "Constructive interference: the displacements add, making a bigger wave",
+       "w": [
+        "Destructive interference: they cancel out",
+        "The waves bounce off each other",
+        "The waves stop"
+       ],
+       "e": [
+        "Cancelling happens when a crest meets a trough.",
+        "Waves pass through each other; they do not bounce off each other.",
+        "After meeting, each wave carries on as before."
+       ],
+       "y": "Where two crests meet, the displacements add: that is constructive interference."
+      },
+      {
+       "q": "Two identical waves meet crest to trough. What is heard or seen at that point?",
+       "r": "Destructive interference: they cancel, giving a quiet or dark point",
+       "w": [
+        "A louder sound or a brighter light",
+        "No change at all",
+        "The waves change frequency"
+       ],
+       "e": [
+        "Louder or brighter is constructive interference, where crest meets crest.",
+        "A crest meeting an equal trough gives zero displacement, which is a definite change.",
+        "Interference does not change the frequency of either wave."
+       ],
+       "y": "Equal and opposite displacements add to zero: a quiet point in sound, a dark fringe in light."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p4-11-refract",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "wave-phenomena"
+   ],
+   "vars": {
+    "f": {
+     "pick": [
+      2,
+      4,
+      5,
+      10,
+      20
+     ]
+    },
+    "v1": {
+     "pick": [
+      20,
+      30,
+      40,
+      50,
+      60
+     ]
+    },
+    "v2": {
+     "pick": [
+      10,
+      12,
+      15,
+      20,
+      24
+     ]
+    }
+   },
+   "prompt": "Water waves of frequency {f} Hz travel at {v1} m/s in deep water. In shallow water the speed falls to {v2} m/s. Find the wavelength in the shallow water, in metres.",
+   "answer": "waveLen(v2, f)",
+   "misconceptions": [
+    {
+     "id": "deep",
+     "wrong": "waveLen(v1, f)",
+     "explain": "{v1} m/s is the speed in the DEEP water; use the shallow-water speed {v2} m/s."
+    },
+    {
+     "id": "freq",
+     "wrong": "roundTo(waveFreq(v2, f), 0.001)",
+     "explain": "λ = v ÷ f: divide the speed by the frequency."
+    }
+   ],
+   "solution": [
+    "The frequency does not change at a boundary: it is still {f} Hz.",
+    "λ = v ÷ f = {v2} ÷ {f}.",
+    "λ = {answer} m."
+   ],
+   "unit": "m",
+   "where": [
+    "v2 < v1",
+    "waveLen(v2, f) != waveLen(v1, f)"
+   ]
+  },
+  {
+   "id": "p4-11-diffract",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "wave-phenomena"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why can you hear someone talking round the corner of a corridor, but not see them?",
+       "r": "Sound has a wavelength about the size of the opening, so it diffracts strongly; light's wavelength is far smaller",
+       "w": [
+        "Sound travels faster than light",
+        "Light is absorbed by the wall but sound is not",
+        "Sound waves are longitudinal and light waves are not"
+       ],
+       "e": [
+        "Light travels nearly a million times faster than sound; speed is not what decides diffraction.",
+        "Both are stopped by a solid wall; the difference is how much each spreads at the corner.",
+        "Transverse waves diffract too: water ripples are transverse and diffract well."
+       ],
+       "y": "Diffraction is greatest when the gap or obstacle is about the size of the wavelength."
+      },
+      {
+       "q": "Straight water waves pass through a gap much wider than their wavelength. What is seen beyond the gap?",
+       "r": "The waves go through almost straight, with a little spreading only at the edges",
+       "w": [
+        "The waves spread out in a wide semicircle",
+        "The waves stop at the gap",
+        "The waves change their wavelength"
+       ],
+       "e": [
+        "Wide spreading needs a gap about the size of the wavelength.",
+        "The waves pass through; the barrier only blocks what hits it.",
+        "Diffraction changes the shape of the wavefronts, not the wavelength."
+       ],
+       "y": "A wide gap diffracts little; the spreading grows as the gap narrows towards one wavelength."
+      },
+      {
+       "q": "The gap in a ripple tank barrier is narrowed until it is about one wavelength wide. What happens to the ripples beyond it?",
+       "r": "They spread out in almost semicircular wavefronts",
+       "w": [
+        "They keep their straight shape",
+        "They are reflected back",
+        "They travel faster"
+       ],
+       "e": [
+        "Straight wavefronts pass a wide gap; a narrow gap spreads them.",
+        "The part that hits the barrier is reflected, but what goes through the gap spreads out.",
+        "The depth is unchanged, so the speed is unchanged."
+       ],
+       "y": "Gap ≈ wavelength gives the widest diffraction, and the gap acts almost like a new source."
+      },
+      {
+       "q": "Why does a radio with long waves work better than a television behind a hill?",
+       "r": "The longer radio waves diffract round the hill, while the shorter television waves do not",
+       "w": [
+        "Radio waves are stronger than television waves",
+        "Television waves are absorbed by soil",
+        "Radio waves travel faster than television waves"
+       ],
+       "e": [
+        "Strength is not what decides it; the wavelength compared with the obstacle is.",
+        "Both are reflected and absorbed at a hill; it is the diffraction that differs.",
+        "All electromagnetic waves travel at the same speed in air."
+       ],
+       "y": "An obstacle diffracts a wave most when the wavelength is comparable with its size."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p4-11-interfere",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "wave-phenomena"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Two loudspeakers play the same steady note. Walking in front of them, a pupil hears loud and quiet places. Why?",
+       "r": "The two sound waves interfere: crest on crest gives a loud place, crest on trough a quiet one",
+       "w": [
+        "One speaker is louder than the other",
+        "The sound is reflected off the walls only",
+        "The speakers change frequency as the pupil walks"
+       ],
+       "e": [
+        "A louder speaker would make one side louder everywhere, not give a pattern of places.",
+        "The pattern is heard outdoors too, where there is little echo.",
+        "The note is steady; it is the difference in path length that changes as the pupil moves."
+       ],
+       "y": "Sound from the two speakers travels different distances to each point, so it arrives in step or out of step."
+      },
+      {
+       "q": "At a point, a crest from one wave arrives together with a crest from another. What happens there?",
+       "r": "Constructive interference: the displacements add, giving a bigger disturbance",
+       "w": [
+        "Destructive interference: they cancel out",
+        "The waves bounce off each other",
+        "The waves stop"
+       ],
+       "e": [
+        "Cancelling happens when a crest meets a trough.",
+        "Waves pass through each other; they do not bounce off each other.",
+        "After meeting, each wave carries on as before."
+       ],
+       "y": "Where two waves arrive in step, their displacements add."
+      },
+      {
+       "q": "Two identical waves arrive at a point exactly out of step, crest meeting trough. What is observed?",
+       "r": "Destructive interference: they cancel, giving a quiet or dark point",
+       "w": [
+        "A louder sound or a brighter light",
+        "No change at all",
+        "The waves change frequency"
+       ],
+       "e": [
+        "Louder or brighter is constructive interference, crest on crest.",
+        "A crest meeting an equal trough gives zero displacement, which is a definite change.",
+        "Interference does not change the frequency of either wave."
+       ],
+       "y": "Equal and opposite displacements add to zero."
+      },
+      {
+       "q": "What must be true of two sources if a steady interference pattern is to be seen?",
+       "r": "They must have the same frequency and keep a steady phase relationship",
+       "w": [
+        "They must have different frequencies",
+        "They must be at the same point",
+        "They must face in opposite directions"
+       ],
+       "e": [
+        "Different frequencies make a pattern that changes all the time, so nothing steady is seen.",
+        "Two sources at the same point cannot give different path lengths.",
+        "The direction they face does not decide whether the waves interfere."
+       ],
+       "y": "Sources with the same frequency and a steady phase relationship are called coherent."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p4-11-match",
+   "type": "matching",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "wave-phenomena"
+   ],
+   "prompt": "Match each effect to what happens to the wave.",
+   "pool": [
+    {
+     "left": "Reflection",
+     "right": "The wave is turned back; λ, f and v stay the same"
+    },
+    {
+     "left": "Refraction",
+     "right": "The speed changes, so λ changes and the wave bends"
+    },
+    {
+     "left": "Diffraction",
+     "right": "The wave spreads out through a gap or round an obstacle"
+    },
+    {
+     "left": "Constructive interference",
+     "right": "Two crests meet and the displacements add"
+    },
+    {
+     "left": "Destructive interference",
+     "right": "A crest meets a trough and they cancel"
+    }
+   ],
+   "pick": 3
+  }
+ ]
+}

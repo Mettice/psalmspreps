@@ -1,0 +1,414 @@
+{
+ "subject": "physics",
+ "class": "Form 4",
+ "lesson_no": 14,
+ "language": "en",
+ "prerequisites": [
+  13
+ ],
+ "skills": [
+  {
+   "id": "p4-14",
+   "name": "Measure the speed of sound and use echoes"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An echo is a sound reflected from a large surface such as a cliff or a wall.\nEcho method: stand a measured distance d from a wall, clap, and time the echo. The sound travels to the wall and back, a distance of 2d, in time t, so v = 2d/t.\nGun-firing method: an observer a measured distance d away starts a stopwatch when the flash is seen and stops it when the bang is heard. Light arrives almost instantly, so v = d/t.\nEcho sounding (sonar) finds the depth of the sea: a pulse is sent down and the time for its return is measured, so depth = vt/2. It is also used to find shoals of fish and, as ultrasound, to look inside the body.\nIn air, sound travels at about 340 m/s; it goes faster in warmer air.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to measure the speed of sound by the echo and gun-firing methods, and use echoes to find a distance or a depth.\nBuilds on: Lesson {13} (how sound travels) and Form Three speed, distance and time.\nLeads to: ultrasound scanning and sonar, and the wave calculations of Form Five."
+   },
+   {
+    "heading": "Two ways to measure the speed",
+    "text": "Echo method: measure the distance d from a large wall or cliff. Clap, and time the gap until the echo returns. The sound travels to the wall and back, a distance of {2}d, so\nv = {2}d ÷ t.\nClapping in a steady rhythm so that each clap falls with the echo, and timing many claps, makes the result more reliable.\nGun-firing method: an observer stands a measured distance away, starts a stopwatch on seeing the flash and stops it on hearing the bang. Light travels so fast that its own travel time can be ignored, so\nv = d ÷ t.\nBoth give about {340} m/s in air, and sound travels a little faster in warmer air."
+   },
+   {
+    "heading": "Using echoes",
+    "text": "If the speed is known, the same idea gives a distance:\n• A shout returns from a cliff after {2} s, with v = {340} m/s. The sound covered {680} m there and back, so the cliff is {340} m away.\n• Echo sounding on a ship: a pulse is sent to the sea bed and the echo timed. depth = v × t ÷ {2}. At {1500} m/s, an echo after {0.4} s means a depth of {300} m.\nThe same method finds shoals of fish, and as ultrasound it is used to look inside the body.\nAlways remember to halve: the sound covers the distance twice."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "echo",
+    "meaning": "a sound reflected back from a surface"
+   },
+   {
+    "word": "echo sounding",
+    "meaning": "finding a depth or distance by timing a reflected pulse"
+   },
+   {
+    "word": "ultrasound",
+    "meaning": "sound above about {20000} Hz, too high to hear"
+   }
+  ],
+  "examples": [
+   "{170} m from a wall, echo after {1} s: v = {340} m/s",
+   "echo after {0.5} s at {1500} m/s: depth {375} m"
+  ],
+  "mistake": {
+   "wrong": "echo {2} s after a clap {340} m away gives v = {340} ÷ {2} = {170} m/s",
+   "right": "v = {2} × {340} ÷ {2} = {340} m/s",
+   "why": "The sound travels to the wall and back, so the distance is {2}d."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "d": 170,
+   "t": 1
+  },
+  "problem": "A pupil claps {d} m from a cliff and hears the echo {t} s later. Find the speed of sound in air.",
+  "steps": [
+   "The sound travels to the cliff and back, so the distance is {2} × {d} = {2 * d} m.",
+   "speed = distance ÷ time.",
+   "v = {2 * d} ÷ {t}."
+  ],
+  "answer": "{echoSpeed(d, t)} m/s",
+  "checks": [
+   "echoSpeed(d, t) == 340"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4p14-1",
+    "status": "draft",
+    "idea": "An echo is a reflected sound; the sound covers twice the distance to the surface.",
+    "vars": {},
+    "example": [
+     "a clap {170} m from a cliff returns after {1} s: v = {340} ÷ {1} = {340} m/s"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-14-echo"
+    }
+   },
+   {
+    "id": "c4p14-2",
+    "status": "draft",
+    "idea": "Echo method: v = {2}d ÷ t. Gun method: v = d ÷ t, because the flash arrives almost at once.",
+    "vars": {},
+    "example": [
+     "flash seen, bang heard {2} s later, {680} m away: v = {340} m/s"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-14-gun"
+    }
+   },
+   {
+    "id": "c4p14-3",
+    "status": "draft",
+    "idea": "Echo sounding: depth = v × t ÷ {2}.",
+    "vars": {},
+    "example": [
+     "a pulse at {1500} m/s returning after {0.4} s: depth {300} m"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p4-14-depth-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "sound"
+     ],
+     "vars": {
+      "v": {
+       "pick": [
+        1400,
+        1500,
+        1600
+       ]
+      },
+      "t": {
+       "pick": [
+        0.2,
+        0.4,
+        0.5,
+        0.8,
+        1,
+        1.5,
+        2
+       ]
+      }
+     },
+     "prompt": "A ship sends a sound pulse to the sea bed and receives the echo {t} s later. Sound travels at {v} m/s in sea water. Find the depth, in metres.",
+     "answer": "echoDist(v, t)",
+     "misconceptions": [
+      {
+       "id": "full",
+       "wrong": "roundTo(waveSpeed(v, t), 0.1)",
+       "explain": "That is the whole path down and back; the depth is half."
+      },
+      {
+       "id": "swap",
+       "wrong": "roundTo(t / v * 2, 0.0001)",
+       "explain": "distance = speed × time."
+      }
+     ],
+     "solution": [
+      "The pulse travels down and back, so the total path is {v} × {t} = {v * t} m.",
+      "The depth is half of that: {answer} m."
+     ],
+     "unit": "m"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p4-14-echo",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "sound"
+   ],
+   "vars": {
+    "t": {
+     "pick": [
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5
+     ]
+    },
+    "v0": {
+     "pick": [
+      320,
+      330,
+      340,
+      350
+     ]
+    },
+    "d": {
+     "expr": "v0 * t / 2"
+    }
+   },
+   "prompt": "A pupil claps {d} m from a wall and hears the echo after {t} s. Find the speed of sound, in m/s.",
+   "answer": "echoSpeed(d, t)",
+   "misconceptions": [
+    {
+     "id": "oneway",
+     "wrong": "roundTo(d / t, 0.1)",
+     "explain": "The sound covers the distance TWICE: there and back."
+    },
+    {
+     "id": "double",
+     "wrong": "roundTo(4 * d / t, 0.1)",
+     "explain": "The total path is {2}d, not {4}d."
+    }
+   ],
+   "solution": [
+    "The sound goes to the wall and back: {2} × {d} = {2 * d} m.",
+    "v = {2 * d} ÷ {t} = {answer} m/s."
+   ],
+   "unit": "m/s"
+  },
+  {
+   "id": "p4-14-gun",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "sound"
+   ],
+   "vars": {
+    "t": {
+     "pick": [
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      3
+     ]
+    },
+    "v0": {
+     "pick": [
+      320,
+      330,
+      340,
+      350
+     ]
+    },
+    "d": {
+     "expr": "v0 * t"
+    }
+   },
+   "prompt": "A gun is fired {d} m away. The flash is seen, and the bang is heard {t} s later. Find the speed of sound, in m/s.",
+   "answer": "roundTo(d / t, 0.1)",
+   "misconceptions": [
+    {
+     "id": "echo",
+     "wrong": "roundTo(2 * d / t, 0.1)",
+     "explain": "There is no echo here: the sound travels one way only."
+    },
+    {
+     "id": "swap",
+     "wrong": "roundTo(t / d, 0.0001)",
+     "explain": "Speed = distance ÷ time."
+    }
+   ],
+   "solution": [
+    "Light reaches the observer almost at once, so the time measured is the time for the sound.",
+    "The sound travels {d} m one way.",
+    "v = {d} ÷ {t} = {answer} m/s."
+   ],
+   "unit": "m/s"
+  },
+  {
+   "id": "p4-14-dist",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "sound"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      330,
+      340,
+      350
+     ]
+    },
+    "t": {
+     "pick": [
+      0.4,
+      0.6,
+      1,
+      1.2,
+      1.6,
+      2,
+      2.4
+     ]
+    }
+   },
+   "prompt": "A clap is heard as an echo {t} s after it is made. Taking the speed of sound as {v} m/s, how far away is the reflecting wall, in metres?",
+   "answer": "echoDist(v, t)",
+   "misconceptions": [
+    {
+     "id": "full",
+     "wrong": "roundTo(waveSpeed(v, t), 0.1)",
+     "explain": "{v * t} m is the whole path there and back: halve it."
+    },
+    {
+     "id": "quarter",
+     "wrong": "roundTo(v * t / 4, 0.1)",
+     "explain": "The path is twice the distance to the wall, so halve it once only."
+    }
+   ],
+   "solution": [
+    "In {t} s the sound covers {v} × {t} = {v * t} m.",
+    "That is to the wall and back, so the wall is half as far.",
+    "d = {v * t} ÷ {2} = {answer} m."
+   ],
+   "unit": "m"
+  },
+  {
+   "id": "p4-14-depth",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "sound"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      1400,
+      1500,
+      1600
+     ]
+    },
+    "t": {
+     "pick": [
+      0.2,
+      0.4,
+      0.5,
+      0.8,
+      1,
+      1.5,
+      2
+     ]
+    }
+   },
+   "prompt": "A ship sends a sound pulse to the sea bed and receives the echo {t} s later. Sound travels at {v} m/s in sea water. Find the depth, in metres.",
+   "answer": "echoDist(v, t)",
+   "misconceptions": [
+    {
+     "id": "full",
+     "wrong": "roundTo(waveSpeed(v, t), 0.1)",
+     "explain": "That is the whole path down and back; the depth is half."
+    },
+    {
+     "id": "swap",
+     "wrong": "roundTo(t / v * 2, 0.0001)",
+     "explain": "distance = speed × time."
+    }
+   ],
+   "solution": [
+    "The pulse travels down and back, so the total path is {v} × {t} = {v * t} m.",
+    "The depth is half of that: {answer} m."
+   ],
+   "unit": "m"
+  },
+  {
+   "id": "p4-14-delay",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "sound"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      330,
+      340,
+      350
+     ]
+    },
+    "d": {
+     "int": [
+      50,
+      600
+     ]
+    }
+   },
+   "prompt": "A man stands {d} m from a cliff. Taking the speed of sound as {v} m/s, how long after his shout does he hear the echo, in seconds?",
+   "answer": "roundTo(2 * d / v, 0.01)",
+   "misconceptions": [
+    {
+     "id": "oneway",
+     "wrong": "roundTo(d / v, 0.01)",
+     "explain": "The echo has to come back as well: use {2}d."
+    },
+    {
+     "id": "swap",
+     "wrong": "roundTo(v / (2 * d), 0.01)",
+     "explain": "time = distance ÷ speed."
+    }
+   ],
+   "solution": [
+    "The sound travels to the cliff and back: {2} × {d} = {2 * d} m.",
+    "time = distance ÷ speed = {2 * d} ÷ {v} = {answer} s."
+   ],
+   "unit": "s",
+   "where": [
+    "roundTo(2 * d / v, 0.01) >= 0.3",
+    "abs(2 * d / v * 1000 - round(2 * d / v * 1000)) > 0.01 || abs(round(2 * d / v * 1000)) % 10 != 5"
+   ]
+  }
+ ]
+}

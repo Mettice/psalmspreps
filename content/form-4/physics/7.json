@@ -1,0 +1,666 @@
+{
+ "subject": "physics",
+ "class": "Form 4",
+ "lesson_no": 7,
+ "language": "en",
+ "prerequisites": [
+  6
+ ],
+ "skills": [
+  {
+   "id": "p4-7",
+   "name": "Describe thermal expansion, the bimetallic strip and radiant energy converters"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Most substances expand when heated and contract when cooled: the particles vibrate more and take up more room. Gases expand most, then liquids, then solids.\nExpansion is useful (a bimetallic strip, fitting a metal tyre on a wheel) and a nuisance (buckled rails, cracked pipes), so gaps are left in railway lines and rollers are put under bridges.\nA bimetallic strip is two metals with different expansion joined together, usually brass and invar. When heated it bends, with the metal that expands more on the outside of the curve. It is used in fire alarms, thermostats and flashing indicators.\nA radiant energy converter changes radiant energy into another form: a solar panel into electricity, a solar water heater into internal energy of water.\nUnusual case: water contracts from 0 °C to 4 °C and expands again above 4 °C, so ice floats and lakes freeze from the top.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to explain thermal expansion, say which way a bimetallic strip bends and why, and name radiant energy converters.\nBuilds on: Lesson {6} (how heat moves) and Form Two particles and density.\nLeads to: Lesson {8}, which begins waves; and the thermostats and solar devices used at home."
+   },
+   {
+    "heading": "Expansion and its uses",
+    "text": "Heating gives particles more energy, so they vibrate more strongly and need more room: the body expands. Cooling contracts it. For the same rise in temperature, gases expand most, then liquids, then solids.\nAllowed for: gaps between railway lines, rollers under one end of a bridge, loops in overhead cables.\nPut to use: a hot metal rim slips onto a wheel and grips as it cools; a tight lid is loosened by warming it.\nWater is unusual: from {0} °C to {4} °C it contracts, and above {4} °C it expands. It is densest at {4} °C, so ice floats and a lake freezes from the top."
+   },
+   {
+    "heading": "Bimetallic strips and converters",
+    "text": "A bimetallic strip is two different metals, such as brass and invar, riveted together along their length. Brass expands much more than invar for the same rise.\nWhen the strip is heated, the brass gets longer but cannot slide, so the strip bends with the brass on the outside of the curve. On cooling it bends the other way.\nUses: a fire alarm, where the strip bends and closes a circuit; a thermostat in an iron or a refrigerator, where it bends and breaks the circuit when hot.\nA radiant energy converter changes the Sun's radiation into another form: a solar panel gives electricity, a solar water heater gives hot water."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "thermal expansion",
+    "meaning": "the increase in size of a body when it is heated"
+   },
+   {
+    "word": "bimetallic strip",
+    "meaning": "two metals with different expansion joined together, which bends when heated"
+   },
+   {
+    "word": "invar",
+    "meaning": "an alloy that expands very little when heated"
+   },
+   {
+    "word": "radiant energy converter",
+    "meaning": "a device that changes radiation into another form of energy"
+   }
+  ],
+  "examples": [
+   "gaps between railway lines",
+   "a thermostat in an electric iron",
+   "a dull black solar water heater"
+  ],
+  "mistake": {
+   "wrong": "on heating, a brass and invar strip bends with the invar on the outside",
+   "right": "the brass goes on the outside",
+   "why": "Brass expands more, so it must take the longer path, which is the outside of the curve."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 1
+  },
+  "problem": "A bimetallic strip of brass and invar is heated. Which way does it bend, and why?",
+  "steps": [
+   "Brass expands much more than invar for the same rise in temperature.",
+   "The two metals are joined, so the brass cannot stretch away from the invar.",
+   "The longer side must take the outside of the curve."
+  ],
+  "answer": "it bends with the brass on the outside, that is towards the invar side",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4p7-1",
+    "status": "draft",
+    "idea": "Heating makes particles vibrate more, so a solid expands; cooling contracts it.",
+    "vars": {},
+    "example": [
+     "a gap is left between railway lines so they can expand without buckling"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-7-why"
+    }
+   },
+   {
+    "id": "c4p7-2",
+    "status": "draft",
+    "idea": "A bimetallic strip bends with the metal that expands more on the outside of the curve.",
+    "vars": {},
+    "example": [
+     "brass and invar: on heating, the brass is on the outside"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-7-bimetal"
+    }
+   },
+   {
+    "id": "c4p7-3",
+    "status": "draft",
+    "idea": "A radiant energy converter turns the Sun's radiation into another useful form.",
+    "vars": {},
+    "example": [
+     "a solar panel gives electricity; a solar heater gives hot water"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p4-7-converter-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "expansion"
+     ],
+     "vars": {
+      "A": {
+       "pick": [
+        {
+         "r": "A solar panel: radiant energy to electrical energy",
+         "w1": "A solar panel: electrical energy to radiant energy",
+         "w2": "A torch bulb: radiant energy to electrical energy",
+         "w3": "A solar panel: chemical energy to radiant energy",
+         "y": "A solar panel takes in the Sun's radiation and gives out electricity."
+        },
+        {
+         "r": "A solar water heater: radiant energy to internal energy of water",
+         "w1": "A solar water heater: electrical energy to radiant energy",
+         "w2": "A solar water heater: internal energy to radiant energy",
+         "w3": "A kettle: radiant energy to internal energy",
+         "y": "The dull black pipes absorb the Sun's radiation, and the water inside becomes hotter."
+        },
+        {
+         "r": "A green leaf: radiant energy to chemical energy",
+         "w1": "A green leaf: chemical energy to radiant energy",
+         "w2": "A green leaf: radiant energy to electrical energy",
+         "w3": "A candle: radiant energy to chemical energy",
+         "y": "In photosynthesis a leaf uses the Sun's radiation to build food, storing chemical energy."
+        }
+       ]
+      }
+     },
+     "prompt": "Which device is a radiant energy converter, and what change does it make?",
+     "correct": "{A.r}",
+     "distractors": [
+      {
+       "text": "{A.w1}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{A.w2}",
+       "misconception": "w2"
+      },
+      {
+       "text": "{A.w3}",
+       "misconception": "w3"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w1",
+       "explain": "{A.y}"
+      },
+      {
+       "id": "w2",
+       "explain": "{A.y}"
+      },
+      {
+       "id": "w3",
+       "explain": "{A.y}"
+      }
+     ],
+     "solution": [
+      "{A.y}",
+      "So the answer is: {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p4-7-why",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expansion"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does a metal bar get longer when it is heated?",
+       "r": "Its particles vibrate more strongly, so they push each other a little further apart",
+       "w": [
+        "New particles are made inside the metal",
+        "The particles themselves get bigger",
+        "The metal takes in air as it warms"
+       ],
+       "e": [
+        "The number of particles does not change: the same particles take up more room.",
+        "A particle does not change size; the spacing between particles grows.",
+        "A solid metal bar does not take in air."
+       ],
+       "y": "Heating gives the particles more energy, so they vibrate more and need more room."
+      },
+      {
+       "q": "Which expands most for the same rise in temperature?",
+       "r": "A gas",
+       "w": [
+        "A solid",
+        "A liquid",
+        "They all expand by the same amount"
+       ],
+       "e": [
+        "A solid expands least: its particles are held tightly in place.",
+        "A liquid expands more than a solid but far less than a gas.",
+        "The three states expand by very different amounts."
+       ],
+       "y": "The freer the particles, the more the substance expands: gases most, then liquids, then solids."
+      },
+      {
+       "q": "Why is a small gap left between lengths of railway line?",
+       "r": "So that the rails can get longer on a hot day without pushing on each other",
+       "w": [
+        "To let rain drain away from the track",
+        "To make the ride quieter",
+        "To save the cost of steel"
+       ],
+       "e": [
+        "Drainage is handled by the bed under the track, not by the gaps.",
+        "The gaps make the familiar knocking sound; they do not make the ride quieter.",
+        "The saving in steel is tiny; the reason is expansion."
+       ],
+       "y": "Without the gap, expanding rails would push against each other and buckle."
+      },
+      {
+       "q": "A tight metal lid will not turn on a glass jar. Why does holding it under hot water help?",
+       "r": "The metal lid expands more than the glass, so it becomes a little looser",
+       "w": [
+        "The hot water makes the glass contract",
+        "The water washes away the dirt holding it",
+        "Hot metal becomes softer and bends"
+       ],
+       "e": [
+        "The glass is warmed too, and it expands as well, only by less.",
+        "Dirt is not usually what holds a lid; the tight fit is.",
+        "The lid does not get hot enough to soften."
+       ],
+       "y": "Metal expands more than glass for the same rise, so the fit between them loosens."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p4-7-bimetal",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "expansion"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A bimetallic strip of brass and invar is heated. Which way does it bend?",
+       "r": "Towards the invar, with the brass on the outside of the curve",
+       "w": [
+        "Towards the brass, with the invar on the outside",
+        "It stays straight and just gets longer",
+        "It bends one way, then the other"
+       ],
+       "e": [
+        "Invar expands very little; the side that expands more must take the outside.",
+        "The two sides grow by different amounts, so the strip must bend.",
+        "It bends one way on heating and the other way on cooling, not both at once."
+       ],
+       "y": "Brass expands more, and the two are joined, so the brass takes the longer path round the outside."
+      },
+      {
+       "q": "The same brass and invar strip is then cooled well below room temperature. Which way does it bend?",
+       "r": "The other way, with the invar on the outside",
+       "w": [
+        "The same way as when heated",
+        "It stays bent as it was",
+        "It breaks apart"
+       ],
+       "e": [
+        "Cooling contracts the brass more, so the bending is reversed.",
+        "The strip returns through the straight shape and then bends the other way.",
+        "The two metals are riveted together and stay joined."
+       ],
+       "y": "Brass contracts more than invar, so now the brass is the shorter side and takes the inside of the curve."
+      },
+      {
+       "q": "How does a bimetallic strip work in a fire alarm?",
+       "r": "The heat of a fire bends the strip until it touches a contact and completes the circuit",
+       "w": [
+        "The strip melts and lets the current through",
+        "The strip blocks the current when it is hot",
+        "The strip rings the bell by vibrating"
+       ],
+       "e": [
+        "The strip does not melt; it bends while staying solid.",
+        "In an alarm the strip CLOSES the circuit; a thermostat is the one that breaks it.",
+        "The bell is rung by the circuit, not by the strip itself."
+       ],
+       "y": "Bending on heating closes a gap in the circuit, so the bell rings."
+      },
+      {
+       "q": "How does a bimetallic strip control the temperature of an electric iron?",
+       "r": "When the iron gets too hot the strip bends and breaks the circuit, and it closes again as the iron cools",
+       "w": [
+        "It bends and closes the circuit when the iron is hot",
+        "It melts at the chosen temperature",
+        "It measures the temperature on a dial only"
+       ],
+       "e": [
+        "Closing the circuit when hot would make the iron hotter still.",
+        "The strip stays solid; it bends instead of melting.",
+        "It does more than show a temperature: it switches the heater off and on."
+       ],
+       "y": "A thermostat uses the bending to switch the heater off when hot and on again when cool."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p4-7-use",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "expansion"
+   ],
+   "vars": {
+    "A": {
+     "pick": [
+      {
+       "r": "A gap left between lengths of railway line",
+       "w1": "A rubber mat under a machine",
+       "w2": "A fuse in an electric circuit",
+       "w3": "A lens in a pair of spectacles",
+       "y": "On a hot day the rails get longer; without a gap they would push against each other and buckle."
+      },
+      {
+       "r": "Rollers placed under one end of a steel bridge",
+       "w1": "Paint on the steel of a bridge",
+       "w2": "Lights fixed along a bridge",
+       "w3": "A weight limit sign on a bridge",
+       "y": "The rollers let the bridge get longer and shorter as the temperature changes, without cracking its supports."
+      },
+      {
+       "r": "A bimetallic strip in an electric iron's thermostat",
+       "w1": "The flex of an electric iron",
+       "w2": "The plastic handle of an iron",
+       "w3": "The soleplate's smooth surface",
+       "y": "As the iron gets hot the strip bends and breaks the circuit, so the temperature is controlled."
+      },
+      {
+       "r": "Heating a metal rim to fit it onto a wooden wheel",
+       "w1": "Painting a wooden wheel before use",
+       "w2": "Oiling the axle of a wheel",
+       "w3": "Choosing hard wood for the wheel",
+       "y": "The hot rim is larger, so it slips on; as it cools it contracts and grips the wheel tightly."
+      }
+     ]
+    }
+   },
+   "prompt": "Which use depends on thermal expansion?",
+   "correct": "{A.r}",
+   "distractors": [
+    {
+     "text": "{A.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{A.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{A.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{A.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{A.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{A.y}"
+    }
+   ],
+   "solution": [
+    "{A.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "p4-7-water",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "expansion"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Water is cooled from {8} °C to {0} °C. What happens to its volume?",
+       "r": "It contracts down to {4} °C, then expands from {4} °C to {0} °C",
+       "w": [
+        "It contracts all the way",
+        "It expands all the way",
+        "It stays the same"
+       ],
+       "e": [
+        "Water is unusual: below {4} °C it expands as it cools.",
+        "From {8} °C to {4} °C it contracts in the ordinary way.",
+        "Its volume does change; water is densest at {4} °C."
+       ],
+       "y": "Water is densest at {4} °C, so cooling below that makes it expand again."
+      },
+      {
+       "q": "At what temperature is water at its densest?",
+       "r": "{4} °C",
+       "w": [
+        "{0} °C",
+        "{100} °C",
+        "−{4} °C"
+       ],
+       "e": [
+        "At {0} °C water has already expanded again and is less dense than at {4} °C.",
+        "Water is least dense as a liquid near its boiling point.",
+        "Water is ice below {0} °C, and ice is less dense than water."
+       ],
+       "y": "Between {0} °C and {4} °C water behaves unusually; at {4} °C its volume is smallest."
+      },
+      {
+       "q": "Why does ice float on water?",
+       "r": "Water expands as it freezes, so ice is less dense than water",
+       "w": [
+        "Ice is colder, and cold things float",
+        "Ice traps air bubbles that lift it",
+        "Ice is a solid, and solids always float on their liquids"
+       ],
+       "e": [
+        "Temperature alone does not decide floating; density does.",
+        "Even clear ice with no bubbles floats.",
+        "Most solids sink in their own liquid; water is the unusual one."
+       ],
+       "y": "The particles take up more room in ice than in water, so ice has the lower density."
+      },
+      {
+       "q": "Why does a pond in a cold country freeze from the top down?",
+       "r": "Water at {4} °C is densest and sinks, so the coldest water stays on top and freezes there",
+       "w": [
+        "The bottom of a pond is always warmer than the air",
+        "Ice forms first on the ground and floats up",
+        "Cold water is denser, so it freezes at the bottom"
+       ],
+       "e": [
+        "The bottom stays near {4} °C because of the unusual density of water, not because of the ground.",
+        "Ice forms at the surface, where the water is coldest.",
+        "Water below {4} °C is LESS dense, so it stays at the top."
+       ],
+       "y": "Water cooled below {4} °C rises to the surface, and the ice that forms floats, letting fish live below."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p4-7-converter",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "expansion"
+   ],
+   "vars": {
+    "A": {
+     "pick": [
+      {
+       "r": "A solar panel: radiant energy to electrical energy",
+       "w1": "A solar panel: electrical energy to radiant energy",
+       "w2": "A torch bulb: radiant energy to electrical energy",
+       "w3": "A solar panel: chemical energy to radiant energy",
+       "y": "A solar panel takes in the Sun's radiation and gives out electricity."
+      },
+      {
+       "r": "A solar water heater: radiant energy to internal energy of water",
+       "w1": "A solar water heater: electrical energy to radiant energy",
+       "w2": "A solar water heater: internal energy to radiant energy",
+       "w3": "A kettle: radiant energy to internal energy",
+       "y": "The dull black pipes absorb the Sun's radiation, and the water inside becomes hotter."
+      },
+      {
+       "r": "A green leaf: radiant energy to chemical energy",
+       "w1": "A green leaf: chemical energy to radiant energy",
+       "w2": "A green leaf: radiant energy to electrical energy",
+       "w3": "A candle: radiant energy to chemical energy",
+       "y": "In photosynthesis a leaf uses the Sun's radiation to build food, storing chemical energy."
+      }
+     ]
+    }
+   },
+   "prompt": "Which device is a radiant energy converter, and what change does it make?",
+   "correct": "{A.r}",
+   "distractors": [
+    {
+     "text": "{A.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{A.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{A.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{A.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{A.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{A.y}"
+    }
+   ],
+   "solution": [
+    "{A.y}",
+    "So the answer is: {answer}."
+   ]
+  }
+ ]
+}

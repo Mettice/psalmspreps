@@ -1,0 +1,515 @@
+{
+ "subject": "physics",
+ "class": "Form 4",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [
+  12
+ ],
+ "skills": [
+  {
+   "id": "p4-15",
+   "name": "Relate the frequency of a vibrating string to its length, mass per unit length and tension"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "The fundamental frequency of a stretched string depends on three things:\n• Length L: f is inversely proportional to L. Halving the length doubles the frequency.\n• Mass per unit length µ: f is inversely proportional to √µ. A thicker, heavier string gives a lower note.\n• Tension T: f is proportional to √T. Tightening the string raises the note.\nTogether: f = (1/2L)√(T/µ).\nThis is why a guitarist presses a string against a fret (shorter L, higher note), why the low strings are thick, and why a string is tuned by turning a peg to change the tension.\nThe sonometer is the laboratory instrument used to check these relations.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to say how the frequency of a vibrating string depends on its length, tension and mass per unit length, and use the formula for its fundamental frequency.\nBuilds on: Lesson {12} (stationary waves on a string) and Lesson {13} (pitch and frequency).\nLeads to: the tuning of musical instruments, and resonance in Form Five."
+   },
+   {
+    "heading": "Three things that change the note",
+    "text": "A stretched string sounds its fundamental, with one loop and λ = {2}L.\n• Length L: f is inversely proportional to L. Halve the vibrating length and the frequency doubles, so the note rises by an octave. That is what a guitarist does by pressing a string against a fret.\n• Tension T: f is proportional to √T. To double the frequency, the tension must be made {4} times as great. A string is tuned by turning a peg to change T.\n• Mass per unit length µ: f is inversely proportional to √µ. A thick, heavy string vibrates more slowly, which is why the low strings of a guitar are the thickest."
+   },
+   {
+    "heading": "The formula and the sonometer",
+    "text": "Putting the three together:\nf = ({1} ÷ {2}L) × √(T ÷ µ).\nThe same result follows from v = fλ: for the fundamental λ = {2}L, so f = v ÷ ({2}L), and the speed of the wave on the string depends on T and µ.\nA sonometer is used to check these relations in the laboratory: a wire is stretched over two bridges by a known weight, and the bridges are moved to change the vibrating length. Keeping two of the three quantities fixed and changing the third shows each relation in turn."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "fundamental frequency",
+    "meaning": "the lowest frequency of a vibrating string, with one loop"
+   },
+   {
+    "word": "tension",
+    "meaning": "the stretching force in the string, in newtons"
+   },
+   {
+    "word": "mass per unit length (µ)",
+    "meaning": "the mass of one metre of the string, in kg/m"
+   },
+   {
+    "word": "sonometer",
+    "meaning": "an instrument for studying the vibration of a stretched wire"
+   }
+  ],
+  "examples": [
+   "half the length → double the frequency",
+   "{4} times the tension → double the frequency",
+   "{4} times µ → half the frequency"
+  ],
+  "mistake": {
+   "wrong": "doubling the tension doubles the frequency",
+   "right": "the tension must be {4} times as great",
+   "why": "f is proportional to the SQUARE ROOT of the tension, and √{4} = {2}."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f1": 200,
+   "k": 2
+  },
+  "problem": "A string of length L vibrates at {f1} Hz. It is pressed down so that only {1}/{k} of its length can vibrate, with the tension unchanged. Find the new frequency.",
+  "steps": [
+   "Frequency is inversely proportional to the vibrating length: f ∝ {1}/L.",
+   "The length is divided by {k}, so the frequency is multiplied by {k}.",
+   "f = {k} × {f1}."
+  ],
+  "answer": "{k * f1} Hz",
+  "checks": [
+   "k * f1 == 400"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4p15-1",
+    "status": "draft",
+    "idea": "f is inversely proportional to the length: halve the length and the frequency doubles.",
+    "vars": {},
+    "example": [
+     "{200} Hz on a full string becomes {400} Hz on half of it"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-15-length"
+    }
+   },
+   {
+    "id": "c4p15-2",
+    "status": "draft",
+    "idea": "f is proportional to √T: to double the frequency the tension must be {4} times as great.",
+    "vars": {},
+    "example": [
+     "tension × {4} gives frequency × {2}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p4-15-tension-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "waves"
+     ],
+     "vars": {
+      "f1": {
+       "pick": [
+        80,
+        100,
+        120,
+        150,
+        200,
+        250
+       ]
+      },
+      "k": {
+       "int": [
+        2,
+        4
+       ]
+      }
+     },
+     "prompt": "A string vibrates at {f1} Hz. The tension is increased to {k * k} times its old value, with the length and the string unchanged. Find the new frequency, in hertz.",
+     "answer": "k * f1",
+     "misconceptions": [
+      {
+       "id": "direct",
+       "wrong": "k * k * f1",
+       "explain": "The frequency goes with the SQUARE ROOT of the tension: × {k}, not × {k * k}."
+      },
+      {
+       "id": "down",
+       "wrong": "roundTo(f1 / k, 0.1)",
+       "explain": "A tighter string gives a HIGHER note."
+      }
+     ],
+     "solution": [
+      "f is proportional to √T.",
+      "√{k * k} = {k}, so the frequency is multiplied by {k}.",
+      "f = {k} × {f1} = {answer} Hz."
+     ],
+     "unit": "Hz"
+    }
+   },
+   {
+    "id": "c4p15-3",
+    "status": "draft",
+    "idea": "f is inversely proportional to √µ: a thicker, heavier string gives a lower note.",
+    "vars": {},
+    "example": [
+     "µ × {4} gives frequency ÷ {2}"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p4-15-mass-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "waves"
+     ],
+     "vars": {
+      "k": {
+       "int": [
+        2,
+        4
+       ]
+      },
+      "q": {
+       "pick": [
+        30,
+        40,
+        50,
+        60,
+        80,
+        100
+       ]
+      },
+      "f1": {
+       "expr": "q * k"
+      }
+     },
+     "prompt": "A string vibrates at {f1} Hz. It is replaced by one of the same length and tension but with {k * k} times the mass per unit length. Find the new frequency, in hertz.",
+     "answer": "f1 / k",
+     "misconceptions": [
+      {
+       "id": "up",
+       "wrong": "f1 * k",
+       "explain": "A heavier string gives a LOWER note."
+      },
+      {
+       "id": "square",
+       "wrong": "roundTo(f1 / (k * k), 0.1)",
+       "explain": "Use the square root of the mass per unit length: ÷ {k}, not ÷ {k * k}."
+      }
+     ],
+     "solution": [
+      "f is inversely proportional to √µ.",
+      "√{k * k} = {k}, so the frequency is divided by {k}.",
+      "f = {f1} ÷ {k} = {answer} Hz."
+     ],
+     "unit": "Hz"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p4-15-length",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "waves"
+   ],
+   "vars": {
+    "f1": {
+     "pick": [
+      100,
+      120,
+      150,
+      200,
+      240,
+      300
+     ]
+    },
+    "L": {
+     "pick": [
+      40,
+      60,
+      80,
+      90,
+      100,
+      120
+     ]
+    },
+    "r": {
+     "pick": [
+      2,
+      3,
+      4
+     ]
+    },
+    "L2": {
+     "expr": "L / r"
+    }
+   },
+   "prompt": "A string {L} cm long gives a note of {f1} Hz. The vibrating length is changed to {L2} cm, with everything else the same. Find the new frequency, in hertz.",
+   "answer": "f1 * L / L2",
+   "misconceptions": [
+    {
+     "id": "direct",
+     "wrong": "roundTo(f1 * L2 / L, 0.1)",
+     "explain": "A SHORTER string gives a HIGHER note: f is inversely proportional to L."
+    },
+    {
+     "id": "same",
+     "wrong": "f1",
+     "explain": "Changing the vibrating length changes the frequency."
+    }
+   ],
+   "solution": [
+    "f is inversely proportional to L, so f₁L₁ = f₂L₂.",
+    "f₂ = {f1} × {L} ÷ {L2} = {answer} Hz."
+   ],
+   "unit": "Hz",
+   "where": [
+    "L % r == 0"
+   ]
+  },
+  {
+   "id": "p4-15-tension",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "waves"
+   ],
+   "vars": {
+    "f1": {
+     "pick": [
+      80,
+      100,
+      120,
+      150,
+      200,
+      250
+     ]
+    },
+    "k": {
+     "int": [
+      2,
+      4
+     ]
+    }
+   },
+   "prompt": "A string vibrates at {f1} Hz. The tension is increased to {k * k} times its old value, with the length and the string unchanged. Find the new frequency, in hertz.",
+   "answer": "k * f1",
+   "misconceptions": [
+    {
+     "id": "direct",
+     "wrong": "k * k * f1",
+     "explain": "The frequency goes with the SQUARE ROOT of the tension: × {k}, not × {k * k}."
+    },
+    {
+     "id": "down",
+     "wrong": "roundTo(f1 / k, 0.1)",
+     "explain": "A tighter string gives a HIGHER note."
+    }
+   ],
+   "solution": [
+    "f is proportional to √T.",
+    "√{k * k} = {k}, so the frequency is multiplied by {k}.",
+    "f = {k} × {f1} = {answer} Hz."
+   ],
+   "unit": "Hz"
+  },
+  {
+   "id": "p4-15-mass",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "waves"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      2,
+      4
+     ]
+    },
+    "q": {
+     "pick": [
+      30,
+      40,
+      50,
+      60,
+      80,
+      100
+     ]
+    },
+    "f1": {
+     "expr": "q * k"
+    }
+   },
+   "prompt": "A string vibrates at {f1} Hz. It is replaced by one of the same length and tension but with {k * k} times the mass per unit length. Find the new frequency, in hertz.",
+   "answer": "f1 / k",
+   "misconceptions": [
+    {
+     "id": "up",
+     "wrong": "f1 * k",
+     "explain": "A heavier string gives a LOWER note."
+    },
+    {
+     "id": "square",
+     "wrong": "roundTo(f1 / (k * k), 0.1)",
+     "explain": "Use the square root of the mass per unit length: ÷ {k}, not ÷ {k * k}."
+    }
+   ],
+   "solution": [
+    "f is inversely proportional to √µ.",
+    "√{k * k} = {k}, so the frequency is divided by {k}.",
+    "f = {f1} ÷ {k} = {answer} Hz."
+   ],
+   "unit": "Hz"
+  },
+  {
+   "id": "p4-15-which",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "waves"
+   ],
+   "vars": {
+    "G": {
+     "pick": [
+      {
+       "q": "presses a string against a fret nearer the middle of the neck",
+       "r": "It becomes higher, because the vibrating length is shorter",
+       "w1": "It becomes lower, because the string is shorter",
+       "w2": "It becomes louder but keeps its pitch",
+       "w3": "Nothing changes",
+       "y": "f is inversely proportional to the vibrating length, so a shorter length gives a higher frequency."
+      },
+      {
+       "q": "turns a peg to tighten a string",
+       "r": "It becomes higher, because the tension is greater",
+       "w1": "It becomes lower, because the string is stretched",
+       "w2": "It becomes louder but keeps its pitch",
+       "w3": "Nothing changes",
+       "y": "f is proportional to √T, so more tension gives a higher frequency."
+      },
+      {
+       "q": "plays the thickest string instead of the thinnest, at the same length and tension",
+       "r": "It is lower, because the mass per unit length is greater",
+       "w1": "It is higher, because a thick string carries more energy",
+       "w2": "It is the same, because the length is the same",
+       "w3": "It is louder but the same pitch",
+       "y": "f is inversely proportional to √µ, so a heavier string gives a lower frequency."
+      },
+      {
+       "q": "plucks the same string harder, changing nothing else",
+       "r": "It is louder, with the same pitch",
+       "w1": "It is higher in pitch",
+       "w2": "It is lower in pitch",
+       "w3": "Nothing changes",
+       "y": "Plucking harder increases the amplitude, which changes the loudness; the frequency is set by L, T and µ."
+      }
+     ]
+    },
+    "act": {
+     "expr": "G.q"
+    }
+   },
+   "prompt": "A guitarist {act}. What happens to the note?",
+   "correct": "{G.r}",
+   "distractors": [
+    {
+     "text": "{G.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{G.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{G.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{G.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{G.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{G.y}"
+    }
+   ],
+   "solution": [
+    "{G.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "p4-15-formula",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "waves"
+   ],
+   "vars": {
+    "L": {
+     "pick": [
+      0.25,
+      0.4,
+      0.5,
+      0.6,
+      0.8,
+      1
+     ]
+    },
+    "v": {
+     "pick": [
+      100,
+      120,
+      150,
+      200,
+      240,
+      300,
+      400
+     ]
+    }
+   },
+   "prompt": "A string of vibrating length {L} m carries a wave of speed {v} m/s. Find its fundamental frequency, in hertz.",
+   "answer": "roundTo(v / (2 * L), 0.01)",
+   "misconceptions": [
+    {
+     "id": "nohalf",
+     "wrong": "roundTo(v / L, 0.01)",
+     "explain": "For the fundamental the wavelength is {2}L, not L."
+    },
+    {
+     "id": "swap",
+     "wrong": "roundTo(2 * L / v, 0.0001)",
+     "explain": "f = v ÷ λ."
+    }
+   ],
+   "solution": [
+    "For the fundamental, λ = {2}L = {2} × {L} = {2 * L} m.",
+    "f = v ÷ λ = {v} ÷ {2 * L}.",
+    "f = {answer} Hz."
+   ],
+   "unit": "Hz"
+  }
+ ]
+}

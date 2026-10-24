@@ -1,0 +1,662 @@
+{
+ "subject": "physics",
+ "class": "Form 4",
+ "lesson_no": 8,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "p4-8",
+   "name": "Classify waves by the medium they need and by how the particles move"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A wave is a travelling disturbance that carries energy from place to place without carrying the material along. Each particle vibrates about its own position and passes the energy on.\nBy medium:\n• Mechanical waves need a material medium: sound, water ripples, waves on a rope or a spring.\n• Electromagnetic waves need no medium and cross a vacuum: light, radio, microwaves, X-rays.\nBy the direction of vibration:\n• Transverse: particles vibrate at right angles to the direction of travel. Water ripples, light, a wave on a rope.\n• Longitudinal: particles vibrate along the direction of travel, making compressions and rarefactions. Sound, a wave along a spring.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to say what a wave carries, and classify any wave as mechanical or electromagnetic and as transverse or longitudinal.\nBuilds on: Form Three energy and the idea of vibration.\nLeads to: Lesson {9} (the quantities that describe a wave) and Lesson {13} (sound as a longitudinal wave)."
+   },
+   {
+    "heading": "Energy, not matter",
+    "text": "Drop a stone in a pond and ripples spread out. A cork floating on the water bobs up and down but stays where it is: the water is not carried to the edge. What travels is the disturbance, and with it the energy.\nIn every wave, each particle vibrates about its own position and passes the energy to the next particle.\nWaves need a source that vibrates, and most need something to travel through."
+   },
+   {
+    "heading": "Two ways to sort waves",
+    "text": "By the medium:\n• Mechanical waves need a material medium. Sound, water ripples and waves on a rope or spring are mechanical. A bell ringing in a jar goes silent as the air is pumped out.\n• Electromagnetic waves need no medium and cross a vacuum: light, radio, microwaves, X-rays. That is how sunlight reaches the Earth.\nBy the direction of the vibration:\n• Transverse: the particles vibrate at right angles to the direction of travel. Ripples, rope waves and light.\n• Longitudinal: the particles vibrate along the direction of travel, making compressions (particles close together) and rarefactions (particles far apart). Sound in air, and a wave pushed along a spring."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "wave",
+    "meaning": "a travelling disturbance that carries energy without carrying matter"
+   },
+   {
+    "word": "mechanical wave",
+    "meaning": "a wave that needs a material medium"
+   },
+   {
+    "word": "transverse",
+    "meaning": "vibration at right angles to the direction of travel"
+   },
+   {
+    "word": "longitudinal",
+    "meaning": "vibration along the direction of travel"
+   },
+   {
+    "word": "compression",
+    "meaning": "a region where particles are pushed close together"
+   }
+  ],
+  "examples": [
+   "sound: mechanical, longitudinal",
+   "light: electromagnetic, transverse",
+   "a ripple: mechanical, transverse"
+  ],
+  "mistake": {
+   "wrong": "sound can travel through space from a satellite",
+   "right": "sound needs a medium, so it cannot cross a vacuum",
+   "why": "Radio waves carry the message through space; a loudspeaker makes the sound in the air at the other end."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "z": 1
+  },
+  "problem": "Classify a sound wave travelling through air in two ways, and give a reason for each.",
+  "steps": [
+   "By medium: sound needs particles to pass the vibration on, so it cannot cross a vacuum. It is mechanical.",
+   "By the direction of vibration: the air is squeezed and stretched along the direction the sound travels.",
+   "That makes compressions (particles close together) and rarefactions (particles far apart)."
+  ],
+  "answer": "a mechanical, longitudinal wave",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4p8-1",
+    "status": "draft",
+    "idea": "A wave carries energy, not matter: each particle vibrates about its own place.",
+    "vars": {},
+    "example": [
+     "a cork on a pond bobs up and down as the ripple passes; it is not carried to the shore"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-8-kind"
+    }
+   },
+   {
+    "id": "c4p8-2",
+    "status": "draft",
+    "idea": "Mechanical waves need a medium; electromagnetic waves cross a vacuum.",
+    "vars": {},
+    "example": [
+     "sound dies in a vacuum jar; light still passes through it"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-8-medium"
+    }
+   },
+   {
+    "id": "c4p8-3",
+    "status": "draft",
+    "idea": "Transverse: vibration across the travel. Longitudinal: vibration along it.",
+    "vars": {},
+    "example": [
+     "a rope wave is transverse; a sound wave is longitudinal"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p4-8-direction-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "waves"
+     ],
+     "vars": {
+      "W": {
+       "pick": [
+        {
+         "n": "a ripple on the surface of a pond",
+         "t": true,
+         "y": "A floating leaf moves up and down while the ripple moves outwards."
+        },
+        {
+         "n": "a sound wave in air",
+         "t": false,
+         "y": "The air is squeezed and stretched along the direction the sound travels."
+        },
+        {
+         "n": "a wave sent along a rope by shaking one end up and down",
+         "t": true,
+         "y": "Each part of the rope moves up and down while the wave runs along it."
+        },
+        {
+         "n": "a wave sent along a spring by pushing one end in and out",
+         "t": false,
+         "y": "The coils bunch together and spread apart along the spring."
+        },
+        {
+         "n": "a light wave",
+         "t": true,
+         "y": "Light is an electromagnetic wave, and its fields vibrate across the direction of travel."
+        }
+       ]
+      }
+     },
+     "prompt": "Classify {W.n} by the direction in which its particles vibrate.",
+     "correct": "{W.t ? 'Transverse: the vibration is at right angles to the direction of travel' : 'Longitudinal: the vibration is along the direction of travel'}",
+     "distractors": [
+      {
+       "text": "{W.t ? 'Longitudinal: the vibration is along the direction of travel' : 'Transverse: the vibration is at right angles to the direction of travel'}",
+       "misconception": "swap"
+      },
+      {
+       "text": "Neither: the particles travel with the wave",
+       "misconception": "travel"
+      },
+      {
+       "text": "Both at the same time",
+       "misconception": "both"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "swap",
+       "explain": "{W.y}"
+      },
+      {
+       "id": "travel",
+       "explain": "The particles vibrate about fixed positions; only the energy travels on."
+      },
+      {
+       "id": "both",
+       "explain": "A wave is one or the other, not both."
+      }
+     ],
+     "solution": [
+      "{W.y}",
+      "So the answer is: {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p4-8-kind",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "waves"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is a wave?",
+       "r": "A travelling disturbance that carries energy without carrying the material along",
+       "w": [
+        "A flow of matter from one place to another",
+        "A store of energy that stays in one place",
+        "A kind of force"
+       ],
+       "e": [
+        "A cork on water bobs up and down and stays in place, so the water is not carried along.",
+        "A wave travels; it does not stay in one place.",
+        "A wave carries energy; a force is a push or a pull."
+       ],
+       "y": "Each particle vibrates about its own position and passes the energy on to the next."
+      },
+      {
+       "q": "Which wave needs a material medium to travel through?",
+       "r": "A sound wave",
+       "w": [
+        "A light wave",
+        "A radio wave",
+        "An X-ray"
+       ],
+       "e": [
+        "Light is electromagnetic and crosses the vacuum of space.",
+        "Radio waves are electromagnetic and reach us from satellites through space.",
+        "X-rays are electromagnetic and also cross a vacuum."
+       ],
+       "y": "Sound is mechanical: it needs particles to pass the vibration on, so it cannot cross a vacuum."
+      },
+      {
+       "q": "In a transverse wave, how do the particles move?",
+       "r": "At right angles to the direction the wave travels",
+       "w": [
+        "Along the direction the wave travels",
+        "In circles around the source",
+        "They do not move at all"
+       ],
+       "e": [
+        "That describes a longitudinal wave, such as sound.",
+        "The particles vibrate about a fixed position, backwards and forwards or up and down.",
+        "The particles do move; it is the wave that carries energy through them."
+       ],
+       "y": "Water ripples and light are transverse: the vibration is across the direction of travel."
+      },
+      {
+       "q": "In a longitudinal wave, how do the particles move?",
+       "r": "Backwards and forwards along the direction the wave travels",
+       "w": [
+        "At right angles to the direction of travel",
+        "They travel along with the wave",
+        "They stay completely still"
+       ],
+       "e": [
+        "That describes a transverse wave, such as a water ripple.",
+        "The particles vibrate about fixed positions; only the energy travels on.",
+        "The particles vibrate; otherwise no energy would be passed along."
+       ],
+       "y": "Sound in air is longitudinal: the air is squeezed into compressions and stretched into rarefactions."
+      },
+      {
+       "q": "Which list contains only mechanical waves?",
+       "r": "Sound, water ripples and waves on a spring",
+       "w": [
+        "Light, radio and X-rays",
+        "Sound, light and water ripples",
+        "Radio, microwaves and sound"
+       ],
+       "e": [
+        "Those three are electromagnetic: they need no medium.",
+        "Light is electromagnetic, not mechanical.",
+        "Radio and microwaves are electromagnetic."
+       ],
+       "y": "A mechanical wave needs a medium; sound, water ripples and spring waves all do."
+      },
+      {
+       "q": "A sound wave travels through air. What is a compression?",
+       "r": "A region where the air particles are pushed closer together",
+       "w": [
+        "A region where the particles are further apart than usual",
+        "A point where the wave stops",
+        "The highest point of the wave"
+       ],
+       "e": [
+        "That is a rarefaction, the opposite of a compression.",
+        "The wave does not stop; compressions travel along with it.",
+        "Highest and lowest points belong to a transverse wave, not to sound in air."
+       ],
+       "y": "A longitudinal wave is a series of compressions and rarefactions passing through the medium."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p4-8-medium",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "waves"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A ringing electric bell is inside a glass jar and the air is slowly pumped out. What happens?",
+       "r": "The sound fades away, but the bell can still be seen ringing",
+       "w": [
+        "The sound gets louder as the air is removed",
+        "Both the sound and the light disappear",
+        "Nothing changes"
+       ],
+       "e": [
+        "Fewer particles carry less sound, so it gets quieter, not louder.",
+        "Light needs no medium: it still passes through the vacuum.",
+        "Removing the air removes the medium that the sound needs."
+       ],
+       "y": "Sound needs particles to pass the vibration on; light is electromagnetic and crosses a vacuum."
+      },
+      {
+       "q": "Two astronauts stand side by side on the Moon, which has no atmosphere. Can they talk to each other directly?",
+       "r": "No: there is no air to carry the sound, so they must use radio",
+       "w": [
+        "Yes, because they are very close together",
+        "Yes, because sound travels faster in a vacuum",
+        "No, because the Moon is too cold for sound"
+       ],
+       "e": [
+        "Distance is not the problem: there is no medium at all.",
+        "Sound cannot travel in a vacuum at any speed.",
+        "Temperature changes the speed of sound a little, but the real problem is that there is no air."
+       ],
+       "y": "Sound is mechanical; radio waves are electromagnetic and cross the vacuum."
+      },
+      {
+       "q": "Why can a diver under water hear a boat engine?",
+       "r": "Water is a medium, and sound travels through it even faster than through air",
+       "w": [
+        "Sound travels only through air, so the diver hears it when surfacing",
+        "The sound travels through the vacuum between the boat and the diver",
+        "Water blocks sound completely"
+       ],
+       "e": [
+        "Liquids carry sound well; the diver hears it under water.",
+        "There is no vacuum between a boat and a diver; the water is the medium.",
+        "Water carries sound better than air does."
+       ],
+       "y": "A mechanical wave travels through any medium with particles, and faster where they are closer together."
+      },
+      {
+       "q": "Which of these could NOT reach us from a distant star?",
+       "r": "The sound of the star",
+       "w": [
+        "Light from the star",
+        "Radio waves from the star",
+        "X-rays from the star"
+       ],
+       "e": [
+        "Light is electromagnetic and crosses the near-vacuum of space.",
+        "Radio waves are electromagnetic and are received by radio telescopes.",
+        "X-rays are electromagnetic and are detected by satellites."
+       ],
+       "y": "Only electromagnetic waves cross space; sound needs a material medium."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p4-8-direction",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "waves"
+   ],
+   "vars": {
+    "W": {
+     "pick": [
+      {
+       "n": "a ripple on the surface of a pond",
+       "t": true,
+       "y": "A floating leaf moves up and down while the ripple moves outwards."
+      },
+      {
+       "n": "a sound wave in air",
+       "t": false,
+       "y": "The air is squeezed and stretched along the direction the sound travels."
+      },
+      {
+       "n": "a wave sent along a rope by shaking one end up and down",
+       "t": true,
+       "y": "Each part of the rope moves up and down while the wave runs along it."
+      },
+      {
+       "n": "a wave sent along a spring by pushing one end in and out",
+       "t": false,
+       "y": "The coils bunch together and spread apart along the spring."
+      },
+      {
+       "n": "a light wave",
+       "t": true,
+       "y": "Light is an electromagnetic wave, and its fields vibrate across the direction of travel."
+      }
+     ]
+    }
+   },
+   "prompt": "Classify {W.n} by the direction in which its particles vibrate.",
+   "correct": "{W.t ? 'Transverse: the vibration is at right angles to the direction of travel' : 'Longitudinal: the vibration is along the direction of travel'}",
+   "distractors": [
+    {
+     "text": "{W.t ? 'Longitudinal: the vibration is along the direction of travel' : 'Transverse: the vibration is at right angles to the direction of travel'}",
+     "misconception": "swap"
+    },
+    {
+     "text": "Neither: the particles travel with the wave",
+     "misconception": "travel"
+    },
+    {
+     "text": "Both at the same time",
+     "misconception": "both"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "{W.y}"
+    },
+    {
+     "id": "travel",
+     "explain": "The particles vibrate about fixed positions; only the energy travels on."
+    },
+    {
+     "id": "both",
+     "explain": "A wave is one or the other, not both."
+    }
+   ],
+   "solution": [
+    "{W.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "p4-8-match",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "waves"
+   ],
+   "prompt": "Match each wave to the kind it is.",
+   "pool": [
+    {
+     "left": "Sound in air",
+     "right": "Mechanical and longitudinal"
+    },
+    {
+     "left": "A ripple on water",
+     "right": "Mechanical and transverse"
+    },
+    {
+     "left": "Light from the Sun",
+     "right": "Electromagnetic and transverse"
+    },
+    {
+     "left": "A wave along a stretched rope",
+     "right": "Mechanical and transverse"
+    },
+    {
+     "left": "Radio waves from a mast",
+     "right": "Electromagnetic and transverse"
+    }
+   ],
+   "pick": 3
+  },
+  {
+   "id": "p4-8-energy",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "waves"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A boat rocks as waves pass under it, but it does not travel towards the shore. What does this show?",
+       "r": "A wave carries energy along, while the water itself only vibrates about one place",
+       "w": [
+        "The waves have no energy",
+        "The water travels to the shore but the boat does not",
+        "The boat is too heavy to be moved by waves"
+       ],
+       "e": [
+        "The rocking of the boat shows that energy is arriving.",
+        "If the water flowed to the shore, the boat would be carried with it.",
+        "A light cork behaves in the same way: it bobs without travelling."
+       ],
+       "y": "Each part of the water moves up and down and passes the energy to the next part."
+      },
+      {
+       "q": "A loud sound shakes a window pane across the room. What has crossed the room?",
+       "r": "Energy, carried by the sound wave through the air",
+       "w": [
+        "Air blown from the source to the window",
+        "Particles shot out by the source",
+        "Nothing: the window shakes by itself"
+       ],
+       "e": [
+        "The air vibrates in place; it does not blow across the room.",
+        "No particles leave the source; the air already there passes the vibration on.",
+        "The window shakes only when the sound is made, so something reaches it."
+       ],
+       "y": "A wave carries energy without carrying the medium along with it."
+      },
+      {
+       "q": "Two waves on a pond have the same wavelength, but one is twice as tall. What does the taller one carry?",
+       "r": "More energy, because the energy of a wave grows with its amplitude",
+       "w": [
+        "Less energy, because it moves more slowly",
+        "The same energy, because the wavelength is the same",
+        "The same energy, but at a higher frequency"
+       ],
+       "e": [
+        "Both travel at the same speed in the same water; height does not slow a wave.",
+        "Wavelength is not what decides the energy; amplitude is.",
+        "Equal wavelength at equal speed means equal frequency."
+       ],
+       "y": "A bigger amplitude means a bigger disturbance, and so more energy carried."
+      },
+      {
+       "q": "Sunlight warms a roof. How has the energy reached it?",
+       "r": "As an electromagnetic wave, which needs no medium",
+       "w": [
+        "As hot air blown from the Sun",
+        "As a mechanical wave through space",
+        "By conduction along the atmosphere"
+       ],
+       "e": [
+        "No air travels from the Sun; space between is nearly empty.",
+        "A mechanical wave needs particles, and space has almost none.",
+        "There is nothing between the Sun and the atmosphere to conduct along."
+       ],
+       "y": "Light is a wave that carries energy across a vacuum."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

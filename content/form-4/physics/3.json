@@ -1,0 +1,543 @@
+{
+ "subject": "physics",
+ "class": "Form 4",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "p4-3",
+   "name": "Define heat capacity and specific heat capacity; measure c for a solid"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Heat capacity C of a body is the heat needed to raise its temperature by 1 K: C = Q/Δθ, in J/K.\nSpecific heat capacity c of a material is the heat needed to raise 1 kg of it by 1 K: c = Q/(mΔθ), in J/(kg·K).\nSo Q = mcΔθ.\nWater has a high specific heat capacity, 4200 J/(kg·K): it warms and cools slowly and makes a good coolant.\nMethod of mixtures for a solid: heat the solid in boiling water, move it quickly to a known mass of water in a calorimeter, stir, and take the highest temperature. Then heat lost by the solid = heat gained by the water and calorimeter.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to use Q = mcΔθ to find heat, mass, temperature change or specific heat capacity, and describe how c is measured for a solid.\nBuilds on: Lesson {1} (heat and temperature) and Form Three energy calculations.\nLeads to: Lesson {4} (c for a liquid) and Lesson {5}, where heat changes the state instead of the temperature."
+   },
+   {
+    "heading": "Two capacities",
+    "text": "Heat capacity C is for a whole body: the heat needed to raise its temperature by {1} K. C = Q ÷ Δθ, measured in J/K. A big kettle of water has a larger heat capacity than a small cup.\nSpecific heat capacity c is per kilogram: the heat needed to raise {1} kg of a material by {1} K. c = Q ÷ (mΔθ), in J/(kg·K). It depends only on the material.\nRearranged: Q = mcΔθ.\nWater has c = {4200} J/(kg·K), much higher than most materials ({900} for aluminium, {400} for copper). So water warms slowly, cools slowly, and carries away a lot of heat as a coolant in a car engine."
+   },
+   {
+    "heading": "Measuring c for a solid",
+    "text": "• Find the mass of the metal block, and of the water and the calorimeter.\n• Heat the block in boiling water until it is at {100} °C.\n• Transfer it quickly into the cool water in the calorimeter, and stir.\n• Take the highest temperature reached.\nThen heat lost by the block = heat gained by the water (and the calorimeter):\nm_block × c × (θ_hot − θ_final) = m_water × {4200} × (θ_final − θ_cold).\nWorking quickly and lagging the calorimeter reduce heat lost to the room, which is the main source of error."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "heat capacity",
+    "meaning": "heat for a rise of {1} K in a body, in J/K"
+   },
+   {
+    "word": "specific heat capacity",
+    "meaning": "heat for a rise of {1} K in {1} kg, in J/(kg·K)"
+   },
+   {
+    "word": "calorimeter",
+    "meaning": "a metal can used to hold liquid in a heat experiment"
+   },
+   {
+    "word": "method of mixtures",
+    "meaning": "finding c by mixing a hot body with a cold one"
+   }
+  ],
+  "examples": [
+   "{1} kg of water, rise {10} K: Q = {42000} J",
+   "{0.5} kg of aluminium, rise {20} K: Q = {9000} J"
+  ],
+  "mistake": {
+   "wrong": "Q = mcΔθ with Δθ in kelvin needs the temperatures changed to K first",
+   "right": "a temperature CHANGE is the same in °C and K",
+   "why": "{80} °C − {20} °C = {60} °C, and in kelvin {353} − {293} = {60} K. Use the difference as it is."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": 2,
+   "c": 400,
+   "dt": 15
+  },
+  "problem": "How much heat is needed to raise the temperature of {m} kg of copper, c = {c} J/(kg·K), by {dt} K?",
+  "steps": [
+   "Q = mcΔθ.",
+   "Q = {m} × {c} × {dt}.",
+   "= {heatMC(m, c, dt)} J."
+  ],
+  "answer": "{heatMC(m, c, dt)} J",
+  "checks": [
+   "heatMC(m, c, dt) == 12000"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4p3-1",
+    "status": "draft",
+    "idea": "Heat capacity C = Q/Δθ is for a whole body, in J/K; specific heat capacity c = Q/(mΔθ) is per kilogram, in J/(kg·K).",
+    "vars": {},
+    "example": [
+     "{2} kg of water: c = {4200} J/(kg·K), so C = {8400} J/K"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-3-define"
+    }
+   },
+   {
+    "id": "c4p3-2",
+    "status": "draft",
+    "idea": "Q = mcΔθ: heat = mass × specific heat capacity × temperature change.",
+    "vars": {},
+    "example": [
+     "{0.5} kg of water warmed by {20} K: Q = {0.5} × {4200} × {20} = {42000} J"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-3-q"
+    }
+   },
+   {
+    "id": "c4p3-3",
+    "status": "draft",
+    "idea": "In the method of mixtures, heat lost by the hot body = heat gained by the cold one.",
+    "vars": {},
+    "example": [
+     "hot metal into cool water: m₁c₁(θ₁ − θ) = m₂c₂(θ − θ₂)"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p4-3-mix-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "calorimetry"
+     ],
+     "vars": {
+      "ms": {
+       "pick": [
+        0.2,
+        0.25,
+        0.5
+       ]
+      },
+      "mw": {
+       "pick": [
+        0.2,
+        0.4,
+        0.5
+       ]
+      },
+      "hot": {
+       "pick": [
+        90,
+        95,
+        100
+       ]
+      },
+      "cold": {
+       "int": [
+        20,
+        28
+       ]
+      },
+      "fin": {
+       "int": [
+        30,
+        45
+       ]
+      }
+     },
+     "prompt": "A {ms} kg metal block at {hot} °C is dropped into {mw} kg of water at {cold} °C. The final temperature is {fin} °C. Taking c for water as {4200} J/(kg·K) and ignoring the calorimeter, find c for the metal, in J/(kg·K).",
+     "answer": "roundTo(4200 * mw * (fin - cold) / (ms * (hot - fin)), 1)",
+     "misconceptions": [
+      {
+       "id": "swap",
+       "wrong": "roundTo(4200 * ms * (hot - fin) / (mw * (fin - cold)), 1)",
+       "explain": "The water GAINS heat (its temperature rises) and the metal LOSES it."
+      }
+     ],
+     "solution": [
+      "Heat gained by the water = {mw} × {4200} × ({fin} − {cold}) = {heatMC(mw, 4200, fin - cold)} J.",
+      "Heat lost by the metal = {ms} × c × ({hot} − {fin}) = {ms * (hot - fin)}c.",
+      "Heat lost = heat gained, so c = {heatMC(mw, 4200, fin - cold)} ÷ {ms * (hot - fin)} = {answer} J/(kg·K)."
+     ],
+     "unit": "J/(kg·K)",
+     "where": [
+      "fin > cold + 3",
+      "hot - fin > 20"
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p4-3-define",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "calorimetry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What is the specific heat capacity of a material?",
+       "r": "The heat needed to raise the temperature of {1} kg of it by {1} K",
+       "w": [
+        "The heat needed to raise the whole body by {1} K",
+        "The heat needed to melt {1} kg of it",
+        "The temperature it reaches when heated"
+       ],
+       "e": [
+        "That is heat capacity C, in J/K, which depends on how much of the material there is.",
+        "That is specific latent heat of fusion; melting happens at a constant temperature.",
+        "Specific heat capacity is an energy per kilogram per kelvin, not a temperature."
+       ],
+       "y": "'Specific' means per kilogram: c = Q ÷ (mΔθ), in J/(kg·K)."
+      },
+      {
+       "q": "What is the heat capacity of a body?",
+       "r": "The heat needed to raise the temperature of that whole body by {1} K",
+       "w": [
+        "The heat needed to raise {1} kg of it by {1} K",
+        "The total heat energy stored in the body",
+        "The highest temperature the body can reach"
+       ],
+       "e": [
+        "That is specific heat capacity, which is per kilogram and depends only on the material.",
+        "Heat capacity is about the heat needed for a rise of {1} K, not the energy already stored.",
+        "A body has no highest temperature of this kind; heat capacity is an energy per kelvin."
+       ],
+       "y": "C = Q ÷ Δθ, in J/K. A bigger body of the same material has a bigger heat capacity."
+      },
+      {
+       "q": "What is the unit of specific heat capacity?",
+       "r": "J/(kg·K)",
+       "w": [
+        "J/K",
+        "J/kg",
+        "J"
+       ],
+       "e": [
+        "J/K is the unit of heat capacity, which is for a whole body.",
+        "J/kg is the unit of specific latent heat, where there is no temperature change.",
+        "The joule is the unit of heat itself, not of a capacity."
+       ],
+       "y": "c = Q ÷ (mΔθ): joules divided by kilograms and by kelvin."
+      },
+      {
+       "q": "Water has a specific heat capacity of {4200} J/(kg·K) and copper {400} J/(kg·K). Which warms up faster for the same heat and mass?",
+       "r": "The copper, because less heat is needed for each degree",
+       "w": [
+        "The water, because it has the larger value",
+        "They warm at the same rate",
+        "Neither warms up"
+       ],
+       "e": [
+        "A large c means more heat is needed for each degree, so water warms more slowly.",
+        "The two values differ by more than ten times, so the rates differ greatly.",
+        "Both warm; the question is which warms faster."
+       ],
+       "y": "Δθ = Q ÷ (mc): the smaller the c, the bigger the temperature rise for the same heat."
+      },
+      {
+       "q": "Why is water used as the coolant in a car engine?",
+       "r": "It has a high specific heat capacity, so it carries away a lot of heat for a small rise in temperature",
+       "w": [
+        "It has a low specific heat capacity, so it heats up quickly",
+        "It conducts heat better than any metal",
+        "It never boils inside an engine"
+       ],
+       "e": [
+        "A low value would mean it heated quickly and carried away little heat.",
+        "Metals conduct far better than water; what matters here is the heat water can carry away.",
+        "Water can boil in an engine, which is why the system is kept under pressure."
+       ],
+       "y": "With c = {4200} J/(kg·K), each kilogram takes in {4200} J for every degree it rises."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p4-3-q",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "calorimetry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "n": "water",
+       "c": 4200
+      },
+      {
+       "n": "aluminium",
+       "c": 900
+      },
+      {
+       "n": "copper",
+       "c": 400
+      },
+      {
+       "n": "iron",
+       "c": 460
+      }
+     ]
+    },
+    "m": {
+     "pick": [
+      0.5,
+      1,
+      2,
+      2.5,
+      4
+     ]
+    },
+    "dt": {
+     "int": [
+      5,
+      60
+     ]
+    }
+   },
+   "prompt": "Find the heat needed to raise {m} kg of {X.n}, c = {X.c} J/(kg·K), by {dt} K.",
+   "answer": "heatMC(m, X.c, dt)",
+   "misconceptions": [
+    {
+     "id": "nom",
+     "wrong": "heatMC(1, X.c, dt)",
+     "explain": "Multiply by the mass {m} kg as well."
+    },
+    {
+     "id": "nodt",
+     "wrong": "heatMC(m, X.c, 1)",
+     "explain": "Multiply by the temperature change {dt} K as well."
+    }
+   ],
+   "solution": [
+    "Q = mcΔθ.",
+    "Q = {m} × {X.c} × {dt} = {answer} J."
+   ],
+   "unit": "J"
+  },
+  {
+   "id": "p4-3-capacity",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "calorimetry"
+   ],
+   "vars": {
+    "C": {
+     "pick": [
+      200,
+      350,
+      400,
+      800,
+      1200
+     ]
+    },
+    "dt": {
+     "int": [
+      3,
+      40
+     ]
+    }
+   },
+   "prompt": "A block has a heat capacity of {C} J/K. How much heat raises its temperature by {dt} K?",
+   "answer": "C * dt",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "C / dt",
+     "explain": "Multiply: more degrees need more heat."
+    },
+    {
+     "id": "same",
+     "wrong": "C",
+     "explain": "{C} J raises it by only {1} K."
+    }
+   ],
+   "solution": [
+    "Heat capacity is the heat for a rise of {1} K.",
+    "For {dt} K: Q = {C} × {dt} = {answer} J."
+   ],
+   "unit": "J"
+  },
+  {
+   "id": "p4-3-c",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "calorimetry"
+   ],
+   "vars": {
+    "m": {
+     "pick": [
+      0.5,
+      1,
+      2,
+      4,
+      5
+     ]
+    },
+    "c0": {
+     "pick": [
+      400,
+      450,
+      460,
+      900,
+      2100
+     ]
+    },
+    "dt": {
+     "int": [
+      4,
+      50
+     ]
+    },
+    "Q": {
+     "expr": "heatMC(m, c0, dt)"
+    }
+   },
+   "prompt": "A {m} kg metal block takes in {Q} J and its temperature rises by {dt} K. Find its specific heat capacity, in J/(kg·K).",
+   "answer": "Q / (m * dt)",
+   "misconceptions": [
+    {
+     "id": "nom",
+     "wrong": "Q / dt",
+     "explain": "Divide by the mass as well: c is per kilogram."
+    },
+    {
+     "id": "nodt",
+     "wrong": "Q / m",
+     "explain": "Divide by the temperature change as well: c is per kelvin."
+    }
+   ],
+   "solution": [
+    "Q = mcΔθ, so c = Q ÷ (mΔθ).",
+    "c = {Q} ÷ ({m} × {dt}) = {Q} ÷ {m * dt}.",
+    "c = {answer} J/(kg·K)."
+   ],
+   "unit": "J/(kg·K)"
+  },
+  {
+   "id": "p4-3-mix",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "calorimetry"
+   ],
+   "vars": {
+    "ms": {
+     "pick": [
+      0.2,
+      0.25,
+      0.5
+     ]
+    },
+    "mw": {
+     "pick": [
+      0.2,
+      0.4,
+      0.5
+     ]
+    },
+    "hot": {
+     "pick": [
+      90,
+      95,
+      100
+     ]
+    },
+    "cold": {
+     "int": [
+      20,
+      28
+     ]
+    },
+    "fin": {
+     "int": [
+      30,
+      45
+     ]
+    }
+   },
+   "prompt": "A {ms} kg metal block at {hot} °C is dropped into {mw} kg of water at {cold} °C. The final temperature is {fin} °C. Taking c for water as {4200} J/(kg·K) and ignoring the calorimeter, find c for the metal, in J/(kg·K).",
+   "answer": "roundTo(4200 * mw * (fin - cold) / (ms * (hot - fin)), 1)",
+   "misconceptions": [
+    {
+     "id": "swap",
+     "wrong": "roundTo(4200 * ms * (hot - fin) / (mw * (fin - cold)), 1)",
+     "explain": "The water GAINS heat (its temperature rises) and the metal LOSES it."
+    }
+   ],
+   "solution": [
+    "Heat gained by the water = {mw} × {4200} × ({fin} − {cold}) = {heatMC(mw, 4200, fin - cold)} J.",
+    "Heat lost by the metal = {ms} × c × ({hot} − {fin}) = {ms * (hot - fin)}c.",
+    "Heat lost = heat gained, so c = {heatMC(mw, 4200, fin - cold)} ÷ {ms * (hot - fin)} = {answer} J/(kg·K)."
+   ],
+   "unit": "J/(kg·K)",
+   "where": [
+    "fin > cold + 3",
+    "hot - fin > 20"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,368 @@
+{
+ "subject": "physics",
+ "class": "Form 4",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "p4-9",
+   "name": "Use a displacement-time graph to find period, frequency and amplitude"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A displacement-time graph shows how one particle moves as time passes.\n• Amplitude a: the greatest displacement from the rest position, in metres (or cm). It is measured from the middle line to a crest, not from crest to trough.\n• Period T: the time for one complete vibration, in seconds. On the graph it is the time from one crest to the next.\n• Frequency f: the number of complete vibrations each second, in hertz (Hz).\nf = 1/T and T = 1/f.\nThe energy a wave carries grows with its amplitude; a louder sound or a brighter light has a larger amplitude.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to read amplitude and period from a displacement-time graph and change between period and frequency.\nBuilds on: Lesson {8} (what a wave is) and Form Three measurement of time.\nLeads to: Lesson {10}, where wavelength and the equation v = fλ are added."
+   },
+   {
+    "heading": "Reading the graph",
+    "text": "A displacement-time graph follows one particle as time passes. Time runs across; displacement from the rest position runs up and down.\n• Amplitude a is the greatest displacement from the middle line. If the curve reaches {4} cm above and {4} cm below, the amplitude is {4} cm, not {8} cm.\n• Period T is the time for one complete vibration: from one crest to the next crest, or from one trough to the next. If {2} complete waves take {0.4} s, then T = {0.2} s.\nA bigger amplitude means the wave carries more energy: a louder sound, a brighter light, a taller sea wave."
+   },
+   {
+    "heading": "Period and frequency",
+    "text": "Frequency f is the number of complete vibrations each second, measured in hertz (Hz). One hertz is one vibration per second.\nPeriod and frequency are reciprocals:\n• f = {1} ÷ T  • T = {1} ÷ f\nExamples:\n• T = {0.2} s gives f = {1} ÷ {0.2} = {5} Hz.\n• f = {50} Hz gives T = {1} ÷ {50} = {0.02} s.\nIf a particle makes {60} vibrations in {4} s, then f = {60} ÷ {4} = {15} Hz, and T = {1} ÷ {15} s."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "amplitude",
+    "meaning": "the greatest displacement from the rest position"
+   },
+   {
+    "word": "period (T)",
+    "meaning": "the time for one complete vibration, in seconds"
+   },
+   {
+    "word": "frequency (f)",
+    "meaning": "vibrations per second, in hertz"
+   },
+   {
+    "word": "displacement",
+    "meaning": "how far a particle is from its rest position, and in which direction"
+   }
+  ],
+  "examples": [
+   "T = {0.5} s → f = {2} Hz",
+   "f = {25} Hz → T = {0.04} s",
+   "crest {3} cm above the line → amplitude {3} cm"
+  ],
+  "mistake": {
+   "wrong": "amplitude = the height from a crest to a trough",
+   "right": "amplitude = from the middle line to a crest",
+   "why": "Crest to trough is twice the amplitude."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "a": 4,
+   "T": 0.2
+  },
+  "problem": "A displacement-time graph of a vibrating particle is shown. Find its amplitude, period and frequency.",
+  "steps": [
+   "Amplitude: the greatest displacement from the middle line is {a} cm.",
+   "Period: one complete wave takes {T} s, read from one crest to the next.",
+   "Frequency: f = {1} ÷ T = {1} ÷ {T}."
+  ],
+  "answer": "amplitude {a} cm, period {T} s, frequency {waveT(T)} Hz",
+  "checks": [
+   "waveT(T) == 5"
+  ],
+  "figure": "waveFig(a, T, 2, 'Time', 's')"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4p9-1",
+    "status": "draft",
+    "idea": "Amplitude is measured from the middle line to a crest, not from crest to trough.",
+    "vars": {},
+    "example": [
+     "a graph reaching {4} cm above and {4} cm below the line has amplitude {4} cm"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-9-amp"
+    }
+   },
+   {
+    "id": "c4p9-2",
+    "status": "draft",
+    "idea": "The period is the time for one complete vibration; read it from crest to crest.",
+    "vars": {},
+    "example": [
+     "two complete waves in {0.4} s means T = {0.2} s"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-9-period"
+    }
+   },
+   {
+    "id": "c4p9-3",
+    "status": "draft",
+    "idea": "f = {1}/T and T = {1}/f; frequency is in hertz.",
+    "vars": {},
+    "example": [
+     "T = {0.2} s gives f = {5} Hz"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-9-freq"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p4-9-amp",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "waves"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "T": {
+     "pick": [
+      0.2,
+      0.4,
+      0.5,
+      1,
+      2
+     ]
+    }
+   },
+   "prompt": "From the displacement-time graph, what is the amplitude of the vibration, in cm?",
+   "answer": "a",
+   "misconceptions": [
+    {
+     "id": "peak2peak",
+     "wrong": "2 * a",
+     "explain": "That is the distance from a crest to a trough: the amplitude is half of it."
+    },
+    {
+     "id": "period",
+     "wrong": "T",
+     "explain": "{T} s is the period, read along the time axis."
+    }
+   ],
+   "solution": [
+    "Amplitude is the greatest displacement from the middle line.",
+    "The graph reaches {a} cm above the line, so the amplitude is {answer} cm."
+   ],
+   "figure": "waveFig(a, T, 2, 'Time', 's')",
+   "unit": "cm"
+  },
+  {
+   "id": "p4-9-period",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "waves"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      2,
+      8
+     ]
+    },
+    "T": {
+     "pick": [
+      0.2,
+      0.25,
+      0.4,
+      0.5,
+      1,
+      2
+     ]
+    }
+   },
+   "prompt": "From the graph, what is the period of the vibration, in seconds?",
+   "answer": "T",
+   "misconceptions": [
+    {
+     "id": "two",
+     "wrong": "2 * T",
+     "explain": "{2 * T} s is the time for TWO complete waves; one takes half of it."
+    },
+    {
+     "id": "amp",
+     "wrong": "a",
+     "explain": "{a} cm is the amplitude, read up the displacement axis."
+    }
+   ],
+   "solution": [
+    "The period is the time for one complete wave.",
+    "The graph shows {2} complete waves in {2 * T} s, so T = {answer} s."
+   ],
+   "figure": "waveFig(a, T, 2, 'Time', 's')",
+   "unit": "s"
+  },
+  {
+   "id": "p4-9-freq",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "waves"
+   ],
+   "vars": {
+    "T": {
+     "pick": [
+      0.01,
+      0.02,
+      0.025,
+      0.05,
+      0.1,
+      0.2,
+      0.25,
+      0.5,
+      2,
+      4
+     ]
+    }
+   },
+   "prompt": "A vibration has a period of {T} s. Find its frequency, in hertz.",
+   "answer": "waveT(T)",
+   "misconceptions": [
+    {
+     "id": "same",
+     "wrong": "T",
+     "explain": "Frequency is the reciprocal of the period, not the period itself."
+    },
+    {
+     "id": "times",
+     "wrong": "roundTo(T * 100, 0.01)",
+     "explain": "Divide {1} by the period; do not multiply."
+    }
+   ],
+   "solution": [
+    "f = {1} ÷ T.",
+    "f = {1} ÷ {T} = {answer} Hz."
+   ],
+   "unit": "Hz"
+  },
+  {
+   "id": "p4-9-period2",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "waves"
+   ],
+   "vars": {
+    "f": {
+     "pick": [
+      2,
+      4,
+      5,
+      8,
+      10,
+      20,
+      25,
+      40,
+      50,
+      100,
+      200,
+      250,
+      500
+     ]
+    }
+   },
+   "prompt": "A tuning fork vibrates at {f} Hz. Find its period, in seconds.",
+   "answer": "roundTo(waveT(f), 0.00001)",
+   "misconceptions": [
+    {
+     "id": "same",
+     "wrong": "f",
+     "explain": "The period is the reciprocal of the frequency."
+    },
+    {
+     "id": "sixty",
+     "wrong": "roundTo(60 / f, 0.00001)",
+     "explain": "Frequency is counted per second, so divide {1} by it, not {60}."
+    }
+   ],
+   "solution": [
+    "T = {1} ÷ f.",
+    "T = {1} ÷ {f} = {answer} s."
+   ],
+   "unit": "s"
+  },
+  {
+   "id": "p4-9-count",
+   "type": "numeric",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "waves"
+   ],
+   "vars": {
+    "t": {
+     "pick": [
+      2,
+      4,
+      5,
+      8,
+      10,
+      20
+     ]
+    },
+    "f0": {
+     "pick": [
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      20,
+      25
+     ]
+    },
+    "n": {
+     "expr": "f0 * t"
+    }
+   },
+   "prompt": "A particle makes {n} complete vibrations in {t} seconds. Find its frequency, in hertz.",
+   "answer": "n / t",
+   "misconceptions": [
+    {
+     "id": "swap",
+     "wrong": "t / n",
+     "explain": "Divide the number of vibrations by the time, not the other way round."
+    },
+    {
+     "id": "period",
+     "wrong": "roundTo(t / n, 0.0001)",
+     "explain": "That is the period, the time for ONE vibration."
+    }
+   ],
+   "solution": [
+    "Frequency is the number of complete vibrations each second.",
+    "f = {n} ÷ {t} = {answer} Hz."
+   ],
+   "unit": "Hz"
+  }
+ ]
+}

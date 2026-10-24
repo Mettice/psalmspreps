@@ -1737,6 +1737,7 @@ __mods["lib/physics.js"] = (() => {
 // as SVG from the question's own numbers (so the reading is computed, never typed). Used as {...maths, ...physics}.
 // Conventions to be checked by a teacher (docs/teacher-review.md, TR-P*): g = 10 N/kg, T(K) = T(°C) + 273.
 
+const { fmt } = __mods["lib/maths.js"];
 // ---------------------------------------------------------------- units
 // Each unit is a power of ten of the quantity's base unit (metre, gram, litre, second-free).
 const UNITS = {
@@ -1889,7 +1890,64 @@ const dateNum = (d, m, y) => y * 10000 + m * 100 + d;
 /** True if the "use before" date (d2, m2, y2) is still after today (d1, m1, y1). */
 const stillGood = (d1, m1, y1, d2, m2, y2) => dateNum(d2, m2, y2) > dateNum(d1, m1, y1);
 
-return { quantityOf, convertUnit, factor, toKelvin, toCelsius, weight, density, floatsInWater, cuboid, ruler, cylinder, displacement, thermometer, clinical, processName, heatFlow, dateNum, stillGood };
+// ---------------------------------------------------------------- heat and waves (Form 4, 2026-10-24)
+/** Heat taken in or given out: Q = mcΔθ (J), with m in kg, c in J/(kg·K) and Δθ in °C or K. */
+const heatMC = (m, c, dt) => Number((m * c * dt).toPrecision(12));
+/** Heat for a change of state: Q = ml (J), with m in kg and l in J/kg. */
+const heatML = (m, l) => Number((m * l).toPrecision(12));
+/** Wave equation v = fλ, and its rearrangements. */
+const waveSpeed = (f, lam) => Number((f * lam).toPrecision(12));
+const waveFreq = (v, lam) => Number((v / lam).toPrecision(12));
+const waveLen = (v, f) => Number((v / f).toPrecision(12));
+/** Period and frequency are reciprocals: T = 1/f. (Named waveT: science2 already exports periodOf for the Periodic Table.) */
+const waveT = (f) => Number((1 / f).toPrecision(12));
+/** The nth harmonic of a string of length L has wavelength 2L/n and frequency n × the fundamental. */
+const harmonicLen = (L, n) => Number(((2 * L) / n).toPrecision(12));
+/** Speed of sound from an echo: the sound travels there and back, so v = 2d/t. */
+const echoSpeed = (d, t) => Number(((2 * d) / t).toPrecision(12));
+const echoDist = (v, t) => Number(((v * t) / 2).toPrecision(12));
+
+/**
+ * A wave profile: displacement against time or distance. a: amplitude, p: period or wavelength, cycles: how many
+ * to draw, xName/xUnit label the horizontal axis ("Time", "s"), yUnit the vertical one ("cm").
+ * The repeat length p is marked on the axis, so the figure shows the quantity without naming it.
+ */
+function waveFig(a, p, cycles, xName, xUnit, yUnit = "cm") {
+  const W = 250, H = 120, x0 = 46, y0 = 14, mid = y0 + H / 2;
+  const span = cycles * p;
+  const X = (x) => x0 + (x / span) * W, Y = (d) => mid - (d / a) * (H / 2 - 6);
+  let b = line(x0, y0, x0, y0 + H, ` stroke-width="1.5"`) + line(x0, mid, x0 + W + 10, mid, ` stroke-width="1.5"`);
+  for (const d of [a, -a]) b += line(x0 - 4, Y(d), x0 + W, Y(d), ` stroke-opacity="0.2"`) + text(x0 - 7, Y(d) + 4, fmt(d), ` font-size="10" text-anchor="end"`);
+  // the numbers go under the plot, clear of the curve (which crosses the axis at every half cycle)
+  for (let k = 1; k <= cycles * 2; k++) {
+    const x = (k * p) / 2;
+    b += line(X(x), mid - 4, X(x), mid + 4);
+    if (k % 2 === 0) b += line(X(x), y0 + H, X(x), y0 + H + 4) + text(X(x), y0 + H + 16, fmt(x), ` font-size="10"`);
+  }
+  let d = "";
+  for (let i = 0; i <= 240; i++) { const x = (span * i) / 240; d += `${i ? "L" : "M"}${r1(X(x))} ${r1(Y(a * Math.sin((2 * Math.PI * x) / p)))} `; }
+  b += `<path d="${d.trim()}" stroke-width="2"/>`;
+  b += line(x0, y0 + H, x0 + W + 10, y0 + H, ` stroke-opacity="0.35"`) + text(x0 + W / 2, y0 + H + 33, `${xName} (${xUnit})`, ` font-size="11"`) +
+    text(12, mid, `Displacement (${yUnit})`, ` font-size="11" transform="rotate(-90 12 ${r1(mid)})"`);
+  return svg(x0 + W + 24, y0 + H + 44, `A wave profile against ${xName.toLowerCase()}`, b);
+}
+
+/** A stationary wave on a string fixed at both ends, drawn with n loops (the nth harmonic); nodes marked N. */
+function harmonicFig(n) {
+  const W = 260, x0 = 30, mid = 54, A = 30;
+  const X = (u) => x0 + u * W;
+  let b = line(x0, mid - 44, x0, mid + 44, ` stroke-width="2"`) + line(x0 + W, mid - 44, x0 + W, mid + 44, ` stroke-width="2"`);
+  b += line(x0, mid, x0 + W, mid, ` stroke-opacity="0.3" stroke-dasharray="4 4"`);
+  for (const s of [1, -1]) {
+    let d = "";
+    for (let i = 0; i <= 240; i++) { const u = i / 240; d += `${i ? "L" : "M"}${r1(X(u))} ${r1(mid - s * A * Math.sin(n * Math.PI * u))} `; }
+    b += `<path d="${d.trim()}" stroke-width="2"${s < 0 ? ` stroke-dasharray="5 3"` : ""}/>`;
+  }
+  for (let k = 0; k <= n; k++) b += `<circle cx="${r1(X(k / n))}" cy="${mid}" r="3" fill="currentColor"/>` + text(X(k / n), mid + 18, "N", ` font-size="10"`);
+  return svg(x0 * 2 + W, 110, "A stationary wave on a string fixed at both ends", b);
+}
+
+return { quantityOf, convertUnit, factor, toKelvin, toCelsius, weight, density, floatsInWater, cuboid, ruler, cylinder, displacement, thermometer, clinical, processName, heatFlow, dateNum, stillGood, heatMC, heatML, waveSpeed, waveFreq, waveLen, waveT, harmonicLen, echoSpeed, echoDist, waveFig, harmonicFig };
 })();
 __mods["lib/chemistry.js"] = (() => {
 // Chemistry helpers for templates: elements and their symbols, and chemical formulas (parse, count atoms, display

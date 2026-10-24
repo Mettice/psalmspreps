@@ -1,0 +1,544 @@
+{
+ "subject": "physics",
+ "class": "Form 4",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "p4-2",
+   "name": "Explain how a liquid-in-glass thermometer works and how it is calibrated"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A liquid-in-glass thermometer has a bulb holding a thermometric liquid (mercury or coloured alcohol), a narrow bore in a glass stem and a scale.\nWhen the bulb is warmed the liquid expands and the thread moves up the bore.\nA good thermometric liquid expands evenly, is easy to see, and does not stick to the glass.\nCalibration uses two fixed points: pure melting ice (0 °C) and steam above boiling water at normal pressure (100 °C). The distance between them is divided into 100 equal parts.\nA clinical thermometer reads about 35 °C to 42 °C with a constriction that holds the reading; a laboratory thermometer reads about −10 °C to 110 °C with no constriction.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to explain how a liquid-in-glass thermometer works, calibrate one from its two fixed points, and choose between a clinical and a laboratory thermometer.\nBuilds on: Lesson {1} (temperature scales) and Form Three measurement of temperature.\nLeads to: Lesson {3}, where a thermometer measures the temperature change in a calorimetry experiment."
+   },
+   {
+    "heading": "How it works",
+    "text": "A liquid-in-glass thermometer has a thin-walled bulb holding mercury or coloured alcohol, joined to a very narrow bore in thick glass.\nWhen the bulb is warmed, the liquid expands. Because the bore is narrow, a small expansion pushes the thread a long way, so the change is easy to see.\nA good thermometric liquid expands evenly with temperature (so the degrees are equally spaced), is easy to see, and does not wet the glass.\nA thin bulb lets heat reach the liquid quickly, so the thermometer responds fast."
+   },
+   {
+    "heading": "Fixed points, clinical and laboratory",
+    "text": "Two temperatures that can always be repeated are used as fixed points:\n• lower: pure melting ice, {0} °C;  • upper: steam just above water boiling at normal atmospheric pressure, {100} °C.\nSteam is used because water touching a hot container can be overheated, while the steam stays at the boiling point.\nThe length between the marks is divided into {100} equal degrees.\nA clinical thermometer reads only about {35} °C to {42} °C, so each degree is long on the scale and {0.1} °C can be read. Its constriction breaks the thread as it cools, holding the highest reading until it is shaken down. A laboratory thermometer reads about −{10} °C to {110} °C and has no constriction."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "thermometric liquid",
+    "meaning": "a liquid that expands evenly with temperature"
+   },
+   {
+    "word": "fixed point",
+    "meaning": "a temperature that can always be reproduced, used to mark a scale"
+   },
+   {
+    "word": "calibration",
+    "meaning": "marking a scale using the fixed points"
+   },
+   {
+    "word": "constriction",
+    "meaning": "a narrow part of the bore that stops the thread running back"
+   }
+  ],
+  "examples": [
+   "ice point {0} °C, steam point {100} °C",
+   "a clinical thermometer reads {37} °C for a healthy adult"
+  ],
+  "mistake": {
+   "wrong": "the upper fixed point is boiling water",
+   "right": "the upper fixed point is the steam above boiling water",
+   "why": "Water next to a hot surface can go above {100} °C; the steam above it stays at the boiling point."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "lo": 2,
+   "hi": 22,
+   "x": 12
+  },
+  "problem": "On an uncalibrated thermometer the thread is {lo} cm long in melting ice and {hi} cm long in steam. In a liquid it is {x} cm long. Find the temperature of the liquid.",
+  "steps": [
+   "The thread grows {hi} − {lo} = {hi - lo} cm for {100} °C.",
+   "In the liquid it has grown {x} − {lo} = {x - lo} cm above the ice point.",
+   "θ = (({x} − {lo}) ÷ ({hi} − {lo})) × {100}."
+  ],
+  "answer": "{(x - lo) / (hi - lo) * 100} °C",
+  "checks": [
+   "(x - lo) / (hi - lo) * 100 == 50"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4p2-1",
+    "status": "draft",
+    "idea": "The liquid expands when the bulb is warmed, pushing the thread along the narrow bore.",
+    "vars": {},
+    "example": [
+     "A thin bulb and a narrow bore make the thermometer quick and sensitive"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-2-how"
+    }
+   },
+   {
+    "id": "c4p2-2",
+    "status": "draft",
+    "idea": "The fixed points are melting ice ({0} °C) and steam above boiling water ({100} °C).",
+    "vars": {},
+    "example": [
+     "The length between them is divided into {100} equal degrees"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p4-2-points-card",
+     "type": "numeric",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "temperature"
+     ],
+     "vars": {
+      "lo": {
+       "int": [
+        1,
+        5
+       ]
+      },
+      "span": {
+       "pick": [
+        10,
+        20,
+        25,
+        40,
+        50
+       ]
+      },
+      "k": {
+       "int": [
+        1,
+        9
+       ]
+      },
+      "hi": {
+       "expr": "lo + span"
+      },
+      "x": {
+       "expr": "lo + span * k / 10"
+      }
+     },
+     "prompt": "On an uncalibrated thermometer the thread is {lo} cm in melting ice and {hi} cm in steam. What temperature does a thread of {x} cm show, in °C?",
+     "answer": "(x - lo) / (hi - lo) * 100",
+     "misconceptions": [
+      {
+       "id": "nolo",
+       "wrong": "x / hi * 100",
+       "explain": "Measure both lengths from the ice point: subtract {lo} from each."
+      },
+      {
+       "id": "length",
+       "wrong": "x - lo",
+       "explain": "{x - lo} cm is a length, not a temperature: compare it with the whole range."
+      }
+     ],
+     "solution": [
+      "The whole range {hi} − {lo} = {hi - lo} cm stands for {100} °C.",
+      "The thread has risen {x} − {lo} = {x - lo} cm above the ice point.",
+      "θ = ({x - lo} ÷ {hi - lo}) × {100} = {answer} °C."
+     ],
+     "unit": "°C"
+    }
+   },
+   {
+    "id": "c4p2-3",
+    "status": "draft",
+    "idea": "A clinical thermometer has a short range and a constriction that holds the reading.",
+    "vars": {},
+    "example": [
+     "range about {35} °C to {42} °C, read to {0.1} °C"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-2-clinical"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p4-2-how",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "temperature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why is mercury or coloured alcohol used in a liquid-in-glass thermometer?",
+       "r": "It expands evenly when heated and is easy to see",
+       "w": [
+        "It is the cheapest liquid available",
+        "It never changes temperature",
+        "It turns to a gas as the temperature rises"
+       ],
+       "e": [
+        "Cost is not the reason; the liquid must expand evenly and be easy to see.",
+        "The liquid takes the temperature of its surroundings; that is how the thermometer works.",
+        "The liquid must stay liquid over the whole range of the scale."
+       ],
+       "y": "A thermometric liquid expands by a steady amount for each degree, so the scale is evenly spaced."
+      },
+      {
+       "q": "What are the two fixed points used to calibrate a Celsius thermometer?",
+       "r": "Pure melting ice (0 °C) and steam above boiling water (100 °C)",
+       "w": [
+        "Room temperature and body temperature",
+        "Ice from a freezer and warm tap water",
+        "Any two temperatures that are easy to find"
+       ],
+       "e": [
+        "These vary from place to place and day to day, so they cannot be fixed points.",
+        "Freezer ice can be below 0 °C, and tap water has no fixed temperature.",
+        "Fixed points must be temperatures that are always the same under stated conditions."
+       ],
+       "y": "Pure melting ice and steam at normal atmospheric pressure always give the same two temperatures."
+      },
+      {
+       "q": "Why is steam, not boiling water, used for the upper fixed point?",
+       "r": "The steam above the water is at the boiling point, while the water may be overheated",
+       "w": [
+        "Steam is hotter than boiling water",
+        "Water would break the thermometer",
+        "Steam is easier to hold still"
+       ],
+       "e": [
+        "Steam at normal pressure is at the same temperature as the boiling water, not hotter.",
+        "Boiling water does not break a laboratory thermometer.",
+        "Holding still is not the reason; the reading must be reliable."
+       ],
+       "y": "Water touching a hot container can rise above 100 °C, but the steam just above it stays at the boiling point."
+      },
+      {
+       "q": "What is the constriction in a clinical thermometer for?",
+       "r": "It stops the mercury running back, so the reading can be taken after removal",
+       "w": [
+        "It makes the thermometer more sensitive",
+        "It stops the mercury from escaping",
+        "It shows where normal body temperature is"
+       ],
+       "e": [
+        "Sensitivity comes from the narrow bore and thin bulb, not the constriction.",
+        "The tube is sealed; the mercury cannot escape.",
+        "Normal body temperature is shown by a mark on the scale, not by the constriction."
+       ],
+       "y": "The thread breaks at the constriction as the thermometer cools, so the highest reading stays."
+      },
+      {
+       "q": "Why does a clinical thermometer have a short range of about 35 °C to 42 °C?",
+       "r": "A short range lets the degrees be spread out, so small changes can be read",
+       "w": [
+        "Body temperature never goes outside that range",
+        "A longer tube would be too expensive",
+        "Mercury boils above 42 °C"
+       ],
+       "e": [
+        "A patient can be outside that range; the thermometer is simply not made to read it.",
+        "Cost is not the reason; the reason is accuracy over the useful range.",
+        "Mercury boils at about 357 °C."
+       ],
+       "y": "Over a short range each degree takes more length on the scale, so 0.1 °C can be read."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p4-2-clinical",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "temperature"
+   ],
+   "vars": {
+    "w": {
+     "int": [
+      35,
+      41
+     ]
+    },
+    "d": {
+     "int": [
+      0,
+      9
+     ]
+    },
+    "t": {
+     "expr": "dec(w + d / 10)"
+    }
+   },
+   "prompt": "What temperature does this clinical thermometer read, in °C?",
+   "answer": "t",
+   "misconceptions": [
+    {
+     "id": "whole",
+     "wrong": "w",
+     "explain": "Read the small marks too: each is {0.1} °C."
+    },
+    {
+     "id": "tenth",
+     "wrong": "dec(w + d / 100)",
+     "explain": "Each small mark is {0.1} °C, not {0.01} °C."
+    }
+   ],
+   "solution": [
+    "Each small mark on a clinical thermometer is {0.1} °C.",
+    "The end of the thread is at {answer} °C."
+   ],
+   "figure": "clinical(t)",
+   "unit": "°C"
+  },
+  {
+   "id": "p4-2-points",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "temperature"
+   ],
+   "vars": {
+    "lo": {
+     "int": [
+      1,
+      5
+     ]
+    },
+    "span": {
+     "pick": [
+      10,
+      20,
+      25,
+      40,
+      50
+     ]
+    },
+    "k": {
+     "int": [
+      1,
+      9
+     ]
+    },
+    "hi": {
+     "expr": "lo + span"
+    },
+    "x": {
+     "expr": "lo + span * k / 10"
+    }
+   },
+   "prompt": "On an uncalibrated thermometer the thread is {lo} cm in melting ice and {hi} cm in steam. What temperature does a thread of {x} cm show, in °C?",
+   "answer": "(x - lo) / (hi - lo) * 100",
+   "misconceptions": [
+    {
+     "id": "nolo",
+     "wrong": "x / hi * 100",
+     "explain": "Measure both lengths from the ice point: subtract {lo} from each."
+    },
+    {
+     "id": "length",
+     "wrong": "x - lo",
+     "explain": "{x - lo} cm is a length, not a temperature: compare it with the whole range."
+    }
+   ],
+   "solution": [
+    "The whole range {hi} − {lo} = {hi - lo} cm stands for {100} °C.",
+    "The thread has risen {x} − {lo} = {x - lo} cm above the ice point.",
+    "θ = ({x - lo} ÷ {hi - lo}) × {100} = {answer} °C."
+   ],
+   "unit": "°C"
+  },
+  {
+   "id": "p4-2-compare",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "temperature"
+   ],
+   "vars": {
+    "U": {
+     "pick": [
+      {
+       "q": "take the temperature of a sick child",
+       "c": true,
+       "y": "Body temperature changes by very little, so a short range read to {0.1} °C is needed, and the reading must stay after the thermometer is taken out."
+      },
+      {
+       "q": "follow the temperature of water heated from the room to boiling",
+       "c": false,
+       "y": "The temperature goes far outside {35} °C to {42} °C, so a wide range is needed."
+      },
+      {
+       "q": "measure the temperature of melting ice in the laboratory",
+       "c": false,
+       "y": "{0} °C is far below the range of a clinical thermometer, which starts at {35} °C."
+      },
+      {
+       "q": "check whether a patient has a fever",
+       "c": true,
+       "y": "A fever is a rise of about {1} °C, so the scale must be read to {0.1} °C and must hold its reading."
+      }
+     ]
+    }
+   },
+   "prompt": "Which thermometer would you choose to {U.q}?",
+   "correct": "{U.c ? 'A clinical thermometer' : 'A laboratory thermometer'}",
+   "distractors": [
+    {
+     "text": "{U.c ? 'A laboratory thermometer' : 'A clinical thermometer'}",
+     "misconception": "swap"
+    },
+    {
+     "text": "Either one works equally well",
+     "misconception": "either"
+    },
+    {
+     "text": "Neither: use your hand",
+     "misconception": "hand"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "swap",
+     "explain": "{U.c ? 'A laboratory thermometer cannot be read to 0.1 °C and does not hold its reading.' : 'A clinical thermometer only reads 35 °C to 42 °C.'}"
+    },
+    {
+     "id": "either",
+     "explain": "The two have different ranges and accuracies, so the choice matters."
+    },
+    {
+     "id": "hand",
+     "explain": "A hand cannot give a number, and it is unreliable."
+    }
+   ],
+   "solution": [
+    "{U.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "p4-2-steps",
+   "type": "ordering",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "temperature"
+   ],
+   "vars": {
+    "A": {
+     "pick": [
+      {
+       "q": "Put the steps of calibrating a thermometer in order.",
+       "s": [
+        "Put the bulb in pure melting ice and mark the thread when it is steady",
+        "Label that mark {0} °C",
+        "Hold the bulb in steam above boiling water and mark the thread when it is steady",
+        "Label that mark {100} °C",
+        "Divide the distance between the two marks into {100} equal parts"
+       ]
+      },
+      {
+       "q": "Put the steps of taking a patient's temperature with a clinical thermometer in order.",
+       "s": [
+        "Shake the thermometer so that the thread runs back into the bulb",
+        "Place the bulb under the patient's tongue or in the armpit",
+        "Leave it in place for about {1} minute so that it reaches the body temperature",
+        "Take it out and read the end of the thread, which stays in place",
+        "Clean the thermometer and shake it down again"
+       ]
+      },
+      {
+       "q": "Put the steps of reading a laboratory thermometer correctly in order.",
+       "s": [
+        "Put the bulb well into the liquid, not touching the bottom or the sides",
+        "Stir the liquid gently so that it is at one temperature throughout",
+        "Wait until the thread stops moving",
+        "Put your eye level with the end of the thread, to avoid a parallax error",
+        "Read the scale to the nearest mark"
+       ]
+      }
+     ]
+    }
+   },
+   "prompt": "{A.q}",
+   "items": [
+    {
+     "text": "{A.s[0]}"
+    },
+    {
+     "text": "{A.s[1]}"
+    },
+    {
+     "text": "{A.s[2]}"
+    },
+    {
+     "text": "{A.s[3]}"
+    },
+    {
+     "text": "{A.s[4]}"
+    }
+   ],
+   "order": "as_written"
+  }
+ ]
+}

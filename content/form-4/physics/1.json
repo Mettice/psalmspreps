@@ -1,0 +1,548 @@
+{
+ "subject": "physics",
+ "class": "Form 4",
+ "lesson_no": 1,
+ "language": "en",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "p4-1",
+   "name": "Distinguish heat from temperature and measure temperature"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Heat is energy that flows from a hotter body to a cooler one, measured in joules (J).\nTemperature is the degree of hotness of a body, measured in degrees Celsius (°C) or kelvin (K). It decides which way heat flows.\nTwo bodies at the same temperature can hold very different amounts of heat energy: a bucket of water at 40 °C holds much more than a cup at 40 °C.\nWhen two bodies are in contact, heat flows from the hotter to the cooler until both reach the same temperature: thermal equilibrium.\nKelvin scale: T(K) = θ(°C) + 273. Absolute zero is 0 K = −273 °C. A change of 1 °C equals a change of 1 K.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to tell heat from temperature, say which way heat flows, and change between °C and K.\nBuilds on: Form Three measurement of temperature and the kelvin conversion.\nLeads to: Lesson {2} (thermometers) and Lesson {3}, where heat energy is calculated from a temperature change."
+   },
+   {
+    "heading": "Two different ideas",
+    "text": "Heat is energy on the move. It flows from a hotter body to a cooler one and is measured in joules.\nTemperature is the degree of hotness. It is measured in °C or K, and it decides which way heat flows.\nA cup of water at {40} °C and a bucket of water at {40} °C are equally hot, but the bucket holds far more heat energy, because it has many more particles each carrying energy.\nPut a hot spoon in cool water: the spoon cools, the water warms, and they meet at one temperature. That is thermal equilibrium: no temperature difference, so no net flow of heat."
+   },
+   {
+    "heading": "The kelvin scale",
+    "text": "The Celsius scale takes the melting point of ice as {0} °C and the boiling point of water as {100} °C.\nThe kelvin scale starts at absolute zero, the lowest temperature possible: {0} K = −{273} °C.\n• T(K) = θ(°C) + {273}: {27} °C = {300} K.\n• θ(°C) = T(K) − {273}: {350} K = {77} °C.\nThe two scales have the same size of degree, so a temperature CHANGE is the same number in both: a rise of {20} °C is a rise of {20} K. Do not add {273} to a difference."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "heat",
+    "meaning": "energy that flows because of a temperature difference, measured in joules"
+   },
+   {
+    "word": "temperature",
+    "meaning": "the degree of hotness of a body, in °C or K"
+   },
+   {
+    "word": "thermal equilibrium",
+    "meaning": "the state when two bodies in contact are at the same temperature"
+   },
+   {
+    "word": "absolute zero",
+    "meaning": "{0} K = −{273} °C, the lowest possible temperature"
+   }
+  ],
+  "examples": [
+   "{100} °C = {373} K",
+   "{0} K = −{273} °C",
+   "a rise from {20} °C to {50} °C is a rise of {30} K"
+  ],
+  "mistake": {
+   "wrong": "a rise of {30} °C is a rise of {303} K",
+   "right": "a rise of {30} °C is a rise of {30} K",
+   "why": "The {273} is added to a temperature, not to a change. It cancels when you subtract two temperatures."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "c": 35
+  },
+  "problem": "A patient's temperature is {c + 2} °C. Give this temperature in kelvin, and find the rise from {c} °C.",
+  "steps": [
+   "T(K) = θ(°C) + {273}.",
+   "T = {c + 2} + {273} = {c + 2 + 273} K.",
+   "The rise is {c + 2} − {c} = {2} °C.",
+   "A change of {1} °C is a change of {1} K, so the rise is also {2} K."
+  ],
+  "answer": "{c + 2 + 273} K; a rise of {2} K",
+  "checks": [
+   "c + 2 + 273 == 310"
+  ],
+  "figure": "clinical(c + 2)"
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4p1-1",
+    "status": "draft",
+    "idea": "Heat is energy in transit, measured in joules. Temperature is the degree of hotness, in °C or K.",
+    "vars": {},
+    "example": [
+     "A bucket and a cup of water at {40} °C are equally hot, but the bucket holds more heat energy"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-1-which"
+    }
+   },
+   {
+    "id": "c4p1-2",
+    "status": "draft",
+    "idea": "Heat flows from hot to cold until the temperatures are equal (thermal equilibrium).",
+    "vars": {},
+    "example": [
+     "A hot spoon in cold water cools; the water warms; they meet at one temperature"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p4-1-flow-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "rule",
+     "sources": [
+      "temperature"
+     ],
+     "vars": {
+      "hot": {
+       "int": [
+        60,
+        95
+       ]
+      },
+      "cold": {
+       "int": [
+        10,
+        30
+       ]
+      }
+     },
+     "prompt": "A metal spoon at {hot} °C is put into water at {cold} °C. What happens?",
+     "correct": "Heat flows from the spoon to the water until both are at the same temperature",
+     "distractors": [
+      {
+       "text": "Heat flows from the water to the spoon",
+       "misconception": "reverse"
+      },
+      {
+       "text": "Nothing happens until the spoon melts",
+       "misconception": "nothing"
+      },
+      {
+       "text": "Both stay at their own temperature",
+       "misconception": "same"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "reverse",
+       "explain": "The water is cooler, so it takes in heat; it does not give heat to the hotter spoon."
+      },
+      {
+       "id": "nothing",
+       "explain": "Heat flows as soon as two bodies at different temperatures touch."
+      },
+      {
+       "id": "same",
+       "explain": "A temperature difference always causes a flow of heat."
+      }
+     ],
+     "solution": [
+      "Heat always flows from the hotter body to the cooler one.",
+      "The spoon at {hot} °C is hotter than the water at {cold} °C.",
+      "They stop exchanging heat when they reach the same temperature.",
+      "So the answer is: {answer}."
+     ]
+    }
+   },
+   {
+    "id": "c4p1-3",
+    "status": "draft",
+    "idea": "T(K) = θ(°C) + {273}; a change of {1} °C is a change of {1} K.",
+    "vars": {},
+    "example": [
+     "{27} °C = {300} K; {-273} °C = {0} K, absolute zero"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-1-kelvin"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p4-1-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "temperature"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which statement about heat and temperature is correct?",
+       "r": "Heat is energy that flows; temperature tells how hot something is",
+       "w": [
+        "Heat and temperature mean the same thing",
+        "A bigger object always has a higher temperature",
+        "Temperature is measured in joules"
+       ],
+       "e": [
+        "They are different: heat is energy in transit (joules); temperature is the degree of hotness (°C or K).",
+        "Size does not fix temperature: a cup and a bucket of water from the same tap are equally hot.",
+        "Temperature is measured in degrees Celsius or kelvin; heat is measured in joules."
+       ],
+       "y": "Heat is energy that flows from a hotter body to a cooler one; temperature decides which way it flows."
+      },
+      {
+       "q": "A cup of tea and a bucket of water are both at 40 °C. Which holds more heat energy?",
+       "r": "The bucket, because it has more particles",
+       "w": [
+        "The cup, because it feels hotter",
+        "They hold the same, because the temperature is the same",
+        "Neither holds heat energy"
+       ],
+       "e": [
+        "They are at the same temperature, so neither feels hotter; the bucket simply holds more energy.",
+        "Equal temperature does not mean equal energy: the bucket has far more particles, each with energy.",
+        "Any body above absolute zero has internal energy."
+       ],
+       "y": "At the same temperature each particle has the same average energy, so more particles means more energy in all."
+      },
+      {
+       "q": "Two objects touch. Which way does heat flow?",
+       "r": "From the hotter one to the cooler one",
+       "w": [
+        "From the bigger one to the smaller one",
+        "From the cooler one to the hotter one",
+        "Heat does not flow between touching objects"
+       ],
+       "e": [
+        "Size does not decide the direction; the temperature difference does.",
+        "Heat always flows the other way, from hot to cold, until the temperatures are equal.",
+        "Touching bodies at different temperatures always exchange heat."
+       ],
+       "y": "Heat flows from high to low temperature until both reach the same temperature (thermal equilibrium)."
+      },
+      {
+       "q": "What does 'thermal equilibrium' mean?",
+       "r": "Two bodies in contact have reached the same temperature",
+       "w": [
+        "Both bodies hold the same amount of heat energy",
+        "One body has no heat energy left",
+        "The bodies have the same mass"
+       ],
+       "e": [
+        "Equal temperature, not equal energy: a large body at the same temperature still holds more energy.",
+        "A body at any temperature above absolute zero still has internal energy.",
+        "Mass has nothing to do with it."
+       ],
+       "y": "At thermal equilibrium there is no temperature difference, so no net flow of heat."
+      },
+      {
+       "q": "Which temperature scale starts at absolute zero?",
+       "r": "The kelvin scale",
+       "w": [
+        "The Celsius scale",
+        "The Fahrenheit scale",
+        "Every scale starts at absolute zero"
+       ],
+       "e": [
+        "Celsius starts at the melting point of ice, which is 273 K.",
+        "Fahrenheit has its own fixed points; it does not start at absolute zero.",
+        "Only the kelvin scale has its zero at absolute zero."
+       ],
+       "y": "0 K is absolute zero, the lowest possible temperature; T(K) = θ(°C) + 273."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p4-1-kelvin",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "temperature"
+   ],
+   "vars": {
+    "c": {
+     "int": [
+      -50,
+      120
+     ]
+    }
+   },
+   "prompt": "Change {c} °C into kelvin.",
+   "answer": "toKelvin(c)",
+   "misconceptions": [
+    {
+     "id": "minus",
+     "wrong": "c - 273",
+     "explain": "Add {273} to the Celsius temperature; do not subtract it."
+    },
+    {
+     "id": "swap",
+     "wrong": "273 - c",
+     "explain": "T(K) = θ + {273}, not {273} − θ."
+    }
+   ],
+   "solution": [
+    "T(K) = θ(°C) + {273}.",
+    "T = {c} + {273} = {answer} K."
+   ],
+   "unit": "K"
+  },
+  {
+   "id": "p4-1-back",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "temperature"
+   ],
+   "vars": {
+    "k": {
+     "int": [
+      200,
+      500
+     ]
+    }
+   },
+   "prompt": "A gas is at {k} K. What is its temperature in degrees Celsius?",
+   "answer": "toCelsius(k)",
+   "misconceptions": [
+    {
+     "id": "add",
+     "wrong": "k + 273",
+     "explain": "Going from kelvin to Celsius, subtract {273}."
+    },
+    {
+     "id": "swap",
+     "wrong": "273 - k",
+     "explain": "θ = T − {273}, not {273} − T."
+    }
+   ],
+   "solution": [
+    "θ(°C) = T(K) − {273}.",
+    "θ = {k} − {273} = {answer} °C."
+   ],
+   "unit": "°C",
+   "signed": true
+  },
+  {
+   "id": "p4-1-flow",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "temperature"
+   ],
+   "vars": {
+    "hot": {
+     "int": [
+      60,
+      95
+     ]
+    },
+    "cold": {
+     "int": [
+      10,
+      30
+     ]
+    }
+   },
+   "prompt": "A metal spoon at {hot} °C is put into water at {cold} °C. What happens?",
+   "correct": "Heat flows from the spoon to the water until both are at the same temperature",
+   "distractors": [
+    {
+     "text": "Heat flows from the water to the spoon",
+     "misconception": "reverse"
+    },
+    {
+     "text": "Nothing happens until the spoon melts",
+     "misconception": "nothing"
+    },
+    {
+     "text": "Both stay at their own temperature",
+     "misconception": "same"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "reverse",
+     "explain": "The water is cooler, so it takes in heat; it does not give heat to the hotter spoon."
+    },
+    {
+     "id": "nothing",
+     "explain": "Heat flows as soon as two bodies at different temperatures touch."
+    },
+    {
+     "id": "same",
+     "explain": "A temperature difference always causes a flow of heat."
+    }
+   ],
+   "solution": [
+    "Heat always flows from the hotter body to the cooler one.",
+    "The spoon at {hot} °C is hotter than the water at {cold} °C.",
+    "They stop exchanging heat when they reach the same temperature.",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "p4-1-rise",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "temperature"
+   ],
+   "vars": {
+    "a": {
+     "int": [
+      15,
+      40
+     ]
+    },
+    "b": {
+     "int": [
+      70,
+      100
+     ]
+    }
+   },
+   "prompt": "Water in a kettle is heated from {a} °C to {b} °C. What is the rise in temperature, in kelvin?",
+   "answer": "b - a",
+   "misconceptions": [
+    {
+     "id": "kelvin",
+     "wrong": "b - a + 273",
+     "explain": "A temperature CHANGE is the same number in °C and K: do not add {273} to a difference."
+    },
+    {
+     "id": "both",
+     "wrong": "b + 273 - a",
+     "explain": "Change both to kelvin and the {273} cancels: ({b} + {273}) − ({a} + {273}) = {b - a}."
+    }
+   ],
+   "solution": [
+    "The rise is {b} − {a} = {b - a} °C.",
+    "A change of {1} °C is a change of {1} K, so the rise is {answer} K."
+   ],
+   "unit": "K"
+  },
+  {
+   "id": "p4-1-energy",
+   "type": "mcq",
+   "level": 3,
+   "review": "rule",
+   "sources": [
+    "temperature"
+   ],
+   "vars": {
+    "m1": {
+     "pick": [
+      100,
+      150,
+      200
+     ]
+    },
+    "m2": {
+     "pick": [
+      600,
+      800,
+      1000
+     ]
+    },
+    "t": {
+     "int": [
+      40,
+      90
+     ]
+    }
+   },
+   "prompt": "A cup holding {m1} g of water and a pot holding {m2} g of water are both at {t} °C. Which statement is true?",
+   "correct": "The pot holds more heat energy, because it has more water at the same temperature",
+   "distractors": [
+    {
+     "text": "The cup holds more heat energy, because it is hotter",
+     "misconception": "hotter"
+    },
+    {
+     "text": "They hold the same heat energy, because the temperature is equal",
+     "misconception": "same"
+    },
+    {
+     "text": "Neither holds heat energy at {t} °C",
+     "misconception": "none"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "hotter",
+     "explain": "Both are at {t} °C: neither is hotter."
+    },
+    {
+     "id": "same",
+     "explain": "Equal temperature means equal average energy per particle, not equal total energy."
+    },
+    {
+     "id": "none",
+     "explain": "Any body above absolute zero (−{273} °C) has internal energy."
+    }
+   ],
+   "solution": [
+    "Both are at {t} °C, so their particles have the same average energy.",
+    "The pot has {m2 / m1} times as much water, so many more particles.",
+    "So the pot holds more energy in all.",
+    "So the answer is: {answer}."
+   ]
+  }
+ ]
+}

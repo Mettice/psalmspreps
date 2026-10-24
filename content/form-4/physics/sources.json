@@ -1,0 +1,35 @@
+{
+ "_note": "Sources for Form 4 Physics (content/classes.json, form-4). Values are computed by src/engine/lib/physics.js (heatMC, heatML, waveSpeed, thermometer, waveFig, harmonicFig).",
+ "temperature": {
+  "ref": "Form 4 Physics syllabus, Term 1: concept of heat and temperature, measurement of temperature; thermometry, liquid-in-glass thermometer, calibration using fixed points, clinical and laboratory thermometers",
+  "checked": "T(K) = θ(°C) + 273 (TR-P03); thermometer readings drawn by the engine from the question's own number; 1000-seed tests."
+ },
+ "calorimetry": {
+  "ref": "Form 4 Physics syllabus, Term 1: heat capacity and specific heat capacity, measurement of c for a solid and for a liquid, calculations using Q = mcΔθ",
+  "checked": "Q = mcΔθ computed by the engine; specific heat capacities listed in TEACHER-REVIEW TR-P4-1; 1000-seed tests."
+ },
+ "latent-heat": {
+  "ref": "Form 4 Physics syllabus, Term 1: latent heat and specific latent heat, calculations using Q = ml, cooling effect of evaporation",
+  "checked": "Q = ml computed by the engine; l values in TR-P4-1; 1000-seed tests."
+ },
+ "heat-transfer": {
+  "ref": "Form 4 Physics syllabus, Term 1: heat transfer by conduction, convection and radiation and their applications",
+  "checked": "Explanations written from the standard treatment; the applications are everyday Cameroonian examples. Teacher review TR-P4-2."
+ },
+ "expansion": {
+  "ref": "Form 4 Physics syllabus, Term 1: thermal expansion, the bimetallic strip and its principles, radiant energy converters",
+  "checked": "Brass expands more than invar; water is densest at 4 °C. Written from the standard treatment; teacher review TR-P4-3."
+ },
+ "waves": {
+  "ref": "Form 4 Physics syllabus, Term 1: classification of waves by medium and by mode of propagation; wave characteristics (energy transfer, period, frequency, amplitude, wavelength, wave speed); the ripple tank; v = fλ; stationary waves, harmonics and overtones; vibrating strings",
+  "checked": "Wave quantities computed by the engine (waveSpeed, waveFreq, waveLen, periodOf, harmonicLen); graphs drawn by waveFig and harmonicFig from the same numbers as the answers; 1000-seed tests."
+ },
+ "wave-phenomena": {
+  "ref": "Form 4 Physics syllabus, Term 1: wave phenomena, reflection, refraction, diffraction and interference",
+  "checked": "Written from the standard treatment; refraction keeps f and changes v and λ. Teacher review TR-P4-5."
+ },
+ "sound": {
+  "ref": "Form 4 Physics syllabus, Term 1: production and transmission of sound; characteristics of sound; measurement of the speed of sound by the echo and gun-firing methods; application of echo in sea bed depth",
+  "checked": "Speeds computed by the engine (echoSpeed, echoDist); speed of sound in air taken as 340 m/s and in sea water 1500 m/s (TR-P4-4); 1000-seed tests."
+ }
+}

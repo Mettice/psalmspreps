@@ -1,0 +1,718 @@
+{
+ "subject": "physics",
+ "class": "Form 4",
+ "lesson_no": 13,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "p4-13",
+   "name": "Explain how sound is produced and transmitted, and its characteristics"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Sound is produced by a vibrating object: a drum skin, a guitar string, vocal cords, a loudspeaker cone.\nIt travels as a longitudinal wave: the source pushes the air into compressions (particles close together) with rarefactions (particles spread out) between them. The vibration is passed from particle to particle, so sound needs a medium and cannot cross a vacuum.\nSound travels fastest in solids, slower in liquids and slowest in gases, because the particles are closer together in a solid. In air it is about 340 m/s.\nCharacteristics:\n• Loudness depends on amplitude.\n• Pitch depends on frequency.\n• Quality (timbre) depends on the mixture of overtones, and is why the same note sounds different on different instruments.\nA healthy young person hears about 20 Hz to 20 000 Hz.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to explain how sound is produced and carried, and link loudness, pitch and quality to amplitude, frequency and overtones.\nBuilds on: Lesson {8} (longitudinal waves) and Lesson {9} (amplitude and frequency).\nLeads to: Lesson {14} (measuring the speed of sound) and Lesson {15} (notes from vibrating strings)."
+   },
+   {
+    "heading": "Production and transmission",
+    "text": "Every sound starts with something vibrating: a drum skin, a string, the vocal cords, a loudspeaker cone.\nAs the surface moves outwards it pushes the air particles together, making a compression. As it moves back it leaves them spread out, making a rarefaction. These pass from particle to particle through the air, so sound is a longitudinal wave.\nBecause particles must pass the vibration on, sound needs a medium: a bell in a vacuum jar cannot be heard.\nThe closer the particles, the faster the vibration is passed on: sound travels fastest in solids, slower in liquids and slowest in gases. In air it is about {340} m/s; in water about {1500} m/s; in steel about {5000} m/s."
+   },
+   {
+    "heading": "Loudness, pitch and quality",
+    "text": "• Loudness depends on the amplitude. Hitting a drum harder gives a bigger amplitude and a louder sound, at the same pitch.\n• Pitch depends on the frequency. More vibrations each second gives a higher note. Tightening a drum skin or shortening a guitar string raises the frequency and so the pitch.\n• Quality, or timbre, depends on the mixture of overtones present with the fundamental. It is why the same note on a flute and on a guitar sounds different.\nA healthy young person hears from about {20} Hz to about {20000} Hz. Above that is ultrasound, used to look inside the body and to find the depth of the sea."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "compression",
+    "meaning": "a region where the particles are pushed together"
+   },
+   {
+    "word": "rarefaction",
+    "meaning": "a region where the particles are spread apart"
+   },
+   {
+    "word": "pitch",
+    "meaning": "how high or low a note sounds; it depends on frequency"
+   },
+   {
+    "word": "loudness",
+    "meaning": "how loud a sound is; it depends on amplitude"
+   },
+   {
+    "word": "quality (timbre)",
+    "meaning": "what makes the same note sound different on different instruments"
+   }
+  ],
+  "examples": [
+   "hit harder: louder, same pitch",
+   "tighter string: higher pitch",
+   "{340} ÷ {170} = {2} m wavelength"
+  ],
+  "mistake": {
+   "wrong": "a higher note travels faster through the air",
+   "right": "all sounds travel at the same speed in the same air",
+   "why": "A higher frequency goes with a shorter wavelength, because v = fλ and v is fixed."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "f1": 256,
+   "f2": 512
+  },
+  "problem": "A tuning fork of {f1} Hz and one of {f2} Hz are struck equally hard. Compare the two sounds.",
+  "steps": [
+   "Both are struck equally hard, so the amplitudes are about the same: the sounds are about equally loud.",
+   "{f2} Hz is {f2 / f1} times {f1} Hz, so the second fork vibrates more often each second.",
+   "Pitch depends on frequency, so the {f2} Hz fork sounds higher.",
+   "In the same air both travel at the same speed, so the higher note has the shorter wavelength."
+  ],
+  "answer": "about equally loud, but the {f2} Hz fork sounds higher",
+  "checks": [
+   "f2 == 2 * f1"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4p13-1",
+    "status": "draft",
+    "idea": "Sound is made by something vibrating, and travels as compressions and rarefactions.",
+    "vars": {},
+    "example": [
+     "a drum skin pushes the air into compressions as it moves out"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-13-which"
+    }
+   },
+   {
+    "id": "c4p13-2",
+    "status": "draft",
+    "idea": "Loudness depends on amplitude; pitch depends on frequency.",
+    "vars": {},
+    "example": [
+     "hitting a drum harder: louder, same pitch. A tighter skin: higher pitch"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-13-pitch"
+    }
+   },
+   {
+    "id": "c4p13-3",
+    "status": "draft",
+    "idea": "Quality (timbre) comes from the mixture of overtones.",
+    "vars": {},
+    "example": [
+     "the same note on a flute and a guitar sounds different"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p4-13-quality-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "sound"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "The same note is played on a guitar and on a flute, equally loudly. Which statement is true?",
+         "r": "They have the same pitch and loudness but different quality, because of their different overtones",
+         "w": [
+          "They have different pitches",
+          "The flute sound travels faster",
+          "They are identical sounds"
+         ],
+         "e": [
+          "Playing 'the same note' means the same fundamental frequency, so the pitch is the same.",
+          "All sounds travel at the same speed in the same air.",
+          "They are easy to tell apart, which is why quality is a separate characteristic."
+         ],
+         "y": "Each instrument adds its own mixture of overtones to the fundamental, and that mixture is its quality."
+        },
+        {
+         "q": "What makes one person's voice sound different from another's, even on the same note?",
+         "r": "The mixture of overtones each voice produces, which is its quality",
+         "w": [
+          "The speed of the sound each makes",
+          "The pitch of the note",
+          "The loudness of the voice"
+         ],
+         "e": [
+          "All voices travel at the same speed in the same air.",
+          "Singing the same note means the same pitch for both.",
+          "Both can sing equally loudly and still sound different."
+         ],
+         "y": "Quality, or timbre, comes from the overtones present along with the fundamental."
+        },
+        {
+         "q": "A tuning fork and a violin both sound a note of {256} Hz. Why does the fork sound plainer?",
+         "r": "A tuning fork gives almost only the fundamental, with few overtones",
+         "w": [
+          "A tuning fork is quieter",
+          "A tuning fork gives a higher pitch",
+          "A tuning fork makes a longitudinal wave and the violin a transverse one"
+         ],
+         "e": [
+          "A fork can be struck hard and still sound plain.",
+          "Both sound {256} Hz, so the pitch is the same.",
+          "Both make longitudinal sound waves in the air."
+         ],
+         "y": "A nearly pure note has little beyond the fundamental; the extra overtones of a violin give it a richer quality."
+        },
+        {
+         "q": "Which characteristic of a sound depends on the amplitude of the wave?",
+         "r": "Its loudness",
+         "w": [
+          "Its pitch",
+          "Its quality",
+          "Its speed"
+         ],
+         "e": [
+          "Pitch depends on the frequency.",
+          "Quality depends on the mixture of overtones.",
+          "The speed depends on the medium, not on the wave's amplitude."
+         ],
+         "y": "A larger amplitude carries more energy, and the sound is louder."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p4-13-which",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "sound"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "What produces a sound?",
+       "r": "A vibrating object",
+       "w": [
+        "A hot object",
+        "A moving object of any kind",
+        "A bright object"
+       ],
+       "e": [
+        "Heat alone makes no sound; a hot stone is silent.",
+        "An object can move smoothly and silently; it is vibration that makes sound.",
+        "Light and sound are different; a lamp is silent."
+       ],
+       "y": "Every source of sound vibrates: a drum skin, a string, vocal cords, a loudspeaker cone."
+      },
+      {
+       "q": "How does a sound wave travel through air?",
+       "r": "As compressions and rarefactions passing through the air",
+       "w": [
+        "As crests and troughs of the air moving sideways",
+        "By the air itself blowing from the source to the ear",
+        "As a beam of particles shot out by the source"
+       ],
+       "e": [
+        "Crests and troughs belong to a transverse wave; sound in air is longitudinal.",
+        "The air does not travel from the source to the ear; it vibrates in place.",
+        "No particles are shot out; the existing air passes the vibration on."
+       ],
+       "y": "The vibrating source pushes the air into compressions and leaves rarefactions between them."
+      },
+      {
+       "q": "Two notes have the same loudness but one sounds higher. What differs?",
+       "r": "The frequency: the higher note has the greater frequency",
+       "w": [
+        "The amplitude",
+        "The speed of the sound in air",
+        "The wavelength only, with the frequency unchanged"
+       ],
+       "e": [
+        "Amplitude decides loudness, which is said to be the same here.",
+        "All sounds travel at the same speed in the same air.",
+        "If the speed is fixed and the wavelength changes, the frequency changes too."
+       ],
+       "y": "Pitch depends on frequency: more vibrations each second gives a higher note."
+      },
+      {
+       "q": "Two notes have the same pitch but one is louder. What differs?",
+       "r": "The amplitude: the louder note has the greater amplitude",
+       "w": [
+        "The frequency",
+        "The speed in air",
+        "The quality only"
+       ],
+       "e": [
+        "Equal pitch means equal frequency.",
+        "The speed in the same air is the same for both.",
+        "Quality is about the mixture of overtones, not about loudness."
+       ],
+       "y": "Loudness depends on amplitude, which is the energy the wave carries."
+      },
+      {
+       "q": "The same note is played on a flute and on a guitar, and they sound different. What is this difference called?",
+       "r": "Quality (timbre), caused by the mixture of overtones",
+       "w": [
+        "Pitch",
+        "Loudness",
+        "Speed"
+       ],
+       "e": [
+        "The pitch is the same: both play the same note.",
+        "They can be played equally loudly and still sound different.",
+        "Both sounds travel at the same speed in air."
+       ],
+       "y": "Each instrument produces the fundamental with a different mixture of overtones, and that mixture is its quality."
+      },
+      {
+       "q": "Through which does sound travel fastest?",
+       "r": "A steel rail",
+       "w": [
+        "Air",
+        "Water",
+        "A vacuum"
+       ],
+       "e": [
+        "Sound travels slowest of these in air, about {340} m/s.",
+        "Sound travels faster in water than in air, but faster still in a solid.",
+        "Sound cannot travel through a vacuum at all."
+       ],
+       "y": "The particles of a solid are closest together, so they pass the vibration on fastest."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p4-13-pitch",
+   "type": "mcq",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "sound"
+   ],
+   "vars": {
+    "H": {
+     "pick": [
+      {
+       "q": "harder than before",
+       "r": "It is louder, because the skin vibrates with a greater amplitude",
+       "w1": "It is higher in pitch, because the skin vibrates faster",
+       "w2": "It is quieter, because more energy is lost",
+       "w3": "Nothing changes",
+       "y": "Hitting harder gives the skin more energy, so it vibrates with a bigger amplitude, and amplitude decides loudness."
+      },
+      {
+       "q": "after its skin has been tightened",
+       "r": "It is higher in pitch, because the skin vibrates more often each second",
+       "w1": "It is louder, because the skin is tighter",
+       "w2": "It is lower in pitch, because the skin is stiffer",
+       "w3": "Nothing changes",
+       "y": "A tighter skin vibrates at a higher frequency, and frequency decides pitch."
+      },
+      {
+       "q": "very softly",
+       "r": "It is quieter, because the skin vibrates with a smaller amplitude",
+       "w1": "It is lower in pitch, because the skin vibrates more slowly",
+       "w2": "It is louder, because less energy is wasted",
+       "w3": "Nothing changes",
+       "y": "A gentle hit gives little energy, so the amplitude is small and the sound is quiet; the pitch is unchanged."
+      }
+     ]
+    },
+    "how": {
+     "expr": "H.q"
+    }
+   },
+   "prompt": "A drum is hit {how}. What happens to the sound?",
+   "correct": "{H.r}",
+   "distractors": [
+    {
+     "text": "{H.w1}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{H.w2}",
+     "misconception": "w2"
+    },
+    {
+     "text": "{H.w3}",
+     "misconception": "w3"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w1",
+     "explain": "{H.y}"
+    },
+    {
+     "id": "w2",
+     "explain": "{H.y}"
+    },
+    {
+     "id": "w3",
+     "explain": "{H.y}"
+    }
+   ],
+   "solution": [
+    "{H.y}",
+    "So the answer is: {answer}."
+   ]
+  },
+  {
+   "id": "p4-13-lam",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "sound"
+   ],
+   "vars": {
+    "f": {
+     "pick": [
+      20,
+      40,
+      50,
+      68,
+      85,
+      100,
+      170,
+      200,
+      340,
+      425,
+      680,
+      850
+     ]
+    }
+   },
+   "prompt": "A note of frequency {f} Hz travels through air at {340} m/s. Find its wavelength, in metres.",
+   "answer": "roundTo(waveLen(340, f), 0.001)",
+   "misconceptions": [
+    {
+     "id": "mult",
+     "wrong": "waveSpeed(340, f)",
+     "explain": "Divide the speed by the frequency."
+    },
+    {
+     "id": "swap",
+     "wrong": "roundTo(f / 340, 0.0001)",
+     "explain": "λ = v ÷ f, not f ÷ v."
+    }
+   ],
+   "solution": [
+    "λ = v ÷ f.",
+    "λ = {340} ÷ {f} = {answer} m."
+   ],
+   "unit": "m"
+  },
+  {
+   "id": "p4-13-quality",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "sound"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The same note is played on a guitar and on a flute, equally loudly. Which statement is true?",
+       "r": "They have the same pitch and loudness but different quality, because of their different overtones",
+       "w": [
+        "They have different pitches",
+        "The flute sound travels faster",
+        "They are identical sounds"
+       ],
+       "e": [
+        "Playing 'the same note' means the same fundamental frequency, so the pitch is the same.",
+        "All sounds travel at the same speed in the same air.",
+        "They are easy to tell apart, which is why quality is a separate characteristic."
+       ],
+       "y": "Each instrument adds its own mixture of overtones to the fundamental, and that mixture is its quality."
+      },
+      {
+       "q": "What makes one person's voice sound different from another's, even on the same note?",
+       "r": "The mixture of overtones each voice produces, which is its quality",
+       "w": [
+        "The speed of the sound each makes",
+        "The pitch of the note",
+        "The loudness of the voice"
+       ],
+       "e": [
+        "All voices travel at the same speed in the same air.",
+        "Singing the same note means the same pitch for both.",
+        "Both can sing equally loudly and still sound different."
+       ],
+       "y": "Quality, or timbre, comes from the overtones present along with the fundamental."
+      },
+      {
+       "q": "A tuning fork and a violin both sound a note of {256} Hz. Why does the fork sound plainer?",
+       "r": "A tuning fork gives almost only the fundamental, with few overtones",
+       "w": [
+        "A tuning fork is quieter",
+        "A tuning fork gives a higher pitch",
+        "A tuning fork makes a longitudinal wave and the violin a transverse one"
+       ],
+       "e": [
+        "A fork can be struck hard and still sound plain.",
+        "Both sound {256} Hz, so the pitch is the same.",
+        "Both make longitudinal sound waves in the air."
+       ],
+       "y": "A nearly pure note has little beyond the fundamental; the extra overtones of a violin give it a richer quality."
+      },
+      {
+       "q": "Which characteristic of a sound depends on the amplitude of the wave?",
+       "r": "Its loudness",
+       "w": [
+        "Its pitch",
+        "Its quality",
+        "Its speed"
+       ],
+       "e": [
+        "Pitch depends on the frequency.",
+        "Quality depends on the mixture of overtones.",
+        "The speed depends on the medium, not on the wave's amplitude."
+       ],
+       "y": "A larger amplitude carries more energy, and the sound is louder."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p4-13-medium",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "sound"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A pupil puts an ear to a long steel rail and a friend taps the far end once. What is heard?",
+       "r": "Two sounds: the one through the steel first, then the one through the air",
+       "w": [
+        "Only one sound, through the air",
+        "Only one sound, through the steel",
+        "No sound at all"
+       ],
+       "e": [
+        "The rail carries sound too, and faster than the air does.",
+        "The air also carries the sound, arriving a little later.",
+        "Both the steel and the air are media that carry sound."
+       ],
+       "y": "Sound travels much faster in a solid, where the particles are closest together."
+      },
+      {
+       "q": "In which does sound travel fastest?",
+       "r": "In a steel bar",
+       "w": [
+        "In air",
+        "In water",
+        "In a vacuum"
+       ],
+       "e": [
+        "Sound is slowest of these in air, about {340} m/s.",
+        "Sound is faster in water than in air, but faster still in a solid.",
+        "Sound cannot travel through a vacuum at all."
+       ],
+       "y": "The closer the particles, the faster the vibration is passed on: solids, then liquids, then gases."
+      },
+      {
+       "q": "Why does sound travel faster in water than in air?",
+       "r": "The particles of water are much closer together, so the vibration is passed on more quickly",
+       "w": [
+        "Water is colder than air",
+        "Water is a transverse medium",
+        "Sound is louder under water"
+       ],
+       "e": [
+        "Temperature changes the speed a little, but the spacing of the particles matters far more.",
+        "Sound is longitudinal in water as it is in air.",
+        "How loud a sound is does not change how fast it travels."
+       ],
+       "y": "Sound travels at about {340} m/s in air and about {1500} m/s in water."
+      },
+      {
+       "q": "A thunderclap is heard several seconds after the lightning is seen. Why?",
+       "r": "Light travels far faster than sound, so the sound arrives much later",
+       "w": [
+        "The thunder happens after the lightning",
+        "The sound is reflected by the clouds first",
+        "Sound slows down in damp air"
+       ],
+       "e": [
+        "The flash and the clap happen together; it is the travel times that differ.",
+        "The delay is there even for a direct path; the difference in speed causes it.",
+        "Damp air changes the speed only slightly, far too little to explain seconds of delay."
+       ],
+       "y": "Light crosses a few kilometres almost at once, while sound takes about {3} s for each kilometre."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}

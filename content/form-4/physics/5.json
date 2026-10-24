@@ -1,0 +1,577 @@
+{
+ "subject": "physics",
+ "class": "Form 4",
+ "lesson_no": 5,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "p4-5",
+   "name": "Use specific latent heat; explain the cooling effect of evaporation"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Latent heat is the heat taken in or given out when a substance changes state, with no change of temperature. The energy goes into separating the particles, not into speeding them up.\nSpecific latent heat of fusion l_f: the heat needed to change 1 kg of a solid into liquid at its melting point. For ice, 336 000 J/kg.\nSpecific latent heat of vaporisation l_v: the heat needed to change 1 kg of a liquid into gas at its boiling point. For water, 2 260 000 J/kg.\nQ = ml.\nEvaporation cools: the fastest particles escape from the surface, so the average energy of those left falls. This is why sweating cools the body and why water in a clay pot stays cool.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to calculate heat with Q = ml, combine it with Q = mcΔθ, and explain why evaporation cools.\nBuilds on: Lesson {3} (Q = mcΔθ) and Form One changes of state.\nLeads to: Lesson {6} (how heat moves) and the cooling methods used in food storage."
+   },
+   {
+    "heading": "Heat with no temperature change",
+    "text": "Heat ice steadily and its temperature rises to {0} °C. Then it stops rising, even though heating continues, until all the ice has melted.\nThat heat is latent (hidden) heat: it separates the particles instead of speeding them up.\n• Specific latent heat of fusion, l_f: heat to melt {1} kg at the melting point. Ice: {336000} J/kg.\n• Specific latent heat of vaporisation, l_v: heat to boil {1} kg at the boiling point. Water: {2260000} J/kg.\nQ = ml. Changing {0.5} kg of ice to water needs {0.5} × {336000} = {168000} J.\nA problem with both stages adds them: melt first with ml, then warm with mcΔθ."
+   },
+   {
+    "heading": "Evaporation and cooling",
+    "text": "In a liquid some particles move faster than others. At the surface, the fastest can escape. Those left behind have a lower average energy, so the liquid cools. This happens at any temperature, not only at the boiling point.\nEveryday examples:\n• Sweat evaporating from the skin takes latent heat from the body and cools it.\n• Water in a porous clay pot seeps out and evaporates, keeping the water inside cool.\n• Spirit on the skin feels cold because it evaporates quickly.\nEvaporation is faster when it is hotter, windier, drier, or the surface area is larger."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "latent heat",
+    "meaning": "heat taken in or given out at constant temperature during a change of state"
+   },
+   {
+    "word": "fusion",
+    "meaning": "melting: solid to liquid"
+   },
+   {
+    "word": "vaporisation",
+    "meaning": "boiling or evaporating: liquid to gas"
+   },
+   {
+    "word": "evaporation",
+    "meaning": "escape of the fastest particles from a liquid surface, at any temperature"
+   }
+  ],
+  "examples": [
+   "melting {1} kg of ice: {336000} J",
+   "boiling {0.1} kg of water: {226000} J"
+  ],
+  "mistake": {
+   "wrong": "melting {2} kg of ice: Q = mcΔθ = {2} × {4200} × {0}",
+   "right": "Q = ml = {2} × {336000} = {672000} J",
+   "why": "There is no temperature change during melting, so mcΔθ gives zero. A change of state uses Q = ml."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {
+   "m": 0.5,
+   "l": 336000
+  },
+  "problem": "How much heat is needed to melt {m} kg of ice at {0} °C? (l_f = {l} J/kg.)",
+  "steps": [
+   "The ice is already at its melting point, so all the heat goes into melting it.",
+   "Q = ml.",
+   "Q = {m} × {l} = {heatML(m, l)} J."
+  ],
+  "answer": "{heatML(m, l)} J",
+  "checks": [
+   "heatML(m, l) == 168000"
+  ]
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "c4p5-1",
+    "status": "draft",
+    "idea": "During a change of state the temperature does not change: the heat separates the particles.",
+    "vars": {},
+    "example": [
+     "ice at {0} °C melting to water at {0} °C"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-5-flat"
+    }
+   },
+   {
+    "id": "c4p5-2",
+    "status": "draft",
+    "idea": "Q = ml, with l the specific latent heat in J/kg.",
+    "vars": {},
+    "example": [
+     "melting {2} kg of ice: Q = {2} × {336000} = {672000} J"
+    ],
+    "checks": [],
+    "check": {
+     "ref": "p4-5-q"
+    }
+   },
+   {
+    "id": "c4p5-3",
+    "status": "draft",
+    "idea": "Evaporation cools because the fastest particles leave the surface.",
+    "vars": {},
+    "example": [
+     "sweat evaporating takes latent heat from the skin"
+    ],
+    "checks": [],
+    "check": {
+     "id": "p4-5-evap-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "latent-heat"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Why does a clay pot keep drinking water cool on a hot day?",
+         "r": "Water seeps through the clay and evaporates, taking latent heat from the water left inside",
+         "w": [
+          "The clay stops heat from the sun reaching the water",
+          "Clay is naturally cold",
+          "The water inside freezes a little"
+         ],
+         "e": [
+          "A glazed pot of the same clay does not keep the water nearly as cool: the evaporation does the work.",
+          "A material is not cold by itself; it takes the temperature of its surroundings.",
+          "The water stays well above {0} °C; it is cooled, not frozen."
+         ],
+         "y": "Evaporation from the outside takes latent heat of vaporisation from the pot and the water in it."
+        },
+        {
+         "q": "Why does sweating cool the body?",
+         "r": "The sweat evaporates and takes latent heat from the skin",
+         "w": [
+          "Sweat is colder than the body",
+          "Sweat carries heat away as a liquid running off",
+          "Sweating uses up energy in the muscles"
+         ],
+         "e": [
+          "Sweat leaves the body at body temperature; it is not cold.",
+          "Sweat that runs off without evaporating cools very little; that is why a humid day feels worse.",
+          "The cooling happens at the skin surface, not in the muscles."
+         ],
+         "y": "The fastest particles escape from the sweat, so the skin loses energy and cools."
+        },
+        {
+         "q": "On which day will washing on a line dry fastest?",
+         "r": "A hot, dry and windy day",
+         "w": [
+          "A hot, still and humid day",
+          "A cool, still and humid day",
+          "A cool, windy and humid day"
+         ],
+         "e": [
+          "Still, humid air above the cloth slows evaporation even when it is hot.",
+          "Cool, still and humid is the slowest of all.",
+          "Wind helps, but humid air can take up little more water."
+         ],
+         "y": "Evaporation is faster when it is hotter, when the air is drier, and when wind carries the vapour away."
+        },
+        {
+         "q": "Why does methylated spirit on the back of the hand feel colder than water does?",
+         "r": "It evaporates faster, so it takes latent heat from the skin more quickly",
+         "w": [
+          "It is stored at a lower temperature",
+          "It conducts heat better than water",
+          "It is a better insulator than water"
+         ],
+         "e": [
+          "Both liquids are at room temperature before they are used.",
+          "Conduction is not the main effect here; the rate of evaporation is.",
+          "An insulator would slow the loss of heat, not speed it up."
+         ],
+         "y": "A liquid that evaporates quickly takes its latent heat from the skin quickly, so the skin cools fast."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is {answer}."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "p4-5-flat",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "latent-heat"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Ice at {0} °C is heated steadily until it has all melted. What happens to the temperature while it melts?",
+       "r": "It stays at {0} °C",
+       "w": [
+        "It rises steadily",
+        "It falls, because melting is cooling",
+        "It rises, then falls"
+       ],
+       "e": [
+        "The temperature rises again only once all the ice has melted.",
+        "Heat is being taken in, so the temperature does not fall.",
+        "It stays constant until the melting is complete."
+       ],
+       "y": "During a change of state the heat separates the particles instead of speeding them up."
+      },
+      {
+       "q": "Where does the energy go while ice is melting at {0} °C?",
+       "r": "It separates the particles from their fixed positions",
+       "w": [
+        "It makes the particles move faster",
+        "It is destroyed",
+        "It is stored as temperature"
+       ],
+       "e": [
+        "Faster particles would mean a higher temperature, but the temperature stays the same.",
+        "Energy is never destroyed; it changes form or place.",
+        "Temperature is not a store of energy; it is the degree of hotness."
+       ],
+       "y": "Latent heat does the work of breaking the forces holding the particles in place."
+      },
+      {
+       "q": "Why does steam at {100} °C scald more badly than water at {100} °C?",
+       "r": "The steam gives out its latent heat of vaporisation as it condenses on the skin",
+       "w": [
+        "Steam is hotter than boiling water",
+        "Steam travels faster than water",
+        "Water cools before it touches the skin"
+       ],
+       "e": [
+        "Both are at {100} °C; the difference is the latent heat, not the temperature.",
+        "Speed is not the reason; the extra energy released is.",
+        "The water is still at {100} °C when it lands."
+       ],
+       "y": "Each kilogram of steam gives out {2260000} J as it condenses, on top of the heat released as it then cools."
+      },
+      {
+       "q": "What is the specific latent heat of fusion of a substance?",
+       "r": "The heat needed to change {1} kg of it from solid to liquid at its melting point",
+       "w": [
+        "The heat needed to raise {1} kg of it by {1} K",
+        "The heat needed to boil {1} kg of it",
+        "The temperature at which it melts"
+       ],
+       "e": [
+        "That is specific heat capacity, where the temperature does change.",
+        "That is the specific latent heat of vaporisation.",
+        "Latent heat is an energy per kilogram, not a temperature."
+       ],
+       "y": "Fusion means melting: Q = ml_f, with l_f in J/kg and no change of temperature."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  },
+  {
+   "id": "p4-5-q",
+   "type": "numeric",
+   "level": 1,
+   "review": "rule",
+   "sources": [
+    "latent-heat"
+   ],
+   "vars": {
+    "m": {
+     "pick": [
+      0.1,
+      0.2,
+      0.25,
+      0.5,
+      1,
+      2,
+      3
+     ]
+    }
+   },
+   "prompt": "Find the heat needed to melt {m} kg of ice at its melting point. (l_f = {336000} J/kg.)",
+   "answer": "heatML(m, 336000)",
+   "misconceptions": [
+    {
+     "id": "div",
+     "wrong": "roundTo(336000 / m, 1)",
+     "explain": "Multiply the mass by the specific latent heat."
+    },
+    {
+     "id": "mc",
+     "wrong": "heatMC(m, 4200, 100)",
+     "explain": "Melting is a change of state: use Q = ml, not Q = mcΔθ."
+    }
+   ],
+   "solution": [
+    "Q = ml.",
+    "Q = {m} × {336000} = {answer} J."
+   ],
+   "unit": "J"
+  },
+  {
+   "id": "p4-5-vap",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "latent-heat"
+   ],
+   "vars": {
+    "m": {
+     "pick": [
+      0.1,
+      0.2,
+      0.25,
+      0.5,
+      1,
+      2
+     ]
+    }
+   },
+   "prompt": "Find the heat needed to turn {m} kg of water at {100} °C into steam at {100} °C. (l_v = {2260000} J/kg.)",
+   "answer": "heatML(m, 2260000)",
+   "misconceptions": [
+    {
+     "id": "fusion",
+     "wrong": "heatML(m, 336000)",
+     "explain": "{336000} J/kg is for melting ice. Boiling water uses l_v = {2260000} J/kg."
+    },
+    {
+     "id": "mc",
+     "wrong": "heatMC(m, 4200, 100)",
+     "explain": "Boiling at a constant {100} °C is a change of state: Q = ml."
+    }
+   ],
+   "solution": [
+    "The water is already at the boiling point, so Q = ml.",
+    "Q = {m} × {2260000} = {answer} J."
+   ],
+   "unit": "J"
+  },
+  {
+   "id": "p4-5-both",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "latent-heat"
+   ],
+   "vars": {
+    "m": {
+     "pick": [
+      0.1,
+      0.2,
+      0.5,
+      1
+     ]
+    },
+    "t": {
+     "int": [
+      10,
+      80
+     ]
+    }
+   },
+   "prompt": "How much heat changes {m} kg of ice at {0} °C into water at {t} °C? (l_f = {336000} J/kg, c = {4200} J/(kg·K).)",
+   "answer": "heatML(m, 336000) + heatMC(m, 4200, t)",
+   "misconceptions": [
+    {
+     "id": "melt",
+     "wrong": "heatML(m, 336000)",
+     "explain": "The water must also be warmed from {0} °C to {t} °C."
+    },
+    {
+     "id": "warm",
+     "wrong": "heatMC(m, 4200, t)",
+     "explain": "The ice must first be melted at {0} °C."
+    }
+   ],
+   "solution": [
+    "First melt the ice: Q₁ = ml = {m} × {336000} = {heatML(m, 336000)} J.",
+    "Then warm the water: Q₂ = mcΔθ = {m} × {4200} × {t} = {heatMC(m, 4200, t)} J.",
+    "Total = {heatML(m, 336000)} + {heatMC(m, 4200, t)} = {answer} J."
+   ],
+   "unit": "J"
+  },
+  {
+   "id": "p4-5-evap",
+   "type": "mcq",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "latent-heat"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Why does a clay pot keep drinking water cool on a hot day?",
+       "r": "Water seeps through the clay and evaporates, taking latent heat from the water left inside",
+       "w": [
+        "The clay stops heat from the sun reaching the water",
+        "Clay is naturally cold",
+        "The water inside freezes a little"
+       ],
+       "e": [
+        "A glazed pot of the same clay does not keep the water nearly as cool: the evaporation does the work.",
+        "A material is not cold by itself; it takes the temperature of its surroundings.",
+        "The water stays well above {0} °C; it is cooled, not frozen."
+       ],
+       "y": "Evaporation from the outside takes latent heat of vaporisation from the pot and the water in it."
+      },
+      {
+       "q": "Why does sweating cool the body?",
+       "r": "The sweat evaporates and takes latent heat from the skin",
+       "w": [
+        "Sweat is colder than the body",
+        "Sweat carries heat away as a liquid running off",
+        "Sweating uses up energy in the muscles"
+       ],
+       "e": [
+        "Sweat leaves the body at body temperature; it is not cold.",
+        "Sweat that runs off without evaporating cools very little; that is why a humid day feels worse.",
+        "The cooling happens at the skin surface, not in the muscles."
+       ],
+       "y": "The fastest particles escape from the sweat, so the skin loses energy and cools."
+      },
+      {
+       "q": "On which day will washing on a line dry fastest?",
+       "r": "A hot, dry and windy day",
+       "w": [
+        "A hot, still and humid day",
+        "A cool, still and humid day",
+        "A cool, windy and humid day"
+       ],
+       "e": [
+        "Still, humid air above the cloth slows evaporation even when it is hot.",
+        "Cool, still and humid is the slowest of all.",
+        "Wind helps, but humid air can take up little more water."
+       ],
+       "y": "Evaporation is faster when it is hotter, when the air is drier, and when wind carries the vapour away."
+      },
+      {
+       "q": "Why does methylated spirit on the back of the hand feel colder than water does?",
+       "r": "It evaporates faster, so it takes latent heat from the skin more quickly",
+       "w": [
+        "It is stored at a lower temperature",
+        "It conducts heat better than water",
+        "It is a better insulator than water"
+       ],
+       "e": [
+        "Both liquids are at room temperature before they are used.",
+        "Conduction is not the main effect here; the rate of evaporation is.",
+        "An insulator would slow the loss of heat, not speed it up."
+       ],
+       "y": "A liquid that evaporates quickly takes its latent heat from the skin quickly, so the skin cools fast."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is {answer}."
+   ]
+  }
+ ]
+}
