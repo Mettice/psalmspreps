@@ -1,0 +1,611 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 5",
+ "lesson_no": 46,
+ "language": "fr",
+ "prerequisites": [
+  21,
+  33,
+  45
+ ],
+ "skills": [
+  {
+   "id": "fi5-46",
+   "name": "Cou, coût et coup"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Cou est un nom anatomique ; coût désigne une dépense dans les contextes étudiés ; coup peut désigner un geste ponctuel et entre dans de nombreuses locutions. Après coup signifie après l’événement dans le modèle. La proximité sonore ne supprime ni le sens ni la graphie. Cherche la construction entière au lieu de remplacer un mot par un autre uniquement parce qu’il se prononce de manière proche.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras choisir une graphie selon un sens ou une locution reconnue. Acquis mobilisés : homophones et analyse du contexte. Pour la suite : traduction et relecture d’un texte développé."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Cou est un nom anatomique ; coût désigne une dépense dans les contextes étudiés ; coup peut désigner un geste ponctuel et entre dans de nombreuses locutions. Après coup signifie après l’événement dans le modèle. La proximité sonore ne supprime ni le sens ni la graphie. Cherche la construction entière au lieu de remplacer un mot par un autre uniquement parce qu’il se prononce de manière proche."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : Le foulard entoure le cou. Le club compare le coût du matériel sans fournir de prix réel. Bih ajoute un coup de crayon puis, après coup, relit son texte. Les contextes distinguent anatomie, dépense, geste et locution."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Identifie le sens demandé et vérifie une paraphrase. Pour une locution, conserve la forme attestée du groupe entier. N’invente pas un montant lorsque le texte n’en donne pas."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "cou",
+    "meaning": "le nom anatomique de la région entre tête et tronc"
+   },
+   {
+    "word": "coût",
+    "meaning": "la dépense évoquée dans le modèle"
+   },
+   {
+    "word": "coup de crayon",
+    "meaning": "la locution nommant le geste du modèle"
+   },
+   {
+    "word": "après coup",
+    "meaning": "la locution signifiant après l’événement dans le modèle"
+   }
+  ],
+  "mistake": {
+   "wrong": "Coût nomme cette région du corps.",
+   "right": "le nom anatomique de la région entre tête et tronc.",
+   "why": "Cou porte ici le sens anatomique."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le foulard entoure le cou. Explique le choix.",
+  "steps": [
+   "le nom anatomique de la région entre tête et tronc.",
+   "Cou porte ici le sens anatomique."
+  ],
+  "answer": "cou",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi5-46-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "cou : le nom anatomique de la région entre tête et tronc.",
+     "coût : la dépense évoquée dans le modèle.",
+     "coup de crayon : la locution nommant le geste du modèle.",
+     "après coup : la locution signifiant après l’événement dans le modèle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-46-notions"
+    }
+   },
+   {
+    "id": "fi5-46-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Le foulard entoure le cou.",
+     "Le coût du matériel reste à comparer.",
+     "Un coup de crayon ajoute une marque au dessin.",
+     "Après coup, elle relit son texte."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-46-cas"
+    }
+   },
+   {
+    "id": "fi5-46-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Coût nomme cette région du corps. Correction : Cou porte ici le sens anatomique.",
+     "Cou fournit la graphie de la dépense. Correction : Le sens de dépense demande coût.",
+     "Coup doit toujours désigner une dépense financière. Correction : Ses sens dépendent de la construction.",
+     "Après coût signifie après l’événement dans cette locution. Correction : La locution conserve coup."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi5-46-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "cou : le nom anatomique de la région entre tête et tronc.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Cou porte ici le sens anatomique. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "coût : la dépense évoquée dans le modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le sens de dépense demande coût. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "coup de crayon : la locution nommant le geste du modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Ses sens dépendent de la construction. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "après coup : la locution signifiant après l’événement dans le modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La locution conserve coup. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Coût nomme cette région du corps.",
+        "truth": "false",
+        "explain": "Cou porte ici le sens anatomique."
+       },
+       {
+        "text": "Cou fournit la graphie de la dépense.",
+        "truth": "false",
+        "explain": "Le sens de dépense demande coût."
+       },
+       {
+        "text": "Coup doit toujours désigner une dépense financière.",
+        "truth": "false",
+        "explain": "Ses sens dépendent de la construction."
+       },
+       {
+        "text": "Après coût signifie après l’événement dans cette locution.",
+        "truth": "false",
+        "explain": "La locution conserve coup."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi5-46-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne le nom anatomique de la région entre tête et tronc ?",
+       "r": "cou",
+       "w": [
+        "coût",
+        "coup de crayon",
+        "après coup"
+       ],
+       "e": [
+        "Cela désigne la dépense évoquée dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne la locution nommant le geste du modèle, plutôt que la notion demandée.",
+        "Cela désigne la locution signifiant après l’événement dans le modèle, plutôt que la notion demandée."
+       ],
+       "y": "Cou porte ici le sens anatomique."
+      },
+      {
+       "q": "Quel terme désigne la dépense évoquée dans le modèle ?",
+       "r": "coût",
+       "w": [
+        "cou",
+        "coup de crayon",
+        "après coup"
+       ],
+       "e": [
+        "Cela désigne le nom anatomique de la région entre tête et tronc, plutôt que la notion demandée.",
+        "Cela désigne la locution nommant le geste du modèle, plutôt que la notion demandée.",
+        "Cela désigne la locution signifiant après l’événement dans le modèle, plutôt que la notion demandée."
+       ],
+       "y": "Le sens de dépense demande coût."
+      },
+      {
+       "q": "Quel terme désigne la locution nommant le geste du modèle ?",
+       "r": "coup de crayon",
+       "w": [
+        "cou",
+        "coût",
+        "après coup"
+       ],
+       "e": [
+        "Cela désigne le nom anatomique de la région entre tête et tronc, plutôt que la notion demandée.",
+        "Cela désigne la dépense évoquée dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne la locution signifiant après l’événement dans le modèle, plutôt que la notion demandée."
+       ],
+       "y": "Ses sens dépendent de la construction."
+      },
+      {
+       "q": "Quel terme désigne la locution signifiant après l’événement dans le modèle ?",
+       "r": "après coup",
+       "w": [
+        "cou",
+        "coût",
+        "coup de crayon"
+       ],
+       "e": [
+        "Cela désigne le nom anatomique de la région entre tête et tronc, plutôt que la notion demandée.",
+        "Cela désigne la dépense évoquée dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne la locution nommant le geste du modèle, plutôt que la notion demandée."
+       ],
+       "y": "La locution conserve coup."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-46-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le foulard entoure le cou.\nQuelle notion convient ?",
+       "r": "cou",
+       "w": [
+        "coût",
+        "coup de crayon",
+        "après coup"
+       ],
+       "e": [
+        "Cela concerne la dépense évoquée dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne la locution nommant le geste du modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne la locution signifiant après l’événement dans le modèle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Cou porte ici le sens anatomique."
+      },
+      {
+       "q": "Le coût du matériel reste à comparer.\nQuelle notion convient ?",
+       "r": "coût",
+       "w": [
+        "cou",
+        "coup de crayon",
+        "après coup"
+       ],
+       "e": [
+        "Cela concerne le nom anatomique de la région entre tête et tronc. Compare cette définition avec le cas présenté.",
+        "Cela concerne la locution nommant le geste du modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne la locution signifiant après l’événement dans le modèle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le sens de dépense demande coût."
+      },
+      {
+       "q": "Un coup de crayon ajoute une marque au dessin.\nQuelle notion convient ?",
+       "r": "coup de crayon",
+       "w": [
+        "cou",
+        "coût",
+        "après coup"
+       ],
+       "e": [
+        "Cela concerne le nom anatomique de la région entre tête et tronc. Compare cette définition avec le cas présenté.",
+        "Cela concerne la dépense évoquée dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne la locution signifiant après l’événement dans le modèle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Ses sens dépendent de la construction."
+      },
+      {
+       "q": "Après coup, elle relit son texte.\nQuelle notion convient ?",
+       "r": "après coup",
+       "w": [
+        "cou",
+        "coût",
+        "coup de crayon"
+       ],
+       "e": [
+        "Cela concerne le nom anatomique de la région entre tête et tronc. Compare cette définition avec le cas présenté.",
+        "Cela concerne la dépense évoquée dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne la locution nommant le geste du modèle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La locution conserve coup."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-46-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le foulard entoure le ___. Choisis la graphie.",
+       "r": "cou",
+       "w": [
+        "coût",
+        "coup",
+        "cours"
+       ],
+       "e": [
+        "Coût nomme une dépense dans le modèle.",
+        "Coup désigne le geste ou la locution étudiés.",
+        "Cours concerne un enseignement ou un déroulement selon le contexte, pas ce sens."
+       ],
+       "y": "Le sens de la phrase demande cou."
+      },
+      {
+       "q": "Le texte compare le ___ du matériel. Choisis la graphie.",
+       "r": "coût",
+       "w": [
+        "cou",
+        "coup",
+        "cours"
+       ],
+       "e": [
+        "Cou désigne la région du corps.",
+        "Coup désigne le geste ou la locution étudiés.",
+        "Cours concerne un enseignement ou un déroulement selon le contexte, pas ce sens."
+       ],
+       "y": "Le sens de la phrase demande coût."
+      },
+      {
+       "q": "Elle ajoute un ___ de crayon. Choisis la graphie.",
+       "r": "coup",
+       "w": [
+        "cou",
+        "coût",
+        "cours"
+       ],
+       "e": [
+        "Cou désigne la région du corps.",
+        "Coût nomme une dépense dans le modèle.",
+        "Cours concerne un enseignement ou un déroulement selon le contexte, pas ce sens."
+       ],
+       "y": "Le sens de la phrase demande coup."
+      },
+      {
+       "q": "Après ___, elle relit son texte. Choisis la graphie.",
+       "r": "coup",
+       "w": [
+        "cou",
+        "coût",
+        "cours"
+       ],
+       "e": [
+        "Cou désigne la région du corps.",
+        "Coût nomme une dépense dans le modèle.",
+        "Cours concerne un enseignement ou un déroulement selon le contexte, pas ce sens."
+       ],
+       "y": "Le sens de la phrase demande coup."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-46-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "cou",
+     "right": "Le foulard entoure le cou."
+    },
+    {
+     "left": "coût",
+     "right": "Le coût du matériel reste à comparer."
+    },
+    {
+     "left": "coup de crayon",
+     "right": "Un coup de crayon ajoute une marque au dessin."
+    },
+    {
+     "left": "après coup",
+     "right": "Après coup, elle relit son texte."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-46-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "cou : le nom anatomique de la région entre tête et tronc.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Cou porte ici le sens anatomique. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "coût : la dépense évoquée dans le modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le sens de dépense demande coût. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "coup de crayon : la locution nommant le geste du modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Ses sens dépendent de la construction. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "après coup : la locution signifiant après l’événement dans le modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La locution conserve coup. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Coût nomme cette région du corps.",
+      "truth": "false",
+      "explain": "Cou porte ici le sens anatomique."
+     },
+     {
+      "text": "Cou fournit la graphie de la dépense.",
+      "truth": "false",
+      "explain": "Le sens de dépense demande coût."
+     },
+     {
+      "text": "Coup doit toujours désigner une dépense financière.",
+      "truth": "false",
+      "explain": "Ses sens dépendent de la construction."
+     },
+     {
+      "text": "Après coût signifie après l’événement dans cette locution.",
+      "truth": "false",
+      "explain": "La locution conserve coup."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -114,5 +114,16 @@ const root = path.resolve(__dirname, '../../..');
       await page.getByRole('button', {name:'Suivant',exact:true}).click();
       if(!(await page.locator('body').innerText()).includes('/swa/')) throw Error('Missing written phonetic model');
     }
+    if (subject === 'f5-francais-intensif') {
+      for (const [n,label] of [[15,/Suite familiale inventée/],[43,/Plan de cour scolaire inventé/],[51,/Scène environnementale inventée/]]) {
+        await page.evaluate(({id,n}) => openLesson(id,n), {id:subject,n});
+        await page.getByRole('button', {name:'Suivant',exact:true}).click();
+        await page.getByRole('button', {name:'Suivant',exact:true}).click();
+        if(await page.getByRole('img', {name:label}).count()!==1) throw Error('Missing intensive writing figure '+n);
+        const writingShot=path.join(os.tmpdir(), `${subject}-writing-${n}.png`);
+        await page.screenshot({path:writingShot,fullPage:true});
+        console.log('Writing screenshot: '+writingShot);
+      }
+    }
   } finally { await browser.close(); }
 })().catch((e) => { console.error(e); process.exitCode = 1; });

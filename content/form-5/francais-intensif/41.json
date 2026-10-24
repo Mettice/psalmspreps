@@ -1,0 +1,576 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 5",
+ "lesson_no": 41,
+ "language": "fr",
+ "prerequisites": [
+  7,
+  19,
+  38,
+  39
+ ],
+ "skills": [
+  {
+   "id": "fi5-41",
+   "name": "Imparfait et passé composé"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "L’imparfait présente notamment une habitude, un état ou une action dans son déroulement passé. Le passé composé peut présenter un événement accompli. Une action longue n’impose pas automatiquement l’imparfait, et une action courte n’impose pas automatiquement le passé composé. Le narrateur choisit une manière de montrer les faits. Dans un même récit, l’arrière-plan et un changement peuvent se compléter avec des temps différents. Les exercices annoncent explicitement le point de vue demandé.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras former les temps et justifier un arrière-plan ou un événement accompli dans le modèle. Acquis mobilisés : participes, temps du récit et indices contextuels. Pour la suite : description de lieu et récit développé."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "L’imparfait présente notamment une habitude, un état ou une action dans son déroulement passé. Le passé composé peut présenter un événement accompli. Une action longue n’impose pas automatiquement l’imparfait, et une action courte n’impose pas automatiquement le passé composé. Le narrateur choisit une manière de montrer les faits. Dans un même récit, l’arrière-plan et un changement peuvent se compléter avec des temps différents. Les exercices annoncent explicitement le point de vue demandé."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Récit original : Chaque soir, Bih {fr2Imparfait(\"travailler\",3)} au club. Ce soir-là, {fr2PasseCompose(\"finir\",3)} plus tôt. La première phrase installe l’habitude ; la seconde présente le changement accompli. Le temps ne mesure pas la durée réelle comme une horloge."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère le cadre, l’habitude et l’événement choisi. Explique leur rôle, puis conjugue. Vérifie le sujet et l’auxiliaire ; ne choisis pas seulement parce qu’un mot comme toujours ou soudain apparaît."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "habitude passée",
+    "meaning": "une répétition présentée dans un cadre passé"
+   },
+   {
+    "word": "arrière-plan",
+    "meaning": "le cadre dans lequel l’événement est raconté"
+   },
+   {
+    "word": "événement accompli",
+    "meaning": "un fait présenté comme achevé dans le récit"
+   },
+   {
+    "word": "point de vue narratif",
+    "meaning": "la manière de présenter les faits plutôt que leur seule durée"
+   }
+  ],
+  "mistake": {
+   "wrong": "L’imparfait ne peut jamais présenter une habitude.",
+   "right": "une répétition présentée dans un cadre passé.",
+   "why": "Il présente ici une activité répétée."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Chaque soir, Bih travaillait au club. Explique le choix.",
+  "steps": [
+   "une répétition présentée dans un cadre passé.",
+   "Il présente ici une activité répétée."
+  ],
+  "answer": "habitude passée",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi5-41-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "habitude passée : une répétition présentée dans un cadre passé.",
+     "arrière-plan : le cadre dans lequel l’événement est raconté.",
+     "événement accompli : un fait présenté comme achevé dans le récit.",
+     "point de vue narratif : la manière de présenter les faits plutôt que leur seule durée."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-41-notions"
+    }
+   },
+   {
+    "id": "fi5-41-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Chaque soir, Bih travaillait au club.",
+     "La cour était calme avant le changement.",
+     "Elle a fini plus tôt ce soir-là.",
+     "Un même récit distingue cadre et changement."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-41-cas"
+    }
+   },
+   {
+    "id": "fi5-41-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "L’imparfait ne peut jamais présenter une habitude. Correction : Il présente ici une activité répétée.",
+     "Le décor est toujours le seul événement accompli du récit. Correction : Le cadre fournit ici les circonstances.",
+     "Le passé composé signifie obligatoirement une action encore habituelle. Correction : Le modèle choisit ici un événement accompli.",
+     "La longueur réelle suffit toujours à choisir le temps. Correction : Le rôle narratif et le contexte comptent."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi5-41-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "habitude passée : une répétition présentée dans un cadre passé.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il présente ici une activité répétée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "arrière-plan : le cadre dans lequel l’événement est raconté.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le cadre fournit ici les circonstances. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "événement accompli : un fait présenté comme achevé dans le récit.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le modèle choisit ici un événement accompli. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "point de vue narratif : la manière de présenter les faits plutôt que leur seule durée.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le rôle narratif et le contexte comptent. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "L’imparfait ne peut jamais présenter une habitude.",
+        "truth": "false",
+        "explain": "Il présente ici une activité répétée."
+       },
+       {
+        "text": "Le décor est toujours le seul événement accompli du récit.",
+        "truth": "false",
+        "explain": "Le cadre fournit ici les circonstances."
+       },
+       {
+        "text": "Le passé composé signifie obligatoirement une action encore habituelle.",
+        "truth": "false",
+        "explain": "Le modèle choisit ici un événement accompli."
+       },
+       {
+        "text": "La longueur réelle suffit toujours à choisir le temps.",
+        "truth": "false",
+        "explain": "Le rôle narratif et le contexte comptent."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi5-41-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne une répétition présentée dans un cadre passé ?",
+       "r": "habitude passée",
+       "w": [
+        "arrière-plan",
+        "événement accompli",
+        "point de vue narratif"
+       ],
+       "e": [
+        "Cela désigne le cadre dans lequel l’événement est raconté, plutôt que la notion demandée.",
+        "Cela désigne un fait présenté comme achevé dans le récit, plutôt que la notion demandée.",
+        "Cela désigne la manière de présenter les faits plutôt que leur seule durée, plutôt que la notion demandée."
+       ],
+       "y": "Il présente ici une activité répétée."
+      },
+      {
+       "q": "Quel terme désigne le cadre dans lequel l’événement est raconté ?",
+       "r": "arrière-plan",
+       "w": [
+        "habitude passée",
+        "événement accompli",
+        "point de vue narratif"
+       ],
+       "e": [
+        "Cela désigne une répétition présentée dans un cadre passé, plutôt que la notion demandée.",
+        "Cela désigne un fait présenté comme achevé dans le récit, plutôt que la notion demandée.",
+        "Cela désigne la manière de présenter les faits plutôt que leur seule durée, plutôt que la notion demandée."
+       ],
+       "y": "Le cadre fournit ici les circonstances."
+      },
+      {
+       "q": "Quel terme désigne un fait présenté comme achevé dans le récit ?",
+       "r": "événement accompli",
+       "w": [
+        "habitude passée",
+        "arrière-plan",
+        "point de vue narratif"
+       ],
+       "e": [
+        "Cela désigne une répétition présentée dans un cadre passé, plutôt que la notion demandée.",
+        "Cela désigne le cadre dans lequel l’événement est raconté, plutôt que la notion demandée.",
+        "Cela désigne la manière de présenter les faits plutôt que leur seule durée, plutôt que la notion demandée."
+       ],
+       "y": "Le modèle choisit ici un événement accompli."
+      },
+      {
+       "q": "Quel terme désigne la manière de présenter les faits plutôt que leur seule durée ?",
+       "r": "point de vue narratif",
+       "w": [
+        "habitude passée",
+        "arrière-plan",
+        "événement accompli"
+       ],
+       "e": [
+        "Cela désigne une répétition présentée dans un cadre passé, plutôt que la notion demandée.",
+        "Cela désigne le cadre dans lequel l’événement est raconté, plutôt que la notion demandée.",
+        "Cela désigne un fait présenté comme achevé dans le récit, plutôt que la notion demandée."
+       ],
+       "y": "Le rôle narratif et le contexte comptent."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-41-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Chaque soir, Bih travaillait au club.\nQuelle notion convient ?",
+       "r": "habitude passée",
+       "w": [
+        "arrière-plan",
+        "événement accompli",
+        "point de vue narratif"
+       ],
+       "e": [
+        "Cela concerne le cadre dans lequel l’événement est raconté. Compare cette définition avec le cas présenté.",
+        "Cela concerne un fait présenté comme achevé dans le récit. Compare cette définition avec le cas présenté.",
+        "Cela concerne la manière de présenter les faits plutôt que leur seule durée. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il présente ici une activité répétée."
+      },
+      {
+       "q": "La cour était calme avant le changement.\nQuelle notion convient ?",
+       "r": "arrière-plan",
+       "w": [
+        "habitude passée",
+        "événement accompli",
+        "point de vue narratif"
+       ],
+       "e": [
+        "Cela concerne une répétition présentée dans un cadre passé. Compare cette définition avec le cas présenté.",
+        "Cela concerne un fait présenté comme achevé dans le récit. Compare cette définition avec le cas présenté.",
+        "Cela concerne la manière de présenter les faits plutôt que leur seule durée. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le cadre fournit ici les circonstances."
+      },
+      {
+       "q": "Elle a fini plus tôt ce soir-là.\nQuelle notion convient ?",
+       "r": "événement accompli",
+       "w": [
+        "habitude passée",
+        "arrière-plan",
+        "point de vue narratif"
+       ],
+       "e": [
+        "Cela concerne une répétition présentée dans un cadre passé. Compare cette définition avec le cas présenté.",
+        "Cela concerne le cadre dans lequel l’événement est raconté. Compare cette définition avec le cas présenté.",
+        "Cela concerne la manière de présenter les faits plutôt que leur seule durée. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le modèle choisit ici un événement accompli."
+      },
+      {
+       "q": "Un même récit distingue cadre et changement.\nQuelle notion convient ?",
+       "r": "point de vue narratif",
+       "w": [
+        "habitude passée",
+        "arrière-plan",
+        "événement accompli"
+       ],
+       "e": [
+        "Cela concerne une répétition présentée dans un cadre passé. Compare cette définition avec le cas présenté.",
+        "Cela concerne le cadre dans lequel l’événement est raconté. Compare cette définition avec le cas présenté.",
+        "Cela concerne un fait présenté comme achevé dans le récit. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le rôle narratif et le contexte comptent."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-41-choisir",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "Chaque soir, elle",
+       "b": "un soir",
+       "v": "travailler",
+       "w": "partir"
+      },
+      {
+       "a": "D’habitude, elle",
+       "b": "ce soir-là",
+       "v": "parler",
+       "w": "arriver"
+      },
+      {
+       "a": "Chaque matin, elle",
+       "b": "ce jour-là",
+       "v": "ranger",
+       "w": "finir"
+      },
+      {
+       "a": "Régulièrement, elle",
+       "b": "ce matin-là",
+       "v": "aider",
+       "w": "tomber"
+      }
+     ]
+    }
+   },
+   "prompt": "Le récit oppose une habitude passée et l’événement accompli qui l’interrompt : « {X.a} ___, puis {X.b} ___ ». Choisis la paire correspondant à ce point de vue.",
+   "correct": "{fr2Imparfait(X.v,3)} / {fr2PasseCompose(X.w,3)}",
+   "distractors": [
+    {
+     "text": "{fr2PasseSimple(X.v,3)} / {fr2PasseCompose(X.w,3)}",
+     "misconception": "fond"
+    },
+    {
+     "text": "{fr2Imparfait(X.v,3)} / {fr2With(3,fr2Imparfait(X.w,3))}",
+     "misconception": "event"
+    },
+    {
+     "text": "{fr2Present(X.v,3)} / {fr2PasseCompose(X.w,3)}",
+     "misconception": "present"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "fond",
+     "explain": "Le passé simple présente ici un événement, pas l’habitude à l’imparfait demandée."
+    },
+    {
+     "id": "event",
+     "explain": "La seconde forme conserve un déroulement à l’imparfait au lieu de l’accompli demandé."
+    },
+    {
+     "id": "present",
+     "explain": "Le présent ne correspond pas à l’habitude passée demandée."
+    }
+   ],
+   "solution": [
+    "La première action est présentée comme habituelle dans le passé.",
+    "La seconde est choisie comme événement accompli : {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-41-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "habitude passée",
+     "right": "Chaque soir, Bih travaillait au club."
+    },
+    {
+     "left": "arrière-plan",
+     "right": "La cour était calme avant le changement."
+    },
+    {
+     "left": "événement accompli",
+     "right": "Elle a fini plus tôt ce soir-là."
+    },
+    {
+     "left": "point de vue narratif",
+     "right": "Un même récit distingue cadre et changement."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-41-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "habitude passée : une répétition présentée dans un cadre passé.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il présente ici une activité répétée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "arrière-plan : le cadre dans lequel l’événement est raconté.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le cadre fournit ici les circonstances. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "événement accompli : un fait présenté comme achevé dans le récit.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le modèle choisit ici un événement accompli. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "point de vue narratif : la manière de présenter les faits plutôt que leur seule durée.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le rôle narratif et le contexte comptent. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "L’imparfait ne peut jamais présenter une habitude.",
+      "truth": "false",
+      "explain": "Il présente ici une activité répétée."
+     },
+     {
+      "text": "Le décor est toujours le seul événement accompli du récit.",
+      "truth": "false",
+      "explain": "Le cadre fournit ici les circonstances."
+     },
+     {
+      "text": "Le passé composé signifie obligatoirement une action encore habituelle.",
+      "truth": "false",
+      "explain": "Le modèle choisit ici un événement accompli."
+     },
+     {
+      "text": "La longueur réelle suffit toujours à choisir le temps.",
+      "truth": "false",
+      "explain": "Le rôle narratif et le contexte comptent."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

@@ -1,0 +1,611 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 5",
+ "lesson_no": 45,
+ "language": "fr",
+ "prerequisites": [
+  9,
+  36,
+  43
+ ],
+ "skills": [
+  {
+   "id": "fi5-45",
+   "name": "Les noms normalement employés au pluriel"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Certains noms sont normalement employés au pluriel dans les sens courants retenus : fiançailles, funérailles, ténèbres. Leur déterminant, les adjectifs et le verbe suivent l’accord du groupe nominal. Le pluriel lexical ne prouve pas à lui seul plusieurs événements séparés : des fiançailles peut désigner un événement dans le récit. Les emplois rares, littéraires ou d’autres sens demandent une vérification particulière. N’invente pas un singulier ordinaire en supprimant simplement le s.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras accorder les groupes étudiés sans déduire un comptage du seul pluriel lexical. Acquis mobilisés : pluriels nominaux et descriptions. Pour la suite : homophones et écriture précise."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Certains noms sont normalement employés au pluriel dans les sens courants retenus : fiançailles, funérailles, ténèbres. Leur déterminant, les adjectifs et le verbe suivent l’accord du groupe nominal. Le pluriel lexical ne prouve pas à lui seul plusieurs événements séparés : des fiançailles peut désigner un événement dans le récit. Les emplois rares, littéraires ou d’autres sens demandent une vérification particulière. N’invente pas un singulier ordinaire en supprimant simplement le s."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : Les funérailles {fr2Present(\"être\",6)} annoncées. Des fiançailles discrètes sont évoquées. Des ténèbres profondes entourent le lieu du récit. Le sens du passage reste nécessaire pour savoir de quoi il parle ; la forme plurielle n’établit pas toute l’histoire des personnes."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère le nom et son sens, conserve sa forme attestée puis accorde le groupe. Distingue cet emploi lexical d’un pluriel obtenu simplement en comptant plusieurs objets. Vérifie les formes rares avant de les employer."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "pluriel lexical",
+    "meaning": "une forme plurielle normalement retenue pour le sens du nom"
+   },
+   {
+    "word": "accord du déterminant",
+    "meaning": "la forme du déterminant adaptée au groupe pluriel"
+   },
+   {
+    "word": "accord de l’adjectif",
+    "meaning": "les marques adaptées au genre et nombre du groupe"
+   },
+   {
+    "word": "limite du comptage",
+    "meaning": "l’absence de total événementiel fourni par le seul pluriel lexical"
+   }
+  ],
+  "mistake": {
+   "wrong": "Il suffit de retirer le s pour obtenir un singulier courant de tout nom.",
+   "right": "une forme plurielle normalement retenue pour le sens du nom.",
+   "why": "Certains emplois lexicaux n’ont pas ce singulier ordinaire."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Fiançailles est pluriel dans le sens étudié. Explique le choix.",
+  "steps": [
+   "une forme plurielle normalement retenue pour le sens du nom.",
+   "Certains emplois lexicaux n’ont pas ce singulier ordinaire."
+  ],
+  "answer": "pluriel lexical",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi5-45-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "pluriel lexical : une forme plurielle normalement retenue pour le sens du nom.",
+     "accord du déterminant : la forme du déterminant adaptée au groupe pluriel.",
+     "accord de l’adjectif : les marques adaptées au genre et nombre du groupe.",
+     "limite du comptage : l’absence de total événementiel fourni par le seul pluriel lexical."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-45-notions"
+    }
+   },
+   {
+    "id": "fi5-45-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Fiançailles est pluriel dans le sens étudié.",
+     "Les accompagne funérailles.",
+     "Ténèbres profondes garde le féminin pluriel.",
+     "Fiançailles ne prouve pas plusieurs couples."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-45-cas"
+    }
+   },
+   {
+    "id": "fi5-45-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Il suffit de retirer le s pour obtenir un singulier courant de tout nom. Correction : Certains emplois lexicaux n’ont pas ce singulier ordinaire.",
+     "La funérailles forme le groupe courant étudié. Correction : Le déterminant doit correspondre au pluriel.",
+     "Ténèbres profonde respecte le nombre du modèle. Correction : Il manque la marque de pluriel.",
+     "Toute terminaison plurielle prouve plusieurs événements indépendants. Correction : La forme lexicale ne donne pas seule ce comptage."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi5-45-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "pluriel lexical : une forme plurielle normalement retenue pour le sens du nom.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Certains emplois lexicaux n’ont pas ce singulier ordinaire. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "accord du déterminant : la forme du déterminant adaptée au groupe pluriel.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le déterminant doit correspondre au pluriel. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "accord de l’adjectif : les marques adaptées au genre et nombre du groupe.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il manque la marque de pluriel. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "limite du comptage : l’absence de total événementiel fourni par le seul pluriel lexical.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La forme lexicale ne donne pas seule ce comptage. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Il suffit de retirer le s pour obtenir un singulier courant de tout nom.",
+        "truth": "false",
+        "explain": "Certains emplois lexicaux n’ont pas ce singulier ordinaire."
+       },
+       {
+        "text": "La funérailles forme le groupe courant étudié.",
+        "truth": "false",
+        "explain": "Le déterminant doit correspondre au pluriel."
+       },
+       {
+        "text": "Ténèbres profonde respecte le nombre du modèle.",
+        "truth": "false",
+        "explain": "Il manque la marque de pluriel."
+       },
+       {
+        "text": "Toute terminaison plurielle prouve plusieurs événements indépendants.",
+        "truth": "false",
+        "explain": "La forme lexicale ne donne pas seule ce comptage."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi5-45-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne une forme plurielle normalement retenue pour le sens du nom ?",
+       "r": "pluriel lexical",
+       "w": [
+        "accord du déterminant",
+        "accord de l’adjectif",
+        "limite du comptage"
+       ],
+       "e": [
+        "Cela désigne la forme du déterminant adaptée au groupe pluriel, plutôt que la notion demandée.",
+        "Cela désigne les marques adaptées au genre et nombre du groupe, plutôt que la notion demandée.",
+        "Cela désigne l’absence de total événementiel fourni par le seul pluriel lexical, plutôt que la notion demandée."
+       ],
+       "y": "Certains emplois lexicaux n’ont pas ce singulier ordinaire."
+      },
+      {
+       "q": "Quel terme désigne la forme du déterminant adaptée au groupe pluriel ?",
+       "r": "accord du déterminant",
+       "w": [
+        "pluriel lexical",
+        "accord de l’adjectif",
+        "limite du comptage"
+       ],
+       "e": [
+        "Cela désigne une forme plurielle normalement retenue pour le sens du nom, plutôt que la notion demandée.",
+        "Cela désigne les marques adaptées au genre et nombre du groupe, plutôt que la notion demandée.",
+        "Cela désigne l’absence de total événementiel fourni par le seul pluriel lexical, plutôt que la notion demandée."
+       ],
+       "y": "Le déterminant doit correspondre au pluriel."
+      },
+      {
+       "q": "Quel terme désigne les marques adaptées au genre et nombre du groupe ?",
+       "r": "accord de l’adjectif",
+       "w": [
+        "pluriel lexical",
+        "accord du déterminant",
+        "limite du comptage"
+       ],
+       "e": [
+        "Cela désigne une forme plurielle normalement retenue pour le sens du nom, plutôt que la notion demandée.",
+        "Cela désigne la forme du déterminant adaptée au groupe pluriel, plutôt que la notion demandée.",
+        "Cela désigne l’absence de total événementiel fourni par le seul pluriel lexical, plutôt que la notion demandée."
+       ],
+       "y": "Il manque la marque de pluriel."
+      },
+      {
+       "q": "Quel terme désigne l’absence de total événementiel fourni par le seul pluriel lexical ?",
+       "r": "limite du comptage",
+       "w": [
+        "pluriel lexical",
+        "accord du déterminant",
+        "accord de l’adjectif"
+       ],
+       "e": [
+        "Cela désigne une forme plurielle normalement retenue pour le sens du nom, plutôt que la notion demandée.",
+        "Cela désigne la forme du déterminant adaptée au groupe pluriel, plutôt que la notion demandée.",
+        "Cela désigne les marques adaptées au genre et nombre du groupe, plutôt que la notion demandée."
+       ],
+       "y": "La forme lexicale ne donne pas seule ce comptage."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-45-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Fiançailles est pluriel dans le sens étudié.\nQuelle notion convient ?",
+       "r": "pluriel lexical",
+       "w": [
+        "accord du déterminant",
+        "accord de l’adjectif",
+        "limite du comptage"
+       ],
+       "e": [
+        "Cela concerne la forme du déterminant adaptée au groupe pluriel. Compare cette définition avec le cas présenté.",
+        "Cela concerne les marques adaptées au genre et nombre du groupe. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’absence de total événementiel fourni par le seul pluriel lexical. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Certains emplois lexicaux n’ont pas ce singulier ordinaire."
+      },
+      {
+       "q": "Les accompagne funérailles.\nQuelle notion convient ?",
+       "r": "accord du déterminant",
+       "w": [
+        "pluriel lexical",
+        "accord de l’adjectif",
+        "limite du comptage"
+       ],
+       "e": [
+        "Cela concerne une forme plurielle normalement retenue pour le sens du nom. Compare cette définition avec le cas présenté.",
+        "Cela concerne les marques adaptées au genre et nombre du groupe. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’absence de total événementiel fourni par le seul pluriel lexical. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le déterminant doit correspondre au pluriel."
+      },
+      {
+       "q": "Ténèbres profondes garde le féminin pluriel.\nQuelle notion convient ?",
+       "r": "accord de l’adjectif",
+       "w": [
+        "pluriel lexical",
+        "accord du déterminant",
+        "limite du comptage"
+       ],
+       "e": [
+        "Cela concerne une forme plurielle normalement retenue pour le sens du nom. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme du déterminant adaptée au groupe pluriel. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’absence de total événementiel fourni par le seul pluriel lexical. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il manque la marque de pluriel."
+      },
+      {
+       "q": "Fiançailles ne prouve pas plusieurs couples.\nQuelle notion convient ?",
+       "r": "limite du comptage",
+       "w": [
+        "pluriel lexical",
+        "accord du déterminant",
+        "accord de l’adjectif"
+       ],
+       "e": [
+        "Cela concerne une forme plurielle normalement retenue pour le sens du nom. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme du déterminant adaptée au groupe pluriel. Compare cette définition avec le cas présenté.",
+        "Cela concerne les marques adaptées au genre et nombre du groupe. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La forme lexicale ne donne pas seule ce comptage."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-45-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Les funérailles ___ annoncées.",
+       "r": "{fr2Present(\"être\",6)}",
+       "w": [
+        "{fr2Present(\"être\",2)}",
+        "être",
+        "étant"
+       ],
+       "e": [
+        "Le sujet nominal est pluriel dans ce modèle.",
+        "L’infinitif ne porte pas la personne.",
+        "Le participe ne fournit pas le présent fini."
+       ],
+       "y": "Le verbe s’accorde au pluriel."
+      },
+      {
+       "q": "Choisis le déterminant du nom lexicalement pluriel : ___ fiançailles.",
+       "r": "Les",
+       "w": [
+        "Le",
+        "La",
+        "Un"
+       ],
+       "e": [
+        "Le déterminant singulier masculin ne convient pas.",
+        "Le déterminant singulier ne convient pas.",
+        "Le déterminant singulier ne convient pas au nom pluriel."
+       ],
+       "y": "La forme nominale est plurielle dans ce sens."
+      },
+      {
+       "q": "Complète l’adjectif : des ténèbres ___.",
+       "r": "profondes",
+       "w": [
+        "profond",
+        "profonde",
+        "profonds"
+       ],
+       "e": [
+        "Il manque genre et nombre.",
+        "Il manque le pluriel.",
+        "Le nom est féminin dans le modèle."
+       ],
+       "y": "Le groupe demande le féminin pluriel."
+      },
+      {
+       "q": "Le mot fiançailles est pluriel dans ce sens. Que prouve ce pluriel lexical ?",
+       "r": "La forme du nom, pas à lui seul plusieurs événements distincts.",
+       "w": [
+        "Que chaque récit parle de plusieurs couples obligatoirement.",
+        "Que tout adjectif doit rester singulier.",
+        "Que le nom est un verbe conjugué."
+       ],
+       "e": [
+        "Le pluriel lexical ne fournit pas ce comptage.",
+        "L’accord se fait au pluriel dans le modèle.",
+        "Il s’agit d’un nom."
+       ],
+       "y": "Distingue forme lexicale et nombre d’événements."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-45-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "pluriel lexical",
+     "right": "Fiançailles est pluriel dans le sens étudié."
+    },
+    {
+     "left": "accord du déterminant",
+     "right": "Les accompagne funérailles."
+    },
+    {
+     "left": "accord de l’adjectif",
+     "right": "Ténèbres profondes garde le féminin pluriel."
+    },
+    {
+     "left": "limite du comptage",
+     "right": "Fiançailles ne prouve pas plusieurs couples."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-45-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "pluriel lexical : une forme plurielle normalement retenue pour le sens du nom.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Certains emplois lexicaux n’ont pas ce singulier ordinaire. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "accord du déterminant : la forme du déterminant adaptée au groupe pluriel.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le déterminant doit correspondre au pluriel. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "accord de l’adjectif : les marques adaptées au genre et nombre du groupe.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il manque la marque de pluriel. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "limite du comptage : l’absence de total événementiel fourni par le seul pluriel lexical.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La forme lexicale ne donne pas seule ce comptage. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Il suffit de retirer le s pour obtenir un singulier courant de tout nom.",
+      "truth": "false",
+      "explain": "Certains emplois lexicaux n’ont pas ce singulier ordinaire."
+     },
+     {
+      "text": "La funérailles forme le groupe courant étudié.",
+      "truth": "false",
+      "explain": "Le déterminant doit correspondre au pluriel."
+     },
+     {
+      "text": "Ténèbres profonde respecte le nombre du modèle.",
+      "truth": "false",
+      "explain": "Il manque la marque de pluriel."
+     },
+     {
+      "text": "Toute terminaison plurielle prouve plusieurs événements indépendants.",
+      "truth": "false",
+      "explain": "La forme lexicale ne donne pas seule ce comptage."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

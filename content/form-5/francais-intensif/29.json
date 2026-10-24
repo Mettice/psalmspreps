@@ -1,0 +1,611 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 5",
+ "lesson_no": 29,
+ "language": "fr",
+ "prerequisites": [
+  11,
+  23,
+  28
+ ],
+ "skills": [
+  {
+   "id": "fi5-29",
+   "name": "Les adverbes : manière, quantité, lieu et temps"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Un adverbe peut modifier un verbe, un adjectif, un autre adverbe ou une phrase selon sa construction. Calmement précise une manière ; beaucoup peut indiquer une quantité ou intensité ; ici un lieu ; demain un temps. Tous les adverbes ne finissent pas par -ment et une forme peut avoir plusieurs emplois selon le contexte. Une indication de degré n’est pas une mesure exacte. Distingue la catégorie du mot de la valeur qu’il prend dans la phrase.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras identifier la valeur d’un adverbe et conserver sa portée dans une reformulation. Acquis mobilisés : comparaison, classes de mots et vocabulaire environnemental. Pour la suite : temps du projet et précision des descriptions."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Un adverbe peut modifier un verbe, un adjectif, un autre adverbe ou une phrase selon sa construction. Calmement précise une manière ; beaucoup peut indiquer une quantité ou intensité ; ici un lieu ; demain un temps. Tous les adverbes ne finissent pas par -ment et une forme peut avoir plusieurs emplois selon le contexte. Une indication de degré n’est pas une mesure exacte. Distingue la catégorie du mot de la valeur qu’il prend dans la phrase."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : Le groupe explique calmement, travaille beaucoup, attend ici et revient demain. Les adverbes ne sont pas interchangeables : changer demain en ici remplace un repère de temps par un lieu. Un texte soigneusement relu montre soigneusement modifiant le participe plutôt que le nom texte directement."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère le mot modifié, puis la relation : comment, à quel degré, où ou quand. Paraphrase et vérifie que la substitution ne change pas une localisation en date ni une intensité en total mesuré."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "manière",
+    "meaning": "la façon dont se déroule l’action"
+   },
+   {
+    "word": "quantité ou intensité",
+    "meaning": "un degré ou une quantité dans le modèle"
+   },
+   {
+    "word": "lieu",
+    "meaning": "une localisation dans le modèle"
+   },
+   {
+    "word": "temps",
+    "meaning": "un repère temporel dans le modèle"
+   }
+  ],
+  "mistake": {
+   "wrong": "Calmement donne le nom du lieu.",
+   "right": "la façon dont se déroule l’action.",
+   "why": "Il précise ici la manière."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Elle explique calmement. Explique le choix.",
+  "steps": [
+   "la façon dont se déroule l’action.",
+   "Il précise ici la manière."
+  ],
+  "answer": "manière",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi5-29-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "manière : la façon dont se déroule l’action.",
+     "quantité ou intensité : un degré ou une quantité dans le modèle.",
+     "lieu : une localisation dans le modèle.",
+     "temps : un repère temporel dans le modèle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-29-notions"
+    }
+   },
+   {
+    "id": "fi5-29-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Elle explique calmement.",
+     "Elle travaille beaucoup.",
+     "Le groupe attend ici.",
+     "Le groupe revient demain."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-29-cas"
+    }
+   },
+   {
+    "id": "fi5-29-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Calmement donne le nom du lieu. Correction : Il précise ici la manière.",
+     "Beaucoup fournit toujours une mesure exacte. Correction : Un degré ne donne pas nécessairement une quantité numérique.",
+     "Ici signifie obligatoirement demain. Correction : Ici localise, tandis que demain situe dans le temps.",
+     "Demain indique la manière de revenir. Correction : Il situe le retour dans le temps."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi5-29-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "manière : la façon dont se déroule l’action.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il précise ici la manière. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "quantité ou intensité : un degré ou une quantité dans le modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Un degré ne donne pas nécessairement une quantité numérique. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "lieu : une localisation dans le modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Ici localise, tandis que demain situe dans le temps. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "temps : un repère temporel dans le modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il situe le retour dans le temps. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Calmement donne le nom du lieu.",
+        "truth": "false",
+        "explain": "Il précise ici la manière."
+       },
+       {
+        "text": "Beaucoup fournit toujours une mesure exacte.",
+        "truth": "false",
+        "explain": "Un degré ne donne pas nécessairement une quantité numérique."
+       },
+       {
+        "text": "Ici signifie obligatoirement demain.",
+        "truth": "false",
+        "explain": "Ici localise, tandis que demain situe dans le temps."
+       },
+       {
+        "text": "Demain indique la manière de revenir.",
+        "truth": "false",
+        "explain": "Il situe le retour dans le temps."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi5-29-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne la façon dont se déroule l’action ?",
+       "r": "manière",
+       "w": [
+        "quantité ou intensité",
+        "lieu",
+        "temps"
+       ],
+       "e": [
+        "Cela désigne un degré ou une quantité dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne une localisation dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne un repère temporel dans le modèle, plutôt que la notion demandée."
+       ],
+       "y": "Il précise ici la manière."
+      },
+      {
+       "q": "Quel terme désigne un degré ou une quantité dans le modèle ?",
+       "r": "quantité ou intensité",
+       "w": [
+        "manière",
+        "lieu",
+        "temps"
+       ],
+       "e": [
+        "Cela désigne la façon dont se déroule l’action, plutôt que la notion demandée.",
+        "Cela désigne une localisation dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne un repère temporel dans le modèle, plutôt que la notion demandée."
+       ],
+       "y": "Un degré ne donne pas nécessairement une quantité numérique."
+      },
+      {
+       "q": "Quel terme désigne une localisation dans le modèle ?",
+       "r": "lieu",
+       "w": [
+        "manière",
+        "quantité ou intensité",
+        "temps"
+       ],
+       "e": [
+        "Cela désigne la façon dont se déroule l’action, plutôt que la notion demandée.",
+        "Cela désigne un degré ou une quantité dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne un repère temporel dans le modèle, plutôt que la notion demandée."
+       ],
+       "y": "Ici localise, tandis que demain situe dans le temps."
+      },
+      {
+       "q": "Quel terme désigne un repère temporel dans le modèle ?",
+       "r": "temps",
+       "w": [
+        "manière",
+        "quantité ou intensité",
+        "lieu"
+       ],
+       "e": [
+        "Cela désigne la façon dont se déroule l’action, plutôt que la notion demandée.",
+        "Cela désigne un degré ou une quantité dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne une localisation dans le modèle, plutôt que la notion demandée."
+       ],
+       "y": "Il situe le retour dans le temps."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-29-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Elle explique calmement.\nQuelle notion convient ?",
+       "r": "manière",
+       "w": [
+        "quantité ou intensité",
+        "lieu",
+        "temps"
+       ],
+       "e": [
+        "Cela concerne un degré ou une quantité dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne une localisation dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne un repère temporel dans le modèle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il précise ici la manière."
+      },
+      {
+       "q": "Elle travaille beaucoup.\nQuelle notion convient ?",
+       "r": "quantité ou intensité",
+       "w": [
+        "manière",
+        "lieu",
+        "temps"
+       ],
+       "e": [
+        "Cela concerne la façon dont se déroule l’action. Compare cette définition avec le cas présenté.",
+        "Cela concerne une localisation dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne un repère temporel dans le modèle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Un degré ne donne pas nécessairement une quantité numérique."
+      },
+      {
+       "q": "Le groupe attend ici.\nQuelle notion convient ?",
+       "r": "lieu",
+       "w": [
+        "manière",
+        "quantité ou intensité",
+        "temps"
+       ],
+       "e": [
+        "Cela concerne la façon dont se déroule l’action. Compare cette définition avec le cas présenté.",
+        "Cela concerne un degré ou une quantité dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne un repère temporel dans le modèle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Ici localise, tandis que demain situe dans le temps."
+      },
+      {
+       "q": "Le groupe revient demain.\nQuelle notion convient ?",
+       "r": "temps",
+       "w": [
+        "manière",
+        "quantité ou intensité",
+        "lieu"
+       ],
+       "e": [
+        "Cela concerne la façon dont se déroule l’action. Compare cette définition avec le cas présenté.",
+        "Cela concerne un degré ou une quantité dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne une localisation dans le modèle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il situe le retour dans le temps."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-29-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Elle explique calmement. Quelle valeur a l’adverbe sélectionné ?",
+       "r": "manière",
+       "w": [
+        "quantité ou intensité",
+        "lieu",
+        "temps"
+       ],
+       "e": [
+        "Cette catégorie concerne un degré ou une quantité dans le modèle, plutôt que la valeur du modèle.",
+        "Cette catégorie concerne une localisation dans le modèle, plutôt que la valeur du modèle.",
+        "Cette catégorie concerne un repère temporel dans le modèle, plutôt que la valeur du modèle."
+       ],
+       "y": "Il précise ici la manière."
+      },
+      {
+       "q": "Elle travaille beaucoup. Quelle valeur a l’adverbe sélectionné ?",
+       "r": "quantité ou intensité",
+       "w": [
+        "manière",
+        "lieu",
+        "temps"
+       ],
+       "e": [
+        "Cette catégorie concerne la façon dont se déroule l’action, plutôt que la valeur du modèle.",
+        "Cette catégorie concerne une localisation dans le modèle, plutôt que la valeur du modèle.",
+        "Cette catégorie concerne un repère temporel dans le modèle, plutôt que la valeur du modèle."
+       ],
+       "y": "Un degré ne donne pas nécessairement une quantité numérique."
+      },
+      {
+       "q": "Le groupe attend ici. Quelle valeur a l’adverbe sélectionné ?",
+       "r": "lieu",
+       "w": [
+        "manière",
+        "quantité ou intensité",
+        "temps"
+       ],
+       "e": [
+        "Cette catégorie concerne la façon dont se déroule l’action, plutôt que la valeur du modèle.",
+        "Cette catégorie concerne un degré ou une quantité dans le modèle, plutôt que la valeur du modèle.",
+        "Cette catégorie concerne un repère temporel dans le modèle, plutôt que la valeur du modèle."
+       ],
+       "y": "Ici localise, tandis que demain situe dans le temps."
+      },
+      {
+       "q": "Le groupe revient demain. Quelle valeur a l’adverbe sélectionné ?",
+       "r": "temps",
+       "w": [
+        "manière",
+        "quantité ou intensité",
+        "lieu"
+       ],
+       "e": [
+        "Cette catégorie concerne la façon dont se déroule l’action, plutôt que la valeur du modèle.",
+        "Cette catégorie concerne un degré ou une quantité dans le modèle, plutôt que la valeur du modèle.",
+        "Cette catégorie concerne une localisation dans le modèle, plutôt que la valeur du modèle."
+       ],
+       "y": "Il situe le retour dans le temps."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-29-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "manière",
+     "right": "Elle explique calmement."
+    },
+    {
+     "left": "quantité ou intensité",
+     "right": "Elle travaille beaucoup."
+    },
+    {
+     "left": "lieu",
+     "right": "Le groupe attend ici."
+    },
+    {
+     "left": "temps",
+     "right": "Le groupe revient demain."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-29-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "manière : la façon dont se déroule l’action.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il précise ici la manière. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "quantité ou intensité : un degré ou une quantité dans le modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Un degré ne donne pas nécessairement une quantité numérique. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "lieu : une localisation dans le modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Ici localise, tandis que demain situe dans le temps. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "temps : un repère temporel dans le modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il situe le retour dans le temps. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Calmement donne le nom du lieu.",
+      "truth": "false",
+      "explain": "Il précise ici la manière."
+     },
+     {
+      "text": "Beaucoup fournit toujours une mesure exacte.",
+      "truth": "false",
+      "explain": "Un degré ne donne pas nécessairement une quantité numérique."
+     },
+     {
+      "text": "Ici signifie obligatoirement demain.",
+      "truth": "false",
+      "explain": "Ici localise, tandis que demain situe dans le temps."
+     },
+     {
+      "text": "Demain indique la manière de revenir.",
+      "truth": "false",
+      "explain": "Il situe le retour dans le temps."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

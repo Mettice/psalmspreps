@@ -1,0 +1,565 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 5",
+ "lesson_no": 11,
+ "language": "fr",
+ "prerequisites": [
+  9
+ ],
+ "skills": [
+  {
+   "id": "fi5-11",
+   "name": "Le degré de l’adjectif : comparaisons irrégulières"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le comparatif met en relation des éléments : plus grand que, aussi grand que ou moins grand que. Le superlatif relatif situe un élément dans un ensemble : le plus grand de la classe. L’adjectif conserve son accord avec le nom ; plus ne remplace pas une marque de genre ou de nombre. Certains adjectifs ont des formes particulières, comme meilleur pour bon. Distingue bon, adjectif, de bien, souvent adverbe. Un superlatif exige un ensemble de référence clair plutôt qu’une supériorité affirmée sans contexte.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras choisir meilleur ou pire selon le nom et distinguer les degrés comparatifs. Acquis mobilisés : qualifications et lexique de la vie sociale. Pour la suite : description appuyée et comparaison avec l’adverbe."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Le comparatif met en relation des éléments : plus grand que, aussi grand que ou moins grand que. Le superlatif relatif situe un élément dans un ensemble : le plus grand de la classe. L’adjectif conserve son accord avec le nom ; plus ne remplace pas une marque de genre ou de nombre. Certains adjectifs ont des formes particulières, comme meilleur pour bon. Distingue bon, adjectif, de bien, souvent adverbe. Un superlatif exige un ensemble de référence clair plutôt qu’une supériorité affirmée sans contexte."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Cette cour est plus {fr2Adj(\"grand\",\"f\",false)} que l’autre. Ces salles sont aussi {fr2Adj(\"propre\",\"f\",true)} que le modèle. Dans le groupe décrit, la salle choisie est la plus grande. La comparaison porte sur une caractéristique précisée, pas sur la valeur personnelle des élèves."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Détermine les éléments comparés et la qualité choisie. Sélectionne supériorité, égalité ou infériorité, puis accorde l’adjectif. Pour un classement, nomme l’ensemble. Écris une comparaison originale d’objets ou de lieux en évitant les jugements sur le corps ou la dignité des personnes."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "supériorité",
+    "meaning": "une comparaison exprimée notamment par plus et que"
+   },
+   {
+    "word": "égalité",
+    "meaning": "une comparaison exprimée notamment par aussi et que"
+   },
+   {
+    "word": "infériorité",
+    "meaning": "une comparaison exprimée notamment par moins et que"
+   },
+   {
+    "word": "superlatif relatif",
+    "meaning": "un degré maximal ou minimal rapporté à un ensemble"
+   }
+  ],
+  "mistake": {
+   "wrong": "Plus supprime toujours l’accord de l’adjectif.",
+   "right": "une comparaison exprimée notamment par plus et que.",
+   "why": "Le degré et l’accord remplissent des fonctions différentes."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Une cour est plus grande qu’une autre dans le modèle. Explique le choix.",
+  "steps": [
+   "une comparaison exprimée notamment par plus et que.",
+   "Le degré et l’accord remplissent des fonctions différentes."
+  ],
+  "answer": "supériorité",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi5-11-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "supériorité : une comparaison exprimée notamment par plus et que.",
+     "égalité : une comparaison exprimée notamment par aussi et que.",
+     "infériorité : une comparaison exprimée notamment par moins et que.",
+     "superlatif relatif : un degré maximal ou minimal rapporté à un ensemble."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-11-notions"
+    }
+   },
+   {
+    "id": "fi5-11-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Une cour est plus grande qu’une autre dans le modèle.",
+     "Les salles sont aussi propres que le modèle.",
+     "Un chemin est moins large que l’autre.",
+     "La plus grande salle du groupe est distinguée."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-11-cas"
+    }
+   },
+   {
+    "id": "fi5-11-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Plus supprime toujours l’accord de l’adjectif. Correction : Le degré et l’accord remplissent des fonctions différentes.",
+     "Aussi signifie nécessairement moins. Correction : Aussi marque ici une égalité de la qualité comparée.",
+     "Moins large signifie toujours plus large. Correction : La relation de comparaison doit être conservée.",
+     "Tout superlatif relatif se comprend sans aucun ensemble de référence. Correction : Le classement dépend de l’ensemble comparé."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi5-11-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "supériorité : une comparaison exprimée notamment par plus et que.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le degré et l’accord remplissent des fonctions différentes. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "égalité : une comparaison exprimée notamment par aussi et que.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Aussi marque ici une égalité de la qualité comparée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "infériorité : une comparaison exprimée notamment par moins et que.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La relation de comparaison doit être conservée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "superlatif relatif : un degré maximal ou minimal rapporté à un ensemble.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le classement dépend de l’ensemble comparé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Plus supprime toujours l’accord de l’adjectif.",
+        "truth": "false",
+        "explain": "Le degré et l’accord remplissent des fonctions différentes."
+       },
+       {
+        "text": "Aussi signifie nécessairement moins.",
+        "truth": "false",
+        "explain": "Aussi marque ici une égalité de la qualité comparée."
+       },
+       {
+        "text": "Moins large signifie toujours plus large.",
+        "truth": "false",
+        "explain": "La relation de comparaison doit être conservée."
+       },
+       {
+        "text": "Tout superlatif relatif se comprend sans aucun ensemble de référence.",
+        "truth": "false",
+        "explain": "Le classement dépend de l’ensemble comparé."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi5-11-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne une comparaison exprimée notamment par plus et que ?",
+       "r": "supériorité",
+       "w": [
+        "égalité",
+        "infériorité",
+        "superlatif relatif"
+       ],
+       "e": [
+        "Cela désigne une comparaison exprimée notamment par aussi et que, plutôt que la notion demandée.",
+        "Cela désigne une comparaison exprimée notamment par moins et que, plutôt que la notion demandée.",
+        "Cela désigne un degré maximal ou minimal rapporté à un ensemble, plutôt que la notion demandée."
+       ],
+       "y": "Le degré et l’accord remplissent des fonctions différentes."
+      },
+      {
+       "q": "Quel terme désigne une comparaison exprimée notamment par aussi et que ?",
+       "r": "égalité",
+       "w": [
+        "supériorité",
+        "infériorité",
+        "superlatif relatif"
+       ],
+       "e": [
+        "Cela désigne une comparaison exprimée notamment par plus et que, plutôt que la notion demandée.",
+        "Cela désigne une comparaison exprimée notamment par moins et que, plutôt que la notion demandée.",
+        "Cela désigne un degré maximal ou minimal rapporté à un ensemble, plutôt que la notion demandée."
+       ],
+       "y": "Aussi marque ici une égalité de la qualité comparée."
+      },
+      {
+       "q": "Quel terme désigne une comparaison exprimée notamment par moins et que ?",
+       "r": "infériorité",
+       "w": [
+        "supériorité",
+        "égalité",
+        "superlatif relatif"
+       ],
+       "e": [
+        "Cela désigne une comparaison exprimée notamment par plus et que, plutôt que la notion demandée.",
+        "Cela désigne une comparaison exprimée notamment par aussi et que, plutôt que la notion demandée.",
+        "Cela désigne un degré maximal ou minimal rapporté à un ensemble, plutôt que la notion demandée."
+       ],
+       "y": "La relation de comparaison doit être conservée."
+      },
+      {
+       "q": "Quel terme désigne un degré maximal ou minimal rapporté à un ensemble ?",
+       "r": "superlatif relatif",
+       "w": [
+        "supériorité",
+        "égalité",
+        "infériorité"
+       ],
+       "e": [
+        "Cela désigne une comparaison exprimée notamment par plus et que, plutôt que la notion demandée.",
+        "Cela désigne une comparaison exprimée notamment par aussi et que, plutôt que la notion demandée.",
+        "Cela désigne une comparaison exprimée notamment par moins et que, plutôt que la notion demandée."
+       ],
+       "y": "Le classement dépend de l’ensemble comparé."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-11-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Une cour est plus grande qu’une autre dans le modèle.\nQuelle notion convient ?",
+       "r": "supériorité",
+       "w": [
+        "égalité",
+        "infériorité",
+        "superlatif relatif"
+       ],
+       "e": [
+        "Cela concerne une comparaison exprimée notamment par aussi et que. Compare cette définition avec le cas présenté.",
+        "Cela concerne une comparaison exprimée notamment par moins et que. Compare cette définition avec le cas présenté.",
+        "Cela concerne un degré maximal ou minimal rapporté à un ensemble. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le degré et l’accord remplissent des fonctions différentes."
+      },
+      {
+       "q": "Les salles sont aussi propres que le modèle.\nQuelle notion convient ?",
+       "r": "égalité",
+       "w": [
+        "supériorité",
+        "infériorité",
+        "superlatif relatif"
+       ],
+       "e": [
+        "Cela concerne une comparaison exprimée notamment par plus et que. Compare cette définition avec le cas présenté.",
+        "Cela concerne une comparaison exprimée notamment par moins et que. Compare cette définition avec le cas présenté.",
+        "Cela concerne un degré maximal ou minimal rapporté à un ensemble. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Aussi marque ici une égalité de la qualité comparée."
+      },
+      {
+       "q": "Un chemin est moins large que l’autre.\nQuelle notion convient ?",
+       "r": "infériorité",
+       "w": [
+        "supériorité",
+        "égalité",
+        "superlatif relatif"
+       ],
+       "e": [
+        "Cela concerne une comparaison exprimée notamment par plus et que. Compare cette définition avec le cas présenté.",
+        "Cela concerne une comparaison exprimée notamment par aussi et que. Compare cette définition avec le cas présenté.",
+        "Cela concerne un degré maximal ou minimal rapporté à un ensemble. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La relation de comparaison doit être conservée."
+      },
+      {
+       "q": "La plus grande salle du groupe est distinguée.\nQuelle notion convient ?",
+       "r": "superlatif relatif",
+       "w": [
+        "supériorité",
+        "égalité",
+        "infériorité"
+       ],
+       "e": [
+        "Cela concerne une comparaison exprimée notamment par plus et que. Compare cette définition avec le cas présenté.",
+        "Cela concerne une comparaison exprimée notamment par aussi et que. Compare cette définition avec le cas présenté.",
+        "Cela concerne une comparaison exprimée notamment par moins et que. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le classement dépend de l’ensemble comparé."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-11-accorder",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "a": {
+     "pick": [
+      "grand",
+      "petit",
+      "beau",
+      "nouveau"
+     ]
+    },
+    "g": {
+     "pick": [
+      "m",
+      "f"
+     ]
+    },
+    "pl": {
+     "pick": [
+      true,
+      false
+     ]
+    }
+   },
+   "prompt": "Dans le modèle « plus ___ que », accorde « {a} » pour un nom {fr2GenderNumber(g,pl)}.",
+   "correct": "{fr2Adj(a,g,pl)}",
+   "distractors": [
+    {
+     "text": "{fr2Adj(a,fr2OtherGender(g),pl)}",
+     "misconception": "genre"
+    },
+    {
+     "text": "{fr2Adj(a,g,!pl)}",
+     "misconception": "nombre"
+    },
+    {
+     "text": "{fr2Adj(a,fr2OtherGender(g),!pl)}",
+     "misconception": "deux"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "genre",
+     "explain": "Cette forme change le genre du nom qualifié."
+    },
+    {
+     "id": "nombre",
+     "explain": "Cette forme change le nombre du nom qualifié."
+    },
+    {
+     "id": "deux",
+     "explain": "Cette forme change à la fois le genre et le nombre."
+    }
+   ],
+   "solution": [
+    "Plus marque ici le degré, mais l’adjectif garde son accord.",
+    "La forme est {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-11-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "supériorité",
+     "right": "Une cour est plus grande qu’une autre dans le modèle."
+    },
+    {
+     "left": "égalité",
+     "right": "Les salles sont aussi propres que le modèle."
+    },
+    {
+     "left": "infériorité",
+     "right": "Un chemin est moins large que l’autre."
+    },
+    {
+     "left": "superlatif relatif",
+     "right": "La plus grande salle du groupe est distinguée."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-11-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "supériorité : une comparaison exprimée notamment par plus et que.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le degré et l’accord remplissent des fonctions différentes. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "égalité : une comparaison exprimée notamment par aussi et que.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Aussi marque ici une égalité de la qualité comparée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "infériorité : une comparaison exprimée notamment par moins et que.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La relation de comparaison doit être conservée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "superlatif relatif : un degré maximal ou minimal rapporté à un ensemble.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le classement dépend de l’ensemble comparé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Plus supprime toujours l’accord de l’adjectif.",
+      "truth": "false",
+      "explain": "Le degré et l’accord remplissent des fonctions différentes."
+     },
+     {
+      "text": "Aussi signifie nécessairement moins.",
+      "truth": "false",
+      "explain": "Aussi marque ici une égalité de la qualité comparée."
+     },
+     {
+      "text": "Moins large signifie toujours plus large.",
+      "truth": "false",
+      "explain": "La relation de comparaison doit être conservée."
+     },
+     {
+      "text": "Tout superlatif relatif se comprend sans aucun ensemble de référence.",
+      "truth": "false",
+      "explain": "Le classement dépend de l’ensemble comparé."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

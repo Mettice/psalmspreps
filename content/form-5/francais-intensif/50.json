@@ -1,0 +1,612 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 5",
+ "lesson_no": 50,
+ "language": "fr",
+ "prerequisites": [
+  21,
+  33,
+  46,
+  49
+ ],
+ "skills": [
+  {
+   "id": "fi5-50",
+   "name": "Ou et où : alternative et repère"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Ou sans accent exprime ici une alternative et peut être remplacé par ou bien. Où avec accent peut demander un lieu ou reprendre un antécédent de lieu ; il peut aussi reprendre un repère temporel comme le jour où. Le son seul ne décide donc pas de la graphie. La substitution est un contrôle de sens, pas une obligation de changer tous les mots du texte. Observe la construction entière avant de choisir.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras choisir l’accent selon une alternative ou une reprise de lieu ou de temps. Acquis mobilisés : reprises, contexte et traduction. Pour la suite : relecture d’un texte produit à partir d’image."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Ou sans accent exprime ici une alternative et peut être remplacé par ou bien. Où avec accent peut demander un lieu ou reprendre un antécédent de lieu ; il peut aussi reprendre un repère temporel comme le jour où. Le son seul ne décide donc pas de la graphie. La substitution est un contrôle de sens, pas une obligation de changer tous les mots du texte. Observe la construction entière avant de choisir."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : Une lecture ou une discussion ? Où se trouve la salle ? Voici la cour où le groupe se réunit. Le jour où il arrive est indiqué. Les derniers exemples ont des antécédents différents, mais ne présentent pas une alternative."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Essaie ou bien si un choix est proposé. Sinon, repère la question ou l’antécédent spatial ou temporel. Relis pour éviter de convertir une date ou un lieu en alternative."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "alternative",
+    "meaning": "un choix ou une disjonction exprimés dans le modèle"
+   },
+   {
+    "word": "interrogation de lieu",
+    "meaning": "une demande de localisation"
+   },
+   {
+    "word": "reprise de lieu",
+    "meaning": "une relative rattachée à un antécédent spatial"
+   },
+   {
+    "word": "reprise de temps",
+    "meaning": "une relative rattachée à un repère temporel"
+   }
+  ],
+  "mistake": {
+   "wrong": "Ou sans accent est toujours une question de lieu.",
+   "right": "un choix ou une disjonction exprimés dans le modèle.",
+   "why": "Il relie ici des choix."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Une lecture ou une discussion propose des possibilités. Explique le choix.",
+  "steps": [
+   "un choix ou une disjonction exprimés dans le modèle.",
+   "Il relie ici des choix."
+  ],
+  "answer": "alternative",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi5-50-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "alternative : un choix ou une disjonction exprimés dans le modèle.",
+     "interrogation de lieu : une demande de localisation.",
+     "reprise de lieu : une relative rattachée à un antécédent spatial.",
+     "reprise de temps : une relative rattachée à un repère temporel."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-50-notions"
+    }
+   },
+   {
+    "id": "fi5-50-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Une lecture ou une discussion propose des possibilités.",
+     "Où se trouve la salle demande un lieu.",
+     "La cour où le groupe se réunit reprend cour.",
+     "Le jour où il arrive reprend jour."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-50-cas"
+    }
+   },
+   {
+    "id": "fi5-50-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Ou sans accent est toujours une question de lieu. Correction : Il relie ici des choix.",
+     "L’accent ne change jamais le rôle du mot dans ces exemples. Correction : Ou et où ont des constructions distinctes.",
+     "La relative donne nécessairement deux choix à sélectionner. Correction : Elle précise ici un lieu.",
+     "Où ne peut jamais reprendre un repère temporel. Correction : Le modèle le jour où fournit cet emploi."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi5-50-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "alternative : un choix ou une disjonction exprimés dans le modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il relie ici des choix. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "interrogation de lieu : une demande de localisation.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Ou et où ont des constructions distinctes. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "reprise de lieu : une relative rattachée à un antécédent spatial.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Elle précise ici un lieu. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "reprise de temps : une relative rattachée à un repère temporel.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le modèle le jour où fournit cet emploi. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Ou sans accent est toujours une question de lieu.",
+        "truth": "false",
+        "explain": "Il relie ici des choix."
+       },
+       {
+        "text": "L’accent ne change jamais le rôle du mot dans ces exemples.",
+        "truth": "false",
+        "explain": "Ou et où ont des constructions distinctes."
+       },
+       {
+        "text": "La relative donne nécessairement deux choix à sélectionner.",
+        "truth": "false",
+        "explain": "Elle précise ici un lieu."
+       },
+       {
+        "text": "Où ne peut jamais reprendre un repère temporel.",
+        "truth": "false",
+        "explain": "Le modèle le jour où fournit cet emploi."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi5-50-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne un choix ou une disjonction exprimés dans le modèle ?",
+       "r": "alternative",
+       "w": [
+        "interrogation de lieu",
+        "reprise de lieu",
+        "reprise de temps"
+       ],
+       "e": [
+        "Cela désigne une demande de localisation, plutôt que la notion demandée.",
+        "Cela désigne une relative rattachée à un antécédent spatial, plutôt que la notion demandée.",
+        "Cela désigne une relative rattachée à un repère temporel, plutôt que la notion demandée."
+       ],
+       "y": "Il relie ici des choix."
+      },
+      {
+       "q": "Quel terme désigne une demande de localisation ?",
+       "r": "interrogation de lieu",
+       "w": [
+        "alternative",
+        "reprise de lieu",
+        "reprise de temps"
+       ],
+       "e": [
+        "Cela désigne un choix ou une disjonction exprimés dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne une relative rattachée à un antécédent spatial, plutôt que la notion demandée.",
+        "Cela désigne une relative rattachée à un repère temporel, plutôt que la notion demandée."
+       ],
+       "y": "Ou et où ont des constructions distinctes."
+      },
+      {
+       "q": "Quel terme désigne une relative rattachée à un antécédent spatial ?",
+       "r": "reprise de lieu",
+       "w": [
+        "alternative",
+        "interrogation de lieu",
+        "reprise de temps"
+       ],
+       "e": [
+        "Cela désigne un choix ou une disjonction exprimés dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne une demande de localisation, plutôt que la notion demandée.",
+        "Cela désigne une relative rattachée à un repère temporel, plutôt que la notion demandée."
+       ],
+       "y": "Elle précise ici un lieu."
+      },
+      {
+       "q": "Quel terme désigne une relative rattachée à un repère temporel ?",
+       "r": "reprise de temps",
+       "w": [
+        "alternative",
+        "interrogation de lieu",
+        "reprise de lieu"
+       ],
+       "e": [
+        "Cela désigne un choix ou une disjonction exprimés dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne une demande de localisation, plutôt que la notion demandée.",
+        "Cela désigne une relative rattachée à un antécédent spatial, plutôt que la notion demandée."
+       ],
+       "y": "Le modèle le jour où fournit cet emploi."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-50-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Une lecture ou une discussion propose des possibilités.\nQuelle notion convient ?",
+       "r": "alternative",
+       "w": [
+        "interrogation de lieu",
+        "reprise de lieu",
+        "reprise de temps"
+       ],
+       "e": [
+        "Cela concerne une demande de localisation. Compare cette définition avec le cas présenté.",
+        "Cela concerne une relative rattachée à un antécédent spatial. Compare cette définition avec le cas présenté.",
+        "Cela concerne une relative rattachée à un repère temporel. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il relie ici des choix."
+      },
+      {
+       "q": "Où se trouve la salle demande un lieu.\nQuelle notion convient ?",
+       "r": "interrogation de lieu",
+       "w": [
+        "alternative",
+        "reprise de lieu",
+        "reprise de temps"
+       ],
+       "e": [
+        "Cela concerne un choix ou une disjonction exprimés dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne une relative rattachée à un antécédent spatial. Compare cette définition avec le cas présenté.",
+        "Cela concerne une relative rattachée à un repère temporel. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Ou et où ont des constructions distinctes."
+      },
+      {
+       "q": "La cour où le groupe se réunit reprend cour.\nQuelle notion convient ?",
+       "r": "reprise de lieu",
+       "w": [
+        "alternative",
+        "interrogation de lieu",
+        "reprise de temps"
+       ],
+       "e": [
+        "Cela concerne un choix ou une disjonction exprimés dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne une demande de localisation. Compare cette définition avec le cas présenté.",
+        "Cela concerne une relative rattachée à un repère temporel. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Elle précise ici un lieu."
+      },
+      {
+       "q": "Le jour où il arrive reprend jour.\nQuelle notion convient ?",
+       "r": "reprise de temps",
+       "w": [
+        "alternative",
+        "interrogation de lieu",
+        "reprise de lieu"
+       ],
+       "e": [
+        "Cela concerne un choix ou une disjonction exprimés dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne une demande de localisation. Compare cette définition avec le cas présenté.",
+        "Cela concerne une relative rattachée à un antécédent spatial. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le modèle le jour où fournit cet emploi."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-50-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Tu proposes une lecture ___ une discussion ?",
+       "r": "ou",
+       "w": [
+        "où",
+        "au",
+        "houx"
+       ],
+       "e": [
+        "La phrase offre une alternative, pas un lieu.",
+        "Au ne relie pas ces deux choix.",
+        "Houx nomme une plante et ne convient pas à cette relation."
+       ],
+       "y": "Ou peut être remplacé ici par ou bien."
+      },
+      {
+       "q": "___ se trouve la salle ?",
+       "r": "Où",
+       "w": [
+        "Ou",
+        "Au",
+        "Houx"
+       ],
+       "e": [
+        "La question demande un lieu, pas une alternative.",
+        "Au ne forme pas cette question.",
+        "Le nom de plante n’est pas le mot interrogatif demandé."
+       ],
+       "y": "Où interroge sur le lieu."
+      },
+      {
+       "q": "Voici la cour ___ le groupe se réunit.",
+       "r": "où",
+       "w": [
+        "ou",
+        "au",
+        "houx"
+       ],
+       "e": [
+        "La phrase reprend un lieu plutôt que deux choix.",
+        "Cette forme ne construit pas la relative demandée.",
+        "Le nom de plante ne reprend pas cour ici."
+       ],
+       "y": "Où reprend le lieu antécédent."
+      },
+      {
+       "q": "Le jour ___ le club arrive est indiqué.",
+       "r": "où",
+       "w": [
+        "ou",
+        "au",
+        "houx"
+       ],
+       "e": [
+        "Il ne s’agit pas d’une alternative entre jours.",
+        "Cette préposition ne forme pas la reprise temporelle.",
+        "Le nom ne fournit pas le relatif temporel."
+       ],
+       "y": "Où peut reprendre un repère de temps dans ce modèle."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-50-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "alternative",
+     "right": "Une lecture ou une discussion propose des possibilités."
+    },
+    {
+     "left": "interrogation de lieu",
+     "right": "Où se trouve la salle demande un lieu."
+    },
+    {
+     "left": "reprise de lieu",
+     "right": "La cour où le groupe se réunit reprend cour."
+    },
+    {
+     "left": "reprise de temps",
+     "right": "Le jour où il arrive reprend jour."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-50-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "alternative : un choix ou une disjonction exprimés dans le modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il relie ici des choix. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "interrogation de lieu : une demande de localisation.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Ou et où ont des constructions distinctes. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "reprise de lieu : une relative rattachée à un antécédent spatial.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Elle précise ici un lieu. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "reprise de temps : une relative rattachée à un repère temporel.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le modèle le jour où fournit cet emploi. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Ou sans accent est toujours une question de lieu.",
+      "truth": "false",
+      "explain": "Il relie ici des choix."
+     },
+     {
+      "text": "L’accent ne change jamais le rôle du mot dans ces exemples.",
+      "truth": "false",
+      "explain": "Ou et où ont des constructions distinctes."
+     },
+     {
+      "text": "La relative donne nécessairement deux choix à sélectionner.",
+      "truth": "false",
+      "explain": "Elle précise ici un lieu."
+     },
+     {
+      "text": "Où ne peut jamais reprendre un repère temporel.",
+      "truth": "false",
+      "explain": "Le modèle le jour où fournit cet emploi."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

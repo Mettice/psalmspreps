@@ -1,0 +1,568 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 5",
+ "lesson_no": 7,
+ "language": "fr",
+ "prerequisites": [
+  3,
+  6
+ ],
+ "skills": [
+  {
+   "id": "fi5-7",
+   "name": "Gérondif et participe présent"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le participe présent verbal est invariable dans les modèles étudiés : parlant, finissant, ayant, étant. Le gérondif associe en au participe présent et peut exprimer notamment une simultanéité, une manière ou un moyen. Son sujet est normalement celui de l’action principale dans la construction enseignée. Distingue le participe verbal d’un adjectif verbal qui peut s’accorder, et d’un participe passé. L’interprétation dépend de la phrase, pas du seul groupe de lettres -ant.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras former les modèles et relier le gérondif au sujet de l’action principale. Acquis mobilisés : verbes, cause et phrase complexe. Pour la suite : traduction et description des actions."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Le participe présent verbal est invariable dans les modèles étudiés : parlant, finissant, ayant, étant. Le gérondif associe en au participe présent et peut exprimer notamment une simultanéité, une manière ou un moyen. Son sujet est normalement celui de l’action principale dans la construction enseignée. Distingue le participe verbal d’un adjectif verbal qui peut s’accorder, et d’un participe passé. L’interprétation dépend de la phrase, pas du seul groupe de lettres -ant."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles calculés : {fr2ParticipePresent(\"finir\")}, {fr2ParticipePresent(\"avoir\")}, {fr2Gerondif(\"être\")}. Dans Bih lit en prenant des notes, Bih accomplit les actions reliées. Dans les membres parlant au groupe, parlant reste verbal et ne reçoit pas le pluriel du nom dans ce modèle."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Identifie la forme demandée et la construction. Pour le gérondif, ajoute en et vérifie qui accomplit l’action. Ne rattache pas une action à un sujet différent sans le dire dans une autre proposition."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "participe présent verbal",
+    "meaning": "une forme en -ant invariable dans le modèle verbal"
+   },
+   {
+    "word": "gérondif",
+    "meaning": "la construction en suivie du participe présent"
+   },
+   {
+    "word": "sujet partagé",
+    "meaning": "le sujet commun attendu dans le gérondif étudié"
+   },
+   {
+    "word": "forme particulière",
+    "meaning": "un participe présent dont le modèle doit être appris"
+   }
+  ],
+  "mistake": {
+   "wrong": "Le participe verbal prend toujours le pluriel du sujet.",
+   "right": "une forme en -ant invariable dans le modèle verbal.",
+   "why": "Il est invariable dans cet emploi."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Les membres parlant au groupe gardent parlant sans s. Explique le choix.",
+  "steps": [
+   "une forme en -ant invariable dans le modèle verbal.",
+   "Il est invariable dans cet emploi."
+  ],
+  "answer": "participe présent verbal",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi5-7-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "participe présent verbal : une forme en -ant invariable dans le modèle verbal.",
+     "gérondif : la construction en suivie du participe présent.",
+     "sujet partagé : le sujet commun attendu dans le gérondif étudié.",
+     "forme particulière : un participe présent dont le modèle doit être appris."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-7-notions"
+    }
+   },
+   {
+    "id": "fi5-7-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Les membres parlant au groupe gardent parlant sans s.",
+     "En finissant emploie le marqueur en.",
+     "Bih lit en prenant des notes attribue les actions à Bih.",
+     "Avoir donne ayant et être donne étant."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-7-cas"
+    }
+   },
+   {
+    "id": "fi5-7-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Le participe verbal prend toujours le pluriel du sujet. Correction : Il est invariable dans cet emploi.",
+     "Finissant seul contient déjà le marqueur en. Correction : Le gérondif du modèle exige en.",
+     "Le gérondif peut changer secrètement de sujet sans effet. Correction : Le rattachement doit rester cohérent.",
+     "Avoirant est le modèle étudié. Correction : La forme particulière est ayant."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi5-7-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "participe présent verbal : une forme en -ant invariable dans le modèle verbal.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il est invariable dans cet emploi. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "gérondif : la construction en suivie du participe présent.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le gérondif du modèle exige en. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "sujet partagé : le sujet commun attendu dans le gérondif étudié.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le rattachement doit rester cohérent. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "forme particulière : un participe présent dont le modèle doit être appris.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La forme particulière est ayant. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Le participe verbal prend toujours le pluriel du sujet.",
+        "truth": "false",
+        "explain": "Il est invariable dans cet emploi."
+       },
+       {
+        "text": "Finissant seul contient déjà le marqueur en.",
+        "truth": "false",
+        "explain": "Le gérondif du modèle exige en."
+       },
+       {
+        "text": "Le gérondif peut changer secrètement de sujet sans effet.",
+        "truth": "false",
+        "explain": "Le rattachement doit rester cohérent."
+       },
+       {
+        "text": "Avoirant est le modèle étudié.",
+        "truth": "false",
+        "explain": "La forme particulière est ayant."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi5-7-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne une forme en -ant invariable dans le modèle verbal ?",
+       "r": "participe présent verbal",
+       "w": [
+        "gérondif",
+        "sujet partagé",
+        "forme particulière"
+       ],
+       "e": [
+        "Cela désigne la construction en suivie du participe présent, plutôt que la notion demandée.",
+        "Cela désigne le sujet commun attendu dans le gérondif étudié, plutôt que la notion demandée.",
+        "Cela désigne un participe présent dont le modèle doit être appris, plutôt que la notion demandée."
+       ],
+       "y": "Il est invariable dans cet emploi."
+      },
+      {
+       "q": "Quel terme désigne la construction en suivie du participe présent ?",
+       "r": "gérondif",
+       "w": [
+        "participe présent verbal",
+        "sujet partagé",
+        "forme particulière"
+       ],
+       "e": [
+        "Cela désigne une forme en -ant invariable dans le modèle verbal, plutôt que la notion demandée.",
+        "Cela désigne le sujet commun attendu dans le gérondif étudié, plutôt que la notion demandée.",
+        "Cela désigne un participe présent dont le modèle doit être appris, plutôt que la notion demandée."
+       ],
+       "y": "Le gérondif du modèle exige en."
+      },
+      {
+       "q": "Quel terme désigne le sujet commun attendu dans le gérondif étudié ?",
+       "r": "sujet partagé",
+       "w": [
+        "participe présent verbal",
+        "gérondif",
+        "forme particulière"
+       ],
+       "e": [
+        "Cela désigne une forme en -ant invariable dans le modèle verbal, plutôt que la notion demandée.",
+        "Cela désigne la construction en suivie du participe présent, plutôt que la notion demandée.",
+        "Cela désigne un participe présent dont le modèle doit être appris, plutôt que la notion demandée."
+       ],
+       "y": "Le rattachement doit rester cohérent."
+      },
+      {
+       "q": "Quel terme désigne un participe présent dont le modèle doit être appris ?",
+       "r": "forme particulière",
+       "w": [
+        "participe présent verbal",
+        "gérondif",
+        "sujet partagé"
+       ],
+       "e": [
+        "Cela désigne une forme en -ant invariable dans le modèle verbal, plutôt que la notion demandée.",
+        "Cela désigne la construction en suivie du participe présent, plutôt que la notion demandée.",
+        "Cela désigne le sujet commun attendu dans le gérondif étudié, plutôt que la notion demandée."
+       ],
+       "y": "La forme particulière est ayant."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-7-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Les membres parlant au groupe gardent parlant sans s.\nQuelle notion convient ?",
+       "r": "participe présent verbal",
+       "w": [
+        "gérondif",
+        "sujet partagé",
+        "forme particulière"
+       ],
+       "e": [
+        "Cela concerne la construction en suivie du participe présent. Compare cette définition avec le cas présenté.",
+        "Cela concerne le sujet commun attendu dans le gérondif étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne un participe présent dont le modèle doit être appris. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il est invariable dans cet emploi."
+      },
+      {
+       "q": "En finissant emploie le marqueur en.\nQuelle notion convient ?",
+       "r": "gérondif",
+       "w": [
+        "participe présent verbal",
+        "sujet partagé",
+        "forme particulière"
+       ],
+       "e": [
+        "Cela concerne une forme en -ant invariable dans le modèle verbal. Compare cette définition avec le cas présenté.",
+        "Cela concerne le sujet commun attendu dans le gérondif étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne un participe présent dont le modèle doit être appris. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le gérondif du modèle exige en."
+      },
+      {
+       "q": "Bih lit en prenant des notes attribue les actions à Bih.\nQuelle notion convient ?",
+       "r": "sujet partagé",
+       "w": [
+        "participe présent verbal",
+        "gérondif",
+        "forme particulière"
+       ],
+       "e": [
+        "Cela concerne une forme en -ant invariable dans le modèle verbal. Compare cette définition avec le cas présenté.",
+        "Cela concerne la construction en suivie du participe présent. Compare cette définition avec le cas présenté.",
+        "Cela concerne un participe présent dont le modèle doit être appris. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le rattachement doit rester cohérent."
+      },
+      {
+       "q": "Avoir donne ayant et être donne étant.\nQuelle notion convient ?",
+       "r": "forme particulière",
+       "w": [
+        "participe présent verbal",
+        "gérondif",
+        "sujet partagé"
+       ],
+       "e": [
+        "Cela concerne une forme en -ant invariable dans le modèle verbal. Compare cette définition avec le cas présenté.",
+        "Cela concerne la construction en suivie du participe présent. Compare cette définition avec le cas présenté.",
+        "Cela concerne le sujet commun attendu dans le gérondif étudié. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La forme particulière est ayant."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-7-former",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "T": {
+     "pick": [
+      {
+       "key": "ger",
+       "label": "le gérondif"
+      },
+      {
+       "key": "pp",
+       "label": "le participe présent"
+      }
+     ]
+    },
+    "v": {
+     "pick": [
+      "avoir",
+      "être",
+      "faire",
+      "finir",
+      "parler",
+      "manger"
+     ]
+    }
+   },
+   "prompt": "Forme {T.label} de « {v} ».",
+   "correct": "{T.key==\"ger\" ? fr2Gerondif(v) : fr2ParticipePresent(v)}",
+   "distractors": [
+    {
+     "text": "{T.key==\"ger\" ? fr2ParticipePresent(v) : fr2Gerondif(v)}",
+     "misconception": "en"
+    },
+    {
+     "text": "{v}",
+     "misconception": "inf"
+    },
+    {
+     "text": "{fr2Participle(v)}",
+     "misconception": "passe"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "en",
+     "explain": "Ce choix échange le participe présent seul et le gérondif introduit par en."
+    },
+    {
+     "id": "inf",
+     "explain": "Tu as conservé l’infinitif plutôt que la forme demandée."
+    },
+    {
+     "id": "passe",
+     "explain": "Le participe passé ne répond pas à cette forme en -ant."
+    }
+   ],
+   "solution": [
+    "Le gérondif ajoute en au participe présent dans les modèles étudiés.",
+    "La forme demandée est {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-7-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "participe présent verbal",
+     "right": "Les membres parlant au groupe gardent parlant sans s."
+    },
+    {
+     "left": "gérondif",
+     "right": "En finissant emploie le marqueur en."
+    },
+    {
+     "left": "sujet partagé",
+     "right": "Bih lit en prenant des notes attribue les actions à Bih."
+    },
+    {
+     "left": "forme particulière",
+     "right": "Avoir donne ayant et être donne étant."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-7-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "participe présent verbal : une forme en -ant invariable dans le modèle verbal.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il est invariable dans cet emploi. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "gérondif : la construction en suivie du participe présent.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le gérondif du modèle exige en. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "sujet partagé : le sujet commun attendu dans le gérondif étudié.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le rattachement doit rester cohérent. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "forme particulière : un participe présent dont le modèle doit être appris.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La forme particulière est ayant. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le participe verbal prend toujours le pluriel du sujet.",
+      "truth": "false",
+      "explain": "Il est invariable dans cet emploi."
+     },
+     {
+      "text": "Finissant seul contient déjà le marqueur en.",
+      "truth": "false",
+      "explain": "Le gérondif du modèle exige en."
+     },
+     {
+      "text": "Le gérondif peut changer secrètement de sujet sans effet.",
+      "truth": "false",
+      "explain": "Le rattachement doit rester cohérent."
+     },
+     {
+      "text": "Avoirant est le modèle étudié.",
+      "truth": "false",
+      "explain": "La forme particulière est ayant."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

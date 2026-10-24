@@ -1,0 +1,573 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 5",
+ "lesson_no": 19,
+ "language": "fr",
+ "prerequisites": [
+  7,
+  13,
+  17
+ ],
+ "skills": [
+  {
+   "id": "fi5-19",
+   "name": "Passé simple et passé composé"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le passé simple est une forme simple surtout associée au récit écrit littéraire. Le passé composé associe un auxiliaire au présent et un participe passé ; il est fréquent dans les échanges et de nombreux récits. Les deux peuvent présenter des événements accomplis, selon le cadre et la perspective. Ne décide pas que toute action brève impose le passé simple. Les exercices demandent explicitement le temps ; les verbes variables emploient ici avoir sans complément direct antéposé.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras former les temps étudiés et distinguer registre narratif et structure verbale. Acquis mobilisés : participes, auxiliaires et traduction. Pour la suite : homophones et comparaison avec l’imparfait."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Le passé simple est une forme simple surtout associée au récit écrit littéraire. Le passé composé associe un auxiliaire au présent et un participe passé ; il est fréquent dans les échanges et de nombreux récits. Les deux peuvent présenter des événements accomplis, selon le cadre et la perspective. Ne décide pas que toute action brève impose le passé simple. Les exercices demandent explicitement le temps ; les verbes variables emploient ici avoir sans complément direct antéposé."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles calculés : {fr2With(3,fr2PasseSimple(\"aider\",3))} le groupe ; {fr2PasseCompose(\"aider\",3)} le groupe. Compare {fr2With(4,fr2PasseSimple(\"finir\",4))} et {fr2PasseCompose(\"finir\",4)}. Le récit choisi et le registre guident l’écriture ; la présence d’un auxiliaire distingue les structures."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Identifie temps, sujet et verbe. Conjugue la forme simple ou l’auxiliaire requis, puis vérifie le participe. Dans une production, conserve un cadre narratif cohérent au lieu de changer de temps sans raison."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "temps simple",
+    "meaning": "une forme conjuguée sans auxiliaire dans le modèle"
+   },
+   {
+    "word": "temps composé",
+    "meaning": "un auxiliaire conjugué associé au participe"
+   },
+   {
+    "word": "registre narratif",
+    "meaning": "le contexte d’écriture contribuant au choix du temps"
+   },
+   {
+    "word": "cadre cohérent",
+    "meaning": "une perspective verbale maintenue ou changée pour une raison"
+   }
+  ],
+  "mistake": {
+   "wrong": "Le passé simple contient toujours avoir au présent.",
+   "right": "une forme conjuguée sans auxiliaire dans le modèle.",
+   "why": "Aida est une forme simple."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Elle aida est au passé simple. Explique le choix.",
+  "steps": [
+   "une forme conjuguée sans auxiliaire dans le modèle.",
+   "Aida est une forme simple."
+  ],
+  "answer": "temps simple",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi5-19-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "temps simple : une forme conjuguée sans auxiliaire dans le modèle.",
+     "temps composé : un auxiliaire conjugué associé au participe.",
+     "registre narratif : le contexte d’écriture contribuant au choix du temps.",
+     "cadre cohérent : une perspective verbale maintenue ou changée pour une raison."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-19-notions"
+    }
+   },
+   {
+    "id": "fi5-19-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Elle aida est au passé simple.",
+     "Elle a aidé emploie auxiliaire et participe.",
+     "Le passé simple apparaît surtout dans un récit écrit littéraire.",
+     "Le narrateur choisit un cadre et justifie ses changements."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-19-cas"
+    }
+   },
+   {
+    "id": "fi5-19-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Le passé simple contient toujours avoir au présent. Correction : Aida est une forme simple.",
+     "Elle a aider fournit le passé composé correct. Correction : L’infinitif est remplacé par le participe aidé.",
+     "Toute action brève exige toujours le passé simple. Correction : Le registre et la perspective comptent aussi.",
+     "Des temps choisis au hasard conservent toujours le même récit. Correction : Les relations temporelles peuvent changer."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi5-19-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "temps simple : une forme conjuguée sans auxiliaire dans le modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Aida est une forme simple. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "temps composé : un auxiliaire conjugué associé au participe.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’infinitif est remplacé par le participe aidé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "registre narratif : le contexte d’écriture contribuant au choix du temps.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le registre et la perspective comptent aussi. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "cadre cohérent : une perspective verbale maintenue ou changée pour une raison.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les relations temporelles peuvent changer. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Le passé simple contient toujours avoir au présent.",
+        "truth": "false",
+        "explain": "Aida est une forme simple."
+       },
+       {
+        "text": "Elle a aider fournit le passé composé correct.",
+        "truth": "false",
+        "explain": "L’infinitif est remplacé par le participe aidé."
+       },
+       {
+        "text": "Toute action brève exige toujours le passé simple.",
+        "truth": "false",
+        "explain": "Le registre et la perspective comptent aussi."
+       },
+       {
+        "text": "Des temps choisis au hasard conservent toujours le même récit.",
+        "truth": "false",
+        "explain": "Les relations temporelles peuvent changer."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi5-19-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne une forme conjuguée sans auxiliaire dans le modèle ?",
+       "r": "temps simple",
+       "w": [
+        "temps composé",
+        "registre narratif",
+        "cadre cohérent"
+       ],
+       "e": [
+        "Cela désigne un auxiliaire conjugué associé au participe, plutôt que la notion demandée.",
+        "Cela désigne le contexte d’écriture contribuant au choix du temps, plutôt que la notion demandée.",
+        "Cela désigne une perspective verbale maintenue ou changée pour une raison, plutôt que la notion demandée."
+       ],
+       "y": "Aida est une forme simple."
+      },
+      {
+       "q": "Quel terme désigne un auxiliaire conjugué associé au participe ?",
+       "r": "temps composé",
+       "w": [
+        "temps simple",
+        "registre narratif",
+        "cadre cohérent"
+       ],
+       "e": [
+        "Cela désigne une forme conjuguée sans auxiliaire dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne le contexte d’écriture contribuant au choix du temps, plutôt que la notion demandée.",
+        "Cela désigne une perspective verbale maintenue ou changée pour une raison, plutôt que la notion demandée."
+       ],
+       "y": "L’infinitif est remplacé par le participe aidé."
+      },
+      {
+       "q": "Quel terme désigne le contexte d’écriture contribuant au choix du temps ?",
+       "r": "registre narratif",
+       "w": [
+        "temps simple",
+        "temps composé",
+        "cadre cohérent"
+       ],
+       "e": [
+        "Cela désigne une forme conjuguée sans auxiliaire dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne un auxiliaire conjugué associé au participe, plutôt que la notion demandée.",
+        "Cela désigne une perspective verbale maintenue ou changée pour une raison, plutôt que la notion demandée."
+       ],
+       "y": "Le registre et la perspective comptent aussi."
+      },
+      {
+       "q": "Quel terme désigne une perspective verbale maintenue ou changée pour une raison ?",
+       "r": "cadre cohérent",
+       "w": [
+        "temps simple",
+        "temps composé",
+        "registre narratif"
+       ],
+       "e": [
+        "Cela désigne une forme conjuguée sans auxiliaire dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne un auxiliaire conjugué associé au participe, plutôt que la notion demandée.",
+        "Cela désigne le contexte d’écriture contribuant au choix du temps, plutôt que la notion demandée."
+       ],
+       "y": "Les relations temporelles peuvent changer."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-19-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Elle aida est au passé simple.\nQuelle notion convient ?",
+       "r": "temps simple",
+       "w": [
+        "temps composé",
+        "registre narratif",
+        "cadre cohérent"
+       ],
+       "e": [
+        "Cela concerne un auxiliaire conjugué associé au participe. Compare cette définition avec le cas présenté.",
+        "Cela concerne le contexte d’écriture contribuant au choix du temps. Compare cette définition avec le cas présenté.",
+        "Cela concerne une perspective verbale maintenue ou changée pour une raison. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Aida est une forme simple."
+      },
+      {
+       "q": "Elle a aidé emploie auxiliaire et participe.\nQuelle notion convient ?",
+       "r": "temps composé",
+       "w": [
+        "temps simple",
+        "registre narratif",
+        "cadre cohérent"
+       ],
+       "e": [
+        "Cela concerne une forme conjuguée sans auxiliaire dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne le contexte d’écriture contribuant au choix du temps. Compare cette définition avec le cas présenté.",
+        "Cela concerne une perspective verbale maintenue ou changée pour une raison. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’infinitif est remplacé par le participe aidé."
+      },
+      {
+       "q": "Le passé simple apparaît surtout dans un récit écrit littéraire.\nQuelle notion convient ?",
+       "r": "registre narratif",
+       "w": [
+        "temps simple",
+        "temps composé",
+        "cadre cohérent"
+       ],
+       "e": [
+        "Cela concerne une forme conjuguée sans auxiliaire dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne un auxiliaire conjugué associé au participe. Compare cette définition avec le cas présenté.",
+        "Cela concerne une perspective verbale maintenue ou changée pour une raison. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le registre et la perspective comptent aussi."
+      },
+      {
+       "q": "Le narrateur choisit un cadre et justifie ses changements.\nQuelle notion convient ?",
+       "r": "cadre cohérent",
+       "w": [
+        "temps simple",
+        "temps composé",
+        "registre narratif"
+       ],
+       "e": [
+        "Cela concerne une forme conjuguée sans auxiliaire dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne un auxiliaire conjugué associé au participe. Compare cette définition avec le cas présenté.",
+        "Cela concerne le contexte d’écriture contribuant au choix du temps. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les relations temporelles peuvent changer."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-19-formes",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "T": {
+     "pick": [
+      {
+       "key": "ps",
+       "label": "au passé simple"
+      },
+      {
+       "key": "pc",
+       "label": "au passé composé"
+      }
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    },
+    "v": {
+     "pick": [
+      "aider",
+      "parler",
+      "finir",
+      "choisir"
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » {T.label} avec « {fr2Pronoun(p)} », à la voix active.",
+   "correct": "{T.key==\"ps\" ? fr2With(p,fr2PasseSimple(v,p)) : fr2PasseCompose(v,p)}",
+   "distractors": [
+    {
+     "text": "{T.key==\"ps\" ? fr2PasseCompose(v,p) : fr2With(p,fr2PasseSimple(v,p))}",
+     "misconception": "autre"
+    },
+    {
+     "text": "{fr2With(p,fr2Imparfait(v,p))}",
+     "misconception": "imp"
+    },
+    {
+     "text": "{fr2With(p,v)}",
+     "misconception": "inf"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "autre",
+     "explain": "Cette forme échange le passé simple et le passé composé demandés."
+    },
+    {
+     "id": "imp",
+     "explain": "L’imparfait ne répond pas à ce temps demandé."
+    },
+    {
+     "id": "inf",
+     "explain": "L’infinitif ne fournit pas la forme passée personnelle."
+    }
+   ],
+   "solution": [
+    "Le passé simple est une forme simple ; le passé composé associe auxiliaire et participe.",
+    "La forme demandée est {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-19-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "temps simple",
+     "right": "Elle aida est au passé simple."
+    },
+    {
+     "left": "temps composé",
+     "right": "Elle a aidé emploie auxiliaire et participe."
+    },
+    {
+     "left": "registre narratif",
+     "right": "Le passé simple apparaît surtout dans un récit écrit littéraire."
+    },
+    {
+     "left": "cadre cohérent",
+     "right": "Le narrateur choisit un cadre et justifie ses changements."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-19-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "temps simple : une forme conjuguée sans auxiliaire dans le modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Aida est une forme simple. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "temps composé : un auxiliaire conjugué associé au participe.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’infinitif est remplacé par le participe aidé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "registre narratif : le contexte d’écriture contribuant au choix du temps.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le registre et la perspective comptent aussi. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "cadre cohérent : une perspective verbale maintenue ou changée pour une raison.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les relations temporelles peuvent changer. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le passé simple contient toujours avoir au présent.",
+      "truth": "false",
+      "explain": "Aida est une forme simple."
+     },
+     {
+      "text": "Elle a aider fournit le passé composé correct.",
+      "truth": "false",
+      "explain": "L’infinitif est remplacé par le participe aidé."
+     },
+     {
+      "text": "Toute action brève exige toujours le passé simple.",
+      "truth": "false",
+      "explain": "Le registre et la perspective comptent aussi."
+     },
+     {
+      "text": "Des temps choisis au hasard conservent toujours le même récit.",
+      "truth": "false",
+      "explain": "Les relations temporelles peuvent changer."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

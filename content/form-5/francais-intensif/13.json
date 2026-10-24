@@ -1,0 +1,566 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 5",
+ "lesson_no": 13,
+ "language": "fr",
+ "prerequisites": [
+  3,
+  7,
+  11
+ ],
+ "skills": [
+  {
+   "id": "fi5-13",
+   "name": "Le subjonctif présent : formation et emploi"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le subjonctif est un mode employé dans certaines constructions, notamment après il faut que ou un verbe de volonté comme vouloir que. Le présent du subjonctif a souvent les terminaisons -e, -es, -e, -ions, -iez, -ent, mais plusieurs radicaux et verbes sont irréguliers. Être et avoir ont des formes particulières. Que ne déclenche pas toujours le subjonctif : je constate que présente habituellement un constat à l’indicatif. Lis l’expression qui commande la proposition.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras former le subjonctif étudié et distinguer une construction de souhait d’un simple constat. Acquis mobilisés : formes verbales et phrase complexe de la classe précédente. Pour la suite : propositions et écrits développés."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Le subjonctif est un mode employé dans certaines constructions, notamment après il faut que ou un verbe de volonté comme vouloir que. Le présent du subjonctif a souvent les terminaisons -e, -es, -e, -ions, -iez, -ent, mais plusieurs radicaux et verbes sont irréguliers. Être et avoir ont des formes particulières. Que ne déclenche pas toujours le subjonctif : je constate que présente habituellement un constat à l’indicatif. Lis l’expression qui commande la proposition."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Il faut {fr2Que(4,fr2Subjonctif(\"finir\",4))} l’affiche. Je souhaite {fr2Que(3,fr2Subjonctif(\"être\",3))} prête. Compare avec je constate qu’elle est prête : la présence de que ne suffit donc pas à choisir le mode. Apprends la construction complète et vérifie le sujet."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère l’expression de nécessité ou de volonté, puis le sujet de la subordonnée. Choisis la forme adaptée plutôt que d’ajouter que à un infinitif. Écris un souhait original avec un sujet différent de celui du verbe principal et vérifie les accords."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "nécessité",
+    "meaning": "ce que la construction il faut que présente comme nécessaire"
+   },
+   {
+    "word": "volonté ou souhait",
+    "meaning": "une attitude pouvant commander une subordonnée au subjonctif"
+   },
+   {
+    "word": "forme irrégulière",
+    "meaning": "une forme ne suivant pas simplement le radical régulier attendu"
+   },
+   {
+    "word": "choix du mode",
+    "meaning": "la sélection dépendant de la construction et du sens"
+   }
+  ],
+  "mistake": {
+   "wrong": "Il faut que est toujours suivi d’un futur simple.",
+   "right": "ce que la construction il faut que présente comme nécessaire.",
+   "why": "Dans le modèle étudié, cette construction commande le subjonctif."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Il faut {fr2Que(4,fr2Subjonctif(\"faire\",4))} attention. Explique le choix.",
+  "steps": [
+   "ce que la construction il faut que présente comme nécessaire.",
+   "Dans le modèle étudié, cette construction commande le subjonctif."
+  ],
+  "answer": "nécessité",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi5-13-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "nécessité : ce que la construction il faut que présente comme nécessaire.",
+     "volonté ou souhait : une attitude pouvant commander une subordonnée au subjonctif.",
+     "forme irrégulière : une forme ne suivant pas simplement le radical régulier attendu.",
+     "choix du mode : la sélection dépendant de la construction et du sens."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-13-notions"
+    }
+   },
+   {
+    "id": "fi5-13-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Il faut {fr2Que(4,fr2Subjonctif(\"faire\",4))} attention.",
+     "Je souhaite {fr2Que(3,fr2Subjonctif(\"aller\",3))} au club.",
+     "{fr2Que(6,fr2Subjonctif(\"être\",6))} comporte une forme particulière de être.",
+     "Je constate qu’elle est prête présente un constat."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-13-cas"
+    }
+   },
+   {
+    "id": "fi5-13-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Il faut que est toujours suivi d’un futur simple. Correction : Dans le modèle étudié, cette construction commande le subjonctif.",
+     "Tout souhait après que se forme seulement avec un infinitif non conjugué. Correction : Un sujet propre dans la subordonnée demande la construction adaptée.",
+     "Tous les verbes gardent exactement le radical de parler. Correction : Certains verbes exigent un apprentissage spécifique.",
+     "Chaque que impose automatiquement le subjonctif. Correction : Le mot introducteur seul ne décide pas de tous les emplois."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi5-13-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "nécessité : ce que la construction il faut que présente comme nécessaire.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Dans le modèle étudié, cette construction commande le subjonctif. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "volonté ou souhait : une attitude pouvant commander une subordonnée au subjonctif.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Un sujet propre dans la subordonnée demande la construction adaptée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "forme irrégulière : une forme ne suivant pas simplement le radical régulier attendu.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Certains verbes exigent un apprentissage spécifique. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "choix du mode : la sélection dépendant de la construction et du sens.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le mot introducteur seul ne décide pas de tous les emplois. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Il faut que est toujours suivi d’un futur simple.",
+        "truth": "false",
+        "explain": "Dans le modèle étudié, cette construction commande le subjonctif."
+       },
+       {
+        "text": "Tout souhait après que se forme seulement avec un infinitif non conjugué.",
+        "truth": "false",
+        "explain": "Un sujet propre dans la subordonnée demande la construction adaptée."
+       },
+       {
+        "text": "Tous les verbes gardent exactement le radical de parler.",
+        "truth": "false",
+        "explain": "Certains verbes exigent un apprentissage spécifique."
+       },
+       {
+        "text": "Chaque que impose automatiquement le subjonctif.",
+        "truth": "false",
+        "explain": "Le mot introducteur seul ne décide pas de tous les emplois."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi5-13-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne ce que la construction il faut que présente comme nécessaire ?",
+       "r": "nécessité",
+       "w": [
+        "volonté ou souhait",
+        "forme irrégulière",
+        "choix du mode"
+       ],
+       "e": [
+        "Cela désigne une attitude pouvant commander une subordonnée au subjonctif, plutôt que la notion demandée.",
+        "Cela désigne une forme ne suivant pas simplement le radical régulier attendu, plutôt que la notion demandée.",
+        "Cela désigne la sélection dépendant de la construction et du sens, plutôt que la notion demandée."
+       ],
+       "y": "Dans le modèle étudié, cette construction commande le subjonctif."
+      },
+      {
+       "q": "Quel terme désigne une attitude pouvant commander une subordonnée au subjonctif ?",
+       "r": "volonté ou souhait",
+       "w": [
+        "nécessité",
+        "forme irrégulière",
+        "choix du mode"
+       ],
+       "e": [
+        "Cela désigne ce que la construction il faut que présente comme nécessaire, plutôt que la notion demandée.",
+        "Cela désigne une forme ne suivant pas simplement le radical régulier attendu, plutôt que la notion demandée.",
+        "Cela désigne la sélection dépendant de la construction et du sens, plutôt que la notion demandée."
+       ],
+       "y": "Un sujet propre dans la subordonnée demande la construction adaptée."
+      },
+      {
+       "q": "Quel terme désigne une forme ne suivant pas simplement le radical régulier attendu ?",
+       "r": "forme irrégulière",
+       "w": [
+        "nécessité",
+        "volonté ou souhait",
+        "choix du mode"
+       ],
+       "e": [
+        "Cela désigne ce que la construction il faut que présente comme nécessaire, plutôt que la notion demandée.",
+        "Cela désigne une attitude pouvant commander une subordonnée au subjonctif, plutôt que la notion demandée.",
+        "Cela désigne la sélection dépendant de la construction et du sens, plutôt que la notion demandée."
+       ],
+       "y": "Certains verbes exigent un apprentissage spécifique."
+      },
+      {
+       "q": "Quel terme désigne la sélection dépendant de la construction et du sens ?",
+       "r": "choix du mode",
+       "w": [
+        "nécessité",
+        "volonté ou souhait",
+        "forme irrégulière"
+       ],
+       "e": [
+        "Cela désigne ce que la construction il faut que présente comme nécessaire, plutôt que la notion demandée.",
+        "Cela désigne une attitude pouvant commander une subordonnée au subjonctif, plutôt que la notion demandée.",
+        "Cela désigne une forme ne suivant pas simplement le radical régulier attendu, plutôt que la notion demandée."
+       ],
+       "y": "Le mot introducteur seul ne décide pas de tous les emplois."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-13-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Il faut {fr2Que(4,fr2Subjonctif(\"faire\",4))} attention.\nQuelle notion convient ?",
+       "r": "nécessité",
+       "w": [
+        "volonté ou souhait",
+        "forme irrégulière",
+        "choix du mode"
+       ],
+       "e": [
+        "Cela concerne une attitude pouvant commander une subordonnée au subjonctif. Compare cette définition avec le cas présenté.",
+        "Cela concerne une forme ne suivant pas simplement le radical régulier attendu. Compare cette définition avec le cas présenté.",
+        "Cela concerne la sélection dépendant de la construction et du sens. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Dans le modèle étudié, cette construction commande le subjonctif."
+      },
+      {
+       "q": "Je souhaite {fr2Que(3,fr2Subjonctif(\"aller\",3))} au club.\nQuelle notion convient ?",
+       "r": "volonté ou souhait",
+       "w": [
+        "nécessité",
+        "forme irrégulière",
+        "choix du mode"
+       ],
+       "e": [
+        "Cela concerne ce que la construction il faut que présente comme nécessaire. Compare cette définition avec le cas présenté.",
+        "Cela concerne une forme ne suivant pas simplement le radical régulier attendu. Compare cette définition avec le cas présenté.",
+        "Cela concerne la sélection dépendant de la construction et du sens. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Un sujet propre dans la subordonnée demande la construction adaptée."
+      },
+      {
+       "q": "{fr2Que(6,fr2Subjonctif(\"être\",6))} comporte une forme particulière de être.\nQuelle notion convient ?",
+       "r": "forme irrégulière",
+       "w": [
+        "nécessité",
+        "volonté ou souhait",
+        "choix du mode"
+       ],
+       "e": [
+        "Cela concerne ce que la construction il faut que présente comme nécessaire. Compare cette définition avec le cas présenté.",
+        "Cela concerne une attitude pouvant commander une subordonnée au subjonctif. Compare cette définition avec le cas présenté.",
+        "Cela concerne la sélection dépendant de la construction et du sens. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Certains verbes exigent un apprentissage spécifique."
+      },
+      {
+       "q": "Je constate qu’elle est prête présente un constat.\nQuelle notion convient ?",
+       "r": "choix du mode",
+       "w": [
+        "nécessité",
+        "volonté ou souhait",
+        "forme irrégulière"
+       ],
+       "e": [
+        "Cela concerne ce que la construction il faut que présente comme nécessaire. Compare cette définition avec le cas présenté.",
+        "Cela concerne une attitude pouvant commander une subordonnée au subjonctif. Compare cette définition avec le cas présenté.",
+        "Cela concerne une forme ne suivant pas simplement le radical régulier attendu. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le mot introducteur seul ne décide pas de tous les emplois."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-13-conjuguer",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "être",
+      "avoir",
+      "faire",
+      "aller",
+      "finir",
+      "choisir"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Après « Il faut », choisis la suite avec « {fr2Pronoun(p)} » et « {v} » au subjonctif présent.",
+   "correct": "{fr2Que(p,fr2Subjonctif(v,p))}",
+   "distractors": [
+    {
+     "text": "{fr2Que(p,fr2Present(v,p))}",
+     "misconception": "indicatif"
+    },
+    {
+     "text": "{fr2Que(p,fr2FuturSimple(v,p))}",
+     "misconception": "futur"
+    },
+    {
+     "text": "{fr2Que(p,v)}",
+     "misconception": "infinitif"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "indicatif",
+     "explain": "Cette forme est à l’indicatif présent, différent dans ce cas."
+    },
+    {
+     "id": "futur",
+     "explain": "La construction demandée n’emploie pas ici le futur de l’indicatif."
+    },
+    {
+     "id": "infinitif",
+     "explain": "Un sujet exprimé après que demande ici une forme conjuguée."
+    }
+   ],
+   "solution": [
+    "La construction exige ici le subjonctif présent.",
+    "La suite est {answer}."
+   ],
+   "where": [
+    "fr2Subjonctif(v,p) != fr2Present(v,p)"
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-13-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "nécessité",
+     "right": "Il faut {fr2Que(4,fr2Subjonctif(\"faire\",4))} attention."
+    },
+    {
+     "left": "volonté ou souhait",
+     "right": "Je souhaite {fr2Que(3,fr2Subjonctif(\"aller\",3))} au club."
+    },
+    {
+     "left": "forme irrégulière",
+     "right": "{fr2Que(6,fr2Subjonctif(\"être\",6))} comporte une forme particulière de être."
+    },
+    {
+     "left": "choix du mode",
+     "right": "Je constate qu’elle est prête présente un constat."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-13-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "nécessité : ce que la construction il faut que présente comme nécessaire.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Dans le modèle étudié, cette construction commande le subjonctif. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "volonté ou souhait : une attitude pouvant commander une subordonnée au subjonctif.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Un sujet propre dans la subordonnée demande la construction adaptée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "forme irrégulière : une forme ne suivant pas simplement le radical régulier attendu.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Certains verbes exigent un apprentissage spécifique. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "choix du mode : la sélection dépendant de la construction et du sens.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le mot introducteur seul ne décide pas de tous les emplois. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Il faut que est toujours suivi d’un futur simple.",
+      "truth": "false",
+      "explain": "Dans le modèle étudié, cette construction commande le subjonctif."
+     },
+     {
+      "text": "Tout souhait après que se forme seulement avec un infinitif non conjugué.",
+      "truth": "false",
+      "explain": "Un sujet propre dans la subordonnée demande la construction adaptée."
+     },
+     {
+      "text": "Tous les verbes gardent exactement le radical de parler.",
+      "truth": "false",
+      "explain": "Certains verbes exigent un apprentissage spécifique."
+     },
+     {
+      "text": "Chaque que impose automatiquement le subjonctif.",
+      "truth": "false",
+      "explain": "Le mot introducteur seul ne décide pas de tous les emplois."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

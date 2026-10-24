@@ -1,0 +1,609 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 5",
+ "lesson_no": 2,
+ "language": "fr",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "fi5-2",
+   "name": "Dont, donc et don : distinguer les emplois"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Dont peut reprendre un complément construit avec de : le livre dont je parle. Donc peut marquer une conséquence ou une conclusion : la salle est occupée, donc nous attendons. Don est un nom désignant notamment ce qui est donné. Le regroupement orthographique ne signifie pas une prononciation identique dans tous les usages : le c de donc peut s’entendre. Cette leçon travaille la lecture et le sens, sans évaluer l’écoute ni fournir une règle absolue de prononciation.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras choisir le mot à partir de son rôle et de son sens plutôt que d’une ressemblance sonore. Acquis mobilisés : classes et formation des mots. Pour la suite : cause, conséquence et reprise d’un complément."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Dont peut reprendre un complément construit avec de : le livre dont je parle. Donc peut marquer une conséquence ou une conclusion : la salle est occupée, donc nous attendons. Don est un nom désignant notamment ce qui est donné. Le regroupement orthographique ne signifie pas une prononciation identique dans tous les usages : le c de donc peut s’entendre. Cette leçon travaille la lecture et le sens, sans évaluer l’écoute ni fournir une règle absolue de prononciation."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : Voici le projet dont Bih parle. Le lieu est provisoire, donc il faut le vérifier. Le club reçoit un don de livres. Le relatif rattache une reprise à de ; le connecteur exprime un lien logique ; le nom désigne ce qui est donné."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Cherche la construction et paraphrase : parler de, par conséquent ou chose donnée. Ne laisse pas le thème commun du passage supprimer ces différences. Un professeur pourra fournir les réalisations orales attendues."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "dont relatif",
+    "meaning": "une reprise liée au complément en de dans le modèle"
+   },
+   {
+    "word": "donc connecteur",
+    "meaning": "une marque de conséquence ou conclusion dans le modèle"
+   },
+   {
+    "word": "don nominal",
+    "meaning": "ce qui est donné dans le sens étudié"
+   },
+   {
+    "word": "contrôle syntaxique",
+    "meaning": "la vérification du rôle dans la phrase"
+   }
+  ],
+  "mistake": {
+   "wrong": "Dont signifie toujours par conséquent.",
+   "right": "une reprise liée au complément en de dans le modèle.",
+   "why": "La reprise d’un complément diffère du lien logique."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le projet dont Bih parle reprend parler du projet. Explique le choix.",
+  "steps": [
+   "une reprise liée au complément en de dans le modèle.",
+   "La reprise d’un complément diffère du lien logique."
+  ],
+  "answer": "dont relatif",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi5-2-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "dont relatif : une reprise liée au complément en de dans le modèle.",
+     "donc connecteur : une marque de conséquence ou conclusion dans le modèle.",
+     "don nominal : ce qui est donné dans le sens étudié.",
+     "contrôle syntaxique : la vérification du rôle dans la phrase."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-2-notions"
+    }
+   },
+   {
+    "id": "fi5-2-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Le projet dont Bih parle reprend parler du projet.",
+     "Le lieu est provisoire, donc il faut vérifier.",
+     "Le club reçoit un don de livres.",
+     "La paraphrase aide à choisir sans s’appuyer seulement sur le son."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-2-cas"
+    }
+   },
+   {
+    "id": "fi5-2-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Dont signifie toujours par conséquent. Correction : La reprise d’un complément diffère du lien logique.",
+     "Donc nomme le livre reçu en cadeau. Correction : Le nom de la chose donnée est don.",
+     "Don remplace toujours le relatif de parler de. Correction : Le nom désigne ici la chose donnée.",
+     "Le c de donc est obligatoirement silencieux dans tous les usages. Correction : La réalisation sonore peut varier ; le rôle écrit reste analysable."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi5-2-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "dont relatif : une reprise liée au complément en de dans le modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La reprise d’un complément diffère du lien logique. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "donc connecteur : une marque de conséquence ou conclusion dans le modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le nom de la chose donnée est don. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "don nominal : ce qui est donné dans le sens étudié.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le nom désigne ici la chose donnée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "contrôle syntaxique : la vérification du rôle dans la phrase.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La réalisation sonore peut varier ; le rôle écrit reste analysable. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Dont signifie toujours par conséquent.",
+        "truth": "false",
+        "explain": "La reprise d’un complément diffère du lien logique."
+       },
+       {
+        "text": "Donc nomme le livre reçu en cadeau.",
+        "truth": "false",
+        "explain": "Le nom de la chose donnée est don."
+       },
+       {
+        "text": "Don remplace toujours le relatif de parler de.",
+        "truth": "false",
+        "explain": "Le nom désigne ici la chose donnée."
+       },
+       {
+        "text": "Le c de donc est obligatoirement silencieux dans tous les usages.",
+        "truth": "false",
+        "explain": "La réalisation sonore peut varier ; le rôle écrit reste analysable."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi5-2-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne une reprise liée au complément en de dans le modèle ?",
+       "r": "dont relatif",
+       "w": [
+        "donc connecteur",
+        "don nominal",
+        "contrôle syntaxique"
+       ],
+       "e": [
+        "Cela désigne une marque de conséquence ou conclusion dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne ce qui est donné dans le sens étudié, plutôt que la notion demandée.",
+        "Cela désigne la vérification du rôle dans la phrase, plutôt que la notion demandée."
+       ],
+       "y": "La reprise d’un complément diffère du lien logique."
+      },
+      {
+       "q": "Quel terme désigne une marque de conséquence ou conclusion dans le modèle ?",
+       "r": "donc connecteur",
+       "w": [
+        "dont relatif",
+        "don nominal",
+        "contrôle syntaxique"
+       ],
+       "e": [
+        "Cela désigne une reprise liée au complément en de dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne ce qui est donné dans le sens étudié, plutôt que la notion demandée.",
+        "Cela désigne la vérification du rôle dans la phrase, plutôt que la notion demandée."
+       ],
+       "y": "Le nom de la chose donnée est don."
+      },
+      {
+       "q": "Quel terme désigne ce qui est donné dans le sens étudié ?",
+       "r": "don nominal",
+       "w": [
+        "dont relatif",
+        "donc connecteur",
+        "contrôle syntaxique"
+       ],
+       "e": [
+        "Cela désigne une reprise liée au complément en de dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne une marque de conséquence ou conclusion dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne la vérification du rôle dans la phrase, plutôt que la notion demandée."
+       ],
+       "y": "Le nom désigne ici la chose donnée."
+      },
+      {
+       "q": "Quel terme désigne la vérification du rôle dans la phrase ?",
+       "r": "contrôle syntaxique",
+       "w": [
+        "dont relatif",
+        "donc connecteur",
+        "don nominal"
+       ],
+       "e": [
+        "Cela désigne une reprise liée au complément en de dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne une marque de conséquence ou conclusion dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne ce qui est donné dans le sens étudié, plutôt que la notion demandée."
+       ],
+       "y": "La réalisation sonore peut varier ; le rôle écrit reste analysable."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-2-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le projet dont Bih parle reprend parler du projet.\nQuelle notion convient ?",
+       "r": "dont relatif",
+       "w": [
+        "donc connecteur",
+        "don nominal",
+        "contrôle syntaxique"
+       ],
+       "e": [
+        "Cela concerne une marque de conséquence ou conclusion dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne ce qui est donné dans le sens étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne la vérification du rôle dans la phrase. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La reprise d’un complément diffère du lien logique."
+      },
+      {
+       "q": "Le lieu est provisoire, donc il faut vérifier.\nQuelle notion convient ?",
+       "r": "donc connecteur",
+       "w": [
+        "dont relatif",
+        "don nominal",
+        "contrôle syntaxique"
+       ],
+       "e": [
+        "Cela concerne une reprise liée au complément en de dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne ce qui est donné dans le sens étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne la vérification du rôle dans la phrase. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le nom de la chose donnée est don."
+      },
+      {
+       "q": "Le club reçoit un don de livres.\nQuelle notion convient ?",
+       "r": "don nominal",
+       "w": [
+        "dont relatif",
+        "donc connecteur",
+        "contrôle syntaxique"
+       ],
+       "e": [
+        "Cela concerne une reprise liée au complément en de dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne une marque de conséquence ou conclusion dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne la vérification du rôle dans la phrase. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le nom désigne ici la chose donnée."
+      },
+      {
+       "q": "La paraphrase aide à choisir sans s’appuyer seulement sur le son.\nQuelle notion convient ?",
+       "r": "contrôle syntaxique",
+       "w": [
+        "dont relatif",
+        "donc connecteur",
+        "don nominal"
+       ],
+       "e": [
+        "Cela concerne une reprise liée au complément en de dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne une marque de conséquence ou conclusion dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne ce qui est donné dans le sens étudié. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La réalisation sonore peut varier ; le rôle écrit reste analysable."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-2-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le projet ___ elle parle est affiché.",
+       "r": "dont",
+       "w": [
+        "donc",
+        "don",
+        "dans"
+       ],
+       "e": [
+        "Une conséquence ne reprend pas parler de.",
+        "Le nom ne fournit pas le relatif.",
+        "La préposition change la relation demandée."
+       ],
+       "y": "Parler du projet appelle cette reprise."
+      },
+      {
+       "q": "La salle est fermée ; ___ nous attendons.",
+       "r": "donc",
+       "w": [
+        "dont",
+        "don",
+        "dans"
+       ],
+       "e": [
+        "Le relatif n’exprime pas ici la conséquence.",
+        "Un nom de cadeau ne relie pas les propositions.",
+        "Dans demanderait un autre complément."
+       ],
+       "y": "Le connecteur porte le lien logique."
+      },
+      {
+       "q": "Le club reçoit un ___ de livres.",
+       "r": "don",
+       "w": [
+        "dont",
+        "donc",
+        "dans"
+       ],
+       "e": [
+        "Le relatif ne remplit pas ce nom après un.",
+        "Le connecteur n’est pas ce nom.",
+        "La préposition ne donne pas la chose reçue."
+       ],
+       "y": "Le contexte demande le nom de ce qui est donné."
+      },
+      {
+       "q": "Quelle démarche est correcte pour ce groupe de mots ?",
+       "r": "Vérifier rôle et sens, sans promettre une homophonie universelle.",
+       "w": [
+        "Choisir au hasard si les sons semblent proches.",
+        "Toujours supprimer le c de donc à l’écrit.",
+        "Transformer chaque don en une conséquence."
+       ],
+       "e": [
+        "La ressemblance ne décide pas de la graphie.",
+        "Le mot écrit conserve son c.",
+        "Don est un nom dans le sens étudié."
+       ],
+       "y": "La construction guide le choix."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-2-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "dont relatif",
+     "right": "Le projet dont Bih parle reprend parler du projet."
+    },
+    {
+     "left": "donc connecteur",
+     "right": "Le lieu est provisoire, donc il faut vérifier."
+    },
+    {
+     "left": "don nominal",
+     "right": "Le club reçoit un don de livres."
+    },
+    {
+     "left": "contrôle syntaxique",
+     "right": "La paraphrase aide à choisir sans s’appuyer seulement sur le son."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-2-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "dont relatif : une reprise liée au complément en de dans le modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La reprise d’un complément diffère du lien logique. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "donc connecteur : une marque de conséquence ou conclusion dans le modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le nom de la chose donnée est don. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "don nominal : ce qui est donné dans le sens étudié.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le nom désigne ici la chose donnée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "contrôle syntaxique : la vérification du rôle dans la phrase.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La réalisation sonore peut varier ; le rôle écrit reste analysable. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Dont signifie toujours par conséquent.",
+      "truth": "false",
+      "explain": "La reprise d’un complément diffère du lien logique."
+     },
+     {
+      "text": "Donc nomme le livre reçu en cadeau.",
+      "truth": "false",
+      "explain": "Le nom de la chose donnée est don."
+     },
+     {
+      "text": "Don remplace toujours le relatif de parler de.",
+      "truth": "false",
+      "explain": "Le nom désigne ici la chose donnée."
+     },
+     {
+      "text": "Le c de donc est obligatoirement silencieux dans tous les usages.",
+      "truth": "false",
+      "explain": "La réalisation sonore peut varier ; le rôle écrit reste analysable."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

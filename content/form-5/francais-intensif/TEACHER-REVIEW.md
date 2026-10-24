@@ -1,0 +1,10 @@
+# Français intensif, Form Five — retour enseignant
+
+- TR-francais-intensif-1 : Vingt lectures suivies attendent titres, auteurs et éditions. Dion demande de conserver ce choix comme retour enseignant ; aucune œuvre ni analyse de remplacement n’est inventée. Les lignes différées sont énumérées dans LEARNING-PATH et ne comptent pas parmi les trente brouillons actifs.
+- TR-francais-intensif-2 : Valider profondeur, rythme et adaptation au niveau intensif. Treize fondations sont explicitement adaptées de ressources proches ; confirmer les approfondissements nécessaires et les traductions alternatives acceptables.
+- TR-francais-intensif-3 : Confirmer terminologie, conventions d’examen, longueur et présentation des textes sur image, de la lettre formelle et de la description. Les quatre productions 15/24/43/51 et leurs modèles illustrent la tâche ; leur qualité n’est pas notée automatiquement.
+- TR-francais-intensif-4 : Les prises de parole et interprétations d’image 6/23/39 préparent l’écrit. Fournir échange réel, voix et écoute séparément. Images de famille, cour et environnement inventées ; distinguer les indices visibles des ajouts narratifs.
+- TR-francais-intensif-5 : Vérifier le regroupement dont/donc/don : le c de donc peut se prononcer, donc pas de promesse d’homophonie universelle. Valider les usages contextuels de cour/cours/court/courre, cou/coût/coup et ou/où.
+- TR-francais-intensif-6 : Les noms normalement pluriels sont limités aux sens courants étudiés ; ne pas transformer un pluriel lexical en nombre d’événements. Confirmer les exceptions rares/littéraires et les pluriels nominaux retenus.
+- TR-francais-intensif-7 : Valider les conventions de gérondif, comparaison, concordance et temps narratifs. Les modèles n’imposent pas une règle absolue de registre ou de réalisation de toute prédiction.
+- TR-francais-intensif-8 : Les lectures et traductions de santé distinguent vocabulaire, preuve et information absente. Aucun diagnostic, traitement, information privée, résultat d’analyse ou relevé réel n’est fourni. Les vérifications techniques ne valent pas approbation enseignante ni mesure d’apprentissage.

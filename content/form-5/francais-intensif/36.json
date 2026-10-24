@@ -1,0 +1,556 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 5",
+ "lesson_no": 36,
+ "language": "fr",
+ "prerequisites": [
+  1,
+  11,
+  34
+ ],
+ "skills": [
+  {
+   "id": "fi5-36",
+   "name": "Le pluriel des noms : cas particuliers"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Les finales donnent des modèles mais aussi des exceptions. Cheval donne chevaux, tandis que festival donne festivals. Travail donne travaux ; détail garde détails. Genou donne genoux, tandis que trou donne trous. Pneu donne pneus. Un modèle reconnu ne permet pas de transformer chaque mot d’apparence proche. Le pluriel nominal doit être vérifié avec le nom précis et la convention étudiée. Il ne se confond pas avec la conjugaison d’un verbe.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras former les pluriels étudiés et reconnaître une exception sans généraliser à toute une finale. Acquis mobilisés : accords nominaux et contexte. Pour la suite : lecture, description et noms lexicalement pluriels."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Les finales donnent des modèles mais aussi des exceptions. Cheval donne chevaux, tandis que festival donne festivals. Travail donne travaux ; détail garde détails. Genou donne genoux, tandis que trou donne trous. Pneu donne pneus. Un modèle reconnu ne permet pas de transformer chaque mot d’apparence proche. Le pluriel nominal doit être vérifié avec le nom précis et la convention étudiée. Il ne se confond pas avec la conjugaison d’un verbe."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles calculés : {fr2NounPlural(\"cheval\")}, {fr2NounPlural(\"festival\")}, {fr2NounPlural(\"travail\")}, {fr2NounPlural(\"genou\")}, {fr2NounPlural(\"pneu\")}. Compare {fr2NounPlural(\"détail\")} et {fr2NounPlural(\"travail\")} : la même finale singulière ne suffit pas à imposer une transformation unique."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Identifie le nom, rappelle le modèle ou l’exception et écris le groupe avec son déterminant. Vérifie ensuite les accords autour du nom. N’invente pas une forme en -aux pour tout mot ni un x final pour tout pluriel."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "modèle en -al",
+    "meaning": "le passage à -aux pour les noms étudiés comme cheval"
+   },
+   {
+    "word": "exception en -al",
+    "meaning": "le maintien de -s pour festival dans le modèle"
+   },
+   {
+    "word": "cas en -ail",
+    "meaning": "la distinction entre travail et détail dans les modèles"
+   },
+   {
+    "word": "cas en -ou ou -eu",
+    "meaning": "le choix attesté entre x et s pour les noms étudiés"
+   }
+  ],
+  "mistake": {
+   "wrong": "Cheval doit donner chevals dans ce modèle.",
+   "right": "le passage à -aux pour les noms étudiés comme cheval.",
+   "why": "Le pluriel étudié est chevaux."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Cheval donne {fr2NounPlural(\"cheval\")}. Explique le choix.",
+  "steps": [
+   "le passage à -aux pour les noms étudiés comme cheval.",
+   "Le pluriel étudié est chevaux."
+  ],
+  "answer": "modèle en -al",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi5-36-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "modèle en -al : le passage à -aux pour les noms étudiés comme cheval.",
+     "exception en -al : le maintien de -s pour festival dans le modèle.",
+     "cas en -ail : la distinction entre travail et détail dans les modèles.",
+     "cas en -ou ou -eu : le choix attesté entre x et s pour les noms étudiés."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-36-notions"
+    }
+   },
+   {
+    "id": "fi5-36-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Cheval donne {fr2NounPlural(\"cheval\")}.",
+     "Festival donne {fr2NounPlural(\"festival\")}.",
+     "Travail donne travaux, détail donne détails.",
+     "Genou donne genoux, pneu donne pneus."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-36-cas"
+    }
+   },
+   {
+    "id": "fi5-36-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Cheval doit donner chevals dans ce modèle. Correction : Le pluriel étudié est chevaux.",
+     "Tout nom en -al exige -aux sans exception. Correction : Festival fournit une exception.",
+     "Tous les noms en -ail suivent forcément travail. Correction : Les noms précis doivent être distingués.",
+     "Tous les noms de ces finales prennent le même x final. Correction : Les modèles et exceptions diffèrent."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi5-36-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "modèle en -al : le passage à -aux pour les noms étudiés comme cheval.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le pluriel étudié est chevaux. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "exception en -al : le maintien de -s pour festival dans le modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Festival fournit une exception. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "cas en -ail : la distinction entre travail et détail dans les modèles.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les noms précis doivent être distingués. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "cas en -ou ou -eu : le choix attesté entre x et s pour les noms étudiés.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les modèles et exceptions diffèrent. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Cheval doit donner chevals dans ce modèle.",
+        "truth": "false",
+        "explain": "Le pluriel étudié est chevaux."
+       },
+       {
+        "text": "Tout nom en -al exige -aux sans exception.",
+        "truth": "false",
+        "explain": "Festival fournit une exception."
+       },
+       {
+        "text": "Tous les noms en -ail suivent forcément travail.",
+        "truth": "false",
+        "explain": "Les noms précis doivent être distingués."
+       },
+       {
+        "text": "Tous les noms de ces finales prennent le même x final.",
+        "truth": "false",
+        "explain": "Les modèles et exceptions diffèrent."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi5-36-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne le passage à -aux pour les noms étudiés comme cheval ?",
+       "r": "modèle en -al",
+       "w": [
+        "exception en -al",
+        "cas en -ail",
+        "cas en -ou ou -eu"
+       ],
+       "e": [
+        "Cela désigne le maintien de -s pour festival dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne la distinction entre travail et détail dans les modèles, plutôt que la notion demandée.",
+        "Cela désigne le choix attesté entre x et s pour les noms étudiés, plutôt que la notion demandée."
+       ],
+       "y": "Le pluriel étudié est chevaux."
+      },
+      {
+       "q": "Quel terme désigne le maintien de -s pour festival dans le modèle ?",
+       "r": "exception en -al",
+       "w": [
+        "modèle en -al",
+        "cas en -ail",
+        "cas en -ou ou -eu"
+       ],
+       "e": [
+        "Cela désigne le passage à -aux pour les noms étudiés comme cheval, plutôt que la notion demandée.",
+        "Cela désigne la distinction entre travail et détail dans les modèles, plutôt que la notion demandée.",
+        "Cela désigne le choix attesté entre x et s pour les noms étudiés, plutôt que la notion demandée."
+       ],
+       "y": "Festival fournit une exception."
+      },
+      {
+       "q": "Quel terme désigne la distinction entre travail et détail dans les modèles ?",
+       "r": "cas en -ail",
+       "w": [
+        "modèle en -al",
+        "exception en -al",
+        "cas en -ou ou -eu"
+       ],
+       "e": [
+        "Cela désigne le passage à -aux pour les noms étudiés comme cheval, plutôt que la notion demandée.",
+        "Cela désigne le maintien de -s pour festival dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne le choix attesté entre x et s pour les noms étudiés, plutôt que la notion demandée."
+       ],
+       "y": "Les noms précis doivent être distingués."
+      },
+      {
+       "q": "Quel terme désigne le choix attesté entre x et s pour les noms étudiés ?",
+       "r": "cas en -ou ou -eu",
+       "w": [
+        "modèle en -al",
+        "exception en -al",
+        "cas en -ail"
+       ],
+       "e": [
+        "Cela désigne le passage à -aux pour les noms étudiés comme cheval, plutôt que la notion demandée.",
+        "Cela désigne le maintien de -s pour festival dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne la distinction entre travail et détail dans les modèles, plutôt que la notion demandée."
+       ],
+       "y": "Les modèles et exceptions diffèrent."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-36-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Cheval donne {fr2NounPlural(\"cheval\")}.\nQuelle notion convient ?",
+       "r": "modèle en -al",
+       "w": [
+        "exception en -al",
+        "cas en -ail",
+        "cas en -ou ou -eu"
+       ],
+       "e": [
+        "Cela concerne le maintien de -s pour festival dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne la distinction entre travail et détail dans les modèles. Compare cette définition avec le cas présenté.",
+        "Cela concerne le choix attesté entre x et s pour les noms étudiés. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le pluriel étudié est chevaux."
+      },
+      {
+       "q": "Festival donne {fr2NounPlural(\"festival\")}.\nQuelle notion convient ?",
+       "r": "exception en -al",
+       "w": [
+        "modèle en -al",
+        "cas en -ail",
+        "cas en -ou ou -eu"
+       ],
+       "e": [
+        "Cela concerne le passage à -aux pour les noms étudiés comme cheval. Compare cette définition avec le cas présenté.",
+        "Cela concerne la distinction entre travail et détail dans les modèles. Compare cette définition avec le cas présenté.",
+        "Cela concerne le choix attesté entre x et s pour les noms étudiés. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Festival fournit une exception."
+      },
+      {
+       "q": "Travail donne travaux, détail donne détails.\nQuelle notion convient ?",
+       "r": "cas en -ail",
+       "w": [
+        "modèle en -al",
+        "exception en -al",
+        "cas en -ou ou -eu"
+       ],
+       "e": [
+        "Cela concerne le passage à -aux pour les noms étudiés comme cheval. Compare cette définition avec le cas présenté.",
+        "Cela concerne le maintien de -s pour festival dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne le choix attesté entre x et s pour les noms étudiés. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les noms précis doivent être distingués."
+      },
+      {
+       "q": "Genou donne genoux, pneu donne pneus.\nQuelle notion convient ?",
+       "r": "cas en -ou ou -eu",
+       "w": [
+        "modèle en -al",
+        "exception en -al",
+        "cas en -ail"
+       ],
+       "e": [
+        "Cela concerne le passage à -aux pour les noms étudiés comme cheval. Compare cette définition avec le cas présenté.",
+        "Cela concerne le maintien de -s pour festival dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne la distinction entre travail et détail dans les modèles. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les modèles et exceptions diffèrent."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-36-pluriel",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "n": {
+     "pick": [
+      "cheval",
+      "travail",
+      "genou",
+      "pneu",
+      "festival"
+     ]
+    }
+   },
+   "prompt": "Donne le pluriel nominal étudié de « {n} ».",
+   "correct": "{fr2NounPlural(n)}",
+   "distractors": [
+    {
+     "text": "{fr2NounNaive(n)}",
+     "misconception": "regle"
+    },
+    {
+     "text": "{n}",
+     "misconception": "sing"
+    },
+    {
+     "text": "{n+\"es\"}",
+     "misconception": "es"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "regle",
+     "explain": "Cette généralisation ne correspond pas au pluriel attesté de ce nom."
+    },
+    {
+     "id": "sing",
+     "explain": "La forme donnée reste celle du singulier."
+    },
+    {
+     "id": "es",
+     "explain": "Ajouter -es mécaniquement n’est pas la graphie du modèle."
+    }
+   ],
+   "solution": [
+    "Choisis le modèle attesté plutôt qu’une terminaison appliquée partout.",
+    "{fr2NounRule(n)}. Le pluriel est {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-36-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "modèle en -al",
+     "right": "Cheval donne {fr2NounPlural(\"cheval\")}."
+    },
+    {
+     "left": "exception en -al",
+     "right": "Festival donne {fr2NounPlural(\"festival\")}."
+    },
+    {
+     "left": "cas en -ail",
+     "right": "Travail donne travaux, détail donne détails."
+    },
+    {
+     "left": "cas en -ou ou -eu",
+     "right": "Genou donne genoux, pneu donne pneus."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-36-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "modèle en -al : le passage à -aux pour les noms étudiés comme cheval.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le pluriel étudié est chevaux. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "exception en -al : le maintien de -s pour festival dans le modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Festival fournit une exception. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "cas en -ail : la distinction entre travail et détail dans les modèles.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les noms précis doivent être distingués. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "cas en -ou ou -eu : le choix attesté entre x et s pour les noms étudiés.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les modèles et exceptions diffèrent. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Cheval doit donner chevals dans ce modèle.",
+      "truth": "false",
+      "explain": "Le pluriel étudié est chevaux."
+     },
+     {
+      "text": "Tout nom en -al exige -aux sans exception.",
+      "truth": "false",
+      "explain": "Festival fournit une exception."
+     },
+     {
+      "text": "Tous les noms en -ail suivent forcément travail.",
+      "truth": "false",
+      "explain": "Les noms précis doivent être distingués."
+     },
+     {
+      "text": "Tous les noms de ces finales prennent le même x final.",
+      "truth": "false",
+      "explain": "Les modèles et exceptions diffèrent."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

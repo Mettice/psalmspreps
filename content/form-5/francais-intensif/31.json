@@ -1,0 +1,576 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 5",
+ "lesson_no": 31,
+ "language": "fr",
+ "prerequisites": [
+  13,
+  17,
+  28,
+  29
+ ],
+ "skills": [
+  {
+   "id": "fi5-31",
+   "name": "Conditionnel présent et futur simple"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Le futur simple emploie le radical du futur et ses terminaisons ; le conditionnel présent emploie le même radical avec les terminaisons de l’imparfait. Des radicaux sont particuliers : ir-, fer-, viendr-, aur-, enverr-. Le futur peut présenter une projection ; le conditionnel peut exprimer une hypothèse ou atténuer une demande selon le contexte. Aucune terminaison ne garantit qu’une prédiction se réalisera. Les exercices nomment la forme attendue ; un autre temps peut être grammatical dans une autre perspective.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras former les temps et distinguer projection, hypothèse et demande atténuée. Acquis mobilisés : subjonctif, temps du récit et repères adverbiaux. Pour la suite : lettre, projet et description cohérents."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Le futur simple emploie le radical du futur et ses terminaisons ; le conditionnel présent emploie le même radical avec les terminaisons de l’imparfait. Des radicaux sont particuliers : ir-, fer-, viendr-, aur-, enverr-. Le futur peut présenter une projection ; le conditionnel peut exprimer une hypothèse ou atténuer une demande selon le contexte. Aucune terminaison ne garantit qu’une prédiction se réalisera. Les exercices nomment la forme attendue ; un autre temps peut être grammatical dans une autre perspective."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles calculés : {fr2With(0,fr2FuturSimple(\"aller\",0))} et {fr2With(0,fr2Conditionnel(\"aller\",0))} ; {fr2With(4,fr2FuturSimple(\"envoyer\",4))} et {fr2With(4,fr2Conditionnel(\"envoyer\",4))}. Dans nous voudrions une précision, le conditionnel peut atténuer la demande. Le choix du sens se vérifie avec le reste de la phrase."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Choisis le radical attesté, puis les terminaisons du temps et de la personne. Relis la perspective voulue. Ne confonds pas une projection future avec une information déjà vérifiée ni un conditionnel avec une absence totale de sens temporel."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "radical du futur",
+    "meaning": "la base commune aux temps étudiés pour le même verbe"
+   },
+   {
+    "word": "terminaison du futur",
+    "meaning": "la marque personnelle du futur simple"
+   },
+   {
+    "word": "terminaison du conditionnel",
+    "meaning": "les marques de l’imparfait ajoutées au radical du futur"
+   },
+   {
+    "word": "valeur contextualisée",
+    "meaning": "un sens interprété avec le cadre de la phrase"
+   }
+  ],
+  "mistake": {
+   "wrong": "Le futur de aller doit conserver aller comme radical sans changement.",
+   "right": "la base commune aux temps étudiés pour le même verbe.",
+   "why": "Le radical particulier est ir-."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Aller utilise ir- dans le futur et le conditionnel étudiés. Explique le choix.",
+  "steps": [
+   "la base commune aux temps étudiés pour le même verbe.",
+   "Le radical particulier est ir-."
+  ],
+  "answer": "radical du futur",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi5-31-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "radical du futur : la base commune aux temps étudiés pour le même verbe.",
+     "terminaison du futur : la marque personnelle du futur simple.",
+     "terminaison du conditionnel : les marques de l’imparfait ajoutées au radical du futur.",
+     "valeur contextualisée : un sens interprété avec le cadre de la phrase."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-31-notions"
+    }
+   },
+   {
+    "id": "fi5-31-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Aller utilise ir- dans le futur et le conditionnel étudiés.",
+     "Je partirai porte ici -ai.",
+     "Je partirais porte la terminaison du conditionnel.",
+     "Une demande au conditionnel peut être atténuée."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-31-cas"
+    }
+   },
+   {
+    "id": "fi5-31-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Le futur de aller doit conserver aller comme radical sans changement. Correction : Le radical particulier est ir-.",
+     "Je partirais et je partirai sont la même graphie. Correction : Le s distingue les formes écrites.",
+     "Le conditionnel emploie toujours le radical de l’imparfait sans autre distinction. Correction : La base est celle du futur dans ces modèles.",
+     "Le futur prouve nécessairement la réalisation de toute prédiction. Correction : La forme ne garantit pas l’événement."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi5-31-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "radical du futur : la base commune aux temps étudiés pour le même verbe.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le radical particulier est ir-. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "terminaison du futur : la marque personnelle du futur simple.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le s distingue les formes écrites. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "terminaison du conditionnel : les marques de l’imparfait ajoutées au radical du futur.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La base est celle du futur dans ces modèles. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "valeur contextualisée : un sens interprété avec le cadre de la phrase.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La forme ne garantit pas l’événement. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Le futur de aller doit conserver aller comme radical sans changement.",
+        "truth": "false",
+        "explain": "Le radical particulier est ir-."
+       },
+       {
+        "text": "Je partirais et je partirai sont la même graphie.",
+        "truth": "false",
+        "explain": "Le s distingue les formes écrites."
+       },
+       {
+        "text": "Le conditionnel emploie toujours le radical de l’imparfait sans autre distinction.",
+        "truth": "false",
+        "explain": "La base est celle du futur dans ces modèles."
+       },
+       {
+        "text": "Le futur prouve nécessairement la réalisation de toute prédiction.",
+        "truth": "false",
+        "explain": "La forme ne garantit pas l’événement."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi5-31-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne la base commune aux temps étudiés pour le même verbe ?",
+       "r": "radical du futur",
+       "w": [
+        "terminaison du futur",
+        "terminaison du conditionnel",
+        "valeur contextualisée"
+       ],
+       "e": [
+        "Cela désigne la marque personnelle du futur simple, plutôt que la notion demandée.",
+        "Cela désigne les marques de l’imparfait ajoutées au radical du futur, plutôt que la notion demandée.",
+        "Cela désigne un sens interprété avec le cadre de la phrase, plutôt que la notion demandée."
+       ],
+       "y": "Le radical particulier est ir-."
+      },
+      {
+       "q": "Quel terme désigne la marque personnelle du futur simple ?",
+       "r": "terminaison du futur",
+       "w": [
+        "radical du futur",
+        "terminaison du conditionnel",
+        "valeur contextualisée"
+       ],
+       "e": [
+        "Cela désigne la base commune aux temps étudiés pour le même verbe, plutôt que la notion demandée.",
+        "Cela désigne les marques de l’imparfait ajoutées au radical du futur, plutôt que la notion demandée.",
+        "Cela désigne un sens interprété avec le cadre de la phrase, plutôt que la notion demandée."
+       ],
+       "y": "Le s distingue les formes écrites."
+      },
+      {
+       "q": "Quel terme désigne les marques de l’imparfait ajoutées au radical du futur ?",
+       "r": "terminaison du conditionnel",
+       "w": [
+        "radical du futur",
+        "terminaison du futur",
+        "valeur contextualisée"
+       ],
+       "e": [
+        "Cela désigne la base commune aux temps étudiés pour le même verbe, plutôt que la notion demandée.",
+        "Cela désigne la marque personnelle du futur simple, plutôt que la notion demandée.",
+        "Cela désigne un sens interprété avec le cadre de la phrase, plutôt que la notion demandée."
+       ],
+       "y": "La base est celle du futur dans ces modèles."
+      },
+      {
+       "q": "Quel terme désigne un sens interprété avec le cadre de la phrase ?",
+       "r": "valeur contextualisée",
+       "w": [
+        "radical du futur",
+        "terminaison du futur",
+        "terminaison du conditionnel"
+       ],
+       "e": [
+        "Cela désigne la base commune aux temps étudiés pour le même verbe, plutôt que la notion demandée.",
+        "Cela désigne la marque personnelle du futur simple, plutôt que la notion demandée.",
+        "Cela désigne les marques de l’imparfait ajoutées au radical du futur, plutôt que la notion demandée."
+       ],
+       "y": "La forme ne garantit pas l’événement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-31-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Aller utilise ir- dans le futur et le conditionnel étudiés.\nQuelle notion convient ?",
+       "r": "radical du futur",
+       "w": [
+        "terminaison du futur",
+        "terminaison du conditionnel",
+        "valeur contextualisée"
+       ],
+       "e": [
+        "Cela concerne la marque personnelle du futur simple. Compare cette définition avec le cas présenté.",
+        "Cela concerne les marques de l’imparfait ajoutées au radical du futur. Compare cette définition avec le cas présenté.",
+        "Cela concerne un sens interprété avec le cadre de la phrase. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le radical particulier est ir-."
+      },
+      {
+       "q": "Je partirai porte ici -ai.\nQuelle notion convient ?",
+       "r": "terminaison du futur",
+       "w": [
+        "radical du futur",
+        "terminaison du conditionnel",
+        "valeur contextualisée"
+       ],
+       "e": [
+        "Cela concerne la base commune aux temps étudiés pour le même verbe. Compare cette définition avec le cas présenté.",
+        "Cela concerne les marques de l’imparfait ajoutées au radical du futur. Compare cette définition avec le cas présenté.",
+        "Cela concerne un sens interprété avec le cadre de la phrase. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le s distingue les formes écrites."
+      },
+      {
+       "q": "Je partirais porte la terminaison du conditionnel.\nQuelle notion convient ?",
+       "r": "terminaison du conditionnel",
+       "w": [
+        "radical du futur",
+        "terminaison du futur",
+        "valeur contextualisée"
+       ],
+       "e": [
+        "Cela concerne la base commune aux temps étudiés pour le même verbe. Compare cette définition avec le cas présenté.",
+        "Cela concerne la marque personnelle du futur simple. Compare cette définition avec le cas présenté.",
+        "Cela concerne un sens interprété avec le cadre de la phrase. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La base est celle du futur dans ces modèles."
+      },
+      {
+       "q": "Une demande au conditionnel peut être atténuée.\nQuelle notion convient ?",
+       "r": "valeur contextualisée",
+       "w": [
+        "radical du futur",
+        "terminaison du futur",
+        "terminaison du conditionnel"
+       ],
+       "e": [
+        "Cela concerne la base commune aux temps étudiés pour le même verbe. Compare cette définition avec le cas présenté.",
+        "Cela concerne la marque personnelle du futur simple. Compare cette définition avec le cas présenté.",
+        "Cela concerne les marques de l’imparfait ajoutées au radical du futur. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La forme ne garantit pas l’événement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-31-formes",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "T": {
+     "pick": [
+      {
+       "key": "fut",
+       "label": "futur simple"
+      },
+      {
+       "key": "cond",
+       "label": "conditionnel présent"
+      }
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    },
+    "v": {
+     "pick": [
+      "aller",
+      "faire",
+      "venir",
+      "avoir",
+      "choisir",
+      "envoyer"
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au {T.label} avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p,T.key==\"fut\" ? fr2FuturSimple(v,p) : fr2Conditionnel(v,p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p,T.key==\"fut\" ? fr2Conditionnel(v,p) : fr2FuturSimple(v,p))}",
+     "misconception": "autre"
+    },
+    {
+     "text": "{fr2With(p,fr2Imparfait(v,p))}",
+     "misconception": "imp"
+    },
+    {
+     "text": "{fr2With(p,v)}",
+     "misconception": "inf"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "autre",
+     "explain": "Ce choix échange futur et conditionnel."
+    },
+    {
+     "id": "imp",
+     "explain": "Cette forme emploie l’imparfait, non le temps demandé."
+    },
+    {
+     "id": "inf",
+     "explain": "L’infinitif ne porte pas la terminaison personnelle demandée."
+    }
+   ],
+   "solution": [
+    "Les deux formes partagent le radical du futur mais pas les mêmes terminaisons.",
+    "La forme demandée est {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-31-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "radical du futur",
+     "right": "Aller utilise ir- dans le futur et le conditionnel étudiés."
+    },
+    {
+     "left": "terminaison du futur",
+     "right": "Je partirai porte ici -ai."
+    },
+    {
+     "left": "terminaison du conditionnel",
+     "right": "Je partirais porte la terminaison du conditionnel."
+    },
+    {
+     "left": "valeur contextualisée",
+     "right": "Une demande au conditionnel peut être atténuée."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-31-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "radical du futur : la base commune aux temps étudiés pour le même verbe.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le radical particulier est ir-. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "terminaison du futur : la marque personnelle du futur simple.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le s distingue les formes écrites. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "terminaison du conditionnel : les marques de l’imparfait ajoutées au radical du futur.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La base est celle du futur dans ces modèles. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "valeur contextualisée : un sens interprété avec le cadre de la phrase.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La forme ne garantit pas l’événement. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le futur de aller doit conserver aller comme radical sans changement.",
+      "truth": "false",
+      "explain": "Le radical particulier est ir-."
+     },
+     {
+      "text": "Je partirais et je partirai sont la même graphie.",
+      "truth": "false",
+      "explain": "Le s distingue les formes écrites."
+     },
+     {
+      "text": "Le conditionnel emploie toujours le radical de l’imparfait sans autre distinction.",
+      "truth": "false",
+      "explain": "La base est celle du futur dans ces modèles."
+     },
+     {
+      "text": "Le futur prouve nécessairement la réalisation de toute prédiction.",
+      "truth": "false",
+      "explain": "La forme ne garantit pas l’événement."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

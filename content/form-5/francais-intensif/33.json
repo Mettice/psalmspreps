@@ -1,0 +1,611 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 5",
+ "lesson_no": 33,
+ "language": "fr",
+ "prerequisites": [
+  2,
+  21,
+  31
+ ],
+ "skills": [
+  {
+   "id": "fi5-33",
+   "name": "Cour, cours, court et courre"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Cour désigne notamment un espace découvert près d’un bâtiment. Cours peut désigner un enseignement, un écoulement ou un déroulement selon le contexte. Court peut être adjectif de faible longueur ou durée ; il a d’autres emplois. Courre est conservé dans l’expression chasse à courre. La proximité sonore ne rend pas ces graphies interchangeables. Les exemples sélectionnent des sens précis sans prétendre définir tous les emplois des mots.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras choisir le mot selon le sens et la construction étudiés. Acquis mobilisés : homophones, classes et vocabulaire des activités. Pour la suite : lecture et description de lieux."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Cour désigne notamment un espace découvert près d’un bâtiment. Cours peut désigner un enseignement, un écoulement ou un déroulement selon le contexte. Court peut être adjectif de faible longueur ou durée ; il a d’autres emplois. Courre est conservé dans l’expression chasse à courre. La proximité sonore ne rend pas ces graphies interchangeables. Les exemples sélectionnent des sens précis sans prétendre définir tous les emplois des mots."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : Le cours de français se déroule près de la cour. Le message est court. Le texte mentionne l’expression ancienne chasse à courre sans donner de consignes de pratique. La classe et le sens attendus permettent le choix."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère le rôle grammatical et remplace le mot par une paraphrase : espace, enseignement ou bref, lorsque le contexte le permet. Pour courre, reconnais l’expression attestée au lieu d’inventer une règle générale."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "cour",
+    "meaning": "un espace découvert près d’un bâtiment dans le modèle"
+   },
+   {
+    "word": "cours",
+    "meaning": "un enseignement suivi sur une matière dans le modèle"
+   },
+   {
+    "word": "court",
+    "meaning": "un adjectif de faible longueur ou durée dans le modèle"
+   },
+   {
+    "word": "courre",
+    "meaning": "la forme conservée dans l’expression chasse à courre"
+   }
+  ],
+  "mistake": {
+   "wrong": "Tous les emplois de cour peuvent être remplacés sans changement par une autre graphie du groupe.",
+   "right": "un espace découvert près d’un bâtiment dans le modèle.",
+   "why": "cour correspond ici à un espace découvert près d’un bâtiment dans le modèle ; le remplacement doit conserver ce sens."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "La classe traverse la cour de l’école. Explique le choix.",
+  "steps": [
+   "un espace découvert près d’un bâtiment dans le modèle.",
+   "cour correspond ici à un espace découvert près d’un bâtiment dans le modèle ; le remplacement doit conserver ce sens."
+  ],
+  "answer": "cour",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi5-33-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "cour : un espace découvert près d’un bâtiment dans le modèle.",
+     "cours : un enseignement suivi sur une matière dans le modèle.",
+     "court : un adjectif de faible longueur ou durée dans le modèle.",
+     "courre : la forme conservée dans l’expression chasse à courre."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-33-notions"
+    }
+   },
+   {
+    "id": "fi5-33-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "La classe traverse la cour de l’école.",
+     "Le cours de français commence.",
+     "Le message est bref : il est court.",
+     "Le texte ancien emploie chasse à courre."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-33-cas"
+    }
+   },
+   {
+    "id": "fi5-33-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Tous les emplois de cour peuvent être remplacés sans changement par une autre graphie du groupe. Correction : cour correspond ici à un espace découvert près d’un bâtiment dans le modèle ; le remplacement doit conserver ce sens.",
+     "Tous les emplois de cours peuvent être remplacés sans changement par une autre graphie du groupe. Correction : cours correspond ici à un enseignement suivi sur une matière dans le modèle ; le remplacement doit conserver ce sens.",
+     "Tous les emplois de court peuvent être remplacés sans changement par une autre graphie du groupe. Correction : court correspond ici à un adjectif de faible longueur ou durée dans le modèle ; le remplacement doit conserver ce sens.",
+     "Tous les emplois de courre peuvent être remplacés sans changement par une autre graphie du groupe. Correction : courre correspond ici à la forme conservée dans l’expression chasse à courre ; le remplacement doit conserver ce sens."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi5-33-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "cour : un espace découvert près d’un bâtiment dans le modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : cour correspond ici à un espace découvert près d’un bâtiment dans le modèle ; le remplacement doit conserver ce sens. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "cours : un enseignement suivi sur une matière dans le modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : cours correspond ici à un enseignement suivi sur une matière dans le modèle ; le remplacement doit conserver ce sens. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "court : un adjectif de faible longueur ou durée dans le modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : court correspond ici à un adjectif de faible longueur ou durée dans le modèle ; le remplacement doit conserver ce sens. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "courre : la forme conservée dans l’expression chasse à courre.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : courre correspond ici à la forme conservée dans l’expression chasse à courre ; le remplacement doit conserver ce sens. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Tous les emplois de cour peuvent être remplacés sans changement par une autre graphie du groupe.",
+        "truth": "false",
+        "explain": "cour correspond ici à un espace découvert près d’un bâtiment dans le modèle ; le remplacement doit conserver ce sens."
+       },
+       {
+        "text": "Tous les emplois de cours peuvent être remplacés sans changement par une autre graphie du groupe.",
+        "truth": "false",
+        "explain": "cours correspond ici à un enseignement suivi sur une matière dans le modèle ; le remplacement doit conserver ce sens."
+       },
+       {
+        "text": "Tous les emplois de court peuvent être remplacés sans changement par une autre graphie du groupe.",
+        "truth": "false",
+        "explain": "court correspond ici à un adjectif de faible longueur ou durée dans le modèle ; le remplacement doit conserver ce sens."
+       },
+       {
+        "text": "Tous les emplois de courre peuvent être remplacés sans changement par une autre graphie du groupe.",
+        "truth": "false",
+        "explain": "courre correspond ici à la forme conservée dans l’expression chasse à courre ; le remplacement doit conserver ce sens."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi5-33-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne un espace découvert près d’un bâtiment dans le modèle ?",
+       "r": "cour",
+       "w": [
+        "cours",
+        "court",
+        "courre"
+       ],
+       "e": [
+        "Cela désigne un enseignement suivi sur une matière dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne un adjectif de faible longueur ou durée dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne la forme conservée dans l’expression chasse à courre, plutôt que la notion demandée."
+       ],
+       "y": "cour correspond ici à un espace découvert près d’un bâtiment dans le modèle ; le remplacement doit conserver ce sens."
+      },
+      {
+       "q": "Quel terme désigne un enseignement suivi sur une matière dans le modèle ?",
+       "r": "cours",
+       "w": [
+        "cour",
+        "court",
+        "courre"
+       ],
+       "e": [
+        "Cela désigne un espace découvert près d’un bâtiment dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne un adjectif de faible longueur ou durée dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne la forme conservée dans l’expression chasse à courre, plutôt que la notion demandée."
+       ],
+       "y": "cours correspond ici à un enseignement suivi sur une matière dans le modèle ; le remplacement doit conserver ce sens."
+      },
+      {
+       "q": "Quel terme désigne un adjectif de faible longueur ou durée dans le modèle ?",
+       "r": "court",
+       "w": [
+        "cour",
+        "cours",
+        "courre"
+       ],
+       "e": [
+        "Cela désigne un espace découvert près d’un bâtiment dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne un enseignement suivi sur une matière dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne la forme conservée dans l’expression chasse à courre, plutôt que la notion demandée."
+       ],
+       "y": "court correspond ici à un adjectif de faible longueur ou durée dans le modèle ; le remplacement doit conserver ce sens."
+      },
+      {
+       "q": "Quel terme désigne la forme conservée dans l’expression chasse à courre ?",
+       "r": "courre",
+       "w": [
+        "cour",
+        "cours",
+        "court"
+       ],
+       "e": [
+        "Cela désigne un espace découvert près d’un bâtiment dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne un enseignement suivi sur une matière dans le modèle, plutôt que la notion demandée.",
+        "Cela désigne un adjectif de faible longueur ou durée dans le modèle, plutôt que la notion demandée."
+       ],
+       "y": "courre correspond ici à la forme conservée dans l’expression chasse à courre ; le remplacement doit conserver ce sens."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-33-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "La classe traverse la cour de l’école.\nQuelle notion convient ?",
+       "r": "cour",
+       "w": [
+        "cours",
+        "court",
+        "courre"
+       ],
+       "e": [
+        "Cela concerne un enseignement suivi sur une matière dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne un adjectif de faible longueur ou durée dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme conservée dans l’expression chasse à courre. Compare cette définition avec le cas présenté."
+       ],
+       "y": "cour correspond ici à un espace découvert près d’un bâtiment dans le modèle ; le remplacement doit conserver ce sens."
+      },
+      {
+       "q": "Le cours de français commence.\nQuelle notion convient ?",
+       "r": "cours",
+       "w": [
+        "cour",
+        "court",
+        "courre"
+       ],
+       "e": [
+        "Cela concerne un espace découvert près d’un bâtiment dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne un adjectif de faible longueur ou durée dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme conservée dans l’expression chasse à courre. Compare cette définition avec le cas présenté."
+       ],
+       "y": "cours correspond ici à un enseignement suivi sur une matière dans le modèle ; le remplacement doit conserver ce sens."
+      },
+      {
+       "q": "Le message est bref : il est court.\nQuelle notion convient ?",
+       "r": "court",
+       "w": [
+        "cour",
+        "cours",
+        "courre"
+       ],
+       "e": [
+        "Cela concerne un espace découvert près d’un bâtiment dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne un enseignement suivi sur une matière dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme conservée dans l’expression chasse à courre. Compare cette définition avec le cas présenté."
+       ],
+       "y": "court correspond ici à un adjectif de faible longueur ou durée dans le modèle ; le remplacement doit conserver ce sens."
+      },
+      {
+       "q": "Le texte ancien emploie chasse à courre.\nQuelle notion convient ?",
+       "r": "courre",
+       "w": [
+        "cour",
+        "cours",
+        "court"
+       ],
+       "e": [
+        "Cela concerne un espace découvert près d’un bâtiment dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne un enseignement suivi sur une matière dans le modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne un adjectif de faible longueur ou durée dans le modèle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "courre correspond ici à la forme conservée dans l’expression chasse à courre ; le remplacement doit conserver ce sens."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-33-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "La classe traverse la ___ de l’école. Choisis la graphie.",
+       "r": "cour",
+       "w": [
+        "cours",
+        "court",
+        "courre"
+       ],
+       "e": [
+        "cours correspond ici à un enseignement suivi sur une matière dans le modèle, pas au sens demandé.",
+        "court correspond ici à un adjectif de faible longueur ou durée dans le modèle, pas au sens demandé.",
+        "courre correspond ici à la forme conservée dans l’expression chasse à courre, pas au sens demandé."
+       ],
+       "y": "Le contexte demande cour."
+      },
+      {
+       "q": "Le ___ de français commence. Choisis la graphie.",
+       "r": "cours",
+       "w": [
+        "cour",
+        "court",
+        "courre"
+       ],
+       "e": [
+        "cour correspond ici à un espace découvert près d’un bâtiment dans le modèle, pas au sens demandé.",
+        "court correspond ici à un adjectif de faible longueur ou durée dans le modèle, pas au sens demandé.",
+        "courre correspond ici à la forme conservée dans l’expression chasse à courre, pas au sens demandé."
+       ],
+       "y": "Le contexte demande cours."
+      },
+      {
+       "q": "Le message est bref : il est ___. Choisis la graphie.",
+       "r": "court",
+       "w": [
+        "cour",
+        "cours",
+        "courre"
+       ],
+       "e": [
+        "cour correspond ici à un espace découvert près d’un bâtiment dans le modèle, pas au sens demandé.",
+        "cours correspond ici à un enseignement suivi sur une matière dans le modèle, pas au sens demandé.",
+        "courre correspond ici à la forme conservée dans l’expression chasse à courre, pas au sens demandé."
+       ],
+       "y": "Le contexte demande court."
+      },
+      {
+       "q": "Le texte ancien emploie chasse à ___. Choisis la graphie.",
+       "r": "courre",
+       "w": [
+        "cour",
+        "cours",
+        "court"
+       ],
+       "e": [
+        "cour correspond ici à un espace découvert près d’un bâtiment dans le modèle, pas au sens demandé.",
+        "cours correspond ici à un enseignement suivi sur une matière dans le modèle, pas au sens demandé.",
+        "court correspond ici à un adjectif de faible longueur ou durée dans le modèle, pas au sens demandé."
+       ],
+       "y": "Le contexte demande courre."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-33-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "cour",
+     "right": "La classe traverse la cour de l’école."
+    },
+    {
+     "left": "cours",
+     "right": "Le cours de français commence."
+    },
+    {
+     "left": "court",
+     "right": "Le message est bref : il est court."
+    },
+    {
+     "left": "courre",
+     "right": "Le texte ancien emploie chasse à courre."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-33-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "cour : un espace découvert près d’un bâtiment dans le modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : cour correspond ici à un espace découvert près d’un bâtiment dans le modèle ; le remplacement doit conserver ce sens. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "cours : un enseignement suivi sur une matière dans le modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : cours correspond ici à un enseignement suivi sur une matière dans le modèle ; le remplacement doit conserver ce sens. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "court : un adjectif de faible longueur ou durée dans le modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : court correspond ici à un adjectif de faible longueur ou durée dans le modèle ; le remplacement doit conserver ce sens. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "courre : la forme conservée dans l’expression chasse à courre.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : courre correspond ici à la forme conservée dans l’expression chasse à courre ; le remplacement doit conserver ce sens. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Tous les emplois de cour peuvent être remplacés sans changement par une autre graphie du groupe.",
+      "truth": "false",
+      "explain": "cour correspond ici à un espace découvert près d’un bâtiment dans le modèle ; le remplacement doit conserver ce sens."
+     },
+     {
+      "text": "Tous les emplois de cours peuvent être remplacés sans changement par une autre graphie du groupe.",
+      "truth": "false",
+      "explain": "cours correspond ici à un enseignement suivi sur une matière dans le modèle ; le remplacement doit conserver ce sens."
+     },
+     {
+      "text": "Tous les emplois de court peuvent être remplacés sans changement par une autre graphie du groupe.",
+      "truth": "false",
+      "explain": "court correspond ici à un adjectif de faible longueur ou durée dans le modèle ; le remplacement doit conserver ce sens."
+     },
+     {
+      "text": "Tous les emplois de courre peuvent être remplacés sans changement par une autre graphie du groupe.",
+      "truth": "false",
+      "explain": "courre correspond ici à la forme conservée dans l’expression chasse à courre ; le remplacement doit conserver ce sens."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

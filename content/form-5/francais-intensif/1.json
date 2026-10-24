@@ -1,0 +1,607 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 5",
+ "lesson_no": 1,
+ "language": "fr",
+ "prerequisites": [],
+ "skills": [
+  {
+   "id": "fi5-1",
+   "name": "Formation des mots : dérivation et composition"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "La dérivation forme un mot à partir d’une base et d’un affixe. Un préfixe se place devant la base ; un suffixe après elle et peut changer la classe du mot. La composition associe des éléments formant une unité lexicale, comme chou-fleur ou pomme de terre. Tout groupe de mots n’est pas automatiquement un composé, et une ressemblance ne suffit pas à établir une famille. Analyse structure et sens avant de généraliser une règle de formation.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras expliquer la formation d’un mot sans confondre affixe, base et mot composé. Acquis mobilisés : classes de mots et familles de la classe précédente. Pour la suite : homophones et lexique des relations sociales."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "La dérivation forme un mot à partir d’une base et d’un affixe. Un préfixe se place devant la base ; un suffixe après elle et peut changer la classe du mot. La composition associe des éléments formant une unité lexicale, comme chou-fleur ou pomme de terre. Tout groupe de mots n’est pas automatiquement un composé, et une ressemblance ne suffit pas à établir une famille. Analyse structure et sens avant de généraliser une règle de formation."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : relire associe re- à lire ; rangement associe une base verbale à un suffixe nominal. Chou-fleur est un composé, tandis que cahier bleu est ici un groupe descriptif ordinaire. La présence d’un trait d’union aide parfois à repérer une structure, mais tous les composés n’en ont pas."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère les éléments, précise leur rôle et compare le sens du mot obtenu. Vérifie sa classe dans une phrase. Ne remplace pas une analyse par le seul comptage des lettres ou des traits d’union."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "préfixation",
+    "meaning": "l’ajout d’un affixe devant la base"
+   },
+   {
+    "word": "suffixation",
+    "meaning": "l’ajout d’un affixe après la base"
+   },
+   {
+    "word": "composition",
+    "meaning": "l’association d’éléments en une unité lexicale"
+   },
+   {
+    "word": "analyse contextuelle",
+    "meaning": "la vérification du sens et de la classe dans une phrase"
+   }
+  ],
+  "mistake": {
+   "wrong": "Tout préfixe se place après la base.",
+   "right": "l’ajout d’un affixe devant la base.",
+   "why": "Un préfixe précède la base."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Relire associe re- à lire. Explique le choix.",
+  "steps": [
+   "l’ajout d’un affixe devant la base.",
+   "Un préfixe précède la base."
+  ],
+  "answer": "préfixation",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi5-1-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "préfixation : l’ajout d’un affixe devant la base.",
+     "suffixation : l’ajout d’un affixe après la base.",
+     "composition : l’association d’éléments en une unité lexicale.",
+     "analyse contextuelle : la vérification du sens et de la classe dans une phrase."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-1-notions"
+    }
+   },
+   {
+    "id": "fi5-1-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Relire associe re- à lire.",
+     "Rangement emploie un suffixe nominal.",
+     "Chou-fleur est un composé.",
+     "Cahier bleu est ici un groupe descriptif ordinaire."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-1-cas"
+    }
+   },
+   {
+    "id": "fi5-1-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Tout préfixe se place après la base. Correction : Un préfixe précède la base.",
+     "Un suffixe ne peut jamais changer la classe d’un mot. Correction : Des suffixes forment des noms à partir d’autres bases.",
+     "Tous les composés doivent avoir exactement le même sens que chaque élément isolé. Correction : Le sens de l’ensemble doit être vérifié.",
+     "Tout groupe contenant un adjectif est automatiquement un nom composé. Correction : La structure lexicale et le contexte doivent être examinés."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi5-1-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "préfixation : l’ajout d’un affixe devant la base.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Un préfixe précède la base. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "suffixation : l’ajout d’un affixe après la base.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Des suffixes forment des noms à partir d’autres bases. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "composition : l’association d’éléments en une unité lexicale.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le sens de l’ensemble doit être vérifié. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "analyse contextuelle : la vérification du sens et de la classe dans une phrase.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La structure lexicale et le contexte doivent être examinés. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Tout préfixe se place après la base.",
+        "truth": "false",
+        "explain": "Un préfixe précède la base."
+       },
+       {
+        "text": "Un suffixe ne peut jamais changer la classe d’un mot.",
+        "truth": "false",
+        "explain": "Des suffixes forment des noms à partir d’autres bases."
+       },
+       {
+        "text": "Tous les composés doivent avoir exactement le même sens que chaque élément isolé.",
+        "truth": "false",
+        "explain": "Le sens de l’ensemble doit être vérifié."
+       },
+       {
+        "text": "Tout groupe contenant un adjectif est automatiquement un nom composé.",
+        "truth": "false",
+        "explain": "La structure lexicale et le contexte doivent être examinés."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi5-1-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne l’ajout d’un affixe devant la base ?",
+       "r": "préfixation",
+       "w": [
+        "suffixation",
+        "composition",
+        "analyse contextuelle"
+       ],
+       "e": [
+        "Cela désigne l’ajout d’un affixe après la base, plutôt que la notion demandée.",
+        "Cela désigne l’association d’éléments en une unité lexicale, plutôt que la notion demandée.",
+        "Cela désigne la vérification du sens et de la classe dans une phrase, plutôt que la notion demandée."
+       ],
+       "y": "Un préfixe précède la base."
+      },
+      {
+       "q": "Quel terme désigne l’ajout d’un affixe après la base ?",
+       "r": "suffixation",
+       "w": [
+        "préfixation",
+        "composition",
+        "analyse contextuelle"
+       ],
+       "e": [
+        "Cela désigne l’ajout d’un affixe devant la base, plutôt que la notion demandée.",
+        "Cela désigne l’association d’éléments en une unité lexicale, plutôt que la notion demandée.",
+        "Cela désigne la vérification du sens et de la classe dans une phrase, plutôt que la notion demandée."
+       ],
+       "y": "Des suffixes forment des noms à partir d’autres bases."
+      },
+      {
+       "q": "Quel terme désigne l’association d’éléments en une unité lexicale ?",
+       "r": "composition",
+       "w": [
+        "préfixation",
+        "suffixation",
+        "analyse contextuelle"
+       ],
+       "e": [
+        "Cela désigne l’ajout d’un affixe devant la base, plutôt que la notion demandée.",
+        "Cela désigne l’ajout d’un affixe après la base, plutôt que la notion demandée.",
+        "Cela désigne la vérification du sens et de la classe dans une phrase, plutôt que la notion demandée."
+       ],
+       "y": "Le sens de l’ensemble doit être vérifié."
+      },
+      {
+       "q": "Quel terme désigne la vérification du sens et de la classe dans une phrase ?",
+       "r": "analyse contextuelle",
+       "w": [
+        "préfixation",
+        "suffixation",
+        "composition"
+       ],
+       "e": [
+        "Cela désigne l’ajout d’un affixe devant la base, plutôt que la notion demandée.",
+        "Cela désigne l’ajout d’un affixe après la base, plutôt que la notion demandée.",
+        "Cela désigne l’association d’éléments en une unité lexicale, plutôt que la notion demandée."
+       ],
+       "y": "La structure lexicale et le contexte doivent être examinés."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-1-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Relire associe re- à lire.\nQuelle notion convient ?",
+       "r": "préfixation",
+       "w": [
+        "suffixation",
+        "composition",
+        "analyse contextuelle"
+       ],
+       "e": [
+        "Cela concerne l’ajout d’un affixe après la base. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’association d’éléments en une unité lexicale. Compare cette définition avec le cas présenté.",
+        "Cela concerne la vérification du sens et de la classe dans une phrase. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Un préfixe précède la base."
+      },
+      {
+       "q": "Rangement emploie un suffixe nominal.\nQuelle notion convient ?",
+       "r": "suffixation",
+       "w": [
+        "préfixation",
+        "composition",
+        "analyse contextuelle"
+       ],
+       "e": [
+        "Cela concerne l’ajout d’un affixe devant la base. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’association d’éléments en une unité lexicale. Compare cette définition avec le cas présenté.",
+        "Cela concerne la vérification du sens et de la classe dans une phrase. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Des suffixes forment des noms à partir d’autres bases."
+      },
+      {
+       "q": "Chou-fleur est un composé.\nQuelle notion convient ?",
+       "r": "composition",
+       "w": [
+        "préfixation",
+        "suffixation",
+        "analyse contextuelle"
+       ],
+       "e": [
+        "Cela concerne l’ajout d’un affixe devant la base. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’ajout d’un affixe après la base. Compare cette définition avec le cas présenté.",
+        "Cela concerne la vérification du sens et de la classe dans une phrase. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le sens de l’ensemble doit être vérifié."
+      },
+      {
+       "q": "Cahier bleu est ici un groupe descriptif ordinaire.\nQuelle notion convient ?",
+       "r": "analyse contextuelle",
+       "w": [
+        "préfixation",
+        "suffixation",
+        "composition"
+       ],
+       "e": [
+        "Cela concerne l’ajout d’un affixe devant la base. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’ajout d’un affixe après la base. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’association d’éléments en une unité lexicale. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La structure lexicale et le contexte doivent être examinés."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-1-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans relire, quelle analyse est pertinente ?",
+       "r": "Re- est placé avant la base lire.",
+       "w": [
+        "Re- est obligatoirement un suffixe final.",
+        "Lire est une marque de pluriel.",
+        "Le mot contient nécessairement deux noms complets."
+       ],
+       "e": [
+        "Il précède la base.",
+        "Lire fournit la base verbale.",
+        "Ce modèle est dérivé."
+       ],
+       "y": "Identifie position et rôle."
+      },
+      {
+       "q": "Dans rangement, que fait le suffixe étudié ?",
+       "r": "Il contribue à former un nom sur une base verbale.",
+       "w": [
+        "Il indique toujours un futur.",
+        "Il remplace toute la phrase par une ponctuation.",
+        "Il prouve qu’aucun lien de sens n’existe."
+       ],
+       "e": [
+        "Ce n’est pas une terminaison de futur.",
+        "Le mot formé est lexical.",
+        "La dérivation entretient un lien à analyser."
+       ],
+       "y": "La classe du mot obtenu compte."
+      },
+      {
+       "q": "Pourquoi pomme de terre peut-il être un composé sans trait d’union ?",
+       "r": "Une unité lexicale peut comprendre plusieurs éléments non reliés par des traits.",
+       "w": [
+        "Le trait est obligatoire dans tous les composés.",
+        "Terre doit toujours être conjugué.",
+        "Tous les groupes libres deviennent composés."
+       ],
+       "e": [
+        "L’exemple montre une autre structure.",
+        "Terre est un nom ici.",
+        "L’unité lexicale doit être établie."
+       ],
+       "y": "Le signe graphique n’est pas le seul critère."
+      },
+      {
+       "q": "Quel contrôle évite une famille de mots inventée ?",
+       "r": "Vérifier le lien de formation et de sens.",
+       "w": [
+        "Choisir seulement les mots de même longueur.",
+        "Compter uniquement les voyelles.",
+        "Ignorer le contexte de tous les mots."
+       ],
+       "e": [
+        "La longueur ne prouve pas la parenté.",
+        "Le nombre de voyelles ne prouve pas la formation.",
+        "Le sens en contexte aide à analyser."
+       ],
+       "y": "Une ressemblance seule ne suffit pas."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-1-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "préfixation",
+     "right": "Relire associe re- à lire."
+    },
+    {
+     "left": "suffixation",
+     "right": "Rangement emploie un suffixe nominal."
+    },
+    {
+     "left": "composition",
+     "right": "Chou-fleur est un composé."
+    },
+    {
+     "left": "analyse contextuelle",
+     "right": "Cahier bleu est ici un groupe descriptif ordinaire."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-1-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "préfixation : l’ajout d’un affixe devant la base.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Un préfixe précède la base. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "suffixation : l’ajout d’un affixe après la base.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Des suffixes forment des noms à partir d’autres bases. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "composition : l’association d’éléments en une unité lexicale.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le sens de l’ensemble doit être vérifié. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "analyse contextuelle : la vérification du sens et de la classe dans une phrase.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La structure lexicale et le contexte doivent être examinés. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Tout préfixe se place après la base.",
+      "truth": "false",
+      "explain": "Un préfixe précède la base."
+     },
+     {
+      "text": "Un suffixe ne peut jamais changer la classe d’un mot.",
+      "truth": "false",
+      "explain": "Des suffixes forment des noms à partir d’autres bases."
+     },
+     {
+      "text": "Tous les composés doivent avoir exactement le même sens que chaque élément isolé.",
+      "truth": "false",
+      "explain": "Le sens de l’ensemble doit être vérifié."
+     },
+     {
+      "text": "Tout groupe contenant un adjectif est automatiquement un nom composé.",
+      "truth": "false",
+      "explain": "La structure lexicale et le contexte doivent être examinés."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

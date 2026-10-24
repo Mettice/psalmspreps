@@ -1,0 +1,610 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 5",
+ "lesson_no": 3,
+ "language": "fr",
+ "prerequisites": [
+  1,
+  2
+ ],
+ "skills": [
+  {
+   "id": "fi5-3",
+   "name": "Cause et conséquence dans la phrase"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "La cause présente une raison ; la conséquence présente ce qui en résulte dans le cadre donné. Parce que et à cause de peuvent introduire une cause avec des constructions différentes. Donc ou si bien que peuvent introduire une conséquence. Changer la direction du lien peut changer le message. Un connecteur ne prouve pas à lui seul que la causalité est vraie : il exprime le lien que le texte présente. Les catégories et fonctions de groupes ou subordonnées sont à nommer selon leur construction.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras distinguer une raison, son résultat et le sens du connecteur. Acquis mobilisés : relations de sens et connecteurs. Pour la suite : prise de parole justifiée et récit cohérent."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "La cause présente une raison ; la conséquence présente ce qui en résulte dans le cadre donné. Parce que et à cause de peuvent introduire une cause avec des constructions différentes. Donc ou si bien que peuvent introduire une conséquence. Changer la direction du lien peut changer le message. Un connecteur ne prouve pas à lui seul que la causalité est vraie : il exprime le lien que le texte présente. Les catégories et fonctions de groupes ou subordonnées sont à nommer selon leur construction."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Le lieu n’est pas confirmé, donc le club attend avant d’imprimer. Le manque de confirmation est présenté comme cause ; l’attente comme conséquence. Le club attend parce que le lieu n’est pas confirmé conserve cette relation en changeant l’ordre. À cause de cette incertitude est un groupe, non la même structure qu’une proposition avec parce que."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère les faits, pose pourquoi pour la cause et que se passe-t-il en conséquence pour le résultat. Compare les constructions avant de remplacer un connecteur. Ne transforme pas une succession temporelle en cause certaine sans appui."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "cause",
+    "meaning": "la raison présentée dans la relation étudiée"
+   },
+   {
+    "word": "conséquence",
+    "meaning": "le résultat présenté comme suivant la raison"
+   },
+   {
+    "word": "construction conjonctive",
+    "meaning": "une proposition introduite ici par parce que"
+   },
+   {
+    "word": "prudence causale",
+    "meaning": "la distinction entre un lien présenté et une preuve suffisante"
+   }
+  ],
+  "mistake": {
+   "wrong": "La cause est toujours le dernier mot de la phrase.",
+   "right": "la raison présentée dans la relation étudiée.",
+   "why": "Le rôle dépend du lien exprimé, pas de la position."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Le lieu non confirmé explique l’attente. Explique le choix.",
+  "steps": [
+   "la raison présentée dans la relation étudiée.",
+   "Le rôle dépend du lien exprimé, pas de la position."
+  ],
+  "answer": "cause",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi5-3-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "cause : la raison présentée dans la relation étudiée.",
+     "conséquence : le résultat présenté comme suivant la raison.",
+     "construction conjonctive : une proposition introduite ici par parce que.",
+     "prudence causale : la distinction entre un lien présenté et une preuve suffisante."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-3-notions"
+    }
+   },
+   {
+    "id": "fi5-3-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Le lieu non confirmé explique l’attente.",
+     "Le club attend avant d’imprimer.",
+     "Parce que le lieu est provisoire contient son groupe verbal.",
+     "Un connecteur annonce la relation voulue sans la démontrer seul."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-3-cas"
+    }
+   },
+   {
+    "id": "fi5-3-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "La cause est toujours le dernier mot de la phrase. Correction : Le rôle dépend du lien exprimé, pas de la position.",
+     "La conséquence doit précéder tout événement dans le temps. Correction : Elle est présentée comme issue de la cause.",
+     "À cause de cette incertitude est exactement la même structure verbale. Correction : Ce groupe nominal diffère d’une proposition.",
+     "Écrire donc suffit à rendre toute causalité vraie. Correction : Le lien doit aussi être justifié par le contexte."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi5-3-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "cause : la raison présentée dans la relation étudiée.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le rôle dépend du lien exprimé, pas de la position. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "conséquence : le résultat présenté comme suivant la raison.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Elle est présentée comme issue de la cause. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "construction conjonctive : une proposition introduite ici par parce que.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Ce groupe nominal diffère d’une proposition. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "prudence causale : la distinction entre un lien présenté et une preuve suffisante.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le lien doit aussi être justifié par le contexte. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "La cause est toujours le dernier mot de la phrase.",
+        "truth": "false",
+        "explain": "Le rôle dépend du lien exprimé, pas de la position."
+       },
+       {
+        "text": "La conséquence doit précéder tout événement dans le temps.",
+        "truth": "false",
+        "explain": "Elle est présentée comme issue de la cause."
+       },
+       {
+        "text": "À cause de cette incertitude est exactement la même structure verbale.",
+        "truth": "false",
+        "explain": "Ce groupe nominal diffère d’une proposition."
+       },
+       {
+        "text": "Écrire donc suffit à rendre toute causalité vraie.",
+        "truth": "false",
+        "explain": "Le lien doit aussi être justifié par le contexte."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi5-3-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne la raison présentée dans la relation étudiée ?",
+       "r": "cause",
+       "w": [
+        "conséquence",
+        "construction conjonctive",
+        "prudence causale"
+       ],
+       "e": [
+        "Cela désigne le résultat présenté comme suivant la raison, plutôt que la notion demandée.",
+        "Cela désigne une proposition introduite ici par parce que, plutôt que la notion demandée.",
+        "Cela désigne la distinction entre un lien présenté et une preuve suffisante, plutôt que la notion demandée."
+       ],
+       "y": "Le rôle dépend du lien exprimé, pas de la position."
+      },
+      {
+       "q": "Quel terme désigne le résultat présenté comme suivant la raison ?",
+       "r": "conséquence",
+       "w": [
+        "cause",
+        "construction conjonctive",
+        "prudence causale"
+       ],
+       "e": [
+        "Cela désigne la raison présentée dans la relation étudiée, plutôt que la notion demandée.",
+        "Cela désigne une proposition introduite ici par parce que, plutôt que la notion demandée.",
+        "Cela désigne la distinction entre un lien présenté et une preuve suffisante, plutôt que la notion demandée."
+       ],
+       "y": "Elle est présentée comme issue de la cause."
+      },
+      {
+       "q": "Quel terme désigne une proposition introduite ici par parce que ?",
+       "r": "construction conjonctive",
+       "w": [
+        "cause",
+        "conséquence",
+        "prudence causale"
+       ],
+       "e": [
+        "Cela désigne la raison présentée dans la relation étudiée, plutôt que la notion demandée.",
+        "Cela désigne le résultat présenté comme suivant la raison, plutôt que la notion demandée.",
+        "Cela désigne la distinction entre un lien présenté et une preuve suffisante, plutôt que la notion demandée."
+       ],
+       "y": "Ce groupe nominal diffère d’une proposition."
+      },
+      {
+       "q": "Quel terme désigne la distinction entre un lien présenté et une preuve suffisante ?",
+       "r": "prudence causale",
+       "w": [
+        "cause",
+        "conséquence",
+        "construction conjonctive"
+       ],
+       "e": [
+        "Cela désigne la raison présentée dans la relation étudiée, plutôt que la notion demandée.",
+        "Cela désigne le résultat présenté comme suivant la raison, plutôt que la notion demandée.",
+        "Cela désigne une proposition introduite ici par parce que, plutôt que la notion demandée."
+       ],
+       "y": "Le lien doit aussi être justifié par le contexte."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-3-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le lieu non confirmé explique l’attente.\nQuelle notion convient ?",
+       "r": "cause",
+       "w": [
+        "conséquence",
+        "construction conjonctive",
+        "prudence causale"
+       ],
+       "e": [
+        "Cela concerne le résultat présenté comme suivant la raison. Compare cette définition avec le cas présenté.",
+        "Cela concerne une proposition introduite ici par parce que. Compare cette définition avec le cas présenté.",
+        "Cela concerne la distinction entre un lien présenté et une preuve suffisante. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le rôle dépend du lien exprimé, pas de la position."
+      },
+      {
+       "q": "Le club attend avant d’imprimer.\nQuelle notion convient ?",
+       "r": "conséquence",
+       "w": [
+        "cause",
+        "construction conjonctive",
+        "prudence causale"
+       ],
+       "e": [
+        "Cela concerne la raison présentée dans la relation étudiée. Compare cette définition avec le cas présenté.",
+        "Cela concerne une proposition introduite ici par parce que. Compare cette définition avec le cas présenté.",
+        "Cela concerne la distinction entre un lien présenté et une preuve suffisante. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Elle est présentée comme issue de la cause."
+      },
+      {
+       "q": "Parce que le lieu est provisoire contient son groupe verbal.\nQuelle notion convient ?",
+       "r": "construction conjonctive",
+       "w": [
+        "cause",
+        "conséquence",
+        "prudence causale"
+       ],
+       "e": [
+        "Cela concerne la raison présentée dans la relation étudiée. Compare cette définition avec le cas présenté.",
+        "Cela concerne le résultat présenté comme suivant la raison. Compare cette définition avec le cas présenté.",
+        "Cela concerne la distinction entre un lien présenté et une preuve suffisante. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Ce groupe nominal diffère d’une proposition."
+      },
+      {
+       "q": "Un connecteur annonce la relation voulue sans la démontrer seul.\nQuelle notion convient ?",
+       "r": "prudence causale",
+       "w": [
+        "cause",
+        "conséquence",
+        "construction conjonctive"
+       ],
+       "e": [
+        "Cela concerne la raison présentée dans la relation étudiée. Compare cette définition avec le cas présenté.",
+        "Cela concerne le résultat présenté comme suivant la raison. Compare cette définition avec le cas présenté.",
+        "Cela concerne une proposition introduite ici par parce que. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le lien doit aussi être justifié par le contexte."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-3-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le club attend parce que le lieu est provisoire. Quelle est la cause présentée ?",
+       "r": "Le caractère provisoire du lieu.",
+       "w": [
+        "L’attente du club.",
+        "Le seul mot club.",
+        "La fin de la ponctuation."
+       ],
+       "e": [
+        "L’attente est la conséquence présentée.",
+        "Le nom seul ne donne pas la raison.",
+        "Un signe n’est pas ici la cause."
+       ],
+       "y": "La proposition introduite par parce que fournit la raison."
+      },
+      {
+       "q": "Le lieu est provisoire, donc le club attend. Quelle est la conséquence ?",
+       "r": "Le club attend.",
+       "w": [
+        "Le lieu est provisoire.",
+        "Tout lieu est confirmé.",
+        "Le mot lieu est un verbe."
+       ],
+       "e": [
+        "C’est la raison présentée.",
+        "Cela contredit le cas.",
+        "Lieu est ici un nom."
+       ],
+       "y": "Donc introduit le résultat présenté."
+      },
+      {
+       "q": "Quel remplacement préserve la relation et une construction correcte ?",
+       "r": "Le club attend à cause de cette incertitude.",
+       "w": [
+        "Le club attend parce que cette incertitude, sans verbe.",
+        "La cause est toujours tout résultat.",
+        "À cause de le lieu est provisoire, sans adaptation."
+       ],
+       "e": [
+        "Parce que appelle ici une proposition avec verbe.",
+        "Les rôles ne sont pas identiques.",
+        "À cause de demande un groupe adapté."
+       ],
+       "y": "Le groupe nominal conserve la raison avec sa propre construction."
+      },
+      {
+       "q": "Le texte dit après, sans autre appui causal. Quelle prudence convient ?",
+       "r": "La succession seule ne prouve pas que le premier fait cause le second.",
+       "w": [
+        "Toute succession prouve une cause unique.",
+        "Aucun lien temporel n’existe jamais.",
+        "Tous les connecteurs sont interchangeables."
+       ],
+       "e": [
+        "Il faut un appui supplémentaire.",
+        "Après exprime bien un ordre temporel.",
+        "Ils expriment des relations différentes."
+       ],
+       "y": "Ne renforce pas le texte sans preuve."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-3-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "cause",
+     "right": "Le lieu non confirmé explique l’attente."
+    },
+    {
+     "left": "conséquence",
+     "right": "Le club attend avant d’imprimer."
+    },
+    {
+     "left": "construction conjonctive",
+     "right": "Parce que le lieu est provisoire contient son groupe verbal."
+    },
+    {
+     "left": "prudence causale",
+     "right": "Un connecteur annonce la relation voulue sans la démontrer seul."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-3-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "cause : la raison présentée dans la relation étudiée.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le rôle dépend du lien exprimé, pas de la position. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "conséquence : le résultat présenté comme suivant la raison.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Elle est présentée comme issue de la cause. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "construction conjonctive : une proposition introduite ici par parce que.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Ce groupe nominal diffère d’une proposition. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "prudence causale : la distinction entre un lien présenté et une preuve suffisante.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le lien doit aussi être justifié par le contexte. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "La cause est toujours le dernier mot de la phrase.",
+      "truth": "false",
+      "explain": "Le rôle dépend du lien exprimé, pas de la position."
+     },
+     {
+      "text": "La conséquence doit précéder tout événement dans le temps.",
+      "truth": "false",
+      "explain": "Elle est présentée comme issue de la cause."
+     },
+     {
+      "text": "À cause de cette incertitude est exactement la même structure verbale.",
+      "truth": "false",
+      "explain": "Ce groupe nominal diffère d’une proposition."
+     },
+     {
+      "text": "Écrire donc suffit à rendre toute causalité vraie.",
+      "truth": "false",
+      "explain": "Le lien doit aussi être justifié par le contexte."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}

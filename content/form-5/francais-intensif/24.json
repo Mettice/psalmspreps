@@ -1,0 +1,557 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 5",
+ "lesson_no": 24,
+ "language": "fr",
+ "prerequisites": [
+  15,
+  17,
+  21,
+  23
+ ],
+ "skills": [
+  {
+   "id": "fi5-24",
+   "name": "Écrire une lettre formelle"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Une lettre formelle adapte présentation, formules et ton à son destinataire. Expose le but tôt, développe les informations utiles et formule précisément la réponse attendue. Une demande ne doit pas présenter une autorisation comme déjà accordée. Les coordonnées et dates du modèle sont fictives ou à compléter selon la consigne. Les conventions de présentation et de longueur varient selon le cadre d’examen ; l’enseignant doit confirmer celles à appliquer.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras rédiger une demande claire à un destinataire officiel en justifiant le projet et ses limites. Acquis mobilisés : interprétation d’image, discours adapté et traduction. Pour la suite : communication environnementale et descriptions organisées."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Une lettre formelle adapte présentation, formules et ton à son destinataire. Expose le but tôt, développe les informations utiles et formule précisément la réponse attendue. Une demande ne doit pas présenter une autorisation comme déjà accordée. Les coordonnées et dates du modèle sont fictives ou à compléter selon la consigne. Les conventions de présentation et de longueur varient selon le cadre d’examen ; l’enseignant doit confirmer celles à appliquer."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Extrait du modèle original : Club de lecture, établissement fictif de Bamenda. Date : à compléter selon la consigne. À la personne responsable des activités. Objet : demande d’autorisation pour une rencontre de lecture. Madame, Monsieur, nous sollicitons l’autorisation d’organiser une rencontre consacrée à la lecture et au partage des tâches au sein du club."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Identifie le destinataire, le but et les indices disponibles. Organise les idées avant de rédiger. Vérifie chaque détail, distingue observation et ajout fictif annoncé, puis relis accords, reprises et temps."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "destinataire et objet",
+    "meaning": "les repères précisant à qui et pourquoi la lettre est adressée"
+   },
+   {
+    "word": "demande justifiée",
+    "meaning": "une action sollicitée avec des informations pertinentes"
+   },
+   {
+    "word": "statut des détails",
+    "meaning": "l’indication honnête des informations provisoires"
+   },
+   {
+    "word": "formules cohérentes",
+    "meaning": "un appel et une clôture adaptés au cadre formel"
+   }
+  ],
+  "mistake": {
+   "wrong": "Une lettre formelle doit cacher sa demande.",
+   "right": "les repères précisant à qui et pourquoi la lettre est adressée.",
+   "why": "Le destinataire doit comprendre le but."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "L’objet annonce une demande d’autorisation. Explique le choix.",
+  "steps": [
+   "les repères précisant à qui et pourquoi la lettre est adressée.",
+   "Le destinataire doit comprendre le but."
+  ],
+  "answer": "destinataire et objet",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi5-24-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "destinataire et objet : les repères précisant à qui et pourquoi la lettre est adressée.",
+     "demande justifiée : une action sollicitée avec des informations pertinentes.",
+     "statut des détails : l’indication honnête des informations provisoires.",
+     "formules cohérentes : un appel et une clôture adaptés au cadre formel."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-24-notions"
+    }
+   },
+   {
+    "id": "fi5-24-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "L’objet annonce une demande d’autorisation.",
+     "La rencontre et son encadrement sont expliqués.",
+     "Le lieu et l’horaire restent à confirmer.",
+     "Madame, Monsieur est repris dans la clôture du modèle."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-24-cas"
+    }
+   },
+   {
+    "id": "fi5-24-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Une lettre formelle doit cacher sa demande. Correction : Le destinataire doit comprendre le but.",
+     "Une demande prouve que l’autorisation est accordée. Correction : Solliciter et recevoir l’accord sont différents.",
+     "Un détail provisoire peut devenir certain par une formule polie. Correction : La politesse ne remplace pas la confirmation.",
+     "Toute lettre officielle doit se terminer comme un message à un ami intime. Correction : Le registre doit correspondre au destinataire."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi5-24-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "destinataire et objet : les repères précisant à qui et pourquoi la lettre est adressée.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le destinataire doit comprendre le but. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "demande justifiée : une action sollicitée avec des informations pertinentes.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Solliciter et recevoir l’accord sont différents. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "statut des détails : l’indication honnête des informations provisoires.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La politesse ne remplace pas la confirmation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "formules cohérentes : un appel et une clôture adaptés au cadre formel.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le registre doit correspondre au destinataire. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une lettre formelle doit cacher sa demande.",
+        "truth": "false",
+        "explain": "Le destinataire doit comprendre le but."
+       },
+       {
+        "text": "Une demande prouve que l’autorisation est accordée.",
+        "truth": "false",
+        "explain": "Solliciter et recevoir l’accord sont différents."
+       },
+       {
+        "text": "Un détail provisoire peut devenir certain par une formule polie.",
+        "truth": "false",
+        "explain": "La politesse ne remplace pas la confirmation."
+       },
+       {
+        "text": "Toute lettre officielle doit se terminer comme un message à un ami intime.",
+        "truth": "false",
+        "explain": "Le registre doit correspondre au destinataire."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi5-24-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne les repères précisant à qui et pourquoi la lettre est adressée ?",
+       "r": "destinataire et objet",
+       "w": [
+        "demande justifiée",
+        "statut des détails",
+        "formules cohérentes"
+       ],
+       "e": [
+        "Cela désigne une action sollicitée avec des informations pertinentes, plutôt que la notion demandée.",
+        "Cela désigne l’indication honnête des informations provisoires, plutôt que la notion demandée.",
+        "Cela désigne un appel et une clôture adaptés au cadre formel, plutôt que la notion demandée."
+       ],
+       "y": "Le destinataire doit comprendre le but."
+      },
+      {
+       "q": "Quel terme désigne une action sollicitée avec des informations pertinentes ?",
+       "r": "demande justifiée",
+       "w": [
+        "destinataire et objet",
+        "statut des détails",
+        "formules cohérentes"
+       ],
+       "e": [
+        "Cela désigne les repères précisant à qui et pourquoi la lettre est adressée, plutôt que la notion demandée.",
+        "Cela désigne l’indication honnête des informations provisoires, plutôt que la notion demandée.",
+        "Cela désigne un appel et une clôture adaptés au cadre formel, plutôt que la notion demandée."
+       ],
+       "y": "Solliciter et recevoir l’accord sont différents."
+      },
+      {
+       "q": "Quel terme désigne l’indication honnête des informations provisoires ?",
+       "r": "statut des détails",
+       "w": [
+        "destinataire et objet",
+        "demande justifiée",
+        "formules cohérentes"
+       ],
+       "e": [
+        "Cela désigne les repères précisant à qui et pourquoi la lettre est adressée, plutôt que la notion demandée.",
+        "Cela désigne une action sollicitée avec des informations pertinentes, plutôt que la notion demandée.",
+        "Cela désigne un appel et une clôture adaptés au cadre formel, plutôt que la notion demandée."
+       ],
+       "y": "La politesse ne remplace pas la confirmation."
+      },
+      {
+       "q": "Quel terme désigne un appel et une clôture adaptés au cadre formel ?",
+       "r": "formules cohérentes",
+       "w": [
+        "destinataire et objet",
+        "demande justifiée",
+        "statut des détails"
+       ],
+       "e": [
+        "Cela désigne les repères précisant à qui et pourquoi la lettre est adressée, plutôt que la notion demandée.",
+        "Cela désigne une action sollicitée avec des informations pertinentes, plutôt que la notion demandée.",
+        "Cela désigne l’indication honnête des informations provisoires, plutôt que la notion demandée."
+       ],
+       "y": "Le registre doit correspondre au destinataire."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-24-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "L’objet annonce une demande d’autorisation.\nQuelle notion convient ?",
+       "r": "destinataire et objet",
+       "w": [
+        "demande justifiée",
+        "statut des détails",
+        "formules cohérentes"
+       ],
+       "e": [
+        "Cela concerne une action sollicitée avec des informations pertinentes. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’indication honnête des informations provisoires. Compare cette définition avec le cas présenté.",
+        "Cela concerne un appel et une clôture adaptés au cadre formel. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le destinataire doit comprendre le but."
+      },
+      {
+       "q": "La rencontre et son encadrement sont expliqués.\nQuelle notion convient ?",
+       "r": "demande justifiée",
+       "w": [
+        "destinataire et objet",
+        "statut des détails",
+        "formules cohérentes"
+       ],
+       "e": [
+        "Cela concerne les repères précisant à qui et pourquoi la lettre est adressée. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’indication honnête des informations provisoires. Compare cette définition avec le cas présenté.",
+        "Cela concerne un appel et une clôture adaptés au cadre formel. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Solliciter et recevoir l’accord sont différents."
+      },
+      {
+       "q": "Le lieu et l’horaire restent à confirmer.\nQuelle notion convient ?",
+       "r": "statut des détails",
+       "w": [
+        "destinataire et objet",
+        "demande justifiée",
+        "formules cohérentes"
+       ],
+       "e": [
+        "Cela concerne les repères précisant à qui et pourquoi la lettre est adressée. Compare cette définition avec le cas présenté.",
+        "Cela concerne une action sollicitée avec des informations pertinentes. Compare cette définition avec le cas présenté.",
+        "Cela concerne un appel et une clôture adaptés au cadre formel. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La politesse ne remplace pas la confirmation."
+      },
+      {
+       "q": "Madame, Monsieur est repris dans la clôture du modèle.\nQuelle notion convient ?",
+       "r": "formules cohérentes",
+       "w": [
+        "destinataire et objet",
+        "demande justifiée",
+        "statut des détails"
+       ],
+       "e": [
+        "Cela concerne les repères précisant à qui et pourquoi la lettre est adressée. Compare cette définition avec le cas présenté.",
+        "Cela concerne une action sollicitée avec des informations pertinentes. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’indication honnête des informations provisoires. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le registre doit correspondre au destinataire."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-24-construire",
+   "type": "word_order",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "a": "L’objet annonce une demande d’autorisation.",
+       "b": "L’objet annonce une demande d’autorisation."
+      },
+      {
+       "a": "La rencontre et son encadrement sont expliqués.",
+       "b": "La rencontre et son encadrement sont expliqués."
+      },
+      {
+       "a": "Le lieu et l’horaire restent à confirmer.",
+       "b": "Le lieu et l’horaire restent à confirmer."
+      },
+      {
+       "a": "Madame, Monsieur est repris dans la clôture du modèle.",
+       "b": "Madame, Monsieur est repris dans la clôture du modèle."
+      }
+     ]
+    }
+   },
+   "prompt": "Touche les mots dans le bon ordre.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-24-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "destinataire et objet",
+     "right": "L’objet annonce une demande d’autorisation."
+    },
+    {
+     "left": "demande justifiée",
+     "right": "La rencontre et son encadrement sont expliqués."
+    },
+    {
+     "left": "statut des détails",
+     "right": "Le lieu et l’horaire restent à confirmer."
+    },
+    {
+     "left": "formules cohérentes",
+     "right": "Madame, Monsieur est repris dans la clôture du modèle."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-24-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "destinataire et objet : les repères précisant à qui et pourquoi la lettre est adressée.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le destinataire doit comprendre le but. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "demande justifiée : une action sollicitée avec des informations pertinentes.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Solliciter et recevoir l’accord sont différents. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "statut des détails : l’indication honnête des informations provisoires.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La politesse ne remplace pas la confirmation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "formules cohérentes : un appel et une clôture adaptés au cadre formel.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le registre doit correspondre au destinataire. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une lettre formelle doit cacher sa demande.",
+      "truth": "false",
+      "explain": "Le destinataire doit comprendre le but."
+     },
+     {
+      "text": "Une demande prouve que l’autorisation est accordée.",
+      "truth": "false",
+      "explain": "Solliciter et recevoir l’accord sont différents."
+     },
+     {
+      "text": "Un détail provisoire peut devenir certain par une formule polie.",
+      "truth": "false",
+      "explain": "La politesse ne remplace pas la confirmation."
+     },
+     {
+      "text": "Toute lettre officielle doit se terminer comme un message à un ami intime.",
+      "truth": "false",
+      "explain": "Le registre doit correspondre au destinataire."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ],
+ "paper_task": {
+  "status": "draft",
+  "vars": {},
+  "checks": [],
+  "prompt": "Écris une lettre formelle à la personne responsable demandant une rencontre de lecture supervisée. Présente le projet, son intérêt, l’encadrement souhaité et les arrangements encore provisoires. Utilise des renseignements fictifs et les conventions données par ton enseignant.",
+  "model": [
+   "Club de lecture, établissement fictif de Bamenda. Date : à compléter selon la consigne. À la personne responsable des activités. Objet : demande d’autorisation pour une rencontre de lecture. Madame, Monsieur, nous sollicitons l’autorisation d’organiser une rencontre consacrée à la lecture et au partage des tâches au sein du club.",
+   "Nous souhaitons proposer un passage original suivi d’un échange respectueux. Le programme devra être encadré par un adulte désigné. Le lieu et l’horaire restent à confirmer ; nous n’annoncerons pas ces détails comme définitifs avant votre réponse.",
+   "Pourriez-vous nous indiquer si le projet peut être examiné et quelles précisions vous sont nécessaires ? Nous vous remercions de votre attention. Veuillez agréer, Madame, Monsieur, l’expression de nos salutations respectueuses. Bih, pour le club fictif."
+  ],
+  "checklist": [
+   "destinataire et objet : les repères précisant à qui et pourquoi la lettre est adressée.",
+   "demande justifiée : une action sollicitée avec des informations pertinentes.",
+   "statut des détails : l’indication honnête des informations provisoires.",
+   "formules cohérentes : un appel et une clôture adaptés au cadre formel.",
+   "Vérifier les accords, les reprises et la cohérence des temps."
+  ]
+ }
+}

@@ -1,0 +1,612 @@
+{
+ "subject": "francais-intensif",
+ "class": "Form 5",
+ "lesson_no": 21,
+ "language": "fr",
+ "prerequisites": [
+  1,
+  2,
+  16,
+  19
+ ],
+ "skills": [
+  {
+   "id": "fi5-21",
+   "name": "Voir, voire, voix et voie : sens et graphie"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Voir est un infinitif qui peut signifier percevoir ou examiner. Voire est un adverbe de renforcement proche de et même. Voix désigne notamment le son de la parole ; voie désigne notamment un passage. Voir et voire ont une même prononciation dans le modèle, comme voix et voie entre eux. Cela ne rend pas les graphies interchangeables. Choisis selon le sens et la construction, non d’après le seul son. Les autres sens possibles des noms demandent leur propre contexte.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras choisir une graphie en expliquant la construction et la paraphrase. Acquis mobilisés : classes de mots, emprunts et traduction. Pour la suite : interprétation d’image et lettre formelle."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Voir est un infinitif qui peut signifier percevoir ou examiner. Voire est un adverbe de renforcement proche de et même. Voix désigne notamment le son de la parole ; voie désigne notamment un passage. Voir et voire ont une même prononciation dans le modèle, comme voix et voie entre eux. Cela ne rend pas les graphies interchangeables. Choisis selon le sens et la construction, non d’après le seul son. Les autres sens possibles des noms demandent leur propre contexte."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : Je voudrais voir le plan. Ce passage est utile, voire indispensable. Sa voix porte jusqu’au fond de la salle. Cette voie mène à la cour. Remplacer voire par et même conserve l’intensification du modèle ; remplacer voix par chemin change son sens."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Cherche d’abord une action à l’infinitif, une intensification ou un nom. Essaie une paraphrase précise : examiner, et même, son de parole ou passage. Vérifie le mot dans la phrase entière."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "voir",
+    "meaning": "l’infinitif exprimant ici percevoir ou examiner"
+   },
+   {
+    "word": "voire",
+    "meaning": "le renforcement au sens de et même"
+   },
+   {
+    "word": "voix",
+    "meaning": "le nom désignant ici le son de la parole"
+   },
+   {
+    "word": "voie",
+    "meaning": "le nom désignant ici un passage"
+   }
+  ],
+  "mistake": {
+   "wrong": "Voire est l’infinitif de perception.",
+   "right": "l’infinitif exprimant ici percevoir ou examiner.",
+   "why": "Le verbe s’écrit voir sans e final."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Je voudrais voir le plan contient l’infinitif. Explique le choix.",
+  "steps": [
+   "l’infinitif exprimant ici percevoir ou examiner.",
+   "Le verbe s’écrit voir sans e final."
+  ],
+  "answer": "voir",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "fi5-21-c1",
+    "status": "draft",
+    "idea": "Distingue les notions avant de choisir.",
+    "vars": {},
+    "example": [
+     "voir : l’infinitif exprimant ici percevoir ou examiner.",
+     "voire : le renforcement au sens de et même.",
+     "voix : le nom désignant ici le son de la parole.",
+     "voie : le nom désignant ici un passage."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-21-notions"
+    }
+   },
+   {
+    "id": "fi5-21-c2",
+    "status": "draft",
+    "idea": "Lis le contexte avant de nommer la notion.",
+    "vars": {},
+    "example": [
+     "Je voudrais voir le plan contient l’infinitif.",
+     "Utile, voire indispensable renforce utile.",
+     "Sa voix est audible dans la salle.",
+     "Cette voie mène à la cour."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "fi5-21-cas"
+    }
+   },
+   {
+    "id": "fi5-21-c3",
+    "status": "draft",
+    "idea": "Corrige sans changer le sens voulu.",
+    "vars": {},
+    "example": [
+     "Voire est l’infinitif de perception. Correction : Le verbe s’écrit voir sans e final.",
+     "Voir remplace et même dans cet emploi. Correction : L’adverbe de renforcement prend un e.",
+     "Voie désigne le son de sa parole dans ce modèle. Correction : Voix porte le sens vocal demandé.",
+     "Voix est le chemin représenté dans ce modèle. Correction : Le nom de passage s’écrit voie."
+    ],
+    "checks": [],
+    "check": {
+     "id": "fi5-21-corriger-card",
+     "type": "spot_error",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "francais"
+     ],
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "voir : l’infinitif exprimant ici percevoir ou examiner.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le verbe s’écrit voir sans e final. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "voire : le renforcement au sens de et même.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’adverbe de renforcement prend un e. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "voix : le nom désignant ici le son de la parole.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Voix porte le sens vocal demandé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "voie : le nom désignant ici un passage.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le nom de passage s’écrit voie. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Voire est l’infinitif de perception.",
+        "truth": "false",
+        "explain": "Le verbe s’écrit voir sans e final."
+       },
+       {
+        "text": "Voir remplace et même dans cet emploi.",
+        "truth": "false",
+        "explain": "L’adverbe de renforcement prend un e."
+       },
+       {
+        "text": "Voie désigne le son de sa parole dans ce modèle.",
+        "truth": "false",
+        "explain": "Voix porte le sens vocal demandé."
+       },
+       {
+        "text": "Voix est le chemin représenté dans ce modèle.",
+        "truth": "false",
+        "explain": "Le nom de passage s’écrit voie."
+       }
+      ]
+     },
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
+     "lang": "fr"
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "fi5-21-notions",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Quel terme désigne l’infinitif exprimant ici percevoir ou examiner ?",
+       "r": "voir",
+       "w": [
+        "voire",
+        "voix",
+        "voie"
+       ],
+       "e": [
+        "Cela désigne le renforcement au sens de et même, plutôt que la notion demandée.",
+        "Cela désigne le nom désignant ici le son de la parole, plutôt que la notion demandée.",
+        "Cela désigne le nom désignant ici un passage, plutôt que la notion demandée."
+       ],
+       "y": "Le verbe s’écrit voir sans e final."
+      },
+      {
+       "q": "Quel terme désigne le renforcement au sens de et même ?",
+       "r": "voire",
+       "w": [
+        "voir",
+        "voix",
+        "voie"
+       ],
+       "e": [
+        "Cela désigne l’infinitif exprimant ici percevoir ou examiner, plutôt que la notion demandée.",
+        "Cela désigne le nom désignant ici le son de la parole, plutôt que la notion demandée.",
+        "Cela désigne le nom désignant ici un passage, plutôt que la notion demandée."
+       ],
+       "y": "L’adverbe de renforcement prend un e."
+      },
+      {
+       "q": "Quel terme désigne le nom désignant ici le son de la parole ?",
+       "r": "voix",
+       "w": [
+        "voir",
+        "voire",
+        "voie"
+       ],
+       "e": [
+        "Cela désigne l’infinitif exprimant ici percevoir ou examiner, plutôt que la notion demandée.",
+        "Cela désigne le renforcement au sens de et même, plutôt que la notion demandée.",
+        "Cela désigne le nom désignant ici un passage, plutôt que la notion demandée."
+       ],
+       "y": "Voix porte le sens vocal demandé."
+      },
+      {
+       "q": "Quel terme désigne le nom désignant ici un passage ?",
+       "r": "voie",
+       "w": [
+        "voir",
+        "voire",
+        "voix"
+       ],
+       "e": [
+        "Cela désigne l’infinitif exprimant ici percevoir ou examiner, plutôt que la notion demandée.",
+        "Cela désigne le renforcement au sens de et même, plutôt que la notion demandée.",
+        "Cela désigne le nom désignant ici le son de la parole, plutôt que la notion demandée."
+       ],
+       "y": "Le nom de passage s’écrit voie."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-21-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Je voudrais voir le plan contient l’infinitif.\nQuelle notion convient ?",
+       "r": "voir",
+       "w": [
+        "voire",
+        "voix",
+        "voie"
+       ],
+       "e": [
+        "Cela concerne le renforcement au sens de et même. Compare cette définition avec le cas présenté.",
+        "Cela concerne le nom désignant ici le son de la parole. Compare cette définition avec le cas présenté.",
+        "Cela concerne le nom désignant ici un passage. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le verbe s’écrit voir sans e final."
+      },
+      {
+       "q": "Utile, voire indispensable renforce utile.\nQuelle notion convient ?",
+       "r": "voire",
+       "w": [
+        "voir",
+        "voix",
+        "voie"
+       ],
+       "e": [
+        "Cela concerne l’infinitif exprimant ici percevoir ou examiner. Compare cette définition avec le cas présenté.",
+        "Cela concerne le nom désignant ici le son de la parole. Compare cette définition avec le cas présenté.",
+        "Cela concerne le nom désignant ici un passage. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’adverbe de renforcement prend un e."
+      },
+      {
+       "q": "Sa voix est audible dans la salle.\nQuelle notion convient ?",
+       "r": "voix",
+       "w": [
+        "voir",
+        "voire",
+        "voie"
+       ],
+       "e": [
+        "Cela concerne l’infinitif exprimant ici percevoir ou examiner. Compare cette définition avec le cas présenté.",
+        "Cela concerne le renforcement au sens de et même. Compare cette définition avec le cas présenté.",
+        "Cela concerne le nom désignant ici un passage. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Voix porte le sens vocal demandé."
+      },
+      {
+       "q": "Cette voie mène à la cour.\nQuelle notion convient ?",
+       "r": "voie",
+       "w": [
+        "voir",
+        "voire",
+        "voix"
+       ],
+       "e": [
+        "Cela concerne l’infinitif exprimant ici percevoir ou examiner. Compare cette définition avec le cas présenté.",
+        "Cela concerne le renforcement au sens de et même. Compare cette définition avec le cas présenté.",
+        "Cela concerne le nom désignant ici le son de la parole. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le nom de passage s’écrit voie."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-21-appliquer",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Je voudrais ___ le plan. Choisis la graphie adaptée.",
+       "r": "voir",
+       "w": [
+        "voire",
+        "voix",
+        "voie"
+       ],
+       "e": [
+        "voire désigne ou exprime renforcer une idée au sens de et même, plutôt que le sens demandé.",
+        "voix désigne ou exprime le son produit pour parler ou chanter dans le modèle, plutôt que le sens demandé.",
+        "voie désigne ou exprime un passage ou chemin dans le modèle, plutôt que le sens demandé."
+       ],
+       "y": "Le sens et la construction demandent voir."
+      },
+      {
+       "q": "Le texte est utile, ___ indispensable. Choisis la graphie adaptée.",
+       "r": "voire",
+       "w": [
+        "voir",
+        "voix",
+        "voie"
+       ],
+       "e": [
+        "voir désigne ou exprime percevoir ou examiner dans le modèle, plutôt que le sens demandé.",
+        "voix désigne ou exprime le son produit pour parler ou chanter dans le modèle, plutôt que le sens demandé.",
+        "voie désigne ou exprime un passage ou chemin dans le modèle, plutôt que le sens demandé."
+       ],
+       "y": "Le sens et la construction demandent voire."
+      },
+      {
+       "q": "Sa ___ est audible au fond de la salle. Choisis la graphie adaptée.",
+       "r": "voix",
+       "w": [
+        "voir",
+        "voire",
+        "voie"
+       ],
+       "e": [
+        "voir désigne ou exprime percevoir ou examiner dans le modèle, plutôt que le sens demandé.",
+        "voire désigne ou exprime renforcer une idée au sens de et même, plutôt que le sens demandé.",
+        "voie désigne ou exprime un passage ou chemin dans le modèle, plutôt que le sens demandé."
+       ],
+       "y": "Le sens et la construction demandent voix."
+      },
+      {
+       "q": "Cette ___ mène à la cour. Choisis la graphie adaptée.",
+       "r": "voie",
+       "w": [
+        "voir",
+        "voire",
+        "voix"
+       ],
+       "e": [
+        "voir désigne ou exprime percevoir ou examiner dans le modèle, plutôt que le sens demandé.",
+        "voire désigne ou exprime renforcer une idée au sens de et même, plutôt que le sens demandé.",
+        "voix désigne ou exprime le son produit pour parler ou chanter dans le modèle, plutôt que le sens demandé."
+       ],
+       "y": "Le sens et la construction demandent voie."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-21-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "voir",
+     "right": "Je voudrais voir le plan contient l’infinitif."
+    },
+    {
+     "left": "voire",
+     "right": "Utile, voire indispensable renforce utile."
+    },
+    {
+     "left": "voix",
+     "right": "Sa voix est audible dans la salle."
+    },
+    {
+     "left": "voie",
+     "right": "Cette voie mène à la cour."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi5-21-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "francais"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "voir : l’infinitif exprimant ici percevoir ou examiner.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le verbe s’écrit voir sans e final. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "voire : le renforcement au sens de et même.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’adverbe de renforcement prend un e. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "voix : le nom désignant ici le son de la parole.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Voix porte le sens vocal demandé. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "voie : le nom désignant ici un passage.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le nom de passage s’écrit voie. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Voire est l’infinitif de perception.",
+      "truth": "false",
+      "explain": "Le verbe s’écrit voir sans e final."
+     },
+     {
+      "text": "Voir remplace et même dans cet emploi.",
+      "truth": "false",
+      "explain": "L’adverbe de renforcement prend un e."
+     },
+     {
+      "text": "Voie désigne le son de sa parole dans ce modèle.",
+      "truth": "false",
+      "explain": "Voix porte le sens vocal demandé."
+     },
+     {
+      "text": "Voix est le chemin représenté dans ce modèle.",
+      "truth": "false",
+      "explain": "Le nom de passage s’écrit voie."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
+   "lang": "fr"
+  }
+ ]
+}
