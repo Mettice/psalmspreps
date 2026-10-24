@@ -189,7 +189,7 @@ const baseTip = (q) => para(T("Type only the digits. The small {a} is already th
 /** Shows q; calls onAnswer({result, ms}) when the pupil answers or presses "I don't know". */
 function askQuestion(q, { kicker, title, onAnswer, bar = null, back = null }) {
   const t0 = performance.now();
-  const finish = (response) => onAnswer({ result: check(q, response), ms: Math.round(performance.now() - t0) });
+  const finish = (response) => onAnswer({ result: check(q, response), ms: Math.round(performance.now() - t0), response });
   const body = [bar, header(kicker, title), el("div", { class: "prompt" }, q.prompt), figureBox(q.figure)];
   if (q.type === "blanks") {
     // a step-by-step line: one small box per blank, all checked together (2026-10-19)
@@ -233,10 +233,27 @@ function askQuestion(q, { kicker, title, onAnswer, bar = null, back = null }) {
   screen(...body);
 }
 
-const recordOf = (q, r, ms, phase) => ({
+const recordOf = (q, r, ms, phase, response) => ({
   phase, id: q.id, level: q.level, result: r.correct ? "right" : r.dontKnow ? "idk" : "wrong",
   seconds: Math.round(ms / 100) / 10, misconception: r.misconception?.id || "",
+  typed: typedText(q, response, r), expected: expectedText(q),
 });
+// For "Copy results" (2026-10-24): what the pupil answered and the right answer, so a mistake the app did not
+// foresee can still be seen. Step-by-step boxes: each box, a wrong one marked ✗.
+const short = (x) => String(x ?? "").replace(/\s+/g, " ").trim().slice(0, 60);
+function typedText(q, response, r) {
+  if (response === undefined || response === DONT_KNOW) return "";
+  if (q.type === "blanks") return response.map((v, i) => `${v}${r.wrongBlanks?.includes(i) ? "✗" : ""}`).join(" | ");
+  if (q.options && Number.isInteger(response)) return short(q.options[response]?.text);
+  if (Array.isArray(response)) return short(response.map((i) => (q.items || q.right || [])[i] ?? i).join(" / "));
+  return short(response);
+}
+function expectedText(q) {
+  if (q.type === "blanks") return q.answers.join(" | ");
+  if (q.type === "numeric" || (q.type === "cloze" && q.mode === "type")) return short(`${q.answer}${q.base ? LIB().sub(q.base) : ""}`);
+  if (q.options && Number.isInteger(q.correctIndex)) return short(q.options[q.correctIndex]?.text);
+  return "";
+}
 // On every lesson screen, the answer screens included (2026-10-19), so the pupil can always leave; the flow is saved.
 const toMenu = () => button(T("Back to the lessons"), menu, "link");
 
@@ -257,8 +274,8 @@ function readinessQ(qs, i, rows) {
   if (i >= qs.length) return readinessDone(rows);
   askQuestion(qs[i], {
     bar: progress(i + 1, qs.length), kicker: "Getting ready", title: "Primary School maths",
-    onAnswer: ({ result, ms }) => {
-      rows.push({ ...recordOf(qs[i], result, ms, "readiness"), template: qs[i].id, correct: result.correct });
+    onAnswer: ({ result, ms, response }) => {
+      rows.push({ ...recordOf(qs[i], result, ms, "readiness", response), template: qs[i].id, correct: result.correct });
       readinessQ(qs, i + 1, rows);
     },
   });
@@ -420,8 +437,9 @@ function menu() {
     const done = doneIn(s).length, stars = doneIn(s).reduce((t, n) => t + starsOf(state.lessons[lessonKey(s, n)]), 0);
     const row = (n) => {
       const r = state.lessons[lessonKey(s, n)], going = cur?.lesson === n, isNext = !cur && n === next;
-      const mark = r?.done ? "✓" : going ? "…" : String(n);
-      const sub = r?.done ? `${starText(starsOf(r))} · tap to practise again` : going ? "Started · tap to carry on" : PAPER[s]?.includes(n) ? "Writing on paper" : "";
+      const mark = r?.done ? "✓" : going ? "…" : r?.comeBack ? "↻" : String(n);
+      const sub = r?.done ? `${starText(starsOf(r))} · tap to practise again` : going ? "Started · tap to carry on"
+        : r?.comeBack ? "Come back to it · step by step" : PAPER[s]?.includes(n) ? "Writing on paper" : "";
       return el("li", { class: `step${r?.done ? " is-done" : ""}${going || isNext ? " is-next" : ""}` },
         el("button", { type: "button", class: `lesson${r?.done ? " is-done" : ""}`, onclick: () => openLesson(s, n) },
           el("span", { class: "mark", "aria-hidden": "true" }, mark),
@@ -431,11 +449,12 @@ function menu() {
     };
     // The Primary 6 readiness check belongs to Maths only: it is offered first on the Maths tab until it is done
     // (2026-10-07; before, it blocked the whole app on a first visit). It never blocks a lesson or the English tab.
-    const check = s === "maths" && !state.readiness;
-    const lead = check ? [button("Before Maths: a short check (13 questions)", start, "primary"),
+    const check = s === "maths" && (!state.readiness || !readiness.readinessValidity(state.readiness.rows).valid);
+    const lead = check ? [button(`Before Maths: a short check (${L0().readiness.items.length} questions)`, start, "primary"),
         para("It looks at the Primary School maths you need. About 10 minutes, no marks.", "muted")]
       : cur ? button(`Carry on with Lesson ${cur.lesson}`, () => openLesson(s, cur.lesson), "primary")
-      : next ? button(`Start Lesson ${next}: ${TITLES[s][next]}`, () => openLesson(s, next), "primary") : null;
+      : next ? button(state.lessons[lessonKey(s, next)]?.comeBack ? `Come back to Lesson ${next}, step by step` : `Start Lesson ${next}: ${TITLES[s][next]}`,
+        () => openLesson(s, next), "primary") : null;
     screen(tinted(s, "div", { class: "subject-page" },
       button("← All subjects", home, "link back"),
       el("header", { class: "subject-head" }, el("span", { class: "sh-icon", "aria-hidden": "true" }, iconOf(s)),
@@ -476,16 +495,34 @@ const N = () => C().lesson;
 const LIB = () => libs[S];
 
 /** Opens lesson n: carries on a saved, unfinished flow, otherwise starts it fresh. */
-function openLesson(s, n) {
+function openLesson(s, n, { anyway = false } = {}) {
   withSubject(s, () => {
     S = s;
     document.documentElement.lang = s === "french" ? "fr" : "en";  // screen readers read French lessons in French
     const cur = state.current[s];
     if (cur?.lesson === n && !teach.isDone(cur.flow)) { cur.at = new Date().toISOString(); return lesson(resumable(cur.flow)); }
-    state.current[s] = { lesson: n, flow: teach.startTeach(CONTENT[s][n], newSeed()), rows: [], at: new Date().toISOString() };
+    const missing = s === "maths" && !anyway && !state.lessons[lessonKey(s, n)]?.done ? missingBefore(s, n) : [];
+    if (missing.length) return earlierFirst(s, n, missing);
+    const guided = !!state.lessons[lessonKey(s, n)]?.comeBack;  // stopped last time: step by step from the first try
+    state.current[s] = { lesson: n, flow: teach.startTeach(CONTENT[s][n], newSeed(), { guided }), rows: [], at: new Date().toISOString() };
     save();
     lesson(state.current[s].flow);
   });
+}
+/** Earlier lessons this one builds on (its `prerequisites`) that are not done yet. */
+const missingBefore = (s, n) => (CONTENT[s][n].prerequisites || []).filter((p) => LESSONS[s].includes(p) && !state.lessons[lessonKey(s, p)]?.done);
+/**
+ * Soft lock (Maths, 2026-10-24): Lesson 8 (bases) needs Lesson 7 (powers). The pupil is told which lesson comes
+ * first and can still go on.
+ */
+function earlierFirst(s, n, missing) {
+  const names = missing.map((p) => `Lesson ${p} (${TITLES[s][p]})`).join(" and ");
+  screen(tinted(s, "div", {},
+    header(`Lesson ${n}`, missing.length > 1 ? "First, two earlier lessons" : "First, an earlier lesson"),
+    para(`Lesson ${n} uses what you learn in ${names}. It will be much easier if you do ${missing.length > 1 ? "them" : "it"} first.`),
+    ...missing.map((p) => button(`Go to Lesson ${p}: ${TITLES[s][p]}`, () => openLesson(s, p), "primary")),
+    button(`Do Lesson ${n} anyway`, () => openLesson(s, n, { anyway: true }), ""),
+    toMenu()));
 }
 /** Starts lesson n again from its first card: clears its saved run (stars, answers) and any unfinished flow,
  *  after the pupil confirms. Badges already earned and other lessons are kept. */
@@ -512,6 +549,7 @@ function lesson(flow, previous = null) {
   C().flow = flow;
   save();
   if (teach.isDone(flow)) return results(flow);
+  if (flow.attempt === 0 && flow.phase !== "reveal" && teach.isStuck(flow)) return stuck(flow);
   const Ln = L(), n = N();
   const step = flow.steps[flow.step];
   const nCards = Ln.teach.cards.length;
@@ -530,8 +568,8 @@ function lesson(flow, previous = null) {
     const q = teach.itemQuestion(Ln, flow, LIB(), previous);
     return askQuestion(q, {
       bar, kicker, back: toMenu(), title: q.type === "blanks" ? T("Step by step") : flow.attempt ? T("A new question") : step.kind === "card" ? T("Quick check") : T("Level {a}", { a: q.level }),
-      onAnswer: ({ result, ms }) => {
-        C().rows.push({ ...recordOf(q, result, ms, step.kind), card: step.kind === "card" ? Ln.teach.cards[step.card].id : "", attempt: flow.attempt + 1 });
+      onAnswer: ({ result, ms, response }) => {
+        C().rows.push({ ...recordOf(q, result, ms, step.kind, response), card: step.kind === "card" ? Ln.teach.cards[step.card].id : "", attempt: flow.attempt + 1 });
         recordDay();
         const next = teach.answerItem(flow, result, ms);
         C().flow = next;
@@ -555,6 +593,47 @@ function lesson(flow, previous = null) {
     return screen(bar, header(T("Lesson {n} · Summary", { n }), TITLES[S][n]), el("div", { class: "note" }, ...lines(Ln.note.text)),
       button(T("Finish"), go(teach.nextPhase(flow)), "primary"));
   }
+}
+
+/**
+ * Stuck guard (2026-10-24): two cards missed twice, or 15 minutes with fewer than half right. The lesson ends on one
+ * easy question the pupil has already got right, is saved as "come back later", and runs step by step next time.
+ */
+function stuck(flow) {
+  const s = S, n = N(), Ln = L();
+  const easy = teach.easyStep(Ln, flow);
+  const q = teach.itemQuestion(Ln, { ...flow, step: easy, attempt: 0, guided: false, seed: flow.seed + 7919 }, LIB());
+  const step = flow.steps[easy];
+  const missedCards = flow.log.filter((e) => e.needsReview && e.kind === "card").length;
+  const mins = Math.round(flow.log.reduce((t, e) => t + (e.ms || 0), 0) / 60000);
+  const reason = `${missedCards} idea${missedCards === 1 ? "" : "s"} missed twice, ${mins} min, ${flow.log.filter((e) => e.correct).length} of ${flow.log.length} right`;
+  const finish = (result) => {
+    const review = teach.needsReview(flow).map((x) => (x.kind === "card" ? Ln.teach.cards[x.card].id : x.template));
+    state.lessons[lessonKey(s, n)] = { done: false, comeBack: true, stuck: reason, at: new Date().toISOString(), rows: C().rows, review, ...(flow.guided ? { guided: true } : {}) };
+    delete state.current[s];
+    save();
+    const before = missingBefore(s, n);
+    const text = lessonResultsText(s, n);
+    const status = para("", "muted");
+    screen(el("div", { class: result.correct ? "fb good" : "fb soft", role: "status" }, el("strong", {}, result.correct ? T("Correct!") : `The answer is ${expectedText(q)}.`)),
+      header(`Lesson ${n}`, "Well done for working so hard"),
+      para("This lesson has many new ideas. We will come back to it another day and do it step by step, one small part at a time."),
+      before.length ? para(`Before that, do ${before.map((p) => `Lesson ${p} (${TITLES[s][p]})`).join(" and ")}: Lesson ${n} uses ${before.length > 1 ? "them" : "it"}.`, "strong") : null,
+      before.length ? button(`Go to Lesson ${before[0]}`, () => openLesson(s, before[0]), "primary") : null,
+      button(T("Back to the lessons"), menu, before.length ? "" : "primary"),
+      para("For a grown-up: these results stay on this phone until you copy them.", "muted"),
+      button("Copy results", () => copyText(text, status), ""), status);
+  };
+  screen(header(`Lesson ${n}`, "Let's stop here for today"),
+    para("You have worked hard on this lesson. Let's finish with one question you already know, then stop."),
+    button("OK, one more question", () => askQuestion(q, {
+      kicker: `Lesson ${n} · Last question for today`, title: T("Quick check"), back: toMenu(),
+      onAnswer: ({ result, ms, response }) => {
+        C().rows.push({ ...recordOf(q, result, ms, "easy", response), card: step.kind === "card" ? Ln.teach.cards[step.card].id : "", attempt: 1 });
+        recordDay();
+        finish(result);
+      },
+    }), "primary"), toMenu());
 }
 
 /**
@@ -626,7 +705,7 @@ function reveal(q, flow, kicker, bar, result) {
   const shown = q.type === "matching" ? T("Here are the right answers.")
     : T("The answer is: {a}", { a: `${q.answer}${q.base ? LIB().sub(q.base) : ""}${q.unit ? " " + q.unit : ""}` });  // 51₇, not 51
   screen(bar, header(kicker, T("Here is how to do it")),
-    el("div", { class: result.dontKnow ? "fb soft" : "fb bad shake", role: "status" }, el("strong", {}, shown)),
+    el("div", { class: result.dontKnow ? "fb soft" : "fb bad shake", role: "status" }, el("strong", { class: q.type === "blanks" ? "pre" : "" }, shown)),  // a division ladder keeps its lines
     el("div", { class: "example" }, el("div", { class: "kicker" }, T("Full working")), el("ol", {}, q.solution.map((s) => el("li", {}, s)))),
     para(T("We will come back to this one later."), "muted"),
     button(T("Continue"), () => lesson(teach.nextPhase(flow)), "primary"), toMenu());
@@ -646,18 +725,22 @@ function confetti() {
 }
 
 const count = (rows, k) => rows.filter((r) => r.result === k).length;
-const row = (x) => `${x.phase}\t${x.card ? x.card + "#" + x.attempt : x.attempt ? "#" + x.attempt : ""}\t${x.id}\tL${x.level}\t${x.result}\t${x.seconds}s\t${x.misconception}`;
-const TABLE_HEAD = "phase\tcard#try\ttemplate\tlevel\tresult\ttime\tmisconception";
+const row = (x) => `${x.phase}\t${x.card ? x.card + "#" + x.attempt : x.attempt ? "#" + x.attempt : ""}\t${x.id}\tL${x.level}\t${x.result}\t${x.seconds}s\t${x.misconception}\t${x.typed ?? "(not saved)"}\t${x.expected ?? ""}`;
+const TABLE_HEAD = "phase\tcard#try\ttemplate\tlevel\tresult\ttime\tmisconception\ttyped\tright answer";
 
 function readinessText() {
   const r = state.readiness?.score;
-  return [`Readiness (not shown to the pupil): ${r ? `${r.right}/${r.asked} (${r.percent}%) · ${state.readiness.at.slice(0, 10)}` : "not done"}`,
-    ...(r ? Object.values(r.areas).map((a) => `  ${a.name}: ${a.right}/${a.asked}${a.weak ? " · WEAK" : ""}`) : [])];
+  if (!r) return ["Readiness (not shown to the pupil): not done"];
+  const v = readiness.readinessValidity(state.readiness.rows);
+  return [`Readiness (not shown to the pupil): ${r.right}/${r.asked} (${r.percent}%) · ${state.readiness.at.slice(0, 10)}`,
+    ...(v.valid ? Object.values(r.areas).map((a) => `  ${a.name}: ${a.right}/${a.asked}${a.weak ? " · WEAK" : ""}`)
+      : [`  INVALID, not used: ${v.skipped} of ${v.asked} answers were "I don't know" or under ${readiness.RUSHED_SECONDS} seconds. The check is offered again on the Maths tab.`])];
 }
 function lessonText(s, n, r) {
   const cards = r.rows.filter((x) => x.phase === "card"), practice = r.rows.filter((x) => x.phase === "practice");
   const secs = r.rows.reduce((t, x) => t + x.seconds, 0);
-  const out = [`${SUBJECTS[s]} Lesson ${n} (${TITLES[s][n]}) · ${r.at.slice(0, 16).replace("T", " ")} · ${Math.round(secs)}s · "I don't know" ${count(r.rows, "idk")}`,
+  const out = [`${SUBJECTS[s]} Lesson ${n} (${TITLES[s][n]}) · ${r.at.slice(0, 16).replace("T", " ")} · ${Math.round(secs)}s · "I don't know" ${count(r.rows, "idk")}${r.guided ? " · step-by-step run" : ""}`,
+    ...(r.comeBack ? [`  STOPPED to come back later (${r.stuck}); next time it runs step by step`] : []),
     `  cards: ${count(cards, "right")} right, ${count(cards, "wrong")} wrong, ${count(cards, "idk")} IDK · practice: ${count(practice, "right")} right, ${count(practice, "wrong")} wrong, ${count(practice, "idk")} IDK`,
     `  needs review (missed twice): ${r.review.join(", ") || "none"}`];
   if (r.paper) {
@@ -678,8 +761,9 @@ function allResultsText() {
   const tables = [...(state.readiness?.rows || []).map(row)];
   for (const s of Object.keys(SUBJECTS)) {
     const done = LESSONS[s].filter((n) => state.lessons[lessonKey(s, n)]?.done);
-    out.push(`${SUBJECTS[s]}: lessons done ${done.length} of ${LESSONS[s].length}`, ...done.flatMap((n) => lessonText(s, n, state.lessons[lessonKey(s, n)])));
-    tables.push(...done.flatMap((n) => state.lessons[lessonKey(s, n)].rows.map(row)));
+    const listed = LESSONS[s].filter((n) => state.lessons[lessonKey(s, n)]?.done || state.lessons[lessonKey(s, n)]?.comeBack);
+    out.push(`${SUBJECTS[s]}: lessons done ${done.length} of ${LESSONS[s].length}`, ...listed.flatMap((n) => lessonText(s, n, state.lessons[lessonKey(s, n)])));
+    tables.push(...listed.flatMap((n) => state.lessons[lessonKey(s, n)].rows.map(row)));
   }
   return [...out, "", TABLE_HEAD, ...tables].join("\n");
 }
@@ -696,7 +780,7 @@ function results(flow) {
   const s = S, n = N(), Ln = L();
   const review = teach.needsReview(flow).map((x) => (x.kind === "card" ? Ln.teach.cards[x.card].id : x.template));
   // The latest finished run of a lesson replaces the previous one.
-  const record = { done: true, at: new Date().toISOString(), rows: C().rows, review, ...(C().paper ? { paper: C().paper } : {}) };
+  const record = { done: true, at: new Date().toISOString(), rows: C().rows, review, ...(C().paper ? { paper: C().paper } : {}), ...(flow.guided ? { guided: true } : {}) };
   record.stars = starsOf(record);
   state.lessons[lessonKey(s, n)] = record;
   delete state.current[s];

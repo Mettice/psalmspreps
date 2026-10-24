@@ -239,11 +239,18 @@ const divisions = (n, b) => { const out = []; let q = n; do { out.push([Math.flo
  *       ___ remainder ___      (the last quotient, 0, is not divided again)
  *   Remainders from the bottom up: ___
  */
-export const divBlanks = (n, b) => [`${b} | ${fmt(n)}`,
+export const divBlanks = (n, b, top = fmt(n)) => [`${b} | ${top}`,
   ...divisions(n, b).map(([q]) => `${q > 0 ? `${b} | ` : ""}___ remainder ___`),
   "Remainders from the bottom up: ___"].join("\n");
 /** The answers to divBlanks, in order: each quotient and its remainder, then the base-b numeral (a string). */
 export const divAnswers = (n, b) => [...divisions(n, b).flat(), toBase(n, b)];
+/**
+ * From one base to another, through base ten: the place-value line, then the division ladder starting from the
+ * base-ten number the pupil has just found (not shown, so the first line is not given away).
+ */
+export const baseToBaseBlanks = (s, b1, b2) => [`First change ${sb(s, b1)} to base ten:`, placeBlanks(s),
+  `Then divide your base-ten number by ${b2} again and again:`, divBlanks(fromBase(s, b1), b2, "your number")].join("\n");
+export const baseToBaseAnswers = (s, b1, b2) => [...placeAnswers(s, b1), ...divAnswers(fromBase(s, b1), b2)];
 /** Usual wrong answers: the digits added, the digits multiplied, the place values read from the left. */
 export const digitSum = (s) => [...String(s)].reduce((a, d) => a + Number(d), 0);
 export const digitProduct = (s) => [...String(s)].reduce((a, d) => a * Number(d), 1);

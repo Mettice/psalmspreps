@@ -428,7 +428,12 @@
         "Then divide by {b2}:",
         "{divSteps(n, b2)}"
       ],
-      "base": "b2"
+      "base": "b2",
+      "scaffold": {
+        "text": "{baseToBaseBlanks(s, b1, b2)}",
+        "answers": "baseToBaseAnswers(s, b1, b2)",
+        "hint": "Under each digit write its place value in base {b1}, multiply and add. Then divide that number by {b2} until the quotient is {0}, and read the remainders from the bottom up."
+      }
     },
     {
       "id": "m8-spot",

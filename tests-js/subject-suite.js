@@ -123,6 +123,8 @@ export function subjectSuite({ subject, spine, lib, batch, prefix, numbering = "
         if (q.type === "numeric") {
           assert.deepEqual(check(q, q.answer), { correct: true }, where);
           assert.deepEqual(check(q, String(q.answerValue)), { correct: true }, where);
+          // many phone number pads have no minus sign: a template whose answer can be negative needs "signed" (2026-10-24)
+          if (typeof q.answerValue === "number" && q.answerValue < 0) assert.ok(tpl.signed, `${where}: answer ${q.answer} is negative but the template is not "signed"`);
           for (const m of q.misconceptions) {
             const r = check(q, m.value);
             assert.equal(r.correct, false, `${where}: misconception ${m.id} gives the right answer`);

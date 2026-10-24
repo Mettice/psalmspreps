@@ -35,3 +35,15 @@ export function scoreReadiness(lesson0, results) {
     weak: Object.entries(areas).filter(([, a]) => a.weak).map(([id]) => id),
   };
 }
+
+/**
+ * Whether a readiness result can be used (2026-10-24: a 0/13 result was taken as real). rows: the saved readiness
+ * rows ({result: "right"|"wrong"|"idk", seconds}). Not usable when at least 80% of the answers were "I don't know"
+ * or given in under 3 seconds: the check was skipped through, so it says nothing about what the pupil knows.
+ */
+export const RUSHED_SECONDS = 3;
+export function readinessValidity(rows) {
+  const skipped = (rows || []).filter((r) => r.result === "idk" || r.seconds < RUSHED_SECONDS).length;
+  const asked = (rows || []).length;
+  return { valid: asked > 0 && skipped < 0.8 * asked, skipped, asked };
+}
