@@ -1,0 +1,668 @@
+{
+ "subject": "geography",
+ "class": "Form 5",
+ "lesson_no": 22,
+ "language": "en",
+ "prerequisites": [
+  21
+ ],
+ "skills": [
+  {
+   "id": "g5-22",
+   "name": "Volume of trade"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Trade can be measured as physical quantities or as monetary values. A total physical tonnage requires compatible units and a specified period and boundary. Adding exports and imports gives a total flow measure when defined that way; subtracting gives a balance instead. Monetary trade value can change with prices even when physical quantities do not. Published volume indices may use constant-price methods rather than raw tonnage.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to distinguish physical trade quantity from money value and calculate a comparable total. Builds on: transport flows and network maps. Leads to: regional trade arrangements."
+   },
+   {
+    "heading": "Explain the geography",
+    "text": "Trade can be measured as physical quantities or as monetary values. A total physical tonnage requires compatible units and a specified period and boundary. Adding exports and imports gives a total flow measure when defined that way; subtracting gives a balance instead. Monetary trade value can change with prices even when physical quantities do not. Published volume indices may use constant-price methods rather than raw tonnage."
+   },
+   {
+    "heading": "Follow the local example or model",
+    "text": "In an invented port-month record, exports weigh {120} tonnes and imports {180} tonnes. Combined handled trade is {120+180} tonnes. This does not measure export earnings, an export-minus-import balance or value added. If prices change while these weights stay fixed, trade money values may change without the physical tonnage changing."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Name the measure, units, area and period before calculating. Add compatible physical quantities for the stated combined flow. Do not add tonnes to CFA francs or assume every published use of volume means a simple total weight."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "physical quantity",
+    "meaning": "an amount measured in a physical unit"
+   },
+   {
+    "word": "trade value",
+    "meaning": "a monetary measure of traded goods or services"
+   },
+   {
+    "word": "combined trade flow",
+    "meaning": "exports plus imports under the stated definition"
+   },
+   {
+    "word": "comparison basis",
+    "meaning": "the boundary, period and units making a comparison meaningful"
+   }
+  ],
+  "mistake": {
+   "wrong": "Tonnes are a monetary price unit.",
+   "right": "an amount measured in a physical unit.",
+   "why": "Weight differs from money value."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A record states tonnes moved in a month. Explain the relationship.",
+  "steps": [
+   "an amount measured in a physical unit.",
+   "Weight differs from money value."
+  ],
+  "answer": "physical quantity",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "g5-22-c1",
+    "status": "draft",
+    "idea": "Distinguish the features before applying them.",
+    "vars": {},
+    "example": [
+     "physical quantity: an amount measured in a physical unit.",
+     "trade value: a monetary measure of traded goods or services.",
+     "combined trade flow: exports plus imports under the stated definition.",
+     "comparison basis: the boundary, period and units making a comparison meaningful."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-22-terms"
+    }
+   },
+   {
+    "id": "g5-22-c2",
+    "status": "draft",
+    "idea": "Use the evidence in the example, not a place name alone.",
+    "vars": {},
+    "example": [
+     "A record states tonnes moved in a month.",
+     "A report records a shipment’s money value.",
+     "A fictional record adds compatible outward and inward tonnage.",
+     "Bih compares the same port-month and unit."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-22-cases"
+    }
+   },
+   {
+    "id": "g5-22-c3",
+    "status": "draft",
+    "idea": "Explain how the process produces the stated effect.",
+    "vars": {},
+    "example": [
+     "Weight differs from money value.",
+     "Prices can change independently of physical quantity.",
+     "Addition measures this defined total; subtraction measures a difference.",
+     "Compatible definitions and units are necessary."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g5-22-explain-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "trade"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A record states tonnes moved in a month.\nWhich explanation follows?",
+         "r": "Weight differs from money value.",
+         "w": [
+          "Prices can change independently of physical quantity.",
+          "Addition measures this defined total; subtraction measures a difference.",
+          "Compatible definitions and units are necessary."
+         ],
+         "e": [
+          "That explanation addresses trade value, rather than the process or relationship in this case.",
+          "That explanation addresses combined trade flow, rather than the process or relationship in this case.",
+          "That explanation addresses comparison basis, rather than the process or relationship in this case."
+         ],
+         "y": "an amount measured in a physical unit."
+        },
+        {
+         "q": "A report records a shipment’s money value.\nWhich explanation follows?",
+         "r": "Prices can change independently of physical quantity.",
+         "w": [
+          "Weight differs from money value.",
+          "Addition measures this defined total; subtraction measures a difference.",
+          "Compatible definitions and units are necessary."
+         ],
+         "e": [
+          "That explanation addresses physical quantity, rather than the process or relationship in this case.",
+          "That explanation addresses combined trade flow, rather than the process or relationship in this case.",
+          "That explanation addresses comparison basis, rather than the process or relationship in this case."
+         ],
+         "y": "a monetary measure of traded goods or services."
+        },
+        {
+         "q": "A fictional record adds compatible outward and inward tonnage.\nWhich explanation follows?",
+         "r": "Addition measures this defined total; subtraction measures a difference.",
+         "w": [
+          "Weight differs from money value.",
+          "Prices can change independently of physical quantity.",
+          "Compatible definitions and units are necessary."
+         ],
+         "e": [
+          "That explanation addresses physical quantity, rather than the process or relationship in this case.",
+          "That explanation addresses trade value, rather than the process or relationship in this case.",
+          "That explanation addresses comparison basis, rather than the process or relationship in this case."
+         ],
+         "y": "exports plus imports under the stated definition."
+        },
+        {
+         "q": "Bih compares the same port-month and unit.\nWhich explanation follows?",
+         "r": "Compatible definitions and units are necessary.",
+         "w": [
+          "Weight differs from money value.",
+          "Prices can change independently of physical quantity.",
+          "Addition measures this defined total; subtraction measures a difference."
+         ],
+         "e": [
+          "That explanation addresses physical quantity, rather than the process or relationship in this case.",
+          "That explanation addresses trade value, rather than the process or relationship in this case.",
+          "That explanation addresses combined trade flow, rather than the process or relationship in this case."
+         ],
+         "y": "the boundary, period and units making a comparison meaningful."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g5-22-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "trade"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means an amount measured in a physical unit?",
+       "r": "physical quantity",
+       "w": [
+        "trade value",
+        "combined trade flow",
+        "comparison basis"
+       ],
+       "e": [
+        "That concerns a monetary measure of traded goods or services, rather than the feature asked for.",
+        "That concerns exports plus imports under the stated definition, rather than the feature asked for.",
+        "That concerns the boundary, period and units making a comparison meaningful, rather than the feature asked for."
+       ],
+       "y": "Weight differs from money value."
+      },
+      {
+       "q": "Which term means a monetary measure of traded goods or services?",
+       "r": "trade value",
+       "w": [
+        "physical quantity",
+        "combined trade flow",
+        "comparison basis"
+       ],
+       "e": [
+        "That concerns an amount measured in a physical unit, rather than the feature asked for.",
+        "That concerns exports plus imports under the stated definition, rather than the feature asked for.",
+        "That concerns the boundary, period and units making a comparison meaningful, rather than the feature asked for."
+       ],
+       "y": "Prices can change independently of physical quantity."
+      },
+      {
+       "q": "Which term means exports plus imports under the stated definition?",
+       "r": "combined trade flow",
+       "w": [
+        "physical quantity",
+        "trade value",
+        "comparison basis"
+       ],
+       "e": [
+        "That concerns an amount measured in a physical unit, rather than the feature asked for.",
+        "That concerns a monetary measure of traded goods or services, rather than the feature asked for.",
+        "That concerns the boundary, period and units making a comparison meaningful, rather than the feature asked for."
+       ],
+       "y": "Addition measures this defined total; subtraction measures a difference."
+      },
+      {
+       "q": "Which term means the boundary, period and units making a comparison meaningful?",
+       "r": "comparison basis",
+       "w": [
+        "physical quantity",
+        "trade value",
+        "combined trade flow"
+       ],
+       "e": [
+        "That concerns an amount measured in a physical unit, rather than the feature asked for.",
+        "That concerns a monetary measure of traded goods or services, rather than the feature asked for.",
+        "That concerns exports plus imports under the stated definition, rather than the feature asked for."
+       ],
+       "y": "Compatible definitions and units are necessary."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-22-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "trade"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A record states tonnes moved in a month.\nWhich feature is illustrated?",
+       "r": "physical quantity",
+       "w": [
+        "trade value",
+        "combined trade flow",
+        "comparison basis"
+       ],
+       "e": [
+        "That identifies a monetary measure of traded goods or services. Read the case for evidence of an amount measured in a physical unit.",
+        "That identifies exports plus imports under the stated definition. Read the case for evidence of an amount measured in a physical unit.",
+        "That identifies the boundary, period and units making a comparison meaningful. Read the case for evidence of an amount measured in a physical unit."
+       ],
+       "y": "Weight differs from money value."
+      },
+      {
+       "q": "A report records a shipment’s money value.\nWhich feature is illustrated?",
+       "r": "trade value",
+       "w": [
+        "physical quantity",
+        "combined trade flow",
+        "comparison basis"
+       ],
+       "e": [
+        "That identifies an amount measured in a physical unit. Read the case for evidence of a monetary measure of traded goods or services.",
+        "That identifies exports plus imports under the stated definition. Read the case for evidence of a monetary measure of traded goods or services.",
+        "That identifies the boundary, period and units making a comparison meaningful. Read the case for evidence of a monetary measure of traded goods or services."
+       ],
+       "y": "Prices can change independently of physical quantity."
+      },
+      {
+       "q": "A fictional record adds compatible outward and inward tonnage.\nWhich feature is illustrated?",
+       "r": "combined trade flow",
+       "w": [
+        "physical quantity",
+        "trade value",
+        "comparison basis"
+       ],
+       "e": [
+        "That identifies an amount measured in a physical unit. Read the case for evidence of exports plus imports under the stated definition.",
+        "That identifies a monetary measure of traded goods or services. Read the case for evidence of exports plus imports under the stated definition.",
+        "That identifies the boundary, period and units making a comparison meaningful. Read the case for evidence of exports plus imports under the stated definition."
+       ],
+       "y": "Addition measures this defined total; subtraction measures a difference."
+      },
+      {
+       "q": "Bih compares the same port-month and unit.\nWhich feature is illustrated?",
+       "r": "comparison basis",
+       "w": [
+        "physical quantity",
+        "trade value",
+        "combined trade flow"
+       ],
+       "e": [
+        "That identifies an amount measured in a physical unit. Read the case for evidence of the boundary, period and units making a comparison meaningful.",
+        "That identifies a monetary measure of traded goods or services. Read the case for evidence of the boundary, period and units making a comparison meaningful.",
+        "That identifies exports plus imports under the stated definition. Read the case for evidence of the boundary, period and units making a comparison meaningful."
+       ],
+       "y": "Compatible definitions and units are necessary."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-22-explain",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "trade"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A record states tonnes moved in a month.\nWhich explanation follows?",
+       "r": "Weight differs from money value.",
+       "w": [
+        "Prices can change independently of physical quantity.",
+        "Addition measures this defined total; subtraction measures a difference.",
+        "Compatible definitions and units are necessary."
+       ],
+       "e": [
+        "That explanation addresses trade value, rather than the process or relationship in this case.",
+        "That explanation addresses combined trade flow, rather than the process or relationship in this case.",
+        "That explanation addresses comparison basis, rather than the process or relationship in this case."
+       ],
+       "y": "an amount measured in a physical unit."
+      },
+      {
+       "q": "A report records a shipment’s money value.\nWhich explanation follows?",
+       "r": "Prices can change independently of physical quantity.",
+       "w": [
+        "Weight differs from money value.",
+        "Addition measures this defined total; subtraction measures a difference.",
+        "Compatible definitions and units are necessary."
+       ],
+       "e": [
+        "That explanation addresses physical quantity, rather than the process or relationship in this case.",
+        "That explanation addresses combined trade flow, rather than the process or relationship in this case.",
+        "That explanation addresses comparison basis, rather than the process or relationship in this case."
+       ],
+       "y": "a monetary measure of traded goods or services."
+      },
+      {
+       "q": "A fictional record adds compatible outward and inward tonnage.\nWhich explanation follows?",
+       "r": "Addition measures this defined total; subtraction measures a difference.",
+       "w": [
+        "Weight differs from money value.",
+        "Prices can change independently of physical quantity.",
+        "Compatible definitions and units are necessary."
+       ],
+       "e": [
+        "That explanation addresses physical quantity, rather than the process or relationship in this case.",
+        "That explanation addresses trade value, rather than the process or relationship in this case.",
+        "That explanation addresses comparison basis, rather than the process or relationship in this case."
+       ],
+       "y": "exports plus imports under the stated definition."
+      },
+      {
+       "q": "Bih compares the same port-month and unit.\nWhich explanation follows?",
+       "r": "Compatible definitions and units are necessary.",
+       "w": [
+        "Weight differs from money value.",
+        "Prices can change independently of physical quantity.",
+        "Addition measures this defined total; subtraction measures a difference."
+       ],
+       "e": [
+        "That explanation addresses physical quantity, rather than the process or relationship in this case.",
+        "That explanation addresses trade value, rather than the process or relationship in this case.",
+        "That explanation addresses combined trade flow, rather than the process or relationship in this case."
+       ],
+       "y": "the boundary, period and units making a comparison meaningful."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-22-tonnage",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "trade"
+   ],
+   "vars": {
+    "x": {
+     "pick": [
+      80,
+      120,
+      160,
+      200
+     ]
+    },
+    "m": {
+     "pick": [
+      100,
+      180,
+      220
+     ]
+    }
+   },
+   "prompt": "Invented monthly port record: exports {x} tonnes and imports {m} tonnes. Find combined export-plus-import tonnage.",
+   "answer": "x+m",
+   "misconceptions": [
+    {
+     "id": "m0",
+     "wrong": "x-m",
+     "explain": "Subtraction measures a difference, not the requested combined flow."
+    },
+    {
+     "id": "m1",
+     "wrong": "x",
+     "explain": "Exports alone omit imports."
+    }
+   ],
+   "solution": [
+    "Combined flow = exports + imports.",
+    "{x} + {m} = {x+m} tonnes."
+   ],
+   "unit": "tonnes"
+  },
+  {
+   "id": "g5-22-assess",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "trade"
+   ],
+   "prompt": "Find the incorrect geographical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "physical quantity: an amount measured in a physical unit.",
+      "truth": "true",
+      "explain": "This distinction is correct: Weight differs from money value. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "trade value: a monetary measure of traded goods or services.",
+      "truth": "true",
+      "explain": "This distinction is correct: Prices can change independently of physical quantity. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "combined trade flow: exports plus imports under the stated definition.",
+      "truth": "true",
+      "explain": "This distinction is correct: Addition measures this defined total; subtraction measures a difference. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "comparison basis: the boundary, period and units making a comparison meaningful.",
+      "truth": "true",
+      "explain": "This distinction is correct: Compatible definitions and units are necessary. Look for a claim that reverses the process or makes an unsupported generalisation."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Tonnes are a monetary price unit.",
+      "truth": "false",
+      "explain": "Weight differs from money value."
+     },
+     {
+      "text": "An unchanged weight guarantees unchanged money value.",
+      "truth": "false",
+      "explain": "Prices can change independently of physical quantity."
+     },
+     {
+      "text": "Combined flow is always exports minus imports.",
+      "truth": "false",
+      "explain": "Addition measures this defined total; subtraction measures a difference."
+     },
+     {
+      "text": "Tonnes and currency may be added directly.",
+      "truth": "false",
+      "explain": "Compatible definitions and units are necessary."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

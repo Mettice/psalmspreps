@@ -1,0 +1,717 @@
+{
+ "subject": "geography",
+ "class": "Form 5",
+ "lesson_no": 2,
+ "language": "en",
+ "prerequisites": [
+  1
+ ],
+ "skills": [
+  {
+   "id": "g5-2",
+   "name": "Agglomeration industries"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Agglomeration is the concentration of related firms and supporting activities. Shared suppliers, specialist workers, infrastructure and knowledge can reduce costs or improve coordination. A cluster is not simply any large city. Congestion, expensive land and pollution can create diseconomies. Benefits depend on actual links, capacity and management; clustering does not guarantee success.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to explain a cluster benefit and a possible cost using evidence. Builds on: manufacturing inputs and services. Leads to: industrial development and location."
+   },
+   {
+    "heading": "Explain the geography",
+    "text": "Agglomeration is the concentration of related firms and supporting activities. Shared suppliers, specialist workers, infrastructure and knowledge can reduce costs or improve coordination. A cluster is not simply any large city. Congestion, expensive land and pollution can create diseconomies. Benefits depend on actual links, capacity and management; clustering does not guarantee success."
+   },
+   {
+    "heading": "Follow the local example or model",
+    "text": "Uganda Investment Authority lists industrial parks including Jinja. A serviced park can bring firms near shared infrastructure, but a proposed advantage is not proof of every firm’s performance. The historic Zollverein complex at Essen in Germany illustrates links between production, rail and worker settlements in an older industrial region. These are different contexts, not identical development paths."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Identify what is shared and explain the mechanism. Then ask whether congestion or pressure on services could offset the saving. Separate a planned park, an operating cluster and a historical industrial landscape."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "supplier linkage",
+    "meaning": "nearby firms supplying inputs or specialist services"
+   },
+   {
+    "word": "labour pool",
+    "meaning": "a concentration of workers with relevant skills"
+   },
+   {
+    "word": "shared infrastructure",
+    "meaning": "facilities serving several activities"
+   },
+   {
+    "word": "agglomeration diseconomy",
+    "meaning": "a cost caused by excessive concentration or pressure"
+   }
+  ],
+  "mistake": {
+   "wrong": "Nearby firms never purchase services from each other.",
+   "right": "nearby firms supplying inputs or specialist services.",
+   "why": "Proximity can support repeated specialist transactions."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "An invented cluster shares a machinery-repair business. Explain the relationship.",
+  "steps": [
+   "nearby firms supplying inputs or specialist services.",
+   "Proximity can support repeated specialist transactions."
+  ],
+  "answer": "supplier linkage",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "g5-2-c1",
+    "status": "draft",
+    "idea": "Distinguish the features before applying them.",
+    "vars": {},
+    "example": [
+     "supplier linkage: nearby firms supplying inputs or specialist services.",
+     "labour pool: a concentration of workers with relevant skills.",
+     "shared infrastructure: facilities serving several activities.",
+     "agglomeration diseconomy: a cost caused by excessive concentration or pressure."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-2-terms"
+    }
+   },
+   {
+    "id": "g5-2-c2",
+    "status": "draft",
+    "idea": "Use the evidence in the example, not a place name alone.",
+    "vars": {},
+    "example": [
+     "An invented cluster shares a machinery-repair business.",
+     "Several workshops recruit locally trained technicians.",
+     "Firms use a common serviced access road.",
+     "Delivery vehicles lose time in congestion."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-2-cases"
+    }
+   },
+   {
+    "id": "g5-2-c3",
+    "status": "draft",
+    "idea": "Explain how the process produces the stated effect.",
+    "vars": {},
+    "example": [
+     "Proximity can support repeated specialist transactions.",
+     "Skills may be easier to find but wages still matter.",
+     "Infrastructure can support activity without guaranteeing profit.",
+     "Congestion can offset some benefits of proximity."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g5-2-explain-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "industry"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "An invented cluster shares a machinery-repair business.\nWhich explanation follows?",
+         "r": "Proximity can support repeated specialist transactions.",
+         "w": [
+          "Skills may be easier to find but wages still matter.",
+          "Infrastructure can support activity without guaranteeing profit.",
+          "Congestion can offset some benefits of proximity."
+         ],
+         "e": [
+          "That explanation addresses labour pool, rather than the process or relationship in this case.",
+          "That explanation addresses shared infrastructure, rather than the process or relationship in this case.",
+          "That explanation addresses agglomeration diseconomy, rather than the process or relationship in this case."
+         ],
+         "y": "nearby firms supplying inputs or specialist services."
+        },
+        {
+         "q": "Several workshops recruit locally trained technicians.\nWhich explanation follows?",
+         "r": "Skills may be easier to find but wages still matter.",
+         "w": [
+          "Proximity can support repeated specialist transactions.",
+          "Infrastructure can support activity without guaranteeing profit.",
+          "Congestion can offset some benefits of proximity."
+         ],
+         "e": [
+          "That explanation addresses supplier linkage, rather than the process or relationship in this case.",
+          "That explanation addresses shared infrastructure, rather than the process or relationship in this case.",
+          "That explanation addresses agglomeration diseconomy, rather than the process or relationship in this case."
+         ],
+         "y": "a concentration of workers with relevant skills."
+        },
+        {
+         "q": "Firms use a common serviced access road.\nWhich explanation follows?",
+         "r": "Infrastructure can support activity without guaranteeing profit.",
+         "w": [
+          "Proximity can support repeated specialist transactions.",
+          "Skills may be easier to find but wages still matter.",
+          "Congestion can offset some benefits of proximity."
+         ],
+         "e": [
+          "That explanation addresses supplier linkage, rather than the process or relationship in this case.",
+          "That explanation addresses labour pool, rather than the process or relationship in this case.",
+          "That explanation addresses agglomeration diseconomy, rather than the process or relationship in this case."
+         ],
+         "y": "facilities serving several activities."
+        },
+        {
+         "q": "Delivery vehicles lose time in congestion.\nWhich explanation follows?",
+         "r": "Congestion can offset some benefits of proximity.",
+         "w": [
+          "Proximity can support repeated specialist transactions.",
+          "Skills may be easier to find but wages still matter.",
+          "Infrastructure can support activity without guaranteeing profit."
+         ],
+         "e": [
+          "That explanation addresses supplier linkage, rather than the process or relationship in this case.",
+          "That explanation addresses labour pool, rather than the process or relationship in this case.",
+          "That explanation addresses shared infrastructure, rather than the process or relationship in this case."
+         ],
+         "y": "a cost caused by excessive concentration or pressure."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g5-2-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "industry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means nearby firms supplying inputs or specialist services?",
+       "r": "supplier linkage",
+       "w": [
+        "labour pool",
+        "shared infrastructure",
+        "agglomeration diseconomy"
+       ],
+       "e": [
+        "That concerns a concentration of workers with relevant skills, rather than the feature asked for.",
+        "That concerns facilities serving several activities, rather than the feature asked for.",
+        "That concerns a cost caused by excessive concentration or pressure, rather than the feature asked for."
+       ],
+       "y": "Proximity can support repeated specialist transactions."
+      },
+      {
+       "q": "Which term means a concentration of workers with relevant skills?",
+       "r": "labour pool",
+       "w": [
+        "supplier linkage",
+        "shared infrastructure",
+        "agglomeration diseconomy"
+       ],
+       "e": [
+        "That concerns nearby firms supplying inputs or specialist services, rather than the feature asked for.",
+        "That concerns facilities serving several activities, rather than the feature asked for.",
+        "That concerns a cost caused by excessive concentration or pressure, rather than the feature asked for."
+       ],
+       "y": "Skills may be easier to find but wages still matter."
+      },
+      {
+       "q": "Which term means facilities serving several activities?",
+       "r": "shared infrastructure",
+       "w": [
+        "supplier linkage",
+        "labour pool",
+        "agglomeration diseconomy"
+       ],
+       "e": [
+        "That concerns nearby firms supplying inputs or specialist services, rather than the feature asked for.",
+        "That concerns a concentration of workers with relevant skills, rather than the feature asked for.",
+        "That concerns a cost caused by excessive concentration or pressure, rather than the feature asked for."
+       ],
+       "y": "Infrastructure can support activity without guaranteeing profit."
+      },
+      {
+       "q": "Which term means a cost caused by excessive concentration or pressure?",
+       "r": "agglomeration diseconomy",
+       "w": [
+        "supplier linkage",
+        "labour pool",
+        "shared infrastructure"
+       ],
+       "e": [
+        "That concerns nearby firms supplying inputs or specialist services, rather than the feature asked for.",
+        "That concerns a concentration of workers with relevant skills, rather than the feature asked for.",
+        "That concerns facilities serving several activities, rather than the feature asked for."
+       ],
+       "y": "Congestion can offset some benefits of proximity."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-2-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "industry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "An invented cluster shares a machinery-repair business.\nWhich feature is illustrated?",
+       "r": "supplier linkage",
+       "w": [
+        "labour pool",
+        "shared infrastructure",
+        "agglomeration diseconomy"
+       ],
+       "e": [
+        "That identifies a concentration of workers with relevant skills. Read the case for evidence of nearby firms supplying inputs or specialist services.",
+        "That identifies facilities serving several activities. Read the case for evidence of nearby firms supplying inputs or specialist services.",
+        "That identifies a cost caused by excessive concentration or pressure. Read the case for evidence of nearby firms supplying inputs or specialist services."
+       ],
+       "y": "Proximity can support repeated specialist transactions."
+      },
+      {
+       "q": "Several workshops recruit locally trained technicians.\nWhich feature is illustrated?",
+       "r": "labour pool",
+       "w": [
+        "supplier linkage",
+        "shared infrastructure",
+        "agglomeration diseconomy"
+       ],
+       "e": [
+        "That identifies nearby firms supplying inputs or specialist services. Read the case for evidence of a concentration of workers with relevant skills.",
+        "That identifies facilities serving several activities. Read the case for evidence of a concentration of workers with relevant skills.",
+        "That identifies a cost caused by excessive concentration or pressure. Read the case for evidence of a concentration of workers with relevant skills."
+       ],
+       "y": "Skills may be easier to find but wages still matter."
+      },
+      {
+       "q": "Firms use a common serviced access road.\nWhich feature is illustrated?",
+       "r": "shared infrastructure",
+       "w": [
+        "supplier linkage",
+        "labour pool",
+        "agglomeration diseconomy"
+       ],
+       "e": [
+        "That identifies nearby firms supplying inputs or specialist services. Read the case for evidence of facilities serving several activities.",
+        "That identifies a concentration of workers with relevant skills. Read the case for evidence of facilities serving several activities.",
+        "That identifies a cost caused by excessive concentration or pressure. Read the case for evidence of facilities serving several activities."
+       ],
+       "y": "Infrastructure can support activity without guaranteeing profit."
+      },
+      {
+       "q": "Delivery vehicles lose time in congestion.\nWhich feature is illustrated?",
+       "r": "agglomeration diseconomy",
+       "w": [
+        "supplier linkage",
+        "labour pool",
+        "shared infrastructure"
+       ],
+       "e": [
+        "That identifies nearby firms supplying inputs or specialist services. Read the case for evidence of a cost caused by excessive concentration or pressure.",
+        "That identifies a concentration of workers with relevant skills. Read the case for evidence of a cost caused by excessive concentration or pressure.",
+        "That identifies facilities serving several activities. Read the case for evidence of a cost caused by excessive concentration or pressure."
+       ],
+       "y": "Congestion can offset some benefits of proximity."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-2-explain",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "industry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "An invented cluster shares a machinery-repair business.\nWhich explanation follows?",
+       "r": "Proximity can support repeated specialist transactions.",
+       "w": [
+        "Skills may be easier to find but wages still matter.",
+        "Infrastructure can support activity without guaranteeing profit.",
+        "Congestion can offset some benefits of proximity."
+       ],
+       "e": [
+        "That explanation addresses labour pool, rather than the process or relationship in this case.",
+        "That explanation addresses shared infrastructure, rather than the process or relationship in this case.",
+        "That explanation addresses agglomeration diseconomy, rather than the process or relationship in this case."
+       ],
+       "y": "nearby firms supplying inputs or specialist services."
+      },
+      {
+       "q": "Several workshops recruit locally trained technicians.\nWhich explanation follows?",
+       "r": "Skills may be easier to find but wages still matter.",
+       "w": [
+        "Proximity can support repeated specialist transactions.",
+        "Infrastructure can support activity without guaranteeing profit.",
+        "Congestion can offset some benefits of proximity."
+       ],
+       "e": [
+        "That explanation addresses supplier linkage, rather than the process or relationship in this case.",
+        "That explanation addresses shared infrastructure, rather than the process or relationship in this case.",
+        "That explanation addresses agglomeration diseconomy, rather than the process or relationship in this case."
+       ],
+       "y": "a concentration of workers with relevant skills."
+      },
+      {
+       "q": "Firms use a common serviced access road.\nWhich explanation follows?",
+       "r": "Infrastructure can support activity without guaranteeing profit.",
+       "w": [
+        "Proximity can support repeated specialist transactions.",
+        "Skills may be easier to find but wages still matter.",
+        "Congestion can offset some benefits of proximity."
+       ],
+       "e": [
+        "That explanation addresses supplier linkage, rather than the process or relationship in this case.",
+        "That explanation addresses labour pool, rather than the process or relationship in this case.",
+        "That explanation addresses agglomeration diseconomy, rather than the process or relationship in this case."
+       ],
+       "y": "facilities serving several activities."
+      },
+      {
+       "q": "Delivery vehicles lose time in congestion.\nWhich explanation follows?",
+       "r": "Congestion can offset some benefits of proximity.",
+       "w": [
+        "Proximity can support repeated specialist transactions.",
+        "Skills may be easier to find but wages still matter.",
+        "Infrastructure can support activity without guaranteeing profit."
+       ],
+       "e": [
+        "That explanation addresses supplier linkage, rather than the process or relationship in this case.",
+        "That explanation addresses labour pool, rather than the process or relationship in this case.",
+        "That explanation addresses shared infrastructure, rather than the process or relationship in this case."
+       ],
+       "y": "a cost caused by excessive concentration or pressure."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-2-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "industry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Fictional workshops share a repair supplier. Why might clustering help?",
+       "r": "Specialist repair services can serve several nearby customers",
+       "w": [
+        "All inputs become free",
+        "Every firm must make the same product",
+        "Competition disappears"
+       ],
+       "e": [
+        "Shared access still has a cost.",
+        "Related firms can perform different operations.",
+        "Proximity can increase competition."
+       ],
+       "y": "A shared supplier is a mechanism, not a guarantee."
+      },
+      {
+       "q": "A fictional estate’s access road becomes congested. What should the assessment include?",
+       "r": "Delivery delays may offset some shared-service savings",
+       "w": [
+        "Congestion is proof of lower journey time",
+        "Only the number of buildings matters",
+        "Shared facilities remove every cost"
+       ],
+       "e": [
+        "Congestion adds delay.",
+        "Links and performance matter as well as buildings.",
+        "Shared facilities do not eliminate all costs."
+       ],
+       "y": "Evaluate both external economies and diseconomies."
+      },
+      {
+       "q": "A map shows many unrelated buildings with no evidence of supplier or labour links. What can be concluded?",
+       "r": "Concentration is visible; the claimed linkages need evidence",
+       "w": [
+        "All firms share specialist suppliers",
+        "All firms have identical profits",
+        "The place has no service needs"
+       ],
+       "e": [
+        "The map alone does not show purchases.",
+        "Profit needs financial evidence.",
+        "Concentrated activity still needs services."
+       ],
+       "y": "Do not infer every cluster benefit from proximity alone."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-2-assess",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "industry"
+   ],
+   "prompt": "Find the incorrect geographical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "supplier linkage: nearby firms supplying inputs or specialist services.",
+      "truth": "true",
+      "explain": "This distinction is correct: Proximity can support repeated specialist transactions. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "labour pool: a concentration of workers with relevant skills.",
+      "truth": "true",
+      "explain": "This distinction is correct: Skills may be easier to find but wages still matter. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "shared infrastructure: facilities serving several activities.",
+      "truth": "true",
+      "explain": "This distinction is correct: Infrastructure can support activity without guaranteeing profit. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "agglomeration diseconomy: a cost caused by excessive concentration or pressure.",
+      "truth": "true",
+      "explain": "This distinction is correct: Congestion can offset some benefits of proximity. Look for a claim that reverses the process or makes an unsupported generalisation."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Nearby firms never purchase services from each other.",
+      "truth": "false",
+      "explain": "Proximity can support repeated specialist transactions."
+     },
+     {
+      "text": "A labour pool means all workers are free of cost.",
+      "truth": "false",
+      "explain": "Skills may be easier to find but wages still matter."
+     },
+     {
+      "text": "A shared road proves every factory is profitable.",
+      "truth": "false",
+      "explain": "Infrastructure can support activity without guaranteeing profit."
+     },
+     {
+      "text": "Concentration can only reduce costs.",
+      "truth": "false",
+      "explain": "Congestion can offset some benefits of proximity."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

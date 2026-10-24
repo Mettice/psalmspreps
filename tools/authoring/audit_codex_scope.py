@@ -10,6 +10,7 @@ reg=json.loads((ROOT/'content/classes.json').read_text(encoding='utf-8'))
 subjects=['english','french','francais-intensif','history','geography','economics','logic']
 scopes=[(c,d,1) for c in ['form-3','form-4'] for d in subjects]
 scopes += [('form-4','literature',1),('form-2','french',3),('form-2','francais-intensif',3)]
+scopes += [('form-5',d,1) for d in subjects]
 pending={
  ('form-3','french'):{18:'Libellé « L’imparfait présent » ambigu : retour enseignant attendu, conformément à la consigne de Dion de laisser cette ligne en attente.'},
  ('form-3','francais-intensif'):{
@@ -32,7 +33,7 @@ for (cls,subject),entries in pending.items():
         path.parent.mkdir(parents=True,exist_ok=True)
         path.write_text(json.dumps(data,ensure_ascii=False,indent=1)+'\n',encoding='utf-8')
 
-report=['# Codex earlier-batch content — coverage and teacher feedback','','Audit date: 2026-10-24. Scope: Form Three and Form Four Term One language/humanities/economics/logic subjects, Form Four Literature, and the two Form Two Term Three language quality batches. The newly authorised Form Five and Sixth work in ASSIGNMENTS.md is additional work outside this baseline; it is not claimed complete here.','','A draft is technically checked content awaiting teacher review, not a claim of classroom approval. A deferred row is explicitly awaiting teacher feedback and is not counted as written. Diagnostic/integration/revision rows are excluded under AUTHORING.md.','','| Class / batch | Subject | Draft lessons and guided practicals | Awaiting teacher feedback | Unaccounted rows |','|---|---|---:|---:|---:|']
+report=['# Codex completed batches — coverage and teacher feedback','','Audit date: 2026-10-24. Scope: Form Three, Form Four and Form Five Term One assigned language/humanities/economics/logic subjects, Form Four Literature, and the two Form Two Term Three language quality batches. The authorised Lower/Upper Sixth work remains outside this completed-batch audit and is not claimed complete.','','A draft is technically checked content awaiting teacher review, not a claim of classroom approval. A deferred row is explicitly awaiting teacher feedback and is not counted as written. Diagnostic/integration/revision rows are excluded under AUTHORING.md. Form Five French row 3 is classified integration despite a vocabulary title; teacher/integrator feedback is requested before reclassification.','','| Class / batch | Subject | Draft lessons and guided practicals | Awaiting teacher feedback | Unaccounted rows |','|---|---|---:|---:|---:|']
 totals={'draft':0,'deferred':0}
 details=[]
 for cls,subject,term in scopes:
@@ -44,7 +45,7 @@ for cls,subject,term in scopes:
     rows=next(t for t in spine['terms'] if t['term']==term)['lessons']
     counts={'draft':0,'deferred':0};missing=[]
     for row in rows:
-        if row['kind'] not in ['lesson','practical']:
+        if row['kind'] not in (['lesson','practical','guided_work'] if cls=='form-5' else ['lesson','practical']):
             continue
         if 'diagnostic' in row['title'].lower():
             details.append(f"- {cls} {subject} row {row['seq']}: diagnostic excluded even though the parser labels it lesson.")
@@ -65,7 +66,8 @@ for cls,subject,term in scopes:
     report.append(f"| {cls}, Term {term} | {subject} | {counts['draft']} | {counts['deferred']} | {len(missing)} |")
 report += ['',f"Total: {totals['draft']} drafts (including guided practicals), {totals['deferred']} rows awaiting teacher feedback, no unaccounted assigned teaching rows.",'',
  '## Feedback to collect from teachers','',
- '- Confirm prescribed titles, authors and editions for Form Three / Four Français intensif. The relevant rows remain deferred.',
+ '- Confirm prescribed titles, authors and editions for Form Three / Four / Five Français intensif. The relevant rows remain deferred.',
+ '- Clarify Form Five French row 3 classification and Geography row 4 mixed title. Review the dated income/industry distinction, simplified Weber candidate model, historical case choices and institutional status notes in the subject teacher-review files.',
  '- Confirm the Form Four Literature books and edition. Its spine names The Crown of Thorns and Macbeth, but the author/edition and chapter/scene alignment still need teacher confirmation. Only the independent foundations in rows 2 and 19 are drafted.',
  '- Clarify Form Three French row 18 and Français intensif rows 40/45. Dion explicitly requested that ambiguous rows stay pending.',
  '- Review each subject’s TEACHER-REVIEW.md for terminology, depth, local facts, exam conventions and real oral/writing practice. No teacher-feedback item is automatically marked approved.',

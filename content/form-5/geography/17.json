@@ -1,0 +1,717 @@
+{
+ "subject": "geography",
+ "class": "Form 5",
+ "lesson_no": 17,
+ "language": "en",
+ "prerequisites": [
+  16
+ ],
+ "skills": [
+  {
+   "id": "g5-17",
+   "name": "Telecommunications: signals and networks"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Telecommunications transmits information over distance using signals. Networks may combine radio links, fibre-optic cables, satellites and switching equipment. A mobile handset can use a radio connection to a base station while later stages use other links. The device alone is not the entire network. Coverage, power, capacity and service conditions affect communication.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to identify how a telecommunication channel connects users and state a limitation. Builds on: communication and globalisation. Leads to: Cameroon networks and digital access."
+   },
+   {
+    "heading": "Explain the geography",
+    "text": "Telecommunications transmits information over distance using signals. Networks may combine radio links, fibre-optic cables, satellites and switching equipment. A mobile handset can use a radio connection to a base station while later stages use other links. The device alone is not the entire network. Coverage, power, capacity and service conditions affect communication."
+   },
+   {
+    "heading": "Follow the local example or model",
+    "text": "In an invented Buea example, a trader’s phone sends an order through a mobile network; a distant receiver confirms the message. A broken connecting link can interrupt service even when the handset works. A fibre link carries information rather than cartons of goods. This lesson prepares network reasoning, not installation or account setup."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Trace sender, local link, wider network and receiver. Identify the role of each medium and a possible point of failure. Distinguish a signal carrying information from the physical movement of the ordered goods."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "radio link",
+    "meaning": "information transmission through electromagnetic waves without a cable on that link"
+   },
+   {
+    "word": "fibre-optic link",
+    "meaning": "information transmission using light through optical fibre"
+   },
+   {
+    "word": "satellite link",
+    "meaning": "a communication path using an orbiting relay"
+   },
+   {
+    "word": "network reliability",
+    "meaning": "the ability of a system to provide dependable communication"
+   }
+  ],
+  "mistake": {
+   "wrong": "Every mobile-network stage must use the same local radio link.",
+   "right": "information transmission through electromagnetic waves without a cable on that link.",
+   "why": "Different network stages can use different media."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A mobile handset connects to a nearby base station. Explain the relationship.",
+  "steps": [
+   "information transmission through electromagnetic waves without a cable on that link.",
+   "Different network stages can use different media."
+  ],
+  "answer": "radio link",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "g5-17-c1",
+    "status": "draft",
+    "idea": "Distinguish the features before applying them.",
+    "vars": {},
+    "example": [
+     "radio link: information transmission through electromagnetic waves without a cable on that link.",
+     "fibre-optic link: information transmission using light through optical fibre.",
+     "satellite link: a communication path using an orbiting relay.",
+     "network reliability: the ability of a system to provide dependable communication."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-17-terms"
+    }
+   },
+   {
+    "id": "g5-17-c2",
+    "status": "draft",
+    "idea": "Use the evidence in the example, not a place name alone.",
+    "vars": {},
+    "example": [
+     "A mobile handset connects to a nearby base station.",
+     "A fictional network carries data along a fibre cable.",
+     "A remote service uses a suitable satellite connection.",
+     "A damaged connecting link interrupts an otherwise working handset."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-17-cases"
+    }
+   },
+   {
+    "id": "g5-17-c3",
+    "status": "draft",
+    "idea": "Explain how the process produces the stated effect.",
+    "vars": {},
+    "example": [
+     "Different network stages can use different media.",
+     "The cable carries signals, not the cargo described in a message.",
+     "Users still need suitable terminals and supporting systems.",
+     "Communication depends on connected system elements."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g5-17-explain-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "communication"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A mobile handset connects to a nearby base station.\nWhich explanation follows?",
+         "r": "Different network stages can use different media.",
+         "w": [
+          "The cable carries signals, not the cargo described in a message.",
+          "Users still need suitable terminals and supporting systems.",
+          "Communication depends on connected system elements."
+         ],
+         "e": [
+          "That explanation addresses fibre-optic link, rather than the process or relationship in this case.",
+          "That explanation addresses satellite link, rather than the process or relationship in this case.",
+          "That explanation addresses network reliability, rather than the process or relationship in this case."
+         ],
+         "y": "information transmission through electromagnetic waves without a cable on that link."
+        },
+        {
+         "q": "A fictional network carries data along a fibre cable.\nWhich explanation follows?",
+         "r": "The cable carries signals, not the cargo described in a message.",
+         "w": [
+          "Different network stages can use different media.",
+          "Users still need suitable terminals and supporting systems.",
+          "Communication depends on connected system elements."
+         ],
+         "e": [
+          "That explanation addresses radio link, rather than the process or relationship in this case.",
+          "That explanation addresses satellite link, rather than the process or relationship in this case.",
+          "That explanation addresses network reliability, rather than the process or relationship in this case."
+         ],
+         "y": "information transmission using light through optical fibre."
+        },
+        {
+         "q": "A remote service uses a suitable satellite connection.\nWhich explanation follows?",
+         "r": "Users still need suitable terminals and supporting systems.",
+         "w": [
+          "Different network stages can use different media.",
+          "The cable carries signals, not the cargo described in a message.",
+          "Communication depends on connected system elements."
+         ],
+         "e": [
+          "That explanation addresses radio link, rather than the process or relationship in this case.",
+          "That explanation addresses fibre-optic link, rather than the process or relationship in this case.",
+          "That explanation addresses network reliability, rather than the process or relationship in this case."
+         ],
+         "y": "a communication path using an orbiting relay."
+        },
+        {
+         "q": "A damaged connecting link interrupts an otherwise working handset.\nWhich explanation follows?",
+         "r": "Communication depends on connected system elements.",
+         "w": [
+          "Different network stages can use different media.",
+          "The cable carries signals, not the cargo described in a message.",
+          "Users still need suitable terminals and supporting systems."
+         ],
+         "e": [
+          "That explanation addresses radio link, rather than the process or relationship in this case.",
+          "That explanation addresses fibre-optic link, rather than the process or relationship in this case.",
+          "That explanation addresses satellite link, rather than the process or relationship in this case."
+         ],
+         "y": "the ability of a system to provide dependable communication."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g5-17-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "communication"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means information transmission through electromagnetic waves without a cable on that link?",
+       "r": "radio link",
+       "w": [
+        "fibre-optic link",
+        "satellite link",
+        "network reliability"
+       ],
+       "e": [
+        "That concerns information transmission using light through optical fibre, rather than the feature asked for.",
+        "That concerns a communication path using an orbiting relay, rather than the feature asked for.",
+        "That concerns the ability of a system to provide dependable communication, rather than the feature asked for."
+       ],
+       "y": "Different network stages can use different media."
+      },
+      {
+       "q": "Which term means information transmission using light through optical fibre?",
+       "r": "fibre-optic link",
+       "w": [
+        "radio link",
+        "satellite link",
+        "network reliability"
+       ],
+       "e": [
+        "That concerns information transmission through electromagnetic waves without a cable on that link, rather than the feature asked for.",
+        "That concerns a communication path using an orbiting relay, rather than the feature asked for.",
+        "That concerns the ability of a system to provide dependable communication, rather than the feature asked for."
+       ],
+       "y": "The cable carries signals, not the cargo described in a message."
+      },
+      {
+       "q": "Which term means a communication path using an orbiting relay?",
+       "r": "satellite link",
+       "w": [
+        "radio link",
+        "fibre-optic link",
+        "network reliability"
+       ],
+       "e": [
+        "That concerns information transmission through electromagnetic waves without a cable on that link, rather than the feature asked for.",
+        "That concerns information transmission using light through optical fibre, rather than the feature asked for.",
+        "That concerns the ability of a system to provide dependable communication, rather than the feature asked for."
+       ],
+       "y": "Users still need suitable terminals and supporting systems."
+      },
+      {
+       "q": "Which term means the ability of a system to provide dependable communication?",
+       "r": "network reliability",
+       "w": [
+        "radio link",
+        "fibre-optic link",
+        "satellite link"
+       ],
+       "e": [
+        "That concerns information transmission through electromagnetic waves without a cable on that link, rather than the feature asked for.",
+        "That concerns information transmission using light through optical fibre, rather than the feature asked for.",
+        "That concerns a communication path using an orbiting relay, rather than the feature asked for."
+       ],
+       "y": "Communication depends on connected system elements."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-17-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "communication"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A mobile handset connects to a nearby base station.\nWhich feature is illustrated?",
+       "r": "radio link",
+       "w": [
+        "fibre-optic link",
+        "satellite link",
+        "network reliability"
+       ],
+       "e": [
+        "That identifies information transmission using light through optical fibre. Read the case for evidence of information transmission through electromagnetic waves without a cable on that link.",
+        "That identifies a communication path using an orbiting relay. Read the case for evidence of information transmission through electromagnetic waves without a cable on that link.",
+        "That identifies the ability of a system to provide dependable communication. Read the case for evidence of information transmission through electromagnetic waves without a cable on that link."
+       ],
+       "y": "Different network stages can use different media."
+      },
+      {
+       "q": "A fictional network carries data along a fibre cable.\nWhich feature is illustrated?",
+       "r": "fibre-optic link",
+       "w": [
+        "radio link",
+        "satellite link",
+        "network reliability"
+       ],
+       "e": [
+        "That identifies information transmission through electromagnetic waves without a cable on that link. Read the case for evidence of information transmission using light through optical fibre.",
+        "That identifies a communication path using an orbiting relay. Read the case for evidence of information transmission using light through optical fibre.",
+        "That identifies the ability of a system to provide dependable communication. Read the case for evidence of information transmission using light through optical fibre."
+       ],
+       "y": "The cable carries signals, not the cargo described in a message."
+      },
+      {
+       "q": "A remote service uses a suitable satellite connection.\nWhich feature is illustrated?",
+       "r": "satellite link",
+       "w": [
+        "radio link",
+        "fibre-optic link",
+        "network reliability"
+       ],
+       "e": [
+        "That identifies information transmission through electromagnetic waves without a cable on that link. Read the case for evidence of a communication path using an orbiting relay.",
+        "That identifies information transmission using light through optical fibre. Read the case for evidence of a communication path using an orbiting relay.",
+        "That identifies the ability of a system to provide dependable communication. Read the case for evidence of a communication path using an orbiting relay."
+       ],
+       "y": "Users still need suitable terminals and supporting systems."
+      },
+      {
+       "q": "A damaged connecting link interrupts an otherwise working handset.\nWhich feature is illustrated?",
+       "r": "network reliability",
+       "w": [
+        "radio link",
+        "fibre-optic link",
+        "satellite link"
+       ],
+       "e": [
+        "That identifies information transmission through electromagnetic waves without a cable on that link. Read the case for evidence of the ability of a system to provide dependable communication.",
+        "That identifies information transmission using light through optical fibre. Read the case for evidence of the ability of a system to provide dependable communication.",
+        "That identifies a communication path using an orbiting relay. Read the case for evidence of the ability of a system to provide dependable communication."
+       ],
+       "y": "Communication depends on connected system elements."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-17-explain",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "communication"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A mobile handset connects to a nearby base station.\nWhich explanation follows?",
+       "r": "Different network stages can use different media.",
+       "w": [
+        "The cable carries signals, not the cargo described in a message.",
+        "Users still need suitable terminals and supporting systems.",
+        "Communication depends on connected system elements."
+       ],
+       "e": [
+        "That explanation addresses fibre-optic link, rather than the process or relationship in this case.",
+        "That explanation addresses satellite link, rather than the process or relationship in this case.",
+        "That explanation addresses network reliability, rather than the process or relationship in this case."
+       ],
+       "y": "information transmission through electromagnetic waves without a cable on that link."
+      },
+      {
+       "q": "A fictional network carries data along a fibre cable.\nWhich explanation follows?",
+       "r": "The cable carries signals, not the cargo described in a message.",
+       "w": [
+        "Different network stages can use different media.",
+        "Users still need suitable terminals and supporting systems.",
+        "Communication depends on connected system elements."
+       ],
+       "e": [
+        "That explanation addresses radio link, rather than the process or relationship in this case.",
+        "That explanation addresses satellite link, rather than the process or relationship in this case.",
+        "That explanation addresses network reliability, rather than the process or relationship in this case."
+       ],
+       "y": "information transmission using light through optical fibre."
+      },
+      {
+       "q": "A remote service uses a suitable satellite connection.\nWhich explanation follows?",
+       "r": "Users still need suitable terminals and supporting systems.",
+       "w": [
+        "Different network stages can use different media.",
+        "The cable carries signals, not the cargo described in a message.",
+        "Communication depends on connected system elements."
+       ],
+       "e": [
+        "That explanation addresses radio link, rather than the process or relationship in this case.",
+        "That explanation addresses fibre-optic link, rather than the process or relationship in this case.",
+        "That explanation addresses network reliability, rather than the process or relationship in this case."
+       ],
+       "y": "a communication path using an orbiting relay."
+      },
+      {
+       "q": "A damaged connecting link interrupts an otherwise working handset.\nWhich explanation follows?",
+       "r": "Communication depends on connected system elements.",
+       "w": [
+        "Different network stages can use different media.",
+        "The cable carries signals, not the cargo described in a message.",
+        "Users still need suitable terminals and supporting systems."
+       ],
+       "e": [
+        "That explanation addresses radio link, rather than the process or relationship in this case.",
+        "That explanation addresses fibre-optic link, rather than the process or relationship in this case.",
+        "That explanation addresses satellite link, rather than the process or relationship in this case."
+       ],
+       "y": "the ability of a system to provide dependable communication."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-17-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "communication"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A fictional phone works but its network’s connecting link fails. What follows?",
+       "r": "The device alone cannot guarantee end-to-end communication",
+       "w": [
+        "The whole network must be inside the phone",
+        "The failure proves cargo was delivered",
+        "Messages need no connecting links"
+       ],
+       "e": [
+        "The phone is only one network element.",
+        "Communication failure does not establish delivery.",
+        "Distant users need a usable connection."
+       ],
+       "y": "Reason about the whole path."
+      },
+      {
+       "q": "A trader orders cartons over a fibre connection. What travels through the fibre?",
+       "r": "Information encoded in signals",
+       "w": [
+        "The physical cartons",
+        "A road vehicle",
+        "Every worker from the factory"
+       ],
+       "e": [
+        "Goods need physical transport.",
+        "Vehicles do not travel inside the optical fibre.",
+        "People require a different movement system."
+       ],
+       "y": "Telecommunications carries the order information."
+      },
+      {
+       "q": "A route combines a local radio link with a fibre backbone. Is that possible in a network model?",
+       "r": "Yes; different links can use different media",
+       "w": [
+        "No; every link must be radio",
+        "No; fibre can carry only raw materials",
+        "Yes; therefore network failures are impossible"
+       ],
+       "e": [
+        "A network can combine media.",
+        "Fibre carries information signals.",
+        "Mixed media do not remove failures."
+       ],
+       "y": "Identify each link’s role rather than assuming one medium everywhere."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-17-assess",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "communication"
+   ],
+   "prompt": "Find the incorrect geographical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "radio link: information transmission through electromagnetic waves without a cable on that link.",
+      "truth": "true",
+      "explain": "This distinction is correct: Different network stages can use different media. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "fibre-optic link: information transmission using light through optical fibre.",
+      "truth": "true",
+      "explain": "This distinction is correct: The cable carries signals, not the cargo described in a message. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "satellite link: a communication path using an orbiting relay.",
+      "truth": "true",
+      "explain": "This distinction is correct: Users still need suitable terminals and supporting systems. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "network reliability: the ability of a system to provide dependable communication.",
+      "truth": "true",
+      "explain": "This distinction is correct: Communication depends on connected system elements. Look for a claim that reverses the process or makes an unsupported generalisation."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every mobile-network stage must use the same local radio link.",
+      "truth": "false",
+      "explain": "Different network stages can use different media."
+     },
+     {
+      "text": "Fibre carries the ordered sacks themselves.",
+      "truth": "false",
+      "explain": "The cable carries signals, not the cargo described in a message."
+     },
+     {
+      "text": "Satellites remove every ground equipment requirement.",
+      "truth": "false",
+      "explain": "Users still need suitable terminals and supporting systems."
+     },
+     {
+      "text": "A working handset proves every network link is available.",
+      "truth": "false",
+      "explain": "Communication depends on connected system elements."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

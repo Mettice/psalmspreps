@@ -1,0 +1,717 @@
+{
+ "subject": "geography",
+ "class": "Form 5",
+ "lesson_no": 15,
+ "language": "en",
+ "prerequisites": [
+  14
+ ],
+ "skills": [
+  {
+   "id": "g5-15",
+   "name": "Pipelines"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Pipelines carry suitable fluids, such as oil or gas, along fixed links using appropriate pressure and control systems. They can support continuous bulk movement, but require substantial construction, maintenance and monitoring. They do not carry every kind of freight or replace passenger transport. Leakage and route impacts require assessment; fixed infrastructure also makes changing destinations costly.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to explain pipeline suitability and a related constraint. Builds on: specialised fixed-route transport. Leads to: global flows and telecommunications."
+   },
+   {
+    "heading": "Explain the geography",
+    "text": "Pipelines carry suitable fluids, such as oil or gas, along fixed links using appropriate pressure and control systems. They can support continuous bulk movement, but require substantial construction, maintenance and monitoring. They do not carry every kind of freight or replace passenger transport. Leakage and route impacts require assessment; fixed infrastructure also makes changing destinations costly."
+   },
+   {
+    "heading": "Follow the local example or model",
+    "text": "The Chad–Cameroon petroleum pipeline project connects oil-producing areas in Chad with an offshore loading facility near Kribi in Cameroon. This is a route example, not a current flow, tariff or operating claim. A fictional liquid-fuel route can illustrate fixed-link benefits while a furniture shipment illustrates a cargo that cannot use that system."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Ask whether the material is suitable for the system, whether origins and destinations fit the fixed route and how leakage would be detected and managed. Compare both operating advantages and construction or environmental constraints."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "fluid cargo",
+    "meaning": "material capable of flowing through the designed pipeline system"
+   },
+   {
+    "word": "fixed pipeline route",
+    "meaning": "a constructed link between specified locations"
+   },
+   {
+    "word": "continuous bulk flow",
+    "meaning": "sustained movement of suitable material through a system"
+   },
+   {
+    "word": "leakage risk",
+    "meaning": "possible escape of material from the system"
+   }
+  ],
+  "mistake": {
+   "wrong": "A liquid pipeline can carry finished chairs unchanged.",
+   "right": "material capable of flowing through the designed pipeline system.",
+   "why": "Cargo properties must match the transport system."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "An oil pipeline carries a suitable liquid product. Explain the relationship.",
+  "steps": [
+   "material capable of flowing through the designed pipeline system.",
+   "Cargo properties must match the transport system."
+  ],
+  "answer": "fluid cargo",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "g5-15-c1",
+    "status": "draft",
+    "idea": "Distinguish the features before applying them.",
+    "vars": {},
+    "example": [
+     "fluid cargo: material capable of flowing through the designed pipeline system.",
+     "fixed pipeline route: a constructed link between specified locations.",
+     "continuous bulk flow: sustained movement of suitable material through a system.",
+     "leakage risk: possible escape of material from the system."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-15-terms"
+    }
+   },
+   {
+    "id": "g5-15-c2",
+    "status": "draft",
+    "idea": "Use the evidence in the example, not a place name alone.",
+    "vars": {},
+    "example": [
+     "An oil pipeline carries a suitable liquid product.",
+     "A pipeline links a production area with a loading facility.",
+     "An invented plant sends a fluid along a fixed link.",
+     "A proposal includes monitoring and response arrangements."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-15-cases"
+    }
+   },
+   {
+    "id": "g5-15-c3",
+    "status": "draft",
+    "idea": "Explain how the process produces the stated effect.",
+    "vars": {},
+    "example": [
+     "Cargo properties must match the transport system.",
+     "Changing a fixed route needs additional infrastructure.",
+     "Maintenance and operating conditions can interrupt flow.",
+     "Leaks and construction can create environmental impacts."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g5-15-explain-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "transport"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "An oil pipeline carries a suitable liquid product.\nWhich explanation follows?",
+         "r": "Cargo properties must match the transport system.",
+         "w": [
+          "Changing a fixed route needs additional infrastructure.",
+          "Maintenance and operating conditions can interrupt flow.",
+          "Leaks and construction can create environmental impacts."
+         ],
+         "e": [
+          "That explanation addresses fixed pipeline route, rather than the process or relationship in this case.",
+          "That explanation addresses continuous bulk flow, rather than the process or relationship in this case.",
+          "That explanation addresses leakage risk, rather than the process or relationship in this case."
+         ],
+         "y": "material capable of flowing through the designed pipeline system."
+        },
+        {
+         "q": "A pipeline links a production area with a loading facility.\nWhich explanation follows?",
+         "r": "Changing a fixed route needs additional infrastructure.",
+         "w": [
+          "Cargo properties must match the transport system.",
+          "Maintenance and operating conditions can interrupt flow.",
+          "Leaks and construction can create environmental impacts."
+         ],
+         "e": [
+          "That explanation addresses fluid cargo, rather than the process or relationship in this case.",
+          "That explanation addresses continuous bulk flow, rather than the process or relationship in this case.",
+          "That explanation addresses leakage risk, rather than the process or relationship in this case."
+         ],
+         "y": "a constructed link between specified locations."
+        },
+        {
+         "q": "An invented plant sends a fluid along a fixed link.\nWhich explanation follows?",
+         "r": "Maintenance and operating conditions can interrupt flow.",
+         "w": [
+          "Cargo properties must match the transport system.",
+          "Changing a fixed route needs additional infrastructure.",
+          "Leaks and construction can create environmental impacts."
+         ],
+         "e": [
+          "That explanation addresses fluid cargo, rather than the process or relationship in this case.",
+          "That explanation addresses fixed pipeline route, rather than the process or relationship in this case.",
+          "That explanation addresses leakage risk, rather than the process or relationship in this case."
+         ],
+         "y": "sustained movement of suitable material through a system."
+        },
+        {
+         "q": "A proposal includes monitoring and response arrangements.\nWhich explanation follows?",
+         "r": "Leaks and construction can create environmental impacts.",
+         "w": [
+          "Cargo properties must match the transport system.",
+          "Changing a fixed route needs additional infrastructure.",
+          "Maintenance and operating conditions can interrupt flow."
+         ],
+         "e": [
+          "That explanation addresses fluid cargo, rather than the process or relationship in this case.",
+          "That explanation addresses fixed pipeline route, rather than the process or relationship in this case.",
+          "That explanation addresses continuous bulk flow, rather than the process or relationship in this case."
+         ],
+         "y": "possible escape of material from the system."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g5-15-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means material capable of flowing through the designed pipeline system?",
+       "r": "fluid cargo",
+       "w": [
+        "fixed pipeline route",
+        "continuous bulk flow",
+        "leakage risk"
+       ],
+       "e": [
+        "That concerns a constructed link between specified locations, rather than the feature asked for.",
+        "That concerns sustained movement of suitable material through a system, rather than the feature asked for.",
+        "That concerns possible escape of material from the system, rather than the feature asked for."
+       ],
+       "y": "Cargo properties must match the transport system."
+      },
+      {
+       "q": "Which term means a constructed link between specified locations?",
+       "r": "fixed pipeline route",
+       "w": [
+        "fluid cargo",
+        "continuous bulk flow",
+        "leakage risk"
+       ],
+       "e": [
+        "That concerns material capable of flowing through the designed pipeline system, rather than the feature asked for.",
+        "That concerns sustained movement of suitable material through a system, rather than the feature asked for.",
+        "That concerns possible escape of material from the system, rather than the feature asked for."
+       ],
+       "y": "Changing a fixed route needs additional infrastructure."
+      },
+      {
+       "q": "Which term means sustained movement of suitable material through a system?",
+       "r": "continuous bulk flow",
+       "w": [
+        "fluid cargo",
+        "fixed pipeline route",
+        "leakage risk"
+       ],
+       "e": [
+        "That concerns material capable of flowing through the designed pipeline system, rather than the feature asked for.",
+        "That concerns a constructed link between specified locations, rather than the feature asked for.",
+        "That concerns possible escape of material from the system, rather than the feature asked for."
+       ],
+       "y": "Maintenance and operating conditions can interrupt flow."
+      },
+      {
+       "q": "Which term means possible escape of material from the system?",
+       "r": "leakage risk",
+       "w": [
+        "fluid cargo",
+        "fixed pipeline route",
+        "continuous bulk flow"
+       ],
+       "e": [
+        "That concerns material capable of flowing through the designed pipeline system, rather than the feature asked for.",
+        "That concerns a constructed link between specified locations, rather than the feature asked for.",
+        "That concerns sustained movement of suitable material through a system, rather than the feature asked for."
+       ],
+       "y": "Leaks and construction can create environmental impacts."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-15-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "An oil pipeline carries a suitable liquid product.\nWhich feature is illustrated?",
+       "r": "fluid cargo",
+       "w": [
+        "fixed pipeline route",
+        "continuous bulk flow",
+        "leakage risk"
+       ],
+       "e": [
+        "That identifies a constructed link between specified locations. Read the case for evidence of material capable of flowing through the designed pipeline system.",
+        "That identifies sustained movement of suitable material through a system. Read the case for evidence of material capable of flowing through the designed pipeline system.",
+        "That identifies possible escape of material from the system. Read the case for evidence of material capable of flowing through the designed pipeline system."
+       ],
+       "y": "Cargo properties must match the transport system."
+      },
+      {
+       "q": "A pipeline links a production area with a loading facility.\nWhich feature is illustrated?",
+       "r": "fixed pipeline route",
+       "w": [
+        "fluid cargo",
+        "continuous bulk flow",
+        "leakage risk"
+       ],
+       "e": [
+        "That identifies material capable of flowing through the designed pipeline system. Read the case for evidence of a constructed link between specified locations.",
+        "That identifies sustained movement of suitable material through a system. Read the case for evidence of a constructed link between specified locations.",
+        "That identifies possible escape of material from the system. Read the case for evidence of a constructed link between specified locations."
+       ],
+       "y": "Changing a fixed route needs additional infrastructure."
+      },
+      {
+       "q": "An invented plant sends a fluid along a fixed link.\nWhich feature is illustrated?",
+       "r": "continuous bulk flow",
+       "w": [
+        "fluid cargo",
+        "fixed pipeline route",
+        "leakage risk"
+       ],
+       "e": [
+        "That identifies material capable of flowing through the designed pipeline system. Read the case for evidence of sustained movement of suitable material through a system.",
+        "That identifies a constructed link between specified locations. Read the case for evidence of sustained movement of suitable material through a system.",
+        "That identifies possible escape of material from the system. Read the case for evidence of sustained movement of suitable material through a system."
+       ],
+       "y": "Maintenance and operating conditions can interrupt flow."
+      },
+      {
+       "q": "A proposal includes monitoring and response arrangements.\nWhich feature is illustrated?",
+       "r": "leakage risk",
+       "w": [
+        "fluid cargo",
+        "fixed pipeline route",
+        "continuous bulk flow"
+       ],
+       "e": [
+        "That identifies material capable of flowing through the designed pipeline system. Read the case for evidence of possible escape of material from the system.",
+        "That identifies a constructed link between specified locations. Read the case for evidence of possible escape of material from the system.",
+        "That identifies sustained movement of suitable material through a system. Read the case for evidence of possible escape of material from the system."
+       ],
+       "y": "Leaks and construction can create environmental impacts."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-15-explain",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "An oil pipeline carries a suitable liquid product.\nWhich explanation follows?",
+       "r": "Cargo properties must match the transport system.",
+       "w": [
+        "Changing a fixed route needs additional infrastructure.",
+        "Maintenance and operating conditions can interrupt flow.",
+        "Leaks and construction can create environmental impacts."
+       ],
+       "e": [
+        "That explanation addresses fixed pipeline route, rather than the process or relationship in this case.",
+        "That explanation addresses continuous bulk flow, rather than the process or relationship in this case.",
+        "That explanation addresses leakage risk, rather than the process or relationship in this case."
+       ],
+       "y": "material capable of flowing through the designed pipeline system."
+      },
+      {
+       "q": "A pipeline links a production area with a loading facility.\nWhich explanation follows?",
+       "r": "Changing a fixed route needs additional infrastructure.",
+       "w": [
+        "Cargo properties must match the transport system.",
+        "Maintenance and operating conditions can interrupt flow.",
+        "Leaks and construction can create environmental impacts."
+       ],
+       "e": [
+        "That explanation addresses fluid cargo, rather than the process or relationship in this case.",
+        "That explanation addresses continuous bulk flow, rather than the process or relationship in this case.",
+        "That explanation addresses leakage risk, rather than the process or relationship in this case."
+       ],
+       "y": "a constructed link between specified locations."
+      },
+      {
+       "q": "An invented plant sends a fluid along a fixed link.\nWhich explanation follows?",
+       "r": "Maintenance and operating conditions can interrupt flow.",
+       "w": [
+        "Cargo properties must match the transport system.",
+        "Changing a fixed route needs additional infrastructure.",
+        "Leaks and construction can create environmental impacts."
+       ],
+       "e": [
+        "That explanation addresses fluid cargo, rather than the process or relationship in this case.",
+        "That explanation addresses fixed pipeline route, rather than the process or relationship in this case.",
+        "That explanation addresses leakage risk, rather than the process or relationship in this case."
+       ],
+       "y": "sustained movement of suitable material through a system."
+      },
+      {
+       "q": "A proposal includes monitoring and response arrangements.\nWhich explanation follows?",
+       "r": "Leaks and construction can create environmental impacts.",
+       "w": [
+        "Cargo properties must match the transport system.",
+        "Changing a fixed route needs additional infrastructure.",
+        "Maintenance and operating conditions can interrupt flow."
+       ],
+       "e": [
+        "That explanation addresses fluid cargo, rather than the process or relationship in this case.",
+        "That explanation addresses fixed pipeline route, rather than the process or relationship in this case.",
+        "That explanation addresses continuous bulk flow, rather than the process or relationship in this case."
+       ],
+       "y": "possible escape of material from the system."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-15-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A fictional oil route has stable endpoints and suitable fluid cargo. Why might a pipeline be considered?",
+       "r": "It can support bulk fluid movement along a fixed link",
+       "w": [
+        "It carries every passenger directly home",
+        "It carries all furniture without transformation",
+        "It avoids every construction cost"
+       ],
+       "e": [
+        "It is not a passenger system.",
+        "Finished furniture is unsuitable for this liquid pipeline.",
+        "Construction requires capital and land works."
+       ],
+       "y": "Suitability depends on cargo and route conditions."
+      },
+      {
+       "q": "A furniture seller wants to send assembled tables through an oil pipeline. What is the problem?",
+       "r": "The cargo is unsuitable for that system",
+       "w": [
+        "The tables need only a telephone number",
+        "All transport modes accept every cargo",
+        "Pipelines are designed for doorstep furniture delivery"
+       ],
+       "e": [
+        "Contact information does not change cargo properties.",
+        "Systems have different cargo requirements.",
+        "A fixed fluid link does not serve tables."
+       ],
+       "y": "Match physical properties to the designed system."
+      },
+      {
+       "q": "A pipeline proposal claims burial removes all environmental concerns. What is missing?",
+       "r": "Leakage, construction impacts and monitoring assessment",
+       "w": [
+        "Proof that fluids cannot leak",
+        "An assumption no land is used",
+        "A claim maintenance is unnecessary"
+       ],
+       "e": [
+        "Fluids can escape if a system fails.",
+        "Routes occupy and disturb land during construction.",
+        "Maintenance remains necessary."
+       ],
+       "y": "Being underground does not eliminate impacts."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-15-assess",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "prompt": "Find the incorrect geographical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "fluid cargo: material capable of flowing through the designed pipeline system.",
+      "truth": "true",
+      "explain": "This distinction is correct: Cargo properties must match the transport system. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "fixed pipeline route: a constructed link between specified locations.",
+      "truth": "true",
+      "explain": "This distinction is correct: Changing a fixed route needs additional infrastructure. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "continuous bulk flow: sustained movement of suitable material through a system.",
+      "truth": "true",
+      "explain": "This distinction is correct: Maintenance and operating conditions can interrupt flow. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "leakage risk: possible escape of material from the system.",
+      "truth": "true",
+      "explain": "This distinction is correct: Leaks and construction can create environmental impacts. Look for a claim that reverses the process or makes an unsupported generalisation."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A liquid pipeline can carry finished chairs unchanged.",
+      "truth": "false",
+      "explain": "Cargo properties must match the transport system."
+     },
+     {
+      "text": "A pipeline can turn freely towards any new customer.",
+      "truth": "false",
+      "explain": "Changing a fixed route needs additional infrastructure."
+     },
+     {
+      "text": "Continuous movement guarantees no interruption ever occurs.",
+      "truth": "false",
+      "explain": "Maintenance and operating conditions can interrupt flow."
+     },
+     {
+      "text": "A buried pipeline can never affect the environment.",
+      "truth": "false",
+      "explain": "Leaks and construction can create environmental impacts."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

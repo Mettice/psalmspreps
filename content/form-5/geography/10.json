@@ -1,0 +1,668 @@
+{
+ "subject": "geography",
+ "class": "Form 5",
+ "lesson_no": 10,
+ "language": "en",
+ "prerequisites": [
+  9
+ ],
+ "skills": [
+  {
+   "id": "g5-10",
+   "name": "Development of rail transport"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Rail transport runs on fixed tracks and needs stations or terminals, signalling, maintenance and suitable rolling stock. It can move large flows along established corridors, but goods may still need road transport at the ends. Gradients, construction costs, demand and connections affect development. Rail is not automatically suitable for every small or scattered flow.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to explain rail’s infrastructure requirements and compute freight tonne-kilometres. Builds on: road transport and networks. Leads to: comparison of transport impacts."
+   },
+   {
+    "heading": "Explain the geography",
+    "text": "Rail transport runs on fixed tracks and needs stations or terminals, signalling, maintenance and suitable rolling stock. It can move large flows along established corridors, but goods may still need road transport at the ends. Gradients, construction costs, demand and connections affect development. Rail is not automatically suitable for every small or scattered flow."
+   },
+   {
+    "heading": "Follow the local example or model",
+    "text": "Camrail’s network description includes Douala–Yaoundé and Yaoundé–Ngaoundéré connections. No timetable or current capacity is assumed here. In a fictional freight record, {20} tonnes travel {50} km. The work measured as freight tonne-kilometres is {20*50}, not a count of passengers, vehicles or money."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Identify the flow and corridor, then examine terminal access and transfer needs. For freight tonne-kilometres multiply tonnes by kilometres. Do not add different units or interpret the result as tonnes of goods alone."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "fixed track",
+    "meaning": "a dedicated rail path constraining the route"
+   },
+   {
+    "word": "terminal",
+    "meaning": "a place where a transport movement begins, ends or transfers"
+   },
+   {
+    "word": "freight tonne-kilometre",
+    "meaning": "movement of a tonne of freight through a kilometre"
+   },
+   {
+    "word": "corridor demand",
+    "meaning": "a flow concentrated along a transport route"
+   }
+  ],
+  "mistake": {
+   "wrong": "A train can leave its track to serve any doorstep.",
+   "right": "a dedicated rail path constraining the route.",
+   "why": "Fixed routes require connecting access for many destinations."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A train follows rails between terminals. Explain the relationship.",
+  "steps": [
+   "a dedicated rail path constraining the route.",
+   "Fixed routes require connecting access for many destinations."
+  ],
+  "answer": "fixed track",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "g5-10-c1",
+    "status": "draft",
+    "idea": "Distinguish the features before applying them.",
+    "vars": {},
+    "example": [
+     "fixed track: a dedicated rail path constraining the route.",
+     "terminal: a place where a transport movement begins, ends or transfers.",
+     "freight tonne-kilometre: movement of a tonne of freight through a kilometre.",
+     "corridor demand: a flow concentrated along a transport route."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-10-terms"
+    }
+   },
+   {
+    "id": "g5-10-c2",
+    "status": "draft",
+    "idea": "Use the evidence in the example, not a place name alone.",
+    "vars": {},
+    "example": [
+     "A train follows rails between terminals.",
+     "Goods are transferred between a truck and rail wagons.",
+     "A freight record multiplies load by distance.",
+     "A steady large freight flow uses a rail corridor."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-10-cases"
+    }
+   },
+   {
+    "id": "g5-10-c3",
+    "status": "draft",
+    "idea": "Explain how the process produces the stated effect.",
+    "vars": {},
+    "example": [
+     "Fixed routes require connecting access for many destinations.",
+     "Transfers can add handling and coordination needs.",
+     "Weight-distance is a product of compatible quantities.",
+     "A fixed network requires demand and cost assessment."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g5-10-explain-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "transport"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A train follows rails between terminals.\nWhich explanation follows?",
+         "r": "Fixed routes require connecting access for many destinations.",
+         "w": [
+          "Transfers can add handling and coordination needs.",
+          "Weight-distance is a product of compatible quantities.",
+          "A fixed network requires demand and cost assessment."
+         ],
+         "e": [
+          "That explanation addresses terminal, rather than the process or relationship in this case.",
+          "That explanation addresses freight tonne-kilometre, rather than the process or relationship in this case.",
+          "That explanation addresses corridor demand, rather than the process or relationship in this case."
+         ],
+         "y": "a dedicated rail path constraining the route."
+        },
+        {
+         "q": "Goods are transferred between a truck and rail wagons.\nWhich explanation follows?",
+         "r": "Transfers can add handling and coordination needs.",
+         "w": [
+          "Fixed routes require connecting access for many destinations.",
+          "Weight-distance is a product of compatible quantities.",
+          "A fixed network requires demand and cost assessment."
+         ],
+         "e": [
+          "That explanation addresses fixed track, rather than the process or relationship in this case.",
+          "That explanation addresses freight tonne-kilometre, rather than the process or relationship in this case.",
+          "That explanation addresses corridor demand, rather than the process or relationship in this case."
+         ],
+         "y": "a place where a transport movement begins, ends or transfers."
+        },
+        {
+         "q": "A freight record multiplies load by distance.\nWhich explanation follows?",
+         "r": "Weight-distance is a product of compatible quantities.",
+         "w": [
+          "Fixed routes require connecting access for many destinations.",
+          "Transfers can add handling and coordination needs.",
+          "A fixed network requires demand and cost assessment."
+         ],
+         "e": [
+          "That explanation addresses fixed track, rather than the process or relationship in this case.",
+          "That explanation addresses terminal, rather than the process or relationship in this case.",
+          "That explanation addresses corridor demand, rather than the process or relationship in this case."
+         ],
+         "y": "movement of a tonne of freight through a kilometre."
+        },
+        {
+         "q": "A steady large freight flow uses a rail corridor.\nWhich explanation follows?",
+         "r": "A fixed network requires demand and cost assessment.",
+         "w": [
+          "Fixed routes require connecting access for many destinations.",
+          "Transfers can add handling and coordination needs.",
+          "Weight-distance is a product of compatible quantities."
+         ],
+         "e": [
+          "That explanation addresses fixed track, rather than the process or relationship in this case.",
+          "That explanation addresses terminal, rather than the process or relationship in this case.",
+          "That explanation addresses freight tonne-kilometre, rather than the process or relationship in this case."
+         ],
+         "y": "a flow concentrated along a transport route."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g5-10-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a dedicated rail path constraining the route?",
+       "r": "fixed track",
+       "w": [
+        "terminal",
+        "freight tonne-kilometre",
+        "corridor demand"
+       ],
+       "e": [
+        "That concerns a place where a transport movement begins, ends or transfers, rather than the feature asked for.",
+        "That concerns movement of a tonne of freight through a kilometre, rather than the feature asked for.",
+        "That concerns a flow concentrated along a transport route, rather than the feature asked for."
+       ],
+       "y": "Fixed routes require connecting access for many destinations."
+      },
+      {
+       "q": "Which term means a place where a transport movement begins, ends or transfers?",
+       "r": "terminal",
+       "w": [
+        "fixed track",
+        "freight tonne-kilometre",
+        "corridor demand"
+       ],
+       "e": [
+        "That concerns a dedicated rail path constraining the route, rather than the feature asked for.",
+        "That concerns movement of a tonne of freight through a kilometre, rather than the feature asked for.",
+        "That concerns a flow concentrated along a transport route, rather than the feature asked for."
+       ],
+       "y": "Transfers can add handling and coordination needs."
+      },
+      {
+       "q": "Which term means movement of a tonne of freight through a kilometre?",
+       "r": "freight tonne-kilometre",
+       "w": [
+        "fixed track",
+        "terminal",
+        "corridor demand"
+       ],
+       "e": [
+        "That concerns a dedicated rail path constraining the route, rather than the feature asked for.",
+        "That concerns a place where a transport movement begins, ends or transfers, rather than the feature asked for.",
+        "That concerns a flow concentrated along a transport route, rather than the feature asked for."
+       ],
+       "y": "Weight-distance is a product of compatible quantities."
+      },
+      {
+       "q": "Which term means a flow concentrated along a transport route?",
+       "r": "corridor demand",
+       "w": [
+        "fixed track",
+        "terminal",
+        "freight tonne-kilometre"
+       ],
+       "e": [
+        "That concerns a dedicated rail path constraining the route, rather than the feature asked for.",
+        "That concerns a place where a transport movement begins, ends or transfers, rather than the feature asked for.",
+        "That concerns movement of a tonne of freight through a kilometre, rather than the feature asked for."
+       ],
+       "y": "A fixed network requires demand and cost assessment."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-10-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A train follows rails between terminals.\nWhich feature is illustrated?",
+       "r": "fixed track",
+       "w": [
+        "terminal",
+        "freight tonne-kilometre",
+        "corridor demand"
+       ],
+       "e": [
+        "That identifies a place where a transport movement begins, ends or transfers. Read the case for evidence of a dedicated rail path constraining the route.",
+        "That identifies movement of a tonne of freight through a kilometre. Read the case for evidence of a dedicated rail path constraining the route.",
+        "That identifies a flow concentrated along a transport route. Read the case for evidence of a dedicated rail path constraining the route."
+       ],
+       "y": "Fixed routes require connecting access for many destinations."
+      },
+      {
+       "q": "Goods are transferred between a truck and rail wagons.\nWhich feature is illustrated?",
+       "r": "terminal",
+       "w": [
+        "fixed track",
+        "freight tonne-kilometre",
+        "corridor demand"
+       ],
+       "e": [
+        "That identifies a dedicated rail path constraining the route. Read the case for evidence of a place where a transport movement begins, ends or transfers.",
+        "That identifies movement of a tonne of freight through a kilometre. Read the case for evidence of a place where a transport movement begins, ends or transfers.",
+        "That identifies a flow concentrated along a transport route. Read the case for evidence of a place where a transport movement begins, ends or transfers."
+       ],
+       "y": "Transfers can add handling and coordination needs."
+      },
+      {
+       "q": "A freight record multiplies load by distance.\nWhich feature is illustrated?",
+       "r": "freight tonne-kilometre",
+       "w": [
+        "fixed track",
+        "terminal",
+        "corridor demand"
+       ],
+       "e": [
+        "That identifies a dedicated rail path constraining the route. Read the case for evidence of movement of a tonne of freight through a kilometre.",
+        "That identifies a place where a transport movement begins, ends or transfers. Read the case for evidence of movement of a tonne of freight through a kilometre.",
+        "That identifies a flow concentrated along a transport route. Read the case for evidence of movement of a tonne of freight through a kilometre."
+       ],
+       "y": "Weight-distance is a product of compatible quantities."
+      },
+      {
+       "q": "A steady large freight flow uses a rail corridor.\nWhich feature is illustrated?",
+       "r": "corridor demand",
+       "w": [
+        "fixed track",
+        "terminal",
+        "freight tonne-kilometre"
+       ],
+       "e": [
+        "That identifies a dedicated rail path constraining the route. Read the case for evidence of a flow concentrated along a transport route.",
+        "That identifies a place where a transport movement begins, ends or transfers. Read the case for evidence of a flow concentrated along a transport route.",
+        "That identifies movement of a tonne of freight through a kilometre. Read the case for evidence of a flow concentrated along a transport route."
+       ],
+       "y": "A fixed network requires demand and cost assessment."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-10-explain",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A train follows rails between terminals.\nWhich explanation follows?",
+       "r": "Fixed routes require connecting access for many destinations.",
+       "w": [
+        "Transfers can add handling and coordination needs.",
+        "Weight-distance is a product of compatible quantities.",
+        "A fixed network requires demand and cost assessment."
+       ],
+       "e": [
+        "That explanation addresses terminal, rather than the process or relationship in this case.",
+        "That explanation addresses freight tonne-kilometre, rather than the process or relationship in this case.",
+        "That explanation addresses corridor demand, rather than the process or relationship in this case."
+       ],
+       "y": "a dedicated rail path constraining the route."
+      },
+      {
+       "q": "Goods are transferred between a truck and rail wagons.\nWhich explanation follows?",
+       "r": "Transfers can add handling and coordination needs.",
+       "w": [
+        "Fixed routes require connecting access for many destinations.",
+        "Weight-distance is a product of compatible quantities.",
+        "A fixed network requires demand and cost assessment."
+       ],
+       "e": [
+        "That explanation addresses fixed track, rather than the process or relationship in this case.",
+        "That explanation addresses freight tonne-kilometre, rather than the process or relationship in this case.",
+        "That explanation addresses corridor demand, rather than the process or relationship in this case."
+       ],
+       "y": "a place where a transport movement begins, ends or transfers."
+      },
+      {
+       "q": "A freight record multiplies load by distance.\nWhich explanation follows?",
+       "r": "Weight-distance is a product of compatible quantities.",
+       "w": [
+        "Fixed routes require connecting access for many destinations.",
+        "Transfers can add handling and coordination needs.",
+        "A fixed network requires demand and cost assessment."
+       ],
+       "e": [
+        "That explanation addresses fixed track, rather than the process or relationship in this case.",
+        "That explanation addresses terminal, rather than the process or relationship in this case.",
+        "That explanation addresses corridor demand, rather than the process or relationship in this case."
+       ],
+       "y": "movement of a tonne of freight through a kilometre."
+      },
+      {
+       "q": "A steady large freight flow uses a rail corridor.\nWhich explanation follows?",
+       "r": "A fixed network requires demand and cost assessment.",
+       "w": [
+        "Fixed routes require connecting access for many destinations.",
+        "Transfers can add handling and coordination needs.",
+        "Weight-distance is a product of compatible quantities."
+       ],
+       "e": [
+        "That explanation addresses fixed track, rather than the process or relationship in this case.",
+        "That explanation addresses terminal, rather than the process or relationship in this case.",
+        "That explanation addresses freight tonne-kilometre, rather than the process or relationship in this case."
+       ],
+       "y": "a flow concentrated along a transport route."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-10-freight",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "t": {
+     "pick": [
+      12,
+      20,
+      30,
+      40
+     ]
+    },
+    "d": {
+     "pick": [
+      50,
+      80,
+      100
+     ]
+    }
+   },
+   "prompt": "A fictional train carries {t} tonnes for {d} km. Find its freight tonne-kilometres.",
+   "answer": "t*d",
+   "misconceptions": [
+    {
+     "id": "m0",
+     "wrong": "t+d",
+     "explain": "Adding tonnes and kilometres mixes unlike units."
+    },
+    {
+     "id": "m1",
+     "wrong": "d",
+     "explain": "Distance alone omits the load."
+    }
+   ],
+   "solution": [
+    "Freight movement = load × distance.",
+    "{t} × {d} = {t*d} tonne-km."
+   ],
+   "unit": "tonne-km"
+  },
+  {
+   "id": "g5-10-assess",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "prompt": "Find the incorrect geographical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "fixed track: a dedicated rail path constraining the route.",
+      "truth": "true",
+      "explain": "This distinction is correct: Fixed routes require connecting access for many destinations. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "terminal: a place where a transport movement begins, ends or transfers.",
+      "truth": "true",
+      "explain": "This distinction is correct: Transfers can add handling and coordination needs. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "freight tonne-kilometre: movement of a tonne of freight through a kilometre.",
+      "truth": "true",
+      "explain": "This distinction is correct: Weight-distance is a product of compatible quantities. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "corridor demand: a flow concentrated along a transport route.",
+      "truth": "true",
+      "explain": "This distinction is correct: A fixed network requires demand and cost assessment. Look for a claim that reverses the process or makes an unsupported generalisation."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A train can leave its track to serve any doorstep.",
+      "truth": "false",
+      "explain": "Fixed routes require connecting access for many destinations."
+     },
+     {
+      "text": "A terminal removes every handling cost.",
+      "truth": "false",
+      "explain": "Transfers can add handling and coordination needs."
+     },
+     {
+      "text": "Tonnes and kilometres should be added to measure freight movement.",
+      "truth": "false",
+      "explain": "Weight-distance is a product of compatible quantities."
+     },
+     {
+      "text": "Every remote small shipment needs a new railway.",
+      "truth": "false",
+      "explain": "A fixed network requires demand and cost assessment."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

@@ -1,0 +1,717 @@
+{
+ "subject": "geography",
+ "class": "Form 5",
+ "lesson_no": 12,
+ "language": "en",
+ "prerequisites": [
+  11
+ ],
+ "skills": [
+  {
+   "id": "g5-12",
+   "name": "Air and water transport"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Air transport can serve urgent, light or high-value flows but needs airports, suitable aircraft and connecting services. Water transport can suit large non-urgent freight flows where ports and navigable routes exist, but terminal handling and onward movement matter. Neither is always cheapest or fastest for every complete journey. Cargo needs, connections and reliability determine an appropriate choice.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to choose a mode for a stated cargo and explain the trade-off. Builds on: road and rail impacts. Leads to: specialised transport and pipelines."
+   },
+   {
+    "heading": "Explain the geography",
+    "text": "Air transport can serve urgent, light or high-value flows but needs airports, suitable aircraft and connecting services. Water transport can suit large non-urgent freight flows where ports and navigable routes exist, but terminal handling and onward movement matter. Neither is always cheapest or fastest for every complete journey. Cargo needs, connections and reliability determine an appropriate choice."
+   },
+   {
+    "heading": "Follow the local example or model",
+    "text": "In fictional offers, urgent small documents can take an available air service, while non-urgent bulk machinery can use an available sea route between ports. A village away from either terminal still needs a connecting movement. These classroom offers are not live schedules, fares or navigation instructions."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Read urgency, size, route availability and delivery destination. Compare the whole chain, including transfer and final access. Justify the chosen mode using the stated conditions rather than a universal slogan about speed or cost."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "air transport",
+    "meaning": "movement by aircraft between suitable terminals"
+   },
+   {
+    "word": "water transport",
+    "meaning": "movement by vessel over suitable water routes"
+   },
+   {
+    "word": "intermodal transfer",
+    "meaning": "a change between transport modes in a journey"
+   },
+   {
+    "word": "mode suitability",
+    "meaning": "fitness of a mode for the stated flow and conditions"
+   }
+  ],
+  "mistake": {
+   "wrong": "Every aircraft journey requires no airport or terminal.",
+   "right": "movement by aircraft between suitable terminals.",
+   "why": "Air services depend on appropriate infrastructure and connections."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "An available aircraft carries urgent small documents. Explain the relationship.",
+  "steps": [
+   "movement by aircraft between suitable terminals.",
+   "Air services depend on appropriate infrastructure and connections."
+  ],
+  "answer": "air transport",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "g5-12-c1",
+    "status": "draft",
+    "idea": "Distinguish the features before applying them.",
+    "vars": {},
+    "example": [
+     "air transport: movement by aircraft between suitable terminals.",
+     "water transport: movement by vessel over suitable water routes.",
+     "intermodal transfer: a change between transport modes in a journey.",
+     "mode suitability: fitness of a mode for the stated flow and conditions."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-12-terms"
+    }
+   },
+   {
+    "id": "g5-12-c2",
+    "status": "draft",
+    "idea": "Use the evidence in the example, not a place name alone.",
+    "vars": {},
+    "example": [
+     "An available aircraft carries urgent small documents.",
+     "A fictional sea service carries non-urgent bulk cargo.",
+     "A truck takes a landed shipment from a port to a warehouse.",
+     "A shipper compares urgency, bulk and terminal access."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-12-cases"
+    }
+   },
+   {
+    "id": "g5-12-c3",
+    "status": "draft",
+    "idea": "Explain how the process produces the stated effect.",
+    "vars": {},
+    "example": [
+     "Air services depend on appropriate infrastructure and connections.",
+     "Depth, route and vessel requirements constrain navigation.",
+     "Many shipments need another mode after the port.",
+     "Different flows and routes create different trade-offs."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g5-12-explain-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "transport"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "An available aircraft carries urgent small documents.\nWhich explanation follows?",
+         "r": "Air services depend on appropriate infrastructure and connections.",
+         "w": [
+          "Depth, route and vessel requirements constrain navigation.",
+          "Many shipments need another mode after the port.",
+          "Different flows and routes create different trade-offs."
+         ],
+         "e": [
+          "That explanation addresses water transport, rather than the process or relationship in this case.",
+          "That explanation addresses intermodal transfer, rather than the process or relationship in this case.",
+          "That explanation addresses mode suitability, rather than the process or relationship in this case."
+         ],
+         "y": "movement by aircraft between suitable terminals."
+        },
+        {
+         "q": "A fictional sea service carries non-urgent bulk cargo.\nWhich explanation follows?",
+         "r": "Depth, route and vessel requirements constrain navigation.",
+         "w": [
+          "Air services depend on appropriate infrastructure and connections.",
+          "Many shipments need another mode after the port.",
+          "Different flows and routes create different trade-offs."
+         ],
+         "e": [
+          "That explanation addresses air transport, rather than the process or relationship in this case.",
+          "That explanation addresses intermodal transfer, rather than the process or relationship in this case.",
+          "That explanation addresses mode suitability, rather than the process or relationship in this case."
+         ],
+         "y": "movement by vessel over suitable water routes."
+        },
+        {
+         "q": "A truck takes a landed shipment from a port to a warehouse.\nWhich explanation follows?",
+         "r": "Many shipments need another mode after the port.",
+         "w": [
+          "Air services depend on appropriate infrastructure and connections.",
+          "Depth, route and vessel requirements constrain navigation.",
+          "Different flows and routes create different trade-offs."
+         ],
+         "e": [
+          "That explanation addresses air transport, rather than the process or relationship in this case.",
+          "That explanation addresses water transport, rather than the process or relationship in this case.",
+          "That explanation addresses mode suitability, rather than the process or relationship in this case."
+         ],
+         "y": "a change between transport modes in a journey."
+        },
+        {
+         "q": "A shipper compares urgency, bulk and terminal access.\nWhich explanation follows?",
+         "r": "Different flows and routes create different trade-offs.",
+         "w": [
+          "Air services depend on appropriate infrastructure and connections.",
+          "Depth, route and vessel requirements constrain navigation.",
+          "Many shipments need another mode after the port."
+         ],
+         "e": [
+          "That explanation addresses air transport, rather than the process or relationship in this case.",
+          "That explanation addresses water transport, rather than the process or relationship in this case.",
+          "That explanation addresses intermodal transfer, rather than the process or relationship in this case."
+         ],
+         "y": "fitness of a mode for the stated flow and conditions."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g5-12-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means movement by aircraft between suitable terminals?",
+       "r": "air transport",
+       "w": [
+        "water transport",
+        "intermodal transfer",
+        "mode suitability"
+       ],
+       "e": [
+        "That concerns movement by vessel over suitable water routes, rather than the feature asked for.",
+        "That concerns a change between transport modes in a journey, rather than the feature asked for.",
+        "That concerns fitness of a mode for the stated flow and conditions, rather than the feature asked for."
+       ],
+       "y": "Air services depend on appropriate infrastructure and connections."
+      },
+      {
+       "q": "Which term means movement by vessel over suitable water routes?",
+       "r": "water transport",
+       "w": [
+        "air transport",
+        "intermodal transfer",
+        "mode suitability"
+       ],
+       "e": [
+        "That concerns movement by aircraft between suitable terminals, rather than the feature asked for.",
+        "That concerns a change between transport modes in a journey, rather than the feature asked for.",
+        "That concerns fitness of a mode for the stated flow and conditions, rather than the feature asked for."
+       ],
+       "y": "Depth, route and vessel requirements constrain navigation."
+      },
+      {
+       "q": "Which term means a change between transport modes in a journey?",
+       "r": "intermodal transfer",
+       "w": [
+        "air transport",
+        "water transport",
+        "mode suitability"
+       ],
+       "e": [
+        "That concerns movement by aircraft between suitable terminals, rather than the feature asked for.",
+        "That concerns movement by vessel over suitable water routes, rather than the feature asked for.",
+        "That concerns fitness of a mode for the stated flow and conditions, rather than the feature asked for."
+       ],
+       "y": "Many shipments need another mode after the port."
+      },
+      {
+       "q": "Which term means fitness of a mode for the stated flow and conditions?",
+       "r": "mode suitability",
+       "w": [
+        "air transport",
+        "water transport",
+        "intermodal transfer"
+       ],
+       "e": [
+        "That concerns movement by aircraft between suitable terminals, rather than the feature asked for.",
+        "That concerns movement by vessel over suitable water routes, rather than the feature asked for.",
+        "That concerns a change between transport modes in a journey, rather than the feature asked for."
+       ],
+       "y": "Different flows and routes create different trade-offs."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-12-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "An available aircraft carries urgent small documents.\nWhich feature is illustrated?",
+       "r": "air transport",
+       "w": [
+        "water transport",
+        "intermodal transfer",
+        "mode suitability"
+       ],
+       "e": [
+        "That identifies movement by vessel over suitable water routes. Read the case for evidence of movement by aircraft between suitable terminals.",
+        "That identifies a change between transport modes in a journey. Read the case for evidence of movement by aircraft between suitable terminals.",
+        "That identifies fitness of a mode for the stated flow and conditions. Read the case for evidence of movement by aircraft between suitable terminals."
+       ],
+       "y": "Air services depend on appropriate infrastructure and connections."
+      },
+      {
+       "q": "A fictional sea service carries non-urgent bulk cargo.\nWhich feature is illustrated?",
+       "r": "water transport",
+       "w": [
+        "air transport",
+        "intermodal transfer",
+        "mode suitability"
+       ],
+       "e": [
+        "That identifies movement by aircraft between suitable terminals. Read the case for evidence of movement by vessel over suitable water routes.",
+        "That identifies a change between transport modes in a journey. Read the case for evidence of movement by vessel over suitable water routes.",
+        "That identifies fitness of a mode for the stated flow and conditions. Read the case for evidence of movement by vessel over suitable water routes."
+       ],
+       "y": "Depth, route and vessel requirements constrain navigation."
+      },
+      {
+       "q": "A truck takes a landed shipment from a port to a warehouse.\nWhich feature is illustrated?",
+       "r": "intermodal transfer",
+       "w": [
+        "air transport",
+        "water transport",
+        "mode suitability"
+       ],
+       "e": [
+        "That identifies movement by aircraft between suitable terminals. Read the case for evidence of a change between transport modes in a journey.",
+        "That identifies movement by vessel over suitable water routes. Read the case for evidence of a change between transport modes in a journey.",
+        "That identifies fitness of a mode for the stated flow and conditions. Read the case for evidence of a change between transport modes in a journey."
+       ],
+       "y": "Many shipments need another mode after the port."
+      },
+      {
+       "q": "A shipper compares urgency, bulk and terminal access.\nWhich feature is illustrated?",
+       "r": "mode suitability",
+       "w": [
+        "air transport",
+        "water transport",
+        "intermodal transfer"
+       ],
+       "e": [
+        "That identifies movement by aircraft between suitable terminals. Read the case for evidence of fitness of a mode for the stated flow and conditions.",
+        "That identifies movement by vessel over suitable water routes. Read the case for evidence of fitness of a mode for the stated flow and conditions.",
+        "That identifies a change between transport modes in a journey. Read the case for evidence of fitness of a mode for the stated flow and conditions."
+       ],
+       "y": "Different flows and routes create different trade-offs."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-12-explain",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "An available aircraft carries urgent small documents.\nWhich explanation follows?",
+       "r": "Air services depend on appropriate infrastructure and connections.",
+       "w": [
+        "Depth, route and vessel requirements constrain navigation.",
+        "Many shipments need another mode after the port.",
+        "Different flows and routes create different trade-offs."
+       ],
+       "e": [
+        "That explanation addresses water transport, rather than the process or relationship in this case.",
+        "That explanation addresses intermodal transfer, rather than the process or relationship in this case.",
+        "That explanation addresses mode suitability, rather than the process or relationship in this case."
+       ],
+       "y": "movement by aircraft between suitable terminals."
+      },
+      {
+       "q": "A fictional sea service carries non-urgent bulk cargo.\nWhich explanation follows?",
+       "r": "Depth, route and vessel requirements constrain navigation.",
+       "w": [
+        "Air services depend on appropriate infrastructure and connections.",
+        "Many shipments need another mode after the port.",
+        "Different flows and routes create different trade-offs."
+       ],
+       "e": [
+        "That explanation addresses air transport, rather than the process or relationship in this case.",
+        "That explanation addresses intermodal transfer, rather than the process or relationship in this case.",
+        "That explanation addresses mode suitability, rather than the process or relationship in this case."
+       ],
+       "y": "movement by vessel over suitable water routes."
+      },
+      {
+       "q": "A truck takes a landed shipment from a port to a warehouse.\nWhich explanation follows?",
+       "r": "Many shipments need another mode after the port.",
+       "w": [
+        "Air services depend on appropriate infrastructure and connections.",
+        "Depth, route and vessel requirements constrain navigation.",
+        "Different flows and routes create different trade-offs."
+       ],
+       "e": [
+        "That explanation addresses air transport, rather than the process or relationship in this case.",
+        "That explanation addresses water transport, rather than the process or relationship in this case.",
+        "That explanation addresses mode suitability, rather than the process or relationship in this case."
+       ],
+       "y": "a change between transport modes in a journey."
+      },
+      {
+       "q": "A shipper compares urgency, bulk and terminal access.\nWhich explanation follows?",
+       "r": "Different flows and routes create different trade-offs.",
+       "w": [
+        "Air services depend on appropriate infrastructure and connections.",
+        "Depth, route and vessel requirements constrain navigation.",
+        "Many shipments need another mode after the port."
+       ],
+       "e": [
+        "That explanation addresses air transport, rather than the process or relationship in this case.",
+        "That explanation addresses water transport, rather than the process or relationship in this case.",
+        "That explanation addresses intermodal transfer, rather than the process or relationship in this case."
+       ],
+       "y": "fitness of a mode for the stated flow and conditions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-12-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Invented offers: urgent small documents must arrive tomorrow; an air service meets that deadline and the offered sea service does not. Which fits?",
+       "r": "The available air service",
+       "w": [
+        "The offered sea service",
+        "No transport because a message was sent",
+        "Any mode regardless of deadline"
+       ],
+       "e": [
+        "The stated sea offer misses the deadline.",
+        "Physical documents still need movement.",
+        "The deadline is a selection condition."
+       ],
+       "y": "Use the actual offers, not an unconditional claim about all aircraft."
+      },
+      {
+       "q": "Invented offers: non-urgent bulk cargo has port access and an affordable sea offer; the air offer exceeds the budget. Which fits these conditions?",
+       "r": "The offered sea service",
+       "w": [
+        "The unaffordable air offer",
+        "A telephone call carrying the cargo",
+        "A railway absent from the offered routes"
+       ],
+       "e": [
+        "The air offer fails the stated budget.",
+        "Calls transmit information, not this cargo.",
+        "An unavailable route cannot be chosen."
+       ],
+       "y": "Select a feasible offer that meets cargo and budget conditions."
+      },
+      {
+       "q": "Cargo lands at a port but its warehouse is inland. What must the plan include?",
+       "r": "An onward connection and transfer arrangements",
+       "w": [
+        "Assume the port is the warehouse",
+        "Ignore handling costs",
+        "Assume every road is navigable by ship"
+       ],
+       "e": [
+        "The final destination is inland.",
+        "Handling can affect total cost and time.",
+        "Ships use suitable water routes."
+       ],
+       "y": "Compare the full journey rather than just its longest leg."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-12-assess",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "prompt": "Find the incorrect geographical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "air transport: movement by aircraft between suitable terminals.",
+      "truth": "true",
+      "explain": "This distinction is correct: Air services depend on appropriate infrastructure and connections. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "water transport: movement by vessel over suitable water routes.",
+      "truth": "true",
+      "explain": "This distinction is correct: Depth, route and vessel requirements constrain navigation. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "intermodal transfer: a change between transport modes in a journey.",
+      "truth": "true",
+      "explain": "This distinction is correct: Many shipments need another mode after the port. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "mode suitability: fitness of a mode for the stated flow and conditions.",
+      "truth": "true",
+      "explain": "This distinction is correct: Different flows and routes create different trade-offs. Look for a claim that reverses the process or makes an unsupported generalisation."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every aircraft journey requires no airport or terminal.",
+      "truth": "false",
+      "explain": "Air services depend on appropriate infrastructure and connections."
+     },
+     {
+      "text": "Every river is navigable for every ship.",
+      "truth": "false",
+      "explain": "Depth, route and vessel requirements constrain navigation."
+     },
+     {
+      "text": "A port is automatically the final destination of every good.",
+      "truth": "false",
+      "explain": "Many shipments need another mode after the port."
+     },
+     {
+      "text": "One transport mode is best for every possible shipment.",
+      "truth": "false",
+      "explain": "Different flows and routes create different trade-offs."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

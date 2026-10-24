@@ -1,8 +1,8 @@
-# Codex earlier-batch content — coverage and teacher feedback
+# Codex completed batches — coverage and teacher feedback
 
-Audit date: 2026-10-24. Scope: Form Three and Form Four Term One language/humanities/economics/logic subjects, Form Four Literature, and the two Form Two Term Three language quality batches. The newly authorised Form Five and Sixth work in ASSIGNMENTS.md is additional work outside this baseline; it is not claimed complete here.
+Audit date: 2026-10-24. Scope: Form Three, Form Four and Form Five Term One assigned language/humanities/economics/logic subjects, Form Four Literature, and the two Form Two Term Three language quality batches. The authorised Lower/Upper Sixth work remains outside this completed-batch audit and is not claimed complete.
 
-A draft is technically checked content awaiting teacher review, not a claim of classroom approval. A deferred row is explicitly awaiting teacher feedback and is not counted as written. Diagnostic/integration/revision rows are excluded under AUTHORING.md.
+A draft is technically checked content awaiting teacher review, not a claim of classroom approval. A deferred row is explicitly awaiting teacher feedback and is not counted as written. Diagnostic/integration/revision rows are excluded under AUTHORING.md. Form Five French row 3 is classified integration despite a vocabulary title; teacher/integrator feedback is requested before reclassification.
 
 | Class / batch | Subject | Draft lessons and guided practicals | Awaiting teacher feedback | Unaccounted rows |
 |---|---|---:|---:|---:|
@@ -23,12 +23,20 @@ A draft is technically checked content awaiting teacher review, not a claim of c
 | form-4, Term 1 | literature | 2 | 35 | 0 |
 | form-2, Term 3 | french | 12 | 0 | 0 |
 | form-2, Term 3 | francais-intensif | 25 | 0 | 0 |
+| form-5, Term 1 | english | 31 | 0 | 0 |
+| form-5, Term 1 | french | 29 | 0 | 0 |
+| form-5, Term 1 | francais-intensif | 30 | 20 | 0 |
+| form-5, Term 1 | history | 17 | 0 | 0 |
+| form-5, Term 1 | geography | 23 | 0 | 0 |
+| form-5, Term 1 | economics | 17 | 0 | 0 |
+| form-5, Term 1 | logic | 10 | 0 | 0 |
 
-Total: 348 drafts (including guided practicals), 74 rows awaiting teacher feedback, no unaccounted assigned teaching rows.
+Total: 505 drafts (including guided practicals), 94 rows awaiting teacher feedback, no unaccounted assigned teaching rows.
 
 ## Feedback to collect from teachers
 
-- Confirm prescribed titles, authors and editions for Form Three / Four Français intensif. The relevant rows remain deferred.
+- Confirm prescribed titles, authors and editions for Form Three / Four / Five Français intensif. The relevant rows remain deferred.
+- Clarify Form Five French row 3 classification and Geography row 4 mixed title. Review the dated income/industry distinction, simplified Weber candidate model, historical case choices and institutional status notes in the subject teacher-review files.
 - Confirm the Form Four Literature books and edition. Its spine names The Crown of Thorns and Macbeth, but the author/edition and chapter/scene alignment still need teacher confirmation. Only the independent foundations in rows 2 and 19 are drafted.
 - Clarify Form Three French row 18 and Français intensif rows 40/45. Dion explicitly requested that ambiguous rows stay pending.
 - Review each subject’s TEACHER-REVIEW.md for terminology, depth, local facts, exam conventions and real oral/writing practice. No teacher-feedback item is automatically marked approved.
@@ -111,5 +119,25 @@ Total: 348 drafts (including guided practicals), 74 rows awaiting teacher feedba
 - form-4 literature row 36: Awaiting teacher feedback on the prescribed text, author and edition/scene divisions. Dion requested that these rows remain pending; no replacement analysis is invented.
 - form-4 literature row 37: Awaiting teacher feedback on the prescribed text, author and edition/scene divisions. Dion requested that these rows remain pending; no replacement analysis is invented.
 - form-4 literature row 38: Awaiting teacher feedback on the prescribed text, author and edition/scene divisions. Dion requested that these rows remain pending; no replacement analysis is invented.
+- form-5 francais-intensif row 4: Œuvres au programme : titre, auteur et édition en attente de retour enseignant, conformément à la demande de Dion. Aucune lecture suivie de remplacement inventée.
+- form-5 francais-intensif row 5: Œuvres au programme : titre, auteur et édition en attente de retour enseignant, conformément à la demande de Dion. Aucune lecture suivie de remplacement inventée.
+- form-5 francais-intensif row 8: Œuvres au programme : titre, auteur et édition en attente de retour enseignant, conformément à la demande de Dion. Aucune lecture suivie de remplacement inventée.
+- form-5 francais-intensif row 10: Œuvres au programme : titre, auteur et édition en attente de retour enseignant, conformément à la demande de Dion. Aucune lecture suivie de remplacement inventée.
+- form-5 francais-intensif row 12: Œuvres au programme : titre, auteur et édition en attente de retour enseignant, conformément à la demande de Dion. Aucune lecture suivie de remplacement inventée.
+- form-5 francais-intensif row 14: Œuvres au programme : titre, auteur et édition en attente de retour enseignant, conformément à la demande de Dion. Aucune lecture suivie de remplacement inventée.
+- form-5 francais-intensif row 18: Œuvres au programme : titre, auteur et édition en attente de retour enseignant, conformément à la demande de Dion. Aucune lecture suivie de remplacement inventée.
+- form-5 francais-intensif row 20: Œuvres au programme : titre, auteur et édition en attente de retour enseignant, conformément à la demande de Dion. Aucune lecture suivie de remplacement inventée.
+- form-5 francais-intensif row 22: Œuvres au programme : titre, auteur et édition en attente de retour enseignant, conformément à la demande de Dion. Aucune lecture suivie de remplacement inventée.
+- form-5 francais-intensif row 25: Œuvres au programme : titre, auteur et édition en attente de retour enseignant, conformément à la demande de Dion. Aucune lecture suivie de remplacement inventée.
+- form-5 francais-intensif row 30: Œuvres au programme : titre, auteur et édition en attente de retour enseignant, conformément à la demande de Dion. Aucune lecture suivie de remplacement inventée.
+- form-5 francais-intensif row 32: Œuvres au programme : titre, auteur et édition en attente de retour enseignant, conformément à la demande de Dion. Aucune lecture suivie de remplacement inventée.
+- form-5 francais-intensif row 35: Œuvres au programme : titre, auteur et édition en attente de retour enseignant, conformément à la demande de Dion. Aucune lecture suivie de remplacement inventée.
+- form-5 francais-intensif row 37: Œuvres au programme : titre, auteur et édition en attente de retour enseignant, conformément à la demande de Dion. Aucune lecture suivie de remplacement inventée.
+- form-5 francais-intensif row 40: Œuvres au programme : titre, auteur et édition en attente de retour enseignant, conformément à la demande de Dion. Aucune lecture suivie de remplacement inventée.
+- form-5 francais-intensif row 42: Œuvres au programme : titre, auteur et édition en attente de retour enseignant, conformément à la demande de Dion. Aucune lecture suivie de remplacement inventée.
+- form-5 francais-intensif row 44: Œuvres au programme : titre, auteur et édition en attente de retour enseignant, conformément à la demande de Dion. Aucune lecture suivie de remplacement inventée.
+- form-5 francais-intensif row 47: Œuvres au programme : titre, auteur et édition en attente de retour enseignant, conformément à la demande de Dion. Aucune lecture suivie de remplacement inventée.
+- form-5 francais-intensif row 48: Œuvres au programme : titre, auteur et édition en attente de retour enseignant, conformément à la demande de Dion. Aucune lecture suivie de remplacement inventée.
+- form-5 francais-intensif row 52: Œuvres au programme : titre, auteur et édition en attente de retour enseignant, conformément à la demande de Dion. Aucune lecture suivie de remplacement inventée.
 
 User direction on 2026-10-24: keep these unresolved choices for teacher feedback. Do not replace prescribed works, guess ambiguous titles or treat a deferral as a completed lesson.

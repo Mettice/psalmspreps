@@ -1,0 +1,670 @@
+{
+ "subject": "geography",
+ "class": "Form 5",
+ "lesson_no": 9,
+ "language": "en",
+ "prerequisites": [
+  8
+ ],
+ "skills": [
+  {
+   "id": "g5-9",
+   "name": "Development of road transport"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Road development includes route planning, construction, drainage, surfacing and maintenance. Terrain, rainfall, finance, settlement and demand affect what is feasible. A road can provide flexible access to dispersed settlements, but a map line alone does not show its seasonal condition. Drainage and maintenance can be as important as initial construction.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to explain a road-development factor and calculate a model journey time. Builds on: network links and access. Leads to: rail transport and economic impacts."
+   },
+   {
+    "heading": "Explain the geography",
+    "text": "Road development includes route planning, construction, drainage, surfacing and maintenance. Terrain, rainfall, finance, settlement and demand affect what is feasible. A road can provide flexible access to dispersed settlements, but a map line alone does not show its seasonal condition. Drainage and maintenance can be as important as initial construction."
+   },
+   {
+    "heading": "Follow the local example or model",
+    "text": "In an invented upland case near Bamenda, rain damages a poorly drained access road. Repairing the surface without drainage may give only temporary improvement. For arithmetic practice, a fictional vehicle travels {60} km at a constant model speed of {30} km per hour: time is {60/30} hours or {60/30*60} minutes. This is not a real journey estimate or speed recommendation."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Connect the factor to the engineering or access problem. In calculations divide distance by speed, then convert hours to minutes. State the constant-speed assumption; real delays, stops and road conditions change travel time."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "route alignment",
+    "meaning": "the chosen course of a road"
+   },
+   {
+    "word": "drainage",
+    "meaning": "removal or control of water around a road"
+   },
+   {
+    "word": "maintenance",
+    "meaning": "continued work to keep a road usable"
+   },
+   {
+    "word": "accessibility",
+    "meaning": "the ease of reaching places or services"
+   }
+  ],
+  "mistake": {
+   "wrong": "Every straight line on a map is the easiest road to build.",
+   "right": "the chosen course of a road.",
+   "why": "Terrain and access needs can favour a different alignment."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A planner compares slopes and settlement connections. Explain the relationship.",
+  "steps": [
+   "the chosen course of a road.",
+   "Terrain and access needs can favour a different alignment."
+  ],
+  "answer": "route alignment",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "g5-9-c1",
+    "status": "draft",
+    "idea": "Distinguish the features before applying them.",
+    "vars": {},
+    "example": [
+     "route alignment: the chosen course of a road.",
+     "drainage: removal or control of water around a road.",
+     "maintenance: continued work to keep a road usable.",
+     "accessibility: the ease of reaching places or services."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-9-terms"
+    }
+   },
+   {
+    "id": "g5-9-c2",
+    "status": "draft",
+    "idea": "Use the evidence in the example, not a place name alone.",
+    "vars": {},
+    "example": [
+     "A planner compares slopes and settlement connections.",
+     "Side drains reduce water damage in an invented case.",
+     "A community reports damage for planned repair.",
+     "A reliable access road helps a village reach its market."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-9-cases"
+    }
+   },
+   {
+    "id": "g5-9-c3",
+    "status": "draft",
+    "idea": "Explain how the process produces the stated effect.",
+    "vars": {},
+    "example": [
+     "Terrain and access needs can favour a different alignment.",
+     "Water can weaken a road and interrupt access.",
+     "Road condition changes through use and weather.",
+     "Service quality depends on condition, cost and available transport."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g5-9-explain-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "transport"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A planner compares slopes and settlement connections.\nWhich explanation follows?",
+         "r": "Terrain and access needs can favour a different alignment.",
+         "w": [
+          "Water can weaken a road and interrupt access.",
+          "Road condition changes through use and weather.",
+          "Service quality depends on condition, cost and available transport."
+         ],
+         "e": [
+          "That explanation addresses drainage, rather than the process or relationship in this case.",
+          "That explanation addresses maintenance, rather than the process or relationship in this case.",
+          "That explanation addresses accessibility, rather than the process or relationship in this case."
+         ],
+         "y": "the chosen course of a road."
+        },
+        {
+         "q": "Side drains reduce water damage in an invented case.\nWhich explanation follows?",
+         "r": "Water can weaken a road and interrupt access.",
+         "w": [
+          "Terrain and access needs can favour a different alignment.",
+          "Road condition changes through use and weather.",
+          "Service quality depends on condition, cost and available transport."
+         ],
+         "e": [
+          "That explanation addresses route alignment, rather than the process or relationship in this case.",
+          "That explanation addresses maintenance, rather than the process or relationship in this case.",
+          "That explanation addresses accessibility, rather than the process or relationship in this case."
+         ],
+         "y": "removal or control of water around a road."
+        },
+        {
+         "q": "A community reports damage for planned repair.\nWhich explanation follows?",
+         "r": "Road condition changes through use and weather.",
+         "w": [
+          "Terrain and access needs can favour a different alignment.",
+          "Water can weaken a road and interrupt access.",
+          "Service quality depends on condition, cost and available transport."
+         ],
+         "e": [
+          "That explanation addresses route alignment, rather than the process or relationship in this case.",
+          "That explanation addresses drainage, rather than the process or relationship in this case.",
+          "That explanation addresses accessibility, rather than the process or relationship in this case."
+         ],
+         "y": "continued work to keep a road usable."
+        },
+        {
+         "q": "A reliable access road helps a village reach its market.\nWhich explanation follows?",
+         "r": "Service quality depends on condition, cost and available transport.",
+         "w": [
+          "Terrain and access needs can favour a different alignment.",
+          "Water can weaken a road and interrupt access.",
+          "Road condition changes through use and weather."
+         ],
+         "e": [
+          "That explanation addresses route alignment, rather than the process or relationship in this case.",
+          "That explanation addresses drainage, rather than the process or relationship in this case.",
+          "That explanation addresses maintenance, rather than the process or relationship in this case."
+         ],
+         "y": "the ease of reaching places or services."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g5-9-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means the chosen course of a road?",
+       "r": "route alignment",
+       "w": [
+        "drainage",
+        "maintenance",
+        "accessibility"
+       ],
+       "e": [
+        "That concerns removal or control of water around a road, rather than the feature asked for.",
+        "That concerns continued work to keep a road usable, rather than the feature asked for.",
+        "That concerns the ease of reaching places or services, rather than the feature asked for."
+       ],
+       "y": "Terrain and access needs can favour a different alignment."
+      },
+      {
+       "q": "Which term means removal or control of water around a road?",
+       "r": "drainage",
+       "w": [
+        "route alignment",
+        "maintenance",
+        "accessibility"
+       ],
+       "e": [
+        "That concerns the chosen course of a road, rather than the feature asked for.",
+        "That concerns continued work to keep a road usable, rather than the feature asked for.",
+        "That concerns the ease of reaching places or services, rather than the feature asked for."
+       ],
+       "y": "Water can weaken a road and interrupt access."
+      },
+      {
+       "q": "Which term means continued work to keep a road usable?",
+       "r": "maintenance",
+       "w": [
+        "route alignment",
+        "drainage",
+        "accessibility"
+       ],
+       "e": [
+        "That concerns the chosen course of a road, rather than the feature asked for.",
+        "That concerns removal or control of water around a road, rather than the feature asked for.",
+        "That concerns the ease of reaching places or services, rather than the feature asked for."
+       ],
+       "y": "Road condition changes through use and weather."
+      },
+      {
+       "q": "Which term means the ease of reaching places or services?",
+       "r": "accessibility",
+       "w": [
+        "route alignment",
+        "drainage",
+        "maintenance"
+       ],
+       "e": [
+        "That concerns the chosen course of a road, rather than the feature asked for.",
+        "That concerns removal or control of water around a road, rather than the feature asked for.",
+        "That concerns continued work to keep a road usable, rather than the feature asked for."
+       ],
+       "y": "Service quality depends on condition, cost and available transport."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-9-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A planner compares slopes and settlement connections.\nWhich feature is illustrated?",
+       "r": "route alignment",
+       "w": [
+        "drainage",
+        "maintenance",
+        "accessibility"
+       ],
+       "e": [
+        "That identifies removal or control of water around a road. Read the case for evidence of the chosen course of a road.",
+        "That identifies continued work to keep a road usable. Read the case for evidence of the chosen course of a road.",
+        "That identifies the ease of reaching places or services. Read the case for evidence of the chosen course of a road."
+       ],
+       "y": "Terrain and access needs can favour a different alignment."
+      },
+      {
+       "q": "Side drains reduce water damage in an invented case.\nWhich feature is illustrated?",
+       "r": "drainage",
+       "w": [
+        "route alignment",
+        "maintenance",
+        "accessibility"
+       ],
+       "e": [
+        "That identifies the chosen course of a road. Read the case for evidence of removal or control of water around a road.",
+        "That identifies continued work to keep a road usable. Read the case for evidence of removal or control of water around a road.",
+        "That identifies the ease of reaching places or services. Read the case for evidence of removal or control of water around a road."
+       ],
+       "y": "Water can weaken a road and interrupt access."
+      },
+      {
+       "q": "A community reports damage for planned repair.\nWhich feature is illustrated?",
+       "r": "maintenance",
+       "w": [
+        "route alignment",
+        "drainage",
+        "accessibility"
+       ],
+       "e": [
+        "That identifies the chosen course of a road. Read the case for evidence of continued work to keep a road usable.",
+        "That identifies removal or control of water around a road. Read the case for evidence of continued work to keep a road usable.",
+        "That identifies the ease of reaching places or services. Read the case for evidence of continued work to keep a road usable."
+       ],
+       "y": "Road condition changes through use and weather."
+      },
+      {
+       "q": "A reliable access road helps a village reach its market.\nWhich feature is illustrated?",
+       "r": "accessibility",
+       "w": [
+        "route alignment",
+        "drainage",
+        "maintenance"
+       ],
+       "e": [
+        "That identifies the chosen course of a road. Read the case for evidence of the ease of reaching places or services.",
+        "That identifies removal or control of water around a road. Read the case for evidence of the ease of reaching places or services.",
+        "That identifies continued work to keep a road usable. Read the case for evidence of the ease of reaching places or services."
+       ],
+       "y": "Service quality depends on condition, cost and available transport."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-9-explain",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A planner compares slopes and settlement connections.\nWhich explanation follows?",
+       "r": "Terrain and access needs can favour a different alignment.",
+       "w": [
+        "Water can weaken a road and interrupt access.",
+        "Road condition changes through use and weather.",
+        "Service quality depends on condition, cost and available transport."
+       ],
+       "e": [
+        "That explanation addresses drainage, rather than the process or relationship in this case.",
+        "That explanation addresses maintenance, rather than the process or relationship in this case.",
+        "That explanation addresses accessibility, rather than the process or relationship in this case."
+       ],
+       "y": "the chosen course of a road."
+      },
+      {
+       "q": "Side drains reduce water damage in an invented case.\nWhich explanation follows?",
+       "r": "Water can weaken a road and interrupt access.",
+       "w": [
+        "Terrain and access needs can favour a different alignment.",
+        "Road condition changes through use and weather.",
+        "Service quality depends on condition, cost and available transport."
+       ],
+       "e": [
+        "That explanation addresses route alignment, rather than the process or relationship in this case.",
+        "That explanation addresses maintenance, rather than the process or relationship in this case.",
+        "That explanation addresses accessibility, rather than the process or relationship in this case."
+       ],
+       "y": "removal or control of water around a road."
+      },
+      {
+       "q": "A community reports damage for planned repair.\nWhich explanation follows?",
+       "r": "Road condition changes through use and weather.",
+       "w": [
+        "Terrain and access needs can favour a different alignment.",
+        "Water can weaken a road and interrupt access.",
+        "Service quality depends on condition, cost and available transport."
+       ],
+       "e": [
+        "That explanation addresses route alignment, rather than the process or relationship in this case.",
+        "That explanation addresses drainage, rather than the process or relationship in this case.",
+        "That explanation addresses accessibility, rather than the process or relationship in this case."
+       ],
+       "y": "continued work to keep a road usable."
+      },
+      {
+       "q": "A reliable access road helps a village reach its market.\nWhich explanation follows?",
+       "r": "Service quality depends on condition, cost and available transport.",
+       "w": [
+        "Terrain and access needs can favour a different alignment.",
+        "Water can weaken a road and interrupt access.",
+        "Road condition changes through use and weather."
+       ],
+       "e": [
+        "That explanation addresses route alignment, rather than the process or relationship in this case.",
+        "That explanation addresses drainage, rather than the process or relationship in this case.",
+        "That explanation addresses maintenance, rather than the process or relationship in this case."
+       ],
+       "y": "the ease of reaching places or services."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-9-time",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "s": {
+     "pick": [
+      20,
+      30,
+      40
+     ]
+    },
+    "h": {
+     "pick": [
+      1,
+      2,
+      3
+     ]
+    },
+    "d": {
+     "expr": "s*h"
+    }
+   },
+   "prompt": "Invented constant-speed model: distance {d} km, speed {s} km per hour. Find time in minutes. Ignore stops.",
+   "answer": "d/s*60",
+   "misconceptions": [
+    {
+     "id": "m0",
+     "wrong": "d*s",
+     "explain": "Multiplying distance by speed does not give time."
+    },
+    {
+     "id": "m1",
+     "wrong": "d/s",
+     "explain": "That is the time in hours; convert it to minutes."
+    }
+   ],
+   "solution": [
+    "Time = distance ÷ speed = {d} ÷ {s} = {d/s} hours.",
+    "Minutes = {d/s} × {60} = {d/s*60}."
+   ],
+   "unit": "minutes"
+  },
+  {
+   "id": "g5-9-assess",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "prompt": "Find the incorrect geographical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "route alignment: the chosen course of a road.",
+      "truth": "true",
+      "explain": "This distinction is correct: Terrain and access needs can favour a different alignment. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "drainage: removal or control of water around a road.",
+      "truth": "true",
+      "explain": "This distinction is correct: Water can weaken a road and interrupt access. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "maintenance: continued work to keep a road usable.",
+      "truth": "true",
+      "explain": "This distinction is correct: Road condition changes through use and weather. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "accessibility: the ease of reaching places or services.",
+      "truth": "true",
+      "explain": "This distinction is correct: Service quality depends on condition, cost and available transport. Look for a claim that reverses the process or makes an unsupported generalisation."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every straight line on a map is the easiest road to build.",
+      "truth": "false",
+      "explain": "Terrain and access needs can favour a different alignment."
+     },
+     {
+      "text": "A surface needs no drainage in a rainy area.",
+      "truth": "false",
+      "explain": "Water can weaken a road and interrupt access."
+     },
+     {
+      "text": "Construction ends all future repair needs.",
+      "truth": "false",
+      "explain": "Road condition changes through use and weather."
+     },
+     {
+      "text": "A drawn road line proves affordable year-round service.",
+      "truth": "false",
+      "explain": "Service quality depends on condition, cost and available transport."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

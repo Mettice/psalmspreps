@@ -1,0 +1,718 @@
+{
+ "subject": "geography",
+ "class": "Form 5",
+ "lesson_no": 20,
+ "language": "en",
+ "prerequisites": [
+  18,
+  19
+ ],
+ "skills": [
+  {
+   "id": "g5-20",
+   "name": "Transport development in Cameroon: connecting the full journey"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Developing a transport system requires more than adding a major corridor. Local access, terminal capacity, maintenance, transfers and reliable services determine whether a complete journey works. Different users may gain or lose differently. A port improvement does not automatically repair inland roads; a railway corridor does not automatically provide collection from every farm.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to evaluate a multimodal proposal using access, transfers and maintenance. Builds on: Cameroon routes and access inequalities. Leads to: map-network practicals."
+   },
+   {
+    "heading": "Explain the geography",
+    "text": "Developing a transport system requires more than adding a major corridor. Local access, terminal capacity, maintenance, transfers and reliable services determine whether a complete journey works. Different users may gain or lose differently. A port improvement does not automatically repair inland roads; a railway corridor does not automatically provide collection from every farm."
+   },
+   {
+    "heading": "Follow the local example or model",
+    "text": "In an invented Cameroon proposal, produce travels by a local road to a depot and continues towards a port. The trunk connection improves, but the access road still floods seasonally. The whole-chain assessment includes spoilage, transfer handling and environmental effects as well as the improved link. No actual project performance or present road condition is claimed."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Trace origin, access link, transfer node, trunk link and destination. Identify the weakest stated connection. Compare a proposed intervention against that constraint, then record remaining uncertainties and affected users."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "last-mile connection",
+    "meaning": "the local access stage linking an origin or destination to a wider network"
+   },
+   {
+    "word": "transfer handling",
+    "meaning": "work and coordination when goods change vehicles or modes"
+   },
+   {
+    "word": "bottleneck",
+    "meaning": "a constrained stage limiting the full journey"
+   },
+   {
+    "word": "whole-chain assessment",
+    "meaning": "evaluation of connected stages and their combined effects"
+   }
+  ],
+  "mistake": {
+   "wrong": "A trunk railway automatically reaches every farm gate.",
+   "right": "the local access stage linking an origin or destination to a wider network.",
+   "why": "Dispersed origins need local access to the main corridor."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A fictional farm road joins a freight depot. Explain the relationship.",
+  "steps": [
+   "the local access stage linking an origin or destination to a wider network.",
+   "Dispersed origins need local access to the main corridor."
+  ],
+  "answer": "last-mile connection",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "g5-20-c1",
+    "status": "draft",
+    "idea": "Distinguish the features before applying them.",
+    "vars": {},
+    "example": [
+     "last-mile connection: the local access stage linking an origin or destination to a wider network.",
+     "transfer handling: work and coordination when goods change vehicles or modes.",
+     "bottleneck: a constrained stage limiting the full journey.",
+     "whole-chain assessment: evaluation of connected stages and their combined effects."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-20-terms"
+    }
+   },
+   {
+    "id": "g5-20-c2",
+    "status": "draft",
+    "idea": "Use the evidence in the example, not a place name alone.",
+    "vars": {},
+    "example": [
+     "A fictional farm road joins a freight depot.",
+     "Produce is moved from a local carrier at a depot.",
+     "A seasonally blocked access link limits an improved corridor.",
+     "A proposal records access, transfer, trunk movement and destination needs."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-20-cases"
+    }
+   },
+   {
+    "id": "g5-20-c3",
+    "status": "draft",
+    "idea": "Explain how the process produces the stated effect.",
+    "vars": {},
+    "example": [
+     "Dispersed origins need local access to the main corridor.",
+     "Handling can affect cost, time and condition.",
+     "A remaining weak stage can restrict the full movement.",
+     "Short links and transfers can materially affect a journey."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g5-20-explain-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "transport"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A fictional farm road joins a freight depot.\nWhich explanation follows?",
+         "r": "Dispersed origins need local access to the main corridor.",
+         "w": [
+          "Handling can affect cost, time and condition.",
+          "A remaining weak stage can restrict the full movement.",
+          "Short links and transfers can materially affect a journey."
+         ],
+         "e": [
+          "That explanation addresses transfer handling, rather than the process or relationship in this case.",
+          "That explanation addresses bottleneck, rather than the process or relationship in this case.",
+          "That explanation addresses whole-chain assessment, rather than the process or relationship in this case."
+         ],
+         "y": "the local access stage linking an origin or destination to a wider network."
+        },
+        {
+         "q": "Produce is moved from a local carrier at a depot.\nWhich explanation follows?",
+         "r": "Handling can affect cost, time and condition.",
+         "w": [
+          "Dispersed origins need local access to the main corridor.",
+          "A remaining weak stage can restrict the full movement.",
+          "Short links and transfers can materially affect a journey."
+         ],
+         "e": [
+          "That explanation addresses last-mile connection, rather than the process or relationship in this case.",
+          "That explanation addresses bottleneck, rather than the process or relationship in this case.",
+          "That explanation addresses whole-chain assessment, rather than the process or relationship in this case."
+         ],
+         "y": "work and coordination when goods change vehicles or modes."
+        },
+        {
+         "q": "A seasonally blocked access link limits an improved corridor.\nWhich explanation follows?",
+         "r": "A remaining weak stage can restrict the full movement.",
+         "w": [
+          "Dispersed origins need local access to the main corridor.",
+          "Handling can affect cost, time and condition.",
+          "Short links and transfers can materially affect a journey."
+         ],
+         "e": [
+          "That explanation addresses last-mile connection, rather than the process or relationship in this case.",
+          "That explanation addresses transfer handling, rather than the process or relationship in this case.",
+          "That explanation addresses whole-chain assessment, rather than the process or relationship in this case."
+         ],
+         "y": "a constrained stage limiting the full journey."
+        },
+        {
+         "q": "A proposal records access, transfer, trunk movement and destination needs.\nWhich explanation follows?",
+         "r": "Short links and transfers can materially affect a journey.",
+         "w": [
+          "Dispersed origins need local access to the main corridor.",
+          "Handling can affect cost, time and condition.",
+          "A remaining weak stage can restrict the full movement."
+         ],
+         "e": [
+          "That explanation addresses last-mile connection, rather than the process or relationship in this case.",
+          "That explanation addresses transfer handling, rather than the process or relationship in this case.",
+          "That explanation addresses bottleneck, rather than the process or relationship in this case."
+         ],
+         "y": "evaluation of connected stages and their combined effects."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g5-20-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means the local access stage linking an origin or destination to a wider network?",
+       "r": "last-mile connection",
+       "w": [
+        "transfer handling",
+        "bottleneck",
+        "whole-chain assessment"
+       ],
+       "e": [
+        "That concerns work and coordination when goods change vehicles or modes, rather than the feature asked for.",
+        "That concerns a constrained stage limiting the full journey, rather than the feature asked for.",
+        "That concerns evaluation of connected stages and their combined effects, rather than the feature asked for."
+       ],
+       "y": "Dispersed origins need local access to the main corridor."
+      },
+      {
+       "q": "Which term means work and coordination when goods change vehicles or modes?",
+       "r": "transfer handling",
+       "w": [
+        "last-mile connection",
+        "bottleneck",
+        "whole-chain assessment"
+       ],
+       "e": [
+        "That concerns the local access stage linking an origin or destination to a wider network, rather than the feature asked for.",
+        "That concerns a constrained stage limiting the full journey, rather than the feature asked for.",
+        "That concerns evaluation of connected stages and their combined effects, rather than the feature asked for."
+       ],
+       "y": "Handling can affect cost, time and condition."
+      },
+      {
+       "q": "Which term means a constrained stage limiting the full journey?",
+       "r": "bottleneck",
+       "w": [
+        "last-mile connection",
+        "transfer handling",
+        "whole-chain assessment"
+       ],
+       "e": [
+        "That concerns the local access stage linking an origin or destination to a wider network, rather than the feature asked for.",
+        "That concerns work and coordination when goods change vehicles or modes, rather than the feature asked for.",
+        "That concerns evaluation of connected stages and their combined effects, rather than the feature asked for."
+       ],
+       "y": "A remaining weak stage can restrict the full movement."
+      },
+      {
+       "q": "Which term means evaluation of connected stages and their combined effects?",
+       "r": "whole-chain assessment",
+       "w": [
+        "last-mile connection",
+        "transfer handling",
+        "bottleneck"
+       ],
+       "e": [
+        "That concerns the local access stage linking an origin or destination to a wider network, rather than the feature asked for.",
+        "That concerns work and coordination when goods change vehicles or modes, rather than the feature asked for.",
+        "That concerns a constrained stage limiting the full journey, rather than the feature asked for."
+       ],
+       "y": "Short links and transfers can materially affect a journey."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-20-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A fictional farm road joins a freight depot.\nWhich feature is illustrated?",
+       "r": "last-mile connection",
+       "w": [
+        "transfer handling",
+        "bottleneck",
+        "whole-chain assessment"
+       ],
+       "e": [
+        "That identifies work and coordination when goods change vehicles or modes. Read the case for evidence of the local access stage linking an origin or destination to a wider network.",
+        "That identifies a constrained stage limiting the full journey. Read the case for evidence of the local access stage linking an origin or destination to a wider network.",
+        "That identifies evaluation of connected stages and their combined effects. Read the case for evidence of the local access stage linking an origin or destination to a wider network."
+       ],
+       "y": "Dispersed origins need local access to the main corridor."
+      },
+      {
+       "q": "Produce is moved from a local carrier at a depot.\nWhich feature is illustrated?",
+       "r": "transfer handling",
+       "w": [
+        "last-mile connection",
+        "bottleneck",
+        "whole-chain assessment"
+       ],
+       "e": [
+        "That identifies the local access stage linking an origin or destination to a wider network. Read the case for evidence of work and coordination when goods change vehicles or modes.",
+        "That identifies a constrained stage limiting the full journey. Read the case for evidence of work and coordination when goods change vehicles or modes.",
+        "That identifies evaluation of connected stages and their combined effects. Read the case for evidence of work and coordination when goods change vehicles or modes."
+       ],
+       "y": "Handling can affect cost, time and condition."
+      },
+      {
+       "q": "A seasonally blocked access link limits an improved corridor.\nWhich feature is illustrated?",
+       "r": "bottleneck",
+       "w": [
+        "last-mile connection",
+        "transfer handling",
+        "whole-chain assessment"
+       ],
+       "e": [
+        "That identifies the local access stage linking an origin or destination to a wider network. Read the case for evidence of a constrained stage limiting the full journey.",
+        "That identifies work and coordination when goods change vehicles or modes. Read the case for evidence of a constrained stage limiting the full journey.",
+        "That identifies evaluation of connected stages and their combined effects. Read the case for evidence of a constrained stage limiting the full journey."
+       ],
+       "y": "A remaining weak stage can restrict the full movement."
+      },
+      {
+       "q": "A proposal records access, transfer, trunk movement and destination needs.\nWhich feature is illustrated?",
+       "r": "whole-chain assessment",
+       "w": [
+        "last-mile connection",
+        "transfer handling",
+        "bottleneck"
+       ],
+       "e": [
+        "That identifies the local access stage linking an origin or destination to a wider network. Read the case for evidence of evaluation of connected stages and their combined effects.",
+        "That identifies work and coordination when goods change vehicles or modes. Read the case for evidence of evaluation of connected stages and their combined effects.",
+        "That identifies a constrained stage limiting the full journey. Read the case for evidence of evaluation of connected stages and their combined effects."
+       ],
+       "y": "Short links and transfers can materially affect a journey."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-20-explain",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A fictional farm road joins a freight depot.\nWhich explanation follows?",
+       "r": "Dispersed origins need local access to the main corridor.",
+       "w": [
+        "Handling can affect cost, time and condition.",
+        "A remaining weak stage can restrict the full movement.",
+        "Short links and transfers can materially affect a journey."
+       ],
+       "e": [
+        "That explanation addresses transfer handling, rather than the process or relationship in this case.",
+        "That explanation addresses bottleneck, rather than the process or relationship in this case.",
+        "That explanation addresses whole-chain assessment, rather than the process or relationship in this case."
+       ],
+       "y": "the local access stage linking an origin or destination to a wider network."
+      },
+      {
+       "q": "Produce is moved from a local carrier at a depot.\nWhich explanation follows?",
+       "r": "Handling can affect cost, time and condition.",
+       "w": [
+        "Dispersed origins need local access to the main corridor.",
+        "A remaining weak stage can restrict the full movement.",
+        "Short links and transfers can materially affect a journey."
+       ],
+       "e": [
+        "That explanation addresses last-mile connection, rather than the process or relationship in this case.",
+        "That explanation addresses bottleneck, rather than the process or relationship in this case.",
+        "That explanation addresses whole-chain assessment, rather than the process or relationship in this case."
+       ],
+       "y": "work and coordination when goods change vehicles or modes."
+      },
+      {
+       "q": "A seasonally blocked access link limits an improved corridor.\nWhich explanation follows?",
+       "r": "A remaining weak stage can restrict the full movement.",
+       "w": [
+        "Dispersed origins need local access to the main corridor.",
+        "Handling can affect cost, time and condition.",
+        "Short links and transfers can materially affect a journey."
+       ],
+       "e": [
+        "That explanation addresses last-mile connection, rather than the process or relationship in this case.",
+        "That explanation addresses transfer handling, rather than the process or relationship in this case.",
+        "That explanation addresses whole-chain assessment, rather than the process or relationship in this case."
+       ],
+       "y": "a constrained stage limiting the full journey."
+      },
+      {
+       "q": "A proposal records access, transfer, trunk movement and destination needs.\nWhich explanation follows?",
+       "r": "Short links and transfers can materially affect a journey.",
+       "w": [
+        "Dispersed origins need local access to the main corridor.",
+        "Handling can affect cost, time and condition.",
+        "A remaining weak stage can restrict the full movement."
+       ],
+       "e": [
+        "That explanation addresses last-mile connection, rather than the process or relationship in this case.",
+        "That explanation addresses transfer handling, rather than the process or relationship in this case.",
+        "That explanation addresses bottleneck, rather than the process or relationship in this case."
+       ],
+       "y": "evaluation of connected stages and their combined effects."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-20-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "An invented trunk route improves, but the farm access road is blocked. What limits delivery?",
+       "r": "The remaining access bottleneck",
+       "w": [
+        "The trunk improvement proves delivery is guaranteed",
+        "A port name removes the blockage",
+        "Only straight-line distance matters"
+       ],
+       "e": [
+        "The chain still contains a blocked link.",
+        "A name does not create access.",
+        "Usable connections matter, not distance alone."
+       ],
+       "y": "Trace every required stage."
+      },
+      {
+       "q": "A fictional proposal changes from road to rail at a depot. What should its cost comparison include?",
+       "r": "Transfer handling and connecting services",
+       "w": [
+        "Assume all transfers are free and instant",
+        "Only the colour of each vehicle",
+        "Ignore how goods reach the depot"
+       ],
+       "e": [
+        "Transfers may add cost or time.",
+        "Vehicle colour does not establish transport performance.",
+        "Origin access is part of the journey."
+       ],
+       "y": "Include terminal and connecting stages."
+      },
+      {
+       "q": "A fictional route benefits exporters but increases noise beside homes. What assessment fits?",
+       "r": "Compare benefits and costs for the affected groups",
+       "w": [
+        "Exporter gains prove nobody bears a cost",
+        "Noise means no benefit can exist",
+        "Ignore households outside the firm"
+       ],
+       "e": [
+        "Benefits to one group do not remove costs to another.",
+        "Benefits and costs can coexist.",
+        "External effects concern people outside the firm."
+       ],
+       "y": "Evaluate distribution as well as total activity."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-20-assess",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "prompt": "Find the incorrect geographical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "last-mile connection: the local access stage linking an origin or destination to a wider network.",
+      "truth": "true",
+      "explain": "This distinction is correct: Dispersed origins need local access to the main corridor. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "transfer handling: work and coordination when goods change vehicles or modes.",
+      "truth": "true",
+      "explain": "This distinction is correct: Handling can affect cost, time and condition. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "bottleneck: a constrained stage limiting the full journey.",
+      "truth": "true",
+      "explain": "This distinction is correct: A remaining weak stage can restrict the full movement. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "whole-chain assessment: evaluation of connected stages and their combined effects.",
+      "truth": "true",
+      "explain": "This distinction is correct: Short links and transfers can materially affect a journey. Look for a claim that reverses the process or makes an unsupported generalisation."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A trunk railway automatically reaches every farm gate.",
+      "truth": "false",
+      "explain": "Dispersed origins need local access to the main corridor."
+     },
+     {
+      "text": "Mode changes can never add delay or damage.",
+      "truth": "false",
+      "explain": "Handling can affect cost, time and condition."
+     },
+     {
+      "text": "Improving any single link guarantees the entire chain works.",
+      "truth": "false",
+      "explain": "A remaining weak stage can restrict the full movement."
+     },
+     {
+      "text": "The longest route segment alone determines every outcome.",
+      "truth": "false",
+      "explain": "Short links and transfers can materially affect a journey."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

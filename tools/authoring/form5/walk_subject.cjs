@@ -135,5 +135,16 @@ const root = path.resolve(__dirname, '../../..');
       await page.screenshot({path:relationShot,fullPage:true});
       console.log('Relations screenshot: '+relationShot);
     }
+    if (subject === 'f5-geography') {
+      for(const [n,label] of [[5,/Invented Weber candidate/],[7,/Invented land-use decision map/],[18,/Selected Cameroon transport-node/],[21,/Invented route network/]]) {
+        await page.evaluate(({id,n})=>openLesson(id,n),{id:subject,n});
+        await page.getByRole('button',{name:'Next',exact:true}).click();
+        await page.getByRole('button',{name:'Next',exact:true}).click();
+        if(await page.getByRole('img',{name:label}).count()!==1)throw Error('Missing geography figure '+n);
+        const mapShot=path.join(os.tmpdir(),`${subject}-map-${n}.png`);
+        await page.screenshot({path:mapShot,fullPage:true});
+        console.log('Map screenshot: '+mapShot);
+      }
+    }
   } finally { await browser.close(); }
 })().catch((e) => { console.error(e); process.exitCode = 1; });

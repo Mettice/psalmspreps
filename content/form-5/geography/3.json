@@ -1,0 +1,717 @@
+{
+ "subject": "geography",
+ "class": "Form 5",
+ "lesson_no": 3,
+ "language": "en",
+ "prerequisites": [
+  2
+ ],
+ "skills": [
+  {
+   "id": "g5-3",
+   "name": "Industrialisation in less industrialised economies"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Industrialisation expands manufacturing capabilities and their links to the economy. Reliable electricity, skills, transport, finance and markets can support it. Where any of these is restricted, firms may face higher costs or uncertain output. These are conditions to investigate, not fixed qualities of a population. Resource exports can coexist with limited local processing.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to explain how a stated constraint can limit manufacturing and propose a relevant response. Builds on: inputs and agglomeration. Leads to: comparison with advanced industrial profiles."
+   },
+   {
+    "heading": "Explain the geography",
+    "text": "Industrialisation expands manufacturing capabilities and their links to the economy. Reliable electricity, skills, transport, finance and markets can support it. Where any of these is restricted, firms may face higher costs or uncertain output. These are conditions to investigate, not fixed qualities of a population. Resource exports can coexist with limited local processing."
+   },
+   {
+    "heading": "Follow the local example or model",
+    "text": "In an invented processing business near Bafoussam, unreliable electricity interrupts machinery and poor roads delay inputs. Improved power reliability addresses one constraint; it does not automatically solve roads or finance. World Bank income groups measure income per person, not industrial structure. In its FY{2027} table Uganda is low income and Cameroon lower-middle income; neither label describes every factory."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Use a chain: constraint, effect on production, possible response, remaining limitation. Avoid treating income labels and industrial categories as interchangeable. Compare evidence within and between places."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "power constraint",
+    "meaning": "unreliable energy supply interrupting production"
+   },
+   {
+    "word": "transport constraint",
+    "meaning": "cost or unreliability in moving inputs and outputs"
+   },
+   {
+    "word": "skills constraint",
+    "meaning": "a shortage of relevant technical capabilities"
+   },
+   {
+    "word": "finance constraint",
+    "meaning": "limited access to funds for viable equipment or working needs"
+   }
+  ],
+  "mistake": {
+   "wrong": "Every interruption proves workers lack ability.",
+   "right": "unreliable energy supply interrupting production.",
+   "why": "Energy reliability can limit output independently of workers’ ability."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "Machinery stops during outages in an invented workshop. Explain the relationship.",
+  "steps": [
+   "unreliable energy supply interrupting production.",
+   "Energy reliability can limit output independently of workers’ ability."
+  ],
+  "answer": "power constraint",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "g5-3-c1",
+    "status": "draft",
+    "idea": "Distinguish the features before applying them.",
+    "vars": {},
+    "example": [
+     "power constraint: unreliable energy supply interrupting production.",
+     "transport constraint: cost or unreliability in moving inputs and outputs.",
+     "skills constraint: a shortage of relevant technical capabilities.",
+     "finance constraint: limited access to funds for viable equipment or working needs."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-3-terms"
+    }
+   },
+   {
+    "id": "g5-3-c2",
+    "status": "draft",
+    "idea": "Use the evidence in the example, not a place name alone.",
+    "vars": {},
+    "example": [
+     "Machinery stops during outages in an invented workshop.",
+     "Inputs arrive late over an unreliable access route.",
+     "A firm cannot find technicians to maintain its equipment.",
+     "A processor cannot fund suitable machinery."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-3-cases"
+    }
+   },
+   {
+    "id": "g5-3-c3",
+    "status": "draft",
+    "idea": "Explain how the process produces the stated effect.",
+    "vars": {},
+    "example": [
+     "Energy reliability can limit output independently of workers’ ability.",
+     "Production also depends on links beyond the factory.",
+     "Relevant training can help, but demand and other constraints remain.",
+     "Resources and accessible investment finance are different."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g5-3-explain-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "industry"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "Machinery stops during outages in an invented workshop.\nWhich explanation follows?",
+         "r": "Energy reliability can limit output independently of workers’ ability.",
+         "w": [
+          "Production also depends on links beyond the factory.",
+          "Relevant training can help, but demand and other constraints remain.",
+          "Resources and accessible investment finance are different."
+         ],
+         "e": [
+          "That explanation addresses transport constraint, rather than the process or relationship in this case.",
+          "That explanation addresses skills constraint, rather than the process or relationship in this case.",
+          "That explanation addresses finance constraint, rather than the process or relationship in this case."
+         ],
+         "y": "unreliable energy supply interrupting production."
+        },
+        {
+         "q": "Inputs arrive late over an unreliable access route.\nWhich explanation follows?",
+         "r": "Production also depends on links beyond the factory.",
+         "w": [
+          "Energy reliability can limit output independently of workers’ ability.",
+          "Relevant training can help, but demand and other constraints remain.",
+          "Resources and accessible investment finance are different."
+         ],
+         "e": [
+          "That explanation addresses power constraint, rather than the process or relationship in this case.",
+          "That explanation addresses skills constraint, rather than the process or relationship in this case.",
+          "That explanation addresses finance constraint, rather than the process or relationship in this case."
+         ],
+         "y": "cost or unreliability in moving inputs and outputs."
+        },
+        {
+         "q": "A firm cannot find technicians to maintain its equipment.\nWhich explanation follows?",
+         "r": "Relevant training can help, but demand and other constraints remain.",
+         "w": [
+          "Energy reliability can limit output independently of workers’ ability.",
+          "Production also depends on links beyond the factory.",
+          "Resources and accessible investment finance are different."
+         ],
+         "e": [
+          "That explanation addresses power constraint, rather than the process or relationship in this case.",
+          "That explanation addresses transport constraint, rather than the process or relationship in this case.",
+          "That explanation addresses finance constraint, rather than the process or relationship in this case."
+         ],
+         "y": "a shortage of relevant technical capabilities."
+        },
+        {
+         "q": "A processor cannot fund suitable machinery.\nWhich explanation follows?",
+         "r": "Resources and accessible investment finance are different.",
+         "w": [
+          "Energy reliability can limit output independently of workers’ ability.",
+          "Production also depends on links beyond the factory.",
+          "Relevant training can help, but demand and other constraints remain."
+         ],
+         "e": [
+          "That explanation addresses power constraint, rather than the process or relationship in this case.",
+          "That explanation addresses transport constraint, rather than the process or relationship in this case.",
+          "That explanation addresses skills constraint, rather than the process or relationship in this case."
+         ],
+         "y": "limited access to funds for viable equipment or working needs."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g5-3-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "industry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means unreliable energy supply interrupting production?",
+       "r": "power constraint",
+       "w": [
+        "transport constraint",
+        "skills constraint",
+        "finance constraint"
+       ],
+       "e": [
+        "That concerns cost or unreliability in moving inputs and outputs, rather than the feature asked for.",
+        "That concerns a shortage of relevant technical capabilities, rather than the feature asked for.",
+        "That concerns limited access to funds for viable equipment or working needs, rather than the feature asked for."
+       ],
+       "y": "Energy reliability can limit output independently of workers’ ability."
+      },
+      {
+       "q": "Which term means cost or unreliability in moving inputs and outputs?",
+       "r": "transport constraint",
+       "w": [
+        "power constraint",
+        "skills constraint",
+        "finance constraint"
+       ],
+       "e": [
+        "That concerns unreliable energy supply interrupting production, rather than the feature asked for.",
+        "That concerns a shortage of relevant technical capabilities, rather than the feature asked for.",
+        "That concerns limited access to funds for viable equipment or working needs, rather than the feature asked for."
+       ],
+       "y": "Production also depends on links beyond the factory."
+      },
+      {
+       "q": "Which term means a shortage of relevant technical capabilities?",
+       "r": "skills constraint",
+       "w": [
+        "power constraint",
+        "transport constraint",
+        "finance constraint"
+       ],
+       "e": [
+        "That concerns unreliable energy supply interrupting production, rather than the feature asked for.",
+        "That concerns cost or unreliability in moving inputs and outputs, rather than the feature asked for.",
+        "That concerns limited access to funds for viable equipment or working needs, rather than the feature asked for."
+       ],
+       "y": "Relevant training can help, but demand and other constraints remain."
+      },
+      {
+       "q": "Which term means limited access to funds for viable equipment or working needs?",
+       "r": "finance constraint",
+       "w": [
+        "power constraint",
+        "transport constraint",
+        "skills constraint"
+       ],
+       "e": [
+        "That concerns unreliable energy supply interrupting production, rather than the feature asked for.",
+        "That concerns cost or unreliability in moving inputs and outputs, rather than the feature asked for.",
+        "That concerns a shortage of relevant technical capabilities, rather than the feature asked for."
+       ],
+       "y": "Resources and accessible investment finance are different."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-3-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "industry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Machinery stops during outages in an invented workshop.\nWhich feature is illustrated?",
+       "r": "power constraint",
+       "w": [
+        "transport constraint",
+        "skills constraint",
+        "finance constraint"
+       ],
+       "e": [
+        "That identifies cost or unreliability in moving inputs and outputs. Read the case for evidence of unreliable energy supply interrupting production.",
+        "That identifies a shortage of relevant technical capabilities. Read the case for evidence of unreliable energy supply interrupting production.",
+        "That identifies limited access to funds for viable equipment or working needs. Read the case for evidence of unreliable energy supply interrupting production."
+       ],
+       "y": "Energy reliability can limit output independently of workers’ ability."
+      },
+      {
+       "q": "Inputs arrive late over an unreliable access route.\nWhich feature is illustrated?",
+       "r": "transport constraint",
+       "w": [
+        "power constraint",
+        "skills constraint",
+        "finance constraint"
+       ],
+       "e": [
+        "That identifies unreliable energy supply interrupting production. Read the case for evidence of cost or unreliability in moving inputs and outputs.",
+        "That identifies a shortage of relevant technical capabilities. Read the case for evidence of cost or unreliability in moving inputs and outputs.",
+        "That identifies limited access to funds for viable equipment or working needs. Read the case for evidence of cost or unreliability in moving inputs and outputs."
+       ],
+       "y": "Production also depends on links beyond the factory."
+      },
+      {
+       "q": "A firm cannot find technicians to maintain its equipment.\nWhich feature is illustrated?",
+       "r": "skills constraint",
+       "w": [
+        "power constraint",
+        "transport constraint",
+        "finance constraint"
+       ],
+       "e": [
+        "That identifies unreliable energy supply interrupting production. Read the case for evidence of a shortage of relevant technical capabilities.",
+        "That identifies cost or unreliability in moving inputs and outputs. Read the case for evidence of a shortage of relevant technical capabilities.",
+        "That identifies limited access to funds for viable equipment or working needs. Read the case for evidence of a shortage of relevant technical capabilities."
+       ],
+       "y": "Relevant training can help, but demand and other constraints remain."
+      },
+      {
+       "q": "A processor cannot fund suitable machinery.\nWhich feature is illustrated?",
+       "r": "finance constraint",
+       "w": [
+        "power constraint",
+        "transport constraint",
+        "skills constraint"
+       ],
+       "e": [
+        "That identifies unreliable energy supply interrupting production. Read the case for evidence of limited access to funds for viable equipment or working needs.",
+        "That identifies cost or unreliability in moving inputs and outputs. Read the case for evidence of limited access to funds for viable equipment or working needs.",
+        "That identifies a shortage of relevant technical capabilities. Read the case for evidence of limited access to funds for viable equipment or working needs."
+       ],
+       "y": "Resources and accessible investment finance are different."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-3-explain",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "industry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Machinery stops during outages in an invented workshop.\nWhich explanation follows?",
+       "r": "Energy reliability can limit output independently of workers’ ability.",
+       "w": [
+        "Production also depends on links beyond the factory.",
+        "Relevant training can help, but demand and other constraints remain.",
+        "Resources and accessible investment finance are different."
+       ],
+       "e": [
+        "That explanation addresses transport constraint, rather than the process or relationship in this case.",
+        "That explanation addresses skills constraint, rather than the process or relationship in this case.",
+        "That explanation addresses finance constraint, rather than the process or relationship in this case."
+       ],
+       "y": "unreliable energy supply interrupting production."
+      },
+      {
+       "q": "Inputs arrive late over an unreliable access route.\nWhich explanation follows?",
+       "r": "Production also depends on links beyond the factory.",
+       "w": [
+        "Energy reliability can limit output independently of workers’ ability.",
+        "Relevant training can help, but demand and other constraints remain.",
+        "Resources and accessible investment finance are different."
+       ],
+       "e": [
+        "That explanation addresses power constraint, rather than the process or relationship in this case.",
+        "That explanation addresses skills constraint, rather than the process or relationship in this case.",
+        "That explanation addresses finance constraint, rather than the process or relationship in this case."
+       ],
+       "y": "cost or unreliability in moving inputs and outputs."
+      },
+      {
+       "q": "A firm cannot find technicians to maintain its equipment.\nWhich explanation follows?",
+       "r": "Relevant training can help, but demand and other constraints remain.",
+       "w": [
+        "Energy reliability can limit output independently of workers’ ability.",
+        "Production also depends on links beyond the factory.",
+        "Resources and accessible investment finance are different."
+       ],
+       "e": [
+        "That explanation addresses power constraint, rather than the process or relationship in this case.",
+        "That explanation addresses transport constraint, rather than the process or relationship in this case.",
+        "That explanation addresses finance constraint, rather than the process or relationship in this case."
+       ],
+       "y": "a shortage of relevant technical capabilities."
+      },
+      {
+       "q": "A processor cannot fund suitable machinery.\nWhich explanation follows?",
+       "r": "Resources and accessible investment finance are different.",
+       "w": [
+        "Energy reliability can limit output independently of workers’ ability.",
+        "Production also depends on links beyond the factory.",
+        "Relevant training can help, but demand and other constraints remain."
+       ],
+       "e": [
+        "That explanation addresses power constraint, rather than the process or relationship in this case.",
+        "That explanation addresses transport constraint, rather than the process or relationship in this case.",
+        "That explanation addresses skills constraint, rather than the process or relationship in this case."
+       ],
+       "y": "limited access to funds for viable equipment or working needs."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-3-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "industry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A fictional machine repeatedly stops because supply voltage fails. Which response directly targets the stated constraint?",
+       "r": "Improve reliable power provision",
+       "w": [
+        "Change only the company logo",
+        "Assume workers are unwilling",
+        "Open an unrelated shop"
+       ],
+       "e": [
+        "A logo does not restore electricity.",
+        "The evidence identifies electricity, not motivation.",
+        "An unrelated shop does not power the machine."
+       ],
+       "y": "Match the intervention to the observed mechanism."
+      },
+      {
+       "q": "A fictional processor lacks maintenance skills. Which proposal is most relevant?",
+       "r": "Train technicians for the actual equipment",
+       "w": [
+        "Assume raw-material exports supply the skills",
+        "Measure only the number of roads",
+        "Declare every course equally useful"
+       ],
+       "e": [
+        "Exports do not automatically create maintenance capability.",
+        "Road counts do not identify technical skills.",
+        "Training relevance matters."
+       ],
+       "y": "Training should address the identified equipment and skill need."
+      },
+      {
+       "q": "A report calls Cameroon a World Bank low-income country and treats that as a manufacturing measure. What correction is needed?",
+       "r": "The FY{2027} income label is lower-middle income; industrial structure requires separate evidence",
+       "w": [
+        "Income and industry are identical measures",
+        "Every country has the same industrial structure",
+        "Only factory names determine income classification"
+       ],
+       "e": [
+        "Income groups and industrial measures answer different questions.",
+        "Industrial structures vary.",
+        "The income grouping uses income per person."
+       ],
+       "y": "Use the dated income classification accurately and assess industry separately."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-3-assess",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "industry"
+   ],
+   "prompt": "Find the incorrect geographical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "power constraint: unreliable energy supply interrupting production.",
+      "truth": "true",
+      "explain": "This distinction is correct: Energy reliability can limit output independently of workers’ ability. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "transport constraint: cost or unreliability in moving inputs and outputs.",
+      "truth": "true",
+      "explain": "This distinction is correct: Production also depends on links beyond the factory. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "skills constraint: a shortage of relevant technical capabilities.",
+      "truth": "true",
+      "explain": "This distinction is correct: Relevant training can help, but demand and other constraints remain. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "finance constraint: limited access to funds for viable equipment or working needs.",
+      "truth": "true",
+      "explain": "This distinction is correct: Resources and accessible investment finance are different. Look for a claim that reverses the process or makes an unsupported generalisation."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Every interruption proves workers lack ability.",
+      "truth": "false",
+      "explain": "Energy reliability can limit output independently of workers’ ability."
+     },
+     {
+      "text": "Building a factory automatically repairs every access road.",
+      "truth": "false",
+      "explain": "Production also depends on links beyond the factory."
+     },
+     {
+      "text": "Any training guarantees an immediate job for everyone.",
+      "truth": "false",
+      "explain": "Relevant training can help, but demand and other constraints remain."
+     },
+     {
+      "text": "Natural resources alone provide every firm’s investment funds.",
+      "truth": "false",
+      "explain": "Resources and accessible investment finance are different."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

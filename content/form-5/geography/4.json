@@ -1,0 +1,717 @@
+{
+ "subject": "geography",
+ "class": "Form 5",
+ "lesson_no": 4,
+ "language": "en",
+ "prerequisites": [
+  3
+ ],
+ "skills": [
+  {
+   "id": "g5-4",
+   "name": "Advanced industrial profiles: capabilities and changing employment"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "An advanced industrial profile may include specialised suppliers, skilled labour, research, reliable networks and high productivity. These features vary across regions and sectors. Higher output per worker can allow output to grow with fewer workers. A fall in manufacturing’s employment share does not by itself prove that manufacturing output fell. Outsourcing and service growth also affect the shares.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to explain why productivity and employment shares can change differently. Builds on: constraints on industrialisation. Leads to: location models and industrial change."
+   },
+   {
+    "heading": "Explain the geography",
+    "text": "An advanced industrial profile may include specialised suppliers, skilled labour, research, reliable networks and high productivity. These features vary across regions and sectors. Higher output per worker can allow output to grow with fewer workers. A fall in manufacturing’s employment share does not by itself prove that manufacturing output fell. Outsourcing and service growth also affect the shares."
+   },
+   {
+    "heading": "Follow the local example or model",
+    "text": "In an invented comparison, a plant installs efficient equipment and produces more with fewer labour hours. Its productivity rises. A neighbouring research service may support the plant while being counted in services. The sheet’s AIC wording is treated as a school industrial category, not a World Bank income classification or a claim that every region is equally industrialised."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Ask which indicator is changing: total output, output per worker, number of jobs or share of all jobs. Explain a mechanism and acknowledge uneven benefits, retraining needs and environmental costs."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "labour productivity",
+    "meaning": "output produced per worker or unit of labour time"
+   },
+   {
+    "word": "research linkage",
+    "meaning": "connections between investigation, design and production"
+   },
+   {
+    "word": "employment share",
+    "meaning": "manufacturing jobs as a proportion of all employment"
+   },
+   {
+    "word": "industrial restructuring",
+    "meaning": "changes in industrial activities, organisation or technology"
+   }
+  ],
+  "mistake": {
+   "wrong": "Productivity means the total population of the city.",
+   "right": "output produced per worker or unit of labour time.",
+   "why": "Productivity relates output to labour input."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "An invented plant produces more per labour hour. Explain the relationship.",
+  "steps": [
+   "output produced per worker or unit of labour time.",
+   "Productivity relates output to labour input."
+  ],
+  "answer": "labour productivity",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "g5-4-c1",
+    "status": "draft",
+    "idea": "Distinguish the features before applying them.",
+    "vars": {},
+    "example": [
+     "labour productivity: output produced per worker or unit of labour time.",
+     "research linkage: connections between investigation, design and production.",
+     "employment share: manufacturing jobs as a proportion of all employment.",
+     "industrial restructuring: changes in industrial activities, organisation or technology."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-4-terms"
+    }
+   },
+   {
+    "id": "g5-4-c2",
+    "status": "draft",
+    "idea": "Use the evidence in the example, not a place name alone.",
+    "vars": {},
+    "example": [
+     "An invented plant produces more per labour hour.",
+     "A laboratory helps a factory improve a process.",
+     "Services grow faster while factory job numbers stay unchanged.",
+     "A region moves from older heavy plants towards specialised production."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-4-cases"
+    }
+   },
+   {
+    "id": "g5-4-c3",
+    "status": "draft",
+    "idea": "Explain how the process produces the stated effect.",
+    "vars": {},
+    "example": [
+     "Productivity relates output to labour input.",
+     "Design support can improve capability without guaranteeing demand.",
+     "A share can fall because its denominator grows.",
+     "New activities and adjustment costs can be uneven."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g5-4-explain-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "industry"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "An invented plant produces more per labour hour.\nWhich explanation follows?",
+         "r": "Productivity relates output to labour input.",
+         "w": [
+          "Design support can improve capability without guaranteeing demand.",
+          "A share can fall because its denominator grows.",
+          "New activities and adjustment costs can be uneven."
+         ],
+         "e": [
+          "That explanation addresses research linkage, rather than the process or relationship in this case.",
+          "That explanation addresses employment share, rather than the process or relationship in this case.",
+          "That explanation addresses industrial restructuring, rather than the process or relationship in this case."
+         ],
+         "y": "output produced per worker or unit of labour time."
+        },
+        {
+         "q": "A laboratory helps a factory improve a process.\nWhich explanation follows?",
+         "r": "Design support can improve capability without guaranteeing demand.",
+         "w": [
+          "Productivity relates output to labour input.",
+          "A share can fall because its denominator grows.",
+          "New activities and adjustment costs can be uneven."
+         ],
+         "e": [
+          "That explanation addresses labour productivity, rather than the process or relationship in this case.",
+          "That explanation addresses employment share, rather than the process or relationship in this case.",
+          "That explanation addresses industrial restructuring, rather than the process or relationship in this case."
+         ],
+         "y": "connections between investigation, design and production."
+        },
+        {
+         "q": "Services grow faster while factory job numbers stay unchanged.\nWhich explanation follows?",
+         "r": "A share can fall because its denominator grows.",
+         "w": [
+          "Productivity relates output to labour input.",
+          "Design support can improve capability without guaranteeing demand.",
+          "New activities and adjustment costs can be uneven."
+         ],
+         "e": [
+          "That explanation addresses labour productivity, rather than the process or relationship in this case.",
+          "That explanation addresses research linkage, rather than the process or relationship in this case.",
+          "That explanation addresses industrial restructuring, rather than the process or relationship in this case."
+         ],
+         "y": "manufacturing jobs as a proportion of all employment."
+        },
+        {
+         "q": "A region moves from older heavy plants towards specialised production.\nWhich explanation follows?",
+         "r": "New activities and adjustment costs can be uneven.",
+         "w": [
+          "Productivity relates output to labour input.",
+          "Design support can improve capability without guaranteeing demand.",
+          "A share can fall because its denominator grows."
+         ],
+         "e": [
+          "That explanation addresses labour productivity, rather than the process or relationship in this case.",
+          "That explanation addresses research linkage, rather than the process or relationship in this case.",
+          "That explanation addresses employment share, rather than the process or relationship in this case."
+         ],
+         "y": "changes in industrial activities, organisation or technology."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g5-4-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "industry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means output produced per worker or unit of labour time?",
+       "r": "labour productivity",
+       "w": [
+        "research linkage",
+        "employment share",
+        "industrial restructuring"
+       ],
+       "e": [
+        "That concerns connections between investigation, design and production, rather than the feature asked for.",
+        "That concerns manufacturing jobs as a proportion of all employment, rather than the feature asked for.",
+        "That concerns changes in industrial activities, organisation or technology, rather than the feature asked for."
+       ],
+       "y": "Productivity relates output to labour input."
+      },
+      {
+       "q": "Which term means connections between investigation, design and production?",
+       "r": "research linkage",
+       "w": [
+        "labour productivity",
+        "employment share",
+        "industrial restructuring"
+       ],
+       "e": [
+        "That concerns output produced per worker or unit of labour time, rather than the feature asked for.",
+        "That concerns manufacturing jobs as a proportion of all employment, rather than the feature asked for.",
+        "That concerns changes in industrial activities, organisation or technology, rather than the feature asked for."
+       ],
+       "y": "Design support can improve capability without guaranteeing demand."
+      },
+      {
+       "q": "Which term means manufacturing jobs as a proportion of all employment?",
+       "r": "employment share",
+       "w": [
+        "labour productivity",
+        "research linkage",
+        "industrial restructuring"
+       ],
+       "e": [
+        "That concerns output produced per worker or unit of labour time, rather than the feature asked for.",
+        "That concerns connections between investigation, design and production, rather than the feature asked for.",
+        "That concerns changes in industrial activities, organisation or technology, rather than the feature asked for."
+       ],
+       "y": "A share can fall because its denominator grows."
+      },
+      {
+       "q": "Which term means changes in industrial activities, organisation or technology?",
+       "r": "industrial restructuring",
+       "w": [
+        "labour productivity",
+        "research linkage",
+        "employment share"
+       ],
+       "e": [
+        "That concerns output produced per worker or unit of labour time, rather than the feature asked for.",
+        "That concerns connections between investigation, design and production, rather than the feature asked for.",
+        "That concerns manufacturing jobs as a proportion of all employment, rather than the feature asked for."
+       ],
+       "y": "New activities and adjustment costs can be uneven."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-4-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "industry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "An invented plant produces more per labour hour.\nWhich feature is illustrated?",
+       "r": "labour productivity",
+       "w": [
+        "research linkage",
+        "employment share",
+        "industrial restructuring"
+       ],
+       "e": [
+        "That identifies connections between investigation, design and production. Read the case for evidence of output produced per worker or unit of labour time.",
+        "That identifies manufacturing jobs as a proportion of all employment. Read the case for evidence of output produced per worker or unit of labour time.",
+        "That identifies changes in industrial activities, organisation or technology. Read the case for evidence of output produced per worker or unit of labour time."
+       ],
+       "y": "Productivity relates output to labour input."
+      },
+      {
+       "q": "A laboratory helps a factory improve a process.\nWhich feature is illustrated?",
+       "r": "research linkage",
+       "w": [
+        "labour productivity",
+        "employment share",
+        "industrial restructuring"
+       ],
+       "e": [
+        "That identifies output produced per worker or unit of labour time. Read the case for evidence of connections between investigation, design and production.",
+        "That identifies manufacturing jobs as a proportion of all employment. Read the case for evidence of connections between investigation, design and production.",
+        "That identifies changes in industrial activities, organisation or technology. Read the case for evidence of connections between investigation, design and production."
+       ],
+       "y": "Design support can improve capability without guaranteeing demand."
+      },
+      {
+       "q": "Services grow faster while factory job numbers stay unchanged.\nWhich feature is illustrated?",
+       "r": "employment share",
+       "w": [
+        "labour productivity",
+        "research linkage",
+        "industrial restructuring"
+       ],
+       "e": [
+        "That identifies output produced per worker or unit of labour time. Read the case for evidence of manufacturing jobs as a proportion of all employment.",
+        "That identifies connections between investigation, design and production. Read the case for evidence of manufacturing jobs as a proportion of all employment.",
+        "That identifies changes in industrial activities, organisation or technology. Read the case for evidence of manufacturing jobs as a proportion of all employment."
+       ],
+       "y": "A share can fall because its denominator grows."
+      },
+      {
+       "q": "A region moves from older heavy plants towards specialised production.\nWhich feature is illustrated?",
+       "r": "industrial restructuring",
+       "w": [
+        "labour productivity",
+        "research linkage",
+        "employment share"
+       ],
+       "e": [
+        "That identifies output produced per worker or unit of labour time. Read the case for evidence of changes in industrial activities, organisation or technology.",
+        "That identifies connections between investigation, design and production. Read the case for evidence of changes in industrial activities, organisation or technology.",
+        "That identifies manufacturing jobs as a proportion of all employment. Read the case for evidence of changes in industrial activities, organisation or technology."
+       ],
+       "y": "New activities and adjustment costs can be uneven."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-4-explain",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "industry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "An invented plant produces more per labour hour.\nWhich explanation follows?",
+       "r": "Productivity relates output to labour input.",
+       "w": [
+        "Design support can improve capability without guaranteeing demand.",
+        "A share can fall because its denominator grows.",
+        "New activities and adjustment costs can be uneven."
+       ],
+       "e": [
+        "That explanation addresses research linkage, rather than the process or relationship in this case.",
+        "That explanation addresses employment share, rather than the process or relationship in this case.",
+        "That explanation addresses industrial restructuring, rather than the process or relationship in this case."
+       ],
+       "y": "output produced per worker or unit of labour time."
+      },
+      {
+       "q": "A laboratory helps a factory improve a process.\nWhich explanation follows?",
+       "r": "Design support can improve capability without guaranteeing demand.",
+       "w": [
+        "Productivity relates output to labour input.",
+        "A share can fall because its denominator grows.",
+        "New activities and adjustment costs can be uneven."
+       ],
+       "e": [
+        "That explanation addresses labour productivity, rather than the process or relationship in this case.",
+        "That explanation addresses employment share, rather than the process or relationship in this case.",
+        "That explanation addresses industrial restructuring, rather than the process or relationship in this case."
+       ],
+       "y": "connections between investigation, design and production."
+      },
+      {
+       "q": "Services grow faster while factory job numbers stay unchanged.\nWhich explanation follows?",
+       "r": "A share can fall because its denominator grows.",
+       "w": [
+        "Productivity relates output to labour input.",
+        "Design support can improve capability without guaranteeing demand.",
+        "New activities and adjustment costs can be uneven."
+       ],
+       "e": [
+        "That explanation addresses labour productivity, rather than the process or relationship in this case.",
+        "That explanation addresses research linkage, rather than the process or relationship in this case.",
+        "That explanation addresses industrial restructuring, rather than the process or relationship in this case."
+       ],
+       "y": "manufacturing jobs as a proportion of all employment."
+      },
+      {
+       "q": "A region moves from older heavy plants towards specialised production.\nWhich explanation follows?",
+       "r": "New activities and adjustment costs can be uneven.",
+       "w": [
+        "Productivity relates output to labour input.",
+        "Design support can improve capability without guaranteeing demand.",
+        "A share can fall because its denominator grows."
+       ],
+       "e": [
+        "That explanation addresses labour productivity, rather than the process or relationship in this case.",
+        "That explanation addresses research linkage, rather than the process or relationship in this case.",
+        "That explanation addresses employment share, rather than the process or relationship in this case."
+       ],
+       "y": "changes in industrial activities, organisation or technology."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-4-apply",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "industry"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Factory output rises while labour hours fall in an invented record. What follows?",
+       "r": "Output per labour hour rises",
+       "w": [
+        "Output per labour hour must fall",
+        "The record proves every worker benefits",
+        "Manufacturing has disappeared"
+       ],
+       "e": [
+        "More output from less labour raises this ratio.",
+        "Distributional outcomes require additional evidence.",
+        "The record still describes manufacturing."
+       ],
+       "y": "Separate productivity from employment and welfare."
+      },
+      {
+       "q": "Manufacturing jobs stay constant while service jobs rise. Why can the manufacturing job share fall?",
+       "r": "Total employment grows faster than manufacturing employment",
+       "w": [
+        "All factories must have closed",
+        "Shares ignore the denominator",
+        "Every service is manufacturing"
+       ],
+       "e": [
+        "Constant manufacturing jobs do not imply closure.",
+        "The denominator is total employment.",
+        "Services and manufacturing are distinct categories."
+       ],
+       "y": "A proportion depends on both numerator and denominator."
+      },
+      {
+       "q": "A region gains research-linked factories while older plants close. Which conclusion is supported?",
+       "r": "Its industrial structure is changing",
+       "w": [
+        "Every resident gains equally",
+        "No retraining can be necessary",
+        "Industry has no connection to services"
+       ],
+       "e": [
+        "Benefits and losses can be uneven.",
+        "Changing techniques may require new skills.",
+        "Research and other services can support industry."
+       ],
+       "y": "Restructuring describes change, not a guarantee of universal benefit."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-4-assess",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "industry"
+   ],
+   "prompt": "Find the incorrect geographical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "labour productivity: output produced per worker or unit of labour time.",
+      "truth": "true",
+      "explain": "This distinction is correct: Productivity relates output to labour input. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "research linkage: connections between investigation, design and production.",
+      "truth": "true",
+      "explain": "This distinction is correct: Design support can improve capability without guaranteeing demand. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "employment share: manufacturing jobs as a proportion of all employment.",
+      "truth": "true",
+      "explain": "This distinction is correct: A share can fall because its denominator grows. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "industrial restructuring: changes in industrial activities, organisation or technology.",
+      "truth": "true",
+      "explain": "This distinction is correct: New activities and adjustment costs can be uneven. Look for a claim that reverses the process or makes an unsupported generalisation."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Productivity means the total population of the city.",
+      "truth": "false",
+      "explain": "Productivity relates output to labour input."
+     },
+     {
+      "text": "Research guarantees every invention will sell.",
+      "truth": "false",
+      "explain": "Design support can improve capability without guaranteeing demand."
+     },
+     {
+      "text": "A lower job share always proves lower factory output.",
+      "truth": "false",
+      "explain": "A share can fall because its denominator grows."
+     },
+     {
+      "text": "Industrial restructuring always benefits every worker equally.",
+      "truth": "false",
+      "explain": "New activities and adjustment costs can be uneven."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

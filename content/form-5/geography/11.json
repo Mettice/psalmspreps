@@ -1,0 +1,671 @@
+{
+ "subject": "geography",
+ "class": "Form 5",
+ "lesson_no": 11,
+ "language": "en",
+ "prerequisites": [
+  9,
+  10
+ ],
+ "skills": [
+  {
+   "id": "g5-11",
+   "name": "Economic impacts of road and rail transport"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "Reliable transport can connect producers to customers, reduce some distribution costs, widen access to services and support employment. Effects depend on prices, service availability and who can use the link. Construction may also displace activities, divide habitats or increase pollution. More infrastructure alone does not prove a net benefit for every community.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to explain a transport benefit and cost without assuming equal outcomes. Builds on: road and rail development. Leads to: air and water transport decisions."
+   },
+   {
+    "heading": "Explain the geography",
+    "text": "Reliable transport can connect producers to customers, reduce some distribution costs, widen access to services and support employment. Effects depend on prices, service availability and who can use the link. Construction may also displace activities, divide habitats or increase pollution. More infrastructure alone does not prove a net benefit for every community."
+   },
+   {
+    "heading": "Follow the local example or model",
+    "text": "In an invented market record, delivery cost for the same load falls from CFA {12000} to CFA {9000}. The saving is CFA {12000-9000}. This is a cost comparison for an identical shipment, not proof that every retail price falls by the same amount. Market competition, other costs and household access affect the outcome."
+   },
+   {
+    "heading": "Apply and check",
+    "text": "State the causal chain from the transport change to the effect. Compare equivalent loads and periods. Subtract the new cost from the old for the saving, and seek evidence about distribution of benefits and environmental costs."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "market linkage",
+    "meaning": "a connection between producers and potential customers"
+   },
+   {
+    "word": "distribution cost",
+    "meaning": "the expense of moving and handling goods for delivery"
+   },
+   {
+    "word": "social access",
+    "meaning": "people’s ability to reach services and opportunities"
+   },
+   {
+    "word": "external cost",
+    "meaning": "a cost imposed beyond the direct transport transaction"
+   }
+  ],
+  "mistake": {
+   "wrong": "A new route guarantees every crop sells at a profit.",
+   "right": "a connection between producers and potential customers.",
+   "why": "Access expands opportunities, but demand and costs still matter."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "A fictional reliable route lets growers reach another market. Explain the relationship.",
+  "steps": [
+   "a connection between producers and potential customers.",
+   "Access expands opportunities, but demand and costs still matter."
+  ],
+  "answer": "market linkage",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "g5-11-c1",
+    "status": "draft",
+    "idea": "Distinguish the features before applying them.",
+    "vars": {},
+    "example": [
+     "market linkage: a connection between producers and potential customers.",
+     "distribution cost: the expense of moving and handling goods for delivery.",
+     "social access: people’s ability to reach services and opportunities.",
+     "external cost: a cost imposed beyond the direct transport transaction."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-11-terms"
+    }
+   },
+   {
+    "id": "g5-11-c2",
+    "status": "draft",
+    "idea": "Use the evidence in the example, not a place name alone.",
+    "vars": {},
+    "example": [
+     "A fictional reliable route lets growers reach another market.",
+     "A trader compares cost for the same load before and after a change.",
+     "A reliable service can help households reach a clinic.",
+     "Noise and emissions affect neighbouring homes."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-11-cases"
+    }
+   },
+   {
+    "id": "g5-11-c3",
+    "status": "draft",
+    "idea": "Explain how the process produces the stated effect.",
+    "vars": {},
+    "example": [
+     "Access expands opportunities, but demand and costs still matter.",
+     "A change in one cost component does not determine every price.",
+     "Physical proximity and affordable usable access differ.",
+     "Some costs are borne by people outside the transaction."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g5-11-explain-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "transport"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "A fictional reliable route lets growers reach another market.\nWhich explanation follows?",
+         "r": "Access expands opportunities, but demand and costs still matter.",
+         "w": [
+          "A change in one cost component does not determine every price.",
+          "Physical proximity and affordable usable access differ.",
+          "Some costs are borne by people outside the transaction."
+         ],
+         "e": [
+          "That explanation addresses distribution cost, rather than the process or relationship in this case.",
+          "That explanation addresses social access, rather than the process or relationship in this case.",
+          "That explanation addresses external cost, rather than the process or relationship in this case."
+         ],
+         "y": "a connection between producers and potential customers."
+        },
+        {
+         "q": "A trader compares cost for the same load before and after a change.\nWhich explanation follows?",
+         "r": "A change in one cost component does not determine every price.",
+         "w": [
+          "Access expands opportunities, but demand and costs still matter.",
+          "Physical proximity and affordable usable access differ.",
+          "Some costs are borne by people outside the transaction."
+         ],
+         "e": [
+          "That explanation addresses market linkage, rather than the process or relationship in this case.",
+          "That explanation addresses social access, rather than the process or relationship in this case.",
+          "That explanation addresses external cost, rather than the process or relationship in this case."
+         ],
+         "y": "the expense of moving and handling goods for delivery."
+        },
+        {
+         "q": "A reliable service can help households reach a clinic.\nWhich explanation follows?",
+         "r": "Physical proximity and affordable usable access differ.",
+         "w": [
+          "Access expands opportunities, but demand and costs still matter.",
+          "A change in one cost component does not determine every price.",
+          "Some costs are borne by people outside the transaction."
+         ],
+         "e": [
+          "That explanation addresses market linkage, rather than the process or relationship in this case.",
+          "That explanation addresses distribution cost, rather than the process or relationship in this case.",
+          "That explanation addresses external cost, rather than the process or relationship in this case."
+         ],
+         "y": "people’s ability to reach services and opportunities."
+        },
+        {
+         "q": "Noise and emissions affect neighbouring homes.\nWhich explanation follows?",
+         "r": "Some costs are borne by people outside the transaction.",
+         "w": [
+          "Access expands opportunities, but demand and costs still matter.",
+          "A change in one cost component does not determine every price.",
+          "Physical proximity and affordable usable access differ."
+         ],
+         "e": [
+          "That explanation addresses market linkage, rather than the process or relationship in this case.",
+          "That explanation addresses distribution cost, rather than the process or relationship in this case.",
+          "That explanation addresses social access, rather than the process or relationship in this case."
+         ],
+         "y": "a cost imposed beyond the direct transport transaction."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g5-11-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a connection between producers and potential customers?",
+       "r": "market linkage",
+       "w": [
+        "distribution cost",
+        "social access",
+        "external cost"
+       ],
+       "e": [
+        "That concerns the expense of moving and handling goods for delivery, rather than the feature asked for.",
+        "That concerns people’s ability to reach services and opportunities, rather than the feature asked for.",
+        "That concerns a cost imposed beyond the direct transport transaction, rather than the feature asked for."
+       ],
+       "y": "Access expands opportunities, but demand and costs still matter."
+      },
+      {
+       "q": "Which term means the expense of moving and handling goods for delivery?",
+       "r": "distribution cost",
+       "w": [
+        "market linkage",
+        "social access",
+        "external cost"
+       ],
+       "e": [
+        "That concerns a connection between producers and potential customers, rather than the feature asked for.",
+        "That concerns people’s ability to reach services and opportunities, rather than the feature asked for.",
+        "That concerns a cost imposed beyond the direct transport transaction, rather than the feature asked for."
+       ],
+       "y": "A change in one cost component does not determine every price."
+      },
+      {
+       "q": "Which term means people’s ability to reach services and opportunities?",
+       "r": "social access",
+       "w": [
+        "market linkage",
+        "distribution cost",
+        "external cost"
+       ],
+       "e": [
+        "That concerns a connection between producers and potential customers, rather than the feature asked for.",
+        "That concerns the expense of moving and handling goods for delivery, rather than the feature asked for.",
+        "That concerns a cost imposed beyond the direct transport transaction, rather than the feature asked for."
+       ],
+       "y": "Physical proximity and affordable usable access differ."
+      },
+      {
+       "q": "Which term means a cost imposed beyond the direct transport transaction?",
+       "r": "external cost",
+       "w": [
+        "market linkage",
+        "distribution cost",
+        "social access"
+       ],
+       "e": [
+        "That concerns a connection between producers and potential customers, rather than the feature asked for.",
+        "That concerns the expense of moving and handling goods for delivery, rather than the feature asked for.",
+        "That concerns people’s ability to reach services and opportunities, rather than the feature asked for."
+       ],
+       "y": "Some costs are borne by people outside the transaction."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-11-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A fictional reliable route lets growers reach another market.\nWhich feature is illustrated?",
+       "r": "market linkage",
+       "w": [
+        "distribution cost",
+        "social access",
+        "external cost"
+       ],
+       "e": [
+        "That identifies the expense of moving and handling goods for delivery. Read the case for evidence of a connection between producers and potential customers.",
+        "That identifies people’s ability to reach services and opportunities. Read the case for evidence of a connection between producers and potential customers.",
+        "That identifies a cost imposed beyond the direct transport transaction. Read the case for evidence of a connection between producers and potential customers."
+       ],
+       "y": "Access expands opportunities, but demand and costs still matter."
+      },
+      {
+       "q": "A trader compares cost for the same load before and after a change.\nWhich feature is illustrated?",
+       "r": "distribution cost",
+       "w": [
+        "market linkage",
+        "social access",
+        "external cost"
+       ],
+       "e": [
+        "That identifies a connection between producers and potential customers. Read the case for evidence of the expense of moving and handling goods for delivery.",
+        "That identifies people’s ability to reach services and opportunities. Read the case for evidence of the expense of moving and handling goods for delivery.",
+        "That identifies a cost imposed beyond the direct transport transaction. Read the case for evidence of the expense of moving and handling goods for delivery."
+       ],
+       "y": "A change in one cost component does not determine every price."
+      },
+      {
+       "q": "A reliable service can help households reach a clinic.\nWhich feature is illustrated?",
+       "r": "social access",
+       "w": [
+        "market linkage",
+        "distribution cost",
+        "external cost"
+       ],
+       "e": [
+        "That identifies a connection between producers and potential customers. Read the case for evidence of people’s ability to reach services and opportunities.",
+        "That identifies the expense of moving and handling goods for delivery. Read the case for evidence of people’s ability to reach services and opportunities.",
+        "That identifies a cost imposed beyond the direct transport transaction. Read the case for evidence of people’s ability to reach services and opportunities."
+       ],
+       "y": "Physical proximity and affordable usable access differ."
+      },
+      {
+       "q": "Noise and emissions affect neighbouring homes.\nWhich feature is illustrated?",
+       "r": "external cost",
+       "w": [
+        "market linkage",
+        "distribution cost",
+        "social access"
+       ],
+       "e": [
+        "That identifies a connection between producers and potential customers. Read the case for evidence of a cost imposed beyond the direct transport transaction.",
+        "That identifies the expense of moving and handling goods for delivery. Read the case for evidence of a cost imposed beyond the direct transport transaction.",
+        "That identifies people’s ability to reach services and opportunities. Read the case for evidence of a cost imposed beyond the direct transport transaction."
+       ],
+       "y": "Some costs are borne by people outside the transaction."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-11-explain",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "A fictional reliable route lets growers reach another market.\nWhich explanation follows?",
+       "r": "Access expands opportunities, but demand and costs still matter.",
+       "w": [
+        "A change in one cost component does not determine every price.",
+        "Physical proximity and affordable usable access differ.",
+        "Some costs are borne by people outside the transaction."
+       ],
+       "e": [
+        "That explanation addresses distribution cost, rather than the process or relationship in this case.",
+        "That explanation addresses social access, rather than the process or relationship in this case.",
+        "That explanation addresses external cost, rather than the process or relationship in this case."
+       ],
+       "y": "a connection between producers and potential customers."
+      },
+      {
+       "q": "A trader compares cost for the same load before and after a change.\nWhich explanation follows?",
+       "r": "A change in one cost component does not determine every price.",
+       "w": [
+        "Access expands opportunities, but demand and costs still matter.",
+        "Physical proximity and affordable usable access differ.",
+        "Some costs are borne by people outside the transaction."
+       ],
+       "e": [
+        "That explanation addresses market linkage, rather than the process or relationship in this case.",
+        "That explanation addresses social access, rather than the process or relationship in this case.",
+        "That explanation addresses external cost, rather than the process or relationship in this case."
+       ],
+       "y": "the expense of moving and handling goods for delivery."
+      },
+      {
+       "q": "A reliable service can help households reach a clinic.\nWhich explanation follows?",
+       "r": "Physical proximity and affordable usable access differ.",
+       "w": [
+        "Access expands opportunities, but demand and costs still matter.",
+        "A change in one cost component does not determine every price.",
+        "Some costs are borne by people outside the transaction."
+       ],
+       "e": [
+        "That explanation addresses market linkage, rather than the process or relationship in this case.",
+        "That explanation addresses distribution cost, rather than the process or relationship in this case.",
+        "That explanation addresses external cost, rather than the process or relationship in this case."
+       ],
+       "y": "people’s ability to reach services and opportunities."
+      },
+      {
+       "q": "Noise and emissions affect neighbouring homes.\nWhich explanation follows?",
+       "r": "Some costs are borne by people outside the transaction.",
+       "w": [
+        "Access expands opportunities, but demand and costs still matter.",
+        "A change in one cost component does not determine every price.",
+        "Physical proximity and affordable usable access differ."
+       ],
+       "e": [
+        "That explanation addresses market linkage, rather than the process or relationship in this case.",
+        "That explanation addresses distribution cost, rather than the process or relationship in this case.",
+        "That explanation addresses social access, rather than the process or relationship in this case."
+       ],
+       "y": "a cost imposed beyond the direct transport transaction."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-11-saving",
+   "type": "numeric",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "new": {
+     "pick": [
+      4000,
+      6000,
+      8000
+     ]
+    },
+    "saving": {
+     "pick": [
+      1000,
+      2000,
+      3000
+     ]
+    },
+    "old": {
+     "expr": "new+saving"
+    }
+   },
+   "prompt": "Invented identical-shipment record: old delivery cost CFA {old}; new cost CFA {new}. How many CFA francs are saved?",
+   "answer": "old-new",
+   "misconceptions": [
+    {
+     "id": "m0",
+     "wrong": "old+new",
+     "explain": "Adding costs does not measure the reduction."
+    },
+    {
+     "id": "m1",
+     "wrong": "new",
+     "explain": "That is the remaining cost, not the saving."
+    }
+   ],
+   "solution": [
+    "Saving = old cost − new cost.",
+    "CFA {old} − CFA {new} = CFA {old-new}."
+   ],
+   "unit": "CFA francs"
+  },
+  {
+   "id": "g5-11-assess",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "prompt": "Find the incorrect geographical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "market linkage: a connection between producers and potential customers.",
+      "truth": "true",
+      "explain": "This distinction is correct: Access expands opportunities, but demand and costs still matter. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "distribution cost: the expense of moving and handling goods for delivery.",
+      "truth": "true",
+      "explain": "This distinction is correct: A change in one cost component does not determine every price. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "social access: people’s ability to reach services and opportunities.",
+      "truth": "true",
+      "explain": "This distinction is correct: Physical proximity and affordable usable access differ. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "external cost: a cost imposed beyond the direct transport transaction.",
+      "truth": "true",
+      "explain": "This distinction is correct: Some costs are borne by people outside the transaction. Look for a claim that reverses the process or makes an unsupported generalisation."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A new route guarantees every crop sells at a profit.",
+      "truth": "false",
+      "explain": "Access expands opportunities, but demand and costs still matter."
+     },
+     {
+      "text": "A lower delivery cost proves every other cost falls.",
+      "truth": "false",
+      "explain": "A change in one cost component does not determine every price."
+     },
+     {
+      "text": "A nearby road guarantees everyone can afford transport.",
+      "truth": "false",
+      "explain": "Physical proximity and affordable usable access differ."
+     },
+     {
+      "text": "Only fares matter when assessing a route.",
+      "truth": "false",
+      "explain": "Some costs are borne by people outside the transaction."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}

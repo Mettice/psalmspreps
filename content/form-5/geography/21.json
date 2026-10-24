@@ -1,0 +1,807 @@
+{
+ "subject": "geography",
+ "class": "Form 5",
+ "lesson_no": 21,
+ "language": "en",
+ "prerequisites": [
+  20
+ ],
+ "skills": [
+  {
+   "id": "g5-21",
+   "name": "Practical: communication on maps"
+  }
+ ],
+ "note": {
+  "status": "draft",
+  "text": "A network map represents nodes and links. Its legend identifies modes; link labels can give distances independently of the drawing’s scale. A route must use connected open links. When transfers are explicitly allowed, different modes can form a route. For a distance comparison add the distances of its links; do not infer time or fare without further data.",
+  "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Your goal and connections",
+    "text": "By the end, you should be able to read a network legend and select a shortest open route with working. Builds on: network links, transfers and constraints. Leads to: trade flows and volume."
+   },
+   {
+    "heading": "Explain the geography",
+    "text": "A network map represents nodes and links. Its legend identifies modes; link labels can give distances independently of the drawing’s scale. A route must use connected open links. When transfers are explicitly allowed, different modes can form a route. For a distance comparison add the distances of its links; do not infer time or fare without further data."
+   },
+   {
+    "heading": "Follow the local example or model",
+    "text": "The invented map uses solid roads and dashed rail links. Transfers at nodes are allowed. With no closure, A–B–D totals {10}+{15} = {25} km and A–C–D totals {20}+{15} = {35} km. The top route is shorter in this example. Other practice maps change distances or close a link. These are invented models, not travel instructions.",
+    "figure": "\"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 320 337\\\" role=\\\"img\\\" aria-label=\\\"Invented route network with link distances, modes and closure information\\\"><rect width=\\\"320\\\" height=\\\"337\\\" fill=\\\"#f5f5eb\\\"/><g font-family=\\\"sans-serif\\\" fill=\\\"#193a2a\\\"><text x=\\\"160\\\" y=\\\"20\\\" text-anchor=\\\"middle\\\" font-size=\\\"14\\\">Invented communication network</text><path d=\\\"M35 70H280M35 70V220\\\" stroke=\\\"#497257\\\" stroke-width=\\\"3\\\" fill=\\\"none\\\"/><path d=\\\"M280 70V220M35 220H280\\\" stroke=\\\"#497257\\\" stroke-width=\\\"3\\\" stroke-dasharray=\\\"8 5\\\" fill=\\\"none\\\"/><circle cx=\\\"35\\\" cy=\\\"70\\\" r=\\\"13\\\" fill=\\\"white\\\" stroke=\\\"#234\\\"/><text x=\\\"35\\\" y=\\\"75\\\" text-anchor=\\\"middle\\\" font-size=\\\"16\\\">A</text><circle cx=\\\"280\\\" cy=\\\"70\\\" r=\\\"13\\\" fill=\\\"white\\\" stroke=\\\"#234\\\"/><text x=\\\"280\\\" y=\\\"75\\\" text-anchor=\\\"middle\\\" font-size=\\\"16\\\">B</text><circle cx=\\\"35\\\" cy=\\\"220\\\" r=\\\"13\\\" fill=\\\"white\\\" stroke=\\\"#234\\\"/><text x=\\\"35\\\" y=\\\"225\\\" text-anchor=\\\"middle\\\" font-size=\\\"16\\\">C</text><circle cx=\\\"280\\\" cy=\\\"220\\\" r=\\\"13\\\" fill=\\\"white\\\" stroke=\\\"#234\\\"/><text x=\\\"280\\\" y=\\\"225\\\" text-anchor=\\\"middle\\\" font-size=\\\"16\\\">D</text><g font-size=\\\"14\\\" text-anchor=\\\"middle\\\"><text x=\\\"160\\\" y=\\\"57\\\">AB: \" + fmt(10) + \" km</text><text x=\\\"160\\\" y=\\\"248\\\">CD: \" + fmt(15) + \" km</text><text x=\\\"17\\\" y=\\\"145\\\" transform=\\\"rotate(-90 17 145)\\\">AC: \" + fmt(20) + \" km</text><text x=\\\"303\\\" y=\\\"145\\\" transform=\\\"rotate(90 303 145)\\\">BD: \" + fmt(15) + \" km</text><text x=\\\"160\\\" y=\\\"278\\\">Solid: road. Dashed: rail.</text><text x=\\\"160\\\" y=\\\"301\\\">Closed link: none</text><text x=\\\"160\\\" y=\\\"323\\\">Transfers at nodes allowed. Not to scale.</text></g></g></svg>\""
+   },
+   {
+    "heading": "Apply and check",
+    "text": "Record each link’s mode and distance. Cross out any route containing a closed link; total each remaining route. State the shortest open listed route and its distance. Explain why a shorter-looking drawing or a non-existent direct link is not evidence."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "network legend",
+    "meaning": "a key explaining symbols and line styles"
+   },
+   {
+    "word": "connected route",
+    "meaning": "a sequence of links joining the required nodes"
+   },
+   {
+    "word": "closure constraint",
+    "meaning": "a restriction removing a link from usable routes"
+   },
+   {
+    "word": "route distance",
+    "meaning": "the sum of distances on the route’s links"
+   }
+  ],
+  "mistake": {
+   "wrong": "A dashed line must always mean a closed route.",
+   "right": "a key explaining symbols and line styles.",
+   "why": "The given legend defines its meaning."
+  }
+ },
+ "worked_example": {
+  "status": "draft",
+  "vars": {},
+  "problem": "No links are closed. AB is {10} km, BD {15} km, AC {20} km and CD {15} km. Transfers are allowed.",
+  "steps": [
+   "A–B–D: {10}+{15} = {25} km.",
+   "A–C–D: {20}+{15} = {35} km.",
+   "Compare open listed routes only."
+  ],
+  "answer": "A–B–D is shorter at {25} km.",
+  "checks": []
+ },
+ "teach": {
+  "cards": [
+   {
+    "id": "g5-21-c1",
+    "status": "draft",
+    "idea": "Distinguish the features before applying them.",
+    "vars": {},
+    "example": [
+     "network legend: a key explaining symbols and line styles.",
+     "connected route: a sequence of links joining the required nodes.",
+     "closure constraint: a restriction removing a link from usable routes.",
+     "route distance: the sum of distances on the route’s links."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-21-terms"
+    }
+   },
+   {
+    "id": "g5-21-c2",
+    "status": "draft",
+    "idea": "Use the evidence in the example, not a place name alone.",
+    "vars": {},
+    "example": [
+     "The invented map uses solid road and dashed rail links.",
+     "A–B–D joins A to D through B.",
+     "A marked closure excludes any route using that link.",
+     "Bih adds link labels rather than measuring the sketch."
+    ],
+    "checks": [],
+    "check": {
+     "ref": "g5-21-cases"
+    }
+   },
+   {
+    "id": "g5-21-c3",
+    "status": "draft",
+    "idea": "Explain how the process produces the stated effect.",
+    "vars": {},
+    "example": [
+     "The given legend defines its meaning.",
+     "A route needs links supported by the map.",
+     "Feasibility must be checked before distance comparison.",
+     "Labelled distances take priority in a not-to-scale model."
+    ],
+    "checks": [],
+    "check": {
+     "id": "g5-21-explain-card",
+     "type": "mcq",
+     "level": 1,
+     "review": "authored",
+     "sources": [
+      "transport"
+     ],
+     "vars": {
+      "X": {
+       "pick": [
+        {
+         "q": "The invented map uses solid road and dashed rail links.\nWhich explanation follows?",
+         "r": "The given legend defines its meaning.",
+         "w": [
+          "A route needs links supported by the map.",
+          "Feasibility must be checked before distance comparison.",
+          "Labelled distances take priority in a not-to-scale model."
+         ],
+         "e": [
+          "That explanation addresses connected route, rather than the process or relationship in this case.",
+          "That explanation addresses closure constraint, rather than the process or relationship in this case.",
+          "That explanation addresses route distance, rather than the process or relationship in this case."
+         ],
+         "y": "a key explaining symbols and line styles."
+        },
+        {
+         "q": "A–B–D joins A to D through B.\nWhich explanation follows?",
+         "r": "A route needs links supported by the map.",
+         "w": [
+          "The given legend defines its meaning.",
+          "Feasibility must be checked before distance comparison.",
+          "Labelled distances take priority in a not-to-scale model."
+         ],
+         "e": [
+          "That explanation addresses network legend, rather than the process or relationship in this case.",
+          "That explanation addresses closure constraint, rather than the process or relationship in this case.",
+          "That explanation addresses route distance, rather than the process or relationship in this case."
+         ],
+         "y": "a sequence of links joining the required nodes."
+        },
+        {
+         "q": "A marked closure excludes any route using that link.\nWhich explanation follows?",
+         "r": "Feasibility must be checked before distance comparison.",
+         "w": [
+          "The given legend defines its meaning.",
+          "A route needs links supported by the map.",
+          "Labelled distances take priority in a not-to-scale model."
+         ],
+         "e": [
+          "That explanation addresses network legend, rather than the process or relationship in this case.",
+          "That explanation addresses connected route, rather than the process or relationship in this case.",
+          "That explanation addresses route distance, rather than the process or relationship in this case."
+         ],
+         "y": "a restriction removing a link from usable routes."
+        },
+        {
+         "q": "Bih adds link labels rather than measuring the sketch.\nWhich explanation follows?",
+         "r": "Labelled distances take priority in a not-to-scale model.",
+         "w": [
+          "The given legend defines its meaning.",
+          "A route needs links supported by the map.",
+          "Feasibility must be checked before distance comparison."
+         ],
+         "e": [
+          "That explanation addresses network legend, rather than the process or relationship in this case.",
+          "That explanation addresses connected route, rather than the process or relationship in this case.",
+          "That explanation addresses closure constraint, rather than the process or relationship in this case."
+         ],
+         "y": "the sum of distances on the route’s links."
+        }
+       ]
+      }
+     },
+     "prompt": "{X.q}",
+     "correct": "{X.r}",
+     "distractors": [
+      {
+       "text": "{X.w[0]}",
+       "misconception": "w0"
+      },
+      {
+       "text": "{X.w[1]}",
+       "misconception": "w1"
+      },
+      {
+       "text": "{X.w[2]}",
+       "misconception": "w2"
+      }
+     ],
+     "misconceptions": [
+      {
+       "id": "w0",
+       "explain": "{X.e[0]}"
+      },
+      {
+       "id": "w1",
+       "explain": "{X.e[1]}"
+      },
+      {
+       "id": "w2",
+       "explain": "{X.e[2]}"
+      }
+     ],
+     "solution": [
+      "{X.y}",
+      "So the answer is “{answer}”."
+     ]
+    }
+   }
+  ]
+ },
+ "questions": [
+  {
+   "id": "g5-21-terms",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Which term means a key explaining symbols and line styles?",
+       "r": "network legend",
+       "w": [
+        "connected route",
+        "closure constraint",
+        "route distance"
+       ],
+       "e": [
+        "That concerns a sequence of links joining the required nodes, rather than the feature asked for.",
+        "That concerns a restriction removing a link from usable routes, rather than the feature asked for.",
+        "That concerns the sum of distances on the route’s links, rather than the feature asked for."
+       ],
+       "y": "The given legend defines its meaning."
+      },
+      {
+       "q": "Which term means a sequence of links joining the required nodes?",
+       "r": "connected route",
+       "w": [
+        "network legend",
+        "closure constraint",
+        "route distance"
+       ],
+       "e": [
+        "That concerns a key explaining symbols and line styles, rather than the feature asked for.",
+        "That concerns a restriction removing a link from usable routes, rather than the feature asked for.",
+        "That concerns the sum of distances on the route’s links, rather than the feature asked for."
+       ],
+       "y": "A route needs links supported by the map."
+      },
+      {
+       "q": "Which term means a restriction removing a link from usable routes?",
+       "r": "closure constraint",
+       "w": [
+        "network legend",
+        "connected route",
+        "route distance"
+       ],
+       "e": [
+        "That concerns a key explaining symbols and line styles, rather than the feature asked for.",
+        "That concerns a sequence of links joining the required nodes, rather than the feature asked for.",
+        "That concerns the sum of distances on the route’s links, rather than the feature asked for."
+       ],
+       "y": "Feasibility must be checked before distance comparison."
+      },
+      {
+       "q": "Which term means the sum of distances on the route’s links?",
+       "r": "route distance",
+       "w": [
+        "network legend",
+        "connected route",
+        "closure constraint"
+       ],
+       "e": [
+        "That concerns a key explaining symbols and line styles, rather than the feature asked for.",
+        "That concerns a sequence of links joining the required nodes, rather than the feature asked for.",
+        "That concerns a restriction removing a link from usable routes, rather than the feature asked for."
+       ],
+       "y": "Labelled distances take priority in a not-to-scale model."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-21-cases",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The invented map uses solid road and dashed rail links.\nWhich feature is illustrated?",
+       "r": "network legend",
+       "w": [
+        "connected route",
+        "closure constraint",
+        "route distance"
+       ],
+       "e": [
+        "That identifies a sequence of links joining the required nodes. Read the case for evidence of a key explaining symbols and line styles.",
+        "That identifies a restriction removing a link from usable routes. Read the case for evidence of a key explaining symbols and line styles.",
+        "That identifies the sum of distances on the route’s links. Read the case for evidence of a key explaining symbols and line styles."
+       ],
+       "y": "The given legend defines its meaning."
+      },
+      {
+       "q": "A–B–D joins A to D through B.\nWhich feature is illustrated?",
+       "r": "connected route",
+       "w": [
+        "network legend",
+        "closure constraint",
+        "route distance"
+       ],
+       "e": [
+        "That identifies a key explaining symbols and line styles. Read the case for evidence of a sequence of links joining the required nodes.",
+        "That identifies a restriction removing a link from usable routes. Read the case for evidence of a sequence of links joining the required nodes.",
+        "That identifies the sum of distances on the route’s links. Read the case for evidence of a sequence of links joining the required nodes."
+       ],
+       "y": "A route needs links supported by the map."
+      },
+      {
+       "q": "A marked closure excludes any route using that link.\nWhich feature is illustrated?",
+       "r": "closure constraint",
+       "w": [
+        "network legend",
+        "connected route",
+        "route distance"
+       ],
+       "e": [
+        "That identifies a key explaining symbols and line styles. Read the case for evidence of a restriction removing a link from usable routes.",
+        "That identifies a sequence of links joining the required nodes. Read the case for evidence of a restriction removing a link from usable routes.",
+        "That identifies the sum of distances on the route’s links. Read the case for evidence of a restriction removing a link from usable routes."
+       ],
+       "y": "Feasibility must be checked before distance comparison."
+      },
+      {
+       "q": "Bih adds link labels rather than measuring the sketch.\nWhich feature is illustrated?",
+       "r": "route distance",
+       "w": [
+        "network legend",
+        "connected route",
+        "closure constraint"
+       ],
+       "e": [
+        "That identifies a key explaining symbols and line styles. Read the case for evidence of the sum of distances on the route’s links.",
+        "That identifies a sequence of links joining the required nodes. Read the case for evidence of the sum of distances on the route’s links.",
+        "That identifies a restriction removing a link from usable routes. Read the case for evidence of the sum of distances on the route’s links."
+       ],
+       "y": "Labelled distances take priority in a not-to-scale model."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-21-explain",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "The invented map uses solid road and dashed rail links.\nWhich explanation follows?",
+       "r": "The given legend defines its meaning.",
+       "w": [
+        "A route needs links supported by the map.",
+        "Feasibility must be checked before distance comparison.",
+        "Labelled distances take priority in a not-to-scale model."
+       ],
+       "e": [
+        "That explanation addresses connected route, rather than the process or relationship in this case.",
+        "That explanation addresses closure constraint, rather than the process or relationship in this case.",
+        "That explanation addresses route distance, rather than the process or relationship in this case."
+       ],
+       "y": "a key explaining symbols and line styles."
+      },
+      {
+       "q": "A–B–D joins A to D through B.\nWhich explanation follows?",
+       "r": "A route needs links supported by the map.",
+       "w": [
+        "The given legend defines its meaning.",
+        "Feasibility must be checked before distance comparison.",
+        "Labelled distances take priority in a not-to-scale model."
+       ],
+       "e": [
+        "That explanation addresses network legend, rather than the process or relationship in this case.",
+        "That explanation addresses closure constraint, rather than the process or relationship in this case.",
+        "That explanation addresses route distance, rather than the process or relationship in this case."
+       ],
+       "y": "a sequence of links joining the required nodes."
+      },
+      {
+       "q": "A marked closure excludes any route using that link.\nWhich explanation follows?",
+       "r": "Feasibility must be checked before distance comparison.",
+       "w": [
+        "The given legend defines its meaning.",
+        "A route needs links supported by the map.",
+        "Labelled distances take priority in a not-to-scale model."
+       ],
+       "e": [
+        "That explanation addresses network legend, rather than the process or relationship in this case.",
+        "That explanation addresses connected route, rather than the process or relationship in this case.",
+        "That explanation addresses route distance, rather than the process or relationship in this case."
+       ],
+       "y": "a restriction removing a link from usable routes."
+      },
+      {
+       "q": "Bih adds link labels rather than measuring the sketch.\nWhich explanation follows?",
+       "r": "Labelled distances take priority in a not-to-scale model.",
+       "w": [
+        "The given legend defines its meaning.",
+        "A route needs links supported by the map.",
+        "Feasibility must be checked before distance comparison."
+       ],
+       "e": [
+        "That explanation addresses network legend, rather than the process or relationship in this case.",
+        "That explanation addresses connected route, rather than the process or relationship in this case.",
+        "That explanation addresses closure constraint, rather than the process or relationship in this case."
+       ],
+       "y": "the sum of distances on the route’s links."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ]
+  },
+  {
+   "id": "g5-21-network",
+   "type": "mcq",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Invented map: transfers at nodes are allowed. Choose the shortest OPEN listed route from A to D. Use link distances, not drawn lengths.",
+       "r": "A–B–D",
+       "w": [
+        "A–C–D",
+        "Direct A–D",
+        "No open route"
+       ],
+       "e": [
+        "That open route has a longer total distance.",
+        "No direct A–D link is drawn.",
+        "At least one of A–B–D and A–C–D is open."
+       ],
+       "y": "Top route distance = {10} + {15} = {25} km. Bottom = {20} + {15} = {35} km. Closed link: none. Compare only usable routes; transfer time is not modelled.",
+       "ab": 10,
+       "bd": 15,
+       "ac": 20,
+       "cd": 15,
+       "block": "none"
+      },
+      {
+       "q": "Invented map: transfers at nodes are allowed. Choose the shortest OPEN listed route from A to D. Use link distances, not drawn lengths.",
+       "r": "A–C–D",
+       "w": [
+        "A–B–D",
+        "Direct A–D",
+        "No open route"
+       ],
+       "e": [
+        "That open route has a longer total distance.",
+        "No direct A–D link is drawn.",
+        "At least one of A–B–D and A–C–D is open."
+       ],
+       "y": "Top route distance = {20} + {20} = {40} km. Bottom = {10} + {15} = {25} km. Closed link: none. Compare only usable routes; transfer time is not modelled.",
+       "ab": 20,
+       "bd": 20,
+       "ac": 10,
+       "cd": 15,
+       "block": "none"
+      },
+      {
+       "q": "Invented map: transfers at nodes are allowed. Choose the shortest OPEN listed route from A to D. Use link distances, not drawn lengths.",
+       "r": "A–C–D",
+       "w": [
+        "A–B–D",
+        "Direct A–D",
+        "No open route"
+       ],
+       "e": [
+        "That route uses the closed link.",
+        "No direct A–D link is drawn.",
+        "At least one of A–B–D and A–C–D is open."
+       ],
+       "y": "Top route distance = {15} + {10} = {25} km. Bottom = {20} + {20} = {40} km. Closed link: AB. Compare only usable routes; transfer time is not modelled.",
+       "ab": 15,
+       "bd": 10,
+       "ac": 20,
+       "cd": 20,
+       "block": "AB"
+      },
+      {
+       "q": "Invented map: transfers at nodes are allowed. Choose the shortest OPEN listed route from A to D. Use link distances, not drawn lengths.",
+       "r": "A–B–D",
+       "w": [
+        "A–C–D",
+        "Direct A–D",
+        "No open route"
+       ],
+       "e": [
+        "That route uses the closed link.",
+        "No direct A–D link is drawn.",
+        "At least one of A–B–D and A–C–D is open."
+       ],
+       "y": "Top route distance = {20} + {15} = {35} km. Bottom = {10} + {10} = {20} km. Closed link: CD. Compare only usable routes; transfer time is not modelled.",
+       "ab": 20,
+       "bd": 15,
+       "ac": 10,
+       "cd": 10,
+       "block": "CD"
+      },
+      {
+       "q": "Invented map: transfers at nodes are allowed. Choose the shortest OPEN listed route from A to D. Use link distances, not drawn lengths.",
+       "r": "A–C–D",
+       "w": [
+        "A–B–D",
+        "Direct A–D",
+        "No open route"
+       ],
+       "e": [
+        "That route uses the closed link.",
+        "No direct A–D link is drawn.",
+        "At least one of A–B–D and A–C–D is open."
+       ],
+       "y": "Top route distance = {10} + {20} = {30} km. Bottom = {15} + {10} = {25} km. Closed link: AB. Compare only usable routes; transfer time is not modelled.",
+       "ab": 10,
+       "bd": 20,
+       "ac": 15,
+       "cd": 10,
+       "block": "AB"
+      },
+      {
+       "q": "Invented map: transfers at nodes are allowed. Choose the shortest OPEN listed route from A to D. Use link distances, not drawn lengths.",
+       "r": "A–B–D",
+       "w": [
+        "A–C–D",
+        "Direct A–D",
+        "No open route"
+       ],
+       "e": [
+        "That route uses the closed link.",
+        "No direct A–D link is drawn.",
+        "At least one of A–B–D and A–C–D is open."
+       ],
+       "y": "Top route distance = {25} + {10} = {35} km. Bottom = {10} + {20} = {30} km. Closed link: CD. Compare only usable routes; transfer time is not modelled.",
+       "ab": 25,
+       "bd": 10,
+       "ac": 10,
+       "cd": 20,
+       "block": "CD"
+      }
+     ]
+    },
+    "ab": {
+     "expr": "X.ab"
+    },
+    "bd": {
+     "expr": "X.bd"
+    },
+    "ac": {
+     "expr": "X.ac"
+    },
+    "cd": {
+     "expr": "X.cd"
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "So the answer is “{answer}”."
+   ],
+   "figure": "\"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 320 337\\\" role=\\\"img\\\" aria-label=\\\"Invented route network with link distances, modes and closure information\\\"><rect width=\\\"320\\\" height=\\\"337\\\" fill=\\\"#f5f5eb\\\"/><g font-family=\\\"sans-serif\\\" fill=\\\"#193a2a\\\"><text x=\\\"160\\\" y=\\\"20\\\" text-anchor=\\\"middle\\\" font-size=\\\"14\\\">Invented communication network</text><path d=\\\"M35 70H280M35 70V220\\\" stroke=\\\"#497257\\\" stroke-width=\\\"3\\\" fill=\\\"none\\\"/><path d=\\\"M280 70V220M35 220H280\\\" stroke=\\\"#497257\\\" stroke-width=\\\"3\\\" stroke-dasharray=\\\"8 5\\\" fill=\\\"none\\\"/><circle cx=\\\"35\\\" cy=\\\"70\\\" r=\\\"13\\\" fill=\\\"white\\\" stroke=\\\"#234\\\"/><text x=\\\"35\\\" y=\\\"75\\\" text-anchor=\\\"middle\\\" font-size=\\\"16\\\">A</text><circle cx=\\\"280\\\" cy=\\\"70\\\" r=\\\"13\\\" fill=\\\"white\\\" stroke=\\\"#234\\\"/><text x=\\\"280\\\" y=\\\"75\\\" text-anchor=\\\"middle\\\" font-size=\\\"16\\\">B</text><circle cx=\\\"35\\\" cy=\\\"220\\\" r=\\\"13\\\" fill=\\\"white\\\" stroke=\\\"#234\\\"/><text x=\\\"35\\\" y=\\\"225\\\" text-anchor=\\\"middle\\\" font-size=\\\"16\\\">C</text><circle cx=\\\"280\\\" cy=\\\"220\\\" r=\\\"13\\\" fill=\\\"white\\\" stroke=\\\"#234\\\"/><text x=\\\"280\\\" y=\\\"225\\\" text-anchor=\\\"middle\\\" font-size=\\\"16\\\">D</text><g font-size=\\\"14\\\" text-anchor=\\\"middle\\\"><text x=\\\"160\\\" y=\\\"57\\\">AB: \" + fmt(ab) + \" km</text><text x=\\\"160\\\" y=\\\"248\\\">CD: \" + fmt(cd) + \" km</text><text x=\\\"17\\\" y=\\\"145\\\" transform=\\\"rotate(-90 17 145)\\\">AC: \" + fmt(ac) + \" km</text><text x=\\\"303\\\" y=\\\"145\\\" transform=\\\"rotate(90 303 145)\\\">BD: \" + fmt(bd) + \" km</text><text x=\\\"160\\\" y=\\\"278\\\">Solid: road. Dashed: rail.</text><text x=\\\"160\\\" y=\\\"301\\\">Closed link: \" + fmt(X.block) + \"</text><text x=\\\"160\\\" y=\\\"323\\\">Transfers at nodes allowed. Not to scale.</text></g></g></svg>\""
+  },
+  {
+   "id": "g5-21-assess",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "transport"
+   ],
+   "prompt": "Find the incorrect geographical claim.",
+   "pool": {
+    "right": [
+     {
+      "text": "network legend: a key explaining symbols and line styles.",
+      "truth": "true",
+      "explain": "This distinction is correct: The given legend defines its meaning. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "connected route: a sequence of links joining the required nodes.",
+      "truth": "true",
+      "explain": "This distinction is correct: A route needs links supported by the map. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "closure constraint: a restriction removing a link from usable routes.",
+      "truth": "true",
+      "explain": "This distinction is correct: Feasibility must be checked before distance comparison. Look for a claim that reverses the process or makes an unsupported generalisation."
+     },
+     {
+      "text": "route distance: the sum of distances on the route’s links.",
+      "truth": "true",
+      "explain": "This distinction is correct: Labelled distances take priority in a not-to-scale model. Look for a claim that reverses the process or makes an unsupported generalisation."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "A dashed line must always mean a closed route.",
+      "truth": "false",
+      "explain": "The given legend defines its meaning."
+     },
+     {
+      "text": "An undrawn direct A–D link can be assumed.",
+      "truth": "false",
+      "explain": "A route needs links supported by the map."
+     },
+     {
+      "text": "The numerically shortest route is usable even when closed.",
+      "truth": "false",
+      "explain": "Feasibility must be checked before distance comparison."
+     },
+     {
+      "text": "A schematic’s drawn length always gives actual distance.",
+      "truth": "false",
+      "explain": "Labelled distances take priority in a not-to-scale model."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   }
+  }
+ ]
+}
