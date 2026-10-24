@@ -3,7 +3,12 @@
  "class": "Form 2",
  "lesson_no": 125,
  "language": "fr",
- "prerequisites": [],
+ "prerequisites": [
+  107,
+  115,
+  123,
+  124
+ ],
  "skills": [
   {
    "id": "fi2-125",
@@ -12,174 +17,170 @@
  ],
  "note": {
   "status": "draft",
-  "text": "Une recherche commence par une question claire. Les mots-clés résument les notions importantes. Un moteur de recherche propose des résultats ; chaque résultat renvoie vers une ressource. Lis le titre et le résumé, puis consulte la page. Vérifie l’auteur, la date, les sources et la pertinence. Compare plusieurs ressources lorsque c’est possible. Un résultat bien placé ou sponsorisé n’est pas automatiquement le plus fiable. Note la source utilisée pour pouvoir la retrouver et la citer.",
+  "text": "Une recherche commence par une question précise. La requête est l’ensemble de mots saisis pour chercher ; elle doit porter sur l’information voulue, sans données privées inutiles. Un résultat est une proposition de ressource, pas une preuve. La source indique d’où vient le contenu. La vérification examine auteur ou organisme, date, contexte et concordance avec d’autres références pertinentes. Une date récente ne garantit pas tout, et une information ancienne peut rester utile selon la question. Le travail peut être préparé sur papier.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras construire une requête utile et distinguer résultat source et vérification. Acquis mobilisés : les médias et les messages numériques. Pour la suite : la réutilisation grammaticale et la lecture critique."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Une recherche commence par une question précise. La requête est l’ensemble de mots saisis pour chercher ; elle doit porter sur l’information voulue, sans données privées inutiles. Un résultat est une proposition de ressource, pas une preuve. La source indique d’où vient le contenu. La vérification examine auteur ou organisme, date, contexte et concordance avec d’autres références pertinentes. Une date récente ne garantit pas tout, et une information ancienne peut rester utile selon la question. Le travail peut être préparé sur papier."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Situation fictive : Le club veut expliquer comment citer une source dans son bulletin. Bih prépare les mots « citer source bulletin scolaire ». Ayuk compare ensuite une page identifiable à un message sans origine précisée. Ils gardent la question initiale pour éviter de choisir un résultat seulement parce qu’il apparaît avant les autres."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Formule la question puis sélectionne des mots-clés. Examine chaque résultat et cherche son origine avant de le reprendre. Si deux pages répètent la même origine, ne les compte pas automatiquement comme deux confirmations indépendantes."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "requête",
+    "meaning": "les mots saisis pour orienter la recherche"
+   },
+   {
+    "word": "résultat",
+    "meaning": "une ressource proposée par le service de recherche"
+   },
+   {
+    "word": "source identifiable",
+    "meaning": "une origine que l’on peut nommer et examiner"
+   },
+   {
+    "word": "vérification",
+    "meaning": "un examen croisé pertinent de l’information"
+   }
+  ],
+  "mistake": {
+   "wrong": "Une requête doit toujours contenir le mot de passe du compte.",
+   "right": "les mots saisis pour orienter la recherche.",
+   "why": "Les mots doivent viser la question, sans secret personnel."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Un titre correspond à ton sujet. Quelle étape suit ?",
+  "problem": "Citer source bulletin scolaire est une requête du modèle. Explique le choix.",
   "steps": [
-   "Le résultat doit être ouvert et vérifié.",
-   "Un titre pertinent ne suffit pas à vérifier l’information."
+   "les mots saisis pour orienter la recherche.",
+   "Les mots doivent viser la question, sans secret personnel."
   ],
-  "answer": "Ouvrir la ressource et vérifier son contenu et ses sources.",
+  "answer": "requête",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c125-1",
+    "id": "fi2-125-c1",
     "status": "draft",
-    "idea": "Des mots-clés précis correspondent à la question.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "Pour étudier les marchés de Bamenda, je combine marchés et Bamenda."
+     "requête : les mots saisis pour orienter la recherche.",
+     "résultat : une ressource proposée par le service de recherche.",
+     "source identifiable : une origine que l’on peut nommer et examiner.",
+     "vérification : un examen croisé pertinent de l’information."
     ],
     "checks": [],
     "check": {
-     "ref": "fi2-125-etape-1"
+     "ref": "fi2-125-notions"
     }
    },
    {
-    "id": "c125-2",
+    "id": "fi2-125-c2",
     "status": "draft",
-    "idea": "Le résultat doit être ouvert et vérifié.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Je vérifie l’auteur et la date de la page."
+     "Citer source bulletin scolaire est une requête du modèle.",
+     "Une page apparaît dans la liste du modèle.",
+     "La page indique son organisme auteur.",
+     "Le groupe examine origine, date et contexte."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-125-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "vocabulaire"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Un titre correspond à ton sujet. Quelle étape suit ?",
-         "r": "Ouvrir la ressource et vérifier son contenu et ses sources.",
-         "w": [
-          "Copier sans lire.",
-          "Croire le titre seulement."
-         ],
-         "y": "Un titre pertinent ne suffit pas à vérifier l’information."
-        },
-        {
-         "q": "Pourquoi noter la date d’une information ?",
-         "r": "Pour juger si elle convient à la question et au moment étudié.",
-         "w": [
-          "Pour prouver automatiquement qu’elle est vraie.",
-          "Pour éviter de lire le texte."
-         ],
-         "y": "La date aide à situer l’information, sans garantir sa vérité."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fi2-125-cas"
     }
    },
    {
-    "id": "c125-3",
+    "id": "fi2-125-c3",
     "status": "draft",
-    "idea": "La place dans les résultats ne prouve pas la fiabilité.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Je compare les informations et conserve les références."
+     "Une requête doit toujours contenir le mot de passe du compte. Correction : Les mots doivent viser la question, sans secret personnel.",
+     "Le premier résultat garantit l’exactitude de toutes ses phrases. Correction : Le rang d’affichage n’est pas une preuve.",
+     "Internet entier fournit toujours un auteur unique et précis. Correction : Le support général ne suffit pas à identifier l’origine.",
+     "Deux copies de la même rumeur sont forcément deux preuves indépendantes. Correction : Des copies peuvent dépendre d’une même origine non vérifiée."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-125-etape-3-card",
-     "type": "mcq",
+     "id": "fi2-125-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "vocabulaire"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Le premier résultat est sponsorisé. Cela garantit-il son exactitude ?",
-         "r": "Non, il faut vérifier l’information.",
-         "w": [
-          "Oui, la publicité est une preuve.",
-          "Oui, sa place remplace ses sources."
-         ],
-         "y": "Une annonce ou un classement ne garantit pas l’exactitude."
-        },
-        {
-         "q": "Pourquoi conserver l’adresse et le titre de la source ?",
-         "r": "Pour la retrouver et citer l’origine de l’information.",
-         "w": [
-          "Pour inventer un auteur.",
-          "Pour éviter toute vérification."
-         ],
-         "y": "Une référence permet de retrouver le document utilisé."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "requête : les mots saisis pour orienter la recherche.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les mots doivent viser la question, sans secret personnel. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "résultat : une ressource proposée par le service de recherche.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le rang d’affichage n’est pas une preuve. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "source identifiable : une origine que l’on peut nommer et examiner.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le support général ne suffit pas à identifier l’origine. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "vérification : un examen croisé pertinent de l’information.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Des copies peuvent dépendre d’une même origine non vérifiée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une requête doit toujours contenir le mot de passe du compte.",
+        "truth": "false",
+        "explain": "Les mots doivent viser la question, sans secret personnel."
+       },
+       {
+        "text": "Le premier résultat garantit l’exactitude de toutes ses phrases.",
+        "truth": "false",
+        "explain": "Le rang d’affichage n’est pas une preuve."
+       },
+       {
+        "text": "Internet entier fournit toujours un auteur unique et précis.",
+        "truth": "false",
+        "explain": "Le support général ne suffit pas à identifier l’origine."
+       },
+       {
+        "text": "Deux copies de la même rumeur sont forcément deux preuves indépendantes.",
+        "truth": "false",
+        "explain": "Des copies peuvent dépendre d’une même origine non vérifiée."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -187,33 +188,75 @@
  },
  "questions": [
   {
-   "id": "fi2-125-etape-1",
+   "id": "fi2-125-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "vocabulaire"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Quels mots-clés répondent à une recherche sur les marchés de Bamenda ?",
-       "r": "marchés Bamenda",
+       "q": "Quel terme désigne les mots saisis pour orienter la recherche ?",
+       "r": "requête",
        "w": [
-        "tout et rien",
-        "un jeu sans rapport"
+        "résultat",
+        "source identifiable",
+        "vérification"
        ],
-       "y": "Les mots-clés reprennent le sujet et le lieu."
+       "e": [
+        "Cela désigne une ressource proposée par le service de recherche, plutôt que la notion demandée.",
+        "Cela désigne une origine que l’on peut nommer et examiner, plutôt que la notion demandée.",
+        "Cela désigne un examen croisé pertinent de l’information, plutôt que la notion demandée."
+       ],
+       "y": "Les mots doivent viser la question, sans secret personnel."
       },
       {
-       "q": "Quel outil propose des résultats à partir de mots-clés ?",
-       "r": "Un moteur de recherche.",
+       "q": "Quel terme désigne une ressource proposée par le service de recherche ?",
+       "r": "résultat",
        "w": [
-        "Une imprimante sans connexion.",
-        "Un câble seul."
+        "requête",
+        "source identifiable",
+        "vérification"
        ],
-       "y": "Le moteur de recherche aide à trouver des ressources."
+       "e": [
+        "Cela désigne les mots saisis pour orienter la recherche, plutôt que la notion demandée.",
+        "Cela désigne une origine que l’on peut nommer et examiner, plutôt que la notion demandée.",
+        "Cela désigne un examen croisé pertinent de l’information, plutôt que la notion demandée."
+       ],
+       "y": "Le rang d’affichage n’est pas une preuve."
+      },
+      {
+       "q": "Quel terme désigne une origine que l’on peut nommer et examiner ?",
+       "r": "source identifiable",
+       "w": [
+        "requête",
+        "résultat",
+        "vérification"
+       ],
+       "e": [
+        "Cela désigne les mots saisis pour orienter la recherche, plutôt que la notion demandée.",
+        "Cela désigne une ressource proposée par le service de recherche, plutôt que la notion demandée.",
+        "Cela désigne un examen croisé pertinent de l’information, plutôt que la notion demandée."
+       ],
+       "y": "Le support général ne suffit pas à identifier l’origine."
+      },
+      {
+       "q": "Quel terme désigne un examen croisé pertinent de l’information ?",
+       "r": "vérification",
+       "w": [
+        "requête",
+        "résultat",
+        "source identifiable"
+       ],
+       "e": [
+        "Cela désigne les mots saisis pour orienter la recherche, plutôt que la notion demandée.",
+        "Cela désigne une ressource proposée par le service de recherche, plutôt que la notion demandée.",
+        "Cela désigne une origine que l’on peut nommer et examiner, plutôt que la notion demandée."
+       ],
+       "y": "Des copies peuvent dépendre d’une même origine non vérifiée."
       }
      ]
     }
@@ -228,53 +271,212 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-125-etape-2",
+   "id": "fi2-125-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Citer source bulletin scolaire est une requête du modèle.\nQuelle notion convient ?",
+       "r": "requête",
+       "w": [
+        "résultat",
+        "source identifiable",
+        "vérification"
+       ],
+       "e": [
+        "Cela concerne une ressource proposée par le service de recherche. Compare cette définition avec le cas présenté.",
+        "Cela concerne une origine que l’on peut nommer et examiner. Compare cette définition avec le cas présenté.",
+        "Cela concerne un examen croisé pertinent de l’information. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les mots doivent viser la question, sans secret personnel."
+      },
+      {
+       "q": "Une page apparaît dans la liste du modèle.\nQuelle notion convient ?",
+       "r": "résultat",
+       "w": [
+        "requête",
+        "source identifiable",
+        "vérification"
+       ],
+       "e": [
+        "Cela concerne les mots saisis pour orienter la recherche. Compare cette définition avec le cas présenté.",
+        "Cela concerne une origine que l’on peut nommer et examiner. Compare cette définition avec le cas présenté.",
+        "Cela concerne un examen croisé pertinent de l’information. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le rang d’affichage n’est pas une preuve."
+      },
+      {
+       "q": "La page indique son organisme auteur.\nQuelle notion convient ?",
+       "r": "source identifiable",
+       "w": [
+        "requête",
+        "résultat",
+        "vérification"
+       ],
+       "e": [
+        "Cela concerne les mots saisis pour orienter la recherche. Compare cette définition avec le cas présenté.",
+        "Cela concerne une ressource proposée par le service de recherche. Compare cette définition avec le cas présenté.",
+        "Cela concerne un examen croisé pertinent de l’information. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le support général ne suffit pas à identifier l’origine."
+      },
+      {
+       "q": "Le groupe examine origine, date et contexte.\nQuelle notion convient ?",
+       "r": "vérification",
+       "w": [
+        "requête",
+        "résultat",
+        "source identifiable"
+       ],
+       "e": [
+        "Cela concerne les mots saisis pour orienter la recherche. Compare cette définition avec le cas présenté.",
+        "Cela concerne une ressource proposée par le service de recherche. Compare cette définition avec le cas présenté.",
+        "Cela concerne une origine que l’on peut nommer et examiner. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Des copies peuvent dépendre d’une même origine non vérifiée."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-125-contexte",
    "type": "mcq",
    "level": 2,
    "review": "authored",
    "sources": [
-    "vocabulaire"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Un titre correspond à ton sujet. Quelle étape suit ?",
-       "r": "Ouvrir la ressource et vérifier son contenu et ses sources.",
+       "q": "Le groupe choisit les mots à saisir : quel élément prépare-t-il ?",
+       "r": "requête",
        "w": [
-        "Copier sans lire.",
-        "Croire le titre seulement."
+        "résultat",
+        "source identifiable",
+        "vérification"
        ],
-       "y": "Un titre pertinent ne suffit pas à vérifier l’information."
+       "e": [
+        "Ce terme désigne une ressource proposée par le service de recherche ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne une origine que l’on peut nommer et examiner ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne un examen croisé pertinent de l’information ; ce n’est pas l’action ou le rôle décrit."
+       ],
+       "y": "Les mots doivent viser la question, sans secret personnel."
       },
       {
-       "q": "Pourquoi noter la date d’une information ?",
-       "r": "Pour juger si elle convient à la question et au moment étudié.",
+       "q": "Une page apparaît dans une liste après la recherche : quel statut a-t-elle ?",
+       "r": "résultat",
        "w": [
-        "Pour prouver automatiquement qu’elle est vraie.",
-        "Pour éviter de lire le texte."
+        "requête",
+        "source identifiable",
+        "vérification"
        ],
-       "y": "La date aide à situer l’information, sans garantir sa vérité."
+       "e": [
+        "Ce terme désigne les mots saisis pour orienter la recherche ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne une origine que l’on peut nommer et examiner ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne un examen croisé pertinent de l’information ; ce n’est pas l’action ou le rôle décrit."
+       ],
+       "y": "Le rang d’affichage n’est pas une preuve."
+      },
+      {
+       "q": "La page nomme l’organisme qui l’a produite : quel indice fournit-elle ?",
+       "r": "source identifiable",
+       "w": [
+        "requête",
+        "résultat",
+        "vérification"
+       ],
+       "e": [
+        "Ce terme désigne les mots saisis pour orienter la recherche ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne une ressource proposée par le service de recherche ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne un examen croisé pertinent de l’information ; ce n’est pas l’action ou le rôle décrit."
+       ],
+       "y": "Le support général ne suffit pas à identifier l’origine."
+      },
+      {
+       "q": "Le groupe confronte contenu et références pertinentes : quelle démarche réalise-t-il ?",
+       "r": "vérification",
+       "w": [
+        "requête",
+        "résultat",
+        "source identifiable"
+       ],
+       "e": [
+        "Ce terme désigne les mots saisis pour orienter la recherche ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne une ressource proposée par le service de recherche ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne une origine que l’on peut nommer et examiner ; ce n’est pas l’action ou le rôle décrit."
+       ],
+       "y": "Des copies peuvent dépendre d’une même origine non vérifiée."
       }
      ]
     }
@@ -289,84 +491,121 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-125-etape-3",
-   "type": "mcq",
+   "id": "fi2-125-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "requête",
+     "right": "Citer source bulletin scolaire est une requête du modèle."
+    },
+    {
+     "left": "résultat",
+     "right": "Une page apparaît dans la liste du modèle."
+    },
+    {
+     "left": "source identifiable",
+     "right": "La page indique son organisme auteur."
+    },
+    {
+     "left": "vérification",
+     "right": "Le groupe examine origine, date et contexte."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-125-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "vocabulaire"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Le premier résultat est sponsorisé. Cela garantit-il son exactitude ?",
-       "r": "Non, il faut vérifier l’information.",
-       "w": [
-        "Oui, la publicité est une preuve.",
-        "Oui, sa place remplace ses sources."
-       ],
-       "y": "Une annonce ou un classement ne garantit pas l’exactitude."
-      },
-      {
-       "q": "Pourquoi conserver l’adresse et le titre de la source ?",
-       "r": "Pour la retrouver et citer l’origine de l’information.",
-       "w": [
-        "Pour inventer un auteur.",
-        "Pour éviter toute vérification."
-       ],
-       "y": "Une référence permet de retrouver le document utilisé."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "requête : les mots saisis pour orienter la recherche.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les mots doivent viser la question, sans secret personnel. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "résultat : une ressource proposée par le service de recherche.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le rang d’affichage n’est pas une preuve. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "source identifiable : une origine que l’on peut nommer et examiner.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le support général ne suffit pas à identifier l’origine. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "vérification : un examen croisé pertinent de l’information.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Des copies peuvent dépendre d’une même origine non vérifiée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une requête doit toujours contenir le mot de passe du compte.",
+      "truth": "false",
+      "explain": "Les mots doivent viser la question, sans secret personnel."
+     },
+     {
+      "text": "Le premier résultat garantit l’exactitude de toutes ses phrases.",
+      "truth": "false",
+      "explain": "Le rang d’affichage n’est pas une preuve."
+     },
+     {
+      "text": "Internet entier fournit toujours un auteur unique et précis.",
+      "truth": "false",
+      "explain": "Le support général ne suffit pas à identifier l’origine."
+     },
+     {
+      "text": "Deux copies de la même rumeur sont forcément deux preuves indépendantes.",
+      "truth": "false",
+      "explain": "Des copies peuvent dépendre d’une même origine non vérifiée."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ]

@@ -3,183 +3,184 @@
  "class": "Form 2",
  "lesson_no": 119,
  "language": "fr",
- "prerequisites": [],
+ "prerequisites": [
+  106,
+  114,
+  118
+ ],
  "skills": [
   {
    "id": "fi2-119",
-   "name": "Le son nasal [ɛ̃] : vin, pain"
+   "name": "Préparer [ɛ̃] dans vin et pain"
   }
  ],
  "note": {
   "status": "draft",
-  "text": "Le modèle de cette leçon est [ɛ̃] : vin, pain, matin. Observe les graphies des mots modèles. Les symboles de la progression sont interprétés à partir des exemples donnés. Les accents peuvent réaliser les sons de façon différente.\nL’application vérifie seulement le repérage écrit. Elle ne fournit pas de modèle audio et ne peut pas entendre ta voix. Demande à un enseignant de lire les exemples, puis entraîne-toi oralement avec lui.",
+  "text": "Dans le modèle étudié, vin et matin présentent la graphie in pour [ɛ̃] ; pain et main présentent ain pour cette même voyelle nasale. On ne prononce pas normalement un [n] séparé à la fin de ces mots isolés. Nature, navire et neige commencent par la consonne [n]. Cette consonne est elle aussi nasale, mais elle n’est pas une voyelle. Les graphies in ou ain ne suffisent pas à décider de tous les mots dans tous les contextes : on travaille ici sur les modèles annoncés.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras distinguer les graphies in et ain de la voyelle nasale et la consonne [n]. Acquis mobilisés : les modèles de un et de nature. Pour la suite : la lecture orale préparée et la correspondance."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Dans le modèle étudié, vin et matin présentent la graphie in pour [ɛ̃] ; pain et main présentent ain pour cette même voyelle nasale. On ne prononce pas normalement un [n] séparé à la fin de ces mots isolés. Nature, navire et neige commencent par la consonne [n]. Cette consonne est elle aussi nasale, mais elle n’est pas une voyelle. Les graphies in ou ain ne suffisent pas à décider de tous les mots dans tous les contextes : on travaille ici sur les modèles annoncés."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles écrits : vin → in ; pain → ain ; main → ain ; matin → in dans la dernière syllabe. Nature et navire commencent par [n]. Dans le modèle isolé pain, le n participe à la graphie de la voyelle ; dans nature, il représente une consonne prononcée au début. Les indications ne sont pas un enregistrement.",
+    "figure": "\"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 320 150\\\" role=\\\"img\\\" aria-label=\\\"Modèles écrits de symboles phonétiques, sans son\\\" font-family=\\\"Arial, sans-serif\\\" fill=\\\"#183428\\\"><rect width=\\\"320\\\" height=\\\"150\\\" fill=\\\"#fffdf5\\\"/><text x=\\\"14\\\" y=\\\"25\\\" font-size=\\\"14\\\">Symboles de préparation écrite</text><text x=\\\"22\\\" y=\\\"76\\\" font-size=\\\"30\\\">[œ̃]</text><text x=\\\"127\\\" y=\\\"76\\\" font-size=\\\"30\\\">[ɛ̃]</text><text x=\\\"242\\\" y=\\\"76\\\" font-size=\\\"30\\\">[n]</text><text x=\\\"23\\\" y=\\\"104\\\" font-size=\\\"15\\\">un</text><text x=\\\"127\\\" y=\\\"104\\\" font-size=\\\"15\\\">vin</text><text x=\\\"238\\\" y=\\\"104\\\" font-size=\\\"15\\\">nature</text><text x=\\\"14\\\" y=\\\"135\\\" font-size=\\\"12\\\">Voyelles nasales et consonne nasale.</text></svg>\""
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère le mot écrit et la graphie étudiée. Lis les symboles comme des indications, puis compare avec un modèle oral du professeur si possible. L’écran ne joue aucun enregistrement et ne mesure ni ton audition ni ta prononciation."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "voyelle nasale [ɛ̃]",
+    "meaning": "la voyelle de référence de vin et pain dans les mots isolés"
+   },
+   {
+    "word": "graphie in",
+    "meaning": "une suite de lettres illustrée dans vin"
+   },
+   {
+    "word": "graphie ain",
+    "meaning": "une suite de lettres illustrée dans pain"
+   },
+   {
+    "word": "consonne [n]",
+    "meaning": "le son consonantique initial des modèles nature et navire"
+   }
+  ],
+  "mistake": {
+   "wrong": "Vin isolé impose ici un [n] final séparé après la voyelle.",
+   "right": "la voyelle de référence de vin et pain dans les mots isolés.",
+   "why": "Le n note ici la nasalité de la voyelle."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Que peut vérifier cet exercice ?",
+  "problem": "Vin et pain partagent ce modèle vocalique. Explique le choix.",
   "steps": [
-   "Le travail écrit prépare la lecture orale.",
-   "L’application ne capte pas la voix du lecteur."
+   "la voyelle de référence de vin et pain dans les mots isolés.",
+   "Le n note ici la nasalité de la voyelle."
   ],
-  "answer": "Le repérage écrit des mots modèles.",
+  "answer": "voyelle nasale [ɛ̃]",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c119-1",
+    "id": "fi2-119-c1",
     "status": "draft",
-    "idea": "Observe les mots modèles avant de classer.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "vin, pain, matin"
+     "voyelle nasale [ɛ̃] : la voyelle de référence de vin et pain dans les mots isolés.",
+     "graphie in : une suite de lettres illustrée dans vin.",
+     "graphie ain : une suite de lettres illustrée dans pain.",
+     "consonne [n] : le son consonantique initial des modèles nature et navire."
     ],
     "checks": [],
     "check": {
-     "ref": "fi2-119-etape-1"
+     "ref": "fi2-119-notions"
     }
    },
    {
-    "id": "c119-2",
+    "id": "fi2-119-c2",
     "status": "draft",
-    "idea": "Le travail écrit prépare la lecture orale.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Compare les graphies, puis lis avec le professeur."
+     "Vin et pain partagent ce modèle vocalique.",
+     "Vin contient i puis n.",
+     "Pain contient a, i puis n.",
+     "Nature commence par une consonne nasale."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-119-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "orthographe"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Que peut vérifier cet exercice ?",
-         "r": "Le repérage écrit des mots modèles.",
-         "w": [
-          "L’enregistrement de ta voix.",
-          "La qualité de ton accent."
-         ],
-         "y": "L’application ne capte pas la voix du lecteur."
-        },
-        {
-         "q": "Qui peut fournir un modèle oral ?",
-         "r": "Un enseignant qui lit les mots.",
-         "w": [
-          "Le nombre de lettres seul.",
-          "Un score écrit sans audio."
-         ],
-         "y": "Une prononciation doit être entendue et pratiquée oralement."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fi2-119-cas"
     }
    },
    {
-    "id": "c119-3",
+    "id": "fi2-119-c3",
     "status": "draft",
-    "idea": "Vérifie les deux mots d’une série.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "La série modèle est pain, matin."
+     "Vin isolé impose ici un [n] final séparé après la voyelle. Correction : Le n note ici la nasalité de la voyelle.",
+     "Vin contient forcément la graphie ain. Correction : Il faut lire les lettres présentes.",
+     "Pain doit être écrit pin dans tous les contextes. Correction : La proximité de son n’efface pas l’orthographe du mot.",
+     "Une consonne nasale est obligatoirement une voyelle. Correction : La nasalité existe dans les deux catégories, qui restent distinctes."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-119-etape-3-card",
-     "type": "mcq",
+     "id": "fi2-119-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "orthographe"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Quelle série contient uniquement les mots modèles ?",
-         "r": "pain, matin",
-         "w": [
-          "nature, navire",
-          "pain, nature"
-         ],
-         "y": "Les deux mots doivent appartenir à la série étudiée."
-        },
-        {
-         "q": "Quel conseil respecte les différences d’accent ?",
-         "r": "Suivre le modèle oral donné en classe.",
-         "w": [
-          "Faire noter sa voix par cet exercice écrit.",
-          "Déclarer faux tout accent différent."
-         ],
-         "y": "Le professeur adapte le modèle oral à l’enseignement de la classe."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "voyelle nasale [ɛ̃] : la voyelle de référence de vin et pain dans les mots isolés.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le n note ici la nasalité de la voyelle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "graphie in : une suite de lettres illustrée dans vin.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il faut lire les lettres présentes. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "graphie ain : une suite de lettres illustrée dans pain.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La proximité de son n’efface pas l’orthographe du mot. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "consonne [n] : le son consonantique initial des modèles nature et navire.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La nasalité existe dans les deux catégories, qui restent distinctes. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Vin isolé impose ici un [n] final séparé après la voyelle.",
+        "truth": "false",
+        "explain": "Le n note ici la nasalité de la voyelle."
+       },
+       {
+        "text": "Vin contient forcément la graphie ain.",
+        "truth": "false",
+        "explain": "Il faut lire les lettres présentes."
+       },
+       {
+        "text": "Pain doit être écrit pin dans tous les contextes.",
+        "truth": "false",
+        "explain": "La proximité de son n’efface pas l’orthographe du mot."
+       },
+       {
+        "text": "Une consonne nasale est obligatoirement une voyelle.",
+        "truth": "false",
+        "explain": "La nasalité existe dans les deux catégories, qui restent distinctes."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -187,33 +188,75 @@
  },
  "questions": [
   {
-   "id": "fi2-119-etape-1",
+   "id": "fi2-119-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "orthographe"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Quel mot appartient à la série étudiée ?",
-       "r": "pain",
+       "q": "Quel terme désigne la voyelle de référence de vin et pain dans les mots isolés ?",
+       "r": "voyelle nasale [ɛ̃]",
        "w": [
-        "nature",
-        "navire"
+        "graphie in",
+        "graphie ain",
+        "consonne [n]"
        ],
-       "y": "Le mot pain appartient aux modèles de la leçon."
+       "e": [
+        "Cela désigne une suite de lettres illustrée dans vin, plutôt que la notion demandée.",
+        "Cela désigne une suite de lettres illustrée dans pain, plutôt que la notion demandée.",
+        "Cela désigne le son consonantique initial des modèles nature et navire, plutôt que la notion demandée."
+       ],
+       "y": "Le n note ici la nasalité de la voyelle."
       },
       {
-       "q": "Quel autre mot appartient à cette série ?",
-       "r": "matin",
+       "q": "Quel terme désigne une suite de lettres illustrée dans vin ?",
+       "r": "graphie in",
        "w": [
-        "navire",
-        "nature"
+        "voyelle nasale [ɛ̃]",
+        "graphie ain",
+        "consonne [n]"
        ],
-       "y": "Le mot matin appartient à la même série de modèles."
+       "e": [
+        "Cela désigne la voyelle de référence de vin et pain dans les mots isolés, plutôt que la notion demandée.",
+        "Cela désigne une suite de lettres illustrée dans pain, plutôt que la notion demandée.",
+        "Cela désigne le son consonantique initial des modèles nature et navire, plutôt que la notion demandée."
+       ],
+       "y": "Il faut lire les lettres présentes."
+      },
+      {
+       "q": "Quel terme désigne une suite de lettres illustrée dans pain ?",
+       "r": "graphie ain",
+       "w": [
+        "voyelle nasale [ɛ̃]",
+        "graphie in",
+        "consonne [n]"
+       ],
+       "e": [
+        "Cela désigne la voyelle de référence de vin et pain dans les mots isolés, plutôt que la notion demandée.",
+        "Cela désigne une suite de lettres illustrée dans vin, plutôt que la notion demandée.",
+        "Cela désigne le son consonantique initial des modèles nature et navire, plutôt que la notion demandée."
+       ],
+       "y": "La proximité de son n’efface pas l’orthographe du mot."
+      },
+      {
+       "q": "Quel terme désigne le son consonantique initial des modèles nature et navire ?",
+       "r": "consonne [n]",
+       "w": [
+        "voyelle nasale [ɛ̃]",
+        "graphie in",
+        "graphie ain"
+       ],
+       "e": [
+        "Cela désigne la voyelle de référence de vin et pain dans les mots isolés, plutôt que la notion demandée.",
+        "Cela désigne une suite de lettres illustrée dans vin, plutôt que la notion demandée.",
+        "Cela désigne une suite de lettres illustrée dans pain, plutôt que la notion demandée."
+       ],
+       "y": "La nasalité existe dans les deux catégories, qui restent distinctes."
       }
      ]
     }
@@ -228,53 +271,212 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-119-etape-2",
+   "id": "fi2-119-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Vin et pain partagent ce modèle vocalique.\nQuelle notion convient ?",
+       "r": "voyelle nasale [ɛ̃]",
+       "w": [
+        "graphie in",
+        "graphie ain",
+        "consonne [n]"
+       ],
+       "e": [
+        "Cela concerne une suite de lettres illustrée dans vin. Compare cette définition avec le cas présenté.",
+        "Cela concerne une suite de lettres illustrée dans pain. Compare cette définition avec le cas présenté.",
+        "Cela concerne le son consonantique initial des modèles nature et navire. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le n note ici la nasalité de la voyelle."
+      },
+      {
+       "q": "Vin contient i puis n.\nQuelle notion convient ?",
+       "r": "graphie in",
+       "w": [
+        "voyelle nasale [ɛ̃]",
+        "graphie ain",
+        "consonne [n]"
+       ],
+       "e": [
+        "Cela concerne la voyelle de référence de vin et pain dans les mots isolés. Compare cette définition avec le cas présenté.",
+        "Cela concerne une suite de lettres illustrée dans pain. Compare cette définition avec le cas présenté.",
+        "Cela concerne le son consonantique initial des modèles nature et navire. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il faut lire les lettres présentes."
+      },
+      {
+       "q": "Pain contient a, i puis n.\nQuelle notion convient ?",
+       "r": "graphie ain",
+       "w": [
+        "voyelle nasale [ɛ̃]",
+        "graphie in",
+        "consonne [n]"
+       ],
+       "e": [
+        "Cela concerne la voyelle de référence de vin et pain dans les mots isolés. Compare cette définition avec le cas présenté.",
+        "Cela concerne une suite de lettres illustrée dans vin. Compare cette définition avec le cas présenté.",
+        "Cela concerne le son consonantique initial des modèles nature et navire. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La proximité de son n’efface pas l’orthographe du mot."
+      },
+      {
+       "q": "Nature commence par une consonne nasale.\nQuelle notion convient ?",
+       "r": "consonne [n]",
+       "w": [
+        "voyelle nasale [ɛ̃]",
+        "graphie in",
+        "graphie ain"
+       ],
+       "e": [
+        "Cela concerne la voyelle de référence de vin et pain dans les mots isolés. Compare cette définition avec le cas présenté.",
+        "Cela concerne une suite de lettres illustrée dans vin. Compare cette définition avec le cas présenté.",
+        "Cela concerne une suite de lettres illustrée dans pain. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La nasalité existe dans les deux catégories, qui restent distinctes."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-119-graphies",
    "type": "mcq",
    "level": 2,
    "review": "authored",
    "sources": [
-    "orthographe"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Que peut vérifier cet exercice ?",
-       "r": "Le repérage écrit des mots modèles.",
+       "q": "Quelle graphie est présente dans pain ?",
+       "r": "ain",
        "w": [
-        "L’enregistrement de ta voix.",
-        "La qualité de ton accent."
+        "in seulement",
+        "un",
+        "on"
        ],
-       "y": "L’application ne capte pas la voix du lecteur."
+       "e": [
+        "La lettre a est aussi présente dans le groupe.",
+        "La voyelle écrite n’est pas u.",
+        "La graphie ne comporte pas o."
+       ],
+       "y": "Observe les lettres du mot."
       },
       {
-       "q": "Qui peut fournir un modèle oral ?",
-       "r": "Un enseignant qui lit les mots.",
+       "q": "Quel mot commence par la consonne [n] dans le modèle ?",
+       "r": "nature",
        "w": [
-        "Le nombre de lettres seul.",
-        "Un score écrit sans audio."
+        "vin",
+        "pain",
+        "matin"
        ],
-       "y": "Une prononciation doit être entendue et pratiquée oralement."
+       "e": [
+        "Le mot ne commence pas par n.",
+        "Il commence par p.",
+        "Il commence par m."
+       ],
+       "y": "On demande le début consonantique."
+      },
+      {
+       "q": "Que représente le n à la fin de vin isolé dans le modèle ?",
+       "r": "La nasalité de la voyelle, sans [n] final séparé.",
+       "w": [
+        "Une consonne initiale de vin.",
+        "Un ordre de prononcer une nouvelle syllabe ne.",
+        "Une preuve de la voix réelle de l’élève."
+       ],
+       "e": [
+        "Le n écrit est final, pas initial.",
+        "Cette syllabe supplémentaire ne fait pas partie du modèle.",
+        "Aucune voix n’est analysée."
+       ],
+       "y": "La graphie et les sons ne se lisent pas lettre par lettre."
+      },
+      {
+       "q": "Quelle affirmation distingue correctement les catégories ?",
+       "r": "[ɛ̃] est une voyelle nasale ; [n] est une consonne nasale.",
+       "w": [
+        "Tout son nasal est une voyelle.",
+        "[n] ne peut jamais être nasal.",
+        "Le symbole écrit donne un diagnostic de l’audition."
+       ],
+       "e": [
+        "Les consonnes nasales existent aussi.",
+        "[n] est précisément une consonne nasale.",
+        "L’exercice ne diagnostique pas l’audition."
+       ],
+       "y": "La nasalité n’efface pas la distinction entre voyelle et consonne."
       }
      ]
     }
@@ -289,84 +491,121 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-119-etape-3",
-   "type": "mcq",
+   "id": "fi2-119-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "voyelle nasale [ɛ̃]",
+     "right": "Vin et pain partagent ce modèle vocalique."
+    },
+    {
+     "left": "graphie in",
+     "right": "Vin contient i puis n."
+    },
+    {
+     "left": "graphie ain",
+     "right": "Pain contient a, i puis n."
+    },
+    {
+     "left": "consonne [n]",
+     "right": "Nature commence par une consonne nasale."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-119-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "orthographe"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Quelle série contient uniquement les mots modèles ?",
-       "r": "pain, matin",
-       "w": [
-        "nature, navire",
-        "pain, nature"
-       ],
-       "y": "Les deux mots doivent appartenir à la série étudiée."
-      },
-      {
-       "q": "Quel conseil respecte les différences d’accent ?",
-       "r": "Suivre le modèle oral donné en classe.",
-       "w": [
-        "Faire noter sa voix par cet exercice écrit.",
-        "Déclarer faux tout accent différent."
-       ],
-       "y": "Le professeur adapte le modèle oral à l’enseignement de la classe."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "voyelle nasale [ɛ̃] : la voyelle de référence de vin et pain dans les mots isolés.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le n note ici la nasalité de la voyelle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "graphie in : une suite de lettres illustrée dans vin.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il faut lire les lettres présentes. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "graphie ain : une suite de lettres illustrée dans pain.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La proximité de son n’efface pas l’orthographe du mot. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "consonne [n] : le son consonantique initial des modèles nature et navire.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La nasalité existe dans les deux catégories, qui restent distinctes. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Vin isolé impose ici un [n] final séparé après la voyelle.",
+      "truth": "false",
+      "explain": "Le n note ici la nasalité de la voyelle."
+     },
+     {
+      "text": "Vin contient forcément la graphie ain.",
+      "truth": "false",
+      "explain": "Il faut lire les lettres présentes."
+     },
+     {
+      "text": "Pain doit être écrit pin dans tous les contextes.",
+      "truth": "false",
+      "explain": "La proximité de son n’efface pas l’orthographe du mot."
+     },
+     {
+      "text": "Une consonne nasale est obligatoirement une voyelle.",
+      "truth": "false",
+      "explain": "La nasalité existe dans les deux catégories, qui restent distinctes."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ]

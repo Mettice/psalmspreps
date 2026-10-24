@@ -58,4 +58,4 @@ and `npm test`. Form 1 changes stay on `form-2` until Dion approves them for the
   need Dion's decisions first.
 - Codex: bring Form 2 Term 3 French (70–81) and Français intensif (104–128) up to the quality bar (4+ questions,
   specific feedback, 3+ variants, Learn screens) when Form 3 is done.
-  French 70–81 upgraded on 2026-10-24; Français intensif 104–128 remains in this backlog.
+  French 70–81 and Français intensif 104–128 upgraded on 2026-10-24; both assigned Term Three quality batches are complete as drafts pending teacher review.

@@ -3,183 +3,182 @@
  "class": "Form 2",
  "lesson_no": 114,
  "language": "fr",
- "prerequisites": [],
+ "prerequisites": [
+  106,
+  113
+ ],
  "skills": [
   {
    "id": "fi2-114",
-   "name": "La consonne [n] : nature"
+   "name": "Préparer la consonne [n] : nature"
   }
  ],
  "note": {
   "status": "draft",
-  "text": "Le modèle de cette leçon est [n] : nature, navire, nuit. Observe les graphies des mots modèles. Les symboles de la progression sont interprétés à partir des exemples donnés. Les accents peuvent réaliser les sons de façon différente.\nL’application vérifie seulement le repérage écrit. Elle ne fournit pas de modèle audio et ne peut pas entendre ta voix. Demande à un enseignant de lire les exemples, puis entraîne-toi oralement avec lui.",
+  "text": "La consonne [n] est nasale : l’air passe par le nez tandis que la langue ferme le passage oral. Ce n’est pas une voyelle. Nature, navire, neige et note commencent par cette consonne dans les modèles. Dans année, nn représente aussi une consonne [n], sans imposer deux sons séparés. Dans pain isolé, le n final participe à la graphie d’une voyelle nasale ; il ne représente pas ici un [n] final séparé. Les graphies doivent être examinées dans le mot et son contexte.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras repérer la consonne nasale du modèle et la distinguer du n qui participe à une graphie vocalique. Acquis mobilisés : la voyelle de un et les graphies du module. Pour la suite : la voyelle de vin et la lecture préparée."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "La consonne [n] est nasale : l’air passe par le nez tandis que la langue ferme le passage oral. Ce n’est pas une voyelle. Nature, navire, neige et note commencent par cette consonne dans les modèles. Dans année, nn représente aussi une consonne [n], sans imposer deux sons séparés. Dans pain isolé, le n final participe à la graphie d’une voyelle nasale ; il ne représente pas ici un [n] final séparé. Les graphies doivent être examinées dans le mot et son contexte."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles écrits : nature → n initial ; navire → n initial ; année → nn à l’intérieur ; pain → ain pour une voyelle nasale du modèle. On peut préparer ces correspondances sans entendre un enregistrement. Une comparaison orale avec le professeur reste nécessaire pour réaliser et distinguer les sons."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère la position et la graphie, puis utilise le modèle annoncé. Ne classe pas tous les n écrits de la même manière. L’exercice vérifie une préparation écrite, pas l’audition ni la prononciation réelle."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "consonne nasale",
+    "meaning": "une consonne comme [n] comportant un passage d’air nasal"
+   },
+   {
+    "word": "n initial",
+    "meaning": "la graphie placée au début des mots du modèle"
+   },
+   {
+    "word": "graphie nn",
+    "meaning": "une suite de lettres illustrée dans année"
+   },
+   {
+    "word": "marque vocalique de nasalité",
+    "meaning": "le rôle du n dans ain de pain isolé"
+   }
+  ],
+  "mistake": {
+   "wrong": "Tout son nasal est nécessairement une voyelle.",
+   "right": "une consonne comme [n] comportant un passage d’air nasal.",
+   "why": "Des consonnes comme [n] sont aussi nasales."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Que peut vérifier cet exercice ?",
+  "problem": "Nature commence par [n]. Explique le choix.",
   "steps": [
-   "Le travail écrit prépare la lecture orale.",
-   "L’application ne capte pas la voix du lecteur."
+   "une consonne comme [n] comportant un passage d’air nasal.",
+   "Des consonnes comme [n] sont aussi nasales."
   ],
-  "answer": "Le repérage écrit des mots modèles.",
+  "answer": "consonne nasale",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c114-1",
+    "id": "fi2-114-c1",
     "status": "draft",
-    "idea": "Observe les mots modèles avant de classer.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "nature, navire, nuit"
+     "consonne nasale : une consonne comme [n] comportant un passage d’air nasal.",
+     "n initial : la graphie placée au début des mots du modèle.",
+     "graphie nn : une suite de lettres illustrée dans année.",
+     "marque vocalique de nasalité : le rôle du n dans ain de pain isolé."
     ],
     "checks": [],
     "check": {
-     "ref": "fi2-114-etape-1"
+     "ref": "fi2-114-notions"
     }
    },
    {
-    "id": "c114-2",
+    "id": "fi2-114-c2",
     "status": "draft",
-    "idea": "Le travail écrit prépare la lecture orale.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Compare les graphies, puis lis avec le professeur."
+     "Nature commence par [n].",
+     "Navire commence par n.",
+     "Année comporte nn pour la consonne étudiée.",
+     "Dans pain isolé, la finale ne comporte pas de [n] séparé."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-114-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "orthographe"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Que peut vérifier cet exercice ?",
-         "r": "Le repérage écrit des mots modèles.",
-         "w": [
-          "L’enregistrement de ta voix.",
-          "La qualité de ton accent."
-         ],
-         "y": "L’application ne capte pas la voix du lecteur."
-        },
-        {
-         "q": "Qui peut fournir un modèle oral ?",
-         "r": "Un enseignant qui lit les mots.",
-         "w": [
-          "Le nombre de lettres seul.",
-          "Un score écrit sans audio."
-         ],
-         "y": "Une prononciation doit être entendue et pratiquée oralement."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fi2-114-cas"
     }
    },
    {
-    "id": "c114-3",
+    "id": "fi2-114-c3",
     "status": "draft",
-    "idea": "Vérifie les deux mots d’une série.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "La série modèle est nature, navire."
+     "Tout son nasal est nécessairement une voyelle. Correction : Des consonnes comme [n] sont aussi nasales.",
+     "Le n initial de navire est à la fin du mot. Correction : La position demandée est le début.",
+     "Deux lettres n imposent toujours deux consonnes séparées dans la prononciation. Correction : Le modèle année comporte une consonne [n].",
+     "Le n final de pain impose toujours la syllabe ne. Correction : La graphie correspond ici à une voyelle nasale."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-114-etape-3-card",
-     "type": "mcq",
+     "id": "fi2-114-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "orthographe"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Quelle série contient uniquement les mots modèles ?",
-         "r": "nature, navire",
-         "w": [
-          "pain, brun",
-          "nature, pain"
-         ],
-         "y": "Les deux mots doivent appartenir à la série étudiée."
-        },
-        {
-         "q": "Quel conseil respecte les différences d’accent ?",
-         "r": "Suivre le modèle oral donné en classe.",
-         "w": [
-          "Faire noter sa voix par cet exercice écrit.",
-          "Déclarer faux tout accent différent."
-         ],
-         "y": "Le professeur adapte le modèle oral à l’enseignement de la classe."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "consonne nasale : une consonne comme [n] comportant un passage d’air nasal.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Des consonnes comme [n] sont aussi nasales. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "n initial : la graphie placée au début des mots du modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La position demandée est le début. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "graphie nn : une suite de lettres illustrée dans année.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le modèle année comporte une consonne [n]. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "marque vocalique de nasalité : le rôle du n dans ain de pain isolé.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La graphie correspond ici à une voyelle nasale. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Tout son nasal est nécessairement une voyelle.",
+        "truth": "false",
+        "explain": "Des consonnes comme [n] sont aussi nasales."
+       },
+       {
+        "text": "Le n initial de navire est à la fin du mot.",
+        "truth": "false",
+        "explain": "La position demandée est le début."
+       },
+       {
+        "text": "Deux lettres n imposent toujours deux consonnes séparées dans la prononciation.",
+        "truth": "false",
+        "explain": "Le modèle année comporte une consonne [n]."
+       },
+       {
+        "text": "Le n final de pain impose toujours la syllabe ne.",
+        "truth": "false",
+        "explain": "La graphie correspond ici à une voyelle nasale."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -187,33 +186,75 @@
  },
  "questions": [
   {
-   "id": "fi2-114-etape-1",
+   "id": "fi2-114-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "orthographe"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Quel mot appartient à la série étudiée ?",
-       "r": "nature",
+       "q": "Quel terme désigne une consonne comme [n] comportant un passage d’air nasal ?",
+       "r": "consonne nasale",
        "w": [
-        "pain",
-        "brun"
+        "n initial",
+        "graphie nn",
+        "marque vocalique de nasalité"
        ],
-       "y": "Le mot nature appartient aux modèles de la leçon."
+       "e": [
+        "Cela désigne la graphie placée au début des mots du modèle, plutôt que la notion demandée.",
+        "Cela désigne une suite de lettres illustrée dans année, plutôt que la notion demandée.",
+        "Cela désigne le rôle du n dans ain de pain isolé, plutôt que la notion demandée."
+       ],
+       "y": "Des consonnes comme [n] sont aussi nasales."
       },
       {
-       "q": "Quel autre mot appartient à cette série ?",
-       "r": "navire",
+       "q": "Quel terme désigne la graphie placée au début des mots du modèle ?",
+       "r": "n initial",
        "w": [
-        "brun",
-        "pain"
+        "consonne nasale",
+        "graphie nn",
+        "marque vocalique de nasalité"
        ],
-       "y": "Le mot navire appartient à la même série de modèles."
+       "e": [
+        "Cela désigne une consonne comme [n] comportant un passage d’air nasal, plutôt que la notion demandée.",
+        "Cela désigne une suite de lettres illustrée dans année, plutôt que la notion demandée.",
+        "Cela désigne le rôle du n dans ain de pain isolé, plutôt que la notion demandée."
+       ],
+       "y": "La position demandée est le début."
+      },
+      {
+       "q": "Quel terme désigne une suite de lettres illustrée dans année ?",
+       "r": "graphie nn",
+       "w": [
+        "consonne nasale",
+        "n initial",
+        "marque vocalique de nasalité"
+       ],
+       "e": [
+        "Cela désigne une consonne comme [n] comportant un passage d’air nasal, plutôt que la notion demandée.",
+        "Cela désigne la graphie placée au début des mots du modèle, plutôt que la notion demandée.",
+        "Cela désigne le rôle du n dans ain de pain isolé, plutôt que la notion demandée."
+       ],
+       "y": "Le modèle année comporte une consonne [n]."
+      },
+      {
+       "q": "Quel terme désigne le rôle du n dans ain de pain isolé ?",
+       "r": "marque vocalique de nasalité",
+       "w": [
+        "consonne nasale",
+        "n initial",
+        "graphie nn"
+       ],
+       "e": [
+        "Cela désigne une consonne comme [n] comportant un passage d’air nasal, plutôt que la notion demandée.",
+        "Cela désigne la graphie placée au début des mots du modèle, plutôt que la notion demandée.",
+        "Cela désigne une suite de lettres illustrée dans année, plutôt que la notion demandée."
+       ],
+       "y": "La graphie correspond ici à une voyelle nasale."
       }
      ]
     }
@@ -228,53 +269,212 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-114-etape-2",
+   "id": "fi2-114-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Nature commence par [n].\nQuelle notion convient ?",
+       "r": "consonne nasale",
+       "w": [
+        "n initial",
+        "graphie nn",
+        "marque vocalique de nasalité"
+       ],
+       "e": [
+        "Cela concerne la graphie placée au début des mots du modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne une suite de lettres illustrée dans année. Compare cette définition avec le cas présenté.",
+        "Cela concerne le rôle du n dans ain de pain isolé. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Des consonnes comme [n] sont aussi nasales."
+      },
+      {
+       "q": "Navire commence par n.\nQuelle notion convient ?",
+       "r": "n initial",
+       "w": [
+        "consonne nasale",
+        "graphie nn",
+        "marque vocalique de nasalité"
+       ],
+       "e": [
+        "Cela concerne une consonne comme [n] comportant un passage d’air nasal. Compare cette définition avec le cas présenté.",
+        "Cela concerne une suite de lettres illustrée dans année. Compare cette définition avec le cas présenté.",
+        "Cela concerne le rôle du n dans ain de pain isolé. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La position demandée est le début."
+      },
+      {
+       "q": "Année comporte nn pour la consonne étudiée.\nQuelle notion convient ?",
+       "r": "graphie nn",
+       "w": [
+        "consonne nasale",
+        "n initial",
+        "marque vocalique de nasalité"
+       ],
+       "e": [
+        "Cela concerne une consonne comme [n] comportant un passage d’air nasal. Compare cette définition avec le cas présenté.",
+        "Cela concerne la graphie placée au début des mots du modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne le rôle du n dans ain de pain isolé. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le modèle année comporte une consonne [n]."
+      },
+      {
+       "q": "Dans pain isolé, la finale ne comporte pas de [n] séparé.\nQuelle notion convient ?",
+       "r": "marque vocalique de nasalité",
+       "w": [
+        "consonne nasale",
+        "n initial",
+        "graphie nn"
+       ],
+       "e": [
+        "Cela concerne une consonne comme [n] comportant un passage d’air nasal. Compare cette définition avec le cas présenté.",
+        "Cela concerne la graphie placée au début des mots du modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne une suite de lettres illustrée dans année. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La graphie correspond ici à une voyelle nasale."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-114-appliquer",
    "type": "mcq",
    "level": 2,
    "review": "authored",
    "sources": [
-    "orthographe"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Que peut vérifier cet exercice ?",
-       "r": "Le repérage écrit des mots modèles.",
+       "q": "Dans nature, quelle position occupe la consonne [n] étudiée ?",
+       "r": "le début du mot",
        "w": [
-        "L’enregistrement de ta voix.",
-        "La qualité de ton accent."
+        "la fin du mot",
+        "une syllabe ne ajoutée après le mot",
+        "un enregistrement de la voix"
        ],
-       "y": "L’application ne capte pas la voix du lecteur."
+       "e": [
+        "Le mot commence par n.",
+        "Le modèle n’ajoute pas cette syllabe.",
+        "Aucun enregistrement n’est donné."
+       ],
+       "y": "La graphie est initiale."
       },
       {
-       "q": "Qui peut fournir un modèle oral ?",
-       "r": "Un enseignant qui lit les mots.",
+       "q": "Quel mot présente nn dans le modèle ?",
+       "r": "année",
        "w": [
-        "Le nombre de lettres seul.",
-        "Un score écrit sans audio."
+        "nature",
+        "navire",
+        "neige"
        ],
-       "y": "Une prononciation doit être entendue et pratiquée oralement."
+       "e": [
+        "Nature commence par un seul n.",
+        "Navire commence par un seul n.",
+        "Neige commence par un seul n."
+       ],
+       "y": "Observe les lettres réellement écrites."
+      },
+      {
+       "q": "Dans pain isolé, quelle lecture du n est demandée ?",
+       "r": "Il participe à la graphie de la voyelle nasale.",
+       "w": [
+        "Il ajoute nécessairement un [n] final séparé.",
+        "Il se trouve avant p.",
+        "Il donne le nom du locuteur."
+       ],
+       "e": [
+        "Le modèle ne comporte pas ce son final séparé.",
+        "Le n est à la fin de la graphie.",
+        "Une lettre n’identifie pas la personne."
+       ],
+       "y": "Distingue consonne et graphie de voyelle."
+      },
+      {
+       "q": "Quelle affirmation est correcte ?",
+       "r": "[n] est une consonne nasale.",
+       "w": [
+        "[n] est forcément une voyelle orale.",
+        "Tout n écrit a le même rôle dans tous les mots.",
+        "L’écran évalue la voix réelle."
+       ],
+       "e": [
+        "La catégorie et la nasalité sont incorrectes.",
+        "Nature et pain montrent des rôles différents.",
+        "Aucune voix n’est analysée."
+       ],
+       "y": "Le modèle explique les catégories sans son."
       }
      ]
     }
@@ -289,84 +489,121 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-114-etape-3",
-   "type": "mcq",
+   "id": "fi2-114-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "consonne nasale",
+     "right": "Nature commence par [n]."
+    },
+    {
+     "left": "n initial",
+     "right": "Navire commence par n."
+    },
+    {
+     "left": "graphie nn",
+     "right": "Année comporte nn pour la consonne étudiée."
+    },
+    {
+     "left": "marque vocalique de nasalité",
+     "right": "Dans pain isolé, la finale ne comporte pas de [n] séparé."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-114-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "orthographe"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Quelle série contient uniquement les mots modèles ?",
-       "r": "nature, navire",
-       "w": [
-        "pain, brun",
-        "nature, pain"
-       ],
-       "y": "Les deux mots doivent appartenir à la série étudiée."
-      },
-      {
-       "q": "Quel conseil respecte les différences d’accent ?",
-       "r": "Suivre le modèle oral donné en classe.",
-       "w": [
-        "Faire noter sa voix par cet exercice écrit.",
-        "Déclarer faux tout accent différent."
-       ],
-       "y": "Le professeur adapte le modèle oral à l’enseignement de la classe."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "consonne nasale : une consonne comme [n] comportant un passage d’air nasal.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Des consonnes comme [n] sont aussi nasales. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "n initial : la graphie placée au début des mots du modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La position demandée est le début. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "graphie nn : une suite de lettres illustrée dans année.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le modèle année comporte une consonne [n]. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "marque vocalique de nasalité : le rôle du n dans ain de pain isolé.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La graphie correspond ici à une voyelle nasale. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Tout son nasal est nécessairement une voyelle.",
+      "truth": "false",
+      "explain": "Des consonnes comme [n] sont aussi nasales."
+     },
+     {
+      "text": "Le n initial de navire est à la fin du mot.",
+      "truth": "false",
+      "explain": "La position demandée est le début."
+     },
+     {
+      "text": "Deux lettres n imposent toujours deux consonnes séparées dans la prononciation.",
+      "truth": "false",
+      "explain": "Le modèle année comporte une consonne [n]."
+     },
+     {
+      "text": "Le n final de pain impose toujours la syllabe ne.",
+      "truth": "false",
+      "explain": "La graphie correspond ici à une voyelle nasale."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ]

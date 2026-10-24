@@ -3,183 +3,183 @@
  "class": "Form 2",
  "lesson_no": 117,
  "language": "fr",
- "prerequisites": [],
+ "prerequisites": [
+  110,
+  112,
+  116
+ ],
  "skills": [
   {
    "id": "fi2-117",
-   "name": "Écrire un portrait"
+   "name": "Écrire un portrait fictif"
   }
  ],
  "note": {
   "status": "draft",
-  "text": "Un portrait décrit une personne ou un personnage. Le portrait physique présente son apparence ; le portrait moral évoque son caractère. Appuie un trait moral sur une action : Bih aide une camarade, elle est serviable. Organise les détails sans te moquer ni présenter un jugement gratuit comme un fait. Tu peux créer un personnage imaginaire. Le présent et les adjectifs précis aident à construire un portrait cohérent.",
+  "text": "Un portrait présente un personnage par des traits choisis. Les vêtements, la posture ou un geste peuvent être décrits ; ils ne donnent pas à eux seuls toute sa personnalité ou son histoire. Un trait de caractère doit être soutenu par une action ou être explicitement donné par le récit. Organise les détails au lieu d’aligner des jugements. Le personnage peut être entièrement inventé ; aucun camarade réel ne doit être évalué sur son apparence, son corps ou sa vie privée.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras présenter un personnage en reliant traits observables actions et interprétations prudentes. Acquis mobilisés : la description et les jeux de rôle. Pour la suite : les reprises possessives et la narration."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Un portrait présente un personnage par des traits choisis. Les vêtements, la posture ou un geste peuvent être décrits ; ils ne donnent pas à eux seuls toute sa personnalité ou son histoire. Un trait de caractère doit être soutenu par une action ou être explicitement donné par le récit. Organise les détails au lieu d’aligner des jugements. Le personnage peut être entièrement inventé ; aucun camarade réel ne doit être évalué sur son apparence, son corps ou sa vie privée."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Amina est un personnage inventé du club. Elle porte une veste verte et garde un petit cahier près d’elle. Pendant la relecture, elle laisse finir une question puis vérifie la source avant de répondre. Cette action la présente comme attentive dans la scène ; sa veste ne suffit pas à prouver ce caractère. Le portrait ne prétend pas raconter toute son histoire."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Choisis quelques détails utiles puis une action soutenant le trait voulu. Distingue ce qui est visible de ce qui est interprété. Relis les adjectifs et les pronoms en conservant la même identité."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "trait observable",
+    "meaning": "un détail effectivement décrit dans la scène"
+   },
+   {
+    "word": "action révélatrice",
+    "meaning": "un comportement soutenant ici un trait du portrait"
+   },
+   {
+    "word": "trait de caractère appuyé",
+    "meaning": "une qualité interprétée à partir d’un indice pertinent"
+   },
+   {
+    "word": "organisation du portrait",
+    "meaning": "une progression des détails autour du même personnage"
+   }
+  ],
+  "mistake": {
+   "wrong": "La couleur d’une veste révèle toute la valeur morale.",
+   "right": "un détail effectivement décrit dans la scène.",
+   "why": "Le détail ne suffit pas à ce jugement."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Nji attend calmement que chacun termine. Quel trait est illustré ?",
+  "problem": "La veste verte appartient aux détails donnés. Explique le choix.",
   "steps": [
-   "Un geste peut illustrer un trait moral.",
-   "Attendre calmement est un indice de patience."
+   "un détail effectivement décrit dans la scène.",
+   "Le détail ne suffit pas à ce jugement."
   ],
-  "answer": "La patience.",
+  "answer": "trait observable",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c117-1",
+    "id": "fi2-117-c1",
     "status": "draft",
-    "idea": "Distingue apparence et caractère.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "Une veste bleue est un détail physique ; la patience est un trait moral."
+     "trait observable : un détail effectivement décrit dans la scène.",
+     "action révélatrice : un comportement soutenant ici un trait du portrait.",
+     "trait de caractère appuyé : une qualité interprétée à partir d’un indice pertinent.",
+     "organisation du portrait : une progression des détails autour du même personnage."
     ],
     "checks": [],
     "check": {
-     "ref": "fi2-117-etape-1"
+     "ref": "fi2-117-notions"
     }
    },
    {
-    "id": "c117-2",
+    "id": "fi2-117-c2",
     "status": "draft",
-    "idea": "Un geste peut illustrer un trait moral.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Elle explique la leçon à un camarade : elle est serviable."
+     "La veste verte appartient aux détails donnés.",
+     "Amina laisse finir la question avant de répondre.",
+     "L’attention est liée à la manière de répondre dans la scène.",
+     "Le modèle garde Amina comme référent."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-117-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "expression"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Nji attend calmement que chacun termine. Quel trait est illustré ?",
-         "r": "La patience.",
-         "w": [
-          "La brutalité.",
-          "La taille physique."
-         ],
-         "y": "Attendre calmement est un indice de patience."
-        },
-        {
-         "q": "Bih aide un élève à retrouver son cahier. Quel trait peut-on proposer ?",
-         "r": "Elle est serviable.",
-         "w": [
-          "Elle est forcément riche.",
-          "Elle est forcément la plus âgée."
-         ],
-         "y": "Le geste d’aide soutient serviable, mais pas la richesse ni l’âge."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fi2-117-cas"
     }
    },
    {
-    "id": "c117-3",
+    "id": "fi2-117-c3",
     "status": "draft",
-    "idea": "Relis les accords et évite les contradictions.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Une élève attentive ; des élèves attentifs."
+     "La couleur d’une veste révèle toute la valeur morale. Correction : Le détail ne suffit pas à ce jugement.",
+     "Une action sans rapport prouve tous les caractères possibles. Correction : Le comportement doit soutenir le trait choisi.",
+     "Une apparence donne toujours un diagnostic de personnalité. Correction : Le portrait doit distinguer indice et généralisation.",
+     "Chaque phrase doit changer de personne sans le dire. Correction : Les reprises doivent permettre de suivre la même identité."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-117-etape-3-card",
-     "type": "mcq",
+     "id": "fi2-117-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "expression"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Quelle phrase peut illustrer un portrait cohérent ?",
-         "r": "Elle est serviable : elle aide son voisin.",
-         "w": [
-          "Elle est toujours immobile : elle court sans arrêt.",
-          "Sa veste prouve qu’elle ment."
-         ],
-         "y": "Le trait moral est appuyé par une action pertinente."
-        },
-        {
-         "q": "Quelle phrase respecte l’accord ?",
-         "r": "Une journaliste attentive pose des questions.",
-         "w": [
-          "Une journaliste attentif pose des questions.",
-          "Une journaliste attentives pose des questions."
-         ],
-         "y": "Attentive s’accorde avec journaliste au féminin singulier."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "trait observable : un détail effectivement décrit dans la scène.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le détail ne suffit pas à ce jugement. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "action révélatrice : un comportement soutenant ici un trait du portrait.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le comportement doit soutenir le trait choisi. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "trait de caractère appuyé : une qualité interprétée à partir d’un indice pertinent.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le portrait doit distinguer indice et généralisation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "organisation du portrait : une progression des détails autour du même personnage.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les reprises doivent permettre de suivre la même identité. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "La couleur d’une veste révèle toute la valeur morale.",
+        "truth": "false",
+        "explain": "Le détail ne suffit pas à ce jugement."
+       },
+       {
+        "text": "Une action sans rapport prouve tous les caractères possibles.",
+        "truth": "false",
+        "explain": "Le comportement doit soutenir le trait choisi."
+       },
+       {
+        "text": "Une apparence donne toujours un diagnostic de personnalité.",
+        "truth": "false",
+        "explain": "Le portrait doit distinguer indice et généralisation."
+       },
+       {
+        "text": "Chaque phrase doit changer de personne sans le dire.",
+        "truth": "false",
+        "explain": "Les reprises doivent permettre de suivre la même identité."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -187,33 +187,75 @@
  },
  "questions": [
   {
-   "id": "fi2-117-etape-1",
+   "id": "fi2-117-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "expression"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Quel détail appartient au portrait physique ?",
-       "r": "Elle porte une veste bleue.",
+       "q": "Quel terme désigne un détail effectivement décrit dans la scène ?",
+       "r": "trait observable",
        "w": [
-        "Elle est patiente.",
-        "Elle aide volontiers."
+        "action révélatrice",
+        "trait de caractère appuyé",
+        "organisation du portrait"
        ],
-       "y": "La veste est un détail visible de l’apparence."
+       "e": [
+        "Cela désigne un comportement soutenant ici un trait du portrait, plutôt que la notion demandée.",
+        "Cela désigne une qualité interprétée à partir d’un indice pertinent, plutôt que la notion demandée.",
+        "Cela désigne une progression des détails autour du même personnage, plutôt que la notion demandée."
+       ],
+       "y": "Le détail ne suffit pas à ce jugement."
       },
       {
-       "q": "Quel détail appartient au portrait moral ?",
-       "r": "Il est patient.",
+       "q": "Quel terme désigne un comportement soutenant ici un trait du portrait ?",
+       "r": "action révélatrice",
        "w": [
-        "Il porte un chapeau.",
-        "Ses chaussures sont noires."
+        "trait observable",
+        "trait de caractère appuyé",
+        "organisation du portrait"
        ],
-       "y": "La patience est un trait de caractère."
+       "e": [
+        "Cela désigne un détail effectivement décrit dans la scène, plutôt que la notion demandée.",
+        "Cela désigne une qualité interprétée à partir d’un indice pertinent, plutôt que la notion demandée.",
+        "Cela désigne une progression des détails autour du même personnage, plutôt que la notion demandée."
+       ],
+       "y": "Le comportement doit soutenir le trait choisi."
+      },
+      {
+       "q": "Quel terme désigne une qualité interprétée à partir d’un indice pertinent ?",
+       "r": "trait de caractère appuyé",
+       "w": [
+        "trait observable",
+        "action révélatrice",
+        "organisation du portrait"
+       ],
+       "e": [
+        "Cela désigne un détail effectivement décrit dans la scène, plutôt que la notion demandée.",
+        "Cela désigne un comportement soutenant ici un trait du portrait, plutôt que la notion demandée.",
+        "Cela désigne une progression des détails autour du même personnage, plutôt que la notion demandée."
+       ],
+       "y": "Le portrait doit distinguer indice et généralisation."
+      },
+      {
+       "q": "Quel terme désigne une progression des détails autour du même personnage ?",
+       "r": "organisation du portrait",
+       "w": [
+        "trait observable",
+        "action révélatrice",
+        "trait de caractère appuyé"
+       ],
+       "e": [
+        "Cela désigne un détail effectivement décrit dans la scène, plutôt que la notion demandée.",
+        "Cela désigne un comportement soutenant ici un trait du portrait, plutôt que la notion demandée.",
+        "Cela désigne une qualité interprétée à partir d’un indice pertinent, plutôt que la notion demandée."
+       ],
+       "y": "Les reprises doivent permettre de suivre la même identité."
       }
      ]
     }
@@ -228,160 +270,283 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-117-etape-2",
+   "id": "fi2-117-cas",
    "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "La veste verte appartient aux détails donnés.\nQuelle notion convient ?",
+       "r": "trait observable",
+       "w": [
+        "action révélatrice",
+        "trait de caractère appuyé",
+        "organisation du portrait"
+       ],
+       "e": [
+        "Cela concerne un comportement soutenant ici un trait du portrait. Compare cette définition avec le cas présenté.",
+        "Cela concerne une qualité interprétée à partir d’un indice pertinent. Compare cette définition avec le cas présenté.",
+        "Cela concerne une progression des détails autour du même personnage. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le détail ne suffit pas à ce jugement."
+      },
+      {
+       "q": "Amina laisse finir la question avant de répondre.\nQuelle notion convient ?",
+       "r": "action révélatrice",
+       "w": [
+        "trait observable",
+        "trait de caractère appuyé",
+        "organisation du portrait"
+       ],
+       "e": [
+        "Cela concerne un détail effectivement décrit dans la scène. Compare cette définition avec le cas présenté.",
+        "Cela concerne une qualité interprétée à partir d’un indice pertinent. Compare cette définition avec le cas présenté.",
+        "Cela concerne une progression des détails autour du même personnage. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le comportement doit soutenir le trait choisi."
+      },
+      {
+       "q": "L’attention est liée à la manière de répondre dans la scène.\nQuelle notion convient ?",
+       "r": "trait de caractère appuyé",
+       "w": [
+        "trait observable",
+        "action révélatrice",
+        "organisation du portrait"
+       ],
+       "e": [
+        "Cela concerne un détail effectivement décrit dans la scène. Compare cette définition avec le cas présenté.",
+        "Cela concerne un comportement soutenant ici un trait du portrait. Compare cette définition avec le cas présenté.",
+        "Cela concerne une progression des détails autour du même personnage. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le portrait doit distinguer indice et généralisation."
+      },
+      {
+       "q": "Le modèle garde Amina comme référent.\nQuelle notion convient ?",
+       "r": "organisation du portrait",
+       "w": [
+        "trait observable",
+        "action révélatrice",
+        "trait de caractère appuyé"
+       ],
+       "e": [
+        "Cela concerne un détail effectivement décrit dans la scène. Compare cette définition avec le cas présenté.",
+        "Cela concerne un comportement soutenant ici un trait du portrait. Compare cette définition avec le cas présenté.",
+        "Cela concerne une qualité interprétée à partir d’un indice pertinent. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les reprises doivent permettre de suivre la même identité."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-117-construire",
+   "type": "word_order",
    "level": 2,
    "review": "authored",
    "sources": [
-    "expression"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Nji attend calmement que chacun termine. Quel trait est illustré ?",
-       "r": "La patience.",
-       "w": [
-        "La brutalité.",
-        "La taille physique."
-       ],
-       "y": "Attendre calmement est un indice de patience."
+       "a": "La veste verte appartient aux détails donnés.",
+       "b": "La veste verte appartient aux détails donnés."
       },
       {
-       "q": "Bih aide un élève à retrouver son cahier. Quel trait peut-on proposer ?",
-       "r": "Elle est serviable.",
-       "w": [
-        "Elle est forcément riche.",
-        "Elle est forcément la plus âgée."
-       ],
-       "y": "Le geste d’aide soutient serviable, mais pas la richesse ni l’âge."
+       "a": "Amina laisse finir la question avant de répondre.",
+       "b": "Amina laisse finir la question avant de répondre."
+      },
+      {
+       "a": "L’attention est liée à la manière de répondre dans la scène.",
+       "b": "L’attention est liée à la manière de répondre dans la scène."
+      },
+      {
+       "a": "Le modèle garde Amina comme référent.",
+       "b": "Le modèle garde Amina comme référent."
       }
      ]
     }
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
+   "prompt": "Touche les mots dans le bon ordre.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
    ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-117-etape-3",
-   "type": "mcq",
+   "id": "fi2-117-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "trait observable",
+     "right": "La veste verte appartient aux détails donnés."
+    },
+    {
+     "left": "action révélatrice",
+     "right": "Amina laisse finir la question avant de répondre."
+    },
+    {
+     "left": "trait de caractère appuyé",
+     "right": "L’attention est liée à la manière de répondre dans la scène."
+    },
+    {
+     "left": "organisation du portrait",
+     "right": "Le modèle garde Amina comme référent."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-117-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "expression"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Quelle phrase peut illustrer un portrait cohérent ?",
-       "r": "Elle est serviable : elle aide son voisin.",
-       "w": [
-        "Elle est toujours immobile : elle court sans arrêt.",
-        "Sa veste prouve qu’elle ment."
-       ],
-       "y": "Le trait moral est appuyé par une action pertinente."
-      },
-      {
-       "q": "Quelle phrase respecte l’accord ?",
-       "r": "Une journaliste attentive pose des questions.",
-       "w": [
-        "Une journaliste attentif pose des questions.",
-        "Une journaliste attentives pose des questions."
-       ],
-       "y": "Attentive s’accorde avec journaliste au féminin singulier."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "trait observable : un détail effectivement décrit dans la scène.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le détail ne suffit pas à ce jugement. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "action révélatrice : un comportement soutenant ici un trait du portrait.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le comportement doit soutenir le trait choisi. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "trait de caractère appuyé : une qualité interprétée à partir d’un indice pertinent.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le portrait doit distinguer indice et généralisation. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "organisation du portrait : une progression des détails autour du même personnage.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les reprises doivent permettre de suivre la même identité. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "La couleur d’une veste révèle toute la valeur morale.",
+      "truth": "false",
+      "explain": "Le détail ne suffit pas à ce jugement."
+     },
+     {
+      "text": "Une action sans rapport prouve tous les caractères possibles.",
+      "truth": "false",
+      "explain": "Le comportement doit soutenir le trait choisi."
+     },
+     {
+      "text": "Une apparence donne toujours un diagnostic de personnalité.",
+      "truth": "false",
+      "explain": "Le portrait doit distinguer indice et généralisation."
+     },
+     {
+      "text": "Chaque phrase doit changer de personne sans le dire.",
+      "truth": "false",
+      "explain": "Les reprises doivent permettre de suivre la même identité."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ],
  "paper_task": {
   "status": "draft",
-  "vars": {},
-  "prompt": "Écris le portrait d’un personnage imaginaire qui travaille au journal de l’école. Donne un détail physique, un trait moral et une action qui illustre ce trait.",
+  "prompt": "Écris le portrait d’un personnage inventé de club : détails observables, action significative et trait soutenu par cette action. Garde une identité et un ordre clairs.",
   "model": [
-   "Amina porte une veste bleue et tient un petit carnet. Elle est attentive et patiente. Pendant les entretiens, elle laisse chaque personne finir sa réponse. Ses camarades apprécient sa façon calme de travailler."
+   "Amina est un personnage inventé du club. Elle porte une veste verte et garde un petit cahier près d’elle. Pendant la relecture, elle laisse finir une question puis vérifie la source avant de répondre. Cette action la présente comme attentive dans la scène ; sa veste ne suffit pas à prouver ce caractère. Le portrait ne prétend pas raconter toute son histoire."
   ],
   "checklist": [
-   "J’ai organisé les détails physiques et moraux.",
-   "Une action illustre un trait de caractère.",
-   "J’ai relu les accords des adjectifs."
+   "Mes traits et actions concernent un personnage fictif identifiable.",
+   "Je ne déduis pas toute une personnalité de l’apparence.",
+   "Les adjectifs et reprises restent cohérents."
   ],
+  "vars": {},
   "checks": []
  }
 }

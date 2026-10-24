@@ -12,174 +12,170 @@
  ],
  "note": {
   "status": "draft",
-  "text": "Le sujet indique de qui ou de quoi on parle avec le verbe. Pour le trouver, on peut demander qui est-ce qui ou qu’est-ce qui devant le verbe. Un nom ou un groupe nominal peut être sujet : La journaliste écrit. Le verbe s’accorde avec le nombre du sujet : les journalistes écrivent. Le sujet n’est pas nécessairement le mot le plus proche du verbe : Le frère de mes voisins téléphone. Le nom principal frère est singulier.",
+  "text": "Le sujet commande la personne et le nombre du verbe. Un nom peut être le noyau d’un groupe sujet : le journal du club arrive. Le complément du club précise journal ; il ne devient pas automatiquement le sujet. Avec les journaux du club, le noyau est pluriel. Pour vérifier, remplace le groupe par il, elle, ils ou elles selon le contexte. La position ou la proximité d’un nom ne suffit pas à reconnaître sa fonction.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras retrouver le noyau nominal du sujet et accorder un verbe malgré un complément voisin. Acquis mobilisés : les groupes nominaux et les formes du présent. Pour la suite : les sujets multiples et les reprises possessives."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Le sujet commande la personne et le nombre du verbe. Un nom peut être le noyau d’un groupe sujet : le journal du club arrive. Le complément du club précise journal ; il ne devient pas automatiquement le sujet. Avec les journaux du club, le noyau est pluriel. Pour vérifier, remplace le groupe par il, elle, ils ou elles selon le contexte. La position ou la proximité d’un nom ne suffit pas à reconnaître sa fonction."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Le journal du club {fr2Present(\"arriver\",2)}. Les journaux du club {fr2Present(\"arriver\",6)}. La responsable des fiches {fr2Present(\"entrer\",3)} ; les responsables du journal {fr2Present(\"entrer\",6)}. Le complément voisin ne change pas le nombre du noyau. Ces phrases sont des exemples fictifs, pas un relevé de présence."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Encadre le sujet complet, repère son noyau et distingue ses compléments. Essaie une reprise personnelle puis accorde le verbe. Relis pour vérifier qui ou quoi est présenté comme sujet."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "groupe sujet",
+    "meaning": "le groupe commandant ici l’accord du verbe"
+   },
+   {
+    "word": "noyau nominal",
+    "meaning": "le nom central du groupe sujet"
+   },
+   {
+    "word": "complément du nom",
+    "meaning": "un groupe apportant une précision au nom"
+   },
+   {
+    "word": "accord verbal",
+    "meaning": "le choix de la forme selon le sujet"
+   }
+  ],
+  "mistake": {
+   "wrong": "Tout sujet se réduit forcément au dernier nom de la phrase.",
+   "right": "le groupe commandant ici l’accord du verbe.",
+   "why": "La fonction doit être identifiée, pas devinée par position."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Complète : Les journalistes ___ un article.",
+  "problem": "Complète : les journaux du club ___, avec arriver au présent.",
   "steps": [
-   "Le verbe s’accorde avec le nom principal du sujet.",
-   "Le sujet est pluriel : écrivent."
+   "Les journaux du club est le sujet ; journaux est le noyau pluriel.",
+   "Le complément du club ne remplace pas ce noyau."
   ],
-  "answer": "écrivent",
+  "answer": "Les journaux du club {fr2Present(\"arriver\",6)}.",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c104-1",
+    "id": "fi2-104-c1",
     "status": "draft",
-    "idea": "Cherche qui fait l’action exprimée par le verbe.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "La journaliste écrit : la journaliste est sujet."
+     "groupe sujet : le groupe commandant ici l’accord du verbe.",
+     "noyau nominal : le nom central du groupe sujet.",
+     "complément du nom : un groupe apportant une précision au nom.",
+     "accord verbal : le choix de la forme selon le sujet."
     ],
     "checks": [],
     "check": {
-     "ref": "fi2-104-etape-1"
+     "ref": "fi2-104-notions"
     }
    },
    {
-    "id": "c104-2",
+    "id": "fi2-104-c2",
     "status": "draft",
-    "idea": "Le verbe s’accorde avec le nom principal du sujet.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Les journalistes écrivent."
+     "Le journal du club est le sujet complet du modèle.",
+     "Journal est le noyau de le journal du club.",
+     "Du club précise journal.",
+     "Les journaux arrivent porte le pluriel du sujet."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-104-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "grammaire"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Complète : Les journalistes ___ un article.",
-         "r": "écrivent",
-         "w": [
-          "écrit",
-          "écris"
-         ],
-         "y": "Le sujet est pluriel : écrivent."
-        },
-        {
-         "q": "Complète : La journaliste ___ un article.",
-         "r": "écrit",
-         "w": [
-          "écrivent",
-          "écrivez"
-         ],
-         "y": "Le sujet est singulier : écrit."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fi2-104-cas"
     }
    },
    {
-    "id": "c104-3",
+    "id": "fi2-104-c3",
     "status": "draft",
-    "idea": "Un complément du nom ne change pas le nombre du nom principal.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Le frère des voisins téléphone."
+     "Tout sujet se réduit forcément au dernier nom de la phrase. Correction : La fonction doit être identifiée, pas devinée par position.",
+     "Club commande toujours le nombre de journal. Correction : Le complément précise le noyau sans le remplacer.",
+     "Chaque complément du nom devient le verbe de la phrase. Correction : Ce groupe précise un nom, il n’est pas une forme verbale.",
+     "Un noyau pluriel impose toujours la forme singulière. Correction : Le sujet pluriel commande ici le pluriel."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-104-etape-3-card",
-     "type": "mcq",
+     "id": "fi2-104-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "grammaire"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Complète : Le frère de mes voisins ___ .",
-         "r": "téléphone",
-         "w": [
-          "téléphonent",
-          "téléphonez"
-         ],
-         "y": "Le nom principal frère est singulier ; voisins est son complément."
-        },
-        {
-         "q": "Complète : Les amis de ma sœur ___ .",
-         "r": "téléphonent",
-         "w": [
-          "téléphone",
-          "téléphones"
-         ],
-         "y": "Le nom principal amis est pluriel ; sœur n’est pas le sujet du verbe."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "groupe sujet : le groupe commandant ici l’accord du verbe.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La fonction doit être identifiée, pas devinée par position. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "noyau nominal : le nom central du groupe sujet.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le complément précise le noyau sans le remplacer. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "complément du nom : un groupe apportant une précision au nom.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Ce groupe précise un nom, il n’est pas une forme verbale. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "accord verbal : le choix de la forme selon le sujet.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le sujet pluriel commande ici le pluriel. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Tout sujet se réduit forcément au dernier nom de la phrase.",
+        "truth": "false",
+        "explain": "La fonction doit être identifiée, pas devinée par position."
+       },
+       {
+        "text": "Club commande toujours le nombre de journal.",
+        "truth": "false",
+        "explain": "Le complément précise le noyau sans le remplacer."
+       },
+       {
+        "text": "Chaque complément du nom devient le verbe de la phrase.",
+        "truth": "false",
+        "explain": "Ce groupe précise un nom, il n’est pas une forme verbale."
+       },
+       {
+        "text": "Un noyau pluriel impose toujours la forme singulière.",
+        "truth": "false",
+        "explain": "Le sujet pluriel commande ici le pluriel."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -187,33 +183,75 @@
  },
  "questions": [
   {
-   "id": "fi2-104-etape-1",
+   "id": "fi2-104-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "grammaire"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Dans « Le présentateur annonce les nouvelles », quel groupe est sujet ?",
-       "r": "Le présentateur",
+       "q": "Quel terme désigne le groupe commandant ici l’accord du verbe ?",
+       "r": "groupe sujet",
        "w": [
-        "les nouvelles",
-        "annonce"
+        "noyau nominal",
+        "complément du nom",
+        "accord verbal"
        ],
-       "y": "Le présentateur est celui qui annonce."
+       "e": [
+        "Cela désigne le nom central du groupe sujet, plutôt que la notion demandée.",
+        "Cela désigne un groupe apportant une précision au nom, plutôt que la notion demandée.",
+        "Cela désigne le choix de la forme selon le sujet, plutôt que la notion demandée."
+       ],
+       "y": "La fonction doit être identifiée, pas devinée par position."
       },
       {
-       "q": "Dans « La radio diffuse un débat », quel groupe est sujet ?",
-       "r": "La radio",
+       "q": "Quel terme désigne le nom central du groupe sujet ?",
+       "r": "noyau nominal",
        "w": [
-        "un débat",
-        "diffuse"
+        "groupe sujet",
+        "complément du nom",
+        "accord verbal"
        ],
-       "y": "La radio est le sujet de diffuse."
+       "e": [
+        "Cela désigne le groupe commandant ici l’accord du verbe, plutôt que la notion demandée.",
+        "Cela désigne un groupe apportant une précision au nom, plutôt que la notion demandée.",
+        "Cela désigne le choix de la forme selon le sujet, plutôt que la notion demandée."
+       ],
+       "y": "Le complément précise le noyau sans le remplacer."
+      },
+      {
+       "q": "Quel terme désigne un groupe apportant une précision au nom ?",
+       "r": "complément du nom",
+       "w": [
+        "groupe sujet",
+        "noyau nominal",
+        "accord verbal"
+       ],
+       "e": [
+        "Cela désigne le groupe commandant ici l’accord du verbe, plutôt que la notion demandée.",
+        "Cela désigne le nom central du groupe sujet, plutôt que la notion demandée.",
+        "Cela désigne le choix de la forme selon le sujet, plutôt que la notion demandée."
+       ],
+       "y": "Ce groupe précise un nom, il n’est pas une forme verbale."
+      },
+      {
+       "q": "Quel terme désigne le choix de la forme selon le sujet ?",
+       "r": "accord verbal",
+       "w": [
+        "groupe sujet",
+        "noyau nominal",
+        "complément du nom"
+       ],
+       "e": [
+        "Cela désigne le groupe commandant ici l’accord du verbe, plutôt que la notion demandée.",
+        "Cela désigne le nom central du groupe sujet, plutôt que la notion demandée.",
+        "Cela désigne un groupe apportant une précision au nom, plutôt que la notion demandée."
+       ],
+       "y": "Le sujet pluriel commande ici le pluriel."
       }
      ]
     }
@@ -228,145 +266,305 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-104-etape-2",
+   "id": "fi2-104-cas",
    "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le journal du club est le sujet complet du modèle.\nQuelle notion convient ?",
+       "r": "groupe sujet",
+       "w": [
+        "noyau nominal",
+        "complément du nom",
+        "accord verbal"
+       ],
+       "e": [
+        "Cela concerne le nom central du groupe sujet. Compare cette définition avec le cas présenté.",
+        "Cela concerne un groupe apportant une précision au nom. Compare cette définition avec le cas présenté.",
+        "Cela concerne le choix de la forme selon le sujet. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La fonction doit être identifiée, pas devinée par position."
+      },
+      {
+       "q": "Journal est le noyau de le journal du club.\nQuelle notion convient ?",
+       "r": "noyau nominal",
+       "w": [
+        "groupe sujet",
+        "complément du nom",
+        "accord verbal"
+       ],
+       "e": [
+        "Cela concerne le groupe commandant ici l’accord du verbe. Compare cette définition avec le cas présenté.",
+        "Cela concerne un groupe apportant une précision au nom. Compare cette définition avec le cas présenté.",
+        "Cela concerne le choix de la forme selon le sujet. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le complément précise le noyau sans le remplacer."
+      },
+      {
+       "q": "Du club précise journal.\nQuelle notion convient ?",
+       "r": "complément du nom",
+       "w": [
+        "groupe sujet",
+        "noyau nominal",
+        "accord verbal"
+       ],
+       "e": [
+        "Cela concerne le groupe commandant ici l’accord du verbe. Compare cette définition avec le cas présenté.",
+        "Cela concerne le nom central du groupe sujet. Compare cette définition avec le cas présenté.",
+        "Cela concerne le choix de la forme selon le sujet. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Ce groupe précise un nom, il n’est pas une forme verbale."
+      },
+      {
+       "q": "Les journaux arrivent porte le pluriel du sujet.\nQuelle notion convient ?",
+       "r": "accord verbal",
+       "w": [
+        "groupe sujet",
+        "noyau nominal",
+        "complément du nom"
+       ],
+       "e": [
+        "Cela concerne le groupe commandant ici l’accord du verbe. Compare cette définition avec le cas présenté.",
+        "Cela concerne le nom central du groupe sujet. Compare cette définition avec le cas présenté.",
+        "Cela concerne un groupe apportant une précision au nom. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le sujet pluriel commande ici le pluriel."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-104-accorder",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Le journal du club",
+       "p": 2
+      },
+      {
+       "s": "Les journaux du club",
+       "p": 6
+      },
+      {
+       "s": "La responsable des fiches",
+       "p": 2
+      },
+      {
+       "s": "Les responsables du journal",
+       "p": 6
+      }
+     ]
+    },
+    "v": {
+     "pick": [
+      "arriver",
+      "rester",
+      "tomber",
+      "entrer"
+     ]
+    }
+   },
+   "prompt": "Au présent, complète : « {X.s} ___ ». Verbe : {v}.",
+   "correct": "{fr2Present(v,X.p)}",
+   "distractors": [
+    {
+     "text": "{fr2Present(v,X.p==2 ? 6 : 2)}",
+     "misconception": "nombre"
+    },
+    {
+     "text": "{fr2Present(v,4)}",
+     "misconception": "nous"
+    },
+    {
+     "text": "{fr2Present(v,5)}",
+     "misconception": "vous"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "nombre",
+     "explain": "Le nombre ne correspond pas au noyau du sujet donné."
+    },
+    {
+     "id": "nous",
+     "explain": "Le sujet n’est pas nous."
+    },
+    {
+     "id": "vous",
+     "explain": "Le sujet n’est pas vous."
+    }
+   ],
+   "solution": [
+    "Repère le groupe sujet et son noyau, pas seulement le nom le plus proche.",
+    "La forme du modèle est {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-104-relier",
+   "type": "matching",
    "level": 2,
    "review": "authored",
    "sources": [
-    "grammaire"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Complète : Les journalistes ___ un article.",
-       "r": "écrivent",
-       "w": [
-        "écrit",
-        "écris"
-       ],
-       "y": "Le sujet est pluriel : écrivent."
-      },
-      {
-       "q": "Complète : La journaliste ___ un article.",
-       "r": "écrit",
-       "w": [
-        "écrivent",
-        "écrivez"
-       ],
-       "y": "Le sujet est singulier : écrit."
-      }
-     ]
-    }
-   },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
     {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
+     "left": "groupe sujet",
+     "right": "Le journal du club est le sujet complet du modèle."
     },
     {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
+     "left": "noyau nominal",
+     "right": "Journal est le noyau de le journal du club."
     },
     {
-     "id": "w1",
-     "explain": "{X.y}"
+     "left": "complément du nom",
+     "right": "Du club précise journal."
+    },
+    {
+     "left": "accord verbal",
+     "right": "Les journaux arrivent porte le pluriel du sujet."
     }
    ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-104-etape-3",
-   "type": "mcq",
+   "id": "fi2-104-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "grammaire"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Complète : Le frère de mes voisins ___ .",
-       "r": "téléphone",
-       "w": [
-        "téléphonent",
-        "téléphonez"
-       ],
-       "y": "Le nom principal frère est singulier ; voisins est son complément."
-      },
-      {
-       "q": "Complète : Les amis de ma sœur ___ .",
-       "r": "téléphonent",
-       "w": [
-        "téléphone",
-        "téléphones"
-       ],
-       "y": "Le nom principal amis est pluriel ; sœur n’est pas le sujet du verbe."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "groupe sujet : le groupe commandant ici l’accord du verbe.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La fonction doit être identifiée, pas devinée par position. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "noyau nominal : le nom central du groupe sujet.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le complément précise le noyau sans le remplacer. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "complément du nom : un groupe apportant une précision au nom.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Ce groupe précise un nom, il n’est pas une forme verbale. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "accord verbal : le choix de la forme selon le sujet.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le sujet pluriel commande ici le pluriel. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Tout sujet se réduit forcément au dernier nom de la phrase.",
+      "truth": "false",
+      "explain": "La fonction doit être identifiée, pas devinée par position."
+     },
+     {
+      "text": "Club commande toujours le nombre de journal.",
+      "truth": "false",
+      "explain": "Le complément précise le noyau sans le remplacer."
+     },
+     {
+      "text": "Chaque complément du nom devient le verbe de la phrase.",
+      "truth": "false",
+      "explain": "Ce groupe précise un nom, il n’est pas une forme verbale."
+     },
+     {
+      "text": "Un noyau pluriel impose toujours la forme singulière.",
+      "truth": "false",
+      "explain": "Le sujet pluriel commande ici le pluriel."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ]

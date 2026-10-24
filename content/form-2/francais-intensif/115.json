@@ -3,7 +3,11 @@
  "class": "Form 2",
  "lesson_no": 115,
  "language": "fr",
- "prerequisites": [],
+ "prerequisites": [
+  107,
+  109,
+  114
+ ],
  "skills": [
   {
    "id": "fi2-115",
@@ -12,174 +16,170 @@
  ],
  "note": {
   "status": "draft",
-  "text": "Un réseau social permet d’échanger des contenus et de communiquer avec d’autres utilisateurs. Un profil présente un utilisateur ; une publication est un contenu partagé ; un commentaire répond à un contenu. S’abonner permet de suivre des publications. Un message privé n’est pas une garantie de secret : son destinataire peut le transmettre. Avant de publier, respecte autrui, vérifie l’information et évite les renseignements personnels. Les noms cités dans la progression illustrent des services ; la leçon travaille le vocabulaire, sans demander de créer un compte.",
+  "text": "Un réseau social permet des échanges et la circulation de contenus. Une publication est un contenu mis à disposition d’un public ; un commentaire réagit à un contenu ; un partage le fait circuler. L’audience est l’ensemble des personnes pouvant recevoir ou voir le contenu dans la situation décrite. Un réglage privé limite une audience, mais une copie ou une retransmission peut encore circuler. Les noms Facebook et Twitter du programme sont des exemples de services, sans instructions actuelles d’inscription ou de réglage. Aucun compte personnel n’est demandé.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras expliquer publication partage commentaire et audience sans supposer qu’un compte privé rend toute circulation impossible. Acquis mobilisés : les médias et les sources. Pour la suite : les jeux de rôle et les messages adressés."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Un réseau social permet des échanges et la circulation de contenus. Une publication est un contenu mis à disposition d’un public ; un commentaire réagit à un contenu ; un partage le fait circuler. L’audience est l’ensemble des personnes pouvant recevoir ou voir le contenu dans la situation décrite. Un réglage privé limite une audience, mais une copie ou une retransmission peut encore circuler. Les noms Facebook et Twitter du programme sont des exemples de services, sans instructions actuelles d’inscription ou de réglage. Aucun compte personnel n’est demandé."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Scène fictive : Le club prépare une publication sur son activité, sans photo identifiable d’élève. Bih demande qui pourrait la voir. Ayuk rappelle qu’un partage peut élargir la circulation. Le groupe lit un commentaire pour comprendre s’il apporte une question ou une affirmation à vérifier."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Demande quelle action est décrite et vers quel public. Vérifie l’autorisation avant de diffuser le contenu d’autrui ; ne donne aucun mot de passe pour cet exercice. Une question personnelle sur un usage numérique peut être discutée avec un adulte de confiance."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "publication",
+    "meaning": "un contenu rendu accessible à un public"
+   },
+   {
+    "word": "commentaire",
+    "meaning": "une réaction ajoutée à un contenu"
+   },
+   {
+    "word": "partage",
+    "meaning": "une action faisant circuler un contenu"
+   },
+   {
+    "word": "audience",
+    "meaning": "les personnes pouvant recevoir ou voir le contenu"
+   }
+  ],
+  "mistake": {
+   "wrong": "Publier signifie seulement garder une note totalement hors de tout échange.",
+   "right": "un contenu rendu accessible à un public.",
+   "why": "Le modèle prévoit une mise à disposition."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Un texte écrit en réaction à une publication est…",
+  "problem": "Un texte du club est proposé pour diffusion. Explique le choix.",
   "steps": [
-   "Un commentaire réagit à une publication.",
-   "Le commentaire répond ou réagit au contenu."
+   "un contenu rendu accessible à un public.",
+   "Le modèle prévoit une mise à disposition."
   ],
-  "answer": "un commentaire.",
+  "answer": "publication",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c115-1",
+    "id": "fi2-115-c1",
     "status": "draft",
-    "idea": "Profil et publication ne désignent pas la même chose.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "Le profil présente l’utilisateur ; la publication est un contenu."
+     "publication : un contenu rendu accessible à un public.",
+     "commentaire : une réaction ajoutée à un contenu.",
+     "partage : une action faisant circuler un contenu.",
+     "audience : les personnes pouvant recevoir ou voir le contenu."
     ],
     "checks": [],
     "check": {
-     "ref": "fi2-115-etape-1"
+     "ref": "fi2-115-notions"
     }
    },
    {
-    "id": "c115-2",
+    "id": "fi2-115-c2",
     "status": "draft",
-    "idea": "Un commentaire réagit à une publication.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Je commente un article sans insulter son auteur."
+     "Un texte du club est proposé pour diffusion.",
+     "Un lecteur pose une question sous le texte fictif.",
+     "Un destinataire transmet le contenu à un autre groupe.",
+     "Le club demande qui verra son message."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-115-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "vocabulaire"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Un texte écrit en réaction à une publication est…",
-         "r": "un commentaire.",
-         "w": [
-          "une souris.",
-          "une batterie."
-         ],
-         "y": "Le commentaire répond ou réagit au contenu."
-        },
-        {
-         "q": "S’abonner à un compte permet notamment de…",
-         "r": "suivre ses publications.",
-         "w": [
-          "devenir son propriétaire.",
-          "connaître son mot de passe."
-         ],
-         "y": "Suivre un compte ne donne pas accès à ses secrets ni à sa propriété."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fi2-115-cas"
     }
    },
    {
-    "id": "c115-3",
+    "id": "fi2-115-c3",
     "status": "draft",
-    "idea": "Réfléchis aux destinataires et à la fiabilité avant de partager.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Un destinataire peut retransmettre un message privé."
+     "Publier signifie seulement garder une note totalement hors de tout échange. Correction : Le modèle prévoit une mise à disposition.",
+     "Chaque commentaire constitue automatiquement une preuve. Correction : Une réaction peut elle-même demander vérification.",
+     "Un partage garantit que le contenu ne sera jamais copié. Correction : La circulation peut au contraire s’élargir.",
+     "Un réglage privé empêche toutes les copies possibles. Correction : Une limite d’accès n’empêche pas forcément toute retransmission."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-115-etape-3-card",
-     "type": "mcq",
+     "id": "fi2-115-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "vocabulaire"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Un message privé est-il impossible à retransmettre ?",
-         "r": "Non, son destinataire peut le copier ou le transférer.",
-         "w": [
-          "Oui, toujours.",
-          "Oui, s’il est court."
-         ],
-         "y": "Privé décrit le mode d’envoi, pas une garantie absolue de confidentialité."
-        },
-        {
-         "q": "Avant de partager une nouvelle, il faut…",
-         "r": "vérifier l’information et respecter les personnes.",
-         "w": [
-          "ajouter une accusation sans preuve.",
-          "publier l’adresse d’un camarade."
-         ],
-         "y": "On vérifie les faits et on respecte la vie privée."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "publication : un contenu rendu accessible à un public.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le modèle prévoit une mise à disposition. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "commentaire : une réaction ajoutée à un contenu.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Une réaction peut elle-même demander vérification. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "partage : une action faisant circuler un contenu.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La circulation peut au contraire s’élargir. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "audience : les personnes pouvant recevoir ou voir le contenu.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Une limite d’accès n’empêche pas forcément toute retransmission. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Publier signifie seulement garder une note totalement hors de tout échange.",
+        "truth": "false",
+        "explain": "Le modèle prévoit une mise à disposition."
+       },
+       {
+        "text": "Chaque commentaire constitue automatiquement une preuve.",
+        "truth": "false",
+        "explain": "Une réaction peut elle-même demander vérification."
+       },
+       {
+        "text": "Un partage garantit que le contenu ne sera jamais copié.",
+        "truth": "false",
+        "explain": "La circulation peut au contraire s’élargir."
+       },
+       {
+        "text": "Un réglage privé empêche toutes les copies possibles.",
+        "truth": "false",
+        "explain": "Une limite d’accès n’empêche pas forcément toute retransmission."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -187,33 +187,75 @@
  },
  "questions": [
   {
-   "id": "fi2-115-etape-1",
+   "id": "fi2-115-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "vocabulaire"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Comment appelle-t-on la présentation d’un utilisateur ?",
-       "r": "Un profil.",
+       "q": "Quel terme désigne un contenu rendu accessible à un public ?",
+       "r": "publication",
        "w": [
-        "Une imprimante.",
-        "Un câble."
+        "commentaire",
+        "partage",
+        "audience"
        ],
-       "y": "Le profil regroupe les informations présentées sur l’utilisateur."
+       "e": [
+        "Cela désigne une réaction ajoutée à un contenu, plutôt que la notion demandée.",
+        "Cela désigne une action faisant circuler un contenu, plutôt que la notion demandée.",
+        "Cela désigne les personnes pouvant recevoir ou voir le contenu, plutôt que la notion demandée."
+       ],
+       "y": "Le modèle prévoit une mise à disposition."
       },
       {
-       "q": "Un contenu partagé sur le réseau est…",
-       "r": "une publication.",
+       "q": "Quel terme désigne une réaction ajoutée à un contenu ?",
+       "r": "commentaire",
        "w": [
-        "un clavier.",
-        "un chargeur."
+        "publication",
+        "partage",
+        "audience"
        ],
-       "y": "Une publication peut contenir du texte, du son ou une image."
+       "e": [
+        "Cela désigne un contenu rendu accessible à un public, plutôt que la notion demandée.",
+        "Cela désigne une action faisant circuler un contenu, plutôt que la notion demandée.",
+        "Cela désigne les personnes pouvant recevoir ou voir le contenu, plutôt que la notion demandée."
+       ],
+       "y": "Une réaction peut elle-même demander vérification."
+      },
+      {
+       "q": "Quel terme désigne une action faisant circuler un contenu ?",
+       "r": "partage",
+       "w": [
+        "publication",
+        "commentaire",
+        "audience"
+       ],
+       "e": [
+        "Cela désigne un contenu rendu accessible à un public, plutôt que la notion demandée.",
+        "Cela désigne une réaction ajoutée à un contenu, plutôt que la notion demandée.",
+        "Cela désigne les personnes pouvant recevoir ou voir le contenu, plutôt que la notion demandée."
+       ],
+       "y": "La circulation peut au contraire s’élargir."
+      },
+      {
+       "q": "Quel terme désigne les personnes pouvant recevoir ou voir le contenu ?",
+       "r": "audience",
+       "w": [
+        "publication",
+        "commentaire",
+        "partage"
+       ],
+       "e": [
+        "Cela désigne un contenu rendu accessible à un public, plutôt que la notion demandée.",
+        "Cela désigne une réaction ajoutée à un contenu, plutôt que la notion demandée.",
+        "Cela désigne une action faisant circuler un contenu, plutôt que la notion demandée."
+       ],
+       "y": "Une limite d’accès n’empêche pas forcément toute retransmission."
       }
      ]
     }
@@ -228,53 +270,212 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-115-etape-2",
+   "id": "fi2-115-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Un texte du club est proposé pour diffusion.\nQuelle notion convient ?",
+       "r": "publication",
+       "w": [
+        "commentaire",
+        "partage",
+        "audience"
+       ],
+       "e": [
+        "Cela concerne une réaction ajoutée à un contenu. Compare cette définition avec le cas présenté.",
+        "Cela concerne une action faisant circuler un contenu. Compare cette définition avec le cas présenté.",
+        "Cela concerne les personnes pouvant recevoir ou voir le contenu. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le modèle prévoit une mise à disposition."
+      },
+      {
+       "q": "Un lecteur pose une question sous le texte fictif.\nQuelle notion convient ?",
+       "r": "commentaire",
+       "w": [
+        "publication",
+        "partage",
+        "audience"
+       ],
+       "e": [
+        "Cela concerne un contenu rendu accessible à un public. Compare cette définition avec le cas présenté.",
+        "Cela concerne une action faisant circuler un contenu. Compare cette définition avec le cas présenté.",
+        "Cela concerne les personnes pouvant recevoir ou voir le contenu. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Une réaction peut elle-même demander vérification."
+      },
+      {
+       "q": "Un destinataire transmet le contenu à un autre groupe.\nQuelle notion convient ?",
+       "r": "partage",
+       "w": [
+        "publication",
+        "commentaire",
+        "audience"
+       ],
+       "e": [
+        "Cela concerne un contenu rendu accessible à un public. Compare cette définition avec le cas présenté.",
+        "Cela concerne une réaction ajoutée à un contenu. Compare cette définition avec le cas présenté.",
+        "Cela concerne les personnes pouvant recevoir ou voir le contenu. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La circulation peut au contraire s’élargir."
+      },
+      {
+       "q": "Le club demande qui verra son message.\nQuelle notion convient ?",
+       "r": "audience",
+       "w": [
+        "publication",
+        "commentaire",
+        "partage"
+       ],
+       "e": [
+        "Cela concerne un contenu rendu accessible à un public. Compare cette définition avec le cas présenté.",
+        "Cela concerne une réaction ajoutée à un contenu. Compare cette définition avec le cas présenté.",
+        "Cela concerne une action faisant circuler un contenu. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Une limite d’accès n’empêche pas forcément toute retransmission."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-115-contexte",
    "type": "mcq",
    "level": 2,
    "review": "authored",
    "sources": [
-    "vocabulaire"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Un texte écrit en réaction à une publication est…",
-       "r": "un commentaire.",
+       "q": "Le club met un texte à disposition d’un public : quelle action est nommée ?",
+       "r": "publication",
        "w": [
-        "une souris.",
-        "une batterie."
+        "commentaire",
+        "partage",
+        "audience"
        ],
-       "y": "Le commentaire répond ou réagit au contenu."
+       "e": [
+        "Ce terme désigne une réaction ajoutée à un contenu ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne une action faisant circuler un contenu ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne les personnes pouvant recevoir ou voir le contenu ; ce n’est pas l’action ou le rôle décrit."
+       ],
+       "y": "Le modèle prévoit une mise à disposition."
       },
       {
-       "q": "S’abonner à un compte permet notamment de…",
-       "r": "suivre ses publications.",
+       "q": "Un lecteur ajoute une question sous ce texte : quel élément écrit apparaît ?",
+       "r": "commentaire",
        "w": [
-        "devenir son propriétaire.",
-        "connaître son mot de passe."
+        "publication",
+        "partage",
+        "audience"
        ],
-       "y": "Suivre un compte ne donne pas accès à ses secrets ni à sa propriété."
+       "e": [
+        "Ce terme désigne un contenu rendu accessible à un public ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne une action faisant circuler un contenu ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne les personnes pouvant recevoir ou voir le contenu ; ce n’est pas l’action ou le rôle décrit."
+       ],
+       "y": "Une réaction peut elle-même demander vérification."
+      },
+      {
+       "q": "Le scénario précise qu’un destinataire transmet le contenu : quel terme convient ?",
+       "r": "partage",
+       "w": [
+        "publication",
+        "commentaire",
+        "audience"
+       ],
+       "e": [
+        "Ce terme désigne un contenu rendu accessible à un public ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne une réaction ajoutée à un contenu ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne les personnes pouvant recevoir ou voir le contenu ; ce n’est pas l’action ou le rôle décrit."
+       ],
+       "y": "La circulation peut au contraire s’élargir."
+      },
+      {
+       "q": "Le scénario demande qui peut voir le message : quelle notion examine-t-on ?",
+       "r": "audience",
+       "w": [
+        "publication",
+        "commentaire",
+        "partage"
+       ],
+       "e": [
+        "Ce terme désigne un contenu rendu accessible à un public ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne une réaction ajoutée à un contenu ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne une action faisant circuler un contenu ; ce n’est pas l’action ou le rôle décrit."
+       ],
+       "y": "Une limite d’accès n’empêche pas forcément toute retransmission."
       }
      ]
     }
@@ -289,84 +490,121 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-115-etape-3",
-   "type": "mcq",
+   "id": "fi2-115-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "publication",
+     "right": "Un texte du club est proposé pour diffusion."
+    },
+    {
+     "left": "commentaire",
+     "right": "Un lecteur pose une question sous le texte fictif."
+    },
+    {
+     "left": "partage",
+     "right": "Un destinataire transmet le contenu à un autre groupe."
+    },
+    {
+     "left": "audience",
+     "right": "Le club demande qui verra son message."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-115-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "vocabulaire"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Un message privé est-il impossible à retransmettre ?",
-       "r": "Non, son destinataire peut le copier ou le transférer.",
-       "w": [
-        "Oui, toujours.",
-        "Oui, s’il est court."
-       ],
-       "y": "Privé décrit le mode d’envoi, pas une garantie absolue de confidentialité."
-      },
-      {
-       "q": "Avant de partager une nouvelle, il faut…",
-       "r": "vérifier l’information et respecter les personnes.",
-       "w": [
-        "ajouter une accusation sans preuve.",
-        "publier l’adresse d’un camarade."
-       ],
-       "y": "On vérifie les faits et on respecte la vie privée."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "publication : un contenu rendu accessible à un public.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le modèle prévoit une mise à disposition. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "commentaire : une réaction ajoutée à un contenu.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Une réaction peut elle-même demander vérification. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "partage : une action faisant circuler un contenu.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La circulation peut au contraire s’élargir. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "audience : les personnes pouvant recevoir ou voir le contenu.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Une limite d’accès n’empêche pas forcément toute retransmission. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Publier signifie seulement garder une note totalement hors de tout échange.",
+      "truth": "false",
+      "explain": "Le modèle prévoit une mise à disposition."
+     },
+     {
+      "text": "Chaque commentaire constitue automatiquement une preuve.",
+      "truth": "false",
+      "explain": "Une réaction peut elle-même demander vérification."
+     },
+     {
+      "text": "Un partage garantit que le contenu ne sera jamais copié.",
+      "truth": "false",
+      "explain": "La circulation peut au contraire s’élargir."
+     },
+     {
+      "text": "Un réglage privé empêche toutes les copies possibles.",
+      "truth": "false",
+      "explain": "Une limite d’accès n’empêche pas forcément toute retransmission."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ]

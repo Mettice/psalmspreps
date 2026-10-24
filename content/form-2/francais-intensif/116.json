@@ -3,7 +3,10 @@
  "class": "Form 2",
  "lesson_no": 116,
  "language": "fr",
- "prerequisites": [],
+ "prerequisites": [
+  108,
+  115
+ ],
  "skills": [
   {
    "id": "fi2-116",
@@ -12,174 +15,170 @@
  ],
  "note": {
   "status": "draft",
-  "text": "Un jeu de rôle fait jouer une situation de communication : demander une information, transmettre un message ou résoudre un malentendu. Définis les personnages, leur relation et leur but. Prépare quelques répliques, écoute la réponse et adapte la suite. Un échange n’est pas une suite de monologues. Cette leçon prépare le dialogue par écrit ; l’application ne peut pas entendre ni noter ta prestation orale. Répète avec un partenaire ou un adulte si possible.",
+  "text": "Un jeu de rôle place des personnages fictifs dans une situation de communication. Chaque rôle a un objectif : demander, expliquer, clarifier ou répondre. Une réplique doit tenir compte de ce qui vient d’être dit ; une formule polie sans rapport ne suffit pas. Des indications de jeu peuvent guider une action sans être prononcées. La préparation écrite n’enregistre aucune voix et ne mesure pas l’écoute réelle. On peut ensuite jouer la scène avec un partenaire.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras choisir une réplique qui respecte un rôle un destinataire et un objectif de communication. Acquis mobilisés : la récitation et les médias. Pour la suite : le portrait, la correspondance et les messages téléphoniques."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Un jeu de rôle place des personnages fictifs dans une situation de communication. Chaque rôle a un objectif : demander, expliquer, clarifier ou répondre. Une réplique doit tenir compte de ce qui vient d’être dit ; une formule polie sans rapport ne suffit pas. Des indications de jeu peuvent guider une action sans être prononcées. La préparation écrite n’enregistre aucune voix et ne mesure pas l’écoute réelle. On peut ensuite jouer la scène avec un partenaire."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Dialogue original : Bih joue la rédactrice du journal du club ; Ayuk joue un membre qui veut faire préciser une annonce. Ayuk : « Quel public recevra le bulletin ? » Bih : « Les membres du club ; le document reste un projet. » Ayuk demande ensuite si la salle est confirmée. Bih répond qu’elle vérifiera avec l’enseignante. Les personnages n’inventent pas une réservation."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Note qui parle, à qui et dans quel but. Choisis une réponse liée à la question exacte puis vérifie ce qui est encore incertain. Pratique réellement si possible en échangeant les rôles, sans demander de confidence privée."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "rôle fictif",
+    "meaning": "une identité de personnage adoptée pour la scène"
+   },
+   {
+    "word": "intention",
+    "meaning": "le but d’une réplique dans l’échange"
+   },
+   {
+    "word": "réponse pertinente",
+    "meaning": "une réplique traitant la question posée"
+   },
+   {
+    "word": "incertitude annoncée",
+    "meaning": "une information présentée comme encore à vérifier"
+   }
+  ],
+  "mistake": {
+   "wrong": "Le rôle prouve la profession réelle de l’élève.",
+   "right": "une identité de personnage adoptée pour la scène.",
+   "why": "Le personnage ne décrit pas nécessairement la personne réelle."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Ton interlocuteur parle trop vite. Que peux-tu dire ?",
+  "problem": "Bih joue une rédactrice du club. Explique le choix.",
   "steps": [
-   "La réplique suivante tient compte de la réponse.",
-   "Une demande polie de répétition aide à comprendre."
+   "une identité de personnage adoptée pour la scène.",
+   "Le personnage ne décrit pas nécessairement la personne réelle."
   ],
-  "answer": "Pourriez-vous répéter plus lentement ?",
+  "answer": "rôle fictif",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c116-1",
+    "id": "fi2-116-c1",
     "status": "draft",
-    "idea": "Chaque rôle a un interlocuteur et un but.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "Un élève demande les horaires d’une bibliothèque."
+     "rôle fictif : une identité de personnage adoptée pour la scène.",
+     "intention : le but d’une réplique dans l’échange.",
+     "réponse pertinente : une réplique traitant la question posée.",
+     "incertitude annoncée : une information présentée comme encore à vérifier."
     ],
     "checks": [],
     "check": {
-     "ref": "fi2-116-etape-1"
+     "ref": "fi2-116-notions"
     }
    },
    {
-    "id": "c116-2",
+    "id": "fi2-116-c2",
     "status": "draft",
-    "idea": "La réplique suivante tient compte de la réponse.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Si l’horaire n’est pas compris, je demande une précision."
+     "Bih joue une rédactrice du club.",
+     "Ayuk demande de préciser le public.",
+     "Bih indique les membres du club comme public.",
+     "Bih dit qu’elle vérifiera la salle."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-116-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "expression"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Ton interlocuteur parle trop vite. Que peux-tu dire ?",
-         "r": "Pourriez-vous répéter plus lentement ?",
-         "w": [
-          "Je réponds à une autre question.",
-          "Je prétends avoir tout compris."
-         ],
-         "y": "Une demande polie de répétition aide à comprendre."
-        },
-        {
-         "q": "La bibliothèque ouvre l’après-midi. Quelle réponse poursuit l’échange ?",
-         "r": "Merci. À quelle heure ouvre-t-elle ?",
-         "w": [
-          "La pluie tombe loin d’ici.",
-          "Je refuse d’écouter votre réponse."
-         ],
-         "y": "La question précise l’information annoncée."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fi2-116-cas"
     }
    },
    {
-    "id": "c116-3",
+    "id": "fi2-116-c3",
     "status": "draft",
-    "idea": "Écouter et reformuler évitent les malentendus.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Si j’ai bien compris, elle ouvre l’après-midi."
+     "Le rôle prouve la profession réelle de l’élève. Correction : Le personnage ne décrit pas nécessairement la personne réelle.",
+     "Une intention est seulement la couleur du papier. Correction : Elle concerne ici le but de communication.",
+     "Une réponse peut ignorer totalement la question et rester pertinente par définition. Correction : La pertinence dépend du lien avec la demande.",
+     "Tout projet vaut confirmation définitive. Correction : Le statut de l’information doit rester clair."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-116-etape-3-card",
-     "type": "mcq",
+     "id": "fi2-116-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "expression"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Quelle phrase vérifie la compréhension ?",
-         "r": "Si j’ai bien compris, je peux venir demain après-midi.",
-         "w": [
-          "Je n’écoute jamais les réponses.",
-          "Je change les horaires à ma guise."
-         ],
-         "y": "La reformulation permet de confirmer l’information."
-        },
-        {
-         "q": "Que peut évaluer un partenaire pendant le jeu ?",
-         "r": "La clarté, l’écoute et la politesse.",
-         "w": [
-          "Seulement la couleur du cahier.",
-          "La réussite d’un compte Internet."
-         ],
-         "y": "Ces critères concernent une communication réelle."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "rôle fictif : une identité de personnage adoptée pour la scène.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le personnage ne décrit pas nécessairement la personne réelle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "intention : le but d’une réplique dans l’échange.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Elle concerne ici le but de communication. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "réponse pertinente : une réplique traitant la question posée.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La pertinence dépend du lien avec la demande. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "incertitude annoncée : une information présentée comme encore à vérifier.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le statut de l’information doit rester clair. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Le rôle prouve la profession réelle de l’élève.",
+        "truth": "false",
+        "explain": "Le personnage ne décrit pas nécessairement la personne réelle."
+       },
+       {
+        "text": "Une intention est seulement la couleur du papier.",
+        "truth": "false",
+        "explain": "Elle concerne ici le but de communication."
+       },
+       {
+        "text": "Une réponse peut ignorer totalement la question et rester pertinente par définition.",
+        "truth": "false",
+        "explain": "La pertinence dépend du lien avec la demande."
+       },
+       {
+        "text": "Tout projet vaut confirmation définitive.",
+        "truth": "false",
+        "explain": "Le statut de l’information doit rester clair."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -187,33 +186,75 @@
  },
  "questions": [
   {
-   "id": "fi2-116-etape-1",
+   "id": "fi2-116-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "expression"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Un élève demande les horaires. Quel est son but ?",
-       "r": "Obtenir une information.",
+       "q": "Quel terme désigne une identité de personnage adoptée pour la scène ?",
+       "r": "rôle fictif",
        "w": [
-        "Commander un repas sans rapport.",
-        "Réciter une liste de couleurs."
+        "intention",
+        "réponse pertinente",
+        "incertitude annoncée"
        ],
-       "y": "Le but est d’obtenir l’horaire demandé."
+       "e": [
+        "Cela désigne le but d’une réplique dans l’échange, plutôt que la notion demandée.",
+        "Cela désigne une réplique traitant la question posée, plutôt que la notion demandée.",
+        "Cela désigne une information présentée comme encore à vérifier, plutôt que la notion demandée."
+       ],
+       "y": "Le personnage ne décrit pas nécessairement la personne réelle."
       },
       {
-       "q": "Qui peut jouer l’autre rôle dans cette scène ?",
-       "r": "La personne qui accueille à la bibliothèque.",
+       "q": "Quel terme désigne le but d’une réplique dans l’échange ?",
+       "r": "intention",
        "w": [
-        "Un objet qui ne répond pas.",
-        "Une publicité sans rapport."
+        "rôle fictif",
+        "réponse pertinente",
+        "incertitude annoncée"
        ],
-       "y": "Le second rôle doit pouvoir répondre à la demande."
+       "e": [
+        "Cela désigne une identité de personnage adoptée pour la scène, plutôt que la notion demandée.",
+        "Cela désigne une réplique traitant la question posée, plutôt que la notion demandée.",
+        "Cela désigne une information présentée comme encore à vérifier, plutôt que la notion demandée."
+       ],
+       "y": "Elle concerne ici le but de communication."
+      },
+      {
+       "q": "Quel terme désigne une réplique traitant la question posée ?",
+       "r": "réponse pertinente",
+       "w": [
+        "rôle fictif",
+        "intention",
+        "incertitude annoncée"
+       ],
+       "e": [
+        "Cela désigne une identité de personnage adoptée pour la scène, plutôt que la notion demandée.",
+        "Cela désigne le but d’une réplique dans l’échange, plutôt que la notion demandée.",
+        "Cela désigne une information présentée comme encore à vérifier, plutôt que la notion demandée."
+       ],
+       "y": "La pertinence dépend du lien avec la demande."
+      },
+      {
+       "q": "Quel terme désigne une information présentée comme encore à vérifier ?",
+       "r": "incertitude annoncée",
+       "w": [
+        "rôle fictif",
+        "intention",
+        "réponse pertinente"
+       ],
+       "e": [
+        "Cela désigne une identité de personnage adoptée pour la scène, plutôt que la notion demandée.",
+        "Cela désigne le but d’une réplique dans l’échange, plutôt que la notion demandée.",
+        "Cela désigne une réplique traitant la question posée, plutôt que la notion demandée."
+       ],
+       "y": "Le statut de l’information doit rester clair."
       }
      ]
     }
@@ -228,53 +269,212 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-116-etape-2",
+   "id": "fi2-116-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih joue une rédactrice du club.\nQuelle notion convient ?",
+       "r": "rôle fictif",
+       "w": [
+        "intention",
+        "réponse pertinente",
+        "incertitude annoncée"
+       ],
+       "e": [
+        "Cela concerne le but d’une réplique dans l’échange. Compare cette définition avec le cas présenté.",
+        "Cela concerne une réplique traitant la question posée. Compare cette définition avec le cas présenté.",
+        "Cela concerne une information présentée comme encore à vérifier. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le personnage ne décrit pas nécessairement la personne réelle."
+      },
+      {
+       "q": "Ayuk demande de préciser le public.\nQuelle notion convient ?",
+       "r": "intention",
+       "w": [
+        "rôle fictif",
+        "réponse pertinente",
+        "incertitude annoncée"
+       ],
+       "e": [
+        "Cela concerne une identité de personnage adoptée pour la scène. Compare cette définition avec le cas présenté.",
+        "Cela concerne une réplique traitant la question posée. Compare cette définition avec le cas présenté.",
+        "Cela concerne une information présentée comme encore à vérifier. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Elle concerne ici le but de communication."
+      },
+      {
+       "q": "Bih indique les membres du club comme public.\nQuelle notion convient ?",
+       "r": "réponse pertinente",
+       "w": [
+        "rôle fictif",
+        "intention",
+        "incertitude annoncée"
+       ],
+       "e": [
+        "Cela concerne une identité de personnage adoptée pour la scène. Compare cette définition avec le cas présenté.",
+        "Cela concerne le but d’une réplique dans l’échange. Compare cette définition avec le cas présenté.",
+        "Cela concerne une information présentée comme encore à vérifier. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La pertinence dépend du lien avec la demande."
+      },
+      {
+       "q": "Bih dit qu’elle vérifiera la salle.\nQuelle notion convient ?",
+       "r": "incertitude annoncée",
+       "w": [
+        "rôle fictif",
+        "intention",
+        "réponse pertinente"
+       ],
+       "e": [
+        "Cela concerne une identité de personnage adoptée pour la scène. Compare cette définition avec le cas présenté.",
+        "Cela concerne le but d’une réplique dans l’échange. Compare cette définition avec le cas présenté.",
+        "Cela concerne une réplique traitant la question posée. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le statut de l’information doit rester clair."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-116-appliquer",
    "type": "mcq",
    "level": 2,
    "review": "authored",
    "sources": [
-    "expression"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Ton interlocuteur parle trop vite. Que peux-tu dire ?",
-       "r": "Pourriez-vous répéter plus lentement ?",
+       "q": "On te demande quel public recevra le bulletin. Quelle réponse est pertinente ?",
+       "r": "Les membres du club sont les destinataires prévus.",
        "w": [
-        "Je réponds à une autre question.",
-        "Je prétends avoir tout compris."
+        "Le crayon est bleu, sans autre lien.",
+        "La salle est forcément réservée.",
+        "Tout le monde a déjà lu le résultat."
        ],
-       "y": "Une demande polie de répétition aide à comprendre."
+       "e": [
+        "Cette couleur ne répond pas sur le public.",
+        "La réservation n’est pas confirmée.",
+        "Ce résultat n’est pas donné."
+       ],
+       "y": "Réponds à la question précise."
       },
       {
-       "q": "La bibliothèque ouvre l’après-midi. Quelle réponse poursuit l’échange ?",
-       "r": "Merci. À quelle heure ouvre-t-elle ?",
+       "q": "La salle n’est pas confirmée. Quelle réplique reste fidèle ?",
+       "r": "Je vais vérifier sa disponibilité avec l’enseignante.",
        "w": [
-        "La pluie tombe loin d’ici.",
-        "Je refuse d’écouter votre réponse."
+        "La réservation est déjà garantie.",
+        "Aucune question n’est permise.",
+        "Tous les lecteurs sont absents pour toujours."
        ],
-       "y": "La question précise l’information annoncée."
+       "e": [
+        "Cela transforme une incertitude en fait.",
+        "La clarification fait partie du jeu.",
+        "Cette généralisation est absente."
+       ],
+       "y": "Annonce la vérification nécessaire."
+      },
+      {
+       "q": "Bih joue une rédactrice. Que peut-on conclure ?",
+       "r": "Elle adopte ce rôle fictif dans la scène.",
+       "w": [
+        "On connaît sa profession réelle.",
+        "Elle doit publier ses coordonnées.",
+        "La scène est un enregistrement réel."
+       ],
+       "e": [
+        "Le rôle n’établit pas la profession.",
+        "Aucune donnée privée n’est demandée.",
+        "Le dialogue est un support écrit."
+       ],
+       "y": "Distingue rôle et identité."
+      },
+      {
+       "q": "Comment poursuivre pour pratiquer l’oral ?",
+       "r": "Jouer l’échange réellement avec un partenaire si possible.",
+       "w": [
+        "Prétendre que l’écran a mesuré la voix.",
+        "Supprimer le destinataire de toute réplique.",
+        "Remplacer chaque question par une insulte."
+       ],
+       "e": [
+        "Aucune voix n’est captée.",
+        "Le destinataire guide la formulation.",
+        "L’attaque ne traite pas le but de l’échange."
+       ],
+       "y": "Le travail écrit prépare une pratique distincte."
       }
      ]
     }
@@ -289,84 +489,121 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-116-etape-3",
-   "type": "mcq",
+   "id": "fi2-116-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "rôle fictif",
+     "right": "Bih joue une rédactrice du club."
+    },
+    {
+     "left": "intention",
+     "right": "Ayuk demande de préciser le public."
+    },
+    {
+     "left": "réponse pertinente",
+     "right": "Bih indique les membres du club comme public."
+    },
+    {
+     "left": "incertitude annoncée",
+     "right": "Bih dit qu’elle vérifiera la salle."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-116-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "expression"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Quelle phrase vérifie la compréhension ?",
-       "r": "Si j’ai bien compris, je peux venir demain après-midi.",
-       "w": [
-        "Je n’écoute jamais les réponses.",
-        "Je change les horaires à ma guise."
-       ],
-       "y": "La reformulation permet de confirmer l’information."
-      },
-      {
-       "q": "Que peut évaluer un partenaire pendant le jeu ?",
-       "r": "La clarté, l’écoute et la politesse.",
-       "w": [
-        "Seulement la couleur du cahier.",
-        "La réussite d’un compte Internet."
-       ],
-       "y": "Ces critères concernent une communication réelle."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "rôle fictif : une identité de personnage adoptée pour la scène.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le personnage ne décrit pas nécessairement la personne réelle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "intention : le but d’une réplique dans l’échange.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Elle concerne ici le but de communication. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "réponse pertinente : une réplique traitant la question posée.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La pertinence dépend du lien avec la demande. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "incertitude annoncée : une information présentée comme encore à vérifier.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le statut de l’information doit rester clair. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le rôle prouve la profession réelle de l’élève.",
+      "truth": "false",
+      "explain": "Le personnage ne décrit pas nécessairement la personne réelle."
+     },
+     {
+      "text": "Une intention est seulement la couleur du papier.",
+      "truth": "false",
+      "explain": "Elle concerne ici le but de communication."
+     },
+     {
+      "text": "Une réponse peut ignorer totalement la question et rester pertinente par définition.",
+      "truth": "false",
+      "explain": "La pertinence dépend du lien avec la demande."
+     },
+     {
+      "text": "Tout projet vaut confirmation définitive.",
+      "truth": "false",
+      "explain": "Le statut de l’information doit rester clair."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ]

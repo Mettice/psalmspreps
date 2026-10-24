@@ -3,183 +3,182 @@
  "class": "Form 2",
  "lesson_no": 111,
  "language": "fr",
- "prerequisites": [],
+ "prerequisites": [
+  109,
+  110
+ ],
  "skills": [
   {
    "id": "fi2-111",
-   "name": "Lire un court récit littéraire"
+   "name": "Lire un court récit littéraire original"
   }
  ],
  "note": {
   "status": "draft",
-  "text": "Récit original — Le message envolé\nNji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service.\nUn récit fait agir des personnages. Repère la situation de départ, l’événement qui la modifie et le dénouement. Une interprétation doit rester liée aux mots du texte. Ce texte original n’est pas un extrait d’une œuvre prescrite.",
+  "text": "Lis d’abord le passage entier, puis relève personnages, actions et repères. Distingue ce qui est directement écrit de ce qui peut être déduit d’un indice. Une scène fictive peut suggérer une idée sans prouver une règle sur toute une population. Dans un récit, le narrateur ne révèle pas forcément toutes les pensées. Pour répondre, appuie le choix sur les mots du texte et respecte ses limites.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras relier une image de récit aux actions sans inventer les pensées absentes. Acquis mobilisés : les faits d’un passage et la description. Pour la suite : les sujets multiples et la narration."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Lis d’abord le passage entier, puis relève personnages, actions et repères. Distingue ce qui est directement écrit de ce qui peut être déduit d’un indice. Une scène fictive peut suggérer une idée sans prouver une règle sur toute une population. Dans un récit, le narrateur ne révèle pas forcément toutes les pensées. Pour répondre, appuie le choix sur les mots du texte et respecte ses limites."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Récit original : Le cahier dormait au bord de la table. Bih le prit et relut le titre du bulletin. Dans la cour du club imaginaire, Ayuk attendait une réponse. Bih barra une phrase trop certaine et écrivit une question à sa place. Quand elle montra la page, Ayuk sourit. Le récit ne dit pas ce qu’il pensait exactement. Le cahier qui dort est une image littéraire : il ne s’agit pas d’un objet réellement endormi."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Relis la phrase utile, formule une réponse puis vérifie son appui. Distingue l’ordre des faits, les motifs donnés et ce qui reste inconnu. Ne transforme pas un projet ou une image littéraire en résultat mesuré."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "information explicite",
+    "meaning": "un fait directement donné par les mots"
+   },
+   {
+    "word": "point de vue du récit",
+    "meaning": "la manière dont le narrateur donne accès à la scène"
+   },
+   {
+    "word": "chronologie",
+    "meaning": "l’ordre des faits racontés"
+   },
+   {
+    "word": "limite du texte",
+    "meaning": "ce que ce passage ne permet pas d’affirmer"
+   }
+  ],
+  "mistake": {
+   "wrong": "Tout détail imaginé est explicitement présent.",
+   "right": "un fait directement donné par les mots.",
+   "why": "Il faut retrouver le détail dans le passage."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Récit original — Le message envolé\nNji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel événement modifie la situation ?",
+  "problem": "Une action écrite peut être relevée sans ajout. Explique le choix.",
   "steps": [
-   "Repère l’événement qui crée le problème.",
-   "La rafale déclenche le problème à résoudre."
+   "un fait directement donné par les mots.",
+   "Il faut retrouver le détail dans le passage."
   ],
-  "answer": "Une rafale fait tomber la lettre.",
+  "answer": "information explicite",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c111-1",
+    "id": "fi2-111-c1",
     "status": "draft",
-    "idea": "Identifie la situation de départ.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "Nji tient une lettre pour sa grand-mère."
+     "information explicite : un fait directement donné par les mots.",
+     "point de vue du récit : la manière dont le narrateur donne accès à la scène.",
+     "chronologie : l’ordre des faits racontés.",
+     "limite du texte : ce que ce passage ne permet pas d’affirmer."
     ],
     "checks": [],
     "check": {
-     "ref": "fi2-111-etape-1"
+     "ref": "fi2-111-notions"
     }
    },
    {
-    "id": "c111-2",
+    "id": "fi2-111-c2",
     "status": "draft",
-    "idea": "Repère l’événement qui crée le problème.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Une rafale fait tomber la lettre."
+     "Une action écrite peut être relevée sans ajout.",
+     "Le récit peut montrer les actions sans révéler toutes les pensées.",
+     "Une préparation peut précéder une présentation.",
+     "Sans résultat donné, on ne peut inventer un succès mesuré."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-111-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "litterature"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Récit original — Le message envolé\nNji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel événement modifie la situation ?",
-         "r": "Une rafale fait tomber la lettre.",
-         "w": [
-          "Nji achète un ordinateur.",
-          "La grand-mère arrive en avion."
-         ],
-         "y": "La rafale déclenche le problème à résoudre."
-        },
-        {
-         "q": "Récit original — Le message envolé\nNji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel geste résout le problème ?",
-         "r": "Bih pose son cahier sur la lettre.",
-         "w": [
-          "Nji déchire la lettre.",
-          "Bih quitte la cour."
-         ],
-         "y": "Le cahier empêche la feuille de continuer à s’envoler."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fi2-111-cas"
     }
    },
    {
-    "id": "c111-3",
+    "id": "fi2-111-c3",
     "status": "draft",
-    "idea": "Appuie une interprétation sur un geste du récit.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Le geste de Bih illustre l’entraide."
+     "Tout détail imaginé est explicitement présent. Correction : Il faut retrouver le détail dans le passage.",
+     "Le lecteur connaît obligatoirement chaque pensée non écrite. Correction : On ne peut attribuer au texte ce qu’il ne révèle pas.",
+     "L’ordre raconté impose forcément de commencer par la fin. Correction : Les repères du passage doivent être suivis.",
+     "Une scène inventée prouve tous les cas réels. Correction : L’exemple ne donne pas cette portée générale."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-111-etape-3-card",
-     "type": "mcq",
+     "id": "fi2-111-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "litterature"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Récit original — Le message envolé\nNji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quelle idée est soutenue par le dénouement ?",
-         "r": "Un petit geste peut rendre service.",
-         "w": [
-          "Il faut cacher les lettres des autres.",
-          "Le vent rend tout effort inutile."
-         ],
-         "y": "Le récit le montre par le geste simple de Bih."
-        },
-        {
-         "q": "Récit original — Le message envolé\nNji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Peut-on connaître le contenu exact de la lettre ?",
-         "r": "Non, le texte ne le donne pas.",
-         "w": [
-          "Oui, elle annonce forcément un mariage.",
-          "Oui, elle contient forcément de l’argent."
-         ],
-         "y": "Il ne faut pas inventer une information absente du récit."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "information explicite : un fait directement donné par les mots.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il faut retrouver le détail dans le passage. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "point de vue du récit : la manière dont le narrateur donne accès à la scène.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : On ne peut attribuer au texte ce qu’il ne révèle pas. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "chronologie : l’ordre des faits racontés.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les repères du passage doivent être suivis. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "limite du texte : ce que ce passage ne permet pas d’affirmer.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’exemple ne donne pas cette portée générale. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Tout détail imaginé est explicitement présent.",
+        "truth": "false",
+        "explain": "Il faut retrouver le détail dans le passage."
+       },
+       {
+        "text": "Le lecteur connaît obligatoirement chaque pensée non écrite.",
+        "truth": "false",
+        "explain": "On ne peut attribuer au texte ce qu’il ne révèle pas."
+       },
+       {
+        "text": "L’ordre raconté impose forcément de commencer par la fin.",
+        "truth": "false",
+        "explain": "Les repères du passage doivent être suivis."
+       },
+       {
+        "text": "Une scène inventée prouve tous les cas réels.",
+        "truth": "false",
+        "explain": "L’exemple ne donne pas cette portée générale."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -187,33 +186,75 @@
  },
  "questions": [
   {
-   "id": "fi2-111-etape-1",
+   "id": "fi2-111-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "litterature"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Récit original — Le message envolé\nNji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. À qui la lettre est-elle destinée ?",
-       "r": "À la grand-mère de Nji.",
+       "q": "Quel terme désigne un fait directement donné par les mots ?",
+       "r": "information explicite",
        "w": [
-        "Au proviseur.",
-        "À un vendeur inconnu."
+        "point de vue du récit",
+        "chronologie",
+        "limite du texte"
        ],
-       "y": "La première phrase précise la destinataire."
+       "e": [
+        "Cela désigne la manière dont le narrateur donne accès à la scène, plutôt que la notion demandée.",
+        "Cela désigne l’ordre des faits racontés, plutôt que la notion demandée.",
+        "Cela désigne ce que ce passage ne permet pas d’affirmer, plutôt que la notion demandée."
+       ],
+       "y": "Il faut retrouver le détail dans le passage."
       },
       {
-       "q": "Récit original — Le message envolé\nNji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel personnage empêche la feuille de s’envoler ?",
-       "r": "Bih.",
+       "q": "Quel terme désigne la manière dont le narrateur donne accès à la scène ?",
+       "r": "point de vue du récit",
        "w": [
-        "La grand-mère.",
-        "Un chauffeur."
+        "information explicite",
+        "chronologie",
+        "limite du texte"
        ],
-       "y": "Bih pose son cahier sur la feuille."
+       "e": [
+        "Cela désigne un fait directement donné par les mots, plutôt que la notion demandée.",
+        "Cela désigne l’ordre des faits racontés, plutôt que la notion demandée.",
+        "Cela désigne ce que ce passage ne permet pas d’affirmer, plutôt que la notion demandée."
+       ],
+       "y": "On ne peut attribuer au texte ce qu’il ne révèle pas."
+      },
+      {
+       "q": "Quel terme désigne l’ordre des faits racontés ?",
+       "r": "chronologie",
+       "w": [
+        "information explicite",
+        "point de vue du récit",
+        "limite du texte"
+       ],
+       "e": [
+        "Cela désigne un fait directement donné par les mots, plutôt que la notion demandée.",
+        "Cela désigne la manière dont le narrateur donne accès à la scène, plutôt que la notion demandée.",
+        "Cela désigne ce que ce passage ne permet pas d’affirmer, plutôt que la notion demandée."
+       ],
+       "y": "Les repères du passage doivent être suivis."
+      },
+      {
+       "q": "Quel terme désigne ce que ce passage ne permet pas d’affirmer ?",
+       "r": "limite du texte",
+       "w": [
+        "information explicite",
+        "point de vue du récit",
+        "chronologie"
+       ],
+       "e": [
+        "Cela désigne un fait directement donné par les mots, plutôt que la notion demandée.",
+        "Cela désigne la manière dont le narrateur donne accès à la scène, plutôt que la notion demandée.",
+        "Cela désigne l’ordre des faits racontés, plutôt que la notion demandée."
+       ],
+       "y": "L’exemple ne donne pas cette portée générale."
       }
      ]
     }
@@ -228,53 +269,212 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-111-etape-2",
+   "id": "fi2-111-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Une action écrite peut être relevée sans ajout.\nQuelle notion convient ?",
+       "r": "information explicite",
+       "w": [
+        "point de vue du récit",
+        "chronologie",
+        "limite du texte"
+       ],
+       "e": [
+        "Cela concerne la manière dont le narrateur donne accès à la scène. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’ordre des faits racontés. Compare cette définition avec le cas présenté.",
+        "Cela concerne ce que ce passage ne permet pas d’affirmer. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il faut retrouver le détail dans le passage."
+      },
+      {
+       "q": "Le récit peut montrer les actions sans révéler toutes les pensées.\nQuelle notion convient ?",
+       "r": "point de vue du récit",
+       "w": [
+        "information explicite",
+        "chronologie",
+        "limite du texte"
+       ],
+       "e": [
+        "Cela concerne un fait directement donné par les mots. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’ordre des faits racontés. Compare cette définition avec le cas présenté.",
+        "Cela concerne ce que ce passage ne permet pas d’affirmer. Compare cette définition avec le cas présenté."
+       ],
+       "y": "On ne peut attribuer au texte ce qu’il ne révèle pas."
+      },
+      {
+       "q": "Une préparation peut précéder une présentation.\nQuelle notion convient ?",
+       "r": "chronologie",
+       "w": [
+        "information explicite",
+        "point de vue du récit",
+        "limite du texte"
+       ],
+       "e": [
+        "Cela concerne un fait directement donné par les mots. Compare cette définition avec le cas présenté.",
+        "Cela concerne la manière dont le narrateur donne accès à la scène. Compare cette définition avec le cas présenté.",
+        "Cela concerne ce que ce passage ne permet pas d’affirmer. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les repères du passage doivent être suivis."
+      },
+      {
+       "q": "Sans résultat donné, on ne peut inventer un succès mesuré.\nQuelle notion convient ?",
+       "r": "limite du texte",
+       "w": [
+        "information explicite",
+        "point de vue du récit",
+        "chronologie"
+       ],
+       "e": [
+        "Cela concerne un fait directement donné par les mots. Compare cette définition avec le cas présenté.",
+        "Cela concerne la manière dont le narrateur donne accès à la scène. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’ordre des faits racontés. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’exemple ne donne pas cette portée générale."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-111-comprendre",
    "type": "mcq",
    "level": 2,
    "review": "authored",
    "sources": [
-    "litterature"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Récit original — Le message envolé\nNji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel événement modifie la situation ?",
-       "r": "Une rafale fait tomber la lettre.",
+       "q": "Que fait Bih après avoir relu le titre ?",
+       "r": "Elle remplace une phrase trop certaine par une question.",
        "w": [
-        "Nji achète un ordinateur.",
-        "La grand-mère arrive en avion."
+        "Elle publie tous les dossiers du club.",
+        "Elle annonce un résultat scolaire mesuré.",
+        "Elle sait nécessairement toutes les pensées d’Ayuk."
        ],
-       "y": "La rafale déclenche le problème à résoudre."
+       "e": [
+        "Le récit ne montre pas cette diffusion.",
+        "Aucun bilan n’est donné.",
+        "Les pensées exactes restent absentes."
+       ],
+       "y": "Suis les actions écrites."
       },
       {
-       "q": "Récit original — Le message envolé\nNji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel geste résout le problème ?",
-       "r": "Bih pose son cahier sur la lettre.",
+       "q": "Comment comprendre le cahier dormait ?",
+       "r": "Comme une image littéraire pour le cahier posé.",
        "w": [
-        "Nji déchire la lettre.",
-        "Bih quitte la cour."
+        "Comme une preuve biologique du sommeil du papier.",
+        "Comme une adresse réelle.",
+        "Comme une consigne de traitement."
        ],
-       "y": "Le cahier empêche la feuille de continuer à s’envoler."
+       "e": [
+        "L’objet n’est pas un être qui dort réellement.",
+        "Aucune adresse n’est donnée.",
+        "Le passage ne prescrit rien."
+       ],
+       "y": "La création prête une image à l’objet."
+      },
+      {
+       "q": "Que révèle le sourire d’Ayuk avec certitude dans ce récit ?",
+       "r": "Qu’il sourit quand Bih montre la page.",
+       "w": [
+        "Chaque mot de sa pensée exacte.",
+        "Son approbation de toute future phrase.",
+        "La diffusion définitive du bulletin."
+       ],
+       "e": [
+        "Le narrateur ne donne pas cette pensée.",
+        "Le geste n’établit pas cet accord général.",
+        "La page montrée n’est pas une diffusion achevée."
+       ],
+       "y": "Distingue geste et interprétation ajoutée."
+      },
+      {
+       "q": "Quel fait vient avant la page montrée à Ayuk ?",
+       "r": "Le remplacement de la phrase par une question.",
+       "w": [
+        "Les réactions de tous les lecteurs.",
+        "Une impression de tous les exemplaires.",
+        "Une récompense officielle."
+       ],
+       "e": [
+        "Ces réactions ne sont pas racontées.",
+        "Cette impression n’est pas donnée.",
+        "Aucune récompense n’est annoncée."
+       ],
+       "y": "L’ordre est celui du récit."
       }
      ]
     }
@@ -289,84 +489,121 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-111-etape-3",
-   "type": "mcq",
+   "id": "fi2-111-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "information explicite",
+     "right": "Une action écrite peut être relevée sans ajout."
+    },
+    {
+     "left": "point de vue du récit",
+     "right": "Le récit peut montrer les actions sans révéler toutes les pensées."
+    },
+    {
+     "left": "chronologie",
+     "right": "Une préparation peut précéder une présentation."
+    },
+    {
+     "left": "limite du texte",
+     "right": "Sans résultat donné, on ne peut inventer un succès mesuré."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-111-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "litterature"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Récit original — Le message envolé\nNji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quelle idée est soutenue par le dénouement ?",
-       "r": "Un petit geste peut rendre service.",
-       "w": [
-        "Il faut cacher les lettres des autres.",
-        "Le vent rend tout effort inutile."
-       ],
-       "y": "Le récit le montre par le geste simple de Bih."
-      },
-      {
-       "q": "Récit original — Le message envolé\nNji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Peut-on connaître le contenu exact de la lettre ?",
-       "r": "Non, le texte ne le donne pas.",
-       "w": [
-        "Oui, elle annonce forcément un mariage.",
-        "Oui, elle contient forcément de l’argent."
-       ],
-       "y": "Il ne faut pas inventer une information absente du récit."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "information explicite : un fait directement donné par les mots.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il faut retrouver le détail dans le passage. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "point de vue du récit : la manière dont le narrateur donne accès à la scène.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : On ne peut attribuer au texte ce qu’il ne révèle pas. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "chronologie : l’ordre des faits racontés.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les repères du passage doivent être suivis. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "limite du texte : ce que ce passage ne permet pas d’affirmer.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’exemple ne donne pas cette portée générale. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Tout détail imaginé est explicitement présent.",
+      "truth": "false",
+      "explain": "Il faut retrouver le détail dans le passage."
+     },
+     {
+      "text": "Le lecteur connaît obligatoirement chaque pensée non écrite.",
+      "truth": "false",
+      "explain": "On ne peut attribuer au texte ce qu’il ne révèle pas."
+     },
+     {
+      "text": "L’ordre raconté impose forcément de commencer par la fin.",
+      "truth": "false",
+      "explain": "Les repères du passage doivent être suivis."
+     },
+     {
+      "text": "Une scène inventée prouve tous les cas réels.",
+      "truth": "false",
+      "explain": "L’exemple ne donne pas cette portée générale."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ]

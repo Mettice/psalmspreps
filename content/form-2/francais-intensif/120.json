@@ -3,7 +3,12 @@
  "class": "Form 2",
  "lesson_no": 120,
  "language": "fr",
- "prerequisites": [],
+ "prerequisites": [
+  115,
+  117,
+  118,
+  119
+ ],
  "skills": [
   {
    "id": "fi2-120",
@@ -12,174 +17,170 @@
  ],
  "note": {
   "status": "draft",
-  "text": "La correspondance est un échange de messages écrits. L’expéditeur envoie ; le destinataire reçoit. Une lettre privée s’adresse à un proche. Une lettre officielle s’adresse à une administration ou à une personne dans sa fonction. Une demande ou une requête présente clairement ce qu’on souhaite obtenir. L’objet annonce le motif de la lettre. On adapte le ton, la salutation et la formule finale au destinataire. Une adresse ou une signature ne remplace pas le contenu de la demande.",
+  "text": "La correspondance relie une personne qui écrit à un destinataire. Une lettre privée à une amie et une demande officielle ne choisissent pas forcément le même ton ni les mêmes formules. L’objet annonce brièvement le sujet d’une demande. La formule d’appel ouvre le message en s’adressant au lecteur ; la signature identifie la personne qui écrit. Une requête doit être claire et respectueuse, sans coordonnées privées réelles dans un exercice. La présentation exacte d’une lettre officielle dépend de la consigne de classe.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras identifier destinataire objet formule d’appel et signature pour adapter un message. Acquis mobilisés : les pronoms possessifs et les portraits. Pour la suite : les récits et les communications téléphoniques."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "La correspondance relie une personne qui écrit à un destinataire. Une lettre privée à une amie et une demande officielle ne choisissent pas forcément le même ton ni les mêmes formules. L’objet annonce brièvement le sujet d’une demande. La formule d’appel ouvre le message en s’adressant au lecteur ; la signature identifie la personne qui écrit. Une requête doit être claire et respectueuse, sans coordonnées privées réelles dans un exercice. La présentation exacte d’une lettre officielle dépend de la consigne de classe."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles fictifs : « Chère Amina » ouvre une lettre amicale ; « Madame la responsable du club » peut ouvrir une demande adaptée à ce rôle. Objet : demande de consultation d’un livre. Le message explique la demande puis se termine par une formule respectueuse et une signature inventée. Il ne prétend pas constituer un document administratif réel."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère qui écrit, à qui et pourquoi. Choisis un ton compatible avec cette relation. Vérifie que l’objet, l’appel et la signature jouent chacun leur rôle ; ne remplace pas le contenu de la demande par une seule formule."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "destinataire",
+    "meaning": "la personne ou l’organisme auquel le message est adressé"
+   },
+   {
+    "word": "objet",
+    "meaning": "le sujet résumé de la demande"
+   },
+   {
+    "word": "formule d’appel",
+    "meaning": "l’ouverture adressée au lecteur"
+   },
+   {
+    "word": "signature",
+    "meaning": "l’identification finale de la personne qui écrit"
+   }
+  ],
+  "mistake": {
+   "wrong": "Le destinataire est toujours le nom de la personne qui écrit.",
+   "right": "la personne ou l’organisme auquel le message est adressé.",
+   "why": "Il faut distinguer émission et réception du message."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Quel objet convient pour utiliser la salle du club ?",
+  "problem": "La responsable du club reçoit la demande fictive. Explique le choix.",
   "steps": [
-   "L’objet annonce le motif d’une lettre officielle.",
-   "L’objet résume précisément ce qui est demandé."
+   "la personne ou l’organisme auquel le message est adressé.",
+   "Il faut distinguer émission et réception du message."
   ],
-  "answer": "Demande d’autorisation d’utiliser la salle.",
+  "answer": "destinataire",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c120-1",
+    "id": "fi2-120-c1",
     "status": "draft",
-    "idea": "Distingue qui envoie et qui reçoit.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "Bih écrit à Nji : Bih est expéditrice et Nji destinataire."
+     "destinataire : la personne ou l’organisme auquel le message est adressé.",
+     "objet : le sujet résumé de la demande.",
+     "formule d’appel : l’ouverture adressée au lecteur.",
+     "signature : l’identification finale de la personne qui écrit."
     ],
     "checks": [],
     "check": {
-     "ref": "fi2-120-etape-1"
+     "ref": "fi2-120-notions"
     }
    },
    {
-    "id": "c120-2",
+    "id": "fi2-120-c2",
     "status": "draft",
-    "idea": "L’objet annonce le motif d’une lettre officielle.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Objet : demande d’autorisation."
+     "La responsable du club reçoit la demande fictive.",
+     "Demande de consultation d’un livre annonce le motif.",
+     "Chère Amina ouvre une lettre amicale.",
+     "Le modèle se termine par le nom fictif Bih."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-120-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "vocabulaire"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Quel objet convient pour utiliser la salle du club ?",
-         "r": "Demande d’autorisation d’utiliser la salle.",
-         "w": [
-          "La salle est très jolie.",
-          "Bonjour mon ami !"
-         ],
-         "y": "L’objet résume précisément ce qui est demandé."
-        },
-        {
-         "q": "Quelle lettre est officielle ?",
-         "r": "Une demande adressée au proviseur dans sa fonction.",
-         "w": [
-          "Un mot d’anniversaire à un cousin.",
-          "Un message amical à sa sœur."
-         ],
-         "y": "Le destinataire agit ici comme responsable de l’établissement."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fi2-120-cas"
     }
    },
    {
-    "id": "c120-3",
+    "id": "fi2-120-c3",
     "status": "draft",
-    "idea": "Une demande doit être claire et polie.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Je sollicite l’autorisation d’utiliser la salle pour une réunion."
+     "Le destinataire est toujours le nom de la personne qui écrit. Correction : Il faut distinguer émission et réception du message.",
+     "Objet désigne forcément un appareil matériel dans une lettre. Correction : Il signifie ici le thème ou motif du message.",
+     "La formule d’appel est uniquement le dernier nom signé. Correction : L’appel ouvre la relation avec le lecteur.",
+     "Une signature suffit à expliquer une demande absente. Correction : Elle identifie l’auteur mais ne remplace pas le message."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-120-etape-3-card",
-     "type": "mcq",
+     "id": "fi2-120-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "vocabulaire"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Quelle formulation convient dans une demande officielle ?",
-         "r": "Je sollicite l’autorisation d’utiliser la salle du club.",
-         "w": [
-          "Donne-moi la salle, tout de suite !",
-          "Tu sais bien ce que je veux."
-         ],
-         "y": "La demande précise son objet et garde un ton respectueux."
-        },
-        {
-         "q": "Pourquoi faut-il préciser la date et le but de la demande ?",
-         "r": "Pour que le destinataire comprenne et puisse répondre.",
-         "w": [
-          "Pour rendre la demande incompréhensible.",
-          "Pour remplacer toute formule de politesse."
-         ],
-         "y": "Les renseignements utiles permettent d’examiner la demande."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "destinataire : la personne ou l’organisme auquel le message est adressé.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il faut distinguer émission et réception du message. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "objet : le sujet résumé de la demande.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il signifie ici le thème ou motif du message. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "formule d’appel : l’ouverture adressée au lecteur.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’appel ouvre la relation avec le lecteur. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "signature : l’identification finale de la personne qui écrit.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Elle identifie l’auteur mais ne remplace pas le message. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Le destinataire est toujours le nom de la personne qui écrit.",
+        "truth": "false",
+        "explain": "Il faut distinguer émission et réception du message."
+       },
+       {
+        "text": "Objet désigne forcément un appareil matériel dans une lettre.",
+        "truth": "false",
+        "explain": "Il signifie ici le thème ou motif du message."
+       },
+       {
+        "text": "La formule d’appel est uniquement le dernier nom signé.",
+        "truth": "false",
+        "explain": "L’appel ouvre la relation avec le lecteur."
+       },
+       {
+        "text": "Une signature suffit à expliquer une demande absente.",
+        "truth": "false",
+        "explain": "Elle identifie l’auteur mais ne remplace pas le message."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -187,33 +188,75 @@
  },
  "questions": [
   {
-   "id": "fi2-120-etape-1",
+   "id": "fi2-120-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "vocabulaire"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Qui est l’expéditeur d’une lettre ?",
-       "r": "La personne qui l’envoie.",
+       "q": "Quel terme désigne la personne ou l’organisme auquel le message est adressé ?",
+       "r": "destinataire",
        "w": [
-        "La personne qui la reçoit seulement.",
-        "Le meuble qui la porte."
+        "objet",
+        "formule d’appel",
+        "signature"
        ],
-       "y": "Expédier signifie envoyer."
+       "e": [
+        "Cela désigne le sujet résumé de la demande, plutôt que la notion demandée.",
+        "Cela désigne l’ouverture adressée au lecteur, plutôt que la notion demandée.",
+        "Cela désigne l’identification finale de la personne qui écrit, plutôt que la notion demandée."
+       ],
+       "y": "Il faut distinguer émission et réception du message."
       },
       {
-       "q": "Qui est le destinataire ?",
-       "r": "La personne à qui le message est adressé.",
+       "q": "Quel terme désigne le sujet résumé de la demande ?",
+       "r": "objet",
        "w": [
-        "La personne qui vend le papier.",
-        "La couleur de l’enveloppe."
+        "destinataire",
+        "formule d’appel",
+        "signature"
        ],
-       "y": "Le destinataire est celui à qui l’on écrit."
+       "e": [
+        "Cela désigne la personne ou l’organisme auquel le message est adressé, plutôt que la notion demandée.",
+        "Cela désigne l’ouverture adressée au lecteur, plutôt que la notion demandée.",
+        "Cela désigne l’identification finale de la personne qui écrit, plutôt que la notion demandée."
+       ],
+       "y": "Il signifie ici le thème ou motif du message."
+      },
+      {
+       "q": "Quel terme désigne l’ouverture adressée au lecteur ?",
+       "r": "formule d’appel",
+       "w": [
+        "destinataire",
+        "objet",
+        "signature"
+       ],
+       "e": [
+        "Cela désigne la personne ou l’organisme auquel le message est adressé, plutôt que la notion demandée.",
+        "Cela désigne le sujet résumé de la demande, plutôt que la notion demandée.",
+        "Cela désigne l’identification finale de la personne qui écrit, plutôt que la notion demandée."
+       ],
+       "y": "L’appel ouvre la relation avec le lecteur."
+      },
+      {
+       "q": "Quel terme désigne l’identification finale de la personne qui écrit ?",
+       "r": "signature",
+       "w": [
+        "destinataire",
+        "objet",
+        "formule d’appel"
+       ],
+       "e": [
+        "Cela désigne la personne ou l’organisme auquel le message est adressé, plutôt que la notion demandée.",
+        "Cela désigne le sujet résumé de la demande, plutôt que la notion demandée.",
+        "Cela désigne l’ouverture adressée au lecteur, plutôt que la notion demandée."
+       ],
+       "y": "Elle identifie l’auteur mais ne remplace pas le message."
       }
      ]
     }
@@ -228,53 +271,212 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-120-etape-2",
+   "id": "fi2-120-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "La responsable du club reçoit la demande fictive.\nQuelle notion convient ?",
+       "r": "destinataire",
+       "w": [
+        "objet",
+        "formule d’appel",
+        "signature"
+       ],
+       "e": [
+        "Cela concerne le sujet résumé de la demande. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’ouverture adressée au lecteur. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’identification finale de la personne qui écrit. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il faut distinguer émission et réception du message."
+      },
+      {
+       "q": "Demande de consultation d’un livre annonce le motif.\nQuelle notion convient ?",
+       "r": "objet",
+       "w": [
+        "destinataire",
+        "formule d’appel",
+        "signature"
+       ],
+       "e": [
+        "Cela concerne la personne ou l’organisme auquel le message est adressé. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’ouverture adressée au lecteur. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’identification finale de la personne qui écrit. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il signifie ici le thème ou motif du message."
+      },
+      {
+       "q": "Chère Amina ouvre une lettre amicale.\nQuelle notion convient ?",
+       "r": "formule d’appel",
+       "w": [
+        "destinataire",
+        "objet",
+        "signature"
+       ],
+       "e": [
+        "Cela concerne la personne ou l’organisme auquel le message est adressé. Compare cette définition avec le cas présenté.",
+        "Cela concerne le sujet résumé de la demande. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’identification finale de la personne qui écrit. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’appel ouvre la relation avec le lecteur."
+      },
+      {
+       "q": "Le modèle se termine par le nom fictif Bih.\nQuelle notion convient ?",
+       "r": "signature",
+       "w": [
+        "destinataire",
+        "objet",
+        "formule d’appel"
+       ],
+       "e": [
+        "Cela concerne la personne ou l’organisme auquel le message est adressé. Compare cette définition avec le cas présenté.",
+        "Cela concerne le sujet résumé de la demande. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’ouverture adressée au lecteur. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Elle identifie l’auteur mais ne remplace pas le message."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-120-contexte",
    "type": "mcq",
    "level": 2,
    "review": "authored",
    "sources": [
-    "vocabulaire"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Quel objet convient pour utiliser la salle du club ?",
-       "r": "Demande d’autorisation d’utiliser la salle.",
+       "q": "On demande à qui la lettre est adressée : quel rôle cherche-t-on ?",
+       "r": "destinataire",
        "w": [
-        "La salle est très jolie.",
-        "Bonjour mon ami !"
+        "objet",
+        "formule d’appel",
+        "signature"
        ],
-       "y": "L’objet résume précisément ce qui est demandé."
+       "e": [
+        "Ce terme désigne le sujet résumé de la demande ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne l’ouverture adressée au lecteur ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne l’identification finale de la personne qui écrit ; ce n’est pas l’action ou le rôle décrit."
+       ],
+       "y": "Il faut distinguer émission et réception du message."
       },
       {
-       "q": "Quelle lettre est officielle ?",
-       "r": "Une demande adressée au proviseur dans sa fonction.",
+       "q": "Une ligne résume la demande de consultation : quel élément est-ce ?",
+       "r": "objet",
        "w": [
-        "Un mot d’anniversaire à un cousin.",
-        "Un message amical à sa sœur."
+        "destinataire",
+        "formule d’appel",
+        "signature"
        ],
-       "y": "Le destinataire agit ici comme responsable de l’établissement."
+       "e": [
+        "Ce terme désigne la personne ou l’organisme auquel le message est adressé ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne l’ouverture adressée au lecteur ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne l’identification finale de la personne qui écrit ; ce n’est pas l’action ou le rôle décrit."
+       ],
+       "y": "Il signifie ici le thème ou motif du message."
+      },
+      {
+       "q": "Chère Amina apparaît au début : comment nommer cet élément ?",
+       "r": "formule d’appel",
+       "w": [
+        "destinataire",
+        "objet",
+        "signature"
+       ],
+       "e": [
+        "Ce terme désigne la personne ou l’organisme auquel le message est adressé ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne le sujet résumé de la demande ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne l’identification finale de la personne qui écrit ; ce n’est pas l’action ou le rôle décrit."
+       ],
+       "y": "L’appel ouvre la relation avec le lecteur."
+      },
+      {
+       "q": "Bih apparaît comme nom fictif en fin de lettre : quel élément est-ce ?",
+       "r": "signature",
+       "w": [
+        "destinataire",
+        "objet",
+        "formule d’appel"
+       ],
+       "e": [
+        "Ce terme désigne la personne ou l’organisme auquel le message est adressé ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne le sujet résumé de la demande ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne l’ouverture adressée au lecteur ; ce n’est pas l’action ou le rôle décrit."
+       ],
+       "y": "Elle identifie l’auteur mais ne remplace pas le message."
       }
      ]
     }
@@ -289,84 +491,121 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-120-etape-3",
-   "type": "mcq",
+   "id": "fi2-120-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "destinataire",
+     "right": "La responsable du club reçoit la demande fictive."
+    },
+    {
+     "left": "objet",
+     "right": "Demande de consultation d’un livre annonce le motif."
+    },
+    {
+     "left": "formule d’appel",
+     "right": "Chère Amina ouvre une lettre amicale."
+    },
+    {
+     "left": "signature",
+     "right": "Le modèle se termine par le nom fictif Bih."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-120-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "vocabulaire"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Quelle formulation convient dans une demande officielle ?",
-       "r": "Je sollicite l’autorisation d’utiliser la salle du club.",
-       "w": [
-        "Donne-moi la salle, tout de suite !",
-        "Tu sais bien ce que je veux."
-       ],
-       "y": "La demande précise son objet et garde un ton respectueux."
-      },
-      {
-       "q": "Pourquoi faut-il préciser la date et le but de la demande ?",
-       "r": "Pour que le destinataire comprenne et puisse répondre.",
-       "w": [
-        "Pour rendre la demande incompréhensible.",
-        "Pour remplacer toute formule de politesse."
-       ],
-       "y": "Les renseignements utiles permettent d’examiner la demande."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "destinataire : la personne ou l’organisme auquel le message est adressé.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il faut distinguer émission et réception du message. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "objet : le sujet résumé de la demande.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il signifie ici le thème ou motif du message. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "formule d’appel : l’ouverture adressée au lecteur.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’appel ouvre la relation avec le lecteur. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "signature : l’identification finale de la personne qui écrit.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Elle identifie l’auteur mais ne remplace pas le message. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le destinataire est toujours le nom de la personne qui écrit.",
+      "truth": "false",
+      "explain": "Il faut distinguer émission et réception du message."
+     },
+     {
+      "text": "Objet désigne forcément un appareil matériel dans une lettre.",
+      "truth": "false",
+      "explain": "Il signifie ici le thème ou motif du message."
+     },
+     {
+      "text": "La formule d’appel est uniquement le dernier nom signé.",
+      "truth": "false",
+      "explain": "L’appel ouvre la relation avec le lecteur."
+     },
+     {
+      "text": "Une signature suffit à expliquer une demande absente.",
+      "truth": "false",
+      "explain": "Elle identifie l’auteur mais ne remplace pas le message."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ]

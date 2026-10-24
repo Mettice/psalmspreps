@@ -3,7 +3,14 @@
  "class": "Form 2",
  "lesson_no": 128,
  "language": "fr",
- "prerequisites": [],
+ "prerequisites": [
+  110,
+  117,
+  122,
+  124,
+  126,
+  127
+ ],
  "skills": [
   {
    "id": "fi2-128",
@@ -12,174 +19,170 @@
  ],
  "note": {
   "status": "draft",
-  "text": "La description présente un lieu ou un objet ; le portrait décrit une personne ou un personnage ; la narration raconte des événements. Un même texte peut combiner ces démarches : décrire la salle du club, présenter une élève puis raconter la préparation d’une annonce. Pour écrire, choisis ton but et organise les passages. Les détails doivent aider le lecteur à comprendre les personnages et les actions. Relis pour vérifier la cohérence, les temps, les accords et la ponctuation.",
+  "text": "Décrire organise les détails d’un lieu ou d’un objet ; dresser un portrait présente un personnage ; raconter relie des événements. Un même texte peut combiner ces intentions, mais il faut garder une progression lisible. Le lieu aide à situer l’action, les traits du personnage peuvent être soutenus par ses gestes et les événements suivent des liens temporels ou causaux. Ne transforme pas toute apparence en caractère certain ni toute description en récit d’actions. Les personnages et le cadre peuvent rester entièrement fictifs.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras choisir une organisation adaptée puis produire des passages distinguant lieu personnage et événements. Acquis mobilisés : les descriptions, portraits, récits et lectures du trimestre. Pour la suite : les productions plus longues de la classe suivante."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Décrire organise les détails d’un lieu ou d’un objet ; dresser un portrait présente un personnage ; raconter relie des événements. Un même texte peut combiner ces intentions, mais il faut garder une progression lisible. Le lieu aide à situer l’action, les traits du personnage peuvent être soutenus par ses gestes et les événements suivent des liens temporels ou causaux. Ne transforme pas toute apparence en caractère certain ni toute description en récit d’actions. Les personnages et le cadre peuvent rester entièrement fictifs."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Description : Une table occupe le centre de la salle imaginaire ; un panneau de projets se trouve au fond. Portrait : Bih garde un cahier près d’elle. Elle écoute une question jusqu’au bout, ce qui la présente comme attentive dans la scène. Narration : Un titre manquait sur la fiche. Bih a consulté ses notes avec Ayuk, puis ils ont complété le document. Le projet est prêt à être relu, sans résultat public encore annoncé."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Décide ce que chaque passage doit faire avant de rédiger. Garde le même lieu et les mêmes personnages si tu combines les intentions. Vérifie les repères, les indices de caractère et les liens entre actions, puis les accords et les temps."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "description",
+    "meaning": "une organisation des détails d’un lieu ou d’un objet"
+   },
+   {
+    "word": "portrait",
+    "meaning": "une présentation organisée d’un personnage"
+   },
+   {
+    "word": "narration",
+    "meaning": "une relation des événements et de leur déroulement"
+   },
+   {
+    "word": "combinaison cohérente",
+    "meaning": "l’association d’intentions restant lisibles"
+   }
+  ],
+  "mistake": {
+   "wrong": "Une description se réduit toujours à une succession d’accidents.",
+   "right": "une organisation des détails d’un lieu ou d’un objet.",
+   "why": "Son rôle peut être de représenter l’espace."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Quel passage raconte des événements ?",
+  "problem": "La table au centre situe le lieu. Explique le choix.",
   "steps": [
-   "Une narration fait avancer les événements.",
-   "Les actions successives font avancer le récit."
+   "une organisation des détails d’un lieu ou d’un objet.",
+   "Son rôle peut être de représenter l’espace."
   ],
-  "answer": "Bih a ouvert le cahier, puis elle a lu l’annonce.",
+  "answer": "description",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c128-1",
+    "id": "fi2-128-c1",
     "status": "draft",
-    "idea": "Identifie le but principal du passage.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "Une salle lumineuse : description ; une élève patiente : portrait."
+     "description : une organisation des détails d’un lieu ou d’un objet.",
+     "portrait : une présentation organisée d’un personnage.",
+     "narration : une relation des événements et de leur déroulement.",
+     "combinaison cohérente : l’association d’intentions restant lisibles."
     ],
     "checks": [],
     "check": {
-     "ref": "fi2-128-etape-1"
+     "ref": "fi2-128-notions"
     }
    },
    {
-    "id": "c128-2",
+    "id": "fi2-128-c2",
     "status": "draft",
-    "idea": "Une narration fait avancer les événements.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Bih arriva, prit son cahier puis lut l’annonce."
+     "La table au centre situe le lieu.",
+     "Le geste d’écoute soutient un trait de Bih.",
+     "La recherche du titre mène à la fiche complétée.",
+     "Le lieu, le personnage et l’action gardent les mêmes référents."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-128-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "expression"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Quel passage raconte des événements ?",
-         "r": "Bih a ouvert le cahier, puis elle a lu l’annonce.",
-         "w": [
-          "La table est ronde et blanche.",
-          "Bih est calme et attentive."
-         ],
-         "y": "Les actions successives font avancer le récit."
-        },
-        {
-         "q": "Quel passage peut préparer une narration ?",
-         "r": "Décrire brièvement la salle où l’action commence.",
-         "w": [
-          "Insérer une liste sans rapport.",
-          "Changer de personnage sans prévenir."
-         ],
-         "y": "Une description utile situe l’action à venir."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fi2-128-cas"
     }
    },
    {
-    "id": "c128-3",
+    "id": "fi2-128-c3",
     "status": "draft",
-    "idea": "Combine les passages sans perdre le fil du texte.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Je présente le lieu, le personnage, puis le problème et sa résolution."
+     "Une description se réduit toujours à une succession d’accidents. Correction : Son rôle peut être de représenter l’espace.",
+     "Le portrait doit juger toute la valeur d’une personne à ses vêtements. Correction : Un trait doit être appuyé sans jugement global.",
+     "Une narration doit interdire tout lien entre actions. Correction : Les liens rendent le déroulement compréhensible.",
+     "Combiner impose de changer toutes les identités sans explication. Correction : La continuité aide le lecteur."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-128-etape-3-card",
-     "type": "mcq",
+     "id": "fi2-128-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "expression"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Quel plan réunit les trois démarches ?",
-         "r": "Présenter la salle, faire le portrait de Bih, raconter son intervention.",
-         "w": [
-          "Répéter le même adjectif sans événement.",
-          "Changer de sujet à chaque phrase."
-         ],
-         "y": "Le plan articule description, portrait et narration autour d’une même scène."
-        },
-        {
-         "q": "Que vérifier à la fin ?",
-         "r": "La cohérence des passages, les accords et les temps.",
-         "w": [
-          "Seulement le nombre de couleurs citées.",
-          "Que le récit n’ait aucun lien avec son début."
-         ],
-         "y": "Les différentes démarches doivent former un ensemble compréhensible."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "description : une organisation des détails d’un lieu ou d’un objet.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Son rôle peut être de représenter l’espace. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "portrait : une présentation organisée d’un personnage.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Un trait doit être appuyé sans jugement global. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "narration : une relation des événements et de leur déroulement.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les liens rendent le déroulement compréhensible. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "combinaison cohérente : l’association d’intentions restant lisibles.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La continuité aide le lecteur. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une description se réduit toujours à une succession d’accidents.",
+        "truth": "false",
+        "explain": "Son rôle peut être de représenter l’espace."
+       },
+       {
+        "text": "Le portrait doit juger toute la valeur d’une personne à ses vêtements.",
+        "truth": "false",
+        "explain": "Un trait doit être appuyé sans jugement global."
+       },
+       {
+        "text": "Une narration doit interdire tout lien entre actions.",
+        "truth": "false",
+        "explain": "Les liens rendent le déroulement compréhensible."
+       },
+       {
+        "text": "Combiner impose de changer toutes les identités sans explication.",
+        "truth": "false",
+        "explain": "La continuité aide le lecteur."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -187,33 +190,75 @@
  },
  "questions": [
   {
-   "id": "fi2-128-etape-1",
+   "id": "fi2-128-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "expression"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "« La salle est lumineuse ; une table occupe le centre. » C’est surtout…",
-       "r": "une description.",
+       "q": "Quel terme désigne une organisation des détails d’un lieu ou d’un objet ?",
+       "r": "description",
        "w": [
-        "une demande officielle.",
-        "une conjugaison isolée."
+        "portrait",
+        "narration",
+        "combinaison cohérente"
        ],
-       "y": "Le passage présente un lieu et sa disposition."
+       "e": [
+        "Cela désigne une présentation organisée d’un personnage, plutôt que la notion demandée.",
+        "Cela désigne une relation des événements et de leur déroulement, plutôt que la notion demandée.",
+        "Cela désigne l’association d’intentions restant lisibles, plutôt que la notion demandée."
+       ],
+       "y": "Son rôle peut être de représenter l’espace."
       },
       {
-       "q": "« Bih est patiente et porte une veste bleue. » C’est surtout…",
-       "r": "un portrait.",
+       "q": "Quel terme désigne une présentation organisée d’un personnage ?",
+       "r": "portrait",
        "w": [
-        "une recette.",
-        "un itinéraire."
+        "description",
+        "narration",
+        "combinaison cohérente"
        ],
-       "y": "Le passage décrit une personne."
+       "e": [
+        "Cela désigne une organisation des détails d’un lieu ou d’un objet, plutôt que la notion demandée.",
+        "Cela désigne une relation des événements et de leur déroulement, plutôt que la notion demandée.",
+        "Cela désigne l’association d’intentions restant lisibles, plutôt que la notion demandée."
+       ],
+       "y": "Un trait doit être appuyé sans jugement global."
+      },
+      {
+       "q": "Quel terme désigne une relation des événements et de leur déroulement ?",
+       "r": "narration",
+       "w": [
+        "description",
+        "portrait",
+        "combinaison cohérente"
+       ],
+       "e": [
+        "Cela désigne une organisation des détails d’un lieu ou d’un objet, plutôt que la notion demandée.",
+        "Cela désigne une présentation organisée d’un personnage, plutôt que la notion demandée.",
+        "Cela désigne l’association d’intentions restant lisibles, plutôt que la notion demandée."
+       ],
+       "y": "Les liens rendent le déroulement compréhensible."
+      },
+      {
+       "q": "Quel terme désigne l’association d’intentions restant lisibles ?",
+       "r": "combinaison cohérente",
+       "w": [
+        "description",
+        "portrait",
+        "narration"
+       ],
+       "e": [
+        "Cela désigne une organisation des détails d’un lieu ou d’un objet, plutôt que la notion demandée.",
+        "Cela désigne une présentation organisée d’un personnage, plutôt que la notion demandée.",
+        "Cela désigne une relation des événements et de leur déroulement, plutôt que la notion demandée."
+       ],
+       "y": "La continuité aide le lecteur."
       }
      ]
     }
@@ -228,160 +273,285 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-128-etape-2",
+   "id": "fi2-128-cas",
    "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "La table au centre situe le lieu.\nQuelle notion convient ?",
+       "r": "description",
+       "w": [
+        "portrait",
+        "narration",
+        "combinaison cohérente"
+       ],
+       "e": [
+        "Cela concerne une présentation organisée d’un personnage. Compare cette définition avec le cas présenté.",
+        "Cela concerne une relation des événements et de leur déroulement. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’association d’intentions restant lisibles. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Son rôle peut être de représenter l’espace."
+      },
+      {
+       "q": "Le geste d’écoute soutient un trait de Bih.\nQuelle notion convient ?",
+       "r": "portrait",
+       "w": [
+        "description",
+        "narration",
+        "combinaison cohérente"
+       ],
+       "e": [
+        "Cela concerne une organisation des détails d’un lieu ou d’un objet. Compare cette définition avec le cas présenté.",
+        "Cela concerne une relation des événements et de leur déroulement. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’association d’intentions restant lisibles. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Un trait doit être appuyé sans jugement global."
+      },
+      {
+       "q": "La recherche du titre mène à la fiche complétée.\nQuelle notion convient ?",
+       "r": "narration",
+       "w": [
+        "description",
+        "portrait",
+        "combinaison cohérente"
+       ],
+       "e": [
+        "Cela concerne une organisation des détails d’un lieu ou d’un objet. Compare cette définition avec le cas présenté.",
+        "Cela concerne une présentation organisée d’un personnage. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’association d’intentions restant lisibles. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les liens rendent le déroulement compréhensible."
+      },
+      {
+       "q": "Le lieu, le personnage et l’action gardent les mêmes référents.\nQuelle notion convient ?",
+       "r": "combinaison cohérente",
+       "w": [
+        "description",
+        "portrait",
+        "narration"
+       ],
+       "e": [
+        "Cela concerne une organisation des détails d’un lieu ou d’un objet. Compare cette définition avec le cas présenté.",
+        "Cela concerne une présentation organisée d’un personnage. Compare cette définition avec le cas présenté.",
+        "Cela concerne une relation des événements et de leur déroulement. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La continuité aide le lecteur."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-128-construire",
+   "type": "word_order",
    "level": 2,
    "review": "authored",
    "sources": [
-    "expression"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Quel passage raconte des événements ?",
-       "r": "Bih a ouvert le cahier, puis elle a lu l’annonce.",
-       "w": [
-        "La table est ronde et blanche.",
-        "Bih est calme et attentive."
-       ],
-       "y": "Les actions successives font avancer le récit."
+       "a": "La table au centre situe le lieu.",
+       "b": "La table au centre situe le lieu."
       },
       {
-       "q": "Quel passage peut préparer une narration ?",
-       "r": "Décrire brièvement la salle où l’action commence.",
-       "w": [
-        "Insérer une liste sans rapport.",
-        "Changer de personnage sans prévenir."
-       ],
-       "y": "Une description utile situe l’action à venir."
+       "a": "Le geste d’écoute soutient un trait de Bih.",
+       "b": "Le geste d’écoute soutient un trait de Bih."
+      },
+      {
+       "a": "La recherche du titre mène à la fiche complétée.",
+       "b": "La recherche du titre mène à la fiche complétée."
+      },
+      {
+       "a": "Le lieu, le personnage et l’action gardent les mêmes référents.",
+       "b": "Le lieu, le personnage et l’action gardent les mêmes référents."
       }
      ]
     }
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
+   "prompt": "Touche les mots dans le bon ordre.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
    ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-128-etape-3",
-   "type": "mcq",
+   "id": "fi2-128-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "description",
+     "right": "La table au centre situe le lieu."
+    },
+    {
+     "left": "portrait",
+     "right": "Le geste d’écoute soutient un trait de Bih."
+    },
+    {
+     "left": "narration",
+     "right": "La recherche du titre mène à la fiche complétée."
+    },
+    {
+     "left": "combinaison cohérente",
+     "right": "Le lieu, le personnage et l’action gardent les mêmes référents."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-128-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "expression"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Quel plan réunit les trois démarches ?",
-       "r": "Présenter la salle, faire le portrait de Bih, raconter son intervention.",
-       "w": [
-        "Répéter le même adjectif sans événement.",
-        "Changer de sujet à chaque phrase."
-       ],
-       "y": "Le plan articule description, portrait et narration autour d’une même scène."
-      },
-      {
-       "q": "Que vérifier à la fin ?",
-       "r": "La cohérence des passages, les accords et les temps.",
-       "w": [
-        "Seulement le nombre de couleurs citées.",
-        "Que le récit n’ait aucun lien avec son début."
-       ],
-       "y": "Les différentes démarches doivent former un ensemble compréhensible."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "description : une organisation des détails d’un lieu ou d’un objet.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Son rôle peut être de représenter l’espace. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "portrait : une présentation organisée d’un personnage.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Un trait doit être appuyé sans jugement global. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "narration : une relation des événements et de leur déroulement.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les liens rendent le déroulement compréhensible. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "combinaison cohérente : l’association d’intentions restant lisibles.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La continuité aide le lecteur. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une description se réduit toujours à une succession d’accidents.",
+      "truth": "false",
+      "explain": "Son rôle peut être de représenter l’espace."
+     },
+     {
+      "text": "Le portrait doit juger toute la valeur d’une personne à ses vêtements.",
+      "truth": "false",
+      "explain": "Un trait doit être appuyé sans jugement global."
+     },
+     {
+      "text": "Une narration doit interdire tout lien entre actions.",
+      "truth": "false",
+      "explain": "Les liens rendent le déroulement compréhensible."
+     },
+     {
+      "text": "Combiner impose de changer toutes les identités sans explication.",
+      "truth": "false",
+      "explain": "La continuité aide le lecteur."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ],
  "paper_task": {
   "status": "draft",
-  "vars": {},
-  "prompt": "Écris un texte sur une annonce au club de l’école. Décris brièvement le lieu, présente un personnage et raconte comment il communique malgré un petit obstacle.",
+  "prompt": "Pour un club entièrement fictif, rédige des passages courts : décrire le lieu, présenter un personnage puis raconter une difficulté résolue. Garde une progression et des référents cohérents.",
   "model": [
-   "La salle du club était claire et bien rangée. Bih, une élève attentive, tenait son cahier près de la table. Ce matin-là, le micro est tombé en panne. Elle a demandé aux camarades de se rapprocher, puis elle a lu lentement. Tout le monde a compris l’annonce."
+   "Description : Une table occupe le centre de la salle imaginaire ; un panneau de projets se trouve au fond.",
+   "Portrait : Bih garde un cahier près d’elle. Elle écoute une question jusqu’au bout, ce qui la présente comme attentive dans la scène.",
+   "Narration : Un titre manquait sur la fiche. Bih a consulté ses notes avec Ayuk, puis ils ont complété le document. Le projet est prêt à être relu, sans résultat public encore annoncé."
   ],
   "checklist": [
-   "J’ai décrit le lieu et présenté le personnage.",
-   "J’ai raconté un obstacle et sa résolution.",
-   "Les passages, les temps et les accords sont cohérents."
+   "Chaque passage remplit l’intention annoncée.",
+   "Mes détails et actions soutiennent les traits sans jugement infondé.",
+   "Les repères, pronoms, temps, accords et ponctuation sont relus."
   ],
+  "vars": {},
   "checks": []
  }
 }

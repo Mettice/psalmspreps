@@ -4,184 +4,181 @@
  "lesson_no": 112,
  "language": "fr",
  "prerequisites": [
-  104
+  104,
+  111
  ],
  "skills": [
   {
    "id": "fi2-112",
-   "name": "Les sujets multiples"
+   "name": "Accorder avec des sujets multiples"
   }
  ],
  "note": {
   "status": "draft",
-  "text": "Un verbe peut avoir plusieurs sujets reliés par et. Le verbe se met alors au pluriel : Bih et Nji écrivent. Avec un nom et moi, on emploie la première personne du pluriel : Bih et moi écrivons. Avec un nom et toi, sans moi, on emploie la deuxième personne du pluriel : Nji et toi écrivez. Cherche tous les sujets avant de choisir la terminaison. La leçon traite les sujets coordonnés par et.",
+  "text": "Des sujets distincts reliés par et appellent ici un accord pluriel. Bih et Ayuk peuvent être repris par ils dans le modèle ; Bih et moi par nous ; Ayuk et toi par vous. La présence de moi donne la personne de nous ; sans moi, la présence de toi donne ici celle de vous. Il ne suffit donc pas d’ajouter une terminaison plurielle quelconque. Les exemples présentent des personnes distinctes ; les constructions où les noms désignent une même réalité demandent une autre analyse.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras choisir nous vous ou ils pour des sujets coordonnés distincts et accorder le verbe. Acquis mobilisés : le noyau du sujet et les pronoms personnels. Pour la suite : le passé antérieur et les reprises possessives."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Des sujets distincts reliés par et appellent ici un accord pluriel. Bih et Ayuk peuvent être repris par ils dans le modèle ; Bih et moi par nous ; Ayuk et toi par vous. La présence de moi donne la personne de nous ; sans moi, la présence de toi donne ici celle de vous. Il ne suffit donc pas d’ajouter une terminaison plurielle quelconque. Les exemples présentent des personnes distinctes ; les constructions où les noms désignent une même réalité demandent une autre analyse."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : Bih et Ayuk {fr2Present(\"lire\",6)}. Bih et moi {fr2Present(\"écrire\",4)}. Ayuk et toi {fr2Present(\"faire\",5)} la relecture. Toi et moi {fr2Present(\"parler\",4)} du projet. Le mot le plus proche ne commande pas seul l’accord de tout l’ensemble."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère tous les éléments du sujet et vérifie qu’ils désignent des personnes distinctes. Choisis le pronom de remplacement de l’ensemble puis la forme du verbe. Explique le choix de personne, pas seulement le pluriel."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "coordination de sujets",
+    "meaning": "l’association de sujets distincts par et dans les modèles"
+   },
+   {
+    "word": "reprise par nous",
+    "meaning": "le remplacement d’un ensemble incluant moi"
+   },
+   {
+    "word": "reprise par vous",
+    "meaning": "le remplacement ici d’un ensemble incluant toi sans moi"
+   },
+   {
+    "word": "reprise par ils",
+    "meaning": "le remplacement du groupe masculin ou mixte de troisième personne du modèle"
+   }
+  ],
+  "mistake": {
+   "wrong": "Le verbe doit toujours s’accorder seulement avec Ayuk.",
+   "right": "l’association de sujets distincts par et dans les modèles.",
+   "why": "Le sujet comprend les deux éléments."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Complète : Bih et moi ___ un article.",
+  "problem": "Bih et Ayuk forme un ensemble sujet. Explique le choix.",
   "steps": [
-   "Avec moi parmi les sujets, choisis nous.",
-   "Moi inclut le locuteur : nous préparons."
+   "l’association de sujets distincts par et dans les modèles.",
+   "Le sujet comprend les deux éléments."
   ],
-  "answer": "préparons",
+  "answer": "coordination de sujets",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c112-1",
+    "id": "fi2-112-c1",
     "status": "draft",
-    "idea": "Des sujets reliés par et commandent ici le pluriel.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "La radio et la télévision diffusent des informations."
+     "coordination de sujets : l’association de sujets distincts par et dans les modèles.",
+     "reprise par nous : le remplacement d’un ensemble incluant moi.",
+     "reprise par vous : le remplacement ici d’un ensemble incluant toi sans moi.",
+     "reprise par ils : le remplacement du groupe masculin ou mixte de troisième personne du modèle."
     ],
     "checks": [],
     "check": {
-     "ref": "fi2-112-etape-1"
+     "ref": "fi2-112-notions"
     }
    },
    {
-    "id": "c112-2",
+    "id": "fi2-112-c2",
     "status": "draft",
-    "idea": "Avec moi parmi les sujets, choisis nous.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Bih et moi préparons l’exposé."
+     "Bih et Ayuk forme un ensemble sujet.",
+     "Bih et moi équivaut ici à nous.",
+     "Ayuk et toi équivaut à vous.",
+     "Bih et Ayuk sont repris ici par ils."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-112-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "grammaire"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Complète : Bih et moi ___ un article.",
-         "r": "préparons",
-         "w": [
-          "préparent",
-          "préparez"
-         ],
-         "y": "Moi inclut le locuteur : nous préparons."
-        },
-        {
-         "q": "Quel pronom remplace Nji et moi ?",
-         "r": "Nous",
-         "w": [
-          "Vous",
-          "Ils seulement"
-         ],
-         "y": "Moi et une autre personne forment nous."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fi2-112-cas"
     }
    },
    {
-    "id": "c112-3",
+    "id": "fi2-112-c3",
     "status": "draft",
-    "idea": "Avec toi, mais sans moi, choisis vous.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Nji et toi préparez le journal."
+     "Le verbe doit toujours s’accorder seulement avec Ayuk. Correction : Le sujet comprend les deux éléments.",
+     "Moi disparaît toujours au profit de ils dans le sujet composé. Correction : L’ensemble inclut la personne qui parle.",
+     "Ayuk et toi impose nous alors que le locuteur n’est pas inclus. Correction : La présence de toi commande ici la personne de vous.",
+     "Leur ensemble doit devenir je au singulier. Correction : Les personnes distinctes forment ici un sujet pluriel."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-112-etape-3-card",
-     "type": "mcq",
+     "id": "fi2-112-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "grammaire"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Complète : Nji et toi ___ le bulletin.",
-         "r": "préparez",
-         "w": [
-          "préparons",
-          "préparent"
-         ],
-         "y": "Toi et une autre personne correspondent à vous."
-        },
-        {
-         "q": "Quelle phrase est correcte ?",
-         "r": "Le journaliste et moi vérifions la source.",
-         "w": [
-          "Le journaliste et moi vérifie la source.",
-          "Le journaliste et moi vérifiez la source."
-         ],
-         "y": "Le groupe contient moi : on emploie nous vérifions."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "coordination de sujets : l’association de sujets distincts par et dans les modèles.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le sujet comprend les deux éléments. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "reprise par nous : le remplacement d’un ensemble incluant moi.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’ensemble inclut la personne qui parle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "reprise par vous : le remplacement ici d’un ensemble incluant toi sans moi.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La présence de toi commande ici la personne de vous. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "reprise par ils : le remplacement du groupe masculin ou mixte de troisième personne du modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les personnes distinctes forment ici un sujet pluriel. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Le verbe doit toujours s’accorder seulement avec Ayuk.",
+        "truth": "false",
+        "explain": "Le sujet comprend les deux éléments."
+       },
+       {
+        "text": "Moi disparaît toujours au profit de ils dans le sujet composé.",
+        "truth": "false",
+        "explain": "L’ensemble inclut la personne qui parle."
+       },
+       {
+        "text": "Ayuk et toi impose nous alors que le locuteur n’est pas inclus.",
+        "truth": "false",
+        "explain": "La présence de toi commande ici la personne de vous."
+       },
+       {
+        "text": "Leur ensemble doit devenir je au singulier.",
+        "truth": "false",
+        "explain": "Les personnes distinctes forment ici un sujet pluriel."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -189,33 +186,75 @@
  },
  "questions": [
   {
-   "id": "fi2-112-etape-1",
+   "id": "fi2-112-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "grammaire"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Complète : Bih et Nji ___ .",
-       "r": "écrivent",
+       "q": "Quel terme désigne l’association de sujets distincts par et dans les modèles ?",
+       "r": "coordination de sujets",
        "w": [
-        "écrit",
-        "écris"
+        "reprise par nous",
+        "reprise par vous",
+        "reprise par ils"
        ],
-       "y": "Bih et Nji correspondent à ils ou elles : pluriel."
+       "e": [
+        "Cela désigne le remplacement d’un ensemble incluant moi, plutôt que la notion demandée.",
+        "Cela désigne le remplacement ici d’un ensemble incluant toi sans moi, plutôt que la notion demandée.",
+        "Cela désigne le remplacement du groupe masculin ou mixte de troisième personne du modèle, plutôt que la notion demandée."
+       ],
+       "y": "Le sujet comprend les deux éléments."
       },
       {
-       "q": "Complète : Le journal et la radio ___ la nouvelle.",
-       "r": "annoncent",
+       "q": "Quel terme désigne le remplacement d’un ensemble incluant moi ?",
+       "r": "reprise par nous",
        "w": [
-        "annonce",
-        "annonces"
+        "coordination de sujets",
+        "reprise par vous",
+        "reprise par ils"
        ],
-       "y": "Les deux sujets reliés par et commandent annoncent."
+       "e": [
+        "Cela désigne l’association de sujets distincts par et dans les modèles, plutôt que la notion demandée.",
+        "Cela désigne le remplacement ici d’un ensemble incluant toi sans moi, plutôt que la notion demandée.",
+        "Cela désigne le remplacement du groupe masculin ou mixte de troisième personne du modèle, plutôt que la notion demandée."
+       ],
+       "y": "L’ensemble inclut la personne qui parle."
+      },
+      {
+       "q": "Quel terme désigne le remplacement ici d’un ensemble incluant toi sans moi ?",
+       "r": "reprise par vous",
+       "w": [
+        "coordination de sujets",
+        "reprise par nous",
+        "reprise par ils"
+       ],
+       "e": [
+        "Cela désigne l’association de sujets distincts par et dans les modèles, plutôt que la notion demandée.",
+        "Cela désigne le remplacement d’un ensemble incluant moi, plutôt que la notion demandée.",
+        "Cela désigne le remplacement du groupe masculin ou mixte de troisième personne du modèle, plutôt que la notion demandée."
+       ],
+       "y": "La présence de toi commande ici la personne de vous."
+      },
+      {
+       "q": "Quel terme désigne le remplacement du groupe masculin ou mixte de troisième personne du modèle ?",
+       "r": "reprise par ils",
+       "w": [
+        "coordination de sujets",
+        "reprise par nous",
+        "reprise par vous"
+       ],
+       "e": [
+        "Cela désigne l’association de sujets distincts par et dans les modèles, plutôt que la notion demandée.",
+        "Cela désigne le remplacement d’un ensemble incluant moi, plutôt que la notion demandée.",
+        "Cela désigne le remplacement ici d’un ensemble incluant toi sans moi, plutôt que la notion demandée."
+       ],
+       "y": "Les personnes distinctes forment ici un sujet pluriel."
       }
      ]
     }
@@ -230,145 +269,305 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-112-etape-2",
+   "id": "fi2-112-cas",
    "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih et Ayuk forme un ensemble sujet.\nQuelle notion convient ?",
+       "r": "coordination de sujets",
+       "w": [
+        "reprise par nous",
+        "reprise par vous",
+        "reprise par ils"
+       ],
+       "e": [
+        "Cela concerne le remplacement d’un ensemble incluant moi. Compare cette définition avec le cas présenté.",
+        "Cela concerne le remplacement ici d’un ensemble incluant toi sans moi. Compare cette définition avec le cas présenté.",
+        "Cela concerne le remplacement du groupe masculin ou mixte de troisième personne du modèle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le sujet comprend les deux éléments."
+      },
+      {
+       "q": "Bih et moi équivaut ici à nous.\nQuelle notion convient ?",
+       "r": "reprise par nous",
+       "w": [
+        "coordination de sujets",
+        "reprise par vous",
+        "reprise par ils"
+       ],
+       "e": [
+        "Cela concerne l’association de sujets distincts par et dans les modèles. Compare cette définition avec le cas présenté.",
+        "Cela concerne le remplacement ici d’un ensemble incluant toi sans moi. Compare cette définition avec le cas présenté.",
+        "Cela concerne le remplacement du groupe masculin ou mixte de troisième personne du modèle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’ensemble inclut la personne qui parle."
+      },
+      {
+       "q": "Ayuk et toi équivaut à vous.\nQuelle notion convient ?",
+       "r": "reprise par vous",
+       "w": [
+        "coordination de sujets",
+        "reprise par nous",
+        "reprise par ils"
+       ],
+       "e": [
+        "Cela concerne l’association de sujets distincts par et dans les modèles. Compare cette définition avec le cas présenté.",
+        "Cela concerne le remplacement d’un ensemble incluant moi. Compare cette définition avec le cas présenté.",
+        "Cela concerne le remplacement du groupe masculin ou mixte de troisième personne du modèle. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La présence de toi commande ici la personne de vous."
+      },
+      {
+       "q": "Bih et Ayuk sont repris ici par ils.\nQuelle notion convient ?",
+       "r": "reprise par ils",
+       "w": [
+        "coordination de sujets",
+        "reprise par nous",
+        "reprise par vous"
+       ],
+       "e": [
+        "Cela concerne l’association de sujets distincts par et dans les modèles. Compare cette définition avec le cas présenté.",
+        "Cela concerne le remplacement d’un ensemble incluant moi. Compare cette définition avec le cas présenté.",
+        "Cela concerne le remplacement ici d’un ensemble incluant toi sans moi. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les personnes distinctes forment ici un sujet pluriel."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-112-accorder",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "s": "Bih et Ayuk",
+       "p": 6
+      },
+      {
+       "s": "Bih et moi",
+       "p": 4
+      },
+      {
+       "s": "Ayuk et toi",
+       "p": 5
+      },
+      {
+       "s": "Toi et moi",
+       "p": 4
+      }
+     ]
+    },
+    "v": {
+     "pick": [
+      "lire",
+      "écrire",
+      "parler",
+      "faire"
+     ]
+    }
+   },
+   "prompt": "Au présent, complète : « {X.s} ___ ». Verbe : {v}. Les éléments nomment ici des personnes distinctes.",
+   "correct": "{fr2Present(v,X.p)}",
+   "distractors": [
+    {
+     "text": "{fr2Present(v,X.p==4 ? 5 : 4)}",
+     "misconception": "personne"
+    },
+    {
+     "text": "{fr2Present(v,2)}",
+     "misconception": "sing"
+    },
+    {
+     "text": "{fr2Present(v,X.p==6 ? 5 : 6)}",
+     "misconception": "autre"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "personne",
+     "explain": "Cette forme correspond à une autre personne grammaticale que le sujet composé."
+    },
+    {
+     "id": "sing",
+     "explain": "Les éléments distincts coordonnés par et appellent ici un pluriel."
+    },
+    {
+     "id": "autre",
+     "explain": "Le pluriel ne suffit pas : il faut la bonne personne grammaticale."
+    }
+   ],
+   "solution": [
+    "Remplace l’ensemble du sujet par le pronom personnel qui convient.",
+    "L’accord donne {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-112-relier",
+   "type": "matching",
    "level": 2,
    "review": "authored",
    "sources": [
-    "grammaire"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Complète : Bih et moi ___ un article.",
-       "r": "préparons",
-       "w": [
-        "préparent",
-        "préparez"
-       ],
-       "y": "Moi inclut le locuteur : nous préparons."
-      },
-      {
-       "q": "Quel pronom remplace Nji et moi ?",
-       "r": "Nous",
-       "w": [
-        "Vous",
-        "Ils seulement"
-       ],
-       "y": "Moi et une autre personne forment nous."
-      }
-     ]
-    }
-   },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
     {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
+     "left": "coordination de sujets",
+     "right": "Bih et Ayuk forme un ensemble sujet."
     },
     {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
+     "left": "reprise par nous",
+     "right": "Bih et moi équivaut ici à nous."
     },
     {
-     "id": "w1",
-     "explain": "{X.y}"
+     "left": "reprise par vous",
+     "right": "Ayuk et toi équivaut à vous."
+    },
+    {
+     "left": "reprise par ils",
+     "right": "Bih et Ayuk sont repris ici par ils."
     }
    ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-112-etape-3",
-   "type": "mcq",
+   "id": "fi2-112-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "grammaire"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Complète : Nji et toi ___ le bulletin.",
-       "r": "préparez",
-       "w": [
-        "préparons",
-        "préparent"
-       ],
-       "y": "Toi et une autre personne correspondent à vous."
-      },
-      {
-       "q": "Quelle phrase est correcte ?",
-       "r": "Le journaliste et moi vérifions la source.",
-       "w": [
-        "Le journaliste et moi vérifie la source.",
-        "Le journaliste et moi vérifiez la source."
-       ],
-       "y": "Le groupe contient moi : on emploie nous vérifions."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "coordination de sujets : l’association de sujets distincts par et dans les modèles.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le sujet comprend les deux éléments. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "reprise par nous : le remplacement d’un ensemble incluant moi.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’ensemble inclut la personne qui parle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "reprise par vous : le remplacement ici d’un ensemble incluant toi sans moi.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La présence de toi commande ici la personne de vous. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "reprise par ils : le remplacement du groupe masculin ou mixte de troisième personne du modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les personnes distinctes forment ici un sujet pluriel. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le verbe doit toujours s’accorder seulement avec Ayuk.",
+      "truth": "false",
+      "explain": "Le sujet comprend les deux éléments."
+     },
+     {
+      "text": "Moi disparaît toujours au profit de ils dans le sujet composé.",
+      "truth": "false",
+      "explain": "L’ensemble inclut la personne qui parle."
+     },
+     {
+      "text": "Ayuk et toi impose nous alors que le locuteur n’est pas inclus.",
+      "truth": "false",
+      "explain": "La présence de toi commande ici la personne de vous."
+     },
+     {
+      "text": "Leur ensemble doit devenir je au singulier.",
+      "truth": "false",
+      "explain": "Les personnes distinctes forment ici un sujet pluriel."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ]

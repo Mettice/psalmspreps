@@ -266,31 +266,31 @@ Full working after a second miss:
 | 100 | description, portrait et narration | draft | 3 | 4 | — |
 | 101 | Production d’écrits à partir d’images | draft | 3 | 4 | — |
 | 102 | Conjugaison : Le conditionnel présent : Révision | draft | 3 | 4 | — |
-| 104 | Grammaire : Le nom comme sujet | draft | 3 | 3 | — |
-| 105 | Conjugaison : Le futur simple et le conditionnel présent | draft | 3 | 3 | — |
-| 106 | Orthographe : Le son /œ/ Ex. parfum, un | draft | 3 | 3 | — |
-| 107 | Vocabulaire : Lexique lié aux médias : Radio, télé, Presse écrite Internet | draft | 3 | 3 | — |
-| 108 | Expression Orale : Récitation, poèmes/Comptines/chants | draft | 3 | 3 | — |
-| 109 | Lecture : Textes adossés au sous- module | draft | 3 | 3 | — |
-| 110 | Expression écrite : Description | draft | 3 | 3 | yes |
-| 111 | Initiation à la littérature : Lecture suivie de courts textes littéraires liés au sous-module (ou voir œuvres au programme) | draft | 3 | 3 | — |
-| 112 | Grammaire : Les sujets multiples (no+ nom ; nom+ pronom…) | draft | 3 | 3 | — |
-| 113 | Conjugaison : Le passé antérieur | draft | 3 | 3 | — |
-| 114 | Orthographe : Le son /n/ Ex. nature | draft | 3 | 3 | — |
-| 115 | Vocabulaire : Lexique lié aux réseaux sociaux Facebook, Twitter etc.) | draft | 3 | 3 | — |
-| 116 | Expression Orale : Jeux de rôle | draft | 3 | 3 | — |
-| 117 | Expression écrite : Portrait | draft | 3 | 3 | yes |
-| 118 | Grammaire : Les pronoms possessifs sujets | draft | 3 | 3 | — |
-| 119 | Orthographe : Le son /ε/ Ex. vin, pain | draft | 3 | 3 | — |
-| 120 | Vocabulaire : Lexique lié aux correspondances (privées et officielles, demandes, requêtes) | draft | 3 | 3 | — |
-| 121 | Expression orale : Interprétation d’images | draft | 3 | 3 | — |
-| 122 | Expression écrite : Narration | draft | 3 | 3 | yes |
-| 123 | Vocabulaire : Lexique lié à la communication téléphonique (suite) | draft | 3 | 3 | — |
-| 124 | Expression écrite : Production d’écrits à partir d’images | draft | 3 | 3 | yes |
-| 125 | Vocabulaire : Lexique lié à la recherche sur internet | draft | 3 | 3 | — |
-| 126 | Identification et utilisation des points grammaticaux et temps verbaux étudiés | draft | 3 | 3 | — |
-| 127 | Lecture suivie de courts textes littéraires | draft | 3 | 3 | — |
-| 128 | Description portrait narration | draft | 3 | 3 | yes |
+| 104 | Grammaire : Le nom comme sujet | draft | 3 | 5 | — |
+| 105 | Conjugaison : Le futur simple et le conditionnel présent | draft | 3 | 5 | — |
+| 106 | Orthographe : Le son /œ/ Ex. parfum, un | draft | 3 | 5 | — |
+| 107 | Vocabulaire : Lexique lié aux médias : Radio, télé, Presse écrite Internet | draft | 3 | 5 | — |
+| 108 | Expression Orale : Récitation, poèmes/Comptines/chants | draft | 3 | 5 | — |
+| 109 | Lecture : Textes adossés au sous- module | draft | 3 | 5 | — |
+| 110 | Expression écrite : Description | draft | 3 | 5 | yes |
+| 111 | Initiation à la littérature : Lecture suivie de courts textes littéraires liés au sous-module (ou voir œuvres au programme) | draft | 3 | 5 | — |
+| 112 | Grammaire : Les sujets multiples (no+ nom ; nom+ pronom…) | draft | 3 | 5 | — |
+| 113 | Conjugaison : Le passé antérieur | draft | 3 | 5 | — |
+| 114 | Orthographe : Le son /n/ Ex. nature | draft | 3 | 5 | — |
+| 115 | Vocabulaire : Lexique lié aux réseaux sociaux Facebook, Twitter etc.) | draft | 3 | 5 | — |
+| 116 | Expression Orale : Jeux de rôle | draft | 3 | 5 | — |
+| 117 | Expression écrite : Portrait | draft | 3 | 5 | yes |
+| 118 | Grammaire : Les pronoms possessifs sujets | draft | 3 | 5 | — |
+| 119 | Orthographe : Le son /ε/ Ex. vin, pain | draft | 3 | 5 | — |
+| 120 | Vocabulaire : Lexique lié aux correspondances (privées et officielles, demandes, requêtes) | draft | 3 | 5 | — |
+| 121 | Expression orale : Interprétation d’images | draft | 3 | 5 | — |
+| 122 | Expression écrite : Narration | draft | 3 | 5 | yes |
+| 123 | Vocabulaire : Lexique lié à la communication téléphonique (suite) | draft | 3 | 5 | — |
+| 124 | Expression écrite : Production d’écrits à partir d’images | draft | 3 | 5 | yes |
+| 125 | Vocabulaire : Lexique lié à la recherche sur internet | draft | 3 | 5 | — |
+| 126 | Identification et utilisation des points grammaticaux et temps verbaux étudiés | draft | 3 | 5 | — |
+| 127 | Lecture suivie de courts textes littéraires | draft | 3 | 5 | — |
+| 128 | Description portrait narration | draft | 3 | 5 | yes |
 
 ## Lesson 1: Grammaire : L’adjectif qualificatif : emploi
 
@@ -20877,4253 +20877,7138 @@ Prerequisites: none · Skill: fi2-104 (Le nom comme sujet)
 
 **Note** (draft)
 
-> Le sujet indique de qui ou de quoi on parle avec le verbe. Pour le trouver, on peut demander qui est-ce qui ou qu’est-ce qui devant le verbe. Un nom ou un groupe nominal peut être sujet : La journaliste écrit. Le verbe s’accorde avec le nombre du sujet : les journalistes écrivent. Le sujet n’est pas nécessairement le mot le plus proche du verbe : Le frère de mes voisins téléphone. Le nom principal frère est singulier.
+> Le sujet commande la personne et le nombre du verbe. Un nom peut être le noyau d’un groupe sujet : le journal du club arrive. Le complément du club précise journal ; il ne devient pas automatiquement le sujet. Avec les journaux du club, le noyau est pluriel. Pour vérifier, remplace le groupe par il, elle, ils ou elles selon le contexte. La position ou la proximité d’un nom ne suffit pas à reconnaître sa fonction.
 
-**Card c104-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Cherche qui fait l’action exprimée par le verbe.
+> À la fin, tu pourras retrouver le noyau nominal du sujet et accorder un verbe malgré un complément voisin. Acquis mobilisés : les groupes nominaux et les formes du présent. Pour la suite : les sujets multiples et les reprises possessives.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> Le sujet commande la personne et le nombre du verbe. Un nom peut être le noyau d’un groupe sujet : le journal du club arrive. Le complément du club précise journal ; il ne devient pas automatiquement le sujet. Avec les journaux du club, le noyau est pluriel. Pour vérifier, remplace le groupe par il, elle, ils ou elles selon le contexte. La position ou la proximité d’un nom ne suffit pas à reconnaître sa fonction.
+
+**Learn: Lire le modèle original** (draft)
+
+> Modèle original : Le journal du club arrive. Les journaux du club arrivent. La responsable des fiches entre ; les responsables du journal entrent. Le complément voisin ne change pas le nombre du noyau. Ces phrases sont des exemples fictifs, pas un relevé de présence.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Encadre le sujet complet, repère son noyau et distingue ses compléments. Essaie une reprise personnelle puis accorde le verbe. Relis pour vérifier qui ou quoi est présenté comme sujet.
+
+**Learn: key words and examples** (draft)
+
+- **groupe sujet**: le groupe commandant ici l’accord du verbe
+- **noyau nominal**: le nom central du groupe sujet
+- **complément du nom**: un groupe apportant une précision au nom
+- **accord verbal**: le choix de la forme selon le sujet
+
+
+Common mistake: “Tout sujet se réduit forcément au dernier nom de la phrase.” → “le groupe commandant ici l’accord du verbe.”. La fonction doit être identifiée, pas devinée par position.
+
+**Card fi2-104-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _La journaliste écrit : la journaliste est sujet._  
+> _groupe sujet : le groupe commandant ici l’accord du verbe._  
+> _noyau nominal : le nom central du groupe sujet._  
+> _complément du nom : un groupe apportant une précision au nom._  
+> _accord verbal : le choix de la forme selon le sujet._  
 
-Check question: `fi2-104-etape-1` · multiple choice, level 1 · **authored key**, reused from practice
+Check question: `fi2-104-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Dans « La radio diffuse un débat », quel groupe est sujet ?
+> Quel terme désigne le choix de la forme selon le sujet ?
 
-- ◻️ diffuse  
-  _↳ feedback if chosen: La radio est le sujet de diffuse._
-- ✅ La radio
-- ◻️ un débat  
-  _↳ feedback if chosen: La radio est le sujet de diffuse._
+- ◻️ groupe sujet  
+  _↳ feedback if chosen: Cela désigne le groupe commandant ici l’accord du verbe, plutôt que la notion demandée._
+- ◻️ noyau nominal  
+  _↳ feedback if chosen: Cela désigne le nom central du groupe sujet, plutôt que la notion demandée._
+- ✅ accord verbal
+- ◻️ complément du nom  
+  _↳ feedback if chosen: Cela désigne un groupe apportant une précision au nom, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> La radio est le sujet de diffuse.  
-> La réponse est : La radio.  
+> Le sujet pluriel commande ici le pluriel.  
+> Donc la réponse est « accord verbal ».  
 
-**Card c104-2** (draft)
+**Card fi2-104-c2** (draft)
 
-> Le verbe s’accorde avec le nom principal du sujet.
+> Lis le contexte avant de nommer la notion.
 >
-> _Les journalistes écrivent._  
+> _Le journal du club est le sujet complet du modèle._  
+> _Journal est le noyau de le journal du club._  
+> _Du club précise journal._  
+> _Les journaux arrivent porte le pluriel du sujet._  
 
-Check question: `fi2-104-etape-2-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-104-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Complète : Les journalistes ___ un article.
+> Le journal du club est le sujet complet du modèle.
+> Quelle notion convient ?
 
-- ✅ écrivent
-- ◻️ écris  
-  _↳ feedback if chosen: Le sujet est pluriel : écrivent._
-- ◻️ écrit  
-  _↳ feedback if chosen: Le sujet est pluriel : écrivent._
+- ✅ groupe sujet
+- ◻️ complément du nom  
+  _↳ feedback if chosen: Cela concerne un groupe apportant une précision au nom. Compare cette définition avec le cas présenté._
+- ◻️ accord verbal  
+  _↳ feedback if chosen: Cela concerne le choix de la forme selon le sujet. Compare cette définition avec le cas présenté._
+- ◻️ noyau nominal  
+  _↳ feedback if chosen: Cela concerne le nom central du groupe sujet. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Le sujet est pluriel : écrivent.  
-> La réponse est : écrivent.  
+> La fonction doit être identifiée, pas devinée par position.  
+> Donc la réponse est « groupe sujet ».  
 
-**Card c104-3** (draft)
+**Card fi2-104-c3** (draft)
 
-> Un complément du nom ne change pas le nombre du nom principal.
+> Corrige sans changer le sens voulu.
 >
-> _Le frère des voisins téléphone._  
+> _Tout sujet se réduit forcément au dernier nom de la phrase. Correction : La fonction doit être identifiée, pas devinée par position._  
+> _Club commande toujours le nombre de journal. Correction : Le complément précise le noyau sans le remplacer._  
+> _Chaque complément du nom devient le verbe de la phrase. Correction : Ce groupe précise un nom, il n’est pas une forme verbale._  
+> _Un noyau pluriel impose toujours la forme singulière. Correction : Le sujet pluriel commande ici le pluriel._  
 
-Check question: `fi2-104-etape-3-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-104-corriger-card` · spot the error, level 1 · **authored key**
 
-> Complète : Les amis de ma sœur ___ .
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ✅ téléphonent
-- ◻️ téléphones  
-  _↳ feedback if chosen: Le nom principal amis est pluriel ; sœur n’est pas le sujet du verbe._
-- ◻️ téléphone  
-  _↳ feedback if chosen: Le nom principal amis est pluriel ; sœur n’est pas le sujet du verbe._
+- ◻️ noyau nominal : le nom central du groupe sujet.  
+  _↳ explanation: Cette distinction est correcte : Le complément précise le noyau sans le remplacer. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ groupe sujet : le groupe commandant ici l’accord du verbe.  
+  _↳ explanation: Cette distinction est correcte : La fonction doit être identifiée, pas devinée par position. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Club commande toujours le nombre de journal.  
+  _↳ explanation: Le complément précise le noyau sans le remplacer._
+- ◻️ accord verbal : le choix de la forme selon le sujet.  
+  _↳ explanation: Cette distinction est correcte : Le sujet pluriel commande ici le pluriel. Cherche plutôt une phrase qui contredit le sens ou la règle._
 
 Full working after a second miss:
 
-> Le nom principal amis est pluriel ; sœur n’est pas le sujet du verbe.  
-> La réponse est : téléphonent.  
+> La phrase fausse est « Club commande toujours le nombre de journal. ».  
+> Le complément précise le noyau sans le remplacer.  
 
 **Worked example** (draft)
 
-> Complète : Les journalistes ___ un article.
+> Complète : les journaux du club ___, avec arriver au présent.
 
-1. Le verbe s’accorde avec le nom principal du sujet.
-2. Le sujet est pluriel : écrivent.
+1. Les journaux du club est le sujet ; journaux est le noyau pluriel.
+2. Le complément du club ne remplace pas ce noyau.
 
-**Answer:** écrivent
+**Answer:** Les journaux du club arrivent.
 
-**Practice** `fi2-104-etape-1` · multiple choice, level 1 · **authored key**
+**Practice** `fi2-104-notions` · multiple choice, level 1 · **authored key**
 
-> Dans « Le présentateur annonce les nouvelles », quel groupe est sujet ?
+> Quel terme désigne le nom central du groupe sujet ?
 
-- ◻️ annonce  
-  _↳ feedback if chosen: Le présentateur est celui qui annonce._
-- ◻️ les nouvelles  
-  _↳ feedback if chosen: Le présentateur est celui qui annonce._
-- ✅ Le présentateur
-
-Full working after a second miss:
-
-> Le présentateur est celui qui annonce.  
-> La réponse est : Le présentateur.  
-
-> Dans « La radio diffuse un débat », quel groupe est sujet ?
-
-- ✅ La radio
-- ◻️ diffuse  
-  _↳ feedback if chosen: La radio est le sujet de diffuse._
-- ◻️ un débat  
-  _↳ feedback if chosen: La radio est le sujet de diffuse._
+- ◻️ complément du nom  
+  _↳ feedback if chosen: Cela désigne un groupe apportant une précision au nom, plutôt que la notion demandée._
+- ◻️ groupe sujet  
+  _↳ feedback if chosen: Cela désigne le groupe commandant ici l’accord du verbe, plutôt que la notion demandée._
+- ✅ noyau nominal
+- ◻️ accord verbal  
+  _↳ feedback if chosen: Cela désigne le choix de la forme selon le sujet, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> La radio est le sujet de diffuse.  
-> La réponse est : La radio.  
+> Le complément précise le noyau sans le remplacer.  
+> Donc la réponse est « noyau nominal ».  
 
-**Practice** `fi2-104-etape-2` · multiple choice, level 2 · **authored key**
+> Quel terme désigne le groupe commandant ici l’accord du verbe ?
 
-> Complète : Les journalistes ___ un article.
-
-- ✅ écrivent
-- ◻️ écrit  
-  _↳ feedback if chosen: Le sujet est pluriel : écrivent._
-- ◻️ écris  
-  _↳ feedback if chosen: Le sujet est pluriel : écrivent._
-
-Full working after a second miss:
-
-> Le sujet est pluriel : écrivent.  
-> La réponse est : écrivent.  
-
-> Complète : Les journalistes ___ un article.
-
-- ◻️ écrit  
-  _↳ feedback if chosen: Le sujet est pluriel : écrivent._
-- ◻️ écris  
-  _↳ feedback if chosen: Le sujet est pluriel : écrivent._
-- ✅ écrivent
+- ◻️ noyau nominal  
+  _↳ feedback if chosen: Cela désigne le nom central du groupe sujet, plutôt que la notion demandée._
+- ◻️ complément du nom  
+  _↳ feedback if chosen: Cela désigne un groupe apportant une précision au nom, plutôt que la notion demandée._
+- ✅ groupe sujet
+- ◻️ accord verbal  
+  _↳ feedback if chosen: Cela désigne le choix de la forme selon le sujet, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le sujet est pluriel : écrivent.  
-> La réponse est : écrivent.  
+> La fonction doit être identifiée, pas devinée par position.  
+> Donc la réponse est « groupe sujet ».  
 
-**Practice** `fi2-104-etape-3` · multiple choice, level 3 · **authored key**
+**Practice** `fi2-104-cas` · multiple choice, level 1 · **authored key**
 
-> Complète : Le frère de mes voisins ___ .
+> Du club précise journal.
+> Quelle notion convient ?
 
-- ◻️ téléphonent  
-  _↳ feedback if chosen: Le nom principal frère est singulier ; voisins est son complément._
-- ◻️ téléphonez  
-  _↳ feedback if chosen: Le nom principal frère est singulier ; voisins est son complément._
-- ✅ téléphone
-
-Full working after a second miss:
-
-> Le nom principal frère est singulier ; voisins est son complément.  
-> La réponse est : téléphone.  
-
-> Complète : Les amis de ma sœur ___ .
-
-- ◻️ téléphones  
-  _↳ feedback if chosen: Le nom principal amis est pluriel ; sœur n’est pas le sujet du verbe._
-- ◻️ téléphone  
-  _↳ feedback if chosen: Le nom principal amis est pluriel ; sœur n’est pas le sujet du verbe._
-- ✅ téléphonent
+- ◻️ groupe sujet  
+  _↳ feedback if chosen: Cela concerne le groupe commandant ici l’accord du verbe. Compare cette définition avec le cas présenté._
+- ◻️ noyau nominal  
+  _↳ feedback if chosen: Cela concerne le nom central du groupe sujet. Compare cette définition avec le cas présenté._
+- ✅ complément du nom
+- ◻️ accord verbal  
+  _↳ feedback if chosen: Cela concerne le choix de la forme selon le sujet. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Le nom principal amis est pluriel ; sœur n’est pas le sujet du verbe.  
-> La réponse est : téléphonent.  
+> Ce groupe précise un nom, il n’est pas une forme verbale.  
+> Donc la réponse est « complément du nom ».  
+
+> Les journaux arrivent porte le pluriel du sujet.
+> Quelle notion convient ?
+
+- ◻️ groupe sujet  
+  _↳ feedback if chosen: Cela concerne le groupe commandant ici l’accord du verbe. Compare cette définition avec le cas présenté._
+- ◻️ noyau nominal  
+  _↳ feedback if chosen: Cela concerne le nom central du groupe sujet. Compare cette définition avec le cas présenté._
+- ◻️ complément du nom  
+  _↳ feedback if chosen: Cela concerne un groupe apportant une précision au nom. Compare cette définition avec le cas présenté._
+- ✅ accord verbal
+
+Full working after a second miss:
+
+> Le sujet pluriel commande ici le pluriel.  
+> Donc la réponse est « accord verbal ».  
+
+**Practice** `fi2-104-accorder` · multiple choice, level 2 · computed by rule
+
+> Au présent, complète : « Le journal du club ___ ». Verbe : arriver.
+
+- ◻️ arrivez  
+  _↳ feedback if chosen: Le sujet n’est pas vous._
+- ✅ arrive
+- ◻️ arrivons  
+  _↳ feedback if chosen: Le sujet n’est pas nous._
+- ◻️ arrivent  
+  _↳ feedback if chosen: Le nombre ne correspond pas au noyau du sujet donné._
+
+Full working after a second miss:
+
+> Repère le groupe sujet et son noyau, pas seulement le nom le plus proche.  
+> La forme du modèle est arrive.  
+
+> Au présent, complète : « La responsable des fiches ___ ». Verbe : rester.
+
+- ◻️ restent  
+  _↳ feedback if chosen: Le nombre ne correspond pas au noyau du sujet donné._
+- ◻️ restez  
+  _↳ feedback if chosen: Le sujet n’est pas vous._
+- ◻️ restons  
+  _↳ feedback if chosen: Le sujet n’est pas nous._
+- ✅ reste
+
+Full working after a second miss:
+
+> Repère le groupe sujet et son noyau, pas seulement le nom le plus proche.  
+> La forme du modèle est reste.  
+
+**Practice** `fi2-104-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Le journal du club est le sujet complet du modèle. · Journal est le noyau de le journal du club. · Les journaux arrivent porte le pluriel du sujet.
+- accord verbal → **Les journaux arrivent porte le pluriel du sujet.**
+- groupe sujet → **Le journal du club est le sujet complet du modèle.**
+- noyau nominal → **Journal est le noyau de le journal du club.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> accord verbal → Les journaux arrivent porte le pluriel du sujet.  
+> groupe sujet → Le journal du club est le sujet complet du modèle.  
+> noyau nominal → Journal est le noyau de le journal du club.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Les journaux arrivent porte le pluriel du sujet. · Journal est le noyau de le journal du club. · Du club précise journal.
+- complément du nom → **Du club précise journal.**
+- noyau nominal → **Journal est le noyau de le journal du club.**
+- accord verbal → **Les journaux arrivent porte le pluriel du sujet.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> complément du nom → Du club précise journal.  
+> noyau nominal → Journal est le noyau de le journal du club.  
+> accord verbal → Les journaux arrivent porte le pluriel du sujet.  
+
+**Practice** `fi2-104-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ complément du nom : un groupe apportant une précision au nom.  
+  _↳ explanation: Cette distinction est correcte : Ce groupe précise un nom, il n’est pas une forme verbale. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ groupe sujet : le groupe commandant ici l’accord du verbe.  
+  _↳ explanation: Cette distinction est correcte : La fonction doit être identifiée, pas devinée par position. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Un noyau pluriel impose toujours la forme singulière.  
+  _↳ explanation: Le sujet pluriel commande ici le pluriel._
+- ◻️ accord verbal : le choix de la forme selon le sujet.  
+  _↳ explanation: Cette distinction est correcte : Le sujet pluriel commande ici le pluriel. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Un noyau pluriel impose toujours la forme singulière. ».  
+> Le sujet pluriel commande ici le pluriel.  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ accord verbal : le choix de la forme selon le sujet.  
+  _↳ explanation: Cette distinction est correcte : Le sujet pluriel commande ici le pluriel. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ noyau nominal : le nom central du groupe sujet.  
+  _↳ explanation: Cette distinction est correcte : Le complément précise le noyau sans le remplacer. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ groupe sujet : le groupe commandant ici l’accord du verbe.  
+  _↳ explanation: Cette distinction est correcte : La fonction doit être identifiée, pas devinée par position. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Chaque complément du nom devient le verbe de la phrase.  
+  _↳ explanation: Ce groupe précise un nom, il n’est pas une forme verbale._
+
+Full working after a second miss:
+
+> La phrase fausse est « Chaque complément du nom devient le verbe de la phrase. ».  
+> Ce groupe précise un nom, il n’est pas une forme verbale.  
 
 ## Lesson 105: Conjugaison : Le futur simple et le conditionnel présent
 
-Prerequisites: none · Skill: fi2-105 (Futur simple et conditionnel présent)
+Prerequisites: 104 · Skill: fi2-105 (Futur simple et conditionnel présent)
 
 **Note** (draft)
 
-> Le futur simple situe une action à venir : Demain, nous publierons le journal. Le conditionnel présent peut exprimer une demande polie ou une hypothèse : Pourriez-vous répéter ? Si nous avions un ordinateur, nous publierions plus vite.
-> Ces temps utilisent le même radical : futur en -ai, -as, -a, -ons, -ez, -ont ; conditionnel en -ais, -ais, -ait, -ions, -iez, -aient. Avec si + imparfait, l’hypothèse peut être suivie du conditionnel : si tu venais, nous parlerions.
+> Futur simple et conditionnel présent peuvent partager une base, mais leurs terminaisons diffèrent. Le futur emploie -ai, -as, -a, -ons, -ez, -ont ; le conditionnel, -ais, -ais, -ait, -ions, -iez, -aient. Le futur peut annoncer une action à venir. Le conditionnel peut présenter une conséquence envisagée sous une condition ou atténuer une demande. Dans le modèle si + imparfait, la conséquence peut être au conditionnel. Les radicaux de envoyer et recevoir doivent être connus, pas inventés à partir de la seule fin de l’infinitif.
 
-**Card c105-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Le futur situe ici une action à venir.
+> À la fin, tu pourras former les deux temps et choisir la forme correspondant à une annonce ou une hypothèse explicitée. Acquis mobilisés : le sujet nominal et les terminaisons personnelles. Pour la suite : les récits et les demandes formulées avec précision.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> Futur simple et conditionnel présent peuvent partager une base, mais leurs terminaisons diffèrent. Le futur emploie -ai, -as, -a, -ons, -ez, -ont ; le conditionnel, -ais, -ais, -ait, -ions, -iez, -aient. Le futur peut annoncer une action à venir. Le conditionnel peut présenter une conséquence envisagée sous une condition ou atténuer une demande. Dans le modèle si + imparfait, la conséquence peut être au conditionnel. Les radicaux de envoyer et recevoir doivent être connus, pas inventés à partir de la seule fin de l’infinitif.
+
+**Learn: Lire le modèle original** (draft)
+
+> Modèles originaux : Demain, nous enverrons une fiche. Si nous avions la fiche, nous la lirions. Compare je recevrai et je recevrais. La forme seule ne remplace pas l’analyse du contexte.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Repère temps demandé, sujet et intention. Retrouve le radical, ajoute la terminaison puis relis l’élision et les accents. Ne confonds pas un projet envisagé avec un résultat déjà obtenu.
+
+**Learn: key words and examples** (draft)
+
+- **futur simple**: le temps illustré par une annonce à venir du modèle
+- **conditionnel présent**: la forme utilisée dans la conséquence hypothétique étudiée
+- **radical commun**: la base partagée ici par futur et conditionnel
+- **terminaison distinctive**: la marque différenciant les temps pour une même personne
+
+
+Common mistake: “Le futur simple exprime uniquement une habitude passée.” → “le temps illustré par une annonce à venir du modèle.”. Le modèle vise ici l’avenir.
+
+**Card fi2-105-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _Demain, nous publierons le journal._  
+> _futur simple : le temps illustré par une annonce à venir du modèle._  
+> _conditionnel présent : la forme utilisée dans la conséquence hypothétique étudiée._  
+> _radical commun : la base partagée ici par futur et conditionnel._  
+> _terminaison distinctive : la marque différenciant les temps pour une même personne._  
 
-Check question: `fi2-105-etape-1` · multiple choice, level 1 · **authored key**, reused from practice
+Check question: `fi2-105-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Quelle forme est au conditionnel présent ?
+> Quel terme désigne la forme utilisée dans la conséquence hypothétique étudiée ?
 
-- ◻️ Je téléphone.  
-  _↳ feedback if chosen: La terminaison -ais appartient ici au conditionnel._
-- ✅ Je téléphonerais.
-- ◻️ Je téléphonerai.  
-  _↳ feedback if chosen: La terminaison -ais appartient ici au conditionnel._
+- ◻️ futur simple  
+  _↳ feedback if chosen: Cela désigne le temps illustré par une annonce à venir du modèle, plutôt que la notion demandée._
+- ◻️ radical commun  
+  _↳ feedback if chosen: Cela désigne la base partagée ici par futur et conditionnel, plutôt que la notion demandée._
+- ◻️ terminaison distinctive  
+  _↳ feedback if chosen: Cela désigne la marque différenciant les temps pour une même personne, plutôt que la notion demandée._
+- ✅ conditionnel présent
 
 Full working after a second miss:
 
-> La terminaison -ais appartient ici au conditionnel.  
-> La réponse est : Je téléphonerais..  
+> La conséquence reste envisagée sous une condition.  
+> Donc la réponse est « conditionnel présent ».  
 
-**Card c105-2** (draft)
+**Card fi2-105-c2** (draft)
 
-> Les terminaisons distinguent futur et conditionnel.
+> Lis le contexte avant de nommer la notion.
 >
-> _Nous parlerons ; nous parlerions._  
+> _Nous enverrons demain présente une action à venir._  
+> _Si nous avions la fiche, nous la lirions._  
+> _Recevr- sert aux deux temps étudiés._  
+> _Je recevrai diffère de je recevrais._  
 
-Check question: `fi2-105-etape-2-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-105-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Complète : Si nous avions le temps, nous ___ davantage.
+> Nous enverrons demain présente une action à venir.
+> Quelle notion convient ?
 
-- ◻️ parlez  
-  _↳ feedback if chosen: Si + imparfait appelle ici une conséquence au conditionnel._
-- ✅ parlerions
-- ◻️ parlerons  
-  _↳ feedback if chosen: Si + imparfait appelle ici une conséquence au conditionnel._
+- ◻️ conditionnel présent  
+  _↳ feedback if chosen: Cela concerne la forme utilisée dans la conséquence hypothétique étudiée. Compare cette définition avec le cas présenté._
+- ◻️ radical commun  
+  _↳ feedback if chosen: Cela concerne la base partagée ici par futur et conditionnel. Compare cette définition avec le cas présenté._
+- ✅ futur simple
+- ◻️ terminaison distinctive  
+  _↳ feedback if chosen: Cela concerne la marque différenciant les temps pour une même personne. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Si + imparfait appelle ici une conséquence au conditionnel.  
-> La réponse est : parlerions.  
+> Le modèle vise ici l’avenir.  
+> Donc la réponse est « futur simple ».  
 
-**Card c105-3** (draft)
+**Card fi2-105-c3** (draft)
 
-> Choisis le temps selon la situation, pas seulement selon la fin du mot.
+> Corrige sans changer le sens voulu.
 >
-> _Une demande polie peut utiliser le conditionnel._  
+> _Le futur simple exprime uniquement une habitude passée. Correction : Le modèle vise ici l’avenir._  
+> _Une hypothèse prouve déjà sa réalisation. Correction : La conséquence reste envisagée sous une condition._  
+> _Recevoir garde toujours recevoir- dans ces formes. Correction : Le radical particulier est recevr-._  
+> _Une terminaison du futur est interchangeable avec celle du conditionnel. Correction : Changer la terminaison change ici le temps et sa valeur possible._  
 
-Check question: `fi2-105-etape-3-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-105-corriger-card` · spot the error, level 1 · **authored key**
 
-> Quelle demande est formulée au conditionnel ?
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ✅ Pourriez-vous répéter, s’il vous plaît ?
-- ◻️ Vous répétez chaque jour.  
-  _↳ feedback if chosen: Pourriez est un conditionnel employé pour une demande polie._
-- ◻️ Vous répéterez demain.  
-  _↳ feedback if chosen: Pourriez est un conditionnel employé pour une demande polie._
+- ◻️ terminaison distinctive : la marque différenciant les temps pour une même personne.  
+  _↳ explanation: Cette distinction est correcte : Changer la terminaison change ici le temps et sa valeur possible. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Une terminaison du futur est interchangeable avec celle du conditionnel.  
+  _↳ explanation: Changer la terminaison change ici le temps et sa valeur possible._
+- ◻️ radical commun : la base partagée ici par futur et conditionnel.  
+  _↳ explanation: Cette distinction est correcte : Le radical particulier est recevr-. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ conditionnel présent : la forme utilisée dans la conséquence hypothétique étudiée.  
+  _↳ explanation: Cette distinction est correcte : La conséquence reste envisagée sous une condition. Cherche plutôt une phrase qui contredit le sens ou la règle._
 
 Full working after a second miss:
 
-> Pourriez est un conditionnel employé pour une demande polie.  
-> La réponse est : Pourriez-vous répéter, s’il vous plaît ?.  
+> La phrase fausse est « Une terminaison du futur est interchangeable avec celle du conditionnel. ».  
+> Changer la terminaison change ici le temps et sa valeur possible.  
 
 **Worked example** (draft)
 
-> Complète avec parler au futur : Demain, nous ___ .
+> Nous enverrons demain présente une action à venir. Explique le choix.
 
-1. Les terminaisons distinguent futur et conditionnel.
-2. Au futur, nous prend la terminaison -ons sur le radical parler-.
+1. le temps illustré par une annonce à venir du modèle.
+2. Le modèle vise ici l’avenir.
 
-**Answer:** parlerons
+**Answer:** futur simple
 
-**Practice** `fi2-105-etape-1` · multiple choice, level 1 · **authored key**
+**Practice** `fi2-105-notions` · multiple choice, level 1 · **authored key**
 
-> Quelle phrase est au futur simple ?
+> Quel terme désigne la forme utilisée dans la conséquence hypothétique étudiée ?
 
-- ◻️ Nous publierions si nous pouvions.  
-  _↳ feedback if chosen: Publierons est au futur simple._
-- ◻️ Nous publions maintenant.  
-  _↳ feedback if chosen: Publierons est au futur simple._
-- ✅ Nous publierons demain.
-
-Full working after a second miss:
-
-> Publierons est au futur simple.  
-> La réponse est : Nous publierons demain..  
-
-> Quelle phrase est au futur simple ?
-
-- ◻️ Nous publions maintenant.  
-  _↳ feedback if chosen: Publierons est au futur simple._
-- ✅ Nous publierons demain.
-- ◻️ Nous publierions si nous pouvions.  
-  _↳ feedback if chosen: Publierons est au futur simple._
+- ◻️ futur simple  
+  _↳ feedback if chosen: Cela désigne le temps illustré par une annonce à venir du modèle, plutôt que la notion demandée._
+- ✅ conditionnel présent
+- ◻️ terminaison distinctive  
+  _↳ feedback if chosen: Cela désigne la marque différenciant les temps pour une même personne, plutôt que la notion demandée._
+- ◻️ radical commun  
+  _↳ feedback if chosen: Cela désigne la base partagée ici par futur et conditionnel, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Publierons est au futur simple.  
-> La réponse est : Nous publierons demain..  
+> La conséquence reste envisagée sous une condition.  
+> Donc la réponse est « conditionnel présent ».  
 
-**Practice** `fi2-105-etape-2` · multiple choice, level 2 · **authored key**
+> Quel terme désigne la forme utilisée dans la conséquence hypothétique étudiée ?
 
-> Complète : Si nous avions le temps, nous ___ davantage.
-
-- ✅ parlerions
-- ◻️ parlez  
-  _↳ feedback if chosen: Si + imparfait appelle ici une conséquence au conditionnel._
-- ◻️ parlerons  
-  _↳ feedback if chosen: Si + imparfait appelle ici une conséquence au conditionnel._
-
-Full working after a second miss:
-
-> Si + imparfait appelle ici une conséquence au conditionnel.  
-> La réponse est : parlerions.  
-
-> Complète avec parler au futur : Demain, nous ___ .
-
-- ✅ parlerons
-- ◻️ parlerions  
-  _↳ feedback if chosen: Au futur, nous prend la terminaison -ons sur le radical parler-._
-- ◻️ parlions  
-  _↳ feedback if chosen: Au futur, nous prend la terminaison -ons sur le radical parler-._
+- ✅ conditionnel présent
+- ◻️ futur simple  
+  _↳ feedback if chosen: Cela désigne le temps illustré par une annonce à venir du modèle, plutôt que la notion demandée._
+- ◻️ radical commun  
+  _↳ feedback if chosen: Cela désigne la base partagée ici par futur et conditionnel, plutôt que la notion demandée._
+- ◻️ terminaison distinctive  
+  _↳ feedback if chosen: Cela désigne la marque différenciant les temps pour une même personne, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Au futur, nous prend la terminaison -ons sur le radical parler-.  
-> La réponse est : parlerons.  
+> La conséquence reste envisagée sous une condition.  
+> Donc la réponse est « conditionnel présent ».  
 
-**Practice** `fi2-105-etape-3` · multiple choice, level 3 · **authored key**
+**Practice** `fi2-105-cas` · multiple choice, level 1 · **authored key**
 
-> Quelle phrase respecte l’hypothèse ?
+> Recevr- sert aux deux temps étudiés.
+> Quelle notion convient ?
 
-- ✅ Si tu venais, nous travaillerions ensemble.
-- ◻️ Si tu viendrais, nous travaillerions ensemble.  
-  _↳ feedback if chosen: On utilise ici si + imparfait, puis le conditionnel présent._
-- ◻️ Si tu venais, nous travaillons hier.  
-  _↳ feedback if chosen: On utilise ici si + imparfait, puis le conditionnel présent._
-
-Full working after a second miss:
-
-> On utilise ici si + imparfait, puis le conditionnel présent.  
-> La réponse est : Si tu venais, nous travaillerions ensemble..  
-
-> Quelle phrase respecte l’hypothèse ?
-
-- ◻️ Si tu venais, nous travaillons hier.  
-  _↳ feedback if chosen: On utilise ici si + imparfait, puis le conditionnel présent._
-- ✅ Si tu venais, nous travaillerions ensemble.
-- ◻️ Si tu viendrais, nous travaillerions ensemble.  
-  _↳ feedback if chosen: On utilise ici si + imparfait, puis le conditionnel présent._
+- ◻️ terminaison distinctive  
+  _↳ feedback if chosen: Cela concerne la marque différenciant les temps pour une même personne. Compare cette définition avec le cas présenté._
+- ✅ radical commun
+- ◻️ futur simple  
+  _↳ feedback if chosen: Cela concerne le temps illustré par une annonce à venir du modèle. Compare cette définition avec le cas présenté._
+- ◻️ conditionnel présent  
+  _↳ feedback if chosen: Cela concerne la forme utilisée dans la conséquence hypothétique étudiée. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> On utilise ici si + imparfait, puis le conditionnel présent.  
-> La réponse est : Si tu venais, nous travaillerions ensemble..  
+> Le radical particulier est recevr-.  
+> Donc la réponse est « radical commun ».  
+
+> Je recevrai diffère de je recevrais.
+> Quelle notion convient ?
+
+- ◻️ futur simple  
+  _↳ feedback if chosen: Cela concerne le temps illustré par une annonce à venir du modèle. Compare cette définition avec le cas présenté._
+- ◻️ radical commun  
+  _↳ feedback if chosen: Cela concerne la base partagée ici par futur et conditionnel. Compare cette définition avec le cas présenté._
+- ◻️ conditionnel présent  
+  _↳ feedback if chosen: Cela concerne la forme utilisée dans la conséquence hypothétique étudiée. Compare cette définition avec le cas présenté._
+- ✅ terminaison distinctive
+
+Full working after a second miss:
+
+> Changer la terminaison change ici le temps et sa valeur possible.  
+> Donc la réponse est « terminaison distinctive ».  
+
+**Practice** `fi2-105-conjuguer` · multiple choice, level 2 · computed by rule
+
+> Conjugue « faire » au futur simple, avec « il ».
+
+- ◻️ il ferait  
+  _↳ feedback if chosen: Cette terminaison correspond à l’autre temps comparé._
+- ◻️ il faire  
+  _↳ feedback if chosen: L’infinitif ne porte pas la conjugaison demandée._
+- ◻️ il faisait  
+  _↳ feedback if chosen: Cette forme est à l’imparfait, avec sa base propre._
+- ✅ il fera
+
+Full working after a second miss:
+
+> Les deux temps partagent ici le radical du futur, mais pas les terminaisons.  
+> La forme demandée est il fera.  
+
+> Conjugue « faire » au futur simple, avec « elle ».
+
+- ◻️ elle ferait  
+  _↳ feedback if chosen: Cette terminaison correspond à l’autre temps comparé._
+- ◻️ elle faisait  
+  _↳ feedback if chosen: Cette forme est à l’imparfait, avec sa base propre._
+- ✅ elle fera
+- ◻️ elle faire  
+  _↳ feedback if chosen: L’infinitif ne porte pas la conjugaison demandée._
+
+Full working after a second miss:
+
+> Les deux temps partagent ici le radical du futur, mais pas les terminaisons.  
+> La forme demandée est elle fera.  
+
+**Practice** `fi2-105-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Recevr- sert aux deux temps étudiés. · Nous enverrons demain présente une action à venir. · Je recevrai diffère de je recevrais.
+- futur simple → **Nous enverrons demain présente une action à venir.**
+- terminaison distinctive → **Je recevrai diffère de je recevrais.**
+- radical commun → **Recevr- sert aux deux temps étudiés.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> futur simple → Nous enverrons demain présente une action à venir.  
+> terminaison distinctive → Je recevrai diffère de je recevrais.  
+> radical commun → Recevr- sert aux deux temps étudiés.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Je recevrai diffère de je recevrais. · Nous enverrons demain présente une action à venir. · Recevr- sert aux deux temps étudiés.
+- radical commun → **Recevr- sert aux deux temps étudiés.**
+- futur simple → **Nous enverrons demain présente une action à venir.**
+- terminaison distinctive → **Je recevrai diffère de je recevrais.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> radical commun → Recevr- sert aux deux temps étudiés.  
+> futur simple → Nous enverrons demain présente une action à venir.  
+> terminaison distinctive → Je recevrai diffère de je recevrais.  
+
+**Practice** `fi2-105-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ terminaison distinctive : la marque différenciant les temps pour une même personne.  
+  _↳ explanation: Cette distinction est correcte : Changer la terminaison change ici le temps et sa valeur possible. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Le futur simple exprime uniquement une habitude passée.  
+  _↳ explanation: Le modèle vise ici l’avenir._
+- ◻️ radical commun : la base partagée ici par futur et conditionnel.  
+  _↳ explanation: Cette distinction est correcte : Le radical particulier est recevr-. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ futur simple : le temps illustré par une annonce à venir du modèle.  
+  _↳ explanation: Cette distinction est correcte : Le modèle vise ici l’avenir. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Le futur simple exprime uniquement une habitude passée. ».  
+> Le modèle vise ici l’avenir.  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ radical commun : la base partagée ici par futur et conditionnel.  
+  _↳ explanation: Cette distinction est correcte : Le radical particulier est recevr-. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Recevoir garde toujours recevoir- dans ces formes.  
+  _↳ explanation: Le radical particulier est recevr-._
+- ◻️ conditionnel présent : la forme utilisée dans la conséquence hypothétique étudiée.  
+  _↳ explanation: Cette distinction est correcte : La conséquence reste envisagée sous une condition. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ terminaison distinctive : la marque différenciant les temps pour une même personne.  
+  _↳ explanation: Cette distinction est correcte : Changer la terminaison change ici le temps et sa valeur possible. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Recevoir garde toujours recevoir- dans ces formes. ».  
+> Le radical particulier est recevr-.  
 
 ## Lesson 106: Orthographe : Le son /œ/ Ex. parfum, un
 
-Prerequisites: none · Skill: fi2-106 (Le son nasal [œ̃] : un, parfum)
+Prerequisites: 105 · Skill: fi2-106 (Préparer [œ̃] : un et parfum)
 
 **Note** (draft)
 
-> Le modèle de cette leçon est [œ̃] : un, brun, parfum. Observe les graphies des mots modèles. Les symboles de la progression sont interprétés à partir des exemples donnés. Les accents peuvent réaliser les sons de façon différente.
-> L’application vérifie seulement le repérage écrit. Elle ne fournit pas de modèle audio et ne peut pas entendre ta voix. Demande à un enseignant de lire les exemples, puis entraîne-toi oralement avec lui.
+> Dans le modèle phonétique de référence étudié, un, brun, commun et parfum contiennent la voyelle nasale [œ̃]. Les lettres un et um peuvent donc correspondre à ce modèle. Le signe au-dessus de la voyelle indique une nasalité ; il ne demande pas de prononcer séparément toutes les lettres finales. La prononciation varie dans la francophonie : [œ̃] et [ɛ̃] se rapprochent ou se confondent dans certains usages. Les exercices testent les graphies et le modèle annoncé, pas la valeur d’un accent ni une écoute réelle.
 
-**Card c106-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Observe les mots modèles avant de classer.
+> À la fin, tu pourras reconnaître les graphies de la voyelle nasale du modèle sans prétendre écouter un son. Acquis mobilisés : les graphies et les mots des médias. Pour la suite : la consonne [n], le modèle de vin et la pratique orale.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> Dans le modèle phonétique de référence étudié, un, brun, commun et parfum contiennent la voyelle nasale [œ̃]. Les lettres un et um peuvent donc correspondre à ce modèle. Le signe au-dessus de la voyelle indique une nasalité ; il ne demande pas de prononcer séparément toutes les lettres finales. La prononciation varie dans la francophonie : [œ̃] et [ɛ̃] se rapprochent ou se confondent dans certains usages. Les exercices testent les graphies et le modèle annoncé, pas la valeur d’un accent ni une écoute réelle.
+
+**Learn: Lire le modèle original** (draft)
+
+> Modèles écrits : un et brun présentent un ; parfum présente um ; commun finit par un. Ces mots ne signifient pas la même chose, même si une partie de leur prononciation correspond au modèle. Dans la suite pain, le modèle scolaire distingue [ɛ̃] de [œ̃], sans nier les usages où les timbres se rapprochent.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Repère le mot écrit et la graphie étudiée. Lis les symboles comme des indications, puis compare avec un modèle oral du professeur si possible. L’écran ne joue aucun enregistrement et ne mesure ni ton audition ni ta prononciation.
+
+**Learn: key words and examples** (draft)
+
+- **voyelle nasale**: une voyelle avec résonance par la cavité nasale
+- **graphie un**: une suite de lettres illustrée à la fin de brun
+- **graphie um**: une suite de lettres illustrée à la fin de parfum
+- **variation de prononciation**: des réalisations différentes selon les usages
+
+
+Common mistake: “Le signe nasal veut dire qu’aucune voyelle n’existe.” → “une voyelle avec résonance par la cavité nasale.”. Il caractérise la voyelle, il ne la supprime pas.
+
+**Card fi2-106-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _un, brun, parfum_  
+> _voyelle nasale : une voyelle avec résonance par la cavité nasale._  
+> _graphie un : une suite de lettres illustrée à la fin de brun._  
+> _graphie um : une suite de lettres illustrée à la fin de parfum._  
+> _variation de prononciation : des réalisations différentes selon les usages._  
 
-Check question: `fi2-106-etape-1` · multiple choice, level 1 · **authored key**, reused from practice
+Check question: `fi2-106-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Quel autre mot appartient à cette série ?
+> Quel terme désigne une suite de lettres illustrée à la fin de parfum ?
 
-- ◻️ pain  
-  _↳ feedback if chosen: Le mot parfum appartient à la même série de modèles._
-- ✅ parfum
-- ◻️ nature  
-  _↳ feedback if chosen: Le mot parfum appartient à la même série de modèles._
+- ◻️ graphie un  
+  _↳ feedback if chosen: Cela désigne une suite de lettres illustrée à la fin de brun, plutôt que la notion demandée._
+- ◻️ voyelle nasale  
+  _↳ feedback if chosen: Cela désigne une voyelle avec résonance par la cavité nasale, plutôt que la notion demandée._
+- ◻️ variation de prononciation  
+  _↳ feedback if chosen: Cela désigne des réalisations différentes selon les usages, plutôt que la notion demandée._
+- ✅ graphie um
 
 Full working after a second miss:
 
-> Le mot parfum appartient à la même série de modèles.  
-> La réponse est : parfum.  
+> Le mot conserve sa graphie attestée.  
+> Donc la réponse est « graphie um ».  
 
-**Card c106-2** (draft)
+**Card fi2-106-c2** (draft)
 
-> Le travail écrit prépare la lecture orale.
+> Lis le contexte avant de nommer la notion.
 >
-> _Compare les graphies, puis lis avec le professeur._  
+> _[œ̃] est une voyelle nasale dans le modèle._  
+> _Brun finit par un._  
+> _Parfum finit par um._  
+> _Certains usages rapprochent [œ̃] et [ɛ̃]._  
 
-Check question: `fi2-106-etape-2-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-106-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Qui peut fournir un modèle oral ?
+> Parfum finit par um.
+> Quelle notion convient ?
 
-- ◻️ Le nombre de lettres seul.  
-  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
-- ✅ Un enseignant qui lit les mots.
-- ◻️ Un score écrit sans audio.  
-  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
+- ◻️ variation de prononciation  
+  _↳ feedback if chosen: Cela concerne des réalisations différentes selon les usages. Compare cette définition avec le cas présenté._
+- ◻️ graphie un  
+  _↳ feedback if chosen: Cela concerne une suite de lettres illustrée à la fin de brun. Compare cette définition avec le cas présenté._
+- ✅ graphie um
+- ◻️ voyelle nasale  
+  _↳ feedback if chosen: Cela concerne une voyelle avec résonance par la cavité nasale. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Une prononciation doit être entendue et pratiquée oralement.  
-> La réponse est : Un enseignant qui lit les mots..  
+> Le mot conserve sa graphie attestée.  
+> Donc la réponse est « graphie um ».  
 
-**Card c106-3** (draft)
+**Card fi2-106-c3** (draft)
 
-> Vérifie les deux mots d’une série.
+> Corrige sans changer le sens voulu.
 >
-> _La série modèle est brun, parfum._  
+> _Le signe nasal veut dire qu’aucune voyelle n’existe. Correction : Il caractérise la voyelle, il ne la supprime pas._  
+> _Brun contient la graphie um à la fin. Correction : Il faut observer les lettres réellement écrites._  
+> _Parfum doit être réécrit parfun pour cet exercice. Correction : Le mot conserve sa graphie attestée._  
+> _Tout rapprochement des timbres prouve un défaut moral. Correction : La variation ne justifie aucun jugement sur la personne._  
 
-Check question: `fi2-106-etape-3-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-106-corriger-card` · spot the error, level 1 · **authored key**
 
-> Quelle série contient uniquement les mots modèles ?
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ✅ brun, parfum
-- ◻️ pain, nature  
-  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
-- ◻️ brun, pain  
-  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
+- ◻️ voyelle nasale : une voyelle avec résonance par la cavité nasale.  
+  _↳ explanation: Cette distinction est correcte : Il caractérise la voyelle, il ne la supprime pas. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Brun contient la graphie um à la fin.  
+  _↳ explanation: Il faut observer les lettres réellement écrites._
+- ◻️ variation de prononciation : des réalisations différentes selon les usages.  
+  _↳ explanation: Cette distinction est correcte : La variation ne justifie aucun jugement sur la personne. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ graphie um : une suite de lettres illustrée à la fin de parfum.  
+  _↳ explanation: Cette distinction est correcte : Le mot conserve sa graphie attestée. Cherche plutôt une phrase qui contredit le sens ou la règle._
 
 Full working after a second miss:
 
-> Les deux mots doivent appartenir à la série étudiée.  
-> La réponse est : brun, parfum.  
+> La phrase fausse est « Brun contient la graphie um à la fin. ».  
+> Il faut observer les lettres réellement écrites.  
 
 **Worked example** (draft)
 
-> Que peut vérifier cet exercice ?
+> [œ̃] est une voyelle nasale dans le modèle. Explique le choix.
 
-1. Le travail écrit prépare la lecture orale.
-2. L’application ne capte pas la voix du lecteur.
+1. une voyelle avec résonance par la cavité nasale.
+2. Il caractérise la voyelle, il ne la supprime pas.
 
-**Answer:** Le repérage écrit des mots modèles.
+**Answer:** voyelle nasale
 
-**Practice** `fi2-106-etape-1` · multiple choice, level 1 · **authored key**
+**Practice** `fi2-106-notions` · multiple choice, level 1 · **authored key**
 
-> Quel mot appartient à la série étudiée ?
+> Quel terme désigne une suite de lettres illustrée à la fin de parfum ?
 
-- ✅ brun
-- ◻️ pain  
-  _↳ feedback if chosen: Le mot brun appartient aux modèles de la leçon._
-- ◻️ nature  
-  _↳ feedback if chosen: Le mot brun appartient aux modèles de la leçon._
-
-Full working after a second miss:
-
-> Le mot brun appartient aux modèles de la leçon.  
-> La réponse est : brun.  
-
-> Quel mot appartient à la série étudiée ?
-
-- ◻️ nature  
-  _↳ feedback if chosen: Le mot brun appartient aux modèles de la leçon._
-- ✅ brun
-- ◻️ pain  
-  _↳ feedback if chosen: Le mot brun appartient aux modèles de la leçon._
+- ◻️ voyelle nasale  
+  _↳ feedback if chosen: Cela désigne une voyelle avec résonance par la cavité nasale, plutôt que la notion demandée._
+- ◻️ variation de prononciation  
+  _↳ feedback if chosen: Cela désigne des réalisations différentes selon les usages, plutôt que la notion demandée._
+- ✅ graphie um
+- ◻️ graphie un  
+  _↳ feedback if chosen: Cela désigne une suite de lettres illustrée à la fin de brun, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le mot brun appartient aux modèles de la leçon.  
-> La réponse est : brun.  
+> Le mot conserve sa graphie attestée.  
+> Donc la réponse est « graphie um ».  
 
-**Practice** `fi2-106-etape-2` · multiple choice, level 2 · **authored key**
+> Quel terme désigne une suite de lettres illustrée à la fin de brun ?
 
-> Qui peut fournir un modèle oral ?
-
-- ◻️ Le nombre de lettres seul.  
-  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
-- ◻️ Un score écrit sans audio.  
-  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
-- ✅ Un enseignant qui lit les mots.
-
-Full working after a second miss:
-
-> Une prononciation doit être entendue et pratiquée oralement.  
-> La réponse est : Un enseignant qui lit les mots..  
-
-> Que peut vérifier cet exercice ?
-
-- ◻️ L’enregistrement de ta voix.  
-  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
-- ◻️ La qualité de ton accent.  
-  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
-- ✅ Le repérage écrit des mots modèles.
+- ◻️ graphie um  
+  _↳ feedback if chosen: Cela désigne une suite de lettres illustrée à la fin de parfum, plutôt que la notion demandée._
+- ◻️ voyelle nasale  
+  _↳ feedback if chosen: Cela désigne une voyelle avec résonance par la cavité nasale, plutôt que la notion demandée._
+- ✅ graphie un
+- ◻️ variation de prononciation  
+  _↳ feedback if chosen: Cela désigne des réalisations différentes selon les usages, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> L’application ne capte pas la voix du lecteur.  
-> La réponse est : Le repérage écrit des mots modèles..  
+> Il faut observer les lettres réellement écrites.  
+> Donc la réponse est « graphie un ».  
 
-**Practice** `fi2-106-etape-3` · multiple choice, level 3 · **authored key**
+**Practice** `fi2-106-cas` · multiple choice, level 1 · **authored key**
 
-> Quel conseil respecte les différences d’accent ?
+> Brun finit par un.
+> Quelle notion convient ?
 
-- ◻️ Déclarer faux tout accent différent.  
-  _↳ feedback if chosen: Le professeur adapte le modèle oral à l’enseignement de la classe._
-- ✅ Suivre le modèle oral donné en classe.
-- ◻️ Faire noter sa voix par cet exercice écrit.  
-  _↳ feedback if chosen: Le professeur adapte le modèle oral à l’enseignement de la classe._
-
-Full working after a second miss:
-
-> Le professeur adapte le modèle oral à l’enseignement de la classe.  
-> La réponse est : Suivre le modèle oral donné en classe..  
-
-> Quel conseil respecte les différences d’accent ?
-
-- ◻️ Déclarer faux tout accent différent.  
-  _↳ feedback if chosen: Le professeur adapte le modèle oral à l’enseignement de la classe._
-- ◻️ Faire noter sa voix par cet exercice écrit.  
-  _↳ feedback if chosen: Le professeur adapte le modèle oral à l’enseignement de la classe._
-- ✅ Suivre le modèle oral donné en classe.
+- ✅ graphie un
+- ◻️ variation de prononciation  
+  _↳ feedback if chosen: Cela concerne des réalisations différentes selon les usages. Compare cette définition avec le cas présenté._
+- ◻️ graphie um  
+  _↳ feedback if chosen: Cela concerne une suite de lettres illustrée à la fin de parfum. Compare cette définition avec le cas présenté._
+- ◻️ voyelle nasale  
+  _↳ feedback if chosen: Cela concerne une voyelle avec résonance par la cavité nasale. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Le professeur adapte le modèle oral à l’enseignement de la classe.  
-> La réponse est : Suivre le modèle oral donné en classe..  
+> Il faut observer les lettres réellement écrites.  
+> Donc la réponse est « graphie un ».  
+
+> Parfum finit par um.
+> Quelle notion convient ?
+
+- ◻️ voyelle nasale  
+  _↳ feedback if chosen: Cela concerne une voyelle avec résonance par la cavité nasale. Compare cette définition avec le cas présenté._
+- ◻️ graphie un  
+  _↳ feedback if chosen: Cela concerne une suite de lettres illustrée à la fin de brun. Compare cette définition avec le cas présenté._
+- ✅ graphie um
+- ◻️ variation de prononciation  
+  _↳ feedback if chosen: Cela concerne des réalisations différentes selon les usages. Compare cette définition avec le cas présenté._
+
+Full working after a second miss:
+
+> Le mot conserve sa graphie attestée.  
+> Donc la réponse est « graphie um ».  
+
+**Practice** `fi2-106-graphies` · multiple choice, level 2 · **authored key**
+
+> Quel groupe est écrit à la fin de parfum ?
+
+- ◻️ on  
+  _↳ feedback if chosen: Cette finale n’est pas présente._
+- ◻️ ain  
+  _↳ feedback if chosen: Cette graphie appartient à d’autres mots comme pain._
+- ✅ um
+- ◻️ un  
+  _↳ feedback if chosen: Le mot finit par m, non n._
+
+Full working after a second miss:
+
+> Observe le mot écrit.  
+> Donc la réponse est « um ».  
+
+> Quel mot illustre um dans le modèle ?
+
+- ✅ parfum
+- ◻️ un  
+  _↳ feedback if chosen: Le mot un ne comporte pas m._
+- ◻️ brun  
+  _↳ feedback if chosen: Brun présente un._
+- ◻️ commun  
+  _↳ feedback if chosen: La finale de commun est un._
+
+Full working after a second miss:
+
+> La comparaison porte sur la graphie.  
+> Donc la réponse est « parfum ».  
+
+**Practice** `fi2-106-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Certains usages rapprochent [œ̃] et [ɛ̃]. · Parfum finit par um. · [œ̃] est une voyelle nasale dans le modèle.
+- variation de prononciation → **Certains usages rapprochent [œ̃] et [ɛ̃].**
+- voyelle nasale → **[œ̃] est une voyelle nasale dans le modèle.**
+- graphie um → **Parfum finit par um.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> variation de prononciation → Certains usages rapprochent [œ̃] et [ɛ̃].  
+> voyelle nasale → [œ̃] est une voyelle nasale dans le modèle.  
+> graphie um → Parfum finit par um.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Parfum finit par um. · Brun finit par un. · Certains usages rapprochent [œ̃] et [ɛ̃].
+- graphie un → **Brun finit par un.**
+- graphie um → **Parfum finit par um.**
+- variation de prononciation → **Certains usages rapprochent [œ̃] et [ɛ̃].**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> graphie un → Brun finit par un.  
+> graphie um → Parfum finit par um.  
+> variation de prononciation → Certains usages rapprochent [œ̃] et [ɛ̃].  
+
+**Practice** `fi2-106-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ✅ Brun contient la graphie um à la fin.  
+  _↳ explanation: Il faut observer les lettres réellement écrites._
+- ◻️ voyelle nasale : une voyelle avec résonance par la cavité nasale.  
+  _↳ explanation: Cette distinction est correcte : Il caractérise la voyelle, il ne la supprime pas. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ graphie um : une suite de lettres illustrée à la fin de parfum.  
+  _↳ explanation: Cette distinction est correcte : Le mot conserve sa graphie attestée. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ graphie un : une suite de lettres illustrée à la fin de brun.  
+  _↳ explanation: Cette distinction est correcte : Il faut observer les lettres réellement écrites. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Brun contient la graphie um à la fin. ».  
+> Il faut observer les lettres réellement écrites.  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ variation de prononciation : des réalisations différentes selon les usages.  
+  _↳ explanation: Cette distinction est correcte : La variation ne justifie aucun jugement sur la personne. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Le signe nasal veut dire qu’aucune voyelle n’existe.  
+  _↳ explanation: Il caractérise la voyelle, il ne la supprime pas._
+- ◻️ voyelle nasale : une voyelle avec résonance par la cavité nasale.  
+  _↳ explanation: Cette distinction est correcte : Il caractérise la voyelle, il ne la supprime pas. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ graphie un : une suite de lettres illustrée à la fin de brun.  
+  _↳ explanation: Cette distinction est correcte : Il faut observer les lettres réellement écrites. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Le signe nasal veut dire qu’aucune voyelle n’existe. ».  
+> Il caractérise la voyelle, il ne la supprime pas.  
 
 ## Lesson 107: Vocabulaire : Lexique lié aux médias : Radio, télé, Presse écrite Internet
 
-Prerequisites: none · Skill: fi2-107 (Le lexique des médias)
+Prerequisites: 104, 105, 106 · Skill: fi2-107 (Le lexique des médias)
 
 **Note** (draft)
 
-> Un média diffuse des informations à un public. La radio transmet principalement du son ; la télévision associe images et son. La presse écrite publie des articles dans des journaux ou des magazines, imprimés ou numériques. Sur Internet, les sites peuvent combiner texte, son et vidéo. Un journaliste recherche, vérifie et présente une information. Un titre annonce un sujet ; la source indique d’où vient l’information. Le support seul ne garantit pas la fiabilité.
+> Un média diffuse des contenus à un public. La radio utilise le son ; la télévision associe notamment images et son ; la presse écrite publie des textes, sur papier ou sous forme numérique. Internet permet l’accès à de nombreux services et médias, mais n’est pas un auteur unique. Un journaliste cherche, vérifie et présente des informations ; une source est l’origine d’une information. Un support ou un titre connu ne garantit pas chaque phrase : il faut examiner la source et le contexte.
 
-**Card c107-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Un média diffuse des informations au public.
+> À la fin, tu pourras distinguer support média source et rôle de journaliste dans des situations de classe. Acquis mobilisés : les noms sujets et les messages. Pour la suite : la lecture critique et les réseaux sociaux.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> Un média diffuse des contenus à un public. La radio utilise le son ; la télévision associe notamment images et son ; la presse écrite publie des textes, sur papier ou sous forme numérique. Internet permet l’accès à de nombreux services et médias, mais n’est pas un auteur unique. Un journaliste cherche, vérifie et présente des informations ; une source est l’origine d’une information. Un support ou un titre connu ne garantit pas chaque phrase : il faut examiner la source et le contexte.
+
+**Learn: Lire le modèle original** (draft)
+
+> Scène originale : Dans un club imaginaire de Douala, Bih prépare un bulletin écrit. Ayuk distingue une émission de radio de la fiche à lire. Le groupe indique d’où vient une information et sépare un fait vérifié d’une opinion proposée. Aucun accès à une émission réelle n’est nécessaire pour l’exercice.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Repère le type de contenu et sa forme, puis cherche son origine. Distingue une personne qui produit une information du support qui la diffuse. N’attribue pas une phrase à tout Internet.
+
+**Learn: key words and examples** (draft)
+
+- **radio**: un média dont la diffusion repose ici sur le son
+- **presse écrite**: des publications de textes sur papier ou en numérique
+- **journaliste**: une personne travaillant à rechercher vérifier et présenter des informations
+- **source**: l’origine identifiable d’une information
+
+
+Common mistake: “Une émission radio exige toujours une image visible.” → “un média dont la diffusion repose ici sur le son.”. Le son peut suffire à ce support.
+
+**Card fi2-107-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _La radio peut diffuser un bulletin d’information._  
+> _radio : un média dont la diffusion repose ici sur le son._  
+> _presse écrite : des publications de textes sur papier ou en numérique._  
+> _journaliste : une personne travaillant à rechercher vérifier et présenter des informations._  
+> _source : l’origine identifiable d’une information._  
 
-Check question: `fi2-107-etape-1` · multiple choice, level 1 · **authored key**, reused from practice
+Check question: `fi2-107-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Quel média peut-on écouter sans regarder un écran ?
+> Quel terme désigne l’origine identifiable d’une information ?
 
-- ◻️ Une photographie imprimée.  
-  _↳ feedback if chosen: La radio transmet du son._
-- ◻️ Une affiche muette.  
-  _↳ feedback if chosen: La radio transmet du son._
-- ✅ La radio.
+- ◻️ journaliste  
+  _↳ feedback if chosen: Cela désigne une personne travaillant à rechercher vérifier et présenter des informations, plutôt que la notion demandée._
+- ✅ source
+- ◻️ presse écrite  
+  _↳ feedback if chosen: Cela désigne des publications de textes sur papier ou en numérique, plutôt que la notion demandée._
+- ◻️ radio  
+  _↳ feedback if chosen: Cela désigne un média dont la diffusion repose ici sur le son, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> La radio transmet du son.  
-> La réponse est : La radio..  
+> La source doit être précisée plutôt que remplacée par un support général.  
+> Donc la réponse est « source ».  
 
-**Card c107-2** (draft)
+**Card fi2-107-c2** (draft)
 
-> Les mots article, titre et source ont des fonctions différentes.
+> Lis le contexte avant de nommer la notion.
 >
-> _Le titre annonce le sujet de l’article._  
+> _Le modèle annonce un bulletin à écouter._  
+> _Le club prépare un bulletin à lire._  
+> _Le rôle du modèle inclut la vérification avant publication._  
+> _Le groupe nomme l’organisme à l’origine du renseignement._  
 
-Check question: `fi2-107-etape-2-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-107-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Que précise une source ?
+> Le modèle annonce un bulletin à écouter.
+> Quelle notion convient ?
 
-- ✅ L’origine d’une information.
-- ◻️ La couleur d’un clavier.  
-  _↳ feedback if chosen: La source permet d’identifier l’origine de l’information._
-- ◻️ La taille du papier seulement.  
-  _↳ feedback if chosen: La source permet d’identifier l’origine de l’information._
+- ◻️ journaliste  
+  _↳ feedback if chosen: Cela concerne une personne travaillant à rechercher vérifier et présenter des informations. Compare cette définition avec le cas présenté._
+- ◻️ presse écrite  
+  _↳ feedback if chosen: Cela concerne des publications de textes sur papier ou en numérique. Compare cette définition avec le cas présenté._
+- ✅ radio
+- ◻️ source  
+  _↳ feedback if chosen: Cela concerne l’origine identifiable d’une information. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> La source permet d’identifier l’origine de l’information.  
-> La réponse est : L’origine d’une information..  
+> Le son peut suffire à ce support.  
+> Donc la réponse est « radio ».  
 
-**Card c107-3** (draft)
+**Card fi2-107-c3** (draft)
 
-> Vérifie une information quel que soit son support.
+> Corrige sans changer le sens voulu.
 >
-> _Je compare les sources avant de transmettre une nouvelle._  
+> _Une émission radio exige toujours une image visible. Correction : Le son peut suffire à ce support._  
+> _La presse écrite ne peut jamais exister en version numérique. Correction : Le caractère écrit ne dépend pas uniquement du papier._  
+> _Le travail du journaliste consiste obligatoirement à inventer les faits. Correction : L’information demande une démarche de vérification._  
+> _Internet entier est toujours l’auteur unique de chaque texte. Correction : La source doit être précisée plutôt que remplacée par un support général._  
 
-Check question: `fi2-107-etape-3-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-107-corriger-card` · spot the error, level 1 · **authored key**
 
-> Une nouvelle circule sur un site. Que faut-il faire avant de la relayer ?
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ◻️ La croire parce qu’elle est en ligne.  
-  _↳ feedback if chosen: La fiabilité dépend de la vérification, pas de la mise en page._
-- ◻️ La partager parce que son titre est grand.  
-  _↳ feedback if chosen: La fiabilité dépend de la vérification, pas de la mise en page._
-- ✅ Vérifier sa date et ses sources.
+- ✅ Internet entier est toujours l’auteur unique de chaque texte.  
+  _↳ explanation: La source doit être précisée plutôt que remplacée par un support général._
+- ◻️ presse écrite : des publications de textes sur papier ou en numérique.  
+  _↳ explanation: Cette distinction est correcte : Le caractère écrit ne dépend pas uniquement du papier. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ source : l’origine identifiable d’une information.  
+  _↳ explanation: Cette distinction est correcte : La source doit être précisée plutôt que remplacée par un support général. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ radio : un média dont la diffusion repose ici sur le son.  
+  _↳ explanation: Cette distinction est correcte : Le son peut suffire à ce support. Cherche plutôt une phrase qui contredit le sens ou la règle._
 
 Full working after a second miss:
 
-> La fiabilité dépend de la vérification, pas de la mise en page.  
-> La réponse est : Vérifier sa date et ses sources..  
+> La phrase fausse est « Internet entier est toujours l’auteur unique de chaque texte. ».  
+> La source doit être précisée plutôt que remplacée par un support général.  
 
 **Worked example** (draft)
 
-> Que fait le titre d’un article ?
+> Le modèle annonce un bulletin à écouter. Explique le choix.
 
-1. Les mots article, titre et source ont des fonctions différentes.
-2. Le titre présente le sujet ; il ne suffit pas à prouver une information.
+1. un média dont la diffusion repose ici sur le son.
+2. Le son peut suffire à ce support.
 
-**Answer:** Il annonce son sujet.
+**Answer:** radio
 
-**Practice** `fi2-107-etape-1` · multiple choice, level 1 · **authored key**
+**Practice** `fi2-107-notions` · multiple choice, level 1 · **authored key**
 
-> Quel média associe habituellement images animées et son ?
+> Quel terme désigne une personne travaillant à rechercher vérifier et présenter des informations ?
 
-- ◻️ Une lettre manuscrite seule.  
-  _↳ feedback if chosen: Une émission télévisée associe images et son._
-- ✅ La télévision.
-- ◻️ Une feuille sans texte.  
-  _↳ feedback if chosen: Une émission télévisée associe images et son._
-
-Full working after a second miss:
-
-> Une émission télévisée associe images et son.  
-> La réponse est : La télévision..  
-
-> Quel média associe habituellement images animées et son ?
-
-- ✅ La télévision.
-- ◻️ Une lettre manuscrite seule.  
-  _↳ feedback if chosen: Une émission télévisée associe images et son._
-- ◻️ Une feuille sans texte.  
-  _↳ feedback if chosen: Une émission télévisée associe images et son._
+- ◻️ source  
+  _↳ feedback if chosen: Cela désigne l’origine identifiable d’une information, plutôt que la notion demandée._
+- ◻️ presse écrite  
+  _↳ feedback if chosen: Cela désigne des publications de textes sur papier ou en numérique, plutôt que la notion demandée._
+- ✅ journaliste
+- ◻️ radio  
+  _↳ feedback if chosen: Cela désigne un média dont la diffusion repose ici sur le son, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Une émission télévisée associe images et son.  
-> La réponse est : La télévision..  
+> L’information demande une démarche de vérification.  
+> Donc la réponse est « journaliste ».  
 
-**Practice** `fi2-107-etape-2` · multiple choice, level 2 · **authored key**
+> Quel terme désigne des publications de textes sur papier ou en numérique ?
 
-> Que précise une source ?
-
-- ◻️ La taille du papier seulement.  
-  _↳ feedback if chosen: La source permet d’identifier l’origine de l’information._
-- ◻️ La couleur d’un clavier.  
-  _↳ feedback if chosen: La source permet d’identifier l’origine de l’information._
-- ✅ L’origine d’une information.
-
-Full working after a second miss:
-
-> La source permet d’identifier l’origine de l’information.  
-> La réponse est : L’origine d’une information..  
-
-> Que précise une source ?
-
-- ✅ L’origine d’une information.
-- ◻️ La taille du papier seulement.  
-  _↳ feedback if chosen: La source permet d’identifier l’origine de l’information._
-- ◻️ La couleur d’un clavier.  
-  _↳ feedback if chosen: La source permet d’identifier l’origine de l’information._
+- ◻️ radio  
+  _↳ feedback if chosen: Cela désigne un média dont la diffusion repose ici sur le son, plutôt que la notion demandée._
+- ◻️ journaliste  
+  _↳ feedback if chosen: Cela désigne une personne travaillant à rechercher vérifier et présenter des informations, plutôt que la notion demandée._
+- ◻️ source  
+  _↳ feedback if chosen: Cela désigne l’origine identifiable d’une information, plutôt que la notion demandée._
+- ✅ presse écrite
 
 Full working after a second miss:
 
-> La source permet d’identifier l’origine de l’information.  
-> La réponse est : L’origine d’une information..  
+> Le caractère écrit ne dépend pas uniquement du papier.  
+> Donc la réponse est « presse écrite ».  
 
-**Practice** `fi2-107-etape-3` · multiple choice, level 3 · **authored key**
+**Practice** `fi2-107-cas` · multiple choice, level 1 · **authored key**
 
-> Le travail du journaliste comprend…
+> Le groupe nomme l’organisme à l’origine du renseignement.
+> Quelle notion convient ?
 
-- ✅ la recherche et la vérification des informations.
-- ◻️ le remplacement des faits par des publicités.  
-  _↳ feedback if chosen: Le journaliste doit rechercher et vérifier ce qu’il présente._
-- ◻️ l’invention de toutes ses sources.  
-  _↳ feedback if chosen: Le journaliste doit rechercher et vérifier ce qu’il présente._
-
-Full working after a second miss:
-
-> Le journaliste doit rechercher et vérifier ce qu’il présente.  
-> La réponse est : la recherche et la vérification des informations..  
-
-> Le travail du journaliste comprend…
-
-- ◻️ le remplacement des faits par des publicités.  
-  _↳ feedback if chosen: Le journaliste doit rechercher et vérifier ce qu’il présente._
-- ✅ la recherche et la vérification des informations.
-- ◻️ l’invention de toutes ses sources.  
-  _↳ feedback if chosen: Le journaliste doit rechercher et vérifier ce qu’il présente._
+- ◻️ radio  
+  _↳ feedback if chosen: Cela concerne un média dont la diffusion repose ici sur le son. Compare cette définition avec le cas présenté._
+- ◻️ presse écrite  
+  _↳ feedback if chosen: Cela concerne des publications de textes sur papier ou en numérique. Compare cette définition avec le cas présenté._
+- ◻️ journaliste  
+  _↳ feedback if chosen: Cela concerne une personne travaillant à rechercher vérifier et présenter des informations. Compare cette définition avec le cas présenté._
+- ✅ source
 
 Full working after a second miss:
 
-> Le journaliste doit rechercher et vérifier ce qu’il présente.  
-> La réponse est : la recherche et la vérification des informations..  
+> La source doit être précisée plutôt que remplacée par un support général.  
+> Donc la réponse est « source ».  
+
+> Le modèle annonce un bulletin à écouter.
+> Quelle notion convient ?
+
+- ✅ radio
+- ◻️ source  
+  _↳ feedback if chosen: Cela concerne l’origine identifiable d’une information. Compare cette définition avec le cas présenté._
+- ◻️ presse écrite  
+  _↳ feedback if chosen: Cela concerne des publications de textes sur papier ou en numérique. Compare cette définition avec le cas présenté._
+- ◻️ journaliste  
+  _↳ feedback if chosen: Cela concerne une personne travaillant à rechercher vérifier et présenter des informations. Compare cette définition avec le cas présenté._
+
+Full working after a second miss:
+
+> Le son peut suffire à ce support.  
+> Donc la réponse est « radio ».  
+
+**Practice** `fi2-107-contexte` · multiple choice, level 2 · **authored key**
+
+> Le scénario décrit un bulletin diffusé par le son : quel média est visé ?
+
+- ✅ radio
+- ◻️ source  
+  _↳ feedback if chosen: Ce terme désigne l’origine identifiable d’une information ; ce n’est pas l’action ou le rôle décrit._
+- ◻️ presse écrite  
+  _↳ feedback if chosen: Ce terme désigne des publications de textes sur papier ou en numérique ; ce n’est pas l’action ou le rôle décrit._
+- ◻️ journaliste  
+  _↳ feedback if chosen: Ce terme désigne une personne travaillant à rechercher vérifier et présenter des informations ; ce n’est pas l’action ou le rôle décrit._
+
+Full working after a second miss:
+
+> Le son peut suffire à ce support.  
+> Donc la réponse est « radio ».  
+
+> Le scénario décrit un bulletin diffusé par le son : quel média est visé ?
+
+- ◻️ journaliste  
+  _↳ feedback if chosen: Ce terme désigne une personne travaillant à rechercher vérifier et présenter des informations ; ce n’est pas l’action ou le rôle décrit._
+- ◻️ source  
+  _↳ feedback if chosen: Ce terme désigne l’origine identifiable d’une information ; ce n’est pas l’action ou le rôle décrit._
+- ✅ radio
+- ◻️ presse écrite  
+  _↳ feedback if chosen: Ce terme désigne des publications de textes sur papier ou en numérique ; ce n’est pas l’action ou le rôle décrit._
+
+Full working after a second miss:
+
+> Le son peut suffire à ce support.  
+> Donc la réponse est « radio ».  
+
+**Practice** `fi2-107-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Le club prépare un bulletin à lire. · Le groupe nomme l’organisme à l’origine du renseignement. · Le modèle annonce un bulletin à écouter.
+- radio → **Le modèle annonce un bulletin à écouter.**
+- presse écrite → **Le club prépare un bulletin à lire.**
+- source → **Le groupe nomme l’organisme à l’origine du renseignement.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> radio → Le modèle annonce un bulletin à écouter.  
+> presse écrite → Le club prépare un bulletin à lire.  
+> source → Le groupe nomme l’organisme à l’origine du renseignement.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Le modèle annonce un bulletin à écouter. · Le club prépare un bulletin à lire. · Le rôle du modèle inclut la vérification avant publication.
+- journaliste → **Le rôle du modèle inclut la vérification avant publication.**
+- presse écrite → **Le club prépare un bulletin à lire.**
+- radio → **Le modèle annonce un bulletin à écouter.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> journaliste → Le rôle du modèle inclut la vérification avant publication.  
+> presse écrite → Le club prépare un bulletin à lire.  
+> radio → Le modèle annonce un bulletin à écouter.  
+
+**Practice** `fi2-107-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ source : l’origine identifiable d’une information.  
+  _↳ explanation: Cette distinction est correcte : La source doit être précisée plutôt que remplacée par un support général. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Une émission radio exige toujours une image visible.  
+  _↳ explanation: Le son peut suffire à ce support._
+- ◻️ presse écrite : des publications de textes sur papier ou en numérique.  
+  _↳ explanation: Cette distinction est correcte : Le caractère écrit ne dépend pas uniquement du papier. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ radio : un média dont la diffusion repose ici sur le son.  
+  _↳ explanation: Cette distinction est correcte : Le son peut suffire à ce support. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Une émission radio exige toujours une image visible. ».  
+> Le son peut suffire à ce support.  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ presse écrite : des publications de textes sur papier ou en numérique.  
+  _↳ explanation: Cette distinction est correcte : Le caractère écrit ne dépend pas uniquement du papier. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ source : l’origine identifiable d’une information.  
+  _↳ explanation: Cette distinction est correcte : La source doit être précisée plutôt que remplacée par un support général. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ radio : un média dont la diffusion repose ici sur le son.  
+  _↳ explanation: Cette distinction est correcte : Le son peut suffire à ce support. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Une émission radio exige toujours une image visible.  
+  _↳ explanation: Le son peut suffire à ce support._
+
+Full working after a second miss:
+
+> La phrase fausse est « Une émission radio exige toujours une image visible. ».  
+> Le son peut suffire à ce support.  
 
 ## Lesson 108: Expression Orale : Récitation, poèmes/Comptines/chants
 
-Prerequisites: none · Skill: fi2-108 (Préparer la récitation d’un poème)
+Prerequisites: 106, 107 · Skill: fi2-108 (Préparer une récitation ou un chant original)
 
 **Note** (draft)
 
-> Poème original — La voix du matin
-> La radio chante dans la cour,
-> Une nouvelle ouvre le jour.
-> J’écoute, puis je réfléchis,
-> Je cherche où le fait est écrit.
-> Pour préparer une récitation, comprends le texte, repère ses vers et sa ponctuation. Mémorise par petits passages. Respire, articule et respecte le sens. Récite ensuite devant un adulte si possible. L’application prépare ce travail ; elle n’entend pas et ne note pas ta voix.
+> Réciter demande de respecter le texte et de le rendre compréhensible. On peut préparer les groupes de sens et les pauses sur papier. La fin d’une ligne n’impose pas toujours une pause identique ; le sens et la ponctuation comptent. Un refrain, si le texte devient un chant, est une partie reprise. Les mots ci-dessous sont originaux et ne reprennent aucune chanson connue. L’écran ne propose ni mélodie ni voix modèle ; une pratique guidée réelle reste nécessaire pour chanter ou réciter.
 
-**Card c108-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Un poème peut être organisé en vers.
+> À la fin, tu pourras annoter des groupes de sens et justifier une pause dans un court texte à mettre en voix. Acquis mobilisés : les graphies et les médias. Pour la suite : les jeux de rôle et les lectures expressives.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> Réciter demande de respecter le texte et de le rendre compréhensible. On peut préparer les groupes de sens et les pauses sur papier. La fin d’une ligne n’impose pas toujours une pause identique ; le sens et la ponctuation comptent. Un refrain, si le texte devient un chant, est une partie reprise. Les mots ci-dessous sont originaux et ne reprennent aucune chanson connue. L’écran ne propose ni mélodie ni voix modèle ; une pratique guidée réelle reste nécessaire pour chanter ou réciter.
+
+**Learn: Lire le modèle original** (draft)
+
+> Texte original : « Dans la cour, un livre attend. / Bih ouvre une page ; / une question cherche sa voix. / Ensemble, nous écoutons les mots. » Les barres servent de repères de préparation. Si le groupe choisit une mise en chant avec le professeur, « nous écoutons les mots » peut devenir une reprise convenue, sans prétendre qu’une mélodie est déjà fournie.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Explique ce que le texte évoque avant de l’apprendre. Annote une pause et un mot important avec une raison. Lis ou chante ensuite réellement avec un partenaire et un modèle approprié ; une réponse écrite ne prouve pas la diction.
+
+**Learn: key words and examples** (draft)
+
+- **groupe de sens**: une unité de mots préparée ensemble pour être comprise
+- **pause justifiée**: une suspension liée au sens ou à la ponctuation
+- **fidélité au texte**: le respect des mots de la création proposée
+- **refrain préparé**: une partie convenue pour revenir dans une mise en chant
+
+
+Common mistake: “Chaque lettre doit être séparée par une longue pause.” → “une unité de mots préparée ensemble pour être comprise.”. Le regroupement vise la compréhension des mots liés.
+
+**Card fi2-108-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _Chaque ligne du poème proposé est un vers._  
+> _groupe de sens : une unité de mots préparée ensemble pour être comprise._  
+> _pause justifiée : une suspension liée au sens ou à la ponctuation._  
+> _fidélité au texte : le respect des mots de la création proposée._  
+> _refrain préparé : une partie convenue pour revenir dans une mise en chant._  
 
-Check question: `fi2-108-etape-1` · multiple choice, level 1 · **authored key**, reused from practice
+Check question: `fi2-108-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Poème original — La voix du matin
-> La radio chante dans la cour,
-> Une nouvelle ouvre le jour.
-> J’écoute, puis je réfléchis,
-> Je cherche où le fait est écrit. Quelle ligne évoque la réflexion ?
+> Quel terme désigne une partie convenue pour revenir dans une mise en chant ?
 
-- ✅ J’écoute, puis je réfléchis,
-- ◻️ La radio chante dans la cour,  
-  _↳ feedback if chosen: Le verbe réfléchis nomme la réflexion._
-- ◻️ Une nouvelle ouvre le jour.  
-  _↳ feedback if chosen: Le verbe réfléchis nomme la réflexion._
+- ◻️ fidélité au texte  
+  _↳ feedback if chosen: Cela désigne le respect des mots de la création proposée, plutôt que la notion demandée._
+- ◻️ groupe de sens  
+  _↳ feedback if chosen: Cela désigne une unité de mots préparée ensemble pour être comprise, plutôt que la notion demandée._
+- ◻️ pause justifiée  
+  _↳ feedback if chosen: Cela désigne une suspension liée au sens ou à la ponctuation, plutôt que la notion demandée._
+- ✅ refrain préparé
 
 Full working after a second miss:
 
-> Le verbe réfléchis nomme la réflexion.  
-> La réponse est : J’écoute, puis je réfléchis,.  
+> Une répétition écrite ne fournit ni son ni mélodie.  
+> Donc la réponse est « refrain préparé ».  
 
-**Card c108-2** (draft)
+**Card fi2-108-c2** (draft)
 
-> Comprendre le sens aide à mémoriser.
+> Lis le contexte avant de nommer la notion.
 >
-> _Le lecteur écoute, puis vérifie l’information._  
+> _Dans la cour situe la scène._  
+> _Une pause après page peut suivre le point-virgule._  
+> _Bih reste le personnage nommé dans le texte._  
+> _Le groupe peut choisir une reprise avec le professeur._  
 
-Check question: `fi2-108-etape-2-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-108-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Poème original — La voix du matin
-> La radio chante dans la cour,
-> Une nouvelle ouvre le jour.
-> J’écoute, puis je réfléchis,
-> Je cherche où le fait est écrit. Que fait le lecteur après avoir écouté ?
+> Le groupe peut choisir une reprise avec le professeur.
+> Quelle notion convient ?
 
-- ◻️ Il casse la radio.  
-  _↳ feedback if chosen: Les dernières lignes associent réflexion et recherche._
-- ✅ Il réfléchit et cherche une trace écrite.
-- ◻️ Il répète sans comprendre.  
-  _↳ feedback if chosen: Les dernières lignes associent réflexion et recherche._
+- ✅ refrain préparé
+- ◻️ fidélité au texte  
+  _↳ feedback if chosen: Cela concerne le respect des mots de la création proposée. Compare cette définition avec le cas présenté._
+- ◻️ groupe de sens  
+  _↳ feedback if chosen: Cela concerne une unité de mots préparée ensemble pour être comprise. Compare cette définition avec le cas présenté._
+- ◻️ pause justifiée  
+  _↳ feedback if chosen: Cela concerne une suspension liée au sens ou à la ponctuation. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Les dernières lignes associent réflexion et recherche.  
-> La réponse est : Il réfléchit et cherche une trace écrite..  
+> Une répétition écrite ne fournit ni son ni mélodie.  
+> Donc la réponse est « refrain préparé ».  
 
-**Card c108-3** (draft)
+**Card fi2-108-c3** (draft)
 
-> L’adulte peut écouter l’articulation et le rythme.
+> Corrige sans changer le sens voulu.
 >
-> _Je marque les pauses sans couper le sens._  
+> _Chaque lettre doit être séparée par une longue pause. Correction : Le regroupement vise la compréhension des mots liés._  
+> _Toute fin de ligne impose la même durée de silence. Correction : La ponctuation et le sens doivent être examinés._  
+> _Inventer des mots puis les attribuer au texte est une récitation fidèle. Correction : Il faut distinguer création nouvelle et reprise fidèle._  
+> _Le mot refrain prouve qu’un enregistrement est fourni. Correction : Une répétition écrite ne fournit ni son ni mélodie._  
 
-Check question: `fi2-108-etape-3-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-108-corriger-card` · spot the error, level 1 · **authored key**
 
-> Que peut affirmer l’application après cet exercice écrit ?
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ✅ Que tu as préparé certains éléments du texte.
-- ◻️ Que tu as chanté sans erreur.  
-  _↳ feedback if chosen: L’application ne dispose pas d’un enregistrement de la voix._
-- ◻️ Que ta voix est parfaitement juste.  
-  _↳ feedback if chosen: L’application ne dispose pas d’un enregistrement de la voix._
+- ◻️ groupe de sens : une unité de mots préparée ensemble pour être comprise.  
+  _↳ explanation: Cette distinction est correcte : Le regroupement vise la compréhension des mots liés. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ fidélité au texte : le respect des mots de la création proposée.  
+  _↳ explanation: Cette distinction est correcte : Il faut distinguer création nouvelle et reprise fidèle. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Chaque lettre doit être séparée par une longue pause.  
+  _↳ explanation: Le regroupement vise la compréhension des mots liés._
+- ◻️ refrain préparé : une partie convenue pour revenir dans une mise en chant.  
+  _↳ explanation: Cette distinction est correcte : Une répétition écrite ne fournit ni son ni mélodie. Cherche plutôt une phrase qui contredit le sens ou la règle._
 
 Full working after a second miss:
 
-> L’application ne dispose pas d’un enregistrement de la voix.  
-> La réponse est : Que tu as préparé certains éléments du texte..  
+> La phrase fausse est « Chaque lettre doit être séparée par une longue pause. ».  
+> Le regroupement vise la compréhension des mots liés.  
 
 **Worked example** (draft)
 
-> Poème original — La voix du matin
-> La radio chante dans la cour,
-> Une nouvelle ouvre le jour.
-> J’écoute, puis je réfléchis,
-> Je cherche où le fait est écrit. Que fait le lecteur après avoir écouté ?
+> Dans la cour situe la scène. Explique le choix.
 
-1. Comprendre le sens aide à mémoriser.
-2. Les dernières lignes associent réflexion et recherche.
+1. une unité de mots préparée ensemble pour être comprise.
+2. Le regroupement vise la compréhension des mots liés.
 
-**Answer:** Il réfléchit et cherche une trace écrite.
+**Answer:** groupe de sens
 
-**Practice** `fi2-108-etape-1` · multiple choice, level 1 · **authored key**
+**Practice** `fi2-108-notions` · multiple choice, level 1 · **authored key**
 
-> Poème original — La voix du matin
-> La radio chante dans la cour,
-> Une nouvelle ouvre le jour.
-> J’écoute, puis je réfléchis,
-> Je cherche où le fait est écrit. Quelle ligne évoque la réflexion ?
+> Quel terme désigne le respect des mots de la création proposée ?
 
-- ✅ J’écoute, puis je réfléchis,
-- ◻️ Une nouvelle ouvre le jour.  
-  _↳ feedback if chosen: Le verbe réfléchis nomme la réflexion._
-- ◻️ La radio chante dans la cour,  
-  _↳ feedback if chosen: Le verbe réfléchis nomme la réflexion._
+- ◻️ groupe de sens  
+  _↳ feedback if chosen: Cela désigne une unité de mots préparée ensemble pour être comprise, plutôt que la notion demandée._
+- ✅ fidélité au texte
+- ◻️ pause justifiée  
+  _↳ feedback if chosen: Cela désigne une suspension liée au sens ou à la ponctuation, plutôt que la notion demandée._
+- ◻️ refrain préparé  
+  _↳ feedback if chosen: Cela désigne une partie convenue pour revenir dans une mise en chant, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le verbe réfléchis nomme la réflexion.  
-> La réponse est : J’écoute, puis je réfléchis,.  
+> Il faut distinguer création nouvelle et reprise fidèle.  
+> Donc la réponse est « fidélité au texte ».  
 
-> Poème original — La voix du matin
-> La radio chante dans la cour,
-> Une nouvelle ouvre le jour.
-> J’écoute, puis je réfléchis,
-> Je cherche où le fait est écrit. Quelle ligne évoque la réflexion ?
+> Quel terme désigne une partie convenue pour revenir dans une mise en chant ?
 
-- ◻️ La radio chante dans la cour,  
-  _↳ feedback if chosen: Le verbe réfléchis nomme la réflexion._
-- ✅ J’écoute, puis je réfléchis,
-- ◻️ Une nouvelle ouvre le jour.  
-  _↳ feedback if chosen: Le verbe réfléchis nomme la réflexion._
+- ✅ refrain préparé
+- ◻️ groupe de sens  
+  _↳ feedback if chosen: Cela désigne une unité de mots préparée ensemble pour être comprise, plutôt que la notion demandée._
+- ◻️ fidélité au texte  
+  _↳ feedback if chosen: Cela désigne le respect des mots de la création proposée, plutôt que la notion demandée._
+- ◻️ pause justifiée  
+  _↳ feedback if chosen: Cela désigne une suspension liée au sens ou à la ponctuation, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le verbe réfléchis nomme la réflexion.  
-> La réponse est : J’écoute, puis je réfléchis,.  
+> Une répétition écrite ne fournit ni son ni mélodie.  
+> Donc la réponse est « refrain préparé ».  
 
-**Practice** `fi2-108-etape-2` · multiple choice, level 2 · **authored key**
+**Practice** `fi2-108-cas` · multiple choice, level 1 · **authored key**
 
-> Quelle méthode aide à mémoriser ce poème ?
+> Une pause après page peut suivre le point-virgule.
+> Quelle notion convient ?
 
-- ✅ Comprendre puis apprendre un court passage à la fois.
-- ◻️ Ignorer tous les mots inconnus.  
-  _↳ feedback if chosen: La compréhension et la répétition par passages soutiennent la mémoire._
-- ◻️ Changer les mots à chaque lecture.  
-  _↳ feedback if chosen: La compréhension et la répétition par passages soutiennent la mémoire._
-
-Full working after a second miss:
-
-> La compréhension et la répétition par passages soutiennent la mémoire.  
-> La réponse est : Comprendre puis apprendre un court passage à la fois..  
-
-> Quelle méthode aide à mémoriser ce poème ?
-
-- ◻️ Ignorer tous les mots inconnus.  
-  _↳ feedback if chosen: La compréhension et la répétition par passages soutiennent la mémoire._
-- ✅ Comprendre puis apprendre un court passage à la fois.
-- ◻️ Changer les mots à chaque lecture.  
-  _↳ feedback if chosen: La compréhension et la répétition par passages soutiennent la mémoire._
+- ◻️ refrain préparé  
+  _↳ feedback if chosen: Cela concerne une partie convenue pour revenir dans une mise en chant. Compare cette définition avec le cas présenté._
+- ◻️ groupe de sens  
+  _↳ feedback if chosen: Cela concerne une unité de mots préparée ensemble pour être comprise. Compare cette définition avec le cas présenté._
+- ◻️ fidélité au texte  
+  _↳ feedback if chosen: Cela concerne le respect des mots de la création proposée. Compare cette définition avec le cas présenté._
+- ✅ pause justifiée
 
 Full working after a second miss:
 
-> La compréhension et la répétition par passages soutiennent la mémoire.  
-> La réponse est : Comprendre puis apprendre un court passage à la fois..  
+> La ponctuation et le sens doivent être examinés.  
+> Donc la réponse est « pause justifiée ».  
 
-**Practice** `fi2-108-etape-3` · multiple choice, level 3 · **authored key**
+> Bih reste le personnage nommé dans le texte.
+> Quelle notion convient ?
 
-> Que peut affirmer l’application après cet exercice écrit ?
-
-- ◻️ Que ta voix est parfaitement juste.  
-  _↳ feedback if chosen: L’application ne dispose pas d’un enregistrement de la voix._
-- ◻️ Que tu as chanté sans erreur.  
-  _↳ feedback if chosen: L’application ne dispose pas d’un enregistrement de la voix._
-- ✅ Que tu as préparé certains éléments du texte.
-
-Full working after a second miss:
-
-> L’application ne dispose pas d’un enregistrement de la voix.  
-> La réponse est : Que tu as préparé certains éléments du texte..  
-
-> Que peut contrôler un adulte pendant la récitation ?
-
-- ✅ L’articulation, les pauses et le respect du texte.
-- ◻️ Le nombre de boutons de l’application.  
-  _↳ feedback if chosen: Une récitation est un travail oral qui demande une écoute._
-- ◻️ La couleur de l’écran seulement.  
-  _↳ feedback if chosen: Une récitation est un travail oral qui demande une écoute._
+- ◻️ pause justifiée  
+  _↳ feedback if chosen: Cela concerne une suspension liée au sens ou à la ponctuation. Compare cette définition avec le cas présenté._
+- ◻️ refrain préparé  
+  _↳ feedback if chosen: Cela concerne une partie convenue pour revenir dans une mise en chant. Compare cette définition avec le cas présenté._
+- ◻️ groupe de sens  
+  _↳ feedback if chosen: Cela concerne une unité de mots préparée ensemble pour être comprise. Compare cette définition avec le cas présenté._
+- ✅ fidélité au texte
 
 Full working after a second miss:
 
-> Une récitation est un travail oral qui demande une écoute.  
-> La réponse est : L’articulation, les pauses et le respect du texte..  
+> Il faut distinguer création nouvelle et reprise fidèle.  
+> Donc la réponse est « fidélité au texte ».  
+
+**Practice** `fi2-108-appliquer` · multiple choice, level 2 · **authored key**
+
+> Pour évaluer un chant réel, que faudrait-il en plus ?
+
+- ◻️ Une opinion sur la dignité du lecteur.  
+  _↳ feedback if chosen: La valeur d’une personne n’est pas sa prestation._
+- ◻️ La date de publication du cahier.  
+  _↳ feedback if chosen: Cette date ne mesure pas le chant._
+- ✅ Une réalisation sonore réellement entendue.
+- ◻️ Une réponse écrite seule.  
+  _↳ feedback if chosen: Elle ne donne pas la voix._
+
+Full working after a second miss:
+
+> L’activité actuelle prépare l’écrit.  
+> Donc la réponse est « Une réalisation sonore réellement entendue. ».  
+
+> Quelle démarche respecte les mots du texte ?
+
+- ◻️ Changer tous les personnages sans le dire.  
+  _↳ feedback if chosen: Les référents du texte doivent être gardés._
+- ✅ Relire pour retrouver une formulation oubliée.
+- ◻️ Attribuer une invention à ce texte.  
+  _↳ feedback if chosen: L’invention serait une autre création._
+- ◻️ Prétendre qu’un silence prouve la mélodie.  
+  _↳ feedback if chosen: Aucune mélodie n’est fournie._
+
+Full working after a second miss:
+
+> La fidélité peut être préparée.  
+> Donc la réponse est « Relire pour retrouver une formulation oubliée. ».  
+
+**Practice** `fi2-108-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Une pause après page peut suivre le point-virgule. · Bih reste le personnage nommé dans le texte. · Le groupe peut choisir une reprise avec le professeur.
+- refrain préparé → **Le groupe peut choisir une reprise avec le professeur.**
+- pause justifiée → **Une pause après page peut suivre le point-virgule.**
+- fidélité au texte → **Bih reste le personnage nommé dans le texte.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> refrain préparé → Le groupe peut choisir une reprise avec le professeur.  
+> pause justifiée → Une pause après page peut suivre le point-virgule.  
+> fidélité au texte → Bih reste le personnage nommé dans le texte.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Le groupe peut choisir une reprise avec le professeur. · Bih reste le personnage nommé dans le texte. · Une pause après page peut suivre le point-virgule.
+- pause justifiée → **Une pause après page peut suivre le point-virgule.**
+- fidélité au texte → **Bih reste le personnage nommé dans le texte.**
+- refrain préparé → **Le groupe peut choisir une reprise avec le professeur.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> pause justifiée → Une pause après page peut suivre le point-virgule.  
+> fidélité au texte → Bih reste le personnage nommé dans le texte.  
+> refrain préparé → Le groupe peut choisir une reprise avec le professeur.  
+
+**Practice** `fi2-108-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ refrain préparé : une partie convenue pour revenir dans une mise en chant.  
+  _↳ explanation: Cette distinction est correcte : Une répétition écrite ne fournit ni son ni mélodie. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ fidélité au texte : le respect des mots de la création proposée.  
+  _↳ explanation: Cette distinction est correcte : Il faut distinguer création nouvelle et reprise fidèle. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Toute fin de ligne impose la même durée de silence.  
+  _↳ explanation: La ponctuation et le sens doivent être examinés._
+- ◻️ pause justifiée : une suspension liée au sens ou à la ponctuation.  
+  _↳ explanation: Cette distinction est correcte : La ponctuation et le sens doivent être examinés. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Toute fin de ligne impose la même durée de silence. ».  
+> La ponctuation et le sens doivent être examinés.  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ refrain préparé : une partie convenue pour revenir dans une mise en chant.  
+  _↳ explanation: Cette distinction est correcte : Une répétition écrite ne fournit ni son ni mélodie. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ pause justifiée : une suspension liée au sens ou à la ponctuation.  
+  _↳ explanation: Cette distinction est correcte : La ponctuation et le sens doivent être examinés. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Inventer des mots puis les attribuer au texte est une récitation fidèle.  
+  _↳ explanation: Il faut distinguer création nouvelle et reprise fidèle._
+- ◻️ groupe de sens : une unité de mots préparée ensemble pour être comprise.  
+  _↳ explanation: Cette distinction est correcte : Le regroupement vise la compréhension des mots liés. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Inventer des mots puis les attribuer au texte est une récitation fidèle. ».  
+> Il faut distinguer création nouvelle et reprise fidèle.  
 
 ## Lesson 109: Lecture : Textes adossés au sous- module
 
-Prerequisites: none · Skill: fi2-109 (Lire un texte sur les médias scolaires)
+Prerequisites: 107, 108 · Skill: fi2-109 (Lire un texte sur les médias scolaires)
 
 **Note** (draft)
 
-> Texte original — Le bulletin du club
-> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club.
-> Pour répondre, distingue ce qui est écrit de ce que tu supposes. Appuie une interprétation sur un indice précis.
+> Lis d’abord le passage entier, puis relève personnages, actions et repères. Distingue ce qui est directement écrit de ce qui peut être déduit d’un indice. Une scène fictive peut suggérer une idée sans prouver une règle sur toute une population. Dans un récit, le narrateur ne révèle pas forcément toutes les pensées. Pour répondre, appuie le choix sur les mots du texte et respecte ses limites.
 
-**Card c109-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Repère les personnages et leur projet.
+> À la fin, tu pourras retrouver les rôles et les vérifications d’un bulletin sans inventer son résultat. Acquis mobilisés : le lexique des médias et la récitation. Pour la suite : la description et la lecture littéraire.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> Lis d’abord le passage entier, puis relève personnages, actions et repères. Distingue ce qui est directement écrit de ce qui peut être déduit d’un indice. Une scène fictive peut suggérer une idée sans prouver une règle sur toute une population. Dans un récit, le narrateur ne révèle pas forcément toutes les pensées. Pour répondre, appuie le choix sur les mots du texte et respecte ses limites.
+
+**Learn: Lire le modèle original** (draft)
+
+> Passage original : Dans un club imaginaire de Bamenda, Bih prépare un bulletin écrit. Ayuk propose un titre très affirmatif, mais l’enseignante demande quelle source soutient la phrase principale. Le groupe retrouve l’origine du renseignement et précise ce qui reste à confirmer. Bih réserve un espace pour une question des lecteurs. Le bulletin est encore un projet ; le passage ne donne ni diffusion réalisée ni réactions reçues.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Relis la phrase utile, formule une réponse puis vérifie son appui. Distingue l’ordre des faits, les motifs donnés et ce qui reste inconnu. Ne transforme pas un projet ou une image littéraire en résultat mesuré.
+
+**Learn: key words and examples** (draft)
+
+- **information explicite**: un fait directement donné par les mots
+- **inférence appuyée**: une conclusion prudente soutenue par un indice
+- **chronologie**: l’ordre des faits racontés
+- **limite du texte**: ce que ce passage ne permet pas d’affirmer
+
+
+Common mistake: “Tout détail imaginé est explicitement présent.” → “un fait directement donné par les mots.”. Il faut retrouver le détail dans le passage.
+
+**Card fi2-109-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _Bih et Nji préparent un bulletin scolaire._  
+> _information explicite : un fait directement donné par les mots._  
+> _inférence appuyée : une conclusion prudente soutenue par un indice._  
+> _chronologie : l’ordre des faits racontés._  
+> _limite du texte : ce que ce passage ne permet pas d’affirmer._  
 
-Check question: `fi2-109-etape-1` · multiple choice, level 1 · **authored key**, reused from practice
+Check question: `fi2-109-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Texte original — Le bulletin du club
-> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Qui Bih interroge-t-elle ?
+> Quel terme désigne un fait directement donné par les mots ?
 
-- ◻️ Un gardien de stade.  
-  _↳ feedback if chosen: Le texte nomme son interlocutrice._
-- ◻️ Un chauffeur.  
-  _↳ feedback if chosen: Le texte nomme son interlocutrice._
-- ✅ La bibliothécaire.
+- ✅ information explicite
+- ◻️ limite du texte  
+  _↳ feedback if chosen: Cela désigne ce que ce passage ne permet pas d’affirmer, plutôt que la notion demandée._
+- ◻️ inférence appuyée  
+  _↳ feedback if chosen: Cela désigne une conclusion prudente soutenue par un indice, plutôt que la notion demandée._
+- ◻️ chronologie  
+  _↳ feedback if chosen: Cela désigne l’ordre des faits racontés, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le texte nomme son interlocutrice.  
-> La réponse est : La bibliothécaire..  
+> Il faut retrouver le détail dans le passage.  
+> Donc la réponse est « information explicite ».  
 
-**Card c109-2** (draft)
+**Card fi2-109-c2** (draft)
 
-> Retrouve l’ordre des actions.
+> Lis le contexte avant de nommer la notion.
 >
-> _Les élèves relisent avant d’afficher._  
+> _Une action écrite peut être relevée sans ajout._  
+> _Une question du personnage peut aider à comprendre son intention._  
+> _Une préparation peut précéder une présentation._  
+> _Sans résultat donné, on ne peut inventer un succès mesuré._  
 
-Check question: `fi2-109-etape-2-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-109-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Texte original — Le bulletin du club
-> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quelle erreur est corrigée ?
+> Une préparation peut précéder une présentation.
+> Quelle notion convient ?
 
-- ◻️ La couleur d’une chaise.  
-  _↳ feedback if chosen: La date de la rencontre est l’information vérifiée._
-- ◻️ Le prix d’un repas.  
-  _↳ feedback if chosen: La date de la rencontre est l’information vérifiée._
-- ✅ Une erreur de date.
+- ✅ chronologie
+- ◻️ limite du texte  
+  _↳ feedback if chosen: Cela concerne ce que ce passage ne permet pas d’affirmer. Compare cette définition avec le cas présenté._
+- ◻️ inférence appuyée  
+  _↳ feedback if chosen: Cela concerne une conclusion prudente soutenue par un indice. Compare cette définition avec le cas présenté._
+- ◻️ information explicite  
+  _↳ feedback if chosen: Cela concerne un fait directement donné par les mots. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> La date de la rencontre est l’information vérifiée.  
-> La réponse est : Une erreur de date..  
+> Les repères du passage doivent être suivis.  
+> Donc la réponse est « chronologie ».  
 
-**Card c109-3** (draft)
+**Card fi2-109-c3** (draft)
 
-> Relie la vérification à son effet.
+> Corrige sans changer le sens voulu.
 >
-> _La bonne date aide les élèves à venir au club._  
+> _Tout détail imaginé est explicitement présent. Correction : Il faut retrouver le détail dans le passage._  
+> _Une inférence n’a jamais besoin d’indice. Correction : La conclusion doit rester liée au texte._  
+> _L’ordre raconté impose forcément de commencer par la fin. Correction : Les repères du passage doivent être suivis._  
+> _Une scène inventée prouve tous les cas réels. Correction : L’exemple ne donne pas cette portée générale._  
 
-Check question: `fi2-109-etape-3-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-109-corriger-card` · spot the error, level 1 · **authored key**
 
-> Texte original — Le bulletin du club
-> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quel titre exprime le mieux l’idée principale ?
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ◻️ Un voyage en mer.  
-  _↳ feedback if chosen: Le récit montre comment une vérification améliore un bulletin._
-- ✅ Vérifier avant d’informer.
-- ◻️ La panne du camion.  
-  _↳ feedback if chosen: Le récit montre comment une vérification améliore un bulletin._
+- ✅ Une inférence n’a jamais besoin d’indice.  
+  _↳ explanation: La conclusion doit rester liée au texte._
+- ◻️ limite du texte : ce que ce passage ne permet pas d’affirmer.  
+  _↳ explanation: Cette distinction est correcte : L’exemple ne donne pas cette portée générale. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ chronologie : l’ordre des faits racontés.  
+  _↳ explanation: Cette distinction est correcte : Les repères du passage doivent être suivis. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ inférence appuyée : une conclusion prudente soutenue par un indice.  
+  _↳ explanation: Cette distinction est correcte : La conclusion doit rester liée au texte. Cherche plutôt une phrase qui contredit le sens ou la règle._
 
 Full working after a second miss:
 
-> Le récit montre comment une vérification améliore un bulletin.  
-> La réponse est : Vérifier avant d’informer..  
+> La phrase fausse est « Une inférence n’a jamais besoin d’indice. ».  
+> La conclusion doit rester liée au texte.  
 
 **Worked example** (draft)
 
-> Texte original — Le bulletin du club
-> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quand font-ils relire le bulletin ?
+> Une action écrite peut être relevée sans ajout. Explique le choix.
 
-1. Retrouve l’ordre des actions.
-2. Le texte précise avant d’afficher.
+1. un fait directement donné par les mots.
+2. Il faut retrouver le détail dans le passage.
 
-**Answer:** Avant de l’afficher.
+**Answer:** information explicite
 
-**Practice** `fi2-109-etape-1` · multiple choice, level 1 · **authored key**
+**Practice** `fi2-109-notions` · multiple choice, level 1 · **authored key**
 
-> Texte original — Le bulletin du club
-> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Qui Bih interroge-t-elle ?
+> Quel terme désigne ce que ce passage ne permet pas d’affirmer ?
 
-- ◻️ Un chauffeur.  
-  _↳ feedback if chosen: Le texte nomme son interlocutrice._
-- ◻️ Un gardien de stade.  
-  _↳ feedback if chosen: Le texte nomme son interlocutrice._
-- ✅ La bibliothécaire.
-
-Full working after a second miss:
-
-> Le texte nomme son interlocutrice.  
-> La réponse est : La bibliothécaire..  
-
-> Texte original — Le bulletin du club
-> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Que préparent les élèves ?
-
-- ◻️ Une émission de cuisine.  
-  _↳ feedback if chosen: Le projet est annoncé au début du texte._
-- ✅ Un bulletin pour l’école.
-- ◻️ Un permis de conduire.  
-  _↳ feedback if chosen: Le projet est annoncé au début du texte._
+- ◻️ inférence appuyée  
+  _↳ feedback if chosen: Cela désigne une conclusion prudente soutenue par un indice, plutôt que la notion demandée._
+- ◻️ chronologie  
+  _↳ feedback if chosen: Cela désigne l’ordre des faits racontés, plutôt que la notion demandée._
+- ◻️ information explicite  
+  _↳ feedback if chosen: Cela désigne un fait directement donné par les mots, plutôt que la notion demandée._
+- ✅ limite du texte
 
 Full working after a second miss:
 
-> Le projet est annoncé au début du texte.  
-> La réponse est : Un bulletin pour l’école..  
+> L’exemple ne donne pas cette portée générale.  
+> Donc la réponse est « limite du texte ».  
 
-**Practice** `fi2-109-etape-2` · multiple choice, level 2 · **authored key**
+> Quel terme désigne une conclusion prudente soutenue par un indice ?
 
-> Texte original — Le bulletin du club
-> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quelle erreur est corrigée ?
-
-- ◻️ Le prix d’un repas.  
-  _↳ feedback if chosen: La date de la rencontre est l’information vérifiée._
-- ◻️ La couleur d’une chaise.  
-  _↳ feedback if chosen: La date de la rencontre est l’information vérifiée._
-- ✅ Une erreur de date.
-
-Full working after a second miss:
-
-> La date de la rencontre est l’information vérifiée.  
-> La réponse est : Une erreur de date..  
-
-> Texte original — Le bulletin du club
-> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quelle erreur est corrigée ?
-
-- ◻️ Le prix d’un repas.  
-  _↳ feedback if chosen: La date de la rencontre est l’information vérifiée._
-- ◻️ La couleur d’une chaise.  
-  _↳ feedback if chosen: La date de la rencontre est l’information vérifiée._
-- ✅ Une erreur de date.
+- ◻️ chronologie  
+  _↳ feedback if chosen: Cela désigne l’ordre des faits racontés, plutôt que la notion demandée._
+- ✅ inférence appuyée
+- ◻️ limite du texte  
+  _↳ feedback if chosen: Cela désigne ce que ce passage ne permet pas d’affirmer, plutôt que la notion demandée._
+- ◻️ information explicite  
+  _↳ feedback if chosen: Cela désigne un fait directement donné par les mots, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> La date de la rencontre est l’information vérifiée.  
-> La réponse est : Une erreur de date..  
+> La conclusion doit rester liée au texte.  
+> Donc la réponse est « inférence appuyée ».  
 
-**Practice** `fi2-109-etape-3` · multiple choice, level 3 · **authored key**
+**Practice** `fi2-109-cas` · multiple choice, level 1 · **authored key**
 
-> Texte original — Le bulletin du club
-> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quel titre exprime le mieux l’idée principale ?
+> Une action écrite peut être relevée sans ajout.
+> Quelle notion convient ?
 
-- ✅ Vérifier avant d’informer.
-- ◻️ La panne du camion.  
-  _↳ feedback if chosen: Le récit montre comment une vérification améliore un bulletin._
-- ◻️ Un voyage en mer.  
-  _↳ feedback if chosen: Le récit montre comment une vérification améliore un bulletin._
-
-Full working after a second miss:
-
-> Le récit montre comment une vérification améliore un bulletin.  
-> La réponse est : Vérifier avant d’informer..  
-
-> Texte original — Le bulletin du club
-> Le club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quel titre exprime le mieux l’idée principale ?
-
-- ✅ Vérifier avant d’informer.
-- ◻️ La panne du camion.  
-  _↳ feedback if chosen: Le récit montre comment une vérification améliore un bulletin._
-- ◻️ Un voyage en mer.  
-  _↳ feedback if chosen: Le récit montre comment une vérification améliore un bulletin._
+- ◻️ inférence appuyée  
+  _↳ feedback if chosen: Cela concerne une conclusion prudente soutenue par un indice. Compare cette définition avec le cas présenté._
+- ✅ information explicite
+- ◻️ limite du texte  
+  _↳ feedback if chosen: Cela concerne ce que ce passage ne permet pas d’affirmer. Compare cette définition avec le cas présenté._
+- ◻️ chronologie  
+  _↳ feedback if chosen: Cela concerne l’ordre des faits racontés. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Le récit montre comment une vérification améliore un bulletin.  
-> La réponse est : Vérifier avant d’informer..  
+> Il faut retrouver le détail dans le passage.  
+> Donc la réponse est « information explicite ».  
+
+> Une action écrite peut être relevée sans ajout.
+> Quelle notion convient ?
+
+- ✅ information explicite
+- ◻️ limite du texte  
+  _↳ feedback if chosen: Cela concerne ce que ce passage ne permet pas d’affirmer. Compare cette définition avec le cas présenté._
+- ◻️ chronologie  
+  _↳ feedback if chosen: Cela concerne l’ordre des faits racontés. Compare cette définition avec le cas présenté._
+- ◻️ inférence appuyée  
+  _↳ feedback if chosen: Cela concerne une conclusion prudente soutenue par un indice. Compare cette définition avec le cas présenté._
+
+Full working after a second miss:
+
+> Il faut retrouver le détail dans le passage.  
+> Donc la réponse est « information explicite ».  
+
+**Practice** `fi2-109-comprendre` · multiple choice, level 2 · **authored key**
+
+> Pourquoi garder un espace dans le bulletin ?
+
+- ◻️ Pour garantir l’accord de tous.  
+  _↳ feedback if chosen: Les réactions ne sont pas connues._
+- ✅ Pour une question des lecteurs.
+- ◻️ Pour cacher une prescription.  
+  _↳ feedback if chosen: Aucune prescription n’est prévue._
+- ◻️ Pour prouver que le bulletin a été diffusé.  
+  _↳ feedback if chosen: L’espace ne prouve pas la diffusion._
+
+Full working after a second miss:
+
+> Le passage donne cette fonction.  
+> Donc la réponse est « Pour une question des lecteurs. ».  
+
+> Quel support le club prépare-t-il ?
+
+- ◻️ Une lettre privée de tous les élèves.  
+  _↳ feedback if chosen: Aucune telle correspondance n’est donnée._
+- ✅ Un bulletin écrit.
+- ◻️ Un résultat de dépistage.  
+  _↳ feedback if chosen: Le thème n’est pas un examen médical._
+- ◻️ Une émission déjà enregistrée.  
+  _↳ feedback if chosen: Aucun enregistrement n’est réalisé dans le passage._
+
+Full working after a second miss:
+
+> Relève le support annoncé.  
+> Donc la réponse est « Un bulletin écrit. ».  
+
+**Practice** `fi2-109-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Une action écrite peut être relevée sans ajout. · Une question du personnage peut aider à comprendre son intention. · Une préparation peut précéder une présentation.
+- information explicite → **Une action écrite peut être relevée sans ajout.**
+- chronologie → **Une préparation peut précéder une présentation.**
+- inférence appuyée → **Une question du personnage peut aider à comprendre son intention.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> information explicite → Une action écrite peut être relevée sans ajout.  
+> chronologie → Une préparation peut précéder une présentation.  
+> inférence appuyée → Une question du personnage peut aider à comprendre son intention.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Une préparation peut précéder une présentation. · Sans résultat donné, on ne peut inventer un succès mesuré. · Une action écrite peut être relevée sans ajout.
+- chronologie → **Une préparation peut précéder une présentation.**
+- information explicite → **Une action écrite peut être relevée sans ajout.**
+- limite du texte → **Sans résultat donné, on ne peut inventer un succès mesuré.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> chronologie → Une préparation peut précéder une présentation.  
+> information explicite → Une action écrite peut être relevée sans ajout.  
+> limite du texte → Sans résultat donné, on ne peut inventer un succès mesuré.  
+
+**Practice** `fi2-109-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ information explicite : un fait directement donné par les mots.  
+  _↳ explanation: Cette distinction est correcte : Il faut retrouver le détail dans le passage. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ inférence appuyée : une conclusion prudente soutenue par un indice.  
+  _↳ explanation: Cette distinction est correcte : La conclusion doit rester liée au texte. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ limite du texte : ce que ce passage ne permet pas d’affirmer.  
+  _↳ explanation: Cette distinction est correcte : L’exemple ne donne pas cette portée générale. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Tout détail imaginé est explicitement présent.  
+  _↳ explanation: Il faut retrouver le détail dans le passage._
+
+Full working after a second miss:
+
+> La phrase fausse est « Tout détail imaginé est explicitement présent. ».  
+> Il faut retrouver le détail dans le passage.  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ✅ L’ordre raconté impose forcément de commencer par la fin.  
+  _↳ explanation: Les repères du passage doivent être suivis._
+- ◻️ limite du texte : ce que ce passage ne permet pas d’affirmer.  
+  _↳ explanation: Cette distinction est correcte : L’exemple ne donne pas cette portée générale. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ information explicite : un fait directement donné par les mots.  
+  _↳ explanation: Cette distinction est correcte : Il faut retrouver le détail dans le passage. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ inférence appuyée : une conclusion prudente soutenue par un indice.  
+  _↳ explanation: Cette distinction est correcte : La conclusion doit rester liée au texte. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « L’ordre raconté impose forcément de commencer par la fin. ».  
+> Les repères du passage doivent être suivis.  
 
 ## Lesson 110: Expression écrite : Description
 
-Prerequisites: none · Skill: fi2-110 (Décrire un lieu ou un objet)
+Prerequisites: 104, 107, 109 · Skill: fi2-110 (Décrire un lieu ou un objet)
 
 **Note** (draft)
 
-> Décrire, c’est donner à voir un lieu ou un objet. Présente ce que tu décris, puis organise les détails : vue d’ensemble, disposition, formes, couleurs et éléments utiles. Utilise des repères comme à gauche, au fond, près de. Le présent et les adjectifs précis peuvent aider. Distingue ce que tu observes de ce que tu imagines. Relis pour éviter les détails contradictoires et les répétitions.
+> Décrire permet de représenter un lieu ou un objet par des détails organisés. Présente l’ensemble puis suis un parcours : de l’entrée au fond, ou de la forme générale aux parties. Des repères spatiaux comme à gauche et près de relient les éléments. Une impression, par exemple ordonné, doit s’appuyer sur des détails. Ne raconte pas une suite d’événements si la consigne demande surtout l’organisation du lieu. Le modèle peut être fictif et ne doit pas exposer une adresse privée.
 
-**Card c110-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Une description organise ce qui est observable.
+> À la fin, tu pourras organiser une description spatiale et justifier une impression avec des détails. Acquis mobilisés : les groupes nominaux et la lecture de médias. Pour la suite : la lecture littéraire et le portrait.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> Décrire permet de représenter un lieu ou un objet par des détails organisés. Présente l’ensemble puis suis un parcours : de l’entrée au fond, ou de la forme générale aux parties. Des repères spatiaux comme à gauche et près de relient les éléments. Une impression, par exemple ordonné, doit s’appuyer sur des détails. Ne raconte pas une suite d’événements si la consigne demande surtout l’organisation du lieu. Le modèle peut être fictif et ne doit pas exposer une adresse privée.
+
+**Learn: Lire le modèle original** (draft)
+
+> Modèle original : Dans une salle imaginaire de Buea, une table claire occupe le centre. À gauche, une étagère porte les cahiers du club. Au fond, un panneau rassemble les projets de bulletin. Le passage entre la porte et la table reste dégagé. Ces détails donnent une impression d’ordre et permettent de situer le matériel.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Choisis l’ensemble et le parcours avant d’écrire. Place des détails compatibles entre eux, puis vérifie les accords et les reprises. Fais suivre une impression de ce qui la rend compréhensible.
+
+**Learn: key words and examples** (draft)
+
+- **vue d’ensemble**: une présentation globale avant les détails
+- **repère spatial**: une expression plaçant un élément dans l’espace
+- **parcours descriptif**: un ordre guidant le regard
+- **impression appuyée**: un effet soutenu par les détails choisis
+
+
+Common mistake: “Une description doit toujours empêcher de connaître le lieu.” → “une présentation globale avant les détails.”. L’ensemble aide à situer les détails.
+
+**Card fi2-110-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _La salle contient une table et un écran._  
+> _vue d’ensemble : une présentation globale avant les détails._  
+> _repère spatial : une expression plaçant un élément dans l’espace._  
+> _parcours descriptif : un ordre guidant le regard._  
+> _impression appuyée : un effet soutenu par les détails choisis._  
 
-Check question: `fi2-110-etape-1` · multiple choice, level 1 · **authored key**, reused from practice
+Check question: `fi2-110-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Quelle phrase décrit un lieu ?
+> Quel terme désigne un ordre guidant le regard ?
 
-- ◻️ Hier, je partis en courant.  
-  _↳ feedback if chosen: La phrase situe des éléments observables._
-- ◻️ Je vous demande une autorisation.  
-  _↳ feedback if chosen: La phrase situe des éléments observables._
-- ✅ Au fond de la salle, un écran est posé sur une table.
+- ◻️ impression appuyée  
+  _↳ feedback if chosen: Cela désigne un effet soutenu par les détails choisis, plutôt que la notion demandée._
+- ◻️ vue d’ensemble  
+  _↳ feedback if chosen: Cela désigne une présentation globale avant les détails, plutôt que la notion demandée._
+- ◻️ repère spatial  
+  _↳ feedback if chosen: Cela désigne une expression plaçant un élément dans l’espace, plutôt que la notion demandée._
+- ✅ parcours descriptif
 
 Full working after a second miss:
 
-> La phrase situe des éléments observables.  
-> La réponse est : Au fond de la salle, un écran est posé sur une table..  
+> Le lecteur doit pouvoir reconstruire les relations.  
+> Donc la réponse est « parcours descriptif ».  
 
-**Card c110-2** (draft)
+**Card fi2-110-c2** (draft)
 
-> Les repères spatiaux ordonnent les détails.
+> Lis le contexte avant de nommer la notion.
 >
-> _À gauche de la table, une chaise est vide._  
+> _Le modèle annonce une salle imaginaire._  
+> _À gauche situe l’étagère._  
+> _Le texte passe du centre aux côtés puis au fond._  
+> _Le passage dégagé soutient l’idée d’ordre._  
 
-Check question: `fi2-110-etape-2-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-110-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Quelle suite reste cohérente ?
+> Le passage dégagé soutient l’idée d’ordre.
+> Quelle notion convient ?
 
-- ✅ La table est au centre. Une chaise est placée près d’elle.
-- ◻️ La table est ronde. Elle n’a aucune forme.  
-  _↳ feedback if chosen: Les éléments de la description doivent rester compatibles._
-- ◻️ La table est seule. Aucun meuble n’existe.  
-  _↳ feedback if chosen: Les éléments de la description doivent rester compatibles._
+- ◻️ repère spatial  
+  _↳ feedback if chosen: Cela concerne une expression plaçant un élément dans l’espace. Compare cette définition avec le cas présenté._
+- ◻️ parcours descriptif  
+  _↳ feedback if chosen: Cela concerne un ordre guidant le regard. Compare cette définition avec le cas présenté._
+- ◻️ vue d’ensemble  
+  _↳ feedback if chosen: Cela concerne une présentation globale avant les détails. Compare cette définition avec le cas présenté._
+- ✅ impression appuyée
 
 Full working after a second miss:
 
-> Les éléments de la description doivent rester compatibles.  
-> La réponse est : La table est au centre. Une chaise est placée près d’elle..  
+> Les indices doivent soutenir l’effet.  
+> Donc la réponse est « impression appuyée ».  
 
-**Card c110-3** (draft)
+**Card fi2-110-c3** (draft)
 
-> Ne présente pas une supposition comme une observation.
+> Corrige sans changer le sens voulu.
 >
-> _Je vois un cahier ; je ne connais pas encore son propriétaire._  
+> _Une description doit toujours empêcher de connaître le lieu. Correction : L’ensemble aide à situer les détails._  
+> _À gauche exprime uniquement un événement futur. Correction : Ce repère indique ici une position._  
+> _Les positions peuvent se contredire sans nuire à la description. Correction : Le lecteur doit pouvoir reconstruire les relations._  
+> _Une impression doit toujours être sans lien avec les détails. Correction : Les indices doivent soutenir l’effet._  
 
-Check question: `fi2-110-etape-3-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-110-corriger-card` · spot the error, level 1 · **authored key**
 
-> Que faut-il vérifier en relisant une description ?
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ✅ L’ordre des détails et les accords des adjectifs.
-- ◻️ Que chaque phrase change de sujet.  
-  _↳ feedback if chosen: La description doit être organisée et grammaticalement correcte._
-- ◻️ Seulement la longueur du titre.  
-  _↳ feedback if chosen: La description doit être organisée et grammaticalement correcte._
+- ◻️ vue d’ensemble : une présentation globale avant les détails.  
+  _↳ explanation: Cette distinction est correcte : L’ensemble aide à situer les détails. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ impression appuyée : un effet soutenu par les détails choisis.  
+  _↳ explanation: Cette distinction est correcte : Les indices doivent soutenir l’effet. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Les positions peuvent se contredire sans nuire à la description.  
+  _↳ explanation: Le lecteur doit pouvoir reconstruire les relations._
+- ◻️ repère spatial : une expression plaçant un élément dans l’espace.  
+  _↳ explanation: Cette distinction est correcte : Ce repère indique ici une position. Cherche plutôt une phrase qui contredit le sens ou la règle._
 
 Full working after a second miss:
 
-> La description doit être organisée et grammaticalement correcte.  
-> La réponse est : L’ordre des détails et les accords des adjectifs..  
+> La phrase fausse est « Les positions peuvent se contredire sans nuire à la description. ».  
+> Le lecteur doit pouvoir reconstruire les relations.  
 
 **Worked example** (draft)
 
-> Quel groupe situe un détail ?
+> Le modèle annonce une salle imaginaire. Explique le choix.
 
-1. Les repères spatiaux ordonnent les détails.
-2. À gauche est un repère spatial.
+1. une présentation globale avant les détails.
+2. L’ensemble aide à situer les détails.
 
-**Answer:** À gauche de la table
+**Answer:** vue d’ensemble
 
 **Paper task** (draft; not marked by the app, mastery stays unknown)
 
-> Décris le coin de travail d’un élève imaginaire. Présente le lieu, puis situe quelques objets avec à gauche, au centre ou au fond.
+> Décris une salle ou un objet entièrement imaginaire lié à un club. Présente l’ensemble, organise les parties et appuie une impression sur des détails.
 
 Model answer, shown after the pupil has written:
 
-> Au fond de la pièce, une petite table est placée près de la fenêtre. Un cahier bleu est ouvert au centre. À gauche, un stylo repose à côté d’une radio noire. Le coin est simple et bien rangé.  
+> Dans une salle imaginaire de Buea, une table claire occupe le centre. À gauche, une étagère porte les cahiers du club. Au fond, un panneau rassemble les projets de bulletin. Le passage entre la porte et la table reste dégagé. Ces détails donnent une impression d’ordre et permettent de situer le matériel.  
 
 Self-check list:
 
-- [ ] J’ai présenté le lieu et ordonné les détails.
-- [ ] J’ai utilisé des repères spatiaux.
-- [ ] J’ai relu les accords et la ponctuation.
+- [ ] Mon parcours permet de situer les éléments.
+- [ ] Mes détails soutiennent l’impression annoncée.
+- [ ] Je vérifie accords, phrases et reprises sans données privées.
 
-**Practice** `fi2-110-etape-1` · multiple choice, level 1 · **authored key**
+**Practice** `fi2-110-notions` · multiple choice, level 1 · **authored key**
 
-> Quelle phrase décrit un lieu ?
+> Quel terme désigne une expression plaçant un élément dans l’espace ?
 
-- ◻️ Je vous demande une autorisation.  
-  _↳ feedback if chosen: La phrase situe des éléments observables._
-- ✅ Au fond de la salle, un écran est posé sur une table.
-- ◻️ Hier, je partis en courant.  
-  _↳ feedback if chosen: La phrase situe des éléments observables._
-
-Full working after a second miss:
-
-> La phrase situe des éléments observables.  
-> La réponse est : Au fond de la salle, un écran est posé sur une table..  
-
-> Quelle phrase décrit un objet ?
-
-- ◻️ Qui est à l’appareil ?  
-  _↳ feedback if chosen: La taille et la couleur décrivent l’objet._
-- ✅ Le poste de radio est petit et noir.
-- ◻️ Je viendrai demain.  
-  _↳ feedback if chosen: La taille et la couleur décrivent l’objet._
+- ◻️ vue d’ensemble  
+  _↳ feedback if chosen: Cela désigne une présentation globale avant les détails, plutôt que la notion demandée._
+- ◻️ parcours descriptif  
+  _↳ feedback if chosen: Cela désigne un ordre guidant le regard, plutôt que la notion demandée._
+- ✅ repère spatial
+- ◻️ impression appuyée  
+  _↳ feedback if chosen: Cela désigne un effet soutenu par les détails choisis, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> La taille et la couleur décrivent l’objet.  
-> La réponse est : Le poste de radio est petit et noir..  
+> Ce repère indique ici une position.  
+> Donc la réponse est « repère spatial ».  
 
-**Practice** `fi2-110-etape-2` · multiple choice, level 2 · **authored key**
+> Quel terme désigne une présentation globale avant les détails ?
 
-> Quel groupe situe un détail ?
-
-- ◻️ Le lendemain  
-  _↳ feedback if chosen: À gauche est un repère spatial._
-- ✅ À gauche de la table
-- ◻️ Tout à coup  
-  _↳ feedback if chosen: À gauche est un repère spatial._
-
-Full working after a second miss:
-
-> À gauche est un repère spatial.  
-> La réponse est : À gauche de la table.  
-
-> Quel groupe situe un détail ?
-
-- ◻️ Le lendemain  
-  _↳ feedback if chosen: À gauche est un repère spatial._
-- ✅ À gauche de la table
-- ◻️ Tout à coup  
-  _↳ feedback if chosen: À gauche est un repère spatial._
+- ◻️ parcours descriptif  
+  _↳ feedback if chosen: Cela désigne un ordre guidant le regard, plutôt que la notion demandée._
+- ✅ vue d’ensemble
+- ◻️ repère spatial  
+  _↳ feedback if chosen: Cela désigne une expression plaçant un élément dans l’espace, plutôt que la notion demandée._
+- ◻️ impression appuyée  
+  _↳ feedback if chosen: Cela désigne un effet soutenu par les détails choisis, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> À gauche est un repère spatial.  
-> La réponse est : À gauche de la table.  
+> L’ensemble aide à situer les détails.  
+> Donc la réponse est « vue d’ensemble ».  
 
-**Practice** `fi2-110-etape-3` · multiple choice, level 3 · **authored key**
+**Practice** `fi2-110-cas` · multiple choice, level 1 · **authored key**
 
-> Que faut-il vérifier en relisant une description ?
+> Le texte passe du centre aux côtés puis au fond.
+> Quelle notion convient ?
 
-- ◻️ Seulement la longueur du titre.  
-  _↳ feedback if chosen: La description doit être organisée et grammaticalement correcte._
-- ✅ L’ordre des détails et les accords des adjectifs.
-- ◻️ Que chaque phrase change de sujet.  
-  _↳ feedback if chosen: La description doit être organisée et grammaticalement correcte._
-
-Full working after a second miss:
-
-> La description doit être organisée et grammaticalement correcte.  
-> La réponse est : L’ordre des détails et les accords des adjectifs..  
-
-> Une image montre un cahier fermé. Quelle phrase respecte ce qu’on voit ?
-
-- ✅ Un cahier fermé est posé sur la table.
-- ◻️ Son propriétaire est certainement riche.  
-  _↳ feedback if chosen: L’image permet de décrire le cahier, pas d’inventer son contenu ou son propriétaire._
-- ◻️ Il contient forcément un secret.  
-  _↳ feedback if chosen: L’image permet de décrire le cahier, pas d’inventer son contenu ou son propriétaire._
+- ◻️ impression appuyée  
+  _↳ feedback if chosen: Cela concerne un effet soutenu par les détails choisis. Compare cette définition avec le cas présenté._
+- ✅ parcours descriptif
+- ◻️ repère spatial  
+  _↳ feedback if chosen: Cela concerne une expression plaçant un élément dans l’espace. Compare cette définition avec le cas présenté._
+- ◻️ vue d’ensemble  
+  _↳ feedback if chosen: Cela concerne une présentation globale avant les détails. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> L’image permet de décrire le cahier, pas d’inventer son contenu ou son propriétaire.  
-> La réponse est : Un cahier fermé est posé sur la table..  
+> Le lecteur doit pouvoir reconstruire les relations.  
+> Donc la réponse est « parcours descriptif ».  
+
+> À gauche situe l’étagère.
+> Quelle notion convient ?
+
+- ◻️ vue d’ensemble  
+  _↳ feedback if chosen: Cela concerne une présentation globale avant les détails. Compare cette définition avec le cas présenté._
+- ✅ repère spatial
+- ◻️ impression appuyée  
+  _↳ feedback if chosen: Cela concerne un effet soutenu par les détails choisis. Compare cette définition avec le cas présenté._
+- ◻️ parcours descriptif  
+  _↳ feedback if chosen: Cela concerne un ordre guidant le regard. Compare cette définition avec le cas présenté._
+
+Full working after a second miss:
+
+> Ce repère indique ici une position.  
+> Donc la réponse est « repère spatial ».  
+
+**Practice** `fi2-110-construire` · word order, level 2 · **authored key**
+
+> Touche les mots dans le bon ordre.
+
+Tiles: gauche · À · l’étagère · situe (then “.”)
+Answer: **À gauche situe l’étagère.**
+
+Full working after a second miss:
+
+> La phrase est : À gauche situe l’étagère.  
+
+> Touche les mots dans le bon ordre.
+
+Tiles: annonce · Le · imaginaire · une · modèle · salle (then “.”)
+Answer: **Le modèle annonce une salle imaginaire.**
+
+Full working after a second miss:
+
+> La phrase est : Le modèle annonce une salle imaginaire.  
+
+**Practice** `fi2-110-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Le modèle annonce une salle imaginaire. · Le passage dégagé soutient l’idée d’ordre. · À gauche situe l’étagère.
+- impression appuyée → **Le passage dégagé soutient l’idée d’ordre.**
+- repère spatial → **À gauche situe l’étagère.**
+- vue d’ensemble → **Le modèle annonce une salle imaginaire.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> impression appuyée → Le passage dégagé soutient l’idée d’ordre.  
+> repère spatial → À gauche situe l’étagère.  
+> vue d’ensemble → Le modèle annonce une salle imaginaire.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Le texte passe du centre aux côtés puis au fond. · À gauche situe l’étagère. · Le modèle annonce une salle imaginaire.
+- vue d’ensemble → **Le modèle annonce une salle imaginaire.**
+- parcours descriptif → **Le texte passe du centre aux côtés puis au fond.**
+- repère spatial → **À gauche situe l’étagère.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> vue d’ensemble → Le modèle annonce une salle imaginaire.  
+> parcours descriptif → Le texte passe du centre aux côtés puis au fond.  
+> repère spatial → À gauche situe l’étagère.  
+
+**Practice** `fi2-110-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ repère spatial : une expression plaçant un élément dans l’espace.  
+  _↳ explanation: Cette distinction est correcte : Ce repère indique ici une position. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Une impression doit toujours être sans lien avec les détails.  
+  _↳ explanation: Les indices doivent soutenir l’effet._
+- ◻️ vue d’ensemble : une présentation globale avant les détails.  
+  _↳ explanation: Cette distinction est correcte : L’ensemble aide à situer les détails. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ impression appuyée : un effet soutenu par les détails choisis.  
+  _↳ explanation: Cette distinction est correcte : Les indices doivent soutenir l’effet. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Une impression doit toujours être sans lien avec les détails. ».  
+> Les indices doivent soutenir l’effet.  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ✅ Une impression doit toujours être sans lien avec les détails.  
+  _↳ explanation: Les indices doivent soutenir l’effet._
+- ◻️ impression appuyée : un effet soutenu par les détails choisis.  
+  _↳ explanation: Cette distinction est correcte : Les indices doivent soutenir l’effet. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ vue d’ensemble : une présentation globale avant les détails.  
+  _↳ explanation: Cette distinction est correcte : L’ensemble aide à situer les détails. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ repère spatial : une expression plaçant un élément dans l’espace.  
+  _↳ explanation: Cette distinction est correcte : Ce repère indique ici une position. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Une impression doit toujours être sans lien avec les détails. ».  
+> Les indices doivent soutenir l’effet.  
 
 ## Lesson 111: Initiation à la littérature : Lecture suivie de courts textes littéraires liés au sous-module (ou voir œuvres au programme)
 
-Prerequisites: none · Skill: fi2-111 (Lire un court récit littéraire)
+Prerequisites: 109, 110 · Skill: fi2-111 (Lire un court récit littéraire original)
 
 **Note** (draft)
 
-> Récit original — Le message envolé
-> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service.
-> Un récit fait agir des personnages. Repère la situation de départ, l’événement qui la modifie et le dénouement. Une interprétation doit rester liée aux mots du texte. Ce texte original n’est pas un extrait d’une œuvre prescrite.
+> Lis d’abord le passage entier, puis relève personnages, actions et repères. Distingue ce qui est directement écrit de ce qui peut être déduit d’un indice. Une scène fictive peut suggérer une idée sans prouver une règle sur toute une population. Dans un récit, le narrateur ne révèle pas forcément toutes les pensées. Pour répondre, appuie le choix sur les mots du texte et respecte ses limites.
 
-**Card c111-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Identifie la situation de départ.
+> À la fin, tu pourras relier une image de récit aux actions sans inventer les pensées absentes. Acquis mobilisés : les faits d’un passage et la description. Pour la suite : les sujets multiples et la narration.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> Lis d’abord le passage entier, puis relève personnages, actions et repères. Distingue ce qui est directement écrit de ce qui peut être déduit d’un indice. Une scène fictive peut suggérer une idée sans prouver une règle sur toute une population. Dans un récit, le narrateur ne révèle pas forcément toutes les pensées. Pour répondre, appuie le choix sur les mots du texte et respecte ses limites.
+
+**Learn: Lire le modèle original** (draft)
+
+> Récit original : Le cahier dormait au bord de la table. Bih le prit et relut le titre du bulletin. Dans la cour du club imaginaire, Ayuk attendait une réponse. Bih barra une phrase trop certaine et écrivit une question à sa place. Quand elle montra la page, Ayuk sourit. Le récit ne dit pas ce qu’il pensait exactement. Le cahier qui dort est une image littéraire : il ne s’agit pas d’un objet réellement endormi.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Relis la phrase utile, formule une réponse puis vérifie son appui. Distingue l’ordre des faits, les motifs donnés et ce qui reste inconnu. Ne transforme pas un projet ou une image littéraire en résultat mesuré.
+
+**Learn: key words and examples** (draft)
+
+- **information explicite**: un fait directement donné par les mots
+- **point de vue du récit**: la manière dont le narrateur donne accès à la scène
+- **chronologie**: l’ordre des faits racontés
+- **limite du texte**: ce que ce passage ne permet pas d’affirmer
+
+
+Common mistake: “Tout détail imaginé est explicitement présent.” → “un fait directement donné par les mots.”. Il faut retrouver le détail dans le passage.
+
+**Card fi2-111-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _Nji tient une lettre pour sa grand-mère._  
+> _information explicite : un fait directement donné par les mots._  
+> _point de vue du récit : la manière dont le narrateur donne accès à la scène._  
+> _chronologie : l’ordre des faits racontés._  
+> _limite du texte : ce que ce passage ne permet pas d’affirmer._  
 
-Check question: `fi2-111-etape-1` · multiple choice, level 1 · **authored key**, reused from practice
+Check question: `fi2-111-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Récit original — Le message envolé
-> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel personnage empêche la feuille de s’envoler ?
+> Quel terme désigne un fait directement donné par les mots ?
 
-- ✅ Bih.
-- ◻️ La grand-mère.  
-  _↳ feedback if chosen: Bih pose son cahier sur la feuille._
-- ◻️ Un chauffeur.  
-  _↳ feedback if chosen: Bih pose son cahier sur la feuille._
+- ◻️ chronologie  
+  _↳ feedback if chosen: Cela désigne l’ordre des faits racontés, plutôt que la notion demandée._
+- ◻️ point de vue du récit  
+  _↳ feedback if chosen: Cela désigne la manière dont le narrateur donne accès à la scène, plutôt que la notion demandée._
+- ✅ information explicite
+- ◻️ limite du texte  
+  _↳ feedback if chosen: Cela désigne ce que ce passage ne permet pas d’affirmer, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Bih pose son cahier sur la feuille.  
-> La réponse est : Bih..  
+> Il faut retrouver le détail dans le passage.  
+> Donc la réponse est « information explicite ».  
 
-**Card c111-2** (draft)
+**Card fi2-111-c2** (draft)
 
-> Repère l’événement qui crée le problème.
+> Lis le contexte avant de nommer la notion.
 >
-> _Une rafale fait tomber la lettre._  
+> _Une action écrite peut être relevée sans ajout._  
+> _Le récit peut montrer les actions sans révéler toutes les pensées._  
+> _Une préparation peut précéder une présentation._  
+> _Sans résultat donné, on ne peut inventer un succès mesuré._  
 
-Check question: `fi2-111-etape-2-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-111-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Récit original — Le message envolé
-> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel geste résout le problème ?
+> Une action écrite peut être relevée sans ajout.
+> Quelle notion convient ?
 
-- ◻️ Bih quitte la cour.  
-  _↳ feedback if chosen: Le cahier empêche la feuille de continuer à s’envoler._
-- ✅ Bih pose son cahier sur la lettre.
-- ◻️ Nji déchire la lettre.  
-  _↳ feedback if chosen: Le cahier empêche la feuille de continuer à s’envoler._
+- ◻️ limite du texte  
+  _↳ feedback if chosen: Cela concerne ce que ce passage ne permet pas d’affirmer. Compare cette définition avec le cas présenté._
+- ◻️ point de vue du récit  
+  _↳ feedback if chosen: Cela concerne la manière dont le narrateur donne accès à la scène. Compare cette définition avec le cas présenté._
+- ◻️ chronologie  
+  _↳ feedback if chosen: Cela concerne l’ordre des faits racontés. Compare cette définition avec le cas présenté._
+- ✅ information explicite
 
 Full working after a second miss:
 
-> Le cahier empêche la feuille de continuer à s’envoler.  
-> La réponse est : Bih pose son cahier sur la lettre..  
+> Il faut retrouver le détail dans le passage.  
+> Donc la réponse est « information explicite ».  
 
-**Card c111-3** (draft)
+**Card fi2-111-c3** (draft)
 
-> Appuie une interprétation sur un geste du récit.
+> Corrige sans changer le sens voulu.
 >
-> _Le geste de Bih illustre l’entraide._  
+> _Tout détail imaginé est explicitement présent. Correction : Il faut retrouver le détail dans le passage._  
+> _Le lecteur connaît obligatoirement chaque pensée non écrite. Correction : On ne peut attribuer au texte ce qu’il ne révèle pas._  
+> _L’ordre raconté impose forcément de commencer par la fin. Correction : Les repères du passage doivent être suivis._  
+> _Une scène inventée prouve tous les cas réels. Correction : L’exemple ne donne pas cette portée générale._  
 
-Check question: `fi2-111-etape-3-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-111-corriger-card` · spot the error, level 1 · **authored key**
 
-> Récit original — Le message envolé
-> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Peut-on connaître le contenu exact de la lettre ?
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ◻️ Oui, elle annonce forcément un mariage.  
-  _↳ feedback if chosen: Il ne faut pas inventer une information absente du récit._
-- ◻️ Oui, elle contient forcément de l’argent.  
-  _↳ feedback if chosen: Il ne faut pas inventer une information absente du récit._
-- ✅ Non, le texte ne le donne pas.
+- ◻️ chronologie : l’ordre des faits racontés.  
+  _↳ explanation: Cette distinction est correcte : Les repères du passage doivent être suivis. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ point de vue du récit : la manière dont le narrateur donne accès à la scène.  
+  _↳ explanation: Cette distinction est correcte : On ne peut attribuer au texte ce qu’il ne révèle pas. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Tout détail imaginé est explicitement présent.  
+  _↳ explanation: Il faut retrouver le détail dans le passage._
+- ◻️ information explicite : un fait directement donné par les mots.  
+  _↳ explanation: Cette distinction est correcte : Il faut retrouver le détail dans le passage. Cherche plutôt une phrase qui contredit le sens ou la règle._
 
 Full working after a second miss:
 
-> Il ne faut pas inventer une information absente du récit.  
-> La réponse est : Non, le texte ne le donne pas..  
+> La phrase fausse est « Tout détail imaginé est explicitement présent. ».  
+> Il faut retrouver le détail dans le passage.  
 
 **Worked example** (draft)
 
-> Récit original — Le message envolé
-> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel événement modifie la situation ?
+> Une action écrite peut être relevée sans ajout. Explique le choix.
 
-1. Repère l’événement qui crée le problème.
-2. La rafale déclenche le problème à résoudre.
+1. un fait directement donné par les mots.
+2. Il faut retrouver le détail dans le passage.
 
-**Answer:** Une rafale fait tomber la lettre.
+**Answer:** information explicite
 
-**Practice** `fi2-111-etape-1` · multiple choice, level 1 · **authored key**
+**Practice** `fi2-111-notions` · multiple choice, level 1 · **authored key**
 
-> Récit original — Le message envolé
-> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. À qui la lettre est-elle destinée ?
+> Quel terme désigne l’ordre des faits racontés ?
 
-- ✅ À la grand-mère de Nji.
-- ◻️ À un vendeur inconnu.  
-  _↳ feedback if chosen: La première phrase précise la destinataire._
-- ◻️ Au proviseur.  
-  _↳ feedback if chosen: La première phrase précise la destinataire._
-
-Full working after a second miss:
-
-> La première phrase précise la destinataire.  
-> La réponse est : À la grand-mère de Nji..  
-
-> Récit original — Le message envolé
-> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. À qui la lettre est-elle destinée ?
-
-- ✅ À la grand-mère de Nji.
-- ◻️ Au proviseur.  
-  _↳ feedback if chosen: La première phrase précise la destinataire._
-- ◻️ À un vendeur inconnu.  
-  _↳ feedback if chosen: La première phrase précise la destinataire._
+- ◻️ point de vue du récit  
+  _↳ feedback if chosen: Cela désigne la manière dont le narrateur donne accès à la scène, plutôt que la notion demandée._
+- ◻️ information explicite  
+  _↳ feedback if chosen: Cela désigne un fait directement donné par les mots, plutôt que la notion demandée._
+- ◻️ limite du texte  
+  _↳ feedback if chosen: Cela désigne ce que ce passage ne permet pas d’affirmer, plutôt que la notion demandée._
+- ✅ chronologie
 
 Full working after a second miss:
 
-> La première phrase précise la destinataire.  
-> La réponse est : À la grand-mère de Nji..  
+> Les repères du passage doivent être suivis.  
+> Donc la réponse est « chronologie ».  
 
-**Practice** `fi2-111-etape-2` · multiple choice, level 2 · **authored key**
+> Quel terme désigne un fait directement donné par les mots ?
 
-> Récit original — Le message envolé
-> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel geste résout le problème ?
-
-- ✅ Bih pose son cahier sur la lettre.
-- ◻️ Nji déchire la lettre.  
-  _↳ feedback if chosen: Le cahier empêche la feuille de continuer à s’envoler._
-- ◻️ Bih quitte la cour.  
-  _↳ feedback if chosen: Le cahier empêche la feuille de continuer à s’envoler._
-
-Full working after a second miss:
-
-> Le cahier empêche la feuille de continuer à s’envoler.  
-> La réponse est : Bih pose son cahier sur la lettre..  
-
-> Récit original — Le message envolé
-> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Quel événement modifie la situation ?
-
-- ✅ Une rafale fait tomber la lettre.
-- ◻️ La grand-mère arrive en avion.  
-  _↳ feedback if chosen: La rafale déclenche le problème à résoudre._
-- ◻️ Nji achète un ordinateur.  
-  _↳ feedback if chosen: La rafale déclenche le problème à résoudre._
+- ◻️ chronologie  
+  _↳ feedback if chosen: Cela désigne l’ordre des faits racontés, plutôt que la notion demandée._
+- ◻️ limite du texte  
+  _↳ feedback if chosen: Cela désigne ce que ce passage ne permet pas d’affirmer, plutôt que la notion demandée._
+- ◻️ point de vue du récit  
+  _↳ feedback if chosen: Cela désigne la manière dont le narrateur donne accès à la scène, plutôt que la notion demandée._
+- ✅ information explicite
 
 Full working after a second miss:
 
-> La rafale déclenche le problème à résoudre.  
-> La réponse est : Une rafale fait tomber la lettre..  
+> Il faut retrouver le détail dans le passage.  
+> Donc la réponse est « information explicite ».  
 
-**Practice** `fi2-111-etape-3` · multiple choice, level 3 · **authored key**
+**Practice** `fi2-111-cas` · multiple choice, level 1 · **authored key**
 
-> Récit original — Le message envolé
-> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Peut-on connaître le contenu exact de la lettre ?
+> Sans résultat donné, on ne peut inventer un succès mesuré.
+> Quelle notion convient ?
 
-- ◻️ Oui, elle annonce forcément un mariage.  
-  _↳ feedback if chosen: Il ne faut pas inventer une information absente du récit._
-- ◻️ Oui, elle contient forcément de l’argent.  
-  _↳ feedback if chosen: Il ne faut pas inventer une information absente du récit._
-- ✅ Non, le texte ne le donne pas.
-
-Full working after a second miss:
-
-> Il ne faut pas inventer une information absente du récit.  
-> La réponse est : Non, le texte ne le donne pas..  
-
-> Récit original — Le message envolé
-> Nji tenait une lettre pour sa grand-mère. Une rafale la fit tomber dans la cour. Il courut après la feuille, mais Bih posa doucement son cahier dessus. La lettre était sauvée. Nji sourit : un petit geste avait suffi pour rendre un grand service. Peut-on connaître le contenu exact de la lettre ?
-
-- ◻️ Oui, elle contient forcément de l’argent.  
-  _↳ feedback if chosen: Il ne faut pas inventer une information absente du récit._
-- ◻️ Oui, elle annonce forcément un mariage.  
-  _↳ feedback if chosen: Il ne faut pas inventer une information absente du récit._
-- ✅ Non, le texte ne le donne pas.
+- ◻️ information explicite  
+  _↳ feedback if chosen: Cela concerne un fait directement donné par les mots. Compare cette définition avec le cas présenté._
+- ◻️ chronologie  
+  _↳ feedback if chosen: Cela concerne l’ordre des faits racontés. Compare cette définition avec le cas présenté._
+- ✅ limite du texte
+- ◻️ point de vue du récit  
+  _↳ feedback if chosen: Cela concerne la manière dont le narrateur donne accès à la scène. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Il ne faut pas inventer une information absente du récit.  
-> La réponse est : Non, le texte ne le donne pas..  
+> L’exemple ne donne pas cette portée générale.  
+> Donc la réponse est « limite du texte ».  
+
+> Une action écrite peut être relevée sans ajout.
+> Quelle notion convient ?
+
+- ◻️ limite du texte  
+  _↳ feedback if chosen: Cela concerne ce que ce passage ne permet pas d’affirmer. Compare cette définition avec le cas présenté._
+- ✅ information explicite
+- ◻️ chronologie  
+  _↳ feedback if chosen: Cela concerne l’ordre des faits racontés. Compare cette définition avec le cas présenté._
+- ◻️ point de vue du récit  
+  _↳ feedback if chosen: Cela concerne la manière dont le narrateur donne accès à la scène. Compare cette définition avec le cas présenté._
+
+Full working after a second miss:
+
+> Il faut retrouver le détail dans le passage.  
+> Donc la réponse est « information explicite ».  
+
+**Practice** `fi2-111-comprendre` · multiple choice, level 2 · **authored key**
+
+> Que révèle le sourire d’Ayuk avec certitude dans ce récit ?
+
+- ✅ Qu’il sourit quand Bih montre la page.
+- ◻️ La diffusion définitive du bulletin.  
+  _↳ feedback if chosen: La page montrée n’est pas une diffusion achevée._
+- ◻️ Chaque mot de sa pensée exacte.  
+  _↳ feedback if chosen: Le narrateur ne donne pas cette pensée._
+- ◻️ Son approbation de toute future phrase.  
+  _↳ feedback if chosen: Le geste n’établit pas cet accord général._
+
+Full working after a second miss:
+
+> Distingue geste et interprétation ajoutée.  
+> Donc la réponse est « Qu’il sourit quand Bih montre la page. ».  
+
+> Que révèle le sourire d’Ayuk avec certitude dans ce récit ?
+
+- ✅ Qu’il sourit quand Bih montre la page.
+- ◻️ La diffusion définitive du bulletin.  
+  _↳ feedback if chosen: La page montrée n’est pas une diffusion achevée._
+- ◻️ Chaque mot de sa pensée exacte.  
+  _↳ feedback if chosen: Le narrateur ne donne pas cette pensée._
+- ◻️ Son approbation de toute future phrase.  
+  _↳ feedback if chosen: Le geste n’établit pas cet accord général._
+
+Full working after a second miss:
+
+> Distingue geste et interprétation ajoutée.  
+> Donc la réponse est « Qu’il sourit quand Bih montre la page. ».  
+
+**Practice** `fi2-111-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Une préparation peut précéder une présentation. · Le récit peut montrer les actions sans révéler toutes les pensées. · Une action écrite peut être relevée sans ajout.
+- information explicite → **Une action écrite peut être relevée sans ajout.**
+- chronologie → **Une préparation peut précéder une présentation.**
+- point de vue du récit → **Le récit peut montrer les actions sans révéler toutes les pensées.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> information explicite → Une action écrite peut être relevée sans ajout.  
+> chronologie → Une préparation peut précéder une présentation.  
+> point de vue du récit → Le récit peut montrer les actions sans révéler toutes les pensées.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Une action écrite peut être relevée sans ajout. · Le récit peut montrer les actions sans révéler toutes les pensées. · Une préparation peut précéder une présentation.
+- information explicite → **Une action écrite peut être relevée sans ajout.**
+- chronologie → **Une préparation peut précéder une présentation.**
+- point de vue du récit → **Le récit peut montrer les actions sans révéler toutes les pensées.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> information explicite → Une action écrite peut être relevée sans ajout.  
+> chronologie → Une préparation peut précéder une présentation.  
+> point de vue du récit → Le récit peut montrer les actions sans révéler toutes les pensées.  
+
+**Practice** `fi2-111-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ point de vue du récit : la manière dont le narrateur donne accès à la scène.  
+  _↳ explanation: Cette distinction est correcte : On ne peut attribuer au texte ce qu’il ne révèle pas. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ limite du texte : ce que ce passage ne permet pas d’affirmer.  
+  _↳ explanation: Cette distinction est correcte : L’exemple ne donne pas cette portée générale. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Tout détail imaginé est explicitement présent.  
+  _↳ explanation: Il faut retrouver le détail dans le passage._
+- ◻️ chronologie : l’ordre des faits racontés.  
+  _↳ explanation: Cette distinction est correcte : Les repères du passage doivent être suivis. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Tout détail imaginé est explicitement présent. ».  
+> Il faut retrouver le détail dans le passage.  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ limite du texte : ce que ce passage ne permet pas d’affirmer.  
+  _↳ explanation: Cette distinction est correcte : L’exemple ne donne pas cette portée générale. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ chronologie : l’ordre des faits racontés.  
+  _↳ explanation: Cette distinction est correcte : Les repères du passage doivent être suivis. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ point de vue du récit : la manière dont le narrateur donne accès à la scène.  
+  _↳ explanation: Cette distinction est correcte : On ne peut attribuer au texte ce qu’il ne révèle pas. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ L’ordre raconté impose forcément de commencer par la fin.  
+  _↳ explanation: Les repères du passage doivent être suivis._
+
+Full working after a second miss:
+
+> La phrase fausse est « L’ordre raconté impose forcément de commencer par la fin. ».  
+> Les repères du passage doivent être suivis.  
 
 ## Lesson 112: Grammaire : Les sujets multiples (no+ nom ; nom+ pronom…)
 
-Prerequisites: 104 · Skill: fi2-112 (Les sujets multiples)
+Prerequisites: 104, 111 · Skill: fi2-112 (Accorder avec des sujets multiples)
 
 **Note** (draft)
 
-> Un verbe peut avoir plusieurs sujets reliés par et. Le verbe se met alors au pluriel : Bih et Nji écrivent. Avec un nom et moi, on emploie la première personne du pluriel : Bih et moi écrivons. Avec un nom et toi, sans moi, on emploie la deuxième personne du pluriel : Nji et toi écrivez. Cherche tous les sujets avant de choisir la terminaison. La leçon traite les sujets coordonnés par et.
+> Des sujets distincts reliés par et appellent ici un accord pluriel. Bih et Ayuk peuvent être repris par ils dans le modèle ; Bih et moi par nous ; Ayuk et toi par vous. La présence de moi donne la personne de nous ; sans moi, la présence de toi donne ici celle de vous. Il ne suffit donc pas d’ajouter une terminaison plurielle quelconque. Les exemples présentent des personnes distinctes ; les constructions où les noms désignent une même réalité demandent une autre analyse.
 
-**Card c112-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Des sujets reliés par et commandent ici le pluriel.
+> À la fin, tu pourras choisir nous vous ou ils pour des sujets coordonnés distincts et accorder le verbe. Acquis mobilisés : le noyau du sujet et les pronoms personnels. Pour la suite : le passé antérieur et les reprises possessives.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> Des sujets distincts reliés par et appellent ici un accord pluriel. Bih et Ayuk peuvent être repris par ils dans le modèle ; Bih et moi par nous ; Ayuk et toi par vous. La présence de moi donne la personne de nous ; sans moi, la présence de toi donne ici celle de vous. Il ne suffit donc pas d’ajouter une terminaison plurielle quelconque. Les exemples présentent des personnes distinctes ; les constructions où les noms désignent une même réalité demandent une autre analyse.
+
+**Learn: Lire le modèle original** (draft)
+
+> Modèles originaux : Bih et Ayuk lisent. Bih et moi écrivons. Ayuk et toi faites la relecture. Toi et moi parlons du projet. Le mot le plus proche ne commande pas seul l’accord de tout l’ensemble.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Repère tous les éléments du sujet et vérifie qu’ils désignent des personnes distinctes. Choisis le pronom de remplacement de l’ensemble puis la forme du verbe. Explique le choix de personne, pas seulement le pluriel.
+
+**Learn: key words and examples** (draft)
+
+- **coordination de sujets**: l’association de sujets distincts par et dans les modèles
+- **reprise par nous**: le remplacement d’un ensemble incluant moi
+- **reprise par vous**: le remplacement ici d’un ensemble incluant toi sans moi
+- **reprise par ils**: le remplacement du groupe masculin ou mixte de troisième personne du modèle
+
+
+Common mistake: “Le verbe doit toujours s’accorder seulement avec Ayuk.” → “l’association de sujets distincts par et dans les modèles.”. Le sujet comprend les deux éléments.
+
+**Card fi2-112-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _La radio et la télévision diffusent des informations._  
+> _coordination de sujets : l’association de sujets distincts par et dans les modèles._  
+> _reprise par nous : le remplacement d’un ensemble incluant moi._  
+> _reprise par vous : le remplacement ici d’un ensemble incluant toi sans moi._  
+> _reprise par ils : le remplacement du groupe masculin ou mixte de troisième personne du modèle._  
 
-Check question: `fi2-112-etape-1` · multiple choice, level 1 · **authored key**, reused from practice
+Check question: `fi2-112-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Complète : Le journal et la radio ___ la nouvelle.
+> Quel terme désigne le remplacement d’un ensemble incluant moi ?
 
-- ◻️ annonce  
-  _↳ feedback if chosen: Les deux sujets reliés par et commandent annoncent._
-- ✅ annoncent
-- ◻️ annonces  
-  _↳ feedback if chosen: Les deux sujets reliés par et commandent annoncent._
+- ◻️ reprise par vous  
+  _↳ feedback if chosen: Cela désigne le remplacement ici d’un ensemble incluant toi sans moi, plutôt que la notion demandée._
+- ✅ reprise par nous
+- ◻️ reprise par ils  
+  _↳ feedback if chosen: Cela désigne le remplacement du groupe masculin ou mixte de troisième personne du modèle, plutôt que la notion demandée._
+- ◻️ coordination de sujets  
+  _↳ feedback if chosen: Cela désigne l’association de sujets distincts par et dans les modèles, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Les deux sujets reliés par et commandent annoncent.  
-> La réponse est : annoncent.  
+> L’ensemble inclut la personne qui parle.  
+> Donc la réponse est « reprise par nous ».  
 
-**Card c112-2** (draft)
+**Card fi2-112-c2** (draft)
 
-> Avec moi parmi les sujets, choisis nous.
+> Lis le contexte avant de nommer la notion.
 >
-> _Bih et moi préparons l’exposé._  
+> _Bih et Ayuk forme un ensemble sujet._  
+> _Bih et moi équivaut ici à nous._  
+> _Ayuk et toi équivaut à vous._  
+> _Bih et Ayuk sont repris ici par ils._  
 
-Check question: `fi2-112-etape-2-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-112-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Quel pronom remplace Nji et moi ?
+> Ayuk et toi équivaut à vous.
+> Quelle notion convient ?
 
-- ◻️ Ils seulement  
-  _↳ feedback if chosen: Moi et une autre personne forment nous._
-- ✅ Nous
-- ◻️ Vous  
-  _↳ feedback if chosen: Moi et une autre personne forment nous._
+- ◻️ reprise par ils  
+  _↳ feedback if chosen: Cela concerne le remplacement du groupe masculin ou mixte de troisième personne du modèle. Compare cette définition avec le cas présenté._
+- ✅ reprise par vous
+- ◻️ reprise par nous  
+  _↳ feedback if chosen: Cela concerne le remplacement d’un ensemble incluant moi. Compare cette définition avec le cas présenté._
+- ◻️ coordination de sujets  
+  _↳ feedback if chosen: Cela concerne l’association de sujets distincts par et dans les modèles. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Moi et une autre personne forment nous.  
-> La réponse est : Nous.  
+> La présence de toi commande ici la personne de vous.  
+> Donc la réponse est « reprise par vous ».  
 
-**Card c112-3** (draft)
+**Card fi2-112-c3** (draft)
 
-> Avec toi, mais sans moi, choisis vous.
+> Corrige sans changer le sens voulu.
 >
-> _Nji et toi préparez le journal._  
+> _Le verbe doit toujours s’accorder seulement avec Ayuk. Correction : Le sujet comprend les deux éléments._  
+> _Moi disparaît toujours au profit de ils dans le sujet composé. Correction : L’ensemble inclut la personne qui parle._  
+> _Ayuk et toi impose nous alors que le locuteur n’est pas inclus. Correction : La présence de toi commande ici la personne de vous._  
+> _Leur ensemble doit devenir je au singulier. Correction : Les personnes distinctes forment ici un sujet pluriel._  
 
-Check question: `fi2-112-etape-3-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-112-corriger-card` · spot the error, level 1 · **authored key**
 
-> Complète : Nji et toi ___ le bulletin.
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ◻️ préparent  
-  _↳ feedback if chosen: Toi et une autre personne correspondent à vous._
-- ◻️ préparons  
-  _↳ feedback if chosen: Toi et une autre personne correspondent à vous._
-- ✅ préparez
+- ◻️ reprise par vous : le remplacement ici d’un ensemble incluant toi sans moi.  
+  _↳ explanation: Cette distinction est correcte : La présence de toi commande ici la personne de vous. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Moi disparaît toujours au profit de ils dans le sujet composé.  
+  _↳ explanation: L’ensemble inclut la personne qui parle._
+- ◻️ reprise par nous : le remplacement d’un ensemble incluant moi.  
+  _↳ explanation: Cette distinction est correcte : L’ensemble inclut la personne qui parle. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ reprise par ils : le remplacement du groupe masculin ou mixte de troisième personne du modèle.  
+  _↳ explanation: Cette distinction est correcte : Les personnes distinctes forment ici un sujet pluriel. Cherche plutôt une phrase qui contredit le sens ou la règle._
 
 Full working after a second miss:
 
-> Toi et une autre personne correspondent à vous.  
-> La réponse est : préparez.  
+> La phrase fausse est « Moi disparaît toujours au profit de ils dans le sujet composé. ».  
+> L’ensemble inclut la personne qui parle.  
 
 **Worked example** (draft)
 
-> Complète : Bih et moi ___ un article.
+> Bih et Ayuk forme un ensemble sujet. Explique le choix.
 
-1. Avec moi parmi les sujets, choisis nous.
-2. Moi inclut le locuteur : nous préparons.
+1. l’association de sujets distincts par et dans les modèles.
+2. Le sujet comprend les deux éléments.
 
-**Answer:** préparons
+**Answer:** coordination de sujets
 
-**Practice** `fi2-112-etape-1` · multiple choice, level 1 · **authored key**
+**Practice** `fi2-112-notions` · multiple choice, level 1 · **authored key**
 
-> Complète : Le journal et la radio ___ la nouvelle.
+> Quel terme désigne le remplacement d’un ensemble incluant moi ?
 
-- ◻️ annonce  
-  _↳ feedback if chosen: Les deux sujets reliés par et commandent annoncent._
-- ✅ annoncent
-- ◻️ annonces  
-  _↳ feedback if chosen: Les deux sujets reliés par et commandent annoncent._
-
-Full working after a second miss:
-
-> Les deux sujets reliés par et commandent annoncent.  
-> La réponse est : annoncent.  
-
-> Complète : Le journal et la radio ___ la nouvelle.
-
-- ◻️ annonce  
-  _↳ feedback if chosen: Les deux sujets reliés par et commandent annoncent._
-- ◻️ annonces  
-  _↳ feedback if chosen: Les deux sujets reliés par et commandent annoncent._
-- ✅ annoncent
+- ◻️ reprise par ils  
+  _↳ feedback if chosen: Cela désigne le remplacement du groupe masculin ou mixte de troisième personne du modèle, plutôt que la notion demandée._
+- ✅ reprise par nous
+- ◻️ coordination de sujets  
+  _↳ feedback if chosen: Cela désigne l’association de sujets distincts par et dans les modèles, plutôt que la notion demandée._
+- ◻️ reprise par vous  
+  _↳ feedback if chosen: Cela désigne le remplacement ici d’un ensemble incluant toi sans moi, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Les deux sujets reliés par et commandent annoncent.  
-> La réponse est : annoncent.  
+> L’ensemble inclut la personne qui parle.  
+> Donc la réponse est « reprise par nous ».  
 
-**Practice** `fi2-112-etape-2` · multiple choice, level 2 · **authored key**
+> Quel terme désigne le remplacement ici d’un ensemble incluant toi sans moi ?
 
-> Quel pronom remplace Nji et moi ?
-
-- ✅ Nous
-- ◻️ Ils seulement  
-  _↳ feedback if chosen: Moi et une autre personne forment nous._
-- ◻️ Vous  
-  _↳ feedback if chosen: Moi et une autre personne forment nous._
-
-Full working after a second miss:
-
-> Moi et une autre personne forment nous.  
-> La réponse est : Nous.  
-
-> Complète : Bih et moi ___ un article.
-
-- ◻️ préparent  
-  _↳ feedback if chosen: Moi inclut le locuteur : nous préparons._
-- ◻️ préparez  
-  _↳ feedback if chosen: Moi inclut le locuteur : nous préparons._
-- ✅ préparons
+- ✅ reprise par vous
+- ◻️ coordination de sujets  
+  _↳ feedback if chosen: Cela désigne l’association de sujets distincts par et dans les modèles, plutôt que la notion demandée._
+- ◻️ reprise par ils  
+  _↳ feedback if chosen: Cela désigne le remplacement du groupe masculin ou mixte de troisième personne du modèle, plutôt que la notion demandée._
+- ◻️ reprise par nous  
+  _↳ feedback if chosen: Cela désigne le remplacement d’un ensemble incluant moi, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Moi inclut le locuteur : nous préparons.  
-> La réponse est : préparons.  
+> La présence de toi commande ici la personne de vous.  
+> Donc la réponse est « reprise par vous ».  
 
-**Practice** `fi2-112-etape-3` · multiple choice, level 3 · **authored key**
+**Practice** `fi2-112-cas` · multiple choice, level 1 · **authored key**
 
-> Quelle phrase est correcte ?
+> Bih et Ayuk forme un ensemble sujet.
+> Quelle notion convient ?
 
-- ◻️ Le journaliste et moi vérifie la source.  
-  _↳ feedback if chosen: Le groupe contient moi : on emploie nous vérifions._
-- ◻️ Le journaliste et moi vérifiez la source.  
-  _↳ feedback if chosen: Le groupe contient moi : on emploie nous vérifions._
-- ✅ Le journaliste et moi vérifions la source.
-
-Full working after a second miss:
-
-> Le groupe contient moi : on emploie nous vérifions.  
-> La réponse est : Le journaliste et moi vérifions la source..  
-
-> Complète : Nji et toi ___ le bulletin.
-
-- ✅ préparez
-- ◻️ préparent  
-  _↳ feedback if chosen: Toi et une autre personne correspondent à vous._
-- ◻️ préparons  
-  _↳ feedback if chosen: Toi et une autre personne correspondent à vous._
+- ◻️ reprise par ils  
+  _↳ feedback if chosen: Cela concerne le remplacement du groupe masculin ou mixte de troisième personne du modèle. Compare cette définition avec le cas présenté._
+- ✅ coordination de sujets
+- ◻️ reprise par nous  
+  _↳ feedback if chosen: Cela concerne le remplacement d’un ensemble incluant moi. Compare cette définition avec le cas présenté._
+- ◻️ reprise par vous  
+  _↳ feedback if chosen: Cela concerne le remplacement ici d’un ensemble incluant toi sans moi. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Toi et une autre personne correspondent à vous.  
-> La réponse est : préparez.  
+> Le sujet comprend les deux éléments.  
+> Donc la réponse est « coordination de sujets ».  
+
+> Ayuk et toi équivaut à vous.
+> Quelle notion convient ?
+
+- ◻️ reprise par nous  
+  _↳ feedback if chosen: Cela concerne le remplacement d’un ensemble incluant moi. Compare cette définition avec le cas présenté._
+- ✅ reprise par vous
+- ◻️ coordination de sujets  
+  _↳ feedback if chosen: Cela concerne l’association de sujets distincts par et dans les modèles. Compare cette définition avec le cas présenté._
+- ◻️ reprise par ils  
+  _↳ feedback if chosen: Cela concerne le remplacement du groupe masculin ou mixte de troisième personne du modèle. Compare cette définition avec le cas présenté._
+
+Full working after a second miss:
+
+> La présence de toi commande ici la personne de vous.  
+> Donc la réponse est « reprise par vous ».  
+
+**Practice** `fi2-112-accorder` · multiple choice, level 2 · computed by rule
+
+> Au présent, complète : « Bih et Ayuk ___ ». Verbe : lire. Les éléments nomment ici des personnes distinctes.
+
+- ✅ lisent
+- ◻️ lisez  
+  _↳ feedback if chosen: Le pluriel ne suffit pas : il faut la bonne personne grammaticale._
+- ◻️ lit  
+  _↳ feedback if chosen: Les éléments distincts coordonnés par et appellent ici un pluriel._
+- ◻️ lisons  
+  _↳ feedback if chosen: Cette forme correspond à une autre personne grammaticale que le sujet composé._
+
+Full working after a second miss:
+
+> Remplace l’ensemble du sujet par le pronom personnel qui convient.  
+> L’accord donne lisent.  
+
+> Au présent, complète : « Bih et Ayuk ___ ». Verbe : écrire. Les éléments nomment ici des personnes distinctes.
+
+- ◻️ écrivons  
+  _↳ feedback if chosen: Cette forme correspond à une autre personne grammaticale que le sujet composé._
+- ◻️ écrivez  
+  _↳ feedback if chosen: Le pluriel ne suffit pas : il faut la bonne personne grammaticale._
+- ◻️ écrit  
+  _↳ feedback if chosen: Les éléments distincts coordonnés par et appellent ici un pluriel._
+- ✅ écrivent
+
+Full working after a second miss:
+
+> Remplace l’ensemble du sujet par le pronom personnel qui convient.  
+> L’accord donne écrivent.  
+
+**Practice** `fi2-112-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Bih et Ayuk sont repris ici par ils. · Bih et moi équivaut ici à nous. · Ayuk et toi équivaut à vous.
+- reprise par vous → **Ayuk et toi équivaut à vous.**
+- reprise par nous → **Bih et moi équivaut ici à nous.**
+- reprise par ils → **Bih et Ayuk sont repris ici par ils.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> reprise par vous → Ayuk et toi équivaut à vous.  
+> reprise par nous → Bih et moi équivaut ici à nous.  
+> reprise par ils → Bih et Ayuk sont repris ici par ils.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Bih et moi équivaut ici à nous. · Bih et Ayuk forme un ensemble sujet. · Ayuk et toi équivaut à vous.
+- reprise par nous → **Bih et moi équivaut ici à nous.**
+- reprise par vous → **Ayuk et toi équivaut à vous.**
+- coordination de sujets → **Bih et Ayuk forme un ensemble sujet.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> reprise par nous → Bih et moi équivaut ici à nous.  
+> reprise par vous → Ayuk et toi équivaut à vous.  
+> coordination de sujets → Bih et Ayuk forme un ensemble sujet.  
+
+**Practice** `fi2-112-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ✅ Leur ensemble doit devenir je au singulier.  
+  _↳ explanation: Les personnes distinctes forment ici un sujet pluriel._
+- ◻️ reprise par ils : le remplacement du groupe masculin ou mixte de troisième personne du modèle.  
+  _↳ explanation: Cette distinction est correcte : Les personnes distinctes forment ici un sujet pluriel. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ coordination de sujets : l’association de sujets distincts par et dans les modèles.  
+  _↳ explanation: Cette distinction est correcte : Le sujet comprend les deux éléments. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ reprise par vous : le remplacement ici d’un ensemble incluant toi sans moi.  
+  _↳ explanation: Cette distinction est correcte : La présence de toi commande ici la personne de vous. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Leur ensemble doit devenir je au singulier. ».  
+> Les personnes distinctes forment ici un sujet pluriel.  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ reprise par vous : le remplacement ici d’un ensemble incluant toi sans moi.  
+  _↳ explanation: Cette distinction est correcte : La présence de toi commande ici la personne de vous. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ reprise par ils : le remplacement du groupe masculin ou mixte de troisième personne du modèle.  
+  _↳ explanation: Cette distinction est correcte : Les personnes distinctes forment ici un sujet pluriel. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ coordination de sujets : l’association de sujets distincts par et dans les modèles.  
+  _↳ explanation: Cette distinction est correcte : Le sujet comprend les deux éléments. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Le verbe doit toujours s’accorder seulement avec Ayuk.  
+  _↳ explanation: Le sujet comprend les deux éléments._
+
+Full working after a second miss:
+
+> La phrase fausse est « Le verbe doit toujours s’accorder seulement avec Ayuk. ».  
+> Le sujet comprend les deux éléments.  
 
 ## Lesson 113: Conjugaison : Le passé antérieur
 
-Prerequisites: none · Skill: fi2-113 (Le passé antérieur)
+Prerequisites: 105, 112 · Skill: fi2-113 (Former et reconnaître le passé antérieur)
 
 **Note** (draft)
 
-> Le passé antérieur est un temps composé surtout employé dans les récits écrits. Il se forme avec avoir ou être au passé simple, suivi du participe passé : j’eus fini, elle fut partie. Avec être, le participe s’accorde avec le sujet : elles furent parties.
-> Il peut marquer une action achevée avant une autre action au passé simple : Quand elle eut fini son article, elle le publia. Ne le confonds pas avec le plus-que-parfait, dont l’auxiliaire est à l’imparfait : elle avait fini.
+> Le passé antérieur associe avoir ou être au passé simple à un participe passé. Il apparaît surtout dans la langue écrite littéraire. Dans un récit au passé simple, il peut présenter une action achevée avant une autre, notamment après quand ou dès que. Ne le confonds pas avec le passé composé, dont l’auxiliaire est au présent, ou le plus-que-parfait, dont l’auxiliaire est à l’imparfait. Avec être, les participes des verbes non pronominaux étudiés s’accordent avec le sujet.
 
-**Card c113-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Le temps demandé est le passé antérieur.
+> À la fin, tu pourras construire le temps et reconnaître son antériorité dans un récit littéraire simple. Acquis mobilisés : les auxiliaires, le passé simple et les sujets multiples. Pour la suite : la chronologie de la narration.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> Le passé antérieur associe avoir ou être au passé simple à un participe passé. Il apparaît surtout dans la langue écrite littéraire. Dans un récit au passé simple, il peut présenter une action achevée avant une autre, notamment après quand ou dès que. Ne le confonds pas avec le passé composé, dont l’auxiliaire est au présent, ou le plus-que-parfait, dont l’auxiliaire est à l’imparfait. Avec être, les participes des verbes non pronominaux étudiés s’accordent avec le sujet.
+
+**Learn: Lire le modèle original** (draft)
+
+> Modèle original : Quand elle eut fini sa fiche, Bih parla au groupe. La fiche est terminée avant la prise de parole. Compare elles furent arrivées avec elles sont arrivées : l’accord est conservé, mais le temps de l’auxiliaire change.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Identifie le verbe et le sujet, choisis l’auxiliaire au passé simple puis le participe. Vérifie l’accord requis et explique l’ordre entre les actions. On ne te demande pas de remplacer toute conversation actuelle par ce temps littéraire.
+
+**Learn: key words and examples** (draft)
+
+- **auxiliaire au passé simple**: la forme de avoir ou être servant au temps étudié
+- **participe passé**: la forme associée à l’auxiliaire du temps composé
+- **antériorité**: le fait de se situer avant une autre action dans ce récit
+- **registre littéraire**: l’usage écrit particulièrement associé à ce temps
+
+
+Common mistake: “L’auxiliaire du passé antérieur est toujours au présent.” → “la forme de avoir ou être servant au temps étudié.”. Le temps demandé utilise le passé simple de l’auxiliaire.
+
+**Card fi2-113-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _Lis la consigne et repère le verbe à l’infinitif._  
+> _auxiliaire au passé simple : la forme de avoir ou être servant au temps étudié._  
+> _participe passé : la forme associée à l’auxiliaire du temps composé._  
+> _antériorité : le fait de se situer avant une autre action dans ce récit._  
+> _registre littéraire : l’usage écrit particulièrement associé à ce temps._  
 
-Check question: `fi2-113-simple` · multiple choice, level 1 · computed by rule, reused from practice
+Check question: `fi2-113-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Conjugue « finir » au passé antérieur avec « il ».
+> Quel terme désigne la forme de avoir ou être servant au temps étudié ?
 
-- ◻️ il finir  
-  _↳ feedback if chosen: Le verbe doit être conjugué, pas laissé à l’infinitif._
-- ◻️ ils eurent fini  
-  _↳ feedback if chosen: Il faut la forme qui correspond à « il »._
-- ✅ il eut fini
-- ◻️ il finit  
-  _↳ feedback if chosen: Cette forme est au présent, pas au passé antérieur._
+- ✅ auxiliaire au passé simple
+- ◻️ participe passé  
+  _↳ feedback if chosen: Cela désigne la forme associée à l’auxiliaire du temps composé, plutôt que la notion demandée._
+- ◻️ antériorité  
+  _↳ feedback if chosen: Cela désigne le fait de se situer avant une autre action dans ce récit, plutôt que la notion demandée._
+- ◻️ registre littéraire  
+  _↳ feedback if chosen: Cela désigne l’usage écrit particulièrement associé à ce temps, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le temps demandé est le passé antérieur.  
-> Le sujet est « il ».  
-> La forme complète est : il eut fini.  
+> Le temps demandé utilise le passé simple de l’auxiliaire.  
+> Donc la réponse est « auxiliaire au passé simple ».  
 
-**Card c113-2** (draft)
+**Card fi2-113-c2** (draft)
 
-> La terminaison dépend du sujet.
+> Lis le contexte avant de nommer la notion.
 >
-> _Avec nous, on emploie la première personne du pluriel._  
+> _Eut est l’auxiliaire dans elle eut fini._  
+> _Fini suit eut dans elle eut fini._  
+> _La fin de la fiche précède la prise de parole._  
+> _Le modèle ressemble à une narration écrite._  
 
-Check question: `fi2-113-forme-card` · multiple choice, level 1 · computed by rule
+Check question: `fi2-113-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Conjugue « partir » au passé antérieur avec « il ».
+> Fini suit eut dans elle eut fini.
+> Quelle notion convient ?
 
-- ◻️ ils furent partis  
-  _↳ feedback if chosen: Il faut la forme qui correspond à « il »._
-- ✅ il fut parti
-- ◻️ il partir  
-  _↳ feedback if chosen: Le verbe doit être conjugué, pas laissé à l’infinitif._
-- ◻️ il part  
-  _↳ feedback if chosen: Cette forme est au présent, pas au passé antérieur._
+- ◻️ auxiliaire au passé simple  
+  _↳ feedback if chosen: Cela concerne la forme de avoir ou être servant au temps étudié. Compare cette définition avec le cas présenté._
+- ◻️ antériorité  
+  _↳ feedback if chosen: Cela concerne le fait de se situer avant une autre action dans ce récit. Compare cette définition avec le cas présenté._
+- ◻️ registre littéraire  
+  _↳ feedback if chosen: Cela concerne l’usage écrit particulièrement associé à ce temps. Compare cette définition avec le cas présenté._
+- ✅ participe passé
 
 Full working after a second miss:
 
-> Le temps demandé est le passé antérieur.  
-> Le sujet est « il ».  
-> La forme complète est : il fut parti.  
+> Le temps composé emploie le participe, pas cet infinitif.  
+> Donc la réponse est « participe passé ».  
 
-**Card c113-3** (draft)
+**Card fi2-113-c3** (draft)
 
-> Vérifie le temps et le sujet avant de valider.
+> Corrige sans changer le sens voulu.
 >
-> _Une forme correcte à un autre temps ne répond pas à la consigne._  
+> _L’auxiliaire du passé antérieur est toujours au présent. Correction : Le temps demandé utilise le passé simple de l’auxiliaire._  
+> _Le participe doit toujours être l’infinitif finir. Correction : Le temps composé emploie le participe, pas cet infinitif._  
+> _Antériorité signifie toujours après le second événement. Correction : Le mot désigne ici l’ordre avant._  
+> _Toute conversation ordinaire doit obligatoirement employer le passé antérieur. Correction : Ce temps est surtout fréquent dans le récit écrit._  
 
-Check question: `fi2-113-emploi-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-113-corriger-card` · spot the error, level 1 · **authored key**
 
-> Quelle forme suit la construction du passé antérieur ?
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ◻️ Nous avons terminé.  
-  _↳ feedback if chosen: Eûmes est le passé simple de avoir ; avec le participe terminé, il forme le passé antérieur._
-- ◻️ Nous avions terminé.  
-  _↳ feedback if chosen: Eûmes est le passé simple de avoir ; avec le participe terminé, il forme le passé antérieur._
-- ✅ Nous eûmes terminé.
+- ◻️ participe passé : la forme associée à l’auxiliaire du temps composé.  
+  _↳ explanation: Cette distinction est correcte : Le temps composé emploie le participe, pas cet infinitif. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ antériorité : le fait de se situer avant une autre action dans ce récit.  
+  _↳ explanation: Cette distinction est correcte : Le mot désigne ici l’ordre avant. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ L’auxiliaire du passé antérieur est toujours au présent.  
+  _↳ explanation: Le temps demandé utilise le passé simple de l’auxiliaire._
+- ◻️ registre littéraire : l’usage écrit particulièrement associé à ce temps.  
+  _↳ explanation: Cette distinction est correcte : Ce temps est surtout fréquent dans le récit écrit. Cherche plutôt une phrase qui contredit le sens ou la règle._
 
 Full working after a second miss:
 
-> Eûmes est le passé simple de avoir ; avec le participe terminé, il forme le passé antérieur.  
-> La réponse est : Nous eûmes terminé..  
+> La phrase fausse est « L’auxiliaire du passé antérieur est toujours au présent. ».  
+> Le temps demandé utilise le passé simple de l’auxiliaire.  
 
 **Worked example** (draft)
 
-> Conjugue « finir » au passé antérieur avec nous.
+> Conjugue partir au passé antérieur avec elles.
 
-1. Le sujet est nous.
-2. La forme complète est nous eûmes fini .
+1. Partir prend être dans cet emploi non pronominal.
+2. Être au passé simple avec elles donne furent ; le participe reçoit le féminin pluriel.
 
-**Answer:** nous eûmes fini
+**Answer:** elles furent parties
 
-**Practice** `fi2-113-simple` · multiple choice, level 1 · computed by rule
+**Practice** `fi2-113-notions` · multiple choice, level 1 · **authored key**
 
-> Conjugue « parler » au passé antérieur avec « nous ».
+> Quel terme désigne l’usage écrit particulièrement associé à ce temps ?
 
-- ✅ nous eûmes parlé
-- ◻️ nous parlons  
-  _↳ feedback if chosen: Cette forme est au présent, pas au passé antérieur._
-- ◻️ nous parler  
-  _↳ feedback if chosen: Le verbe doit être conjugué, pas laissé à l’infinitif._
-- ◻️ j’eus parlé  
-  _↳ feedback if chosen: Il faut la forme qui correspond à « nous »._
-
-Full working after a second miss:
-
-> Le temps demandé est le passé antérieur.  
-> Le sujet est « nous ».  
-> La forme complète est : nous eûmes parlé.  
-
-> Conjugue « parler » au passé antérieur avec « nous ».
-
-- ✅ nous eûmes parlé
-- ◻️ nous parlons  
-  _↳ feedback if chosen: Cette forme est au présent, pas au passé antérieur._
-- ◻️ j’eus parlé  
-  _↳ feedback if chosen: Il faut la forme qui correspond à « nous »._
-- ◻️ nous parler  
-  _↳ feedback if chosen: Le verbe doit être conjugué, pas laissé à l’infinitif._
+- ✅ registre littéraire
+- ◻️ antériorité  
+  _↳ feedback if chosen: Cela désigne le fait de se situer avant une autre action dans ce récit, plutôt que la notion demandée._
+- ◻️ participe passé  
+  _↳ feedback if chosen: Cela désigne la forme associée à l’auxiliaire du temps composé, plutôt que la notion demandée._
+- ◻️ auxiliaire au passé simple  
+  _↳ feedback if chosen: Cela désigne la forme de avoir ou être servant au temps étudié, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le temps demandé est le passé antérieur.  
-> Le sujet est « nous ».  
-> La forme complète est : nous eûmes parlé.  
+> Ce temps est surtout fréquent dans le récit écrit.  
+> Donc la réponse est « registre littéraire ».  
 
-**Practice** `fi2-113-forme` · multiple choice, level 2 · computed by rule
+> Quel terme désigne la forme associée à l’auxiliaire du temps composé ?
 
-> Conjugue « faire » au passé antérieur avec « ils ».
-
-- ◻️ il eut fait  
-  _↳ feedback if chosen: Il faut la forme qui correspond à « ils »._
-- ✅ ils eurent fait
-- ◻️ ils faire  
-  _↳ feedback if chosen: Le verbe doit être conjugué, pas laissé à l’infinitif._
-- ◻️ ils font  
-  _↳ feedback if chosen: Cette forme est au présent, pas au passé antérieur._
+- ◻️ antériorité  
+  _↳ feedback if chosen: Cela désigne le fait de se situer avant une autre action dans ce récit, plutôt que la notion demandée._
+- ◻️ registre littéraire  
+  _↳ feedback if chosen: Cela désigne l’usage écrit particulièrement associé à ce temps, plutôt que la notion demandée._
+- ◻️ auxiliaire au passé simple  
+  _↳ feedback if chosen: Cela désigne la forme de avoir ou être servant au temps étudié, plutôt que la notion demandée._
+- ✅ participe passé
 
 Full working after a second miss:
 
-> Le temps demandé est le passé antérieur.  
-> Le sujet est « ils ».  
-> La forme complète est : ils eurent fait.  
+> Le temps composé emploie le participe, pas cet infinitif.  
+> Donc la réponse est « participe passé ».  
 
-> Conjugue « finir » au passé antérieur avec « elle ».
+**Practice** `fi2-113-cas` · multiple choice, level 1 · **authored key**
 
-- ✅ elle eut fini
-- ◻️ elles eurent fini  
-  _↳ feedback if chosen: Il faut la forme qui correspond à « elle »._
-- ◻️ elle finit  
-  _↳ feedback if chosen: Cette forme est au présent, pas au passé antérieur._
-- ◻️ elle finir  
-  _↳ feedback if chosen: Le verbe doit être conjugué, pas laissé à l’infinitif._
+> Fini suit eut dans elle eut fini.
+> Quelle notion convient ?
 
-Full working after a second miss:
-
-> Le temps demandé est le passé antérieur.  
-> Le sujet est « elle ».  
-> La forme complète est : elle eut fini.  
-
-**Practice** `fi2-113-emploi` · multiple choice, level 3 · **authored key**
-
-> Quelle forme suit la construction du passé antérieur ?
-
-- ◻️ Nous avions terminé.  
-  _↳ feedback if chosen: Eûmes est le passé simple de avoir ; avec le participe terminé, il forme le passé antérieur._
-- ◻️ Nous avons terminé.  
-  _↳ feedback if chosen: Eûmes est le passé simple de avoir ; avec le participe terminé, il forme le passé antérieur._
-- ✅ Nous eûmes terminé.
+- ◻️ registre littéraire  
+  _↳ feedback if chosen: Cela concerne l’usage écrit particulièrement associé à ce temps. Compare cette définition avec le cas présenté._
+- ◻️ antériorité  
+  _↳ feedback if chosen: Cela concerne le fait de se situer avant une autre action dans ce récit. Compare cette définition avec le cas présenté._
+- ✅ participe passé
+- ◻️ auxiliaire au passé simple  
+  _↳ feedback if chosen: Cela concerne la forme de avoir ou être servant au temps étudié. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Eûmes est le passé simple de avoir ; avec le participe terminé, il forme le passé antérieur.  
-> La réponse est : Nous eûmes terminé..  
+> Le temps composé emploie le participe, pas cet infinitif.  
+> Donc la réponse est « participe passé ».  
 
-> Quelle forme suit la construction du passé antérieur ?
+> La fin de la fiche précède la prise de parole.
+> Quelle notion convient ?
 
-- ✅ Nous eûmes terminé.
-- ◻️ Nous avions terminé.  
-  _↳ feedback if chosen: Eûmes est le passé simple de avoir ; avec le participe terminé, il forme le passé antérieur._
-- ◻️ Nous avons terminé.  
-  _↳ feedback if chosen: Eûmes est le passé simple de avoir ; avec le participe terminé, il forme le passé antérieur._
+- ◻️ registre littéraire  
+  _↳ feedback if chosen: Cela concerne l’usage écrit particulièrement associé à ce temps. Compare cette définition avec le cas présenté._
+- ◻️ participe passé  
+  _↳ feedback if chosen: Cela concerne la forme associée à l’auxiliaire du temps composé. Compare cette définition avec le cas présenté._
+- ✅ antériorité
+- ◻️ auxiliaire au passé simple  
+  _↳ feedback if chosen: Cela concerne la forme de avoir ou être servant au temps étudié. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Eûmes est le passé simple de avoir ; avec le participe terminé, il forme le passé antérieur.  
-> La réponse est : Nous eûmes terminé..  
+> Le mot désigne ici l’ordre avant.  
+> Donc la réponse est « antériorité ».  
+
+**Practice** `fi2-113-conjuguer` · multiple choice, level 2 · computed by rule
+
+> Conjugue « arriver » au passé antérieur actif avec « je ».
+
+- ◻️ j’arrivai  
+  _↳ feedback if chosen: Cette forme simple n’est pas le temps composé demandé._
+- ◻️ je suis arrivé  
+  _↳ feedback if chosen: L’auxiliaire au présent donne ici un passé composé._
+- ✅ je fus arrivé
+- ◻️ j’étais arrivé  
+  _↳ feedback if chosen: L’auxiliaire à l’imparfait donne un plus-que-parfait._
+
+Full working after a second miss:
+
+> Au passé antérieur, l’auxiliaire est au passé simple, suivi du participe passé.  
+> L’ensemble est je fus arrivé.  
+
+> Conjugue « arriver » au passé antérieur actif avec « ils ».
+
+- ◻️ ils étaient arrivés  
+  _↳ feedback if chosen: L’auxiliaire à l’imparfait donne un plus-que-parfait._
+- ◻️ ils sont arrivés  
+  _↳ feedback if chosen: L’auxiliaire au présent donne ici un passé composé._
+- ◻️ ils arrivèrent  
+  _↳ feedback if chosen: Cette forme simple n’est pas le temps composé demandé._
+- ✅ ils furent arrivés
+
+Full working after a second miss:
+
+> Au passé antérieur, l’auxiliaire est au passé simple, suivi du participe passé.  
+> L’ensemble est ils furent arrivés.  
+
+**Practice** `fi2-113-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Fini suit eut dans elle eut fini. · Le modèle ressemble à une narration écrite. · La fin de la fiche précède la prise de parole.
+- participe passé → **Fini suit eut dans elle eut fini.**
+- antériorité → **La fin de la fiche précède la prise de parole.**
+- registre littéraire → **Le modèle ressemble à une narration écrite.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> participe passé → Fini suit eut dans elle eut fini.  
+> antériorité → La fin de la fiche précède la prise de parole.  
+> registre littéraire → Le modèle ressemble à une narration écrite.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Le modèle ressemble à une narration écrite. · La fin de la fiche précède la prise de parole. · Fini suit eut dans elle eut fini.
+- antériorité → **La fin de la fiche précède la prise de parole.**
+- registre littéraire → **Le modèle ressemble à une narration écrite.**
+- participe passé → **Fini suit eut dans elle eut fini.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> antériorité → La fin de la fiche précède la prise de parole.  
+> registre littéraire → Le modèle ressemble à une narration écrite.  
+> participe passé → Fini suit eut dans elle eut fini.  
+
+**Practice** `fi2-113-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ antériorité : le fait de se situer avant une autre action dans ce récit.  
+  _↳ explanation: Cette distinction est correcte : Le mot désigne ici l’ordre avant. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ auxiliaire au passé simple : la forme de avoir ou être servant au temps étudié.  
+  _↳ explanation: Cette distinction est correcte : Le temps demandé utilise le passé simple de l’auxiliaire. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Antériorité signifie toujours après le second événement.  
+  _↳ explanation: Le mot désigne ici l’ordre avant._
+- ◻️ participe passé : la forme associée à l’auxiliaire du temps composé.  
+  _↳ explanation: Cette distinction est correcte : Le temps composé emploie le participe, pas cet infinitif. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Antériorité signifie toujours après le second événement. ».  
+> Le mot désigne ici l’ordre avant.  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ registre littéraire : l’usage écrit particulièrement associé à ce temps.  
+  _↳ explanation: Cette distinction est correcte : Ce temps est surtout fréquent dans le récit écrit. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ auxiliaire au passé simple : la forme de avoir ou être servant au temps étudié.  
+  _↳ explanation: Cette distinction est correcte : Le temps demandé utilise le passé simple de l’auxiliaire. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ antériorité : le fait de se situer avant une autre action dans ce récit.  
+  _↳ explanation: Cette distinction est correcte : Le mot désigne ici l’ordre avant. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Toute conversation ordinaire doit obligatoirement employer le passé antérieur.  
+  _↳ explanation: Ce temps est surtout fréquent dans le récit écrit._
+
+Full working after a second miss:
+
+> La phrase fausse est « Toute conversation ordinaire doit obligatoirement employer le passé antérieur. ».  
+> Ce temps est surtout fréquent dans le récit écrit.  
 
 ## Lesson 114: Orthographe : Le son /n/ Ex. nature
 
-Prerequisites: none · Skill: fi2-114 (La consonne [n] : nature)
+Prerequisites: 106, 113 · Skill: fi2-114 (Préparer la consonne [n] : nature)
 
 **Note** (draft)
 
-> Le modèle de cette leçon est [n] : nature, navire, nuit. Observe les graphies des mots modèles. Les symboles de la progression sont interprétés à partir des exemples donnés. Les accents peuvent réaliser les sons de façon différente.
-> L’application vérifie seulement le repérage écrit. Elle ne fournit pas de modèle audio et ne peut pas entendre ta voix. Demande à un enseignant de lire les exemples, puis entraîne-toi oralement avec lui.
+> La consonne [n] est nasale : l’air passe par le nez tandis que la langue ferme le passage oral. Ce n’est pas une voyelle. Nature, navire, neige et note commencent par cette consonne dans les modèles. Dans année, nn représente aussi une consonne [n], sans imposer deux sons séparés. Dans pain isolé, le n final participe à la graphie d’une voyelle nasale ; il ne représente pas ici un [n] final séparé. Les graphies doivent être examinées dans le mot et son contexte.
 
-**Card c114-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Observe les mots modèles avant de classer.
+> À la fin, tu pourras repérer la consonne nasale du modèle et la distinguer du n qui participe à une graphie vocalique. Acquis mobilisés : la voyelle de un et les graphies du module. Pour la suite : la voyelle de vin et la lecture préparée.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> La consonne [n] est nasale : l’air passe par le nez tandis que la langue ferme le passage oral. Ce n’est pas une voyelle. Nature, navire, neige et note commencent par cette consonne dans les modèles. Dans année, nn représente aussi une consonne [n], sans imposer deux sons séparés. Dans pain isolé, le n final participe à la graphie d’une voyelle nasale ; il ne représente pas ici un [n] final séparé. Les graphies doivent être examinées dans le mot et son contexte.
+
+**Learn: Lire le modèle original** (draft)
+
+> Modèles écrits : nature → n initial ; navire → n initial ; année → nn à l’intérieur ; pain → ain pour une voyelle nasale du modèle. On peut préparer ces correspondances sans entendre un enregistrement. Une comparaison orale avec le professeur reste nécessaire pour réaliser et distinguer les sons.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Repère la position et la graphie, puis utilise le modèle annoncé. Ne classe pas tous les n écrits de la même manière. L’exercice vérifie une préparation écrite, pas l’audition ni la prononciation réelle.
+
+**Learn: key words and examples** (draft)
+
+- **consonne nasale**: une consonne comme [n] comportant un passage d’air nasal
+- **n initial**: la graphie placée au début des mots du modèle
+- **graphie nn**: une suite de lettres illustrée dans année
+- **marque vocalique de nasalité**: le rôle du n dans ain de pain isolé
+
+
+Common mistake: “Tout son nasal est nécessairement une voyelle.” → “une consonne comme [n] comportant un passage d’air nasal.”. Des consonnes comme [n] sont aussi nasales.
+
+**Card fi2-114-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _nature, navire, nuit_  
+> _consonne nasale : une consonne comme [n] comportant un passage d’air nasal._  
+> _n initial : la graphie placée au début des mots du modèle._  
+> _graphie nn : une suite de lettres illustrée dans année._  
+> _marque vocalique de nasalité : le rôle du n dans ain de pain isolé._  
 
-Check question: `fi2-114-etape-1` · multiple choice, level 1 · **authored key**, reused from practice
+Check question: `fi2-114-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Quel mot appartient à la série étudiée ?
+> Quel terme désigne une consonne comme [n] comportant un passage d’air nasal ?
 
-- ✅ nature
-- ◻️ pain  
-  _↳ feedback if chosen: Le mot nature appartient aux modèles de la leçon._
-- ◻️ brun  
-  _↳ feedback if chosen: Le mot nature appartient aux modèles de la leçon._
+- ✅ consonne nasale
+- ◻️ n initial  
+  _↳ feedback if chosen: Cela désigne la graphie placée au début des mots du modèle, plutôt que la notion demandée._
+- ◻️ graphie nn  
+  _↳ feedback if chosen: Cela désigne une suite de lettres illustrée dans année, plutôt que la notion demandée._
+- ◻️ marque vocalique de nasalité  
+  _↳ feedback if chosen: Cela désigne le rôle du n dans ain de pain isolé, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le mot nature appartient aux modèles de la leçon.  
-> La réponse est : nature.  
+> Des consonnes comme [n] sont aussi nasales.  
+> Donc la réponse est « consonne nasale ».  
 
-**Card c114-2** (draft)
+**Card fi2-114-c2** (draft)
 
-> Le travail écrit prépare la lecture orale.
+> Lis le contexte avant de nommer la notion.
 >
-> _Compare les graphies, puis lis avec le professeur._  
+> _Nature commence par [n]._  
+> _Navire commence par n._  
+> _Année comporte nn pour la consonne étudiée._  
+> _Dans pain isolé, la finale ne comporte pas de [n] séparé._  
 
-Check question: `fi2-114-etape-2-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-114-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Qui peut fournir un modèle oral ?
+> Nature commence par [n].
+> Quelle notion convient ?
 
-- ✅ Un enseignant qui lit les mots.
-- ◻️ Un score écrit sans audio.  
-  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
-- ◻️ Le nombre de lettres seul.  
-  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
+- ✅ consonne nasale
+- ◻️ graphie nn  
+  _↳ feedback if chosen: Cela concerne une suite de lettres illustrée dans année. Compare cette définition avec le cas présenté._
+- ◻️ n initial  
+  _↳ feedback if chosen: Cela concerne la graphie placée au début des mots du modèle. Compare cette définition avec le cas présenté._
+- ◻️ marque vocalique de nasalité  
+  _↳ feedback if chosen: Cela concerne le rôle du n dans ain de pain isolé. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Une prononciation doit être entendue et pratiquée oralement.  
-> La réponse est : Un enseignant qui lit les mots..  
+> Des consonnes comme [n] sont aussi nasales.  
+> Donc la réponse est « consonne nasale ».  
 
-**Card c114-3** (draft)
+**Card fi2-114-c3** (draft)
 
-> Vérifie les deux mots d’une série.
+> Corrige sans changer le sens voulu.
 >
-> _La série modèle est nature, navire._  
+> _Tout son nasal est nécessairement une voyelle. Correction : Des consonnes comme [n] sont aussi nasales._  
+> _Le n initial de navire est à la fin du mot. Correction : La position demandée est le début._  
+> _Deux lettres n imposent toujours deux consonnes séparées dans la prononciation. Correction : Le modèle année comporte une consonne [n]._  
+> _Le n final de pain impose toujours la syllabe ne. Correction : La graphie correspond ici à une voyelle nasale._  
 
-Check question: `fi2-114-etape-3-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-114-corriger-card` · spot the error, level 1 · **authored key**
 
-> Quelle série contient uniquement les mots modèles ?
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ◻️ nature, pain  
-  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
-- ◻️ pain, brun  
-  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
-- ✅ nature, navire
+- ◻️ n initial : la graphie placée au début des mots du modèle.  
+  _↳ explanation: Cette distinction est correcte : La position demandée est le début. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ graphie nn : une suite de lettres illustrée dans année.  
+  _↳ explanation: Cette distinction est correcte : Le modèle année comporte une consonne [n]. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Tout son nasal est nécessairement une voyelle.  
+  _↳ explanation: Des consonnes comme [n] sont aussi nasales._
+- ◻️ marque vocalique de nasalité : le rôle du n dans ain de pain isolé.  
+  _↳ explanation: Cette distinction est correcte : La graphie correspond ici à une voyelle nasale. Cherche plutôt une phrase qui contredit le sens ou la règle._
 
 Full working after a second miss:
 
-> Les deux mots doivent appartenir à la série étudiée.  
-> La réponse est : nature, navire.  
+> La phrase fausse est « Tout son nasal est nécessairement une voyelle. ».  
+> Des consonnes comme [n] sont aussi nasales.  
 
 **Worked example** (draft)
 
-> Que peut vérifier cet exercice ?
+> Nature commence par [n]. Explique le choix.
 
-1. Le travail écrit prépare la lecture orale.
-2. L’application ne capte pas la voix du lecteur.
+1. une consonne comme [n] comportant un passage d’air nasal.
+2. Des consonnes comme [n] sont aussi nasales.
 
-**Answer:** Le repérage écrit des mots modèles.
+**Answer:** consonne nasale
 
-**Practice** `fi2-114-etape-1` · multiple choice, level 1 · **authored key**
+**Practice** `fi2-114-notions` · multiple choice, level 1 · **authored key**
 
-> Quel autre mot appartient à cette série ?
+> Quel terme désigne une consonne comme [n] comportant un passage d’air nasal ?
 
-- ◻️ brun  
-  _↳ feedback if chosen: Le mot navire appartient à la même série de modèles._
-- ◻️ pain  
-  _↳ feedback if chosen: Le mot navire appartient à la même série de modèles._
-- ✅ navire
-
-Full working after a second miss:
-
-> Le mot navire appartient à la même série de modèles.  
-> La réponse est : navire.  
-
-> Quel autre mot appartient à cette série ?
-
-- ◻️ brun  
-  _↳ feedback if chosen: Le mot navire appartient à la même série de modèles._
-- ✅ navire
-- ◻️ pain  
-  _↳ feedback if chosen: Le mot navire appartient à la même série de modèles._
+- ✅ consonne nasale
+- ◻️ graphie nn  
+  _↳ feedback if chosen: Cela désigne une suite de lettres illustrée dans année, plutôt que la notion demandée._
+- ◻️ n initial  
+  _↳ feedback if chosen: Cela désigne la graphie placée au début des mots du modèle, plutôt que la notion demandée._
+- ◻️ marque vocalique de nasalité  
+  _↳ feedback if chosen: Cela désigne le rôle du n dans ain de pain isolé, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le mot navire appartient à la même série de modèles.  
-> La réponse est : navire.  
+> Des consonnes comme [n] sont aussi nasales.  
+> Donc la réponse est « consonne nasale ».  
 
-**Practice** `fi2-114-etape-2` · multiple choice, level 2 · **authored key**
+> Quel terme désigne le rôle du n dans ain de pain isolé ?
 
-> Qui peut fournir un modèle oral ?
-
-- ✅ Un enseignant qui lit les mots.
-- ◻️ Le nombre de lettres seul.  
-  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
-- ◻️ Un score écrit sans audio.  
-  _↳ feedback if chosen: Une prononciation doit être entendue et pratiquée oralement._
-
-Full working after a second miss:
-
-> Une prononciation doit être entendue et pratiquée oralement.  
-> La réponse est : Un enseignant qui lit les mots..  
-
-> Que peut vérifier cet exercice ?
-
-- ◻️ La qualité de ton accent.  
-  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
-- ◻️ L’enregistrement de ta voix.  
-  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
-- ✅ Le repérage écrit des mots modèles.
+- ◻️ graphie nn  
+  _↳ feedback if chosen: Cela désigne une suite de lettres illustrée dans année, plutôt que la notion demandée._
+- ◻️ consonne nasale  
+  _↳ feedback if chosen: Cela désigne une consonne comme [n] comportant un passage d’air nasal, plutôt que la notion demandée._
+- ✅ marque vocalique de nasalité
+- ◻️ n initial  
+  _↳ feedback if chosen: Cela désigne la graphie placée au début des mots du modèle, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> L’application ne capte pas la voix du lecteur.  
-> La réponse est : Le repérage écrit des mots modèles..  
+> La graphie correspond ici à une voyelle nasale.  
+> Donc la réponse est « marque vocalique de nasalité ».  
 
-**Practice** `fi2-114-etape-3` · multiple choice, level 3 · **authored key**
+**Practice** `fi2-114-cas` · multiple choice, level 1 · **authored key**
 
-> Quelle série contient uniquement les mots modèles ?
+> Année comporte nn pour la consonne étudiée.
+> Quelle notion convient ?
 
-- ◻️ nature, pain  
-  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
-- ◻️ pain, brun  
-  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
-- ✅ nature, navire
-
-Full working after a second miss:
-
-> Les deux mots doivent appartenir à la série étudiée.  
-> La réponse est : nature, navire.  
-
-> Quel conseil respecte les différences d’accent ?
-
-- ✅ Suivre le modèle oral donné en classe.
-- ◻️ Déclarer faux tout accent différent.  
-  _↳ feedback if chosen: Le professeur adapte le modèle oral à l’enseignement de la classe._
-- ◻️ Faire noter sa voix par cet exercice écrit.  
-  _↳ feedback if chosen: Le professeur adapte le modèle oral à l’enseignement de la classe._
+- ◻️ n initial  
+  _↳ feedback if chosen: Cela concerne la graphie placée au début des mots du modèle. Compare cette définition avec le cas présenté._
+- ◻️ consonne nasale  
+  _↳ feedback if chosen: Cela concerne une consonne comme [n] comportant un passage d’air nasal. Compare cette définition avec le cas présenté._
+- ✅ graphie nn
+- ◻️ marque vocalique de nasalité  
+  _↳ feedback if chosen: Cela concerne le rôle du n dans ain de pain isolé. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Le professeur adapte le modèle oral à l’enseignement de la classe.  
-> La réponse est : Suivre le modèle oral donné en classe..  
+> Le modèle année comporte une consonne [n].  
+> Donc la réponse est « graphie nn ».  
+
+> Navire commence par n.
+> Quelle notion convient ?
+
+- ✅ n initial
+- ◻️ marque vocalique de nasalité  
+  _↳ feedback if chosen: Cela concerne le rôle du n dans ain de pain isolé. Compare cette définition avec le cas présenté._
+- ◻️ graphie nn  
+  _↳ feedback if chosen: Cela concerne une suite de lettres illustrée dans année. Compare cette définition avec le cas présenté._
+- ◻️ consonne nasale  
+  _↳ feedback if chosen: Cela concerne une consonne comme [n] comportant un passage d’air nasal. Compare cette définition avec le cas présenté._
+
+Full working after a second miss:
+
+> La position demandée est le début.  
+> Donc la réponse est « n initial ».  
+
+**Practice** `fi2-114-appliquer` · multiple choice, level 2 · **authored key**
+
+> Dans nature, quelle position occupe la consonne [n] étudiée ?
+
+- ◻️ un enregistrement de la voix  
+  _↳ feedback if chosen: Aucun enregistrement n’est donné._
+- ✅ le début du mot
+- ◻️ la fin du mot  
+  _↳ feedback if chosen: Le mot commence par n._
+- ◻️ une syllabe ne ajoutée après le mot  
+  _↳ feedback if chosen: Le modèle n’ajoute pas cette syllabe._
+
+Full working after a second miss:
+
+> La graphie est initiale.  
+> Donc la réponse est « le début du mot ».  
+
+> Quelle affirmation est correcte ?
+
+- ✅ [n] est une consonne nasale.
+- ◻️ [n] est forcément une voyelle orale.  
+  _↳ feedback if chosen: La catégorie et la nasalité sont incorrectes._
+- ◻️ L’écran évalue la voix réelle.  
+  _↳ feedback if chosen: Aucune voix n’est analysée._
+- ◻️ Tout n écrit a le même rôle dans tous les mots.  
+  _↳ feedback if chosen: Nature et pain montrent des rôles différents._
+
+Full working after a second miss:
+
+> Le modèle explique les catégories sans son.  
+> Donc la réponse est « [n] est une consonne nasale. ».  
+
+**Practice** `fi2-114-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Dans pain isolé, la finale ne comporte pas de [n] séparé. · Navire commence par n. · Année comporte nn pour la consonne étudiée.
+- graphie nn → **Année comporte nn pour la consonne étudiée.**
+- marque vocalique de nasalité → **Dans pain isolé, la finale ne comporte pas de [n] séparé.**
+- n initial → **Navire commence par n.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> graphie nn → Année comporte nn pour la consonne étudiée.  
+> marque vocalique de nasalité → Dans pain isolé, la finale ne comporte pas de [n] séparé.  
+> n initial → Navire commence par n.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Nature commence par [n]. · Année comporte nn pour la consonne étudiée. · Dans pain isolé, la finale ne comporte pas de [n] séparé.
+- consonne nasale → **Nature commence par [n].**
+- marque vocalique de nasalité → **Dans pain isolé, la finale ne comporte pas de [n] séparé.**
+- graphie nn → **Année comporte nn pour la consonne étudiée.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> consonne nasale → Nature commence par [n].  
+> marque vocalique de nasalité → Dans pain isolé, la finale ne comporte pas de [n] séparé.  
+> graphie nn → Année comporte nn pour la consonne étudiée.  
+
+**Practice** `fi2-114-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ✅ Deux lettres n imposent toujours deux consonnes séparées dans la prononciation.  
+  _↳ explanation: Le modèle année comporte une consonne [n]._
+- ◻️ graphie nn : une suite de lettres illustrée dans année.  
+  _↳ explanation: Cette distinction est correcte : Le modèle année comporte une consonne [n]. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ n initial : la graphie placée au début des mots du modèle.  
+  _↳ explanation: Cette distinction est correcte : La position demandée est le début. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ marque vocalique de nasalité : le rôle du n dans ain de pain isolé.  
+  _↳ explanation: Cette distinction est correcte : La graphie correspond ici à une voyelle nasale. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Deux lettres n imposent toujours deux consonnes séparées dans la prononciation. ».  
+> Le modèle année comporte une consonne [n].  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ graphie nn : une suite de lettres illustrée dans année.  
+  _↳ explanation: Cette distinction est correcte : Le modèle année comporte une consonne [n]. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ consonne nasale : une consonne comme [n] comportant un passage d’air nasal.  
+  _↳ explanation: Cette distinction est correcte : Des consonnes comme [n] sont aussi nasales. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ n initial : la graphie placée au début des mots du modèle.  
+  _↳ explanation: Cette distinction est correcte : La position demandée est le début. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Tout son nasal est nécessairement une voyelle.  
+  _↳ explanation: Des consonnes comme [n] sont aussi nasales._
+
+Full working after a second miss:
+
+> La phrase fausse est « Tout son nasal est nécessairement une voyelle. ».  
+> Des consonnes comme [n] sont aussi nasales.  
 
 ## Lesson 115: Vocabulaire : Lexique lié aux réseaux sociaux Facebook, Twitter etc.)
 
-Prerequisites: none · Skill: fi2-115 (Le vocabulaire des réseaux sociaux)
+Prerequisites: 107, 109, 114 · Skill: fi2-115 (Le vocabulaire des réseaux sociaux)
 
 **Note** (draft)
 
-> Un réseau social permet d’échanger des contenus et de communiquer avec d’autres utilisateurs. Un profil présente un utilisateur ; une publication est un contenu partagé ; un commentaire répond à un contenu. S’abonner permet de suivre des publications. Un message privé n’est pas une garantie de secret : son destinataire peut le transmettre. Avant de publier, respecte autrui, vérifie l’information et évite les renseignements personnels. Les noms cités dans la progression illustrent des services ; la leçon travaille le vocabulaire, sans demander de créer un compte.
+> Un réseau social permet des échanges et la circulation de contenus. Une publication est un contenu mis à disposition d’un public ; un commentaire réagit à un contenu ; un partage le fait circuler. L’audience est l’ensemble des personnes pouvant recevoir ou voir le contenu dans la situation décrite. Un réglage privé limite une audience, mais une copie ou une retransmission peut encore circuler. Les noms Facebook et Twitter du programme sont des exemples de services, sans instructions actuelles d’inscription ou de réglage. Aucun compte personnel n’est demandé.
 
-**Card c115-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Profil et publication ne désignent pas la même chose.
+> À la fin, tu pourras expliquer publication partage commentaire et audience sans supposer qu’un compte privé rend toute circulation impossible. Acquis mobilisés : les médias et les sources. Pour la suite : les jeux de rôle et les messages adressés.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> Un réseau social permet des échanges et la circulation de contenus. Une publication est un contenu mis à disposition d’un public ; un commentaire réagit à un contenu ; un partage le fait circuler. L’audience est l’ensemble des personnes pouvant recevoir ou voir le contenu dans la situation décrite. Un réglage privé limite une audience, mais une copie ou une retransmission peut encore circuler. Les noms Facebook et Twitter du programme sont des exemples de services, sans instructions actuelles d’inscription ou de réglage. Aucun compte personnel n’est demandé.
+
+**Learn: Lire le modèle original** (draft)
+
+> Scène fictive : Le club prépare une publication sur son activité, sans photo identifiable d’élève. Bih demande qui pourrait la voir. Ayuk rappelle qu’un partage peut élargir la circulation. Le groupe lit un commentaire pour comprendre s’il apporte une question ou une affirmation à vérifier.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Demande quelle action est décrite et vers quel public. Vérifie l’autorisation avant de diffuser le contenu d’autrui ; ne donne aucun mot de passe pour cet exercice. Une question personnelle sur un usage numérique peut être discutée avec un adulte de confiance.
+
+**Learn: key words and examples** (draft)
+
+- **publication**: un contenu rendu accessible à un public
+- **commentaire**: une réaction ajoutée à un contenu
+- **partage**: une action faisant circuler un contenu
+- **audience**: les personnes pouvant recevoir ou voir le contenu
+
+
+Common mistake: “Publier signifie seulement garder une note totalement hors de tout échange.” → “un contenu rendu accessible à un public.”. Le modèle prévoit une mise à disposition.
+
+**Card fi2-115-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _Le profil présente l’utilisateur ; la publication est un contenu._  
+> _publication : un contenu rendu accessible à un public._  
+> _commentaire : une réaction ajoutée à un contenu._  
+> _partage : une action faisant circuler un contenu._  
+> _audience : les personnes pouvant recevoir ou voir le contenu._  
 
-Check question: `fi2-115-etape-1` · multiple choice, level 1 · **authored key**, reused from practice
+Check question: `fi2-115-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Comment appelle-t-on la présentation d’un utilisateur ?
+> Quel terme désigne une action faisant circuler un contenu ?
 
-- ◻️ Un câble.  
-  _↳ feedback if chosen: Le profil regroupe les informations présentées sur l’utilisateur._
-- ◻️ Une imprimante.  
-  _↳ feedback if chosen: Le profil regroupe les informations présentées sur l’utilisateur._
-- ✅ Un profil.
+- ✅ partage
+- ◻️ publication  
+  _↳ feedback if chosen: Cela désigne un contenu rendu accessible à un public, plutôt que la notion demandée._
+- ◻️ commentaire  
+  _↳ feedback if chosen: Cela désigne une réaction ajoutée à un contenu, plutôt que la notion demandée._
+- ◻️ audience  
+  _↳ feedback if chosen: Cela désigne les personnes pouvant recevoir ou voir le contenu, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le profil regroupe les informations présentées sur l’utilisateur.  
-> La réponse est : Un profil..  
+> La circulation peut au contraire s’élargir.  
+> Donc la réponse est « partage ».  
 
-**Card c115-2** (draft)
+**Card fi2-115-c2** (draft)
 
-> Un commentaire réagit à une publication.
+> Lis le contexte avant de nommer la notion.
 >
-> _Je commente un article sans insulter son auteur._  
+> _Un texte du club est proposé pour diffusion._  
+> _Un lecteur pose une question sous le texte fictif._  
+> _Un destinataire transmet le contenu à un autre groupe._  
+> _Le club demande qui verra son message._  
 
-Check question: `fi2-115-etape-2-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-115-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Un texte écrit en réaction à une publication est…
+> Le club demande qui verra son message.
+> Quelle notion convient ?
 
-- ◻️ une souris.  
-  _↳ feedback if chosen: Le commentaire répond ou réagit au contenu._
-- ✅ un commentaire.
-- ◻️ une batterie.  
-  _↳ feedback if chosen: Le commentaire répond ou réagit au contenu._
+- ◻️ commentaire  
+  _↳ feedback if chosen: Cela concerne une réaction ajoutée à un contenu. Compare cette définition avec le cas présenté._
+- ◻️ partage  
+  _↳ feedback if chosen: Cela concerne une action faisant circuler un contenu. Compare cette définition avec le cas présenté._
+- ✅ audience
+- ◻️ publication  
+  _↳ feedback if chosen: Cela concerne un contenu rendu accessible à un public. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Le commentaire répond ou réagit au contenu.  
-> La réponse est : un commentaire..  
+> Une limite d’accès n’empêche pas forcément toute retransmission.  
+> Donc la réponse est « audience ».  
 
-**Card c115-3** (draft)
+**Card fi2-115-c3** (draft)
 
-> Réfléchis aux destinataires et à la fiabilité avant de partager.
+> Corrige sans changer le sens voulu.
 >
-> _Un destinataire peut retransmettre un message privé._  
+> _Publier signifie seulement garder une note totalement hors de tout échange. Correction : Le modèle prévoit une mise à disposition._  
+> _Chaque commentaire constitue automatiquement une preuve. Correction : Une réaction peut elle-même demander vérification._  
+> _Un partage garantit que le contenu ne sera jamais copié. Correction : La circulation peut au contraire s’élargir._  
+> _Un réglage privé empêche toutes les copies possibles. Correction : Une limite d’accès n’empêche pas forcément toute retransmission._  
 
-Check question: `fi2-115-etape-3-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-115-corriger-card` · spot the error, level 1 · **authored key**
 
-> Un message privé est-il impossible à retransmettre ?
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ◻️ Oui, toujours.  
-  _↳ feedback if chosen: Privé décrit le mode d’envoi, pas une garantie absolue de confidentialité._
-- ✅ Non, son destinataire peut le copier ou le transférer.
-- ◻️ Oui, s’il est court.  
-  _↳ feedback if chosen: Privé décrit le mode d’envoi, pas une garantie absolue de confidentialité._
+- ◻️ publication : un contenu rendu accessible à un public.  
+  _↳ explanation: Cette distinction est correcte : Le modèle prévoit une mise à disposition. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ commentaire : une réaction ajoutée à un contenu.  
+  _↳ explanation: Cette distinction est correcte : Une réaction peut elle-même demander vérification. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ audience : les personnes pouvant recevoir ou voir le contenu.  
+  _↳ explanation: Cette distinction est correcte : Une limite d’accès n’empêche pas forcément toute retransmission. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Chaque commentaire constitue automatiquement une preuve.  
+  _↳ explanation: Une réaction peut elle-même demander vérification._
 
 Full working after a second miss:
 
-> Privé décrit le mode d’envoi, pas une garantie absolue de confidentialité.  
-> La réponse est : Non, son destinataire peut le copier ou le transférer..  
+> La phrase fausse est « Chaque commentaire constitue automatiquement une preuve. ».  
+> Une réaction peut elle-même demander vérification.  
 
 **Worked example** (draft)
 
-> Un texte écrit en réaction à une publication est…
+> Un texte du club est proposé pour diffusion. Explique le choix.
 
-1. Un commentaire réagit à une publication.
-2. Le commentaire répond ou réagit au contenu.
+1. un contenu rendu accessible à un public.
+2. Le modèle prévoit une mise à disposition.
 
-**Answer:** un commentaire.
+**Answer:** publication
 
-**Practice** `fi2-115-etape-1` · multiple choice, level 1 · **authored key**
+**Practice** `fi2-115-notions` · multiple choice, level 1 · **authored key**
 
-> Comment appelle-t-on la présentation d’un utilisateur ?
+> Quel terme désigne les personnes pouvant recevoir ou voir le contenu ?
 
-- ◻️ Un câble.  
-  _↳ feedback if chosen: Le profil regroupe les informations présentées sur l’utilisateur._
-- ✅ Un profil.
-- ◻️ Une imprimante.  
-  _↳ feedback if chosen: Le profil regroupe les informations présentées sur l’utilisateur._
-
-Full working after a second miss:
-
-> Le profil regroupe les informations présentées sur l’utilisateur.  
-> La réponse est : Un profil..  
-
-> Un contenu partagé sur le réseau est…
-
-- ✅ une publication.
-- ◻️ un chargeur.  
-  _↳ feedback if chosen: Une publication peut contenir du texte, du son ou une image._
-- ◻️ un clavier.  
-  _↳ feedback if chosen: Une publication peut contenir du texte, du son ou une image._
+- ◻️ partage  
+  _↳ feedback if chosen: Cela désigne une action faisant circuler un contenu, plutôt que la notion demandée._
+- ◻️ commentaire  
+  _↳ feedback if chosen: Cela désigne une réaction ajoutée à un contenu, plutôt que la notion demandée._
+- ✅ audience
+- ◻️ publication  
+  _↳ feedback if chosen: Cela désigne un contenu rendu accessible à un public, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Une publication peut contenir du texte, du son ou une image.  
-> La réponse est : une publication..  
+> Une limite d’accès n’empêche pas forcément toute retransmission.  
+> Donc la réponse est « audience ».  
 
-**Practice** `fi2-115-etape-2` · multiple choice, level 2 · **authored key**
+> Quel terme désigne les personnes pouvant recevoir ou voir le contenu ?
 
-> Un texte écrit en réaction à une publication est…
-
-- ◻️ une souris.  
-  _↳ feedback if chosen: Le commentaire répond ou réagit au contenu._
-- ✅ un commentaire.
-- ◻️ une batterie.  
-  _↳ feedback if chosen: Le commentaire répond ou réagit au contenu._
-
-Full working after a second miss:
-
-> Le commentaire répond ou réagit au contenu.  
-> La réponse est : un commentaire..  
-
-> S’abonner à un compte permet notamment de…
-
-- ◻️ devenir son propriétaire.  
-  _↳ feedback if chosen: Suivre un compte ne donne pas accès à ses secrets ni à sa propriété._
-- ◻️ connaître son mot de passe.  
-  _↳ feedback if chosen: Suivre un compte ne donne pas accès à ses secrets ni à sa propriété._
-- ✅ suivre ses publications.
+- ✅ audience
+- ◻️ partage  
+  _↳ feedback if chosen: Cela désigne une action faisant circuler un contenu, plutôt que la notion demandée._
+- ◻️ commentaire  
+  _↳ feedback if chosen: Cela désigne une réaction ajoutée à un contenu, plutôt que la notion demandée._
+- ◻️ publication  
+  _↳ feedback if chosen: Cela désigne un contenu rendu accessible à un public, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Suivre un compte ne donne pas accès à ses secrets ni à sa propriété.  
-> La réponse est : suivre ses publications..  
+> Une limite d’accès n’empêche pas forcément toute retransmission.  
+> Donc la réponse est « audience ».  
 
-**Practice** `fi2-115-etape-3` · multiple choice, level 3 · **authored key**
+**Practice** `fi2-115-cas` · multiple choice, level 1 · **authored key**
 
-> Avant de partager une nouvelle, il faut…
+> Un destinataire transmet le contenu à un autre groupe.
+> Quelle notion convient ?
 
-- ✅ vérifier l’information et respecter les personnes.
-- ◻️ publier l’adresse d’un camarade.  
-  _↳ feedback if chosen: On vérifie les faits et on respecte la vie privée._
-- ◻️ ajouter une accusation sans preuve.  
-  _↳ feedback if chosen: On vérifie les faits et on respecte la vie privée._
-
-Full working after a second miss:
-
-> On vérifie les faits et on respecte la vie privée.  
-> La réponse est : vérifier l’information et respecter les personnes..  
-
-> Avant de partager une nouvelle, il faut…
-
-- ◻️ publier l’adresse d’un camarade.  
-  _↳ feedback if chosen: On vérifie les faits et on respecte la vie privée._
-- ✅ vérifier l’information et respecter les personnes.
-- ◻️ ajouter une accusation sans preuve.  
-  _↳ feedback if chosen: On vérifie les faits et on respecte la vie privée._
+- ◻️ commentaire  
+  _↳ feedback if chosen: Cela concerne une réaction ajoutée à un contenu. Compare cette définition avec le cas présenté._
+- ◻️ publication  
+  _↳ feedback if chosen: Cela concerne un contenu rendu accessible à un public. Compare cette définition avec le cas présenté._
+- ✅ partage
+- ◻️ audience  
+  _↳ feedback if chosen: Cela concerne les personnes pouvant recevoir ou voir le contenu. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> On vérifie les faits et on respecte la vie privée.  
-> La réponse est : vérifier l’information et respecter les personnes..  
+> La circulation peut au contraire s’élargir.  
+> Donc la réponse est « partage ».  
+
+> Un texte du club est proposé pour diffusion.
+> Quelle notion convient ?
+
+- ✅ publication
+- ◻️ audience  
+  _↳ feedback if chosen: Cela concerne les personnes pouvant recevoir ou voir le contenu. Compare cette définition avec le cas présenté._
+- ◻️ partage  
+  _↳ feedback if chosen: Cela concerne une action faisant circuler un contenu. Compare cette définition avec le cas présenté._
+- ◻️ commentaire  
+  _↳ feedback if chosen: Cela concerne une réaction ajoutée à un contenu. Compare cette définition avec le cas présenté._
+
+Full working after a second miss:
+
+> Le modèle prévoit une mise à disposition.  
+> Donc la réponse est « publication ».  
+
+**Practice** `fi2-115-contexte` · multiple choice, level 2 · **authored key**
+
+> Le scénario précise qu’un destinataire transmet le contenu : quel terme convient ?
+
+- ◻️ audience  
+  _↳ feedback if chosen: Ce terme désigne les personnes pouvant recevoir ou voir le contenu ; ce n’est pas l’action ou le rôle décrit._
+- ◻️ publication  
+  _↳ feedback if chosen: Ce terme désigne un contenu rendu accessible à un public ; ce n’est pas l’action ou le rôle décrit._
+- ✅ partage
+- ◻️ commentaire  
+  _↳ feedback if chosen: Ce terme désigne une réaction ajoutée à un contenu ; ce n’est pas l’action ou le rôle décrit._
+
+Full working after a second miss:
+
+> La circulation peut au contraire s’élargir.  
+> Donc la réponse est « partage ».  
+
+> Le scénario précise qu’un destinataire transmet le contenu : quel terme convient ?
+
+- ✅ partage
+- ◻️ audience  
+  _↳ feedback if chosen: Ce terme désigne les personnes pouvant recevoir ou voir le contenu ; ce n’est pas l’action ou le rôle décrit._
+- ◻️ commentaire  
+  _↳ feedback if chosen: Ce terme désigne une réaction ajoutée à un contenu ; ce n’est pas l’action ou le rôle décrit._
+- ◻️ publication  
+  _↳ feedback if chosen: Ce terme désigne un contenu rendu accessible à un public ; ce n’est pas l’action ou le rôle décrit._
+
+Full working after a second miss:
+
+> La circulation peut au contraire s’élargir.  
+> Donc la réponse est « partage ».  
+
+**Practice** `fi2-115-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Le club demande qui verra son message. · Un lecteur pose une question sous le texte fictif. · Un destinataire transmet le contenu à un autre groupe.
+- partage → **Un destinataire transmet le contenu à un autre groupe.**
+- commentaire → **Un lecteur pose une question sous le texte fictif.**
+- audience → **Le club demande qui verra son message.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> partage → Un destinataire transmet le contenu à un autre groupe.  
+> commentaire → Un lecteur pose une question sous le texte fictif.  
+> audience → Le club demande qui verra son message.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Un lecteur pose une question sous le texte fictif. · Un texte du club est proposé pour diffusion. · Le club demande qui verra son message.
+- audience → **Le club demande qui verra son message.**
+- commentaire → **Un lecteur pose une question sous le texte fictif.**
+- publication → **Un texte du club est proposé pour diffusion.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> audience → Le club demande qui verra son message.  
+> commentaire → Un lecteur pose une question sous le texte fictif.  
+> publication → Un texte du club est proposé pour diffusion.  
+
+**Practice** `fi2-115-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ commentaire : une réaction ajoutée à un contenu.  
+  _↳ explanation: Cette distinction est correcte : Une réaction peut elle-même demander vérification. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Un partage garantit que le contenu ne sera jamais copié.  
+  _↳ explanation: La circulation peut au contraire s’élargir._
+- ◻️ publication : un contenu rendu accessible à un public.  
+  _↳ explanation: Cette distinction est correcte : Le modèle prévoit une mise à disposition. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ audience : les personnes pouvant recevoir ou voir le contenu.  
+  _↳ explanation: Cette distinction est correcte : Une limite d’accès n’empêche pas forcément toute retransmission. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Un partage garantit que le contenu ne sera jamais copié. ».  
+> La circulation peut au contraire s’élargir.  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ✅ Un partage garantit que le contenu ne sera jamais copié.  
+  _↳ explanation: La circulation peut au contraire s’élargir._
+- ◻️ publication : un contenu rendu accessible à un public.  
+  _↳ explanation: Cette distinction est correcte : Le modèle prévoit une mise à disposition. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ commentaire : une réaction ajoutée à un contenu.  
+  _↳ explanation: Cette distinction est correcte : Une réaction peut elle-même demander vérification. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ partage : une action faisant circuler un contenu.  
+  _↳ explanation: Cette distinction est correcte : La circulation peut au contraire s’élargir. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Un partage garantit que le contenu ne sera jamais copié. ».  
+> La circulation peut au contraire s’élargir.  
 
 ## Lesson 116: Expression Orale : Jeux de rôle
 
-Prerequisites: none · Skill: fi2-116 (Préparer un jeu de rôle)
+Prerequisites: 108, 115 · Skill: fi2-116 (Préparer un jeu de rôle)
 
 **Note** (draft)
 
-> Un jeu de rôle fait jouer une situation de communication : demander une information, transmettre un message ou résoudre un malentendu. Définis les personnages, leur relation et leur but. Prépare quelques répliques, écoute la réponse et adapte la suite. Un échange n’est pas une suite de monologues. Cette leçon prépare le dialogue par écrit ; l’application ne peut pas entendre ni noter ta prestation orale. Répète avec un partenaire ou un adulte si possible.
+> Un jeu de rôle place des personnages fictifs dans une situation de communication. Chaque rôle a un objectif : demander, expliquer, clarifier ou répondre. Une réplique doit tenir compte de ce qui vient d’être dit ; une formule polie sans rapport ne suffit pas. Des indications de jeu peuvent guider une action sans être prononcées. La préparation écrite n’enregistre aucune voix et ne mesure pas l’écoute réelle. On peut ensuite jouer la scène avec un partenaire.
 
-**Card c116-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Chaque rôle a un interlocuteur et un but.
+> À la fin, tu pourras choisir une réplique qui respecte un rôle un destinataire et un objectif de communication. Acquis mobilisés : la récitation et les médias. Pour la suite : le portrait, la correspondance et les messages téléphoniques.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> Un jeu de rôle place des personnages fictifs dans une situation de communication. Chaque rôle a un objectif : demander, expliquer, clarifier ou répondre. Une réplique doit tenir compte de ce qui vient d’être dit ; une formule polie sans rapport ne suffit pas. Des indications de jeu peuvent guider une action sans être prononcées. La préparation écrite n’enregistre aucune voix et ne mesure pas l’écoute réelle. On peut ensuite jouer la scène avec un partenaire.
+
+**Learn: Lire le modèle original** (draft)
+
+> Dialogue original : Bih joue la rédactrice du journal du club ; Ayuk joue un membre qui veut faire préciser une annonce. Ayuk : « Quel public recevra le bulletin ? » Bih : « Les membres du club ; le document reste un projet. » Ayuk demande ensuite si la salle est confirmée. Bih répond qu’elle vérifiera avec l’enseignante. Les personnages n’inventent pas une réservation.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Note qui parle, à qui et dans quel but. Choisis une réponse liée à la question exacte puis vérifie ce qui est encore incertain. Pratique réellement si possible en échangeant les rôles, sans demander de confidence privée.
+
+**Learn: key words and examples** (draft)
+
+- **rôle fictif**: une identité de personnage adoptée pour la scène
+- **intention**: le but d’une réplique dans l’échange
+- **réponse pertinente**: une réplique traitant la question posée
+- **incertitude annoncée**: une information présentée comme encore à vérifier
+
+
+Common mistake: “Le rôle prouve la profession réelle de l’élève.” → “une identité de personnage adoptée pour la scène.”. Le personnage ne décrit pas nécessairement la personne réelle.
+
+**Card fi2-116-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _Un élève demande les horaires d’une bibliothèque._  
+> _rôle fictif : une identité de personnage adoptée pour la scène._  
+> _intention : le but d’une réplique dans l’échange._  
+> _réponse pertinente : une réplique traitant la question posée._  
+> _incertitude annoncée : une information présentée comme encore à vérifier._  
 
-Check question: `fi2-116-etape-1` · multiple choice, level 1 · **authored key**, reused from practice
+Check question: `fi2-116-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Un élève demande les horaires. Quel est son but ?
+> Quel terme désigne une identité de personnage adoptée pour la scène ?
 
-- ◻️ Commander un repas sans rapport.  
-  _↳ feedback if chosen: Le but est d’obtenir l’horaire demandé._
-- ◻️ Réciter une liste de couleurs.  
-  _↳ feedback if chosen: Le but est d’obtenir l’horaire demandé._
-- ✅ Obtenir une information.
+- ◻️ réponse pertinente  
+  _↳ feedback if chosen: Cela désigne une réplique traitant la question posée, plutôt que la notion demandée._
+- ✅ rôle fictif
+- ◻️ intention  
+  _↳ feedback if chosen: Cela désigne le but d’une réplique dans l’échange, plutôt que la notion demandée._
+- ◻️ incertitude annoncée  
+  _↳ feedback if chosen: Cela désigne une information présentée comme encore à vérifier, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le but est d’obtenir l’horaire demandé.  
-> La réponse est : Obtenir une information..  
+> Le personnage ne décrit pas nécessairement la personne réelle.  
+> Donc la réponse est « rôle fictif ».  
 
-**Card c116-2** (draft)
+**Card fi2-116-c2** (draft)
 
-> La réplique suivante tient compte de la réponse.
+> Lis le contexte avant de nommer la notion.
 >
-> _Si l’horaire n’est pas compris, je demande une précision._  
+> _Bih joue une rédactrice du club._  
+> _Ayuk demande de préciser le public._  
+> _Bih indique les membres du club comme public._  
+> _Bih dit qu’elle vérifiera la salle._  
 
-Check question: `fi2-116-etape-2-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-116-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Ton interlocuteur parle trop vite. Que peux-tu dire ?
+> Bih joue une rédactrice du club.
+> Quelle notion convient ?
 
-- ◻️ Je prétends avoir tout compris.  
-  _↳ feedback if chosen: Une demande polie de répétition aide à comprendre._
-- ✅ Pourriez-vous répéter plus lentement ?
-- ◻️ Je réponds à une autre question.  
-  _↳ feedback if chosen: Une demande polie de répétition aide à comprendre._
+- ◻️ intention  
+  _↳ feedback if chosen: Cela concerne le but d’une réplique dans l’échange. Compare cette définition avec le cas présenté._
+- ◻️ incertitude annoncée  
+  _↳ feedback if chosen: Cela concerne une information présentée comme encore à vérifier. Compare cette définition avec le cas présenté._
+- ✅ rôle fictif
+- ◻️ réponse pertinente  
+  _↳ feedback if chosen: Cela concerne une réplique traitant la question posée. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Une demande polie de répétition aide à comprendre.  
-> La réponse est : Pourriez-vous répéter plus lentement ?.  
+> Le personnage ne décrit pas nécessairement la personne réelle.  
+> Donc la réponse est « rôle fictif ».  
 
-**Card c116-3** (draft)
+**Card fi2-116-c3** (draft)
 
-> Écouter et reformuler évitent les malentendus.
+> Corrige sans changer le sens voulu.
 >
-> _Si j’ai bien compris, elle ouvre l’après-midi._  
+> _Le rôle prouve la profession réelle de l’élève. Correction : Le personnage ne décrit pas nécessairement la personne réelle._  
+> _Une intention est seulement la couleur du papier. Correction : Elle concerne ici le but de communication._  
+> _Une réponse peut ignorer totalement la question et rester pertinente par définition. Correction : La pertinence dépend du lien avec la demande._  
+> _Tout projet vaut confirmation définitive. Correction : Le statut de l’information doit rester clair._  
 
-Check question: `fi2-116-etape-3-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-116-corriger-card` · spot the error, level 1 · **authored key**
 
-> Quelle phrase vérifie la compréhension ?
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ✅ Si j’ai bien compris, je peux venir demain après-midi.
-- ◻️ Je n’écoute jamais les réponses.  
-  _↳ feedback if chosen: La reformulation permet de confirmer l’information._
-- ◻️ Je change les horaires à ma guise.  
-  _↳ feedback if chosen: La reformulation permet de confirmer l’information._
+- ✅ Tout projet vaut confirmation définitive.  
+  _↳ explanation: Le statut de l’information doit rester clair._
+- ◻️ réponse pertinente : une réplique traitant la question posée.  
+  _↳ explanation: Cette distinction est correcte : La pertinence dépend du lien avec la demande. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ intention : le but d’une réplique dans l’échange.  
+  _↳ explanation: Cette distinction est correcte : Elle concerne ici le but de communication. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ incertitude annoncée : une information présentée comme encore à vérifier.  
+  _↳ explanation: Cette distinction est correcte : Le statut de l’information doit rester clair. Cherche plutôt une phrase qui contredit le sens ou la règle._
 
 Full working after a second miss:
 
-> La reformulation permet de confirmer l’information.  
-> La réponse est : Si j’ai bien compris, je peux venir demain après-midi..  
+> La phrase fausse est « Tout projet vaut confirmation définitive. ».  
+> Le statut de l’information doit rester clair.  
 
 **Worked example** (draft)
 
-> Ton interlocuteur parle trop vite. Que peux-tu dire ?
+> Bih joue une rédactrice du club. Explique le choix.
 
-1. La réplique suivante tient compte de la réponse.
-2. Une demande polie de répétition aide à comprendre.
+1. une identité de personnage adoptée pour la scène.
+2. Le personnage ne décrit pas nécessairement la personne réelle.
 
-**Answer:** Pourriez-vous répéter plus lentement ?
+**Answer:** rôle fictif
 
-**Practice** `fi2-116-etape-1` · multiple choice, level 1 · **authored key**
+**Practice** `fi2-116-notions` · multiple choice, level 1 · **authored key**
 
-> Un élève demande les horaires. Quel est son but ?
+> Quel terme désigne une réplique traitant la question posée ?
 
-- ◻️ Réciter une liste de couleurs.  
-  _↳ feedback if chosen: Le but est d’obtenir l’horaire demandé._
-- ✅ Obtenir une information.
-- ◻️ Commander un repas sans rapport.  
-  _↳ feedback if chosen: Le but est d’obtenir l’horaire demandé._
-
-Full working after a second miss:
-
-> Le but est d’obtenir l’horaire demandé.  
-> La réponse est : Obtenir une information..  
-
-> Qui peut jouer l’autre rôle dans cette scène ?
-
-- ◻️ Un objet qui ne répond pas.  
-  _↳ feedback if chosen: Le second rôle doit pouvoir répondre à la demande._
-- ✅ La personne qui accueille à la bibliothèque.
-- ◻️ Une publicité sans rapport.  
-  _↳ feedback if chosen: Le second rôle doit pouvoir répondre à la demande._
+- ◻️ rôle fictif  
+  _↳ feedback if chosen: Cela désigne une identité de personnage adoptée pour la scène, plutôt que la notion demandée._
+- ✅ réponse pertinente
+- ◻️ incertitude annoncée  
+  _↳ feedback if chosen: Cela désigne une information présentée comme encore à vérifier, plutôt que la notion demandée._
+- ◻️ intention  
+  _↳ feedback if chosen: Cela désigne le but d’une réplique dans l’échange, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le second rôle doit pouvoir répondre à la demande.  
-> La réponse est : La personne qui accueille à la bibliothèque..  
+> La pertinence dépend du lien avec la demande.  
+> Donc la réponse est « réponse pertinente ».  
 
-**Practice** `fi2-116-etape-2` · multiple choice, level 2 · **authored key**
+> Quel terme désigne une identité de personnage adoptée pour la scène ?
 
-> Ton interlocuteur parle trop vite. Que peux-tu dire ?
-
-- ◻️ Je prétends avoir tout compris.  
-  _↳ feedback if chosen: Une demande polie de répétition aide à comprendre._
-- ◻️ Je réponds à une autre question.  
-  _↳ feedback if chosen: Une demande polie de répétition aide à comprendre._
-- ✅ Pourriez-vous répéter plus lentement ?
-
-Full working after a second miss:
-
-> Une demande polie de répétition aide à comprendre.  
-> La réponse est : Pourriez-vous répéter plus lentement ?.  
-
-> Ton interlocuteur parle trop vite. Que peux-tu dire ?
-
-- ✅ Pourriez-vous répéter plus lentement ?
-- ◻️ Je prétends avoir tout compris.  
-  _↳ feedback if chosen: Une demande polie de répétition aide à comprendre._
-- ◻️ Je réponds à une autre question.  
-  _↳ feedback if chosen: Une demande polie de répétition aide à comprendre._
+- ✅ rôle fictif
+- ◻️ réponse pertinente  
+  _↳ feedback if chosen: Cela désigne une réplique traitant la question posée, plutôt que la notion demandée._
+- ◻️ incertitude annoncée  
+  _↳ feedback if chosen: Cela désigne une information présentée comme encore à vérifier, plutôt que la notion demandée._
+- ◻️ intention  
+  _↳ feedback if chosen: Cela désigne le but d’une réplique dans l’échange, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Une demande polie de répétition aide à comprendre.  
-> La réponse est : Pourriez-vous répéter plus lentement ?.  
+> Le personnage ne décrit pas nécessairement la personne réelle.  
+> Donc la réponse est « rôle fictif ».  
 
-**Practice** `fi2-116-etape-3` · multiple choice, level 3 · **authored key**
+**Practice** `fi2-116-cas` · multiple choice, level 1 · **authored key**
 
-> Que peut évaluer un partenaire pendant le jeu ?
+> Ayuk demande de préciser le public.
+> Quelle notion convient ?
 
-- ◻️ La réussite d’un compte Internet.  
-  _↳ feedback if chosen: Ces critères concernent une communication réelle._
-- ✅ La clarté, l’écoute et la politesse.
-- ◻️ Seulement la couleur du cahier.  
-  _↳ feedback if chosen: Ces critères concernent une communication réelle._
-
-Full working after a second miss:
-
-> Ces critères concernent une communication réelle.  
-> La réponse est : La clarté, l’écoute et la politesse..  
-
-> Que peut évaluer un partenaire pendant le jeu ?
-
-- ◻️ Seulement la couleur du cahier.  
-  _↳ feedback if chosen: Ces critères concernent une communication réelle._
-- ◻️ La réussite d’un compte Internet.  
-  _↳ feedback if chosen: Ces critères concernent une communication réelle._
-- ✅ La clarté, l’écoute et la politesse.
+- ◻️ réponse pertinente  
+  _↳ feedback if chosen: Cela concerne une réplique traitant la question posée. Compare cette définition avec le cas présenté._
+- ◻️ rôle fictif  
+  _↳ feedback if chosen: Cela concerne une identité de personnage adoptée pour la scène. Compare cette définition avec le cas présenté._
+- ✅ intention
+- ◻️ incertitude annoncée  
+  _↳ feedback if chosen: Cela concerne une information présentée comme encore à vérifier. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Ces critères concernent une communication réelle.  
-> La réponse est : La clarté, l’écoute et la politesse..  
+> Elle concerne ici le but de communication.  
+> Donc la réponse est « intention ».  
+
+> Bih dit qu’elle vérifiera la salle.
+> Quelle notion convient ?
+
+- ◻️ intention  
+  _↳ feedback if chosen: Cela concerne le but d’une réplique dans l’échange. Compare cette définition avec le cas présenté._
+- ◻️ réponse pertinente  
+  _↳ feedback if chosen: Cela concerne une réplique traitant la question posée. Compare cette définition avec le cas présenté._
+- ◻️ rôle fictif  
+  _↳ feedback if chosen: Cela concerne une identité de personnage adoptée pour la scène. Compare cette définition avec le cas présenté._
+- ✅ incertitude annoncée
+
+Full working after a second miss:
+
+> Le statut de l’information doit rester clair.  
+> Donc la réponse est « incertitude annoncée ».  
+
+**Practice** `fi2-116-appliquer` · multiple choice, level 2 · **authored key**
+
+> La salle n’est pas confirmée. Quelle réplique reste fidèle ?
+
+- ◻️ Tous les lecteurs sont absents pour toujours.  
+  _↳ feedback if chosen: Cette généralisation est absente._
+- ✅ Je vais vérifier sa disponibilité avec l’enseignante.
+- ◻️ Aucune question n’est permise.  
+  _↳ feedback if chosen: La clarification fait partie du jeu._
+- ◻️ La réservation est déjà garantie.  
+  _↳ feedback if chosen: Cela transforme une incertitude en fait._
+
+Full working after a second miss:
+
+> Annonce la vérification nécessaire.  
+> Donc la réponse est « Je vais vérifier sa disponibilité avec l’enseignante. ».  
+
+> Comment poursuivre pour pratiquer l’oral ?
+
+- ◻️ Remplacer chaque question par une insulte.  
+  _↳ feedback if chosen: L’attaque ne traite pas le but de l’échange._
+- ◻️ Supprimer le destinataire de toute réplique.  
+  _↳ feedback if chosen: Le destinataire guide la formulation._
+- ◻️ Prétendre que l’écran a mesuré la voix.  
+  _↳ feedback if chosen: Aucune voix n’est captée._
+- ✅ Jouer l’échange réellement avec un partenaire si possible.
+
+Full working after a second miss:
+
+> Le travail écrit prépare une pratique distincte.  
+> Donc la réponse est « Jouer l’échange réellement avec un partenaire si possible. ».  
+
+**Practice** `fi2-116-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Ayuk demande de préciser le public. · Bih dit qu’elle vérifiera la salle. · Bih indique les membres du club comme public.
+- réponse pertinente → **Bih indique les membres du club comme public.**
+- incertitude annoncée → **Bih dit qu’elle vérifiera la salle.**
+- intention → **Ayuk demande de préciser le public.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> réponse pertinente → Bih indique les membres du club comme public.  
+> incertitude annoncée → Bih dit qu’elle vérifiera la salle.  
+> intention → Ayuk demande de préciser le public.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Ayuk demande de préciser le public. · Bih dit qu’elle vérifiera la salle. · Bih indique les membres du club comme public.
+- incertitude annoncée → **Bih dit qu’elle vérifiera la salle.**
+- réponse pertinente → **Bih indique les membres du club comme public.**
+- intention → **Ayuk demande de préciser le public.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> incertitude annoncée → Bih dit qu’elle vérifiera la salle.  
+> réponse pertinente → Bih indique les membres du club comme public.  
+> intention → Ayuk demande de préciser le public.  
+
+**Practice** `fi2-116-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ rôle fictif : une identité de personnage adoptée pour la scène.  
+  _↳ explanation: Cette distinction est correcte : Le personnage ne décrit pas nécessairement la personne réelle. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Le rôle prouve la profession réelle de l’élève.  
+  _↳ explanation: Le personnage ne décrit pas nécessairement la personne réelle._
+- ◻️ réponse pertinente : une réplique traitant la question posée.  
+  _↳ explanation: Cette distinction est correcte : La pertinence dépend du lien avec la demande. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ intention : le but d’une réplique dans l’échange.  
+  _↳ explanation: Cette distinction est correcte : Elle concerne ici le but de communication. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Le rôle prouve la profession réelle de l’élève. ».  
+> Le personnage ne décrit pas nécessairement la personne réelle.  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ incertitude annoncée : une information présentée comme encore à vérifier.  
+  _↳ explanation: Cette distinction est correcte : Le statut de l’information doit rester clair. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Tout projet vaut confirmation définitive.  
+  _↳ explanation: Le statut de l’information doit rester clair._
+- ◻️ intention : le but d’une réplique dans l’échange.  
+  _↳ explanation: Cette distinction est correcte : Elle concerne ici le but de communication. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ réponse pertinente : une réplique traitant la question posée.  
+  _↳ explanation: Cette distinction est correcte : La pertinence dépend du lien avec la demande. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Tout projet vaut confirmation définitive. ».  
+> Le statut de l’information doit rester clair.  
 
 ## Lesson 117: Expression écrite : Portrait
 
-Prerequisites: none · Skill: fi2-117 (Écrire un portrait)
+Prerequisites: 110, 112, 116 · Skill: fi2-117 (Écrire un portrait fictif)
 
 **Note** (draft)
 
-> Un portrait décrit une personne ou un personnage. Le portrait physique présente son apparence ; le portrait moral évoque son caractère. Appuie un trait moral sur une action : Bih aide une camarade, elle est serviable. Organise les détails sans te moquer ni présenter un jugement gratuit comme un fait. Tu peux créer un personnage imaginaire. Le présent et les adjectifs précis aident à construire un portrait cohérent.
+> Un portrait présente un personnage par des traits choisis. Les vêtements, la posture ou un geste peuvent être décrits ; ils ne donnent pas à eux seuls toute sa personnalité ou son histoire. Un trait de caractère doit être soutenu par une action ou être explicitement donné par le récit. Organise les détails au lieu d’aligner des jugements. Le personnage peut être entièrement inventé ; aucun camarade réel ne doit être évalué sur son apparence, son corps ou sa vie privée.
 
-**Card c117-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Distingue apparence et caractère.
+> À la fin, tu pourras présenter un personnage en reliant traits observables actions et interprétations prudentes. Acquis mobilisés : la description et les jeux de rôle. Pour la suite : les reprises possessives et la narration.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> Un portrait présente un personnage par des traits choisis. Les vêtements, la posture ou un geste peuvent être décrits ; ils ne donnent pas à eux seuls toute sa personnalité ou son histoire. Un trait de caractère doit être soutenu par une action ou être explicitement donné par le récit. Organise les détails au lieu d’aligner des jugements. Le personnage peut être entièrement inventé ; aucun camarade réel ne doit être évalué sur son apparence, son corps ou sa vie privée.
+
+**Learn: Lire le modèle original** (draft)
+
+> Modèle original : Amina est un personnage inventé du club. Elle porte une veste verte et garde un petit cahier près d’elle. Pendant la relecture, elle laisse finir une question puis vérifie la source avant de répondre. Cette action la présente comme attentive dans la scène ; sa veste ne suffit pas à prouver ce caractère. Le portrait ne prétend pas raconter toute son histoire.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Choisis quelques détails utiles puis une action soutenant le trait voulu. Distingue ce qui est visible de ce qui est interprété. Relis les adjectifs et les pronoms en conservant la même identité.
+
+**Learn: key words and examples** (draft)
+
+- **trait observable**: un détail effectivement décrit dans la scène
+- **action révélatrice**: un comportement soutenant ici un trait du portrait
+- **trait de caractère appuyé**: une qualité interprétée à partir d’un indice pertinent
+- **organisation du portrait**: une progression des détails autour du même personnage
+
+
+Common mistake: “La couleur d’une veste révèle toute la valeur morale.” → “un détail effectivement décrit dans la scène.”. Le détail ne suffit pas à ce jugement.
+
+**Card fi2-117-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _Une veste bleue est un détail physique ; la patience est un trait moral._  
+> _trait observable : un détail effectivement décrit dans la scène._  
+> _action révélatrice : un comportement soutenant ici un trait du portrait._  
+> _trait de caractère appuyé : une qualité interprétée à partir d’un indice pertinent._  
+> _organisation du portrait : une progression des détails autour du même personnage._  
 
-Check question: `fi2-117-etape-1` · multiple choice, level 1 · **authored key**, reused from practice
+Check question: `fi2-117-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Quel détail appartient au portrait physique ?
+> Quel terme désigne un détail effectivement décrit dans la scène ?
 
-- ✅ Elle porte une veste bleue.
-- ◻️ Elle aide volontiers.  
-  _↳ feedback if chosen: La veste est un détail visible de l’apparence._
-- ◻️ Elle est patiente.  
-  _↳ feedback if chosen: La veste est un détail visible de l’apparence._
+- ◻️ trait de caractère appuyé  
+  _↳ feedback if chosen: Cela désigne une qualité interprétée à partir d’un indice pertinent, plutôt que la notion demandée._
+- ✅ trait observable
+- ◻️ action révélatrice  
+  _↳ feedback if chosen: Cela désigne un comportement soutenant ici un trait du portrait, plutôt que la notion demandée._
+- ◻️ organisation du portrait  
+  _↳ feedback if chosen: Cela désigne une progression des détails autour du même personnage, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> La veste est un détail visible de l’apparence.  
-> La réponse est : Elle porte une veste bleue..  
+> Le détail ne suffit pas à ce jugement.  
+> Donc la réponse est « trait observable ».  
 
-**Card c117-2** (draft)
+**Card fi2-117-c2** (draft)
 
-> Un geste peut illustrer un trait moral.
+> Lis le contexte avant de nommer la notion.
 >
-> _Elle explique la leçon à un camarade : elle est serviable._  
+> _La veste verte appartient aux détails donnés._  
+> _Amina laisse finir la question avant de répondre._  
+> _L’attention est liée à la manière de répondre dans la scène._  
+> _Le modèle garde Amina comme référent._  
 
-Check question: `fi2-117-etape-2-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-117-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Bih aide un élève à retrouver son cahier. Quel trait peut-on proposer ?
+> Amina laisse finir la question avant de répondre.
+> Quelle notion convient ?
 
-- ◻️ Elle est forcément riche.  
-  _↳ feedback if chosen: Le geste d’aide soutient serviable, mais pas la richesse ni l’âge._
-- ✅ Elle est serviable.
-- ◻️ Elle est forcément la plus âgée.  
-  _↳ feedback if chosen: Le geste d’aide soutient serviable, mais pas la richesse ni l’âge._
+- ◻️ trait observable  
+  _↳ feedback if chosen: Cela concerne un détail effectivement décrit dans la scène. Compare cette définition avec le cas présenté._
+- ✅ action révélatrice
+- ◻️ trait de caractère appuyé  
+  _↳ feedback if chosen: Cela concerne une qualité interprétée à partir d’un indice pertinent. Compare cette définition avec le cas présenté._
+- ◻️ organisation du portrait  
+  _↳ feedback if chosen: Cela concerne une progression des détails autour du même personnage. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Le geste d’aide soutient serviable, mais pas la richesse ni l’âge.  
-> La réponse est : Elle est serviable..  
+> Le comportement doit soutenir le trait choisi.  
+> Donc la réponse est « action révélatrice ».  
 
-**Card c117-3** (draft)
+**Card fi2-117-c3** (draft)
 
-> Relis les accords et évite les contradictions.
+> Corrige sans changer le sens voulu.
 >
-> _Une élève attentive ; des élèves attentifs._  
+> _La couleur d’une veste révèle toute la valeur morale. Correction : Le détail ne suffit pas à ce jugement._  
+> _Une action sans rapport prouve tous les caractères possibles. Correction : Le comportement doit soutenir le trait choisi._  
+> _Une apparence donne toujours un diagnostic de personnalité. Correction : Le portrait doit distinguer indice et généralisation._  
+> _Chaque phrase doit changer de personne sans le dire. Correction : Les reprises doivent permettre de suivre la même identité._  
 
-Check question: `fi2-117-etape-3-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-117-corriger-card` · spot the error, level 1 · **authored key**
 
-> Quelle phrase peut illustrer un portrait cohérent ?
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ◻️ Sa veste prouve qu’elle ment.  
-  _↳ feedback if chosen: Le trait moral est appuyé par une action pertinente._
-- ◻️ Elle est toujours immobile : elle court sans arrêt.  
-  _↳ feedback if chosen: Le trait moral est appuyé par une action pertinente._
-- ✅ Elle est serviable : elle aide son voisin.
+- ◻️ organisation du portrait : une progression des détails autour du même personnage.  
+  _↳ explanation: Cette distinction est correcte : Les reprises doivent permettre de suivre la même identité. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ trait de caractère appuyé : une qualité interprétée à partir d’un indice pertinent.  
+  _↳ explanation: Cette distinction est correcte : Le portrait doit distinguer indice et généralisation. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ trait observable : un détail effectivement décrit dans la scène.  
+  _↳ explanation: Cette distinction est correcte : Le détail ne suffit pas à ce jugement. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Une apparence donne toujours un diagnostic de personnalité.  
+  _↳ explanation: Le portrait doit distinguer indice et généralisation._
 
 Full working after a second miss:
 
-> Le trait moral est appuyé par une action pertinente.  
-> La réponse est : Elle est serviable : elle aide son voisin..  
+> La phrase fausse est « Une apparence donne toujours un diagnostic de personnalité. ».  
+> Le portrait doit distinguer indice et généralisation.  
 
 **Worked example** (draft)
 
-> Nji attend calmement que chacun termine. Quel trait est illustré ?
+> La veste verte appartient aux détails donnés. Explique le choix.
 
-1. Un geste peut illustrer un trait moral.
-2. Attendre calmement est un indice de patience.
+1. un détail effectivement décrit dans la scène.
+2. Le détail ne suffit pas à ce jugement.
 
-**Answer:** La patience.
+**Answer:** trait observable
 
 **Paper task** (draft; not marked by the app, mastery stays unknown)
 
-> Écris le portrait d’un personnage imaginaire qui travaille au journal de l’école. Donne un détail physique, un trait moral et une action qui illustre ce trait.
+> Écris le portrait d’un personnage inventé de club : détails observables, action significative et trait soutenu par cette action. Garde une identité et un ordre clairs.
 
 Model answer, shown after the pupil has written:
 
-> Amina porte une veste bleue et tient un petit carnet. Elle est attentive et patiente. Pendant les entretiens, elle laisse chaque personne finir sa réponse. Ses camarades apprécient sa façon calme de travailler.  
+> Amina est un personnage inventé du club. Elle porte une veste verte et garde un petit cahier près d’elle. Pendant la relecture, elle laisse finir une question puis vérifie la source avant de répondre. Cette action la présente comme attentive dans la scène ; sa veste ne suffit pas à prouver ce caractère. Le portrait ne prétend pas raconter toute son histoire.  
 
 Self-check list:
 
-- [ ] J’ai organisé les détails physiques et moraux.
-- [ ] Une action illustre un trait de caractère.
-- [ ] J’ai relu les accords des adjectifs.
+- [ ] Mes traits et actions concernent un personnage fictif identifiable.
+- [ ] Je ne déduis pas toute une personnalité de l’apparence.
+- [ ] Les adjectifs et reprises restent cohérents.
 
-**Practice** `fi2-117-etape-1` · multiple choice, level 1 · **authored key**
+**Practice** `fi2-117-notions` · multiple choice, level 1 · **authored key**
 
-> Quel détail appartient au portrait physique ?
+> Quel terme désigne une progression des détails autour du même personnage ?
 
-- ◻️ Elle est patiente.  
-  _↳ feedback if chosen: La veste est un détail visible de l’apparence._
-- ✅ Elle porte une veste bleue.
-- ◻️ Elle aide volontiers.  
-  _↳ feedback if chosen: La veste est un détail visible de l’apparence._
-
-Full working after a second miss:
-
-> La veste est un détail visible de l’apparence.  
-> La réponse est : Elle porte une veste bleue..  
-
-> Quel détail appartient au portrait physique ?
-
-- ◻️ Elle aide volontiers.  
-  _↳ feedback if chosen: La veste est un détail visible de l’apparence._
-- ✅ Elle porte une veste bleue.
-- ◻️ Elle est patiente.  
-  _↳ feedback if chosen: La veste est un détail visible de l’apparence._
+- ◻️ trait observable  
+  _↳ feedback if chosen: Cela désigne un détail effectivement décrit dans la scène, plutôt que la notion demandée._
+- ✅ organisation du portrait
+- ◻️ trait de caractère appuyé  
+  _↳ feedback if chosen: Cela désigne une qualité interprétée à partir d’un indice pertinent, plutôt que la notion demandée._
+- ◻️ action révélatrice  
+  _↳ feedback if chosen: Cela désigne un comportement soutenant ici un trait du portrait, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> La veste est un détail visible de l’apparence.  
-> La réponse est : Elle porte une veste bleue..  
+> Les reprises doivent permettre de suivre la même identité.  
+> Donc la réponse est « organisation du portrait ».  
 
-**Practice** `fi2-117-etape-2` · multiple choice, level 2 · **authored key**
+> Quel terme désigne un comportement soutenant ici un trait du portrait ?
 
-> Bih aide un élève à retrouver son cahier. Quel trait peut-on proposer ?
-
-- ◻️ Elle est forcément la plus âgée.  
-  _↳ feedback if chosen: Le geste d’aide soutient serviable, mais pas la richesse ni l’âge._
-- ✅ Elle est serviable.
-- ◻️ Elle est forcément riche.  
-  _↳ feedback if chosen: Le geste d’aide soutient serviable, mais pas la richesse ni l’âge._
-
-Full working after a second miss:
-
-> Le geste d’aide soutient serviable, mais pas la richesse ni l’âge.  
-> La réponse est : Elle est serviable..  
-
-> Bih aide un élève à retrouver son cahier. Quel trait peut-on proposer ?
-
-- ◻️ Elle est forcément la plus âgée.  
-  _↳ feedback if chosen: Le geste d’aide soutient serviable, mais pas la richesse ni l’âge._
-- ✅ Elle est serviable.
-- ◻️ Elle est forcément riche.  
-  _↳ feedback if chosen: Le geste d’aide soutient serviable, mais pas la richesse ni l’âge._
+- ◻️ trait de caractère appuyé  
+  _↳ feedback if chosen: Cela désigne une qualité interprétée à partir d’un indice pertinent, plutôt que la notion demandée._
+- ◻️ trait observable  
+  _↳ feedback if chosen: Cela désigne un détail effectivement décrit dans la scène, plutôt que la notion demandée._
+- ◻️ organisation du portrait  
+  _↳ feedback if chosen: Cela désigne une progression des détails autour du même personnage, plutôt que la notion demandée._
+- ✅ action révélatrice
 
 Full working after a second miss:
 
-> Le geste d’aide soutient serviable, mais pas la richesse ni l’âge.  
-> La réponse est : Elle est serviable..  
+> Le comportement doit soutenir le trait choisi.  
+> Donc la réponse est « action révélatrice ».  
 
-**Practice** `fi2-117-etape-3` · multiple choice, level 3 · **authored key**
+**Practice** `fi2-117-cas` · multiple choice, level 1 · **authored key**
 
-> Quelle phrase peut illustrer un portrait cohérent ?
+> La veste verte appartient aux détails donnés.
+> Quelle notion convient ?
 
-- ◻️ Elle est toujours immobile : elle court sans arrêt.  
-  _↳ feedback if chosen: Le trait moral est appuyé par une action pertinente._
-- ✅ Elle est serviable : elle aide son voisin.
-- ◻️ Sa veste prouve qu’elle ment.  
-  _↳ feedback if chosen: Le trait moral est appuyé par une action pertinente._
-
-Full working after a second miss:
-
-> Le trait moral est appuyé par une action pertinente.  
-> La réponse est : Elle est serviable : elle aide son voisin..  
-
-> Quelle phrase peut illustrer un portrait cohérent ?
-
-- ◻️ Sa veste prouve qu’elle ment.  
-  _↳ feedback if chosen: Le trait moral est appuyé par une action pertinente._
-- ✅ Elle est serviable : elle aide son voisin.
-- ◻️ Elle est toujours immobile : elle court sans arrêt.  
-  _↳ feedback if chosen: Le trait moral est appuyé par une action pertinente._
+- ◻️ trait de caractère appuyé  
+  _↳ feedback if chosen: Cela concerne une qualité interprétée à partir d’un indice pertinent. Compare cette définition avec le cas présenté._
+- ◻️ action révélatrice  
+  _↳ feedback if chosen: Cela concerne un comportement soutenant ici un trait du portrait. Compare cette définition avec le cas présenté._
+- ◻️ organisation du portrait  
+  _↳ feedback if chosen: Cela concerne une progression des détails autour du même personnage. Compare cette définition avec le cas présenté._
+- ✅ trait observable
 
 Full working after a second miss:
 
-> Le trait moral est appuyé par une action pertinente.  
-> La réponse est : Elle est serviable : elle aide son voisin..  
+> Le détail ne suffit pas à ce jugement.  
+> Donc la réponse est « trait observable ».  
+
+> La veste verte appartient aux détails donnés.
+> Quelle notion convient ?
+
+- ◻️ action révélatrice  
+  _↳ feedback if chosen: Cela concerne un comportement soutenant ici un trait du portrait. Compare cette définition avec le cas présenté._
+- ◻️ trait de caractère appuyé  
+  _↳ feedback if chosen: Cela concerne une qualité interprétée à partir d’un indice pertinent. Compare cette définition avec le cas présenté._
+- ✅ trait observable
+- ◻️ organisation du portrait  
+  _↳ feedback if chosen: Cela concerne une progression des détails autour du même personnage. Compare cette définition avec le cas présenté._
+
+Full working after a second miss:
+
+> Le détail ne suffit pas à ce jugement.  
+> Donc la réponse est « trait observable ».  
+
+**Practice** `fi2-117-construire` · word order, level 2 · **authored key**
+
+> Touche les mots dans le bon ordre.
+
+Tiles: modèle · comme · Amina · Le · garde · référent (then “.”)
+Answer: **Le modèle garde Amina comme référent.**
+
+Full working after a second miss:
+
+> La phrase est : Le modèle garde Amina comme référent.  
+
+> Touche les mots dans le bon ordre.
+
+Tiles: avant · de · finir · la · question · répondre · laisse · Amina (then “.”)
+Answer: **Amina laisse finir la question avant de répondre.**
+
+Full working after a second miss:
+
+> La phrase est : Amina laisse finir la question avant de répondre.  
+
+**Practice** `fi2-117-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): La veste verte appartient aux détails donnés. · Amina laisse finir la question avant de répondre. · L’attention est liée à la manière de répondre dans la scène.
+- trait de caractère appuyé → **L’attention est liée à la manière de répondre dans la scène.**
+- action révélatrice → **Amina laisse finir la question avant de répondre.**
+- trait observable → **La veste verte appartient aux détails donnés.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> trait de caractère appuyé → L’attention est liée à la manière de répondre dans la scène.  
+> action révélatrice → Amina laisse finir la question avant de répondre.  
+> trait observable → La veste verte appartient aux détails donnés.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): La veste verte appartient aux détails donnés. · L’attention est liée à la manière de répondre dans la scène. · Le modèle garde Amina comme référent.
+- trait de caractère appuyé → **L’attention est liée à la manière de répondre dans la scène.**
+- organisation du portrait → **Le modèle garde Amina comme référent.**
+- trait observable → **La veste verte appartient aux détails donnés.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> trait de caractère appuyé → L’attention est liée à la manière de répondre dans la scène.  
+> organisation du portrait → Le modèle garde Amina comme référent.  
+> trait observable → La veste verte appartient aux détails donnés.  
+
+**Practice** `fi2-117-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ action révélatrice : un comportement soutenant ici un trait du portrait.  
+  _↳ explanation: Cette distinction est correcte : Le comportement doit soutenir le trait choisi. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ trait de caractère appuyé : une qualité interprétée à partir d’un indice pertinent.  
+  _↳ explanation: Cette distinction est correcte : Le portrait doit distinguer indice et généralisation. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ organisation du portrait : une progression des détails autour du même personnage.  
+  _↳ explanation: Cette distinction est correcte : Les reprises doivent permettre de suivre la même identité. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Chaque phrase doit changer de personne sans le dire.  
+  _↳ explanation: Les reprises doivent permettre de suivre la même identité._
+
+Full working after a second miss:
+
+> La phrase fausse est « Chaque phrase doit changer de personne sans le dire. ».  
+> Les reprises doivent permettre de suivre la même identité.  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ trait de caractère appuyé : une qualité interprétée à partir d’un indice pertinent.  
+  _↳ explanation: Cette distinction est correcte : Le portrait doit distinguer indice et généralisation. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ organisation du portrait : une progression des détails autour du même personnage.  
+  _↳ explanation: Cette distinction est correcte : Les reprises doivent permettre de suivre la même identité. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ trait observable : un détail effectivement décrit dans la scène.  
+  _↳ explanation: Cette distinction est correcte : Le détail ne suffit pas à ce jugement. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Une apparence donne toujours un diagnostic de personnalité.  
+  _↳ explanation: Le portrait doit distinguer indice et généralisation._
+
+Full working after a second miss:
+
+> La phrase fausse est « Une apparence donne toujours un diagnostic de personnalité. ».  
+> Le portrait doit distinguer indice et généralisation.  
 
 ## Lesson 118: Grammaire : Les pronoms possessifs sujets
 
-Prerequisites: none · Skill: fi2-118 (Les pronoms possessifs sujets)
+Prerequisites: 104, 112, 117 · Skill: fi2-118 (Les pronoms possessifs sujets)
 
 **Note** (draft)
 
-> Un pronom possessif remplace un nom et indique une relation de possession : mon cahier devient le mien ; ta radio devient la tienne. Sa forme s’accorde avec ce qui est possédé : le mien, la mienne, les miens, les miennes. Le possesseur détermine la série : le tien, le sien, le nôtre, le vôtre, le leur. Le pronom peut être sujet : Le mien fonctionne. Les leurs fonctionnent. Un déterminant possessif accompagne un nom : mon cahier.
+> Un pronom possessif reprend un élément et exprime une relation d’appartenance : le mien, la tienne, les siens, la nôtre, les vôtres. Il se distingue d’un déterminant comme mon ou ta, suivi d’un nom. Son genre et son nombre suivent l’élément repris ; la personne dépend de la relation de possession indiquée. Employé comme sujet, le pronom commande le verbe : le tien est, les tiens sont. Le genre ne se choisit pas d’après le genre de la personne qui possède.
 
-**Card c118-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Le pronom possessif remplace un groupe nominal.
+> À la fin, tu pourras choisir une reprise possessive selon le référent et accorder le verbe avec le pronom sujet. Acquis mobilisés : les sujets, les déterminants possessifs et les descriptions. Pour la suite : la correspondance et la relecture des textes.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> Un pronom possessif reprend un élément et exprime une relation d’appartenance : le mien, la tienne, les siens, la nôtre, les vôtres. Il se distingue d’un déterminant comme mon ou ta, suivi d’un nom. Son genre et son nombre suivent l’élément repris ; la personne dépend de la relation de possession indiquée. Employé comme sujet, le pronom commande le verbe : le tien est, les tiens sont. Le genre ne se choisit pas d’après le genre de la personne qui possède.
+
+**Learn: Lire le modèle original** (draft)
+
+> Modèles originaux : Mon cahier est fermé ; le tien est ouvert. Ma fiche est prête ; la tienne est aussi. Mes livres sont ici ; les tiens sont là-bas. Le groupe les vôtres peut reprendre les fiches d’un autre groupe sans réécrire le nom.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Retrouve le nom repris puis son genre et son nombre. Vérifie à qui la relation renvoie, choisis le pronom complet et accorde le verbe. Ne confonds pas notre fiche et la nôtre : la construction et l’accent diffèrent.
+
+**Learn: key words and examples** (draft)
+
+- **pronom possessif**: une reprise comme le tien exprimant une relation d’appartenance
+- **déterminant possessif**: un mot comme ton accompagnant un nom
+- **référent repris**: l’élément déterminant ici genre et nombre du pronom
+- **accord du verbe sujet**: la forme verbale suivant le nombre du pronom sujet
+
+
+Common mistake: “Tout pronom possessif doit être suivi du nom répété.” → “une reprise comme le tien exprimant une relation d’appartenance.”. Le pronom reprend ce nom sans le répéter ici.
+
+**Card fi2-118-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _Mon cahier est ici ; le tien est là._  
+> _pronom possessif : une reprise comme le tien exprimant une relation d’appartenance._  
+> _déterminant possessif : un mot comme ton accompagnant un nom._  
+> _référent repris : l’élément déterminant ici genre et nombre du pronom._  
+> _accord du verbe sujet : la forme verbale suivant le nombre du pronom sujet._  
 
-Check question: `fi2-118-etape-1` · multiple choice, level 1 · **authored key**, reused from practice
+Check question: `fi2-118-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Dans « La tienne fonctionne », quel groupe est sujet ?
+> Quel terme désigne l’élément déterminant ici genre et nombre du pronom ?
 
-- ◻️ aucun sujet  
-  _↳ feedback if chosen: Le pronom possessif la tienne est le sujet du verbe._
-- ◻️ fonctionne  
-  _↳ feedback if chosen: Le pronom possessif la tienne est le sujet du verbe._
-- ✅ La tienne
+- ◻️ pronom possessif  
+  _↳ feedback if chosen: Cela désigne une reprise comme le tien exprimant une relation d’appartenance, plutôt que la notion demandée._
+- ✅ référent repris
+- ◻️ accord du verbe sujet  
+  _↳ feedback if chosen: Cela désigne la forme verbale suivant le nombre du pronom sujet, plutôt que la notion demandée._
+- ◻️ déterminant possessif  
+  _↳ feedback if chosen: Cela désigne un mot comme ton accompagnant un nom, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le pronom possessif la tienne est le sujet du verbe.  
-> La réponse est : La tienne.  
+> Le pronom s’accorde avec l’élément repris.  
+> Donc la réponse est « référent repris ».  
 
-**Card c118-2** (draft)
+**Card fi2-118-c2** (draft)
 
-> Accorde la forme avec le nom remplacé.
+> Lis le contexte avant de nommer la notion.
 >
-> _Ma radio : la mienne ; mes cahiers : les miens._  
+> _Le tien reprend un cahier déjà évoqué._  
+> _Ton accompagne cahier dans ton cahier._  
+> _Fiche explique le féminin singulier de la tienne._  
+> _Les tiens sont prêts emploie un sujet pluriel._  
 
-Check question: `fi2-118-etape-2-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-118-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Remplace ma radio : ___ fonctionne.
+> Fiche explique le féminin singulier de la tienne.
+> Quelle notion convient ?
 
-- ◻️ Le mien  
-  _↳ feedback if chosen: Radio est féminin singulier : la mienne._
-- ✅ La mienne
-- ◻️ Les miens  
-  _↳ feedback if chosen: Radio est féminin singulier : la mienne._
+- ◻️ accord du verbe sujet  
+  _↳ feedback if chosen: Cela concerne la forme verbale suivant le nombre du pronom sujet. Compare cette définition avec le cas présenté._
+- ◻️ pronom possessif  
+  _↳ feedback if chosen: Cela concerne une reprise comme le tien exprimant une relation d’appartenance. Compare cette définition avec le cas présenté._
+- ◻️ déterminant possessif  
+  _↳ feedback if chosen: Cela concerne un mot comme ton accompagnant un nom. Compare cette définition avec le cas présenté._
+- ✅ référent repris
 
 Full working after a second miss:
 
-> Radio est féminin singulier : la mienne.  
-> La réponse est : La mienne.  
+> Le pronom s’accorde avec l’élément repris.  
+> Donc la réponse est « référent repris ».  
 
-**Card c118-3** (draft)
+**Card fi2-118-c3** (draft)
 
-> Le verbe s’accorde avec le pronom sujet.
+> Corrige sans changer le sens voulu.
 >
-> _Le leur fonctionne ; les leurs fonctionnent._  
+> _Tout pronom possessif doit être suivi du nom répété. Correction : Le pronom reprend ce nom sans le répéter ici._  
+> _Ton seul forme toujours le pronom le tien complet. Correction : Le déterminant et le pronom n’ont pas la même construction._  
+> _Le genre de la personne propriétaire décide toujours du genre du pronom. Correction : Le pronom s’accorde avec l’élément repris._  
+> _Les tiens impose toujours est au singulier. Correction : Le sujet les tiens est pluriel._  
 
-Check question: `fi2-118-etape-3-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-118-corriger-card` · spot the error, level 1 · **authored key**
 
-> Quelle phrase distingue déterminant et pronom ?
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ✅ Mon cahier est ouvert ; le tien est fermé.
-- ◻️ Le mon est ouvert.  
-  _↳ feedback if chosen: Mon accompagne cahier ; le tien remplace un groupe nominal._
-- ◻️ Le tien cahier est fermé.  
-  _↳ feedback if chosen: Mon accompagne cahier ; le tien remplace un groupe nominal._
+- ◻️ accord du verbe sujet : la forme verbale suivant le nombre du pronom sujet.  
+  _↳ explanation: Cette distinction est correcte : Le sujet les tiens est pluriel. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Tout pronom possessif doit être suivi du nom répété.  
+  _↳ explanation: Le pronom reprend ce nom sans le répéter ici._
+- ◻️ pronom possessif : une reprise comme le tien exprimant une relation d’appartenance.  
+  _↳ explanation: Cette distinction est correcte : Le pronom reprend ce nom sans le répéter ici. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ déterminant possessif : un mot comme ton accompagnant un nom.  
+  _↳ explanation: Cette distinction est correcte : Le déterminant et le pronom n’ont pas la même construction. Cherche plutôt une phrase qui contredit le sens ou la règle._
 
 Full working after a second miss:
 
-> Mon accompagne cahier ; le tien remplace un groupe nominal.  
-> La réponse est : Mon cahier est ouvert ; le tien est fermé..  
+> La phrase fausse est « Tout pronom possessif doit être suivi du nom répété. ».  
+> Le pronom reprend ce nom sans le répéter ici.  
 
 **Worked example** (draft)
 
-> Remplace ma radio : ___ fonctionne.
+> Le tien reprend un cahier déjà évoqué. Explique le choix.
 
-1. Accorde la forme avec le nom remplacé.
-2. Radio est féminin singulier : la mienne.
+1. une reprise comme le tien exprimant une relation d’appartenance.
+2. Le pronom reprend ce nom sans le répéter ici.
 
-**Answer:** La mienne
+**Answer:** pronom possessif
 
-**Practice** `fi2-118-etape-1` · multiple choice, level 1 · **authored key**
+**Practice** `fi2-118-notions` · multiple choice, level 1 · **authored key**
 
-> Quel groupe est un pronom possessif ?
+> Quel terme désigne une reprise comme le tien exprimant une relation d’appartenance ?
 
-- ◻️ Mon cahier  
-  _↳ feedback if chosen: Le mien remplace un nom avec sa relation de possession._
-- ✅ Le mien
-- ◻️ Un cahier  
-  _↳ feedback if chosen: Le mien remplace un nom avec sa relation de possession._
-
-Full working after a second miss:
-
-> Le mien remplace un nom avec sa relation de possession.  
-> La réponse est : Le mien.  
-
-> Dans « La tienne fonctionne », quel groupe est sujet ?
-
-- ✅ La tienne
-- ◻️ aucun sujet  
-  _↳ feedback if chosen: Le pronom possessif la tienne est le sujet du verbe._
-- ◻️ fonctionne  
-  _↳ feedback if chosen: Le pronom possessif la tienne est le sujet du verbe._
+- ◻️ déterminant possessif  
+  _↳ feedback if chosen: Cela désigne un mot comme ton accompagnant un nom, plutôt que la notion demandée._
+- ◻️ accord du verbe sujet  
+  _↳ feedback if chosen: Cela désigne la forme verbale suivant le nombre du pronom sujet, plutôt que la notion demandée._
+- ✅ pronom possessif
+- ◻️ référent repris  
+  _↳ feedback if chosen: Cela désigne l’élément déterminant ici genre et nombre du pronom, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le pronom possessif la tienne est le sujet du verbe.  
-> La réponse est : La tienne.  
+> Le pronom reprend ce nom sans le répéter ici.  
+> Donc la réponse est « pronom possessif ».  
 
-**Practice** `fi2-118-etape-2` · multiple choice, level 2 · **authored key**
+> Quel terme désigne la forme verbale suivant le nombre du pronom sujet ?
 
-> Remplace ma radio : ___ fonctionne.
-
-- ✅ La mienne
-- ◻️ Les miens  
-  _↳ feedback if chosen: Radio est féminin singulier : la mienne._
-- ◻️ Le mien  
-  _↳ feedback if chosen: Radio est féminin singulier : la mienne._
-
-Full working after a second miss:
-
-> Radio est féminin singulier : la mienne.  
-> La réponse est : La mienne.  
-
-> Remplace mes cahiers : ___ sont ici.
-
-- ◻️ Le mien  
-  _↳ feedback if chosen: Cahiers est masculin pluriel : les miens._
-- ◻️ La mienne  
-  _↳ feedback if chosen: Cahiers est masculin pluriel : les miens._
-- ✅ Les miens
+- ◻️ référent repris  
+  _↳ feedback if chosen: Cela désigne l’élément déterminant ici genre et nombre du pronom, plutôt que la notion demandée._
+- ◻️ déterminant possessif  
+  _↳ feedback if chosen: Cela désigne un mot comme ton accompagnant un nom, plutôt que la notion demandée._
+- ◻️ pronom possessif  
+  _↳ feedback if chosen: Cela désigne une reprise comme le tien exprimant une relation d’appartenance, plutôt que la notion demandée._
+- ✅ accord du verbe sujet
 
 Full working after a second miss:
 
-> Cahiers est masculin pluriel : les miens.  
-> La réponse est : Les miens.  
+> Le sujet les tiens est pluriel.  
+> Donc la réponse est « accord du verbe sujet ».  
 
-**Practice** `fi2-118-etape-3` · multiple choice, level 3 · **authored key**
+**Practice** `fi2-118-cas` · multiple choice, level 1 · **authored key**
 
-> Quelle phrase distingue déterminant et pronom ?
+> Les tiens sont prêts emploie un sujet pluriel.
+> Quelle notion convient ?
 
-- ◻️ Le tien cahier est fermé.  
-  _↳ feedback if chosen: Mon accompagne cahier ; le tien remplace un groupe nominal._
-- ◻️ Le mon est ouvert.  
-  _↳ feedback if chosen: Mon accompagne cahier ; le tien remplace un groupe nominal._
-- ✅ Mon cahier est ouvert ; le tien est fermé.
-
-Full working after a second miss:
-
-> Mon accompagne cahier ; le tien remplace un groupe nominal.  
-> La réponse est : Mon cahier est ouvert ; le tien est fermé..  
-
-> Quelle phrase distingue déterminant et pronom ?
-
-- ✅ Mon cahier est ouvert ; le tien est fermé.
-- ◻️ Le mon est ouvert.  
-  _↳ feedback if chosen: Mon accompagne cahier ; le tien remplace un groupe nominal._
-- ◻️ Le tien cahier est fermé.  
-  _↳ feedback if chosen: Mon accompagne cahier ; le tien remplace un groupe nominal._
+- ◻️ référent repris  
+  _↳ feedback if chosen: Cela concerne l’élément déterminant ici genre et nombre du pronom. Compare cette définition avec le cas présenté._
+- ◻️ déterminant possessif  
+  _↳ feedback if chosen: Cela concerne un mot comme ton accompagnant un nom. Compare cette définition avec le cas présenté._
+- ✅ accord du verbe sujet
+- ◻️ pronom possessif  
+  _↳ feedback if chosen: Cela concerne une reprise comme le tien exprimant une relation d’appartenance. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Mon accompagne cahier ; le tien remplace un groupe nominal.  
-> La réponse est : Mon cahier est ouvert ; le tien est fermé..  
+> Le sujet les tiens est pluriel.  
+> Donc la réponse est « accord du verbe sujet ».  
+
+> Le tien reprend un cahier déjà évoqué.
+> Quelle notion convient ?
+
+- ◻️ déterminant possessif  
+  _↳ feedback if chosen: Cela concerne un mot comme ton accompagnant un nom. Compare cette définition avec le cas présenté._
+- ◻️ accord du verbe sujet  
+  _↳ feedback if chosen: Cela concerne la forme verbale suivant le nombre du pronom sujet. Compare cette définition avec le cas présenté._
+- ◻️ référent repris  
+  _↳ feedback if chosen: Cela concerne l’élément déterminant ici genre et nombre du pronom. Compare cette définition avec le cas présenté._
+- ✅ pronom possessif
+
+Full working after a second miss:
+
+> Le pronom reprend ce nom sans le répéter ici.  
+> Donc la réponse est « pronom possessif ».  
+
+**Practice** `fi2-118-appliquer` · multiple choice, level 2 · **authored key**
+
+> Le modèle oppose mes livres aux tiens. Remplace tes livres comme sujet : ___ sont prêts.
+
+- ◻️ Tes  
+  _↳ feedback if chosen: Tes détermine un nom exprimé._
+- ◻️ Le tien  
+  _↳ feedback if chosen: Le référent est pluriel._
+- ✅ Les tiens
+- ◻️ Les tiennes  
+  _↳ feedback if chosen: Livres est masculin._
+
+Full working after a second miss:
+
+> Le pronom est masculin pluriel.  
+> Donc la réponse est « Les tiens ».  
+
+> Le modèle oppose mes livres aux tiens. Remplace tes livres comme sujet : ___ sont prêts.
+
+- ◻️ Les tiennes  
+  _↳ feedback if chosen: Livres est masculin._
+- ✅ Les tiens
+- ◻️ Le tien  
+  _↳ feedback if chosen: Le référent est pluriel._
+- ◻️ Tes  
+  _↳ feedback if chosen: Tes détermine un nom exprimé._
+
+Full working after a second miss:
+
+> Le pronom est masculin pluriel.  
+> Donc la réponse est « Les tiens ».  
+
+**Practice** `fi2-118-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Ton accompagne cahier dans ton cahier. · Le tien reprend un cahier déjà évoqué. · Fiche explique le féminin singulier de la tienne.
+- référent repris → **Fiche explique le féminin singulier de la tienne.**
+- pronom possessif → **Le tien reprend un cahier déjà évoqué.**
+- déterminant possessif → **Ton accompagne cahier dans ton cahier.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> référent repris → Fiche explique le féminin singulier de la tienne.  
+> pronom possessif → Le tien reprend un cahier déjà évoqué.  
+> déterminant possessif → Ton accompagne cahier dans ton cahier.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Fiche explique le féminin singulier de la tienne. · Les tiens sont prêts emploie un sujet pluriel. · Le tien reprend un cahier déjà évoqué.
+- référent repris → **Fiche explique le féminin singulier de la tienne.**
+- pronom possessif → **Le tien reprend un cahier déjà évoqué.**
+- accord du verbe sujet → **Les tiens sont prêts emploie un sujet pluriel.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> référent repris → Fiche explique le féminin singulier de la tienne.  
+> pronom possessif → Le tien reprend un cahier déjà évoqué.  
+> accord du verbe sujet → Les tiens sont prêts emploie un sujet pluriel.  
+
+**Practice** `fi2-118-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ accord du verbe sujet : la forme verbale suivant le nombre du pronom sujet.  
+  _↳ explanation: Cette distinction est correcte : Le sujet les tiens est pluriel. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ référent repris : l’élément déterminant ici genre et nombre du pronom.  
+  _↳ explanation: Cette distinction est correcte : Le pronom s’accorde avec l’élément repris. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ pronom possessif : une reprise comme le tien exprimant une relation d’appartenance.  
+  _↳ explanation: Cette distinction est correcte : Le pronom reprend ce nom sans le répéter ici. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Les tiens impose toujours est au singulier.  
+  _↳ explanation: Le sujet les tiens est pluriel._
+
+Full working after a second miss:
+
+> La phrase fausse est « Les tiens impose toujours est au singulier. ».  
+> Le sujet les tiens est pluriel.  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ accord du verbe sujet : la forme verbale suivant le nombre du pronom sujet.  
+  _↳ explanation: Cette distinction est correcte : Le sujet les tiens est pluriel. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Le genre de la personne propriétaire décide toujours du genre du pronom.  
+  _↳ explanation: Le pronom s’accorde avec l’élément repris._
+- ◻️ pronom possessif : une reprise comme le tien exprimant une relation d’appartenance.  
+  _↳ explanation: Cette distinction est correcte : Le pronom reprend ce nom sans le répéter ici. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ déterminant possessif : un mot comme ton accompagnant un nom.  
+  _↳ explanation: Cette distinction est correcte : Le déterminant et le pronom n’ont pas la même construction. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Le genre de la personne propriétaire décide toujours du genre du pronom. ».  
+> Le pronom s’accorde avec l’élément repris.  
 
 ## Lesson 119: Orthographe : Le son /ε/ Ex. vin, pain
 
-Prerequisites: none · Skill: fi2-119 (Le son nasal [ɛ̃] : vin, pain)
+Prerequisites: 106, 114, 118 · Skill: fi2-119 (Préparer [ɛ̃] dans vin et pain)
 
 **Note** (draft)
 
-> Le modèle de cette leçon est [ɛ̃] : vin, pain, matin. Observe les graphies des mots modèles. Les symboles de la progression sont interprétés à partir des exemples donnés. Les accents peuvent réaliser les sons de façon différente.
-> L’application vérifie seulement le repérage écrit. Elle ne fournit pas de modèle audio et ne peut pas entendre ta voix. Demande à un enseignant de lire les exemples, puis entraîne-toi oralement avec lui.
+> Dans le modèle étudié, vin et matin présentent la graphie in pour [ɛ̃] ; pain et main présentent ain pour cette même voyelle nasale. On ne prononce pas normalement un [n] séparé à la fin de ces mots isolés. Nature, navire et neige commencent par la consonne [n]. Cette consonne est elle aussi nasale, mais elle n’est pas une voyelle. Les graphies in ou ain ne suffisent pas à décider de tous les mots dans tous les contextes : on travaille ici sur les modèles annoncés.
 
-**Card c119-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Observe les mots modèles avant de classer.
+> À la fin, tu pourras distinguer les graphies in et ain de la voyelle nasale et la consonne [n]. Acquis mobilisés : les modèles de un et de nature. Pour la suite : la lecture orale préparée et la correspondance.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> Dans le modèle étudié, vin et matin présentent la graphie in pour [ɛ̃] ; pain et main présentent ain pour cette même voyelle nasale. On ne prononce pas normalement un [n] séparé à la fin de ces mots isolés. Nature, navire et neige commencent par la consonne [n]. Cette consonne est elle aussi nasale, mais elle n’est pas une voyelle. Les graphies in ou ain ne suffisent pas à décider de tous les mots dans tous les contextes : on travaille ici sur les modèles annoncés.
+
+**Learn: Lire le modèle original** (draft)
+
+> Modèles écrits : vin → in ; pain → ain ; main → ain ; matin → in dans la dernière syllabe. Nature et navire commencent par [n]. Dans le modèle isolé pain, le n participe à la graphie de la voyelle ; dans nature, il représente une consonne prononcée au début. Les indications ne sont pas un enregistrement.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Repère le mot écrit et la graphie étudiée. Lis les symboles comme des indications, puis compare avec un modèle oral du professeur si possible. L’écran ne joue aucun enregistrement et ne mesure ni ton audition ni ta prononciation.
+
+**Learn: key words and examples** (draft)
+
+- **voyelle nasale [ɛ̃]**: la voyelle de référence de vin et pain dans les mots isolés
+- **graphie in**: une suite de lettres illustrée dans vin
+- **graphie ain**: une suite de lettres illustrée dans pain
+- **consonne [n]**: le son consonantique initial des modèles nature et navire
+
+
+Common mistake: “Vin isolé impose ici un [n] final séparé après la voyelle.” → “la voyelle de référence de vin et pain dans les mots isolés.”. Le n note ici la nasalité de la voyelle.
+
+**Card fi2-119-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _vin, pain, matin_  
+> _voyelle nasale [ɛ̃] : la voyelle de référence de vin et pain dans les mots isolés._  
+> _graphie in : une suite de lettres illustrée dans vin._  
+> _graphie ain : une suite de lettres illustrée dans pain._  
+> _consonne [n] : le son consonantique initial des modèles nature et navire._  
 
-Check question: `fi2-119-etape-1` · multiple choice, level 1 · **authored key**, reused from practice
+Check question: `fi2-119-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Quel autre mot appartient à cette série ?
+> Quel terme désigne une suite de lettres illustrée dans pain ?
 
-- ◻️ nature  
-  _↳ feedback if chosen: Le mot matin appartient à la même série de modèles._
-- ✅ matin
-- ◻️ navire  
-  _↳ feedback if chosen: Le mot matin appartient à la même série de modèles._
+- ✅ graphie ain
+- ◻️ consonne [n]  
+  _↳ feedback if chosen: Cela désigne le son consonantique initial des modèles nature et navire, plutôt que la notion demandée._
+- ◻️ graphie in  
+  _↳ feedback if chosen: Cela désigne une suite de lettres illustrée dans vin, plutôt que la notion demandée._
+- ◻️ voyelle nasale [ɛ̃]  
+  _↳ feedback if chosen: Cela désigne la voyelle de référence de vin et pain dans les mots isolés, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le mot matin appartient à la même série de modèles.  
-> La réponse est : matin.  
+> La proximité de son n’efface pas l’orthographe du mot.  
+> Donc la réponse est « graphie ain ».  
 
-**Card c119-2** (draft)
+**Card fi2-119-c2** (draft)
 
-> Le travail écrit prépare la lecture orale.
+> Lis le contexte avant de nommer la notion.
 >
-> _Compare les graphies, puis lis avec le professeur._  
+> _Vin et pain partagent ce modèle vocalique._  
+> _Vin contient i puis n._  
+> _Pain contient a, i puis n._  
+> _Nature commence par une consonne nasale._  
 
-Check question: `fi2-119-etape-2-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-119-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Que peut vérifier cet exercice ?
+> Vin contient i puis n.
+> Quelle notion convient ?
 
-- ◻️ L’enregistrement de ta voix.  
-  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
-- ◻️ La qualité de ton accent.  
-  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
-- ✅ Le repérage écrit des mots modèles.
+- ◻️ consonne [n]  
+  _↳ feedback if chosen: Cela concerne le son consonantique initial des modèles nature et navire. Compare cette définition avec le cas présenté._
+- ◻️ voyelle nasale [ɛ̃]  
+  _↳ feedback if chosen: Cela concerne la voyelle de référence de vin et pain dans les mots isolés. Compare cette définition avec le cas présenté._
+- ◻️ graphie ain  
+  _↳ feedback if chosen: Cela concerne une suite de lettres illustrée dans pain. Compare cette définition avec le cas présenté._
+- ✅ graphie in
 
 Full working after a second miss:
 
-> L’application ne capte pas la voix du lecteur.  
-> La réponse est : Le repérage écrit des mots modèles..  
+> Il faut lire les lettres présentes.  
+> Donc la réponse est « graphie in ».  
 
-**Card c119-3** (draft)
+**Card fi2-119-c3** (draft)
 
-> Vérifie les deux mots d’une série.
+> Corrige sans changer le sens voulu.
 >
-> _La série modèle est pain, matin._  
+> _Vin isolé impose ici un [n] final séparé après la voyelle. Correction : Le n note ici la nasalité de la voyelle._  
+> _Vin contient forcément la graphie ain. Correction : Il faut lire les lettres présentes._  
+> _Pain doit être écrit pin dans tous les contextes. Correction : La proximité de son n’efface pas l’orthographe du mot._  
+> _Une consonne nasale est obligatoirement une voyelle. Correction : La nasalité existe dans les deux catégories, qui restent distinctes._  
 
-Check question: `fi2-119-etape-3-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-119-corriger-card` · spot the error, level 1 · **authored key**
 
-> Quel conseil respecte les différences d’accent ?
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ◻️ Faire noter sa voix par cet exercice écrit.  
-  _↳ feedback if chosen: Le professeur adapte le modèle oral à l’enseignement de la classe._
-- ✅ Suivre le modèle oral donné en classe.
-- ◻️ Déclarer faux tout accent différent.  
-  _↳ feedback if chosen: Le professeur adapte le modèle oral à l’enseignement de la classe._
+- ✅ Pain doit être écrit pin dans tous les contextes.  
+  _↳ explanation: La proximité de son n’efface pas l’orthographe du mot._
+- ◻️ graphie in : une suite de lettres illustrée dans vin.  
+  _↳ explanation: Cette distinction est correcte : Il faut lire les lettres présentes. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ voyelle nasale [ɛ̃] : la voyelle de référence de vin et pain dans les mots isolés.  
+  _↳ explanation: Cette distinction est correcte : Le n note ici la nasalité de la voyelle. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ graphie ain : une suite de lettres illustrée dans pain.  
+  _↳ explanation: Cette distinction est correcte : La proximité de son n’efface pas l’orthographe du mot. Cherche plutôt une phrase qui contredit le sens ou la règle._
 
 Full working after a second miss:
 
-> Le professeur adapte le modèle oral à l’enseignement de la classe.  
-> La réponse est : Suivre le modèle oral donné en classe..  
+> La phrase fausse est « Pain doit être écrit pin dans tous les contextes. ».  
+> La proximité de son n’efface pas l’orthographe du mot.  
 
 **Worked example** (draft)
 
-> Que peut vérifier cet exercice ?
+> Vin et pain partagent ce modèle vocalique. Explique le choix.
 
-1. Le travail écrit prépare la lecture orale.
-2. L’application ne capte pas la voix du lecteur.
+1. la voyelle de référence de vin et pain dans les mots isolés.
+2. Le n note ici la nasalité de la voyelle.
 
-**Answer:** Le repérage écrit des mots modèles.
+**Answer:** voyelle nasale [ɛ̃]
 
-**Practice** `fi2-119-etape-1` · multiple choice, level 1 · **authored key**
+**Practice** `fi2-119-notions` · multiple choice, level 1 · **authored key**
 
-> Quel autre mot appartient à cette série ?
+> Quel terme désigne le son consonantique initial des modèles nature et navire ?
 
-- ◻️ nature  
-  _↳ feedback if chosen: Le mot matin appartient à la même série de modèles._
-- ◻️ navire  
-  _↳ feedback if chosen: Le mot matin appartient à la même série de modèles._
-- ✅ matin
-
-Full working after a second miss:
-
-> Le mot matin appartient à la même série de modèles.  
-> La réponse est : matin.  
-
-> Quel autre mot appartient à cette série ?
-
-- ◻️ nature  
-  _↳ feedback if chosen: Le mot matin appartient à la même série de modèles._
-- ◻️ navire  
-  _↳ feedback if chosen: Le mot matin appartient à la même série de modèles._
-- ✅ matin
+- ◻️ graphie ain  
+  _↳ feedback if chosen: Cela désigne une suite de lettres illustrée dans pain, plutôt que la notion demandée._
+- ✅ consonne [n]
+- ◻️ voyelle nasale [ɛ̃]  
+  _↳ feedback if chosen: Cela désigne la voyelle de référence de vin et pain dans les mots isolés, plutôt que la notion demandée._
+- ◻️ graphie in  
+  _↳ feedback if chosen: Cela désigne une suite de lettres illustrée dans vin, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le mot matin appartient à la même série de modèles.  
-> La réponse est : matin.  
+> La nasalité existe dans les deux catégories, qui restent distinctes.  
+> Donc la réponse est « consonne [n] ».  
 
-**Practice** `fi2-119-etape-2` · multiple choice, level 2 · **authored key**
+> Quel terme désigne une suite de lettres illustrée dans vin ?
 
-> Que peut vérifier cet exercice ?
-
-- ◻️ La qualité de ton accent.  
-  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
-- ◻️ L’enregistrement de ta voix.  
-  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
-- ✅ Le repérage écrit des mots modèles.
-
-Full working after a second miss:
-
-> L’application ne capte pas la voix du lecteur.  
-> La réponse est : Le repérage écrit des mots modèles..  
-
-> Que peut vérifier cet exercice ?
-
-- ✅ Le repérage écrit des mots modèles.
-- ◻️ La qualité de ton accent.  
-  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
-- ◻️ L’enregistrement de ta voix.  
-  _↳ feedback if chosen: L’application ne capte pas la voix du lecteur._
+- ✅ graphie in
+- ◻️ voyelle nasale [ɛ̃]  
+  _↳ feedback if chosen: Cela désigne la voyelle de référence de vin et pain dans les mots isolés, plutôt que la notion demandée._
+- ◻️ consonne [n]  
+  _↳ feedback if chosen: Cela désigne le son consonantique initial des modèles nature et navire, plutôt que la notion demandée._
+- ◻️ graphie ain  
+  _↳ feedback if chosen: Cela désigne une suite de lettres illustrée dans pain, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> L’application ne capte pas la voix du lecteur.  
-> La réponse est : Le repérage écrit des mots modèles..  
+> Il faut lire les lettres présentes.  
+> Donc la réponse est « graphie in ».  
 
-**Practice** `fi2-119-etape-3` · multiple choice, level 3 · **authored key**
+**Practice** `fi2-119-cas` · multiple choice, level 1 · **authored key**
 
-> Quelle série contient uniquement les mots modèles ?
+> Pain contient a, i puis n.
+> Quelle notion convient ?
 
-- ✅ pain, matin
-- ◻️ pain, nature  
-  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
-- ◻️ nature, navire  
-  _↳ feedback if chosen: Les deux mots doivent appartenir à la série étudiée._
-
-Full working after a second miss:
-
-> Les deux mots doivent appartenir à la série étudiée.  
-> La réponse est : pain, matin.  
-
-> Quel conseil respecte les différences d’accent ?
-
-- ◻️ Faire noter sa voix par cet exercice écrit.  
-  _↳ feedback if chosen: Le professeur adapte le modèle oral à l’enseignement de la classe._
-- ◻️ Déclarer faux tout accent différent.  
-  _↳ feedback if chosen: Le professeur adapte le modèle oral à l’enseignement de la classe._
-- ✅ Suivre le modèle oral donné en classe.
+- ◻️ consonne [n]  
+  _↳ feedback if chosen: Cela concerne le son consonantique initial des modèles nature et navire. Compare cette définition avec le cas présenté._
+- ◻️ graphie in  
+  _↳ feedback if chosen: Cela concerne une suite de lettres illustrée dans vin. Compare cette définition avec le cas présenté._
+- ◻️ voyelle nasale [ɛ̃]  
+  _↳ feedback if chosen: Cela concerne la voyelle de référence de vin et pain dans les mots isolés. Compare cette définition avec le cas présenté._
+- ✅ graphie ain
 
 Full working after a second miss:
 
-> Le professeur adapte le modèle oral à l’enseignement de la classe.  
-> La réponse est : Suivre le modèle oral donné en classe..  
+> La proximité de son n’efface pas l’orthographe du mot.  
+> Donc la réponse est « graphie ain ».  
+
+> Pain contient a, i puis n.
+> Quelle notion convient ?
+
+- ◻️ graphie in  
+  _↳ feedback if chosen: Cela concerne une suite de lettres illustrée dans vin. Compare cette définition avec le cas présenté._
+- ✅ graphie ain
+- ◻️ voyelle nasale [ɛ̃]  
+  _↳ feedback if chosen: Cela concerne la voyelle de référence de vin et pain dans les mots isolés. Compare cette définition avec le cas présenté._
+- ◻️ consonne [n]  
+  _↳ feedback if chosen: Cela concerne le son consonantique initial des modèles nature et navire. Compare cette définition avec le cas présenté._
+
+Full working after a second miss:
+
+> La proximité de son n’efface pas l’orthographe du mot.  
+> Donc la réponse est « graphie ain ».  
+
+**Practice** `fi2-119-graphies` · multiple choice, level 2 · **authored key**
+
+> Quelle affirmation distingue correctement les catégories ?
+
+- ◻️ [n] ne peut jamais être nasal.  
+  _↳ feedback if chosen: [n] est précisément une consonne nasale._
+- ◻️ Le symbole écrit donne un diagnostic de l’audition.  
+  _↳ feedback if chosen: L’exercice ne diagnostique pas l’audition._
+- ✅ [ɛ̃] est une voyelle nasale ; [n] est une consonne nasale.
+- ◻️ Tout son nasal est une voyelle.  
+  _↳ feedback if chosen: Les consonnes nasales existent aussi._
+
+Full working after a second miss:
+
+> La nasalité n’efface pas la distinction entre voyelle et consonne.  
+> Donc la réponse est « [ɛ̃] est une voyelle nasale ; [n] est une consonne nasale. ».  
+
+> Quel mot commence par la consonne [n] dans le modèle ?
+
+- ✅ nature
+- ◻️ matin  
+  _↳ feedback if chosen: Il commence par m._
+- ◻️ vin  
+  _↳ feedback if chosen: Le mot ne commence pas par n._
+- ◻️ pain  
+  _↳ feedback if chosen: Il commence par p._
+
+Full working after a second miss:
+
+> On demande le début consonantique.  
+> Donc la réponse est « nature ».  
+
+**Practice** `fi2-119-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Vin et pain partagent ce modèle vocalique. · Pain contient a, i puis n. · Nature commence par une consonne nasale.
+- consonne [n] → **Nature commence par une consonne nasale.**
+- graphie ain → **Pain contient a, i puis n.**
+- voyelle nasale [ɛ̃] → **Vin et pain partagent ce modèle vocalique.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> consonne [n] → Nature commence par une consonne nasale.  
+> graphie ain → Pain contient a, i puis n.  
+> voyelle nasale [ɛ̃] → Vin et pain partagent ce modèle vocalique.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Nature commence par une consonne nasale. · Vin contient i puis n. · Vin et pain partagent ce modèle vocalique.
+- graphie in → **Vin contient i puis n.**
+- voyelle nasale [ɛ̃] → **Vin et pain partagent ce modèle vocalique.**
+- consonne [n] → **Nature commence par une consonne nasale.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> graphie in → Vin contient i puis n.  
+> voyelle nasale [ɛ̃] → Vin et pain partagent ce modèle vocalique.  
+> consonne [n] → Nature commence par une consonne nasale.  
+
+**Practice** `fi2-119-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ voyelle nasale [ɛ̃] : la voyelle de référence de vin et pain dans les mots isolés.  
+  _↳ explanation: Cette distinction est correcte : Le n note ici la nasalité de la voyelle. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Vin contient forcément la graphie ain.  
+  _↳ explanation: Il faut lire les lettres présentes._
+- ◻️ graphie ain : une suite de lettres illustrée dans pain.  
+  _↳ explanation: Cette distinction est correcte : La proximité de son n’efface pas l’orthographe du mot. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ consonne [n] : le son consonantique initial des modèles nature et navire.  
+  _↳ explanation: Cette distinction est correcte : La nasalité existe dans les deux catégories, qui restent distinctes. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Vin contient forcément la graphie ain. ».  
+> Il faut lire les lettres présentes.  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ consonne [n] : le son consonantique initial des modèles nature et navire.  
+  _↳ explanation: Cette distinction est correcte : La nasalité existe dans les deux catégories, qui restent distinctes. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Une consonne nasale est obligatoirement une voyelle.  
+  _↳ explanation: La nasalité existe dans les deux catégories, qui restent distinctes._
+- ◻️ graphie ain : une suite de lettres illustrée dans pain.  
+  _↳ explanation: Cette distinction est correcte : La proximité de son n’efface pas l’orthographe du mot. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ voyelle nasale [ɛ̃] : la voyelle de référence de vin et pain dans les mots isolés.  
+  _↳ explanation: Cette distinction est correcte : Le n note ici la nasalité de la voyelle. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Une consonne nasale est obligatoirement une voyelle. ».  
+> La nasalité existe dans les deux catégories, qui restent distinctes.  
 
 ## Lesson 120: Vocabulaire : Lexique lié aux correspondances (privées et officielles, demandes, requêtes)
 
-Prerequisites: none · Skill: fi2-120 (Le lexique de la correspondance)
+Prerequisites: 115, 117, 118, 119 · Skill: fi2-120 (Le lexique de la correspondance)
 
 **Note** (draft)
 
-> La correspondance est un échange de messages écrits. L’expéditeur envoie ; le destinataire reçoit. Une lettre privée s’adresse à un proche. Une lettre officielle s’adresse à une administration ou à une personne dans sa fonction. Une demande ou une requête présente clairement ce qu’on souhaite obtenir. L’objet annonce le motif de la lettre. On adapte le ton, la salutation et la formule finale au destinataire. Une adresse ou une signature ne remplace pas le contenu de la demande.
+> La correspondance relie une personne qui écrit à un destinataire. Une lettre privée à une amie et une demande officielle ne choisissent pas forcément le même ton ni les mêmes formules. L’objet annonce brièvement le sujet d’une demande. La formule d’appel ouvre le message en s’adressant au lecteur ; la signature identifie la personne qui écrit. Une requête doit être claire et respectueuse, sans coordonnées privées réelles dans un exercice. La présentation exacte d’une lettre officielle dépend de la consigne de classe.
 
-**Card c120-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Distingue qui envoie et qui reçoit.
+> À la fin, tu pourras identifier destinataire objet formule d’appel et signature pour adapter un message. Acquis mobilisés : les pronoms possessifs et les portraits. Pour la suite : les récits et les communications téléphoniques.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> La correspondance relie une personne qui écrit à un destinataire. Une lettre privée à une amie et une demande officielle ne choisissent pas forcément le même ton ni les mêmes formules. L’objet annonce brièvement le sujet d’une demande. La formule d’appel ouvre le message en s’adressant au lecteur ; la signature identifie la personne qui écrit. Une requête doit être claire et respectueuse, sans coordonnées privées réelles dans un exercice. La présentation exacte d’une lettre officielle dépend de la consigne de classe.
+
+**Learn: Lire le modèle original** (draft)
+
+> Modèles fictifs : « Chère Amina » ouvre une lettre amicale ; « Madame la responsable du club » peut ouvrir une demande adaptée à ce rôle. Objet : demande de consultation d’un livre. Le message explique la demande puis se termine par une formule respectueuse et une signature inventée. Il ne prétend pas constituer un document administratif réel.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Repère qui écrit, à qui et pourquoi. Choisis un ton compatible avec cette relation. Vérifie que l’objet, l’appel et la signature jouent chacun leur rôle ; ne remplace pas le contenu de la demande par une seule formule.
+
+**Learn: key words and examples** (draft)
+
+- **destinataire**: la personne ou l’organisme auquel le message est adressé
+- **objet**: le sujet résumé de la demande
+- **formule d’appel**: l’ouverture adressée au lecteur
+- **signature**: l’identification finale de la personne qui écrit
+
+
+Common mistake: “Le destinataire est toujours le nom de la personne qui écrit.” → “la personne ou l’organisme auquel le message est adressé.”. Il faut distinguer émission et réception du message.
+
+**Card fi2-120-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _Bih écrit à Nji : Bih est expéditrice et Nji destinataire._  
+> _destinataire : la personne ou l’organisme auquel le message est adressé._  
+> _objet : le sujet résumé de la demande._  
+> _formule d’appel : l’ouverture adressée au lecteur._  
+> _signature : l’identification finale de la personne qui écrit._  
 
-Check question: `fi2-120-etape-1` · multiple choice, level 1 · **authored key**, reused from practice
+Check question: `fi2-120-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Qui est l’expéditeur d’une lettre ?
+> Quel terme désigne l’identification finale de la personne qui écrit ?
 
-- ◻️ La personne qui la reçoit seulement.  
-  _↳ feedback if chosen: Expédier signifie envoyer._
-- ✅ La personne qui l’envoie.
-- ◻️ Le meuble qui la porte.  
-  _↳ feedback if chosen: Expédier signifie envoyer._
+- ◻️ destinataire  
+  _↳ feedback if chosen: Cela désigne la personne ou l’organisme auquel le message est adressé, plutôt que la notion demandée._
+- ◻️ formule d’appel  
+  _↳ feedback if chosen: Cela désigne l’ouverture adressée au lecteur, plutôt que la notion demandée._
+- ◻️ objet  
+  _↳ feedback if chosen: Cela désigne le sujet résumé de la demande, plutôt que la notion demandée._
+- ✅ signature
 
 Full working after a second miss:
 
-> Expédier signifie envoyer.  
-> La réponse est : La personne qui l’envoie..  
+> Elle identifie l’auteur mais ne remplace pas le message.  
+> Donc la réponse est « signature ».  
 
-**Card c120-2** (draft)
+**Card fi2-120-c2** (draft)
 
-> L’objet annonce le motif d’une lettre officielle.
+> Lis le contexte avant de nommer la notion.
 >
-> _Objet : demande d’autorisation._  
+> _La responsable du club reçoit la demande fictive._  
+> _Demande de consultation d’un livre annonce le motif._  
+> _Chère Amina ouvre une lettre amicale._  
+> _Le modèle se termine par le nom fictif Bih._  
 
-Check question: `fi2-120-etape-2-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-120-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Quel objet convient pour utiliser la salle du club ?
+> La responsable du club reçoit la demande fictive.
+> Quelle notion convient ?
 
-- ✅ Demande d’autorisation d’utiliser la salle.
-- ◻️ Bonjour mon ami !  
-  _↳ feedback if chosen: L’objet résume précisément ce qui est demandé._
-- ◻️ La salle est très jolie.  
-  _↳ feedback if chosen: L’objet résume précisément ce qui est demandé._
+- ✅ destinataire
+- ◻️ formule d’appel  
+  _↳ feedback if chosen: Cela concerne l’ouverture adressée au lecteur. Compare cette définition avec le cas présenté._
+- ◻️ signature  
+  _↳ feedback if chosen: Cela concerne l’identification finale de la personne qui écrit. Compare cette définition avec le cas présenté._
+- ◻️ objet  
+  _↳ feedback if chosen: Cela concerne le sujet résumé de la demande. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> L’objet résume précisément ce qui est demandé.  
-> La réponse est : Demande d’autorisation d’utiliser la salle..  
+> Il faut distinguer émission et réception du message.  
+> Donc la réponse est « destinataire ».  
 
-**Card c120-3** (draft)
+**Card fi2-120-c3** (draft)
 
-> Une demande doit être claire et polie.
+> Corrige sans changer le sens voulu.
 >
-> _Je sollicite l’autorisation d’utiliser la salle pour une réunion._  
+> _Le destinataire est toujours le nom de la personne qui écrit. Correction : Il faut distinguer émission et réception du message._  
+> _Objet désigne forcément un appareil matériel dans une lettre. Correction : Il signifie ici le thème ou motif du message._  
+> _La formule d’appel est uniquement le dernier nom signé. Correction : L’appel ouvre la relation avec le lecteur._  
+> _Une signature suffit à expliquer une demande absente. Correction : Elle identifie l’auteur mais ne remplace pas le message._  
 
-Check question: `fi2-120-etape-3-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-120-corriger-card` · spot the error, level 1 · **authored key**
 
-> Quelle formulation convient dans une demande officielle ?
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ◻️ Donne-moi la salle, tout de suite !  
-  _↳ feedback if chosen: La demande précise son objet et garde un ton respectueux._
-- ✅ Je sollicite l’autorisation d’utiliser la salle du club.
-- ◻️ Tu sais bien ce que je veux.  
-  _↳ feedback if chosen: La demande précise son objet et garde un ton respectueux._
+- ◻️ signature : l’identification finale de la personne qui écrit.  
+  _↳ explanation: Cette distinction est correcte : Elle identifie l’auteur mais ne remplace pas le message. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ destinataire : la personne ou l’organisme auquel le message est adressé.  
+  _↳ explanation: Cette distinction est correcte : Il faut distinguer émission et réception du message. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ La formule d’appel est uniquement le dernier nom signé.  
+  _↳ explanation: L’appel ouvre la relation avec le lecteur._
+- ◻️ formule d’appel : l’ouverture adressée au lecteur.  
+  _↳ explanation: Cette distinction est correcte : L’appel ouvre la relation avec le lecteur. Cherche plutôt une phrase qui contredit le sens ou la règle._
 
 Full working after a second miss:
 
-> La demande précise son objet et garde un ton respectueux.  
-> La réponse est : Je sollicite l’autorisation d’utiliser la salle du club..  
+> La phrase fausse est « La formule d’appel est uniquement le dernier nom signé. ».  
+> L’appel ouvre la relation avec le lecteur.  
 
 **Worked example** (draft)
 
-> Quel objet convient pour utiliser la salle du club ?
+> La responsable du club reçoit la demande fictive. Explique le choix.
 
-1. L’objet annonce le motif d’une lettre officielle.
-2. L’objet résume précisément ce qui est demandé.
+1. la personne ou l’organisme auquel le message est adressé.
+2. Il faut distinguer émission et réception du message.
 
-**Answer:** Demande d’autorisation d’utiliser la salle.
+**Answer:** destinataire
 
-**Practice** `fi2-120-etape-1` · multiple choice, level 1 · **authored key**
+**Practice** `fi2-120-notions` · multiple choice, level 1 · **authored key**
 
-> Qui est le destinataire ?
+> Quel terme désigne la personne ou l’organisme auquel le message est adressé ?
 
-- ◻️ La couleur de l’enveloppe.  
-  _↳ feedback if chosen: Le destinataire est celui à qui l’on écrit._
-- ✅ La personne à qui le message est adressé.
-- ◻️ La personne qui vend le papier.  
-  _↳ feedback if chosen: Le destinataire est celui à qui l’on écrit._
-
-Full working after a second miss:
-
-> Le destinataire est celui à qui l’on écrit.  
-> La réponse est : La personne à qui le message est adressé..  
-
-> Qui est le destinataire ?
-
-- ◻️ La personne qui vend le papier.  
-  _↳ feedback if chosen: Le destinataire est celui à qui l’on écrit._
-- ◻️ La couleur de l’enveloppe.  
-  _↳ feedback if chosen: Le destinataire est celui à qui l’on écrit._
-- ✅ La personne à qui le message est adressé.
+- ✅ destinataire
+- ◻️ formule d’appel  
+  _↳ feedback if chosen: Cela désigne l’ouverture adressée au lecteur, plutôt que la notion demandée._
+- ◻️ objet  
+  _↳ feedback if chosen: Cela désigne le sujet résumé de la demande, plutôt que la notion demandée._
+- ◻️ signature  
+  _↳ feedback if chosen: Cela désigne l’identification finale de la personne qui écrit, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le destinataire est celui à qui l’on écrit.  
-> La réponse est : La personne à qui le message est adressé..  
+> Il faut distinguer émission et réception du message.  
+> Donc la réponse est « destinataire ».  
 
-**Practice** `fi2-120-etape-2` · multiple choice, level 2 · **authored key**
+> Quel terme désigne l’ouverture adressée au lecteur ?
 
-> Quel objet convient pour utiliser la salle du club ?
-
-- ✅ Demande d’autorisation d’utiliser la salle.
-- ◻️ La salle est très jolie.  
-  _↳ feedback if chosen: L’objet résume précisément ce qui est demandé._
-- ◻️ Bonjour mon ami !  
-  _↳ feedback if chosen: L’objet résume précisément ce qui est demandé._
-
-Full working after a second miss:
-
-> L’objet résume précisément ce qui est demandé.  
-> La réponse est : Demande d’autorisation d’utiliser la salle..  
-
-> Quel objet convient pour utiliser la salle du club ?
-
-- ✅ Demande d’autorisation d’utiliser la salle.
-- ◻️ Bonjour mon ami !  
-  _↳ feedback if chosen: L’objet résume précisément ce qui est demandé._
-- ◻️ La salle est très jolie.  
-  _↳ feedback if chosen: L’objet résume précisément ce qui est demandé._
+- ◻️ signature  
+  _↳ feedback if chosen: Cela désigne l’identification finale de la personne qui écrit, plutôt que la notion demandée._
+- ◻️ destinataire  
+  _↳ feedback if chosen: Cela désigne la personne ou l’organisme auquel le message est adressé, plutôt que la notion demandée._
+- ◻️ objet  
+  _↳ feedback if chosen: Cela désigne le sujet résumé de la demande, plutôt que la notion demandée._
+- ✅ formule d’appel
 
 Full working after a second miss:
 
-> L’objet résume précisément ce qui est demandé.  
-> La réponse est : Demande d’autorisation d’utiliser la salle..  
+> L’appel ouvre la relation avec le lecteur.  
+> Donc la réponse est « formule d’appel ».  
 
-**Practice** `fi2-120-etape-3` · multiple choice, level 3 · **authored key**
+**Practice** `fi2-120-cas` · multiple choice, level 1 · **authored key**
 
-> Quelle formulation convient dans une demande officielle ?
+> La responsable du club reçoit la demande fictive.
+> Quelle notion convient ?
 
-- ✅ Je sollicite l’autorisation d’utiliser la salle du club.
-- ◻️ Tu sais bien ce que je veux.  
-  _↳ feedback if chosen: La demande précise son objet et garde un ton respectueux._
-- ◻️ Donne-moi la salle, tout de suite !  
-  _↳ feedback if chosen: La demande précise son objet et garde un ton respectueux._
-
-Full working after a second miss:
-
-> La demande précise son objet et garde un ton respectueux.  
-> La réponse est : Je sollicite l’autorisation d’utiliser la salle du club..  
-
-> Quelle formulation convient dans une demande officielle ?
-
-- ✅ Je sollicite l’autorisation d’utiliser la salle du club.
-- ◻️ Tu sais bien ce que je veux.  
-  _↳ feedback if chosen: La demande précise son objet et garde un ton respectueux._
-- ◻️ Donne-moi la salle, tout de suite !  
-  _↳ feedback if chosen: La demande précise son objet et garde un ton respectueux._
+- ✅ destinataire
+- ◻️ objet  
+  _↳ feedback if chosen: Cela concerne le sujet résumé de la demande. Compare cette définition avec le cas présenté._
+- ◻️ formule d’appel  
+  _↳ feedback if chosen: Cela concerne l’ouverture adressée au lecteur. Compare cette définition avec le cas présenté._
+- ◻️ signature  
+  _↳ feedback if chosen: Cela concerne l’identification finale de la personne qui écrit. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> La demande précise son objet et garde un ton respectueux.  
-> La réponse est : Je sollicite l’autorisation d’utiliser la salle du club..  
+> Il faut distinguer émission et réception du message.  
+> Donc la réponse est « destinataire ».  
+
+> Chère Amina ouvre une lettre amicale.
+> Quelle notion convient ?
+
+- ◻️ destinataire  
+  _↳ feedback if chosen: Cela concerne la personne ou l’organisme auquel le message est adressé. Compare cette définition avec le cas présenté._
+- ✅ formule d’appel
+- ◻️ objet  
+  _↳ feedback if chosen: Cela concerne le sujet résumé de la demande. Compare cette définition avec le cas présenté._
+- ◻️ signature  
+  _↳ feedback if chosen: Cela concerne l’identification finale de la personne qui écrit. Compare cette définition avec le cas présenté._
+
+Full working after a second miss:
+
+> L’appel ouvre la relation avec le lecteur.  
+> Donc la réponse est « formule d’appel ».  
+
+**Practice** `fi2-120-contexte` · multiple choice, level 2 · **authored key**
+
+> Une ligne résume la demande de consultation : quel élément est-ce ?
+
+- ◻️ destinataire  
+  _↳ feedback if chosen: Ce terme désigne la personne ou l’organisme auquel le message est adressé ; ce n’est pas l’action ou le rôle décrit._
+- ◻️ signature  
+  _↳ feedback if chosen: Ce terme désigne l’identification finale de la personne qui écrit ; ce n’est pas l’action ou le rôle décrit._
+- ◻️ formule d’appel  
+  _↳ feedback if chosen: Ce terme désigne l’ouverture adressée au lecteur ; ce n’est pas l’action ou le rôle décrit._
+- ✅ objet
+
+Full working after a second miss:
+
+> Il signifie ici le thème ou motif du message.  
+> Donc la réponse est « objet ».  
+
+> On demande à qui la lettre est adressée : quel rôle cherche-t-on ?
+
+- ✅ destinataire
+- ◻️ formule d’appel  
+  _↳ feedback if chosen: Ce terme désigne l’ouverture adressée au lecteur ; ce n’est pas l’action ou le rôle décrit._
+- ◻️ objet  
+  _↳ feedback if chosen: Ce terme désigne le sujet résumé de la demande ; ce n’est pas l’action ou le rôle décrit._
+- ◻️ signature  
+  _↳ feedback if chosen: Ce terme désigne l’identification finale de la personne qui écrit ; ce n’est pas l’action ou le rôle décrit._
+
+Full working after a second miss:
+
+> Il faut distinguer émission et réception du message.  
+> Donc la réponse est « destinataire ».  
+
+**Practice** `fi2-120-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Le modèle se termine par le nom fictif Bih. · Chère Amina ouvre une lettre amicale. · La responsable du club reçoit la demande fictive.
+- destinataire → **La responsable du club reçoit la demande fictive.**
+- formule d’appel → **Chère Amina ouvre une lettre amicale.**
+- signature → **Le modèle se termine par le nom fictif Bih.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> destinataire → La responsable du club reçoit la demande fictive.  
+> formule d’appel → Chère Amina ouvre une lettre amicale.  
+> signature → Le modèle se termine par le nom fictif Bih.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Le modèle se termine par le nom fictif Bih. · Chère Amina ouvre une lettre amicale. · La responsable du club reçoit la demande fictive.
+- formule d’appel → **Chère Amina ouvre une lettre amicale.**
+- destinataire → **La responsable du club reçoit la demande fictive.**
+- signature → **Le modèle se termine par le nom fictif Bih.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> formule d’appel → Chère Amina ouvre une lettre amicale.  
+> destinataire → La responsable du club reçoit la demande fictive.  
+> signature → Le modèle se termine par le nom fictif Bih.  
+
+**Practice** `fi2-120-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ destinataire : la personne ou l’organisme auquel le message est adressé.  
+  _↳ explanation: Cette distinction est correcte : Il faut distinguer émission et réception du message. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Une signature suffit à expliquer une demande absente.  
+  _↳ explanation: Elle identifie l’auteur mais ne remplace pas le message._
+- ◻️ objet : le sujet résumé de la demande.  
+  _↳ explanation: Cette distinction est correcte : Il signifie ici le thème ou motif du message. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ signature : l’identification finale de la personne qui écrit.  
+  _↳ explanation: Cette distinction est correcte : Elle identifie l’auteur mais ne remplace pas le message. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Une signature suffit à expliquer une demande absente. ».  
+> Elle identifie l’auteur mais ne remplace pas le message.  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ objet : le sujet résumé de la demande.  
+  _↳ explanation: Cette distinction est correcte : Il signifie ici le thème ou motif du message. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ formule d’appel : l’ouverture adressée au lecteur.  
+  _↳ explanation: Cette distinction est correcte : L’appel ouvre la relation avec le lecteur. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Une signature suffit à expliquer une demande absente.  
+  _↳ explanation: Elle identifie l’auteur mais ne remplace pas le message._
+- ◻️ signature : l’identification finale de la personne qui écrit.  
+  _↳ explanation: Cette distinction est correcte : Elle identifie l’auteur mais ne remplace pas le message. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Une signature suffit à expliquer une demande absente. ».  
+> Elle identifie l’auteur mais ne remplace pas le message.  
 
 ## Lesson 121: Expression orale : Interprétation d’images
 
-Prerequisites: none · Skill: fi2-121 (Préparer l’interprétation d’une image)
+Prerequisites: 107, 115, 120 · Skill: fi2-121 (Interpréter des images : préparation écrite)
 
 **Note** (draft)
 
-> Interpréter une image consiste à distinguer la description visible, le message possible et son avis. On présente le document, décrit les éléments et leur place, puis on justifie une interprétation. Un détail isolé ne prouve pas tout.
-> Préparation sans photographie : imagine la scène décrite dans les questions. Le professeur pourra ensuite utiliser une vraie image. L’application ne peut pas entendre ni noter la présentation orale.
+> Une image montre des éléments observables : formes, objets, textes et flèches. Une interprétation explique ce qu’ils peuvent suggérer, mais elle ne doit pas ajouter une identité, une conversation ou un résultat absent. Une flèche peut indiquer une direction si la légende et le contexte le permettent. Un point d’interrogation peut annoncer une demande sans donner sa réponse. Les scènes sont des dessins originaux de classe, pas des captures de comptes réels. La préparation écrite ne mesure aucune description réellement prononcée.
 
-**Card c121-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Commence par les éléments décrits, sans inventer.
+> À la fin, tu pourras décrire un indice visible puis proposer une interprétation limitée et justifiée. Acquis mobilisés : les médias, les audiences et les destinataires. Pour la suite : la narration et l’écrit à partir d’images.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> Une image montre des éléments observables : formes, objets, textes et flèches. Une interprétation explique ce qu’ils peuvent suggérer, mais elle ne doit pas ajouter une identité, une conversation ou un résultat absent. Une flèche peut indiquer une direction si la légende et le contexte le permettent. Un point d’interrogation peut annoncer une demande sans donner sa réponse. Les scènes sont des dessins originaux de classe, pas des captures de comptes réels. La préparation écrite ne mesure aucune description réellement prononcée.
+
+**Learn: Lire le modèle original** (draft)
+
+> Modèle original : Je vois un bulletin et les mots source à vérifier. Je peux proposer que le club doit examiner l’origine de l’information. Je ne peux pas conclure que cette vérification a déjà réussi. Je distingue l’indice écrit de la conclusion que j’en tire.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Commence par je vois puis justifie une lecture avec parce que et un indice. Demande ce qui manque avant d’affirmer une identité ou un résultat. Pratique ensuite une description orale réelle si un partenaire est disponible.
+
+**Learn: key words and examples** (draft)
+
+- **observation**: un élément réellement visible dans l’image
+- **interprétation**: un sens proposé à partir d’un indice
+- **direction représentée**: le lien montré ici par une flèche
+- **limite de l’image**: une donnée que le dessin ne fournit pas
+
+
+Common mistake: “Observer signifie inventer le nom des personnes absentes.” → “un élément réellement visible dans l’image.”. Les informations absentes ne sont pas observables.
+
+**Card fi2-121-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _Au premier plan, une élève montre une affiche._  
+> _observation : un élément réellement visible dans l’image._  
+> _interprétation : un sens proposé à partir d’un indice._  
+> _direction représentée : le lien montré ici par une flèche._  
+> _limite de l’image : une donnée que le dessin ne fournit pas._  
 
-Check question: `fi2-121-etape-1` · multiple choice, level 1 · **authored key**, reused from practice
+Check question: `fi2-121-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Scène décrite : un garçon trie du papier près d’une poubelle. Quelle phrase décrit la scène ?
+> Quel terme désigne une donnée que le dessin ne fournit pas ?
 
-- ◻️ Il est certainement riche.  
-  _↳ feedback if chosen: Le tri du papier est annoncé ; les autres informations sont inventées._
-- ◻️ Il a forcément gagné un concours.  
-  _↳ feedback if chosen: Le tri du papier est annoncé ; les autres informations sont inventées._
-- ✅ Un garçon trie du papier.
+- ◻️ direction représentée  
+  _↳ feedback if chosen: Cela désigne le lien montré ici par une flèche, plutôt que la notion demandée._
+- ◻️ interprétation  
+  _↳ feedback if chosen: Cela désigne un sens proposé à partir d’un indice, plutôt que la notion demandée._
+- ✅ limite de l’image
+- ◻️ observation  
+  _↳ feedback if chosen: Cela désigne un élément réellement visible dans l’image, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le tri du papier est annoncé ; les autres informations sont inventées.  
-> La réponse est : Un garçon trie du papier..  
+> Un support écrit ne fournit pas cet enregistrement.  
+> Donc la réponse est « limite de l’image ».  
 
-**Card c121-2** (draft)
+**Card fi2-121-c2** (draft)
 
-> Une interprétation s’appuie sur plusieurs indices.
+> Lis le contexte avant de nommer la notion.
 >
-> _Une affiche de propreté et une action de nettoyage peuvent suggérer un appel à agir._  
+> _Le titre Bulletin du club est dessiné._  
+> _Source à vérifier suggère un examen encore nécessaire._  
+> _La flèche du message va de Bih vers le club._  
+> _Une question dessinée ne donne pas sa réponse._  
 
-Check question: `fi2-121-etape-2-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-121-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Scène : une affiche demande de vérifier les sources et un élève compare des articles. Quel message est soutenu ?
+> Source à vérifier suggère un examen encore nécessaire.
+> Quelle notion convient ?
 
-- ◻️ Jeter tous les journaux.  
-  _↳ feedback if chosen: Le texte de l’affiche et la comparaison soutiennent la vérification._
-- ◻️ Croire chaque titre sans lire.  
-  _↳ feedback if chosen: Le texte de l’affiche et la comparaison soutiennent la vérification._
-- ✅ Vérifier une information avant de la partager.
+- ✅ interprétation
+- ◻️ observation  
+  _↳ feedback if chosen: Cela concerne un élément réellement visible dans l’image. Compare cette définition avec le cas présenté._
+- ◻️ direction représentée  
+  _↳ feedback if chosen: Cela concerne le lien montré ici par une flèche. Compare cette définition avec le cas présenté._
+- ◻️ limite de l’image  
+  _↳ feedback if chosen: Cela concerne une donnée que le dessin ne fournit pas. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Le texte de l’affiche et la comparaison soutiennent la vérification.  
-> La réponse est : Vérifier une information avant de la partager..  
+> Elle doit rester justifiée et proportionnée.  
+> Donc la réponse est « interprétation ».  
 
-**Card c121-3** (draft)
+**Card fi2-121-c3** (draft)
 
-> Signale clairement ton avis et les limites de ce que tu sais.
+> Corrige sans changer le sens voulu.
 >
-> _À mon avis, cette affiche invite à agir._  
+> _Observer signifie inventer le nom des personnes absentes. Correction : Les informations absentes ne sont pas observables._  
+> _Toute interprétation devient automatiquement un fait certain. Correction : Elle doit rester justifiée et proportionnée._  
+> _Une flèche prouve tous les messages déjà reçus. Correction : Elle montre ici un trajet prévu, pas tout un historique._  
+> _L’image permet d’entendre une conversation exacte. Correction : Un support écrit ne fournit pas cet enregistrement._  
 
-Check question: `fi2-121-etape-3-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-121-corriger-card` · spot the error, level 1 · **authored key**
 
-> Si l’image ne donne pas la date, que faire ?
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ✅ Dire que la date n’est pas indiquée.
-- ◻️ Inventer une date certaine.  
-  _↳ feedback if chosen: On distingue ce que l’on sait de ce qui n’est pas fourni._
-- ◻️ Confondre la date avec la couleur.  
-  _↳ feedback if chosen: On distingue ce que l’on sait de ce qui n’est pas fourni._
+- ◻️ limite de l’image : une donnée que le dessin ne fournit pas.  
+  _↳ explanation: Cette distinction est correcte : Un support écrit ne fournit pas cet enregistrement. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ observation : un élément réellement visible dans l’image.  
+  _↳ explanation: Cette distinction est correcte : Les informations absentes ne sont pas observables. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ interprétation : un sens proposé à partir d’un indice.  
+  _↳ explanation: Cette distinction est correcte : Elle doit rester justifiée et proportionnée. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Toute interprétation devient automatiquement un fait certain.  
+  _↳ explanation: Elle doit rester justifiée et proportionnée._
 
 Full working after a second miss:
 
-> On distingue ce que l’on sait de ce qui n’est pas fourni.  
-> La réponse est : Dire que la date n’est pas indiquée..  
+> La phrase fausse est « Toute interprétation devient automatiquement un fait certain. ».  
+> Elle doit rester justifiée et proportionnée.  
 
 **Worked example** (draft)
 
-> Scène : des élèves ramassent du papier sous une affiche Gardons notre cour propre. Quel message est soutenu ?
+> Le titre Bulletin du club est dessiné. Explique le choix.
 
-1. Une interprétation s’appuie sur plusieurs indices.
-2. L’affiche et l’action convergent vers la propreté.
+1. un élément réellement visible dans l’image.
+2. Les informations absentes ne sont pas observables.
 
-**Answer:** Participer à la propreté de la cour.
+**Answer:** observation
 
-**Practice** `fi2-121-etape-1` · multiple choice, level 1 · **authored key**
+**Practice** `fi2-121-notions` · multiple choice, level 1 · **authored key**
 
-> Scène décrite : une élève montre une affiche devant un groupe. Quelle phrase décrit ce qui est annoncé ?
+> Quel terme désigne une donnée que le dessin ne fournit pas ?
 
-- ✅ Une élève montre une affiche.
-- ◻️ Tout le monde connaît son âge.  
-  _↳ feedback if chosen: Seule la première phrase reprend un élément donné._
-- ◻️ Elle est forcément la meilleure de la classe.  
-  _↳ feedback if chosen: Seule la première phrase reprend un élément donné._
-
-Full working after a second miss:
-
-> Seule la première phrase reprend un élément donné.  
-> La réponse est : Une élève montre une affiche..  
-
-> Scène décrite : un garçon trie du papier près d’une poubelle. Quelle phrase décrit la scène ?
-
-- ◻️ Il est certainement riche.  
-  _↳ feedback if chosen: Le tri du papier est annoncé ; les autres informations sont inventées._
-- ◻️ Il a forcément gagné un concours.  
-  _↳ feedback if chosen: Le tri du papier est annoncé ; les autres informations sont inventées._
-- ✅ Un garçon trie du papier.
+- ◻️ direction représentée  
+  _↳ feedback if chosen: Cela désigne le lien montré ici par une flèche, plutôt que la notion demandée._
+- ✅ limite de l’image
+- ◻️ interprétation  
+  _↳ feedback if chosen: Cela désigne un sens proposé à partir d’un indice, plutôt que la notion demandée._
+- ◻️ observation  
+  _↳ feedback if chosen: Cela désigne un élément réellement visible dans l’image, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le tri du papier est annoncé ; les autres informations sont inventées.  
-> La réponse est : Un garçon trie du papier..  
+> Un support écrit ne fournit pas cet enregistrement.  
+> Donc la réponse est « limite de l’image ».  
 
-**Practice** `fi2-121-etape-2` · multiple choice, level 2 · **authored key**
+> Quel terme désigne un sens proposé à partir d’un indice ?
 
-> Scène : une affiche demande de vérifier les sources et un élève compare des articles. Quel message est soutenu ?
-
-- ◻️ Jeter tous les journaux.  
-  _↳ feedback if chosen: Le texte de l’affiche et la comparaison soutiennent la vérification._
-- ◻️ Croire chaque titre sans lire.  
-  _↳ feedback if chosen: Le texte de l’affiche et la comparaison soutiennent la vérification._
-- ✅ Vérifier une information avant de la partager.
-
-Full working after a second miss:
-
-> Le texte de l’affiche et la comparaison soutiennent la vérification.  
-> La réponse est : Vérifier une information avant de la partager..  
-
-> Scène : des élèves ramassent du papier sous une affiche Gardons notre cour propre. Quel message est soutenu ?
-
-- ✅ Participer à la propreté de la cour.
-- ◻️ Interdire tous les cahiers.  
-  _↳ feedback if chosen: L’affiche et l’action convergent vers la propreté._
-- ◻️ Quitter l’école définitivement.  
-  _↳ feedback if chosen: L’affiche et l’action convergent vers la propreté._
+- ✅ interprétation
+- ◻️ limite de l’image  
+  _↳ feedback if chosen: Cela désigne une donnée que le dessin ne fournit pas, plutôt que la notion demandée._
+- ◻️ observation  
+  _↳ feedback if chosen: Cela désigne un élément réellement visible dans l’image, plutôt que la notion demandée._
+- ◻️ direction représentée  
+  _↳ feedback if chosen: Cela désigne le lien montré ici par une flèche, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> L’affiche et l’action convergent vers la propreté.  
-> La réponse est : Participer à la propreté de la cour..  
+> Elle doit rester justifiée et proportionnée.  
+> Donc la réponse est « interprétation ».  
 
-**Practice** `fi2-121-etape-3` · multiple choice, level 3 · **authored key**
+**Practice** `fi2-121-cas` · multiple choice, level 1 · **authored key**
 
-> Quelle phrase signale un avis ?
+> Le titre Bulletin du club est dessiné.
+> Quelle notion convient ?
 
-- ◻️ L’affiche contient un titre.  
-  _↳ feedback if chosen: À mon avis annonce un jugement personnel._
-- ◻️ Un élève est au premier plan.  
-  _↳ feedback if chosen: À mon avis annonce un jugement personnel._
-- ✅ À mon avis, cette affiche est convaincante.
-
-Full working after a second miss:
-
-> À mon avis annonce un jugement personnel.  
-> La réponse est : À mon avis, cette affiche est convaincante..  
-
-> Si l’image ne donne pas la date, que faire ?
-
-- ◻️ Confondre la date avec la couleur.  
-  _↳ feedback if chosen: On distingue ce que l’on sait de ce qui n’est pas fourni._
-- ◻️ Inventer une date certaine.  
-  _↳ feedback if chosen: On distingue ce que l’on sait de ce qui n’est pas fourni._
-- ✅ Dire que la date n’est pas indiquée.
+- ◻️ direction représentée  
+  _↳ feedback if chosen: Cela concerne le lien montré ici par une flèche. Compare cette définition avec le cas présenté._
+- ◻️ interprétation  
+  _↳ feedback if chosen: Cela concerne un sens proposé à partir d’un indice. Compare cette définition avec le cas présenté._
+- ✅ observation
+- ◻️ limite de l’image  
+  _↳ feedback if chosen: Cela concerne une donnée que le dessin ne fournit pas. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> On distingue ce que l’on sait de ce qui n’est pas fourni.  
-> La réponse est : Dire que la date n’est pas indiquée..  
+> Les informations absentes ne sont pas observables.  
+> Donc la réponse est « observation ».  
+
+> Source à vérifier suggère un examen encore nécessaire.
+> Quelle notion convient ?
+
+- ◻️ observation  
+  _↳ feedback if chosen: Cela concerne un élément réellement visible dans l’image. Compare cette définition avec le cas présenté._
+- ◻️ direction représentée  
+  _↳ feedback if chosen: Cela concerne le lien montré ici par une flèche. Compare cette définition avec le cas présenté._
+- ◻️ limite de l’image  
+  _↳ feedback if chosen: Cela concerne une donnée que le dessin ne fournit pas. Compare cette définition avec le cas présenté._
+- ✅ interprétation
+
+Full working after a second miss:
+
+> Elle doit rester justifiée et proportionnée.  
+> Donc la réponse est « interprétation ».  
+
+**Practice** `fi2-121-image` · multiple choice, level 2 · **authored key**
+
+> Quelle relation est montrée par la flèche ?
+
+![drawing](figures/fi2-121-image-1.svg)
+
+- ◻️ Le message est déjà publié pour tout le monde.  
+  _↳ feedback if chosen: Le statut projet ne prouve pas cette publication._
+- ✅ Un projet de message va de Bih vers le club.
+- ◻️ La flèche donne un numéro privé.  
+  _↳ feedback if chosen: Aucun numéro n’est fourni._
+- ◻️ Le club envoie forcément une réponse déjà lue.  
+  _↳ feedback if chosen: Aucune réponse n’est dessinée._
+
+Full working after a second miss:
+
+> Direction et statut sont visibles.  
+> Donc la réponse est « Un projet de message va de Bih vers le club. ».  
+
+> Quel énoncé respecte l’image du bulletin ?
+
+![drawing](figures/fi2-121-image-2.svg)
+
+- ✅ Un bulletin porte une indication de source à vérifier.
+- ◻️ La date et le nom de l’auteur sont tous fournis.  
+  _↳ feedback if chosen: Ces renseignements ne sont pas tous visibles._
+- ◻️ On entend un enregistrement complet.  
+  _↳ feedback if chosen: Le support est une image sans son._
+- ◻️ Toute information est déjà certifiée vraie.  
+  _↳ feedback if chosen: L’indication demande précisément une vérification._
+
+Full working after a second miss:
+
+> Relève le texte visible sans inventer le résultat.  
+> Donc la réponse est « Un bulletin porte une indication de source à vérifier. ».  
+
+**Practice** `fi2-121-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Source à vérifier suggère un examen encore nécessaire. · Le titre Bulletin du club est dessiné. · Une question dessinée ne donne pas sa réponse.
+- limite de l’image → **Une question dessinée ne donne pas sa réponse.**
+- interprétation → **Source à vérifier suggère un examen encore nécessaire.**
+- observation → **Le titre Bulletin du club est dessiné.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> limite de l’image → Une question dessinée ne donne pas sa réponse.  
+> interprétation → Source à vérifier suggère un examen encore nécessaire.  
+> observation → Le titre Bulletin du club est dessiné.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Le titre Bulletin du club est dessiné. · Source à vérifier suggère un examen encore nécessaire. · Une question dessinée ne donne pas sa réponse.
+- interprétation → **Source à vérifier suggère un examen encore nécessaire.**
+- observation → **Le titre Bulletin du club est dessiné.**
+- limite de l’image → **Une question dessinée ne donne pas sa réponse.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> interprétation → Source à vérifier suggère un examen encore nécessaire.  
+> observation → Le titre Bulletin du club est dessiné.  
+> limite de l’image → Une question dessinée ne donne pas sa réponse.  
+
+**Practice** `fi2-121-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ limite de l’image : une donnée que le dessin ne fournit pas.  
+  _↳ explanation: Cette distinction est correcte : Un support écrit ne fournit pas cet enregistrement. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ interprétation : un sens proposé à partir d’un indice.  
+  _↳ explanation: Cette distinction est correcte : Elle doit rester justifiée et proportionnée. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Observer signifie inventer le nom des personnes absentes.  
+  _↳ explanation: Les informations absentes ne sont pas observables._
+- ◻️ direction représentée : le lien montré ici par une flèche.  
+  _↳ explanation: Cette distinction est correcte : Elle montre ici un trajet prévu, pas tout un historique. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Observer signifie inventer le nom des personnes absentes. ».  
+> Les informations absentes ne sont pas observables.  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ limite de l’image : une donnée que le dessin ne fournit pas.  
+  _↳ explanation: Cette distinction est correcte : Un support écrit ne fournit pas cet enregistrement. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Toute interprétation devient automatiquement un fait certain.  
+  _↳ explanation: Elle doit rester justifiée et proportionnée._
+- ◻️ direction représentée : le lien montré ici par une flèche.  
+  _↳ explanation: Cette distinction est correcte : Elle montre ici un trajet prévu, pas tout un historique. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ observation : un élément réellement visible dans l’image.  
+  _↳ explanation: Cette distinction est correcte : Les informations absentes ne sont pas observables. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Toute interprétation devient automatiquement un fait certain. ».  
+> Elle doit rester justifiée et proportionnée.  
 
 ## Lesson 122: Expression écrite : Narration
 
-Prerequisites: none · Skill: fi2-122 (Écrire une narration)
+Prerequisites: 111, 113, 117, 121 · Skill: fi2-122 (Écrire une narration)
 
 **Note** (draft)
 
-> Une narration raconte des événements dans un ordre compréhensible. Présente la situation de départ, un événement qui change la situation, les actions et le dénouement. Les connecteurs un matin, soudain, ensuite et enfin guident le lecteur. Choisis un système de temps cohérent. Dans un récit au passé, l’imparfait peut décrire le cadre et le passé composé raconter les actions. Évite d’inventer plusieurs fins incompatibles. Relis la chronologie et les accords.
+> Une narration fait suivre des actions dans un cadre. Une difficulté peut modifier la situation initiale et conduire à des réactions puis une issue. Les connecteurs ensuite, pendant ce temps et enfin n’expriment pas la même relation ; choisis selon le déroulement. Le cadre peut employer l’imparfait et les événements le passé composé ou le passé simple selon la consigne. Ne change pas de personnage ou de temps au hasard. Une petite difficulté fictive suffit, sans drame privé ni manipulation dangereuse.
 
-**Card c122-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Un récit présente des événements liés.
+> À la fin, tu pourras ordonner cadre difficulté actions et issue dans un récit fictif cohérent. Acquis mobilisés : les descriptions, portraits et temps du récit. Pour la suite : la communication précise et le récit d’images.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> Une narration fait suivre des actions dans un cadre. Une difficulté peut modifier la situation initiale et conduire à des réactions puis une issue. Les connecteurs ensuite, pendant ce temps et enfin n’expriment pas la même relation ; choisis selon le déroulement. Le cadre peut employer l’imparfait et les événements le passé composé ou le passé simple selon la consigne. Ne change pas de personnage ou de temps au hasard. Une petite difficulté fictive suffit, sans drame privé ni manipulation dangereuse.
+
+**Learn: Lire le modèle original** (draft)
+
+> Modèle original : Un soir, Bih préparait une fiche dans le club imaginaire. Le titre d’une source manquait dans ses notes. Elle a demandé à Ayuk de relire le cahier avec elle. Pendant qu’il cherchait la page, elle a marqué le passage à vérifier. Enfin, ils ont retrouvé le titre et complété la fiche. Le projet est devenu plus clair sans qu’ils inventent un résultat de publication.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Prépare cadre, problème, réactions et issue. Relie les actions et garde les référents identifiables. Relis le rôle de chaque temps et vérifie que l’issue résulte des actions racontées.
+
+**Learn: key words and examples** (draft)
+
+- **cadre narratif**: les circonstances situant l’action
+- **difficulté**: le fait qui appelle une réaction dans l’histoire
+- **réaction**: une action répondant au problème
+- **issue cohérente**: l’état obtenu à la suite des actions
+
+
+Common mistake: “Le cadre est obligatoirement la note finale d’un examen.” → “les circonstances situant l’action.”. Il présente ici lieu et moment.
+
+**Card fi2-122-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _Le club préparait un bulletin quand une erreur a été découverte._  
+> _cadre narratif : les circonstances situant l’action._  
+> _difficulté : le fait qui appelle une réaction dans l’histoire._  
+> _réaction : une action répondant au problème._  
+> _issue cohérente : l’état obtenu à la suite des actions._  
 
-Check question: `fi2-122-etape-1` · multiple choice, level 1 · **authored key**, reused from practice
+Check question: `fi2-122-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Quel élément change la situation ?
+> Quel terme désigne l’état obtenu à la suite des actions ?
 
-- ◻️ Le papier est blanc depuis le début.  
-  _↳ feedback if chosen: La découverte d’une erreur crée un problème à résoudre._
-- ✅ Une erreur est découverte dans le bulletin.
-- ◻️ Le titre contient un nom.  
-  _↳ feedback if chosen: La découverte d’une erreur crée un problème à résoudre._
+- ◻️ réaction  
+  _↳ feedback if chosen: Cela désigne une action répondant au problème, plutôt que la notion demandée._
+- ✅ issue cohérente
+- ◻️ difficulté  
+  _↳ feedback if chosen: Cela désigne le fait qui appelle une réaction dans l’histoire, plutôt que la notion demandée._
+- ◻️ cadre narratif  
+  _↳ feedback if chosen: Cela désigne les circonstances situant l’action, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> La découverte d’une erreur crée un problème à résoudre.  
-> La réponse est : Une erreur est découverte dans le bulletin..  
+> Le résultat doit être relié aux actions.  
+> Donc la réponse est « issue cohérente ».  
 
-**Card c122-2** (draft)
+**Card fi2-122-c2** (draft)
 
-> Les connecteurs rendent l’ordre lisible.
+> Lis le contexte avant de nommer la notion.
 >
-> _D’abord on relit ; ensuite on corrige ; enfin on affiche._  
+> _Un soir dans le club situe le récit._  
+> _Le titre manque dans les notes._  
+> _Bih demande une relecture des notes._  
+> _Le titre retrouvé permet de compléter la fiche._  
 
-Check question: `fi2-122-etape-2-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-122-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Quelle suite est chronologique ?
+> Un soir dans le club situe le récit.
+> Quelle notion convient ?
 
-- ◻️ Conclure puis présenter un autre problème sans lien.  
-  _↳ feedback if chosen: La correction doit intervenir après la découverte et avant la diffusion corrigée._
-- ◻️ Afficher, découvrir, prétendre avoir déjà corrigé sans relire.  
-  _↳ feedback if chosen: La correction doit intervenir après la découverte et avant la diffusion corrigée._
-- ✅ Découvrir l’erreur, la corriger, afficher le bulletin.
+- ✅ cadre narratif
+- ◻️ issue cohérente  
+  _↳ feedback if chosen: Cela concerne l’état obtenu à la suite des actions. Compare cette définition avec le cas présenté._
+- ◻️ réaction  
+  _↳ feedback if chosen: Cela concerne une action répondant au problème. Compare cette définition avec le cas présenté._
+- ◻️ difficulté  
+  _↳ feedback if chosen: Cela concerne le fait qui appelle une réaction dans l’histoire. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> La correction doit intervenir après la découverte et avant la diffusion corrigée.  
-> La réponse est : Découvrir l’erreur, la corriger, afficher le bulletin..  
+> Il présente ici lieu et moment.  
+> Donc la réponse est « cadre narratif ».  
 
-**Card c122-3** (draft)
+**Card fi2-122-c3** (draft)
 
-> La fin doit répondre au problème du récit.
+> Corrige sans changer le sens voulu.
 >
-> _Le bulletin corrigé est affiché : le problème de date est résolu._  
+> _Le cadre est obligatoirement la note finale d’un examen. Correction : Il présente ici lieu et moment._  
+> _Une difficulté fictive doit toujours être une catastrophe réelle. Correction : Un manque d’information peut suffire._  
+> _La réaction doit être sans lien avec la difficulté. Correction : Elle fait avancer ici la recherche._  
+> _L’issue doit contredire sans explication toute la recherche. Correction : Le résultat doit être relié aux actions._  
 
-Check question: `fi2-122-etape-3-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-122-corriger-card` · spot the error, level 1 · **authored key**
 
-> Que faut-il vérifier à la relecture ?
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ◻️ Seulement le nombre de lignes.  
-  _↳ feedback if chosen: La chronologie et les temps rendent le récit compréhensible._
-- ◻️ Que chaque verbe change de temps au hasard.  
-  _↳ feedback if chosen: La chronologie et les temps rendent le récit compréhensible._
-- ✅ L’ordre des événements et la cohérence des temps.
+- ◻️ réaction : une action répondant au problème.  
+  _↳ explanation: Cette distinction est correcte : Elle fait avancer ici la recherche. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ L’issue doit contredire sans explication toute la recherche.  
+  _↳ explanation: Le résultat doit être relié aux actions._
+- ◻️ cadre narratif : les circonstances situant l’action.  
+  _↳ explanation: Cette distinction est correcte : Il présente ici lieu et moment. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ difficulté : le fait qui appelle une réaction dans l’histoire.  
+  _↳ explanation: Cette distinction est correcte : Un manque d’information peut suffire. Cherche plutôt une phrase qui contredit le sens ou la règle._
 
 Full working after a second miss:
 
-> La chronologie et les temps rendent le récit compréhensible.  
-> La réponse est : L’ordre des événements et la cohérence des temps..  
+> La phrase fausse est « L’issue doit contredire sans explication toute la recherche. ».  
+> Le résultat doit être relié aux actions.  
 
 **Worked example** (draft)
 
-> Quelle suite est chronologique ?
+> Un soir dans le club situe le récit. Explique le choix.
 
-1. Les connecteurs rendent l’ordre lisible.
-2. La correction doit intervenir après la découverte et avant la diffusion corrigée.
+1. les circonstances situant l’action.
+2. Il présente ici lieu et moment.
 
-**Answer:** Découvrir l’erreur, la corriger, afficher le bulletin.
+**Answer:** cadre narratif
 
 **Paper task** (draft; not marked by the app, mastery stays unknown)
 
-> Raconte comment le club de l’école a découvert puis corrigé une erreur dans son bulletin. Présente le départ, le problème, les actions et la fin.
+> Raconte une difficulté d’information résolue dans un club fictif. Situe la scène, lie les réactions et donne une issue cohérente. Aucun événement privé n’est requis.
 
 Model answer, shown after the pupil has written:
 
-> Le club préparait son bulletin. Soudain, Bih a remarqué une mauvaise date. Elle a consulté la responsable et Nji a corrigé le texte. Enfin, le groupe a affiché le bulletin relu. Les lecteurs ont reçu la bonne information.  
+> Un soir, Bih préparait une fiche dans le club imaginaire. Le titre d’une source manquait dans ses notes. Elle a demandé à Ayuk de relire le cahier avec elle. Pendant qu’il cherchait la page, elle a marqué le passage à vérifier. Enfin, ils ont retrouvé le titre et complété la fiche. Le projet est devenu plus clair sans qu’ils inventent un résultat de publication.  
 
 Self-check list:
 
-- [ ] J’ai raconté des événements dans l’ordre.
-- [ ] La fin répond au problème présenté.
-- [ ] J’ai gardé des temps cohérents.
+- [ ] Le lecteur suit cadre, difficulté, actions et issue.
+- [ ] Les connecteurs correspondent aux relations voulues.
+- [ ] Les pronoms, temps et accords restent cohérents.
 
-**Practice** `fi2-122-etape-1` · multiple choice, level 1 · **authored key**
+**Practice** `fi2-122-notions` · multiple choice, level 1 · **authored key**
 
-> Quel élément change la situation ?
+> Quel terme désigne une action répondant au problème ?
 
-- ◻️ Le titre contient un nom.  
-  _↳ feedback if chosen: La découverte d’une erreur crée un problème à résoudre._
-- ◻️ Le papier est blanc depuis le début.  
-  _↳ feedback if chosen: La découverte d’une erreur crée un problème à résoudre._
-- ✅ Une erreur est découverte dans le bulletin.
-
-Full working after a second miss:
-
-> La découverte d’une erreur crée un problème à résoudre.  
-> La réponse est : Une erreur est découverte dans le bulletin..  
-
-> Quel élément change la situation ?
-
-- ◻️ Le titre contient un nom.  
-  _↳ feedback if chosen: La découverte d’une erreur crée un problème à résoudre._
-- ✅ Une erreur est découverte dans le bulletin.
-- ◻️ Le papier est blanc depuis le début.  
-  _↳ feedback if chosen: La découverte d’une erreur crée un problème à résoudre._
+- ✅ réaction
+- ◻️ cadre narratif  
+  _↳ feedback if chosen: Cela désigne les circonstances situant l’action, plutôt que la notion demandée._
+- ◻️ issue cohérente  
+  _↳ feedback if chosen: Cela désigne l’état obtenu à la suite des actions, plutôt que la notion demandée._
+- ◻️ difficulté  
+  _↳ feedback if chosen: Cela désigne le fait qui appelle une réaction dans l’histoire, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> La découverte d’une erreur crée un problème à résoudre.  
-> La réponse est : Une erreur est découverte dans le bulletin..  
+> Elle fait avancer ici la recherche.  
+> Donc la réponse est « réaction ».  
 
-**Practice** `fi2-122-etape-2` · multiple choice, level 2 · **authored key**
+> Quel terme désigne les circonstances situant l’action ?
 
-> Quel mot annonce un événement soudain ?
-
-- ◻️ À gauche  
-  _↳ feedback if chosen: Soudain situe une rupture dans le déroulement du récit._
-- ✅ Soudain
-- ◻️ Au centre  
-  _↳ feedback if chosen: Soudain situe une rupture dans le déroulement du récit._
-
-Full working after a second miss:
-
-> Soudain situe une rupture dans le déroulement du récit.  
-> La réponse est : Soudain.  
-
-> Quel mot annonce un événement soudain ?
-
-- ◻️ Au centre  
-  _↳ feedback if chosen: Soudain situe une rupture dans le déroulement du récit._
-- ◻️ À gauche  
-  _↳ feedback if chosen: Soudain situe une rupture dans le déroulement du récit._
-- ✅ Soudain
+- ◻️ réaction  
+  _↳ feedback if chosen: Cela désigne une action répondant au problème, plutôt que la notion demandée._
+- ✅ cadre narratif
+- ◻️ issue cohérente  
+  _↳ feedback if chosen: Cela désigne l’état obtenu à la suite des actions, plutôt que la notion demandée._
+- ◻️ difficulté  
+  _↳ feedback if chosen: Cela désigne le fait qui appelle une réaction dans l’histoire, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Soudain situe une rupture dans le déroulement du récit.  
-> La réponse est : Soudain.  
+> Il présente ici lieu et moment.  
+> Donc la réponse est « cadre narratif ».  
 
-**Practice** `fi2-122-etape-3` · multiple choice, level 3 · **authored key**
+**Practice** `fi2-122-cas` · multiple choice, level 1 · **authored key**
 
-> Que faut-il vérifier à la relecture ?
+> Le titre manque dans les notes.
+> Quelle notion convient ?
 
-- ◻️ Que chaque verbe change de temps au hasard.  
-  _↳ feedback if chosen: La chronologie et les temps rendent le récit compréhensible._
-- ◻️ Seulement le nombre de lignes.  
-  _↳ feedback if chosen: La chronologie et les temps rendent le récit compréhensible._
-- ✅ L’ordre des événements et la cohérence des temps.
-
-Full working after a second miss:
-
-> La chronologie et les temps rendent le récit compréhensible.  
-> La réponse est : L’ordre des événements et la cohérence des temps..  
-
-> Que faut-il vérifier à la relecture ?
-
-- ◻️ Que chaque verbe change de temps au hasard.  
-  _↳ feedback if chosen: La chronologie et les temps rendent le récit compréhensible._
-- ✅ L’ordre des événements et la cohérence des temps.
-- ◻️ Seulement le nombre de lignes.  
-  _↳ feedback if chosen: La chronologie et les temps rendent le récit compréhensible._
+- ✅ difficulté
+- ◻️ issue cohérente  
+  _↳ feedback if chosen: Cela concerne l’état obtenu à la suite des actions. Compare cette définition avec le cas présenté._
+- ◻️ réaction  
+  _↳ feedback if chosen: Cela concerne une action répondant au problème. Compare cette définition avec le cas présenté._
+- ◻️ cadre narratif  
+  _↳ feedback if chosen: Cela concerne les circonstances situant l’action. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> La chronologie et les temps rendent le récit compréhensible.  
-> La réponse est : L’ordre des événements et la cohérence des temps..  
+> Un manque d’information peut suffire.  
+> Donc la réponse est « difficulté ».  
+
+> Le titre manque dans les notes.
+> Quelle notion convient ?
+
+- ◻️ réaction  
+  _↳ feedback if chosen: Cela concerne une action répondant au problème. Compare cette définition avec le cas présenté._
+- ✅ difficulté
+- ◻️ issue cohérente  
+  _↳ feedback if chosen: Cela concerne l’état obtenu à la suite des actions. Compare cette définition avec le cas présenté._
+- ◻️ cadre narratif  
+  _↳ feedback if chosen: Cela concerne les circonstances situant l’action. Compare cette définition avec le cas présenté._
+
+Full working after a second miss:
+
+> Un manque d’information peut suffire.  
+> Donc la réponse est « difficulté ».  
+
+**Practice** `fi2-122-construire` · word order, level 2 · **authored key**
+
+> Touche les mots dans le bon ordre.
+
+Tiles: titre · les · manque · Le · dans · notes (then “.”)
+Answer: **Le titre manque dans les notes.**
+
+Full working after a second miss:
+
+> La phrase est : Le titre manque dans les notes.  
+
+> Touche les mots dans le bon ordre.
+
+Tiles: Bih · des · relecture · notes · demande · une (then “.”)
+Answer: **Bih demande une relecture des notes.**
+
+Full working after a second miss:
+
+> La phrase est : Bih demande une relecture des notes.  
+
+**Practice** `fi2-122-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Un soir dans le club situe le récit. · Le titre retrouvé permet de compléter la fiche. · Bih demande une relecture des notes.
+- issue cohérente → **Le titre retrouvé permet de compléter la fiche.**
+- réaction → **Bih demande une relecture des notes.**
+- cadre narratif → **Un soir dans le club situe le récit.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> issue cohérente → Le titre retrouvé permet de compléter la fiche.  
+> réaction → Bih demande une relecture des notes.  
+> cadre narratif → Un soir dans le club situe le récit.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Le titre retrouvé permet de compléter la fiche. · Le titre manque dans les notes. · Bih demande une relecture des notes.
+- réaction → **Bih demande une relecture des notes.**
+- difficulté → **Le titre manque dans les notes.**
+- issue cohérente → **Le titre retrouvé permet de compléter la fiche.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> réaction → Bih demande une relecture des notes.  
+> difficulté → Le titre manque dans les notes.  
+> issue cohérente → Le titre retrouvé permet de compléter la fiche.  
+
+**Practice** `fi2-122-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ cadre narratif : les circonstances situant l’action.  
+  _↳ explanation: Cette distinction est correcte : Il présente ici lieu et moment. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ L’issue doit contredire sans explication toute la recherche.  
+  _↳ explanation: Le résultat doit être relié aux actions._
+- ◻️ réaction : une action répondant au problème.  
+  _↳ explanation: Cette distinction est correcte : Elle fait avancer ici la recherche. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ difficulté : le fait qui appelle une réaction dans l’histoire.  
+  _↳ explanation: Cette distinction est correcte : Un manque d’information peut suffire. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « L’issue doit contredire sans explication toute la recherche. ».  
+> Le résultat doit être relié aux actions.  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ✅ La réaction doit être sans lien avec la difficulté.  
+  _↳ explanation: Elle fait avancer ici la recherche._
+- ◻️ réaction : une action répondant au problème.  
+  _↳ explanation: Cette distinction est correcte : Elle fait avancer ici la recherche. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ cadre narratif : les circonstances situant l’action.  
+  _↳ explanation: Cette distinction est correcte : Il présente ici lieu et moment. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ issue cohérente : l’état obtenu à la suite des actions.  
+  _↳ explanation: Cette distinction est correcte : Le résultat doit être relié aux actions. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « La réaction doit être sans lien avec la difficulté. ».  
+> Elle fait avancer ici la recherche.  
 
 ## Lesson 123: Vocabulaire : Lexique lié à la communication téléphonique (suite)
 
-Prerequisites: none · Skill: fi2-123 (La communication téléphonique : préciser et transmettre)
+Prerequisites: 116, 120, 122 · Skill: fi2-123 (Préciser et transmettre un message téléphonique)
 
 **Note** (draft)
 
-> Au téléphone, une demande peut nécessiter une précision. Présente-toi, indique le destinataire et l’objet de l’appel. Si le correspondant est absent, propose un rappel ou laisse un message. Avant de transmettre, vérifie le nom, le motif et les renseignements nécessaires. On peut reformuler pour confirmer. Ne révèle pas des renseignements personnels à un inconnu. Le travail proposé prépare un échange ; l’application n’écoute pas la voix.
+> Un échange téléphonique peut exiger une clarification : demander de répéter, préciser un mot ou vérifier à qui le message est destiné. Reformuler consiste à reprendre fidèlement l’essentiel pour contrôler la compréhension. Le destinataire du message n’est pas forcément la personne qui décroche. Une suite prévue indique ce qui doit arriver ensuite, sans inventer une promesse. La préparation reste écrite : aucun appel réel n’est passé ni aucune voix évaluée.
 
-**Card c123-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Une précision rend la demande compréhensible.
+> À la fin, tu pourras demander une clarification et vérifier destinataire objet et suite dans un appel simulé. Acquis mobilisés : les destinataires et les jeux de rôle. Pour la suite : le récit d’images et la communication précise.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> Un échange téléphonique peut exiger une clarification : demander de répéter, préciser un mot ou vérifier à qui le message est destiné. Reformuler consiste à reprendre fidèlement l’essentiel pour contrôler la compréhension. Le destinataire du message n’est pas forcément la personne qui décroche. Une suite prévue indique ce qui doit arriver ensuite, sans inventer une promesse. La préparation reste écrite : aucun appel réel n’est passé ni aucune voix évaluée.
+
+**Learn: Lire le modèle original** (draft)
+
+> Dialogue original : Bih appelle le club fictif et demande la responsable. Ayuk décroche et précise qu’elle est absente. Bih veut signaler que la fiche du bulletin est prête. Ayuk demande de répéter le titre, puis reformule : « Je lui dirai que la fiche du bulletin est prête. » Bih confirme et indique qu’elle rappellera après les cours.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Repère l’information manquante puis pose une question ciblée. Répète l’essentiel sans changer le destinataire ni l’objet. Ne note pas une heure exacte ou une promesse si la personne ne l’a pas donnée.
+
+**Learn: key words and examples** (draft)
+
+- **clarification**: une demande visant à lever une incertitude
+- **reformulation**: une reprise fidèle de l’essentiel du message
+- **destinataire final**: la personne à qui le message doit être transmis
+- **suite prévue**: l’action suivante explicitement annoncée
+
+
+Common mistake: “Clarifier signifie inventer ce qui n’a pas été compris.” → “une demande visant à lever une incertitude.”. Il faut obtenir ou vérifier l’information.
+
+**Card fi2-123-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _Je souhaite parler à la responsable du club de lecture._  
+> _clarification : une demande visant à lever une incertitude._  
+> _reformulation : une reprise fidèle de l’essentiel du message._  
+> _destinataire final : la personne à qui le message doit être transmis._  
+> _suite prévue : l’action suivante explicitement annoncée._  
 
-Check question: `fi2-123-etape-1` · multiple choice, level 1 · **authored key**, reused from practice
+Check question: `fi2-123-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Quelle demande précise le destinataire ?
+> Quel terme désigne l’action suivante explicitement annoncée ?
 
-- ✅ Puis-je parler à la responsable du club de lecture ?
-- ◻️ Passez-moi quelqu’un.  
-  _↳ feedback if chosen: La fonction demandée identifie l’interlocutrice recherchée._
-- ◻️ Vous savez déjà.  
-  _↳ feedback if chosen: La fonction demandée identifie l’interlocutrice recherchée._
+- ◻️ destinataire final  
+  _↳ feedback if chosen: Cela désigne la personne à qui le message doit être transmis, plutôt que la notion demandée._
+- ✅ suite prévue
+- ◻️ clarification  
+  _↳ feedback if chosen: Cela désigne une demande visant à lever une incertitude, plutôt que la notion demandée._
+- ◻️ reformulation  
+  _↳ feedback if chosen: Cela désigne une reprise fidèle de l’essentiel du message, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> La fonction demandée identifie l’interlocutrice recherchée.  
-> La réponse est : Puis-je parler à la responsable du club de lecture ?.  
+> Le repère doit rester celui qui est donné.  
+> Donc la réponse est « suite prévue ».  
 
-**Card c123-2** (draft)
+**Card fi2-123-c2** (draft)
 
-> Un message utile précise le nom et le motif.
+> Lis le contexte avant de nommer la notion.
 >
-> _Bih a appelé au sujet de la réunion._  
+> _Ayuk demande de répéter le titre de la fiche._  
+> _Ayuk répète que la fiche du bulletin est prête._  
+> _Le message vise la responsable absente._  
+> _Bih rappellera après les cours._  
 
-Check question: `fi2-123-etape-2-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-123-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Quel message peut-on transmettre clairement ?
+> Ayuk répète que la fiche du bulletin est prête.
+> Quelle notion convient ?
 
-- ◻️ Quelqu’un voulait quelque chose.  
-  _↳ feedback if chosen: Le nom et le motif permettent au destinataire de comprendre._
-- ◻️ Je n’ai rien écouté mais je sais tout.  
-  _↳ feedback if chosen: Le nom et le motif permettent au destinataire de comprendre._
-- ✅ Nji a appelé pour confirmer la réunion du club.
+- ◻️ suite prévue  
+  _↳ feedback if chosen: Cela concerne l’action suivante explicitement annoncée. Compare cette définition avec le cas présenté._
+- ✅ reformulation
+- ◻️ clarification  
+  _↳ feedback if chosen: Cela concerne une demande visant à lever une incertitude. Compare cette définition avec le cas présenté._
+- ◻️ destinataire final  
+  _↳ feedback if chosen: Cela concerne la personne à qui le message doit être transmis. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Le nom et le motif permettent au destinataire de comprendre.  
-> La réponse est : Nji a appelé pour confirmer la réunion du club..  
+> La reprise doit conserver le sens.  
+> Donc la réponse est « reformulation ».  
 
-**Card c123-3** (draft)
+**Card fi2-123-c3** (draft)
 
-> Vérifie avant de transmettre des informations personnelles.
+> Corrige sans changer le sens voulu.
 >
-> _Je demande conseil à un adulte de confiance._  
+> _Clarifier signifie inventer ce qui n’a pas été compris. Correction : Il faut obtenir ou vérifier l’information._  
+> _Reformuler autorise à changer le sujet de l’appel. Correction : La reprise doit conserver le sens._  
+> _La personne qui décroche est forcément le destinataire final. Correction : Un intermédiaire peut transmettre le message._  
+> _Le message impose une heure exacte absente du dialogue. Correction : Le repère doit rester celui qui est donné._  
 
-Check question: `fi2-123-etape-3-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-123-corriger-card` · spot the error, level 1 · **authored key**
 
-> Un inconnu demande l’adresse privée d’un camarade. Que faire ?
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ◻️ La publier sur un réseau.  
-  _↳ feedback if chosen: La politesse n’oblige pas à divulguer la vie privée d’un autre._
-- ◻️ La transmettre pour être poli.  
-  _↳ feedback if chosen: La politesse n’oblige pas à divulguer la vie privée d’un autre._
-- ✅ Ne pas la donner et demander conseil à un adulte de confiance.
+- ✅ Clarifier signifie inventer ce qui n’a pas été compris.  
+  _↳ explanation: Il faut obtenir ou vérifier l’information._
+- ◻️ clarification : une demande visant à lever une incertitude.  
+  _↳ explanation: Cette distinction est correcte : Il faut obtenir ou vérifier l’information. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ destinataire final : la personne à qui le message doit être transmis.  
+  _↳ explanation: Cette distinction est correcte : Un intermédiaire peut transmettre le message. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ reformulation : une reprise fidèle de l’essentiel du message.  
+  _↳ explanation: Cette distinction est correcte : La reprise doit conserver le sens. Cherche plutôt une phrase qui contredit le sens ou la règle._
 
 Full working after a second miss:
 
-> La politesse n’oblige pas à divulguer la vie privée d’un autre.  
-> La réponse est : Ne pas la donner et demander conseil à un adulte de confiance..  
+> La phrase fausse est « Clarifier signifie inventer ce qui n’a pas été compris. ».  
+> Il faut obtenir ou vérifier l’information.  
 
 **Worked example** (draft)
 
-> Quel message peut-on transmettre clairement ?
+> Ayuk demande de répéter le titre de la fiche. Explique le choix.
 
-1. Un message utile précise le nom et le motif.
-2. Le nom et le motif permettent au destinataire de comprendre.
+1. une demande visant à lever une incertitude.
+2. Il faut obtenir ou vérifier l’information.
 
-**Answer:** Nji a appelé pour confirmer la réunion du club.
+**Answer:** clarification
 
-**Practice** `fi2-123-etape-1` · multiple choice, level 1 · **authored key**
+**Practice** `fi2-123-notions` · multiple choice, level 1 · **authored key**
 
-> Le son est mauvais. Que peux-tu demander ?
+> Quel terme désigne la personne à qui le message doit être transmis ?
 
-- ✅ Pourriez-vous répéter le nom ?
-- ◻️ Je transmets un nom inventé.  
-  _↳ feedback if chosen: Répéter évite de transmettre une information fausse._
-- ◻️ Je vais deviner le nom.  
-  _↳ feedback if chosen: Répéter évite de transmettre une information fausse._
-
-Full working after a second miss:
-
-> Répéter évite de transmettre une information fausse.  
-> La réponse est : Pourriez-vous répéter le nom ?.  
-
-> Le son est mauvais. Que peux-tu demander ?
-
-- ◻️ Je vais deviner le nom.  
-  _↳ feedback if chosen: Répéter évite de transmettre une information fausse._
-- ✅ Pourriez-vous répéter le nom ?
-- ◻️ Je transmets un nom inventé.  
-  _↳ feedback if chosen: Répéter évite de transmettre une information fausse._
+- ◻️ suite prévue  
+  _↳ feedback if chosen: Cela désigne l’action suivante explicitement annoncée, plutôt que la notion demandée._
+- ◻️ reformulation  
+  _↳ feedback if chosen: Cela désigne une reprise fidèle de l’essentiel du message, plutôt que la notion demandée._
+- ✅ destinataire final
+- ◻️ clarification  
+  _↳ feedback if chosen: Cela désigne une demande visant à lever une incertitude, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Répéter évite de transmettre une information fausse.  
-> La réponse est : Pourriez-vous répéter le nom ?.  
+> Un intermédiaire peut transmettre le message.  
+> Donc la réponse est « destinataire final ».  
 
-**Practice** `fi2-123-etape-2` · multiple choice, level 2 · **authored key**
+> Quel terme désigne la personne à qui le message doit être transmis ?
 
-> Avant de noter un horaire mal entendu, que faire ?
-
-- ◻️ Remplacer l’horaire par une adresse inventée.  
-  _↳ feedback if chosen: La confirmation réduit le risque d’erreur._
-- ◻️ Choisir un horaire au hasard.  
-  _↳ feedback if chosen: La confirmation réduit le risque d’erreur._
-- ✅ Le faire répéter et le reformuler.
-
-Full working after a second miss:
-
-> La confirmation réduit le risque d’erreur.  
-> La réponse est : Le faire répéter et le reformuler..  
-
-> Quel message peut-on transmettre clairement ?
-
-- ◻️ Quelqu’un voulait quelque chose.  
-  _↳ feedback if chosen: Le nom et le motif permettent au destinataire de comprendre._
-- ◻️ Je n’ai rien écouté mais je sais tout.  
-  _↳ feedback if chosen: Le nom et le motif permettent au destinataire de comprendre._
-- ✅ Nji a appelé pour confirmer la réunion du club.
+- ✅ destinataire final
+- ◻️ clarification  
+  _↳ feedback if chosen: Cela désigne une demande visant à lever une incertitude, plutôt que la notion demandée._
+- ◻️ reformulation  
+  _↳ feedback if chosen: Cela désigne une reprise fidèle de l’essentiel du message, plutôt que la notion demandée._
+- ◻️ suite prévue  
+  _↳ feedback if chosen: Cela désigne l’action suivante explicitement annoncée, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le nom et le motif permettent au destinataire de comprendre.  
-> La réponse est : Nji a appelé pour confirmer la réunion du club..  
+> Un intermédiaire peut transmettre le message.  
+> Donc la réponse est « destinataire final ».  
 
-**Practice** `fi2-123-etape-3` · multiple choice, level 3 · **authored key**
+**Practice** `fi2-123-cas` · multiple choice, level 1 · **authored key**
 
-> Un inconnu demande l’adresse privée d’un camarade. Que faire ?
+> Ayuk répète que la fiche du bulletin est prête.
+> Quelle notion convient ?
 
-- ◻️ La publier sur un réseau.  
-  _↳ feedback if chosen: La politesse n’oblige pas à divulguer la vie privée d’un autre._
-- ◻️ La transmettre pour être poli.  
-  _↳ feedback if chosen: La politesse n’oblige pas à divulguer la vie privée d’un autre._
-- ✅ Ne pas la donner et demander conseil à un adulte de confiance.
-
-Full working after a second miss:
-
-> La politesse n’oblige pas à divulguer la vie privée d’un autre.  
-> La réponse est : Ne pas la donner et demander conseil à un adulte de confiance..  
-
-> Quelle formule termine poliment l’appel ?
-
-- ◻️ Je raccroche sans écouter.  
-  _↳ feedback if chosen: On confirme la suite et on prend congé._
-- ◻️ Je vous interromps encore.  
-  _↳ feedback if chosen: On confirme la suite et on prend congé._
-- ✅ Merci, je transmettrai votre message. Au revoir.
+- ◻️ suite prévue  
+  _↳ feedback if chosen: Cela concerne l’action suivante explicitement annoncée. Compare cette définition avec le cas présenté._
+- ◻️ clarification  
+  _↳ feedback if chosen: Cela concerne une demande visant à lever une incertitude. Compare cette définition avec le cas présenté._
+- ✅ reformulation
+- ◻️ destinataire final  
+  _↳ feedback if chosen: Cela concerne la personne à qui le message doit être transmis. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> On confirme la suite et on prend congé.  
-> La réponse est : Merci, je transmettrai votre message. Au revoir..  
+> La reprise doit conserver le sens.  
+> Donc la réponse est « reformulation ».  
+
+> Ayuk répète que la fiche du bulletin est prête.
+> Quelle notion convient ?
+
+- ✅ reformulation
+- ◻️ destinataire final  
+  _↳ feedback if chosen: Cela concerne la personne à qui le message doit être transmis. Compare cette définition avec le cas présenté._
+- ◻️ suite prévue  
+  _↳ feedback if chosen: Cela concerne l’action suivante explicitement annoncée. Compare cette définition avec le cas présenté._
+- ◻️ clarification  
+  _↳ feedback if chosen: Cela concerne une demande visant à lever une incertitude. Compare cette définition avec le cas présenté._
+
+Full working after a second miss:
+
+> La reprise doit conserver le sens.  
+> Donc la réponse est « reformulation ».  
+
+**Practice** `fi2-123-contexte` · multiple choice, level 2 · **authored key**
+
+> Le titre a été mal compris et Ayuk demande de le répéter : quelle action réalise-t-il ?
+
+- ◻️ destinataire final  
+  _↳ feedback if chosen: Ce terme désigne la personne à qui le message doit être transmis ; ce n’est pas l’action ou le rôle décrit._
+- ✅ clarification
+- ◻️ suite prévue  
+  _↳ feedback if chosen: Ce terme désigne l’action suivante explicitement annoncée ; ce n’est pas l’action ou le rôle décrit._
+- ◻️ reformulation  
+  _↳ feedback if chosen: Ce terme désigne une reprise fidèle de l’essentiel du message ; ce n’est pas l’action ou le rôle décrit._
+
+Full working after a second miss:
+
+> Il faut obtenir ou vérifier l’information.  
+> Donc la réponse est « clarification ».  
+
+> Ayuk reprend fidèlement le contenu avant confirmation : quelle action réalise-t-il ?
+
+- ◻️ destinataire final  
+  _↳ feedback if chosen: Ce terme désigne la personne à qui le message doit être transmis ; ce n’est pas l’action ou le rôle décrit._
+- ◻️ suite prévue  
+  _↳ feedback if chosen: Ce terme désigne l’action suivante explicitement annoncée ; ce n’est pas l’action ou le rôle décrit._
+- ✅ reformulation
+- ◻️ clarification  
+  _↳ feedback if chosen: Ce terme désigne une demande visant à lever une incertitude ; ce n’est pas l’action ou le rôle décrit._
+
+Full working after a second miss:
+
+> La reprise doit conserver le sens.  
+> Donc la réponse est « reformulation ».  
+
+**Practice** `fi2-123-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Bih rappellera après les cours. · Ayuk demande de répéter le titre de la fiche. · Le message vise la responsable absente.
+- destinataire final → **Le message vise la responsable absente.**
+- clarification → **Ayuk demande de répéter le titre de la fiche.**
+- suite prévue → **Bih rappellera après les cours.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> destinataire final → Le message vise la responsable absente.  
+> clarification → Ayuk demande de répéter le titre de la fiche.  
+> suite prévue → Bih rappellera après les cours.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Ayuk répète que la fiche du bulletin est prête. · Le message vise la responsable absente. · Ayuk demande de répéter le titre de la fiche.
+- clarification → **Ayuk demande de répéter le titre de la fiche.**
+- destinataire final → **Le message vise la responsable absente.**
+- reformulation → **Ayuk répète que la fiche du bulletin est prête.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> clarification → Ayuk demande de répéter le titre de la fiche.  
+> destinataire final → Le message vise la responsable absente.  
+> reformulation → Ayuk répète que la fiche du bulletin est prête.  
+
+**Practice** `fi2-123-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ✅ La personne qui décroche est forcément le destinataire final.  
+  _↳ explanation: Un intermédiaire peut transmettre le message._
+- ◻️ destinataire final : la personne à qui le message doit être transmis.  
+  _↳ explanation: Cette distinction est correcte : Un intermédiaire peut transmettre le message. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ reformulation : une reprise fidèle de l’essentiel du message.  
+  _↳ explanation: Cette distinction est correcte : La reprise doit conserver le sens. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ clarification : une demande visant à lever une incertitude.  
+  _↳ explanation: Cette distinction est correcte : Il faut obtenir ou vérifier l’information. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « La personne qui décroche est forcément le destinataire final. ».  
+> Un intermédiaire peut transmettre le message.  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ destinataire final : la personne à qui le message doit être transmis.  
+  _↳ explanation: Cette distinction est correcte : Un intermédiaire peut transmettre le message. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Le message impose une heure exacte absente du dialogue.  
+  _↳ explanation: Le repère doit rester celui qui est donné._
+- ◻️ clarification : une demande visant à lever une incertitude.  
+  _↳ explanation: Cette distinction est correcte : Il faut obtenir ou vérifier l’information. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ reformulation : une reprise fidèle de l’essentiel du message.  
+  _↳ explanation: Cette distinction est correcte : La reprise doit conserver le sens. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Le message impose une heure exacte absente du dialogue. ».  
+> Le repère doit rester celui qui est donné.  
 
 ## Lesson 124: Expression écrite : Production d’écrits à partir d’images
 
-Prerequisites: none · Skill: fi2-124 (Écrire à partir d’une suite d’images)
+Prerequisites: 121, 122, 123 · Skill: fi2-124 (Écrire à partir d’une suite d’images)
 
 **Note** (draft)
 
-> Pour écrire à partir d’images, observe les personnages, le lieu, les actions et les changements. Distingue ce qui est visible de ce que tu ajoutes pour relier les scènes. Range les événements, puis rédige des phrases liées.
-> Dans cette préparation sans images affichées, les scènes sont décrites en mots : une élève trouve un cahier ; elle lit le nom sur la couverture ; elle rend le cahier à son propriétaire. Le professeur peut remplacer ces descriptions par des illustrations en classe.
+> Une suite d’images offre des indices et un ordre, mais tous les détails d’un récit n’y sont pas visibles. Commence par décrire les éléments donnés, puis ajoute des liaisons plausibles en signalant qu’il s’agit d’une création. Une flèche et une légende peuvent guider la succession. Ne présente pas un nom, un lieu ou une conversation inventés comme des faits observés. L’image finale peut montrer une correction sans prouver la vérité de toutes les informations possibles.
 
-**Card c124-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Repère l’action principale de chaque scène.
+> À la fin, tu pourras transformer des indices visuels ordonnés en récit sans prétendre voir des détails absents. Acquis mobilisés : l’interprétation d’images et la narration. Pour la suite : la recherche de sources et la production finale.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> Une suite d’images offre des indices et un ordre, mais tous les détails d’un récit n’y sont pas visibles. Commence par décrire les éléments donnés, puis ajoute des liaisons plausibles en signalant qu’il s’agit d’une création. Une flèche et une légende peuvent guider la succession. Ne présente pas un nom, un lieu ou une conversation inventés comme des faits observés. L’image finale peut montrer une correction sans prouver la vérité de toutes les informations possibles.
+
+**Learn: Lire le modèle original** (draft)
+
+> Modèle original : Récit créé à partir des dessins : Dans un club imaginaire, Bih prépare une fiche. Une question reste ouverte. Elle consulte alors un cahier de sources avec Ayuk, puis corrige son texte. La suite des dessins soutient préparation, vérification et correction ; les noms et le dialogue éventuel seraient des ajouts de l’auteur. La correction ne prouve pas à elle seule une diffusion ni l’approbation de tous les lecteurs.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Note d’abord ce que montre chaque panneau. Choisis un cadre fictif et relie les étapes en conservant l’ordre annoncé. Vérifie quels détails viennent de l’image et lesquels sont créés pour ton récit.
+
+**Learn: key words and examples** (draft)
+
+- **indice visuel**: un élément effectivement montré dans un panneau
+- **ordre indiqué**: une succession donnée par la légende et les flèches
+- **liaison créée**: un ajout narratif reliant les indices de façon plausible
+- **limite de conclusion**: ce que la dernière image ne prouve pas
+
+
+Common mistake: “Le panneau donne forcément un nom complet réel.” → “un élément effectivement montré dans un panneau.”. Ce nom n’est pas visible.
+
+**Card fi2-124-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _Une élève trouve un cahier._  
+> _indice visuel : un élément effectivement montré dans un panneau._  
+> _ordre indiqué : une succession donnée par la légende et les flèches._  
+> _liaison créée : un ajout narratif reliant les indices de façon plausible._  
+> _limite de conclusion : ce que la dernière image ne prouve pas._  
 
-Check question: `fi2-124-etape-1` · multiple choice, level 1 · **authored key**, reused from practice
+Check question: `fi2-124-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Scène décrite : elle lit le nom sur la couverture. Que fait-elle ?
+> Quel terme désigne une succession donnée par la légende et les flèches ?
 
-- ◻️ Elle achète un cahier neuf.  
-  _↳ feedback if chosen: Lire le nom permet de savoir à qui le cahier appartient._
-- ✅ Elle cherche à identifier le propriétaire.
-- ◻️ Elle efface toutes les pages.  
-  _↳ feedback if chosen: Lire le nom permet de savoir à qui le cahier appartient._
+- ◻️ liaison créée  
+  _↳ feedback if chosen: Cela désigne un ajout narratif reliant les indices de façon plausible, plutôt que la notion demandée._
+- ◻️ indice visuel  
+  _↳ feedback if chosen: Cela désigne un élément effectivement montré dans un panneau, plutôt que la notion demandée._
+- ◻️ limite de conclusion  
+  _↳ feedback if chosen: Cela désigne ce que la dernière image ne prouve pas, plutôt que la notion demandée._
+- ✅ ordre indiqué
 
 Full working after a second miss:
 
-> Lire le nom permet de savoir à qui le cahier appartient.  
-> La réponse est : Elle cherche à identifier le propriétaire..  
+> Il faut lire les repères propres au support.  
+> Donc la réponse est « ordre indiqué ».  
 
-**Card c124-2** (draft)
+**Card fi2-124-c2** (draft)
 
-> Les scènes doivent être reliées dans l’ordre.
+> Lis le contexte avant de nommer la notion.
 >
-> _Trouver le cahier, lire le nom, le rendre._  
+> _Le premier panneau contient une fiche et un point d’interrogation._  
+> _Les panneaux se lisent ici de gauche à droite._  
+> _L’auteur peut inventer les noms Bih et Ayuk pour le récit._  
+> _Une correction ne donne pas toutes les réactions du public._  
 
-Check question: `fi2-124-etape-2-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-124-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Quel lien convient entre la découverte et la lecture du nom ?
+> Une correction ne donne pas toutes les réactions du public.
+> Quelle notion convient ?
 
-- ✅ Ensuite
-- ◻️ Sans aucun rapport  
-  _↳ feedback if chosen: Ensuite marque l’étape suivante du récit._
-- ◻️ Pourtant hier demain  
-  _↳ feedback if chosen: Ensuite marque l’étape suivante du récit._
+- ✅ limite de conclusion
+- ◻️ indice visuel  
+  _↳ feedback if chosen: Cela concerne un élément effectivement montré dans un panneau. Compare cette définition avec le cas présenté._
+- ◻️ liaison créée  
+  _↳ feedback if chosen: Cela concerne un ajout narratif reliant les indices de façon plausible. Compare cette définition avec le cas présenté._
+- ◻️ ordre indiqué  
+  _↳ feedback if chosen: Cela concerne une succession donnée par la légende et les flèches. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Ensuite marque l’étape suivante du récit.  
-> La réponse est : Ensuite.  
+> Le support ne permet pas cette conclusion générale.  
+> Donc la réponse est « limite de conclusion ».  
 
-**Card c124-3** (draft)
+**Card fi2-124-c3** (draft)
 
-> Ajoute seulement des liens compatibles avec les scènes.
+> Corrige sans changer le sens voulu.
 >
-> _L’élève rend le cahier après avoir identifié son propriétaire._  
+> _Le panneau donne forcément un nom complet réel. Correction : Ce nom n’est pas visible._  
+> _Chaque suite d’images a toujours le même ordre sans indication. Correction : Il faut lire les repères propres au support._  
+> _Un nom inventé devient automatiquement une observation de l’image. Correction : Il reste un choix d’écriture, pas un indice visible._  
+> _La coche finale prouve une vérité universelle de toute information. Correction : Le support ne permet pas cette conclusion générale._  
 
-Check question: `fi2-124-etape-3-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-124-corriger-card` · spot the error, level 1 · **authored key**
 
-> Quelle conclusion reste compatible avec les scènes ?
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ✅ Le propriétaire retrouve son cahier.
-- ◻️ La scène prouve la richesse de l’élève.  
-  _↳ feedback if chosen: La dernière action annoncée est la restitution du cahier._
-- ◻️ Le cahier disparaît avant d’être trouvé, sans explication.  
-  _↳ feedback if chosen: La dernière action annoncée est la restitution du cahier._
+- ◻️ liaison créée : un ajout narratif reliant les indices de façon plausible.  
+  _↳ explanation: Cette distinction est correcte : Il reste un choix d’écriture, pas un indice visible. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ La coche finale prouve une vérité universelle de toute information.  
+  _↳ explanation: Le support ne permet pas cette conclusion générale._
+- ◻️ ordre indiqué : une succession donnée par la légende et les flèches.  
+  _↳ explanation: Cette distinction est correcte : Il faut lire les repères propres au support. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ limite de conclusion : ce que la dernière image ne prouve pas.  
+  _↳ explanation: Cette distinction est correcte : Le support ne permet pas cette conclusion générale. Cherche plutôt une phrase qui contredit le sens ou la règle._
 
 Full working after a second miss:
 
-> La dernière action annoncée est la restitution du cahier.  
-> La réponse est : Le propriétaire retrouve son cahier..  
+> La phrase fausse est « La coche finale prouve une vérité universelle de toute information. ».  
+> Le support ne permet pas cette conclusion générale.  
 
 **Worked example** (draft)
 
-> Quelle suite suit les scènes proposées ?
+> Le premier panneau contient une fiche et un point d’interrogation. Explique le choix.
 
-1. Les scènes doivent être reliées dans l’ordre.
-2. La découverte précède l’identification et la restitution.
+1. un élément effectivement montré dans un panneau.
+2. Ce nom n’est pas visible.
 
-**Answer:** Trouver, identifier, rendre.
+**Answer:** indice visuel
 
 **Paper task** (draft; not marked by the app, mastery stays unknown)
 
-> À partir des scènes décrites, raconte la découverte puis la restitution du cahier. Utilise ensuite et enfin. Tu peux donner un nom imaginaire à l’élève.
+> Écris un court récit à partir de la suite inventée. Respecte préparation, vérification et correction ; ajoute un cadre fictif en distinguant tes créations des indices visibles.
 
 Model answer, shown after the pupil has written:
 
-> Bih a trouvé un cahier dans la cour. Ensuite, elle a lu le nom inscrit sur la couverture. Elle a reconnu un camarade de sa classe. Enfin, elle lui a rendu le cahier, et il l’a remerciée.  
+> Récit créé à partir des dessins : Dans un club imaginaire, Bih prépare une fiche. Une question reste ouverte. Elle consulte alors un cahier de sources avec Ayuk, puis corrige son texte. La suite des dessins soutient préparation, vérification et correction ; les noms et le dialogue éventuel seraient des ajouts de l’auteur. La correction ne prouve pas à elle seule une diffusion ni l’approbation de tous les lecteurs.  
 
 Self-check list:
 
-- [ ] J’ai utilisé les actions des scènes décrites.
-- [ ] J’ai relié les événements dans l’ordre.
-- [ ] Mes ajouts restent compatibles avec les scènes.
+- [ ] Mon récit suit l’ordre indiqué par le support.
+- [ ] Je distingue éléments visibles et détails inventés.
+- [ ] La conclusion ne dépasse pas les indices ; je vérifie les temps et les reprises.
 
-**Practice** `fi2-124-etape-1` · multiple choice, level 1 · **authored key**
+**Practice** `fi2-124-notions` · multiple choice, level 1 · **authored key**
 
-> Scène décrite : elle lit le nom sur la couverture. Que fait-elle ?
+> Quel terme désigne ce que la dernière image ne prouve pas ?
 
-- ◻️ Elle efface toutes les pages.  
-  _↳ feedback if chosen: Lire le nom permet de savoir à qui le cahier appartient._
-- ◻️ Elle achète un cahier neuf.  
-  _↳ feedback if chosen: Lire le nom permet de savoir à qui le cahier appartient._
-- ✅ Elle cherche à identifier le propriétaire.
-
-Full working after a second miss:
-
-> Lire le nom permet de savoir à qui le cahier appartient.  
-> La réponse est : Elle cherche à identifier le propriétaire..  
-
-> Scène décrite : une élève ramasse un cahier tombé. Quelle action est donnée ?
-
-- ◻️ Elle vend un ordinateur.  
-  _↳ feedback if chosen: Le récit doit partir des actions décrites._
-- ◻️ Elle conduit un camion.  
-  _↳ feedback if chosen: Le récit doit partir des actions décrites._
-- ✅ Elle ramasse un cahier.
+- ◻️ ordre indiqué  
+  _↳ feedback if chosen: Cela désigne une succession donnée par la légende et les flèches, plutôt que la notion demandée._
+- ◻️ indice visuel  
+  _↳ feedback if chosen: Cela désigne un élément effectivement montré dans un panneau, plutôt que la notion demandée._
+- ✅ limite de conclusion
+- ◻️ liaison créée  
+  _↳ feedback if chosen: Cela désigne un ajout narratif reliant les indices de façon plausible, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le récit doit partir des actions décrites.  
-> La réponse est : Elle ramasse un cahier..  
+> Le support ne permet pas cette conclusion générale.  
+> Donc la réponse est « limite de conclusion ».  
 
-**Practice** `fi2-124-etape-2` · multiple choice, level 2 · **authored key**
+> Quel terme désigne un élément effectivement montré dans un panneau ?
 
-> Quel lien convient entre la découverte et la lecture du nom ?
-
-- ◻️ Sans aucun rapport  
-  _↳ feedback if chosen: Ensuite marque l’étape suivante du récit._
-- ◻️ Pourtant hier demain  
-  _↳ feedback if chosen: Ensuite marque l’étape suivante du récit._
-- ✅ Ensuite
-
-Full working after a second miss:
-
-> Ensuite marque l’étape suivante du récit.  
-> La réponse est : Ensuite.  
-
-> Quel lien convient entre la découverte et la lecture du nom ?
-
-- ◻️ Sans aucun rapport  
-  _↳ feedback if chosen: Ensuite marque l’étape suivante du récit._
-- ✅ Ensuite
-- ◻️ Pourtant hier demain  
-  _↳ feedback if chosen: Ensuite marque l’étape suivante du récit._
+- ◻️ limite de conclusion  
+  _↳ feedback if chosen: Cela désigne ce que la dernière image ne prouve pas, plutôt que la notion demandée._
+- ✅ indice visuel
+- ◻️ liaison créée  
+  _↳ feedback if chosen: Cela désigne un ajout narratif reliant les indices de façon plausible, plutôt que la notion demandée._
+- ◻️ ordre indiqué  
+  _↳ feedback if chosen: Cela désigne une succession donnée par la légende et les flèches, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Ensuite marque l’étape suivante du récit.  
-> La réponse est : Ensuite.  
+> Ce nom n’est pas visible.  
+> Donc la réponse est « indice visuel ».  
 
-**Practice** `fi2-124-etape-3` · multiple choice, level 3 · **authored key**
+**Practice** `fi2-124-cas` · multiple choice, level 1 · **authored key**
 
-> La description ne donne pas le nom de l’élève. Que peux-tu faire dans ton récit ?
+> Les panneaux se lisent ici de gauche à droite.
+> Quelle notion convient ?
 
-- ◻️ Affirmer que l’image donne forcément ce nom.  
-  _↳ feedback if chosen: On peut créer des liens narratifs sans les confondre avec les indices fournis._
-- ◻️ Prétendre que tout ajout est une preuve.  
-  _↳ feedback if chosen: On peut créer des liens narratifs sans les confondre avec les indices fournis._
-- ✅ Choisir un nom en le présentant comme une création du récit.
-
-Full working after a second miss:
-
-> On peut créer des liens narratifs sans les confondre avec les indices fournis.  
-> La réponse est : Choisir un nom en le présentant comme une création du récit..  
-
-> Quelle conclusion reste compatible avec les scènes ?
-
-- ◻️ Le cahier disparaît avant d’être trouvé, sans explication.  
-  _↳ feedback if chosen: La dernière action annoncée est la restitution du cahier._
-- ◻️ La scène prouve la richesse de l’élève.  
-  _↳ feedback if chosen: La dernière action annoncée est la restitution du cahier._
-- ✅ Le propriétaire retrouve son cahier.
+- ◻️ indice visuel  
+  _↳ feedback if chosen: Cela concerne un élément effectivement montré dans un panneau. Compare cette définition avec le cas présenté._
+- ◻️ liaison créée  
+  _↳ feedback if chosen: Cela concerne un ajout narratif reliant les indices de façon plausible. Compare cette définition avec le cas présenté._
+- ◻️ limite de conclusion  
+  _↳ feedback if chosen: Cela concerne ce que la dernière image ne prouve pas. Compare cette définition avec le cas présenté._
+- ✅ ordre indiqué
 
 Full working after a second miss:
 
-> La dernière action annoncée est la restitution du cahier.  
-> La réponse est : Le propriétaire retrouve son cahier..  
+> Il faut lire les repères propres au support.  
+> Donc la réponse est « ordre indiqué ».  
+
+> L’auteur peut inventer les noms Bih et Ayuk pour le récit.
+> Quelle notion convient ?
+
+- ◻️ limite de conclusion  
+  _↳ feedback if chosen: Cela concerne ce que la dernière image ne prouve pas. Compare cette définition avec le cas présenté._
+- ◻️ indice visuel  
+  _↳ feedback if chosen: Cela concerne un élément effectivement montré dans un panneau. Compare cette définition avec le cas présenté._
+- ◻️ ordre indiqué  
+  _↳ feedback if chosen: Cela concerne une succession donnée par la légende et les flèches. Compare cette définition avec le cas présenté._
+- ✅ liaison créée
+
+Full working after a second miss:
+
+> Il reste un choix d’écriture, pas un indice visible.  
+> Donc la réponse est « liaison créée ».  
+
+**Practice** `fi2-124-construire` · word order, level 2 · **authored key**
+
+> Touche les mots dans le bon ordre.
+
+Tiles: panneau · et · point · fiche · contient · premier · d’interrogation · une · Le · un (then “.”)
+Answer: **Le premier panneau contient une fiche et un point d’interrogation.**
+
+Full working after a second miss:
+
+> La phrase est : Le premier panneau contient une fiche et un point d’interrogation.  
+
+> Touche les mots dans le bon ordre.
+
+Tiles: d’interrogation · un · une · contient · point · premier · fiche · panneau · et · Le (then “.”)
+Answer: **Le premier panneau contient une fiche et un point d’interrogation.**
+
+Full working after a second miss:
+
+> La phrase est : Le premier panneau contient une fiche et un point d’interrogation.  
+
+**Practice** `fi2-124-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): L’auteur peut inventer les noms Bih et Ayuk pour le récit. · Les panneaux se lisent ici de gauche à droite. · Une correction ne donne pas toutes les réactions du public.
+- ordre indiqué → **Les panneaux se lisent ici de gauche à droite.**
+- limite de conclusion → **Une correction ne donne pas toutes les réactions du public.**
+- liaison créée → **L’auteur peut inventer les noms Bih et Ayuk pour le récit.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> ordre indiqué → Les panneaux se lisent ici de gauche à droite.  
+> limite de conclusion → Une correction ne donne pas toutes les réactions du public.  
+> liaison créée → L’auteur peut inventer les noms Bih et Ayuk pour le récit.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Une correction ne donne pas toutes les réactions du public. · Les panneaux se lisent ici de gauche à droite. · L’auteur peut inventer les noms Bih et Ayuk pour le récit.
+- liaison créée → **L’auteur peut inventer les noms Bih et Ayuk pour le récit.**
+- ordre indiqué → **Les panneaux se lisent ici de gauche à droite.**
+- limite de conclusion → **Une correction ne donne pas toutes les réactions du public.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> liaison créée → L’auteur peut inventer les noms Bih et Ayuk pour le récit.  
+> ordre indiqué → Les panneaux se lisent ici de gauche à droite.  
+> limite de conclusion → Une correction ne donne pas toutes les réactions du public.  
+
+**Practice** `fi2-124-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ✅ Le panneau donne forcément un nom complet réel.  
+  _↳ explanation: Ce nom n’est pas visible._
+- ◻️ limite de conclusion : ce que la dernière image ne prouve pas.  
+  _↳ explanation: Cette distinction est correcte : Le support ne permet pas cette conclusion générale. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ liaison créée : un ajout narratif reliant les indices de façon plausible.  
+  _↳ explanation: Cette distinction est correcte : Il reste un choix d’écriture, pas un indice visible. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ indice visuel : un élément effectivement montré dans un panneau.  
+  _↳ explanation: Cette distinction est correcte : Ce nom n’est pas visible. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Le panneau donne forcément un nom complet réel. ».  
+> Ce nom n’est pas visible.  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ limite de conclusion : ce que la dernière image ne prouve pas.  
+  _↳ explanation: Cette distinction est correcte : Le support ne permet pas cette conclusion générale. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Le panneau donne forcément un nom complet réel.  
+  _↳ explanation: Ce nom n’est pas visible._
+- ◻️ ordre indiqué : une succession donnée par la légende et les flèches.  
+  _↳ explanation: Cette distinction est correcte : Il faut lire les repères propres au support. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ liaison créée : un ajout narratif reliant les indices de façon plausible.  
+  _↳ explanation: Cette distinction est correcte : Il reste un choix d’écriture, pas un indice visible. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Le panneau donne forcément un nom complet réel. ».  
+> Ce nom n’est pas visible.  
 
 ## Lesson 125: Vocabulaire : Lexique lié à la recherche sur internet
 
-Prerequisites: none · Skill: fi2-125 (Rechercher une information sur Internet)
+Prerequisites: 107, 115, 123, 124 · Skill: fi2-125 (Rechercher une information sur Internet)
 
 **Note** (draft)
 
-> Une recherche commence par une question claire. Les mots-clés résument les notions importantes. Un moteur de recherche propose des résultats ; chaque résultat renvoie vers une ressource. Lis le titre et le résumé, puis consulte la page. Vérifie l’auteur, la date, les sources et la pertinence. Compare plusieurs ressources lorsque c’est possible. Un résultat bien placé ou sponsorisé n’est pas automatiquement le plus fiable. Note la source utilisée pour pouvoir la retrouver et la citer.
+> Une recherche commence par une question précise. La requête est l’ensemble de mots saisis pour chercher ; elle doit porter sur l’information voulue, sans données privées inutiles. Un résultat est une proposition de ressource, pas une preuve. La source indique d’où vient le contenu. La vérification examine auteur ou organisme, date, contexte et concordance avec d’autres références pertinentes. Une date récente ne garantit pas tout, et une information ancienne peut rester utile selon la question. Le travail peut être préparé sur papier.
 
-**Card c125-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Des mots-clés précis correspondent à la question.
+> À la fin, tu pourras construire une requête utile et distinguer résultat source et vérification. Acquis mobilisés : les médias et les messages numériques. Pour la suite : la réutilisation grammaticale et la lecture critique.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> Une recherche commence par une question précise. La requête est l’ensemble de mots saisis pour chercher ; elle doit porter sur l’information voulue, sans données privées inutiles. Un résultat est une proposition de ressource, pas une preuve. La source indique d’où vient le contenu. La vérification examine auteur ou organisme, date, contexte et concordance avec d’autres références pertinentes. Une date récente ne garantit pas tout, et une information ancienne peut rester utile selon la question. Le travail peut être préparé sur papier.
+
+**Learn: Lire le modèle original** (draft)
+
+> Situation fictive : Le club veut expliquer comment citer une source dans son bulletin. Bih prépare les mots « citer source bulletin scolaire ». Ayuk compare ensuite une page identifiable à un message sans origine précisée. Ils gardent la question initiale pour éviter de choisir un résultat seulement parce qu’il apparaît avant les autres.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Formule la question puis sélectionne des mots-clés. Examine chaque résultat et cherche son origine avant de le reprendre. Si deux pages répètent la même origine, ne les compte pas automatiquement comme deux confirmations indépendantes.
+
+**Learn: key words and examples** (draft)
+
+- **requête**: les mots saisis pour orienter la recherche
+- **résultat**: une ressource proposée par le service de recherche
+- **source identifiable**: une origine que l’on peut nommer et examiner
+- **vérification**: un examen croisé pertinent de l’information
+
+
+Common mistake: “Une requête doit toujours contenir le mot de passe du compte.” → “les mots saisis pour orienter la recherche.”. Les mots doivent viser la question, sans secret personnel.
+
+**Card fi2-125-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _Pour étudier les marchés de Bamenda, je combine marchés et Bamenda._  
+> _requête : les mots saisis pour orienter la recherche._  
+> _résultat : une ressource proposée par le service de recherche._  
+> _source identifiable : une origine que l’on peut nommer et examiner._  
+> _vérification : un examen croisé pertinent de l’information._  
 
-Check question: `fi2-125-etape-1` · multiple choice, level 1 · **authored key**, reused from practice
+Check question: `fi2-125-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Quel outil propose des résultats à partir de mots-clés ?
+> Quel terme désigne un examen croisé pertinent de l’information ?
 
-- ✅ Un moteur de recherche.
-- ◻️ Une imprimante sans connexion.  
-  _↳ feedback if chosen: Le moteur de recherche aide à trouver des ressources._
-- ◻️ Un câble seul.  
-  _↳ feedback if chosen: Le moteur de recherche aide à trouver des ressources._
+- ✅ vérification
+- ◻️ résultat  
+  _↳ feedback if chosen: Cela désigne une ressource proposée par le service de recherche, plutôt que la notion demandée._
+- ◻️ source identifiable  
+  _↳ feedback if chosen: Cela désigne une origine que l’on peut nommer et examiner, plutôt que la notion demandée._
+- ◻️ requête  
+  _↳ feedback if chosen: Cela désigne les mots saisis pour orienter la recherche, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le moteur de recherche aide à trouver des ressources.  
-> La réponse est : Un moteur de recherche..  
+> Des copies peuvent dépendre d’une même origine non vérifiée.  
+> Donc la réponse est « vérification ».  
 
-**Card c125-2** (draft)
+**Card fi2-125-c2** (draft)
 
-> Le résultat doit être ouvert et vérifié.
+> Lis le contexte avant de nommer la notion.
 >
-> _Je vérifie l’auteur et la date de la page._  
+> _Citer source bulletin scolaire est une requête du modèle._  
+> _Une page apparaît dans la liste du modèle._  
+> _La page indique son organisme auteur._  
+> _Le groupe examine origine, date et contexte._  
 
-Check question: `fi2-125-etape-2-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-125-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Pourquoi noter la date d’une information ?
+> Le groupe examine origine, date et contexte.
+> Quelle notion convient ?
 
-- ◻️ Pour éviter de lire le texte.  
-  _↳ feedback if chosen: La date aide à situer l’information, sans garantir sa vérité._
-- ◻️ Pour prouver automatiquement qu’elle est vraie.  
-  _↳ feedback if chosen: La date aide à situer l’information, sans garantir sa vérité._
-- ✅ Pour juger si elle convient à la question et au moment étudié.
+- ✅ vérification
+- ◻️ résultat  
+  _↳ feedback if chosen: Cela concerne une ressource proposée par le service de recherche. Compare cette définition avec le cas présenté._
+- ◻️ source identifiable  
+  _↳ feedback if chosen: Cela concerne une origine que l’on peut nommer et examiner. Compare cette définition avec le cas présenté._
+- ◻️ requête  
+  _↳ feedback if chosen: Cela concerne les mots saisis pour orienter la recherche. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> La date aide à situer l’information, sans garantir sa vérité.  
-> La réponse est : Pour juger si elle convient à la question et au moment étudié..  
+> Des copies peuvent dépendre d’une même origine non vérifiée.  
+> Donc la réponse est « vérification ».  
 
-**Card c125-3** (draft)
+**Card fi2-125-c3** (draft)
 
-> La place dans les résultats ne prouve pas la fiabilité.
+> Corrige sans changer le sens voulu.
 >
-> _Je compare les informations et conserve les références._  
+> _Une requête doit toujours contenir le mot de passe du compte. Correction : Les mots doivent viser la question, sans secret personnel._  
+> _Le premier résultat garantit l’exactitude de toutes ses phrases. Correction : Le rang d’affichage n’est pas une preuve._  
+> _Internet entier fournit toujours un auteur unique et précis. Correction : Le support général ne suffit pas à identifier l’origine._  
+> _Deux copies de la même rumeur sont forcément deux preuves indépendantes. Correction : Des copies peuvent dépendre d’une même origine non vérifiée._  
 
-Check question: `fi2-125-etape-3-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-125-corriger-card` · spot the error, level 1 · **authored key**
 
-> Le premier résultat est sponsorisé. Cela garantit-il son exactitude ?
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ◻️ Oui, sa place remplace ses sources.  
-  _↳ feedback if chosen: Une annonce ou un classement ne garantit pas l’exactitude._
-- ◻️ Oui, la publicité est une preuve.  
-  _↳ feedback if chosen: Une annonce ou un classement ne garantit pas l’exactitude._
-- ✅ Non, il faut vérifier l’information.
+- ✅ Une requête doit toujours contenir le mot de passe du compte.  
+  _↳ explanation: Les mots doivent viser la question, sans secret personnel._
+- ◻️ source identifiable : une origine que l’on peut nommer et examiner.  
+  _↳ explanation: Cette distinction est correcte : Le support général ne suffit pas à identifier l’origine. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ résultat : une ressource proposée par le service de recherche.  
+  _↳ explanation: Cette distinction est correcte : Le rang d’affichage n’est pas une preuve. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ vérification : un examen croisé pertinent de l’information.  
+  _↳ explanation: Cette distinction est correcte : Des copies peuvent dépendre d’une même origine non vérifiée. Cherche plutôt une phrase qui contredit le sens ou la règle._
 
 Full working after a second miss:
 
-> Une annonce ou un classement ne garantit pas l’exactitude.  
-> La réponse est : Non, il faut vérifier l’information..  
+> La phrase fausse est « Une requête doit toujours contenir le mot de passe du compte. ».  
+> Les mots doivent viser la question, sans secret personnel.  
 
 **Worked example** (draft)
 
-> Un titre correspond à ton sujet. Quelle étape suit ?
+> Citer source bulletin scolaire est une requête du modèle. Explique le choix.
 
-1. Le résultat doit être ouvert et vérifié.
-2. Un titre pertinent ne suffit pas à vérifier l’information.
+1. les mots saisis pour orienter la recherche.
+2. Les mots doivent viser la question, sans secret personnel.
 
-**Answer:** Ouvrir la ressource et vérifier son contenu et ses sources.
+**Answer:** requête
 
-**Practice** `fi2-125-etape-1` · multiple choice, level 1 · **authored key**
+**Practice** `fi2-125-notions` · multiple choice, level 1 · **authored key**
 
-> Quels mots-clés répondent à une recherche sur les marchés de Bamenda ?
+> Quel terme désigne une ressource proposée par le service de recherche ?
 
-- ✅ marchés Bamenda
-- ◻️ tout et rien  
-  _↳ feedback if chosen: Les mots-clés reprennent le sujet et le lieu._
-- ◻️ un jeu sans rapport  
-  _↳ feedback if chosen: Les mots-clés reprennent le sujet et le lieu._
-
-Full working after a second miss:
-
-> Les mots-clés reprennent le sujet et le lieu.  
-> La réponse est : marchés Bamenda.  
-
-> Quel outil propose des résultats à partir de mots-clés ?
-
-- ✅ Un moteur de recherche.
-- ◻️ Un câble seul.  
-  _↳ feedback if chosen: Le moteur de recherche aide à trouver des ressources._
-- ◻️ Une imprimante sans connexion.  
-  _↳ feedback if chosen: Le moteur de recherche aide à trouver des ressources._
+- ◻️ vérification  
+  _↳ feedback if chosen: Cela désigne un examen croisé pertinent de l’information, plutôt que la notion demandée._
+- ✅ résultat
+- ◻️ source identifiable  
+  _↳ feedback if chosen: Cela désigne une origine que l’on peut nommer et examiner, plutôt que la notion demandée._
+- ◻️ requête  
+  _↳ feedback if chosen: Cela désigne les mots saisis pour orienter la recherche, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le moteur de recherche aide à trouver des ressources.  
-> La réponse est : Un moteur de recherche..  
+> Le rang d’affichage n’est pas une preuve.  
+> Donc la réponse est « résultat ».  
 
-**Practice** `fi2-125-etape-2` · multiple choice, level 2 · **authored key**
+> Quel terme désigne les mots saisis pour orienter la recherche ?
 
-> Pourquoi noter la date d’une information ?
-
-- ◻️ Pour éviter de lire le texte.  
-  _↳ feedback if chosen: La date aide à situer l’information, sans garantir sa vérité._
-- ✅ Pour juger si elle convient à la question et au moment étudié.
-- ◻️ Pour prouver automatiquement qu’elle est vraie.  
-  _↳ feedback if chosen: La date aide à situer l’information, sans garantir sa vérité._
-
-Full working after a second miss:
-
-> La date aide à situer l’information, sans garantir sa vérité.  
-> La réponse est : Pour juger si elle convient à la question et au moment étudié..  
-
-> Pourquoi noter la date d’une information ?
-
-- ◻️ Pour prouver automatiquement qu’elle est vraie.  
-  _↳ feedback if chosen: La date aide à situer l’information, sans garantir sa vérité._
-- ◻️ Pour éviter de lire le texte.  
-  _↳ feedback if chosen: La date aide à situer l’information, sans garantir sa vérité._
-- ✅ Pour juger si elle convient à la question et au moment étudié.
+- ✅ requête
+- ◻️ vérification  
+  _↳ feedback if chosen: Cela désigne un examen croisé pertinent de l’information, plutôt que la notion demandée._
+- ◻️ source identifiable  
+  _↳ feedback if chosen: Cela désigne une origine que l’on peut nommer et examiner, plutôt que la notion demandée._
+- ◻️ résultat  
+  _↳ feedback if chosen: Cela désigne une ressource proposée par le service de recherche, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> La date aide à situer l’information, sans garantir sa vérité.  
-> La réponse est : Pour juger si elle convient à la question et au moment étudié..  
+> Les mots doivent viser la question, sans secret personnel.  
+> Donc la réponse est « requête ».  
 
-**Practice** `fi2-125-etape-3` · multiple choice, level 3 · **authored key**
+**Practice** `fi2-125-cas` · multiple choice, level 1 · **authored key**
 
-> Le premier résultat est sponsorisé. Cela garantit-il son exactitude ?
+> La page indique son organisme auteur.
+> Quelle notion convient ?
 
-- ✅ Non, il faut vérifier l’information.
-- ◻️ Oui, sa place remplace ses sources.  
-  _↳ feedback if chosen: Une annonce ou un classement ne garantit pas l’exactitude._
-- ◻️ Oui, la publicité est une preuve.  
-  _↳ feedback if chosen: Une annonce ou un classement ne garantit pas l’exactitude._
-
-Full working after a second miss:
-
-> Une annonce ou un classement ne garantit pas l’exactitude.  
-> La réponse est : Non, il faut vérifier l’information..  
-
-> Le premier résultat est sponsorisé. Cela garantit-il son exactitude ?
-
-- ◻️ Oui, la publicité est une preuve.  
-  _↳ feedback if chosen: Une annonce ou un classement ne garantit pas l’exactitude._
-- ✅ Non, il faut vérifier l’information.
-- ◻️ Oui, sa place remplace ses sources.  
-  _↳ feedback if chosen: Une annonce ou un classement ne garantit pas l’exactitude._
+- ◻️ vérification  
+  _↳ feedback if chosen: Cela concerne un examen croisé pertinent de l’information. Compare cette définition avec le cas présenté._
+- ◻️ requête  
+  _↳ feedback if chosen: Cela concerne les mots saisis pour orienter la recherche. Compare cette définition avec le cas présenté._
+- ◻️ résultat  
+  _↳ feedback if chosen: Cela concerne une ressource proposée par le service de recherche. Compare cette définition avec le cas présenté._
+- ✅ source identifiable
 
 Full working after a second miss:
 
-> Une annonce ou un classement ne garantit pas l’exactitude.  
-> La réponse est : Non, il faut vérifier l’information..  
+> Le support général ne suffit pas à identifier l’origine.  
+> Donc la réponse est « source identifiable ».  
+
+> Une page apparaît dans la liste du modèle.
+> Quelle notion convient ?
+
+- ✅ résultat
+- ◻️ requête  
+  _↳ feedback if chosen: Cela concerne les mots saisis pour orienter la recherche. Compare cette définition avec le cas présenté._
+- ◻️ source identifiable  
+  _↳ feedback if chosen: Cela concerne une origine que l’on peut nommer et examiner. Compare cette définition avec le cas présenté._
+- ◻️ vérification  
+  _↳ feedback if chosen: Cela concerne un examen croisé pertinent de l’information. Compare cette définition avec le cas présenté._
+
+Full working after a second miss:
+
+> Le rang d’affichage n’est pas une preuve.  
+> Donc la réponse est « résultat ».  
+
+**Practice** `fi2-125-contexte` · multiple choice, level 2 · **authored key**
+
+> La page nomme l’organisme qui l’a produite : quel indice fournit-elle ?
+
+- ◻️ vérification  
+  _↳ feedback if chosen: Ce terme désigne un examen croisé pertinent de l’information ; ce n’est pas l’action ou le rôle décrit._
+- ✅ source identifiable
+- ◻️ requête  
+  _↳ feedback if chosen: Ce terme désigne les mots saisis pour orienter la recherche ; ce n’est pas l’action ou le rôle décrit._
+- ◻️ résultat  
+  _↳ feedback if chosen: Ce terme désigne une ressource proposée par le service de recherche ; ce n’est pas l’action ou le rôle décrit._
+
+Full working after a second miss:
+
+> Le support général ne suffit pas à identifier l’origine.  
+> Donc la réponse est « source identifiable ».  
+
+> Le groupe confronte contenu et références pertinentes : quelle démarche réalise-t-il ?
+
+- ✅ vérification
+- ◻️ résultat  
+  _↳ feedback if chosen: Ce terme désigne une ressource proposée par le service de recherche ; ce n’est pas l’action ou le rôle décrit._
+- ◻️ source identifiable  
+  _↳ feedback if chosen: Ce terme désigne une origine que l’on peut nommer et examiner ; ce n’est pas l’action ou le rôle décrit._
+- ◻️ requête  
+  _↳ feedback if chosen: Ce terme désigne les mots saisis pour orienter la recherche ; ce n’est pas l’action ou le rôle décrit._
+
+Full working after a second miss:
+
+> Des copies peuvent dépendre d’une même origine non vérifiée.  
+> Donc la réponse est « vérification ».  
+
+**Practice** `fi2-125-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): La page indique son organisme auteur. · Citer source bulletin scolaire est une requête du modèle. · Une page apparaît dans la liste du modèle.
+- résultat → **Une page apparaît dans la liste du modèle.**
+- source identifiable → **La page indique son organisme auteur.**
+- requête → **Citer source bulletin scolaire est une requête du modèle.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> résultat → Une page apparaît dans la liste du modèle.  
+> source identifiable → La page indique son organisme auteur.  
+> requête → Citer source bulletin scolaire est une requête du modèle.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): La page indique son organisme auteur. · Une page apparaît dans la liste du modèle. · Le groupe examine origine, date et contexte.
+- source identifiable → **La page indique son organisme auteur.**
+- vérification → **Le groupe examine origine, date et contexte.**
+- résultat → **Une page apparaît dans la liste du modèle.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> source identifiable → La page indique son organisme auteur.  
+> vérification → Le groupe examine origine, date et contexte.  
+> résultat → Une page apparaît dans la liste du modèle.  
+
+**Practice** `fi2-125-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ résultat : une ressource proposée par le service de recherche.  
+  _↳ explanation: Cette distinction est correcte : Le rang d’affichage n’est pas une preuve. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Deux copies de la même rumeur sont forcément deux preuves indépendantes.  
+  _↳ explanation: Des copies peuvent dépendre d’une même origine non vérifiée._
+- ◻️ source identifiable : une origine que l’on peut nommer et examiner.  
+  _↳ explanation: Cette distinction est correcte : Le support général ne suffit pas à identifier l’origine. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ vérification : un examen croisé pertinent de l’information.  
+  _↳ explanation: Cette distinction est correcte : Des copies peuvent dépendre d’une même origine non vérifiée. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Deux copies de la même rumeur sont forcément deux preuves indépendantes. ».  
+> Des copies peuvent dépendre d’une même origine non vérifiée.  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ résultat : une ressource proposée par le service de recherche.  
+  _↳ explanation: Cette distinction est correcte : Le rang d’affichage n’est pas une preuve. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Une requête doit toujours contenir le mot de passe du compte.  
+  _↳ explanation: Les mots doivent viser la question, sans secret personnel._
+- ◻️ vérification : un examen croisé pertinent de l’information.  
+  _↳ explanation: Cette distinction est correcte : Des copies peuvent dépendre d’une même origine non vérifiée. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ source identifiable : une origine que l’on peut nommer et examiner.  
+  _↳ explanation: Cette distinction est correcte : Le support général ne suffit pas à identifier l’origine. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Une requête doit toujours contenir le mot de passe du compte. ».  
+> Les mots doivent viser la question, sans secret personnel.  
 
 ## Lesson 126: Identification et utilisation des points grammaticaux et temps verbaux étudiés
 
-Prerequisites: 112, 113, 118 · Skill: fi2-126 (Réutiliser la grammaire et les temps étudiés)
+Prerequisites: 104, 105, 112, 113, 118, 125 · Skill: fi2-126 (Réutiliser la grammaire et les temps étudiés)
 
 **Note** (draft)
 
-> Pour relire un texte, repère le sujet, le verbe et les relations entre les événements. Un sujet pluriel commande normalement un verbe pluriel. Le choix du temps dépend du sens : présent pour ce qui se passe maintenant ou une habitude actuelle ; imparfait pour une description passée ; futur pour une action à venir ; conditionnel pour une hypothèse ou une demande polie. Dans un récit, le passé antérieur marque une action achevée avant une autre action passée. Ne change pas les temps au hasard.
+> Réutiliser une règle demande de reconnaître le problème avant de choisir la forme. Pour l’accord, retrouve le sujet complet et sa personne. Pour un pronom possessif, identifie le nom repris et la relation de personne. Pour le verbe, distingue temps et construction : présent, imparfait, futur, conditionnel et passé antérieur ne sont pas interchangeables. Une révision ne consiste pas à recopier une terminaison vue ailleurs sans examiner la consigne. Les exercices précisent le temps afin de garder une correction claire.
 
-**Card c126-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Le sujet commande l’accord du verbe.
+> À la fin, tu pourras justifier un accord et produire une forme au temps demandé sans confondre règle et simple ressemblance. Acquis mobilisés : les sujets, reprises possessives et temps du module. Pour la suite : la dernière lecture et les productions autonomes.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> Réutiliser une règle demande de reconnaître le problème avant de choisir la forme. Pour l’accord, retrouve le sujet complet et sa personne. Pour un pronom possessif, identifie le nom repris et la relation de personne. Pour le verbe, distingue temps et construction : présent, imparfait, futur, conditionnel et passé antérieur ne sont pas interchangeables. Une révision ne consiste pas à recopier une terminaison vue ailleurs sans examiner la consigne. Les exercices précisent le temps afin de garder une correction claire.
+
+**Learn: Lire le modèle original** (draft)
+
+> Modèles de relecture : Bih et moi lisons le message ; les tiens sont prêts. Compare j’écrirai et j’écrirais. Pour un autre récit, elle eut fini comporte un auxiliaire au passé simple. Chaque choix répond à une analyse différente.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Nomme le point à vérifier puis donne une justification courte. Identifie le sujet ou le référent et le temps avant de conjuguer. Relis ensuite la phrase entière pour conserver la cohérence du message.
+
+**Learn: key words and examples** (draft)
+
+- **analyse du sujet**: le repérage commandant la personne et le nombre
+- **analyse du référent**: le repérage de l’élément repris par un pronom
+- **temps demandé**: la catégorie verbale explicitement visée par la consigne
+- **cohérence du message**: le maintien de liens compréhensibles entre les phrases
+
+
+Common mistake: “Le dernier nom décide toujours seul de l’accord.” → “le repérage commandant la personne et le nombre.”. L’ensemble du sujet doit être pris en compte.
+
+**Card fi2-126-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _Bih et moi écrivons._  
+> _analyse du sujet : le repérage commandant la personne et le nombre._  
+> _analyse du référent : le repérage de l’élément repris par un pronom._  
+> _temps demandé : la catégorie verbale explicitement visée par la consigne._  
+> _cohérence du message : le maintien de liens compréhensibles entre les phrases._  
 
-Check question: `fi2-126-etape-1` · multiple choice, level 1 · **authored key**, reused from practice
+Check question: `fi2-126-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Complète : La mienne ___ ici.
+> Quel terme désigne le maintien de liens compréhensibles entre les phrases ?
 
-- ◻️ sont  
-  _↳ feedback if chosen: La mienne est un sujet singulier._
-- ◻️ sommes  
-  _↳ feedback if chosen: La mienne est un sujet singulier._
-- ✅ est
+- ◻️ temps demandé  
+  _↳ feedback if chosen: Cela désigne la catégorie verbale explicitement visée par la consigne, plutôt que la notion demandée._
+- ◻️ analyse du sujet  
+  _↳ feedback if chosen: Cela désigne le repérage commandant la personne et le nombre, plutôt que la notion demandée._
+- ◻️ analyse du référent  
+  _↳ feedback if chosen: Cela désigne le repérage de l’élément repris par un pronom, plutôt que la notion demandée._
+- ✅ cohérence du message
 
 Full working after a second miss:
 
-> La mienne est un sujet singulier.  
-> La réponse est : est.  
+> Le lecteur doit pouvoir suivre les référents.  
+> Donc la réponse est « cohérence du message ».  
 
-**Card c126-2** (draft)
+**Card fi2-126-c2** (draft)
 
-> Le contexte aide à choisir le temps.
+> Lis le contexte avant de nommer la notion.
 >
-> _Autrefois, la radio occupait le centre de la pièce._  
+> _Bih et moi se remplace ici par nous._  
+> _Les tiens peut reprendre des cahiers déjà évoqués._  
+> _Futur simple et conditionnel ont des terminaisons distinctes._  
+> _Une reprise garde un référent identifiable._  
 
-Check question: `fi2-126-etape-2-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-126-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Quelle forme décrit une habitude passée ?
+> Futur simple et conditionnel ont des terminaisons distinctes.
+> Quelle notion convient ?
 
-- ◻️ Nous écoutons en ce moment.  
-  _↳ feedback if chosen: Écoutions est à l’imparfait et convient à l’habitude passée._
-- ◻️ Demain, nous écouterons la radio.  
-  _↳ feedback if chosen: Écoutions est à l’imparfait et convient à l’habitude passée._
-- ✅ Chaque soir, nous écoutions la radio.
+- ✅ temps demandé
+- ◻️ analyse du référent  
+  _↳ feedback if chosen: Cela concerne le repérage de l’élément repris par un pronom. Compare cette définition avec le cas présenté._
+- ◻️ analyse du sujet  
+  _↳ feedback if chosen: Cela concerne le repérage commandant la personne et le nombre. Compare cette définition avec le cas présenté._
+- ◻️ cohérence du message  
+  _↳ feedback if chosen: Cela concerne le maintien de liens compréhensibles entre les phrases. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Écoutions est à l’imparfait et convient à l’habitude passée.  
-> La réponse est : Chaque soir, nous écoutions la radio..  
+> Le radical commun ne suffit pas.  
+> Donc la réponse est « temps demandé ».  
 
-**Card c126-3** (draft)
+**Card fi2-126-c3** (draft)
 
-> Vérifie l’ordre des actions dans les temps composés.
+> Corrige sans changer le sens voulu.
 >
-> _Quand elle eut fini, elle publia son texte._  
+> _Le dernier nom décide toujours seul de l’accord. Correction : L’ensemble du sujet doit être pris en compte._  
+> _Le genre du propriétaire décide toujours de celui du référent. Correction : Le genre et le nombre suivent l’élément repris._  
+> _Toute forme comportant écrir- est nécessairement au même temps. Correction : Le radical commun ne suffit pas._  
+> _Changer les personnes au hasard rend toujours le message plus clair. Correction : Le lecteur doit pouvoir suivre les référents._  
 
-Check question: `fi2-126-etape-3-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-126-corriger-card` · spot the error, level 1 · **authored key**
 
-> Dans « Quand elle eut fini, elle publia », quelle action précède l’autre ?
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ◻️ Les deux actions sont au futur.  
-  _↳ feedback if chosen: Le passé antérieur présente l’action achevée avant l’action au passé simple._
-- ✅ Finir précède publier.
-- ◻️ Publier précède finir.  
-  _↳ feedback if chosen: Le passé antérieur présente l’action achevée avant l’action au passé simple._
+- ✅ Le dernier nom décide toujours seul de l’accord.  
+  _↳ explanation: L’ensemble du sujet doit être pris en compte._
+- ◻️ cohérence du message : le maintien de liens compréhensibles entre les phrases.  
+  _↳ explanation: Cette distinction est correcte : Le lecteur doit pouvoir suivre les référents. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ analyse du sujet : le repérage commandant la personne et le nombre.  
+  _↳ explanation: Cette distinction est correcte : L’ensemble du sujet doit être pris en compte. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ temps demandé : la catégorie verbale explicitement visée par la consigne.  
+  _↳ explanation: Cette distinction est correcte : Le radical commun ne suffit pas. Cherche plutôt une phrase qui contredit le sens ou la règle._
 
 Full working after a second miss:
 
-> Le passé antérieur présente l’action achevée avant l’action au passé simple.  
-> La réponse est : Finir précède publier..  
+> La phrase fausse est « Le dernier nom décide toujours seul de l’accord. ».  
+> L’ensemble du sujet doit être pris en compte.  
 
 **Worked example** (draft)
 
-> Quelle forme décrit une habitude passée ?
+> Bih et moi se remplace ici par nous. Explique le choix.
 
-1. Le contexte aide à choisir le temps.
-2. Écoutions est à l’imparfait et convient à l’habitude passée.
+1. le repérage commandant la personne et le nombre.
+2. L’ensemble du sujet doit être pris en compte.
 
-**Answer:** Chaque soir, nous écoutions la radio.
+**Answer:** analyse du sujet
 
-**Practice** `fi2-126-etape-1` · multiple choice, level 1 · **authored key**
+**Practice** `fi2-126-notions` · multiple choice, level 1 · **authored key**
 
-> Complète : La mienne ___ ici.
+> Quel terme désigne le repérage commandant la personne et le nombre ?
 
-- ✅ est
-- ◻️ sont  
-  _↳ feedback if chosen: La mienne est un sujet singulier._
-- ◻️ sommes  
-  _↳ feedback if chosen: La mienne est un sujet singulier._
-
-Full working after a second miss:
-
-> La mienne est un sujet singulier.  
-> La réponse est : est.  
-
-> Quelle phrase respecte l’accord ?
-
-- ◻️ Les élèves vérifie leurs sources.  
-  _↳ feedback if chosen: Les élèves est pluriel : vérifient._
-- ✅ Les élèves vérifient leurs sources.
-- ◻️ Les élèves vérifies leurs sources.  
-  _↳ feedback if chosen: Les élèves est pluriel : vérifient._
+- ◻️ analyse du référent  
+  _↳ feedback if chosen: Cela désigne le repérage de l’élément repris par un pronom, plutôt que la notion demandée._
+- ✅ analyse du sujet
+- ◻️ temps demandé  
+  _↳ feedback if chosen: Cela désigne la catégorie verbale explicitement visée par la consigne, plutôt que la notion demandée._
+- ◻️ cohérence du message  
+  _↳ feedback if chosen: Cela désigne le maintien de liens compréhensibles entre les phrases, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Les élèves est pluriel : vérifient.  
-> La réponse est : Les élèves vérifient leurs sources..  
+> L’ensemble du sujet doit être pris en compte.  
+> Donc la réponse est « analyse du sujet ».  
 
-**Practice** `fi2-126-etape-2` · multiple choice, level 2 · **authored key**
+> Quel terme désigne le repérage de l’élément repris par un pronom ?
 
-> Quelle forme décrit une habitude passée ?
-
-- ◻️ Demain, nous écouterons la radio.  
-  _↳ feedback if chosen: Écoutions est à l’imparfait et convient à l’habitude passée._
-- ✅ Chaque soir, nous écoutions la radio.
-- ◻️ Nous écoutons en ce moment.  
-  _↳ feedback if chosen: Écoutions est à l’imparfait et convient à l’habitude passée._
-
-Full working after a second miss:
-
-> Écoutions est à l’imparfait et convient à l’habitude passée.  
-> La réponse est : Chaque soir, nous écoutions la radio..  
-
-> Quelle forme décrit une habitude passée ?
-
-- ◻️ Demain, nous écouterons la radio.  
-  _↳ feedback if chosen: Écoutions est à l’imparfait et convient à l’habitude passée._
-- ✅ Chaque soir, nous écoutions la radio.
-- ◻️ Nous écoutons en ce moment.  
-  _↳ feedback if chosen: Écoutions est à l’imparfait et convient à l’habitude passée._
+- ◻️ analyse du sujet  
+  _↳ feedback if chosen: Cela désigne le repérage commandant la personne et le nombre, plutôt que la notion demandée._
+- ✅ analyse du référent
+- ◻️ temps demandé  
+  _↳ feedback if chosen: Cela désigne la catégorie verbale explicitement visée par la consigne, plutôt que la notion demandée._
+- ◻️ cohérence du message  
+  _↳ feedback if chosen: Cela désigne le maintien de liens compréhensibles entre les phrases, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Écoutions est à l’imparfait et convient à l’habitude passée.  
-> La réponse est : Chaque soir, nous écoutions la radio..  
+> Le genre et le nombre suivent l’élément repris.  
+> Donc la réponse est « analyse du référent ».  
 
-**Practice** `fi2-126-etape-3` · multiple choice, level 3 · **authored key**
+**Practice** `fi2-126-cas` · multiple choice, level 1 · **authored key**
 
-> Quelle révision corrige l’accord sans changer le sens ?
+> Futur simple et conditionnel ont des terminaisons distinctes.
+> Quelle notion convient ?
 
-- ✅ Les leurs fonctionnent bien.
-- ◻️ Les leurs fonctionne bien.  
-  _↳ feedback if chosen: Les leurs est pluriel et commande fonctionnent._
-- ◻️ Les leurs fonctionnes bien.  
-  _↳ feedback if chosen: Les leurs est pluriel et commande fonctionnent._
-
-Full working after a second miss:
-
-> Les leurs est pluriel et commande fonctionnent.  
-> La réponse est : Les leurs fonctionnent bien..  
-
-> Quelle révision corrige l’accord sans changer le sens ?
-
-- ◻️ Les leurs fonctionnes bien.  
-  _↳ feedback if chosen: Les leurs est pluriel et commande fonctionnent._
-- ◻️ Les leurs fonctionne bien.  
-  _↳ feedback if chosen: Les leurs est pluriel et commande fonctionnent._
-- ✅ Les leurs fonctionnent bien.
+- ✅ temps demandé
+- ◻️ cohérence du message  
+  _↳ feedback if chosen: Cela concerne le maintien de liens compréhensibles entre les phrases. Compare cette définition avec le cas présenté._
+- ◻️ analyse du référent  
+  _↳ feedback if chosen: Cela concerne le repérage de l’élément repris par un pronom. Compare cette définition avec le cas présenté._
+- ◻️ analyse du sujet  
+  _↳ feedback if chosen: Cela concerne le repérage commandant la personne et le nombre. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Les leurs est pluriel et commande fonctionnent.  
-> La réponse est : Les leurs fonctionnent bien..  
+> Le radical commun ne suffit pas.  
+> Donc la réponse est « temps demandé ».  
+
+> Les tiens peut reprendre des cahiers déjà évoqués.
+> Quelle notion convient ?
+
+- ◻️ temps demandé  
+  _↳ feedback if chosen: Cela concerne la catégorie verbale explicitement visée par la consigne. Compare cette définition avec le cas présenté._
+- ✅ analyse du référent
+- ◻️ cohérence du message  
+  _↳ feedback if chosen: Cela concerne le maintien de liens compréhensibles entre les phrases. Compare cette définition avec le cas présenté._
+- ◻️ analyse du sujet  
+  _↳ feedback if chosen: Cela concerne le repérage commandant la personne et le nombre. Compare cette définition avec le cas présenté._
+
+Full working after a second miss:
+
+> Le genre et le nombre suivent l’élément repris.  
+> Donc la réponse est « analyse du référent ».  
+
+**Practice** `fi2-126-conjuguer` · multiple choice, level 2 · computed by rule
+
+> Conjugue « parler » au temps demandé : présent, avec « elle ».
+
+- ◻️ elle eut parlé  
+  _↳ feedback if chosen: Cette forme est au passé antérieur, pas au temps demandé._
+- ◻️ elle parler  
+  _↳ feedback if chosen: L’infinitif ne porte pas la conjugaison personnelle demandée._
+- ◻️ elle a parlé  
+  _↳ feedback if chosen: Cette forme est au passé composé, pas au temps demandé._
+- ✅ elle parle
+
+Full working after a second miss:
+
+> Repère le sujet, puis distingue temps demandé et autres formes disponibles.  
+> La forme est elle parle.  
+
+> Conjugue « écrire » au temps demandé : futur simple, avec « nous ».
+
+- ◻️ nous écrire  
+  _↳ feedback if chosen: L’infinitif ne porte pas la conjugaison personnelle demandée._
+- ◻️ nous eûmes écrit  
+  _↳ feedback if chosen: Cette forme est au passé antérieur, pas au temps demandé._
+- ◻️ nous avons écrit  
+  _↳ feedback if chosen: Cette forme est au passé composé, pas au temps demandé._
+- ✅ nous écrirons
+
+Full working after a second miss:
+
+> Repère le sujet, puis distingue temps demandé et autres formes disponibles.  
+> La forme est nous écrirons.  
+
+**Practice** `fi2-126-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Futur simple et conditionnel ont des terminaisons distinctes. · Une reprise garde un référent identifiable. · Les tiens peut reprendre des cahiers déjà évoqués.
+- cohérence du message → **Une reprise garde un référent identifiable.**
+- temps demandé → **Futur simple et conditionnel ont des terminaisons distinctes.**
+- analyse du référent → **Les tiens peut reprendre des cahiers déjà évoqués.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> cohérence du message → Une reprise garde un référent identifiable.  
+> temps demandé → Futur simple et conditionnel ont des terminaisons distinctes.  
+> analyse du référent → Les tiens peut reprendre des cahiers déjà évoqués.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Les tiens peut reprendre des cahiers déjà évoqués. · Futur simple et conditionnel ont des terminaisons distinctes. · Une reprise garde un référent identifiable.
+- cohérence du message → **Une reprise garde un référent identifiable.**
+- analyse du référent → **Les tiens peut reprendre des cahiers déjà évoqués.**
+- temps demandé → **Futur simple et conditionnel ont des terminaisons distinctes.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> cohérence du message → Une reprise garde un référent identifiable.  
+> analyse du référent → Les tiens peut reprendre des cahiers déjà évoqués.  
+> temps demandé → Futur simple et conditionnel ont des terminaisons distinctes.  
+
+**Practice** `fi2-126-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ analyse du sujet : le repérage commandant la personne et le nombre.  
+  _↳ explanation: Cette distinction est correcte : L’ensemble du sujet doit être pris en compte. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ temps demandé : la catégorie verbale explicitement visée par la consigne.  
+  _↳ explanation: Cette distinction est correcte : Le radical commun ne suffit pas. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Toute forme comportant écrir- est nécessairement au même temps.  
+  _↳ explanation: Le radical commun ne suffit pas._
+- ◻️ cohérence du message : le maintien de liens compréhensibles entre les phrases.  
+  _↳ explanation: Cette distinction est correcte : Le lecteur doit pouvoir suivre les référents. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Toute forme comportant écrir- est nécessairement au même temps. ».  
+> Le radical commun ne suffit pas.  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ temps demandé : la catégorie verbale explicitement visée par la consigne.  
+  _↳ explanation: Cette distinction est correcte : Le radical commun ne suffit pas. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ analyse du sujet : le repérage commandant la personne et le nombre.  
+  _↳ explanation: Cette distinction est correcte : L’ensemble du sujet doit être pris en compte. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ cohérence du message : le maintien de liens compréhensibles entre les phrases.  
+  _↳ explanation: Cette distinction est correcte : Le lecteur doit pouvoir suivre les référents. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Changer les personnes au hasard rend toujours le message plus clair.  
+  _↳ explanation: Le lecteur doit pouvoir suivre les référents._
+
+Full working after a second miss:
+
+> La phrase fausse est « Changer les personnes au hasard rend toujours le message plus clair. ».  
+> Le lecteur doit pouvoir suivre les référents.  
 
 ## Lesson 127: Lecture suivie de courts textes littéraires
 
-Prerequisites: none · Skill: fi2-127 (Lecture suivie : le micro silencieux)
+Prerequisites: 122, 125, 126 · Skill: fi2-127 (Lecture suivie : le micro silencieux)
 
 **Note** (draft)
 
-> Récit original — Le micro silencieux
-> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin.
-> Lis les actions dans l’ordre et cherche comment les personnages réagissent au problème. Une interprétation se justifie par le texte. Ce récit original ne remplace pas une œuvre prescrite par l’établissement.
+> Lis d’abord le passage entier, puis relève personnages, actions et repères. Distingue ce qui est directement écrit de ce qui peut être déduit d’un indice. Une scène fictive peut suggérer une idée sans prouver une règle sur toute une population. Dans un récit, le narrateur ne révèle pas forcément toutes les pensées. Pour répondre, appuie le choix sur les mots du texte et respecte ses limites.
 
-**Card c127-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Repère le problème rencontré par le personnage.
+> À la fin, tu pourras expliquer une résolution et la limite du récit à partir d’indices précis. Acquis mobilisés : la narration, les sources et les temps révisés. Pour la suite : la production finale de description portrait et narration.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> Lis d’abord le passage entier, puis relève personnages, actions et repères. Distingue ce qui est directement écrit de ce qui peut être déduit d’un indice. Une scène fictive peut suggérer une idée sans prouver une règle sur toute une population. Dans un récit, le narrateur ne révèle pas forcément toutes les pensées. Pour répondre, appuie le choix sur les mots du texte et respecte ses limites.
+
+**Learn: Lire le modèle original** (draft)
+
+> Récit original : Le micro restait silencieux dans la salle du club imaginaire. Bih regarda sa fiche, puis les visages tournés vers elle. Ayuk proposa de lire le texte à voix naturelle, près du groupe, sans toucher à l’appareil. Bih accepta. À la fin de la lecture, une camarade demanda d’où venait une affirmation. Bih ouvrit le cahier des sources avant de répondre. Le récit s’arrête là : il ne dit ni pourquoi le micro était silencieux ni quelle réponse fut donnée.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Relis la phrase utile, formule une réponse puis vérifie son appui. Distingue l’ordre des faits, les motifs donnés et ce qui reste inconnu. Ne transforme pas un projet ou une image littéraire en résultat mesuré.
+
+**Learn: key words and examples** (draft)
+
+- **information explicite**: un fait directement donné par les mots
+- **point de vue du récit**: la manière dont le narrateur donne accès à la scène
+- **chronologie**: l’ordre des faits racontés
+- **limite du texte**: ce que ce passage ne permet pas d’affirmer
+
+
+Common mistake: “Tout détail imaginé est explicitement présent.” → “un fait directement donné par les mots.”. Il faut retrouver le détail dans le passage.
+
+**Card fi2-127-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _Le micro ne transmet pas la voix._  
+> _information explicite : un fait directement donné par les mots._  
+> _point de vue du récit : la manière dont le narrateur donne accès à la scène._  
+> _chronologie : l’ordre des faits racontés._  
+> _limite du texte : ce que ce passage ne permet pas d’affirmer._  
 
-Check question: `fi2-127-etape-1` · multiple choice, level 1 · **authored key**, reused from practice
+Check question: `fi2-127-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Récit original — Le micro silencieux
-> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Que doit lire Nji ?
+> Quel terme désigne ce que ce passage ne permet pas d’affirmer ?
 
-- ◻️ Une carte routière.  
-  _↳ feedback if chosen: Sa tâche est donnée dès la première phrase._
-- ◻️ Un menu de restaurant.  
-  _↳ feedback if chosen: Sa tâche est donnée dès la première phrase._
-- ✅ Une annonce.
+- ◻️ information explicite  
+  _↳ feedback if chosen: Cela désigne un fait directement donné par les mots, plutôt que la notion demandée._
+- ✅ limite du texte
+- ◻️ point de vue du récit  
+  _↳ feedback if chosen: Cela désigne la manière dont le narrateur donne accès à la scène, plutôt que la notion demandée._
+- ◻️ chronologie  
+  _↳ feedback if chosen: Cela désigne l’ordre des faits racontés, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Sa tâche est donnée dès la première phrase.  
-> La réponse est : Une annonce..  
+> L’exemple ne donne pas cette portée générale.  
+> Donc la réponse est « limite du texte ».  
 
-**Card c127-2** (draft)
+**Card fi2-127-c2** (draft)
 
-> Observe les réactions et les aides.
+> Lis le contexte avant de nommer la notion.
 >
-> _Bih encourage Nji à parler lentement._  
+> _Une action écrite peut être relevée sans ajout._  
+> _Le récit peut montrer les actions sans révéler toutes les pensées._  
+> _Une préparation peut précéder une présentation._  
+> _Sans résultat donné, on ne peut inventer un succès mesuré._  
 
-Check question: `fi2-127-etape-2-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-127-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Récit original — Le micro silencieux
-> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Que font les camarades ?
+> Sans résultat donné, on ne peut inventer un succès mesuré.
+> Quelle notion convient ?
 
-- ◻️ Ils réparent le micro dans le texte.  
-  _↳ feedback if chosen: Se rapprocher les aide à entendre, mais le texte ne dit pas qu’ils réparent le micro._
-- ◻️ Ils quittent tous l’école.  
-  _↳ feedback if chosen: Se rapprocher les aide à entendre, mais le texte ne dit pas qu’ils réparent le micro._
-- ✅ Ils se rapprochent.
+- ✅ limite du texte
+- ◻️ information explicite  
+  _↳ feedback if chosen: Cela concerne un fait directement donné par les mots. Compare cette définition avec le cas présenté._
+- ◻️ chronologie  
+  _↳ feedback if chosen: Cela concerne l’ordre des faits racontés. Compare cette définition avec le cas présenté._
+- ◻️ point de vue du récit  
+  _↳ feedback if chosen: Cela concerne la manière dont le narrateur donne accès à la scène. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Se rapprocher les aide à entendre, mais le texte ne dit pas qu’ils réparent le micro.  
-> La réponse est : Ils se rapprochent..  
+> L’exemple ne donne pas cette portée générale.  
+> Donc la réponse est « limite du texte ».  
 
-**Card c127-3** (draft)
+**Card fi2-127-c3** (draft)
 
-> La fin permet de comprendre l’évolution du personnage.
+> Corrige sans changer le sens voulu.
 >
-> _Nji continue malgré le problème matériel._  
+> _Tout détail imaginé est explicitement présent. Correction : Il faut retrouver le détail dans le passage._  
+> _Le lecteur connaît obligatoirement chaque pensée non écrite. Correction : On ne peut attribuer au texte ce qu’il ne révèle pas._  
+> _L’ordre raconté impose forcément de commencer par la fin. Correction : Les repères du passage doivent être suivis._  
+> _Une scène inventée prouve tous les cas réels. Correction : L’exemple ne donne pas cette portée générale._  
 
-Check question: `fi2-127-etape-3-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-127-corriger-card` · spot the error, level 1 · **authored key**
 
-> Récit original — Le micro silencieux
-> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Quelle idée est soutenue par le dénouement ?
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ◻️ Sans micro, personne ne peut jamais communiquer.  
-  _↳ feedback if chosen: Nji lit plus calmement et les autres se rapprochent._
-- ◻️ Le matériel décide de tout sans exception.  
-  _↳ feedback if chosen: Nji lit plus calmement et les autres se rapprochent._
-- ✅ On peut adapter sa manière de communiquer à un obstacle.
+- ◻️ point de vue du récit : la manière dont le narrateur donne accès à la scène.  
+  _↳ explanation: Cette distinction est correcte : On ne peut attribuer au texte ce qu’il ne révèle pas. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ limite du texte : ce que ce passage ne permet pas d’affirmer.  
+  _↳ explanation: Cette distinction est correcte : L’exemple ne donne pas cette portée générale. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Le lecteur connaît obligatoirement chaque pensée non écrite.  
+  _↳ explanation: On ne peut attribuer au texte ce qu’il ne révèle pas._
+- ◻️ chronologie : l’ordre des faits racontés.  
+  _↳ explanation: Cette distinction est correcte : Les repères du passage doivent être suivis. Cherche plutôt une phrase qui contredit le sens ou la règle._
 
 Full working after a second miss:
 
-> Nji lit plus calmement et les autres se rapprochent.  
-> La réponse est : On peut adapter sa manière de communiquer à un obstacle..  
+> La phrase fausse est « Le lecteur connaît obligatoirement chaque pensée non écrite. ».  
+> On ne peut attribuer au texte ce qu’il ne révèle pas.  
 
 **Worked example** (draft)
 
-> Récit original — Le micro silencieux
-> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Quel conseil Bih transmet-elle par son signe ?
+> Une action écrite peut être relevée sans ajout. Explique le choix.
 
-1. Observe les réactions et les aides.
-2. Le texte explique le sens de son signe.
+1. un fait directement donné par les mots.
+2. Il faut retrouver le détail dans le passage.
 
-**Answer:** Parler lentement.
+**Answer:** information explicite
 
-**Practice** `fi2-127-etape-1` · multiple choice, level 1 · **authored key**
+**Practice** `fi2-127-notions` · multiple choice, level 1 · **authored key**
 
-> Récit original — Le micro silencieux
-> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Que doit lire Nji ?
+> Quel terme désigne un fait directement donné par les mots ?
 
-- ✅ Une annonce.
-- ◻️ Un menu de restaurant.  
-  _↳ feedback if chosen: Sa tâche est donnée dès la première phrase._
-- ◻️ Une carte routière.  
-  _↳ feedback if chosen: Sa tâche est donnée dès la première phrase._
-
-Full working after a second miss:
-
-> Sa tâche est donnée dès la première phrase.  
-> La réponse est : Une annonce..  
-
-> Récit original — Le micro silencieux
-> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Quel problème rencontre Nji ?
-
-- ✅ Le micro reste silencieux.
-- ◻️ Le club ferme pour toujours.  
-  _↳ feedback if chosen: Le texte annonce un micro silencieux._
-- ◻️ Le cahier brûle.  
-  _↳ feedback if chosen: Le texte annonce un micro silencieux._
+- ✅ information explicite
+- ◻️ chronologie  
+  _↳ feedback if chosen: Cela désigne l’ordre des faits racontés, plutôt que la notion demandée._
+- ◻️ point de vue du récit  
+  _↳ feedback if chosen: Cela désigne la manière dont le narrateur donne accès à la scène, plutôt que la notion demandée._
+- ◻️ limite du texte  
+  _↳ feedback if chosen: Cela désigne ce que ce passage ne permet pas d’affirmer, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le texte annonce un micro silencieux.  
-> La réponse est : Le micro reste silencieux..  
+> Il faut retrouver le détail dans le passage.  
+> Donc la réponse est « information explicite ».  
 
-**Practice** `fi2-127-etape-2` · multiple choice, level 2 · **authored key**
+> Quel terme désigne un fait directement donné par les mots ?
 
-> Récit original — Le micro silencieux
-> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Quel conseil Bih transmet-elle par son signe ?
-
-- ◻️ Quitter immédiatement le club.  
-  _↳ feedback if chosen: Le texte explique le sens de son signe._
-- ◻️ Déchirer l’annonce.  
-  _↳ feedback if chosen: Le texte explique le sens de son signe._
-- ✅ Parler lentement.
-
-Full working after a second miss:
-
-> Le texte explique le sens de son signe.  
-> La réponse est : Parler lentement..  
-
-> Récit original — Le micro silencieux
-> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Que font les camarades ?
-
-- ◻️ Ils réparent le micro dans le texte.  
-  _↳ feedback if chosen: Se rapprocher les aide à entendre, mais le texte ne dit pas qu’ils réparent le micro._
-- ◻️ Ils quittent tous l’école.  
-  _↳ feedback if chosen: Se rapprocher les aide à entendre, mais le texte ne dit pas qu’ils réparent le micro._
-- ✅ Ils se rapprochent.
+- ✅ information explicite
+- ◻️ point de vue du récit  
+  _↳ feedback if chosen: Cela désigne la manière dont le narrateur donne accès à la scène, plutôt que la notion demandée._
+- ◻️ chronologie  
+  _↳ feedback if chosen: Cela désigne l’ordre des faits racontés, plutôt que la notion demandée._
+- ◻️ limite du texte  
+  _↳ feedback if chosen: Cela désigne ce que ce passage ne permet pas d’affirmer, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Se rapprocher les aide à entendre, mais le texte ne dit pas qu’ils réparent le micro.  
-> La réponse est : Ils se rapprochent..  
+> Il faut retrouver le détail dans le passage.  
+> Donc la réponse est « information explicite ».  
 
-**Practice** `fi2-127-etape-3` · multiple choice, level 3 · **authored key**
+**Practice** `fi2-127-cas` · multiple choice, level 1 · **authored key**
 
-> Récit original — Le micro silencieux
-> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Le texte prouve-t-il que le micro a été réparé ?
+> Une action écrite peut être relevée sans ajout.
+> Quelle notion convient ?
 
-- ✅ Non, il dit seulement que le message a été compris.
-- ◻️ Oui, une réparation est décrite en détail.  
-  _↳ feedback if chosen: La compréhension du message ne prouve pas la réparation de l’appareil._
-- ◻️ Oui, parce que chacun possède un micro.  
-  _↳ feedback if chosen: La compréhension du message ne prouve pas la réparation de l’appareil._
-
-Full working after a second miss:
-
-> La compréhension du message ne prouve pas la réparation de l’appareil.  
-> La réponse est : Non, il dit seulement que le message a été compris..  
-
-> Récit original — Le micro silencieux
-> Au club, Nji devait lire une annonce. Le micro resta silencieux. Il baissa les yeux, puis vit Bih lui faire signe de parler lentement. Nji releva la tête et lut sans micro. Les camarades se rapprochèrent. À la fin, chacun avait compris : le message avait trouvé son chemin. Quelle idée est soutenue par le dénouement ?
-
-- ✅ On peut adapter sa manière de communiquer à un obstacle.
-- ◻️ Le matériel décide de tout sans exception.  
-  _↳ feedback if chosen: Nji lit plus calmement et les autres se rapprochent._
-- ◻️ Sans micro, personne ne peut jamais communiquer.  
-  _↳ feedback if chosen: Nji lit plus calmement et les autres se rapprochent._
+- ◻️ point de vue du récit  
+  _↳ feedback if chosen: Cela concerne la manière dont le narrateur donne accès à la scène. Compare cette définition avec le cas présenté._
+- ✅ information explicite
+- ◻️ limite du texte  
+  _↳ feedback if chosen: Cela concerne ce que ce passage ne permet pas d’affirmer. Compare cette définition avec le cas présenté._
+- ◻️ chronologie  
+  _↳ feedback if chosen: Cela concerne l’ordre des faits racontés. Compare cette définition avec le cas présenté._
 
 Full working after a second miss:
 
-> Nji lit plus calmement et les autres se rapprochent.  
-> La réponse est : On peut adapter sa manière de communiquer à un obstacle..  
+> Il faut retrouver le détail dans le passage.  
+> Donc la réponse est « information explicite ».  
+
+> Le récit peut montrer les actions sans révéler toutes les pensées.
+> Quelle notion convient ?
+
+- ✅ point de vue du récit
+- ◻️ chronologie  
+  _↳ feedback if chosen: Cela concerne l’ordre des faits racontés. Compare cette définition avec le cas présenté._
+- ◻️ limite du texte  
+  _↳ feedback if chosen: Cela concerne ce que ce passage ne permet pas d’affirmer. Compare cette définition avec le cas présenté._
+- ◻️ information explicite  
+  _↳ feedback if chosen: Cela concerne un fait directement donné par les mots. Compare cette définition avec le cas présenté._
+
+Full working after a second miss:
+
+> On ne peut attribuer au texte ce qu’il ne révèle pas.  
+> Donc la réponse est « point de vue du récit ».  
+
+**Practice** `fi2-127-comprendre` · multiple choice, level 2 · **authored key**
+
+> Quelle conclusion est la mieux appuyée ?
+
+- ◻️ La réponse finale a satisfait toute la salle.  
+  _↳ feedback if chosen: La réponse n’est pas racontée._
+- ◻️ Le micro a été volontairement cassé.  
+  _↳ feedback if chosen: L’intention et la cause sont inconnues._
+- ✅ La scène montre une adaptation suivie d’une demande de source.
+- ◻️ Tout problème technique est désormais résolu.  
+  _↳ feedback if chosen: La cause et la réparation ne sont pas données._
+
+Full working after a second miss:
+
+> La conclusion conserve la portée des indices.  
+> Donc la réponse est « La scène montre une adaptation suivie d’une demande de source. ».  
+
+> Quelle information reste inconnue ?
+
+- ◻️ La présence d’une question finale.  
+  _↳ feedback if chosen: La question est racontée._
+- ◻️ Le fait que Bih accepte.  
+  _↳ feedback if chosen: Son acceptation est écrite._
+- ◻️ La proposition d’Ayuk.  
+  _↳ feedback if chosen: La proposition est explicite._
+- ✅ La cause exacte du silence du micro.
+
+Full working after a second miss:
+
+> Le narrateur garde cette limite.  
+> Donc la réponse est « La cause exacte du silence du micro. ».  
+
+**Practice** `fi2-127-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Le récit peut montrer les actions sans révéler toutes les pensées. · Une préparation peut précéder une présentation. · Sans résultat donné, on ne peut inventer un succès mesuré.
+- chronologie → **Une préparation peut précéder une présentation.**
+- point de vue du récit → **Le récit peut montrer les actions sans révéler toutes les pensées.**
+- limite du texte → **Sans résultat donné, on ne peut inventer un succès mesuré.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> chronologie → Une préparation peut précéder une présentation.  
+> point de vue du récit → Le récit peut montrer les actions sans révéler toutes les pensées.  
+> limite du texte → Sans résultat donné, on ne peut inventer un succès mesuré.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Une préparation peut précéder une présentation. · Sans résultat donné, on ne peut inventer un succès mesuré. · Le récit peut montrer les actions sans révéler toutes les pensées.
+- chronologie → **Une préparation peut précéder une présentation.**
+- point de vue du récit → **Le récit peut montrer les actions sans révéler toutes les pensées.**
+- limite du texte → **Sans résultat donné, on ne peut inventer un succès mesuré.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> chronologie → Une préparation peut précéder une présentation.  
+> point de vue du récit → Le récit peut montrer les actions sans révéler toutes les pensées.  
+> limite du texte → Sans résultat donné, on ne peut inventer un succès mesuré.  
+
+**Practice** `fi2-127-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ information explicite : un fait directement donné par les mots.  
+  _↳ explanation: Cette distinction est correcte : Il faut retrouver le détail dans le passage. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ limite du texte : ce que ce passage ne permet pas d’affirmer.  
+  _↳ explanation: Cette distinction est correcte : L’exemple ne donne pas cette portée générale. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ chronologie : l’ordre des faits racontés.  
+  _↳ explanation: Cette distinction est correcte : Les repères du passage doivent être suivis. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Tout détail imaginé est explicitement présent.  
+  _↳ explanation: Il faut retrouver le détail dans le passage._
+
+Full working after a second miss:
+
+> La phrase fausse est « Tout détail imaginé est explicitement présent. ».  
+> Il faut retrouver le détail dans le passage.  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ limite du texte : ce que ce passage ne permet pas d’affirmer.  
+  _↳ explanation: Cette distinction est correcte : L’exemple ne donne pas cette portée générale. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ information explicite : un fait directement donné par les mots.  
+  _↳ explanation: Cette distinction est correcte : Il faut retrouver le détail dans le passage. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ L’ordre raconté impose forcément de commencer par la fin.  
+  _↳ explanation: Les repères du passage doivent être suivis._
+- ◻️ point de vue du récit : la manière dont le narrateur donne accès à la scène.  
+  _↳ explanation: Cette distinction est correcte : On ne peut attribuer au texte ce qu’il ne révèle pas. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « L’ordre raconté impose forcément de commencer par la fin. ».  
+> Les repères du passage doivent être suivis.  
 
 ## Lesson 128: Description portrait narration
 
-Prerequisites: none · Skill: fi2-128 (Description, portrait et narration)
+Prerequisites: 110, 117, 122, 124, 126, 127 · Skill: fi2-128 (Description, portrait et narration)
 
 **Note** (draft)
 
-> La description présente un lieu ou un objet ; le portrait décrit une personne ou un personnage ; la narration raconte des événements. Un même texte peut combiner ces démarches : décrire la salle du club, présenter une élève puis raconter la préparation d’une annonce. Pour écrire, choisis ton but et organise les passages. Les détails doivent aider le lecteur à comprendre les personnages et les actions. Relis pour vérifier la cohérence, les temps, les accords et la ponctuation.
+> Décrire organise les détails d’un lieu ou d’un objet ; dresser un portrait présente un personnage ; raconter relie des événements. Un même texte peut combiner ces intentions, mais il faut garder une progression lisible. Le lieu aide à situer l’action, les traits du personnage peuvent être soutenus par ses gestes et les événements suivent des liens temporels ou causaux. Ne transforme pas toute apparence en caractère certain ni toute description en récit d’actions. Les personnages et le cadre peuvent rester entièrement fictifs.
 
-**Card c128-1** (draft)
+**Learn: Ton objectif et les liens** (draft)
 
-> Identifie le but principal du passage.
+> À la fin, tu pourras choisir une organisation adaptée puis produire des passages distinguant lieu personnage et événements. Acquis mobilisés : les descriptions, portraits, récits et lectures du trimestre. Pour la suite : les productions plus longues de la classe suivante.
+
+**Learn: Comprendre la règle ou le sens** (draft)
+
+> Décrire organise les détails d’un lieu ou d’un objet ; dresser un portrait présente un personnage ; raconter relie des événements. Un même texte peut combiner ces intentions, mais il faut garder une progression lisible. Le lieu aide à situer l’action, les traits du personnage peuvent être soutenus par ses gestes et les événements suivent des liens temporels ou causaux. Ne transforme pas toute apparence en caractère certain ni toute description en récit d’actions. Les personnages et le cadre peuvent rester entièrement fictifs.
+
+**Learn: Lire le modèle original** (draft)
+
+> Modèle original : Description : Une table occupe le centre de la salle imaginaire ; un panneau de projets se trouve au fond. Portrait : Bih garde un cahier près d’elle. Elle écoute une question jusqu’au bout, ce qui la présente comme attentive dans la scène. Narration : Un titre manquait sur la fiche. Bih a consulté ses notes avec Ayuk, puis ils ont complété le document. Le projet est prêt à être relu, sans résultat public encore annoncé.
+
+**Learn: Appliquer et vérifier** (draft)
+
+> Décide ce que chaque passage doit faire avant de rédiger. Garde le même lieu et les mêmes personnages si tu combines les intentions. Vérifie les repères, les indices de caractère et les liens entre actions, puis les accords et les temps.
+
+**Learn: key words and examples** (draft)
+
+- **description**: une organisation des détails d’un lieu ou d’un objet
+- **portrait**: une présentation organisée d’un personnage
+- **narration**: une relation des événements et de leur déroulement
+- **combinaison cohérente**: l’association d’intentions restant lisibles
+
+
+Common mistake: “Une description se réduit toujours à une succession d’accidents.” → “une organisation des détails d’un lieu ou d’un objet.”. Son rôle peut être de représenter l’espace.
+
+**Card fi2-128-c1** (draft)
+
+> Distingue les notions avant de choisir.
 >
-> _Une salle lumineuse : description ; une élève patiente : portrait._  
+> _description : une organisation des détails d’un lieu ou d’un objet._  
+> _portrait : une présentation organisée d’un personnage._  
+> _narration : une relation des événements et de leur déroulement._  
+> _combinaison cohérente : l’association d’intentions restant lisibles._  
 
-Check question: `fi2-128-etape-1` · multiple choice, level 1 · **authored key**, reused from practice
+Check question: `fi2-128-notions` · multiple choice, level 1 · **authored key**, reused from practice
 
-> « La salle est lumineuse ; une table occupe le centre. » C’est surtout…
+> Quel terme désigne une présentation organisée d’un personnage ?
 
-- ✅ une description.
-- ◻️ une demande officielle.  
-  _↳ feedback if chosen: Le passage présente un lieu et sa disposition._
-- ◻️ une conjugaison isolée.  
-  _↳ feedback if chosen: Le passage présente un lieu et sa disposition._
+- ✅ portrait
+- ◻️ combinaison cohérente  
+  _↳ feedback if chosen: Cela désigne l’association d’intentions restant lisibles, plutôt que la notion demandée._
+- ◻️ narration  
+  _↳ feedback if chosen: Cela désigne une relation des événements et de leur déroulement, plutôt que la notion demandée._
+- ◻️ description  
+  _↳ feedback if chosen: Cela désigne une organisation des détails d’un lieu ou d’un objet, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Le passage présente un lieu et sa disposition.  
-> La réponse est : une description..  
+> Un trait doit être appuyé sans jugement global.  
+> Donc la réponse est « portrait ».  
 
-**Card c128-2** (draft)
+**Card fi2-128-c2** (draft)
 
-> Une narration fait avancer les événements.
+> Lis le contexte avant de nommer la notion.
 >
-> _Bih arriva, prit son cahier puis lut l’annonce._  
+> _La table au centre situe le lieu._  
+> _Le geste d’écoute soutient un trait de Bih._  
+> _La recherche du titre mène à la fiche complétée._  
+> _Le lieu, le personnage et l’action gardent les mêmes référents._  
 
-Check question: `fi2-128-etape-2-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-128-cas` · multiple choice, level 1 · **authored key**, reused from practice
 
-> Quel passage raconte des événements ?
+> La table au centre situe le lieu.
+> Quelle notion convient ?
 
-- ✅ Bih a ouvert le cahier, puis elle a lu l’annonce.
-- ◻️ Bih est calme et attentive.  
-  _↳ feedback if chosen: Les actions successives font avancer le récit._
-- ◻️ La table est ronde et blanche.  
-  _↳ feedback if chosen: Les actions successives font avancer le récit._
+- ◻️ combinaison cohérente  
+  _↳ feedback if chosen: Cela concerne l’association d’intentions restant lisibles. Compare cette définition avec le cas présenté._
+- ◻️ narration  
+  _↳ feedback if chosen: Cela concerne une relation des événements et de leur déroulement. Compare cette définition avec le cas présenté._
+- ◻️ portrait  
+  _↳ feedback if chosen: Cela concerne une présentation organisée d’un personnage. Compare cette définition avec le cas présenté._
+- ✅ description
 
 Full working after a second miss:
 
-> Les actions successives font avancer le récit.  
-> La réponse est : Bih a ouvert le cahier, puis elle a lu l’annonce..  
+> Son rôle peut être de représenter l’espace.  
+> Donc la réponse est « description ».  
 
-**Card c128-3** (draft)
+**Card fi2-128-c3** (draft)
 
-> Combine les passages sans perdre le fil du texte.
+> Corrige sans changer le sens voulu.
 >
-> _Je présente le lieu, le personnage, puis le problème et sa résolution._  
+> _Une description se réduit toujours à une succession d’accidents. Correction : Son rôle peut être de représenter l’espace._  
+> _Le portrait doit juger toute la valeur d’une personne à ses vêtements. Correction : Un trait doit être appuyé sans jugement global._  
+> _Une narration doit interdire tout lien entre actions. Correction : Les liens rendent le déroulement compréhensible._  
+> _Combiner impose de changer toutes les identités sans explication. Correction : La continuité aide le lecteur._  
 
-Check question: `fi2-128-etape-3-card` · multiple choice, level 1 · **authored key**
+Check question: `fi2-128-corriger-card` · spot the error, level 1 · **authored key**
 
-> Quel plan réunit les trois démarches ?
+> Repère la formulation ou l’affirmation incorrecte.
 
-- ◻️ Changer de sujet à chaque phrase.  
-  _↳ feedback if chosen: Le plan articule description, portrait et narration autour d’une même scène._
-- ✅ Présenter la salle, faire le portrait de Bih, raconter son intervention.
-- ◻️ Répéter le même adjectif sans événement.  
-  _↳ feedback if chosen: Le plan articule description, portrait et narration autour d’une même scène._
+- ◻️ portrait : une présentation organisée d’un personnage.  
+  _↳ explanation: Cette distinction est correcte : Un trait doit être appuyé sans jugement global. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ combinaison cohérente : l’association d’intentions restant lisibles.  
+  _↳ explanation: Cette distinction est correcte : La continuité aide le lecteur. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Une description se réduit toujours à une succession d’accidents.  
+  _↳ explanation: Son rôle peut être de représenter l’espace._
+- ◻️ description : une organisation des détails d’un lieu ou d’un objet.  
+  _↳ explanation: Cette distinction est correcte : Son rôle peut être de représenter l’espace. Cherche plutôt une phrase qui contredit le sens ou la règle._
 
 Full working after a second miss:
 
-> Le plan articule description, portrait et narration autour d’une même scène.  
-> La réponse est : Présenter la salle, faire le portrait de Bih, raconter son intervention..  
+> La phrase fausse est « Une description se réduit toujours à une succession d’accidents. ».  
+> Son rôle peut être de représenter l’espace.  
 
 **Worked example** (draft)
 
-> Quel passage raconte des événements ?
+> La table au centre situe le lieu. Explique le choix.
 
-1. Une narration fait avancer les événements.
-2. Les actions successives font avancer le récit.
+1. une organisation des détails d’un lieu ou d’un objet.
+2. Son rôle peut être de représenter l’espace.
 
-**Answer:** Bih a ouvert le cahier, puis elle a lu l’annonce.
+**Answer:** description
 
 **Paper task** (draft; not marked by the app, mastery stays unknown)
 
-> Écris un texte sur une annonce au club de l’école. Décris brièvement le lieu, présente un personnage et raconte comment il communique malgré un petit obstacle.
+> Pour un club entièrement fictif, rédige des passages courts : décrire le lieu, présenter un personnage puis raconter une difficulté résolue. Garde une progression et des référents cohérents.
 
 Model answer, shown after the pupil has written:
 
-> La salle du club est claire et bien rangée. Bih, une élève attentive, tient son cahier près de la table. Ce matin-là, le micro est tombé en panne. Elle a demandé aux camarades de se rapprocher, puis elle a lu lentement. Tout le monde a compris l’annonce.  
+> Description : Une table occupe le centre de la salle imaginaire ; un panneau de projets se trouve au fond.  
+> Portrait : Bih garde un cahier près d’elle. Elle écoute une question jusqu’au bout, ce qui la présente comme attentive dans la scène.  
+> Narration : Un titre manquait sur la fiche. Bih a consulté ses notes avec Ayuk, puis ils ont complété le document. Le projet est prêt à être relu, sans résultat public encore annoncé.  
 
 Self-check list:
 
-- [ ] J’ai décrit le lieu et présenté le personnage.
-- [ ] J’ai raconté un obstacle et sa résolution.
-- [ ] Les passages, les temps et les accords sont cohérents.
+- [ ] Chaque passage remplit l’intention annoncée.
+- [ ] Mes détails et actions soutiennent les traits sans jugement infondé.
+- [ ] Les repères, pronoms, temps, accords et ponctuation sont relus.
 
-**Practice** `fi2-128-etape-1` · multiple choice, level 1 · **authored key**
+**Practice** `fi2-128-notions` · multiple choice, level 1 · **authored key**
 
-> « Bih est patiente et porte une veste bleue. » C’est surtout…
+> Quel terme désigne l’association d’intentions restant lisibles ?
 
-- ◻️ une recette.  
-  _↳ feedback if chosen: Le passage décrit une personne._
-- ◻️ un itinéraire.  
-  _↳ feedback if chosen: Le passage décrit une personne._
-- ✅ un portrait.
-
-Full working after a second miss:
-
-> Le passage décrit une personne.  
-> La réponse est : un portrait..  
-
-> « La salle est lumineuse ; une table occupe le centre. » C’est surtout…
-
-- ◻️ une conjugaison isolée.  
-  _↳ feedback if chosen: Le passage présente un lieu et sa disposition._
-- ◻️ une demande officielle.  
-  _↳ feedback if chosen: Le passage présente un lieu et sa disposition._
-- ✅ une description.
+- ◻️ description  
+  _↳ feedback if chosen: Cela désigne une organisation des détails d’un lieu ou d’un objet, plutôt que la notion demandée._
+- ◻️ narration  
+  _↳ feedback if chosen: Cela désigne une relation des événements et de leur déroulement, plutôt que la notion demandée._
+- ◻️ portrait  
+  _↳ feedback if chosen: Cela désigne une présentation organisée d’un personnage, plutôt que la notion demandée._
+- ✅ combinaison cohérente
 
 Full working after a second miss:
 
-> Le passage présente un lieu et sa disposition.  
-> La réponse est : une description..  
+> La continuité aide le lecteur.  
+> Donc la réponse est « combinaison cohérente ».  
 
-**Practice** `fi2-128-etape-2` · multiple choice, level 2 · **authored key**
+> Quel terme désigne l’association d’intentions restant lisibles ?
 
-> Quel passage raconte des événements ?
-
-- ◻️ Bih est calme et attentive.  
-  _↳ feedback if chosen: Les actions successives font avancer le récit._
-- ◻️ La table est ronde et blanche.  
-  _↳ feedback if chosen: Les actions successives font avancer le récit._
-- ✅ Bih a ouvert le cahier, puis elle a lu l’annonce.
-
-Full working after a second miss:
-
-> Les actions successives font avancer le récit.  
-> La réponse est : Bih a ouvert le cahier, puis elle a lu l’annonce..  
-
-> Quel passage peut préparer une narration ?
-
-- ✅ Décrire brièvement la salle où l’action commence.
-- ◻️ Insérer une liste sans rapport.  
-  _↳ feedback if chosen: Une description utile situe l’action à venir._
-- ◻️ Changer de personnage sans prévenir.  
-  _↳ feedback if chosen: Une description utile situe l’action à venir._
+- ✅ combinaison cohérente
+- ◻️ narration  
+  _↳ feedback if chosen: Cela désigne une relation des événements et de leur déroulement, plutôt que la notion demandée._
+- ◻️ description  
+  _↳ feedback if chosen: Cela désigne une organisation des détails d’un lieu ou d’un objet, plutôt que la notion demandée._
+- ◻️ portrait  
+  _↳ feedback if chosen: Cela désigne une présentation organisée d’un personnage, plutôt que la notion demandée._
 
 Full working after a second miss:
 
-> Une description utile situe l’action à venir.  
-> La réponse est : Décrire brièvement la salle où l’action commence..  
+> La continuité aide le lecteur.  
+> Donc la réponse est « combinaison cohérente ».  
 
-**Practice** `fi2-128-etape-3` · multiple choice, level 3 · **authored key**
+**Practice** `fi2-128-cas` · multiple choice, level 1 · **authored key**
 
-> Que vérifier à la fin ?
+> Le lieu, le personnage et l’action gardent les mêmes référents.
+> Quelle notion convient ?
 
-- ✅ La cohérence des passages, les accords et les temps.
-- ◻️ Seulement le nombre de couleurs citées.  
-  _↳ feedback if chosen: Les différentes démarches doivent former un ensemble compréhensible._
-- ◻️ Que le récit n’ait aucun lien avec son début.  
-  _↳ feedback if chosen: Les différentes démarches doivent former un ensemble compréhensible._
-
-Full working after a second miss:
-
-> Les différentes démarches doivent former un ensemble compréhensible.  
-> La réponse est : La cohérence des passages, les accords et les temps..  
-
-> Que vérifier à la fin ?
-
-- ◻️ Seulement le nombre de couleurs citées.  
-  _↳ feedback if chosen: Les différentes démarches doivent former un ensemble compréhensible._
-- ✅ La cohérence des passages, les accords et les temps.
-- ◻️ Que le récit n’ait aucun lien avec son début.  
-  _↳ feedback if chosen: Les différentes démarches doivent former un ensemble compréhensible._
+- ◻️ portrait  
+  _↳ feedback if chosen: Cela concerne une présentation organisée d’un personnage. Compare cette définition avec le cas présenté._
+- ◻️ description  
+  _↳ feedback if chosen: Cela concerne une organisation des détails d’un lieu ou d’un objet. Compare cette définition avec le cas présenté._
+- ◻️ narration  
+  _↳ feedback if chosen: Cela concerne une relation des événements et de leur déroulement. Compare cette définition avec le cas présenté._
+- ✅ combinaison cohérente
 
 Full working after a second miss:
 
-> Les différentes démarches doivent former un ensemble compréhensible.  
-> La réponse est : La cohérence des passages, les accords et les temps..  
+> La continuité aide le lecteur.  
+> Donc la réponse est « combinaison cohérente ».  
+
+> Le lieu, le personnage et l’action gardent les mêmes référents.
+> Quelle notion convient ?
+
+- ◻️ portrait  
+  _↳ feedback if chosen: Cela concerne une présentation organisée d’un personnage. Compare cette définition avec le cas présenté._
+- ◻️ description  
+  _↳ feedback if chosen: Cela concerne une organisation des détails d’un lieu ou d’un objet. Compare cette définition avec le cas présenté._
+- ◻️ narration  
+  _↳ feedback if chosen: Cela concerne une relation des événements et de leur déroulement. Compare cette définition avec le cas présenté._
+- ✅ combinaison cohérente
+
+Full working after a second miss:
+
+> La continuité aide le lecteur.  
+> Donc la réponse est « combinaison cohérente ».  
+
+**Practice** `fi2-128-construire` · word order, level 2 · **authored key**
+
+> Touche les mots dans le bon ordre.
+
+Tiles: mène · complétée · recherche · la · à · La · fiche · du · titre (then “.”)
+Answer: **La recherche du titre mène à la fiche complétée.**
+
+Full working after a second miss:
+
+> La phrase est : La recherche du titre mène à la fiche complétée.  
+
+> Touche les mots dans le bon ordre.
+
+Tiles: personnage · l’action · et · gardent · les · mêmes · lieu, · référents · le · Le (then “.”)
+Answer: **Le lieu, le personnage et l’action gardent les mêmes référents.**
+
+Full working after a second miss:
+
+> La phrase est : Le lieu, le personnage et l’action gardent les mêmes référents.  
+
+**Practice** `fi2-128-relier` · matching, level 2 · **authored key**
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): La recherche du titre mène à la fiche complétée. · La table au centre situe le lieu. · Le geste d’écoute soutient un trait de Bih.
+- description → **La table au centre situe le lieu.**
+- portrait → **Le geste d’écoute soutient un trait de Bih.**
+- narration → **La recherche du titre mène à la fiche complétée.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> description → La table au centre situe le lieu.  
+> portrait → Le geste d’écoute soutient un trait de Bih.  
+> narration → La recherche du titre mène à la fiche complétée.  
+
+> Relie chaque notion à son exemple.
+
+Right-hand side (shuffled): Le geste d’écoute soutient un trait de Bih. · Le lieu, le personnage et l’action gardent les mêmes référents. · La recherche du titre mène à la fiche complétée.
+- combinaison cohérente → **Le lieu, le personnage et l’action gardent les mêmes référents.**
+- narration → **La recherche du titre mène à la fiche complétée.**
+- portrait → **Le geste d’écoute soutient un trait de Bih.**
+
+Full working after a second miss:
+
+> Les bonnes paires sont :  
+> combinaison cohérente → Le lieu, le personnage et l’action gardent les mêmes référents.  
+> narration → La recherche du titre mène à la fiche complétée.  
+> portrait → Le geste d’écoute soutient un trait de Bih.  
+
+**Practice** `fi2-128-corriger` · spot the error, level 3 · **authored key**
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ✅ Une narration doit interdire tout lien entre actions.  
+  _↳ explanation: Les liens rendent le déroulement compréhensible._
+- ◻️ combinaison cohérente : l’association d’intentions restant lisibles.  
+  _↳ explanation: Cette distinction est correcte : La continuité aide le lecteur. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ narration : une relation des événements et de leur déroulement.  
+  _↳ explanation: Cette distinction est correcte : Les liens rendent le déroulement compréhensible. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ portrait : une présentation organisée d’un personnage.  
+  _↳ explanation: Cette distinction est correcte : Un trait doit être appuyé sans jugement global. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Une narration doit interdire tout lien entre actions. ».  
+> Les liens rendent le déroulement compréhensible.  
+
+> Repère la formulation ou l’affirmation incorrecte.
+
+- ◻️ portrait : une présentation organisée d’un personnage.  
+  _↳ explanation: Cette distinction est correcte : Un trait doit être appuyé sans jugement global. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ✅ Le portrait doit juger toute la valeur d’une personne à ses vêtements.  
+  _↳ explanation: Un trait doit être appuyé sans jugement global._
+- ◻️ description : une organisation des détails d’un lieu ou d’un objet.  
+  _↳ explanation: Cette distinction est correcte : Son rôle peut être de représenter l’espace. Cherche plutôt une phrase qui contredit le sens ou la règle._
+- ◻️ combinaison cohérente : l’association d’intentions restant lisibles.  
+  _↳ explanation: Cette distinction est correcte : La continuité aide le lecteur. Cherche plutôt une phrase qui contredit le sens ou la règle._
+
+Full working after a second miss:
+
+> La phrase fausse est « Le portrait doit juger toute la valeur d’une personne à ses vêtements. ».  
+> Un trait doit être appuyé sans jugement global.  
 

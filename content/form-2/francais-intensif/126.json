@@ -4,9 +4,12 @@
  "lesson_no": 126,
  "language": "fr",
  "prerequisites": [
+  104,
+  105,
   112,
   113,
-  118
+  118,
+  125
  ],
  "skills": [
   {
@@ -16,174 +19,170 @@
  ],
  "note": {
   "status": "draft",
-  "text": "Pour relire un texte, repère le sujet, le verbe et les relations entre les événements. Un sujet pluriel commande normalement un verbe pluriel. Le choix du temps dépend du sens : présent pour ce qui se passe maintenant ou une habitude actuelle ; imparfait pour une description passée ; futur pour une action à venir ; conditionnel pour une hypothèse ou une demande polie. Dans un récit, le passé antérieur marque une action achevée avant une autre action passée. Ne change pas les temps au hasard.",
+  "text": "Réutiliser une règle demande de reconnaître le problème avant de choisir la forme. Pour l’accord, retrouve le sujet complet et sa personne. Pour un pronom possessif, identifie le nom repris et la relation de personne. Pour le verbe, distingue temps et construction : présent, imparfait, futur, conditionnel et passé antérieur ne sont pas interchangeables. Une révision ne consiste pas à recopier une terminaison vue ailleurs sans examiner la consigne. Les exercices précisent le temps afin de garder une correction claire.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras justifier un accord et produire une forme au temps demandé sans confondre règle et simple ressemblance. Acquis mobilisés : les sujets, reprises possessives et temps du module. Pour la suite : la dernière lecture et les productions autonomes."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Réutiliser une règle demande de reconnaître le problème avant de choisir la forme. Pour l’accord, retrouve le sujet complet et sa personne. Pour un pronom possessif, identifie le nom repris et la relation de personne. Pour le verbe, distingue temps et construction : présent, imparfait, futur, conditionnel et passé antérieur ne sont pas interchangeables. Une révision ne consiste pas à recopier une terminaison vue ailleurs sans examiner la consigne. Les exercices précisent le temps afin de garder une correction claire."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles de relecture : Bih et moi {fr2Present(\"lire\",4)} le message ; les tiens {fr2Present(\"être\",6)} prêts. Compare {fr2With(0,fr2FuturSimple(\"écrire\",0))} et {fr2With(0,fr2Conditionnel(\"écrire\",0))}. Pour un autre récit, {fr2PasseAnterieur(\"finir\",3)} comporte un auxiliaire au passé simple. Chaque choix répond à une analyse différente."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Nomme le point à vérifier puis donne une justification courte. Identifie le sujet ou le référent et le temps avant de conjuguer. Relis ensuite la phrase entière pour conserver la cohérence du message."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "analyse du sujet",
+    "meaning": "le repérage commandant la personne et le nombre"
+   },
+   {
+    "word": "analyse du référent",
+    "meaning": "le repérage de l’élément repris par un pronom"
+   },
+   {
+    "word": "temps demandé",
+    "meaning": "la catégorie verbale explicitement visée par la consigne"
+   },
+   {
+    "word": "cohérence du message",
+    "meaning": "le maintien de liens compréhensibles entre les phrases"
+   }
+  ],
+  "mistake": {
+   "wrong": "Le dernier nom décide toujours seul de l’accord.",
+   "right": "le repérage commandant la personne et le nombre.",
+   "why": "L’ensemble du sujet doit être pris en compte."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Quelle forme décrit une habitude passée ?",
+  "problem": "Bih et moi se remplace ici par nous. Explique le choix.",
   "steps": [
-   "Le contexte aide à choisir le temps.",
-   "Écoutions est à l’imparfait et convient à l’habitude passée."
+   "le repérage commandant la personne et le nombre.",
+   "L’ensemble du sujet doit être pris en compte."
   ],
-  "answer": "Chaque soir, nous écoutions la radio.",
+  "answer": "analyse du sujet",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c126-1",
+    "id": "fi2-126-c1",
     "status": "draft",
-    "idea": "Le sujet commande l’accord du verbe.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "Bih et moi écrivons."
+     "analyse du sujet : le repérage commandant la personne et le nombre.",
+     "analyse du référent : le repérage de l’élément repris par un pronom.",
+     "temps demandé : la catégorie verbale explicitement visée par la consigne.",
+     "cohérence du message : le maintien de liens compréhensibles entre les phrases."
     ],
     "checks": [],
     "check": {
-     "ref": "fi2-126-etape-1"
+     "ref": "fi2-126-notions"
     }
    },
    {
-    "id": "c126-2",
+    "id": "fi2-126-c2",
     "status": "draft",
-    "idea": "Le contexte aide à choisir le temps.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Autrefois, la radio occupait le centre de la pièce."
+     "Bih et moi se remplace ici par nous.",
+     "Les tiens peut reprendre des cahiers déjà évoqués.",
+     "Futur simple et conditionnel ont des terminaisons distinctes.",
+     "Une reprise garde un référent identifiable."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-126-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "grammaire"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Quelle forme décrit une habitude passée ?",
-         "r": "Chaque soir, nous écoutions la radio.",
-         "w": [
-          "Demain, nous écouterons la radio.",
-          "Nous écoutons en ce moment."
-         ],
-         "y": "Écoutions est à l’imparfait et convient à l’habitude passée."
-        },
-        {
-         "q": "Quelle phrase exprime une hypothèse correctement ?",
-         "r": "Si j’avais le temps, je lirais l’article.",
-         "w": [
-          "Si j’aurais le temps, je lirais l’article.",
-          "Si j’avais le temps, je lire l’article."
-         ],
-         "y": "Si + imparfait est suivi ici du conditionnel."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fi2-126-cas"
     }
    },
    {
-    "id": "c126-3",
+    "id": "fi2-126-c3",
     "status": "draft",
-    "idea": "Vérifie l’ordre des actions dans les temps composés.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Quand elle eut fini, elle publia son texte."
+     "Le dernier nom décide toujours seul de l’accord. Correction : L’ensemble du sujet doit être pris en compte.",
+     "Le genre du propriétaire décide toujours de celui du référent. Correction : Le genre et le nombre suivent l’élément repris.",
+     "Toute forme comportant écrir- est nécessairement au même temps. Correction : Le radical commun ne suffit pas.",
+     "Changer les personnes au hasard rend toujours le message plus clair. Correction : Le lecteur doit pouvoir suivre les référents."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-126-etape-3-card",
-     "type": "mcq",
+     "id": "fi2-126-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "grammaire"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Dans « Quand elle eut fini, elle publia », quelle action précède l’autre ?",
-         "r": "Finir précède publier.",
-         "w": [
-          "Publier précède finir.",
-          "Les deux actions sont au futur."
-         ],
-         "y": "Le passé antérieur présente l’action achevée avant l’action au passé simple."
-        },
-        {
-         "q": "Quelle révision corrige l’accord sans changer le sens ?",
-         "r": "Les leurs fonctionnent bien.",
-         "w": [
-          "Les leurs fonctionne bien.",
-          "Les leurs fonctionnes bien."
-         ],
-         "y": "Les leurs est pluriel et commande fonctionnent."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "analyse du sujet : le repérage commandant la personne et le nombre.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’ensemble du sujet doit être pris en compte. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "analyse du référent : le repérage de l’élément repris par un pronom.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le genre et le nombre suivent l’élément repris. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "temps demandé : la catégorie verbale explicitement visée par la consigne.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le radical commun ne suffit pas. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "cohérence du message : le maintien de liens compréhensibles entre les phrases.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le lecteur doit pouvoir suivre les référents. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Le dernier nom décide toujours seul de l’accord.",
+        "truth": "false",
+        "explain": "L’ensemble du sujet doit être pris en compte."
+       },
+       {
+        "text": "Le genre du propriétaire décide toujours de celui du référent.",
+        "truth": "false",
+        "explain": "Le genre et le nombre suivent l’élément repris."
+       },
+       {
+        "text": "Toute forme comportant écrir- est nécessairement au même temps.",
+        "truth": "false",
+        "explain": "Le radical commun ne suffit pas."
+       },
+       {
+        "text": "Changer les personnes au hasard rend toujours le message plus clair.",
+        "truth": "false",
+        "explain": "Le lecteur doit pouvoir suivre les référents."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -191,33 +190,75 @@
  },
  "questions": [
   {
-   "id": "fi2-126-etape-1",
+   "id": "fi2-126-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "grammaire"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Quelle phrase respecte l’accord ?",
-       "r": "Les élèves vérifient leurs sources.",
+       "q": "Quel terme désigne le repérage commandant la personne et le nombre ?",
+       "r": "analyse du sujet",
        "w": [
-        "Les élèves vérifie leurs sources.",
-        "Les élèves vérifies leurs sources."
+        "analyse du référent",
+        "temps demandé",
+        "cohérence du message"
        ],
-       "y": "Les élèves est pluriel : vérifient."
+       "e": [
+        "Cela désigne le repérage de l’élément repris par un pronom, plutôt que la notion demandée.",
+        "Cela désigne la catégorie verbale explicitement visée par la consigne, plutôt que la notion demandée.",
+        "Cela désigne le maintien de liens compréhensibles entre les phrases, plutôt que la notion demandée."
+       ],
+       "y": "L’ensemble du sujet doit être pris en compte."
       },
       {
-       "q": "Complète : La mienne ___ ici.",
-       "r": "est",
+       "q": "Quel terme désigne le repérage de l’élément repris par un pronom ?",
+       "r": "analyse du référent",
        "w": [
-        "sont",
-        "sommes"
+        "analyse du sujet",
+        "temps demandé",
+        "cohérence du message"
        ],
-       "y": "La mienne est un sujet singulier."
+       "e": [
+        "Cela désigne le repérage commandant la personne et le nombre, plutôt que la notion demandée.",
+        "Cela désigne la catégorie verbale explicitement visée par la consigne, plutôt que la notion demandée.",
+        "Cela désigne le maintien de liens compréhensibles entre les phrases, plutôt que la notion demandée."
+       ],
+       "y": "Le genre et le nombre suivent l’élément repris."
+      },
+      {
+       "q": "Quel terme désigne la catégorie verbale explicitement visée par la consigne ?",
+       "r": "temps demandé",
+       "w": [
+        "analyse du sujet",
+        "analyse du référent",
+        "cohérence du message"
+       ],
+       "e": [
+        "Cela désigne le repérage commandant la personne et le nombre, plutôt que la notion demandée.",
+        "Cela désigne le repérage de l’élément repris par un pronom, plutôt que la notion demandée.",
+        "Cela désigne le maintien de liens compréhensibles entre les phrases, plutôt que la notion demandée."
+       ],
+       "y": "Le radical commun ne suffit pas."
+      },
+      {
+       "q": "Quel terme désigne le maintien de liens compréhensibles entre les phrases ?",
+       "r": "cohérence du message",
+       "w": [
+        "analyse du sujet",
+        "analyse du référent",
+        "temps demandé"
+       ],
+       "e": [
+        "Cela désigne le repérage commandant la personne et le nombre, plutôt que la notion demandée.",
+        "Cela désigne le repérage de l’élément repris par un pronom, plutôt que la notion demandée.",
+        "Cela désigne la catégorie verbale explicitement visée par la consigne, plutôt que la notion demandée."
+       ],
+       "y": "Le lecteur doit pouvoir suivre les référents."
       }
      ]
     }
@@ -232,145 +273,299 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-126-etape-2",
+   "id": "fi2-126-cas",
    "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Bih et moi se remplace ici par nous.\nQuelle notion convient ?",
+       "r": "analyse du sujet",
+       "w": [
+        "analyse du référent",
+        "temps demandé",
+        "cohérence du message"
+       ],
+       "e": [
+        "Cela concerne le repérage de l’élément repris par un pronom. Compare cette définition avec le cas présenté.",
+        "Cela concerne la catégorie verbale explicitement visée par la consigne. Compare cette définition avec le cas présenté.",
+        "Cela concerne le maintien de liens compréhensibles entre les phrases. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’ensemble du sujet doit être pris en compte."
+      },
+      {
+       "q": "Les tiens peut reprendre des cahiers déjà évoqués.\nQuelle notion convient ?",
+       "r": "analyse du référent",
+       "w": [
+        "analyse du sujet",
+        "temps demandé",
+        "cohérence du message"
+       ],
+       "e": [
+        "Cela concerne le repérage commandant la personne et le nombre. Compare cette définition avec le cas présenté.",
+        "Cela concerne la catégorie verbale explicitement visée par la consigne. Compare cette définition avec le cas présenté.",
+        "Cela concerne le maintien de liens compréhensibles entre les phrases. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le genre et le nombre suivent l’élément repris."
+      },
+      {
+       "q": "Futur simple et conditionnel ont des terminaisons distinctes.\nQuelle notion convient ?",
+       "r": "temps demandé",
+       "w": [
+        "analyse du sujet",
+        "analyse du référent",
+        "cohérence du message"
+       ],
+       "e": [
+        "Cela concerne le repérage commandant la personne et le nombre. Compare cette définition avec le cas présenté.",
+        "Cela concerne le repérage de l’élément repris par un pronom. Compare cette définition avec le cas présenté.",
+        "Cela concerne le maintien de liens compréhensibles entre les phrases. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le radical commun ne suffit pas."
+      },
+      {
+       "q": "Une reprise garde un référent identifiable.\nQuelle notion convient ?",
+       "r": "cohérence du message",
+       "w": [
+        "analyse du sujet",
+        "analyse du référent",
+        "temps demandé"
+       ],
+       "e": [
+        "Cela concerne le repérage commandant la personne et le nombre. Compare cette définition avec le cas présenté.",
+        "Cela concerne le repérage de l’élément repris par un pronom. Compare cette définition avec le cas présenté.",
+        "Cela concerne la catégorie verbale explicitement visée par la consigne. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le lecteur doit pouvoir suivre les référents."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-126-conjuguer",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "parler",
+      "finir",
+      "écrire",
+      "envoyer"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    },
+    "t": {
+     "pick": [
+      "présent",
+      "imparfait",
+      "futur simple",
+      "conditionnel présent"
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au temps demandé : {t}, avec « {fr2Pronoun(p)} ».",
+   "correct": "{t==\"présent\" ? fr2With(p,fr2Present(v,p)) : t==\"imparfait\" ? fr2With(p,fr2Imparfait(v,p)) : t==\"futur simple\" ? fr2With(p,fr2FuturSimple(v,p)) : fr2With(p,fr2Conditionnel(v,p))}",
+   "distractors": [
+    {
+     "text": "{fr2PasseCompose(v,p)}",
+     "misconception": "pc"
+    },
+    {
+     "text": "{fr2PasseAnterieur(v,p)}",
+     "misconception": "pa"
+    },
+    {
+     "text": "{fr2With(p,v)}",
+     "misconception": "inf"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "pc",
+     "explain": "Cette forme est au passé composé, pas au temps demandé."
+    },
+    {
+     "id": "pa",
+     "explain": "Cette forme est au passé antérieur, pas au temps demandé."
+    },
+    {
+     "id": "inf",
+     "explain": "L’infinitif ne porte pas la conjugaison personnelle demandée."
+    }
+   ],
+   "solution": [
+    "Repère le sujet, puis distingue temps demandé et autres formes disponibles.",
+    "La forme est {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-126-relier",
+   "type": "matching",
    "level": 2,
    "review": "authored",
    "sources": [
-    "grammaire"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Quelle forme décrit une habitude passée ?",
-       "r": "Chaque soir, nous écoutions la radio.",
-       "w": [
-        "Demain, nous écouterons la radio.",
-        "Nous écoutons en ce moment."
-       ],
-       "y": "Écoutions est à l’imparfait et convient à l’habitude passée."
-      },
-      {
-       "q": "Quelle phrase exprime une hypothèse correctement ?",
-       "r": "Si j’avais le temps, je lirais l’article.",
-       "w": [
-        "Si j’aurais le temps, je lirais l’article.",
-        "Si j’avais le temps, je lire l’article."
-       ],
-       "y": "Si + imparfait est suivi ici du conditionnel."
-      }
-     ]
-    }
-   },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
     {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
+     "left": "analyse du sujet",
+     "right": "Bih et moi se remplace ici par nous."
     },
     {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
+     "left": "analyse du référent",
+     "right": "Les tiens peut reprendre des cahiers déjà évoqués."
     },
     {
-     "id": "w1",
-     "explain": "{X.y}"
+     "left": "temps demandé",
+     "right": "Futur simple et conditionnel ont des terminaisons distinctes."
+    },
+    {
+     "left": "cohérence du message",
+     "right": "Une reprise garde un référent identifiable."
     }
    ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-126-etape-3",
-   "type": "mcq",
+   "id": "fi2-126-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "grammaire"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Dans « Quand elle eut fini, elle publia », quelle action précède l’autre ?",
-       "r": "Finir précède publier.",
-       "w": [
-        "Publier précède finir.",
-        "Les deux actions sont au futur."
-       ],
-       "y": "Le passé antérieur présente l’action achevée avant l’action au passé simple."
-      },
-      {
-       "q": "Quelle révision corrige l’accord sans changer le sens ?",
-       "r": "Les leurs fonctionnent bien.",
-       "w": [
-        "Les leurs fonctionne bien.",
-        "Les leurs fonctionnes bien."
-       ],
-       "y": "Les leurs est pluriel et commande fonctionnent."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "analyse du sujet : le repérage commandant la personne et le nombre.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’ensemble du sujet doit être pris en compte. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "analyse du référent : le repérage de l’élément repris par un pronom.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le genre et le nombre suivent l’élément repris. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "temps demandé : la catégorie verbale explicitement visée par la consigne.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le radical commun ne suffit pas. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "cohérence du message : le maintien de liens compréhensibles entre les phrases.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le lecteur doit pouvoir suivre les référents. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le dernier nom décide toujours seul de l’accord.",
+      "truth": "false",
+      "explain": "L’ensemble du sujet doit être pris en compte."
+     },
+     {
+      "text": "Le genre du propriétaire décide toujours de celui du référent.",
+      "truth": "false",
+      "explain": "Le genre et le nombre suivent l’élément repris."
+     },
+     {
+      "text": "Toute forme comportant écrir- est nécessairement au même temps.",
+      "truth": "false",
+      "explain": "Le radical commun ne suffit pas."
+     },
+     {
+      "text": "Changer les personnes au hasard rend toujours le message plus clair.",
+      "truth": "false",
+      "explain": "Le lecteur doit pouvoir suivre les référents."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ]

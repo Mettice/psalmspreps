@@ -3,183 +3,184 @@
  "class": "Form 2",
  "lesson_no": 121,
  "language": "fr",
- "prerequisites": [],
+ "prerequisites": [
+  107,
+  115,
+  120
+ ],
  "skills": [
   {
    "id": "fi2-121",
-   "name": "Préparer l’interprétation d’une image"
+   "name": "Interpréter des images : préparation écrite"
   }
  ],
  "note": {
   "status": "draft",
-  "text": "Interpréter une image consiste à distinguer la description visible, le message possible et son avis. On présente le document, décrit les éléments et leur place, puis on justifie une interprétation. Un détail isolé ne prouve pas tout.\nPréparation sans photographie : imagine la scène décrite dans les questions. Le professeur pourra ensuite utiliser une vraie image. L’application ne peut pas entendre ni noter la présentation orale.",
+  "text": "Une image montre des éléments observables : formes, objets, textes et flèches. Une interprétation explique ce qu’ils peuvent suggérer, mais elle ne doit pas ajouter une identité, une conversation ou un résultat absent. Une flèche peut indiquer une direction si la légende et le contexte le permettent. Un point d’interrogation peut annoncer une demande sans donner sa réponse. Les scènes sont des dessins originaux de classe, pas des captures de comptes réels. La préparation écrite ne mesure aucune description réellement prononcée.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras décrire un indice visible puis proposer une interprétation limitée et justifiée. Acquis mobilisés : les médias, les audiences et les destinataires. Pour la suite : la narration et l’écrit à partir d’images."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Une image montre des éléments observables : formes, objets, textes et flèches. Une interprétation explique ce qu’ils peuvent suggérer, mais elle ne doit pas ajouter une identité, une conversation ou un résultat absent. Une flèche peut indiquer une direction si la légende et le contexte le permettent. Un point d’interrogation peut annoncer une demande sans donner sa réponse. Les scènes sont des dessins originaux de classe, pas des captures de comptes réels. La préparation écrite ne mesure aucune description réellement prononcée."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Je vois un bulletin et les mots source à vérifier. Je peux proposer que le club doit examiner l’origine de l’information. Je ne peux pas conclure que cette vérification a déjà réussi. Je distingue l’indice écrit de la conclusion que j’en tire.",
+    "figure": "\"<svg xmlns=\\\"http://www.w3.org/2000/svg\\\" viewBox=\\\"0 0 320 200\\\" role=\\\"img\\\" aria-label=\\\"Scène de média inventée pour une interprétation écrite\\\" font-family=\\\"Arial, sans-serif\\\" fill=\\\"#183428\\\"><rect width=\\\"320\\\" height=\\\"200\\\" fill=\\\"#fffdf5\\\"/><text x=\\\"12\\\" y=\\\"22\\\" font-size=\\\"14\\\">Scène inventée : observer puis expliquer</text><rect x=\\\"50\\\" y=\\\"40\\\" width=\\\"220\\\" height=\\\"125\\\" fill=\\\"white\\\" stroke=\\\"#183428\\\"/><text x=\\\"75\\\" y=\\\"65\\\" font-size=\\\"16\\\">Bulletin du club</text><path d=\\\"M75 80h170m-170 14h170m-170 14h125\\\" stroke=\\\"#447d68\\\" stroke-width=\\\"3\\\"/><rect x=\\\"75\\\" y=\\\"123\\\" width=\\\"130\\\" height=\\\"28\\\" fill=\\\"#e9eee2\\\"/><text x=\\\"85\\\" y=\\\"142\\\" font-size=\\\"14\\\">Source à vérifier</text><text x=\\\"12\\\" y=\\\"188\\\" font-size=\\\"11\\\">Support écrit, sans enregistrement sonore.</text></svg>\""
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Commence par je vois puis justifie une lecture avec parce que et un indice. Demande ce qui manque avant d’affirmer une identité ou un résultat. Pratique ensuite une description orale réelle si un partenaire est disponible."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "observation",
+    "meaning": "un élément réellement visible dans l’image"
+   },
+   {
+    "word": "interprétation",
+    "meaning": "un sens proposé à partir d’un indice"
+   },
+   {
+    "word": "direction représentée",
+    "meaning": "le lien montré ici par une flèche"
+   },
+   {
+    "word": "limite de l’image",
+    "meaning": "une donnée que le dessin ne fournit pas"
+   }
+  ],
+  "mistake": {
+   "wrong": "Observer signifie inventer le nom des personnes absentes.",
+   "right": "un élément réellement visible dans l’image.",
+   "why": "Les informations absentes ne sont pas observables."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Scène : des élèves ramassent du papier sous une affiche Gardons notre cour propre. Quel message est soutenu ?",
+  "problem": "Le titre Bulletin du club est dessiné. Explique le choix.",
   "steps": [
-   "Une interprétation s’appuie sur plusieurs indices.",
-   "L’affiche et l’action convergent vers la propreté."
+   "un élément réellement visible dans l’image.",
+   "Les informations absentes ne sont pas observables."
   ],
-  "answer": "Participer à la propreté de la cour.",
+  "answer": "observation",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c121-1",
+    "id": "fi2-121-c1",
     "status": "draft",
-    "idea": "Commence par les éléments décrits, sans inventer.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "Au premier plan, une élève montre une affiche."
+     "observation : un élément réellement visible dans l’image.",
+     "interprétation : un sens proposé à partir d’un indice.",
+     "direction représentée : le lien montré ici par une flèche.",
+     "limite de l’image : une donnée que le dessin ne fournit pas."
     ],
     "checks": [],
     "check": {
-     "ref": "fi2-121-etape-1"
+     "ref": "fi2-121-notions"
     }
    },
    {
-    "id": "c121-2",
+    "id": "fi2-121-c2",
     "status": "draft",
-    "idea": "Une interprétation s’appuie sur plusieurs indices.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Une affiche de propreté et une action de nettoyage peuvent suggérer un appel à agir."
+     "Le titre Bulletin du club est dessiné.",
+     "Source à vérifier suggère un examen encore nécessaire.",
+     "La flèche du message va de Bih vers le club.",
+     "Une question dessinée ne donne pas sa réponse."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-121-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "expression"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Scène : des élèves ramassent du papier sous une affiche Gardons notre cour propre. Quel message est soutenu ?",
-         "r": "Participer à la propreté de la cour.",
-         "w": [
-          "Interdire tous les cahiers.",
-          "Quitter l’école définitivement."
-         ],
-         "y": "L’affiche et l’action convergent vers la propreté."
-        },
-        {
-         "q": "Scène : une affiche demande de vérifier les sources et un élève compare des articles. Quel message est soutenu ?",
-         "r": "Vérifier une information avant de la partager.",
-         "w": [
-          "Croire chaque titre sans lire.",
-          "Jeter tous les journaux."
-         ],
-         "y": "Le texte de l’affiche et la comparaison soutiennent la vérification."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fi2-121-cas"
     }
    },
    {
-    "id": "c121-3",
+    "id": "fi2-121-c3",
     "status": "draft",
-    "idea": "Signale clairement ton avis et les limites de ce que tu sais.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "À mon avis, cette affiche invite à agir."
+     "Observer signifie inventer le nom des personnes absentes. Correction : Les informations absentes ne sont pas observables.",
+     "Toute interprétation devient automatiquement un fait certain. Correction : Elle doit rester justifiée et proportionnée.",
+     "Une flèche prouve tous les messages déjà reçus. Correction : Elle montre ici un trajet prévu, pas tout un historique.",
+     "L’image permet d’entendre une conversation exacte. Correction : Un support écrit ne fournit pas cet enregistrement."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-121-etape-3-card",
-     "type": "mcq",
+     "id": "fi2-121-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "expression"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Quelle phrase signale un avis ?",
-         "r": "À mon avis, cette affiche est convaincante.",
-         "w": [
-          "Un élève est au premier plan.",
-          "L’affiche contient un titre."
-         ],
-         "y": "À mon avis annonce un jugement personnel."
-        },
-        {
-         "q": "Si l’image ne donne pas la date, que faire ?",
-         "r": "Dire que la date n’est pas indiquée.",
-         "w": [
-          "Inventer une date certaine.",
-          "Confondre la date avec la couleur."
-         ],
-         "y": "On distingue ce que l’on sait de ce qui n’est pas fourni."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "observation : un élément réellement visible dans l’image.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les informations absentes ne sont pas observables. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "interprétation : un sens proposé à partir d’un indice.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Elle doit rester justifiée et proportionnée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "direction représentée : le lien montré ici par une flèche.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Elle montre ici un trajet prévu, pas tout un historique. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "limite de l’image : une donnée que le dessin ne fournit pas.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Un support écrit ne fournit pas cet enregistrement. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Observer signifie inventer le nom des personnes absentes.",
+        "truth": "false",
+        "explain": "Les informations absentes ne sont pas observables."
+       },
+       {
+        "text": "Toute interprétation devient automatiquement un fait certain.",
+        "truth": "false",
+        "explain": "Elle doit rester justifiée et proportionnée."
+       },
+       {
+        "text": "Une flèche prouve tous les messages déjà reçus.",
+        "truth": "false",
+        "explain": "Elle montre ici un trajet prévu, pas tout un historique."
+       },
+       {
+        "text": "L’image permet d’entendre une conversation exacte.",
+        "truth": "false",
+        "explain": "Un support écrit ne fournit pas cet enregistrement."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -187,33 +188,75 @@
  },
  "questions": [
   {
-   "id": "fi2-121-etape-1",
+   "id": "fi2-121-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "expression"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Scène décrite : une élève montre une affiche devant un groupe. Quelle phrase décrit ce qui est annoncé ?",
-       "r": "Une élève montre une affiche.",
+       "q": "Quel terme désigne un élément réellement visible dans l’image ?",
+       "r": "observation",
        "w": [
-        "Elle est forcément la meilleure de la classe.",
-        "Tout le monde connaît son âge."
+        "interprétation",
+        "direction représentée",
+        "limite de l’image"
        ],
-       "y": "Seule la première phrase reprend un élément donné."
+       "e": [
+        "Cela désigne un sens proposé à partir d’un indice, plutôt que la notion demandée.",
+        "Cela désigne le lien montré ici par une flèche, plutôt que la notion demandée.",
+        "Cela désigne une donnée que le dessin ne fournit pas, plutôt que la notion demandée."
+       ],
+       "y": "Les informations absentes ne sont pas observables."
       },
       {
-       "q": "Scène décrite : un garçon trie du papier près d’une poubelle. Quelle phrase décrit la scène ?",
-       "r": "Un garçon trie du papier.",
+       "q": "Quel terme désigne un sens proposé à partir d’un indice ?",
+       "r": "interprétation",
        "w": [
-        "Il est certainement riche.",
-        "Il a forcément gagné un concours."
+        "observation",
+        "direction représentée",
+        "limite de l’image"
        ],
-       "y": "Le tri du papier est annoncé ; les autres informations sont inventées."
+       "e": [
+        "Cela désigne un élément réellement visible dans l’image, plutôt que la notion demandée.",
+        "Cela désigne le lien montré ici par une flèche, plutôt que la notion demandée.",
+        "Cela désigne une donnée que le dessin ne fournit pas, plutôt que la notion demandée."
+       ],
+       "y": "Elle doit rester justifiée et proportionnée."
+      },
+      {
+       "q": "Quel terme désigne le lien montré ici par une flèche ?",
+       "r": "direction représentée",
+       "w": [
+        "observation",
+        "interprétation",
+        "limite de l’image"
+       ],
+       "e": [
+        "Cela désigne un élément réellement visible dans l’image, plutôt que la notion demandée.",
+        "Cela désigne un sens proposé à partir d’un indice, plutôt que la notion demandée.",
+        "Cela désigne une donnée que le dessin ne fournit pas, plutôt que la notion demandée."
+       ],
+       "y": "Elle montre ici un trajet prévu, pas tout un historique."
+      },
+      {
+       "q": "Quel terme désigne une donnée que le dessin ne fournit pas ?",
+       "r": "limite de l’image",
+       "w": [
+        "observation",
+        "interprétation",
+        "direction représentée"
+       ],
+       "e": [
+        "Cela désigne un élément réellement visible dans l’image, plutôt que la notion demandée.",
+        "Cela désigne un sens proposé à partir d’un indice, plutôt que la notion demandée.",
+        "Cela désigne le lien montré ici par une flèche, plutôt que la notion demandée."
+       ],
+       "y": "Un support écrit ne fournit pas cet enregistrement."
       }
      ]
     }
@@ -228,53 +271,216 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-121-etape-2",
+   "id": "fi2-121-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le titre Bulletin du club est dessiné.\nQuelle notion convient ?",
+       "r": "observation",
+       "w": [
+        "interprétation",
+        "direction représentée",
+        "limite de l’image"
+       ],
+       "e": [
+        "Cela concerne un sens proposé à partir d’un indice. Compare cette définition avec le cas présenté.",
+        "Cela concerne le lien montré ici par une flèche. Compare cette définition avec le cas présenté.",
+        "Cela concerne une donnée que le dessin ne fournit pas. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les informations absentes ne sont pas observables."
+      },
+      {
+       "q": "Source à vérifier suggère un examen encore nécessaire.\nQuelle notion convient ?",
+       "r": "interprétation",
+       "w": [
+        "observation",
+        "direction représentée",
+        "limite de l’image"
+       ],
+       "e": [
+        "Cela concerne un élément réellement visible dans l’image. Compare cette définition avec le cas présenté.",
+        "Cela concerne le lien montré ici par une flèche. Compare cette définition avec le cas présenté.",
+        "Cela concerne une donnée que le dessin ne fournit pas. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Elle doit rester justifiée et proportionnée."
+      },
+      {
+       "q": "La flèche du message va de Bih vers le club.\nQuelle notion convient ?",
+       "r": "direction représentée",
+       "w": [
+        "observation",
+        "interprétation",
+        "limite de l’image"
+       ],
+       "e": [
+        "Cela concerne un élément réellement visible dans l’image. Compare cette définition avec le cas présenté.",
+        "Cela concerne un sens proposé à partir d’un indice. Compare cette définition avec le cas présenté.",
+        "Cela concerne une donnée que le dessin ne fournit pas. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Elle montre ici un trajet prévu, pas tout un historique."
+      },
+      {
+       "q": "Une question dessinée ne donne pas sa réponse.\nQuelle notion convient ?",
+       "r": "limite de l’image",
+       "w": [
+        "observation",
+        "interprétation",
+        "direction représentée"
+       ],
+       "e": [
+        "Cela concerne un élément réellement visible dans l’image. Compare cette définition avec le cas présenté.",
+        "Cela concerne un sens proposé à partir d’un indice. Compare cette définition avec le cas présenté.",
+        "Cela concerne le lien montré ici par une flèche. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Un support écrit ne fournit pas cet enregistrement."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-121-image",
    "type": "mcq",
    "level": 2,
    "review": "authored",
    "sources": [
-    "expression"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Scène : des élèves ramassent du papier sous une affiche Gardons notre cour propre. Quel message est soutenu ?",
-       "r": "Participer à la propreté de la cour.",
+       "q": "Quel énoncé respecte l’image du bulletin ?",
+       "r": "Un bulletin porte une indication de source à vérifier.",
        "w": [
-        "Interdire tous les cahiers.",
-        "Quitter l’école définitivement."
+        "Toute information est déjà certifiée vraie.",
+        "La date et le nom de l’auteur sont tous fournis.",
+        "On entend un enregistrement complet."
        ],
-       "y": "L’affiche et l’action convergent vers la propreté."
+       "e": [
+        "L’indication demande précisément une vérification.",
+        "Ces renseignements ne sont pas tous visibles.",
+        "Le support est une image sans son."
+       ],
+       "y": "Relève le texte visible sans inventer le résultat.",
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Scène de média inventée pour une interprétation écrite\" font-family=\"Arial, sans-serif\" fill=\"#183428\"><rect width=\"320\" height=\"200\" fill=\"#fffdf5\"/><text x=\"12\" y=\"22\" font-size=\"14\">Scène inventée : observer puis expliquer</text><rect x=\"50\" y=\"40\" width=\"220\" height=\"125\" fill=\"white\" stroke=\"#183428\"/><text x=\"75\" y=\"65\" font-size=\"16\">Bulletin du club</text><path d=\"M75 80h170m-170 14h170m-170 14h125\" stroke=\"#447d68\" stroke-width=\"3\"/><rect x=\"75\" y=\"123\" width=\"130\" height=\"28\" fill=\"#e9eee2\"/><text x=\"85\" y=\"142\" font-size=\"14\">Source à vérifier</text><text x=\"12\" y=\"188\" font-size=\"11\">Support écrit, sans enregistrement sonore.</text></svg>"
       },
       {
-       "q": "Scène : une affiche demande de vérifier les sources et un élève compare des articles. Quel message est soutenu ?",
-       "r": "Vérifier une information avant de la partager.",
+       "q": "Quelle relation est montrée par la flèche ?",
+       "r": "Un projet de message va de Bih vers le club.",
        "w": [
-        "Croire chaque titre sans lire.",
-        "Jeter tous les journaux."
+        "Le club envoie forcément une réponse déjà lue.",
+        "Le message est déjà publié pour tout le monde.",
+        "La flèche donne un numéro privé."
        ],
-       "y": "Le texte de l’affiche et la comparaison soutiennent la vérification."
+       "e": [
+        "Aucune réponse n’est dessinée.",
+        "Le statut projet ne prouve pas cette publication.",
+        "Aucun numéro n’est fourni."
+       ],
+       "y": "Direction et statut sont visibles.",
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Scène de média inventée pour une interprétation écrite\" font-family=\"Arial, sans-serif\" fill=\"#183428\"><rect width=\"320\" height=\"200\" fill=\"#fffdf5\"/><text x=\"12\" y=\"22\" font-size=\"14\">Scène inventée : observer puis expliquer</text><rect x=\"20\" y=\"75\" width=\"84\" height=\"65\" rx=\"6\" fill=\"#e9eee2\" stroke=\"#183428\"/><text x=\"36\" y=\"103\" font-size=\"15\">Bih</text><rect x=\"212\" y=\"75\" width=\"88\" height=\"65\" rx=\"6\" fill=\"#e9eee2\" stroke=\"#183428\"/><text x=\"224\" y=\"103\" font-size=\"15\">Club</text><path d=\"M112 109h88m-12-9 12 9-12 9\" fill=\"none\" stroke=\"#447d68\" stroke-width=\"4\"/><text x=\"118\" y=\"79\" font-size=\"13\">Message</text><text x=\"118\" y=\"146\" font-size=\"13\">Projet</text><text x=\"12\" y=\"188\" font-size=\"11\">Support écrit, sans enregistrement sonore.</text></svg>"
+      },
+      {
+       "q": "Quelle démarche la question dessinée prépare-t-elle ?",
+       "r": "Demander si l’image peut être partagée avant de la diffuser.",
+       "w": [
+        "Affirmer que toute permission est déjà obtenue.",
+        "Déduire le vrai nom de la personne dessinée.",
+        "Connaître tous les comptes qui ont reçu l’image."
+       ],
+       "e": [
+        "Une question ne vaut pas accord reçu.",
+        "Le dessin ne donne pas cette identité.",
+        "Aucun historique réel n’est montré."
+       ],
+       "y": "Une demande et une autorisation sont distinctes.",
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Scène de média inventée pour une interprétation écrite\" font-family=\"Arial, sans-serif\" fill=\"#183428\"><rect width=\"320\" height=\"200\" fill=\"#fffdf5\"/><text x=\"12\" y=\"22\" font-size=\"14\">Scène inventée : observer puis expliquer</text><rect x=\"35\" y=\"53\" width=\"115\" height=\"102\" fill=\"#e9eee2\" stroke=\"#183428\"/><circle cx=\"91\" cy=\"82\" r=\"13\" fill=\"#447d68\"/><path d=\"M65 131q26-46 52 0\" fill=\"#447d68\"/><path d=\"M170 60h130v78h-80l-20 16v-16h-30z\" fill=\"white\" stroke=\"#183428\"/><text x=\"180\" y=\"87\" font-size=\"13\">Puis-je partager</text><text x=\"191\" y=\"108\" font-size=\"13\">cette image ?</text><text x=\"12\" y=\"188\" font-size=\"11\">Support écrit, sans enregistrement sonore.</text></svg>"
+      },
+      {
+       "q": "Quelle description reste dans les indices ?",
+       "r": "Un livre et une question pourquoi sont représentés.",
+       "w": [
+        "Le dessin prouve que tous les élèves ont compris.",
+        "Il donne la réponse exacte à la question.",
+        "Il identifie un auteur réel et son édition."
+       ],
+       "e": [
+        "Aucun résultat de compréhension n’est mesuré.",
+        "La réponse n’apparaît pas.",
+        "Aucun auteur ou édition n’est donné."
+       ],
+       "y": "Décris avant d’interpréter.",
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Scène de média inventée pour une interprétation écrite\" font-family=\"Arial, sans-serif\" fill=\"#183428\"><rect width=\"320\" height=\"200\" fill=\"#fffdf5\"/><text x=\"12\" y=\"22\" font-size=\"14\">Scène inventée : observer puis expliquer</text><path d=\"M30 83q55-18 110 0v79q-55-18-110 0zm110 0q55-18 110 0v79q-55-18-110 0z\" fill=\"#e9eee2\" stroke=\"#183428\"/><path d=\"M200 43h100v45h-35l-17 15V88h-48z\" fill=\"white\" stroke=\"#183428\"/><text x=\"218\" y=\"71\" font-size=\"15\">Pourquoi ?</text><text x=\"12\" y=\"188\" font-size=\"11\">Support écrit, sans enregistrement sonore.</text></svg>"
       }
      ]
     }
@@ -289,84 +495,122 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
+   "figure": "X.svg",
    "lang": "fr"
   },
   {
-   "id": "fi2-121-etape-3",
-   "type": "mcq",
+   "id": "fi2-121-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "observation",
+     "right": "Le titre Bulletin du club est dessiné."
+    },
+    {
+     "left": "interprétation",
+     "right": "Source à vérifier suggère un examen encore nécessaire."
+    },
+    {
+     "left": "direction représentée",
+     "right": "La flèche du message va de Bih vers le club."
+    },
+    {
+     "left": "limite de l’image",
+     "right": "Une question dessinée ne donne pas sa réponse."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-121-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "expression"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Quelle phrase signale un avis ?",
-       "r": "À mon avis, cette affiche est convaincante.",
-       "w": [
-        "Un élève est au premier plan.",
-        "L’affiche contient un titre."
-       ],
-       "y": "À mon avis annonce un jugement personnel."
-      },
-      {
-       "q": "Si l’image ne donne pas la date, que faire ?",
-       "r": "Dire que la date n’est pas indiquée.",
-       "w": [
-        "Inventer une date certaine.",
-        "Confondre la date avec la couleur."
-       ],
-       "y": "On distingue ce que l’on sait de ce qui n’est pas fourni."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "observation : un élément réellement visible dans l’image.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les informations absentes ne sont pas observables. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "interprétation : un sens proposé à partir d’un indice.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Elle doit rester justifiée et proportionnée. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "direction représentée : le lien montré ici par une flèche.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Elle montre ici un trajet prévu, pas tout un historique. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "limite de l’image : une donnée que le dessin ne fournit pas.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Un support écrit ne fournit pas cet enregistrement. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Observer signifie inventer le nom des personnes absentes.",
+      "truth": "false",
+      "explain": "Les informations absentes ne sont pas observables."
+     },
+     {
+      "text": "Toute interprétation devient automatiquement un fait certain.",
+      "truth": "false",
+      "explain": "Elle doit rester justifiée et proportionnée."
+     },
+     {
+      "text": "Une flèche prouve tous les messages déjà reçus.",
+      "truth": "false",
+      "explain": "Elle montre ici un trajet prévu, pas tout un historique."
+     },
+     {
+      "text": "L’image permet d’entendre une conversation exacte.",
+      "truth": "false",
+      "explain": "Un support écrit ne fournit pas cet enregistrement."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ]

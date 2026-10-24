@@ -3,7 +3,11 @@
  "class": "Form 2",
  "lesson_no": 107,
  "language": "fr",
- "prerequisites": [],
+ "prerequisites": [
+  104,
+  105,
+  106
+ ],
  "skills": [
   {
    "id": "fi2-107",
@@ -12,174 +16,170 @@
  ],
  "note": {
   "status": "draft",
-  "text": "Un média diffuse des informations à un public. La radio transmet principalement du son ; la télévision associe images et son. La presse écrite publie des articles dans des journaux ou des magazines, imprimés ou numériques. Sur Internet, les sites peuvent combiner texte, son et vidéo. Un journaliste recherche, vérifie et présente une information. Un titre annonce un sujet ; la source indique d’où vient l’information. Le support seul ne garantit pas la fiabilité.",
+  "text": "Un média diffuse des contenus à un public. La radio utilise le son ; la télévision associe notamment images et son ; la presse écrite publie des textes, sur papier ou sous forme numérique. Internet permet l’accès à de nombreux services et médias, mais n’est pas un auteur unique. Un journaliste cherche, vérifie et présente des informations ; une source est l’origine d’une information. Un support ou un titre connu ne garantit pas chaque phrase : il faut examiner la source et le contexte.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras distinguer support média source et rôle de journaliste dans des situations de classe. Acquis mobilisés : les noms sujets et les messages. Pour la suite : la lecture critique et les réseaux sociaux."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Un média diffuse des contenus à un public. La radio utilise le son ; la télévision associe notamment images et son ; la presse écrite publie des textes, sur papier ou sous forme numérique. Internet permet l’accès à de nombreux services et médias, mais n’est pas un auteur unique. Un journaliste cherche, vérifie et présente des informations ; une source est l’origine d’une information. Un support ou un titre connu ne garantit pas chaque phrase : il faut examiner la source et le contexte."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Scène originale : Dans un club imaginaire de Douala, Bih prépare un bulletin écrit. Ayuk distingue une émission de radio de la fiche à lire. Le groupe indique d’où vient une information et sépare un fait vérifié d’une opinion proposée. Aucun accès à une émission réelle n’est nécessaire pour l’exercice."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère le type de contenu et sa forme, puis cherche son origine. Distingue une personne qui produit une information du support qui la diffuse. N’attribue pas une phrase à tout Internet."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "radio",
+    "meaning": "un média dont la diffusion repose ici sur le son"
+   },
+   {
+    "word": "presse écrite",
+    "meaning": "des publications de textes sur papier ou en numérique"
+   },
+   {
+    "word": "journaliste",
+    "meaning": "une personne travaillant à rechercher vérifier et présenter des informations"
+   },
+   {
+    "word": "source",
+    "meaning": "l’origine identifiable d’une information"
+   }
+  ],
+  "mistake": {
+   "wrong": "Une émission radio exige toujours une image visible.",
+   "right": "un média dont la diffusion repose ici sur le son.",
+   "why": "Le son peut suffire à ce support."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Que fait le titre d’un article ?",
+  "problem": "Le modèle annonce un bulletin à écouter. Explique le choix.",
   "steps": [
-   "Les mots article, titre et source ont des fonctions différentes.",
-   "Le titre présente le sujet ; il ne suffit pas à prouver une information."
+   "un média dont la diffusion repose ici sur le son.",
+   "Le son peut suffire à ce support."
   ],
-  "answer": "Il annonce son sujet.",
+  "answer": "radio",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c107-1",
+    "id": "fi2-107-c1",
     "status": "draft",
-    "idea": "Un média diffuse des informations au public.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "La radio peut diffuser un bulletin d’information."
+     "radio : un média dont la diffusion repose ici sur le son.",
+     "presse écrite : des publications de textes sur papier ou en numérique.",
+     "journaliste : une personne travaillant à rechercher vérifier et présenter des informations.",
+     "source : l’origine identifiable d’une information."
     ],
     "checks": [],
     "check": {
-     "ref": "fi2-107-etape-1"
+     "ref": "fi2-107-notions"
     }
    },
    {
-    "id": "c107-2",
+    "id": "fi2-107-c2",
     "status": "draft",
-    "idea": "Les mots article, titre et source ont des fonctions différentes.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Le titre annonce le sujet de l’article."
+     "Le modèle annonce un bulletin à écouter.",
+     "Le club prépare un bulletin à lire.",
+     "Le rôle du modèle inclut la vérification avant publication.",
+     "Le groupe nomme l’organisme à l’origine du renseignement."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-107-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "vocabulaire"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Que fait le titre d’un article ?",
-         "r": "Il annonce son sujet.",
-         "w": [
-          "Il prouve que tout est vrai.",
-          "Il remplace toutes les sources."
-         ],
-         "y": "Le titre présente le sujet ; il ne suffit pas à prouver une information."
-        },
-        {
-         "q": "Que précise une source ?",
-         "r": "L’origine d’une information.",
-         "w": [
-          "La couleur d’un clavier.",
-          "La taille du papier seulement."
-         ],
-         "y": "La source permet d’identifier l’origine de l’information."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fi2-107-cas"
     }
    },
    {
-    "id": "c107-3",
+    "id": "fi2-107-c3",
     "status": "draft",
-    "idea": "Vérifie une information quel que soit son support.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Je compare les sources avant de transmettre une nouvelle."
+     "Une émission radio exige toujours une image visible. Correction : Le son peut suffire à ce support.",
+     "La presse écrite ne peut jamais exister en version numérique. Correction : Le caractère écrit ne dépend pas uniquement du papier.",
+     "Le travail du journaliste consiste obligatoirement à inventer les faits. Correction : L’information demande une démarche de vérification.",
+     "Internet entier est toujours l’auteur unique de chaque texte. Correction : La source doit être précisée plutôt que remplacée par un support général."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-107-etape-3-card",
-     "type": "mcq",
+     "id": "fi2-107-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "vocabulaire"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Une nouvelle circule sur un site. Que faut-il faire avant de la relayer ?",
-         "r": "Vérifier sa date et ses sources.",
-         "w": [
-          "La croire parce qu’elle est en ligne.",
-          "La partager parce que son titre est grand."
-         ],
-         "y": "La fiabilité dépend de la vérification, pas de la mise en page."
-        },
-        {
-         "q": "Le travail du journaliste comprend…",
-         "r": "la recherche et la vérification des informations.",
-         "w": [
-          "l’invention de toutes ses sources.",
-          "le remplacement des faits par des publicités."
-         ],
-         "y": "Le journaliste doit rechercher et vérifier ce qu’il présente."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "radio : un média dont la diffusion repose ici sur le son.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le son peut suffire à ce support. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "presse écrite : des publications de textes sur papier ou en numérique.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le caractère écrit ne dépend pas uniquement du papier. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "journaliste : une personne travaillant à rechercher vérifier et présenter des informations.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’information demande une démarche de vérification. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "source : l’origine identifiable d’une information.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La source doit être précisée plutôt que remplacée par un support général. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Une émission radio exige toujours une image visible.",
+        "truth": "false",
+        "explain": "Le son peut suffire à ce support."
+       },
+       {
+        "text": "La presse écrite ne peut jamais exister en version numérique.",
+        "truth": "false",
+        "explain": "Le caractère écrit ne dépend pas uniquement du papier."
+       },
+       {
+        "text": "Le travail du journaliste consiste obligatoirement à inventer les faits.",
+        "truth": "false",
+        "explain": "L’information demande une démarche de vérification."
+       },
+       {
+        "text": "Internet entier est toujours l’auteur unique de chaque texte.",
+        "truth": "false",
+        "explain": "La source doit être précisée plutôt que remplacée par un support général."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -187,33 +187,75 @@
  },
  "questions": [
   {
-   "id": "fi2-107-etape-1",
+   "id": "fi2-107-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "vocabulaire"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Quel média peut-on écouter sans regarder un écran ?",
-       "r": "La radio.",
+       "q": "Quel terme désigne un média dont la diffusion repose ici sur le son ?",
+       "r": "radio",
        "w": [
-        "Une photographie imprimée.",
-        "Une affiche muette."
+        "presse écrite",
+        "journaliste",
+        "source"
        ],
-       "y": "La radio transmet du son."
+       "e": [
+        "Cela désigne des publications de textes sur papier ou en numérique, plutôt que la notion demandée.",
+        "Cela désigne une personne travaillant à rechercher vérifier et présenter des informations, plutôt que la notion demandée.",
+        "Cela désigne l’origine identifiable d’une information, plutôt que la notion demandée."
+       ],
+       "y": "Le son peut suffire à ce support."
       },
       {
-       "q": "Quel média associe habituellement images animées et son ?",
-       "r": "La télévision.",
+       "q": "Quel terme désigne des publications de textes sur papier ou en numérique ?",
+       "r": "presse écrite",
        "w": [
-        "Une feuille sans texte.",
-        "Une lettre manuscrite seule."
+        "radio",
+        "journaliste",
+        "source"
        ],
-       "y": "Une émission télévisée associe images et son."
+       "e": [
+        "Cela désigne un média dont la diffusion repose ici sur le son, plutôt que la notion demandée.",
+        "Cela désigne une personne travaillant à rechercher vérifier et présenter des informations, plutôt que la notion demandée.",
+        "Cela désigne l’origine identifiable d’une information, plutôt que la notion demandée."
+       ],
+       "y": "Le caractère écrit ne dépend pas uniquement du papier."
+      },
+      {
+       "q": "Quel terme désigne une personne travaillant à rechercher vérifier et présenter des informations ?",
+       "r": "journaliste",
+       "w": [
+        "radio",
+        "presse écrite",
+        "source"
+       ],
+       "e": [
+        "Cela désigne un média dont la diffusion repose ici sur le son, plutôt que la notion demandée.",
+        "Cela désigne des publications de textes sur papier ou en numérique, plutôt que la notion demandée.",
+        "Cela désigne l’origine identifiable d’une information, plutôt que la notion demandée."
+       ],
+       "y": "L’information demande une démarche de vérification."
+      },
+      {
+       "q": "Quel terme désigne l’origine identifiable d’une information ?",
+       "r": "source",
+       "w": [
+        "radio",
+        "presse écrite",
+        "journaliste"
+       ],
+       "e": [
+        "Cela désigne un média dont la diffusion repose ici sur le son, plutôt que la notion demandée.",
+        "Cela désigne des publications de textes sur papier ou en numérique, plutôt que la notion demandée.",
+        "Cela désigne une personne travaillant à rechercher vérifier et présenter des informations, plutôt que la notion demandée."
+       ],
+       "y": "La source doit être précisée plutôt que remplacée par un support général."
       }
      ]
     }
@@ -228,53 +270,212 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-107-etape-2",
+   "id": "fi2-107-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le modèle annonce un bulletin à écouter.\nQuelle notion convient ?",
+       "r": "radio",
+       "w": [
+        "presse écrite",
+        "journaliste",
+        "source"
+       ],
+       "e": [
+        "Cela concerne des publications de textes sur papier ou en numérique. Compare cette définition avec le cas présenté.",
+        "Cela concerne une personne travaillant à rechercher vérifier et présenter des informations. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’origine identifiable d’une information. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le son peut suffire à ce support."
+      },
+      {
+       "q": "Le club prépare un bulletin à lire.\nQuelle notion convient ?",
+       "r": "presse écrite",
+       "w": [
+        "radio",
+        "journaliste",
+        "source"
+       ],
+       "e": [
+        "Cela concerne un média dont la diffusion repose ici sur le son. Compare cette définition avec le cas présenté.",
+        "Cela concerne une personne travaillant à rechercher vérifier et présenter des informations. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’origine identifiable d’une information. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le caractère écrit ne dépend pas uniquement du papier."
+      },
+      {
+       "q": "Le rôle du modèle inclut la vérification avant publication.\nQuelle notion convient ?",
+       "r": "journaliste",
+       "w": [
+        "radio",
+        "presse écrite",
+        "source"
+       ],
+       "e": [
+        "Cela concerne un média dont la diffusion repose ici sur le son. Compare cette définition avec le cas présenté.",
+        "Cela concerne des publications de textes sur papier ou en numérique. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’origine identifiable d’une information. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’information demande une démarche de vérification."
+      },
+      {
+       "q": "Le groupe nomme l’organisme à l’origine du renseignement.\nQuelle notion convient ?",
+       "r": "source",
+       "w": [
+        "radio",
+        "presse écrite",
+        "journaliste"
+       ],
+       "e": [
+        "Cela concerne un média dont la diffusion repose ici sur le son. Compare cette définition avec le cas présenté.",
+        "Cela concerne des publications de textes sur papier ou en numérique. Compare cette définition avec le cas présenté.",
+        "Cela concerne une personne travaillant à rechercher vérifier et présenter des informations. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La source doit être précisée plutôt que remplacée par un support général."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-107-contexte",
    "type": "mcq",
    "level": 2,
    "review": "authored",
    "sources": [
-    "vocabulaire"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Que fait le titre d’un article ?",
-       "r": "Il annonce son sujet.",
+       "q": "Le scénario décrit un bulletin diffusé par le son : quel média est visé ?",
+       "r": "radio",
        "w": [
-        "Il prouve que tout est vrai.",
-        "Il remplace toutes les sources."
+        "presse écrite",
+        "journaliste",
+        "source"
        ],
-       "y": "Le titre présente le sujet ; il ne suffit pas à prouver une information."
+       "e": [
+        "Ce terme désigne des publications de textes sur papier ou en numérique ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne une personne travaillant à rechercher vérifier et présenter des informations ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne l’origine identifiable d’une information ; ce n’est pas l’action ou le rôle décrit."
+       ],
+       "y": "Le son peut suffire à ce support."
       },
       {
-       "q": "Que précise une source ?",
-       "r": "L’origine d’une information.",
+       "q": "Le scénario décrit une publication de textes à lire : quel terme convient ?",
+       "r": "presse écrite",
        "w": [
-        "La couleur d’un clavier.",
-        "La taille du papier seulement."
+        "radio",
+        "journaliste",
+        "source"
        ],
-       "y": "La source permet d’identifier l’origine de l’information."
+       "e": [
+        "Ce terme désigne un média dont la diffusion repose ici sur le son ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne une personne travaillant à rechercher vérifier et présenter des informations ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne l’origine identifiable d’une information ; ce n’est pas l’action ou le rôle décrit."
+       ],
+       "y": "Le caractère écrit ne dépend pas uniquement du papier."
+      },
+      {
+       "q": "Une personne enquête et vérifie pour présenter des informations : quel rôle est décrit ?",
+       "r": "journaliste",
+       "w": [
+        "radio",
+        "presse écrite",
+        "source"
+       ],
+       "e": [
+        "Ce terme désigne un média dont la diffusion repose ici sur le son ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne des publications de textes sur papier ou en numérique ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne l’origine identifiable d’une information ; ce n’est pas l’action ou le rôle décrit."
+       ],
+       "y": "L’information demande une démarche de vérification."
+      },
+      {
+       "q": "On demande d’où vient une information : quel terme faut-il préciser ?",
+       "r": "source",
+       "w": [
+        "radio",
+        "presse écrite",
+        "journaliste"
+       ],
+       "e": [
+        "Ce terme désigne un média dont la diffusion repose ici sur le son ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne des publications de textes sur papier ou en numérique ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne une personne travaillant à rechercher vérifier et présenter des informations ; ce n’est pas l’action ou le rôle décrit."
+       ],
+       "y": "La source doit être précisée plutôt que remplacée par un support général."
       }
      ]
     }
@@ -289,84 +490,121 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-107-etape-3",
-   "type": "mcq",
+   "id": "fi2-107-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "radio",
+     "right": "Le modèle annonce un bulletin à écouter."
+    },
+    {
+     "left": "presse écrite",
+     "right": "Le club prépare un bulletin à lire."
+    },
+    {
+     "left": "journaliste",
+     "right": "Le rôle du modèle inclut la vérification avant publication."
+    },
+    {
+     "left": "source",
+     "right": "Le groupe nomme l’organisme à l’origine du renseignement."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-107-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "vocabulaire"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Une nouvelle circule sur un site. Que faut-il faire avant de la relayer ?",
-       "r": "Vérifier sa date et ses sources.",
-       "w": [
-        "La croire parce qu’elle est en ligne.",
-        "La partager parce que son titre est grand."
-       ],
-       "y": "La fiabilité dépend de la vérification, pas de la mise en page."
-      },
-      {
-       "q": "Le travail du journaliste comprend…",
-       "r": "la recherche et la vérification des informations.",
-       "w": [
-        "l’invention de toutes ses sources.",
-        "le remplacement des faits par des publicités."
-       ],
-       "y": "Le journaliste doit rechercher et vérifier ce qu’il présente."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "radio : un média dont la diffusion repose ici sur le son.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le son peut suffire à ce support. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "presse écrite : des publications de textes sur papier ou en numérique.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le caractère écrit ne dépend pas uniquement du papier. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "journaliste : une personne travaillant à rechercher vérifier et présenter des informations.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’information demande une démarche de vérification. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "source : l’origine identifiable d’une information.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La source doit être précisée plutôt que remplacée par un support général. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Une émission radio exige toujours une image visible.",
+      "truth": "false",
+      "explain": "Le son peut suffire à ce support."
+     },
+     {
+      "text": "La presse écrite ne peut jamais exister en version numérique.",
+      "truth": "false",
+      "explain": "Le caractère écrit ne dépend pas uniquement du papier."
+     },
+     {
+      "text": "Le travail du journaliste consiste obligatoirement à inventer les faits.",
+      "truth": "false",
+      "explain": "L’information demande une démarche de vérification."
+     },
+     {
+      "text": "Internet entier est toujours l’auteur unique de chaque texte.",
+      "truth": "false",
+      "explain": "La source doit être précisée plutôt que remplacée par un support général."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ]

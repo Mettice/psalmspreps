@@ -3,183 +3,182 @@
  "class": "Form 2",
  "lesson_no": 108,
  "language": "fr",
- "prerequisites": [],
+ "prerequisites": [
+  106,
+  107
+ ],
  "skills": [
   {
    "id": "fi2-108",
-   "name": "Préparer la récitation d’un poème"
+   "name": "Préparer une récitation ou un chant original"
   }
  ],
  "note": {
   "status": "draft",
-  "text": "Poème original — La voix du matin\nLa radio chante dans la cour,\nUne nouvelle ouvre le jour.\nJ’écoute, puis je réfléchis,\nJe cherche où le fait est écrit.\nPour préparer une récitation, comprends le texte, repère ses vers et sa ponctuation. Mémorise par petits passages. Respire, articule et respecte le sens. Récite ensuite devant un adulte si possible. L’application prépare ce travail ; elle n’entend pas et ne note pas ta voix.",
+  "text": "Réciter demande de respecter le texte et de le rendre compréhensible. On peut préparer les groupes de sens et les pauses sur papier. La fin d’une ligne n’impose pas toujours une pause identique ; le sens et la ponctuation comptent. Un refrain, si le texte devient un chant, est une partie reprise. Les mots ci-dessous sont originaux et ne reprennent aucune chanson connue. L’écran ne propose ni mélodie ni voix modèle ; une pratique guidée réelle reste nécessaire pour chanter ou réciter.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras annoter des groupes de sens et justifier une pause dans un court texte à mettre en voix. Acquis mobilisés : les graphies et les médias. Pour la suite : les jeux de rôle et les lectures expressives."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Réciter demande de respecter le texte et de le rendre compréhensible. On peut préparer les groupes de sens et les pauses sur papier. La fin d’une ligne n’impose pas toujours une pause identique ; le sens et la ponctuation comptent. Un refrain, si le texte devient un chant, est une partie reprise. Les mots ci-dessous sont originaux et ne reprennent aucune chanson connue. L’écran ne propose ni mélodie ni voix modèle ; une pratique guidée réelle reste nécessaire pour chanter ou réciter."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Texte original : « Dans la cour, un livre attend. / Bih ouvre une page ; / une question cherche sa voix. / Ensemble, nous écoutons les mots. » Les barres servent de repères de préparation. Si le groupe choisit une mise en chant avec le professeur, « nous écoutons les mots » peut devenir une reprise convenue, sans prétendre qu’une mélodie est déjà fournie."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Explique ce que le texte évoque avant de l’apprendre. Annote une pause et un mot important avec une raison. Lis ou chante ensuite réellement avec un partenaire et un modèle approprié ; une réponse écrite ne prouve pas la diction."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "groupe de sens",
+    "meaning": "une unité de mots préparée ensemble pour être comprise"
+   },
+   {
+    "word": "pause justifiée",
+    "meaning": "une suspension liée au sens ou à la ponctuation"
+   },
+   {
+    "word": "fidélité au texte",
+    "meaning": "le respect des mots de la création proposée"
+   },
+   {
+    "word": "refrain préparé",
+    "meaning": "une partie convenue pour revenir dans une mise en chant"
+   }
+  ],
+  "mistake": {
+   "wrong": "Chaque lettre doit être séparée par une longue pause.",
+   "right": "une unité de mots préparée ensemble pour être comprise.",
+   "why": "Le regroupement vise la compréhension des mots liés."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Poème original — La voix du matin\nLa radio chante dans la cour,\nUne nouvelle ouvre le jour.\nJ’écoute, puis je réfléchis,\nJe cherche où le fait est écrit. Que fait le lecteur après avoir écouté ?",
+  "problem": "Dans la cour situe la scène. Explique le choix.",
   "steps": [
-   "Comprendre le sens aide à mémoriser.",
-   "Les dernières lignes associent réflexion et recherche."
+   "une unité de mots préparée ensemble pour être comprise.",
+   "Le regroupement vise la compréhension des mots liés."
   ],
-  "answer": "Il réfléchit et cherche une trace écrite.",
+  "answer": "groupe de sens",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c108-1",
+    "id": "fi2-108-c1",
     "status": "draft",
-    "idea": "Un poème peut être organisé en vers.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "Chaque ligne du poème proposé est un vers."
+     "groupe de sens : une unité de mots préparée ensemble pour être comprise.",
+     "pause justifiée : une suspension liée au sens ou à la ponctuation.",
+     "fidélité au texte : le respect des mots de la création proposée.",
+     "refrain préparé : une partie convenue pour revenir dans une mise en chant."
     ],
     "checks": [],
     "check": {
-     "ref": "fi2-108-etape-1"
+     "ref": "fi2-108-notions"
     }
    },
    {
-    "id": "c108-2",
+    "id": "fi2-108-c2",
     "status": "draft",
-    "idea": "Comprendre le sens aide à mémoriser.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Le lecteur écoute, puis vérifie l’information."
+     "Dans la cour situe la scène.",
+     "Une pause après page peut suivre le point-virgule.",
+     "Bih reste le personnage nommé dans le texte.",
+     "Le groupe peut choisir une reprise avec le professeur."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-108-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "expression"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Poème original — La voix du matin\nLa radio chante dans la cour,\nUne nouvelle ouvre le jour.\nJ’écoute, puis je réfléchis,\nJe cherche où le fait est écrit. Que fait le lecteur après avoir écouté ?",
-         "r": "Il réfléchit et cherche une trace écrite.",
-         "w": [
-          "Il répète sans comprendre.",
-          "Il casse la radio."
-         ],
-         "y": "Les dernières lignes associent réflexion et recherche."
-        },
-        {
-         "q": "Quelle méthode aide à mémoriser ce poème ?",
-         "r": "Comprendre puis apprendre un court passage à la fois.",
-         "w": [
-          "Ignorer tous les mots inconnus.",
-          "Changer les mots à chaque lecture."
-         ],
-         "y": "La compréhension et la répétition par passages soutiennent la mémoire."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fi2-108-cas"
     }
    },
    {
-    "id": "c108-3",
+    "id": "fi2-108-c3",
     "status": "draft",
-    "idea": "L’adulte peut écouter l’articulation et le rythme.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Je marque les pauses sans couper le sens."
+     "Chaque lettre doit être séparée par une longue pause. Correction : Le regroupement vise la compréhension des mots liés.",
+     "Toute fin de ligne impose la même durée de silence. Correction : La ponctuation et le sens doivent être examinés.",
+     "Inventer des mots puis les attribuer au texte est une récitation fidèle. Correction : Il faut distinguer création nouvelle et reprise fidèle.",
+     "Le mot refrain prouve qu’un enregistrement est fourni. Correction : Une répétition écrite ne fournit ni son ni mélodie."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-108-etape-3-card",
-     "type": "mcq",
+     "id": "fi2-108-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "expression"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Que peut contrôler un adulte pendant la récitation ?",
-         "r": "L’articulation, les pauses et le respect du texte.",
-         "w": [
-          "La couleur de l’écran seulement.",
-          "Le nombre de boutons de l’application."
-         ],
-         "y": "Une récitation est un travail oral qui demande une écoute."
-        },
-        {
-         "q": "Que peut affirmer l’application après cet exercice écrit ?",
-         "r": "Que tu as préparé certains éléments du texte.",
-         "w": [
-          "Que ta voix est parfaitement juste.",
-          "Que tu as chanté sans erreur."
-         ],
-         "y": "L’application ne dispose pas d’un enregistrement de la voix."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "groupe de sens : une unité de mots préparée ensemble pour être comprise.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le regroupement vise la compréhension des mots liés. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "pause justifiée : une suspension liée au sens ou à la ponctuation.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La ponctuation et le sens doivent être examinés. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "fidélité au texte : le respect des mots de la création proposée.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il faut distinguer création nouvelle et reprise fidèle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "refrain préparé : une partie convenue pour revenir dans une mise en chant.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Une répétition écrite ne fournit ni son ni mélodie. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Chaque lettre doit être séparée par une longue pause.",
+        "truth": "false",
+        "explain": "Le regroupement vise la compréhension des mots liés."
+       },
+       {
+        "text": "Toute fin de ligne impose la même durée de silence.",
+        "truth": "false",
+        "explain": "La ponctuation et le sens doivent être examinés."
+       },
+       {
+        "text": "Inventer des mots puis les attribuer au texte est une récitation fidèle.",
+        "truth": "false",
+        "explain": "Il faut distinguer création nouvelle et reprise fidèle."
+       },
+       {
+        "text": "Le mot refrain prouve qu’un enregistrement est fourni.",
+        "truth": "false",
+        "explain": "Une répétition écrite ne fournit ni son ni mélodie."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -187,33 +186,75 @@
  },
  "questions": [
   {
-   "id": "fi2-108-etape-1",
+   "id": "fi2-108-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "expression"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Poème original — La voix du matin\nLa radio chante dans la cour,\nUne nouvelle ouvre le jour.\nJ’écoute, puis je réfléchis,\nJe cherche où le fait est écrit. Quelle ligne évoque la réflexion ?",
-       "r": "J’écoute, puis je réfléchis,",
+       "q": "Quel terme désigne une unité de mots préparée ensemble pour être comprise ?",
+       "r": "groupe de sens",
        "w": [
-        "Une nouvelle ouvre le jour.",
-        "La radio chante dans la cour,"
+        "pause justifiée",
+        "fidélité au texte",
+        "refrain préparé"
        ],
-       "y": "Le verbe réfléchis nomme la réflexion."
+       "e": [
+        "Cela désigne une suspension liée au sens ou à la ponctuation, plutôt que la notion demandée.",
+        "Cela désigne le respect des mots de la création proposée, plutôt que la notion demandée.",
+        "Cela désigne une partie convenue pour revenir dans une mise en chant, plutôt que la notion demandée."
+       ],
+       "y": "Le regroupement vise la compréhension des mots liés."
       },
       {
-       "q": "Poème original — La voix du matin\nLa radio chante dans la cour,\nUne nouvelle ouvre le jour.\nJ’écoute, puis je réfléchis,\nJe cherche où le fait est écrit. Quel média est nommé ?",
-       "r": "La radio.",
+       "q": "Quel terme désigne une suspension liée au sens ou à la ponctuation ?",
+       "r": "pause justifiée",
        "w": [
-        "Le cinéma.",
-        "Une affiche."
+        "groupe de sens",
+        "fidélité au texte",
+        "refrain préparé"
        ],
-       "y": "La première ligne nomme la radio."
+       "e": [
+        "Cela désigne une unité de mots préparée ensemble pour être comprise, plutôt que la notion demandée.",
+        "Cela désigne le respect des mots de la création proposée, plutôt que la notion demandée.",
+        "Cela désigne une partie convenue pour revenir dans une mise en chant, plutôt que la notion demandée."
+       ],
+       "y": "La ponctuation et le sens doivent être examinés."
+      },
+      {
+       "q": "Quel terme désigne le respect des mots de la création proposée ?",
+       "r": "fidélité au texte",
+       "w": [
+        "groupe de sens",
+        "pause justifiée",
+        "refrain préparé"
+       ],
+       "e": [
+        "Cela désigne une unité de mots préparée ensemble pour être comprise, plutôt que la notion demandée.",
+        "Cela désigne une suspension liée au sens ou à la ponctuation, plutôt que la notion demandée.",
+        "Cela désigne une partie convenue pour revenir dans une mise en chant, plutôt que la notion demandée."
+       ],
+       "y": "Il faut distinguer création nouvelle et reprise fidèle."
+      },
+      {
+       "q": "Quel terme désigne une partie convenue pour revenir dans une mise en chant ?",
+       "r": "refrain préparé",
+       "w": [
+        "groupe de sens",
+        "pause justifiée",
+        "fidélité au texte"
+       ],
+       "e": [
+        "Cela désigne une unité de mots préparée ensemble pour être comprise, plutôt que la notion demandée.",
+        "Cela désigne une suspension liée au sens ou à la ponctuation, plutôt que la notion demandée.",
+        "Cela désigne le respect des mots de la création proposée, plutôt que la notion demandée."
+       ],
+       "y": "Une répétition écrite ne fournit ni son ni mélodie."
       }
      ]
     }
@@ -228,53 +269,212 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-108-etape-2",
+   "id": "fi2-108-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Dans la cour situe la scène.\nQuelle notion convient ?",
+       "r": "groupe de sens",
+       "w": [
+        "pause justifiée",
+        "fidélité au texte",
+        "refrain préparé"
+       ],
+       "e": [
+        "Cela concerne une suspension liée au sens ou à la ponctuation. Compare cette définition avec le cas présenté.",
+        "Cela concerne le respect des mots de la création proposée. Compare cette définition avec le cas présenté.",
+        "Cela concerne une partie convenue pour revenir dans une mise en chant. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le regroupement vise la compréhension des mots liés."
+      },
+      {
+       "q": "Une pause après page peut suivre le point-virgule.\nQuelle notion convient ?",
+       "r": "pause justifiée",
+       "w": [
+        "groupe de sens",
+        "fidélité au texte",
+        "refrain préparé"
+       ],
+       "e": [
+        "Cela concerne une unité de mots préparée ensemble pour être comprise. Compare cette définition avec le cas présenté.",
+        "Cela concerne le respect des mots de la création proposée. Compare cette définition avec le cas présenté.",
+        "Cela concerne une partie convenue pour revenir dans une mise en chant. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La ponctuation et le sens doivent être examinés."
+      },
+      {
+       "q": "Bih reste le personnage nommé dans le texte.\nQuelle notion convient ?",
+       "r": "fidélité au texte",
+       "w": [
+        "groupe de sens",
+        "pause justifiée",
+        "refrain préparé"
+       ],
+       "e": [
+        "Cela concerne une unité de mots préparée ensemble pour être comprise. Compare cette définition avec le cas présenté.",
+        "Cela concerne une suspension liée au sens ou à la ponctuation. Compare cette définition avec le cas présenté.",
+        "Cela concerne une partie convenue pour revenir dans une mise en chant. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il faut distinguer création nouvelle et reprise fidèle."
+      },
+      {
+       "q": "Le groupe peut choisir une reprise avec le professeur.\nQuelle notion convient ?",
+       "r": "refrain préparé",
+       "w": [
+        "groupe de sens",
+        "pause justifiée",
+        "fidélité au texte"
+       ],
+       "e": [
+        "Cela concerne une unité de mots préparée ensemble pour être comprise. Compare cette définition avec le cas présenté.",
+        "Cela concerne une suspension liée au sens ou à la ponctuation. Compare cette définition avec le cas présenté.",
+        "Cela concerne le respect des mots de la création proposée. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Une répétition écrite ne fournit ni son ni mélodie."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-108-appliquer",
    "type": "mcq",
    "level": 2,
    "review": "authored",
    "sources": [
-    "expression"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Poème original — La voix du matin\nLa radio chante dans la cour,\nUne nouvelle ouvre le jour.\nJ’écoute, puis je réfléchis,\nJe cherche où le fait est écrit. Que fait le lecteur après avoir écouté ?",
-       "r": "Il réfléchit et cherche une trace écrite.",
+       "q": "Quel groupe situe la scène du texte ?",
+       "r": "Dans la cour",
        "w": [
-        "Il répète sans comprendre.",
-        "Il casse la radio."
+        "Un dossier médical absent",
+        "La couleur secrète du livre",
+        "Une adresse réelle obligatoire"
        ],
-       "y": "Les dernières lignes associent réflexion et recherche."
+       "e": [
+        "Le texte ne donne pas ce dossier.",
+        "La couleur n’est pas indiquée.",
+        "Aucune adresse privée n’est demandée."
+       ],
+       "y": "Le groupe donne un lieu fictif."
       },
       {
-       "q": "Quelle méthode aide à mémoriser ce poème ?",
-       "r": "Comprendre puis apprendre un court passage à la fois.",
+       "q": "Pourquoi placer une pause après page dans la préparation ?",
+       "r": "La ponctuation et le sens peuvent soutenir ce choix.",
        "w": [
-        "Ignorer tous les mots inconnus.",
-        "Changer les mots à chaque lecture."
+        "Chaque lettre exige la même pause.",
+        "Le texte prouve une durée sonore exacte.",
+        "Une rumeur sur Bih impose la pause."
        ],
-       "y": "La compréhension et la répétition par passages soutiennent la mémoire."
+       "e": [
+        "La lecture ne découpe pas ainsi chaque lettre.",
+        "Aucun son minuté n’est donné.",
+        "La justification doit venir du texte."
+       ],
+       "y": "Justifie par un indice écrit."
+      },
+      {
+       "q": "Quelle démarche respecte les mots du texte ?",
+       "r": "Relire pour retrouver une formulation oubliée.",
+       "w": [
+        "Attribuer une invention à ce texte.",
+        "Changer tous les personnages sans le dire.",
+        "Prétendre qu’un silence prouve la mélodie."
+       ],
+       "e": [
+        "L’invention serait une autre création.",
+        "Les référents du texte doivent être gardés.",
+        "Aucune mélodie n’est fournie."
+       ],
+       "y": "La fidélité peut être préparée."
+      },
+      {
+       "q": "Pour évaluer un chant réel, que faudrait-il en plus ?",
+       "r": "Une réalisation sonore réellement entendue.",
+       "w": [
+        "Une réponse écrite seule.",
+        "La date de publication du cahier.",
+        "Une opinion sur la dignité du lecteur."
+       ],
+       "e": [
+        "Elle ne donne pas la voix.",
+        "Cette date ne mesure pas le chant.",
+        "La valeur d’une personne n’est pas sa prestation."
+       ],
+       "y": "L’activité actuelle prépare l’écrit."
       }
      ]
     }
@@ -289,84 +489,121 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-108-etape-3",
-   "type": "mcq",
+   "id": "fi2-108-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "groupe de sens",
+     "right": "Dans la cour situe la scène."
+    },
+    {
+     "left": "pause justifiée",
+     "right": "Une pause après page peut suivre le point-virgule."
+    },
+    {
+     "left": "fidélité au texte",
+     "right": "Bih reste le personnage nommé dans le texte."
+    },
+    {
+     "left": "refrain préparé",
+     "right": "Le groupe peut choisir une reprise avec le professeur."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-108-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "expression"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Que peut contrôler un adulte pendant la récitation ?",
-       "r": "L’articulation, les pauses et le respect du texte.",
-       "w": [
-        "La couleur de l’écran seulement.",
-        "Le nombre de boutons de l’application."
-       ],
-       "y": "Une récitation est un travail oral qui demande une écoute."
-      },
-      {
-       "q": "Que peut affirmer l’application après cet exercice écrit ?",
-       "r": "Que tu as préparé certains éléments du texte.",
-       "w": [
-        "Que ta voix est parfaitement juste.",
-        "Que tu as chanté sans erreur."
-       ],
-       "y": "L’application ne dispose pas d’un enregistrement de la voix."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "groupe de sens : une unité de mots préparée ensemble pour être comprise.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le regroupement vise la compréhension des mots liés. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "pause justifiée : une suspension liée au sens ou à la ponctuation.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La ponctuation et le sens doivent être examinés. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "fidélité au texte : le respect des mots de la création proposée.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il faut distinguer création nouvelle et reprise fidèle. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "refrain préparé : une partie convenue pour revenir dans une mise en chant.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Une répétition écrite ne fournit ni son ni mélodie. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Chaque lettre doit être séparée par une longue pause.",
+      "truth": "false",
+      "explain": "Le regroupement vise la compréhension des mots liés."
+     },
+     {
+      "text": "Toute fin de ligne impose la même durée de silence.",
+      "truth": "false",
+      "explain": "La ponctuation et le sens doivent être examinés."
+     },
+     {
+      "text": "Inventer des mots puis les attribuer au texte est une récitation fidèle.",
+      "truth": "false",
+      "explain": "Il faut distinguer création nouvelle et reprise fidèle."
+     },
+     {
+      "text": "Le mot refrain prouve qu’un enregistrement est fourni.",
+      "truth": "false",
+      "explain": "Une répétition écrite ne fournit ni son ni mélodie."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ]

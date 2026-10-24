@@ -3,7 +3,10 @@
  "class": "Form 2",
  "lesson_no": 109,
  "language": "fr",
- "prerequisites": [],
+ "prerequisites": [
+  107,
+  108
+ ],
  "skills": [
   {
    "id": "fi2-109",
@@ -12,174 +15,170 @@
  ],
  "note": {
   "status": "draft",
-  "text": "Texte original — Le bulletin du club\nLe club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club.\nPour répondre, distingue ce qui est écrit de ce que tu supposes. Appuie une interprétation sur un indice précis.",
+  "text": "Lis d’abord le passage entier, puis relève personnages, actions et repères. Distingue ce qui est directement écrit de ce qui peut être déduit d’un indice. Une scène fictive peut suggérer une idée sans prouver une règle sur toute une population. Dans un récit, le narrateur ne révèle pas forcément toutes les pensées. Pour répondre, appuie le choix sur les mots du texte et respecte ses limites.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras retrouver les rôles et les vérifications d’un bulletin sans inventer son résultat. Acquis mobilisés : le lexique des médias et la récitation. Pour la suite : la description et la lecture littéraire."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Lis d’abord le passage entier, puis relève personnages, actions et repères. Distingue ce qui est directement écrit de ce qui peut être déduit d’un indice. Une scène fictive peut suggérer une idée sans prouver une règle sur toute une population. Dans un récit, le narrateur ne révèle pas forcément toutes les pensées. Pour répondre, appuie le choix sur les mots du texte et respecte ses limites."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Passage original : Dans un club imaginaire de Bamenda, Bih prépare un bulletin écrit. Ayuk propose un titre très affirmatif, mais l’enseignante demande quelle source soutient la phrase principale. Le groupe retrouve l’origine du renseignement et précise ce qui reste à confirmer. Bih réserve un espace pour une question des lecteurs. Le bulletin est encore un projet ; le passage ne donne ni diffusion réalisée ni réactions reçues."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Relis la phrase utile, formule une réponse puis vérifie son appui. Distingue l’ordre des faits, les motifs donnés et ce qui reste inconnu. Ne transforme pas un projet ou une image littéraire en résultat mesuré."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "information explicite",
+    "meaning": "un fait directement donné par les mots"
+   },
+   {
+    "word": "inférence appuyée",
+    "meaning": "une conclusion prudente soutenue par un indice"
+   },
+   {
+    "word": "chronologie",
+    "meaning": "l’ordre des faits racontés"
+   },
+   {
+    "word": "limite du texte",
+    "meaning": "ce que ce passage ne permet pas d’affirmer"
+   }
+  ],
+  "mistake": {
+   "wrong": "Tout détail imaginé est explicitement présent.",
+   "right": "un fait directement donné par les mots.",
+   "why": "Il faut retrouver le détail dans le passage."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Texte original — Le bulletin du club\nLe club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quand font-ils relire le bulletin ?",
+  "problem": "Une action écrite peut être relevée sans ajout. Explique le choix.",
   "steps": [
-   "Retrouve l’ordre des actions.",
-   "Le texte précise avant d’afficher."
+   "un fait directement donné par les mots.",
+   "Il faut retrouver le détail dans le passage."
   ],
-  "answer": "Avant de l’afficher.",
+  "answer": "information explicite",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c109-1",
+    "id": "fi2-109-c1",
     "status": "draft",
-    "idea": "Repère les personnages et leur projet.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "Bih et Nji préparent un bulletin scolaire."
+     "information explicite : un fait directement donné par les mots.",
+     "inférence appuyée : une conclusion prudente soutenue par un indice.",
+     "chronologie : l’ordre des faits racontés.",
+     "limite du texte : ce que ce passage ne permet pas d’affirmer."
     ],
     "checks": [],
     "check": {
-     "ref": "fi2-109-etape-1"
+     "ref": "fi2-109-notions"
     }
    },
    {
-    "id": "c109-2",
+    "id": "fi2-109-c2",
     "status": "draft",
-    "idea": "Retrouve l’ordre des actions.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Les élèves relisent avant d’afficher."
+     "Une action écrite peut être relevée sans ajout.",
+     "Une question du personnage peut aider à comprendre son intention.",
+     "Une préparation peut précéder une présentation.",
+     "Sans résultat donné, on ne peut inventer un succès mesuré."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-109-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "lecture"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Texte original — Le bulletin du club\nLe club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quand font-ils relire le bulletin ?",
-         "r": "Avant de l’afficher.",
-         "w": [
-          "Après plusieurs années.",
-          "Avant de l’écrire."
-         ],
-         "y": "Le texte précise avant d’afficher."
-        },
-        {
-         "q": "Texte original — Le bulletin du club\nLe club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quelle erreur est corrigée ?",
-         "r": "Une erreur de date.",
-         "w": [
-          "La couleur d’une chaise.",
-          "Le prix d’un repas."
-         ],
-         "y": "La date de la rencontre est l’information vérifiée."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fi2-109-cas"
     }
    },
    {
-    "id": "c109-3",
+    "id": "fi2-109-c3",
     "status": "draft",
-    "idea": "Relie la vérification à son effet.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "La bonne date aide les élèves à venir au club."
+     "Tout détail imaginé est explicitement présent. Correction : Il faut retrouver le détail dans le passage.",
+     "Une inférence n’a jamais besoin d’indice. Correction : La conclusion doit rester liée au texte.",
+     "L’ordre raconté impose forcément de commencer par la fin. Correction : Les repères du passage doivent être suivis.",
+     "Une scène inventée prouve tous les cas réels. Correction : L’exemple ne donne pas cette portée générale."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-109-etape-3-card",
-     "type": "mcq",
+     "id": "fi2-109-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "lecture"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Texte original — Le bulletin du club\nLe club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. À quoi sert la relecture dans ce récit ?",
-         "r": "À éviter de diffuser une mauvaise date.",
-         "w": [
-          "À supprimer toutes les rencontres.",
-          "À remplacer l’entretien par une rumeur."
-         ],
-         "y": "La relecture permet de corriger une erreur utile aux lecteurs."
-        },
-        {
-         "q": "Texte original — Le bulletin du club\nLe club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quel titre exprime le mieux l’idée principale ?",
-         "r": "Vérifier avant d’informer.",
-         "w": [
-          "Un voyage en mer.",
-          "La panne du camion."
-         ],
-         "y": "Le récit montre comment une vérification améliore un bulletin."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "information explicite : un fait directement donné par les mots.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il faut retrouver le détail dans le passage. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "inférence appuyée : une conclusion prudente soutenue par un indice.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La conclusion doit rester liée au texte. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "chronologie : l’ordre des faits racontés.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Les repères du passage doivent être suivis. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "limite du texte : ce que ce passage ne permet pas d’affirmer.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : L’exemple ne donne pas cette portée générale. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Tout détail imaginé est explicitement présent.",
+        "truth": "false",
+        "explain": "Il faut retrouver le détail dans le passage."
+       },
+       {
+        "text": "Une inférence n’a jamais besoin d’indice.",
+        "truth": "false",
+        "explain": "La conclusion doit rester liée au texte."
+       },
+       {
+        "text": "L’ordre raconté impose forcément de commencer par la fin.",
+        "truth": "false",
+        "explain": "Les repères du passage doivent être suivis."
+       },
+       {
+        "text": "Une scène inventée prouve tous les cas réels.",
+        "truth": "false",
+        "explain": "L’exemple ne donne pas cette portée générale."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -187,33 +186,75 @@
  },
  "questions": [
   {
-   "id": "fi2-109-etape-1",
+   "id": "fi2-109-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "lecture"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Texte original — Le bulletin du club\nLe club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Que préparent les élèves ?",
-       "r": "Un bulletin pour l’école.",
+       "q": "Quel terme désigne un fait directement donné par les mots ?",
+       "r": "information explicite",
        "w": [
-        "Une émission de cuisine.",
-        "Un permis de conduire."
+        "inférence appuyée",
+        "chronologie",
+        "limite du texte"
        ],
-       "y": "Le projet est annoncé au début du texte."
+       "e": [
+        "Cela désigne une conclusion prudente soutenue par un indice, plutôt que la notion demandée.",
+        "Cela désigne l’ordre des faits racontés, plutôt que la notion demandée.",
+        "Cela désigne ce que ce passage ne permet pas d’affirmer, plutôt que la notion demandée."
+       ],
+       "y": "Il faut retrouver le détail dans le passage."
       },
       {
-       "q": "Texte original — Le bulletin du club\nLe club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Qui Bih interroge-t-elle ?",
-       "r": "La bibliothécaire.",
+       "q": "Quel terme désigne une conclusion prudente soutenue par un indice ?",
+       "r": "inférence appuyée",
        "w": [
-        "Un chauffeur.",
-        "Un gardien de stade."
+        "information explicite",
+        "chronologie",
+        "limite du texte"
        ],
-       "y": "Le texte nomme son interlocutrice."
+       "e": [
+        "Cela désigne un fait directement donné par les mots, plutôt que la notion demandée.",
+        "Cela désigne l’ordre des faits racontés, plutôt que la notion demandée.",
+        "Cela désigne ce que ce passage ne permet pas d’affirmer, plutôt que la notion demandée."
+       ],
+       "y": "La conclusion doit rester liée au texte."
+      },
+      {
+       "q": "Quel terme désigne l’ordre des faits racontés ?",
+       "r": "chronologie",
+       "w": [
+        "information explicite",
+        "inférence appuyée",
+        "limite du texte"
+       ],
+       "e": [
+        "Cela désigne un fait directement donné par les mots, plutôt que la notion demandée.",
+        "Cela désigne une conclusion prudente soutenue par un indice, plutôt que la notion demandée.",
+        "Cela désigne ce que ce passage ne permet pas d’affirmer, plutôt que la notion demandée."
+       ],
+       "y": "Les repères du passage doivent être suivis."
+      },
+      {
+       "q": "Quel terme désigne ce que ce passage ne permet pas d’affirmer ?",
+       "r": "limite du texte",
+       "w": [
+        "information explicite",
+        "inférence appuyée",
+        "chronologie"
+       ],
+       "e": [
+        "Cela désigne un fait directement donné par les mots, plutôt que la notion demandée.",
+        "Cela désigne une conclusion prudente soutenue par un indice, plutôt que la notion demandée.",
+        "Cela désigne l’ordre des faits racontés, plutôt que la notion demandée."
+       ],
+       "y": "L’exemple ne donne pas cette portée générale."
       }
      ]
     }
@@ -228,53 +269,212 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-109-etape-2",
+   "id": "fi2-109-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Une action écrite peut être relevée sans ajout.\nQuelle notion convient ?",
+       "r": "information explicite",
+       "w": [
+        "inférence appuyée",
+        "chronologie",
+        "limite du texte"
+       ],
+       "e": [
+        "Cela concerne une conclusion prudente soutenue par un indice. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’ordre des faits racontés. Compare cette définition avec le cas présenté.",
+        "Cela concerne ce que ce passage ne permet pas d’affirmer. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il faut retrouver le détail dans le passage."
+      },
+      {
+       "q": "Une question du personnage peut aider à comprendre son intention.\nQuelle notion convient ?",
+       "r": "inférence appuyée",
+       "w": [
+        "information explicite",
+        "chronologie",
+        "limite du texte"
+       ],
+       "e": [
+        "Cela concerne un fait directement donné par les mots. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’ordre des faits racontés. Compare cette définition avec le cas présenté.",
+        "Cela concerne ce que ce passage ne permet pas d’affirmer. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La conclusion doit rester liée au texte."
+      },
+      {
+       "q": "Une préparation peut précéder une présentation.\nQuelle notion convient ?",
+       "r": "chronologie",
+       "w": [
+        "information explicite",
+        "inférence appuyée",
+        "limite du texte"
+       ],
+       "e": [
+        "Cela concerne un fait directement donné par les mots. Compare cette définition avec le cas présenté.",
+        "Cela concerne une conclusion prudente soutenue par un indice. Compare cette définition avec le cas présenté.",
+        "Cela concerne ce que ce passage ne permet pas d’affirmer. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Les repères du passage doivent être suivis."
+      },
+      {
+       "q": "Sans résultat donné, on ne peut inventer un succès mesuré.\nQuelle notion convient ?",
+       "r": "limite du texte",
+       "w": [
+        "information explicite",
+        "inférence appuyée",
+        "chronologie"
+       ],
+       "e": [
+        "Cela concerne un fait directement donné par les mots. Compare cette définition avec le cas présenté.",
+        "Cela concerne une conclusion prudente soutenue par un indice. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’ordre des faits racontés. Compare cette définition avec le cas présenté."
+       ],
+       "y": "L’exemple ne donne pas cette portée générale."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-109-comprendre",
    "type": "mcq",
    "level": 2,
    "review": "authored",
    "sources": [
-    "lecture"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Texte original — Le bulletin du club\nLe club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quand font-ils relire le bulletin ?",
-       "r": "Avant de l’afficher.",
+       "q": "Quel support le club prépare-t-il ?",
+       "r": "Un bulletin écrit.",
        "w": [
-        "Après plusieurs années.",
-        "Avant de l’écrire."
+        "Une émission déjà enregistrée.",
+        "Un résultat de dépistage.",
+        "Une lettre privée de tous les élèves."
        ],
-       "y": "Le texte précise avant d’afficher."
+       "e": [
+        "Aucun enregistrement n’est réalisé dans le passage.",
+        "Le thème n’est pas un examen médical.",
+        "Aucune telle correspondance n’est donnée."
+       ],
+       "y": "Relève le support annoncé."
       },
       {
-       "q": "Texte original — Le bulletin du club\nLe club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quelle erreur est corrigée ?",
-       "r": "Une erreur de date.",
+       "q": "Que demande l’enseignante ?",
+       "r": "Quelle source soutient la phrase principale.",
        "w": [
-        "La couleur d’une chaise.",
-        "Le prix d’un repas."
+        "Quel mot de passe publier.",
+        "Comment inventer une source.",
+        "Pourquoi supprimer toute question."
        ],
-       "y": "La date de la rencontre est l’information vérifiée."
+       "e": [
+        "Aucun code n’est demandé.",
+        "Il faut retrouver l’origine réelle du renseignement dans la scène.",
+        "Une place est réservée aux questions."
+       ],
+       "y": "La demande porte sur l’appui de l’information."
+      },
+      {
+       "q": "Pourquoi garder un espace dans le bulletin ?",
+       "r": "Pour une question des lecteurs.",
+       "w": [
+        "Pour garantir l’accord de tous.",
+        "Pour cacher une prescription.",
+        "Pour prouver que le bulletin a été diffusé."
+       ],
+       "e": [
+        "Les réactions ne sont pas connues.",
+        "Aucune prescription n’est prévue.",
+        "L’espace ne prouve pas la diffusion."
+       ],
+       "y": "Le passage donne cette fonction."
+      },
+      {
+       "q": "Quelle affirmation dépasse le texte ?",
+       "r": "Les lecteurs ont déjà tous approuvé le bulletin.",
+       "w": [
+        "Le bulletin est un projet.",
+        "Bih prépare l’écrit.",
+        "Le groupe cherche l’origine du renseignement."
+       ],
+       "e": [
+        "Ce statut est annoncé.",
+        "Cette action est donnée.",
+        "La recherche de source est racontée."
+       ],
+       "y": "Les réactions restent inconnues."
       }
      ]
     }
@@ -289,84 +489,121 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-109-etape-3",
-   "type": "mcq",
+   "id": "fi2-109-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "information explicite",
+     "right": "Une action écrite peut être relevée sans ajout."
+    },
+    {
+     "left": "inférence appuyée",
+     "right": "Une question du personnage peut aider à comprendre son intention."
+    },
+    {
+     "left": "chronologie",
+     "right": "Une préparation peut précéder une présentation."
+    },
+    {
+     "left": "limite du texte",
+     "right": "Sans résultat donné, on ne peut inventer un succès mesuré."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-109-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "lecture"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Texte original — Le bulletin du club\nLe club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. À quoi sert la relecture dans ce récit ?",
-       "r": "À éviter de diffuser une mauvaise date.",
-       "w": [
-        "À supprimer toutes les rencontres.",
-        "À remplacer l’entretien par une rumeur."
-       ],
-       "y": "La relecture permet de corriger une erreur utile aux lecteurs."
-      },
-      {
-       "q": "Texte original — Le bulletin du club\nLe club de lecture prépare un bulletin pour l’école. Bih interroge la bibliothécaire. Nji note ses réponses et vérifie la date de la prochaine rencontre. Avant d’afficher le bulletin, ils le font relire. Une erreur de date est corrigée. Le lendemain, les élèves savent quand venir au club. Quel titre exprime le mieux l’idée principale ?",
-       "r": "Vérifier avant d’informer.",
-       "w": [
-        "Un voyage en mer.",
-        "La panne du camion."
-       ],
-       "y": "Le récit montre comment une vérification améliore un bulletin."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "information explicite : un fait directement donné par les mots.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il faut retrouver le détail dans le passage. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "inférence appuyée : une conclusion prudente soutenue par un indice.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La conclusion doit rester liée au texte. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "chronologie : l’ordre des faits racontés.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Les repères du passage doivent être suivis. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "limite du texte : ce que ce passage ne permet pas d’affirmer.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : L’exemple ne donne pas cette portée générale. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Tout détail imaginé est explicitement présent.",
+      "truth": "false",
+      "explain": "Il faut retrouver le détail dans le passage."
+     },
+     {
+      "text": "Une inférence n’a jamais besoin d’indice.",
+      "truth": "false",
+      "explain": "La conclusion doit rester liée au texte."
+     },
+     {
+      "text": "L’ordre raconté impose forcément de commencer par la fin.",
+      "truth": "false",
+      "explain": "Les repères du passage doivent être suivis."
+     },
+     {
+      "text": "Une scène inventée prouve tous les cas réels.",
+      "truth": "false",
+      "explain": "L’exemple ne donne pas cette portée générale."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ]

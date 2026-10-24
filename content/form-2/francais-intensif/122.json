@@ -3,7 +3,12 @@
  "class": "Form 2",
  "lesson_no": 122,
  "language": "fr",
- "prerequisites": [],
+ "prerequisites": [
+  111,
+  113,
+  117,
+  121
+ ],
  "skills": [
   {
    "id": "fi2-122",
@@ -12,174 +17,170 @@
  ],
  "note": {
   "status": "draft",
-  "text": "Une narration raconte des événements dans un ordre compréhensible. Présente la situation de départ, un événement qui change la situation, les actions et le dénouement. Les connecteurs un matin, soudain, ensuite et enfin guident le lecteur. Choisis un système de temps cohérent. Dans un récit au passé, l’imparfait peut décrire le cadre et le passé composé raconter les actions. Évite d’inventer plusieurs fins incompatibles. Relis la chronologie et les accords.",
+  "text": "Une narration fait suivre des actions dans un cadre. Une difficulté peut modifier la situation initiale et conduire à des réactions puis une issue. Les connecteurs ensuite, pendant ce temps et enfin n’expriment pas la même relation ; choisis selon le déroulement. Le cadre peut employer l’imparfait et les événements le passé composé ou le passé simple selon la consigne. Ne change pas de personnage ou de temps au hasard. Une petite difficulté fictive suffit, sans drame privé ni manipulation dangereuse.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras ordonner cadre difficulté actions et issue dans un récit fictif cohérent. Acquis mobilisés : les descriptions, portraits et temps du récit. Pour la suite : la communication précise et le récit d’images."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Une narration fait suivre des actions dans un cadre. Une difficulté peut modifier la situation initiale et conduire à des réactions puis une issue. Les connecteurs ensuite, pendant ce temps et enfin n’expriment pas la même relation ; choisis selon le déroulement. Le cadre peut employer l’imparfait et les événements le passé composé ou le passé simple selon la consigne. Ne change pas de personnage ou de temps au hasard. Une petite difficulté fictive suffit, sans drame privé ni manipulation dangereuse."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Un soir, Bih préparait une fiche dans le club imaginaire. Le titre d’une source manquait dans ses notes. Elle a demandé à Ayuk de relire le cahier avec elle. Pendant qu’il cherchait la page, elle a marqué le passage à vérifier. Enfin, ils ont retrouvé le titre et complété la fiche. Le projet est devenu plus clair sans qu’ils inventent un résultat de publication."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Prépare cadre, problème, réactions et issue. Relie les actions et garde les référents identifiables. Relis le rôle de chaque temps et vérifie que l’issue résulte des actions racontées."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "cadre narratif",
+    "meaning": "les circonstances situant l’action"
+   },
+   {
+    "word": "difficulté",
+    "meaning": "le fait qui appelle une réaction dans l’histoire"
+   },
+   {
+    "word": "réaction",
+    "meaning": "une action répondant au problème"
+   },
+   {
+    "word": "issue cohérente",
+    "meaning": "l’état obtenu à la suite des actions"
+   }
+  ],
+  "mistake": {
+   "wrong": "Le cadre est obligatoirement la note finale d’un examen.",
+   "right": "les circonstances situant l’action.",
+   "why": "Il présente ici lieu et moment."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Quelle suite est chronologique ?",
+  "problem": "Un soir dans le club situe le récit. Explique le choix.",
   "steps": [
-   "Les connecteurs rendent l’ordre lisible.",
-   "La correction doit intervenir après la découverte et avant la diffusion corrigée."
+   "les circonstances situant l’action.",
+   "Il présente ici lieu et moment."
   ],
-  "answer": "Découvrir l’erreur, la corriger, afficher le bulletin.",
+  "answer": "cadre narratif",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c122-1",
+    "id": "fi2-122-c1",
     "status": "draft",
-    "idea": "Un récit présente des événements liés.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "Le club préparait un bulletin quand une erreur a été découverte."
+     "cadre narratif : les circonstances situant l’action.",
+     "difficulté : le fait qui appelle une réaction dans l’histoire.",
+     "réaction : une action répondant au problème.",
+     "issue cohérente : l’état obtenu à la suite des actions."
     ],
     "checks": [],
     "check": {
-     "ref": "fi2-122-etape-1"
+     "ref": "fi2-122-notions"
     }
    },
    {
-    "id": "c122-2",
+    "id": "fi2-122-c2",
     "status": "draft",
-    "idea": "Les connecteurs rendent l’ordre lisible.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "D’abord on relit ; ensuite on corrige ; enfin on affiche."
+     "Un soir dans le club situe le récit.",
+     "Le titre manque dans les notes.",
+     "Bih demande une relecture des notes.",
+     "Le titre retrouvé permet de compléter la fiche."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-122-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "expression"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Quelle suite est chronologique ?",
-         "r": "Découvrir l’erreur, la corriger, afficher le bulletin.",
-         "w": [
-          "Afficher, découvrir, prétendre avoir déjà corrigé sans relire.",
-          "Conclure puis présenter un autre problème sans lien."
-         ],
-         "y": "La correction doit intervenir après la découverte et avant la diffusion corrigée."
-        },
-        {
-         "q": "Quel mot annonce un événement soudain ?",
-         "r": "Soudain",
-         "w": [
-          "Au centre",
-          "À gauche"
-         ],
-         "y": "Soudain situe une rupture dans le déroulement du récit."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fi2-122-cas"
     }
    },
    {
-    "id": "c122-3",
+    "id": "fi2-122-c3",
     "status": "draft",
-    "idea": "La fin doit répondre au problème du récit.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Le bulletin corrigé est affiché : le problème de date est résolu."
+     "Le cadre est obligatoirement la note finale d’un examen. Correction : Il présente ici lieu et moment.",
+     "Une difficulté fictive doit toujours être une catastrophe réelle. Correction : Un manque d’information peut suffire.",
+     "La réaction doit être sans lien avec la difficulté. Correction : Elle fait avancer ici la recherche.",
+     "L’issue doit contredire sans explication toute la recherche. Correction : Le résultat doit être relié aux actions."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-122-etape-3-card",
-     "type": "mcq",
+     "id": "fi2-122-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "expression"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Une lettre s’envole ; Bih la récupère. Quelle fin convient ?",
-         "r": "La lettre peut enfin être remise à sa destinataire.",
-         "w": [
-          "La lettre n’a jamais existé sans explication.",
-          "Le texte devient une recette sans lien."
-         ],
-         "y": "Le dénouement suit la récupération de la lettre."
-        },
-        {
-         "q": "Que faut-il vérifier à la relecture ?",
-         "r": "L’ordre des événements et la cohérence des temps.",
-         "w": [
-          "Seulement le nombre de lignes.",
-          "Que chaque verbe change de temps au hasard."
-         ],
-         "y": "La chronologie et les temps rendent le récit compréhensible."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "cadre narratif : les circonstances situant l’action.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il présente ici lieu et moment. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "difficulté : le fait qui appelle une réaction dans l’histoire.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Un manque d’information peut suffire. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "réaction : une action répondant au problème.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Elle fait avancer ici la recherche. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "issue cohérente : l’état obtenu à la suite des actions.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le résultat doit être relié aux actions. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Le cadre est obligatoirement la note finale d’un examen.",
+        "truth": "false",
+        "explain": "Il présente ici lieu et moment."
+       },
+       {
+        "text": "Une difficulté fictive doit toujours être une catastrophe réelle.",
+        "truth": "false",
+        "explain": "Un manque d’information peut suffire."
+       },
+       {
+        "text": "La réaction doit être sans lien avec la difficulté.",
+        "truth": "false",
+        "explain": "Elle fait avancer ici la recherche."
+       },
+       {
+        "text": "L’issue doit contredire sans explication toute la recherche.",
+        "truth": "false",
+        "explain": "Le résultat doit être relié aux actions."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -187,33 +188,75 @@
  },
  "questions": [
   {
-   "id": "fi2-122-etape-1",
+   "id": "fi2-122-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "expression"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Quelle phrase lance un récit ?",
-       "r": "Un matin, Bih a trouvé une lettre devant la classe.",
+       "q": "Quel terme désigne les circonstances situant l’action ?",
+       "r": "cadre narratif",
        "w": [
-        "La lettre est rectangulaire et blanche.",
-        "Veuillez agréer mes salutations."
+        "difficulté",
+        "réaction",
+        "issue cohérente"
        ],
-       "y": "La phrase situe un événement dans le temps."
+       "e": [
+        "Cela désigne le fait qui appelle une réaction dans l’histoire, plutôt que la notion demandée.",
+        "Cela désigne une action répondant au problème, plutôt que la notion demandée.",
+        "Cela désigne l’état obtenu à la suite des actions, plutôt que la notion demandée."
+       ],
+       "y": "Il présente ici lieu et moment."
       },
       {
-       "q": "Quel élément change la situation ?",
-       "r": "Une erreur est découverte dans le bulletin.",
+       "q": "Quel terme désigne le fait qui appelle une réaction dans l’histoire ?",
+       "r": "difficulté",
        "w": [
-        "Le papier est blanc depuis le début.",
-        "Le titre contient un nom."
+        "cadre narratif",
+        "réaction",
+        "issue cohérente"
        ],
-       "y": "La découverte d’une erreur crée un problème à résoudre."
+       "e": [
+        "Cela désigne les circonstances situant l’action, plutôt que la notion demandée.",
+        "Cela désigne une action répondant au problème, plutôt que la notion demandée.",
+        "Cela désigne l’état obtenu à la suite des actions, plutôt que la notion demandée."
+       ],
+       "y": "Un manque d’information peut suffire."
+      },
+      {
+       "q": "Quel terme désigne une action répondant au problème ?",
+       "r": "réaction",
+       "w": [
+        "cadre narratif",
+        "difficulté",
+        "issue cohérente"
+       ],
+       "e": [
+        "Cela désigne les circonstances situant l’action, plutôt que la notion demandée.",
+        "Cela désigne le fait qui appelle une réaction dans l’histoire, plutôt que la notion demandée.",
+        "Cela désigne l’état obtenu à la suite des actions, plutôt que la notion demandée."
+       ],
+       "y": "Elle fait avancer ici la recherche."
+      },
+      {
+       "q": "Quel terme désigne l’état obtenu à la suite des actions ?",
+       "r": "issue cohérente",
+       "w": [
+        "cadre narratif",
+        "difficulté",
+        "réaction"
+       ],
+       "e": [
+        "Cela désigne les circonstances situant l’action, plutôt que la notion demandée.",
+        "Cela désigne le fait qui appelle une réaction dans l’histoire, plutôt que la notion demandée.",
+        "Cela désigne une action répondant au problème, plutôt que la notion demandée."
+       ],
+       "y": "Le résultat doit être relié aux actions."
       }
      ]
     }
@@ -228,160 +271,283 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-122-etape-2",
+   "id": "fi2-122-cas",
    "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Un soir dans le club situe le récit.\nQuelle notion convient ?",
+       "r": "cadre narratif",
+       "w": [
+        "difficulté",
+        "réaction",
+        "issue cohérente"
+       ],
+       "e": [
+        "Cela concerne le fait qui appelle une réaction dans l’histoire. Compare cette définition avec le cas présenté.",
+        "Cela concerne une action répondant au problème. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’état obtenu à la suite des actions. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il présente ici lieu et moment."
+      },
+      {
+       "q": "Le titre manque dans les notes.\nQuelle notion convient ?",
+       "r": "difficulté",
+       "w": [
+        "cadre narratif",
+        "réaction",
+        "issue cohérente"
+       ],
+       "e": [
+        "Cela concerne les circonstances situant l’action. Compare cette définition avec le cas présenté.",
+        "Cela concerne une action répondant au problème. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’état obtenu à la suite des actions. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Un manque d’information peut suffire."
+      },
+      {
+       "q": "Bih demande une relecture des notes.\nQuelle notion convient ?",
+       "r": "réaction",
+       "w": [
+        "cadre narratif",
+        "difficulté",
+        "issue cohérente"
+       ],
+       "e": [
+        "Cela concerne les circonstances situant l’action. Compare cette définition avec le cas présenté.",
+        "Cela concerne le fait qui appelle une réaction dans l’histoire. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’état obtenu à la suite des actions. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Elle fait avancer ici la recherche."
+      },
+      {
+       "q": "Le titre retrouvé permet de compléter la fiche.\nQuelle notion convient ?",
+       "r": "issue cohérente",
+       "w": [
+        "cadre narratif",
+        "difficulté",
+        "réaction"
+       ],
+       "e": [
+        "Cela concerne les circonstances situant l’action. Compare cette définition avec le cas présenté.",
+        "Cela concerne le fait qui appelle une réaction dans l’histoire. Compare cette définition avec le cas présenté.",
+        "Cela concerne une action répondant au problème. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le résultat doit être relié aux actions."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-122-construire",
+   "type": "word_order",
    "level": 2,
    "review": "authored",
    "sources": [
-    "expression"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Quelle suite est chronologique ?",
-       "r": "Découvrir l’erreur, la corriger, afficher le bulletin.",
-       "w": [
-        "Afficher, découvrir, prétendre avoir déjà corrigé sans relire.",
-        "Conclure puis présenter un autre problème sans lien."
-       ],
-       "y": "La correction doit intervenir après la découverte et avant la diffusion corrigée."
+       "a": "Un soir dans le club situe le récit.",
+       "b": "Un soir dans le club situe le récit."
       },
       {
-       "q": "Quel mot annonce un événement soudain ?",
-       "r": "Soudain",
-       "w": [
-        "Au centre",
-        "À gauche"
-       ],
-       "y": "Soudain situe une rupture dans le déroulement du récit."
+       "a": "Le titre manque dans les notes.",
+       "b": "Le titre manque dans les notes."
+      },
+      {
+       "a": "Bih demande une relecture des notes.",
+       "b": "Bih demande une relecture des notes."
+      },
+      {
+       "a": "Le titre retrouvé permet de compléter la fiche.",
+       "b": "Le titre retrouvé permet de compléter la fiche."
       }
      ]
     }
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
+   "prompt": "Touche les mots dans le bon ordre.",
+   "answer": "{X.a}",
+   "accept": [
+    "{X.b}"
    ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-122-etape-3",
-   "type": "mcq",
+   "id": "fi2-122-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "cadre narratif",
+     "right": "Un soir dans le club situe le récit."
+    },
+    {
+     "left": "difficulté",
+     "right": "Le titre manque dans les notes."
+    },
+    {
+     "left": "réaction",
+     "right": "Bih demande une relecture des notes."
+    },
+    {
+     "left": "issue cohérente",
+     "right": "Le titre retrouvé permet de compléter la fiche."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-122-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "expression"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Une lettre s’envole ; Bih la récupère. Quelle fin convient ?",
-       "r": "La lettre peut enfin être remise à sa destinataire.",
-       "w": [
-        "La lettre n’a jamais existé sans explication.",
-        "Le texte devient une recette sans lien."
-       ],
-       "y": "Le dénouement suit la récupération de la lettre."
-      },
-      {
-       "q": "Que faut-il vérifier à la relecture ?",
-       "r": "L’ordre des événements et la cohérence des temps.",
-       "w": [
-        "Seulement le nombre de lignes.",
-        "Que chaque verbe change de temps au hasard."
-       ],
-       "y": "La chronologie et les temps rendent le récit compréhensible."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "cadre narratif : les circonstances situant l’action.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il présente ici lieu et moment. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "difficulté : le fait qui appelle une réaction dans l’histoire.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Un manque d’information peut suffire. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "réaction : une action répondant au problème.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Elle fait avancer ici la recherche. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "issue cohérente : l’état obtenu à la suite des actions.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le résultat doit être relié aux actions. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le cadre est obligatoirement la note finale d’un examen.",
+      "truth": "false",
+      "explain": "Il présente ici lieu et moment."
+     },
+     {
+      "text": "Une difficulté fictive doit toujours être une catastrophe réelle.",
+      "truth": "false",
+      "explain": "Un manque d’information peut suffire."
+     },
+     {
+      "text": "La réaction doit être sans lien avec la difficulté.",
+      "truth": "false",
+      "explain": "Elle fait avancer ici la recherche."
+     },
+     {
+      "text": "L’issue doit contredire sans explication toute la recherche.",
+      "truth": "false",
+      "explain": "Le résultat doit être relié aux actions."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ],
  "paper_task": {
   "status": "draft",
-  "vars": {},
-  "prompt": "Raconte comment le club de l’école a découvert puis corrigé une erreur dans son bulletin. Présente le départ, le problème, les actions et la fin.",
+  "prompt": "Raconte une difficulté d’information résolue dans un club fictif. Situe la scène, lie les réactions et donne une issue cohérente. Aucun événement privé n’est requis.",
   "model": [
-   "Le club préparait son bulletin. Soudain, Bih a remarqué une mauvaise date. Elle a consulté la responsable et Nji a corrigé le texte. Enfin, le groupe a affiché le bulletin relu. Les lecteurs ont reçu la bonne information."
+   "Un soir, Bih préparait une fiche dans le club imaginaire. Le titre d’une source manquait dans ses notes. Elle a demandé à Ayuk de relire le cahier avec elle. Pendant qu’il cherchait la page, elle a marqué le passage à vérifier. Enfin, ils ont retrouvé le titre et complété la fiche. Le projet est devenu plus clair sans qu’ils inventent un résultat de publication."
   ],
   "checklist": [
-   "J’ai raconté des événements dans l’ordre.",
-   "La fin répond au problème présenté.",
-   "J’ai gardé des temps cohérents."
+   "Le lecteur suit cadre, difficulté, actions et issue.",
+   "Les connecteurs correspondent aux relations voulues.",
+   "Les pronoms, temps et accords restent cohérents."
   ],
+  "vars": {},
   "checks": []
  }
 }

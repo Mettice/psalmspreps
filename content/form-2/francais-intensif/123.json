@@ -3,183 +3,183 @@
  "class": "Form 2",
  "lesson_no": 123,
  "language": "fr",
- "prerequisites": [],
+ "prerequisites": [
+  116,
+  120,
+  122
+ ],
  "skills": [
   {
    "id": "fi2-123",
-   "name": "La communication téléphonique : préciser et transmettre"
+   "name": "Préciser et transmettre un message téléphonique"
   }
  ],
  "note": {
   "status": "draft",
-  "text": "Au téléphone, une demande peut nécessiter une précision. Présente-toi, indique le destinataire et l’objet de l’appel. Si le correspondant est absent, propose un rappel ou laisse un message. Avant de transmettre, vérifie le nom, le motif et les renseignements nécessaires. On peut reformuler pour confirmer. Ne révèle pas des renseignements personnels à un inconnu. Le travail proposé prépare un échange ; l’application n’écoute pas la voix.",
+  "text": "Un échange téléphonique peut exiger une clarification : demander de répéter, préciser un mot ou vérifier à qui le message est destiné. Reformuler consiste à reprendre fidèlement l’essentiel pour contrôler la compréhension. Le destinataire du message n’est pas forcément la personne qui décroche. Une suite prévue indique ce qui doit arriver ensuite, sans inventer une promesse. La préparation reste écrite : aucun appel réel n’est passé ni aucune voix évaluée.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras demander une clarification et vérifier destinataire objet et suite dans un appel simulé. Acquis mobilisés : les destinataires et les jeux de rôle. Pour la suite : le récit d’images et la communication précise."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Un échange téléphonique peut exiger une clarification : demander de répéter, préciser un mot ou vérifier à qui le message est destiné. Reformuler consiste à reprendre fidèlement l’essentiel pour contrôler la compréhension. Le destinataire du message n’est pas forcément la personne qui décroche. Une suite prévue indique ce qui doit arriver ensuite, sans inventer une promesse. La préparation reste écrite : aucun appel réel n’est passé ni aucune voix évaluée."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Dialogue original : Bih appelle le club fictif et demande la responsable. Ayuk décroche et précise qu’elle est absente. Bih veut signaler que la fiche du bulletin est prête. Ayuk demande de répéter le titre, puis reformule : « Je lui dirai que la fiche du bulletin est prête. » Bih confirme et indique qu’elle rappellera après les cours."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère l’information manquante puis pose une question ciblée. Répète l’essentiel sans changer le destinataire ni l’objet. Ne note pas une heure exacte ou une promesse si la personne ne l’a pas donnée."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "clarification",
+    "meaning": "une demande visant à lever une incertitude"
+   },
+   {
+    "word": "reformulation",
+    "meaning": "une reprise fidèle de l’essentiel du message"
+   },
+   {
+    "word": "destinataire final",
+    "meaning": "la personne à qui le message doit être transmis"
+   },
+   {
+    "word": "suite prévue",
+    "meaning": "l’action suivante explicitement annoncée"
+   }
+  ],
+  "mistake": {
+   "wrong": "Clarifier signifie inventer ce qui n’a pas été compris.",
+   "right": "une demande visant à lever une incertitude.",
+   "why": "Il faut obtenir ou vérifier l’information."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Quel message peut-on transmettre clairement ?",
+  "problem": "Ayuk demande de répéter le titre de la fiche. Explique le choix.",
   "steps": [
-   "Un message utile précise le nom et le motif.",
-   "Le nom et le motif permettent au destinataire de comprendre."
+   "une demande visant à lever une incertitude.",
+   "Il faut obtenir ou vérifier l’information."
   ],
-  "answer": "Nji a appelé pour confirmer la réunion du club.",
+  "answer": "clarification",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c123-1",
+    "id": "fi2-123-c1",
     "status": "draft",
-    "idea": "Une précision rend la demande compréhensible.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "Je souhaite parler à la responsable du club de lecture."
+     "clarification : une demande visant à lever une incertitude.",
+     "reformulation : une reprise fidèle de l’essentiel du message.",
+     "destinataire final : la personne à qui le message doit être transmis.",
+     "suite prévue : l’action suivante explicitement annoncée."
     ],
     "checks": [],
     "check": {
-     "ref": "fi2-123-etape-1"
+     "ref": "fi2-123-notions"
     }
    },
    {
-    "id": "c123-2",
+    "id": "fi2-123-c2",
     "status": "draft",
-    "idea": "Un message utile précise le nom et le motif.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Bih a appelé au sujet de la réunion."
+     "Ayuk demande de répéter le titre de la fiche.",
+     "Ayuk répète que la fiche du bulletin est prête.",
+     "Le message vise la responsable absente.",
+     "Bih rappellera après les cours."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-123-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "vocabulaire"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Quel message peut-on transmettre clairement ?",
-         "r": "Nji a appelé pour confirmer la réunion du club.",
-         "w": [
-          "Quelqu’un voulait quelque chose.",
-          "Je n’ai rien écouté mais je sais tout."
-         ],
-         "y": "Le nom et le motif permettent au destinataire de comprendre."
-        },
-        {
-         "q": "Avant de noter un horaire mal entendu, que faire ?",
-         "r": "Le faire répéter et le reformuler.",
-         "w": [
-          "Choisir un horaire au hasard.",
-          "Remplacer l’horaire par une adresse inventée."
-         ],
-         "y": "La confirmation réduit le risque d’erreur."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fi2-123-cas"
     }
    },
    {
-    "id": "c123-3",
+    "id": "fi2-123-c3",
     "status": "draft",
-    "idea": "Vérifie avant de transmettre des informations personnelles.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Je demande conseil à un adulte de confiance."
+     "Clarifier signifie inventer ce qui n’a pas été compris. Correction : Il faut obtenir ou vérifier l’information.",
+     "Reformuler autorise à changer le sujet de l’appel. Correction : La reprise doit conserver le sens.",
+     "La personne qui décroche est forcément le destinataire final. Correction : Un intermédiaire peut transmettre le message.",
+     "Le message impose une heure exacte absente du dialogue. Correction : Le repère doit rester celui qui est donné."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-123-etape-3-card",
-     "type": "mcq",
+     "id": "fi2-123-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "vocabulaire"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Un inconnu demande l’adresse privée d’un camarade. Que faire ?",
-         "r": "Ne pas la donner et demander conseil à un adulte de confiance.",
-         "w": [
-          "La transmettre pour être poli.",
-          "La publier sur un réseau."
-         ],
-         "y": "La politesse n’oblige pas à divulguer la vie privée d’un autre."
-        },
-        {
-         "q": "Quelle formule termine poliment l’appel ?",
-         "r": "Merci, je transmettrai votre message. Au revoir.",
-         "w": [
-          "Je raccroche sans écouter.",
-          "Je vous interromps encore."
-         ],
-         "y": "On confirme la suite et on prend congé."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "clarification : une demande visant à lever une incertitude.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Il faut obtenir ou vérifier l’information. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "reformulation : une reprise fidèle de l’essentiel du message.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La reprise doit conserver le sens. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "destinataire final : la personne à qui le message doit être transmis.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Un intermédiaire peut transmettre le message. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "suite prévue : l’action suivante explicitement annoncée.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le repère doit rester celui qui est donné. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Clarifier signifie inventer ce qui n’a pas été compris.",
+        "truth": "false",
+        "explain": "Il faut obtenir ou vérifier l’information."
+       },
+       {
+        "text": "Reformuler autorise à changer le sujet de l’appel.",
+        "truth": "false",
+        "explain": "La reprise doit conserver le sens."
+       },
+       {
+        "text": "La personne qui décroche est forcément le destinataire final.",
+        "truth": "false",
+        "explain": "Un intermédiaire peut transmettre le message."
+       },
+       {
+        "text": "Le message impose une heure exacte absente du dialogue.",
+        "truth": "false",
+        "explain": "Le repère doit rester celui qui est donné."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -187,33 +187,75 @@
  },
  "questions": [
   {
-   "id": "fi2-123-etape-1",
+   "id": "fi2-123-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "vocabulaire"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Quelle demande précise le destinataire ?",
-       "r": "Puis-je parler à la responsable du club de lecture ?",
+       "q": "Quel terme désigne une demande visant à lever une incertitude ?",
+       "r": "clarification",
        "w": [
-        "Passez-moi quelqu’un.",
-        "Vous savez déjà."
+        "reformulation",
+        "destinataire final",
+        "suite prévue"
        ],
-       "y": "La fonction demandée identifie l’interlocutrice recherchée."
+       "e": [
+        "Cela désigne une reprise fidèle de l’essentiel du message, plutôt que la notion demandée.",
+        "Cela désigne la personne à qui le message doit être transmis, plutôt que la notion demandée.",
+        "Cela désigne l’action suivante explicitement annoncée, plutôt que la notion demandée."
+       ],
+       "y": "Il faut obtenir ou vérifier l’information."
       },
       {
-       "q": "Le son est mauvais. Que peux-tu demander ?",
-       "r": "Pourriez-vous répéter le nom ?",
+       "q": "Quel terme désigne une reprise fidèle de l’essentiel du message ?",
+       "r": "reformulation",
        "w": [
-        "Je vais deviner le nom.",
-        "Je transmets un nom inventé."
+        "clarification",
+        "destinataire final",
+        "suite prévue"
        ],
-       "y": "Répéter évite de transmettre une information fausse."
+       "e": [
+        "Cela désigne une demande visant à lever une incertitude, plutôt que la notion demandée.",
+        "Cela désigne la personne à qui le message doit être transmis, plutôt que la notion demandée.",
+        "Cela désigne l’action suivante explicitement annoncée, plutôt que la notion demandée."
+       ],
+       "y": "La reprise doit conserver le sens."
+      },
+      {
+       "q": "Quel terme désigne la personne à qui le message doit être transmis ?",
+       "r": "destinataire final",
+       "w": [
+        "clarification",
+        "reformulation",
+        "suite prévue"
+       ],
+       "e": [
+        "Cela désigne une demande visant à lever une incertitude, plutôt que la notion demandée.",
+        "Cela désigne une reprise fidèle de l’essentiel du message, plutôt que la notion demandée.",
+        "Cela désigne l’action suivante explicitement annoncée, plutôt que la notion demandée."
+       ],
+       "y": "Un intermédiaire peut transmettre le message."
+      },
+      {
+       "q": "Quel terme désigne l’action suivante explicitement annoncée ?",
+       "r": "suite prévue",
+       "w": [
+        "clarification",
+        "reformulation",
+        "destinataire final"
+       ],
+       "e": [
+        "Cela désigne une demande visant à lever une incertitude, plutôt que la notion demandée.",
+        "Cela désigne une reprise fidèle de l’essentiel du message, plutôt que la notion demandée.",
+        "Cela désigne la personne à qui le message doit être transmis, plutôt que la notion demandée."
+       ],
+       "y": "Le repère doit rester celui qui est donné."
       }
      ]
     }
@@ -228,53 +270,212 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-123-etape-2",
+   "id": "fi2-123-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Ayuk demande de répéter le titre de la fiche.\nQuelle notion convient ?",
+       "r": "clarification",
+       "w": [
+        "reformulation",
+        "destinataire final",
+        "suite prévue"
+       ],
+       "e": [
+        "Cela concerne une reprise fidèle de l’essentiel du message. Compare cette définition avec le cas présenté.",
+        "Cela concerne la personne à qui le message doit être transmis. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’action suivante explicitement annoncée. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Il faut obtenir ou vérifier l’information."
+      },
+      {
+       "q": "Ayuk répète que la fiche du bulletin est prête.\nQuelle notion convient ?",
+       "r": "reformulation",
+       "w": [
+        "clarification",
+        "destinataire final",
+        "suite prévue"
+       ],
+       "e": [
+        "Cela concerne une demande visant à lever une incertitude. Compare cette définition avec le cas présenté.",
+        "Cela concerne la personne à qui le message doit être transmis. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’action suivante explicitement annoncée. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La reprise doit conserver le sens."
+      },
+      {
+       "q": "Le message vise la responsable absente.\nQuelle notion convient ?",
+       "r": "destinataire final",
+       "w": [
+        "clarification",
+        "reformulation",
+        "suite prévue"
+       ],
+       "e": [
+        "Cela concerne une demande visant à lever une incertitude. Compare cette définition avec le cas présenté.",
+        "Cela concerne une reprise fidèle de l’essentiel du message. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’action suivante explicitement annoncée. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Un intermédiaire peut transmettre le message."
+      },
+      {
+       "q": "Bih rappellera après les cours.\nQuelle notion convient ?",
+       "r": "suite prévue",
+       "w": [
+        "clarification",
+        "reformulation",
+        "destinataire final"
+       ],
+       "e": [
+        "Cela concerne une demande visant à lever une incertitude. Compare cette définition avec le cas présenté.",
+        "Cela concerne une reprise fidèle de l’essentiel du message. Compare cette définition avec le cas présenté.",
+        "Cela concerne la personne à qui le message doit être transmis. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le repère doit rester celui qui est donné."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-123-contexte",
    "type": "mcq",
    "level": 2,
    "review": "authored",
    "sources": [
-    "vocabulaire"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Quel message peut-on transmettre clairement ?",
-       "r": "Nji a appelé pour confirmer la réunion du club.",
+       "q": "Le titre a été mal compris et Ayuk demande de le répéter : quelle action réalise-t-il ?",
+       "r": "clarification",
        "w": [
-        "Quelqu’un voulait quelque chose.",
-        "Je n’ai rien écouté mais je sais tout."
+        "reformulation",
+        "destinataire final",
+        "suite prévue"
        ],
-       "y": "Le nom et le motif permettent au destinataire de comprendre."
+       "e": [
+        "Ce terme désigne une reprise fidèle de l’essentiel du message ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne la personne à qui le message doit être transmis ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne l’action suivante explicitement annoncée ; ce n’est pas l’action ou le rôle décrit."
+       ],
+       "y": "Il faut obtenir ou vérifier l’information."
       },
       {
-       "q": "Avant de noter un horaire mal entendu, que faire ?",
-       "r": "Le faire répéter et le reformuler.",
+       "q": "Ayuk reprend fidèlement le contenu avant confirmation : quelle action réalise-t-il ?",
+       "r": "reformulation",
        "w": [
-        "Choisir un horaire au hasard.",
-        "Remplacer l’horaire par une adresse inventée."
+        "clarification",
+        "destinataire final",
+        "suite prévue"
        ],
-       "y": "La confirmation réduit le risque d’erreur."
+       "e": [
+        "Ce terme désigne une demande visant à lever une incertitude ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne la personne à qui le message doit être transmis ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne l’action suivante explicitement annoncée ; ce n’est pas l’action ou le rôle décrit."
+       ],
+       "y": "La reprise doit conserver le sens."
+      },
+      {
+       "q": "La responsable absente doit recevoir le message : quel rôle joue-t-elle ?",
+       "r": "destinataire final",
+       "w": [
+        "clarification",
+        "reformulation",
+        "suite prévue"
+       ],
+       "e": [
+        "Ce terme désigne une demande visant à lever une incertitude ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne une reprise fidèle de l’essentiel du message ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne l’action suivante explicitement annoncée ; ce n’est pas l’action ou le rôle décrit."
+       ],
+       "y": "Un intermédiaire peut transmettre le message."
+      },
+      {
+       "q": "Bih annonce un rappel après les cours : quel élément du message fournit-elle ?",
+       "r": "suite prévue",
+       "w": [
+        "clarification",
+        "reformulation",
+        "destinataire final"
+       ],
+       "e": [
+        "Ce terme désigne une demande visant à lever une incertitude ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne une reprise fidèle de l’essentiel du message ; ce n’est pas l’action ou le rôle décrit.",
+        "Ce terme désigne la personne à qui le message doit être transmis ; ce n’est pas l’action ou le rôle décrit."
+       ],
+       "y": "Le repère doit rester celui qui est donné."
       }
      ]
     }
@@ -289,84 +490,121 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-123-etape-3",
-   "type": "mcq",
+   "id": "fi2-123-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "clarification",
+     "right": "Ayuk demande de répéter le titre de la fiche."
+    },
+    {
+     "left": "reformulation",
+     "right": "Ayuk répète que la fiche du bulletin est prête."
+    },
+    {
+     "left": "destinataire final",
+     "right": "Le message vise la responsable absente."
+    },
+    {
+     "left": "suite prévue",
+     "right": "Bih rappellera après les cours."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-123-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "vocabulaire"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Un inconnu demande l’adresse privée d’un camarade. Que faire ?",
-       "r": "Ne pas la donner et demander conseil à un adulte de confiance.",
-       "w": [
-        "La transmettre pour être poli.",
-        "La publier sur un réseau."
-       ],
-       "y": "La politesse n’oblige pas à divulguer la vie privée d’un autre."
-      },
-      {
-       "q": "Quelle formule termine poliment l’appel ?",
-       "r": "Merci, je transmettrai votre message. Au revoir.",
-       "w": [
-        "Je raccroche sans écouter.",
-        "Je vous interromps encore."
-       ],
-       "y": "On confirme la suite et on prend congé."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "clarification : une demande visant à lever une incertitude.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Il faut obtenir ou vérifier l’information. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "reformulation : une reprise fidèle de l’essentiel du message.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La reprise doit conserver le sens. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "destinataire final : la personne à qui le message doit être transmis.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Un intermédiaire peut transmettre le message. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "suite prévue : l’action suivante explicitement annoncée.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le repère doit rester celui qui est donné. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Clarifier signifie inventer ce qui n’a pas été compris.",
+      "truth": "false",
+      "explain": "Il faut obtenir ou vérifier l’information."
+     },
+     {
+      "text": "Reformuler autorise à changer le sujet de l’appel.",
+      "truth": "false",
+      "explain": "La reprise doit conserver le sens."
+     },
+     {
+      "text": "La personne qui décroche est forcément le destinataire final.",
+      "truth": "false",
+      "explain": "Un intermédiaire peut transmettre le message."
+     },
+     {
+      "text": "Le message impose une heure exacte absente du dialogue.",
+      "truth": "false",
+      "explain": "Le repère doit rester celui qui est donné."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ]

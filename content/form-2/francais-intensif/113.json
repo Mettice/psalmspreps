@@ -3,191 +3,182 @@
  "class": "Form 2",
  "lesson_no": 113,
  "language": "fr",
- "prerequisites": [],
+ "prerequisites": [
+  105,
+  112
+ ],
  "skills": [
   {
    "id": "fi2-113",
-   "name": "Le passé antérieur"
+   "name": "Former et reconnaître le passé antérieur"
   }
  ],
  "note": {
   "status": "draft",
-  "text": "Le passé antérieur est un temps composé surtout employé dans les récits écrits. Il se forme avec avoir ou être au passé simple, suivi du participe passé : j’eus fini, elle fut partie. Avec être, le participe s’accorde avec le sujet : elles furent parties.\nIl peut marquer une action achevée avant une autre action au passé simple : Quand elle eut fini son article, elle le publia. Ne le confonds pas avec le plus-que-parfait, dont l’auxiliaire est à l’imparfait : elle avait fini.",
+  "text": "Le passé antérieur associe avoir ou être au passé simple à un participe passé. Il apparaît surtout dans la langue écrite littéraire. Dans un récit au passé simple, il peut présenter une action achevée avant une autre, notamment après quand ou dès que. Ne le confonds pas avec le passé composé, dont l’auxiliaire est au présent, ou le plus-que-parfait, dont l’auxiliaire est à l’imparfait. Avec être, les participes des verbes non pronominaux étudiés s’accordent avec le sujet.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras construire le temps et reconnaître son antériorité dans un récit littéraire simple. Acquis mobilisés : les auxiliaires, le passé simple et les sujets multiples. Pour la suite : la chronologie de la narration."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Le passé antérieur associe avoir ou être au passé simple à un participe passé. Il apparaît surtout dans la langue écrite littéraire. Dans un récit au passé simple, il peut présenter une action achevée avant une autre, notamment après quand ou dès que. Ne le confonds pas avec le passé composé, dont l’auxiliaire est au présent, ou le plus-que-parfait, dont l’auxiliaire est à l’imparfait. Avec être, les participes des verbes non pronominaux étudiés s’accordent avec le sujet."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèle original : Quand {fr2PasseAnterieur(\"finir\",3)} sa fiche, Bih {fr2PasseSimple(\"parler\",3)} au groupe. La fiche est terminée avant la prise de parole. Compare {fr2PasseAnterieur(\"arriver\",7)} avec {fr2PasseCompose(\"arriver\",7)} : l’accord est conservé, mais le temps de l’auxiliaire change."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Identifie le verbe et le sujet, choisis l’auxiliaire au passé simple puis le participe. Vérifie l’accord requis et explique l’ordre entre les actions. On ne te demande pas de remplacer toute conversation actuelle par ce temps littéraire."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "auxiliaire au passé simple",
+    "meaning": "la forme de avoir ou être servant au temps étudié"
+   },
+   {
+    "word": "participe passé",
+    "meaning": "la forme associée à l’auxiliaire du temps composé"
+   },
+   {
+    "word": "antériorité",
+    "meaning": "le fait de se situer avant une autre action dans ce récit"
+   },
+   {
+    "word": "registre littéraire",
+    "meaning": "l’usage écrit particulièrement associé à ce temps"
+   }
+  ],
+  "mistake": {
+   "wrong": "L’auxiliaire du passé antérieur est toujours au présent.",
+   "right": "la forme de avoir ou être servant au temps étudié.",
+   "why": "Le temps demandé utilise le passé simple de l’auxiliaire."
+  }
  },
  "worked_example": {
   "status": "draft",
-  "vars": {
-   "v": "finir",
-   "p": 4
-  },
-  "problem": "Conjugue « {v} » au passé antérieur avec nous.",
+  "vars": {},
+  "problem": "Conjugue partir au passé antérieur avec elles.",
   "steps": [
-   "Le sujet est nous.",
-   "La forme complète est {fr2Form2(v, p, 'passé antérieur')}."
+   "Partir prend être dans cet emploi non pronominal.",
+   "Être au passé simple avec elles donne {fr2PasseSimple(\"être\",7)} ; le participe reçoit le féminin pluriel."
   ],
-  "answer": "{fr2Form2(v, p, 'passé antérieur')}",
+  "answer": "{fr2PasseAnterieur(\"partir\",7)}",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c113-1",
+    "id": "fi2-113-c1",
     "status": "draft",
-    "idea": "Le temps demandé est le passé antérieur.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "Lis la consigne et repère le verbe à l’infinitif."
+     "auxiliaire au passé simple : la forme de avoir ou être servant au temps étudié.",
+     "participe passé : la forme associée à l’auxiliaire du temps composé.",
+     "antériorité : le fait de se situer avant une autre action dans ce récit.",
+     "registre littéraire : l’usage écrit particulièrement associé à ce temps."
     ],
     "checks": [],
     "check": {
-     "ref": "fi2-113-simple"
+     "ref": "fi2-113-notions"
     }
    },
    {
-    "id": "c113-2",
+    "id": "fi2-113-c2",
     "status": "draft",
-    "idea": "La terminaison dépend du sujet.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Avec nous, on emploie la première personne du pluriel."
+     "Eut est l’auxiliaire dans elle eut fini.",
+     "Fini suit eut dans elle eut fini.",
+     "La fin de la fiche précède la prise de parole.",
+     "Le modèle ressemble à une narration écrite."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-113-forme-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "rule",
-     "sources": [
-      "conjugaison"
-     ],
-     "vars": {
-      "v": {
-       "pick": [
-        "finir",
-        "parler",
-        "aller",
-        "partir",
-        "lire",
-        "écrire",
-        "faire",
-        "arriver"
-       ]
-      },
-      "p": {
-       "int": [
-        0,
-        7
-       ]
-      }
-     },
-     "prompt": "Conjugue « {v} » au passé antérieur avec « {fr2Pronoun(p)} ».",
-     "correct": "{fr2Form2(v, p, 'passé antérieur')}",
-     "distractors": [
-      {
-       "text": "{fr2Form2(v, p, 'présent')}",
-       "misconception": "temps"
-      },
-      {
-       "text": "{fr2Form2(v, (p + 4) % 8, 'passé antérieur')}",
-       "misconception": "sujet"
-      },
-      {
-       "text": "{fr2With(p, v)}",
-       "misconception": "inf"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "temps",
-       "explain": "Cette forme est au présent, pas au passé antérieur."
-      },
-      {
-       "id": "sujet",
-       "explain": "Il faut la forme qui correspond à « {fr2Pronoun(p)} »."
-      },
-      {
-       "id": "inf",
-       "explain": "Le verbe doit être conjugué, pas laissé à l’infinitif."
-      }
-     ],
-     "solution": [
-      "Le temps demandé est le passé antérieur.",
-      "Le sujet est « {fr2Pronoun(p)} ».",
-      "La forme complète est : {answer}."
-     ],
-     "min_distractors": 2,
-     "lang": "fr"
+     "ref": "fi2-113-cas"
     }
    },
    {
-    "id": "c113-3",
+    "id": "fi2-113-c3",
     "status": "draft",
-    "idea": "Vérifie le temps et le sujet avant de valider.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Une forme correcte à un autre temps ne répond pas à la consigne."
+     "L’auxiliaire du passé antérieur est toujours au présent. Correction : Le temps demandé utilise le passé simple de l’auxiliaire.",
+     "Le participe doit toujours être l’infinitif finir. Correction : Le temps composé emploie le participe, pas cet infinitif.",
+     "Antériorité signifie toujours après le second événement. Correction : Le mot désigne ici l’ordre avant.",
+     "Toute conversation ordinaire doit obligatoirement employer le passé antérieur. Correction : Ce temps est surtout fréquent dans le récit écrit."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-113-emploi-card",
-     "type": "mcq",
+     "id": "fi2-113-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "conjugaison"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Dans « Quand elle eut fini, elle partit », quelle action est achevée la première ?",
-         "r": "Elle a fini avant de partir.",
-         "w": [
-          "Elle est partie avant de finir.",
-          "Les deux verbes sont au futur."
-         ],
-         "y": "Le passé antérieur eut fini exprime l’action achevée avant l’action au passé simple partit."
-        },
-        {
-         "q": "Quelle forme suit la construction du passé antérieur ?",
-         "r": "Nous eûmes terminé.",
-         "w": [
-          "Nous avions terminé.",
-          "Nous avons terminé."
-         ],
-         "y": "Eûmes est le passé simple de avoir ; avec le participe terminé, il forme le passé antérieur."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "auxiliaire au passé simple : la forme de avoir ou être servant au temps étudié.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le temps demandé utilise le passé simple de l’auxiliaire. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "participe passé : la forme associée à l’auxiliaire du temps composé.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le temps composé emploie le participe, pas cet infinitif. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "antériorité : le fait de se situer avant une autre action dans ce récit.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le mot désigne ici l’ordre avant. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "registre littéraire : l’usage écrit particulièrement associé à ce temps.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Ce temps est surtout fréquent dans le récit écrit. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "L’auxiliaire du passé antérieur est toujours au présent.",
+        "truth": "false",
+        "explain": "Le temps demandé utilise le passé simple de l’auxiliaire."
+       },
+       {
+        "text": "Le participe doit toujours être l’infinitif finir.",
+        "truth": "false",
+        "explain": "Le temps composé emploie le participe, pas cet infinitif."
+       },
+       {
+        "text": "Antériorité signifie toujours après le second événement.",
+        "truth": "false",
+        "explain": "Le mot désigne ici l’ordre avant."
+       },
+       {
+        "text": "Toute conversation ordinaire doit obligatoirement employer le passé antérieur.",
+        "truth": "false",
+        "explain": "Ce temps est surtout fréquent dans le récit écrit."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -195,161 +186,75 @@
  },
  "questions": [
   {
-   "id": "fi2-113-simple",
+   "id": "fi2-113-notions",
    "type": "mcq",
    "level": 1,
-   "review": "rule",
-   "sources": [
-    "conjugaison"
-   ],
-   "vars": {
-    "v": {
-     "pick": [
-      "finir",
-      "parler",
-      "aller"
-     ]
-    },
-    "p": {
-     "pick": [
-      2,
-      4,
-      6
-     ]
-    }
-   },
-   "prompt": "Conjugue « {v} » au passé antérieur avec « {fr2Pronoun(p)} ».",
-   "correct": "{fr2Form2(v, p, 'passé antérieur')}",
-   "distractors": [
-    {
-     "text": "{fr2Form2(v, p, 'présent')}",
-     "misconception": "temps"
-    },
-    {
-     "text": "{fr2Form2(v, (p + 4) % 8, 'passé antérieur')}",
-     "misconception": "sujet"
-    },
-    {
-     "text": "{fr2With(p, v)}",
-     "misconception": "inf"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "temps",
-     "explain": "Cette forme est au présent, pas au passé antérieur."
-    },
-    {
-     "id": "sujet",
-     "explain": "Il faut la forme qui correspond à « {fr2Pronoun(p)} »."
-    },
-    {
-     "id": "inf",
-     "explain": "Le verbe doit être conjugué, pas laissé à l’infinitif."
-    }
-   ],
-   "solution": [
-    "Le temps demandé est le passé antérieur.",
-    "Le sujet est « {fr2Pronoun(p)} ».",
-    "La forme complète est : {answer}."
-   ],
-   "min_distractors": 2,
-   "lang": "fr"
-  },
-  {
-   "id": "fi2-113-forme",
-   "type": "mcq",
-   "level": 2,
-   "review": "rule",
-   "sources": [
-    "conjugaison"
-   ],
-   "vars": {
-    "v": {
-     "pick": [
-      "finir",
-      "parler",
-      "aller",
-      "partir",
-      "lire",
-      "écrire",
-      "faire",
-      "arriver"
-     ]
-    },
-    "p": {
-     "int": [
-      0,
-      7
-     ]
-    }
-   },
-   "prompt": "Conjugue « {v} » au passé antérieur avec « {fr2Pronoun(p)} ».",
-   "correct": "{fr2Form2(v, p, 'passé antérieur')}",
-   "distractors": [
-    {
-     "text": "{fr2Form2(v, p, 'présent')}",
-     "misconception": "temps"
-    },
-    {
-     "text": "{fr2Form2(v, (p + 4) % 8, 'passé antérieur')}",
-     "misconception": "sujet"
-    },
-    {
-     "text": "{fr2With(p, v)}",
-     "misconception": "inf"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "temps",
-     "explain": "Cette forme est au présent, pas au passé antérieur."
-    },
-    {
-     "id": "sujet",
-     "explain": "Il faut la forme qui correspond à « {fr2Pronoun(p)} »."
-    },
-    {
-     "id": "inf",
-     "explain": "Le verbe doit être conjugué, pas laissé à l’infinitif."
-    }
-   ],
-   "solution": [
-    "Le temps demandé est le passé antérieur.",
-    "Le sujet est « {fr2Pronoun(p)} ».",
-    "La forme complète est : {answer}."
-   ],
-   "min_distractors": 2,
-   "lang": "fr"
-  },
-  {
-   "id": "fi2-113-emploi",
-   "type": "mcq",
-   "level": 3,
    "review": "authored",
    "sources": [
-    "conjugaison"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Dans « Quand elle eut fini, elle partit », quelle action est achevée la première ?",
-       "r": "Elle a fini avant de partir.",
+       "q": "Quel terme désigne la forme de avoir ou être servant au temps étudié ?",
+       "r": "auxiliaire au passé simple",
        "w": [
-        "Elle est partie avant de finir.",
-        "Les deux verbes sont au futur."
+        "participe passé",
+        "antériorité",
+        "registre littéraire"
        ],
-       "y": "Le passé antérieur eut fini exprime l’action achevée avant l’action au passé simple partit."
+       "e": [
+        "Cela désigne la forme associée à l’auxiliaire du temps composé, plutôt que la notion demandée.",
+        "Cela désigne le fait de se situer avant une autre action dans ce récit, plutôt que la notion demandée.",
+        "Cela désigne l’usage écrit particulièrement associé à ce temps, plutôt que la notion demandée."
+       ],
+       "y": "Le temps demandé utilise le passé simple de l’auxiliaire."
       },
       {
-       "q": "Quelle forme suit la construction du passé antérieur ?",
-       "r": "Nous eûmes terminé.",
+       "q": "Quel terme désigne la forme associée à l’auxiliaire du temps composé ?",
+       "r": "participe passé",
        "w": [
-        "Nous avions terminé.",
-        "Nous avons terminé."
+        "auxiliaire au passé simple",
+        "antériorité",
+        "registre littéraire"
        ],
-       "y": "Eûmes est le passé simple de avoir ; avec le participe terminé, il forme le passé antérieur."
+       "e": [
+        "Cela désigne la forme de avoir ou être servant au temps étudié, plutôt que la notion demandée.",
+        "Cela désigne le fait de se situer avant une autre action dans ce récit, plutôt que la notion demandée.",
+        "Cela désigne l’usage écrit particulièrement associé à ce temps, plutôt que la notion demandée."
+       ],
+       "y": "Le temps composé emploie le participe, pas cet infinitif."
+      },
+      {
+       "q": "Quel terme désigne le fait de se situer avant une autre action dans ce récit ?",
+       "r": "antériorité",
+       "w": [
+        "auxiliaire au passé simple",
+        "participe passé",
+        "registre littéraire"
+       ],
+       "e": [
+        "Cela désigne la forme de avoir ou être servant au temps étudié, plutôt que la notion demandée.",
+        "Cela désigne la forme associée à l’auxiliaire du temps composé, plutôt que la notion demandée.",
+        "Cela désigne l’usage écrit particulièrement associé à ce temps, plutôt que la notion demandée."
+       ],
+       "y": "Le mot désigne ici l’ordre avant."
+      },
+      {
+       "q": "Quel terme désigne l’usage écrit particulièrement associé à ce temps ?",
+       "r": "registre littéraire",
+       "w": [
+        "auxiliaire au passé simple",
+        "participe passé",
+        "antériorité"
+       ],
+       "e": [
+        "Cela désigne la forme de avoir ou être servant au temps étudié, plutôt que la notion demandée.",
+        "Cela désigne la forme associée à l’auxiliaire du temps composé, plutôt que la notion demandée.",
+        "Cela désigne le fait de se situer avant une autre action dans ce récit, plutôt que la notion demandée."
+       ],
+       "y": "Ce temps est surtout fréquent dans le récit écrit."
       }
      ]
     }
@@ -364,23 +269,291 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-113-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Eut est l’auxiliaire dans elle eut fini.\nQuelle notion convient ?",
+       "r": "auxiliaire au passé simple",
+       "w": [
+        "participe passé",
+        "antériorité",
+        "registre littéraire"
+       ],
+       "e": [
+        "Cela concerne la forme associée à l’auxiliaire du temps composé. Compare cette définition avec le cas présenté.",
+        "Cela concerne le fait de se situer avant une autre action dans ce récit. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’usage écrit particulièrement associé à ce temps. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le temps demandé utilise le passé simple de l’auxiliaire."
+      },
+      {
+       "q": "Fini suit eut dans elle eut fini.\nQuelle notion convient ?",
+       "r": "participe passé",
+       "w": [
+        "auxiliaire au passé simple",
+        "antériorité",
+        "registre littéraire"
+       ],
+       "e": [
+        "Cela concerne la forme de avoir ou être servant au temps étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne le fait de se situer avant une autre action dans ce récit. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’usage écrit particulièrement associé à ce temps. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le temps composé emploie le participe, pas cet infinitif."
+      },
+      {
+       "q": "La fin de la fiche précède la prise de parole.\nQuelle notion convient ?",
+       "r": "antériorité",
+       "w": [
+        "auxiliaire au passé simple",
+        "participe passé",
+        "registre littéraire"
+       ],
+       "e": [
+        "Cela concerne la forme de avoir ou être servant au temps étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme associée à l’auxiliaire du temps composé. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’usage écrit particulièrement associé à ce temps. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le mot désigne ici l’ordre avant."
+      },
+      {
+       "q": "Le modèle ressemble à une narration écrite.\nQuelle notion convient ?",
+       "r": "registre littéraire",
+       "w": [
+        "auxiliaire au passé simple",
+        "participe passé",
+        "antériorité"
+       ],
+       "e": [
+        "Cela concerne la forme de avoir ou être servant au temps étudié. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme associée à l’auxiliaire du temps composé. Compare cette définition avec le cas présenté.",
+        "Cela concerne le fait de se situer avant une autre action dans ce récit. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Ce temps est surtout fréquent dans le récit écrit."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-113-conjuguer",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "finir",
+      "écrire",
+      "arriver",
+      "partir"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au passé antérieur actif avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2PasseAnterieur(v,p)}",
+   "distractors": [
+    {
+     "text": "{fr2PasseCompose(v,p)}",
+     "misconception": "pc"
+    },
+    {
+     "text": "{fr2PlusQueParfait(v,p)}",
+     "misconception": "pqp"
+    },
+    {
+     "text": "{fr2With(p,fr2PasseSimple(v,p))}",
+     "misconception": "simple"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "pc",
+     "explain": "L’auxiliaire au présent donne ici un passé composé."
+    },
+    {
+     "id": "pqp",
+     "explain": "L’auxiliaire à l’imparfait donne un plus-que-parfait."
+    },
+    {
+     "id": "simple",
+     "explain": "Cette forme simple n’est pas le temps composé demandé."
+    }
+   ],
+   "solution": [
+    "Au passé antérieur, l’auxiliaire est au passé simple, suivi du participe passé.",
+    "L’ensemble est {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-113-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "auxiliaire au passé simple",
+     "right": "Eut est l’auxiliaire dans elle eut fini."
+    },
+    {
+     "left": "participe passé",
+     "right": "Fini suit eut dans elle eut fini."
+    },
+    {
+     "left": "antériorité",
+     "right": "La fin de la fiche précède la prise de parole."
+    },
+    {
+     "left": "registre littéraire",
+     "right": "Le modèle ressemble à une narration écrite."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-113-corriger",
+   "type": "spot_error",
+   "level": 3,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "auxiliaire au passé simple : la forme de avoir ou être servant au temps étudié.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le temps demandé utilise le passé simple de l’auxiliaire. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "participe passé : la forme associée à l’auxiliaire du temps composé.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le temps composé emploie le participe, pas cet infinitif. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "antériorité : le fait de se situer avant une autre action dans ce récit.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le mot désigne ici l’ordre avant. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "registre littéraire : l’usage écrit particulièrement associé à ce temps.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Ce temps est surtout fréquent dans le récit écrit. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "L’auxiliaire du passé antérieur est toujours au présent.",
+      "truth": "false",
+      "explain": "Le temps demandé utilise le passé simple de l’auxiliaire."
+     },
+     {
+      "text": "Le participe doit toujours être l’infinitif finir.",
+      "truth": "false",
+      "explain": "Le temps composé emploie le participe, pas cet infinitif."
+     },
+     {
+      "text": "Antériorité signifie toujours après le second événement.",
+      "truth": "false",
+      "explain": "Le mot désigne ici l’ordre avant."
+     },
+     {
+      "text": "Toute conversation ordinaire doit obligatoirement employer le passé antérieur.",
+      "truth": "false",
+      "explain": "Ce temps est surtout fréquent dans le récit écrit."
+     }
+    ]
+   },
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ]

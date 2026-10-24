@@ -3,7 +3,9 @@
  "class": "Form 2",
  "lesson_no": 105,
  "language": "fr",
- "prerequisites": [],
+ "prerequisites": [
+  104
+ ],
  "skills": [
   {
    "id": "fi2-105",
@@ -12,174 +14,170 @@
  ],
  "note": {
   "status": "draft",
-  "text": "Le futur simple situe une action à venir : Demain, nous publierons le journal. Le conditionnel présent peut exprimer une demande polie ou une hypothèse : Pourriez-vous répéter ? Si nous avions un ordinateur, nous publierions plus vite.\nCes temps utilisent le même radical : futur en -ai, -as, -a, -ons, -ez, -ont ; conditionnel en -ais, -ais, -ait, -ions, -iez, -aient. Avec si + imparfait, l’hypothèse peut être suivie du conditionnel : si tu venais, nous parlerions.",
+  "text": "Futur simple et conditionnel présent peuvent partager une base, mais leurs terminaisons diffèrent. Le futur emploie -ai, -as, -a, -ons, -ez, -ont ; le conditionnel, -ais, -ais, -ait, -ions, -iez, -aient. Le futur peut annoncer une action à venir. Le conditionnel peut présenter une conséquence envisagée sous une condition ou atténuer une demande. Dans le modèle si + imparfait, la conséquence peut être au conditionnel. Les radicaux de envoyer et recevoir doivent être connus, pas inventés à partir de la seule fin de l’infinitif.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras former les deux temps et choisir la forme correspondant à une annonce ou une hypothèse explicitée. Acquis mobilisés : le sujet nominal et les terminaisons personnelles. Pour la suite : les récits et les demandes formulées avec précision."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Futur simple et conditionnel présent peuvent partager une base, mais leurs terminaisons diffèrent. Le futur emploie -ai, -as, -a, -ons, -ez, -ont ; le conditionnel, -ais, -ais, -ait, -ions, -iez, -aient. Le futur peut annoncer une action à venir. Le conditionnel peut présenter une conséquence envisagée sous une condition ou atténuer une demande. Dans le modèle si + imparfait, la conséquence peut être au conditionnel. Les radicaux de envoyer et recevoir doivent être connus, pas inventés à partir de la seule fin de l’infinitif."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : Demain, nous {fr2FuturSimple(\"envoyer\",4)} une fiche. Si nous {fr2Imparfait(\"avoir\",4)} la fiche, nous la {fr2Conditionnel(\"lire\",4)}. Compare {fr2With(0,fr2FuturSimple(\"recevoir\",0))} et {fr2With(0,fr2Conditionnel(\"recevoir\",0))}. La forme seule ne remplace pas l’analyse du contexte."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Repère temps demandé, sujet et intention. Retrouve le radical, ajoute la terminaison puis relis l’élision et les accents. Ne confonds pas un projet envisagé avec un résultat déjà obtenu."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "futur simple",
+    "meaning": "le temps illustré par une annonce à venir du modèle"
+   },
+   {
+    "word": "conditionnel présent",
+    "meaning": "la forme utilisée dans la conséquence hypothétique étudiée"
+   },
+   {
+    "word": "radical commun",
+    "meaning": "la base partagée ici par futur et conditionnel"
+   },
+   {
+    "word": "terminaison distinctive",
+    "meaning": "la marque différenciant les temps pour une même personne"
+   }
+  ],
+  "mistake": {
+   "wrong": "Le futur simple exprime uniquement une habitude passée.",
+   "right": "le temps illustré par une annonce à venir du modèle.",
+   "why": "Le modèle vise ici l’avenir."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Complète avec parler au futur : Demain, nous ___ .",
+  "problem": "Nous enverrons demain présente une action à venir. Explique le choix.",
   "steps": [
-   "Les terminaisons distinguent futur et conditionnel.",
-   "Au futur, avec nous, on ajoute -ons au radical parler-."
+   "le temps illustré par une annonce à venir du modèle.",
+   "Le modèle vise ici l’avenir."
   ],
-  "answer": "parlerons",
+  "answer": "futur simple",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c105-1",
+    "id": "fi2-105-c1",
     "status": "draft",
-    "idea": "Le futur situe ici une action à venir.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "Demain, nous publierons le journal."
+     "futur simple : le temps illustré par une annonce à venir du modèle.",
+     "conditionnel présent : la forme utilisée dans la conséquence hypothétique étudiée.",
+     "radical commun : la base partagée ici par futur et conditionnel.",
+     "terminaison distinctive : la marque différenciant les temps pour une même personne."
     ],
     "checks": [],
     "check": {
-     "ref": "fi2-105-etape-1"
+     "ref": "fi2-105-notions"
     }
    },
    {
-    "id": "c105-2",
+    "id": "fi2-105-c2",
     "status": "draft",
-    "idea": "Les terminaisons distinguent futur et conditionnel.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Nous parlerons ; nous parlerions."
+     "Nous enverrons demain présente une action à venir.",
+     "Si nous avions la fiche, nous la lirions.",
+     "Recevr- sert aux deux temps étudiés.",
+     "Je recevrai diffère de je recevrais."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-105-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "conjugaison"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Complète avec parler au futur : Demain, nous ___ .",
-         "r": "parlerons",
-         "w": [
-          "parlerions",
-          "parlions"
-         ],
-         "y": "Au futur, avec nous, on ajoute -ons au radical parler-."
-        },
-        {
-         "q": "Complète : Si nous avions le temps, nous ___ davantage.",
-         "r": "parlerions",
-         "w": [
-          "parlerons",
-          "parlez"
-         ],
-         "y": "Si + imparfait appelle ici une conséquence au conditionnel."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fi2-105-cas"
     }
    },
    {
-    "id": "c105-3",
+    "id": "fi2-105-c3",
     "status": "draft",
-    "idea": "Choisis le temps selon la situation, pas seulement selon la fin du mot.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Une demande polie peut utiliser le conditionnel."
+     "Le futur simple exprime uniquement une habitude passée. Correction : Le modèle vise ici l’avenir.",
+     "Une hypothèse prouve déjà sa réalisation. Correction : La conséquence reste envisagée sous une condition.",
+     "Recevoir garde toujours recevoir- dans ces formes. Correction : Le radical particulier est recevr-.",
+     "Une terminaison du futur est interchangeable avec celle du conditionnel. Correction : Changer la terminaison change ici le temps et sa valeur possible."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-105-etape-3-card",
-     "type": "mcq",
+     "id": "fi2-105-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "conjugaison"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Quelle demande est formulée au conditionnel ?",
-         "r": "Pourriez-vous répéter, s’il vous plaît ?",
-         "w": [
-          "Vous répéterez demain.",
-          "Vous répétez chaque jour."
-         ],
-         "y": "Pourriez est un conditionnel employé pour une demande polie."
-        },
-        {
-         "q": "Quelle phrase respecte l’hypothèse ?",
-         "r": "Si tu venais, nous travaillerions ensemble.",
-         "w": [
-          "Si tu viendrais, nous travaillerions ensemble.",
-          "Si tu venais, nous travaillons hier."
-         ],
-         "y": "On utilise ici si + imparfait, puis le conditionnel présent."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "futur simple : le temps illustré par une annonce à venir du modèle.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le modèle vise ici l’avenir. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "conditionnel présent : la forme utilisée dans la conséquence hypothétique étudiée.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : La conséquence reste envisagée sous une condition. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "radical commun : la base partagée ici par futur et conditionnel.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le radical particulier est recevr-. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "terminaison distinctive : la marque différenciant les temps pour une même personne.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Changer la terminaison change ici le temps et sa valeur possible. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Le futur simple exprime uniquement une habitude passée.",
+        "truth": "false",
+        "explain": "Le modèle vise ici l’avenir."
+       },
+       {
+        "text": "Une hypothèse prouve déjà sa réalisation.",
+        "truth": "false",
+        "explain": "La conséquence reste envisagée sous une condition."
+       },
+       {
+        "text": "Recevoir garde toujours recevoir- dans ces formes.",
+        "truth": "false",
+        "explain": "Le radical particulier est recevr-."
+       },
+       {
+        "text": "Une terminaison du futur est interchangeable avec celle du conditionnel.",
+        "truth": "false",
+        "explain": "Changer la terminaison change ici le temps et sa valeur possible."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -187,33 +185,75 @@
  },
  "questions": [
   {
-   "id": "fi2-105-etape-1",
+   "id": "fi2-105-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "conjugaison"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Quelle phrase est au futur simple ?",
-       "r": "Nous publierons demain.",
+       "q": "Quel terme désigne le temps illustré par une annonce à venir du modèle ?",
+       "r": "futur simple",
        "w": [
-        "Nous publierions si nous pouvions.",
-        "Nous publions maintenant."
+        "conditionnel présent",
+        "radical commun",
+        "terminaison distinctive"
        ],
-       "y": "Publierons est au futur simple."
+       "e": [
+        "Cela désigne la forme utilisée dans la conséquence hypothétique étudiée, plutôt que la notion demandée.",
+        "Cela désigne la base partagée ici par futur et conditionnel, plutôt que la notion demandée.",
+        "Cela désigne la marque différenciant les temps pour une même personne, plutôt que la notion demandée."
+       ],
+       "y": "Le modèle vise ici l’avenir."
       },
       {
-       "q": "Quelle forme est au conditionnel présent ?",
-       "r": "Je téléphonerais.",
+       "q": "Quel terme désigne la forme utilisée dans la conséquence hypothétique étudiée ?",
+       "r": "conditionnel présent",
        "w": [
-        "Je téléphonerai.",
-        "Je téléphone."
+        "futur simple",
+        "radical commun",
+        "terminaison distinctive"
        ],
-       "y": "La terminaison -ais appartient ici au conditionnel."
+       "e": [
+        "Cela désigne le temps illustré par une annonce à venir du modèle, plutôt que la notion demandée.",
+        "Cela désigne la base partagée ici par futur et conditionnel, plutôt que la notion demandée.",
+        "Cela désigne la marque différenciant les temps pour une même personne, plutôt que la notion demandée."
+       ],
+       "y": "La conséquence reste envisagée sous une condition."
+      },
+      {
+       "q": "Quel terme désigne la base partagée ici par futur et conditionnel ?",
+       "r": "radical commun",
+       "w": [
+        "futur simple",
+        "conditionnel présent",
+        "terminaison distinctive"
+       ],
+       "e": [
+        "Cela désigne le temps illustré par une annonce à venir du modèle, plutôt que la notion demandée.",
+        "Cela désigne la forme utilisée dans la conséquence hypothétique étudiée, plutôt que la notion demandée.",
+        "Cela désigne la marque différenciant les temps pour une même personne, plutôt que la notion demandée."
+       ],
+       "y": "Le radical particulier est recevr-."
+      },
+      {
+       "q": "Quel terme désigne la marque différenciant les temps pour une même personne ?",
+       "r": "terminaison distinctive",
+       "w": [
+        "futur simple",
+        "conditionnel présent",
+        "radical commun"
+       ],
+       "e": [
+        "Cela désigne le temps illustré par une annonce à venir du modèle, plutôt que la notion demandée.",
+        "Cela désigne la forme utilisée dans la conséquence hypothétique étudiée, plutôt que la notion demandée.",
+        "Cela désigne la base partagée ici par futur et conditionnel, plutôt que la notion demandée."
+       ],
+       "y": "Changer la terminaison change ici le temps et sa valeur possible."
       }
      ]
     }
@@ -228,145 +268,299 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-105-etape-2",
+   "id": "fi2-105-cas",
    "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Nous enverrons demain présente une action à venir.\nQuelle notion convient ?",
+       "r": "futur simple",
+       "w": [
+        "conditionnel présent",
+        "radical commun",
+        "terminaison distinctive"
+       ],
+       "e": [
+        "Cela concerne la forme utilisée dans la conséquence hypothétique étudiée. Compare cette définition avec le cas présenté.",
+        "Cela concerne la base partagée ici par futur et conditionnel. Compare cette définition avec le cas présenté.",
+        "Cela concerne la marque différenciant les temps pour une même personne. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le modèle vise ici l’avenir."
+      },
+      {
+       "q": "Si nous avions la fiche, nous la lirions.\nQuelle notion convient ?",
+       "r": "conditionnel présent",
+       "w": [
+        "futur simple",
+        "radical commun",
+        "terminaison distinctive"
+       ],
+       "e": [
+        "Cela concerne le temps illustré par une annonce à venir du modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne la base partagée ici par futur et conditionnel. Compare cette définition avec le cas présenté.",
+        "Cela concerne la marque différenciant les temps pour une même personne. Compare cette définition avec le cas présenté."
+       ],
+       "y": "La conséquence reste envisagée sous une condition."
+      },
+      {
+       "q": "Recevr- sert aux deux temps étudiés.\nQuelle notion convient ?",
+       "r": "radical commun",
+       "w": [
+        "futur simple",
+        "conditionnel présent",
+        "terminaison distinctive"
+       ],
+       "e": [
+        "Cela concerne le temps illustré par une annonce à venir du modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme utilisée dans la conséquence hypothétique étudiée. Compare cette définition avec le cas présenté.",
+        "Cela concerne la marque différenciant les temps pour une même personne. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le radical particulier est recevr-."
+      },
+      {
+       "q": "Je recevrai diffère de je recevrais.\nQuelle notion convient ?",
+       "r": "terminaison distinctive",
+       "w": [
+        "futur simple",
+        "conditionnel présent",
+        "radical commun"
+       ],
+       "e": [
+        "Cela concerne le temps illustré par une annonce à venir du modèle. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme utilisée dans la conséquence hypothétique étudiée. Compare cette définition avec le cas présenté.",
+        "Cela concerne la base partagée ici par futur et conditionnel. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Changer la terminaison change ici le temps et sa valeur possible."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-105-conjuguer",
+   "type": "mcq",
+   "level": 2,
+   "review": "rule",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "v": {
+     "pick": [
+      "parler",
+      "finir",
+      "envoyer",
+      "recevoir",
+      "être",
+      "faire"
+     ]
+    },
+    "p": {
+     "int": [
+      0,
+      7
+     ]
+    },
+    "t": {
+     "pick": [
+      "futur simple",
+      "conditionnel présent"
+     ]
+    }
+   },
+   "prompt": "Conjugue « {v} » au {t}, avec « {fr2Pronoun(p)} ».",
+   "correct": "{fr2With(p,t==\"futur simple\" ? fr2FuturSimple(v,p) : fr2Conditionnel(v,p))}",
+   "distractors": [
+    {
+     "text": "{fr2With(p,t==\"futur simple\" ? fr2Conditionnel(v,p) : fr2FuturSimple(v,p))}",
+     "misconception": "temps"
+    },
+    {
+     "text": "{fr2With(p,fr2Imparfait(v,p))}",
+     "misconception": "imparfait"
+    },
+    {
+     "text": "{fr2With(p,v)}",
+     "misconception": "inf"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "temps",
+     "explain": "Cette terminaison correspond à l’autre temps comparé."
+    },
+    {
+     "id": "imparfait",
+     "explain": "Cette forme est à l’imparfait, avec sa base propre."
+    },
+    {
+     "id": "inf",
+     "explain": "L’infinitif ne porte pas la conjugaison demandée."
+    }
+   ],
+   "solution": [
+    "Les deux temps partagent ici le radical du futur, mais pas les terminaisons.",
+    "La forme demandée est {answer}."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-105-relier",
+   "type": "matching",
    "level": 2,
    "review": "authored",
    "sources": [
-    "conjugaison"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Complète avec parler au futur : Demain, nous ___ .",
-       "r": "parlerons",
-       "w": [
-        "parlerions",
-        "parlions"
-       ],
-       "y": "Au futur, avec nous, on ajoute -ons au radical parler-."
-      },
-      {
-       "q": "Complète : Si nous avions le temps, nous ___ davantage.",
-       "r": "parlerions",
-       "w": [
-        "parlerons",
-        "parlez"
-       ],
-       "y": "Si + imparfait appelle ici une conséquence au conditionnel."
-      }
-     ]
-    }
-   },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
     {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
+     "left": "futur simple",
+     "right": "Nous enverrons demain présente une action à venir."
     },
     {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
+     "left": "conditionnel présent",
+     "right": "Si nous avions la fiche, nous la lirions."
     },
     {
-     "id": "w1",
-     "explain": "{X.y}"
+     "left": "radical commun",
+     "right": "Recevr- sert aux deux temps étudiés."
+    },
+    {
+     "left": "terminaison distinctive",
+     "right": "Je recevrai diffère de je recevrais."
     }
    ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-105-etape-3",
-   "type": "mcq",
+   "id": "fi2-105-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "conjugaison"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Quelle demande est formulée au conditionnel ?",
-       "r": "Pourriez-vous répéter, s’il vous plaît ?",
-       "w": [
-        "Vous répéterez demain.",
-        "Vous répétez chaque jour."
-       ],
-       "y": "Pourriez est un conditionnel employé pour une demande polie."
-      },
-      {
-       "q": "Quelle phrase respecte l’hypothèse ?",
-       "r": "Si tu venais, nous travaillerions ensemble.",
-       "w": [
-        "Si tu viendrais, nous travaillerions ensemble.",
-        "Si tu venais, nous travaillons hier."
-       ],
-       "y": "On utilise ici si + imparfait, puis le conditionnel présent."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "futur simple : le temps illustré par une annonce à venir du modèle.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le modèle vise ici l’avenir. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "conditionnel présent : la forme utilisée dans la conséquence hypothétique étudiée.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : La conséquence reste envisagée sous une condition. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "radical commun : la base partagée ici par futur et conditionnel.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le radical particulier est recevr-. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "terminaison distinctive : la marque différenciant les temps pour une même personne.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Changer la terminaison change ici le temps et sa valeur possible. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Le futur simple exprime uniquement une habitude passée.",
+      "truth": "false",
+      "explain": "Le modèle vise ici l’avenir."
+     },
+     {
+      "text": "Une hypothèse prouve déjà sa réalisation.",
+      "truth": "false",
+      "explain": "La conséquence reste envisagée sous une condition."
+     },
+     {
+      "text": "Recevoir garde toujours recevoir- dans ces formes.",
+      "truth": "false",
+      "explain": "Le radical particulier est recevr-."
+     },
+     {
+      "text": "Une terminaison du futur est interchangeable avec celle du conditionnel.",
+      "truth": "false",
+      "explain": "Changer la terminaison change ici le temps et sa valeur possible."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ]

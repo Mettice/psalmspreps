@@ -3,7 +3,11 @@
  "class": "Form 2",
  "lesson_no": 118,
  "language": "fr",
- "prerequisites": [],
+ "prerequisites": [
+  104,
+  112,
+  117
+ ],
  "skills": [
   {
    "id": "fi2-118",
@@ -12,174 +16,170 @@
  ],
  "note": {
   "status": "draft",
-  "text": "Un pronom possessif remplace un nom et indique une relation de possession : mon cahier devient le mien ; ta radio devient la tienne. Sa forme s’accorde avec ce qui est possédé : le mien, la mienne, les miens, les miennes. Le possesseur détermine la série : le tien, le sien, le nôtre, le vôtre, le leur. Le pronom peut être sujet : Le mien fonctionne. Les leurs fonctionnent. Un déterminant possessif accompagne un nom : mon cahier.",
+  "text": "Un pronom possessif reprend un élément et exprime une relation d’appartenance : le mien, la tienne, les siens, la nôtre, les vôtres. Il se distingue d’un déterminant comme mon ou ta, suivi d’un nom. Son genre et son nombre suivent l’élément repris ; la personne dépend de la relation de possession indiquée. Employé comme sujet, le pronom commande le verbe : le tien est, les tiens sont. Le genre ne se choisit pas d’après le genre de la personne qui possède.",
   "checks": []
+ },
+ "learn": {
+  "status": "draft",
+  "vars": {},
+  "sections": [
+   {
+    "heading": "Ton objectif et les liens",
+    "text": "À la fin, tu pourras choisir une reprise possessive selon le référent et accorder le verbe avec le pronom sujet. Acquis mobilisés : les sujets, les déterminants possessifs et les descriptions. Pour la suite : la correspondance et la relecture des textes."
+   },
+   {
+    "heading": "Comprendre la règle ou le sens",
+    "text": "Un pronom possessif reprend un élément et exprime une relation d’appartenance : le mien, la tienne, les siens, la nôtre, les vôtres. Il se distingue d’un déterminant comme mon ou ta, suivi d’un nom. Son genre et son nombre suivent l’élément repris ; la personne dépend de la relation de possession indiquée. Employé comme sujet, le pronom commande le verbe : le tien est, les tiens sont. Le genre ne se choisit pas d’après le genre de la personne qui possède."
+   },
+   {
+    "heading": "Lire le modèle original",
+    "text": "Modèles originaux : Mon cahier est fermé ; le tien {fr2Present(\"être\",2)} ouvert. Ma fiche est prête ; la tienne {fr2Present(\"être\",3)} aussi. Mes livres sont ici ; les tiens {fr2Present(\"être\",6)} là-bas. Le groupe les vôtres peut reprendre les fiches d’un autre groupe sans réécrire le nom."
+   },
+   {
+    "heading": "Appliquer et vérifier",
+    "text": "Retrouve le nom repris puis son genre et son nombre. Vérifie à qui la relation renvoie, choisis le pronom complet et accorde le verbe. Ne confonds pas notre fiche et la nôtre : la construction et l’accent diffèrent."
+   }
+  ],
+  "key_words": [
+   {
+    "word": "pronom possessif",
+    "meaning": "une reprise comme le tien exprimant une relation d’appartenance"
+   },
+   {
+    "word": "déterminant possessif",
+    "meaning": "un mot comme ton accompagnant un nom"
+   },
+   {
+    "word": "référent repris",
+    "meaning": "l’élément déterminant ici genre et nombre du pronom"
+   },
+   {
+    "word": "accord du verbe sujet",
+    "meaning": "la forme verbale suivant le nombre du pronom sujet"
+   }
+  ],
+  "mistake": {
+   "wrong": "Tout pronom possessif doit être suivi du nom répété.",
+   "right": "une reprise comme le tien exprimant une relation d’appartenance.",
+   "why": "Le pronom reprend ce nom sans le répéter ici."
+  }
  },
  "worked_example": {
   "status": "draft",
   "vars": {},
-  "problem": "Remplace ma radio : ___ fonctionne.",
+  "problem": "Le tien reprend un cahier déjà évoqué. Explique le choix.",
   "steps": [
-   "Accorde la forme avec le nom remplacé.",
-   "Radio est féminin singulier : la mienne."
+   "une reprise comme le tien exprimant une relation d’appartenance.",
+   "Le pronom reprend ce nom sans le répéter ici."
   ],
-  "answer": "La mienne",
+  "answer": "pronom possessif",
   "checks": []
  },
  "teach": {
   "cards": [
    {
-    "id": "c118-1",
+    "id": "fi2-118-c1",
     "status": "draft",
-    "idea": "Le pronom possessif remplace un groupe nominal.",
+    "idea": "Distingue les notions avant de choisir.",
     "vars": {},
     "example": [
-     "Mon cahier est ici ; le tien est là."
+     "pronom possessif : une reprise comme le tien exprimant une relation d’appartenance.",
+     "déterminant possessif : un mot comme ton accompagnant un nom.",
+     "référent repris : l’élément déterminant ici genre et nombre du pronom.",
+     "accord du verbe sujet : la forme verbale suivant le nombre du pronom sujet."
     ],
     "checks": [],
     "check": {
-     "ref": "fi2-118-etape-1"
+     "ref": "fi2-118-notions"
     }
    },
    {
-    "id": "c118-2",
+    "id": "fi2-118-c2",
     "status": "draft",
-    "idea": "Accorde la forme avec le nom remplacé.",
+    "idea": "Lis le contexte avant de nommer la notion.",
     "vars": {},
     "example": [
-     "Ma radio : la mienne ; mes cahiers : les miens."
+     "Le tien reprend un cahier déjà évoqué.",
+     "Ton accompagne cahier dans ton cahier.",
+     "Fiche explique le féminin singulier de la tienne.",
+     "Les tiens sont prêts emploie un sujet pluriel."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-118-etape-2-card",
-     "type": "mcq",
-     "level": 1,
-     "review": "authored",
-     "sources": [
-      "grammaire"
-     ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Remplace ma radio : ___ fonctionne.",
-         "r": "La mienne",
-         "w": [
-          "Le mien",
-          "Les miens"
-         ],
-         "y": "Radio est féminin singulier : la mienne."
-        },
-        {
-         "q": "Remplace mes cahiers : ___ sont ici.",
-         "r": "Les miens",
-         "w": [
-          "La mienne",
-          "Le mien"
-         ],
-         "y": "Cahiers est masculin pluriel : les miens."
-        }
-       ]
-      }
-     },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
-     "lang": "fr"
+     "ref": "fi2-118-cas"
     }
    },
    {
-    "id": "c118-3",
+    "id": "fi2-118-c3",
     "status": "draft",
-    "idea": "Le verbe s’accorde avec le pronom sujet.",
+    "idea": "Corrige sans changer le sens voulu.",
     "vars": {},
     "example": [
-     "Le leur fonctionne ; les leurs fonctionnent."
+     "Tout pronom possessif doit être suivi du nom répété. Correction : Le pronom reprend ce nom sans le répéter ici.",
+     "Ton seul forme toujours le pronom le tien complet. Correction : Le déterminant et le pronom n’ont pas la même construction.",
+     "Le genre de la personne propriétaire décide toujours du genre du pronom. Correction : Le pronom s’accorde avec l’élément repris.",
+     "Les tiens impose toujours est au singulier. Correction : Le sujet les tiens est pluriel."
     ],
     "checks": [],
     "check": {
-     "id": "fi2-118-etape-3-card",
-     "type": "mcq",
+     "id": "fi2-118-corriger-card",
+     "type": "spot_error",
      "level": 1,
      "review": "authored",
      "sources": [
-      "grammaire"
+      "qualite-t3"
      ],
-     "vars": {
-      "X": {
-       "pick": [
-        {
-         "q": "Complète : Les leurs ___ bien.",
-         "r": "fonctionnent",
-         "w": [
-          "fonctionne",
-          "fonctionnes"
-         ],
-         "y": "Les leurs est pluriel et commande fonctionnent."
-        },
-        {
-         "q": "Quelle phrase distingue déterminant et pronom ?",
-         "r": "Mon cahier est ouvert ; le tien est fermé.",
-         "w": [
-          "Le mon est ouvert.",
-          "Le tien cahier est fermé."
-         ],
-         "y": "Mon accompagne cahier ; le tien remplace un groupe nominal."
-        }
-       ]
-      }
+     "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+     "pool": {
+      "right": [
+       {
+        "text": "pronom possessif : une reprise comme le tien exprimant une relation d’appartenance.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le pronom reprend ce nom sans le répéter ici. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "déterminant possessif : un mot comme ton accompagnant un nom.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le déterminant et le pronom n’ont pas la même construction. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "référent repris : l’élément déterminant ici genre et nombre du pronom.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le pronom s’accorde avec l’élément repris. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       },
+       {
+        "text": "accord du verbe sujet : la forme verbale suivant le nombre du pronom sujet.",
+        "truth": "true",
+        "explain": "Cette distinction est correcte : Le sujet les tiens est pluriel. Cherche plutôt une phrase qui contredit le sens ou la règle."
+       }
+      ],
+      "wrong": [
+       {
+        "text": "Tout pronom possessif doit être suivi du nom répété.",
+        "truth": "false",
+        "explain": "Le pronom reprend ce nom sans le répéter ici."
+       },
+       {
+        "text": "Ton seul forme toujours le pronom le tien complet.",
+        "truth": "false",
+        "explain": "Le déterminant et le pronom n’ont pas la même construction."
+       },
+       {
+        "text": "Le genre de la personne propriétaire décide toujours du genre du pronom.",
+        "truth": "false",
+        "explain": "Le pronom s’accorde avec l’élément repris."
+       },
+       {
+        "text": "Les tiens impose toujours est au singulier.",
+        "truth": "false",
+        "explain": "Le sujet les tiens est pluriel."
+       }
+      ]
      },
-     "prompt": "{X.q}",
-     "correct": "{X.r}",
-     "distractors": [
-      {
-       "text": "{X.w[0]}",
-       "misconception": "w0"
-      },
-      {
-       "text": "{X.w[1]}",
-       "misconception": "w1"
-      }
-     ],
-     "misconceptions": [
-      {
-       "id": "w0",
-       "explain": "{X.y}"
-      },
-      {
-       "id": "w1",
-       "explain": "{X.y}"
-      }
-     ],
-     "solution": [
-      "{X.y}",
-      "La réponse est : {answer}"
-     ],
-     "show": 3,
+     "pick": {
+      "right": 3,
+      "wrong": 1
+     },
      "lang": "fr"
     }
    }
@@ -187,33 +187,75 @@
  },
  "questions": [
   {
-   "id": "fi2-118-etape-1",
+   "id": "fi2-118-notions",
    "type": "mcq",
    "level": 1,
    "review": "authored",
    "sources": [
-    "grammaire"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Quel groupe est un pronom possessif ?",
-       "r": "Le mien",
+       "q": "Quel terme désigne une reprise comme le tien exprimant une relation d’appartenance ?",
+       "r": "pronom possessif",
        "w": [
-        "Mon cahier",
-        "Un cahier"
+        "déterminant possessif",
+        "référent repris",
+        "accord du verbe sujet"
        ],
-       "y": "Le mien remplace un nom avec sa relation de possession."
+       "e": [
+        "Cela désigne un mot comme ton accompagnant un nom, plutôt que la notion demandée.",
+        "Cela désigne l’élément déterminant ici genre et nombre du pronom, plutôt que la notion demandée.",
+        "Cela désigne la forme verbale suivant le nombre du pronom sujet, plutôt que la notion demandée."
+       ],
+       "y": "Le pronom reprend ce nom sans le répéter ici."
       },
       {
-       "q": "Dans « La tienne fonctionne », quel groupe est sujet ?",
-       "r": "La tienne",
+       "q": "Quel terme désigne un mot comme ton accompagnant un nom ?",
+       "r": "déterminant possessif",
        "w": [
-        "fonctionne",
-        "aucun sujet"
+        "pronom possessif",
+        "référent repris",
+        "accord du verbe sujet"
        ],
-       "y": "Le pronom possessif la tienne est le sujet du verbe."
+       "e": [
+        "Cela désigne une reprise comme le tien exprimant une relation d’appartenance, plutôt que la notion demandée.",
+        "Cela désigne l’élément déterminant ici genre et nombre du pronom, plutôt que la notion demandée.",
+        "Cela désigne la forme verbale suivant le nombre du pronom sujet, plutôt que la notion demandée."
+       ],
+       "y": "Le déterminant et le pronom n’ont pas la même construction."
+      },
+      {
+       "q": "Quel terme désigne l’élément déterminant ici genre et nombre du pronom ?",
+       "r": "référent repris",
+       "w": [
+        "pronom possessif",
+        "déterminant possessif",
+        "accord du verbe sujet"
+       ],
+       "e": [
+        "Cela désigne une reprise comme le tien exprimant une relation d’appartenance, plutôt que la notion demandée.",
+        "Cela désigne un mot comme ton accompagnant un nom, plutôt que la notion demandée.",
+        "Cela désigne la forme verbale suivant le nombre du pronom sujet, plutôt que la notion demandée."
+       ],
+       "y": "Le pronom s’accorde avec l’élément repris."
+      },
+      {
+       "q": "Quel terme désigne la forme verbale suivant le nombre du pronom sujet ?",
+       "r": "accord du verbe sujet",
+       "w": [
+        "pronom possessif",
+        "déterminant possessif",
+        "référent repris"
+       ],
+       "e": [
+        "Cela désigne une reprise comme le tien exprimant une relation d’appartenance, plutôt que la notion demandée.",
+        "Cela désigne un mot comme ton accompagnant un nom, plutôt que la notion demandée.",
+        "Cela désigne l’élément déterminant ici genre et nombre du pronom, plutôt que la notion demandée."
+       ],
+       "y": "Le sujet les tiens est pluriel."
       }
      ]
     }
@@ -228,53 +270,212 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-118-etape-2",
+   "id": "fi2-118-cas",
+   "type": "mcq",
+   "level": 1,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "vars": {
+    "X": {
+     "pick": [
+      {
+       "q": "Le tien reprend un cahier déjà évoqué.\nQuelle notion convient ?",
+       "r": "pronom possessif",
+       "w": [
+        "déterminant possessif",
+        "référent repris",
+        "accord du verbe sujet"
+       ],
+       "e": [
+        "Cela concerne un mot comme ton accompagnant un nom. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’élément déterminant ici genre et nombre du pronom. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme verbale suivant le nombre du pronom sujet. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le pronom reprend ce nom sans le répéter ici."
+      },
+      {
+       "q": "Ton accompagne cahier dans ton cahier.\nQuelle notion convient ?",
+       "r": "déterminant possessif",
+       "w": [
+        "pronom possessif",
+        "référent repris",
+        "accord du verbe sujet"
+       ],
+       "e": [
+        "Cela concerne une reprise comme le tien exprimant une relation d’appartenance. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’élément déterminant ici genre et nombre du pronom. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme verbale suivant le nombre du pronom sujet. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le déterminant et le pronom n’ont pas la même construction."
+      },
+      {
+       "q": "Fiche explique le féminin singulier de la tienne.\nQuelle notion convient ?",
+       "r": "référent repris",
+       "w": [
+        "pronom possessif",
+        "déterminant possessif",
+        "accord du verbe sujet"
+       ],
+       "e": [
+        "Cela concerne une reprise comme le tien exprimant une relation d’appartenance. Compare cette définition avec le cas présenté.",
+        "Cela concerne un mot comme ton accompagnant un nom. Compare cette définition avec le cas présenté.",
+        "Cela concerne la forme verbale suivant le nombre du pronom sujet. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le pronom s’accorde avec l’élément repris."
+      },
+      {
+       "q": "Les tiens sont prêts emploie un sujet pluriel.\nQuelle notion convient ?",
+       "r": "accord du verbe sujet",
+       "w": [
+        "pronom possessif",
+        "déterminant possessif",
+        "référent repris"
+       ],
+       "e": [
+        "Cela concerne une reprise comme le tien exprimant une relation d’appartenance. Compare cette définition avec le cas présenté.",
+        "Cela concerne un mot comme ton accompagnant un nom. Compare cette définition avec le cas présenté.",
+        "Cela concerne l’élément déterminant ici genre et nombre du pronom. Compare cette définition avec le cas présenté."
+       ],
+       "y": "Le sujet les tiens est pluriel."
+      }
+     ]
+    }
+   },
+   "prompt": "{X.q}",
+   "correct": "{X.r}",
+   "distractors": [
+    {
+     "text": "{X.w[0]}",
+     "misconception": "w0"
+    },
+    {
+     "text": "{X.w[1]}",
+     "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
+    }
+   ],
+   "misconceptions": [
+    {
+     "id": "w0",
+     "explain": "{X.e[0]}"
+    },
+    {
+     "id": "w1",
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
+    }
+   ],
+   "solution": [
+    "{X.y}",
+    "Donc la réponse est « {answer} »."
+   ],
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-118-appliquer",
    "type": "mcq",
    "level": 2,
    "review": "authored",
    "sources": [
-    "grammaire"
+    "qualite-t3"
    ],
    "vars": {
     "X": {
      "pick": [
       {
-       "q": "Remplace ma radio : ___ fonctionne.",
-       "r": "La mienne",
+       "q": "Le modèle oppose mon cahier au tien. Remplace ton cahier comme sujet : ___ est ouvert.",
+       "r": "Le tien",
        "w": [
-        "Le mien",
-        "Les miens"
+        "La tienne",
+        "Les tiens",
+        "Ton"
        ],
-       "y": "Radio est féminin singulier : la mienne."
+       "e": [
+        "Cahier est masculin.",
+        "Le cahier repris est singulier.",
+        "Ton est déterminant et demande un nom exprimé."
+       ],
+       "y": "Le pronom reprend un cahier singulier."
       },
       {
-       "q": "Remplace mes cahiers : ___ sont ici.",
-       "r": "Les miens",
+       "q": "Le modèle oppose ma fiche à la tienne. Remplace ta fiche comme sujet : ___ est prête.",
+       "r": "La tienne",
        "w": [
-        "La mienne",
-        "Le mien"
+        "Le tien",
+        "Les tiennes",
+        "Ta"
        ],
-       "y": "Cahiers est masculin pluriel : les miens."
+       "e": [
+        "Fiche est féminin.",
+        "Le référent est singulier.",
+        "Ta accompagne un nom, sans former ici le pronom complet."
+       ],
+       "y": "Le pronom reprend la fiche."
+      },
+      {
+       "q": "Le modèle oppose mes livres aux tiens. Remplace tes livres comme sujet : ___ sont prêts.",
+       "r": "Les tiens",
+       "w": [
+        "Le tien",
+        "Les tiennes",
+        "Tes"
+       ],
+       "e": [
+        "Le référent est pluriel.",
+        "Livres est masculin.",
+        "Tes détermine un nom exprimé."
+       ],
+       "y": "Le pronom est masculin pluriel."
+      },
+      {
+       "q": "Le modèle oppose nos fiches aux vôtres. Remplace vos fiches comme sujet : ___ sont prêtes.",
+       "r": "Les vôtres",
+       "w": [
+        "La vôtre",
+        "Les nôtres",
+        "Vos"
+       ],
+       "e": [
+        "Le référent est pluriel.",
+        "Cette forme change la relation de personne annoncée.",
+        "Vos seul n’est pas le pronom complet."
+       ],
+       "y": "Genre, nombre et relation de personne restent cohérents."
       }
      ]
     }
@@ -289,84 +490,121 @@
     {
      "text": "{X.w[1]}",
      "misconception": "w1"
+    },
+    {
+     "text": "{X.w[2]}",
+     "misconception": "w2"
     }
    ],
    "misconceptions": [
     {
      "id": "w0",
-     "explain": "{X.y}"
+     "explain": "{X.e[0]}"
     },
     {
      "id": "w1",
-     "explain": "{X.y}"
+     "explain": "{X.e[1]}"
+    },
+    {
+     "id": "w2",
+     "explain": "{X.e[2]}"
     }
    ],
    "solution": [
     "{X.y}",
-    "La réponse est : {answer}"
+    "Donc la réponse est « {answer} »."
    ],
-   "show": 3,
    "lang": "fr"
   },
   {
-   "id": "fi2-118-etape-3",
-   "type": "mcq",
+   "id": "fi2-118-relier",
+   "type": "matching",
+   "level": 2,
+   "review": "authored",
+   "sources": [
+    "qualite-t3"
+   ],
+   "prompt": "Relie chaque notion à son exemple.",
+   "pool": [
+    {
+     "left": "pronom possessif",
+     "right": "Le tien reprend un cahier déjà évoqué."
+    },
+    {
+     "left": "déterminant possessif",
+     "right": "Ton accompagne cahier dans ton cahier."
+    },
+    {
+     "left": "référent repris",
+     "right": "Fiche explique le féminin singulier de la tienne."
+    },
+    {
+     "left": "accord du verbe sujet",
+     "right": "Les tiens sont prêts emploie un sujet pluriel."
+    }
+   ],
+   "pick": 3,
+   "lang": "fr"
+  },
+  {
+   "id": "fi2-118-corriger",
+   "type": "spot_error",
    "level": 3,
    "review": "authored",
    "sources": [
-    "grammaire"
+    "qualite-t3"
    ],
-   "vars": {
-    "X": {
-     "pick": [
-      {
-       "q": "Complète : Les leurs ___ bien.",
-       "r": "fonctionnent",
-       "w": [
-        "fonctionne",
-        "fonctionnes"
-       ],
-       "y": "Les leurs est pluriel et commande fonctionnent."
-      },
-      {
-       "q": "Quelle phrase distingue déterminant et pronom ?",
-       "r": "Mon cahier est ouvert ; le tien est fermé.",
-       "w": [
-        "Le mon est ouvert.",
-        "Le tien cahier est fermé."
-       ],
-       "y": "Mon accompagne cahier ; le tien remplace un groupe nominal."
-      }
-     ]
-    }
+   "prompt": "Repère la formulation ou l’affirmation incorrecte.",
+   "pool": {
+    "right": [
+     {
+      "text": "pronom possessif : une reprise comme le tien exprimant une relation d’appartenance.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le pronom reprend ce nom sans le répéter ici. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "déterminant possessif : un mot comme ton accompagnant un nom.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le déterminant et le pronom n’ont pas la même construction. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "référent repris : l’élément déterminant ici genre et nombre du pronom.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le pronom s’accorde avec l’élément repris. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     },
+     {
+      "text": "accord du verbe sujet : la forme verbale suivant le nombre du pronom sujet.",
+      "truth": "true",
+      "explain": "Cette distinction est correcte : Le sujet les tiens est pluriel. Cherche plutôt une phrase qui contredit le sens ou la règle."
+     }
+    ],
+    "wrong": [
+     {
+      "text": "Tout pronom possessif doit être suivi du nom répété.",
+      "truth": "false",
+      "explain": "Le pronom reprend ce nom sans le répéter ici."
+     },
+     {
+      "text": "Ton seul forme toujours le pronom le tien complet.",
+      "truth": "false",
+      "explain": "Le déterminant et le pronom n’ont pas la même construction."
+     },
+     {
+      "text": "Le genre de la personne propriétaire décide toujours du genre du pronom.",
+      "truth": "false",
+      "explain": "Le pronom s’accorde avec l’élément repris."
+     },
+     {
+      "text": "Les tiens impose toujours est au singulier.",
+      "truth": "false",
+      "explain": "Le sujet les tiens est pluriel."
+     }
+    ]
    },
-   "prompt": "{X.q}",
-   "correct": "{X.r}",
-   "distractors": [
-    {
-     "text": "{X.w[0]}",
-     "misconception": "w0"
-    },
-    {
-     "text": "{X.w[1]}",
-     "misconception": "w1"
-    }
-   ],
-   "misconceptions": [
-    {
-     "id": "w0",
-     "explain": "{X.y}"
-    },
-    {
-     "id": "w1",
-     "explain": "{X.y}"
-    }
-   ],
-   "solution": [
-    "{X.y}",
-    "La réponse est : {answer}"
-   ],
-   "show": 3,
+   "pick": {
+    "right": 3,
+    "wrong": 1
+   },
    "lang": "fr"
   }
  ]
