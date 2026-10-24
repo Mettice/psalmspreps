@@ -125,5 +125,15 @@ const root = path.resolve(__dirname, '../../..');
         console.log('Writing screenshot: '+writingShot);
       }
     }
+    if (subject === 'f5-history') {
+      await page.evaluate((id)=>openLesson(id,16),subject);
+      await page.getByRole('button',{name:'Next',exact:true}).click();
+      await page.getByRole('button',{name:'Next',exact:true}).click();
+      const model=(await page.locator('body').innerText()).toLowerCase();
+      for(const label of ['1 november 1995','excludes cameroon','bilateral']) if(!model.includes(label)) throw Error('Missing institutional distinction: '+label);
+      const relationShot=path.join(os.tmpdir(),`${subject}-relations.png`);
+      await page.screenshot({path:relationShot,fullPage:true});
+      console.log('Relations screenshot: '+relationShot);
+    }
   } finally { await browser.close(); }
 })().catch((e) => { console.error(e); process.exitCode = 1; });

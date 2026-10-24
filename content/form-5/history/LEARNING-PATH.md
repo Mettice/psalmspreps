@@ -1,0 +1,27 @@
+# Form Five History — learning path
+
+Each opening states an outcome, earlier knowledge and next use. Practice sources are explicitly invented; real historical proof requires authentic evidence.
+
+| Row | Topic | By the end | Builds on | Leads to |
+|---|---|---|---|---|
+| 1 | Decolonisation case study: the Gold Coast becomes Ghana | connect nationalist organisation, constitutional change and independence without erasing African agency | Form Four nationalism and postwar international change | comparison with Nigeria and French West Africa |
+| 2 | Decolonisation case study: Nigeria’s negotiated transition | explain how federal arrangements and political negotiation shaped Nigeria’s independence | Ghana’s constitutional route and the distinction between autonomy and sovereignty | French West Africa and comparison of varied transitions |
+| 3 | French West Africa: reform, Community and Guinea’s choice | order constitutional changes and explain Guinea’s distinctive referendum choice | different British transitions and postwar nationalism | the Congo and Portuguese comparisons |
+| 4 | Belgian Congo: independence and the outbreak of crisis | connect a rapid transfer, army mutiny, secession and foreign intervention without reducing the crisis to one cause | varied colonial transitions and limits of constitutional transfer | the Congo crisis’s effects and post-independence instability |
+| 5 | Belgian Congo: consequences and the limits of intervention | explain political and human effects while distinguishing ONUC’s task from a complete solution | independence, mutiny and secession in the Congo crisis | Portuguese transitions and comparative instability |
+| 6 | Portuguese Africa: delayed decolonisation and varied transitions | identify the territories and connect liberation struggles with the change of regime in Portugal | British, French and Belgian transitions | post-independence instability and comparative explanations |
+| 7 | Political instability in post-independence Africa | explain interacting institutional, economic and external pressures without stereotyping a continent | different colonial transitions and their unresolved issues | military coups and their claimed justifications |
+| 8 | Military coups: change of ruler and constitutional legitimacy | distinguish an unconstitutional military seizure from an elected transition and assess a justification critically | institutional conflict and interacting causes of instability | later evaluation of political and economic change |
+| 9 | European science, technology and uneven change before the First World War | connect selected innovations with medicine, transport and military competition without anachronism | earlier industrialisation and international rivalry | the social and global impact of industrial growth |
+| 10 | Industrialisation: effects in Europe and the wider world | weigh production and connectivity against labour, environmental and colonial inequalities | science, transport and industrial capacity | economic expansion, vulnerability and the Great Depression |
+| 11 | The Great Depression: boom, crash and deepening contraction | distinguish boom vulnerabilities, the stock-market crash and banking amplification | industrial production, markets and unequal gains | manifestations and international consequences of the Depression |
+| 12 | The Great Depression: manifestations, responses and consequences | explain economic hardship and varied political responses without treating dictatorship as inevitable | boom vulnerabilities, crash and banking contraction | regional cooperation and international economic relationships |
+| 13 | Cameroon in CEMAC: membership, geography and cooperation | identify the regional scope and distinguish economic from monetary integration | international economic links and post-independence institutions | obstacles to regional integration and wider organisations |
+| 14 | Cameroon in CEMAC: setbacks and assessing progress | explain an integration obstacle through its mechanism without confusing a treaty with an achieved result | CEMAC’s membership, aims and geographic links | wider multilateral and bilateral cooperation |
+| 15 | Cameroon’s relations with the UN, AU and EU | distinguish membership, institutional succession and external partnership | regional cooperation and evidence of implementation | Commonwealth, Francophonie and other international relationships |
+| 16 | Commonwealth, Francophonie and relations with the Arab world | separate organisational membership from language links, bilateral contacts and interregional cooperation | UN/AU membership and EU partnership | relations with major powers and critical comparison of sources |
+| 17 | Cameroon and major powers: USA, Russia and China | compare diplomatic histories and cooperation claims without assuming permanent alignment or guaranteed benefit | membership, partnership and institutional source limits | later evaluation of Cameroon’s foreign relations |
+
+All seventeen Term One lesson rows are active drafts. Rows 1/2 select Ghana/Nigeria as explicit case studies under the broad sheet titles; confirm these choices with teachers. Repeated/continued rows develop different aspects rather than duplicating an earlier lesson.
+
+Overall destination: explain change through actors, institutions and conditions; read sources within their limits; distinguish sovereignty, membership, cooperation and outcomes.
